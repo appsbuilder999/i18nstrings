@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <string name="content">I18nstrings é um plug-in plug-and-play do Gradle para projetos Android que fornece internacionalização completa e suporte multilíngue para seus projetos. integrando este plug-in fácil de usar, você pode ativar instantaneamente a localização de vários idiomas em seu projeto, tornando-o mais aceitável para usuários em todo o mundo.</string>
+  <string name="functions_title">Introdução da função</string>
+  <string name="functions">- tradução multilíngue: i18nstrings oferece suporte à tradução do texto do projeto para vários idiomas e oferece suporte à tradução incremental.
+\n- garantia de qualidade da tradução: i18nstrings garante a qualidade da tradução por meio de várias medidas e gera relatórios de qualidade da tradução para ajudá-lo a monitorar e melhorar o processo de localização.
+\n- troca de idiomas: i18nstrings fornece uma solução para trocar idiomas dentro do aplicativo, melhorando a experiência para usuários internacionais.
+\n- suporte a idiomas beta: o i18nstrings oferece suporte a traduções de idiomas beta e inclui um aviso de isenção de responsabilidade para oferecer mais flexibilidade na localização de seu aplicativo.</string>
+  <string name="guide">Clique no controle giratório abaixo para tentar alternar entre diferentes idiomas:</string>
+  <string name="action_settings">Definir</string>
+  <string name="first_fragment_label">Primeiro fragmento</string>
+  <string name="second_fragment_label">Segundo fragmento</string>
+  <string name="next">Próximo</string>
+  <string name="previous">Anterior</string>
+  <string name="match_content_summary">Se definido, a expressão regular será
+        corresponde a todo o nome do arquivo,
+        caso contrário, procure por ocorrências.</string>
+  <string name="dialog_delete_title">Excluir item permanentemente?</string>
+  <string name="deleting">Excluir</string>
+  <string name="question_set_path_as_home">Deseja definir o caminho atual como a página inicial desta guia ?</string>
+  <string name="directorysort">Modo de classificação do diretório</string>
+  <string name="sort_by">Método de classificação</string>
+  <string name="sort_only_this">Apenas esta pasta</string>
+  <string name="theme">Tema</string>
+  <string name="random">Skin aleatório</string>
+  <string name="random_summary">Definir cor primária aleatória na inicialização</string>
+  <string name="colorize">Pinte o ícone</string>
+  <string name="colorize_summary">Definir cor do ícone estático. não substitui as preferências de cor do ícone do diretório.</string>
+  <string name="smb_instructions"><![CDATA[
+        <html>
+            <corpo>
+                <h1>Como acessar a pasta compartilhada do Windows no Android (SMB)</h1>\n\n
+                <ul>
+                    <li>
+                        <b>Ativar compartilhamento de arquivos no Windows</b>\n
+                    </li>
+                    <p style="margin-left: 40px">
+                        Abra o Painel de controle, clique em Escolher opções de grupo doméstico e compartilhamento em Rede
+                        e Internet e clique em "Alterar configurações de compartilhamento avançadas", habilite a opção "Arquivo e
+                        Compartilhamento de impressora".\n\n
+                    </p>
+
+                    <li>
+                        <b>Configurações adicionais de compartilhamento de arquivos</b>\n
+                    </li>
+                    <p style="margin-left: 40px">
+                        Você também pode definir as outras configurações de compartilhamento avançadas aqui. \n
+                        Por exemplo, você pode habilitar o acesso aos seus arquivos sem uma senha se confiar em todos
+                        os dispositivos em sua rede local. Depois que o compartilhamento de arquivos e impressoras estiver ativado, você poderá
+                        abra o File Explorer ou o Windows Explorer, clique com o botão direito do mouse em uma pasta que deseja compartilhar e
+                        selecione Propriedades. \n
+                        Clique no botão Compartilhar e disponibilize a pasta na rede.\n\n
+                        </p>
+
+                    <li>
+                        <b>Certifique-se de que ambos os dispositivos estejam no mesmo Wi-Fi</b>\n
+                    </li>
+                    <p style="margin-left: 40px">
+                        Este recurso disponibiliza arquivos na rede local, para que seu PC e dispositivos móveis
+                        tem que estar na mesma rede local. Você não pode acessar uma pasta compartilhada do Windows
+                        pela Internet ou quando seu smartphone estiver conectado aos dados móveis dele — ele
+                        tem que estar conectado ao Wi-Fi.\n\n
+                    </p>
+
+                    <li>
+                        <b>Localizar endereço IP</b>\n
+                    </li>
+                    <p style="margin-left: 40px">
+                        Abra o prompt de comando. Digite \'ipconfig\' e pressione Enter. Procure o Gateway Padrão
+                        sob seu adaptador de rede para o endereço IP do seu roteador. Procurar
+                        \\\"Endereço IPv4\\\" na mesma seção do adaptador para encontrar o IP do seu computador
+                        endereço.\n\n
+                    </p>
+
+                    <b>Insira os detalhes na caixa de diálogo SMB</b>\n
+                </ul>
+            </body>
+        </html>
+   ]]></string>
+  <string name="i18n_ui_setting">Configuração de idioma</string>
+  <string name="i18n_type_none">Padrão do dispositivo</string>
+  <string name="i18n_type_release">Beta</string>
+  <string name="i18n_type_beta">integrado</string>
+  <string name="i18n_type_online_cache">Cache online</string>
+  <string name="i18n_not_supported">Nenhum arquivo de configuração detectado. Verifique se o plug-in i18nStrings foi integrado ao seu projeto e se a tarefa \"i18nStrings\" foi executada no módulo do aplicativo.</string>
+  <string name="i18n_ui_disclaimer_title">Isenção de responsabilidade</string>
+  <string name="i18n_ui_disclaimer_agree">Concordo</string>
+  <string name="i18n_ui_disclaimer_disagree">Discordo</string>
+  <string name="i18n_ui_reboot_title">Reiniciar para entrar em vigor após trocar de idioma</string>
+  <string name="i18n_ui_reboot_content">Tem certeza de que deseja alternar e reiniciar?</string>
+  <string name="i18n_ui_refresh_title">Atualizar dados de tradução</string>
+  <string name="i18n_ui_refresh_content">Tem certeza de que deseja atualizar os dados de tradução?</string>
+  <string name="i18n_ui_realtime_translate_title">Tradução em tempo real</string>
+  <string name="i18n_ui_realtime_translate_comfirm_min">Estimativa de %d minutos para traduzir %d textos. Continuar?</string>
+  <string name="i18n_ui_realtime_translate_comfirm_sec">Estimativa de %d segundos para traduzir %d textos. Continuar?</string>
+  <string name="i18n_ui_realtime_translate_text">Traduzindo, aguarde...</string>
+  <string name="i18n_ui_realtime_translate_text_with_time_sec">A tradução é estimado para levar %ds, por favor, seja paciente.</string>
+  <string name="i18n_ui_realtime_translate_fails_title">Falha na tradução em tempo real</string>
+  <string name="i18n_ui_realtime_translate_fails_content">Verifique o log de erros e certifique-se de que sua rede pode visitar https://translate.google.com</string>
+  <string name="properties_copied_clipboard">Copiado para a área de transferência</string>
+  <string name="contributors_1_summary">Traduzir</string>
+  <string name="contributors_2_summary">Ícones e banners</string>
+  <string name="contributors_3_summary">Mecanismo de tema</string>
+  <string name="contributors_4_summary">Sombra fabulosa por trás</string>
+  <string name="contributors_5_summary">Transição de cores ao deslizar as guias</string>
+  <string name="contributors_6_summary">Servidor Ftp</string>
+  <string name="contributors_7_summary">Iniciar shell interativo</string>
+  <string name="connection_exists">Conexão já existente</string>
+  <string name="crypt_encrypted">Criptografado</string>
+  <string name="crypt_decrypted">Descriptografado</string>
+  <string name="crypt_encrypt">Criptografia</string>
+  <string name="crypt_decrypt">Descriptografia</string>
+  <string name="operation_fail_following">Falha na seguinte operação de arquivo</string>
+  <string name="crypt_pref_master_password_title">Senha mestre</string>
+  <string name="crypt_pref_master_password_summary">Definir senha mestre de criptografia.
+        deixe em branco para excluir.</string>
+  <string name="crypt_pref_fingerprint_title">Impressão digital</string>
+  <string name="crypt_pref_fingerprint_summary">Usar criptografia de autenticação de impressão digital</string>
+  <string name="crypt_fingerprint_no_permission">Falta de permissão de impressão digital</string>
+  <string name="crypt_fingerprint_not_enrolled">Impressão digital não registrada</string>
+  <string name="crypt_fingerprint_no_security">Sem descoberta de segurança da tela de bloqueio</string>
+  <string name="crypt_warning_key">Tenha cuidado ao alterar seu modo de segurança
+        configurações do sistema, você não poderá descriptografar este conteúdo.</string>
+  <string name="sidebar_preferences">Barra lateral</string>
+  <string name="sidebar_quick_access_title">Acesso rápido à barra lateral</string>
+  <string name="show_quick_access_pref_title">Exibir acesso rápido</string>
+  <string name="show_quick_access_pref">Acesso rápido</string>
+  <string name="directory">Catálogo</string>
+  <string name="sidebar_bookmarks_title">Marcadores da barra lateral</string>
+  <string name="show_bookmarks_pref_title">Mostrar favoritos</string>
+  <string name="show_bookmarks_pref">Marcadores</string>
+  <string name="create_bookmark">Criar favoritos</string>
+  <string name="edit_bookmark">Editar favoritos</string>
+  <string name="question_delete_bookmark">Excluir favoritos?</string>
+  <string name="cloud_error_plugin">Plugin da nuvem Amaze não encontrado. faça o download na Play Store.</string>
+  <string name="cloud_error_failed_restart">Falha ao carregar o link.
+        abra o amaze cloud uma vez.</string>
+  <string name="cloud_remove">Deseja excluir a conexão com a nuvem?</string>
+</resources>
+

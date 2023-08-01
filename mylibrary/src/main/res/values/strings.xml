@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="properties_copied_clipboard">Copied to clipboard</string>
+    <string name="contributors_1_summary">Translate</string>
+    <string name="contributors_2_summary">Icons and banners</string>
+    <string name="contributors_3_summary">Theme Engine</string>
+    <string name="contributors_4_summary">Shadow fab behind</string>
+    <string name="contributors_5_summary">Color transition when swiping tabs</string>
+    <string name="contributors_6_summary">Ftp Server</string>
+    <string name="contributors_7_summary">Launch interactive shell</string>
+    <string name="connection_exists">Connection already exists</string>
+</resources>

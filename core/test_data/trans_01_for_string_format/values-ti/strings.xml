@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">ኣሜዝ ፋይል ማናጀር</string>
+    <string name="drawer_open">ናይ ምድህሳስ ሳጹን ክፈት</string>
+    <string name="drawer_close">ናይ ምድህሳስ ሳጹን ምዕጻው</string>
+    <string name="icon">ምልክት</string>
+    <string name="apps">ኣፕ ማናጀር</string>
+    <string name="ftp">ኤፍቲፒ ሰርቨር</string>
+    <string name="setting">ቅጥዕታት</string>
+    <string name="select">Item ምረጽ</string>
+    <string name="press_again">ንምውጻእ ደጊምካ ምጽቃጥ</string>
+    <string name="open">ክፈት</string>
+    <string name="backup">መኽዘን</string>
+    <string name="uninstall">ኣውጽእ</string>
+    <string name="play">መኽዘን ምጽዋት</string>
+    <string name="properties">ንብረታት</string>
+    <string name="copyingapks">%d APK ፋይላት ናብ %s ምቕዳሕ</string>
+    <string name="delbook">ዕልባ ምድምሳስ</string>
+    <string name="add_to_bookmarks">ናብ ዕልባታት ምውሳኽ</string>
+    <string name="enterpath">መንገዲ ምእታው</string>
+    
+    
+    <string name="loading">ይጽዕን ኣሎ...</string>
+    <string name="file_empty">ፋይል ባዶ እዩ</string>
+    <string name="error">ጌጋ</string>
+    <string name="search_results">ውጽኢት ምድላይ %s</string>
+    <string name="rename">ዳግማይ ስም</string>
+    <string name="save">ዕቅብ</string>
+    <string name="bookmarks_added">ዕልባት ተወሰኸ</string>
+    <string name="fileexist">ተመሳሳሊ ስም ዘለዎ ፋይል ድሮ ኣሎ</string>
+    <string name="name">ስም</string>
+    <string name="date">ዕለት</string>
+    <string name="location">ኣቀማምጣ</string>
+    <string name="size_capitalized">ዓቐን</string>
+    <string name="size">ዓቐን ኣቃፊራ</string>
+    <string name="enterzipname">ስም ዚፕ ኣእቱ</string>
+    <string name="no_app_found">ነዚ ፋይል ንምኽፋት ዝኾነ App ኣይተረኽበን</string>
+    <string name="copying">ምቕዳሕ</string>
+    <string name="moving">ምግዓዝ</string>
+    <string name="file">ፋይል</string>
+    <string name="folder">ኣቃፊ</string>
+    <string name="newfolder">ሓድሽ ኣቃፊራ</string>
+    <string name="entername">ስም ኣእቱ</string>
+    <string name="extracting">ምውጻእ</string>
+    <string name="stopping">ምቁራጽ</string>
+    <string name="open_parent">ናይ ወላዲ ማህደር ክፈት</string>
+    <string name="open_with">ብ</string>
+    <string name="share">ሼር</string>
+    <string name="about">ብዛዕባ</string>
+    <string name="extract">ኣውጽእ</string>
+    <string name="compress">ምጽቃጥ</string>
+    <string name="yes">ክፈት&gt;እወ</string>
+    <string name="no">ኣይፋልን</string>
+    
+    <string name="dialog_delete_category_directories">ማእከላት</string>
+    <string name="dialog_delete_category_files">ፋይላት</string>
+    <string name="dialog_delete_disclaimer">እዞም ኣብ ታሕቲ ዘለዉ ነገራት ምድምሳስ ካብ መሳርሒኻ ንሓዋሩ የውጽኦም እሞ ክምለሱ ኣይክእሉን እዮም።</string>
+    <string name="dialog_delete_title">ንነገራት ንሓዋሩ ምድምሳስ?</string>
+    <string name="deleting">ምድምሳስ</string>
+    <string name="question_set_path_as_home">ናይ ሕጂ መንገዲ ከም ገዛ ነዚ ትብ ከተቐምጦ ትደሊ ዲኻ?</string>
+    <string name="directorysort">ኣገባብ ምድላው ማህደር</string>
+    <string name="sort_by">ብ</string>
+    <string name="sort_only_this">እዚ ኣቃፊራ ጥራይ</string>
+    <string name="theme">ቴማ</string>
+    <string name="random">ሃንደበታዊ ቆርበት</string>
+    <string name="random_summary">ኣብ ምጅማር ብዘይተሓሰበ መንገዲ ቀዳማይ ሕብሪ የቐምጥ</string>
+    <string name="colorize">ኣርማታት ሕብሪ</string>
+    <string name="colorize_summary">ኣቐምጥ ስታትቲክ ምልክት ሕብሪ። ንናይ ማህደር ምልክት ሕብሪ ምርጫ ኣይግድፎን እዩ።</string>
+    <string name="home">ገዛ</string>
+    <string name="paste">ለጣፍ</string>
+    <string name="history">ታሪኽ</string>
+    <string name="copy">ምቕዳሕ</string>
+    <string name="root_mode">ሱር ዳህሳሲ</string>
+    <string name="root_mode_summary">ንሱር ዘለዎ መሳርሒ ጥራይ። ብዛዕባኡ ርግጸኛ ምስ ኮንካ ጥራይ ኣረጋግጽ።</string>
+    <string name="root_failure">ሱር መእተዊ ኣይተዋህቦን</string>
+    <string name="select_all">ኩሉ ምረጽ</string>
+    <string name="delete">ምድምሳስ</string>
+    <string name="set_as_home">ከም ገዛ ኣቐምጥ</string>
+    <string name="operation_not_supported">ስርሒት ኣይድገፍን</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">ማተርያል ብርሃን</string>
+    <string name="dark">ማተርያል ጸልማት</string>
+    <string name="daytime">ናይ መዓልቲ</string>
+    <string name="black">ጸሊም (ንOLED)</string>
+    <string name="system">ስርዓት (ናይ ስርዓት ቴማ ተኸተል)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">ኣብ ላዕሊ ዘለዉ ኣቃፊራታት</string>
+    <string name="filesOnTop">ፋይላት ኣብ ላዕሊ</string>
+    <string name="none_on_top">ኣብ ላዕሊ ዝኾነ የለን</string>
+    <!--SortBy-->
+    <string name="sort_name">ስም</string>
+    <string name="lastModified">መወዳእታ ግዜ ዝተቐየረ</string>
+    <string name="sort_size">ዓቐን</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">ፋይል ምረጽ</string>
+    <string name="process_viewer">መስርሕ ረኣዪ</string>
+    <string name="in_safe">እኹል ቦታ</string>
+    <string name="no_file_overwrite">ፋይል ልዕሊ ዓቐን ኣይተጻሕፈን</string>
+    <string name="skip">ዘልል</string>
+    <string name="overwrite">ኣብ ልዕሊ ምጽሓፍ</string>
+    <string name="not_allowed">ኣይፍቀድን</string>
+    <string name="searching">ምድላይ %s</string>
+    <string name="done">ተፈጺሙ</string>
+    <string name="set">ኣቐምጥ</string>
+    <string name="enablerootmde">ሱር ሞድ ኣንቅሕ</string>
+    <string name="goback">ንምለስ</string>
+    <string name="newfile">ሓድሽ ፋይል</string>
+    <string name="no_files">ፋይላት የለን</string>
+    <string name="used">ዝጥቀምሉ ቦታ</string>
+    <string name="used_by_others">ብኻልኦት ዝጥቀሙሉ</string>
+    <string name="free">ናጻ ቦታ</string>
+    <string name="listview">ዝርዝር ምርኣይ</string>
+    <string name="gridview">ሽቦ ርእይቶ</string>
+    <string name="permission">ፍቓድ</string>
+    <string name="hide">ሕባእ</string>
+    <string name="exit">ምውጻእ</string>
+    <string name="doforall">ንኹሎም ነገራት ግበር</string>
+    <string name="gridcolumnno">ብዝሒ ዓምድታት ኣብ ርእይቶ ሽቦ</string>
+    <string name="set_random">ለውጢ ድሕሪ ዳግማይ ምጅማርካ እዩ እቲ ኣፕ</string>
+    <string name="authors">ጸሓፍቲ</string>
+    <string name="changelog">መጽናዕቲ ለውጢ</string>
+    <string name="ok">ጽቡቕ</string>
+    <string name="ui">መተሓላለፊ</string>
+    <string name="general">ሓፈሻዊ</string>
+    <string name="thumb_summary">ንኣሽቱ ስእልታት ኣፕታትን ምስልታትን ኣርእዩ</string>
+    <string name="thumb">ንኣሽቱ ስእልታት ኣርእዩ</string>
+    <string name="hidden">ሕቡእ ፋይላትን ኣቃፊራታትን ኣርእዩ</string>
+    <string name="lastModifiedSummary">ናይ መወዳእታ ምምሕያሽ ዝተገብረሉ ዕለትን ሰዓትን ኣርእዩ</string>
+    <string name="lastModifiedPref">ናይ መወዳእታ ዝተቐየረሉ ዕለትን... ግዜ</string>
+    <string name="size_pref_summary">ዓቐን ፋይላትን ብዝሒ ኣብ ማህደር ዝርከቡ ነገራትን ምርኣይ</string>
+    <string name="size_pref">ዓቐን ምርኣይ</string>
+    <string name="miscellaneous">ዝተፈላለዩ</string>
+    <string name="root_pref_summary">ፍቓድ ፋይላትን ኣቃፊራታትን ምርኣይ</string>
+    <string name="root_pref">ፍቓድ ኣርእዩ</string>
+    <string name="about_amaze_file_manager_label">ብዛዕባ ኣማዘ ፋይል ማናጀር</string>
+    <string name="version">ስሪት</string>
+    <string name="rate">ነቲ ኣፕ ደረጃ ሃቦ</string>
+    <string name="feedback">ግብረ መልሲ ስደድ</string>
+    <string name="hiddenfiles">ሕቡእ ፋይላት</string>
+    <string name="type">ጽሓፍ</string>
+    <string name="root_directory">ሱር</string>
+    <string name="add_shortcut">ኣቋራጭ ምውሳኽ</string>
+    <string name="unsaved_changes">ዘይተዓቀበ ለውጢ</string>
+    <string name="unsaved_changes_description">ዘይተቐመጠ ለውጢ ኣሎካ፣ ቅድሚ ምውጻእካ ክትዕቅቦ ትደሊ ዲኻ?</string>
+    <string name="saving">ምዕቃብ</string>
+    <string name="package_installer">መተካእታ ፓኬጅ</string>
+    <string name="view">ርአ</string>
+    <string name="install">ምትካል</string>
+    <string name="archive">ማህደር</string>
+    <string name="archive_text">እዚ ማህደር እዩ። እንታይ ዓይነት ተግባር ክትፍጽም ትደሊ?</string>
+    <string name="package_installer_text">እዚ ናይ ፓኬጅ መተካእታ እዩ። እንታይ ዓይነት ተግባር ክትፍጽም ትደሊ?</string>
+    <string name="xda_title">ፍሕሶ ኤክስዲኤ</string>
+    <string name="xda_summary">ሕቶን መልስን፣ ሓገዝን ምፍታሕ ጸገማትን</string>
+    <string name="circular_images">ንስእልን ቪድዮን ክቢ ምልክታት ምጥቃም</string>
+    <string name="circular_icons">ክቢ ምልክታት ምጥቃም</string>
+    <string name="back_title">ድሕሪት ምጉዓዝ</string>
+    <string name="back_summary">ኣብ ላዕሊ ዝርዝር ብሕታዊ ንድሕሪት ምድህሳስ የኽእል</string>
+    <string name="details">ዝርዝር</string>
+    <string name="translators">ተርጐምቲ</string>
+    <string name="german_translation_title">ጀርመንኛ</string>
+    <string name="italian_translation_title">ጣልያንኛ</string>
+    <string name="french_translation_title">ፈረንሳ</string>
+    <string name="russian_translation_title">ሩስያዊ</string>
+    <string name="spanish_translation_title">ስጳኛ</string>
+    <string name="basque_translation_title">ባስክ</string>
+    <string name="chinese_translation_title">ቻይናዊ</string>
+    <string name="serbian_translation_title">ሰርብያዊ</string>
+    <string name="turkish_translation_title">ቱርኪ</string>
+    <string name="ukrainian_translation_title">ዩክሬናዊ</string>
+    <string name="portuguese_translation_title">ፖርቱጋላዊ</string>
+    <string name="polish_translation_title">ፖላንዳዊ</string>
+    <string name="korean_translation_title">ኮርያዊ</string>
+    <string name="greek_translation_title">ግሪኽ</string>
+    <string name="dutch_translation_title">ሆላንዳዊ</string>
+    <string name="romanian_translation_title">ሮማናዊ</string>
+    <string name="vietnamese_translation_title">ቬትናማዊ</string>
+    <string name="japanese_translation_title">ጃፓናዊ</string>
+    <string name="tamil_translation_title">ታሚል</string>
+
+    <string name="zip_viewer">ዚፕ ቪውየር</string>
+    <string name="unin_system_apk">እዚ ናይ ስርዓት ኣፕ እዩ፣ ምድምሳስ ናብ ስርዓት ዘይምርግጋእ ከስዕብ ይኽእል።\ nProceed?</string>
+    <string name="warning">መጠንቀቕታ</string>
+    <string name="donate">ወፍዩ</string>
+    <string name="archive_extract_folder">ኣቃፊት ምውጻእ ማህደር</string>
+    <string name="archive_summary">ፋይላት ማህደር ናብዚ ኣቃፊራ ክወጹ እዮም። ነባሪ ዋጋ ማህደር ዝርከበሉ ማህደር እዩ።</string>
+    <string name="open_as">ከም</string>
+    <string name="text">ጽሑፍ</string>
+    <string name="audio">ድምጺ</string>
+    <string name="video">ቪድዮ</string>
+    <string name="other">ካልእ</string>
+    <string name="image">ስእሊ</string>
+    <string name="contributors">ኣበርከትቲ</string>
+    <string name="save_paths">መንገድታት ዘክር</string>
+    <string name="save_path_summary">ክትጅምር ከለኻ፡ እቲ ኣብ ቀረባ እዋን ዝተራእየ ኣቃፊራ ናይ ነፍሲ ወከፍ ትብ ክረአ እዩ</string>
+    <string name="select_intent">ምረጹ</string>
+    <string name="database">ዳታቤዝ</string>
+    <string name="colored_navigation">ሕብራዊ ናይ ምድህሳስ ባር</string>
+    <string name="colored_navigvation_sum">እቲ ናይ ስርዓት ምድህሳስ ባር ብቆርበት ሕብሪ ኣለዎ ድዩ ኣይኮነን</string>
+
+    <string name="color_title">ሕብሪ</string>
+    <string name="color_summary">ሕብሪ ናብ ዝተፈላለዩ ናይ UI ኣካላት ኣቐምጥ</string>
+    <string name="primary_color_title">ቀዳማይ ሕብሪ (ጸጋማይ ትብ)</string>
+    <string name="primary_color_summary">ንጸጋማይ ትብ ሕብሪ ናብ ዓበይቲ ባእታታት UI ኣቐምጥ</string>
+    <string name="accent_color_title">ሕብሪ ላህጃ</string>
+    <string name="accent_color_summary">ሕብሪ ናብ FABን ካልኦት ንኣሽቱ UIን ኣቐምጥ elements</string>
+    <string name="icon_color_title">ሕብሪ ምልክት</string>
+    <string name="icon_color_summary">ሕብሪ ናብ ምልክታት ኣቐምጥ</string>
+    <string name="choose_color">ሕብሪ ምረጽ</string>
+    <string name="files">ፋይላት</string>
+    <string name="textreader">ኣንባቢ ጽሑፍ</string>
+    <string name="databasereader">ኣንባቢ ዳታቤዝ</string>
+    <string name="show_dividers">መከፋፈልቲ ኣርእዩ</string>
+    <string name="needs_access">ናይ ምጽሓፍ መእተዊ የድሊ</string>
+    <string name="needs_access_summary">በጃኹም ናይ \t</string>
+    <string name="needs_access_summary1">\ት ሱር ማህደር ምረጹ</string>
+    <string name="smb_connection">ንምስራሕ ናይ ምጽሓፍ መእተዊ ፍቐዱ SMB ምትእስሳር</string>
+    <string name="smb_server">ኣገልጋሊ IP ኣድራሻ</string>
+    <string name="server_address">ኣገልጋሊ IP ኣድራሻ</string>
+    <string name="username">ስም ተጠቃሚ</string>
+    <string name="password">መሕለፊ ቃል</string>
+    <string name="anonymous">ስሙ ዘይተገልጸ</string>
+    <string name="bluetooth">ብሉቱዝ</string>
+    <string name="folders">ኣቃፊት</string>
+    <string name="folderfilecount">%1$d ኣቃፊራታትን %2$d ፋይላትን</string>
+    <string name="videos">ቪድዮታት</string>
+    
+    <string name="documents">ሰነዳት</string>
+    <string name="images">ስእልታት</string>
+    <string name="clear">ንጹር</string>
+    
+    <string name="total">ጠቕላላ:</string>
+    <string name="calculating">ምሕሳብ</string>
+    <string name="sort">ስርዓት</string>
+    <string name="ascending">ዝዓርግ</string>
+    <string name="descending">ዝወርድ</string>
+    <string name="default_string">ነባሪ</string>
+    <string name="doit">ይ</string>
+    <string name="want_help">ሓገዝ የድልየካ ድዩ?</string>
+    <string name="quick">ቅልጡፍ ምብጻሕ</string>
+    <string name="recent">ናይ ቀረባ እዋን ፋይላት</string>
+    <string name="edit">ኣርትዖት</string>
+    <string name="find">ኣብ ገጽ ርኸብ</string>
+    <string name="grant">ፍቓድ ምሃብ</string>
+    <string name="grantper">ፍቓድ ምሃብ</string>
+    <string name="grantfailed">ፍቓድ ኣይተዋህበ</string>
+    <string name="grant_storage_permission">ኣፕ ንኽቕጽል ናይ መኽዘን ፍቓድ የድልዮ። ነዚ ዝርርብ ምስራዝ ካብቲ ኣፕ ክወጽእ እዩ።</string>
+    <string name="operation_unsuccesful">ስርሒት ኣይተዓወተን</string>
+    <string name="creatingfile">ፋይል ምፍጣር</string>
+    <string name="creatingfolder">ምፍጣር ኣቃፊራ</string>
+    <string name="renaming">ዳግማይ ስም</string>
+    <string name="cant_be_empty">%s ባዶ ክኸውን ኣይክእልን እዩ።</string>
+    <string name="ip">ኣድራሻ</string>
+    <string name="connection_name">ስም ምትእስሳር</string>
+    <string name="no_device_found">መሳርሒታት ኣይተረኽበን</string>
+    <string name="path">መንገዲ</string>
+    <string name="rename_bookmark">ዕልባ ኣመሓይሽ</string>
+    <string name="cut">ቁረጽ</string>
+    <string name="search">ድለ</string>
+    <string name="invalid_name">ዘይሕጋዊ ስም</string>
+    <string name="search_hint">ንድለዮ ዓይነት...</string>
+    <string name="advanced_search">ምዕቡል ምድላይ</string>
+    <string name="regular_expression">ስሩዕ መግለጺ</string>
+    <string name="regular_expression_summary">ብባሽ ቅዲ ስሩዕ መግለጺ ተጠቒምካ ድለ</string>
+    <string name="match_content">ትሕዝቶ ምትእስሳር</string>
+    <string name="match_content_summary">እንተተቐሚጡ፡ ስሩዕ መግለጺ ምስ ምሉእ ስም ፋይል ክመዓራረ እዩ፣
+        እንተዘይኮይኑ ምኽሳት ክደሊ እዩ።</string>
+    <string name="start_ftp">ጀምር</string>
+    <string name="stop_ftp">ኣቋርጽ</string>
+    <string name="ftp_status_running">ምጉያይ</string>
+    <string name="ftp_status_not_running">ዘይጎዪ</string>
+    <string name="ftp_no_wifi">ምስ Wi ከምዝተኣሳሰርካ ኣረጋግጽ -Fi</string>
+    <string name="domain">ዓውዲ</string>
+    <string name="smb_share">መንገዲ ምክፋል</string>
+    <string name="invalid">ዘይሕጋዊ %s</string>
+    <string name="ftp_notif_starting">ኤፍቲፒ ሰርቨር ይጅምር ኣሎ</string>
+    <string name="ftp_notif_starting_title">ኤፍቲፒ ሰርቨር</string>
+    <string name="ftp_notif_title">ኣገረም FTP Server ዝሰርሕ</string>
+    <string name="ftp_notif_text">ኣብ %s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP ፖርት</string>
+    <string name="ftp_port_change_success">FTP ፖርት ብዓወት ተቐይሩ</string>
+    <string name="ftp_port_change_error_invalid">ዘይሕጋዊ ቁጽሪ ወደብ ተመሪጹ</string>
+    <string name="primary_two_title">ቀዳማይ ሕብሪ (የማናይ ትብ)</string>
+    <string name="primary_two_summary">ንቅኑዕ ትብ</string>
+    <string name="support_development">ልምዓት ደገፍ</string>
+    <string name="report_bugs_title">ስሕተት ምሕባር</string>
+    <string name="source_title">ፍልፍል ኮድ</string>
+    <string name="source_summary">ፍልፍል ኮድና ኣብ GitHub ርአ</string>
+    <string name="report_bugs_summary">ስሕተት ምሕባር ወይ ሓድሽ ባህሪ ምሕታት</string>
+    <string name="translate_title">ትርጉም</string>
+    <string name="translate_summary">Amaze ብቋንቋኻ ተርጉም</string>
+    <string name="paypal_copy_message">PayPal ID ናብ ቅንጥብጣብ ሰሌዳ ተቐዲሑ</string>
+    <string name="searching_devices">መሳርሒታት ምድላይ</string>
+    <string name="use_custom_ip">ብሕታዊ IP ምጥቃም</string>
+    <string name="bookmark_lost">ዓልፊ ኣይተረኽበን፣ ዳግማይ ምፍጣር...</string>
+
+    <string name="smb_instructions">
+        
+            
+                ከመይ ጌርና ኣብ ኣንድሮይድ (SMB) shared Windows folder ንረክብ\n\n
+                
+                    
+                        ኣብ ዊንዶውስ ፋይል ምክፋል ኣንቅሕ\n
+                    
+                    
+                        ኣብ ቁጽጽር ፓነል ከፊትና ኣብ ትሕቲ Network HomeGroup and Sharing ዝብል ኣማራጺታት ምረጽ
+                        ከምኡውን ኢንተርነት፡ "Change Advanced Sharing Settings" ዝብል ጠውቕ፡ ነቲ "File and...
+                        ናይ መሕተሚ ምክፋል" ዝብል ባህሪ።\n\n
+                    
+
+                    
+                        ተወሳኺ ቅጥዕታት ምክፋል ፋይል\n
+                    
+                    
+                        ኣብዚ ነቶም ካልኦት ምዕቡላት ናይ ምክፋል ቅጥዕታት እውን ክትውቅሮም ትኽእል ኢኻ። \n
+                        ንኣብነት፡ ንኹሎም እንተ ኣሚንካዮም፡ ብዘይ ፓስዎርድ ናብ ፋይላትካ ክትኣቱ ከተኽእል ትኽእል ኢኻ።
+                        ኣብ ከባቢኻ ዝርከቡ መሳርሒታት። ፋይልን መሕተሚን ምክፋል ምስ ተኸፍተ፡ ክትክእል ትኽእል ኢኻ።
+                        ፋይል ኤክስፕሎረር ወይ ዊንዶውስ ኤክስፕሎረር ከፊትና፡ ኣብ ሓደ ክትካፈሎ እትደሊ ማህደር ብየማናይ ምልክት ጠውቕ፡ ከምኡ’ውን...
+                        Properties ዝብል ምረጽ። \n
+                        Share ዝብል ቁልፊ ጠውቕ እሞ ነቲ ማህደር ኣብ መርበብ ሓበሬታ ከም ዝህሉ ግበሮ።\n\n
+                        
+
+                    
+                        ክልቲኦም መሳርሒታት ኣብ ሓደ Wifi ምዃኖም ኣረጋግጽ\n
+                    
+                    
+                        እዚ ባህሪ እዚ ፋይላት ኣብ ሎካል ኔትወርክ ከም ዝቐርቡ ይገብር፣ ስለዚ ኮምፒተርካን ሞባይል መሳርሒታትካን
+                        ኣብ ሓደ ሎካል ኔትወርክ ክኾኑ ኣለዎም። ናብ ናይ ሓባር ዊንዶውስ ፎልደር ክትኣቱ ኣይትኽእልን ኢኻ።
+                        ብኢንተርነት ወይ ስማርትፎንካ ምስ ሞባይል ዳታኣ ምስተተሓሓዘ — ንሱ...
+                        ምስ ዋይፋይ ክተሓሓዝ ኣለዎ።\n\n
+                    
+
+                    
+                        IP ኣድራሻ ርኸብ\n
+                    
+                    
+                        ትእዛዝ ምልክት ክፈት። \'ipconfig\' ኢልና ንጽሕፍ እሞ Enter ንጽቀጥ። Default Gateway ድለዩ።
+                        ኣብ ትሕቲ ኔትወርክ ኣዳፕተርካ ንናይ ራውተርካ IP ኣድራሻ። ድለዩ።
+                        \\\"IPv4 Address\\\" ኣብ ትሕቲ ተመሳሳሊ ክፍሊ ኣዳፕተር ናይ ኮምፒተርና IP ንምርካብ
+                        ኣድራሻ።\n\n
+                    
+
+                    ዝርዝር ኣብ ሳጹን ዝርርብ SMB ኣእቱ\n
+                
+            
+        
+   </string>
+    <string name="share_limit">ልዕሊ 100 ፋይላት ክካፈል ኣይክእልን</string>
+    <string name="otg_access">ሱር ናይ OTG መሳርሒ ምረጽ</string>
+    <string name="information">ሓበሬታ</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">ዝተረኽበ</string>
+    <!-- reference to file modified date -->
+    <string name="modified">ተቐይሩ</string>
+
+    <string name="title">ኣርእስቲ</string>
+    <string name="artist">ስነጥበባዊ</string>
+    <string name="album">ኣልበም</string>
+    <string name="year">ዓመት</string>
+    <string name="duration">ንውሓት ግዜ</string>
+    <string name="comment">ርእይቶ</string>
+    <!-- reference to audio/video file -->
+    <string name="container">ኮንተይነር</string>
+    <string name="codec">ኮዴክ</string>
+    <string name="channels">ቻነላት</string>
+    <string name="sample_rate">ናሙና ደረጃ</string>
+    <string name="bitrate">ቢትሬት</string>
+    <string name="dimensions">መዐቀኒታት</string>
+    <string name="frame_rate">ፍሬም ሬት</string>
+    <string name="image_type">ዓይነት ምስሊ</string>
+    <string name="width">ስፍሓት</string>
+    <string name="height">ቁመት</string>
+    <string name="date_modified">ዕለት ዝተቐየረ</string>
+    <string name="software">ሶፍትዌር</string>
+    <string name="creator">ፈጣሪ</string>
+    <string name="camera_brand">ብራንድ ካሜራ</string>
+    <string name="camera_model">ሞዴል ካሜራ</string>
+    <string name="date_taken">ዝውሰደሉ ዕለት</string>
+    <string name="exposure_time">ናይ ምቅላዕ ግዜ</string>
+    <string name="aperture_value">ዋጋ ኣፐርቸር</string>
+    <string name="image_iso">ISO ደረጃ ፍጥነት</string>
+    <string name="flash_fired">ፍላሽ ፋየርድ</string>
+    <string name="focal_length">ፎካላዊ ርሕቀት</string>
+    <string name="subject">ኣርእስቲ</string>
+    <string name="author">ደራሲ</string>
+    <string name="keywords">ቁልፊ ቃላት</string>
+    <string name="producer">ኣፍራዪ</string>
+    <string name="created">ዝተፈጥረ</string>
+    <string name="format">ቅርጺ</string>
+    <string name="pages">ብዝሒ ገጻት</string>
+    <!-- reference to a document file -->
+    <string name="optimized">ዝተመሓየሸ</string>
+    <string name="security">ድሕነት</string>
+    <string name="paper_size">ዓቐን ወረቐት</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">ገለ ፋይላት\' ኣይነበሩን። t ብዓወት %s</string>
+    <string name="copied">ተቐዲሑ</string>
+    <string name="moved">ተሰጋጊሩ</string>
+    <string name="copy_complete">ቅዳሕ ምሉእ</string>
+    <string name="waiting_title">ይጽበ</string>
+    <string name="waiting_content">ስርሒት ክዛዘም ምጽባይ</string>
+    <string name="extract_complete">ምውጻእ ተዛዚሙ</string>
+    <string name="compression_complete">ምጽቃጥ ተዛዚሙ</string>
+    <string name="compressing">ምጽቃጥ</string>
+    <string name="cancelled">ተሰሪዙ</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">ጽሑፍ</string>
+    <string name="out_of">ካብ</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ናይ</string>
+    <string name="processing_file">መስርሕ ፋይል</string>
+    <string name="current_speed">ህሉው ፍጥነት</string>
+    <string name="smb_launch_error">ነዚ ፋይል ንምኽፋት ናብ መኽዘን ምቕዳሕ ከድልየካ እዩ</string>
+    <string name="error_file_not_found">ጌጋ: ፋይል ኣይተረኽበን</string>
+    <string name="error_io">ጌጋ I/O</string>
+    <string name="error_file_too_large">ጌጋ: ፋይል ኣዝዩ ዓቢ</string>
+    <string name="medium_text">ማእከላይ ጽሑፍ</string>
+    <string name="permission_read">ንባብ</string>
+    <string name="permission_write">ጽሓፍ</string>
+    <string name="permission_execute">ምፍጻም</string>
+    <string name="permission_owner">ዋና</string>
+    <string name="permission_group">ጉጅለ</string>
+    <string name="permission_other">ካልእ</string>
+    <string name="clipboard_path_copy">ናብ ቅንጥብጣብ ሰሌዳ ዝተቐድሐ መንገዲ</string>
+    <string name="service_timer">ዝሓለፈ ግዜ</string>
+    <string name="please_wait">በጃኹም ተጸበዩ</string>
+
+    <string name="cloud_connection">ምትእስሳር ደበና</string>
+    <string name="cloud_connection_new">ሓድሽ ምትእስሳር ደበና</string>
+    <string name="cloud_dropbox">ድሮፕቦክስ</string>
+    <string name="cloud_drive">ጉግል ድራይቭTM</string>
+    <string name="cloud_onedrive">ዋንድራይቭ</string>
+    <string name="cloud_box">ሳንዱቕ</string>
+    <string name="cloud_get">ክላውድ ፕላግ-ኢን ረኸብ</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">ኣፕሊኬሽናት የለን</string>
+    <string name="ftp_path">ዝተኻፈለ መንገዲ</string>
+    <string name="ftp_path_hint">መንገዲ ናብ ሱር ማህደር ንኽካፈል</string>
+    <string name="change">ለውጥ</string>
+    <string name="unknown_error">እዋእ ገለ ነገር ተጋግዩ!</string>
+
+    <string name="ftp_path_change_success">መንገዲ FTP ብዓወት ተቐይሩ</string>
+    <string name="ftp_path_change_error_invalid">ዘይሕጋዊ መንገዲ</string>
+    <string name="ftp_status_no_connection">ምትእስሳር የለን</string>
+    <string name="ftp_status_secure_connection">ውሑስ ምትእስሳር</string>
+    <string name="ftp_status_title">ኩነታት</string>
+    <string name="ftp_port">ወደብ</string>
+    <string name="ftp_login">ምእታው</string>
+    <string name="field_empty">ዓውዲ ባዶ ክኸውን ኣይክእልን</string>
+    <string name="ftp_timeout">ናይ ስራሕ ኣልቦ ግዜ ምውዳእ</string>
+    <string name="ftp_seconds">ካልኢታት</string>
+    <string name="intellihide_toolbar_title">Intellihide ቱልባር</string>
+    <string name="intellihide_toolbar_summary">ኣብ ስክሮል እናገበርካ ቱልባር ብኣውቶማቲክ ምሕባእ</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">ናብ ቅንጥብጣብ ሰሌዳ ተቐዲሑ</string>
+    <string name="contributors_1_summary">ትርጉም</string>
+    <string name="contributors_2_summary">ምልክትን ባነራትን</string>
+    <string name="contributors_3_summary">ቴም ሞተር</string>
+    <string name="contributors_4_summary">ድሕሪ FAB ጽላሎት</string>
+    <string name="contributors_5_summary">ትቦታት ክትስዋይ ከለኻ ምስግጋር ሕብሪ</string>
+    
+    <string name="contributors_7_summary">ንሓደ መስተጋብራዊ ሸል ምትኳስ</string>
+    <string name="connection_exists">ምትእስሳር ድሮ ኣሎ</string>
+
+    <string name="crypt_encrypting">ምስጢራዊ ምግባር</string>
+    <string name="crypt_decrypting">ምፍታሕ</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">ምስጢራዊ</string>
+    <string name="crypt_decrypted">ዝተፈትሐ</string>
+    <string name="crypt_encrypt">ምስጢራዊ</string>
+    <string name="crypt_decrypt">ምፍታሕ</string>
+    <string name="operation_fail_following">ስርሒት ንዝስዕቡ ፋይላት ኣይተዓወተን</string>
+    <string name="crypt_pref_master_password_title">ማስተር ፓስዎርድ</string>
+    <string name="crypt_pref_master_password_summary">ንኢንክሪፕሽን ዝኸውን ማስተር ፓስዎርድ ኣቐምጥ።
+        ንምእላይ ባዶ ግደፎ።</string>
+    <string name="crypt_pref_fingerprint_title">ኣሰር ኣጻብዕቲ</string>
+    <string name="crypt_pref_fingerprint_summary">ንምስጢራዊ ንምርግጋጽ ኣሰር ኣጻብዕቲ ተጠቐም</string>
+    <string name="crypt_fingerprint_no_permission">ፍቓድ ኣሰር ኣጻብዕቲ ጎዲሉ</string>
+    <string name="crypt_fingerprint_not_enrolled">ኣሰር ኣጻብዕቲ ኣይተመዝገበን</string>
+    <string name="crypt_fingerprint_no_security">ናይ ሎክስክሪን ድሕነት ኣይተረኽበን</string>
+    <string name="crypt_warning_key">ኣስተውዕል፣ ቅዲ ድሕነትካ ካብ ክትቅይር ከለኻ
+        ቅጥዕታት ስርዓት፡ ነዚ ትሕዝቶ ክትፈትሖ ኣይትኽእልን ኢኻ።</string>
+    <string name="warning_never_show">ዳግማይ ኣይትሕብር</string>
+    <string name="warning_confirm">ረኺበዮ!</string>
+    <string name="crypt_encryption_fail">ምስጢራዊ ምግባር ኣይተኻእለን</string>
+    <string name="crypt_decryption_fail">ምፍታሕ ኣይተኻእለን</string>
+    <string name="crypt_decryption_fail_password">ጌጋ ፓስዎርድ!</string>
+    <string name="crypt_fingerprint_authenticate">ንምቕጻል ተንከስካሲ ሴንሰር</string>
+    <string name="authenticate_password">ፓስዎርድ ኣእቱ</string>
+
+    <string name="sidebar_preferences">ሳይድባር</string>
+    <string name="sidebar_quick_access_title">ናይ ጎኒ ባር ቅልጡፍ ምብጻሕ</string>
+    <string name="show_quick_access_pref_title">ቅልጡፍ ምብጻሕ ኣርኢ</string>
+    <string name="show_quick_access_pref">ቅልጡፍ ምብጻሕ</string>
+    <string name="directory">ማእከል</string>
+
+    <string name="sidebar_bookmarks_title">ናይ ጎኒ ባር ዕልባት</string>
+    <string name="show_bookmarks_pref_title">ዕልባታት ኣርኢ</string>
+    <string name="show_bookmarks_pref">ዕልባት</string>
+    <string name="create_bookmark">ዕልባ ምፍጣር</string>
+    <string name="edit_bookmark">ዕልባ ኣርትዕ</string>
+    <string name="question_delete_bookmark">ዕልባ ምድምሳስ?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud ፕላግ-ኢን ኣይተረኽበን። በጃኹም ካብ ፕለይ ስቶር ኣውርድዎ።</string>
+    <string name="cloud_error_failed_restart">እቲ ምትእስሳር ምጽዓን ኣይተኻእለን።
+        በጃኹም Amaze Cloud ሓንሳብ ክፈቱ።</string>
+    <string name="cloud_remove">እቲ ናይ ደበና ምትእስሳር ከተውጽእዎ ትደልዩ ዶ?</string>
+    <string name="cloud_fail_authenticate">ምርግጋጽ ኣይተኻእለን</string>
+    <string name="cloud_share_copied">ናብ ቅንጥብጣብ ሰሌዳ ዝተቐድሐ ናይ ምክፋል መላግቦ</string>
+    <string name="copy_low_memory">Running out of... መዘክር፣ በጃኻ ገለ ራም ኣጽርዮ</string>
+    <string name="cloud_token_lost">ቶከን ጠፊኡ፣ በጃኻ እንደገና እቶ</string>
+    <string name="monofont">ሞኖስፔስ ፎንት</string>
+    <string name="showHeaders">ርእስታት ኣርኢ</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">ንብረት የለን</string>
+	<string name="item">ኣቕሓ</string>
+	<string name="items">ኣቑሑት</string>
+	
+	<string name="byte_singular">ባይት</string>
+	<string name="bytes">ባይት</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">ፋይል ስም ክህልዎ ኣለዎ</string>
+    <string name="add_item">ምውሳኽ ኣቕሓ</string>
+    <string name="failed_smb_decrypt_path">SMB ምትእስሳር ምጽዓን ኣይተኻእለ</string>
+    <string name="failed_cloud_new_connection">ሓድሽ ናይ ደበና ምትእስሳር ምውሳኽ ኣይተኻእለን</string>
+    <string name="failed_cloud_api_key">ናይ ደበና ፕላግ-ኢን ምርግጋጽ ኣይተኻእለን</string>
+
+    <string name="local_inet_addr_error">ናይ ከባቢ inet ኣድራሻ ኣብ ምርካብ ጌጋ</string>
+    <string name="intent_save_as">ከም...</string>
+    <string name="go">ምዕቃብ&gt;ኪድ</string>
+    <string name="advanced">ምዕቡል</string>
+    <string name="typeable_paths_title">ብሕታዊ መንገድታት</string>
+    <string name="typeable_paths_summary">ብሕታዊ መንገዲ ንምጽሓፍ መንገዲ ባር ነዊሕ ምጽቃጥ</string>
+    <string name="send_email_to">ናብ</string>
+
+    <string name="text_editor">ቅጥዕታት ኣርታዒ ጽሑፍ</string>
+    <string name="preference_newstack_title">ኢ-መይል ስደድ ፋይላት ከም ሓድሽ ዕማም ክፈት</string>
+    <string name="preference_newstack_summary">ፋይላት ኣብ ዝተፈላለየ ዕማማት ክትከፍት የኽእለካ። ካብ ናይ ስርዓት ናይ ቀረባ እዋን ስክሪን ክትረኽብዎም።</string>
+    
+    <string name="developers">መማዕበልቲ</string>
+    <string name="no_bitcoin_app">በጃኹም ናይ ቢትኮይን ዋለተ ኣፕ ጽዓኑ</string>
+    <string name="channel_name_normal">መፍለጢታት ኣገረም</string>
+    <string name="channel_description_normal">መፍለጢታት ኣመሓዳሪ ፋይል ኣገረም</string>
+    <string name="channel_name_ftp">መፍለጢታት ኣመሓዳሪ ፋይል ኣገረም</string>
+    <string name="channel_description_ftp">መፍለጢታት ኣመሓዳሪ ፋይል ኤፍ.ቲ.ፒ ኣገረም</string>
+
+    
+    <string name="processing">መስርሕ...</string>
+    <string name="failed_no_connection">ፋይላት ምጽዓን ኣይተኻእለን። በጃኹም ምትእስሳርኩም መርምሩ።</string>
+
+    
+	<string name="scp_connection">SCP/SFTP ምትእስሳር</string>
+    <string name="ftp_connection">FTP ምትእስሳር</string>
+    <string name="ftps_connection">FTP ብ SSL ምትእስሳር</string>
+    
+    <string name="ssh_host_key_verification_prompt">ሓቅነት ናይ ኣአንጋዲ \'%1$s\' ክምስረት ኣይክእልን እዩ።\n\n%2$s ቁልፊ ኣሰር ኣጻብዕቲ %3$s እዩ።\n\nበጃኻ \"እወ\" ጠውቕ ንምርግጋጽ መንነት; እንተዘይኮይኑ፡ በጃኻ \"ኣይፋል\" ጠውቕ።</string>
+    <string name="ssh_host_key_verification_prompt_title">ኣአንጋዲ ኣረጋግጽ</string>
+    <string name="ssh_select_pem_button">SSH ብሕታዊ መፍትሕ</string>
+    <string name="ssh_pem_key_parse_error">ዝተመርጸ PEM ከንብብ ኣይከኣለን: %s</string>
+    <string name="password_unchanged">(ዘይተቐየረ)</string>
+    <string name="ssh_authentication_failure_password">ምእታው ውድቀት: ብዝቐረበ ስም ተጠቃሚን ምልክት ቃልን ምርግጋጽ ኣይከኣለን።</string>
+    <string name="ssh_authentication_failure_key">ምእታው ውድቀት: ብዝቐረበ ስም ተጠቃሚን ብሕታዊ መፍትሕን ምርግጋጽ ኣይከኣለን።</string>
+    <string name="ssh_connect_failed">ምስ %1$ ምትእስሳር ኣይከኣለን s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">መጠንቀቕታ: ናይ ርሑቕ ኣአንጋዲ መለለዪ ተቐይሩ ኣሎ!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">ሓደ ሰብ ጽዩፍ ነገር ይገብር ኣሎ ክኸውን ይኽእል እዩ!\n\nሓደ ሰብ ሰሚዑካ ክኸውን ይኽእል እዩ። ኣብዚ ሕጂ እዋን (ሰብ-ኣብ-ማእከላይ መጥቃዕቲ)! እቲ ኣአንጋዲ መፍትሕ ገና ተቐይሩ ክኸውን እውን ይኽእል እዩ። እቲ ብርሑቕ ኣአንጋዲ ዝለኣኽ ኣሰር ኣጻብዕቲ ናይቲ ህዝባዊ መፍትሕ ምስቲ ኣብ ኣማዘ ዝተዓቀበ ኣይሰማማዕን እዩ።\n\nበጃኻ ምስ ኣመሓዳሪ ስርዓትካ ተራኸብ ወይ ምስቲ ኣገልጋሊ ምትእስሳር ንምቕጻል ሓድሽ ምትእስሳር ኣዳሉ።</string>
+    <string name="ssh_key_prompt_passphrase">በጃኻ ቁልፊ መሕለፊ ሓረግ ኣእቱ .</string>
+    <string name="add_shortcut_not_supported_by_launcher">ምፍጣር ኣቋራጭ መገድታት ብላንቸርካ ኣይድገፍን እዩ።</string>
+    
+    <string name="select_color_config">ሕብራዊ ውቅር ምረጽ</string>
+    <string name="customize">ምምዕርራይ</string>
+    <string name="custom">ብሕታዊ</string>
+    <string name="preselected_configs_title">ቅድሚ ሕጂ ዝተመርጹ ውቅር</string>
+    <string name="orange">ኣራንሺ</string>
+    <string name="blue">ሰማያዊ</string>
+    <string name="green">ቀጠልያ</string>
+    <string name="password_no_match">መሕለፊ ቃል ኣይሰማማዕን</string>
+    <string name="deselect_all">ኩሉ ምምራጽ ኣወግድ</string>
+    <string name="filename">ስም ፋይል</string>
+    <string name="compress_file_suggest_zip_extension">\".zip\" ከም መቐጸልታ ፋይል ክትጥቀመሉ ይምከር።</string>
+    <string name="about_amaze">ንኣንድሮይድ ዝኸውን ፋይል ዲዛይን ማተርያል</string>
+    <string name="license">ፍቓድ</string>
+    <string name="libraries">ቤተ-መጻሕፍቲ</string>
+    <string name="password_repeat">ፓስዎርድ ምድግጋም</string>
+    <string name="create_file_suggest_txt_extension">\".txt\" ከም መቐጸልታ ፋይል ክትጥቀመሉ ይምከር።</string>
+    <string name="ssh_select_pem">ንምርግጋጽ ብሕታዊ መፍትሕ ምረጽ</string>
+    <string name="ssh_key_invalid_passphrase">ዘይሕጋዊ ቁልፊ መሕለፊ ሓረግ።</string>
+    <string name="ssh_key_no_decoder_decrypt">ፒኢኤም ንምፍታሕ ቅኑዕ ዲኮደር የለን።</string>
+    <string name="encryption_fail_copy">ኣብ ዳታቤዝ ምእታው ምስጢራዊ ምእታው ምዕራፍ ኣይተኻእለ</string>
+    <string name="extracted">ተኣልዩ</string>
+    <string name="compressed">ተጸቒጡ</string>
+    <string name="processed">ተሰሪሑ</string>
+    <string name="no_obtainable_info">ብዛዕባ እዚ ፋይል ዝኾነ info የለን</string>
+    <string name="reopen_from_source">Can\'t, please reapen from last app</string>
+    <string name="no_file_error">ገለ ነገር ተጋግዩ፣ ዝኽፈት ነገር የለን</string>
+    <string name="file_too_long">እቲ... ፋይል ኣዝዩ ነዊሕ ስለዝኾነ ክእረም ኣይክእልን እዩ፣ ይኹን እምበር ቀዳሞት %d ፊደላት ከተንብብ ትኽእል ኢኻ</string>
+    <string name="file_read_only">እቲ ዝተኸፍተ ፋይል ንንባብ ጥራይ እዩ።</string>
+    <string name="got_it">ረኺበዮ!</string>
+    <string name="encrypt_file_save_as">Save Encrypted ፋይል ከም...</string>
+    <string name="encrypt_folder_save_as">ዝተመሰጠረ ኣቃፊራ ከም...</string>
+    <string name="encrypt_option_use_aze">ኣማዘ ኢንክሪፕሽን ፎርማት</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[ተጠቐም
+        <p>AESCrypt ኣብ AES ምስጢራዊነት ዝተመርኮሰ ክፉት ምንጪ ፋይል ምስጢራዊ ቅርጺ እዩ። ተንቀሳቓሲ እውን እዩ፣ ኣብ ካልኦት መድረኻት ብናይ AESCrypt ፕሮግራማት ክፍታሕ ይኽእል።</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">ናይ ኤኤስክሪፕት መርበብ ሓበሬታ</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[ዝብል ጽሑፍ ኣሎ።
+        <p>Amaze\'s Encryption Format ውን ኣብ AES encryption ዝተመርኮሰ እዩ፤ ካብ AESCrypt format ዝተፈለየ ግን በዚ መሳርሒ ጥራይ እዩ ክፍታሕ ዝኽእል፤ ከምኡ ውን Amaze File Manager ካብዚ መሳርሒ ከተውጽኦ ወይ ስክሪን እትዓጽወሉ ኣገባብ ክትቅይሮ የብልካን፣ እንተዘይኮይኑ ነቲ ምስጢራዊ ፋይል ክትመልሰሉ እትኽእል መንገዲ ኣይክህልወካን እዩ።</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">ምስጢራዊ ፋይላት ከም መቐጸልታ ፋይል \".aze\" ክጥቀሙ ኣለዎም።</string>
+    <string name="encrypt_file_must_end_with_aes">ምስጢራዊ ፋይላት ከም መቐጸልታ ፋይል \".aes\" ክጥቀሙ ኣለዎም።</string>
+    <string name="error_aescrypt_decrypt_failed">ክፈትሑ ኣይክእሉን እዮም። \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">ፋይል ክጽሕፍ ኣይክእልን እዩ።</string>
+    <string name="saved_single_file">ፋይል ከም \'%s\' ተዓቂቡ።</string>
+    <string name="saved_multi_files">%d ፋይላት ተዓቂቦም።</string>
+    <string name="create_hidden_file_warn">እቲ ዝተፈጥረ ፋይል ኣብ ዝርዝር ፋይላት ክሕባእ እዩ።</string>
+    <string name="grant_apkinstall_permission">ኣፕ ኣፕስ ንምትካል ፍቓድ የድልዮ ይቕጽል።</string>
+    <string name="time_remaining">ተሪፉ ዘሎ ግዜ</string>
+    <string name="transfer_rate">ደረጃ ምትሕልላፍ</string>
+    <string name="unknown">ዘይፍለጥ</string>
+    <string name="multiple_invalid_archive_entries">ገለ ፋይላት ኣብቲ ማህደር ክወጹ ኣይክእሉን እዮም፤ archive ተበላሽዩ ወይ ካብ ጐዳኢ ምንጪ ዝመጸ ክኸውን ይኽእል እዩ።</string>
+    <string name="saf_otg_explanation">ሕጂ ብጸጥታዊ ምኽንያት ናብ Android\'s filesystem ክትከይድ ኢኻ። በጃኹም ካብቲ ኣብ ጸጋም ዘሎ ዝርዝር ነቲ USB መሳርሒ ምረጹ።</string>
+    <string name="donation_thanks">ንዝገበርኩምልና ወፈያ የቐንየልና፣ እዚ ድራኸና ይሕግዘና! (:</string>
+    <string name="enable_marquee_filename">ንኣስማት ፋይላት marquee effect ኣንቅሕ</string>
+    <string name="archive_password_prompt">በጃኻ ናይ ማህደር ምልክት ቃል ኣእቱ:</string>
+    
+    <string name="cannot_extract_archive">ማህደር \"%s\" ምውጻእ ኣይከኣልን: %s</string>
+    <string name="archive_unsupported_or_corrupt">ኣይከኣልን። open archive \"%s\".ወይ ነቲ ማህደር ክንከፍቶ ኣይንኽእልን ኢና፣ ወይ ድማ እቲ ማህደር ተበላሽዩ።</string>
+    <string name="close">ዕጸዎ</string>
+    <string name="bookmark_exists">ዓልፊ ኣሎ</string>
+    <string name="hide_media">ካብ ሚድያ ዳህሰስቲ ሕባእ</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ሓደ ሰብ ጽዩፍ ነገር ይገብር ኣሎ ክኸውን ይኽእል እዩ!\n\nኣብዚ ሕጂ እዋን ሓደ ሰብ ሰሚዑካ ክኸውን ይኽእል እዩ (ኣብ ማእከል ዘሎ ሰብ መጥቃዕቲ)!እቲ መፍትሕ ኣአንጋዲ በቃ ተቐይሩ ክኸውን እውን ይኽእል እዩ።ኣሰር ኣጻብዕቲ ምኽንያቱ እቲ ብርሑቕ ኣአንጋዲ ዝለኣኽ ህዝባዊ መፍትሕ ምስቲ ኣብ ኣማዘ ዝተዓቀበ ኣይሰማማዕን እዩ።\n\nኣሰር ኣጻብዕቲ ኣአንጋዲ ምዕራፍ ክትቅጽል ትኽእል ወይ ቅጥዕታት ምትእስሳር SSH ምዕራፍ ክትስርዞ ትኽእል ኢኻ።</string>
+    <string name="update_host_key">መፍትሕ ኣአንጋዲ ኣዘምን</string>
+    <string name="cancel_recommended">ስርዝ ድልዝ (ዝምከር)</string>
+    
+    
+    <string name="failed_install_apk">ምትካል ኣይተኻእለን</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">ውሽጣዊ መኽዘን</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD ካርድ</string>
+    <string name="choose_folder">እዚ ማህደር ምረጽ</string>
+    
+    <string name="some_files_failed_invalid_operation">ገለ ፋይላት ብሰንኪ ዘይሕጋዊ ምዃኖም ኣይተዓወቱን ስርሒት</string>
+    <string name="ftp_server_prompt_connect_to_network">ምስ መርበብ ምትእስሳር ወይ AP ምኽፋት</string>
+    <string name="ftp_server_open_settings">ቅጥዕታት ክፈት</string>
+    <string name="move">ምንቅስቓስ</string>
+    <string name="select_save_location">ንኽትዕቅቦ ቦታ ምረጽ</string>
+    <string name="scp_default_path">ነባሪ መንገዲ (ኣማራጺ)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">ይቕሬታ ከምኡ ክኸውን ኣይነበሮን።</string>
+    
+    <string name="error_report_button_text">እዚ ጌጋ ብኢ-መይል ሪፖርት ግበሩ</string>
+    <string name="error_report_button_telegram">እዚ ጌጋ ብቴሌግራም ሪፖርት ግበሩ</string>
+    <string name="copy_for_github">ቅርጺ ዘለዎ ጸብጻብ ቅዳሕ</string>
+    <string name="error_report_open_issue_button_text">ኣብ GitHub ጸብጻብ</string>
+    <string name="error_report_open_github_notice">በጃኻ ድሮ ንውድቀትካ ዝዛረብ ጉዳይ ኣሎ ድዩ የለን ኣረጋግጽ።</string>
+    <string name="error_snackbar_message">ይቕሬታ፡ ገለ ነገር ተጋግዩ።</string>
+    <string name="error_snackbar_action">ጸብጻብ</string>
+    <string name="what_device_headline">ሓበሬታ:</string>
+    <string name="what_happened_headline">እንታይ ኣጋጢሙ:</string>
+    <string name="info_labels">እንታይ:\\nሕቶ:\\nGMT ግዜ:\\nዕሹግ:\\nስሪት:\\nOS ስሪት:\\nመሳርሒ:\\nሞዴል:\\nፍርያት :</string>
+    <string name="your_comment">ርእይቶኻ (ብእንግሊዝኛ):</string>
+    <string name="error_details_headline">ዝርዝር:</string>
+    <string name="app_ui_crash">App/UI ተበላሽዩ</string>
+    <string name="error_report_title">ጸብጻብ ጌጋ</string>
+    <string name="crash_report_copied">ጸብጻብ ምውዳቕ ናብ ተቐዲሑ clipboard</string>
+    <string name="disableIpcSignature">ናይ IPC ምፍራም ምፍታሽ ኣሰናኽል (ንሕድሪ SMBv1 ኣገልገልቲ - UNSAFE!)</string>
+    <string name="cannot_delete_file">ፋይል ክድምስስ ኣይክእልን</string>
+    <string name="cannot_delete_file_with_reason">ፋይል ክድምስስ ኣይክእልን - %s</string>
+    <string name="cannot_rename_file">ፋይል ዳግማይ ክቕይር ኣይክእልን %s - %s</string>
+    <string name="cannot_read_directory">ማህደር ከንብብ ኣይክእልን %s - %s</string>
+    <string name="just_once">ሓንሳብ ጥራይ</string>
+    <string name="always">ኩሉ ግዜ</string>
+    <string name="choose_different_app">ዝተፈላለየ መተግበሪ ምረጽ</string>
+    <string name="clear_open_file">ኣጽርዮ cache</string>
+    <string name="clear_open_file_summary">ዝተመርጹ ነባሪ ፋይል መኽፈቲ መተግበሪታት የጽርዮም</string>
+    <string name="ftp_readonly">ንባብ ጥራይ ዝኸውን መእተዊ</string>
+    <string name="legacy_listing_title">ንሱር ዝኸውን ውርሻዊ ዝርዝር ተጠቐም</string>
+    <string name="legacy_listing_summary">እንተተኸፊቱ፡ ፋይላት ንምዝርዛር ውርሻዊ ሜላ ይጥቀም</string>
+    <string name="error_unsupported_v5_rar">RAR archive \"%s\" ዘይድገፍ RAR v5 archive እዩ።</string>
+    <string name="ftp_prompt_restart_server">ለውጥታት ንኽሰርሕ ነቲ FTP server ዳግማይ ክትጅምሮ ከድልየካ እዩ።</string>
+    <string name="error_permission_denied">ፍቓድ ተኸልኪሉ</string>
+    <string name="error_archive_password_incorrect">ጌጋ ናይ ማህደር ምልክት ቃል።</string>
+    <string name="error_archive_cannot_extract">ናይ ማህደር ምእታው \"%s\" ናብ \"%s\" ከውጽእ ኣይክእልን እዩ።</string>
+    <string name="drag_and_drop_preference">ናይ ጎተትን ምውዳቕን ምርጫ (ፈተነ) ምረጽ</string>
+    <string name="drag_to_move_copy">ፋይላት ንምንቅስቓስ ወይ ንምቕዳሕ ተንኪፍካ ጎተት</string>
+    <string name="drag_to_select">ፋይላት ንምምራጽ ተንኪፍካ ጎተት</string>
+    
+    <string name="choose_operation">ንኽትገብሮ ዘለካ ስርሒት ምረጽ</string>
+    <string name="remember">ንዝቕጽል ግዜ ዘክር</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">ንFTP server SAF access ምሃብ</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">እዚ ናይ መጀመርታ ምዝዋርካ ናይቲ FTP server ስለዝኾነ፣ ከምኡ`ውን ውሽጣዊ መኽዘን ናይቲ መሳርሒ ከም shared folder ትጥቀመሉ ስለዘለኻ፣ በጃኻ Amaze ነቲ መኽዘን ተጠቒሙ ክረኽቦ ፍቐደሉ። ሳፍ.\n\n
+
+እዚ ሓንሳብ ጥራይ ኢኻ ክትገብሮ ዘለካ፣ ክሳብ ዝቕጽል ግዜ ንመካፈልቲ ሓድሽ ቦታ ትመርጽ።</string>
+    <string name="android_data_prompt_saf_access">ካብ ኣንድሮይድ 10 ጀሚሩ፣ ኣንድሮይድ ኣብ ዝተወሰኑ ማህደራት ገደብ ኣንቢሩ ነይሩ፣ ብናይ መኽዘን መእተዊ ፍሬምዎርክ ድማ ክኣትዉ ኣለዎም።\n \nበጃኻ ንኣማዘ ካብቲ ናይ ስርዓት ፋይል ኣመሓዳሪ ነቲ ማህደር ክረኽቦ ፍቐደሉ \"Allow Access\" ብምጥዋቕ።</string>
+    <string name="android_data_prompt_saf_access_title">SAF መእተዊ ምሃብ</string>
+    <string name="ftp_preference_saf_filesystem_title">legacy filesystem ተጠቐም</string>
+    <string name="ftp_preference_saf_filesystem">Enable እዚ ንደገፍ ንምጥቃም መሳርሒ ግዳማዊ መኽዘን ኣብ ሓደስቲ ስሪት ኣንድሮይድ</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP ሰርቨር ዝተኻፈለ መንገዲ ናብ ውሽጣዊ መኽዘን ዳግማይ ተሰሪዑ ነበረ ከምቲ ናብ ውርሻዊ ፋይልሲስተም ኣተገባብራ ክትምለስ ከለኻ። በጃኻ ከም ኣድላይነቱ ኣብ ላዕለዋይ የማን ዘሎ ዝርዝር ተጠቒምካ ሓድሽ መንገዲ ምረጽ።</string>
+    <string name="ftp_server_reset_notify">FTP server ዝተኻፈለ መንገዲ ናብ ውሽጣዊ መኽዘን ተመሊሱ ነይሩ</string>
+    <string name="ftp_server_root_unavailable">ሱር ምብጻሕ ዝሓትት መንገዲ ትመርጽ ኣለኻ። መሳርሒኻ ሱር እንተኾይኑ በጃኻ ኣብ ቅጥዕታት root explorer ኣንቅሖ።</string>
+    <string name="ftp_server_root_filesystem_warning">ሱር መእተዊ ዝሓትት መንገዲ ትመርጽ ኣለኻ፣ እዚ ድማ ኣብ ምሉእ ስርዓተ ፋይል ኣብ መሳርሒኻ ስርሓት ምንባብ/ምጽሓፍ ዘኽእል፣ ሓደገኛ ድማ እዩ - ጥንቃቐ ዘይብሉ ጌጋታት ንመሳርሒኻ ክሕጡብ ይኽእል እዩ!\n\nርግጸኛ ዲኻ?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">ንባብ URI \"%s\" ኣብ ምኽፋት ጌጋ።</string>
+    <string name="error_empty_archive">\"%s\" ባዶ ማህደር እዩ።</string>
+    <string name="error_bad_archive_without_info">\"%s\" ዝተበላሸወ ማህደር እዩ። .</string>
+    <string name="error_bad_archive_with_info">\"%s\" ዝተበላሸወ ማህደር እዩ።\nመልእኽቲ ካብ ኣውጻኢ: \"%s\"</string>
+    <string name="security_error">ፋይል ነዚ መተግበሪ ተጠቒምካ ክኽፈት ኣይከኣለን</string>
+    <string name="cloud_drive_tooltip">ፍጠሮ ካብ ውሽጢ ኣማዘ ፋይል ማናጀር ፋይላት ንምምሕዳር ዝሕግዝ ናይ Google DriveTM ምትእስሳር።</string>
+    <string name="signin_with_google_title">Google DriveTM ንምጥቃም ምርግጋጽ</string>
+    <string name="show_system_apps">ናይ ስርዓት መተግበሪታት ምርኣይ</string>
+    <string name="system_apps">ናይ ስርዓት መተግበሪታት</string>
+    <string name="select_inverse">ምረጽ ተገላባጢ</string>
+    <string name="select_by_type">ብዓይነት ምረጽ</string>
+    <string name="select_by_date">ብዕለት ምረጽ</string>
+    <string name="select_similar">ተመሳሳሊ ምረጽ</string>
+    <string name="error_fetching_google_play_product_list">ዝርዝር ፍርያት ካብ ጉግል ፕለይ ኣብ ምምጻእ ጌጋ።</string>
+    <string name="grant_all_files_permission">ካብ ኣንድሮይድ 11 ጀሚሩ ፣ Google ንFile Managers ንኹሎም ኣብቲ መሳርሒ ዘለዉ ፋይላት ንምምሕዳር ፍቓድ ተጠቃሚ ክሓቱ ይሓትት። ዝርዝር ሓበሬታ ኣብዚ።
+        \n\nኣማዘ ፋይል ማናጀር እውን እዚ ፍቓድ የድልዮ። ኣብዚ "Grant" ድሕሪ ምጽቃጥ፡ በጃኹም ኣብ ዝቕጽል ስክሪን Allow access to manage all files ዝብል ኣማራጺ ምረጽ።
+        \n\nነዚ ዝርርብ ምስራዝ ካብቲ መተግበሪ ክወጽእ እዩ።</string>
+    <string name="user_apps">ተጠቃሚ መተግበሪታት</string>
+    <string name="appearance">መልክዕ</string>
+    <string name="behavior">ባህሪ</string>
+    <string name="appearance_summary">ቴማ፣ ሕብርታትን መልክዕን ናይቲ ኣመሓዳሪ ፋይል ምምዕርራይ</string>
+    <string name="ui_summary">እንታይ ሓበሬታ ከምዘርኢ ምቁጽጻር፣ ነቲ ጎናዊ መስመር ምምዕርራይ፣ ከምኡ’ውን ምርጫታት UI ምቕያር</string>
+    <string name="behavior_summary">ከም ምዕቡል ምድላይን ፋይላት ከም ሓድሽ ዕማም ምኽፋት ድዩ ኣይከፍቶን ዝኣመሰሉ ባህርያት ምቕያር</string>
+    <string name="security_summary">ፓስዎርድ ምድላው ከምኡውን ምስጢራዊ ምግባር</string>
+    <string name="backup_summary">ሰደድ/ኣእትዎ ቅጥዕታት ኣማዘ</string>
+
+    <string name="pref_export">ሰደድ</string>
+    <string name="pref_export_summary">ቅጥዕታት ሰደድ</string>
+    <string name="pref_import">ምእታው</string>
+    <string name="pref_import_summary">ቅጥዕታት ምእታው</string>
+
+    <string name="quick_desc">ፋይላት recently accessed through Amaze</string>
+    <string name="recent_desc">ኣብ ቀረባ እዋን ዝተፈጥሩ ወይ ዝተቐየሩ ፋይላት</string>
+    <string name="error_cannot_find_way_open">ነቲ ፋይል ዝኸፍተሉ መንገዲ ኣይረኸበን</string>
+    <string name="error_cant_decompress_that_file">እቲ ዝተሓተተ ማህደር ከሰላስል ኣይከኣለን</string>
+    
+    
+    <string name="download_amaze_utils_text">ናብ ኣማዘ ፋይል ዩቲሊቲስ ትቕይር ኣለኻ። ኣብ ውሽጢ ዝተሃንጸ ድምጺ/ቪድዮ/ስእሊ/ሰነድ ተዓዘብቲ ዘለዎ ክፉት ምንጪ ኣፕና እዩ፣ መኽዘን ነጻ ንምግባር ጃንክ ፋይላት ክትትንትን፣ Wifi P2P ተጠቒምካ ቅልጡፍ ምትሕልላፍን ካልእ ብዙሕን የኽእለካ።\nበጃኹም ብምፍታን ደግፉና።</string>
+    <string name="download">ኣውርድ</string>
+    <string name="wifip2p">ዋይ-ፋይ P2P</string>
+    <string name="amaze_utils_installed_alias">ኣማዘ ፋይል ዩቲሊቲስ ስለ ዝተተኽልኩም የቐንየልና። ናብቲ ኣፕ ትቕየር ኣለኻ።</string>
+    
+    <string name="video_player">ኣምዘዝ ቪድዮ ፕለየር</string>
+    <string name="amaze_audio_player">ኣምዘዝ ሙዚቃ ፕለየር</string>
+    <string name="pdf_viewer">ኣማዘዝ ዶኩመንት ቪውየር</string>
+    <string name="docx_viewer">ኣሜዝ ዶኩመንት ቪውየር</string>
+    <string name="share_logs">መዝገብ ምክፋል</string>
+    <string name="share_logs_summary">ዝተማረኹ ምዝገባታት ብኢመይል / ቴሌግራም ምክፋል</string>
+    <string name="open_with_amaze">ብAmaze</string>
+    <string name="confirmation">ምርግጋጽ ክፈት</string>
+    <string name="open_file_confirmation">ንስኻ ዲኻ ርግጸኛ እየ ዝስዕብ ፋይል ክትከፍቶ ትደሊ?\n\nስም:\n%s\n\nቦታ:\n%s\n\nዓቐን:\n%s\n\nMD5:\n%s\n\nSHA256:\ n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">ብመሰረት ፖሊሲ ጉግል ፕለይ ትእዛዛት፡ መተግበሪታት ባዕሎም ክሕድሱ ኣይፍቀደሎምን እዩ። በጃኹም ካብ Google Play app update ግበሩ።</string>
+    <string name="error_cannot_get_package_info">ካብ ፋይል \"%s\" ናይ ፓኬጅ ሓበሬታ ክትረክብ ኣይከኣልን። ወይ እቲ ዝተገልጸ ፋይል APK ኣይኮነን፣ ወይ ድማ እቲ ፓኬጅ ፋይል ተበላሽዩ።</string>
+    <string name="preference_delete_confirmation">ምርግጋጽ ምድምሳስ</string>
+    <string name="preference_delete_confirmation_summary">ቅድሚ ፋይላት ምድምሳስካ ምርግጋጽ ሕተት። ነዚ ምዕጻው ኣዝዩ ተስፋ ይቖርጽ!</string>
+    
+    
+    <string name="protocol_ftps">ውሑስ FTP</string>
+    <string name="unavailable">ዘይርከብ</string>
+
+    <string name="exporting_failed">ሰደድ ኣይተዓወተን: ነቲ ናይ መጠባበቒ ፋይል ክጽሕፍ ኣይከኣለን</string>
+    <string name="importing_failed">ምእታው ኣይተዓወተን: ነቲ መጠባበቒ ከንብብ ኣይከኣለን ፋይል</string>
+    <string name="importing_completed">ምእታው ተዛዚሙ</string>
+    <string name="invalid_backup_file">ዘይሕጋዊ መጠባበቒ ፋይል</string>
+    <string name="import_failed_for">ምእታው ኣይተዓወተን ን:</string>
+    <string name="free_of">"%s\n%s ካብ %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin ምስ F-Droid version ኣይድገፍን እዩ።በጃኻ Play Store version of Amaze ተጠቐም።</string>
+    <string name="disable_player_intent_filters">ናይ ተጻዋታይ ዕላማ ፍልትራት ኣሰናኽል</string>
+    <string name="disable_player_intent_filters_summary">Amaze inbuilt media players ካብ ፋይል መምረጺ</string>
+    <string name="no_app_found_intent">የሰናኽል ነዚ ዕላማ ዝሕዝ ዝኾነ ኣፕ ኣይተረኽበን።DocumentsUI ተተኺሉካ ኣሎ ድዩ?</string>
+    <string name="cloud_connection_credentials_cleared">ናይ ደበና ምትእስሳር መረጋገጺታት ተጸሪጉ</string>
+    <string name="cloud_connection_credentials_cleared_msg">እቲ ዘሕዝን ግን ናይ ደበና ምትእስሳር መረጋገጺታትካ ናብቲ ሓድሽ ዳታቤዝ ስኪማ ክንሰግሮ ኣይከኣልና፣ ከምኡ ውን ነይሩና። ካብቲ ኣፕ ንምእላይ በጃኹም ዳግማይ ናይ ደበና ምትእስሳር ፍጠሩ።</string>
+</resources>

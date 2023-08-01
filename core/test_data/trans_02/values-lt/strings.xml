@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Atidaryti naršymo skydelį</string>
+    <string name="drawer_close">Uždaryti naršymo skydelį</string>
+    <string name="icon">piktograma</string>
+    
+    <string name="ftp">FTP serveris</string>
+    <string name="setting">Nustatymai</string>
+    <string name="select">Pasirinkite elementą</string>
+    <string name="press_again">Paspauskite dar kartą, kad išeitumėte</string>
+    <string name="open">Atidaryti</string>
+    <string name="backup">Atsarginė kopija</string>
+    <string name="uninstall">Pašalinti</string>
+    <string name="play">Play parduotuvė</string>
+    <string name="properties">Ypatybės</string>
+    <string name="copyingapks">%d APK failai kopijuojami į %s</string>
+    <string name="delbook">Ištrinti žymę</string>
+    <string name="add_to_bookmarks">Pridėti prie žymių</string>
+    <string name="enterpath">Įveskite kelią</string>
+    <string name="cancel">ATŠAUKTI</string>
+    
+    <string name="loading">Įkeliama...</string>
+    <string name="file_empty">Failas tuščias</string>
+    <string name="error">Klaida</string>
+    <string name="search_results">%s paieškos rezultatai</string>
+    <string name="rename">Pervardyti</string>
+    <string name="save">Išsaugoti</string>
+    <string name="bookmarks_added">Pridėtos žymės</string>
+    <string name="fileexist">Failas tokiu pat pavadinimu jau yra</string>
+    <string name="name">Vardas</string>
+    <string name="date">Data</string>
+    <string name="location">Vieta</string>
+    <string name="size_capitalized">Dydis</string>
+    <string name="size">aplanko dydis</string>
+    <string name="enterzipname">Įveskite pašto pavadinimą</string>
+    <string name="no_app_found">Nerasta programa, kuri galėtų atidaryti šį failą</string>
+    <string name="copying">Kopijuojama</string>
+    <string name="moving">Perkeliama</string>
+    <string name="file">Failas</string>
+    <string name="folder">Aplankas</string>
+    <string name="newfolder">Naujas aplankas</string>
+    <string name="entername">Įveskite pavadinimą</string>
+    <string name="extracting">Ištraukimas</string>
+    <string name="stopping">Sustabdomas</string>
+    <string name="open_parent">Atidaryti pagrindinį katalogą</string>
+    <string name="open_with">Atidaryti naudojant</string>
+    <string name="share">Bendrinti</string>
+    <string name="about">Apie</string>
+    <string name="extract">Ištraukti</string>
+    <string name="compress">Suspausti</string>
+    <string name="yes">Taip</string>
+    <string name="no">Ne</string>
+    
+    <string name="dialog_delete_category_directories">Katalogai</string>
+    <string name="dialog_delete_category_files">Failai</string>
+    <string name="dialog_delete_disclaimer">Ištrynus toliau nurodytus elementus jie bus visam laikui pašalinti iš įrenginio ir jų nebus galima atkurti.</string>
+    <string name="dialog_delete_title">Ištrinti elementus visam laikui?</string>
+    <string name="deleting">Ištrinama</string>
+    <string name="question_set_path_as_home">Ar norite nustatyti dabartinį šio skirtuko kelią kaip pagrindinį kelią?</string>
+    <string name="directorysort">Katalogo rūšiavimo režimas</string>
+    <string name="sort_by">Rūšiuoti pagal</string>
+    <string name="sort_only_this">Tik šį aplanką</string>
+    <string name="theme">Tema</string>
+    <string name="random">Atsitiktinė išvaizda</string>
+    <string name="random_summary">Paleidžiant nustatoma atsitiktinė pagrindinė spalva</string>
+    <string name="colorize">Piktogramų spalvinimas</string>
+    <string name="colorize_summary">Nustato statinės piktogramos spalvą. Nepaisoma katalogo piktogramos spalvų pasirinkimo.</string>
+    <string name="home">Pagrindinis</string>
+    <string name="paste">Įklijuoti</string>
+    <string name="history">Istorija</string>
+    <string name="copy">Kopijuoti</string>
+    
+    <string name="root_mode_summary">Tik įsišaknijusiam įrenginiui. Patikrinkite, tik jei esate tikri.</string>
+    <string name="root_failure">Root Access nesuteikta</string>
+    <string name="select_all">Pasirinkti viską</string>
+    <string name="delete">Ištrinti</string>
+    <string name="set_as_home">Nustatyti kaip pagrindinį</string>
+    <string name="operation_not_supported">Operacija nepalaikoma</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Medžiaga Šviesi</string>
+    <string name="dark">Medžiaga Tamsi</string>
+    <string name="daytime">Dienos metu</string>
+    <string name="black">Juoda (skirta OLED)</string>
+    <string name="system">Sistema (vadovaukitės sistemos tema)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Aplankai viršuje</string>
+    <string name="filesOnTop">Failai viršuje</string>
+    <string name="none_on_top">Nėra viršuje</string>
+    <!--SortBy-->
+    <string name="sort_name">Vardas</string>
+    <string name="lastModified">Paskutinį kartą modifikuoti</string>
+    <string name="sort_size">Dydis</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Pasirinkite failą</string>
+    <string name="process_viewer">Procesų peržiūros programa</string>
+    <string name="in_safe">Nepakanka vietos</string>
+    <string name="no_file_overwrite">Neperrašytas failas</string>
+    <string name="skip">Praleisti</string>
+    <string name="overwrite">Perrašyti</string>
+    <string name="not_allowed">Neleidžiama</string>
+    <string name="searching">Ieškoma %s</string>
+    <string name="done">Atlikta</string>
+    <string name="set">Nustatyti</string>
+    <string name="enablerootmde">Įgalinti pagrindinį režimą</string>
+    <string name="goback">Grįžti</string>
+    <string name="newfile">Naujas failas</string>
+    <string name="no_files">Nėra failų</string>
+    <string name="used">panaudota vieta</string>
+    <string name="used_by_others">kitų naudojama</string>
+    <string name="free">laisva vieta</string>
+    <string name="listview">Sąrašo rodinys</string>
+    <string name="gridview">Tinklelis Rodinys</string>
+    <string name="permission">Leidimai</string>
+    <string name="hide">Slėpti</string>
+    <string name="exit">Išeiti</string>
+    <string name="doforall">Atlikti visiems elementams</string>
+    <string name="gridcolumnno">Stulpelių skaičius tinklelio rodinyje</string>
+    <string name="set_random">Pakeitimai įvyks, kai iš naujo paleisite programą</string>
+    <string name="authors">Autoriai</string>
+    <string name="changelog">Pakeitimų žurnalas</string>
+    <string name="ok">Gerai</string>
+    <string name="ui">Sąsaja</string>
+    <string name="general">Bendra</string>
+    <string name="thumb_summary">Rodyti programų ir vaizdų miniatiūras</string>
+    <string name="thumb">Rodyti miniatiūras</string>
+    <string name="hidden">Rodyti paslėptus failus ir aplankus</string>
+    <string name="lastModifiedSummary">Rodyti paskutinio keitimo datą ir laiką</string>
+    <string name="lastModifiedPref">Rodyti paskutinio keitimo datą ir Laikas</string>
+    <string name="size_pref_summary">Rodyti failų dydį ir elementų skaičių aplankuose</string>
+    <string name="size_pref">Rodyti dydžius</string>
+    <string name="miscellaneous">Įvairūs</string>
+    <string name="root_pref_summary">Rodyti failų ir aplankų leidimus</string>
+    <string name="root_pref">Rodyti leidimus</string>
+    <string name="about_amaze_file_manager_label">Apie „Amaze“ failų tvarkyklę</string>
+    <string name="version">Versija</string>
+    <string name="rate">Įvertinkite programą</string>
+    <string name="feedback">Siųsti atsiliepimą</string>
+    <string name="hiddenfiles">Paslėpti failai</string>
+    <string name="type">Tipas</string>
+    <string name="root_directory">Šakninis</string>
+    <string name="add_shortcut">Pridėti spartųjį klavišą</string>
+    <string name="unsaved_changes">Neišsaugoti pakeitimai</string>
+    <string name="unsaved_changes_description">Turite neišsaugotų pakeitimų. Ar norite juos išsaugoti prieš išeidami?</string>
+    <string name="saving">Išsaugoma</string>
+    <string name="package_installer">Paketo diegimo programa</string>
+    <string name="view">Rodymas</string>
+    <string name="install">Įdiegti</string>
+    <string name="archive">Archyvas</string>
+    <string name="archive_text">Tai archyvas. Kokį veiksmą norėtumėte atlikti?</string>
+    <string name="package_installer_text">Tai paketo diegimo programa. Kokį veiksmą norėtumėte atlikti?</string>
+    <string name="xda_title">XDA gija</string>
+    <string name="xda_summary">Klausimai ir atsakymai, pagalba ir trikčių šalinimas</string>
+    <string name="circular_images">Vaizdams ir vaizdo įrašams naudokite apskritas piktogramas</string>
+    <string name="circular_icons">Naudokite apskritas piktogramas</string>
+    <string name="back_title">Našymas atgal</string>
+    <string name="back_summary">Įgalina pasirinktinį naršymą atgal sąrašo viršuje</string>
+    <string name="details">Išsami informacija</string>
+    <string name="translators">Vertėjai</string>
+    <string name="german_translation_title">vokiečių k.</string>
+    <string name="italian_translation_title">italų k.</string>
+    <string name="french_translation_title">prancūzų</string>
+    <string name="russian_translation_title">rusų</string>
+    <string name="spanish_translation_title">ispanų</string>
+    <string name="basque_translation_title">baskų</string>
+    <string name="chinese_translation_title">kinų</string>
+    <string name="serbian_translation_title">serbų</string>
+    <string name="turkish_translation_title">turkų</string>
+    <string name="ukrainian_translation_title">ukrainiečių</string>
+    <string name="portuguese_translation_title">portugalų </string>
+    <string name="polish_translation_title">lenkų kalba</string>
+    <string name="korean_translation_title">korėjiečių</string>
+    <string name="greek_translation_title">graikų</string>
+    <string name="dutch_translation_title">olandų</string>
+    <string name="romanian_translation_title">rumunų</string>
+    <string name="vietnamese_translation_title">vietnamiečių</string>
+    <string name="japanese_translation_title">japonų</string>
+    <string name="tamil_translation_title">tamilų </string>
+
+    
+    <string name="unin_system_apk">Tai sistemos programa, ją ištrynus gali sutrikti sistemos stabilumas.\nTęsti?</string>
+    <string name="warning">Įspėjimas</string>
+    <string name="donate">Paaukoti</string>
+    <string name="archive_extract_folder">Archyvo ištraukimo aplankas</string>
+    <string name="archive_summary">Archyvo failai bus išskleisti į šį aplanką. Numatytoji reikšmė yra katalogas, kuriame yra archyvas.</string>
+    <string name="open_as">Atidaryti kaip</string>
+    <string name="text">Tekstas</string>
+    <string name="audio">Garsas</string>
+    <string name="video">Vaizdo įrašas</string>
+    <string name="other">Kitas</string>
+    <string name="image">Vaizdas</string>
+    <string name="contributors">Pagalbininkai</string>
+    <string name="save_paths">Prisiminti kelius</string>
+    <string name="save_path_summary">Paleidžiant, vėliausiai žiūrėtas bus rodomas kiekvieno skirtuko aplankas</string>
+    <string name="select_intent">Pasirinkite</string>
+    <string name="database">Duomenų bazė</string>
+    <string name="colored_navigation">Spalvota naršymo juosta</string>
+    <string name="colored_navigvation_sum">Nesvarbu, ar sistemos naršymo juosta nudažyta apvalkalu, ar ne</string>
+
+    <string name="color_title">Spalva</string>
+    <string name="color_summary">Nustatykite įvairių UI komponentų spalvą</string>
+    <string name="primary_color_title">Pagrindinė spalva (Kairysis skirtukas)</string>
+    <string name="primary_color_summary">Nustatykite spalvą dideliems kairiojo skirtuko vartotojo sąsajos elementams</string>
+    <string name="accent_color_title">Akcentinė spalva</string>
+    <string name="accent_color_summary">Nustatykite spalvą į FAB ir kitus mažus vartotojo sąsajos elementus</string>
+    <string name="icon_color_title">Piktogramos spalva</string>
+    <string name="icon_color_summary">Nustatykite piktogramų spalvą</string>
+    <string name="choose_color">Pasirinkite spalvą</string>
+    <string name="files">Failai</string>
+    <string name="textreader">Teksto skaitytuvas</string>
+    <string name="databasereader">Duomenų bazės skaitytuvas</string>
+    <string name="show_dividers">Rodyti skirstytuvus</string>
+    <string name="needs_access">Būtina rašymo prieiga</string>
+    <string name="needs_access_summary">Pasirinkite \t</string>
+    <string name="needs_access_summary1">\šakninį katalogą, kad suteiktumėte rašymo teisę valdyti</string>
+    <string name="smb_connection">SMB ryšį</string>
+    <string name="smb_server">Serverio IP adresas</string>
+    <string name="server_address">Serverio IP adresas</string>
+    <string name="username">Vartotojo vardas</string>
+    <string name="password">Slaptažodis</string>
+    <string name="anonymous">Anoniminis</string>
+    
+    <string name="folders">Aplankai</string>
+    <string name="folderfilecount">%1$d aplankų ir %2$d failai</string>
+    <string name="videos">Vaizdo įrašai</string>
+    <string name="apks">APK</string>
+    <string name="documents">Dokumentai</string>
+    <string name="images">Vaizdai</string>
+    <string name="clear">Išvalyti</string>
+    
+    <string name="total">Iš viso:</string>
+    <string name="calculating">skaičiuojant</string>
+    <string name="sort">Rūšiuoti</string>
+    <string name="ascending">Didesnčia tvarka</string>
+    <string name="descending">Mažėjančia tvarka</string>
+    <string name="default_string">Numatytasis</string>
+    <string name="doit">Atlikite tai</string>
+    <string name="want_help">Reikia pagalbos?</string>
+    <string name="quick">Greita prieiga</string>
+    <string name="recent">Naujausi failai</string>
+    <string name="edit">Redaguoti</string>
+    <string name="find">Rasti puslapyje</string>
+    <string name="grant">Suteikti</string>
+    <string name="grantper">Suteikti leidimą</string>
+    <string name="grantfailed">Leidimas nesuteiktas</string>
+    <string name="grant_storage_permission">Programai reikia saugyklos leidimo, kad būtų galima tęsti. Atšaukus šį dialogo langą programa bus uždaryta.</string>
+    <string name="operation_unsuccesful">Operacija nesėkminga</string>
+    <string name="creatingfile">Failo kūrimas</string>
+    <string name="creatingfolder">Aplanko kūrimas</string>
+    <string name="renaming">Pervadinimas</string>
+    <string name="cant_be_empty">%s negali būti tuščias</string>
+    <string name="ip">Adresas</string>
+    <string name="connection_name">Ryšio pavadinimas</string>
+    <string name="no_device_found">Įrenginių nerasta</string>
+    <string name="path">Kelias</string>
+    <string name="rename_bookmark">Keisti žymę</string>
+    <string name="cut">Iškirpti</string>
+    <string name="search">Paieška</string>
+    <string name="invalid_name">Netinkamas pavadinimas</string>
+    <string name="search_hint">Įveskite norėdami ieškoti...</string>
+    <string name="advanced_search">Išplėstinė paieška</string>
+    <string name="regular_expression">Reguliarioji išraiška</string>
+    <string name="regular_expression_summary">Ieškoti naudojant BASH stiliaus reguliarųjį reiškinį</string>
+    <string name="match_content">Atitikti turinį</string>
+    <string name="match_content_summary">Jei nustatyti, reguliarioji išraiška bus suderinta su visu failo pavadinimu,
+        kitu atveju ieškos įvykio.</string>
+    <string name="start_ftp">Pradėti</string>
+    <string name="stop_ftp">Sustabdyti</string>
+    <string name="ftp_status_running">Veikia</string>
+    <string name="ftp_status_not_running">Neveikia</string>
+    <string name="ftp_no_wifi">Įsitikinkite, kad esate prisijungę prie „Wi-Fi“</string>
+    <string name="domain">Domeno</string>
+    <string name="smb_share">Bendrinimo kelias</string>
+    <string name="invalid">Netinkamas %s</string>
+    <string name="ftp_notif_starting">FTP serveris pradedant</string>
+    <string name="ftp_notif_starting_title">FTP serveris</string>
+    <string name="ftp_notif_title">Amaze FTP serveris veikia</string>
+    <string name="ftp_notif_text">%s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP prievadas</string>
+    <string name="ftp_port_change_success">FTP sėkmingai pakeistas prievadas</string>
+    <string name="ftp_port_change_error_invalid">Pasirinktas netinkamas prievado numeris</string>
+    <string name="primary_two_title">Pagrindinė spalva (Dešinysis skirtukas)</string>
+    <string name="primary_two_summary">Nustatykite didelių NS elementų spalvą dešiniajame skirtuke</string>
+    <string name="support_development">Pagalba plėtrą</string>
+    <string name="report_bugs_title">Pranešti apie klaidas</string>
+    <string name="source_title">Šaltinio kodas</string>
+    <string name="source_summary">Peržiūrėkite šaltinio kodą „GitHub“</string>
+    <string name="report_bugs_summary">Praneškite apie klaidas arba paprašykite naujos funkcijos</string>
+    <string name="translate_title">Versti</string>
+    <string name="translate_summary">Išverskite Amaze į savo kalbą</string>
+    <string name="paypal_copy_message">PayPal ID nukopijuotas į mainų sritį</string>
+    <string name="searching_devices">Ieškoma įrenginių</string>
+    <string name="use_custom_ip">Naudoti tinkintą IP</string>
+    <string name="bookmark_lost">Žymė nerasta, kuriama iš naujo...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Kaip pasiekti bendrinamą „Windows“ aplanką „Android“ (SMB)\n\n
+                
+                    
+                        Įgalinti failų bendrinimą sistemoje „Windows“\n
+                    
+                    
+                        Atidarykite Valdymo skydą, spustelėkite Pasirinkti namų grupę ir bendrinimo parinktis, esančias dalyje Tinklas
+                        ir internetas, tada spustelėkite „Keisti išplėstinius bendrinimo nustatymus“, įgalinkite „Failas ir
+                        Spausdintuvo bendrinimo funkcija.\n\n
+                    
+
+                    
+                        Papildomi failų bendrinimo nustatymai\n
+                    
+                    
+                        Čia taip pat galite sukonfigūruoti kitus išplėstinius bendrinimo nustatymus. \n
+                        Pavyzdžiui, galite įgalinti prieigą prie failų be slaptažodžio, jei pasitikite visais
+                        įrenginius jūsų vietiniame tinkle. Įjungę failų ir spausdintuvų bendrinimą, galite
+                        atidarykite „File Explorer“ arba „Windows Explorer“, dešiniuoju pelės mygtuku spustelėkite aplanką, kurį norite bendrinti, ir
+                        pasirinkite Ypatybės. \n
+                        Spustelėkite mygtuką Bendrinti ir padarykite aplanką pasiekiamą tinkle.\n\n
+                        
+
+                    
+                        Įsitikinkite, kad abiejuose įrenginiuose veikia tas pats „Wi-Fi“ ryšys\n
+                    
+                    
+                        Ši funkcija leidžia failus pasiekti vietiniame tinkle, todėl jūsų kompiuteris ir mobilieji įrenginiai
+                        turi būti tame pačiame vietiniame tinkle. Negalite pasiekti bendrinamo „Windows“ aplanko
+                        internetu arba kai jūsų išmanusis telefonas yra prijungtas prie mobiliųjų duomenų – tai
+                        turi būti prijungtas prie „Wi-Fi“.\n\n
+                    
+
+                    
+                        Raskite IP adresą\n
+                    
+                    
+                        Atidarykite komandų eilutę. Įveskite \'ipconfig\' ir paspauskite Enter. Ieškokite Default Gateway
+                        pagal tinklo adapterį maršrutizatoriaus IP adresui. Ieškoti
+                        \\\"IPv4 Address\\\" toje pačioje adapterio skiltyje, kad rastumėte savo kompiuterio IP
+                        adresu.\n\n
+                    
+
+                    Įveskite išsamią informaciją SMB dialogo lange\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Negalima bendrinti daugiau nei 100 failų</string>
+    <string name="otg_access">Pasirinkite OTG įrenginio šaknį</string>
+    <string name="information">Informacija</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Prieiga</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Pakeista</string>
+
+    <string name="title">Pavadinimas</string>
+    <string name="artist">Atlikėjas</string>
+    <string name="album">Albumas</string>
+    <string name="year">Metai</string>
+    <string name="duration">Trukmė</string>
+    <string name="comment">Komentaras</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Sudėtinis rodinys</string>
+    <string name="codec">Kodekas</string>
+    <string name="channels">Kanalai</string>
+    <string name="sample_rate">Atrankos dažnis</string>
+    <string name="bitrate">Drautinis sparta</string>
+    <string name="dimensions">Matmenys</string>
+    <string name="frame_rate">Kadrų dažnis</string>
+    <string name="image_type">Vaizdo tipas</string>
+    <string name="width">Plotis</string>
+    <string name="height">Aukštis</string>
+    <string name="date_modified">Pakeitimo data</string>
+    <string name="software">Programinė įranga</string>
+    <string name="creator">Kūrėjas</string>
+    <string name="camera_brand">Kameros prekės ženklas</string>
+    <string name="camera_model">Kameros modelis</string>
+    <string name="date_taken">Padarymo data</string>
+    <string name="exposure_time">Ekspozicijos laikas</string>
+    <string name="aperture_value">Apertūras reikšmė</string>
+    <string name="image_iso">ISO greičio įvertinimas</string>
+    <string name="flash_fired">Blykstė įjungta</string>
+    <string name="focal_length">Židinio nuotolis</string>
+    <string name="subject">Tema</string>
+    <string name="author">Autorius</string>
+    <string name="keywords">Raktiniai žodžiai</string>
+    <string name="producer">Gamintojas</string>
+    <string name="created">Sukurta</string>
+    <string name="format">Formatas</string>
+    <string name="pages">Puslapių skaičius</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimizuotas</string>
+    <string name="security">Sauga</string>
+    <string name="paper_size">Popieriaus dydis</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Kai kurie failai nebuvo sėkmingai %s</string>
+    <string name="copied">nukopijuoti</string>
+    <string name="moved">perkelti</string>
+    <string name="copy_complete">Kopijuoti baigta</string>
+    <string name="waiting_title">Laukiu</string>
+    <string name="waiting_content">Laukiama, kol operacija bus baigta</string>
+    <string name="extract_complete">Ištraukimas baigtas</string>
+    <string name="compression_complete">Suspaudimas baigtas</string>
+    <string name="compressing">Suglaudinimas</string>
+    <string name="cancelled">Atšauktas</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Parašyta</string>
+    <string name="out_of">iš</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">iš</string>
+    <string name="processing_file">Apdorojamas failas</string>
+    <string name="current_speed">Dabartinis greitis</string>
+    <string name="smb_launch_error">Jei norite atidaryti šį failą, turėsite nukopijuoti į saugyklą</string>
+    <string name="error_file_not_found">Klaida: failas nerastas</string>
+    <string name="error_io">I/O klaida</string>
+    <string name="error_file_too_large">Klaida: failas per didelis</string>
+    <string name="medium_text">vidutinis tekstas</string>
+    <string name="permission_read">skaitytas</string>
+    <string name="permission_write">Rašyti</string>
+    <string name="permission_execute">Vykdyti</string>
+    <string name="permission_owner">Savininkas</string>
+    <string name="permission_group">Grupė</string>
+    <string name="permission_other">Kita</string>
+    <string name="clipboard_path_copy">Kelias nukopijuotas į mainų sritį</string>
+    <string name="service_timer">Praėjęs laikas</string>
+    <string name="please_wait">Prašome palaukti</string>
+
+    
+    <string name="cloud_connection_new">Naujas debesies ryšys</string>
+    
+    
+    
+    <string name="cloud_box">Dėžutė</string>
+    <string name="cloud_get">Gauti debesies papildinį</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Nėra programų</string>
+    <string name="ftp_path">Bendrinamas kelias</string>
+    <string name="ftp_path_hint">Kelias į katalogo šaknį, kurį norite bendrinti</string>
+    <string name="change">Keisti</string>
+    <string name="unknown_error">Oi, kažkas ne taip!</string>
+
+    <string name="ftp_path_change_success">FTP kelias sėkmingai pakeistas</string>
+    <string name="ftp_path_change_error_invalid">Netinkamas kelias</string>
+    <string name="ftp_status_no_connection">Nėra ryšio</string>
+    <string name="ftp_status_secure_connection">Saugus ryšys</string>
+    <string name="ftp_status_title">Būsena</string>
+    <string name="ftp_port">Prievadas</string>
+    <string name="ftp_login">Prisijungimas</string>
+    <string name="field_empty">Laukas negali būti tuščias</string>
+    <string name="ftp_timeout">Nenaudojimo laikas</string>
+    <string name="ftp_seconds">Sekundės</string>
+    <string name="intellihide_toolbar_title">Intellihide Įrankių juosta</string>
+    <string name="intellihide_toolbar_summary">Automatiškai slėpti įrankių juostą slenkant</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">nukopijuota į mainų sritį</string>
+    <string name="contributors_1_summary">Vertimas</string>
+    <string name="contributors_2_summary">Piktograma ir reklamjuostės</string>
+    <string name="contributors_3_summary">Temos modulis</string>
+    <string name="contributors_4_summary">Atspalvis už FAB</string>
+    <string name="contributors_5_summary">Spalvų perėjimas braukiant skirtukus</string>
+    <string name="contributors_6_summary">FTP serveris</string>
+    <string name="contributors_7_summary">Interaktyvaus apvalkalo suaktyvinimas</string>
+    <string name="connection_exists">Ryšys jau egzistuoja</string>
+
+    <string name="crypt_encrypting">Šifravimas</string>
+    <string name="crypt_decrypting">Iššifravimas</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Šifruotas</string>
+    <string name="crypt_decrypted">Iššifruotas</string>
+    <string name="crypt_encrypt">Šifravimas</string>
+    <string name="crypt_decrypt">Iššifruojamas</string>
+    <string name="operation_fail_following">Nepavyko atlikti šių failų:</string>
+    <string name="crypt_pref_master_password_title">Pagrindinis slaptažodis</string>
+    <string name="crypt_pref_master_password_summary">Nustatykite pagrindinį šifravimo slaptažodį.
+        Palikite tuščią, kad pašalintumėte.</string>
+    <string name="crypt_pref_fingerprint_title">Piršto atspaudas</string>
+    <string name="crypt_pref_fingerprint_summary">Šifravimui patvirtinti naudokite piršto atspaudą</string>
+    <string name="crypt_fingerprint_no_permission">Trūksta piršto atspaudų leidimų</string>
+    <string name="crypt_fingerprint_not_enrolled">Neužregistruotas piršto atspaudas</string>
+    <string name="crypt_fingerprint_no_security">Nėra užrakinimo ekrano apsaugos rasta</string>
+    <string name="crypt_warning_key">Įspėkite, kai pakeisite saugos modelį iš
+        Sistemos nustatymai, negalėsite iššifruoti šio turinio.</string>
+    <string name="warning_never_show">Daugiau neinformuoti</string>
+    <string name="warning_confirm">Supratau!</string>
+    <string name="crypt_encryption_fail">Nepavyko užšifruoti</string>
+    <string name="crypt_decryption_fail">Nepavyko iššifruoti</string>
+    <string name="crypt_decryption_fail_password">Klaidingas slaptažodis!</string>
+    <string name="crypt_fingerprint_authenticate">Norėdami tęsti, palieskite jutiklį</string>
+    <string name="authenticate_password">Įveskite slaptažodį</string>
+
+    <string name="sidebar_preferences">Šoninė juosta</string>
+    <string name="sidebar_quick_access_title">Šoninės juostos greita prieiga</string>
+    <string name="show_quick_access_pref_title">Rodyti greitas prieigas</string>
+    <string name="show_quick_access_pref">Greitas prieigas</string>
+    <string name="directory">Katalogas</string>
+
+    <string name="sidebar_bookmarks_title">Šoninės juostos žymės</string>
+    <string name="show_bookmarks_pref_title">Rodyti žymes</string>
+    <string name="show_bookmarks_pref">Žymės</string>
+    <string name="create_bookmark"> Sukurti žymę</string>
+    <string name="edit_bookmark">Redaguoti žymę</string>
+    <string name="question_delete_bookmark">Ištrinti žymę?</string>
+
+    <string name="cloud_error_plugin">Nerastas „Amaze Cloud“ papildinys. Atsisiųskite iš „Play“ parduotuvės.</string>
+    <string name="cloud_error_failed_restart">Nepavyko įkelti ryšio.
+        Vieną kartą atidarykite „Amaze Cloud“.</string>
+    <string name="cloud_remove">Ar norite pašalinti debesies ryšį?</string>
+    <string name="cloud_fail_authenticate">Nepavyko autentifikuoti</string>
+    <string name="cloud_share_copied">Bendrinama nuoroda nukopijuota į mainų sritį</string>
+    <string name="copy_low_memory">Baigiasi atmintis, išvalykite šiek tiek RAM</string>
+    <string name="cloud_token_lost">Pamestas prieigos raktas, prisijunkite dar kartą</string>
+    
+    <string name="showHeaders">Rodyti antraštes</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Nėra elementų</string>
+	<string name="item">elementas</string>
+	<string name="items">elementai</string>
+	
+	<string name="byte_singular">baitas</string>
+	<string name="bytes">baitas</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Failas turi turėti pavadinimą</string>
+    <string name="add_item">Pridėti elementą</string>
+    <string name="failed_smb_decrypt_path">Nepavyko įkelti SMB ryšys</string>
+    <string name="failed_cloud_new_connection">Nepavyko pridėti naujo debesies ryšio</string>
+    <string name="failed_cloud_api_key">Nepavyko autentifikuoti debesies papildinio</string>
+
+    <string name="local_inet_addr_error">Klaida gaunant vietinį inet adresą</string>
+    <string name="intent_save_as">Išsaugoti kaip...</string>
+    <string name="go">Eiti</string>
+    <string name="advanced">Išplėstiniai</string>
+    <string name="typeable_paths_title">Priskirti keliai</string>
+    <string name="typeable_paths_summary">Ilgai paspauskite kelio juostą, kad įvestumėte pasirinktinį kelią</string>
+    <string name="send_email_to">Siųsti el. laišką adresu</string>
+
+    <string name="text_editor">Teksto rengyklės nustatymai</string>
+    <string name="preference_newstack_title">Atidaryti failus kaip naują užduotį</string>
+    <string name="preference_newstack_summary">Leidžia atidaryti failus atliekant atskiras užduotis. Pasiekite juos iš naujausių sistemos ekrano.</string>
+    
+    <string name="developers">Kūrėjai</string>
+    <string name="no_bitcoin_app">Įdiekite „Bitcoin Wallet“ programą</string>
+    
+    
+    
+    <string name="channel_description_ftp">Amaze File Valdytojo FTP serverio pranešimai</string>
+
+    
+    <string name="processing">Apdorojama...</string>
+    <string name="failed_no_connection">Nepavyko įkelti failų. Patikrinkite ryšį.</string>
+
+    <string name="update">ATNAUJINIMAS</string>
+	<string name="scp_connection">SCP/SFTP ryšys</string>
+    <string name="ftp_connection">FTP ryšys</string>
+    <string name="ftps_connection">FTP per SSL ryšys</string>
+    <string name="scp_port">Prievadas</string>
+    <string name="ssh_host_key_verification_prompt">Neįmanoma nustatyti prieglobos \'%1$s\' autentiškumo.\n\n%2$s rakto piršto atspaudas yra %3$s.\n\nPaspauskite \"Taip\", kad patvirtintumėte tapatybė; kitu atveju palieskite \"Ne\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Patvirtinti pagrindinį kompiuterį</string>
+    <string name="ssh_select_pem_button">SSH privatų raktą</string>
+    <string name="ssh_pem_key_parse_error">Neįmanoma nuskaityti pasirinkto PEM: %s</string>
+    <string name="password_unchanged">(nepakeista)</string>
+    <string name="ssh_authentication_failure_password">Prisijungimo klaida: nepavyko autentifikuoti naudojant pateiktą vartotojo vardą ir slaptažodį.</string>
+    <string name="ssh_authentication_failure_key">Prisijungimo klaida: nepavyko autentifikuoti naudojant pateiktą vartotojo vardą ir privatų raktą.</string>
+    <string name="ssh_connect_failed">Nepavyko prisijungti prie %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ĮSPĖJIMAS: PASIKEITĖ NUOTOLINIO PRIEMONĖS IDENTIFIKACIJA!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">GALIMA, KAD KAŽKAS DARO KAŽKą NEGERAI!\n\nKažkas gali pasiklausyti jūsų dabar (žmogaus viduryje ataka)! Taip pat gali būti, kad pagrindinio kompiuterio raktas ką tik buvo pakeistas. Nuotolinio pagrindinio kompiuterio išsiųsto viešojo rakto piršto atspaudas nesutampa su „Amaze“ saugomu.\n\nSusisiekite su sistemos administratoriumi arba nustatykite naują ryšį, kad galėtumėte toliau prisijungti prie serverio.</string>
+    <string name="ssh_key_prompt_passphrase">Įveskite rakto slaptafrazę. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Paleidimo priemonė nepalaiko nuorodų kūrimo.</string>
+    
+    <string name="select_color_config">Pasirinkite spalvos konfigūraciją</string>
+    <string name="customize">Tinkinti</string>
+    
+    <string name="preselected_configs_title">&gt;Iš anksto pasirinktos konfigūracijos</string>
+    <string name="orange">Oranžinė</string>
+    <string name="blue">Mėlyna</string>
+    <string name="green">Žalia</string>
+    <string name="password_no_match">Slaptažodis neatitinka</string>
+    <string name="deselect_all">Atšaukti visų pasirinkimą</string>
+    <string name="filename">Failo pavadinimas</string>
+    <string name="compress_file_suggest_zip_extension">Rekomenduojame naudoti \".zip\" kaip failo plėtinį.</string>
+    <string name="about_amaze">Medžiagų dizaino failų tvarkyklė, skirta Android</string>
+    <string name="license">Licencija</string>
+    <string name="libraries">Bibliotekos</string>
+    <string name="password_repeat">Pakartokite slaptažodį</string>
+    <string name="create_file_suggest_txt_extension">Rekomenduojame naudoti \".txt\" kaip failo plėtinį.</string>
+    <string name="ssh_select_pem">Pasirinkite privatųjį autentifikavimo raktą</string>
+    <string name="ssh_key_invalid_passphrase">Netinkama rakto slaptafrazė.</string>
+    <string name="ssh_key_no_decoder_decrypt">Nėra tinkamo dekoderio PEM iššifruoti.</string>
+    <string name="encryption_fail_copy">Nepavyko atnaujinti šifravimo įrašo duomenų bazėje</string>
+    <string name="extracted">Ištraukta</string>
+    <string name="compressed">Suspausta</string>
+    <string name="processed">Apdorota</string>
+    <string name="no_obtainable_info">Nėra informacijos apie šį failą</string>
+    <string name="reopen_from_source">Negalima, atidarykite iš naujo iš paskutinės programos</string>
+    <string name="no_file_error">Kažkas nutiko, nėra ką atidaryti</string>
+    <string name="file_too_long">failas per ilgas ir jo negalima redaguoti, tačiau galite perskaityti pirmuosius %d simbolius</string>
+    <string name="file_read_only">Atidarytas failas yra tik skaitomas.</string>
+    <string name="got_it">Supratau!</string>
+    <string name="encrypt_file_save_as">Išsaugoti užšifruotą Failas kaip…</string>
+    <string name="encrypt_folder_save_as">Išsaugoti šifruotą aplanką kaip…</string>
+    <string name="encrypt_option_use_aze">Naudoti Amaze Encryption Format</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt yra atvirojo kodo failų šifravimo formatas, pagrįstas AES šifravimu. Jis taip pat yra nešiojamas, gali būti iššifruotas naudojant AESCrypt programas kitose platformose.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt svetainė</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'s Encryption Format taip pat pagrįstas AES šifravimu; tačiau skiriasi nuo AESCrypt formato, jį iššifruoti gali tik šis įrenginys; taip pat neturite pašalinti „Amaze File Manager“ iš šio įrenginio ir nekeisti ekrano užrakinimo būdo, kitaip neturėsite galimybės atkurti užšifruoto failo.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Šifruotų failų plėtinys turi būti \".aze\".</string>
+    <string name="encrypt_file_must_end_with_aes">Šifruotų failų plėtinys turi būti \".aes\".</string>
+    <string name="error_aescrypt_decrypt_failed">Neįmanoma iššifruoti \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Negalima perrašyti failo.</string>
+    <string name="saved_single_file">Failas išsaugotas kaip \'%s\'.</string>
+    <string name="saved_multi_files">Išsaugoti %d failai.</string>
+    <string name="create_hidden_file_warn">Sukurtas failas bus paslėptas failų sąraše.</string>
+    <string name="grant_apkinstall_permission">Programai reikia leidimo tęsti programų diegimą.</string>
+    <string name="time_remaining">Likęs laikas</string>
+    <string name="transfer_rate">Perdavimo greitis</string>
+    <string name="unknown">nežinoma</string>
+    <string name="multiple_invalid_archive_entries">Kai kurių archyve esančių failų negalima išskleisti; archyvas gali būti sugadintas arba kilęs iš kenkėjiško šaltinio.</string>
+    <string name="saf_otg_explanation">Saugumo sumetimais dabar eisite į „Android“ failų sistemą. Pasirinkite USB įrenginį iš sąrašo kairėje.</string>
+    <string name="donation_thanks">Dėkojame už auką, tai mus motyvuoja! (:</string>
+    <string name="enable_marquee_filename">Įgalinti rinkmenų efektą failų pavadinimams</string>
+    <string name="archive_password_prompt">Įveskite archyvo slaptažodį:</string>
+    
+    <string name="cannot_extract_archive">Neįmanoma išskleisti archyvo \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Neįmanoma atidaryti archyvą \"%s\". Arba negalime atidaryti archyvo, arba archyvas buvo sugadintas.</string>
+    <string name="close">Uždaryti</string>
+    <string name="bookmark_exists">Yra žymė</string>
+    <string name="hide_media">Slėpti nuo medijos naršyklių</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">GALIMA, KAD KAŽKAS DARO KĄ Bjaurų!\n\nŠiuo metu kažkas gali pasiklausyti jūsų (man-in-the-middle ataka)! Taip pat gali būti, kad prieglobos raktas ką tik buvo pakeistas. Piršto atspaudas nes nuotolinio pagrindinio kompiuterio atsiųstas viešasis raktas nesutampa su saugomu „Amaze“.\n\nGalite atnaujinti pagrindinio kompiuterio kontrolinio kodo atspaudą arba atšaukti SSH ryšio nustatymų atnaujinimą.</string>
+    <string name="update_host_key">Atnaujinti pagrindinio kompiuterio raktą</string>
+    <string name="cancel_recommended">Atšaukti (rekomenduojama)</string>
+    
+    
+    <string name="failed_install_apk">Nepavyko įdiegti</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Vidinė atmintis</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD kortelė</string>
+    <string name="choose_folder">Pasirinkti šį aplanką</string>
+    
+    <string name="some_files_failed_invalid_operation">Kai kurių failų nepavyko įdiegti dėl netinkamo operacija</string>
+    <string name="ftp_server_prompt_connect_to_network">Prisijunkite prie tinklo arba įgalinkite AP</string>
+    <string name="ftp_server_open_settings">Atidaryti nustatymus</string>
+    <string name="move">Perkelti</string>
+    <string name="select_save_location">Pasirinkite vietą, kurią norite išsaugoti</string>
+    <string name="scp_default_path">Numatytasis kelias (pasirenkama)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Atsiprašome, to neturėjo įvykti.</string>
+    
+    <string name="error_report_button_text">Praneškite apie šią klaidą el. paštu</string>
+    <string name="error_report_button_telegram">Praneškite apie šią klaidą telegrama</string>
+    <string name="copy_for_github">Kopijuokite suformatuotą ataskaitą</string>
+    <string name="error_report_open_issue_button_text">Pranešti apie „GitHub“</string>
+    <string name="error_report_open_github_notice">Patikrinkite, ar problema, aptarianti jūsų strigtį, jau egzistuoja.</string>
+    <string name="error_snackbar_message">Atsiprašome, kažkas nepavyko.</string>
+    <string name="error_snackbar_action">Pranešti</string>
+    <string name="what_device_headline">Informacija:</string>
+    <string name="what_happened_headline">Kas atsitiko:</string>
+    <string name="info_labels">Kas:\\nUžklausa:\\nGMT laikas:\\nPaketas:\\nVersija:\\nOS versija:\\nĮrenginys:\\nModelis:\\nProduktas :</string>
+    <string name="your_comment">Jūsų komentaras (anglų k.):</string>
+    <string name="error_details_headline">Išsami informacija:</string>
+    <string name="app_ui_crash">Programa/UI užstrigo</string>
+    <string name="error_report_title">Klaidos ataskaita</string>
+    <string name="crash_report_copied">Strigčių ataskaita nukopijuota į iškarpinė</string>
+    <string name="disableIpcSignature">Išjungti IPC pasirašymo patikrą (seniems SMBv1 serveriams – NESAUGU!)</string>
+    <string name="cannot_delete_file">Negalima ištrinti failo</string>
+    <string name="cannot_delete_file_with_reason">Negalima ištrinti failo – %s</string>
+    <string name="cannot_rename_file">Negalima pervardyti failo %s – %s</string>
+    <string name="cannot_read_directory">Neįmanoma nuskaityti katalogo %s – %s</string>
+    <string name="just_once">Tik vieną kartą</string>
+    <string name="always">Visada</string>
+    <string name="choose_different_app">Pasirinkite kitą programą</string>
+    <string name="clear_open_file">Išvalyti talpykla</string>
+    <string name="clear_open_file_summary">Išvalo pasirinktas numatytąsias failų atidarymo programas</string>
+    <string name="ftp_readonly">Tik skaitymo prieiga</string>
+    <string name="legacy_listing_title">Naudoti pasenusį šakninio sąrašo sąrašą</string>
+    <string name="legacy_listing_summary">Jei įjungta, failams sudaryti naudojamas senas metodas</string>
+    <string name="error_unsupported_v5_rar">RAR archyvas \"%s\" nepalaikomas RAR v5 archyvas.</string>
+    <string name="ftp_prompt_restart_server">Kad pakeitimai įsigaliotų, turėsite iš naujo paleisti FTP serverį.</string>
+    <string name="error_permission_denied">Leidimas atmestas</string>
+    <string name="error_archive_password_incorrect">Klaidingas archyvo slaptažodis.</string>
+    <string name="error_archive_cannot_extract">Nepavyko išskleisti archyvo įrašo \"%s\" į \"%s\".</string>
+    <string name="drag_and_drop_preference">Pasirinkite vilkimo ir numetimo nuostatą (eksperimentinė)</string>
+    <string name="drag_to_move_copy">Palieskite ir vilkite norėdami perkelti arba kopijuoti failus</string>
+    <string name="drag_to_select">Palieskite ir vilkite, kad pasirinktumėte failus</string>
+    <string name="disable">Išjungti</string>
+    <string name="choose_operation">Pasirinkite veiksmą, kurį norite atlikti</string>
+    <string name="remember">Prisiminti kitą kartą</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Suteikite SAF prieigą FTP serveriui</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Kadangi tai yra jūsų pirmasis FTP serverio paleidimas, o įrenginio vidinę atmintį naudojate kaip bendrinamą aplanką, leiskite „Amaze“ pasiekti saugyklą naudodami SAF.\n\n
+
+Tai padaryti reikia tik vieną kartą, kol kitą kartą pasirinksite naują bendrinimo vietą.</string>
+    <string name="android_data_prompt_saf_access">Nuo 10 versijos „Android“ „Android“ taikė apribojimus tam tikriems katalogams ir juos reikia pasiekti naudojant „Storage Access Framework“.\n \nLeiskite „Amaze“ pasiekti katalogą iš sistemos failų tvarkyklės paliesdami \"Leisti prieigą\".</string>
+    <string name="android_data_prompt_saf_access_title">Suteikti SAF prieigą</string>
+    <string name="ftp_preference_saf_filesystem_title">Naudoti pasenusią failų sistemą</string>
+    <string name="ftp_preference_saf_filesystem">Įgalinti tai palaiko įrenginio išorinės saugyklos naudojimą naujesnėse „Android“ versijose</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP serverio bendrinamas kelias buvo iš naujo nustatytas į vidinę atmintį, kai grįžtate prie senosios failų sistemos diegimo. Jei reikia, pasirinkite naują kelią naudodami viršutiniame dešiniajame kampe esantį meniu.</string>
+    <string name="ftp_server_reset_notify">FTP serverio bendrinamas kelias buvo iš naujo nustatytas į vidinę atmintį</string>
+    <string name="ftp_server_root_unavailable">Jūs pasirenkate kelią, kuriam reikia root prieigos. Įgalinkite root naršyklę nustatymuose, jei jūsų įrenginys yra įsišaknijęs.</string>
+    <string name="ftp_server_root_filesystem_warning">Pasirinkite kelią, kuriam reikalinga root prieiga, kuri įgalina skaitymo / rašymo operacijas visoje failų sistemoje jūsų įrenginyje, ir tai pavojinga – neatsargios klaidos gali sugadinti jūsų įrenginį!\n\nAr esate tikri?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Klaida atidarant URI \"%s\" skaityti.</string>
+    <string name="error_empty_archive">\"%s\" yra tuščias archyvas.</string>
+    <string name="error_bad_archive_without_info">\"%s\" yra sugadintas archyvas .</string>
+    <string name="error_bad_archive_with_info">\"%s\" yra sugadintas archyvas.\nPranešimas iš ekstraktoriaus: \"%s\"</string>
+    <string name="security_error">Failo nepavyko atidaryti naudojant šią programą</string>
+    <string name="cloud_drive_tooltip">Sukurti „Google Drive™“ ryšys, skirtas failams tvarkyti iš „Amaze“ failų tvarkytuvės.</string>
+    <string name="signin_with_google_title">Autentifikuoti, kad galėtumėte naudoti „Google“ diską™</string>
+    <string name="show_system_apps">Rodyti sistemos programas</string>
+    <string name="system_apps">Sistemos programas</string>
+    <string name="select_inverse">Pasirinkite Atvirkščiai</string>
+    <string name="select_by_type">Pasirinkti pagal tipą</string>
+    <string name="select_by_date">Pasirinkti pagal datą</string>
+    <string name="select_similar">Pasirinkti panašų</string>
+    <string name="error_fetching_google_play_product_list">Klaida gaunant produktų sąrašą iš „Google Play“.</string>
+    <string name="grant_all_files_permission">Nuo „Android 11“ , „Google“ prašo failų tvarkytojų prašyti naudotojo leidimo tvarkyti visus įrenginyje esančius failus. Išsami informacija čia.
+        \n\nAmaze File Manager taip pat reikia šio leidimo. Paspaudę „Suteikti“ čia, kitame ekrane pasirinkite Leisti prieigą, kad tvarkytumėte visus failus.
+        \n\nAtšaukus šį dialogo langą programa bus uždaryta.</string>
+    <string name="user_apps">Vartotojo programos</string>
+    <string name="appearance">Išvaizda</string>
+    <string name="behavior">Elgsena</string>
+    <string name="appearance_summary">Tinkinkite failų tvarkyklės temą, spalvas ir išvaizdą</string>
+    <string name="ui_summary">Valdykite, kokią informaciją rodyti, tinkinkite šoninę juostą ir perjunkite vartotojo sąsajos nuostatas</string>
+    <string name="behavior_summary">Keiskite veiksmus, pvz., išplėstinę paiešką ir ar atidaryti failus kaip naują užduotį</string>
+    <string name="security_summary">Nustatykite slaptažodį ir šifravimas</string>
+    <string name="backup_summary">Eksportuoti/importuoti Amaze nustatymus</string>
+
+    <string name="pref_export">Eksportuoti</string>
+    <string name="pref_export_summary">Eksportuoti nustatymus</string>
+    <string name="pref_import">Importuoti</string>
+    <string name="pref_import_summary">Importuoti nustatymus</string>
+
+    <string name="quick_desc">Failai neseniai buvo pasiekta per Amaze</string>
+    <string name="recent_desc">Neseniai sukurti arba modifikuoti failai</string>
+    <string name="error_cannot_find_way_open">Nepavyko atidaryti failo</string>
+    <string name="error_cant_decompress_that_file">Nepavyko apdoroti prašomo archyvo</string>
+    <string name="analyse_storage">Analizuoti saugyklą</string>
+    
+    <string name="download_amaze_utils_text">Esate nukreipti į Amaze File Utilities. Tai mūsų atvirojo kodo programa, kurioje yra integruotos garso/vaizdo/vaizdų/dokumentų peržiūros priemonės. Ji leidžia analizuoti nepageidaujamus failus, atlaisvinti saugyklos, greitai perkelti naudojant Wifi P2P ir dar daugiau.\nPalaikykite mus išbandydami.</string>
+    <string name="download">Atsisiųsti</string>
+    
+    <string name="amaze_utils_installed_alias">Dėkojame, kad įdiegėte „Amaze File Utilities“. Esate nukreipti į programą.</string>
+    <string name="image_viewer">Nustebinkite vaizdų peržiūros programą</string>
+    <string name="video_player">Nustebinkite vaizdo įrašų grotuvą</string>
+    <string name="amaze_audio_player">Nustebinkite muzikos grotuvą</string>
+    <string name="pdf_viewer">Nustebinkite dokumentų peržiūros programą</string>
+    <string name="docx_viewer">Nustebinkite dokumentų peržiūros programą</string>
+    <string name="share_logs">Bendrinti žurnalus</string>
+    <string name="share_logs_summary">Bendrinti užfiksuotus žurnalus el. paštu / telegrama</string>
+    <string name="open_with_amaze">Atidaryti naudojant Amaze</string>
+    <string name="confirmation">Patvirtinimas</string>
+    <string name="open_file_confirmation">Ar tikrai norite atidaryti šį failą?\n\nPavadinimas:\n%s\n\nVieta:\n%s\n\nDydis:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Pagal „Google Play“ politikos įgaliojimus programoms neleidžiama pačioms atnaujinti. Atnaujinkite programą iš „Google Play“.</string>
+    <string name="error_cannot_get_package_info">Nepavyko gauti paketo informacijos iš failo \"%s\". Nurodytas failas nėra APK, arba paketo failas sugadintas.</string>
+    <string name="preference_delete_confirmation">Ištrinti patvirtinimą</string>
+    <string name="preference_delete_confirmation_summary">Prieš ištrindami failus paprašykite patvirtinimo. Nerekomenduojama to išjungti!</string>
+    
+    
+    <string name="protocol_ftps">Saugus FTP</string>
+    <string name="unavailable">Nepasiekiamas</string>
+
+    <string name="exporting_failed">Eksportuoti nepavyko: nepavyko parašyti atsarginės kopijos failo</string>
+    <string name="importing_failed">Importuoti nepavyko: nepavyko nuskaityti atsarginės kopijos failas</string>
+    <string name="importing_completed">Importavimas baigtas</string>
+    <string name="invalid_backup_file">Netinkamas atsarginės kopijos failas</string>
+    <string name="import_failed_for">Nepavyko importuoti:</string>
+    <string name="free_of">"%s\n%s be %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin nepalaikoma naudojant F-Droid versiją. Naudokite Play Store Amaze versiją.</string>
+    <string name="disable_player_intent_filters">Išjungti grotuvo tikslų filtrus</string>
+    <string name="disable_player_intent_filters_summary">Išjungiami Amaze integruoti medijos leistuvai iš failų parinkiklio</string>
+    <string name="no_app_found_intent">Nerasta jokia programa, kuri galėtų apdoroti šį tikslą. Ar esate įdiegę DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection kredencialai išvalyti</string>
+    <string name="cloud_connection_credentials_cleared_msg">Deja, nepavyko perkelti jūsų debesies ryšio kredencialų į naują duomenų bazės schemą, todėl turėjome kad pašalintumėte juos iš programos. Dar kartą sukurkite debesies ryšį.</string>
+</resources>

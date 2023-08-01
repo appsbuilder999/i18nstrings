@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">फाइल प्रबंधक आश्चर्यचकित करू</string>
+    <string name="drawer_open">नेविगेशन दराज खोलू</string>
+    <string name="drawer_close">नेविगेशन दराज बंद करू</string>
+    <string name="icon">चिह्न</string>
+    <string name="apps">एप प्रबंधक</string>
+    <string name="ftp">FTP सर्वर</string>
+    <string name="setting">सेटिंग्स</string>
+    <string name="select">आइटम चुनू</string>
+    <string name="press_again">बाहर निकलबाक लेल फेरसँ दबाउ</string>
+    <string name="open">खूउ</string>
+    <string name="backup">बैकअप</string>
+    <string name="uninstall">अनइंस्टॉल करू</string>
+    <string name="play">प्ले स्टोर</string>
+    <string name="properties">गुण</string>
+    <string name="copyingapks">%d APK फाइल क\' %s मे कॉपी करब</string>
+    <string name="delbook">बुकमार्क मेटाउ</string>
+    <string name="add_to_bookmarks">बुकमार्क मे जोड़ू</string>
+    <string name="enterpath">पथ दर्ज करू</string>
+    <string name="cancel">रद्द करू</string>
+    <string name="create">बनाउ</string>
+    <string name="loading">लोड कएल जा रहल अछि...</string>
+    <string name="file_empty">फाइल खाली अछि</string>
+    <string name="error">त्रुटि</string>
+    <string name="search_results">%s क खोज परिणाम</string>
+    <string name="rename">नाम बदलू</string>
+    <string name="save">सहेजू</string>
+    <string name="bookmarks_added">बुकमार्क जोड़ल गेल</string>
+    <string name="fileexist">एकहि नामक फाइल पहिने सँ मौजूद अछि</string>
+    <string name="name">नाम</string>
+    <string name="date">तिथि</string>
+    <string name="location">स्थान</string>
+    <string name="size_capitalized">फोल्डर के आकार</string>
+    <string name="size">आकार</string>
+    <string name="enterzipname">जिप नाम दर्ज करू</string>
+    <string name="no_app_found">ई फाइल के खोलय लेल कोनो ऐप नै भेटल</string>
+    <string name="copying">कॉपी</string>
+    <string name="moving">चलैत</string>
+    <string name="file">फाइल</string>
+    <string name="folder">फोल्डर</string>
+    <string name="newfolder">नया फोल्डर</string>
+    <string name="entername">नाम दर्ज करू</string>
+    <string name="extracting">निष्कासन</string>
+    <string name="stopping">बंद करब</string>
+    <string name="open_parent">अभिभावक निर्देशिका खोलू</string>
+    <string name="open_with"/>
+    <string name="share">साझा करू</string>
+    <string name="about">क संग खोलू</string>
+    <string name="extract">नकास</string>
+    <string name="compress">संकुचित</string>
+    <string name="yes">केबारेमे&gt;हाँ</string>
+    <string name="no">नहि</string>
+    
+    <string name="dialog_delete_category_directories">निर्देशिका</string>
+    <string name="dialog_delete_category_files">फाइल</string>
+    <string name="dialog_delete_disclaimer">नीचाँ देल गेल वस्तु केँ मेटा देला सँ ओकरा स्थायी रूप सँ अहाँक डिवाइस सँ हटा देल जायत आ ओकरा रिकवर नहि कएल जा सकैत अछि.</string>
+    <string name="dialog_delete_title">आइटम स्थायी रूप स मेटाउ?</string>
+    <string name="deleting">मेटाउ</string>
+    <string name="question_set_path_as_home">की अहाँ एहि टैब क लेल वर्तमान पथ कए घर क रूप मे सेट करए चाहैत छी?</string>
+    <string name="directorysort">निर्देशिका सॉर्ट मोड</string>
+    <string name="sort_by">द्वारा क्रमबद्ध करू</string>
+    <string name="sort_only_this">केवल ई फोल्डर</string>
+    <string name="theme">थीम</string>
+    <string name="random">रैंडम स्किन</string>
+    <string name="random_summary">स्टार्टअप पर यादृच्छिक प्राथमिक रंग सेट करैत अछि</string>
+    <string name="colorize">रंग आइकन</string>
+    <string name="colorize_summary">सेट करैत अछि स्थिर आइकन रंग। निर्देशिका आइकन रंग वरीयता ओवरराइड नहि करैत अछि.</string>
+    <string name="home">घर</string>
+    <string name="paste">पेस्ट</string>
+    <string name="history">इतिहास</string>
+    <string name="copy">कॉपी</string>
+    <string name="root_mode">रूट एक्सप्लोरर</string>
+    <string name="root_mode_summary">केवल रूट डिवाइस क लेल. एकर जाँच तखने करू जखन अहाँ एकरा बारे मे निश्चित छी.</string>
+    <string name="root_failure">रूट एक्सेस प्रदान नहि कएल गेल</string>
+    <string name="select_all">सब</string>
+    <string name="delete">मेटाउ</string>
+    <string name="set_as_home">घर के रूप मे सेट करू</string>
+    <string name="operation_not_supported">चुनू संचालन समर्थित नहि</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">सामग्री प्रकाश</string>
+    <string name="dark">सामग्री अंधेरा</string>
+    <string name="daytime">दिन के समय</string>
+    <string name="black">काला (ओएलईडी के लेल)</string>
+    <string name="system">सिस्टम (सिस्टम थीम के पालन करू)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">ऊपर पर फोल्डर</string>
+    <string name="filesOnTop">ऊपर फाइल</string>
+    <string name="none_on_top">ऊपर कोनो नहि</string>
+    <!--SortBy-->
+    <string name="sort_name">नाम</string>
+    <string name="lastModified">अंतिम संशोधित</string>
+    <string name="sort_size">आकार</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">कोनो फाइल चुनू</string>
+    <string name="process_viewer">प्रक्रिया दर्शक</string>
+    <string name="in_safe">अपर्याप्त स्थान</string>
+    <string name="no_file_overwrite">कोनो फाइल ओवरराइट नहि अछि</string>
+    <string name="skip">छोड़ू</string>
+    <string name="overwrite">ओवरराइट करू</string>
+    <string name="not_allowed">अनुमत नहि अछि</string>
+    <string name="searching">खोज %s</string>
+    <string name="done">कहल गेल</string>
+    <string name="set">सेट</string>
+    <string name="enablerootmde">रूट मोड सक्षम करू</string>
+    <string name="goback">पाछू जाउ</string>
+    <string name="newfile">नव फाइल</string>
+    <string name="no_files">कोनो फाइल नहि</string>
+    <string name="used">प्रयुक्त स्थान</string>
+    <string name="used_by_others">दोसर द्वारा उपयोग कएल गेल</string>
+    <string name="free">मुक्त स्थान</string>
+    <string name="listview">सूची देखू</string>
+    <string name="gridview">ग्रिड देखू</string>
+    <string name="permission">अनुमति</string>
+    <string name="hide">छुपाउ</string>
+    <string name="exit">निकास</string>
+    <string name="doforall">सब आइटम के लेल करू</string>
+    <string name="gridcolumnno">ग्रिड दृश्य मे कॉलम के संख्या</string>
+    <string name="set_random">परिवर्तन अहां कें ऐप</string>
+    <string name="authors">लेखक</string>
+    <string name="changelog">परिवर्तनलॉग</string>
+    <string name="ok">ठीक</string>
+    <string name="ui">इंटरफेस</string>
+    <string name="general">सामान्य</string>
+    <string name="thumb_summary">कें पुनः आरंभ करय कें बाद होयत ऐप आरू छवि के थंबनेल दिखाएँ</string>
+    <string name="thumb">थंबनेल दिखाएँ</string>
+    <string name="hidden">छुपा फाइल और फोल्डर दिखाएँ</string>
+    <string name="lastModifiedSummary">अंतिम संशोधन की तिथि और समय दिखाएँ</string>
+    <string name="lastModifiedPref">अंतिम संशोधित तिथि दिखाएँ और... समय</string>
+    <string name="size_pref_summary">फाइल के आकार आरू फोल्डर म॑ आइटम के संख्या दिखाबै</string>
+    <string name="size_pref">आकार दिखाबै</string>
+    <string name="miscellaneous">विविध</string>
+    <string name="root_pref_summary">फाइल आरू फोल्डर के अनुमति दिखाबै</string>
+    <string name="root_pref">अनुमति देखाउ</string>
+    <string name="about_amaze_file_manager_label">Amaze फाइल प्रबंधक</string>
+    <string name="version">संस्करण</string>
+    <string name="rate">एप्प के रेट करू</string>
+    <string name="feedback">प्रतिक्रिया भेजू</string>
+    <string name="hiddenfiles">छुपल फाइल</string>
+    <string name="type">टाइप करू</string>
+    <string name="root_directory">रूट</string>
+    <string name="add_shortcut">शॉर्टकट जोड़ू</string>
+    <string name="unsaved_changes">अनसेव कएल गेल परिवर्तन</string>
+    <string name="unsaved_changes_description">अहाँक पास अनसेव कएल गेल परिवर्तन अछि, की अहाँ ओकरा बाहर निकलबासँ पहिने सहेजए चाहैत छी ?</string>
+    <string name="saving">सहेज रहल अछि</string>
+    <string name="package_installer">पैकेज इंस्टॉलर</string>
+    <string name="view">देखू</string>
+    <string name="install">इंस्टॉल</string>
+    <string name="archive">संग्रह</string>
+    <string name="archive_text">ई एकटा संग्रह अछि. अहाँ कोन क्रिया करय चाहब?</string>
+    <string name="package_installer_text">ई एकटा पैकेज इंस्टॉलर अछि. अहाँ कोन क्रिया करय चाहब?</string>
+    <string name="xda_title">XDA थ्रेड</string>
+    <string name="xda_summary">प्रश्न-उत्तर, मदद आ समस्या निवारण</string>
+    <string name="circular_images">छवि आ वीडियो के लेल गोलाकार आइकन के प्रयोग करू</string>
+    <string name="circular_icons">गोलाकार आइकन के प्रयोग करू</string>
+    <string name="back_title">बैक नेविगेशन</string>
+    <string name="back_summary">सूची के शीर्ष पर कस्टम बैक नेविगेशन सक्षम करै छै</string>
+    <string name="details">विवरण</string>
+    <string name="translators">अनुवादक</string>
+    <string name="german_translation_title">जर्मन</string>
+    <string name="italian_translation_title">इटालियन</string>
+    <string name="french_translation_title">फ्रेंच</string>
+    <string name="russian_translation_title">रूसी</string>
+    <string name="spanish_translation_title">स्पेनिश</string>
+    <string name="basque_translation_title">बास्क</string>
+    <string name="chinese_translation_title">चीनी</string>
+    <string name="serbian_translation_title">सर्बियाई</string>
+    <string name="turkish_translation_title">तुर्की</string>
+    <string name="ukrainian_translation_title">यूक्रेनी</string>
+    <string name="portuguese_translation_title">पुर्तगाली</string>
+    <string name="polish_translation_title">पोलिश</string>
+    <string name="korean_translation_title">कोरियाई</string>
+    <string name="greek_translation_title">ग्रीक</string>
+    <string name="dutch_translation_title">डच</string>
+    <string name="romanian_translation_title">रोमानियन</string>
+    <string name="vietnamese_translation_title">वियतनाम</string>
+    <string name="japanese_translation_title">जापानी</string>
+    <string name="tamil_translation_title">तमिल</string>
+
+    <string name="zip_viewer">ज़िप व्यूअर</string>
+    <string name="unin_system_apk">ई एकटा सिस्टम ऐप अछि, एकरा मेटा देला सँ सिस्टम अस्थिरता भ\' सकैत अछि.\nआगाँ बढ़ू?</string>
+    <string name="warning">चेतावनी</string>
+    <string name="donate">दान करू</string>
+    <string name="archive_extract_folder">संग्रह निकालू फोल्डर</string>
+    <string name="archive_summary">संग्रह फाइल एहि फोल्डर मे निकालल जाएत. पूर्वनिर्धारित मान ओ निर्देशिका अछि जाहि मे संग्रह मौजूद अछि.</string>
+    <string name="open_as">के रूप मे खोलू</string>
+    <string name="text">पाठ</string>
+    <string name="audio">ऑडियो</string>
+    <string name="video">वीडियो</string>
+    <string name="other">अन्य</string>
+    <string name="image">छवि</string>
+    <string name="contributors">योगदानकर्ता</string>
+    <string name="save_paths">पथ याद राखू</string>
+    <string name="save_path_summary">शुरुआत करबा काल, प्रत्येक टैब क लेल सबसँ हाल मे देखल गेल फोल्डर प्रदर्शित कएल जाएत</string>
+    <string name="select_intent">चयन करू</string>
+    <string name="database">डेटाबेस</string>
+    <string name="colored_navigation">रंगीन नेविगेशन बार</string>
+    <string name="colored_navigvation_sum">सिस्टम नेविगेशन बार त्वचा कें साथ रंगल गेल छै या नहि</string>
+
+    <string name="color_title">रंग</string>
+    <string name="color_summary">रंग कें विभिन्न यूआई घटक पर सेट करूं</string>
+    <string name="primary_color_title">प्राथमिक रंग (बाँया टैब)</string>
+    <string name="primary_color_summary">बामा टैब क लेल रंग कए पैघ यूआई तत्व पर सेट करू</string>
+    <string name="accent_color_title">उच्चारण रंग</string>
+    <string name="accent_color_summary">रंग कए FAB आओर अन्य छोट यूआई पर सेट करू तत्व</string>
+    <string name="icon_color_title">चिह्न रंग</string>
+    <string name="icon_color_summary">चिह्न पर रंग सेट करू</string>
+    <string name="choose_color">रंग चुनू</string>
+    <string name="files">फाइल</string>
+    <string name="textreader">पाठ पाठक</string>
+    <string name="databasereader">डेटाबेस पाठक</string>
+    <string name="show_dividers">विभाजक दिखाउ</string>
+    <string name="needs_access">लिखय पहुँच आवश्यक</string>
+    <string name="needs_access_summary">कृपया \t</string>
+    <string name="needs_access_summary1">\क रूट निर्देशिका चुनू</string>
+    <string name="smb_connection">संचालित करबाक लेल लिखबाक पहुँच प्रदान करू एसएमबी कनेक्शन</string>
+    <string name="smb_server">सर्वर आईपी पता</string>
+    <string name="server_address">सर्वर आईपी पता</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="password">पासवर्ड</string>
+    <string name="anonymous">अनाम</string>
+    <string name="bluetooth">ब्लूटूथ</string>
+    <string name="folders">फोल्डर</string>
+    <string name="folderfilecount">%1$d फोल्डर आओर %2$d फाइल</string>
+    <string name="videos">वीडियो</string>
+    
+    <string name="documents">दस्तावेज</string>
+    <string name="images">छवि</string>
+    <string name="clear">साफ</string>
+    
+    <string name="total">कुल:</string>
+    <string name="calculating">गणना</string>
+    <string name="sort">क्रमबद्ध</string>
+    <string name="ascending">आरोही</string>
+    <string name="descending">अवरोही</string>
+    <string name="default_string">डिफ़ॉल्ट</string>
+    <string name="doit">की ई</string>
+    <string name="want_help">मदद के जरूरत अछि?</string>
+    <string name="quick">त्वरित पहुँच</string>
+    <string name="recent">हाल के फाइल</string>
+    <string name="edit">संपादित करू</string>
+    <string name="find">पृष्ठ मे खोजू</string>
+    <string name="grant">अनुदान</string>
+    <string name="grantper">अनुमति प्रदान करू</string>
+    <string name="grantfailed">अनुमति नहि देल गेल</string>
+    <string name="grant_storage_permission">एप्प केँ जारी रखबाक लेल भंडारण अनुमति चाही. एहि संवाद केँ रद्द करला सँ ऐप सँ बाहर निकलि जायत.</string>
+    <string name="operation_unsuccesful">ऑपरेशन असफल</string>
+    <string name="creatingfile">फाइल बना रहल अछि</string>
+    <string name="creatingfolder">फोल्डर बना रहल अछि</string>
+    <string name="renaming">नाम बदलब</string>
+    <string name="cant_be_empty">%s खाली नहि भ\' सकैत अछि</string>
+    <string name="ip">पता</string>
+    <string name="connection_name">कनेक्ट नाम</string>
+    <string name="no_device_found">कोनो डिवाइस नहि भेटल</string>
+    <string name="path">पथ</string>
+    <string name="rename_bookmark">बुकमार्क संशोधित करू</string>
+    <string name="cut">कट</string>
+    <string name="search">खोज</string>
+    <string name="invalid_name">अमान्य नाम</string>
+    <string name="search_hint">खोज के लेल टाइप करू...</string>
+    <string name="advanced_search">उन्नत खोज</string>
+    <string name="regular_expression">नियमित अभिव्यक्ति</string>
+    <string name="regular_expression_summary">BASH शैली के नियमित अभिव्यक्ति के उपयोग क खोज करू</string>
+    <string name="match_content">सामग्री मिलान</string>
+    <string name="match_content_summary">यदि सेट कएल गेल अछि, तँ नियमित अभिव्यक्ति पूरा फाइल नामक संग मिलान कएल जाएत,
+        अन्यथा घटना के खोज करत.</string>
+    <string name="start_ftp">शुरु करू</string>
+    <string name="stop_ftp">बंद करू</string>
+    <string name="ftp_status_running">चल रहल अछि</string>
+    <string name="ftp_status_not_running">चल नहि रहल अछि</string>
+    <string name="ftp_no_wifi">सुनिश्चित करू जे अहाँ Wi सं जुड़ल छी -Fi</string>
+    <string name="domain">डोमेन</string>
+    <string name="smb_share">साझा पथ</string>
+    <string name="invalid">अमान्य %s</string>
+    <string name="ftp_notif_starting">FTP सर्वर शुरू भ रहल अछि</string>
+    <string name="ftp_notif_starting_title">FTP सर्वर</string>
+    <string name="ftp_notif_title">FTP सर्वर चल रहल अछि आश्चर्यचकित करू</string>
+    <string name="ftp_notif_text">%s पर</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP पोर्ट</string>
+    <string name="ftp_port_change_success">FTP पोर्ट सफलतापूर्वक बदलल गेल</string>
+    <string name="ftp_port_change_error_invalid">अवैध पोर्ट नंबर चुनल गेल</string>
+    <string name="primary_two_title">प्राथमिक रंग (दाहिना टैब)</string>
+    <string name="primary_two_summary">सही टैब</string>
+    <string name="support_development">विकास के समर्थन करू</string>
+    <string name="report_bugs_title">बग के रिपोर्ट करू</string>
+    <string name="source_title">स्रोत कोड</string>
+    <string name="source_summary">GitHub पर हमर स्रोत कोड देखू</string>
+    <string name="report_bugs_summary">बग के रिपोर्ट करू या नव सुविधा के अनुरोध करू</string>
+    <string name="translate_title">अनुवाद</string>
+    <string name="translate_summary">अपन भाषा मे अमेज़ के अनुवाद करू</string>
+    <string name="paypal_copy_message">पेपैल आईडी क्लिपबोर्ड पर कॉपी कएल गेल</string>
+    <string name="searching_devices">डिवाइस के खोज</string>
+    <string name="use_custom_ip">कस्टम आईपी के उपयोग करू</string>
+    <string name="bookmark_lost">बुकमार्क नहि भेटल, पुनः सृजन करब...</string>
+
+    <string name="smb_instructions">
+        
+            
+                एंड्रॉयड (SMB) पर साझा विंडोज फोल्डर तक कोना पहुँचल जाय\n\n
+                
+                    
+                        विंडोज पर फाइल साझा करब सक्षम करू\n
+                    
+                    
+                        कंट्रोल पैनल खोलू, नेटवर्क के अंतर्गत होमग्रुप आओर शेयरिंग विकल्प चुनू पर क्लिक करू
+                        आओर इंटरनेट, आओर "उन्नत साझा सेटिंग्स बदलू" पर क्लिक करू, "फाइल आओर
+                        मुद्रक साझा करब" सुविधा।\n\n
+                    
+
+                    
+                        अतिरिक्त फाइल साझा सेटिंग्स\n
+                    
+                    
+                        अहां एतय अन्य एडवांस शेयरिंग सेटिंग्स कें सेहो कॉन्फ़िगर करय चाहब. \n
+                        जेना, अहां बिना पासवर्ड कें अपन फाइल कें पहुंच सक्षम कयर सकय छी अगर अहां सब पर भरोसा करय छी
+                        अपन स्थानीय नेटवर्क पर डिवाइस कें. एक बेर फाइल आओर प्रिंटर साझा करब सक्षम भ गेलाक बाद, अहां क\' सकय छी
+                        फाइल एक्सप्लोरर अथवा विंडोज एक्सप्लोरर खोलू, कोनो फोल्डर पर राइट-क्लिक करू जकरा अहाँ साझा करय चाहैत छी, आओर
+                        गुण चुनू। \n
+                        साझा बटन पर क्लिक करू आओर फोल्डर केँ नेटवर्क पर उपलब्ध करू.\n\n
+                        
+
+                    
+                        सुनिश्चित करू जे दुनू डिवाइस एकहि वाईफाई पर अछि\n
+                    
+                    
+                        इ सुविधा स्थानीय नेटवर्क पर फाइल उपलब्ध करायत छै, अइ कें लेल अहां कें पीसी आ मोबाइल डिवाइस
+                        एकहि स्थानीय नेटवर्क पर होबय पड़त. अहाँ साझा विंडोज फोल्डर तक नहि पहुँचि सकैत छी
+                        इंटरनेट पर या जखन अहां कें स्मार्टफोन ओकर मोबाइल डाटा सं जुड़ल छै — इ
+                        वाई-फाई सँ कनेक्ट होबय पड़त.\n\n
+                    
+
+                    
+                        आईपी ​​पता खोजें\n
+                    
+                    
+                        कमांड प्रॉम्प्ट खोलू। \'ipconfig\' टाइप करू आओर एंटर दबाउ. डिफ़ॉल्ट गेटवे देखू
+                        अपन राउटर कें आईपी पता कें लेल अपन नेटवर्क एडाप्टर कें तहत. ताकू
+                        \\\"IPv4 पता\\\" के अंतर्गत ओही एडाप्टर अनुभाग के अंतर्गत अपन कंप्यूटर\'s IP खोजबाक लेल
+                        पता।\n\n
+                    
+
+                    SMB संवाद बॉक्स मे विवरण दर्ज करू\n
+                
+            
+        
+   </string>
+    <string name="share_limit">100 सं बेसि फाइल कें साझा नहि कयर सकय छै</string>
+    <string name="otg_access">OTG डिवाइस कें जड़ कें चयन करूं</string>
+    <string name="information">सूचना</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">अभिगमन</string>
+    <!-- reference to file modified date -->
+    <string name="modified">संशोधित</string>
+
+    <string name="title">शीर्षक</string>
+    <string name="artist">कलाकार</string>
+    <string name="album">एलबम</string>
+    <string name="year">वर्ष</string>
+    <string name="duration">अवधि</string>
+    <string name="comment">टिप्पणी</string>
+    <!-- reference to audio/video file -->
+    <string name="container">कंटेनर</string>
+    <string name="codec">कोडेक</string>
+    <string name="channels">चैनल</string>
+    <string name="sample_rate">नमूना दर</string>
+    <string name="bitrate">बिटरेट</string>
+    <string name="dimensions">आयाम</string>
+    <string name="frame_rate">फ्रेम दर</string>
+    <string name="image_type">छवि प्रकार</string>
+    <string name="width">चौड़ाई</string>
+    <string name="height">ऊँचाई</string>
+    <string name="date_modified">तिथि संशोधित</string>
+    <string name="software">सॉफ्टवेयर</string>
+    <string name="creator">निर्माता</string>
+    <string name="camera_brand">कैमरा ब्रांड</string>
+    <string name="camera_model">कैमरा मॉडल</string>
+    <string name="date_taken">लेल गेल तिथि</string>
+    <string name="exposure_time">एक्सपोजर समय</string>
+    <string name="aperture_value">एपर्चर मान</string>
+    <string name="image_iso">आईएसओ गति रेटिंग</string>
+    <string name="flash_fired">फ्लैश फायर</string>
+    <string name="focal_length">फोकल लंबाई</string>
+    <string name="subject">विषय</string>
+    <string name="author">लेखक</string>
+    <string name="keywords">कीवर्ड</string>
+    <string name="producer">निर्माता</string>
+    <string name="created">बनाओल गेल</string>
+    <string name="format">स्वरूप</string>
+    <string name="pages">पृष्ठक संख्या</string>
+    <!-- reference to a document file -->
+    <string name="optimized">अनुकूलित</string>
+    <string name="security">सुरक्षा</string>
+    <string name="paper_size">कागजक आकार</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">किछु फाइल\' t सफलतापूर्वक %s</string>
+    <string name="copied">प्रतिलिपि</string>
+    <string name="moved">स्थानांतरित</string>
+    <string name="copy_complete">प्रतिलिपि पूरा</string>
+    <string name="waiting_title">प्रतीक्षा</string>
+    <string name="waiting_content">ऑपरेशन पूरा होय के इंतजार छै</string>
+    <string name="extract_complete">निष्कर्षण पूरा</string>
+    <string name="compression_complete">संपीड़न पूरा</string>
+    <string name="compressing">संपीड़न</string>
+    <string name="cancelled">रद्द करलऽ गेलऽ</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">लिखलऽ गेलऽ</string>
+    <string name="out_of">of</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    
+    <string name="processing_file">प्रोसेसिंग फाइल</string>
+    <string name="current_speed">वर्तमान गति</string>
+    <string name="smb_launch_error">अहाँ केँ एहि फाइल केँ खोलबाक लेल भंडारण मे कॉपी करय पड़त</string>
+    <string name="error_file_not_found">त्रुटि: फाइल नहि भेटल</string>
+    <string name="error_io">I/O त्रुटि</string>
+    <string name="error_file_too_large">त्रुटि: फाइल बहुत पैघ</string>
+    <string name="medium_text">मध्यम पाठ</string>
+    <string name="permission_read">पढ़ू</string>
+    <string name="permission_write">लिखू</string>
+    <string name="permission_execute">निष्पादित करू</string>
+    <string name="permission_owner">मालिक</string>
+    <string name="permission_group">समूह</string>
+    <string name="permission_other">अन्य</string>
+    <string name="clipboard_path_copy">क्लिपबोर्ड पर कॉपी कएल गेल पथ</string>
+    <string name="service_timer">समय बीतल</string>
+    <string name="please_wait">कृपया प्रतीक्षा करू</string>
+
+    <string name="cloud_connection">क्लाउड कनेक्शन</string>
+    <string name="cloud_connection_new">नव क्लाउड कनेक्शन</string>
+    <string name="cloud_dropbox">ड्रॉपबॉक्स</string>
+    <string name="cloud_drive">गूगल ड्राइवTM</string>
+    <string name="cloud_onedrive">वनड्राइव</string>
+    <string name="cloud_box">बॉक्स</string>
+    <string name="cloud_get">क्लाउड प्लगइन प्राप्त करू</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">कोनो अनुप्रयोग नहि</string>
+    <string name="ftp_path">साझा पथ</string>
+    <string name="ftp_path_hint">साझा करबाक लेल निर्देशिका क जड़ क लेल पथ</string>
+    <string name="change">बदलाउ</string>
+    <string name="unknown_error">उफ, किछु गड़बड़ भ\' गेल!</string>
+
+    <string name="ftp_path_change_success">FTP पथ सफलतापूर्वक बदलल गेल</string>
+    <string name="ftp_path_change_error_invalid">अमान्य पथ</string>
+    <string name="ftp_status_no_connection">कोनो कनेक्शन नहि</string>
+    <string name="ftp_status_secure_connection">सुरक्षित कनेक्शन</string>
+    <string name="ftp_status_title">स्थिति</string>
+    <string name="ftp_port">पोर्ट</string>
+    <string name="ftp_login">लॉगिन</string>
+    <string name="field_empty">फील्ड खाली नहि भ\' सकैत अछि</string>
+    <string name="ftp_timeout">निष्क्रिय समय समाप्त</string>
+    <string name="ftp_seconds">सेकेंड</string>
+    <string name="intellihide_toolbar_title">इंटेलीहिड टूलबार</string>
+    <string name="intellihide_toolbar_summary">स्क्रॉल करय काल टूलबार कें स्वचालित रूप सं नुकाउ</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">क्लिपबोर्ड मे कॉपी कएल गेल</string>
+    <string name="contributors_1_summary">अनुवाद</string>
+    <string name="contributors_2_summary">चिह्न आओर बैनर</string>
+    <string name="contributors_3_summary">थीम इंजन</string>
+    <string name="contributors_4_summary">FAB के पाछु छाया</string>
+    <string name="contributors_5_summary">टैब स्वाइप करय काल रंग संक्रमण</string>
+    <string name="contributors_6_summary">FTP सर्वर</string>
+    <string name="contributors_7_summary">एकटा इंटरैक्टिव शेल के फायरिंग</string>
+    <string name="connection_exists">कनेक्शन पहिने सँ मौजूद अछि</string>
+
+    <string name="crypt_encrypting">एन्क्रिप्टिंग</string>
+    <string name="crypt_decrypting">डिक्रिप्टिंग</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">एन्क्रिप्टेड</string>
+    <string name="crypt_decrypted">डिक्रिप्टेड</string>
+    <string name="crypt_encrypt">एन्क्रिप्ट</string>
+    <string name="crypt_decrypt">डिक्रिप्ट</string>
+    <string name="operation_fail_following">निम्नलिखित फाइल क लेल ऑपरेशन विफल</string>
+    <string name="crypt_pref_master_password_title">मास्टर पासवर्ड</string>
+    <string name="crypt_pref_master_password_summary">एन्क्रिप्शन क लेल एकटा मास्टर पासवर्ड सेट करू.
+        हटाबय लेल खाली छोड़ू.</string>
+    <string name="crypt_pref_fingerprint_title">फिंगरप्रिंट</string>
+    <string name="crypt_pref_fingerprint_summary">एन्क्रिप्शन के प्रमाणित करय लेल फिंगरप्रिंट के उपयोग करू</string>
+    <string name="crypt_fingerprint_no_permission">फिंगरप्रिंट अनुमति गायब</string>
+    <string name="crypt_fingerprint_not_enrolled">कोनो फिंगरप्रिंट नामांकित नहि</string>
+    <string name="crypt_fingerprint_no_security">कोनो लॉकस्क्रीन सुरक्षा नहि भेटल</string>
+    <string name="crypt_warning_key">सल्लाह राखू, जखन अहाँ अपन सुरक्षा पैटर्न सँ बदलैत छी
+        सिस्टम सेटिंग्स, अहाँ एहि सामग्री केँ डिक्रिप्ट नहि क\' सकब.</string>
+    <string name="warning_never_show">दोबारा सूचित नहि करू</string>
+    <string name="warning_confirm">मिलल!</string>
+    <string name="crypt_encryption_fail">एन्क्रिप्ट करबा मे असफल</string>
+    <string name="crypt_decryption_fail">डिक्रिप्ट करबा मे असफल</string>
+    <string name="crypt_decryption_fail_password">गलत पासवर्ड!</string>
+    <string name="crypt_fingerprint_authenticate">जारी रखबाक लेल टच सेंसर</string>
+    <string name="authenticate_password">पासवर्ड दर्ज करू</string>
+
+    <string name="sidebar_preferences">साइडबार</string>
+    <string name="sidebar_quick_access_title">साइडबार त्वरित पहुँच</string>
+    <string name="show_quick_access_pref_title">त्वरित पहुँच दिखाएँ</string>
+    <string name="show_quick_access_pref">त्वरित पहुँच</string>
+    <string name="directory">निर्देशिका</string>
+
+    <string name="sidebar_bookmarks_title">साइडबार बुकमार्क</string>
+    <string name="show_bookmarks_pref_title">बुकमार्क दिखाएँ</string>
+    <string name="show_bookmarks_pref">बुकमार्क</string>
+    <string name="create_bookmark">बुकमार्क बनाउ</string>
+    <string name="edit_bookmark">बुकमार्क संपादित करू</string>
+    <string name="question_delete_bookmark">बुकमार्क मेटाउ?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud प्लगइन नहि भेटल. कृपया प्ले स्टोर सँ डाउनलोड करू.</string>
+    <string name="cloud_error_failed_restart">कनेक्शन लोड करबा मे असफल.
+        कृपया एक बेर अमेज़ क्लाउड खोलू.</string>
+    <string name="cloud_remove">की अहाँ क्लाउड कनेक्शन हटाबय चाहैत छी?</string>
+    <string name="cloud_fail_authenticate">प्रमाणित करबा मे असफल</string>
+    <string name="cloud_share_copied">साझा करय योग्य लिंक क्लिपबोर्ड पर कॉपी कएल गेल</string>
+    <string name="copy_low_memory">समाप्त भ\' रहल अछि मेमोरी, कृपया किछु रैम साफ करू</string>
+    <string name="cloud_token_lost">टोकन हेरा गेल, कृपया फेर सँ साइन-इन करू</string>
+    <string name="monofont">मोनोस्पेस फॉन्ट</string>
+    <string name="showHeaders">हेडर देखाउ</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">कोनो आइटम नहि</string>
+	<string name="item">आइटम</string>
+	<string name="items">आइटम</string>
+	
+	<string name="byte_singular">बाइट</string>
+	<string name="bytes">बाइट</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">फाइल के नाम होबाक चाही</string>
+    <string name="add_item">आइटम जोड़ू</string>
+    <string name="failed_smb_decrypt_path">SMB कनेक्शन लोड करबा मे विफल</string>
+    <string name="failed_cloud_new_connection">नव क्लाउड कनेक्शन जोड़बा मे विफल</string>
+    <string name="failed_cloud_api_key">विफल क्लाउड प्लग-इन प्रमाणित करू</string>
+
+    <string name="local_inet_addr_error">स्थानीय inet पता प्राप्त करबा मे त्रुटि</string>
+    <string name="intent_save_as">के रूप मे सहेजू...</string>
+    <string name="go">जाओ</string>
+    <string name="advanced">उन्नत</string>
+    <string name="typeable_paths_title">कस्टम पथ</string>
+    <string name="typeable_paths_summary">कस्टम पथ टाइप करय कें लेल पथ बार कें लंबा दबाउ</string>
+    <string name="send_email_to">एकटा ई-मेल भेजूं</string>
+
+    <string name="text_editor">पाठ संपादक सेटिंग्स</string>
+    <string name="preference_newstack_title">नव कार्य कें रूप मे फाइल खोलूं</string>
+    <string name="preference_newstack_summary">अलग-अलग काज मे फाइल खोलबाक अनुमति दैत अछि. सिस्टम रिसेंट स्क्रीन सं ओकरा एक्सेस करू.</string>
+    
+    <string name="developers">डेवलपर</string>
+    <string name="no_bitcoin_app">कृपया एकटा बिटकॉइन वॉलेट ऐप इंस्टॉल करू</string>
+    <string name="channel_name_normal">अमेज़ सूचना</string>
+    <string name="channel_description_normal">अमेज़ फाइल मैनेजर\'s सूचना</string>
+    <string name="channel_name_ftp">अमेज़ एफटीपी सर्वर</string>
+    <string name="channel_description_ftp">अमेज़ फाइल प्रबंधक FTP सर्वर\'क सूचना</string>
+
+    
+    <string name="processing">संसाधन...</string>
+    <string name="failed_no_connection">फाइल लोड करबामे विफल. कृपया अपन कनेक्शन जाँचू.</string>
+
+    
+	<string name="scp_connection">SCP/SFTP कनेक्शन</string>
+    <string name="ftp_connection">FTP कनेक्शन</string>
+    <string name="ftps_connection">SSL कनेक्शन पर FTP</string>
+    <string name="scp_port">पोर्ट</string>
+    <string name="ssh_host_key_verification_prompt">होस्ट \'%1$s\' क प्रामाणिकता स्थापित नहि कएल जा सकैत अछि.\n\n%2$s कुंजी फिंगरप्रिंट %3$s अछि.\n\nकृपया पुष्टि करबाक लेल \"हाँ\" टैप करू पहचान; अन्यथा, कृपया \"नहि\" टैप करू.</string>
+    <string name="ssh_host_key_verification_prompt_title">होस्ट सत्यापित करू</string>
+    <string name="ssh_select_pem_button">SSH निजी कुंजी</string>
+    <string name="ssh_pem_key_parse_error">चयनित पीईएम पढ़बा मे असमर्थ: %s</string>
+    <string name="password_unchanged">(अपरिवर्तित)</string>
+    <string name="ssh_authentication_failure_password">लॉगऑन विफलता: आपूर्ति कएल गेल प्रयोक्तानाम आओर पासवर्ड क\' संग प्रमाणित करबा मे असमर्थ.</string>
+    <string name="ssh_authentication_failure_key">लॉगऑन विफलता: आपूर्ति कएल गेल प्रयोक्तानाम आओर निजी कुंजी क\' संग प्रमाणित करबा मे असमर्थ.</string>
+    <string name="ssh_connect_failed">%1$sसँ कनेक्ट करबा मे असमर्थ s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">चेतावनी: दूरस्थ मेजबान पहचान बदलि गेल अछि!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">संभव अछि जे कियो किछु गंदा क\' रहल अछि!\n\nकियो अहाँक बात चुप-चुपटि क\' रहल भ\' सकैत अछि एखन (मैन-इन-द-मिडिल हमला)! इहो संभव अछि जे मेजबान कुंजी एखनहि बदलल गेल हो. दूरस्थ मेजबान द्वारा पठाओल गेल सार्वजनिक कुंजी क लेल फिंगरप्रिंट Amaze मे संग्रहीत सँ मेल नहि खाइत अछि.\n\nकृपया अपन सिस्टम प्रशासक सँ संपर्क करू अथवा सर्वर सँ जुड़ब जारी रखबाक लेल एकटा नव कनेक्शन सेटअप करू.</string>
+    <string name="ssh_key_prompt_passphrase">कृपया कुंजी पासवाक्यांश दर्ज करू .</string>
+    <string name="add_shortcut_not_supported_by_launcher">शॉर्टकट निर्माण अहाँक लांचर द्वारा समर्थित नहि अछि.</string>
+    
+    <string name="select_color_config">रंग विन्यास चुनू</string>
+    <string name="customize">अनुकूलित करू</string>
+    <string name="custom">अनुकूल</string>
+    <string name="preselected_configs_title">पूर्वचयनित विन्यास</string>
+    <string name="orange">नारंगी</string>
+    <string name="blue">नीला</string>
+    <string name="green">हरे</string>
+    <string name="password_no_match">पासवर्ड मेल नहि खाइत अछि</string>
+    <string name="deselect_all">सब</string>
+    <string name="filename">फाइलनाम</string>
+    <string name="compress_file_suggest_zip_extension">फाइल एक्सटेंशन क रूप मे \".zip\" क उपयोग करबाक अनुशंसा कएल गेल अछि.</string>
+    <string name="about_amaze">एंड्रॉयड क लेल सामग्री डिजाइन फाइल प्रबंधक</string>
+    <string name="license">लाइसेंस</string>
+    <string name="libraries">लाइब्रेरी</string>
+    <string name="password_repeat">गुप्तशब्द दोहराउ</string>
+    <string name="create_file_suggest_txt_extension">फाइल एक्सटेंशन क रूप मे \".txt\" क उपयोग करबाक अनुशंसा कएल गेल अछि.</string>
+    <string name="ssh_select_pem">प्रमाणीकरण क लेल निजी कुंजी चुनू</string>
+    <string name="ssh_key_invalid_passphrase">अमान्य कुंजी पासवाक्यांश.</string>
+    <string name="ssh_key_no_decoder_decrypt">पीईएम कें डिक्रिप्ट करय कें लेल कोनों वैध डिकोडर नहि.</string>
+    <string name="encryption_fail_copy">डेटाबेस मे एन्क्रिप्शन प्रविष्टि कें अपडेट करय मे विफल</string>
+    <string name="extracted">निष्कासित</string>
+    <string name="compressed">संपीड़ित</string>
+    <string name="processed">संसाधित</string>
+    <string name="no_obtainable_info">एहि फाइल के बारे में कोनो जानकारी नै अछि</string>
+    <string name="reopen_from_source">नहि सकैत छी, कृपया पिछला ऐप स फेर स खोलू</string>
+    <string name="no_file_error">किछु गड़बड़ भ गेल, खोलय लेल किछु नै अछि</string>
+    <string name="file_too_long">The फाइल बहुत नमहर अछि आओर संपादित नहि कएल जा सकैत अछि, तथापि अहाँ पहिल %d वर्ण पढ़ि सकैत छी</string>
+    <string name="file_read_only">खुजल फाइल केवल पढ़बाक लेल अछि.</string>
+    <string name="got_it">मिलल अछि!</string>
+    <string name="encrypt_file_save_as">एन्क्रिप्टेड सहेजू फाइल कें रूप मे...</string>
+    <string name="encrypt_folder_save_as">एन्क्रिप्टेड फोल्डर कें रूप मे सहेजूं...</string>
+    <string name="encrypt_option_use_aze">अमेज़ एन्क्रिप्शन प्रारूप कें उपयोग करूं</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt AES एन्क्रिप्शन पर आधारित एकटा ओपन सोर्स फाइल एन्क्रिप्शन प्रारूप छै. ई पोर्टेबल सेहो अछि, अन्य प्लेटफॉर्म पर AESCrypt प्रोग्राम सँ डिक्रिप्ट कएल जा सकैत अछि.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">एईएसक्रिप्ट वेबसाइट</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'s एन्क्रिप्शन प्रारूप सेहो AES एन्क्रिप्शन पर आधारित अछि; मुदा AESCrypt प्रारूप सं भिन्न, एकरा केवल एहि डिवाइस द्वारा डिक्रिप्ट कएल जा सकैत अछि; संगहि अहाँकेँ एहि डिवाइससँ Amaze File Manager अनइंस्टॉल नहि करबाक चाही आ ने स्क्रीन लॉक करबाक तरीका बदलबाक चाही, नहि तँ अहाँकेँ एन्क्रिप्टेड फाइलकेँ रिकवर करबाक कोनो तरीका नहि रहत.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">एन्क्रिप्टेड फाइल कए फाइल एक्सटेंशन क रूप मे \".aze\" क उपयोग करबाक चाही.</string>
+    <string name="encrypt_file_must_end_with_aes">एन्क्रिप्टेड फाइल कए फाइल एक्सटेंशन क रूप मे \".aes\" क उपयोग करबाक चाही.</string>
+    <string name="error_aescrypt_decrypt_failed">डिक्रिप्ट नहि कए सकैत अछि \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">फाइलकेँ अधिलेखित नहि कएल जा सकैत अछि.</string>
+    <string name="saved_single_file">फाइल \'%s\' क रूपमे सहेजल गेल.</string>
+    <string name="saved_multi_files">%d फाइल सहेजल गेल.</string>
+    <string name="create_hidden_file_warn">निर्मित फाइल फाइल सूची मे नुकायल रहत.</string>
+    <string name="grant_apkinstall_permission">ऐप कें इंस्टॉल करय कें लेल अनुमति कें जरूरत छै ऐप जारी रखनाय.</string>
+    <string name="time_remaining">समय शेष</string>
+    <string name="transfer_rate">हस्तांतरण दर</string>
+    <string name="unknown">अज्ञात</string>
+    <string name="multiple_invalid_archive_entries">संग्रह मे किछु फाइल निकालल नहि जा सकैत अछि; संग्रह क्षतिग्रस्त भ\' सकैत अछि अथवा दुर्भावनापूर्ण स्रोत सँ आबि सकैत अछि.</string>
+    <string name="saf_otg_explanation">अहाँ सुरक्षा कारण सँ आब Android\'s फाइलसिस्टम पर जायब. कृपया बामा कातक सूचीसँ यूएसबी डिवाइस चुनू.</string>
+    <string name="donation_thanks">दान के लेल धन्यवाद, एहि स हम सब प्रेरित रहैत छी ! (:</string>
+    <string name="enable_marquee_filename">फाइल नाम क लेल मार्की प्रभाव सक्षम करू</string>
+    <string name="archive_password_prompt">कृपया संग्रह पासवर्ड दर्ज करू:</string>
+    
+    <string name="cannot_extract_archive">संग्रह \"%s\" निकालल नहि जा सकैत अछि: %s</string>
+    <string name="archive_unsupported_or_corrupt">नहि क\' सकैत अछि संग्रह खोलू \"%s\". या त हम संग्रह नहि खोलि सकैत छी, या संग्रह क्षतिग्रस्त भ\' गेल छल.</string>
+    <string name="close">बंद करू</string>
+    <string name="bookmark_exists">बुकमार्क मौजूद अछि</string>
+    <string name="hide_media">मीडिया ब्राउज़र सँ नुकाउ</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">संभव अछि जे कियो किछु गंदा काज क\' रहल अछि!\n\nअखन कियो अहाँक बात चुप्पी स\' सुनैत भ\' सकैत अछि (मैन-इन-द-मिडल हमला)!एह सेहो संभव अछि जे मेजबान कुंजी एखनहि बदलल गेल अछि.आंगुरक निशान किएक तँ दूरस्थ मेजबान द्वारा पठाओल गेल सार्वजनिक कुंजी Amaze मे संग्रहीत कुंजी सँ मेल नहि खाइत अछि.\n\nअहाँ मेजबान फिंगरप्रिंट अपडेट करबाक लेल आगू बढ़ि सकैत छी अथवा SSH कनेक्शन सेटिंग्स केँ अपडेट करब रद्द क\' सकैत छी.</string>
+    <string name="update_host_key">होस्ट कुंजी अद्यतन करू</string>
+    <string name="cancel_recommended">रद्द करू (अनुशंसित)</string>
+    
+    
+    <string name="failed_install_apk">इंस्टॉल करबामे विफल</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">आन्तरिक भंडारण</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD कार्ड</string>
+    <string name="choose_folder">ई फोल्डर चुनू</string>
+    
+    <string name="some_files_failed_invalid_operation">किछु फाइल अमान्य हेबाक कारणेँ विफल भ\' गेल ऑपरेशन</string>
+    <string name="ftp_server_prompt_connect_to_network">कोनो नेटवर्क स कनेक्ट करू अथवा एपी सक्षम करू</string>
+    <string name="ftp_server_open_settings">ओपन सेटिंग्स</string>
+    <string name="move">मूव</string>
+    <string name="select_save_location">सेव करबाक लेल स्थान चुनू</string>
+    <string name="scp_default_path">डिफ़ॉल्ट पथ (वैकल्पिक)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">क्षमा करू, से नहि हेबाक चाही छल.</string>
+    
+    <string name="error_report_button_text">ई-मेल के माध्यम सं ई त्रुटि के रिपोर्ट करू</string>
+    <string name="error_report_button_telegram">ई त्रुटि के टेलीग्राम के माध्यम सं रिपोर्ट करू</string>
+    <string name="copy_for_github">स्वरूपित रिपोर्ट के कॉपी करू</string>
+    <string name="error_report_open_issue_button_text">GitHub पर रिपोर्ट करू</string>
+    <string name="error_report_open_github_notice">कृपया जाँचू जे अहाँक दुर्घटना पर चर्चा करय बला कोनो मुद्दा पहिने सँ मौजूद अछि कि नहि.</string>
+    <string name="error_snackbar_message">क्षमा करू, किछु गड़बड़ भ\' गेल.</string>
+    <string name="error_snackbar_action">रिपोर्ट करू</string>
+    <string name="what_device_headline">सूचना:</string>
+    <string name="what_happened_headline">की भेल:</string>
+    <string name="info_labels">की:\\nअनुरोध:\\nGMT समय:\\nपैकेज:\\nसंस्करण:\\nOS संस्करण:\\nडिवाइस:\\nमॉडल:\\nउत्पाद :</string>
+    <string name="your_comment">अहाँक टिप्पणी (अंग्रेजी मे):</string>
+    <string name="error_details_headline">विवरण:</string>
+    <string name="app_ui_crash">एप/यूआई क्रैश भ गेल</string>
+    <string name="error_report_title">त्रुटि रिपोर्ट</string>
+    <string name="crash_report_copied">क्रैश रिपोर्ट कॉपी कएल गेल क्लिपबोर्ड</string>
+    <string name="disableIpcSignature">आईपीसी हस्ताक्षर जांच अक्षम करू (विरासत SMBv1 सर्वर क लेल - UNSAFE!)</string>
+    <string name="cannot_delete_file">फाइल मेटा नहि सकैत अछि</string>
+    <string name="cannot_delete_file_with_reason">फाइल मेटा नहि सकैत अछि - %s</string>
+    <string name="cannot_rename_file">फाइल क नाम बदलल नहि जा सकैत अछि %s - %s</string>
+    <string name="cannot_read_directory">निर्देशिका %s - %s</string>
+    <string name="just_once">बस एक बेर नहि पढ़ि सकैत अछि</string>
+    <string name="always">हमेशा</string>
+    <string name="choose_different_app">अलग एप्लिकेशन चुनू</string>
+    <string name="clear_open_file">साफ करू cache</string>
+    <string name="clear_open_file_summary">चयनित डिफ़ॉल्ट फाइल खोलय वाला ऐप्स कें साफ करय छै</string>
+    <string name="ftp_readonly">केवल पढ़य कें लेल पहुंच</string>
+    <string name="legacy_listing_title">रूट कें लेल विरासत सूची कें उपयोग करूं</string>
+    <string name="legacy_listing_summary">यदि सक्षम छै, त फाइल कें सूचीबद्ध करय कें लेल विरासत विधि कें उपयोग करय छै</string>
+    <string name="error_unsupported_v5_rar">RAR संग्रह \"%s\" असमर्थित RAR v5 संग्रह अछि.</string>
+    <string name="ftp_prompt_restart_server">परिवर्तन केँ प्रभावी हेबाक लेल अहाँ केँ FTP सर्वर केँ पुनः आरंभ करबाक आवश्यकता होयत.</string>
+    <string name="error_permission_denied">अनुमति अस्वीकृत</string>
+    <string name="error_archive_password_incorrect">गलत संग्रह पासवर्ड.</string>
+    <string name="error_archive_cannot_extract">संग्रह प्रविष्टि \"%s\" केँ \"%s\" मे नहि निकालल जा सकैत अछि.</string>
+    <string name="drag_and_drop_preference">ड्रैग आओर ड्रॉप वरीयता (प्रयोगात्मक) चुनू</string>
+    <string name="drag_to_move_copy">फाइल कें स्थानांतरित करय या कॉपी करय कें लेल टच आ ड्रैग</string>
+    <string name="drag_to_select">फाइल कें चयन करय कें लेल टच आ ड्रैग</string>
+    <string name="disable">अक्षम</string>
+    <string name="choose_operation">अगिला बेर करय कें लेल ऑपरेशन चुनू</string>
+    <string name="remember">अगिला बेर कें लेल याद राखू</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP सर्वर कें लेल SAF पहुंच प्रदान करूं</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">चूंकि इ FTP सर्वर कें अहां कें पहिल रन छै, आओर अहां डिवाइस कें आंतरिक भंडारण कें साझा फोल्डर कें रूप मे उपयोग करय रहल छी, कृपया Amaze कें उपयोग करयत भंडारण कें उपयोग करय कें अनुमति दिअ एसएएफ।\n\n
+
+अहां कें ई केवल एक बेर करय कें जरूरत छै, जखन तइक अगिला बेर अहां साझा करय कें लेल कोनों नव स्थान कें चयन करय.</string>
+    <string name="android_data_prompt_saf_access">जखन सं एंड्रॉयड 10, एंड्रॉयड किछु निर्देशिका पर प्रतिबंध लगा देने छल, आओर ओकरा भंडारण पहुंच ढाँचा कें साथ एक्सेस करय कें जरूरत छै.\n \nकृपया \"पहुंच क अनुमति\" टैप कए सिस्टम\ क फाइल प्रबंधक सँ निर्देशिका तक पहुँचबाक अनुमति Amaze क\' अनुमति दिअ.</string>
+    <string name="android_data_prompt_saf_access_title">SAF पहुँच प्रदान करू</string>
+    <string name="ftp_preference_saf_filesystem_title">विरासत फाइलसिस्टम क उपयोग करू</string>
+    <string name="ftp_preference_saf_filesystem">सक्षम करू इ नबका एंड्रॉयड संस्करणक पर डिवाइस बाहरी भंडारण कें उपयोग करय कें समर्थन कें लेल</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP सर्वर साझा पथ कें आंतरिक भंडारण पर रीसेट करल गेलय छल कियाकि अहां वापस विरासत फाइलसिस्टम कार्यान्वयन पर स्विच करय रहल छी. कृपया आवश्यकतानुसार ऊपर दाहिना दिस मेनू क उपयोग कए एकटा नव पथ चुनू.</string>
+    <string name="ftp_server_reset_notify">FTP सर्वर साझा पथ कए आंतरिक भंडारण पर रीसेट कएल गेल छल</string>
+    <string name="ftp_server_root_unavailable">अहाँ एकटा एहन पथ चुनि रहल छी जकरा लेल रूट पहुँच क आवश्यकता अछि. कृपया सेटिंग्स मे रूट एक्सप्लोरर सक्षम करू जँ अहाँक डिवाइस रूट अछि.</string>
+    <string name="ftp_server_root_filesystem_warning">अहाँ एकटा एहन पथ चुनि रहल छी जकरा लेल रूट पहुँचक आवश्यकता अछि, जे अहाँक डिवाइस पर पूरा फाइलसिस्टम मे पढ़ब/लिखब ऑपरेशन केँ सक्षम करैत अछि, आओर ई खतरनाक अछि - लापरवाह गलती अहाँक डिवाइस केँ ईंट क\' सकैत अछि!\n\nकी अहाँ निश्चित छी?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">पढ़बाक लेल URI \"%s\" खोलबा मे त्रुटि.</string>
+    <string name="error_empty_archive">\"%s\" एकटा खाली संग्रह अछि.</string>
+    <string name="error_bad_archive_without_info">\"%s\" एकटा दूषित संग्रह अछि .</string>
+    <string name="error_bad_archive_with_info">\"%s\" एकटा दूषित संग्रह अछि.\nनिष्कर्षक सँ संदेश: \"%s\"</string>
+    <string name="security_error">फाइल एहि एप्पक उपयोग कए नहि खोलल जा सकल</string>
+    <string name="cloud_drive_tooltip">बनाउ Amaze File Manager कें भीतर सं फाइल कें प्रबंधन कें लेल एकटा Google DriveTM कनेक्शन.</string>
+    <string name="signin_with_google_title">Google DriveTM कें उपयोग करय कें लेल प्रमाणित करूं</string>
+    <string name="show_system_apps">सिस्टम ऐप्स दिखाऊ</string>
+    <string name="system_apps">सिस्टम ऐप्स</string>
+    <string name="select_inverse">चयन करूं उलटा</string>
+    <string name="select_by_type">प्रकार के अनुसार चयन करू</string>
+    <string name="select_by_date">तिथि के अनुसार चुनू</string>
+    <string name="select_similar">सही तरह के चयन करू</string>
+    <string name="error_fetching_google_play_product_list">गूगल प्ले स उत्पाद सूची लाबय में त्रुटि.</string>
+    <string name="grant_all_files_permission">एंड्रॉयड 11 के बाद स , गूगल फाइल प्रबंधक सं अनुरोध करैत अछि जे डिवाइस पर सभ फाइल कें प्रबंधन कें लेल उपयोगकर्ता कें अनुमति कें अनुरोध करय. विवरण एतय।
+        \n\nAmaze फाइल प्रबंधककेँ सेहो ई अनुमति चाही. एतय "Grant" दबाबय के बाद, कृपया अगिला स्क्रीन पर सभ फाइल के प्रबंधन करय लेल पहुंच के अनुमति दियौ विकल्प चुनू.
+        \n\nई संवाद रद्द करला सँ ऐप सँ बाहर निकलत.</string>
+    <string name="user_apps">उपयोगकर्ता ऐप्स</string>
+    <string name="appearance">रूप</string>
+    <string name="behavior">व्यवहार</string>
+    <string name="appearance_summary">फाइल प्रबंधक क थीम, रंग आओर रूप अनुकूलित करू</string>
+    <string name="ui_summary">नियंत्रित करू जे कोन जानकारी देखाबय के अछि, साइडबार के अनुकूलित करू, आओर यूआई वरीयता के टॉगल करू</string>
+    <string name="behavior_summary">एह व्यवहार मे संशोधन करू जेना उन्नत खोज आओर फाइल के नव काज के रूप मे खोलय के अछि कि नहि</string>
+    <string name="security_summary">पासवर्ड सेटअप करू आरू एन्क्रिप्शन</string>
+    <string name="backup_summary">निर्यात/आयात अमेज़ सेटिंग्स</string>
+
+    <string name="pref_export">निर्यात</string>
+    <string name="pref_export_summary">निर्यात सेटिंग्स</string>
+    <string name="pref_import">आयात</string>
+    <string name="pref_import_summary">आयात सेटिंग्स</string>
+
+    <string name="quick_desc">फाइल हाल मे Amaze</string>
+    <string name="recent_desc">हाल मे बनल अथवा संशोधित फाइल</string>
+    <string name="error_cannot_find_way_open">फाइल खोलबाक तरीका नहि भेटल</string>
+    <string name="error_cant_decompress_that_file">अनुरोध कएल गेल संग्रह केँ संसाधित नहि कएल जा सकैत अछि</string>
+    <string name="analyse_storage">भंडारणक विश्लेषण</string>
+    
+    <string name="download_amaze_utils_text">अहाँ केँ Amaze File Utilities मे पुनर्निर्देशित कएल जा रहल अछि. ई हमर ओपन सोर्स ऐप अछि जे ऑडियो/वीडियो/छवि/दस्तावेज दर्शक के अंतर्निहित अछि, भंडारण के मुक्त करय लेल जंक फाइल के विश्लेषण करय के अनुमति दैत अछि, वाईफाई पी 2 पी के उपयोग क तेजी सं स्थानांतरण आओर बहुत किछु.\nकृपया एकरा आजमा क हमरा सब के समर्थन करू.</string>
+    <string name="download">डाउनलोड</string>
+    <string name="wifip2p">वाई-फाई पी 2 पी</string>
+    <string name="amaze_utils_installed_alias">अमेज़ फाइल यूटिलिटीज इंस्टॉल करबाक लेल धन्यवाद. अहां कें ऐप पर पुनर्निर्देशित कैल जा रहल छै.</string>
+    <string name="image_viewer">छवि दर्शक कें आश्चर्यचकित करू</string>
+    <string name="video_player">विडियो प्लेयर कें आश्चर्यचकित करू</string>
+    <string name="amaze_audio_player">म्यूजिक प्लेयर कें आश्चर्यचकित करू</string>
+    <string name="pdf_viewer">दस्तावेज दर्शक कें आश्चर्यचकित करू</string>
+    <string name="docx_viewer">दस्तावेज दर्शक के आश्चर्यचकित करू</string>
+    <string name="share_logs">लॉग साझा करू</string>
+    <string name="share_logs_summary">ईमेल / टेलीग्राम के माध्यम सं कैप्चर कएल गेल लॉग साझा करू</string>
+    <string name="open_with_amaze">Amaze</string>
+    <string name="confirmation">पुष्टि</string>
+    <string name="open_file_confirmation">की अहाँ निश्चित छी जे अहाँ निम्नलिखित फाइल खोलए चाहैत छी?\n\nनाम:\n%s\n\nस्थान:\n%s\n\nआकार:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">गूगल प्ले नीति केरऽ आदेश के अनुसार, ऐप क॑ खुद क॑ अपडेट करै के अनुमति नै छै. कृपया गूगल प्ले सँ ऐप अपडेट करू.</string>
+    <string name="error_cannot_get_package_info">फाइल \"%s\" सँ पैकेज जानकारी प्राप्त करबा मे असमर्थ. या त निर्दिष्ट फाइल एपीके नहि अछि, या पैकेज फाइल खराब अछि.</string>
+    <string name="preference_delete_confirmation">पुष्टि मेटाउ</string>
+    <string name="preference_delete_confirmation_summary">फाइल मेटाबै सँ पहिने पुष्टि पूछू. एकरा अक्षम करब बहुत हतोत्साहित कएल गेल अछि!</string>
+    
+    
+    <string name="protocol_ftps">सुरक्षित FTP</string>
+    <string name="unavailable">अनुपलब्ध</string>
+
+    <string name="exporting_failed">निर्यात विफल: बैकअप फाइल नहि लिखि सकल</string>
+    <string name="importing_failed">आयात विफल: बैकअप नहि पढ़ि सकल फाइल</string>
+    <string name="importing_completed">आयात पूरा भ\' गेल</string>
+    <string name="invalid_backup_file">अमान्य बैकअप फाइल</string>
+    <string name="import_failed_for">आयात विफल रहल:</string>
+    <string name="free_of">"%s\n%s %s</string>
+    <string name="cloud_error_fdroid">सँमुक्त&gt;Amaze क्लाउड प्लगइन F-Droid संस्करण क संग समर्थित नहि अछि.कृपया Amaze क प्ले स्टोर संस्करण क उपयोग करू.</string>
+    <string name="disable_player_intent_filters">प्लेयर इरादा फ़िल्टर अक्षम करू</string>
+    <string name="disable_player_intent_filters_summary">फाइल चयनकर्ता</string>
+    <string name="no_app_found_intent">स Amaze इनबिल्ट मीडिया प्लेयर कए अक्षम करैत अछि एहि इरादा केँ संभालबाक लेल कोनो ऐप नहि भेटल.की अहाँक पास DocumentsUI इंस्टॉल अछि?</string>
+    <string name="cloud_connection_credentials_cleared">क्लाउड कनेक्शन क्रेडेंशियल साफ भ\' गेल</string>
+    <string name="cloud_connection_credentials_cleared_msg">दुर्भाग्यवश, हम अहाँक क्लाउड कनेक्शन क्रेडेंशियल केँ नव डाटाबेस स्कीमा मे माइग्रेट करबा मे असमर्थ छलहुँ, आओर हमरा सभ लग छल ऐप सँ ओकरा हटाबय लेल.कृपया फेर सँ क्लाउड कनेक्शन बनाउ.</string>
+</resources>

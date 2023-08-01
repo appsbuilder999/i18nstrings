@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze فایل مدیر</string>
+    <string name="drawer_open">د نیویګیشن دراز خلاص کړئ</string>
+    <string name="drawer_close">د نیویګیشن دراز بند کړئ</string>
+    
+    <string name="apps">د اپلیکیشن مدیر</string>
+    <string name="ftp">د اپلیکیشن مدیر</string>
+    <string name="setting"/>
+    <string name="select">ترتیبات</string>
+    <string name="press_again">توکی غوره کړئ</string>
+    <string name="open">د وتلو لپاره بیا فشار ورکړئ</string>
+    <string name="backup">خلاص کړئ</string>
+    <string name="uninstall">Backup</string>
+    <string name="play">Uninstall</string>
+    <string name="properties">Play store</string>
+    <string name="copyingapks">د %d APK فایلونه %s ته کاپي کول</string>
+    <string name="delbook">بک مارک ړنګ کړئ</string>
+    <string name="add_to_bookmarks">بک مارک ړنګ کړئ</string>
+    <string name="enterpath">بک مارکونو ته اضافه کړئ</string>
+    <string name="cancel">پاته داخل کړئ</string>
+    <string name="create">Cancel</string>
+    <string name="loading">CREATE</string>
+    <string name="file_empty">لوډ کول…</string>
+    <string name="error">دوتنه خالي ده</string>
+    <string name="search_results">د %s لټون پایلې</string>
+    <string name="rename">نوم بدل کړئ</string>
+    <string name="save">نوم بدل کړئ</string>
+    <string name="bookmarks_added">Save</string>
+    <string name="fileexist">بک مارکونه اضافه شوي</string>
+    <string name="name">د ورته نوم فایل دمخه شتون لري</string>
+    <string name="date">نوم</string>
+    <string name="location">نیټه</string>
+    <string name="size_capitalized">ځای</string>
+    <string name="size">سایز</string>
+    <string name="enterzipname">د فولډر اندازه</string>
+    <string name="no_app_found">د زپ نوم دننه کړئ</string>
+    <string name="copying">د دې فایل خلاصولو لپاره هیڅ اپلیکیشن ونه موندل شو</string>
+    <string name="moving">کاپي کول</string>
+    <string name="file">حرکت</string>
+    <string name="folder">دوتنه</string>
+    <string name="newfolder">فولډر</string>
+    <string name="entername">نوی فولډر</string>
+    <string name="extracting">نوم دننه کړئ</string>
+    <string name="stopping">استخراج</string>
+    <string name="open_parent">استخراج</string>
+    <string name="open_with">د والدینو لارښود خلاص کړئ</string>
+    <string name="share">د</string>
+    <string name="about">سره پرانیزئ</string>
+    <string name="extract">Share</string>
+    <string name="compress">About</string>
+    <string name="yes">استخراج</string>
+    <string name="no">کمپریس</string>
+    
+    <string name="dialog_delete_category_directories">هو</string>
+    <string name="dialog_delete_category_files">نه</string>
+    <string name="dialog_delete_disclaimer">Directories</string>
+    <string name="dialog_delete_title">فایلونه</string>
+    <string name="deleting">لاندې توکي حذف کول به دوی د تل لپاره ستاسو له وسیلې څخه لرې کړي او بیرته نشي بیرته ترلاسه کیدی.</string>
+    <string name="question_set_path_as_home">توکي په دايمي توګه ړنګ کړئ؟</string>
+    <string name="directorysort">ړنګول</string>
+    <string name="sort_by">ایا تاسو غواړئ د دې ټب لپاره اوسنۍ لاره د کور په توګه وټاکئ؟ </string>
+    <string name="sort_only_this">یوازې دا فولډر</string>
+    <string name="theme">تھیم</string>
+    <string name="random">تصادفي پوستکی</string>
+    <string name="random_summary">په پیل کې تصادفي لومړني رنګ ټاکي</string>
+    <string name="colorize">د عکسونو رنګ کول</string>
+    <string name="colorize_summary">سیټونه د جامد آیکون رنګ. د ډایرکټر آیکون رنګ غوره توب نه پورته کوي.</string>
+    <string name="home">کور</string>
+    <string name="paste">پیسټ</string>
+    <string name="history">تاریخ</string>
+    <string name="copy">کاپي</string>
+    <string name="root_mode">Rot Explorer</string>
+    <string name="root_mode_summary">div86&gt; یوازې د ریښې شوي وسیلې لپاره. دا یوازې وګورئ که تاسو په دې اړه ډاډه یاست.</string>
+    <string name="root_failure">روټ لاسرسی نه دی ورکړل شوی</string>
+    <string name="select_all">ټول غوره کړئ</string>
+    <string name="delete">حذف کړئ</string>
+    <string name="set_as_home">د کور په توګه تنظیم کړئ</string>
+    <string name="operation_not_supported">عملیات نه ملاتړ کیږي</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">مادی رڼا</string>
+    <string name="dark">مادی تیاره</string>
+    <string name="daytime">د ورځې وخت</string>
+    <string name="black">تور (د OLED لپاره)</string>
+    <string name="system">سیسټم (د سیسټم موضوع تعقیب کړئ) </string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">په سر کې فولډرې</string>
+    <string name="filesOnTop">فایلونه په سر کې</string>
+    <string name="none_on_top">په سر کې هیڅ نشته</string>
+    <!--SortBy-->
+    <string name="sort_name">نوم</string>
+    <string name="lastModified">وروستی بدل شوی</string>
+    <string name="sort_size">سایز</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">دوتنه غوره کړئ</string>
+    <string name="process_viewer">د پروسې لیدونکي</string>
+    <string name="in_safe">کافي ځای نشته</string>
+    <string name="no_file_overwrite">هیڅ فایل نه دی لیکل شوی</string>
+    <string name="skip">پرېږدئ</string>
+    <string name="overwrite">اووررایټ</string>
+    <string name="not_allowed">div86&gt;اجازه نشته</string>
+    <string name="searching">لټون %s</string>
+    
+    
+    <string name="enablerootmde">د روټ حالت فعال کړئ</string>
+    <string name="goback">شاته لاړ شئ</string>
+    <string name="newfile">نوې فایل</string>
+    <string name="no_files">هیڅ فایلونه نشته</string>
+    <string name="used">استعمال شوی ځای</string>
+    <string name="used_by_others">د نورو لخوا کارول شوی</string>
+    <string name="free">وړیا ځای</string>
+    <string name="listview">د لیست لید</string>
+    <string name="gridview">ګریډ وګورئ</string>
+    <string name="permission">اجازې</string>
+    <string name="hide">پټ کړئ</string>
+    <string name="exit">د وتلو</string>
+    <string name="doforall">د ټولو توکو لپاره وکړئ</string>
+    <string name="gridcolumnno">په گرډ لید کې د کالمونو شمیر</string>
+    <string name="set_random">بدلونونه به وروسته له هغه رامینځته شي کله چې تاسو اپلیکیشن بیا پیل کړئ</string>
+    <string name="authors">لیکوال</string>
+    
+    
+    
+    <string name="general">عمومي</string>
+    <string name="thumb_summary">د ایپس او عکسونو تمبیلونه وښایاست</string>
+    <string name="thumb">تمبیلونه وښایاست</string>
+    <string name="hidden">پټ شوي فایلونه او فولډرونه وښایاست</string>
+    <string name="lastModifiedSummary">د وروستي ترمیم نیټه او وخت وښایاست</string>
+    <string name="lastModifiedPref">وروستی ترمیم شوی نیټه او وښایاست وخت</string>
+    <string name="size_pref_summary">په فولډرو کې د فایلونو اندازه او د توکو شمیر وښایاست</string>
+    <string name="size_pref">سایزونه وښایاست</string>
+    <string name="miscellaneous">متفرق</string>
+    <string name="root_pref_summary">د فایلونو او فولډرو اجازه وښایاست</string>
+    <string name="root_pref">اجازه وښایاست</string>
+    <string name="about_amaze_file_manager_label">د اماز فایل مدیر په اړه</string>
+    <string name="version">نسخه</string>
+    <string name="rate">د اپلیکیشن درجه ورکړئ</string>
+    <string name="feedback">فیډبیک واستوئ</string>
+    <string name="hiddenfiles">پټ فایلونه</string>
+    <string name="type">ډول</string>
+    <string name="root_directory">Rot</string>
+    <string name="add_shortcut">شارټ کټ اضافه کړئ</string>
+    <string name="unsaved_changes">نه خوندي شوي بدلونونه</string>
+    <string name="unsaved_changes_description">تاسو نه خوندي شوي بدلونونه لرئ، ایا تاسو غواړئ د وتلو دمخه یې خوندي کړئ؟</string>
+    <string name="saving">خوندي کول</string>
+    <string name="package_installer">د بسته بندي نصب کونکی</string>
+    <string name="view">وګوری</string>
+    
+    <string name="archive">آرشیف</string>
+    <string name="archive_text">دا یو آرشیف دی. تاسو کوم عمل ترسره کول غواړئ؟</string>
+    <string name="package_installer_text">دا د بسته بندي نصب کونکی دی. تاسو به کوم عمل ترسره کول غواړئ؟</string>
+    <string name="xda_title">XDA موضوع</string>
+    <string name="xda_summary">پوښتنې او ځوابونه، مرسته او ستونزې حل کول</string>
+    <string name="circular_images">د عکسونو او ویډیوګانو لپاره سرکلر شبیه وکاروئ</string>
+    <string name="circular_icons">د سرکلر شبیه وکاروئ</string>
+    <string name="back_title">شاته نیویګیشن</string>
+    <string name="back_summary">د لیست په سر کې د ګمرک بیرته نیویګیشن فعالوي</string>
+    <string name="details">تفصیلات</string>
+    <string name="translators">ژباړونکي</string>
+    <string name="german_translation_title">جرمن</string>
+    <string name="italian_translation_title">I</string>
+    <string name="french_translation_title">فرانسوي</string>
+    <string name="russian_translation_title">روسی</string>
+    <string name="spanish_translation_title">هسپانوي</string>
+    <string name="basque_translation_title">باسک</string>
+    <string name="chinese_translation_title">چینايي</string>
+    <string name="serbian_translation_title">سربی</string>
+    <string name="turkish_translation_title">ترکی</string>
+    <string name="ukrainian_translation_title">اوکرینی</string>
+    <string name="portuguese_translation_title">Porse </string>
+    <string name="polish_translation_title">پولند</string>
+    <string name="korean_translation_title">کوریایي</string>
+    <string name="greek_translation_title">یوناني</string>
+    <string name="dutch_translation_title">هلنډی</string>
+    <string name="romanian_translation_title">روماني</string>
+    <string name="vietnamese_translation_title">ویتنامی</string>
+    <string name="japanese_translation_title">جاپانی</string>
+    <string name="tamil_translation_title">جاپان  تامل</string>
+
+    <string name="zip_viewer">زپ لیدونکی</string>
+    <string name="unin_system_apk">دا د سیسټم اپلیکیشن دی، د دې ړنګول کیدای شي د سیسټم د بې ثباتۍ لامل شي.\nپرته ورشئ؟</string>
+    <string name="warning">خبرتیا</string>
+    <string name="donate">ډونیټ</string>
+    <string name="archive_extract_folder">د آرشیف استخراج فولډر</string>
+    <string name="archive_summary">آرشیف فایلونه به دې فولډر ته استخراج شي. ډیفالټ ارزښت هغه لارښود دی چې آرشیف پکې شتون لري.</string>
+    <string name="open_as">لکه پرانیزئ</string>
+    <string name="text">متن</string>
+    <string name="audio">آډیو</string>
+    <string name="video">ویډیو</string>
+    <string name="other">نور</string>
+    <string name="image">انځور</string>
+    <string name="contributors">مرسته کوونکي</string>
+    <string name="save_paths">د لارې په یاد ولرئ</string>
+    <string name="save_path_summary">کله چې پیل کیږي، د هر ټب لپاره خورا وروستي لیدل شوي فولډر به ښکاره شي</string>
+    <string name="select_intent">وټاکئ</string>
+    <string name="database">ډیټابیس</string>
+    <string name="colored_navigation">رنګ شوي نیویګیشن بار</string>
+    <string name="colored_navigvation_sum">که د سیسټم نیویګیشن بار د پوستکي سره رنګ شوی وي یا نه</string>
+
+    <string name="color_title">رنګ</string>
+    <string name="color_summary">د مختلفو UI برخو ته رنګ تنظیم کړئ</string>
+    <string name="primary_color_title">div86&gt;لومړنی رنګ (کیڼ ټب)</string>
+    <string name="primary_color_summary">د کیڼ ټب لپاره لوی UI عناصرو ته رنګ تنظیم کړئ</string>
+    <string name="accent_color_title">د تلفظ رنګ</string>
+    <string name="accent_color_summary">رنګ FAB او نورو کوچني UI عناصرو ته تنظیم کړئ</string>
+    <string name="icon_color_title">د آیکون رنګ</string>
+    <string name="icon_color_summary">شیکونو ته رنګ وټاکئ</string>
+    <string name="choose_color">رنګ غوره کړئ</string>
+    <string name="files">فایلونه</string>
+    <string name="textreader">د متن لوستونکی</string>
+    <string name="databasereader">د ډیټابیس لوستونکی</string>
+    <string name="show_dividers">div86&gt; ویشونکي وښایاست</string>
+    <string name="needs_access">د لیکلو لاسرسي ته اړتیا ده</string>
+    <string name="needs_access_summary">مهرباني وکړئ د \t</string>
+    <string name="needs_access_summary1">روټ ډایرکټر غوره کړئ د کار کولو لپاره د لیکلو لاسرسی ورکړئ</string>
+    <string name="smb_connection">SMB کنکشن</string>
+    <string name="smb_server">د سرور IP پته</string>
+    <string name="server_address">د سرور IP پته</string>
+    <string name="username">کارن نوم</string>
+    <string name="password">پاسورډ</string>
+    <string name="anonymous">بې نومه</string>
+    <string name="bluetooth">بلوتوت</string>
+    <string name="folders">بلوتوت فولډر</string>
+    <string name="folderfilecount">%1$d فولډرې او %2$d فایلونه</string>
+    <string name="videos">ویډیوګانې</string>
+    
+    <string name="documents">اسنادونه</string>
+    <string name="images">انځورونه</string>
+    <string name="clear">div86&gt;پاک</string>
+    
+    <string name="total"/>
+    <string name="calculating">محاسبه</string>
+    <string name="sort">ترتیب</string>
+    <string name="ascending">لټوی</string>
+    <string name="descending">ښکته کیدل</string>
+    <string name="default_string"/>
+    <string name="doit">دا وکړئ</string>
+    <string name="want_help">مرستې ته اړتیا لرئ؟</string>
+    <string name="quick">چټک لاسرسی</string>
+    <string name="recent">وروستي فایلونه</string>
+    
+    <string name="find">په پاڼه کې ومومئ</string>
+    <string name="grant">div18 Grant</string>
+    <string name="grantper">اجازه ورکړئ</string>
+    <string name="grantfailed">اجازه نه ده ورکړل شوې</string>
+    <string name="grant_storage_permission">App د دوام لپاره د ذخیره کولو اجازې ته اړتیا لري. د دې ډیالوګ لغوه کول به له اپلیکیشن څخه وځي.</string>
+    <string name="operation_unsuccesful">عملیات ناکامه</string>
+    <string name="creatingfile">د فایل جوړول</string>
+    <string name="creatingfolder">د فولډر جوړول</string>
+    <string name="renaming">نوم بدلول</string>
+    <string name="cant_be_empty">%s خالي نه شي</string>
+    <string name="ip">پته</string>
+    <string name="connection_name">د پیوستون نوم</string>
+    <string name="no_device_found">هیڅ وسیله ونه موندل شوه</string>
+    <string name="path">لاره</string>
+    <string name="rename_bookmark">بک مارک بدل کړئ</string>
+    <string name="cut">کټ</string>
+    <string name="search">div86&gt;لټون</string>
+    <string name="invalid_name">غلط نوم</string>
+    <string name="search_hint">د لټون لپاره ټایپ کړئ…</string>
+    <string name="advanced_search">پرمختللي لټون</string>
+    <string name="regular_expression">منظم بیان</string>
+    <string name="regular_expression_summary">د BASH سټایل منظم بیان په کارولو سره لټون وکړئ</string>
+    <string name="match_content">د منځپانګې سره سمون خوري</string>
+    <string name="match_content_summary">که ټاکل شوی وي، منظم بیان به د ټول فایل نوم سره سمون ولري،
+        بل ډول به د پیښې په لټه کې وي.</string>
+    
+    
+    <string name="ftp_status_running">چلول</string>
+    <string name="ftp_status_not_running">نه چلیږي</string>
+    <string name="ftp_no_wifi">ډاډ ترلاسه کړئ چې تاسو له Wi سره وصل یاست -Fi</string>
+    <string name="domain">ډومین</string>
+    <string name="smb_share">د شریکولو لاره</string>
+    <string name="invalid">ناقص %s</string>
+    <string name="ftp_notif_starting">FTP سرور پیل کیږي</string>
+    <string name="ftp_notif_starting_title">FTP سرور</string>
+    <string name="ftp_notif_title">د حیرانتیا FTP سرور روان دی</string>
+    <string name="ftp_notif_text">په %s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP پورټ</string>
+    <string name="ftp_port_change_success">FTP پورټ په بریالیتوب سره بدل شو</string>
+    <string name="ftp_port_change_error_invalid">ناسمه پورټ نمبر غوره شوی</string>
+    <string name="primary_two_title">لومړنی رنګ (ښي ټب)</string>
+    <string name="primary_two_summary">د ښي ټب لپاره لوی UI عناصرو ته رنګ تنظیم کړئ</string>
+    
+    <string name="report_bugs_title">د بګس راپور کړئ</string>
+    <string name="source_title">سرچینه کوډ</string>
+    <string name="source_summary">زموږ د سرچینې کوډ په GitHub کې وګورئ</string>
+    <string name="report_bugs_summary">بګز راپور کړئ یا د نوي فیچر غوښتنه وکړئ</string>
+    <string name="translate_title">ژباړنه</string>
+    <string name="translate_summary">ژباړه په خپله ژبه کې حیران شئ</string>
+    <string name="paypal_copy_message">د PayPal ID کلپ بورډ ته کاپي شوی</string>
+    <string name="searching_devices">د وسایلو لټون کول</string>
+    <string name="use_custom_ip">د دودیز IP کارول</string>
+    <string name="bookmark_lost">بک مارک ونه موندل شو، بیا جوړونه…</string>
+
+    <string name="smb_instructions">
+        
+            
+                په Android (SMB) کې شریک وینډوز فولډر ته د لاسرسي څرنګوالی\n\n
+                
+                    
+                        په وینډوز کې د فایل شریکول فعال کړئ\n
+                    
+                    
+                        د کنټرول پینل خلاص کړئ، د شبکې لاندې د کور ګروپ او شریکولو اختیارونه غوره کړئ کلیک وکړئ
+                        او انټرنیټ، او "د پرمختللو شریکولو ترتیبات بدل کړئ" کلیک وکړئ، "فایل او
+                        د چاپګر شریکول" خصوصیت.\n\n
+                    
+
+                    
+                        د فایل شریکولو اضافي ترتیبات\n
+                    
+                    
+                        تاسو ممکن دلته نور پرمختللي شریکولو تنظیمات هم تنظیم کړئ. \n
+                        د مثال په توګه، تاسو کولی شئ د پټنوم پرته خپلو فایلونو ته لاسرسی فعال کړئ که تاسو په ټولو باور لرئ
+                        ستاسو په محلي شبکه کې وسایل. یوځل چې د فایل او پرنټر شریکول فعال شي ، تاسو کولی شئ
+                        د فایل اکسپلورر یا وینډوز اکسپلورر خلاص کړئ، په هغه فولډر کې ښیې کلیک وکړئ چې تاسو یې شریکول غواړئ، او
+                        ملکیتونه غوره کړئ. \n
+                        د شریکولو تڼۍ کلیک وکړئ او فولډر په شبکه کې چمتو کړئ.\n\n
+                        
+
+                    
+                        ډاډ ترلاسه کړئ چې دواړه وسایل په ورته وای فای کې دي\n
+                    
+                    
+                        دا فیچر په محلي شبکه کې فایلونه چمتو کوي، نو ستاسو کمپیوټر او ګرځنده وسایل
+                        باید په ورته محلي شبکه کې وي. تاسو نشئ کولی شریک شوي وینډوز فولډر ته لاسرسی ومومئ
+                        د انټرنیټ له لارې یا کله چې ستاسو سمارټ فون د دې ګرځنده ډیټا سره وصل وي - دا
+                        باید وائی فای سره وصل شی.\n\n
+                    
+
+                    
+                        IP پته ومومئ\n
+                    
+                    
+                        د کمانډ پرامپټ خلاص کړئ. \'ipconfig\' ټایپ کړئ او Enter فشار ورکړئ. د ډیفالټ ګیټ وی لپاره وګورئ
+                        ستاسو د روټر IP پتې لپاره ستاسو د شبکې اډاپټر لاندې. لټول
+                        \\\"IPv4 پته\\\" د ورته اډاپټر برخې لاندې ستاسو د کمپیوټر IP موندلو لپاره
+                        پته.\n\n
+                    
+
+                    د SMB ډیالوګ بکس کې توضیحات داخل کړئ\n
+                
+            
+        
+   </string>
+    <string name="share_limit">له 100 څخه ډیر فایلونه شریک نشي</string>
+    <string name="otg_access">د OTG وسیلې ریښه وټاکئ</string>
+    <string name="information">معلومات</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">لاسرسی</string>
+    <!-- reference to file modified date -->
+    <string name="modified">بدل شوی</string>
+
+    <string name="title">عنوان</string>
+    <string name="artist">فنکار</string>
+    <string name="album">البم</string>
+    <string name="year">کال</string>
+    <string name="duration">دوره</string>
+    <string name="comment">تبصره</string>
+    <!-- reference to audio/video file -->
+    <string name="container">کانټینر</string>
+    <string name="codec">کوډیک</string>
+    <string name="channels">چینلونه</string>
+    <string name="sample_rate">د نمونې نرخ</string>
+    
+    <string name="dimensions">طاقت</string>
+    <string name="frame_rate">د چوکاټ نرخ</string>
+    <string name="image_type">Image div18 چړوالی</string>
+    <string name="width">لوړوالی</string>
+    <string name="height">نیټه تعدیل</string>
+    <string name="date_modified">سافټویر</string>
+    <string name="software">Creator</string>
+    <string name="creator">د کیمرې برانډ</string>
+    <string name="camera_brand">د کیمرې برانډ</string>
+    <string name="camera_model">ماډل</string>
+    <string name="date_taken">نیټه اخیستل</string>
+    <string name="exposure_time">د څرګندولو وخت</string>
+    <string name="aperture_value">د اپرچر ارزښت</string>
+    <string name="image_iso">ISO سرعت درجه</string>
+    <string name="flash_fired">فلش ګوښه شوی</string>
+    <string name="focal_length">Focal Leng</string>
+    <string name="subject">موضوع</string>
+    <string name="author">لیکوال</string>
+    <string name="keywords">کلیدي ټکي</string>
+    
+    <string name="created">جوړ شوی</string>
+    <string name="format">فارمټ</string>
+    <string name="pages">Number مخونه</string>
+    <!-- reference to a document file -->
+    <string name="optimized">غوره شوي</string>
+    <string name="security">امنیت</string>
+    <string name="paper_size">د کاغذ اندازه</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">ځینې فایلونه په بریالیتوب سره %s</string>
+    <string name="copied">کاپي شوي</string>
+    <string name="moved">ليږدول</string>
+    <string name="copy_complete">کاپي بشپړ</string>
+    <string name="waiting_title">انتظار</string>
+    <string name="waiting_content">د عملیاتو بشپړیدو ته انتظار کول</string>
+    <string name="extract_complete">استخراج بشپړ شو</string>
+    <string name="compression_complete">کمپریشن بشپړ شو</string>
+    <string name="compressing">کمپریشن</string>
+    <string name="cancelled">لغوه شو</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">لیکل د</string>
+    <string name="out_of">د</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">د</string>
+    <string name="processing_file">د پروسس کولو فایل</string>
+    <string name="current_speed">اوسنی سرعت</string>
+    <string name="smb_launch_error">تاسو به دا فایل د خلاصولو لپاره ذخیره ته کاپي کړئ</string>
+    <string name="error_file_not_found">غلطي: فایل ونه موندل شو</string>
+    <string name="error_io">I/O تېروتنه</string>
+    <string name="error_file_too_large">غلطي: دوتنه ډیره لویه ده</string>
+    <string name="medium_text">منځنی متن</string>
+    <string name="permission_read">لوستل</string>
+    <string name="permission_write">ولیکئ</string>
+    
+    <string name="permission_owner">مالک</string>
+    <string name="permission_group">گروپ</string>
+    <string name="permission_other">نور</string>
+    <string name="clipboard_path_copy">لاره کلپ بورډ ته کاپي شوې</string>
+    <string name="service_timer">وخت تیر شو</string>
+    <string name="please_wait">مهرباني وکړئ انتظار وکړئ</string>
+
+    
+    <string name="cloud_connection_new">نوی کلاوډ اتصال</string>
+    
+    
+    
+    <string name="cloud_box">OneDrive</string>
+    <string name="cloud_get">&gt;بکس</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">د کلاوډ پلگ ان ترلاسه کړئ</string>
+    <string name="ftp_path">هیڅ اپلیکیشن نشته</string>
+    <string name="ftp_path_hint">شریک شوی لاره</string>
+    <string name="change">د شریکولو لپاره د لارښود ریټ ته لاره</string>
+    <string name="unknown_error">بدل کړئ</string>
+
+    <string name="ftp_path_change_success">هو، یو څه غلط شو!</string>
+    <string name="ftp_path_change_error_invalid">FTP لاره په بریالیتوب سره بدله شوه</string>
+    <string name="ftp_status_no_connection">غلط لاره</string>
+    <string name="ftp_status_secure_connection">نه اړیکه</string>
+    <string name="ftp_status_title">محفوظ پیوستون</string>
+    <string name="ftp_port">حالت</string>
+    <string name="ftp_login">پورټ</string>
+    <string name="field_empty">ننوتل</string>
+    <string name="ftp_timeout">ساحه خالي نه شي</string>
+    <string name="ftp_seconds">بې کاره وخت</string>
+    <string name="intellihide_toolbar_title">ثانوي</string>
+    <string name="intellihide_toolbar_summary">Intellihide تول پټه</string>
+    <string name="hash_sha256">د سکرول کولو پر مهال په اتوماتيک ډول د تولپټې پټول</string>
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">SHA-256</string>
+    <string name="contributors_1_summary">کلپبورډ ته کاپي شوي</string>
+    <string name="contributors_2_summary">ژباړه</string>
+    <string name="contributors_3_summary">عکس او بینر</string>
+    <string name="contributors_4_summary">د موضوع انجن</string>
+    <string name="contributors_5_summary">د FAB شاته سیوري</string>
+    <string name="contributors_6_summary">د رنګ لیږد کله چې ټبونه تیریږي</string>
+    <string name="contributors_7_summary">FTP سرور</string>
+    <string name="connection_exists">د متقابل شیل پورته کول</string>
+
+    <string name="crypt_encrypting">کنکشن لا دمخه شتون لري</string>
+    <string name="crypt_decrypting">کوډ کول</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">کوډ کول</string>
+    <string name="crypt_decrypted">کوډ شوی</string>
+    <string name="crypt_encrypt">کوډ شوی</string>
+    <string name="crypt_decrypt">کوډ کول</string>
+    <string name="operation_fail_following">Div86&gt;کوډ کول</string>
+    <string name="crypt_pref_master_password_title">Div86&gt; د لاندې فایلونو لپاره عملیات ناکام شول</string>
+    <string name="crypt_pref_master_password_summary">ماسټر پاسورډ</string>
+    <string name="crypt_pref_fingerprint_title">د کوډ کولو لپاره ماسټر پاسورډ تنظیم کړئ.
+        د لیرې کولو لپاره خالي پریږدئ.</string>
+    <string name="crypt_pref_fingerprint_summary">د ګوتو نښان</string>
+    <string name="crypt_fingerprint_no_permission">د کوډ کولو تصدیق کولو لپاره د ګوتو نښان وکاروئ</string>
+    <string name="crypt_fingerprint_not_enrolled">د ګوتو د نښان اجازه ورکه شوې</string>
+    <string name="crypt_fingerprint_no_security">د ګوتو نښان ثبت شوي ندي</string>
+    <string name="crypt_warning_key">امنیت وموندل</string>
+    <string name="warning_never_show">مشوره وکړئ، کله چې تاسو د خپل امنیت بڼه بدله کړئ
+        د سیسټم ترتیبات، تاسو به د دې مینځپانګې ډیکریټ کولو توان ونلرئ.</string>
+    <string name="warning_confirm">بیا خبر مه ورکوئ</string>
+    <string name="crypt_encryption_fail">سم شو!</string>
+    <string name="crypt_decryption_fail">په کوډ کولو کې پاتې راغلی</string>
+    <string name="crypt_decryption_fail_password"/>
+    <string name="crypt_fingerprint_authenticate">غلط پټنوم په پټولو کې پاتې راغلی!</string>
+    <string name="authenticate_password">د ادامه ورکولو لپاره د ټچ سینسر</string>
+
+    <string name="sidebar_preferences">پټنوم دننه کړئ</string>
+    <string name="sidebar_quick_access_title">سایډبار</string>
+    <string name="show_quick_access_pref_title">سایډبار چټک لاسرسی</string>
+    <string name="show_quick_access_pref">چټک لاسرسی وښایاست</string>
+    <string name="directory">چټک لاسرسی</string>
+
+    <string name="sidebar_bookmarks_title">ډائریکټوری</string>
+    <string name="show_bookmarks_pref_title">د اړخ پټۍ بک مارکونه</string>
+    <string name="show_bookmarks_pref">بک مارکونه وښایاست</string>
+    <string name="create_bookmark">بک مارکونه بک مارک جوړ کړئ</string>
+    <string name="edit_bookmark">بک مارک ایډیټ کړئ</string>
+    <string name="question_delete_bookmark">بک مارک ړنګ کړئ؟</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud پلگ ان ونه موندل شو. مهرباني وکړئ د Play Store څخه ډاونلوډ کړئ.</string>
+    <string name="cloud_error_failed_restart">د پیوستون په پورته کولو کې پاتې راغلی.
+        مهرباني وکړئ یو ځل امیز کلاوډ پرانیزئ.</string>
+    <string name="cloud_remove">ایا تاسو غواړئ د کلاوډ پیوستون لرې کړئ؟</string>
+    <string name="cloud_fail_authenticate">د تصدیق کولو کې پاتې راغلی</string>
+    <string name="cloud_share_copied">د شریکولو وړ لینک کلپ بورډ ته کاپي شوی</string>
+    <string name="copy_low_memory">د وتلو څخه حافظه، مهرباني وکړئ یو څه RAM پاک کړئ</string>
+    <string name="cloud_token_lost">ټوکن ورک شوی، مهرباني وکړئ بیا لاسلیک کړئ</string>
+    <string name="monofont">OneDrive د مونوسپیس فونټ</string>
+    <string name="showHeaders">سرلیکونه وښایاست</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">هیڅ توکي نشته</string>
+	<string name="item">توکي</string>
+	<string name="items">توکي</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">دوتنه باید یو نوم ولري</string>
+    <string name="add_item">توکي اضافه کړئ</string>
+    <string name="failed_smb_decrypt_path">لوډ کولو کې پاتې راغلی د SMB اتصال</string>
+    <string name="failed_cloud_new_connection">د نوي کلاوډ اتصال په اضافه کولو کې پاتې راغلی</string>
+    <string name="failed_cloud_api_key">د کلاوډ پلګ ان تصدیق کولو کې پاتې راغلی</string>
+
+    <string name="local_inet_addr_error">د محلي انټ پته ترلاسه کولو کې تېروتنه</string>
+    <string name="intent_save_as">په توګه خوندي کړئ…</string>
+    <string name="go">لاړ شئ</string>
+    <string name="advanced">پرمختللي</string>
+    <string name="typeable_paths_title">مستقیم لارې</string>
+    <string name="typeable_paths_summary">د دودیزې لارې ټایپ کولو لپاره د لارې بار اوږد فشار ورکړئ</string>
+    <string name="send_email_to">ته بریښنالیک واستوئ</string>
+
+    <string name="text_editor">د متن ایډیټر ترتیبات</string>
+    <string name="preference_newstack_title">د نوي دندې په توګه فایلونه خلاص کړئ</string>
+    <string name="preference_newstack_summary">تاسو ته اجازه درکوي فایلونه په جلا کارونو کې خلاص کړئ. دوی ته د سیسټم وروستي سکرین څخه لاسرسی ومومئ.</string>
+    
+    <string name="developers">Dev18</string>
+    <string name="no_bitcoin_app">مهرباني وکړئ د Bitcoin Wallet ایپ نصب کړئ</string>
+    <string name="channel_name_normal">Amaze خبرتیاوې</string>
+    
+    <string name="channel_name_ftp">Amaze FTP سرور</string>
+    <string name="channel_description_ftp">د مدیر FTP سرور خبرتیا</string>
+
+    
+    <string name="processing">پروسس کول…</string>
+    <string name="failed_no_connection">د فایلونو په پورته کولو کې پاتې راغلی. مهرباني وکړئ خپل پیوستون وګورئ.</string>
+
+    <string name="update">تازه کول</string>
+	<string name="scp_connection">SCP/SFTP پیوستون</string>
+    <string name="ftp_connection">FTP پیوستون</string>
+    <string name="ftps_connection">FTP د SSL کنکشن</string>
+    <string name="scp_port">پورټ</string>
+    <string name="ssh_host_key_verification_prompt">د کوربه \'%1$s\' اعتبار نه شي ثابتولی.\n\n%2$s کلیدي ګوتې نښه %3$s ده.\n\nمهرباني وکړئ د تایید لپاره \"هو\" ټایپ کړئ هویت که نه نو، مهرباني وکړئ \"نه\" ټایپ کړئ.</string>
+    <string name="ssh_host_key_verification_prompt_title">د کوربه تایید کړئ</string>
+    <string name="ssh_select_pem_button">SSH خصوصي کیلي</string>
+    <string name="ssh_pem_key_parse_error">د ټاکل شوي PEM لوستلو توان نلري: %s</string>
+    <string name="password_unchanged">(بدل شوی)</string>
+    <string name="ssh_authentication_failure_password">د ننوتلو ناکامي: د چمتو شوي کارن-نوم او پټنوم سره د تصدیق کولو توان نلري.</string>
+    <string name="ssh_authentication_failure_key">د ننوتلو ناکامي: د چمتو شوي کارن نوم او شخصي کیلي سره د تصدیق کولو توان نلري.</string>
+    <string name="ssh_connect_failed">د %1$sسره د نښلولو توان نلري s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">خبرداری: د ریموټ کوربه پیژندنه بدله شوې ده!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">دا ممکنه ده چې یو څوک یو څه ناوړه کار وکړي!\n\nڅوک په زړه پورې وي همدا اوس (په منځ کې برید)! دا هم امکان لري چې د کوربه کیلي یوازې بدله شوې وي. د ریموټ کوربه لخوا لیږل شوي عامه کیلي لپاره د ګوتو نښه په Amaze کې ذخیره شوي سره سمون نه لري.\n\nمهرباني وکړئ د خپل سیسټم مدیر سره اړیکه ونیسئ یا د سرور سره وصل کیدو ته دوام ورکولو لپاره یو نوی پیوستون تنظیم کړئ.</string>
+    <string name="ssh_key_prompt_passphrase">مهرباني وکړئ کیلي پاسفریج دننه کړئ .</string>
+    <string name="add_shortcut_not_supported_by_launcher">د شارټ کټ جوړول ستاسو د لانچر لخوا نه ملاتړ کیږي.</string>
+    
+    <string name="select_color_config">د رنګ ترتیب غوره کړئ</string>
+    <string name="customize">تخصیص</string>
+    <string name="custom">مستقیم</string>
+    <string name="preselected_configs_title">پخوا غوره شوي تشکیلات</string>
+    <string name="orange">نارنج</string>
+    <string name="blue">نیلی</string>
+    <string name="green">شین</string>
+    <string name="password_no_match">پاسورډ سره سمون نه خوري</string>
+    <string name="deselect_all">ټول غیر انتخاب کړئ</string>
+    <string name="filename">د فایل نوم</string>
+    <string name="compress_file_suggest_zip_extension">داسپارښتنهکیږيچېدفایلتوسیعپهتوګه\".zip\"وکاروئ.</string>
+    <string name="about_amaze">د Android لپاره د موادو ډیزاین فایل مدیر</string>
+    <string name="license">لایسنس</string>
+    <string name="libraries">کتابتونونه</string>
+    <string name="password_repeat">د پټنوم تکرار کړئ</string>
+    <string name="create_file_suggest_txt_extension">دا د کارولو سپارښتنه کیږي \". txt\" د دوتنې د تمدید په توګه.</string>
+    <string name="ssh_select_pem">د تصدیق لپاره شخصي کیلي وټاکئ</string>
+    <string name="ssh_key_invalid_passphrase">غلط کیلي پاسفراس.</string>
+    <string name="ssh_key_no_decoder_decrypt">د PEM د کوډ کولو لپاره کوم باوري کوډونکی نشته.</string>
+    <string name="encryption_fail_copy">په ناکامۍ په ډیټابیس کې د کوډ کولو ننوتل تازه کړئ</string>
+    <string name="extracted">استخراج شوي</string>
+    <string name="compressed">کمپریس شوي</string>
+    <string name="processed">پروسس شوي</string>
+    <string name="no_obtainable_info">د دې فایل په اړه هیڅ معلومات نشته</string>
+    <string name="reopen_from_source">Can\' t، مهرباني وکړئ د وروستي اپلیکیشن څخه بیا پرانیزئ</string>
+    <string name="no_file_error">یو څه غلط شوي، د خلاصولو لپاره هیڅ شی نشته</string>
+    <string name="file_too_long">دوتنه ډیره اوږده ده او نشي ترمیم کیدی، که څه هم تاسو کولی شئ لومړی %d حروف ولولئ</string>
+    <string name="file_read_only">پرانستل شوی فایل یوازې د لوستلو وړ دی.</string>
+    <string name="got_it">سم شو!</string>
+    <string name="encrypt_file_save_as">کوډ شوی فایل په دې توګه خوندي کړئ…</string>
+    <string name="encrypt_folder_save_as">د کوډ شوي فولډر په توګه خوندي کړئ…</string>
+    <string name="encrypt_option_use_aze">دامازکوډکولوبڼهوکاروئ</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt د خلاصې سرچینې فایل کوډ کولو فارمیټ دی چې د AES کوډ کولو پراساس دی. دا پورټ ایبل هم دی، په نورو پلیټ فارمونو کې د AESCrypt برنامو سره ډیکریټ کیدی شي.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt ویب پاڼه</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze د کوډ کولو بڼه هم د AES کوډ کولو پر بنسټ والړ ده؛ مګر د AESCrypt بڼه څخه توپیر لري، دا یوازې د دې وسیلې لخوا ډیکریټ کیدی شي؛ همدارنګه تاسو باید د دې وسیلې څخه د اماز فایل مدیر غیر نصب نه کړئ او نه هم د سکرین لاک کولو لاره بدله کړئ ، که نه نو تاسو به د کوډ شوي فایل بیرته ترلاسه کولو لپاره هیڅ لاره ونه لرئ.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">کوډ شوي فایلونه باید د فایل توسیع په توګه \".aze\" وکاروي.</string>
+    <string name="encrypt_file_must_end_with_aes">کوډ شوي فایلونه باید د فایل توسیع په توګه \".aes\" وکاروي.</string>
+    <string name="error_aescrypt_decrypt_failed">نشي کوالی. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">دوتنه نشي لیکل کیدی.</string>
+    <string name="saved_single_file">دوتنه د \'%s\' په توګه خوندي شوې.</string>
+    <string name="saved_multi_files">%d فایلونه خوندي شوي.</string>
+    <string name="create_hidden_file_warn">جوړ شوی فایل به د فایلونو په لیست کې پټ وي.</string>
+    <string name="grant_apkinstall_permission">د اپلیکیشنونو نصبولو ته دوام ورکولو لپاره اپلیکیشن اجازه ته اړتیا لري.</string>
+    <string name="time_remaining">پاتې وخت</string>
+    <string name="transfer_rate">د لیږد نرخ</string>
+    <string name="unknown">نامعلوم</string>
+    <string name="multiple_invalid_archive_entries">په آرشیف کې ځینې فایلونه نشي ایستل کیدی؛ آرشیف ممکن خراب شوی وي یا له ناوړه سرچینې څخه راغلی وي.</string>
+    <string name="saf_otg_explanation">تاسو به اوس د امنیتي دلایلو لپاره د Android فایل سیسټم ته لاړشئ. مهرباني وکړئ د کیڼ اړخ له لیست څخه USB وسیله غوره کړئ.</string>
+    <string name="donation_thanks">د مرستې لپاره مننه، دا موږ هڅوي! (:</string>
+    <string name="enable_marquee_filename">د دوتنې نومونو لپاره د مارکي اغیز فعال کړئ</string>
+    <string name="archive_password_prompt">مهرباني وکړئ د آرشیف پټنوم دننه کړئ:</string>
+    
+    <string name="cannot_extract_archive">آرشیف نشي ایستل کیدی \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">نشئ کولی آرشیف \"%s\" خلاص کړئ. یا موږ نشو کولی آرشیف خلاص کړو، یا آرشیف خراب شو.</string>
+    <string name="close">بند کړئ</string>
+    <string name="bookmark_exists">بک مارک شتون لري</string>
+    <string name="hide_media">د میډیا براوزرونو څخه پټ کړئ</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">دا ممکنه ده چې یو څوک یو څه ناوړه کار کوي!\n\nڅوک اوس تاسو ته غوږ نیسي (په مینځ کې برید)! دا هم ممکنه ده چې د کوربه کیلي یوازې بدله شوې وي. د ګوتو نښه د ریموټ کوربه لخوا لیږل شوي عامه کیلي لپاره چې په اماز کې زیرمه شوي سره سمون نه لري.\n\nتاسو کولی شئ د کوربه ګوتې نښې تازه کولو ته دوام ورکړئ یا د SSH اتصال ترتیباتو تازه کول لغوه کړئ.</string>
+    <string name="update_host_key">د کوربه کیلي تازه کړئ</string>
+    <string name="cancel_recommended">لغوه کول (وړاندیز شوی)</string>
+    
+    
+    <string name="failed_install_apk">په نصبولو کې پاتې راغلی</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">داخلي ذخیره</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD کارت</string>
+    <string name="choose_folder">دا فولډر غوره کړئ</string>
+    
+    <string name="some_files_failed_invalid_operation">ځینې فایلونه د غلطۍ له امله ناکام شوي عملیات</string>
+    <string name="ftp_server_prompt_connect_to_network">نیټ ورک سره وصل شئ یا AP فعال کړئ</string>
+    <string name="ftp_server_open_settings">پرانیست ترتیبات</string>
+    <string name="move">حرکت</string>
+    <string name="select_save_location">د خوندي کولو لپاره ځای وټاکئ</string>
+    <string name="scp_default_path">Default Path (اختیاري)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">بښنه غواړم، دا باید نه وي شوي.</string>
+    
+    <string name="error_report_button_text">دا تېروتنه د بریښنالیک له لارې راپور کړئ</string>
+    <string name="error_report_button_telegram">دا تېروتنه د ټیلیګرام له لارې راپور کړئ</string>
+    <string name="copy_for_github">کاپي فارمیټ راپور</string>
+    <string name="error_report_open_issue_button_text">په GitHub کې راپور</string>
+    <string name="error_report_open_github_notice">مهرباني وکړئ وګورئ چې ایا ستاسو د حادثې په اړه کومه مسله دمخه شتون لري.</string>
+    <string name="error_snackbar_message">بښنه غواړم، یو څه غلط شوی.</string>
+    <string name="error_snackbar_action">رپورټ </string>
+    <string name="what_device_headline">معلومات:</string>
+    <string name="what_happened_headline">څه پیښ شوي:</string>
+    <string name="info_labels">څه:\\nغوښتنه:\\nGMT وخت:\\nپکیج:\\nVersion:\\nOS version:\\ndevice:\\nModel:\\nProduct :</string>
+    <string name="your_comment">ستاسو تبصره (په انګلیسي کې):</string>
+    <string name="error_details_headline">تفصیلات:</string>
+    <string name="app_ui_crash">App/UI خراب شوی</string>
+    <string name="error_report_title">د تېروتنې راپور</string>
+    <string name="crash_report_copied">د کریش راپور کاپي شوی کلپبورډ</string>
+    <string name="disableIpcSignature">د IPC لاسلیک کولو چک غیر فعال کړئ (د میراثي SMBv1 سرورونو لپاره - غیر خوندي!)</string>
+    <string name="cannot_delete_file">دوتنه نشي ړنګولای</string>
+    <string name="cannot_delete_file_with_reason">دوتنه نشي حذف کیدی - %s</string>
+    <string name="cannot_rename_file">د دوتنې نوم نشي بدلولی %s - %s</string>
+    <string name="cannot_read_directory">ډائریکټري نشي لوستلی %s - %s</string>
+    <string name="just_once">یوازې یو ځل</string>
+    <string name="always">تل</string>
+    <string name="choose_different_app">مختلف اپلیکیشن غوره کړئ</string>
+    <string name="clear_open_file">پاک کړئ کیچ</string>
+    <string name="clear_open_file_summary">د ټاکل شوي ډیفالټ فایل خلاصولو ایپسونه پاکوي</string>
+    <string name="ftp_readonly">یوازې لوستلو لاسرسی</string>
+    <string name="legacy_listing_title">د روټ لپاره میراث لیست وکاروئ</string>
+    <string name="legacy_listing_summary">که فعاله وي، د فایلونو لیست کولو لپاره میراثي میتود وکاروئ</string>
+    <string name="error_unsupported_v5_rar">RAR آرشیف \"%s\" د RAR v5 آرشیف نه ملاتړ شوی دی.</string>
+    <string name="ftp_prompt_restart_server">تاسو به د بدلونونو د پلي کیدو لپاره د FTP سرور بیا پیل کولو ته اړتیا ولرئ.</string>
+    <string name="error_permission_denied">اجازې رد شوې</string>
+    <string name="error_archive_password_incorrect">غلط آرشیف پټنوم.</string>
+    <string name="error_archive_cannot_extract">د ارشیف داخلیدل \"%s\" ته \"%s\" نشي ایستل کیدی.</string>
+    <string name="drag_and_drop_preference">د ډریګ او ډراپ غوره توب (تجرباتي)</string>
+    <string name="drag_to_move_copy">د فایلونو د حرکت یا کاپي کولو لپاره لمس او ډریګ</string>
+    <string name="drag_to_select">د فایلونو غوره کولو لپاره لمس او کش کړئ</string>
+    <string name="disable">بند کړئ</string>
+    <string name="choose_operation">د ترسره کولو لپاره عملیات غوره کړئ</string>
+    <string name="remember">د بل ځل لپاره په یاد ولرئ</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">د FTP سرور لپاره د SAF لاسرسی ورکړئ</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">ځکه چې دا ستاسو د FTP سرور لومړی چل دی، او تاسو د وسیلې داخلي ذخیره د شریک فولډر په توګه کاروئ، مهرباني وکړئ اماز ته اجازه ورکړئ چې د کارولو ذخیره کولو ته لاسرسی ومومي. SAF.\n\n
+
+تاسو اړتیا لرئ دا یوازې یو ځل ترسره کړئ، تر بل وخت پورې چې تاسو د شریکولو لپاره نوی ځای وټاکئ.</string>
+    <string name="android_data_prompt_saf_access">د Android 10 راهیسې، Android په ځینو لارښودونو محدودیتونه وضع کړي، او دوی اړتیا لري چې د ذخیره کولو لاسرسي چوکاټ سره لاسرسی ولري.\n \nمهرباني وکړئ اماز ته اجازه ورکړئ چې د سیسټم د فایل مدیر څخه ډایرکټر ته لاسرسی ومومي د \"Allow Access\" په کلیک کولو سره.</string>
+    <string name="android_data_prompt_saf_access_title">SAF لاسرسی ورکړئ</string>
+    <string name="ftp_preference_saf_filesystem_title">د میراثي فایل سیسټم وکاروئ</string>
+    <string name="ftp_preference_saf_filesystem">فعال کړئ دا په نوي Android نسخو کې د وسیلې بهرنۍ ذخیره کارولو لپاره د ملاتړ لپاره</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP سرور شریک شوی لاره داخلي ذخیره ته بیا تنظیم شوې ځکه چې تاسو د میراث فایل سیسټم پلي کولو ته بیرته ځئ. مهرباني وکړئ د اړتیا په صورت کې په پورتنۍ ښۍ خوا کې د مینو په کارولو سره نوې لاره غوره کړئ.</string>
+    <string name="ftp_server_reset_notify">د FTP سرور شریکه لاره داخلي ذخیره ته بیا تنظیم شوې وه</string>
+    <string name="ftp_server_root_unavailable">تاسو یوه لاره غوره کوئ چې روټ لاسرسي ته اړتیا لري. مهرباني وکړئ په ترتیباتو کې د روټ سپړونکي فعال کړئ که ستاسو وسیله ریښه وي.</string>
+    <string name="ftp_server_root_filesystem_warning">تاسو یوه لاره غوره کوئ چې د روټ لاسرسي ته اړتیا لري، کوم چې ستاسو په وسیله په ټول فایل سیسټم کې د لوستلو / لیکلو عملیات فعالوي، او دا خطرناکه ده - بې پروا اشتباه کولی شي ستاسو وسیله خټکي کړي!\n\nایا تاسو ډاډه یاست؟</string>
+    <string name="compressed_explorer_fragment_error_open_uri">د لوستلو لپاره د URI \"%s\" په خلاصولو کې تېروتنه.</string>
+    <string name="error_empty_archive">\"%s\" یو خالي آرشیف دی.</string>
+    <string name="error_bad_archive_without_info">\"%s\" یو فاسد آرشیف دی .</string>
+    <string name="error_bad_archive_with_info">\"%s\" یو فاسد آرشیف دی.\nد استخراج څخه پیغام: \"%s\"</string>
+    <string name="security_error">د دې اپلیکیشن په کارولو سره فایل نشي خلاصیدلی</string>
+    <string name="cloud_drive_tooltip">جوړ کړئ د اماز فایل مدیر څخه د فایلونو اداره کولو لپاره د ګوګل ډرایو اتصال.</string>
+    <string name="signin_with_google_title">د ګوګل ډرایو کارولو لپاره تصدیق کړئ™</string>
+    <string name="show_system_apps">د سیسټم ایپس وښایاست</string>
+    <string name="system_apps">سیسټم ایپس</string>
+    <string name="select_inverse">انتخاب کړئ برعکس</string>
+    <string name="select_by_type">د ډول له مخې غوره کړئ</string>
+    <string name="select_by_date">د نیټې له مخې غوره کړئ</string>
+    <string name="select_similar">ورته وټاکئ</string>
+    <string name="error_fetching_google_play_product_list">له ګوګل پلی څخه د محصول لیست په راوړلو کې تېروتنه.</string>
+    <string name="grant_all_files_permission">له Android 11 راهیسې ، ګوګل د فایل مدیرانو څخه غوښتنه کوي چې په وسیله کې د ټولو فایلونو اداره کولو لپاره د کارونکي اجازې غوښتنه وکړي. تفصيل دلته.
+        \n\nAmaze فایل مدیر هم دې اجازې ته اړتیا لري. دلته د "ګرانټ" فشارولو وروسته ، مهرباني وکړئ په راتلونکي سکرین کې د ټولو فایلونو اداره کولو اختیار ته اجازه ورکړئ غوره کړئ.
+        \n\nد دې ډیالوګ لغوه کول به له اپلیکیشن څخه وځي.</string>
+    <string name="user_apps">د کارونکي ایپس</string>
+    <string name="appearance">ظاهر</string>
+    <string name="behavior">چلند</string>
+    <string name="appearance_summary">د فایل مدیر موضوع، رنګونه او بڼه خپل کړئ</string>
+    <string name="ui_summary">کنټرول کړئ چې کوم معلومات وښایئ، د سایډ بار دودیز کړئ، او د UI غوره توبونه بدل کړئ</string>
+    <string name="behavior_summary">چلندونه بدل کړئ لکه پرمختللي لټون او ایا فایلونه د نوي دندې په توګه خلاص کړئ</string>
+    <string name="security_summary">د پټنوم تنظیم کړئ او کوډ کول</string>
+    <string name="backup_summary">Export/Import amaz settings</string>
+
+    <string name="pref_export">صادرات</string>
+    <string name="pref_export_summary">د صادراتو ترتیبات</string>
+    <string name="pref_import">واردات</string>
+    <string name="pref_import_summary">د واردولو ترتیبات</string>
+
+    <string name="quick_desc">د واردولو ترتیبات په دې وروستیو کې د اماز له لارې لاسرسی</string>
+    <string name="recent_desc">په دې وروستیو کې رامینځته شوي یا بدل شوي فایلونه</string>
+    <string name="error_cannot_find_way_open">د فایل خلاصولو لپاره لاره ونه موندل شوه</string>
+    <string name="error_cant_decompress_that_file">غوښتل شوي آرشیف پروسس نشي کولی</string>
+    <string name="analyse_storage">د ذخیره کولو تحلیل</string>
+    
+    <string name="download_amaze_utils_text">تاسو د اماز فایل افادیت ته لیږل کیږئ. دا زموږ د خلاصې سرچینې اپلیکیشن دی چې د آډیو/ویډیو/انځور/د اسنادو لیدونکي لري، تاسو ته اجازه درکوي د ذخیره کولو خالي کولو لپاره جنک فایلونه تحلیل کړئ، د وائی فای P2P په کارولو سره ګړندي لیږد او نور ډیر څه.\nمهرباني وکړئ د دې هڅه کولو سره زموږ ملاتړ وکړئ.</string>
+    <string name="download">ډاونلوډ</string>
+    
+    <string name="amaze_utils_installed_alias">د اماز فایل اسانتیاو نصبولو لپاره مننه. تاسو اپلیکیشن ته لیږل کیږئ.</string>
+    
+    <string name="video_player">امیز ویډیو پلیر </string>
+    
+    <string name="pdf_viewer">Amaze د سند لیدونکی</string>
+    <string name="docx_viewer">د حیرانتیا سند لیدونکی</string>
+    <string name="share_logs">لاګونه شریک کړئ</string>
+    <string name="share_logs_summary">د بریښنالیک / ټیلیګرام له لارې نیول شوي لاګونه شریک کړئ</string>
+    <string name="open_with_amaze">د امیز سره پرانیزئ</string>
+    <string name="confirmation">تصدیق</string>
+    
+    
+    <string name="error_cannot_get_package_info">د \"%s\" دوتنې څخه د بسته بندي معلوماتو ترلاسه کولو توان نلري. یا هم مشخص شوی فایل APK نه دی، یا د بسته بندۍ فایل فاسد دی.</string>
+    <string name="preference_delete_confirmation">تایید حذف کړئ</string>
+    <string name="preference_delete_confirmation_summary">تصدیق حذف کړئ</string>
+    
+    
+    <string name="protocol_ftps">د فایلونو ړنګولو دمخه د تایید غوښتنه وکړئ. د دې غیر فعال کول خورا هڅول شوي دي!</string>
+    <string name="unavailable">Secure FTP</string>
+
+    <string name="exporting_failed">نه شته</string>
+    <string name="importing_failed">صادرول ناکام شول: د بیک اپ فایل لیکل نشو کولی</string>
+    <string name="importing_completed">واردول ناکام شو: بیک اپ لوستل نشو دوتنې</string>
+    <string name="invalid_backup_file">واردول بشپړ شول</string>
+    <string name="import_failed_for">ناسمه بیک اپ فایل</string>
+    
+    
+    <string name="disable_player_intent_filters">د پلیر انټینټ فلټرونه غیر فعال کړئ</string>
+    <string name="disable_player_intent_filters_summary">د فایل غوره کونکي څخه د ایمیز انبلټ میډیا پلیرونه غیر فعال کړئ</string>
+    <string name="no_app_found_intent">د دې ارادې اداره کولو لپاره هیڅ اپلیکیشن ونه موندل شو. ایا تاسو DocumentsUI نصب کړی؟</string>
+    <string name="cloud_connection_credentials_cleared">د کلاوډ پیوستون اسناد پاک شوي</string>
+    <string name="cloud_connection_credentials_cleared_msg">له بده مرغه، موږ نشو کولی ستاسو د کلاوډ پیوستون اسناد نوي ډیټابیس سکیما ته انتقال کړو، او موږ درلود د ایپ څخه د لرې کولو لپاره. مهرباني وکړئ د کلاوډ پیوستون بیا جوړ کړئ.</string>
+</resources>

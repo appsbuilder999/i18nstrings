@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">កម្មវិធីគ្រប់គ្រងឯកសារអស្ចារ្យ</string>
+    <string name="drawer_open">បើកថតរុករក</string>
+    <string name="drawer_close">បិទថតរុករក</string>
+    <string name="icon">រូបតំណាង</string>
+    <string name="apps">កម្មវិធីគ្រប់គ្រងកម្មវិធី</string>
+    <string name="ftp">ម៉ាស៊ីនមេ FTP</string>
+    <string name="setting">ការកំណត់</string>
+    <string name="select">ជ្រើសរើសធាតុ</string>
+    <string name="press_again">ចុចម្តងទៀតដើម្បីចេញ</string>
+    <string name="open">បើក</string>
+    <string name="backup">បម្រុងទុក</string>
+    <string name="uninstall">លុបការដំឡើង</string>
+    
+    <string name="properties">លក្ខណសម្បត្តិ</string>
+    <string name="copyingapks">ការចម្លងឯកសារ APK %d ទៅ %s</string>
+    <string name="delbook">លុបចំណាំ</string>
+    <string name="add_to_bookmarks">បន្ថែមទៅចំណាំ</string>
+    <string name="enterpath">បញ្ចូលផ្លូវ</string>
+    
+    
+    <string name="loading">កំពុងផ្ទុក...</string>
+    <string name="file_empty">ឯកសារគឺទទេ</string>
+    <string name="error">កំហុស</string>
+    <string name="search_results">លទ្ធផលស្វែងរកនៃ %s</string>
+    <string name="rename">ប្តូរឈ្មោះ</string>
+    <string name="save">រក្សាទុក</string>
+    <string name="bookmarks_added">បានបន្ថែមចំណាំ</string>
+    <string name="fileexist">ឯកសារដែលមានឈ្មោះដូចគ្នាមានរួចហើយ</string>
+    <string name="name">ឈ្មោះ</string>
+    <string name="date">កាលបរិច្ឆេទ</string>
+    <string name="location">ទីតាំង</string>
+    <string name="size_capitalized">ទំហំ</string>
+    <string name="size">ទំហំនៃថត</string>
+    <string name="enterzipname">បញ្ចូលឈ្មោះហ្ស៊ីប</string>
+    <string name="no_app_found">រកមិនឃើញកម្មវិធីដើម្បីបើកឯកសារនេះ</string>
+    <string name="copying">ការចម្លង</string>
+    <string name="moving">កំពុងផ្លាស់ទី</string>
+    <string name="file">ឯកសារ</string>
+    <string name="folder">ថតឯកសារ</string>
+    <string name="newfolder">ថតថ្មី</string>
+    <string name="entername">បញ្ចូលឈ្មោះ</string>
+    <string name="extracting">ការស្រង់ចេញ</string>
+    <string name="stopping">ការបញ្ឈប់</string>
+    <string name="open_parent">បើកបញ្ជីមេ</string>
+    <string name="open_with">បើកជាមួយ</string>
+    <string name="share">ចែករំលែក</string>
+    <string name="about">អំពី</string>
+    <string name="extract">ស្រង់ចេញ</string>
+    <string name="compress">បង្ហាប់</string>
+    <string name="yes">បាទ</string>
+    <string name="no">ទេ</string>
+    
+    
+    
+    <string name="dialog_delete_disclaimer">ការលុបធាតុខាងក្រោមនឹងលុបពួកវាចេញពីឧបករណ៍របស់អ្នកជាអចិន្ត្រៃយ៍ ហើយពួកវាមិនអាចយកមកវិញបានទេ។</string>
+    <string name="dialog_delete_title">លុបធាតុជាអចិន្ត្រៃយ៍?</string>
+    <string name="deleting">ការលុប</string>
+    <string name="question_set_path_as_home">តើអ្នកចង់កំណត់ផ្លូវបច្ចុប្បន្នជាផ្ទះសម្រាប់ផ្ទាំងនេះទេ?</string>
+    <string name="directorysort">របៀបតម្រៀបថត</string>
+    <string name="sort_by">តម្រៀបតាម</string>
+    <string name="sort_only_this">មានតែថតឯកសារនេះ</string>
+    <string name="theme">ស្បែក</string>
+    <string name="random">ស្បែកចៃដន្យ</string>
+    <string name="random_summary">កំណត់ពណ៌ចម្បងចៃដន្យនៅពេលចាប់ផ្តើម</string>
+    <string name="colorize">រូបតំណាងពណ៌</string>
+    <string name="colorize_summary">កំណត់ ពណ៌រូបតំណាងឋិតិវន្ត។ មិនបដិសេធចំណូលចិត្តពណ៌រូបតំណាងថតទេ។</string>
+    <string name="home">ទំព័រដើម</string>
+    <string name="paste">បិទភ្ជាប់</string>
+    <string name="history">ប្រវត្តិ</string>
+    <string name="copy">ចម្លង</string>
+    
+    <string name="root_mode_summary">សម្រាប់តែឧបករណ៍ឫសគល់ប៉ុណ្ណោះ។ ពិនិត្យវា លុះត្រាតែអ្នកប្រាកដអំពីវា។</string>
+    <string name="root_failure">ការចូលប្រើជា Root មិនត្រូវបានអនុញ្ញាត</string>
+    <string name="select_all">ជ្រើសរើសទាំងអស់</string>
+    <string name="delete">លុប</string>
+    <string name="set_as_home">កំណត់ជាទំព័រដើម</string>
+    <string name="operation_not_supported">ប្រតិបត្តិការមិនត្រូវបានគាំទ្រ</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">ពន្លឺសម្ភារៈ</string>
+    <string name="dark">សម្ភារៈងងឹត</string>
+    <string name="daytime">ពេលថ្ងៃ</string>
+    <string name="black">ខ្មៅ (សម្រាប់ OLED)</string>
+    <string name="system">ប្រព័ន្ធ (អនុវត្តតាមប្រធានបទប្រព័ន្ធ)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">ថតឯកសារនៅលើកំពូល</string>
+    <string name="filesOnTop">ឯកសារនៅខាងលើ</string>
+    <string name="none_on_top">គ្មាននៅលើកំពូល</string>
+    <!--SortBy-->
+    <string name="sort_name">ឈ្មោះ</string>
+    <string name="lastModified">កែប្រែចុងក្រោយ</string>
+    <string name="sort_size">ទំហំ</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">ជ្រើសរើសឯកសារ</string>
+    <string name="process_viewer">កម្មវិធីមើលដំណើរការ</string>
+    <string name="in_safe">ទំហំមិនគ្រប់គ្រាន់</string>
+    <string name="no_file_overwrite">គ្មានឯកសារត្រូវបានសរសេរជាន់លើ</string>
+    <string name="skip">រំលង</string>
+    <string name="overwrite">សរសេរជាន់លើ</string>
+    <string name="not_allowed">មិនអនុញ្ញាត</string>
+    <string name="searching">ការស្វែងរក %s</string>
+    <string name="done">រួចរាល់</string>
+    <string name="set">កំណត់</string>
+    <string name="enablerootmde">បើករបៀប Root</string>
+    <string name="goback">ថយក្រោយ</string>
+    <string name="newfile">ឯកសារថ្មី</string>
+    <string name="no_files">គ្មានឯកសារ</string>
+    <string name="used">ចន្លោះដែលបានប្រើ</string>
+    <string name="used_by_others">ប្រើដោយអ្នកដទៃ</string>
+    <string name="free">ទំហំទំនេរ</string>
+    <string name="listview">ទិដ្ឋភាពបញ្ជី</string>
+    <string name="gridview">ក្រឡាចត្រង្គ មើល</string>
+    <string name="permission">ការអនុញ្ញាត</string>
+    <string name="hide">លាក់</string>
+    <string name="exit">ចេញ</string>
+    <string name="doforall">ធ្វើសម្រាប់ធាតុទាំងអស់</string>
+    <string name="gridcolumnno">ចំនួនជួរឈរក្នុងទិដ្ឋភាពក្រឡាចត្រង្គ</string>
+    <string name="set_random">ការផ្លាស់ប្តូរនឹងកើតឡើងបន្ទាប់ពីអ្នកចាប់ផ្តើមកម្មវិធីឡើងវិញ</string>
+    <string name="authors">អ្នកនិពន្ធ</string>
+    <string name="changelog">ការផ្លាស់ប្តូរ</string>
+    <string name="ok">យល់ព្រម</string>
+    <string name="ui">ចំណុចប្រទាក់</string>
+    <string name="general">ទូទៅ</string>
+    <string name="thumb_summary">បង្ហាញរូបភាពតូចៗនៃកម្មវិធី និងរូបភាព</string>
+    <string name="thumb">បង្ហាញរូបភាពតូច</string>
+    <string name="hidden">បង្ហាញឯកសារ និងថតឯកសារដែលលាក់</string>
+    <string name="lastModifiedSummary">បង្ហាញកាលបរិច្ឆេទ និងពេលវេលានៃការកែប្រែចុងក្រោយ</string>
+    <string name="lastModifiedPref">បង្ហាញកាលបរិច្ឆេទដែលបានកែប្រែចុងក្រោយ និង ពេលវេលា</string>
+    <string name="size_pref_summary">បង្ហាញទំហំឯកសារ និងចំនួនធាតុនៅក្នុងថតឯកសារ</string>
+    <string name="size_pref">បង្ហាញទំហំ</string>
+    <string name="miscellaneous">ផ្សេងៗ</string>
+    <string name="root_pref_summary">បង្ហាញការអនុញ្ញាតនៃឯកសារ និងថតឯកសារ</string>
+    <string name="root_pref">បង្ហាញការអនុញ្ញាត</string>
+    <string name="about_amaze_file_manager_label">អំពីកម្មវិធីគ្រប់គ្រងឯកសារអស្ចារ្យ</string>
+    <string name="version">កំណែ</string>
+    <string name="rate">វាយតម្លៃ app</string>
+    <string name="feedback">ផ្ញើមតិត្រឡប់</string>
+    <string name="hiddenfiles">ឯកសារដែលលាក់</string>
+    <string name="type">វាយ</string>
+    
+    <string name="add_shortcut">បន្ថែមផ្លូវកាត់</string>
+    <string name="unsaved_changes">ការផ្លាស់ប្ដូរដែលមិនបានរក្សាទុក</string>
+    <string name="unsaved_changes_description">អ្នកមានការផ្លាស់ប្តូរដែលមិនទាន់បានរក្សាទុក តើអ្នកចង់រក្សាទុកពួកវាមុនពេលចេញទេ?</string>
+    <string name="saving">ការរក្សាទុក</string>
+    <string name="package_installer">កម្មវិធីដំឡើងកញ្ចប់</string>
+    <string name="view">មើល</string>
+    <string name="install">ដំឡើង</string>
+    <string name="archive">បណ្ណសារ</string>
+    <string name="archive_text">នេះជាបណ្ណសារ។ តើសកម្មភាពអ្វីដែលអ្នកចង់អនុវត្ត?</string>
+    <string name="package_installer_text">នេះគឺជាកម្មវិធីដំឡើងកញ្ចប់។ តើអ្នកចង់អនុវត្តសកម្មភាពអ្វី?</string>
+    
+    <string name="xda_summary">សំណួរ-ចម្លើយ ជំនួយ និងការដោះស្រាយបញ្ហា</string>
+    <string name="circular_images">ប្រើរូបតំណាងរាងជារង្វង់សម្រាប់រូបភាព និងវីដេអូ</string>
+    <string name="circular_icons">ប្រើរូបតំណាងរាងជារង្វង់</string>
+    <string name="back_title">ការរុករកខាងក្រោយ</string>
+    <string name="back_summary">បើកការរុករកត្រឡប់មកវិញផ្ទាល់ខ្លួននៅផ្នែកខាងលើនៃបញ្ជី</string>
+    <string name="details">ព័ត៌មានលម្អិត</string>
+    <string name="translators">អ្នកបកប្រែ</string>
+    <string name="german_translation_title">អាល្លឺម៉ង់</string>
+    <string name="italian_translation_title">អ៊ីតាលី</string>
+    <string name="french_translation_title">បារាំង</string>
+    <string name="russian_translation_title">រុស្ស៊ី</string>
+    <string name="spanish_translation_title">ភាសាអេស្ប៉ាញ</string>
+    <string name="basque_translation_title">បាស</string>
+    <string name="chinese_translation_title">ចិន</string>
+    <string name="serbian_translation_title">ស៊ែប៊ី</string>
+    <string name="turkish_translation_title">ទួរគី</string>
+    <string name="ukrainian_translation_title">អ៊ុយក្រែន</string>
+    <string name="portuguese_translation_title">ព័រទុយហ្គាល់</string>
+    <string name="polish_translation_title">ប៉ូឡូញ</string>
+    <string name="korean_translation_title">កូរ៉េ</string>
+    <string name="greek_translation_title">ក្រិក</string>
+    <string name="dutch_translation_title">ហូឡង់</string>
+    <string name="romanian_translation_title">រ៉ូម៉ានី</string>
+    <string name="vietnamese_translation_title">វៀតណាម</string>
+    <string name="japanese_translation_title">ភាសាជប៉ុន</string>
+    <string name="tamil_translation_title">ជនជាតិតាមីល</string>
+
+    <string name="zip_viewer">កម្មវិធីមើលហ្ស៊ីប</string>
+    <string name="unin_system_apk">នេះគឺជាកម្មវិធីប្រព័ន្ធ ការលុបវាអាចនាំឱ្យប្រព័ន្ធមិនមានស្ថេរភាព។\nបន្ត?</string>
+    <string name="warning">ការព្រមាន</string>
+    <string name="donate">បរិច្ចាគ</string>
+    <string name="archive_extract_folder">ប័ណ្ណសារដកស្រង់ថត</string>
+    <string name="archive_summary">Archive files will be extracted to this folder. តម្លៃលំនាំដើមគឺជាថតដែលបណ្ណសារមានវត្តមាន។</string>
+    <string name="open_as">បើកជា</string>
+    <string name="text">អត្ថបទ</string>
+    <string name="audio">អូឌីយ៉ូ</string>
+    <string name="video">វីដេអូ</string>
+    <string name="other">ផ្សេងទៀត</string>
+    <string name="image">រូបភាព</string>
+    <string name="contributors">អ្នករួមចំណែក</string>
+    <string name="save_paths">ចងចាំផ្លូវ</string>
+    <string name="save_path_summary">នៅពេលចាប់ផ្តើម ថតដែលបានមើលថ្មីៗបំផុតសម្រាប់ផ្ទាំងនីមួយៗនឹងត្រូវបានបង្ហាញ</string>
+    <string name="select_intent">ជ្រើសរើស</string>
+    <string name="database">មូលដ្ឋានទិន្នន័យ</string>
+    <string name="colored_navigation">របាររុករកពណ៌</string>
+    <string name="colored_navigvation_sum">ថាតើរបាររុករកប្រព័ន្ធមានពណ៌ឬអត់</string>
+
+    <string name="color_title">ពណ៌</string>
+    <string name="color_summary">កំណត់ពណ៌ទៅសមាសធាតុ UI ផ្សេងៗ</string>
+    <string name="primary_color_title">ពណ៌ចម្បង (ផ្ទាំងខាងឆ្វេង)</string>
+    <string name="primary_color_summary">កំណត់ពណ៌ទៅជាធាតុ UI ធំសម្រាប់ផ្ទាំងខាងឆ្វេង</string>
+    <string name="accent_color_title">ពណ៌សង្កត់សំឡេង</string>
+    <string name="accent_color_summary">កំណត់ពណ៌ទៅ FAB និង UI តូចផ្សេងទៀត ធាតុ</string>
+    <string name="icon_color_title">ពណ៌រូបតំណាង</string>
+    <string name="icon_color_summary">កំណត់ពណ៌ទៅរូបតំណាង</string>
+    <string name="choose_color">ជ្រើសរើសពណ៌</string>
+    <string name="files">ឯកសារ</string>
+    <string name="textreader">កម្មវិធីអានអត្ថបទ</string>
+    <string name="databasereader">កម្មវិធីអានមូលដ្ឋានទិន្នន័យ</string>
+    <string name="show_dividers">បង្ហាញផ្នែកបំបែក</string>
+    <string name="needs_access">Write តម្រូវឱ្យចូលប្រើ</string>
+    <string name="needs_access_summary">សូមជ្រើសរើសថតឫសនៃ \t</string>
+    <string name="needs_access_summary1">\tto ផ្តល់សិទ្ធិចូលដំណើរការសរសេរដើម្បីដំណើរការ</string>
+    <string name="smb_connection">ការតភ្ជាប់ SMB</string>
+    <string name="smb_server">អាសយដ្ឋាន IP របស់ម៉ាស៊ីនមេ</string>
+    <string name="server_address">អាសយដ្ឋាន IP របស់ម៉ាស៊ីនមេ</string>
+    <string name="username">ឈ្មោះអ្នកប្រើប្រាស់</string>
+    <string name="password">ពាក្យសម្ងាត់</string>
+    <string name="anonymous">អនាមិក</string>
+    <string name="bluetooth">ប៊្លូធូស</string>
+    <string name="folders">ថតឯកសារ</string>
+    <string name="folderfilecount">%1$d ថតឯកសារ និង %2$d ឯកសារ</string>
+    <string name="videos">វីដេអូ</string>
+    
+    <string name="documents">ឯកសារ</string>
+    <string name="images">រូបភាព</string>
+    <string name="clear">ជម្រះ</string>
+    
+    <string name="total">សរុប៖</string>
+    <string name="calculating">គណនា</string>
+    <string name="sort">តម្រៀប</string>
+    <string name="ascending">ឡើង</string>
+    <string name="descending">ចុះក្រោម</string>
+    <string name="default_string">លំនាំដើម</string>
+    <string name="doit">ធ្វើវា</string>
+    <string name="want_help">ត្រូវការជំនួយ?</string>
+    <string name="quick">ចូលប្រើរហ័ស</string>
+    <string name="recent">ឯកសារថ្មីៗ</string>
+    <string name="edit">កែសម្រួល</string>
+    <string name="find">ស្វែងរកក្នុងទំព័រ</string>
+    <string name="grant">ផ្តល់សិទ្ធិ</string>
+    <string name="grantper">ផ្តល់ការអនុញ្ញាត</string>
+    <string name="grantfailed">មិនផ្តល់ការអនុញ្ញាត</string>
+    <string name="grant_storage_permission">កម្មវិធីត្រូវការការអនុញ្ញាតលើទំហំផ្ទុកដើម្បីបន្ត។ ការបោះបង់ប្រអប់នេះនឹងចេញពីកម្មវិធី។</string>
+    <string name="operation_unsuccesful">ប្រតិបត្តិការមិនជោគជ័យ</string>
+    <string name="creatingfile">ការបង្កើតឯកសារ</string>
+    <string name="creatingfolder">ការបង្កើតថត</string>
+    <string name="renaming">ការប្តូរឈ្មោះ</string>
+    <string name="cant_be_empty">%s មិនអាចទទេបានទេ។</string>
+    <string name="ip">អាសយដ្ឋាន</string>
+    <string name="connection_name">ឈ្មោះការតភ្ជាប់</string>
+    <string name="no_device_found">រកមិនឃើញឧបករណ៍</string>
+    <string name="path">ផ្លូវ</string>
+    <string name="rename_bookmark">កែប្រែចំណាំ</string>
+    <string name="cut">កាត់</string>
+    <string name="search">ស្វែងរក</string>
+    <string name="invalid_name">ឈ្មោះមិនត្រឹមត្រូវ</string>
+    <string name="search_hint">វាយបញ្ចូលដើម្បីស្វែងរក…</string>
+    <string name="advanced_search">ការស្វែងរកកម្រិតខ្ពស់</string>
+    <string name="regular_expression">កន្សោមធម្មតា</string>
+    <string name="regular_expression_summary">ស្វែងរកដោយប្រើកន្សោមធម្មតារចនាប័ទ្ម BASH</string>
+    <string name="match_content">ខ្លឹមសារដែលត្រូវគ្នា</string>
+    <string name="match_content_summary">ប្រសិនបើកំណត់ កន្សោមធម្មតានឹងត្រូវបានផ្គូផ្គងជាមួយឈ្មោះឯកសារទាំងមូល។
+        នឹងរកមើលការកើតឡើងបើមិនដូច្នេះទេ។</string>
+    <string name="start_ftp">ចាប់ផ្តើម</string>
+    <string name="stop_ftp">បញ្ឈប់</string>
+    <string name="ftp_status_running">កំពុងដំណើរការ</string>
+    <string name="ftp_status_not_running">មិនដំណើរការ</string>
+    <string name="ftp_no_wifi">ត្រូវប្រាកដថាអ្នកបានភ្ជាប់ Wi -Fi</string>
+    <string name="domain">ដែន</string>
+    <string name="smb_share">ផ្លូវចែករំលែក</string>
+    <string name="invalid">មិនត្រឹមត្រូវ %s</string>
+    <string name="ftp_notif_starting">ម៉ាស៊ីនមេ FTP កំពុងចាប់ផ្តើម</string>
+    <string name="ftp_notif_starting_title">ម៉ាស៊ីនមេ FTP</string>
+    <string name="ftp_notif_title">Amaze FTP Server កំពុងដំណើរការ</string>
+    <string name="ftp_notif_text">នៅ %s</string>
+    <string name="ftp_notif_stop_server">បញ្ឈប់</string>
+    <string name="ftp_port_edit_menu_title">ច្រក FTP</string>
+    <string name="ftp_port_change_success">ច្រក FTP បានផ្លាស់ប្តូរដោយជោគជ័យ</string>
+    <string name="ftp_port_change_error_invalid">លេខច្រកមិនត្រឹមត្រូវដែលបានជ្រើសរើស</string>
+    <string name="primary_two_title">ពណ៌ចម្បង (ផ្ទាំងខាងស្តាំ)</string>
+    <string name="primary_two_summary">កំណត់ពណ៌ទៅជាធាតុ UI ធំសម្រាប់ផ្ទាំងខាងស្តាំ</string>
+    <string name="support_development">គាំទ្រការអភិវឌ្ឍន៍</string>
+    <string name="report_bugs_title">រាយការណ៍កំហុស</string>
+    <string name="source_title">កូដប្រភព</string>
+    <string name="source_summary">មើលកូដប្រភពរបស់យើងនៅលើ GitHub</string>
+    <string name="report_bugs_summary">រាយការណ៍កំហុស ឬស្នើសុំមុខងារថ្មី</string>
+    <string name="translate_title">បកប្រែ</string>
+    <string name="translate_summary">បកប្រែភាពអស្ចារ្យជាភាសារបស់អ្នក</string>
+    <string name="paypal_copy_message">លេខសម្គាល់ PayPal ត្រូវបានចម្លងទៅក្ដារតម្បៀតខ្ទាស់</string>
+    <string name="searching_devices">កំពុងស្វែងរកឧបករណ៍</string>
+    <string name="use_custom_ip">ប្រើ IP ផ្ទាល់ខ្លួន</string>
+    <string name="bookmark_lost">រកមិនឃើញចំណាំ កំពុងបង្កើត...</string>
+
+    <string name="smb_instructions">
+        
+            
+                របៀបចូលប្រើថត Windows ដែលបានចែករំលែកនៅលើ Android (SMB)\n\n
+                
+                    
+                        បើកការចែករំលែកឯកសារនៅលើ Windows\n
+                    
+                    
+                        បើកផ្ទាំងបញ្ជា ចុចជ្រើសរើស HomeGroup និងជម្រើសចែករំលែកនៅក្រោមបណ្តាញ
+                        និងអ៊ីនធឺណិត ហើយចុច "ផ្លាស់ប្តូរការកំណត់ការចែករំលែកកម្រិតខ្ពស់" បើកដំណើរការ "ឯកសារ និង
+                        មុខងារចែករំលែកម៉ាស៊ីនបោះពុម្ព"។\n\n
+                    
+
+                    
+                        ការកំណត់ការចែករំលែកឯកសារបន្ថែម\n
+                    
+                    
+                        អ្នកក៏ប្រហែលជាចង់កំណត់ការកំណត់ការចែករំលែកកម្រិតខ្ពស់ផ្សេងទៀតនៅទីនេះផងដែរ។ \n
+                        ឧទាហរណ៍ អ្នកអាចបើកការចូលប្រើឯកសាររបស់អ្នកដោយគ្មានពាក្យសម្ងាត់ ប្រសិនបើអ្នកទុកចិត្តទាំងអស់។
+                        ឧបករណ៍នៅលើបណ្តាញមូលដ្ឋានរបស់អ្នក។ នៅពេលដែលការចែករំលែកឯកសារ និងម៉ាស៊ីនបោះពុម្ពត្រូវបានបើក អ្នកអាចធ្វើបាន
+                        បើក File Explorer ឬ Windows Explorer ចុចកណ្ដុរស្ដាំលើថតដែលអ្នកចង់ចែករំលែក និង
+                        ជ្រើសរើសលក្ខណសម្បត្តិ។ \n
+                        ចុចប៊ូតុងចែករំលែក ហើយធ្វើឱ្យថតមាននៅលើបណ្តាញ។\n\n
+                        
+
+                    
+                        សូមប្រាកដថាឧបករណ៍ទាំងពីរនៅលើ Wifi ដូចគ្នា\n
+                    
+                    
+                        មុខងារនេះធ្វើឱ្យឯកសារមាននៅលើបណ្តាញមូលដ្ឋាន ដូច្នេះកុំព្យូទ័រ និងឧបករណ៍ចល័តរបស់អ្នក។
+                        ត្រូវតែនៅលើបណ្តាញមូលដ្ឋានដូចគ្នា។ អ្នក​មិន​អាច​ចូល​ប្រើ​ថត Windows ដែល​បាន​ចែករំលែក
+                        តាមរយៈអ៊ីនធឺណិត ឬនៅពេលដែលស្មាតហ្វូនរបស់អ្នកត្រូវបានភ្ជាប់ទៅទិន្នន័យចល័តរបស់វា — វា។
+                        ត្រូវតែភ្ជាប់ទៅ Wi-Fi ។\n\n
+                    
+
+                    
+                        ស្វែងរកអាសយដ្ឋាន IP\n
+                    
+                    
+                        បើកប្រអប់បញ្ចូលពាក្យបញ្ជា។ វាយ \'ipconfig\' ហើយចុច Enter ។ រកមើល Default Gateway
+                        នៅក្រោមអាដាប់ទ័របណ្តាញរបស់អ្នកសម្រាប់អាសយដ្ឋាន IP របស់រ៉ោតទ័ររបស់អ្នក។ រកមើល
+                        \\\"អាសយដ្ឋាន IPv4\\\" នៅក្រោមផ្នែកអាដាប់ទ័រដូចគ្នា ដើម្បីស្វែងរក IP របស់កុំព្យូទ័រអ្នក។
+                        អាសយដ្ឋាន។\n\n
+                    
+
+                    បញ្ចូលព័ត៌មានលម្អិតនៅក្នុងប្រអប់ SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">មិនអាចចែករំលែកលើសពី 100 ឯកសារ</string>
+    <string name="otg_access">ជ្រើសរើសឫសនៃឧបករណ៍ OTG</string>
+    <string name="information">ព័ត៌មាន</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">បានចូលប្រើ</string>
+    <!-- reference to file modified date -->
+    <string name="modified">បានកែប្រែ</string>
+
+    <string name="title">ចំណងជើង</string>
+    <string name="artist">សិល្បករ</string>
+    <string name="album">អាល់ប៊ុម</string>
+    <string name="year">ឆ្នាំ</string>
+    <string name="duration">រយៈពេល</string>
+    <string name="comment">មតិ</string>
+    <!-- reference to audio/video file -->
+    <string name="container">កុងតឺន័រ</string>
+    
+    
+    <string name="sample_rate">អត្រាគំរូ</string>
+    
+    <string name="dimensions">វិមាត្រ</string>
+    <string name="frame_rate">អត្រាស៊ុម</string>
+    <string name="image_type">ប្រភេទរូបភាព </string>
+    <string name="width">ទទឹង</string>
+    <string name="height">កម្ពស់</string>
+    <string name="date_modified">កាលបរិច្ឆេទដែលបានកែប្រែ</string>
+    <string name="software">កម្មវិធី</string>
+    <string name="creator">អ្នកបង្កើត</string>
+    <string name="camera_brand">ម៉ាកកាមេរ៉ា</string>
+    <string name="camera_model">កាមេរ៉ា ម៉ូដែល</string>
+    <string name="date_taken">កាលបរិច្ឆេទដែលបានយក</string>
+    <string name="exposure_time">ពេលវេលាបញ្ចេញពន្លឺ</string>
+    <string name="aperture_value">តម្លៃ Aperture</string>
+    <string name="image_iso">ការវាយតម្លៃល្បឿន ISO</string>
+    <string name="flash_fired">បានបាញ់ពន្លឺ</string>
+    <string name="focal_length">ប្រវែងប្រសព្វ</string>
+    <string name="subject">ប្រធានបទ</string>
+    <string name="author">អ្នកនិពន្ធ</string>
+    <string name="keywords">ពាក្យគន្លឹះ</string>
+    <string name="producer">អ្នកផលិត</string>
+    <string name="created">បង្កើត</string>
+    <string name="format">ទម្រង់</string>
+    <string name="pages">ចំនួន ទំព័រ</string>
+    <!-- reference to a document file -->
+    <string name="optimized">ធ្វើឱ្យប្រសើរ</string>
+    <string name="security">សុវត្ថិភាព</string>
+    <string name="paper_size">ទំហំក្រដាស</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">ឯកសារមួយចំនួនមិនជោគជ័យ %s</string>
+    <string name="copied">បានចម្លង</string>
+    <string name="moved">បានផ្លាស់ទី</string>
+    <string name="copy_complete">ចម្លងបញ្ចប់</string>
+    <string name="waiting_title">កំពុងរង់ចាំ</string>
+    <string name="waiting_content">កំពុងរង់ចាំប្រតិបត្តិការដើម្បីបញ្ចប់</string>
+    <string name="extract_complete">ការស្រង់ចេញបានបញ្ចប់</string>
+    <string name="compression_complete">ការបង្ហាប់បានបញ្ចប់</string>
+    <string name="compressing">ការបង្ហាប់</string>
+    <string name="cancelled">បានលុបចោល</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">សរសេរ</string>
+    <string name="out_of">ចេញពី</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">នៃ</string>
+    <string name="processing_file">ឯកសារដំណើរការ</string>
+    <string name="current_speed">ល្បឿនបច្ចុប្បន្ន</string>
+    <string name="smb_launch_error">អ្នកនឹងត្រូវចម្លងឯកសារនេះទៅកន្លែងផ្ទុក ដើម្បីបើកវា</string>
+    <string name="error_file_not_found">កំហុស៖ រកមិនឃើញឯកសារ</string>
+    <string name="error_io">កំហុស I/O</string>
+    <string name="error_file_too_large">កំហុស៖ ឯកសារធំពេក</string>
+    <string name="medium_text">អត្ថបទមធ្យម</string>
+    <string name="permission_read">អាន</string>
+    <string name="permission_write">សរសេរ</string>
+    <string name="permission_execute">ប្រតិបត្តិ</string>
+    <string name="permission_owner">ម្ចាស់</string>
+    <string name="permission_group">ក្រុម</string>
+    <string name="permission_other">ផ្សេងទៀត</string>
+    <string name="clipboard_path_copy">ផ្លូវត្រូវបានចម្លងទៅក្ដារតម្បៀតខ្ទាស់</string>
+    <string name="service_timer">ពេលវេលាបានកន្លងផុតទៅ</string>
+    <string name="please_wait">សូមរង់ចាំ</string>
+
+    <string name="cloud_connection">ការតភ្ជាប់ពពក</string>
+    <string name="cloud_connection_new">ការតភ្ជាប់ពពកថ្មី</string>
+    
+    
+    
+    <string name="cloud_box">ប្រអប់</string>
+    <string name="cloud_get">ទាញយកកម្មវិធីជំនួយ Cloud</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">គ្មានកម្មវិធី</string>
+    <string name="ftp_path">ផ្លូវចែករំលែក</string>
+    <string name="ftp_path_hint">ផ្លូវ ទៅឫសនៃថតដើម្បីចែករំលែក</string>
+    <string name="change">ផ្លាស់ប្តូរ</string>
+    <string name="unknown_error">អូ៎ មានអ្វីមួយខុសប្រក្រតី!</string>
+
+    <string name="ftp_path_change_success">ផ្លូវ FTP បានផ្លាស់ប្តូរដោយជោគជ័យ</string>
+    <string name="ftp_path_change_error_invalid">ផ្លូវមិនត្រឹមត្រូវ</string>
+    <string name="ftp_status_no_connection">គ្មានការតភ្ជាប់</string>
+    <string name="ftp_status_secure_connection">ការភ្ជាប់សុវត្ថិភាព</string>
+    <string name="ftp_status_title">ស្ថានភាព</string>
+    <string name="ftp_port">ច្រក</string>
+    <string name="ftp_login">ចូល</string>
+    <string name="field_empty">វាលមិនអាចទទេ</string>
+    <string name="ftp_timeout">អស់ពេលទំនេរ</string>
+    <string name="ftp_seconds">វិនាទី</string>
+    
+    <string name="intellihide_toolbar_summary">លាក់របារឧបករណ៍ដោយស្វ័យប្រវត្តិខណៈពេលរមូរ</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">បានចម្លងទៅក្ដារតម្បៀតខ្ទាស់</string>
+    <string name="contributors_1_summary">ការបកប្រែ</string>
+    <string name="contributors_2_summary">រូបតំណាង និងបដា</string>
+    <string name="contributors_3_summary">ម៉ាស៊ីនស្បែក</string>
+    <string name="contributors_4_summary">ម្លប់នៅពីក្រោយ FAB</string>
+    <string name="contributors_5_summary">ការផ្លាស់ប្តូរពណ៌នៅពេលអូសផ្ទាំង</string>
+    <string name="contributors_6_summary">ម៉ាស៊ីនមេ FTP</string>
+    <string name="contributors_7_summary">ការបាញ់សែលអន្តរកម្ម</string>
+    <string name="connection_exists">ការតភ្ជាប់មានរួចហើយ</string>
+
+    <string name="crypt_encrypting">ការអ៊ិនគ្រីប</string>
+    <string name="crypt_decrypting">ការឌិគ្រីប</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">បានអ៊ិនគ្រីប</string>
+    <string name="crypt_decrypted">ឌិគ្រីប</string>
+    <string name="crypt_encrypt">អ៊ិនគ្រីប</string>
+    <string name="crypt_decrypt">ឌិគ្រីប</string>
+    <string name="operation_fail_following">ប្រតិបត្តិការបានបរាជ័យសម្រាប់ការតាមដានឯកសារ</string>
+    <string name="crypt_pref_master_password_title">ពាក្យសម្ងាត់មេ</string>
+    <string name="crypt_pref_master_password_summary">កំណត់ពាក្យសម្ងាត់មេសម្រាប់ការអ៊ិនគ្រីប។
+        ទុកទទេដើម្បីលុបចេញ។</string>
+    <string name="crypt_pref_fingerprint_title">ស្នាមម្រាមដៃ</string>
+    <string name="crypt_pref_fingerprint_summary">ប្រើស្នាមម្រាមដៃដើម្បីផ្ទៀងផ្ទាត់ការអ៊ិនគ្រីប</string>
+    <string name="crypt_fingerprint_no_permission">បាត់ការអនុញ្ញាតស្នាមម្រាមដៃ</string>
+    <string name="crypt_fingerprint_not_enrolled">គ្មានស្នាមម្រាមដៃបានចុះឈ្មោះ</string>
+    <string name="crypt_fingerprint_no_security">រកមិនឃើញសុវត្ថិភាពអេក្រង់ចាក់សោ</string>
+    <string name="crypt_warning_key">ត្រូវបានណែនាំ នៅពេលអ្នកផ្លាស់ប្តូរគំរូសុវត្ថិភាពរបស់អ្នកពី
+        ការកំណត់ប្រព័ន្ធ អ្នកនឹងមិនអាចឌិគ្រីបខ្លឹមសារនេះបានទេ។</string>
+    <string name="warning_never_show">កុំជូនដំណឹងម្តងទៀត</string>
+    <string name="warning_confirm">យល់ហើយ!</string>
+    <string name="crypt_encryption_fail">បរាជ័យក្នុងការអ៊ិនគ្រីប</string>
+    <string name="crypt_decryption_fail">បរាជ័យក្នុងការឌិគ្រីប</string>
+    <string name="crypt_decryption_fail_password">ពាក្យសម្ងាត់ខុស!</string>
+    <string name="crypt_fingerprint_authenticate">ឧបករណ៍ចាប់សញ្ញាប៉ះដើម្បីបន្ត</string>
+    <string name="authenticate_password">បញ្ចូលពាក្យសម្ងាត់</string>
+
+    <string name="sidebar_preferences">របារចំហៀង</string>
+    <string name="sidebar_quick_access_title">ការចូលប្រើរហ័សរបារចំហៀង</string>
+    <string name="show_quick_access_pref_title">បង្ហាញការចូលប្រើរហ័ស</string>
+    <string name="show_quick_access_pref">ការចូលប្រើរហ័ស</string>
+    <string name="directory">ថតឯកសារ</string>
+
+    <string name="sidebar_bookmarks_title">ចំណាំរបារចំហៀង</string>
+    <string name="show_bookmarks_pref_title">បង្ហាញចំណាំ</string>
+    <string name="show_bookmarks_pref">ចំណាំ</string>
+    <string name="create_bookmark">បង្កើតចំណាំ</string>
+    <string name="edit_bookmark">កែសម្រួលចំណាំ</string>
+    <string name="question_delete_bookmark">លុបចំណាំ?</string>
+
+    <string name="cloud_error_plugin">រកមិនឃើញកម្មវិធីជំនួយ Amaze Cloud ។ សូមទាញយកពី Play Store។</string>
+    <string name="cloud_error_failed_restart">បានបរាជ័យក្នុងការផ្ទុកការតភ្ជាប់។
+        សូមបើក Amaze Cloud ម្តង។</string>
+    <string name="cloud_remove">តើអ្នកចង់លុបការតភ្ជាប់ពពកដែរទេ?</string>
+    <string name="cloud_fail_authenticate">បានបរាជ័យក្នុងការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ</string>
+    <string name="cloud_share_copied">តំណភ្ជាប់ដែលអាចចែករំលែកបានដែលបានចម្លងទៅក្ដារតម្បៀតខ្ទាស់</string>
+    <string name="copy_low_memory">អស់ហើយ អង្គចងចាំ សូមសម្អាត RAM មួយចំនួន</string>
+    <string name="cloud_token_lost">បាត់ Token សូមចូលម្តងទៀត</string>
+    
+    <string name="showHeaders">បង្ហាញបឋមកថា</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">គ្មានធាតុ</string>
+	
+	
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">ឯកសារគួរមានឈ្មោះ</string>
+    <string name="add_item">បន្ថែមធាតុ</string>
+    <string name="failed_smb_decrypt_path">បានបរាជ័យក្នុងការផ្ទុក ការតភ្ជាប់ SMB</string>
+    <string name="failed_cloud_new_connection">បានបរាជ័យក្នុងការបន្ថែមការភ្ជាប់ Cloud ថ្មី</string>
+    <string name="failed_cloud_api_key">បានបរាជ័យក្នុងការផ្ទៀងផ្ទាត់ Cloud plug-in</string>
+
+    <string name="local_inet_addr_error">កំហុសក្នុងការទទួលបានអាសយដ្ឋាន inet មូលដ្ឋាន</string>
+    <string name="intent_save_as">រក្សាទុកជា…</string>
+    
+    <string name="advanced">កម្រិតខ្ពស់</string>
+    <string name="typeable_paths_title">ផ្លូវផ្ទាល់ខ្លួន</string>
+    <string name="typeable_paths_summary">សង្កត់របារផ្លូវឱ្យវែងដើម្បីវាយផ្លូវផ្ទាល់ខ្លួន</string>
+    <string name="send_email_to">ផ្ញើអ៊ីមែលទៅ</string>
+
+    <string name="text_editor">ការកំណត់កម្មវិធីនិពន្ធអត្ថបទ</string>
+    <string name="preference_newstack_title">បើកឯកសារជាកិច្ចការថ្មី</string>
+    <string name="preference_newstack_summary">អនុញ្ញាតឱ្យអ្នកបើកឯកសារក្នុងកិច្ចការដាច់ដោយឡែក។ ចូលប្រើពួកវាពីអេក្រង់ប្រព័ន្ធថ្មីៗ។</string>
+    
+    <string name="developers">អ្នកអភិវឌ្ឍន៍</string>
+    <string name="no_bitcoin_app">សូមដំឡើងកម្មវិធី Bitcoin Wallet</string>
+    <string name="channel_name_normal">ការជូនដំណឹងដ៏អស្ចារ្យ</string>
+    <string name="channel_description_normal">ការជូនដំណឹងរបស់កម្មវិធីគ្រប់គ្រងឯកសារអស្ចារ្យ</string>
+    
+    <string name="channel_description_ftp">ការជូនដំណឹងរបស់កម្មវិធីគ្រប់គ្រងឯកសារ Amaze FTP Server</string>
+
+    
+    <string name="processing">កំពុងដំណើរការ…</string>
+    <string name="failed_no_connection">បានបរាជ័យក្នុងការផ្ទុកឯកសារ។ សូមពិនិត្យមើលការតភ្ជាប់របស់អ្នក។</string>
+
+    <string name="update">ធ្វើបច្ចុប្បន្នភាព</string>
+	<string name="scp_connection">ការតភ្ជាប់ SCP/SFTP</string>
+    <string name="ftp_connection">ការភ្ជាប់ FTP</string>
+    <string name="ftps_connection">FTP លើការតភ្ជាប់ SSL</string>
+    <string name="scp_port">ច្រក</string>
+    <string name="ssh_host_key_verification_prompt">ភាពត្រឹមត្រូវនៃម៉ាស៊ីន \'%1$s\' មិនអាចបង្កើតបានទេ។\n\n%2$s ស្នាមម្រាមដៃសំខាន់គឺ %3$s។\n\nសូមចុច \"បាទ\" ដើម្បីបញ្ជាក់ អត្តសញ្ញាណ; បើមិនដូច្នេះទេ សូមចុចលើ \"No\"</string>
+    <string name="ssh_host_key_verification_prompt_title">ផ្ទៀងផ្ទាត់ម៉ាស៊ីន</string>
+    
+    <string name="ssh_pem_key_parse_error">មិនអាចអាន PEM ដែលបានជ្រើសរើស៖ %s</string>
+    <string name="password_unchanged">(មិនផ្លាស់ប្តូរ)</string>
+    <string name="ssh_authentication_failure_password">បរាជ័យក្នុងការចូលគណនី៖ មិនអាចផ្ទៀងផ្ទាត់ជាមួយឈ្មោះអ្នកប្រើប្រាស់ និងពាក្យសម្ងាត់ដែលបានផ្តល់។</string>
+    <string name="ssh_authentication_failure_key">ការបរាជ័យក្នុងការចូល៖ មិនអាចផ្ទៀងផ្ទាត់ជាមួយឈ្មោះអ្នកប្រើប្រាស់ដែលបានផ្គត់ផ្គង់ និងសោឯកជន។</string>
+    <string name="ssh_connect_failed">មិនអាចភ្ជាប់ទៅ %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ការព្រមាន៖ ការកំណត់អត្តសញ្ញាណម៉ាស៊ីនពីចម្ងាយបានផ្លាស់ប្តូរ!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">វាអាចទៅរួចដែលថាមាននរណាម្នាក់កំពុងធ្វើរឿងអាក្រក់!\n\nមាននរណាម្នាក់កំពុងលួចស្តាប់អ្នក ឥឡូវនេះ (ការវាយប្រហារកណ្តាល)! វាក៏អាចទៅរួចដែលថាសោម៉ាស៊ីនទើបតែត្រូវបានផ្លាស់ប្តូរ។ ស្នាមម្រាមដៃសម្រាប់សោសាធារណៈដែលផ្ញើដោយម៉ាស៊ីនពីចម្ងាយមិនត្រូវគ្នានឹងអ្វីដែលរក្សាទុកក្នុង Amaze ទេ។\n\nសូមទាក់ទងអ្នកគ្រប់គ្រងប្រព័ន្ធរបស់អ្នក ឬរៀបចំការតភ្ជាប់ថ្មី ដើម្បីបន្តភ្ជាប់ទៅម៉ាស៊ីនមេ។</string>
+    <string name="ssh_key_prompt_passphrase">សូមបញ្ចូលឃ្លាសម្ងាត់ ។</string>
+    <string name="add_shortcut_not_supported_by_launcher">ការបង្កើតផ្លូវកាត់មិនត្រូវបានគាំទ្រដោយកម្មវិធីបើកដំណើរការរបស់អ្នកទេ។</string>
+    
+    <string name="select_color_config">ជ្រើសរើសការកំណត់ពណ៌</string>
+    <string name="customize">ប្ដូរតាមបំណង</string>
+    <string name="custom">ផ្ទាល់ខ្លួន</string>
+    <string name="preselected_configs_title">ការកំណត់រចនាសម្ព័ន្ធដែលបានជ្រើសរើសជាមុន</string>
+    <string name="orange">ពណ៌ទឹកក្រូច</string>
+    <string name="blue">ខៀវ</string>
+    <string name="green">បៃតង</string>
+    <string name="password_no_match">ពាក្យសម្ងាត់មិនត្រូវគ្នា</string>
+    <string name="deselect_all">មិនជ្រើសរើសទាំងអស់</string>
+    <string name="filename">ឈ្មោះឯកសារ</string>
+    <string name="compress_file_suggest_zip_extension">វាត្រូវបានណែនាំឱ្យប្រើ \.zip\" ជាផ្នែកបន្ថែមឯកសារ។</string>
+    <string name="about_amaze">កម្មវិធីគ្រប់គ្រងឯកសាររចនាសម្ភារៈសម្រាប់ Android</string>
+    <string name="license">អាជ្ញាប័ណ្ណ</string>
+    <string name="libraries">បណ្ណាល័យ</string>
+    <string name="password_repeat">ពាក្យសម្ងាត់ម្តងទៀត</string>
+    <string name="create_file_suggest_txt_extension">វាត្រូវបានណែនាំឱ្យប្រើ \.txt\" ជាផ្នែកបន្ថែមឯកសារ។</string>
+    <string name="ssh_select_pem">ជ្រើសរើសសោឯកជនសម្រាប់ការផ្ទៀងផ្ទាត់</string>
+    <string name="ssh_key_invalid_passphrase">ឃ្លាសម្ងាត់សោមិនត្រឹមត្រូវ។</string>
+    <string name="ssh_key_no_decoder_decrypt">មិនមានឧបករណ៍ឌិកូដត្រឹមត្រូវដើម្បីឌិគ្រីប PEM ទេ។</string>
+    <string name="encryption_fail_copy">បានបរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពធាតុអ៊ិនគ្រីបនៅក្នុងមូលដ្ឋានទិន្នន័យ</string>
+    <string name="extracted">បានស្រង់ចេញ</string>
+    <string name="compressed">បានបង្ហាប់</string>
+    <string name="processed">បានដំណើរការ</string>
+    <string name="no_obtainable_info">មិនមានព័ត៌មានអំពីឯកសារនេះទេ</string>
+    <string name="reopen_from_source">មិនអាចទេ សូមបើកឡើងវិញពីកម្មវិធីចុងក្រោយ</string>
+    <string name="no_file_error">មានអ្វីមួយខុសប្រក្រតី មិនមានអ្វីត្រូវបើក</string>
+    <string name="file_too_long">The ឯកសារវែងពេក ហើយមិនអាចកែសម្រួលបាន ទោះជាយ៉ាងណាក៏ដោយ អ្នកអាចអានតួអក្សរ %d ដំបូង</string>
+    <string name="file_read_only">ឯកសារដែលបានបើកគឺបានតែអានប៉ុណ្ណោះ។</string>
+    <string name="got_it">យល់ហើយ!</string>
+    <string name="encrypt_file_save_as">រក្សាទុកឯកសារដែលបានអ៊ិនគ្រីបជា…</string>
+    <string name="encrypt_folder_save_as">រក្សាទុកថតដែលបានអ៊ិនគ្រីបជា…</string>
+    <string name="encrypt_option_use_aze">ប្រើទម្រង់ការអ៊ិនគ្រីប Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt គឺជាទម្រង់ការអ៊ិនគ្រីបឯកសារប្រភពបើកចំហដោយផ្អែកលើការអ៊ិនគ្រីប AES ។ វាក៏អាចចល័តបាន អាចត្រូវបានឌិគ្រីបជាមួយកម្មវិធី AESCrypt នៅលើវេទិកាផ្សេងទៀត។</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">គេហទំព័រ AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>ទម្រង់ការអ៊ិនគ្រីបរបស់ Amaze ក៏ផ្អែកលើការអ៊ិនគ្រីប AES ផងដែរ។ ប៉ុន្តែខុសពីទម្រង់ AESCrypt វាអាចត្រូវបានឌិគ្រីបដោយឧបករណ៍នេះតែប៉ុណ្ណោះ។ អ្នកក៏មិនត្រូវលុបកម្មវិធីគ្រប់គ្រងឯកសារ Amaze ចេញពីឧបករណ៍នេះ ឬផ្លាស់ប្តូរវិធីដែលអ្នកចាក់សោអេក្រង់ដែរ បើមិនដូច្នេះទេ អ្នកនឹងមិនមានវិធីដើម្បីសង្គ្រោះឯកសារដែលបានអ៊ិនគ្រីបនោះទេ។</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">ឯកសារដែលបានអ៊ិនគ្រីបត្រូវតែប្រើ \.aze\" ជាផ្នែកបន្ថែមឯកសារ។</string>
+    <string name="encrypt_file_must_end_with_aes">ឯកសារដែលបានអ៊ិនគ្រីបត្រូវតែប្រើ \.aes\" ជាផ្នែកបន្ថែមឯកសារ។</string>
+    <string name="error_aescrypt_decrypt_failed">មិនអាចឌិគ្រីបបានទេ។ \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">មិនអាចសរសេរជាន់លើឯកសារបានទេ។</string>
+    <string name="saved_single_file">ឯកសារត្រូវបានរក្សាទុកជា \'%s\'។</string>
+    <string name="saved_multi_files">%d ឯកសារត្រូវបានរក្សាទុក។</string>
+    <string name="create_hidden_file_warn">ឯកសារដែលបានបង្កើតនឹងត្រូវបានលាក់នៅក្នុងបញ្ជីឯកសារ។</string>
+    <string name="grant_apkinstall_permission">កម្មវិធីត្រូវការការអនុញ្ញាតដើម្បីដំឡើងកម្មវិធីបន្ត។</string>
+    <string name="time_remaining">ពេលវេលា នៅសល់</string>
+    <string name="transfer_rate">អត្រាផ្ទេរប្រាក់</string>
+    <string name="unknown">មិនស្គាល់</string>
+    <string name="multiple_invalid_archive_entries">ឯកសារមួយចំនួននៅក្នុងបណ្ណសារមិនអាចស្រង់ចេញបានទេ។ បណ្ណសារអាចខូច ឬបានមកពីប្រភពព្យាបាទ។</string>
+    <string name="saf_otg_explanation">ឥឡូវនេះអ្នកនឹងចូលទៅកាន់ប្រព័ន្ធឯកសាររបស់ Android\ សម្រាប់ហេតុផលសុវត្ថិភាព។ សូមជ្រើសរើសឧបករណ៍ USB ពីបញ្ជីនៅខាងឆ្វេង។</string>
+    <string name="donation_thanks">សូមអរគុណសម្រាប់ការបរិច្ចាក នេះធ្វើឱ្យយើងមានការលើកទឹកចិត្ត! (:</string>
+    <string name="enable_marquee_filename">បើកបែបផែន marquee សម្រាប់ឈ្មោះឯកសារ</string>
+    <string name="archive_password_prompt">សូមបញ្ចូលពាក្យសម្ងាត់ក្នុងប័ណ្ណសារ៖</string>
+    
+    <string name="cannot_extract_archive">មិនអាចស្រង់ចេញប័ណ្ណសារ \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">មិនអាច បើកបណ្ណសារ \"%s\" ។ ទាំងយើងមិនអាចបើកបណ្ណសារបាន ឬបណ្ណសារត្រូវបានខូចខាត។</string>
+    <string name="close">បិទ</string>
+    <string name="bookmark_exists">ចំណាំមាន</string>
+    <string name="hide_media">លាក់ពីកម្មវិធីរុករកមេឌៀ</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">វាអាចទៅរួចដែលថាមាននរណាម្នាក់កំពុងធ្វើរឿងអាក្រក់!\n\nមាននរណាម្នាក់កំពុងលួចស្តាប់អ្នកនៅពេលនេះ (ការវាយប្រហារដោយមនុស្សនៅកណ្តាល)! វាក៏អាចទៅរួចដែលថាសោម៉ាស៊ីនទើបតែត្រូវបានផ្លាស់ប្តូរ។ ស្នាមម្រាមដៃ សម្រាប់សោសាធារណៈដែលផ្ញើដោយម៉ាស៊ីនពីចម្ងាយមិនត្រូវគ្នានឹងលេខដែលបានរក្សាទុកក្នុង Amaze ទេ។\n\nអ្នកអាចបន្តធ្វើបច្ចុប្បន្នភាពស្នាមម្រាមដៃម៉ាស៊ីន ឬបោះបង់ការធ្វើបច្ចុប្បន្នភាពការកំណត់ការតភ្ជាប់ SSH ។</string>
+    <string name="update_host_key">ធ្វើបច្ចុប្បន្នភាពសោម៉ាស៊ីន</string>
+    <string name="cancel_recommended">បោះបង់ (បានណែនាំ)</string>
+    
+    
+    <string name="failed_install_apk">បានបរាជ័យក្នុងការដំឡើង</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">ការផ្ទុកខាងក្នុង</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">កាតអេសឌី</string>
+    <string name="choose_folder">ជ្រើសរើសថតឯកសារនេះ</string>
+    
+    <string name="some_files_failed_invalid_operation">ឯកសារមួយចំនួនបានបរាជ័យដោយសារតែមិនត្រឹមត្រូវ operation</string>
+    <string name="ftp_server_prompt_connect_to_network">ភ្ជាប់ទៅបណ្តាញ ឬបើក AP</string>
+    <string name="ftp_server_open_settings">បើកការកំណត់</string>
+    <string name="move">ផ្លាស់ទី</string>
+    <string name="select_save_location">ជ្រើសរើសទីតាំងដើម្បីរក្សាទុក</string>
+    <string name="scp_default_path">ផ្លូវលំនាំដើម (ជាជម្រើស)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">សូមអភ័យទោស ដែលមិនគួរកើតឡើង។</string>
+    
+    <string name="error_report_button_text">រាយការណ៍កំហុសនេះតាមរយៈអ៊ីមែល</string>
+    <string name="error_report_button_telegram">រាយការណ៍កំហុសនេះតាមរយៈតេឡេក្រាម</string>
+    <string name="copy_for_github">ចម្លងរបាយការណ៍ដែលបានធ្វើទ្រង់ទ្រាយ</string>
+    <string name="error_report_open_issue_button_text">រាយការណ៍នៅលើ GitHub</string>
+    <string name="error_report_open_github_notice">សូមពិនិត្យមើលថាតើបញ្ហាដែលពិភាក្សាអំពីការគាំងរបស់អ្នកមានរួចហើយឬនៅ។</string>
+    <string name="error_snackbar_message">សូមអភ័យទោស មានអ្វីមួយខុសប្រក្រតី។</string>
+    <string name="error_snackbar_action">រាយការណ៍</string>
+    <string name="what_device_headline">ព័ត៌មាន៖</string>
+    <string name="what_happened_headline">តើមានអ្វីកើតឡើង៖</string>
+    <string name="info_labels">អ្វី៖\\nស្នើសុំ៖\\nGMT ម៉ោង៖\\nកញ្ចប់៖\\nVersion៖\\nOS កំណែ៖\\nឧបករណ៍ :\\nModel:\\nផលិតផល៖</string>
+    <string name="your_comment">មតិរបស់អ្នក (ជាភាសាអង់គ្លេស)៖</string>
+    <string name="error_details_headline">ព័ត៌មានលម្អិត៖</string>
+    <string name="app_ui_crash">កម្មវិធី/UI បានគាំង</string>
+    <string name="error_report_title">របាយការណ៍កំហុស</string>
+    <string name="crash_report_copied">របាយការណ៍គាំងត្រូវបានចម្លងទៅក្ដារតម្បៀតខ្ទាស់</string>
+    <string name="disableIpcSignature">បិទការត្រួតពិនិត្យការចុះហត្ថលេខា IPC (សម្រាប់ម៉ាស៊ីនមេ SMBv1 ចាស់ - UNSAFE!)</string>
+    <string name="cannot_delete_file">មិនអាចលុបឯកសារ</string>
+    <string name="cannot_delete_file_with_reason">មិនអាចលុបឯកសារ - %s</string>
+    <string name="cannot_rename_file">មិនអាចប្តូរឈ្មោះឯកសារ %s - %s</string>
+    <string name="cannot_read_directory">មិនអាចអានថត %s - %s</string>
+    <string name="just_once">គ្រាន់តែម្តង</string>
+    <string name="always">តែងតែ</string>
+    <string name="choose_different_app">ជ្រើសរើសផ្សេង កម្មវិធី</string>
+    <string name="clear_open_file">សម្អាតឃ្លាំងសម្ងាត់</string>
+    <string name="clear_open_file_summary">សម្អាតឯកសារលំនាំដើមដែលបានជ្រើសរើសបើកកម្មវិធី</string>
+    <string name="ftp_readonly">ការចូលប្រើបានតែអាន</string>
+    <string name="legacy_listing_title">ប្រើបញ្ជីកេរ្តិ៍ដំណែលសម្រាប់ជា root</string>
+    <string name="legacy_listing_summary">ប្រសិនបើបានបើក ប្រើវិធីចាស់ដើម្បីរាយបញ្ជីឯកសារ</string>
+    <string name="error_unsupported_v5_rar">បណ្ណសារ RAR \"%s\" បណ្ណសារ RAR v5 មិនត្រូវបានគាំទ្រទេ។</string>
+    <string name="ftp_prompt_restart_server">អ្នកនឹងត្រូវចាប់ផ្តើមម៉ាស៊ីនមេ FTP ឡើងវិញដើម្បីឱ្យការផ្លាស់ប្តូរមានប្រសិទ្ធភាព។</string>
+    <string name="error_permission_denied">ការអនុញ្ញាតត្រូវបានបដិសេធ</string>
+    <string name="error_archive_password_incorrect">ពាក្យសម្ងាត់ប័ណ្ណសារមិនត្រឹមត្រូវ។</string>
+    <string name="error_archive_cannot_extract">មិន​អាច​ស្រង់​ធាតុ​បណ្ណសារ \"%s\" ទៅ \"%s\"។</string>
+    <string name="drag_and_drop_preference">ជ្រើសរើស​ការ​អូស និង​ទម្លាក់​ចំណូលចិត្ត (ពិសោធន៍)</string>
+    <string name="drag_to_move_copy">ប៉ះហើយអូសដើម្បីផ្លាស់ទី ឬចម្លងឯកសារ</string>
+    <string name="drag_to_select">ប៉ះហើយអូសដើម្បីជ្រើសរើសឯកសារ</string>
+    <string name="disable">បិទ</string>
+    <string name="choose_operation">ជ្រើសរើសប្រតិបត្តិការដើម្បីអនុវត្ត</string>
+    <string name="remember">ចងចាំសម្រាប់លើកក្រោយ</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">ផ្តល់ការចូលប្រើ SAF សម្រាប់ម៉ាស៊ីនមេ FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">ចាប់តាំងពីនេះគឺជាដំណើរការដំបូងនៃម៉ាស៊ីនមេ FTP របស់អ្នក ហើយអ្នកកំពុងប្រើកន្លែងផ្ទុកខាងក្នុងរបស់ឧបករណ៍។ ជាថតដែលបានចែករំលែក សូមអនុញ្ញាតឱ្យ Amaze ចូលប្រើកន្លែងផ្ទុកដោយប្រើ SAF។\n\n
+
+អ្នកត្រូវធ្វើបែបនេះតែម្តងគត់ រហូតដល់ពេលបន្ទាប់ដែលអ្នកជ្រើសរើសទីតាំងថ្មីសម្រាប់ការចែករំលែក។</string>
+    <string name="android_data_prompt_saf_access">ចាប់តាំងពី Android 10 មក Android បានដាក់កម្រិតលើថតជាក់លាក់ ហើយពួកគេត្រូវចូលប្រើជាមួយ Storage Access Framework។\n \nសូមអនុញ្ញាតឱ្យ Amaze ចូលប្រើថតពីកម្មវិធីគ្រប់គ្រងឯកសាររបស់ប្រព័ន្ធដោយចុចលើ \"អនុញ្ញាតការចូលប្រើ\"។</string>
+    <string name="android_data_prompt_saf_access_title">ផ្តល់សិទ្ធិចូលប្រើ SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">ប្រើប្រព័ន្ធឯកសារចាស់</string>
+    <string name="ftp_preference_saf_filesystem">បើកដំណើរការវាសម្រាប់ការគាំទ្រសម្រាប់ការប្រើប្រាស់ឧបករណ៍ផ្ទុកខាងក្រៅនៅលើកំណែ Android ថ្មីជាង</string>
+    <string name="ftp_server_fallback_path_reset_prompt">ផ្លូវដែលបានចែករំលែកម៉ាស៊ីនមេ FTP ត្រូវបានកំណត់ឡើងវិញទៅកន្លែងផ្ទុកខាងក្នុង ដូចដែលអ្នកកំពុងប្តូរទៅ ការអនុវត្តប្រព័ន្ធឯកសារចាស់។ សូមជ្រើសរើសផ្លូវថ្មីដោយប្រើម៉ឺនុយនៅខាងស្តាំខាងលើតាមការចាំបាច់។</string>
+    <string name="ftp_server_reset_notify">ផ្លូវដែលបានចែករំលែកម៉ាស៊ីនមេ FTP ត្រូវបានកំណត់ឡើងវិញទៅកន្លែងផ្ទុកខាងក្នុង</string>
+    <string name="ftp_server_root_unavailable">អ្នកកំពុងជ្រើសរើសផ្លូវដែលទាមទារសិទ្ធិជា root។ សូមបើកកម្មវិធីរុករកឫសក្នុងការកំណត់ ប្រសិនបើឧបករណ៍របស់អ្នកត្រូវបានចាក់ឬស។</string>
+    <string name="ftp_server_root_filesystem_warning">អ្នកកំពុងជ្រើសរើសផ្លូវដែលទាមទារសិទ្ធិចូលប្រើជា root ដែលបើកដំណើរការអាន/សរសេរនៅក្នុងប្រព័ន្ធឯកសារទាំងមូលនៅលើឧបករណ៍របស់អ្នក ហើយវាមានគ្រោះថ្នាក់ - កំហុសដែលមិនចេះខ្វល់ខ្វាយអាច ដុតឧបករណ៍របស់អ្នក!\n\nតើអ្នកប្រាកដទេ?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">កំហុសក្នុងការបើក URI \"%s\" សម្រាប់ការអាន។</string>
+    <string name="error_empty_archive">\"%s\" គឺជាបណ្ណសារទទេ។</string>
+    <string name="error_bad_archive_without_info">\"%s\" គឺជាបណ្ណសារដែលខូច។</string>
+    <string name="error_bad_archive_with_info">\"%s\" គឺជាបណ្ណសារដែលខូច។\nសារពីអ្នកដកស្រង់៖ \"%s\"</string>
+    <string name="security_error">ឯកសារមិនអាច ត្រូវបានបើកដោយប្រើកម្មវិធីនេះ</string>
+    <string name="cloud_drive_tooltip">បង្កើតការតភ្ជាប់ Google Drive™ សម្រាប់គ្រប់គ្រងឯកសារពីក្នុងកម្មវិធីគ្រប់គ្រងឯកសារ Amaze។</string>
+    <string name="signin_with_google_title">ផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវដើម្បីប្រើ Google Drive™</string>
+    <string name="show_system_apps">បង្ហាញកម្មវិធីប្រព័ន្ធ</string>
+    <string name="system_apps">កម្មវិធីប្រព័ន្ធ</string>
+    <string name="select_inverse">ជ្រើសរើសបញ្ច្រាស</string>
+    <string name="select_by_type">ជ្រើសរើសតាមប្រភេទ</string>
+    <string name="select_by_date">ជ្រើសរើសតាមកាលបរិច្ឆេទ</string>
+    <string name="select_similar">ជ្រើសរើសស្រដៀងគ្នា</string>
+    <string name="error_fetching_google_play_product_list">មានកំហុសក្នុងការទាញយកបញ្ជីផលិតផលពី Google Play ។</string>
+    <string name="grant_all_files_permission">ចាប់តាំងពី Android 11 មក Google ស្នើសុំអ្នកគ្រប់គ្រងឯកសារដើម្បីស្នើសុំការអនុញ្ញាតពីអ្នកប្រើប្រាស់សម្រាប់ការគ្រប់គ្រងឯកសារទាំងអស់នៅលើឧបករណ៍។ ព័ត៌មានលម្អិតនៅទីនេះ។
+        \n\nកម្មវិធីគ្រប់គ្រងឯកសារ Amaze ត្រូវការការអនុញ្ញាតនេះផងដែរ។ បន្ទាប់ពីចុច "Grant"នៅទីនេះ សូមជ្រើសរើសអនុញ្ញាតការចូលប្រើ ដើម្បីគ្រប់គ្រងជម្រើសឯកសារទាំងអស់នៅលើអេក្រង់បន្ទាប់។
+        \n\nការបោះបង់ប្រអប់នេះនឹងចេញពីកម្មវិធី។</string>
+    <string name="user_apps">កម្មវិធីអ្នកប្រើប្រាស់</string>
+    <string name="appearance">រូបរាង</string>
+    <string name="behavior">អាកប្បកិរិយា</string>
+    <string name="appearance_summary">ប្ដូររូបរាង ពណ៌ និងរូបរាងរបស់កម្មវិធីគ្រប់គ្រងឯកសារតាមបំណង</string>
+    <string name="ui_summary">គ្រប់គ្រងព័ត៌មានដែលត្រូវបង្ហាញ ប្ដូររបារចំហៀងតាមបំណង និងបិទបើកចំណូលចិត្ត UI</string>
+    <string name="behavior_summary">កែប្រែឥរិយាបថដូចជាការស្វែងរកកម្រិតខ្ពស់ និងថាតើត្រូវបើកឯកសារជាកិច្ចការថ្មី</string>
+    <string name="security_summary">កំណត់ពាក្យសម្ងាត់ និងការអ៊ិនគ្រីប</string>
+    <string name="backup_summary">នាំចេញ/នាំចូលការកំណត់ Amaze</string>
+
+    <string name="pref_export">នាំចេញ</string>
+    <string name="pref_export_summary">ការកំណត់នាំចេញ</string>
+    <string name="pref_import">នាំចូល</string>
+    <string name="pref_import_summary">ការកំណត់នាំចូល</string>
+
+    <string name="quick_desc">ឯកសារ ថ្មីៗនេះបានចូលប្រើតាមរយៈ Amaze</string>
+    <string name="recent_desc">ឯកសារដែលបានបង្កើត ឬកែប្រែថ្មីៗ</string>
+    <string name="error_cannot_find_way_open">មិនអាចស្វែងរកវិធីដើម្បីបើកឯកសារ</string>
+    <string name="error_cant_decompress_that_file">មិនអាចដំណើរការបណ្ណសារដែលបានស្នើសុំ</string>
+    <string name="analyse_storage">វិភាគការផ្ទុក</string>
+    
+    <string name="download_amaze_utils_text">អ្នកកំពុងត្រូវបានបញ្ជូនបន្តទៅកាន់ Amaze File Utilities។ វាជាកម្មវិធីប្រភពបើកចំហរបស់យើងដែលមានកម្មវិធីមើលអូឌីយ៉ូ/វីដេអូ/រូបភាព/ឯកសារ ដែលអនុញ្ញាតឱ្យអ្នកវិភាគឯកសារឥតបានការ ដើម្បីបង្កើនទំហំផ្ទុក ផ្ទេរបានលឿនដោយប្រើ Wifi P2P និងច្រើនទៀត។\nសូមគាំទ្រពួកយើងដោយសាកល្បងវា។</string>
+    <string name="download">ទាញយក</string>
+    
+    <string name="amaze_utils_installed_alias">សូមអរគុណសម្រាប់ការដំឡើងឧបករណ៍ប្រើប្រាស់ឯកសារ Amaze ។ អ្នកកំពុងត្រូវបានបញ្ជូនបន្តទៅកម្មវិធី។</string>
+    <string name="image_viewer">កម្មវិធីមើលរូបភាពអស្ចារ្យ</string>
+    <string name="video_player">កម្មវិធីចាក់វីដេអូអស្ចារ្យ</string>
+    <string name="amaze_audio_player">កម្មវិធីចាក់តន្ត្រីអស្ចារ្យ</string>
+    <string name="pdf_viewer">កម្មវិធីមើលឯកសារអស្ចារ្យ</string>
+    
+    <string name="share_logs">ចែករំលែកកំណត់ហេតុ</string>
+    <string name="share_logs_summary">ចែករំលែកកំណត់ហេតុដែលបានថតទុកតាមរយៈអ៊ីមែល / telegram</string>
+    <string name="open_with_amaze">បើកជាមួយ Amaze</string>
+    <string name="confirmation">ការបញ្ជាក់</string>
+    <string name="open_file_confirmation">តើអ្នកប្រាកដថាចង់បើកឯកសារខាងក្រោមទេ?\n\nឈ្មោះ៖\n%s\n\nទីតាំង៖\n%s\n\nទំហំ៖\n%s\n\nMD5:\n%s\n\nSHA256 ៖\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">តាមអាណត្តិគោលនយោបាយរបស់ Google Play កម្មវិធីមិនត្រូវបានអនុញ្ញាតឱ្យធ្វើបច្ចុប្បន្នភាពដោយខ្លួនឯងទេ។ សូមអាប់ដេតកម្មវិធីពី Google Play ។</string>
+    <string name="error_cannot_get_package_info">មិនអាចទទួលបានព័ត៌មានកញ្ចប់ពីឯកសារ \"%s\" ទេ។ ទាំងឯកសារដែលបានបញ្ជាក់មិនមែនជា APK ឬឯកសារកញ្ចប់ខូច។</string>
+    <string name="preference_delete_confirmation">លុបការបញ្ជាក់</string>
+    <string name="preference_delete_confirmation_summary">សុំការបញ្ជាក់មុនពេលលុបឯកសារ។ ការបិទដំណើរការនេះគឺជាការធ្លាក់ទឹកចិត្តយ៉ាងខ្លាំង!</string>
+    
+    
+    <string name="protocol_ftps">សុវត្ថិភាព FTP</string>
+    <string name="unavailable">មិនអាចប្រើបាន</string>
+
+    <string name="exporting_failed">ការនាំចេញបរាជ័យ៖ មិនអាចសរសេរឯកសារបម្រុងទុក</string>
+    <string name="importing_failed">ការនាំចូលបរាជ័យ៖ មិនអាចអានការបម្រុងទុក ឯកសារ</string>
+    <string name="importing_completed">ការនាំចូលបានបញ្ចប់</string>
+    <string name="invalid_backup_file">ឯកសារបម្រុងទុកមិនត្រឹមត្រូវ</string>
+    <string name="import_failed_for">ការនាំចូលបរាជ័យសម្រាប់៖</string>
+    <string name="free_of">"%s\n%s ដោយឥតគិតថ្លៃ %s</string>
+    <string name="cloud_error_fdroid">កម្មវិធីជំនួយ Amaze Cloud មិនត្រូវបានគាំទ្រជាមួយ F- កំណែ Droid ។ សូមប្រើកំណែ Play Store នៃ Amaze ។</string>
+    <string name="disable_player_intent_filters">បិទតម្រងចេតនាអ្នកលេង</string>
+    <string name="disable_player_intent_filters_summary">បិទកម្មវិធីចាក់មេឌៀដែលបង្កើតដោយ Amaze ពីកម្មវិធីជ្រើសរើសឯកសារ</string>
+    <string name="no_app_found_intent">រកមិនឃើញកម្មវិធីដើម្បីដោះស្រាយចេតនានេះទេ។ ធ្វើ តើអ្នកបានដំឡើង DocumentsUI ទេ?</string>
+    <string name="cloud_connection_credentials_cleared">បានសម្អាតព័ត៌មានសម្គាល់ការតភ្ជាប់តាមពពក</string>
+    <string name="cloud_connection_credentials_cleared_msg">ជាអកុសល យើងមិនអាចផ្ទេរព័ត៌មានសម្ងាត់នៃការភ្ជាប់ពពករបស់អ្នកទៅគ្រោងការណ៍មូលដ្ឋានទិន្នន័យថ្មីបានទេ ហើយយើងត្រូវលុបពួកវាចេញពីកម្មវិធី។ សូមបង្កើត ការតភ្ជាប់ពពកម្តងទៀត។</string>
+</resources>

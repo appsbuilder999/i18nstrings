@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Менеҷери файли ҳайратангез</string>
+    <string name="drawer_open">Ововардаи паймоишро кушоед</string>
+    <string name="drawer_close">Пӯшидани обовари паймоиш</string>
+    <string name="icon">икон</string>
+    <string name="apps">Менеҷери барнома</string>
+    <string name="ftp">Сервери FTP</string>
+    <string name="setting">Танзимот</string>
+    <string name="select">Интихоб кунед</string>
+    <string name="press_again">Барои баромадан бори дигар пахш кунед</string>
+    <string name="open">Кушодан</string>
+    <string name="backup">Нусхабардорӣ</string>
+    <string name="uninstall">Нест кардан</string>
+    <string name="play">Дӯкони Play</string>
+    <string name="properties">Хусусиятҳо</string>
+    <string name="copyingapks">Нусхабардории %d файлҳои APK ба %s</string>
+    <string name="delbook">Нест кардани хатчӯб</string>
+    <string name="add_to_bookmarks">Илова ба хатчӯбҳо</string>
+    <string name="enterpath">Роҳро ворид кунед</string>
+    <string name="cancel">БЕКР КАРДАН</string>
+    <string name="create">Эҷод кардан</string>
+    <string name="loading">Бор карда мешавад…</string>
+    <string name="file_empty">Файл холист</string>
+    <string name="error">Хато</string>
+    <string name="search_results">Натоиҷи ҷустуҷӯи %s</string>
+    <string name="rename">Иваз кардани ном</string>
+    <string name="save">Захира кардан</string>
+    <string name="bookmarks_added">Захира кардани хатчӯбҳои иловашуда</string>
+    <string name="fileexist">Файл бо ҳамон ном аллакай мавҷуд аст</string>
+    <string name="name">Ном</string>
+    <string name="date">Сана</string>
+    <string name="location">Макон</string>
+    <string name="size_capitalized">Андоза</string>
+    <string name="size">андозаи ҷузвдон</string>
+    <string name="enterzipname">Номи Zip-ро ворид кунед</string>
+    <string name="no_app_found">Ягон барномае ёфт нашуд, ки ин файлро кушояд</string>
+    <string name="copying">Нусхабардорӣ</string>
+    <string name="moving">Интиқоли</string>
+    <string name="file">Файл</string>
+    <string name="folder">Файл</string>
+    <string name="newfolder">Папкаи нав</string>
+    <string name="entername">Номи ворид кунед</string>
+    <string name="extracting">Истихроҷи</string>
+    <string name="stopping">Қатъ кардани</string>
+    <string name="open_parent">Феҳристи волидайнро кушоед</string>
+    <string name="open_with">Бо</string>
+    <string name="share">Мубодила</string>
+    <string name="about">Дар бораи</string>
+    <string name="extract">Иқтибос</string>
+    <string name="compress">Фишор кунед</string>
+    <string name="yes">Ҳа</string>
+    <string name="no">Не</string>
+    
+    <string name="dialog_delete_category_directories">Феҳристҳо</string>
+    <string name="dialog_delete_category_files">Файлҳо</string>
+    <string name="dialog_delete_disclaimer">Нест кардани ҷузъҳои дар поён буда онҳоро аз дастгоҳи шумо ба таври доимӣ нест мекунад ва онҳоро барқарор кардан мумкин нест.</string>
+    <string name="dialog_delete_title">Ададҳоро ба таври доимӣ нест кунед?</string>
+    <string name="deleting">Нест карда мешавад</string>
+    <string name="question_set_path_as_home">Оё шумо мехоҳед роҳи ҷорӣро ҳамчун хона барои ин ҷадвал таъин кунед?</string>
+    <string name="directorysort">Усули ҷудокунии директория</string>
+    <string name="sort_by">Мураттабкунӣ аз рӯи</string>
+    <string name="sort_only_this">Танҳо ин ҷузвдон</string>
+    <string name="theme">Мавзӯъ</string>
+    <string name="random">Пӯсти тасодуфӣ</string>
+    <string name="random_summary">Ранги ибтидоии тасодуфиро ҳангоми оғозёбӣ муқаррар мекунад</string>
+    <string name="colorize">Рангсозии нишонаҳо</string>
+    <string name="colorize_summary">Маҷмӯаҳо ранги нишонаи статикӣ. Афзалияти ранги нишонаи директорияро бекор намекунад.</string>
+    
+    <string name="paste">Чавонед</string>
+    <string name="history">Таърихи</string>
+    <string name="copy">Нусхабардорӣ</string>
+    <string name="root_mode">Реша Explorer</string>
+    <string name="root_mode_summary">Танҳо барои дастгоҳи решавӣ. Онро танҳо агар боварӣ дошта бошед, санҷед.</string>
+    <string name="root_failure">Дастраси решавӣ дода нашудааст</string>
+    <string name="select_all">Ҳамаро интихоб кунед</string>
+    <string name="delete">Нест кардан</string>
+    <string name="set_as_home">Танзим ҳамчун хона</string>
+    <string name="operation_not_supported">Амалиёт пуштибонӣ намешавад</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Нури моддӣ</string>
+    <string name="dark">Материал торик</string>
+    <string name="daytime">Рӯзона</string>
+    <string name="black">Сиёҳ (барои OLED)</string>
+    <string name="system">Система (мавзӯи системаро риоя кунед)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Файлҳо дар боло</string>
+    <string name="filesOnTop">Файлҳо дар боло</string>
+    <string name="none_on_top">Не дар боло</string>
+    <!--SortBy-->
+    <string name="sort_name">Ном</string>
+    <string name="lastModified">Тағйири охирин</string>
+    <string name="sort_size">Андоза</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Файлро интихоб кунед</string>
+    <string name="process_viewer">Намоишгари раванд</string>
+    <string name="in_safe">Фои нокифоя аст</string>
+    <string name="no_file_overwrite">Нести файл бар болои навиштан</string>
+    <string name="skip">Гузаронидани</string>
+    <string name="overwrite">Бознавишта</string>
+    <string name="not_allowed">Иҷозат дода намешавад</string>
+    <string name="searching">Ҷустуҷӯи %s</string>
+    <string name="done">Иҷро шуд</string>
+    <string name="set">Танзим кардан</string>
+    <string name="enablerootmde">Даргиронидани ҳолати решавӣ</string>
+    <string name="goback">Бозгашт</string>
+    <string name="newfile">Файли нав</string>
+    <string name="no_files">Файл нест</string>
+    <string name="used">фазои истифодашуда</string>
+    <string name="used_by_others">аз ҷониби дигарон истифода мешавад</string>
+    <string name="free">фазои холӣ</string>
+    <string name="listview">Намоиши рӯйхат</string>
+    <string name="gridview">Шабака Намоиши</string>
+    <string name="permission">Иҷозатҳо</string>
+    <string name="hide">Пинҳон кардан</string>
+    <string name="exit">Баромад кардан</string>
+    <string name="doforall">Барои ҳама ҷузъҳо иҷро кунед</string>
+    <string name="gridcolumnno">Миқдори сутунҳо дар намуди шабака</string>
+    <string name="set_random">Тағйирот пас аз бозоғоз кардани барнома сурат мегирад</string>
+    <string name="authors">Муаллифон</string>
+    
+    
+    <string name="ui">Интерфейс</string>
+    <string name="general">Умум</string>
+    <string name="thumb_summary">Намоиши ангораи барномаҳо ва тасвирҳо</string>
+    <string name="thumb">Нишон додани эскизҳо</string>
+    <string name="hidden">Намоиш додани файлҳо ва ҷузвдонҳои пинҳонӣ</string>
+    <string name="lastModifiedSummary">Намоиш додани сана ва вақти тағири охирин</string>
+    <string name="lastModifiedPref">Намоиш додани санаи охирини тағирёфта ва Вақт</string>
+    <string name="size_pref_summary">Намоиш додани андозаи файлҳо ва шумораи ҷузъҳо дар ҷузвдонҳо</string>
+    <string name="size_pref">Намоиш додани андозаҳо</string>
+    <string name="miscellaneous">Гуногун</string>
+    <string name="root_pref_summary">Намоиш додани иҷозатҳои файлҳо ва ҷузвдонҳо</string>
+    <string name="root_pref">Намоиш додани иҷозатҳо</string>
+    <string name="about_amaze_file_manager_label">Дар бораи мудири файли Amaze</string>
+    <string name="version">Версия</string>
+    <string name="rate">Баҳогузорӣ кардани барнома</string>
+    <string name="feedback">Ирсоли фикру мулоҳиза</string>
+    <string name="hiddenfiles">Файлҳои пинҳонӣ</string>
+    <string name="type">Навиштан</string>
+    <string name="root_directory">Реша</string>
+    <string name="add_shortcut">Илова кардани миёнабур</string>
+    <string name="unsaved_changes">Тағйироти захиранашуда</string>
+    <string name="unsaved_changes_description">Шумо тағиротҳои захиранашуда доред, оё мехоҳед онҳоро пеш аз баромадан захира кунед?</string>
+    <string name="saving">Захираи</string>
+    <string name="package_installer">Насбкунандаи бастаи</string>
+    <string name="view">Намоиши</string>
+    <string name="install">Насб кунед</string>
+    <string name="archive">Архив</string>
+    <string name="archive_text">Ин бойгонист. Шумо кадом амалро иҷро кардан мехоҳед?</string>
+    <string name="package_installer_text">Ин насбкунандаи бастаҳост. Шумо кадом амалро иҷро кардан мехоҳед?</string>
+    <string name="xda_title">Rive XDA</string>
+    <string name="xda_summary">Саволҳо ва Ҷавоб, Кӯмак ва Бартараф кардани мушкилот</string>
+    <string name="circular_images">Истифодаи нишонаҳо барои тасвирҳо ва видеоҳо</string>
+    <string name="circular_icons">Истифодаи нишонаҳо даврашакл</string>
+    <string name="back_title">Намоиши бозгашт</string>
+    <string name="back_summary">Нигуратсияи фармоишии бозгаштро дар болои рӯйхат фаъол мекунад</string>
+    <string name="details">Тафсилот</string>
+    <string name="translators">Тарҷумонҳо</string>
+    <string name="german_translation_title">Олмонӣ</string>
+    <string name="italian_translation_title">Итолиёӣ</string>
+    <string name="french_translation_title">Франсузӣ</string>
+    <string name="russian_translation_title">Русӣ</string>
+    <string name="spanish_translation_title">Испанӣ</string>
+    <string name="basque_translation_title">Баскӣ</string>
+    <string name="chinese_translation_title">Чинӣ</string>
+    <string name="serbian_translation_title">Сербӣ</string>
+    <string name="turkish_translation_title">туркӣ</string>
+    <string name="ukrainian_translation_title">Украинӣ</string>
+    <string name="portuguese_translation_title">Португалӣ</string>
+    <string name="polish_translation_title">Лаҳистонӣ</string>
+    <string name="korean_translation_title">Корея</string>
+    <string name="greek_translation_title">Юнонӣ</string>
+    <string name="dutch_translation_title">Ҳолландӣ</string>
+    <string name="romanian_translation_title">Румынӣ</string>
+    <string name="vietnamese_translation_title">Вьетнамӣ</string>
+    <string name="japanese_translation_title">Ҷопонӣ</string>
+    <string name="tamil_translation_title">Tamil </string>
+
+    <string name="zip_viewer">Намоишгари Zip</string>
+    <string name="unin_system_apk">Ин як барномаи системавӣ аст, ки нест кардани он метавонад боиси ноустувории система гардад.\nДавом диҳед?</string>
+    <string name="warning">Огоҳӣ</string>
+    <string name="donate">Хайя кунед</string>
+    <string name="archive_extract_folder">Папкаи истихроҷи бойгонӣ</string>
+    <string name="archive_summary">Файлҳои бойгонӣ ба ин ҷузвдон истихроҷ карда мешаванд. Қимати пешфарз директорияест, ки дар он бойгонӣ мавҷуд аст.</string>
+    <string name="open_as">Кушоед Ҳамчун</string>
+    <string name="text">Матн</string>
+    <string name="audio">Аудио</string>
+    <string name="video">Видео</string>
+    <string name="other">Дигар</string>
+    <string name="image">Тасвир</string>
+    <string name="contributors">Саҳмгузорон</string>
+    <string name="save_paths">Роҳҳоро дар хотир нигоҳ доред</string>
+    <string name="save_path_summary">Ҳангоми оғозёбӣ, ҷузвдони охирин дидашуда барои ҳар як ҷадвал намоиш дода мешавад</string>
+    <string name="select_intent">Интихоб кунед</string>
+    <string name="database">Махзани маълумот</string>
+    <string name="colored_navigation">Савори паймоиши ранга</string>
+    <string name="colored_navigvation_sum">Оё сатри паймоиши система бо пӯст ранг карда шудааст ё не</string>
+
+    <string name="color_title">Ранг</string>
+    <string name="color_summary">Рангро ба ҷузъҳои гуногуни UI танзим кунед</string>
+    <string name="primary_color_title">Ранги аввалия (ҷадвали чап)</string>
+    <string name="primary_color_summary">Рангро ба унсурҳои калони UI барои ҷадвали чап танзим кунед</string>
+    <string name="accent_color_title">Ранги аксент</string>
+    <string name="accent_color_summary">Рангро ба FAB ва дигар унсурҳои хурди UI танзим кунед</string>
+    <string name="icon_color_title">Ранги нишона</string>
+    <string name="icon_color_summary">Рангро ба нишонаҳо танзим кунед</string>
+    <string name="choose_color">Рангро интихоб кунед</string>
+    <string name="files">Файлҳо</string>
+    <string name="textreader">Хандаи матн</string>
+    <string name="databasereader">Хандаи махзани маълумот</string>
+    <string name="show_dividers">Намоиши тақсимкунандагон</string>
+    <string name="needs_access">Дастрасӣ барои навиштан лозим аст</string>
+    <string name="needs_access_summary">Лутфан, феҳристи решаи \t</string>
+    <string name="needs_access_summary1">\tро интихоб кунед, то дастрасии навиштанро барои идора кардани</string>
+    <string name="smb_connection">Пайвастшавии SMB</string>
+    <string name="smb_server">Суроғаи IP-и сервер</string>
+    <string name="server_address">диҳед. Суроғаи IP-и сервер</string>
+    <string name="username">Номи корбар</string>
+    <string name="password">Парол</string>
+    <string name="anonymous">Беном</string>
+    
+    <string name="folders">Папкаҳо</string>
+    <string name="folderfilecount">%1$d ҷузвдонҳо ва %2$d файл</string>
+    <string name="videos">Видеоҳо</string>
+    <string name="apks">APKs </string>
+    <string name="documents">Ҳуҷҷатҳо</string>
+    <string name="images">Тасвирҳо</string>
+    <string name="clear">Тоза кардан</string>
+    
+    <string name="total">Ҷамъ:</string>
+    <string name="calculating">ҳисоб кардани</string>
+    <string name="sort">Мураттаб кардан</string>
+    <string name="ascending">Ба болоравии</string>
+    <string name="descending">Пиншавандаи</string>
+    <string name="default_string">Пешфарз</string>
+    <string name="doit">Оё ин</string>
+    <string name="want_help">Ба кумак лозим аст?</string>
+    <string name="quick">Дастрасии зуд</string>
+    <string name="recent">Файлҳои охирин</string>
+    <string name="edit">Таҳрири</string>
+    <string name="find">Дар саҳифа пайдо кунед</string>
+    <string name="grant">Грант</string>
+    <string name="grantper">Иҷозат додан</string>
+    <string name="grantfailed">Иҷозат дода нашудааст</string>
+    <string name="grant_storage_permission">Барои идома додани барнома иҷозати нигаҳдорӣ лозим аст. Бекор кардани ин муколама аз барнома хориҷ мешавад.</string>
+    <string name="operation_unsuccesful">Амали бемуваффақият</string>
+    <string name="creatingfile">Сохтани файл</string>
+    <string name="creatingfolder">Сохтани ҷузвдон</string>
+    <string name="renaming">Тағйир додани номи</string>
+    <string name="cant_be_empty">%s холӣ нест.</string>
+    <string name="ip">Суроға</string>
+    <string name="connection_name">Номи пайвастшавӣ</string>
+    <string name="no_device_found">Ягон дастгоҳ ёфт нашуд</string>
+    <string name="path">Роҳ</string>
+    <string name="rename_bookmark">Тағйир додани хатчӯб</string>
+    <string name="cut">Буридан</string>
+    <string name="search">Ҷустуҷӯ</string>
+    <string name="invalid_name">Номи нодуруст</string>
+    <string name="search_hint">Барои ҷустуҷӯ нависед…</string>
+    <string name="advanced_search">Ҷустуҷӯи мукаммал</string>
+    <string name="regular_expression">Ифодаи муқаррарӣ</string>
+    <string name="regular_expression_summary">Ҷустуҷӯ бо истифода аз Ифодаи муқаррарии сабки BASH</string>
+    <string name="match_content">Мутобиқати мундариҷа</string>
+    <string name="match_content_summary">Агар муқаррар карда шавад, ифодаи муқаррарӣ бо тамоми номи файл мувофиқ карда мешавад,
+        дар акси ҳол ҳодисаро меҷӯяд.</string>
+    <string name="start_ftp">Оғоз</string>
+    <string name="stop_ftp">Истод</string>
+    <string name="ftp_status_running">Иҷрокунанда</string>
+    <string name="ftp_status_not_running">Иҷро намешавад</string>
+    <string name="ftp_no_wifi">Боварӣ ҳосил кунед, ки шумо ба Wi-Fi пайвастед. -Fi</string>
+    <string name="domain">Домен</string>
+    <string name="smb_share">Роҳи мубодила</string>
+    <string name="invalid">Беэътибор %s</string>
+    <string name="ftp_notif_starting">Сервери FTP оғоз мешавад</string>
+    <string name="ftp_notif_starting_title">Сервери FTP</string>
+    <string name="ftp_notif_title">Сервери ҳайратангези FTP кор мекунад</string>
+    <string name="ftp_notif_text">дар %s</string>
+    
+    <string name="ftp_port_edit_menu_title">порти FTP</string>
+    <string name="ftp_port_change_success">порти FTP бомуваффақият иваз карда шуд</string>
+    <string name="ftp_port_change_error_invalid">Рақами порти беэътибор интихоб карда шуд</string>
+    <string name="primary_two_title">Ранги ибтидоӣ (ҷадвали рост)</string>
+    <string name="primary_two_summary">Рангро ба унсурҳои калони интерфейси интерфейси ҷадвали рост танзим кунед</string>
+    <string name="support_development">Дастгирии рушд</string>
+    <string name="report_bugs_title">Хатоҳоро гузориш диҳед</string>
+    <string name="source_title">Рамзи манбаъ</string>
+    <string name="source_summary">Рамзи сарчашмаи моро дар GitHub бинед</string>
+    <string name="report_bugs_summary">Дар бораи хатогиҳо гузориш диҳед ё хусусияти навро дархост кунед</string>
+    <string name="translate_title">Тарҷума</string>
+    <string name="translate_summary">Тарҷума Ба забони худ тааҷҷуб кунед</string>
+    <string name="paypal_copy_message">ID PayPal ба буфер нусхабардорӣ карда шуд</string>
+    <string name="searching_devices">Ҷустуҷӯи дастгоҳҳо</string>
+    <string name="use_custom_ip">Истифодаи IP-и фармоишӣ</string>
+    <string name="bookmark_lost">Хатчӯб ёфт нашуд, дубора эҷод карда мешавад...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Чӣ тавр дастрасӣ ба ҷузвдони муштараки Windows дар Android (SMB)\n\n
+                
+                    
+                        Мубодилаи файлро дар Windows фаъол созед\n
+                    
+                    
+                        Панели идоракуниро кушоед, клик кунед Интихоби гурӯҳи хонагӣ ва имконоти мубодила дар зери шабака
+                        ва Интернет ва "Тағйир додани Танзимоти Мубодилаи Advanced" -ро клик кунед, "Файл ва
+                        Хусусияти мубодилаи чопгар.\n\n
+                    
+
+                    
+                        Танзимоти иловагии мубодилаи файл\n
+                    
+                    
+                        Шумо инчунин метавонед танзимоти дигари мукаммали мубодиларо дар ин ҷо танзим кунед. \n
+                        Масалан, агар шумо ба ҳама бовар кунед, шумо метавонед дастрасӣ ба файлҳои худро бидуни парол фаъол созед
+                        дастгоҳҳои дар шабакаи маҳаллии шумо. Пас аз фаъол кардани мубодилаи файл ва чопгар, шумо метавонед
+                        File Explorer ё Windows Explorer-ро кушоед, папкаеро, ки мубодила кардан мехоҳед, бо тугмаи рост клик кунед ва
+                        Хусусиятҳоро интихоб кунед. \n
+                        Тугмаи Мубодиларо пахш кунед ва ҷузвдонро дар шабака дастрас кунед.\n\n
+                        
+
+                    
+                        Боварӣ ҳосил кунед, ки ҳарду дастгоҳ дар як Wifi ҳастанд\n
+                    
+                    
+                        Ин хусусият файлҳоро дар шабакаи маҳаллӣ дастрас мекунад, то компютер ва дастгоҳҳои мобилии шумо
+                        бояд дар як шабакаи маҳаллӣ бошад. Шумо наметавонед ба ҷузвдони муштараки Windows дастрасӣ пайдо кунед
+                        тавассути Интернет ё вақте ки смартфони шумо ба маълумоти мобилии он пайваст аст - он
+                        бояд ба Wi-Fi пайваст бошад.\n\n
+                    
+
+                    
+                        Суроғаи IP-ро пайдо кунед\n
+                    
+                    
+                        Сатри фармонро кушоед. \'ipconfig\' нависед ва Enterро пахш кунед. Шлюзи пешфарзро ҷустуҷӯ кунед
+                        дар зери адаптери шабакавии худ барои суроғаи IP роутератон. Ҷӯстуҷӯ кардан
+                        \\\"Суроғаи IPv4\\\" дар ҳамон қисмати адаптер барои пайдо кардани IP-и компютери шумо
+                        суроға.\n\n
+                    
+
+                    Тафсилотро дар қуттии муколамаи SMB ворид кунед\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Бештар аз 100 файлро мубодила кардан мумкин нест</string>
+    <string name="otg_access">Решаи дастгоҳи OTG-ро интихоб кунед</string>
+    <string name="information">Маълумот</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Дастрасӣ</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Тағйирёфта</string>
+
+    <string name="title">Сарлавҳа</string>
+    <string name="artist">Артист</string>
+    <string name="album">Албом</string>
+    <string name="year">Сол</string>
+    <string name="duration">Давомнокӣ</string>
+    <string name="comment">Шарҳ</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Контейнер</string>
+    
+    <string name="channels">Каналҳо</string>
+    <string name="sample_rate">Меъёри намуна</string>
+    <string name="bitrate">Битрат</string>
+    <string name="dimensions">Андозаҳо</string>
+    <string name="frame_rate">Меъёри чаҳорчӯба</string>
+    <string name="image_type">Im </string>
+    <string name="width">Ваҳн</string>
+    <string name="height">Баландӣ</string>
+    <string name="date_modified">Санаи тағирёбанда</string>
+    <string name="software">нармафзор</string>
+    <string name="creator">Эҷодкунанда</string>
+    <string name="camera_brand">Бренди камера</string>
+    <string name="camera_model">Cam Модели</string>
+    <string name="date_taken">Санаи гирифташуда</string>
+    <string name="exposure_time">Вақти экспозиция</string>
+    <string name="aperture_value">Арзиши диафрагма</string>
+    <string name="image_iso">Рейтинги суръати ISO</string>
+    <string name="flash_fired">Флеши сӯхтор</string>
+    <string name="focal_length">Дарозии фокус</string>
+    <string name="subject">Мавзӯъ</string>
+    <string name="author">Муаллиф</string>
+    <string name="keywords">Вожаҳои калидӣ</string>
+    <string name="producer">Продюсер</string>
+    <string name="created">Сохташуда</string>
+    <string name="format">Формат</string>
+    <string name="pages">Number аз Саҳифаҳо</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Оптимизатсияшуда</string>
+    <string name="security">Амният</string>
+    <string name="paper_size">Андозаи коғаз</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Баъзе файлҳо бомуваффақият %s</string>
+    <string name="copied">нусхабардорӣ карда нашуданд</string>
+    <string name="moved">кӯчонида шуд</string>
+    <string name="copy_complete">Нусхабардорӣ пурра</string>
+    <string name="waiting_title">Интизорӣ</string>
+    <string name="waiting_content">Интизории анҷоми амалиёт</string>
+    <string name="extract_complete">Истихроҷ ба анҷом расид</string>
+    <string name="compression_complete">Фикшорӣ ба анҷом расид</string>
+    <string name="compressing">Фикшорӣ</string>
+    <string name="cancelled">Бекор карда шуд</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Навиштӣ</string>
+    <string name="out_of">аз</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">аз</string>
+    <string name="processing_file">коркарди файл</string>
+    <string name="current_speed">Суръати ҷорӣ</string>
+    <string name="smb_launch_error">Барои кушодани он ба шумо лозим меояд, ки ин файлро ба анбор нусхабардорӣ кунед</string>
+    <string name="error_file_not_found">Хато: Файл ёфт нашуд</string>
+    <string name="error_io">Хатои I/O</string>
+    <string name="error_file_too_large">Хато: Файл хеле калон аст</string>
+    <string name="medium_text">Матни миёна</string>
+    <string name="permission_read">Хондан</string>
+    <string name="permission_write">Навиштан</string>
+    <string name="permission_execute">Иҷро кардан</string>
+    <string name="permission_owner">Соҳиб</string>
+    <string name="permission_group">Гурӯҳ</string>
+    <string name="permission_other">Дигар</string>
+    <string name="clipboard_path_copy">Роҳ ба буфер нусхабардорӣ карда шуд</string>
+    <string name="service_timer">Вақт гузашт</string>
+    <string name="please_wait">Лутфан интизор шавед</string>
+
+    <string name="cloud_connection">Пайвастшавии абрӣ</string>
+    <string name="cloud_connection_new">Пайвасти нави абрӣ</string>
+    
+    
+    
+    <string name="cloud_box">Бокс</string>
+    <string name="cloud_get">Васлкунаки абриро гиред</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Ягон барнома</string>
+    <string name="ftp_path">Роҳи муштарак</string>
+    <string name="ftp_path_hint">Роҳ ба решаи директория барои мубодила</string>
+    <string name="change">Тағир</string>
+    <string name="unknown_error">Оҳ, чизе хато кард!</string>
+
+    <string name="ftp_path_change_success">Роҳи FTP бомуваффақият иваз карда шуд</string>
+    <string name="ftp_path_change_error_invalid">Роҳи нодуруст</string>
+    <string name="ftp_status_no_connection">Пайваст нест</string>
+    <string name="ftp_status_secure_connection">Пайвастшавии бехатар</string>
+    <string name="ftp_status_title">Ҳолати</string>
+    <string name="ftp_port">Порт</string>
+    <string name="ftp_login">Воридшавӣ</string>
+    <string name="field_empty">Майдон холӣ шуда наметавонад</string>
+    <string name="ftp_timeout">Тамоми бекорӣ</string>
+    <string name="ftp_seconds">Сонияҳо</string>
+    <string name="intellihide_toolbar_title">Intellihide Панели асбобҳо</string>
+    <string name="intellihide_toolbar_summary">Ба таври худкор панели асбобҳоро ҳангоми ҳаракат кардан пинҳон кунед</string>
+    <string name="hash_sha256">SHA -256</string>
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">ба буфер нусхабардорӣ карда шуд</string>
+    <string name="contributors_1_summary">Тарҷума</string>
+    <string name="contributors_2_summary">Тасвир ва баннерҳо</string>
+    <string name="contributors_3_summary">Мавзӯъи муҳаррик</string>
+    <string name="contributors_4_summary">Сояи паси FAB</string>
+    <string name="contributors_5_summary">Гузариши ранг ҳангоми лағжидани ҷадвалбандиҳо</string>
+    <string name="contributors_6_summary">Сервери FTP</string>
+    <string name="contributors_7_summary">Оғоз кардани қабати интерактивӣ</string>
+    <string name="connection_exists">Пайваст аллакай вуҷуд дорад</string>
+
+    <string name="crypt_encrypting">Рамзкунонӣ</string>
+    <string name="crypt_decrypting">Рамзкунӣ</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Рамзкунонидашуда</string>
+    <string name="crypt_decrypted">Рамзкунонидашуда</string>
+    <string name="crypt_encrypt">Рамзкунонӣ</string>
+    <string name="crypt_decrypt">Рамзкунонӣ</string>
+    <string name="operation_fail_following">Амал барои файлҳои зерин ноком шуд</string>
+    <string name="crypt_pref_master_password_title">Рамзи асосӣ</string>
+    <string name="crypt_pref_master_password_summary">Пароли асосӣ барои рамзгузорӣ таъин кунед.
+        Барои нест кардан холӣ гузоред.</string>
+    <string name="crypt_pref_fingerprint_title">Изи ангуштон</string>
+    <string name="crypt_pref_fingerprint_summary">Истифодаи изи ангушт барои тасдиқи рамзгузорӣ</string>
+    <string name="crypt_fingerprint_no_permission">Иҷозатҳои изи ангуштҳо мавҷуд нестанд</string>
+    <string name="crypt_fingerprint_not_enrolled">Изи ангушт сабт нашудааст</string>
+    <string name="crypt_fingerprint_no_security">Экран қулф нест. ёфт</string>
+    <string name="crypt_warning_key">Огоҳ бошед, вақте ки шумо намунаи бехатарии худро аз
+        Танзимоти система, шумо наметавонед ин мундариҷаро рамзкушоӣ кунед.</string>
+    <string name="warning_never_show">Дигар хабар надиҳед</string>
+    <string name="warning_confirm">Фаҳмид!</string>
+    <string name="crypt_encryption_fail">рамзгузорӣ карда нашуд</string>
+    <string name="crypt_decryption_fail">Кушода шуд</string>
+    <string name="crypt_decryption_fail_password">Парол нодуруст!</string>
+    <string name="crypt_fingerprint_authenticate">Барои идома додан сенсорро ламс кунед</string>
+    <string name="authenticate_password">Паролро ворид кунед</string>
+
+    <string name="sidebar_preferences">Панели паҳлӯ</string>
+    <string name="sidebar_quick_access_title">Дастрасии зуди панели паҳлӯ</string>
+    <string name="show_quick_access_pref_title">Намоиши дастрасии зуд</string>
+    <string name="show_quick_access_pref">Дастраси фаврӣ</string>
+    <string name="directory">Феҳрист</string>
+
+    <string name="sidebar_bookmarks_title">Хатчӯбҳои панели паҳлӯ</string>
+    <string name="show_bookmarks_pref_title">Намоиш хатчӯбҳо</string>
+    <string name="show_bookmarks_pref">Хатчӯбҳо</string>
+    <string name="create_bookmark">Эҷод кардани хатчӯб</string>
+    <string name="edit_bookmark">Таҳрири хатчӯб</string>
+    <string name="question_delete_bookmark">Нест кардани хатчӯб?</string>
+
+    <string name="cloud_error_plugin">Васлкунаки Amaze Cloud ёфт нашуд. Лутфан аз Play Store зеркашӣ кунед.</string>
+    <string name="cloud_error_failed_restart">Пайвастро бор карда натавонист.
+        Лутфан, як бор Amaze Cloud -ро кушоед.</string>
+    <string name="cloud_remove">Оё шумо мехоҳед пайвасти абрро хориҷ кунед?</string>
+    <string name="cloud_fail_authenticate">Тафтишот ноком шуд</string>
+    <string name="cloud_share_copied">Истиноди муштарак ба буфер нусхабардорӣ карда шуд</string>
+    <string name="copy_low_memory">Ба охир мерасад хотира, лутфан каме RAM-ро тоза кунед</string>
+    <string name="cloud_token_lost">Токен гум шуд, лутфан дубора ворид шавед</string>
+    <string name="monofont">Шрифти Monospace</string>
+    <string name="showHeaders">Намоиш додани сарлавҳаҳо</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Ягон ашё</string>
+	
+	<string name="items">ашё</string>
+	
+	<string name="byte_singular">байт</string>
+	<string name="bytes">байт</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Файл бояд ном дошта бошад</string>
+    <string name="add_item">Илова кардани ашё</string>
+    <string name="failed_smb_decrypt_path">Пайвасти SMB-ро бор карда натавонист</string>
+    <string name="failed_cloud_new_connection">Илова кардани пайвасти нави абрӣ</string>
+    <string name="failed_cloud_api_key">Муваффақ шуд аутентификатсияи плагини абрии</string>
+
+    <string name="local_inet_addr_error">Хато дар гирифтани суроғаи инети маҳаллӣ</string>
+    <string name="intent_save_as">Захира ҳамчун…</string>
+    <string name="go">Гузариш</string>
+    <string name="advanced">Мукаммал</string>
+    <string name="typeable_paths_title">Роҳҳои фармоишӣ</string>
+    <string name="typeable_paths_summary">Барои навиштани роҳи фармоишӣ сатри роҳро дароз пахш кунед</string>
+    <string name="send_email_to">Истифодаи почтаи электронӣ ба</string>
+
+    <string name="text_editor">Танзимоти муҳаррири матн</string>
+    <string name="preference_newstack_title">Файлҳоро ҳамчун вазифаи нав кушоед</string>
+    <string name="preference_newstack_summary">Ба шумо имкон медиҳад, ки файлҳоро дар вазифаҳои алоҳида кушоед. Ба онҳо аз экрани охирини система дастрасӣ пайдо кунед.</string>
+    
+    <string name="developers">Таҳиягарон</string>
+    <string name="no_bitcoin_app">Лутфан як барномаи Bitcoin Wallet-ро насб кунед</string>
+    <string name="channel_name_normal">Огоҳномаҳои ҳайратангез</string>
+    <string name="channel_description_normal">Огоҳномаҳои менеҷери файли ҳайратангез</string>
+    <string name="channel_name_ftp">Сервери ҳайратангези FTP</string>
+    <string name="channel_description_ftp">Amaze File Огоҳиҳои менеҷери FTP сервер</string>
+
+    
+    <string name="processing">Кор карда мешавад...</string>
+    <string name="failed_no_connection">Барбор кардани файлҳо ноком шуд. Лутфан пайвасти худро санҷед.</string>
+
+    <string name="update">НАВИ</string>
+	<string name="scp_connection">Пайвастшавии SCP/SFTP</string>
+    <string name="ftp_connection">Пайвастшавии FTP</string>
+    <string name="ftps_connection">FTP тавассути Пайвастшавии SSL</string>
+    <string name="scp_port">Порт</string>
+    <string name="ssh_host_key_verification_prompt">Асонияти мизбони \'%1$s\' муайян карда намешавад.\n\n%2$s изи ангуштони калиди %3$s аст.\n\nЛутфан барои тасдиқи \"Ҳа\"-ро клик кунед шахсият; дар акси ҳол, лутфан \"Не\"-ро клик кунед.</string>
+    <string name="ssh_host_key_verification_prompt_title">Тасдиқ кардани мизбон</string>
+    <string name="ssh_select_pem_button">Калиди хусусии SSH</string>
+    <string name="ssh_pem_key_parse_error">Хондани PEM-и интихобшуда имконнопазир аст: %s</string>
+    <string name="password_unchanged">(тағйирнашуда)</string>
+    <string name="ssh_authentication_failure_password">Нокомии воридшавӣ: Бо номи корбар ва гузарвожаи додашуда аутентификатсия кардан ғайриимкон аст.</string>
+    <string name="ssh_authentication_failure_key">Нокомии воридшавӣ: бо номи корбар ва калиди махфии додашуда тасдиқ карда намешавад.</string>
+    <string name="ssh_connect_failed">Пайваст шудан ба %1$sғайриимкон аст. s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ОГОҲ: МУВАФФАКИЯТИ ХОСТ ДАР ДУРДА ТАҒЙИР ШУД!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">МҮМКИН АСТ, КИ КАСЕ КОРИ НАЗАРЕ АНДОЗАД!\n\nКасе метавонад шуморо афтонад. худи ҳозир (ҳамлаи одам дар миёна)! Инчунин мумкин аст, ки калиди мизбон нав иваз карда шудааст. Изи ангушти калиди оммавии фиристодаи мизбони дурдаст ба калиди дар Amaze нигоҳ дошташуда мувофиқат намекунад.\n\nБарои идомаи пайвастшавӣ ба сервер бо маъмури системаи худ тамос гиред ё пайвасти нав насб кунед.</string>
+    <string name="ssh_key_prompt_passphrase">Лутфан ибораи гузаришро ворид кунед. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Эҷоди миёнабурҳоро оғозкунандаи шумо дастгирӣ намекунад.</string>
+    
+    <string name="select_color_config">Танзимоти рангро интихоб кунед</string>
+    <string name="customize">Танзимоти</string>
+    <string name="custom">Истифодаи</string>
+    <string name="preselected_configs_title">Танзимоти пешакӣ интихобшуда</string>
+    <string name="orange">Норанҷӣ</string>
+    <string name="blue">Кабуд</string>
+    <string name="green">Сабз</string>
+    <string name="password_no_match">Парол мувофиқат намекунад</string>
+    <string name="deselect_all">Интихоби ҳама</string>
+    <string name="filename">Номи файл</string>
+    <string name="compress_file_suggest_zip_extension">Ин\' s тавсия дода мешавад, ки \".zip\"-ро ҳамчун васеъшавии файл истифода барад.</string>
+    <string name="about_amaze">Мудири файли тарроҳии мавод барои Android</string>
+    <string name="license">Иҷозатнома</string>
+    <string name="libraries">Китобхонаҳо</string>
+    <string name="password_repeat">Такрори парол</string>
+    <string name="create_file_suggest_txt_extension">Тавсия дода мешавад, ки \".txt\" ҳамчун васеъшавии файл истифода шавад.</string>
+    <string name="ssh_select_pem">Калиди махфиро барои тасдиқи аутентификатсия интихоб кунед</string>
+    <string name="ssh_key_invalid_passphrase">Ибораи гузарвожаи калидӣ беэътибор аст.</string>
+    <string name="ssh_key_no_decoder_decrypt">Ягон декодери дуруст барои рамзкушоӣ кардани PEM.</string>
+    <string name="encryption_fail_copy">Таҷдиди вуруди рамзгузорӣ дар пойгоҳи додаҳо муяссар нашуд</string>
+    <string name="extracted">Хориҷ карда шуд</string>
+    <string name="compressed">Фишурдашуда</string>
+    <string name="processed">Коркард карда шуд</string>
+    <string name="no_obtainable_info">Дар бораи ин файл маълумот нест</string>
+    <string name="reopen_from_source">Нетавонист, лутфан аз барномаи охирин боз кунед</string>
+    <string name="no_file_error">Чизе хато кард, дар он ҷо\ чизе барои кушодан нест</string>
+    <string name="file_too_long">Файл хеле дароз аст ва онро таҳрир кардан мумкин нест, аммо шумо метавонед %d аломати аввалро хонед</string>
+    <string name="file_read_only">Файли кушодашуда танҳо барои хондан аст.</string>
+    <string name="got_it">Фаҳмид!</string>
+    <string name="encrypt_file_save_as">Файли рамзгузорро ҳамчун захира кунед…</string>
+    <string name="encrypt_folder_save_as">Папкаи рамзгузорро ҳамчун захира кунед…</string>
+    <string name="encrypt_option_use_aze">Формати рамзгузории Amaze-ро истифода баред</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt формати рамзгузории файли кушодаасос аст, ки ба рамзгузории AES асос ёфтааст. Он инчунин сайёр аст ва метавонад бо барномаҳои AESCrypt дар платформаҳои дигар рамзкушоӣ карда шавад.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">Сомонаҳои AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Формати рамзгузории Amaze инчунин ба рамзгузории AES асос ёфтааст; аммо аз формати AESCrypt фарқ мекунад, он танҳо тавассути ин дастгоҳ рамзкушоӣ карда мешавад; инчунин шумо набояд Amaze File Manager-ро аз ин дастгоҳ нест кунед ва тарзи қулф кардани экранро тағир надиҳед, вагарна имкони барқарор кардани файли рамзгузоришударо надоред.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Файлҳои рамзгузоришуда бояд \".aze\"-ро ҳамчун васеъшавии файл истифода баранд.</string>
+    <string name="encrypt_file_must_end_with_aes">Файлҳои рамзгузоришуда бояд \".aes\"-ро ҳамчун васеъшавии файл истифода баранд.</string>
+    <string name="error_aescrypt_decrypt_failed">Рамзро кушодан мумкин нест. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Файлро дубора навиштан мумкин нест.</string>
+    <string name="saved_single_file">Файл ҳамчун \'%s\' захира карда шудааст.</string>
+    <string name="saved_multi_files">%d файл захира карда шудааст.</string>
+    <string name="create_hidden_file_warn">Файли сохташуда дар рӯйхати файлҳо пинҳон хоҳад шуд.</string>
+    <string name="grant_apkinstall_permission">Барнома барои идомаи насби барномаҳо иҷозат лозим аст.</string>
+    <string name="time_remaining">Вақти боқимонда</string>
+    <string name="transfer_rate">Меъёри интиқол</string>
+    <string name="unknown">номаълум</string>
+    <string name="multiple_invalid_archive_entries">Баъзе файлҳои бойгонӣ хориҷ карда намешаванд; бойгонӣ метавонад осеб дида бошад ё аз манбаи зараровар омада бошад.</string>
+    <string name="saf_otg_explanation">Шумо ҳоло бо сабабҳои амниятӣ ба системаи файлии Android меравед. Лутфан дастгоҳи USB-ро аз рӯйхат дар тарафи чап интихоб кунед.</string>
+    <string name="donation_thanks">Ташаккур барои хайрия, ин моро рӯҳбаланд мекунад! (:</string>
+    <string name="enable_marquee_filename">Таъсири маржаро барои номҳои файл фаъол созед</string>
+    <string name="archive_password_prompt">Лутфан пароли бойгониро ворид кунед:</string>
+    
+    <string name="cannot_extract_archive">Бойгонии \"%s\" гирифта намешавад: %s</string>
+    <string name="archive_unsupported_or_corrupt">Мумкин нест бойгонии \"%s\"-ро кушоед. Ё мо бойгониро кушода наметавонем, ё бойгонӣ осеб дидааст.</string>
+    <string name="close">Пушидани</string>
+    <string name="bookmark_exists">Белгири мавҷуд аст</string>
+    <string name="hide_media">Пинҳон кардан аз браузерҳои медиа</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">МУМКИН АСТ, КИ КАСЕ КОРИ НАЗАРЕ МЕКУНАД!\n\nКасе метавонад шуморо ҳозир гӯш кунад (ҳамлаи одами миёна)! Инчунин мумкин аст, ки калиди ҳост нав иваз карда шуда бошад. Изи ангуштон зеро калиди ҷамъиятии фиристодаи мизбони дурдаст ба калиди дар Amaze захирашуда мувофиқат намекунад.\n\nШумо метавонед ба навсозии изи ангуштони ҳост идома диҳед ё танзимоти пайвасти SSH-ро бекор кунед.</string>
+    <string name="update_host_key">Навсозии калиди ҳост</string>
+    <string name="cancel_recommended">Бекор кардан (тавсия дода мешавад)</string>
+    
+    
+    <string name="failed_install_apk">Насб карда нашуд</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Нигоҳдории дохилӣ</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Корти SD</string>
+    <string name="choose_folder">Ин ҷузвдонро интихоб кунед</string>
+    
+    <string name="some_files_failed_invalid_operation">Баъзе файлҳо бо сабаби беэътибор ноком шуданд амалиёт</string>
+    <string name="ftp_server_prompt_connect_to_network">Ба шабака пайваст шавед ё AP-ро фаъол созед</string>
+    <string name="ftp_server_open_settings">Танзимотро кушоед</string>
+    <string name="move">Интиқол кунед</string>
+    <string name="select_save_location">Маконеро барои захира кардан интихоб кунед</string>
+    <string name="scp_default_path">Роҳи пешфарз (Ихтиёрӣ)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Бубахшед, ин набояд рӯй диҳад.</string>
+    
+    <string name="error_report_button_text">Ин хаторо тавассути почтаи электронӣ гузориш диҳед</string>
+    <string name="error_report_button_telegram">Ин хаторо тавассути телеграм хабар диҳед</string>
+    <string name="copy_for_github">Нусхабардории гузориши форматшуда</string>
+    <string name="error_report_open_issue_button_text">Гисобот дар GitHub</string>
+    <string name="error_report_open_github_notice">Лутфан санҷед, ки оё масъалае, ки садамаи шуморо муҳокима мекунад, аллакай вуҷуд дорад ё на.</string>
+    <string name="error_snackbar_message">Бубахшед, чизе хато кард.</string>
+    <string name="error_snackbar_action">Гисобот</string>
+    <string name="what_device_headline">Маълумот:</string>
+    <string name="what_happened_headline">Чӣ рӯй дод:</string>
+    <string name="info_labels">Чӣ:\\nДархост:\\nВақти GMT:\\nБаста:\\nВерсия:\\nНусхаи OS:\\nДастгоҳ:\\nМодели:\\nМаҳсулот :</string>
+    <string name="your_comment">Шарҳи шумо (бо забони англисӣ):</string>
+    <string name="error_details_headline">Тафсилот:</string>
+    <string name="app_ui_crash">Барнома/UI суқут кард</string>
+    <string name="error_report_title">Гузориши хатогӣ</string>
+    <string name="crash_report_copied">Гузориши садама ба он нусхабардорӣ карда шуд буфер</string>
+    <string name="disableIpcSignature">Тафтиши имзои IPC-ро ғайрифаъол кунед (Барои серверҳои кӯҳнаи SMBv1 - UNSAFE!)</string>
+    <string name="cannot_delete_file">Файлро нест кардан мумкин нест</string>
+    <string name="cannot_delete_file_with_reason">Файл нест карда намешавад - %s</string>
+    <string name="cannot_rename_file">Номи файлро тағир додан мумкин нест %s - %s</string>
+    <string name="cannot_read_directory">Феҳристи %s хонда намешавад - %s</string>
+    <string name="just_once">Танҳо як бор</string>
+    <string name="always">Ҳамеша</string>
+    <string name="choose_different_app">Барномаи гуногунро интихоб кунед</string>
+    <string name="clear_open_file">Тоза кунед кэш</string>
+    <string name="clear_open_file_summary">Барномаҳои кушодани файли пешфарзи интихобшударо тоза мекунад</string>
+    <string name="ftp_readonly">Дастраси танҳо барои хондан</string>
+    <string name="legacy_listing_title">Истифодаи рӯйхати кӯҳна барои реша</string>
+    <string name="legacy_listing_summary">Агар фаъол бошад, барои рӯйхати файлҳо усули кӯҳнаро истифода мебарад</string>
+    <string name="error_unsupported_v5_rar">Бойгонии RAR \"%s\" бойгонии RAR v5 дастгирнашаванда аст.</string>
+    <string name="ftp_prompt_restart_server">Барои эътибор пайдо кардани тағйирот ба шумо лозим меояд, ки сервери FTP-ро бозоғоз намоед.</string>
+    <string name="error_permission_denied">Иҷозат рад карда шуд</string>
+    <string name="error_archive_password_incorrect">Пароли бойгонии нодуруст.</string>
+    <string name="error_archive_cannot_extract">Вуруди бойгонии \"%s\" ба \"%s\" гирифта намешавад.</string>
+    <string name="drag_and_drop_preference">Бартарияти кашола карда партофтанро интихоб кунед (Таҷрибавӣ)</string>
+    <string name="drag_to_move_copy">Барои интиқол ё нусхабардории файлҳо ламс ва кашола кунед</string>
+    <string name="drag_to_select">Барои интихоби файлҳо ламс кунед ва кашед</string>
+    <string name="disable">Хомӯш кардан</string>
+    <string name="choose_operation">Интихоби амалиёт барои иҷро</string>
+    <string name="remember">Барои дафъаи оянда дар хотир нигоҳ доред</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Иҷозат диҳед дастрасии SAF ба сервери FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Азбаски ин аввалин корбарии шумо дар сервери FTP аст ва шумо нигаҳдории дохилии дастгоҳро ҳамчун ҷузвдони муштарак истифода мебаред, лутфан ба Amaze иҷозат диҳед, ки ба нигаҳдорӣ бо истифода САФ.\n\n
+
+Шумо бояд ин корро танҳо як маротиба иҷро кунед, то дафъаи дигар, ки макони навро барои мубодила интихоб кунед.</string>
+    <string name="android_data_prompt_saf_access">Аз замони Android 10, Android барои директорияҳои муайян маҳдудият ҷорӣ карда буд ва онҳо бояд бо Framework Access Storage Access дастрасӣ пайдо кунанд.\n \nЛутфан, ба Amaze иҷозат диҳед, ки ба директория аз мудири файли система бо пахш кардани \"Иҷозат додан ба дастрасӣ\" дастрасӣ пайдо кунад.</string>
+    <string name="android_data_prompt_saf_access_title">Иҷозат диҳед дастрасӣ ба SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Истифодаи системаи файлии кӯҳна</string>
+    <string name="ftp_preference_saf_filesystem">Фаъол кунед ин барои дастгирии истифодаи нигаҳдории берунаи дастгоҳ дар версияҳои навтари Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Роҳи муштараки сервери FTP ба нигаҳдории дохилӣ аз нав барқарор карда шуд, зеро шумо ба татбиқи системаи файлии кӯҳна бармегардед. Лутфан роҳи навро бо истифода аз менюи рости боло интихоб кунед.</string>
+    <string name="ftp_server_reset_notify">Роҳи муштараки сервери FTP ба нигаҳдории дохилӣ аз нав барқарор карда шуд</string>
+    <string name="ftp_server_root_unavailable">Шумо роҳеро интихоб мекунед, ки дастрасии решаро талаб мекунад. Лутфан, агар дастгоҳи шумо реша дошта бошад, Explorer-ро дар танзимот фаъол созед.</string>
+    <string name="ftp_server_root_filesystem_warning">Шумо роҳеро интихоб мекунед, ки дастрасии решаро талаб мекунад, ки амалиёти хондан/навиштанро дар тамоми системаи файлии дастгоҳи шумо имкон медиҳад ва ин хатарнок аст - хатогиҳои беэҳтиётӣ метавонанд дастгоҳи шуморо хишт кунанд!\n\nОё боварӣ доред?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Хато дар кушодани URI \"%s\" барои хондан.</string>
+    <string name="error_empty_archive">\"%s\" бойгонии холӣ аст.</string>
+    <string name="error_bad_archive_without_info">\"%s\" бойгонии вайроншуда аст .</string>
+    <string name="error_bad_archive_with_info">\"%s\" бойгонии вайроншуда аст.\nПаём аз истихроҷкунанда: \"%s\"</string>
+    <string name="security_error">Файл бо истифода аз ин барнома кушода намешавад</string>
+    <string name="cloud_drive_tooltip">Эҷод кунед пайвасти Google Drive™ барои идоракунии файлҳо аз дохили Amaze File Manager.</string>
+    <string name="signin_with_google_title">Тасдиқи аслӣ барои истифодаи Google Drive™</string>
+    <string name="show_system_apps">Намоиш додани барномаҳои система</string>
+    <string name="system_apps">Барномаҳои система</string>
+    <string name="select_inverse">Интихоб кунед Баръакс</string>
+    <string name="select_by_type">Аз рӯи намуд интихоб кунед</string>
+    <string name="select_by_date">Интихоб аз рӯи сана</string>
+    <string name="select_similar">Шабеҳро интихоб кунед</string>
+    <string name="error_fetching_google_play_product_list">Хато ҳангоми гирифтани рӯйхати маҳсулот аз Google Play.</string>
+    <string name="grant_all_files_permission">Аз Android 11 , Google аз менеҷерони файлҳо дархост мекунад, ки барои идоракунии ҳамаи файлҳои дастгоҳ иҷозати корбарро талаб кунанд. Тафсилот дар ин ҷо.
+        \n\nМенеҷери файли ҳайратангез низ ба ин иҷозат ниёз дорад. Пас аз пахш кардани "Грант" дар ин ҷо, лутфан дар экрани навбатӣ "Иҷозат додан ба дастрасӣ ба идоракунии ҳамаи файлҳо" -ро интихоб кунед.
+        \n\nБо бекор кардани ин муколама аз барнома хориҷ мешавад.</string>
+    <string name="user_apps">Барномаҳои корбар</string>
+    <string name="appearance">Намоиши</string>
+    <string name="behavior">Рафтори</string>
+    <string name="appearance_summary">Мавзӯъ, рангҳо ва намуди менеҷери файлро танзим кунед</string>
+    <string name="ui_summary">Назорат кунед, ки кадом маълумотро нишон диҳед, лавҳаи паҳлӯро танзим кунед ва афзалиятҳои UI-ро иваз кунед</string>
+    <string name="behavior_summary">Тағйир додани рафтор, ба монанди ҷустуҷӯи пешрафта ва кушодани файлҳо ҳамчун вазифаи нав</string>
+    <string name="security_summary">Танзим кардани парол ва рамзгузорӣ</string>
+    <string name="backup_summary">Содирот/воридот танзимоти Amaze</string>
+
+    <string name="pref_export">Содирот</string>
+    <string name="pref_export_summary">Танзимоти содирот</string>
+    <string name="pref_import">Ворид</string>
+    <string name="pref_import_summary">Танзимоти воридотӣ</string>
+
+    <string name="quick_desc">Файлҳо ба наздикӣ тавассути Amaze дастрас шуд</string>
+    <string name="recent_desc">Файлҳои ба наздикӣ эҷодшуда ё тағйирёфта</string>
+    <string name="error_cannot_find_way_open">Роҳи кушодани файлро пайдо карда натавонистам</string>
+    <string name="error_cant_decompress_that_file">Бойгонии дархостшударо коркард карда наметавонад</string>
+    <string name="analyse_storage">Захираи таҳлили</string>
+    
+    <string name="download_amaze_utils_text">Шумо ба барномаи Amaze File Utilities равона карда мешавед. Ин як барномаи кушодаи мост, ки дорои тамошобинҳои аудио/видео/тасвир/ҳуҷҷатҳои дарунсохт буда, ба шумо имкон медиҳад, ки файлҳои номатлубро барои холӣ кардани нигоҳдорӣ, интиқоли зуд бо истифода аз Wifi P2P ва бисёр чизҳои дигар таҳлил кунед.\nЛутфан, моро тавассути озмоиши он дастгирӣ кунед.</string>
+    <string name="download">Заркашӣ кунед</string>
+    
+    <string name="amaze_utils_installed_alias">Ташаккур барои насб кардани Utilities File Amaze. Шумо ба барнома равона карда мешавед.</string>
+    
+    
+    <string name="amaze_audio_player">Amaze Player Music</string>
+    
+    <string name="docx_viewer">Намоишгари ҳуҷҷати ҳайратангез</string>
+    <string name="share_logs">Мубодилаи гузоришҳо</string>
+    <string name="share_logs_summary">Мубодилаи гузоришҳои сабтшуда тавассути почтаи электронӣ / телеграмма</string>
+    <string name="open_with_amaze">Бо Amaze кушоед</string>
+    <string name="confirmation">Тасдиқ</string>
+    <string name="open_file_confirmation">Оё мутмаин ҳастед, ки мехоҳед файли зеринро кушоед?\n\nНом:\n%s\n\nМакон:\n%s\n\nАндоза:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Тибқи ваколатҳои сиёсати Google Play, барномаҳо иҷоза намедиҳанд, ки худ ба худ навсозӣ кунанд. Лутфан барномаро аз Google Play навсозӣ кунед.</string>
+    <string name="error_cannot_get_package_info">Аз файли \"%s\" маълумоти бастаро гирифтан ғайриимкон аст. Ё файли муайяншуда APK нест, ё файли баста вайрон аст.</string>
+    <string name="preference_delete_confirmation">Тасдиқи нест кардани</string>
+    <string name="preference_delete_confirmation_summary">Пеш аз нест кардани файлҳо тасдиқро пурсед. Хомӯш кардани ин хеле рӯҳафтода аст!</string>
+    
+    
+    <string name="protocol_ftps">FTP-и бехатар</string>
+    <string name="unavailable">Дастнорас</string>
+
+    <string name="exporting_failed">Содирот ноком шуд: файли захиравиро навишта натавонист</string>
+    <string name="importing_failed">Ворпорт ноком шуд: нусхаи эҳтиётиро хонда натавонист файл</string>
+    <string name="importing_completed">Ворпорт ба анҷом расид</string>
+    <string name="invalid_backup_file">Файли эҳтиётии беэътибор</string>
+    <string name="import_failed_for">Воридот барои:</string>
+    <string name="free_of">"%s\n%s аз %s озод карда нашуд</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin бо версияи F-Droid дастгирӣ намешавад. Лутфан версияи Play Store-и Amaze-ро истифода баред.</string>
+    <string name="disable_player_intent_filters">Филтрҳои нияти бозигарро ғайрифаъол кунед</string>
+    <string name="disable_player_intent_filters_summary">Плеери медиаи дохилии Amaze аз интихобкунандаи файлро ғайрифаъол мекунад</string>
+    <string name="no_app_found_intent">Ягон барномае ёфт нашуд, ки ин ниятро иҷро кунад. Оё шумо DocumentsUI насб кардаед?</string>
+    <string name="cloud_connection_credentials_cleared">Маълумотҳои пайвасти абрӣ тоза карда шуданд</string>
+    <string name="cloud_connection_credentials_cleared_msg">Мутаассифона, мо натавонистем маълумотҳои пайвасти абрии шуморо ба схемаи нави пойгоҳи додаҳо интиқол диҳем. Барои нест кардани онҳо аз барнома. Лутфан пайвасти абрро дубора эҷод кунед.</string>
+</resources>

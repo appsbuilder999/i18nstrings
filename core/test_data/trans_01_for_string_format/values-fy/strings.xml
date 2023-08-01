@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Navigaasjelade iepenje</string>
+    <string name="drawer_close">Navigaasjelade slute</string>
+    <string name="icon">ikoan</string>
+    <string name="apps">Appbehearder</string>
+    <string name="ftp">FTP-tsjinner</string>
+    <string name="setting">Ynstellings</string>
+    <string name="select">Item selektearje</string>
+    <string name="press_again">Druk nochris om ôf te gean</string>
+    <string name="open">Iepenje</string>
+    
+    <string name="uninstall">Ynstallearje</string>
+    
+    <string name="properties">Eigenskippen</string>
+    <string name="copyingapks">%d APK-bestannen kopiearje nei %s</string>
+    <string name="delbook">Blêdwizer wiskje</string>
+    <string name="add_to_bookmarks">Tafoegje oan blêdwizers</string>
+    <string name="enterpath">Paad ynfiere</string>
+    
+    
+    <string name="loading">Laden...</string>
+    <string name="file_empty">Bestân is leech</string>
+    <string name="error">Flater</string>
+    <string name="search_results">Sykresultaten fan %s</string>
+    <string name="rename">Omneame</string>
+    <string name="save">Bewarje</string>
+    <string name="bookmarks_added">Blêdwizers tafoege</string>
+    <string name="fileexist">Triem mei deselde namme bestiet al</string>
+    <string name="name">Namme</string>
+    <string name="date">Datum</string>
+    <string name="location">Lokaasje</string>
+    <string name="size_capitalized">Grutte</string>
+    <string name="size">grutte fan map</string>
+    <string name="enterzipname">Fier zipnamme yn</string>
+    <string name="no_app_found">Gjin app fûn om dit bestân te iepenjen</string>
+    <string name="copying">Kopiearje</string>
+    <string name="moving">Ferpleatse</string>
+    <string name="file">Triem</string>
+    <string name="folder">Map</string>
+    <string name="newfolder">Nije map</string>
+    <string name="entername">Namme ynfiere</string>
+    <string name="extracting">Utpakke</string>
+    <string name="stopping">Stoppen</string>
+    <string name="open_parent">Iepenje âldermap</string>
+    <string name="open_with">Iepenje mei</string>
+    <string name="share">Diel</string>
+    <string name="about">Oer</string>
+    
+    <string name="compress">Komprimearje</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    
+    
+    <string name="dialog_delete_category_files">Triemen</string>
+    <string name="dialog_delete_disclaimer">It wiskjen fan de ûndersteande items sil se permanint fuortsmite fan jo apparaat en kinne net weromhelle wurde.</string>
+    <string name="dialog_delete_title">Items permanint wiskje?</string>
+    <string name="deleting">Wiskje</string>
+    <string name="question_set_path_as_home">Wolle jo it aktuele paad as thús foar dizze ljepper ynstelle?</string>
+    
+    <string name="sort_by">Sortearje op</string>
+    <string name="sort_only_this">Allinnich dizze map</string>
+    <string name="theme">Tema</string>
+    <string name="random">Willekeurige hûd</string>
+    <string name="random_summary">Set willekeurige primêre kleur yn by it opstarten</string>
+    <string name="colorize">Ikoanen kleurje</string>
+    <string name="colorize_summary">Sets statyske ikoan kleur. Oerskriuwt de kleurfoarkar fan mapbyldkaikes net.</string>
+    <string name="home">Thús</string>
+    <string name="paste">Plakke</string>
+    <string name="history">Skiednis</string>
+    <string name="copy">Kopiearje</string>
+    
+    <string name="root_mode_summary">Allinich foar rooted apparaat. Kontrolearje it allinich as jo der wis fan binne.</string>
+    <string name="root_failure">Root tagong net ferliend</string>
+    <string name="select_all">Alles selektearje</string>
+    <string name="delete">Wiskje</string>
+    <string name="set_as_home">Set as thús</string>
+    <string name="operation_not_supported">Operaasje net stipe</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    
+    
+    <string name="daytime">Dei</string>
+    <string name="black">Swart (foar OLED)</string>
+    <string name="system">Systeem (folgje systeemtema)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Mappen boppe</string>
+    <string name="filesOnTop">Triemen boppe</string>
+    <string name="none_on_top">Gjin boppe</string>
+    <!--SortBy-->
+    <string name="sort_name">Namme</string>
+    <string name="lastModified">Lêst feroare</string>
+    <string name="sort_size">Grutte</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Kies in bestân</string>
+    
+    <string name="in_safe">Net genôch romte</string>
+    <string name="no_file_overwrite">Gjin triem oerskreaun</string>
+    <string name="skip">Oerslaan</string>
+    <string name="overwrite">Oerskriuwje</string>
+    <string name="not_allowed">Net tastien</string>
+    <string name="searching">Sykje %s</string>
+    <string name="done">Klear</string>
+    
+    <string name="enablerootmde">Rootmodus ynskeakelje</string>
+    <string name="goback">Gean Werom</string>
+    <string name="newfile">Nije triem</string>
+    <string name="no_files">Gjin bestannen</string>
+    <string name="used">brûkte romte</string>
+    <string name="used_by_others">brûkt troch oaren</string>
+    <string name="free">frije romte</string>
+    <string name="listview">Listwerjefte</string>
+    <string name="gridview">Raster Besjoch</string>
+    <string name="permission">Ferrjochten</string>
+    <string name="hide">Ferbergje</string>
+    <string name="exit">Utslute</string>
+    <string name="doforall">Doch foar alle items</string>
+    <string name="gridcolumnno">Aantal kolommen yn rasterwerjefte</string>
+    <string name="set_random">Feroarings sille plakfine neidat jo de app opnij starte</string>
+    <string name="authors">Auteurs</string>
+    
+    
+    
+    <string name="general">Algemien</string>
+    <string name="thumb_summary">Lit miniatueren fan apps en ôfbyldings sjen</string>
+    <string name="thumb">Miniatueren sjen litte</string>
+    <string name="hidden">Ferburgen bestannen en mappen sjen litte</string>
+    <string name="lastModifiedSummary">Datum en tiid fan lêste wiziging sjen litte</string>
+    <string name="lastModifiedPref">Last wizige datum sjen litte en Tiid</string>
+    <string name="size_pref_summary">Lit grutte fan bestannen en oantal items yn mappen sjen</string>
+    <string name="size_pref">Sizes sjen litte</string>
+    <string name="miscellaneous">Diverse</string>
+    <string name="root_pref_summary">Lit tagongsrjochten fan bestannen en mappen sjen litte</string>
+    <string name="root_pref">Tastimmingen sjen litte</string>
+    <string name="about_amaze_file_manager_label">Oer Amaze File Manager</string>
+    <string name="version">Ferzje</string>
+    <string name="rate">Beoardielje de app</string>
+    <string name="feedback">Ferstjoering ferstjoere</string>
+    <string name="hiddenfiles">Ferburgen bestannen</string>
+    
+    
+    <string name="add_shortcut">Sneltoets taheakje</string>
+    <string name="unsaved_changes">Net-opsleine wizigings</string>
+    <string name="unsaved_changes_description">Jo hawwe net-opsleine wizigings, wolle jo se bewarje foardat jo ôfslute?</string>
+    <string name="saving">Bewarje</string>
+    <string name="package_installer">Pakketynstallearder</string>
+    <string name="view">Besjoch</string>
+    <string name="install">Ynstallearje</string>
+    <string name="archive">Argyf</string>
+    <string name="archive_text">Dit is in argyf. Hokker aksje wolle jo útfiere?</string>
+    <string name="package_installer_text">Dit is in pakketynstallearder. Hokker aksje wolle jo útfiere?</string>
+    <string name="xda_title">XDA-thread</string>
+    <string name="xda_summary">Q&amp;amp;A, Help &amp;amp; Troubleshooting</string>
+    <string name="circular_images">Brûk sirkulêre ikoanen foar ôfbyldings en fideo\'s</string>
+    <string name="circular_icons">Brûk sirkulêre ikoanen</string>
+    <string name="back_title">Weromnavigaasje</string>
+    <string name="back_summary">Skript oanpaste weromnavigaasje boppe oan de list yn</string>
+    
+    <string name="translators">Oersetter</string>
+    <string name="german_translation_title">Dútsk</string>
+    <string name="italian_translation_title">Italiaansk</string>
+    <string name="french_translation_title">Frânsk</string>
+    <string name="russian_translation_title">Russysk</string>
+    <string name="spanish_translation_title">Spaansk</string>
+    <string name="basque_translation_title">Baskysk</string>
+    <string name="chinese_translation_title">Sineesk</string>
+    <string name="serbian_translation_title">Servysk</string>
+    <string name="turkish_translation_title">Turksk</string>
+    <string name="ukrainian_translation_title">Oekraïnsk</string>
+    <string name="portuguese_translation_title">Portegeesk</string>
+    <string name="polish_translation_title">Poalsk</string>
+    <string name="korean_translation_title">Koreaansk</string>
+    <string name="greek_translation_title">Gryksk</string>
+    <string name="dutch_translation_title">Nederlânsk</string>
+    <string name="romanian_translation_title">Roemeensk</string>
+    <string name="vietnamese_translation_title">Fietnameesk</string>
+    <string name="japanese_translation_title">Japansk</string>
+    
+
+    
+    <string name="unin_system_apk">Dit is in systeemapp, it wiskjen kin liede ta systeemûnstabiliteit.\ n Trochgean?</string>
+    <string name="warning">Warskôging</string>
+    <string name="donate">Donearje</string>
+    <string name="archive_extract_folder">Argyf-útpakkemap</string>
+    <string name="archive_summary">Argyfbestannen wurde útpakt nei dizze map. Standertwearde is de map wêryn it argyf oanwêzich is.</string>
+    <string name="open_as">Iepenje as</string>
+    <string name="text">Tekst</string>
+    
+    <string name="video">Fideo</string>
+    <string name="other">Oare</string>
+    <string name="image">Ofbyld</string>
+    <string name="contributors">Bydragers</string>
+    <string name="save_paths">Onthâld paden</string>
+    <string name="save_path_summary">By it opstarten sil de meast resint besjoene map foar elke ljepper werjûn wurde</string>
+    <string name="select_intent">Selektearje</string>
+    
+    <string name="colored_navigation">Kleurde navigaasjebalke</string>
+    <string name="colored_navigvation_sum">Of de systeemnavigaasjebalke is kleurd mei de hûd of net</string>
+
+    <string name="color_title">Kleur</string>
+    <string name="color_summary">Kleur ynstelle foar ferskate UI-komponinten</string>
+    <string name="primary_color_title">Primêre kleur (ljepper lofts)</string>
+    <string name="primary_color_summary">Kleur ynstelle op grutte UI-eleminten foar de linker ljepper</string>
+    <string name="accent_color_title">Acsintkleur</string>
+    <string name="accent_color_summary">Kleur ynstelle op FAB en oare lytse UI eleminten</string>
+    <string name="icon_color_title">Ikoankleur</string>
+    <string name="icon_color_summary">Kleur ynstelle op ikoanen</string>
+    <string name="choose_color">Kies kleur</string>
+    <string name="files">Triemen</string>
+    <string name="textreader">Tekstlêzer</string>
+    <string name="databasereader">Databanklêzer</string>
+    <string name="show_dividers">Dididers sjen litte</string>
+    <string name="needs_access">Skriuwtagong fereaske</string>
+    <string name="needs_access_summary">Kies asjebleaft de haadmap fan \t</string>
+    <string name="needs_access_summary1">\tom skriuwtagong te jaan om te wurkjen</string>
+    <string name="smb_connection">SMB-ferbining</string>
+    <string name="smb_server">Tsjinner IP-adres</string>
+    <string name="server_address">Tsjinner IP-adres</string>
+    <string name="username">Brûkernamme</string>
+    <string name="password">Wachtwurd</string>
+    <string name="anonymous">Anonym</string>
+    
+    <string name="folders">Mappen</string>
+    <string name="folderfilecount">%1$d mappen en %2$d triemmen</string>
+    <string name="videos">Fideo\'s</string>
+    <string name="apks">APK\'s</string>
+    <string name="documents">Dokuminten</string>
+    <string name="images">Ofbyldings</string>
+    <string name="clear">Dúdlik</string>
+    
+    <string name="total">Totaal:</string>
+    <string name="calculating">berekkenje</string>
+    <string name="sort">Sortearje</string>
+    <string name="ascending">Opstigend</string>
+    <string name="descending">Oanfallend</string>
+    <string name="default_string">Standert</string>
+    
+    <string name="want_help">Help nedich?</string>
+    <string name="quick">Snelle tagong</string>
+    <string name="recent">Resinte triemmen</string>
+    <string name="edit">Bewurkje</string>
+    <string name="find">Sykje op side</string>
+    
+    <string name="grantper">Tastimming jaan</string>
+    <string name="grantfailed">Net tastimming ferliend</string>
+    <string name="grant_storage_permission">App hat opslachtastimming nedich om troch te gean. It annulearjen fan dit dialoochfinster sil de app ferlitte.</string>
+    <string name="operation_unsuccesful">Operaasje mislearre</string>
+    <string name="creatingfile">Bestân oanmeitsje</string>
+    <string name="creatingfolder">Map oanmeitsje</string>
+    <string name="renaming">Omneame</string>
+    <string name="cant_be_empty">%s kin net leech wêze</string>
+    <string name="ip">Adres</string>
+    <string name="connection_name">Namme fan ferbining</string>
+    <string name="no_device_found">Gjin apparaten fûn</string>
+    <string name="path">Pad</string>
+    <string name="rename_bookmark">Blêdwizer wizigje</string>
+    <string name="cut">Snij</string>
+    <string name="search">Sykje</string>
+    <string name="invalid_name">Unjildige namme</string>
+    <string name="search_hint">Sykje om te sykjen...</string>
+    <string name="advanced_search">Avansearre sykjen</string>
+    <string name="regular_expression">Reguliere ekspresje</string>
+    <string name="regular_expression_summary">Sykje mei in BASH-styl reguliere ekspresje</string>
+    <string name="match_content">Ynhâld oerienkomme</string>
+    <string name="match_content_summary">As ynsteld, sil reguliere ekspresje oerienkomme mei de folsleine triemnamme,
+        sil oars nei foarfal sykje.</string>
+    
+    <string name="stop_ftp">Stopje</string>
+    
+    <string name="ftp_status_not_running">Net rint</string>
+    <string name="ftp_no_wifi">Soargje dat jo ferbûn binne mei Wi -Fi</string>
+    <string name="domain">Domein</string>
+    <string name="smb_share">Dielpaad</string>
+    <string name="invalid">Unjildige %s</string>
+    <string name="ftp_notif_starting">FTP-tsjinner begjint</string>
+    <string name="ftp_notif_starting_title">FTP-tsjinner</string>
+    <string name="ftp_notif_title">Amaze FTP-tsjinner rint</string>
+    <string name="ftp_notif_text">op %s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP-poarte</string>
+    <string name="ftp_port_change_success">FTP-poarte mei súkses feroare</string>
+    <string name="ftp_port_change_error_invalid">Unjildich poartenûmer selektearre</string>
+    <string name="primary_two_title">Primêre kleur (rjochts ljepper)</string>
+    <string name="primary_two_summary">Kleur ynstelle op grutte UI-eleminten foar de rjochter ljepper</string>
+    <string name="support_development">Ontwikkeling stypje</string>
+    <string name="report_bugs_title">Bugs rapportearje</string>
+    <string name="source_title">Boarnekoade</string>
+    <string name="source_summary">Besjoch ús boarnekoade op GitHub</string>
+    <string name="report_bugs_summary">Brek rapportearje of nije funksje oanfreegje</string>
+    <string name="translate_title">Oersette</string>
+    <string name="translate_summary">Oersette Ferwûnderje yn jo taal</string>
+    <string name="paypal_copy_message">PayPal ID kopiearre nei klamboerd</string>
+    <string name="searching_devices">Sykje nei apparaten</string>
+    <string name="use_custom_ip">Brûk oanpaste IP</string>
+    <string name="bookmark_lost">Blêdwizer net fûn, opnij oanmeitsje...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Hoe tagong te krijen ta dielde Windows-map op Android (SMB)\n\n
+                
+                    
+                        Triemdieling ynskeakelje op Windows\n
+                    
+                    
+                        Iepenje it Control Panel, klik op Kies HomeGroup and Sharing opsjes ûnder Netwurk
+                        en Ynternet, en klikje op "Feroarje Avansearre Sharing Settings", ynskeakelje de "Triem en
+                        Printer Sharing" funksje.\n\n
+                    
+
+                    
+                        Oanfoljende ynstellings foar dielen fan triem\n
+                    
+                    
+                        Jo kinne hjir ek de oare avansearre dielenynstellingen konfigurearje. \n
+                        Jo kinne bygelyks tagong ta jo bestannen ynskeakelje sûnder wachtwurd as jo allegear fertrouwe
+                        de apparaten op jo lokale netwurk. Sadree\'t bestân en printer dielen is ynskeakele, kinne jo
+                        iepenje File Explorer of Windows Explorer, klik mei de rjochter-klik op in map dy\'t jo wolle diele, en
+                        selektearje Eigenskippen. \n
+                        Klik op de knop Share en meitsje de map beskikber op it netwurk.\n\n
+                        
+
+                    
+                        Soargje derfoar dat beide apparaten binne op deselde Wifi\n
+                    
+                    
+                        Dizze funksje makket bestannen beskikber op it lokale netwurk, dus jo PC en mobile apparaten
+                        moatte wêze op itselde lokale netwurk. Jo kinne gjin tagong krije ta in dielde Windows-map
+                        oer it ynternet of as jo smartphone is ferbûn mei syn mobile gegevens - it
+                        moat ferbûn wêze mei Wi-Fi.\n\n
+                    
+
+                    
+                        Fyn IP-adres\n
+                    
+                    
+                        Iepenje Kommando-prompt. Typ \'ipconfig\' en druk op Enter. Sjoch foar Standert Gateway
+                        ûnder jo netwurkadapter foar it IP-adres fan jo router. Sykje nei
+                        \\\"IPv4-adres\\\" ûnder deselde adapterseksje om it IP fan jo kompjûter te finen
+                        adres.\n\n
+                    
+
+                    Fier details yn yn it dialoochfinster fan SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Kin net mear as 100 bestannen diele</string>
+    <string name="otg_access">Selektearje de root fan OTG-apparaat</string>
+    <string name="information">Ynformaasje</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Tagong ta</string>
+    <!-- reference to file modified date -->
+    <string name="modified">wizige</string>
+
+    <string name="title">Titel</string>
+    <string name="artist">Artyst</string>
+    
+    <string name="year">Jier</string>
+    
+    <string name="comment">Kommentaar</string>
+    <!-- reference to audio/video file -->
+    
+    
+    <string name="channels">Kanalen</string>
+    
+    
+    <string name="dimensions">Ofmjittings</string>
+    <string name="frame_rate">Framerate</string>
+    <string name="image_type">Ofbyldtype</string>
+    <string name="width">Breedte</string>
+    <string name="height">Hichte</string>
+    <string name="date_modified">Datum wizige</string>
+    
+    
+    <string name="camera_brand">Kameramerk</string>
+    <string name="camera_model">Kamera Model</string>
+    <string name="date_taken">Datum Taken</string>
+    <string name="exposure_time">Blootstellingstiid</string>
+    <string name="aperture_value">Aperturewearde</string>
+    <string name="image_iso">ISO-snelheidsbeoardieling</string>
+    <string name="flash_fired">Flash ûntslein</string>
+    <string name="focal_length">Brandpunt</string>
+    <string name="subject">Underwerp</string>
+    <string name="author">Auteur</string>
+    <string name="keywords">Kaaiwurden</string>
+    <string name="producer">Produsint</string>
+    <string name="created">Amakke</string>
+    <string name="format">Opmaak</string>
+    <string name="pages">Aantal fan Siden</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimalisearre</string>
+    <string name="security">Feiligens</string>
+    <string name="paper_size">Papiergrutte</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Guon triemmen binne net mei súkses %s</string>
+    <string name="copied">kopieard</string>
+    <string name="moved">ferpleatst</string>
+    <string name="copy_complete">Kopiearje foltôge</string>
+    <string name="waiting_title">Wachtsje</string>
+    <string name="waiting_content">Wachtsje op operaasje om te foltôgjen</string>
+    <string name="extract_complete">Ekstraasje foltôge</string>
+    <string name="compression_complete">Kompresje foltôge</string>
+    <string name="compressing">Komprimearje</string>
+    <string name="cancelled">Annulearre</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Skriuwd</string>
+    <string name="out_of">út</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">fan</string>
+    <string name="processing_file">Bestân ferwurkje</string>
+    <string name="current_speed">Aktuele snelheid</string>
+    <string name="smb_launch_error">Jo moatte dit bestân kopiearje nei de opslach om it te iepenjen</string>
+    <string name="error_file_not_found">Flater: bestân net fûn</string>
+    <string name="error_io">I/O-flater</string>
+    <string name="error_file_too_large">Flater: bestân te grut</string>
+    <string name="medium_text">Medium tekst</string>
+    <string name="permission_read">Lês</string>
+    <string name="permission_write">Skriuw</string>
+    <string name="permission_execute">Utfiere</string>
+    <string name="permission_owner">Eigner</string>
+    <string name="permission_group">Groep</string>
+    <string name="permission_other">Oare</string>
+    <string name="clipboard_path_copy">Pad kopiearre nei klamboerd</string>
+    <string name="service_timer">Tiid ferrûn</string>
+    <string name="please_wait">Wachtsje asjebleaft</string>
+
+    <string name="cloud_connection">Cloudferbining</string>
+    <string name="cloud_connection_new">Nije wolkferbining</string>
+    
+    
+    
+    
+    <string name="cloud_get">Krij Cloud-plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Gjin applikaasjes</string>
+    <string name="ftp_path">Dielde paad</string>
+    <string name="ftp_path_hint">Pad nei de root fan map om te dielen</string>
+    <string name="change">Feroarje</string>
+    <string name="unknown_error">Oeps, der gie wat mis!</string>
+
+    <string name="ftp_path_change_success">FTP-paad mei súkses feroare</string>
+    <string name="ftp_path_change_error_invalid">Unjildich paad</string>
+    <string name="ftp_status_no_connection">Gjin ferbining</string>
+    <string name="ftp_status_secure_connection">Feilige ferbining</string>
+    
+    <string name="ftp_port">Poarte</string>
+    <string name="ftp_login">Oanmelde</string>
+    <string name="field_empty">Feld kin net leech wêze</string>
+    
+    <string name="ftp_seconds">Sekonden</string>
+    <string name="intellihide_toolbar_title">Intellihide Arkbalke</string>
+    <string name="intellihide_toolbar_summary">De arkbalke automatysk ferbergje by it rôljen</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">kopieard nei it klamboerd</string>
+    <string name="contributors_1_summary">Oersetting</string>
+    <string name="contributors_2_summary">Ikoan en banners</string>
+    <string name="contributors_3_summary">Tema Engine</string>
+    <string name="contributors_4_summary">Skaad efter FAB</string>
+    <string name="contributors_5_summary">Kleuroergong by it swipe fan ljeppers</string>
+    <string name="contributors_6_summary">FTP-tsjinner</string>
+    <string name="contributors_7_summary">In ynteraktive shell opstarten</string>
+    <string name="connection_exists">Ferbining bestiet al</string>
+
+    <string name="crypt_encrypting">Fersiferearjen</string>
+    <string name="crypt_decrypting">Dekodearjen</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Fersifere</string>
+    <string name="crypt_decrypted">ûntsifere</string>
+    <string name="crypt_encrypt">Fersiferearje</string>
+    <string name="crypt_decrypt">ûntsiferje</string>
+    <string name="operation_fail_following">Operaasje mislearre foar folgjende bestannen</string>
+    <string name="crypt_pref_master_password_title">Hoofdwachtwurd</string>
+    <string name="crypt_pref_master_password_summary">Stel in haadwachtwurd yn foar fersifering.
+        Lit leech litte om te ferwiderjen.</string>
+    
+    <string name="crypt_pref_fingerprint_summary">Fingerprint brûke om fersifering te autentisearjen</string>
+    <string name="crypt_fingerprint_no_permission">Fingerprintrjochten ûntbrekke</string>
+    <string name="crypt_fingerprint_not_enrolled">Gjin fingerprint ynskreaun</string>
+    <string name="crypt_fingerprint_no_security">Gjin befeiliging op slotskerm fûn</string>
+    <string name="crypt_warning_key">Wês advisearre as jo jo feiligenspatroan feroarje fan
+        Systeemynstellingen, jo sille dizze ynhâld net ûntsiferje kinne.</string>
+    <string name="warning_never_show">Net wer ynformearje</string>
+    <string name="warning_confirm">Siet it!</string>
+    <string name="crypt_encryption_fail">Fersiferje mislearre</string>
+    <string name="crypt_decryption_fail">Untsiferje mislearre</string>
+    <string name="crypt_decryption_fail_password">Ferkear wachtwurd!</string>
+    <string name="crypt_fingerprint_authenticate">Touchsensor om troch te gean</string>
+    <string name="authenticate_password">Wachtwurd ynfiere</string>
+
+    <string name="sidebar_preferences">Sydbalke</string>
+    <string name="sidebar_quick_access_title">Snelle tagong ta sydbalke</string>
+    <string name="show_quick_access_pref_title">Snelle tagong sjen litte</string>
+    <string name="show_quick_access_pref">Snelle tagong</string>
+    
+
+    <string name="sidebar_bookmarks_title">Blêdwizers oan de sydbalke</string>
+    <string name="show_bookmarks_pref_title">Blêdwizers sjen litte</string>
+    <string name="show_bookmarks_pref">Blêdwizers</string>
+    <string name="create_bookmark">Blêdwizer oanmeitsje</string>
+    <string name="edit_bookmark">Blêdwizer bewurkje</string>
+    <string name="question_delete_bookmark">Blêdwizer wiskje?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud-plugin net fûn. Download asjebleaft fan de Play Store.</string>
+    <string name="cloud_error_failed_restart">It laden fan de ferbining is mislearre.
+        Iepenje asjebleaft Amaze Cloud ien kear.</string>
+    <string name="cloud_remove">Wolle jo de wolkferbining fuortsmite?</string>
+    <string name="cloud_fail_authenticate">Autentikaasje mislearre</string>
+    <string name="cloud_share_copied">Dielbere keppeling kopiearre nei klamboerd</string>
+    <string name="copy_low_memory">Der is net mear ûnthâld, wiskje asjebleaft wat RAM</string>
+    <string name="cloud_token_lost">Token ferlern, meld jo asjebleaft nochris oan</string>
+    <string name="monofont">Monospace lettertype</string>
+    <string name="showHeaders">Headteksten sjen litte</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Gjin items</string>
+	
+	
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Bestân moat in namme hawwe</string>
+    <string name="add_item">Item taheakje</string>
+    <string name="failed_smb_decrypt_path">Laden mislearre SMB-ferbining</string>
+    <string name="failed_cloud_new_connection">Kin nije Cloud-ferbining net taheakje</string>
+    <string name="failed_cloud_api_key">It autentisearjen fan Cloud-plug-in mislearre</string>
+
+    <string name="local_inet_addr_error">Flater by it opheljen fan lokaal inet-adres</string>
+    <string name="intent_save_as">Bewarje as...</string>
+    <string name="go">Gean</string>
+    <string name="advanced">Avansearre</string>
+    <string name="typeable_paths_title">Oanpaste paden</string>
+    <string name="typeable_paths_summary">Lang druk op paadbalke om in oanpast paad te typen</string>
+    <string name="send_email_to">Stjoer in e-post nei</string>
+
+    <string name="text_editor">Ynstellings foar tekstbewurker</string>
+    <string name="preference_newstack_title">Iepenje triemmen as nije taak</string>
+    <string name="preference_newstack_summary">Kant jo bestannen iepenje yn aparte taken. Tagong ta se fan it skerm fan it systeem resinte.</string>
+    
+    <string name="developers">Untwikkelders</string>
+    <string name="no_bitcoin_app">Ynstallearje asjebleaft in Bitcoin Wallet-app</string>
+    <string name="channel_name_normal">Amaze-notifikaasjes</string>
+    <string name="channel_description_normal">Notifikaasjes fan Amaze File Manager</string>
+    <string name="channel_name_ftp">Amaze FTP-tsjinner</string>
+    <string name="channel_description_ftp">Amaze-bestân Notifikaasjes fan behearder FTP-tsjinner</string>
+
+    
+    <string name="processing">Bewurkje...</string>
+    <string name="failed_no_connection">Kin bestannen net laden. Kontrolearje jo ferbining.</string>
+
+    
+	<string name="scp_connection">SCP/SFTP-ferbining</string>
+    <string name="ftp_connection">FTP-ferbining</string>
+    <string name="ftps_connection">FTP oer SSL-ferbining</string>
+    <string name="scp_port">Poarte</string>
+    <string name="ssh_host_key_verification_prompt">De autentisiteit fan host \'%1$s\' kin net fêststeld wurde.\n\n%2$s kaaifingerprint is %3$s.\n\nTik op \"Ja\" om te befêstigjen identiteit; tik oars op \"Nee\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Host ferifiearje</string>
+    
+    <string name="ssh_pem_key_parse_error">Kin selekteare PEM net lêze: %s</string>
+    <string name="password_unchanged">(net feroare)</string>
+    <string name="ssh_authentication_failure_password">Oanmelde mislearring: kin net authentisearje mei opjûne brûkersnamme en wachtwurd.</string>
+    <string name="ssh_authentication_failure_key">Oanmelde mislearring: kin net authentisearje mei opjûne brûkersnamme en privee kaai.</string>
+    <string name="ssh_connect_failed">Kin gjin ferbining meitsje mei %1$ s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">WAARSKUWING: IDENTIFIKASJE HOST FERSTAND IS FORANDERD!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">IT IS MOGELIJK DAT IEMMEN NET DOCHT!\n\nImmen kin jo ôflústerje op it stuit (man-in-the-midden oanfal)! It is ek mooglik dat de hostkaai krekt feroare is. De fingerprint foar de iepenbiere kaai stjoerd troch de host op ôfstân komt net oerien mei dy opslein yn Amaze.\n\nNim asjebleaft kontakt op mei jo systeembehearder of set in nije ferbining op om fierder te ferbinen mei de tsjinner.</string>
+    <string name="ssh_key_prompt_passphrase">Fier asjebleaft kaaiwachtwurd yn .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Sneltoetsen oanmeitsje wurdt net stipe troch jo launcher.</string>
+    
+    <string name="select_color_config">Selektearje kleurkonfiguraasje</string>
+    <string name="customize">Oanpasse</string>
+    <string name="custom">Oanpaste</string>
+    <string name="preselected_configs_title">Foarselekteare konfiguraasjes</string>
+    <string name="orange">Oranje</string>
+    <string name="blue">Blau</string>
+    <string name="green">Grien</string>
+    <string name="password_no_match">Wachtwurd komt net oerien</string>
+    <string name="deselect_all">Alles selektearje</string>
+    <string name="filename">Bestânnamme</string>
+    <string name="compress_file_suggest_zip_extension">It is oan te rieden om \".zip\" te brûken as de triem-útwreiding.</string>
+    <string name="about_amaze">Bestânbehearder foar materiaalûntwerp foar Android</string>
+    <string name="license">Lisinsje</string>
+    <string name="libraries">Bibliotheken</string>
+    <string name="password_repeat">Wachtwurd werhelje</string>
+    <string name="create_file_suggest_txt_extension">It is oan te rieden om \".txt\" te brûken as de triem taheaksel.</string>
+    <string name="ssh_select_pem">Selektearje privee kaai foar ferifikaasje</string>
+    <string name="ssh_key_invalid_passphrase">Unjildige kaaiwachtwurd.</string>
+    <string name="ssh_key_no_decoder_decrypt">Gjin jildige dekoder om PEM te ûntsiferjen.</string>
+    <string name="encryption_fail_copy">Fernijing fan fersifering yn databank mislearre</string>
+    <string name="extracted">Uthelle</string>
+    <string name="compressed">Komprimearre</string>
+    <string name="processed">Ferwurke</string>
+    <string name="no_obtainable_info">Der is gjin ynformaasje oer dit bestân</string>
+    <string name="reopen_from_source">Kin net, asjebleaft opnij iepenje fanút lêste app</string>
+    <string name="no_file_error">Der gie mis, d\'r is neat te iepenjen</string>
+    <string name="file_too_long">De bestân is te lang en kin net bewurke wurde, mar jo kinne de earste %d tekens lêze</string>
+    <string name="file_read_only">It iepene bestân is allinnich-lêzen.</string>
+    <string name="got_it">Goed it!</string>
+    <string name="encrypt_file_save_as">Bewarje fersifere Triem as...</string>
+    <string name="encrypt_folder_save_as">Bewarje fersifere map as...</string>
+    <string name="encrypt_option_use_aze">Brûk Amaze-fersiferingsformaat</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt is in iepen boarne-bestânfersiferingsformaat basearre op AES-fersifering. It is ek draachber, kin ûntsiferje mei AESCrypt-programma\'s op oare platfoarms.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt-webside</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'s fersiferingsformaat is ek basearre op AES-fersifering; mar oars as AESCrypt-formaat, it kin allinich troch dit apparaat wurde ûntsifere; Jo moatte ek Amaze File Manager net fan dit apparaat deinstallearje en de manier wêrop jo skerm beskoattelje net feroarje, oars hawwe jo gjin manier om it fersifere bestân werom te heljen.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Fersifere bestannen moatte \".aze\" brûke as de triem-útwreiding.</string>
+    <string name="encrypt_file_must_end_with_aes">Fersifere bestannen moatte \".aes\" brûke as de triem-útwreiding.</string>
+    <string name="error_aescrypt_decrypt_failed">Kin net ûntsiferje \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Kin triem net oerskriuwe.</string>
+    <string name="saved_single_file">Triem bewarre as \'%s\'.</string>
+    <string name="saved_multi_files">%d triemmen bewarre.</string>
+    <string name="create_hidden_file_warn">It oanmakke bestân wurdt ferburgen yn de bestânslist.</string>
+    <string name="grant_apkinstall_permission">App hat tastimming nedich om apps te ynstallearjen trochgean.</string>
+    <string name="time_remaining">Resterende tiid</string>
+    <string name="transfer_rate">Oerdrachtssnelheid</string>
+    <string name="unknown">ûnbekend</string>
+    <string name="multiple_invalid_archive_entries">Guon triemmen yn it argyf kinne net útpakt wurde; argyf kin beskeadige wêze of kaam fan kweade boarne.</string>
+    <string name="saf_otg_explanation">Jo sille no om feiligensredenen nei it bestânsysteem fan Android gean. Selektearje asjebleaft it USB-apparaat út de list oan de linkerkant.</string>
+    <string name="donation_thanks">Tankewol foar de donaasje, dit hâldt ús motivearre! (:</string>
+    <string name="enable_marquee_filename">Marquee-effekt ynskeakelje foar triemnammen</string>
+    <string name="archive_password_prompt">Fier argyfwachtwurd yn:</string>
+    
+    <string name="cannot_extract_archive">Kin argyf \"%s\" net útpakke: %s</string>
+    <string name="archive_unsupported_or_corrupt">Kin net iepen argyf \"%s\". Of wy kinne it argyf net iepenje, of it argyf is skansearre.</string>
+    <string name="close">Slute</string>
+    <string name="bookmark_exists">Blêdwizer bestiet</string>
+    <string name="hide_media">Ferbergje fan mediabrowsers</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">IT IS MOGELIJK DAT IEMMEN HAT NET DOCHT!\n\nImmen kin jo op it stuit ôflústerje (man-in-the-middle oanfal)! It is ek mooglik dat de hostkaai krekt feroare is. De fingerprint want de iepenbiere kaai dy\'t troch de host op ôfstân ferstjoerd is komt net oerien mei dy opslein yn Amaze.\n\nJo kinne trochgean mei it bywurkjen fan hostfingerprint of it bywurkjen fan SSH-ferbiningynstellingen annulearje.</string>
+    <string name="update_host_key">Hostkaai bywurkje</string>
+    <string name="cancel_recommended">Annulearje (oanrikkemandearre)</string>
+    
+    
+    <string name="failed_install_apk">Ynstallaasje mislearre</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Ynterne opslach</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD-kaart</string>
+    <string name="choose_folder">Kies dizze map</string>
+    
+    <string name="some_files_failed_invalid_operation">Guon bestannen mislearre fanwegen ûnjildich operaasje</string>
+    <string name="ftp_server_prompt_connect_to_network">Ferbine mei in netwurk of ynskeakelje AP</string>
+    <string name="ftp_server_open_settings">Iepenje ynstellings</string>
+    <string name="move">Ferpleatse</string>
+    <string name="select_save_location">Selektearje lokaasje om op te slaan</string>
+    <string name="scp_default_path">Standert paad (opsjoneel)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Sorry, dat hie net barre moatten.</string>
+    
+    <string name="error_report_button_text">Rapportearje dizze flater fia e-post</string>
+    <string name="error_report_button_telegram">Rapportearje dizze flater fia telegram</string>
+    <string name="copy_for_github">Kopiearje opmakke rapport</string>
+    <string name="error_report_open_issue_button_text">Rapportearje op GitHub</string>
+    <string name="error_report_open_github_notice">Kontrolearje asjebleaft oft der al in probleem bestiet oer jo crash.</string>
+    <string name="error_snackbar_message">Sorry, der gie wat mis.</string>
+    <string name="error_snackbar_action">Rapportearje</string>
+    <string name="what_device_headline">Ynfo:</string>
+    <string name="what_happened_headline">Wat barde:</string>
+    <string name="info_labels">Wat:\\nFersyk:\\nGMT Tiid:\\nPakket:\\nFerzje:\\nOS ferzje:\\nApparaat:\\nModel:\\nProduct :</string>
+    <string name="your_comment">Jo reaksje (yn it Ingelsk):</string>
+    
+    <string name="app_ui_crash">App/UI ferûngelokke</string>
+    <string name="error_report_title">Flaterrapport</string>
+    <string name="crash_report_copied">Crashrapport kopiearre nei klamboerd</string>
+    <string name="disableIpcSignature">IPC-ûndertekeningskontrôle útskeakelje (foar âlde SMBv1-tsjinners - UNSAFE!)</string>
+    <string name="cannot_delete_file">Kin triem net wiskje</string>
+    <string name="cannot_delete_file_with_reason">Kin triem net wiskje - %s</string>
+    <string name="cannot_rename_file">Kin triem net omneame %s - %s</string>
+    <string name="cannot_read_directory">Kin map %s net lêze - %s</string>
+    <string name="just_once">Just ien kear</string>
+    <string name="always">Altyd</string>
+    <string name="choose_different_app">Kies in oare applikaasje</string>
+    <string name="clear_open_file">Wis cache</string>
+    <string name="clear_open_file_summary">Wisket selekteare standertapplikaasjes foar it iepenjen fan bestân</string>
+    <string name="ftp_readonly">Allinnich-lêzen tagong</string>
+    <string name="legacy_listing_title">Brûk legacy-listing foar root</string>
+    <string name="legacy_listing_summary">As ynskeakele, brûkt legacy-metoade om bestannen te listjen</string>
+    <string name="error_unsupported_v5_rar">RAR-argyf \"%s\" is net-stipe RAR v5-argyf.</string>
+    <string name="ftp_prompt_restart_server">Jo moatte de FTP-tsjinner op \'e nij opstarte foar feroaringen om effekt te nimmen.</string>
+    <string name="error_permission_denied">Tastemming wegere</string>
+    <string name="error_archive_password_incorrect">Ferkeard argyfwachtwurd.</string>
+    <string name="error_archive_cannot_extract">Kin argyfyngong \"%s\" net útpakke nei \"%s\".</string>
+    <string name="drag_and_drop_preference">Selektearje slepe en drop foarkar (eksperiminteel)</string>
+    <string name="drag_to_move_copy">Tik en sleep om bestannen te ferpleatsen of te kopiearjen</string>
+    <string name="drag_to_select">Treike en sleep om bestannen te selektearjen</string>
+    <string name="disable">Utskeakelje</string>
+    <string name="choose_operation">Kies operaasje om út te fieren</string>
+    <string name="remember">Tink derom foar de folgjende kear</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Sykje SAF-tagong foar FTP-tsjinner</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Om\'t dit jo earste run fan \'e FTP-tsjinner is, en jo de ynterne opslach fan it apparaat brûke as dielde map, lit Amaze asjebleaft tagong krije ta de opslach mei SAF.\n\n
+
+Jo hoege dit mar ien kear te dwaan, oant de folgjende kear dat jo in nije lokaasje selektearje foar dielen.</string>
+    <string name="android_data_prompt_saf_access">Sûnt Android 10 hat Android beheiningen oplein foar bepaalde mappen, en dy moatte tagong krije mei Storage Access Framework.\n \n Tastean asjebleaft Amaze tagong te krijen ta de map fan de triembehearder fan it systeem troch te tikken op \"Tagong tastean\".</string>
+    <string name="android_data_prompt_saf_access_title">SAF-tagong jaan</string>
+    <string name="ftp_preference_saf_filesystem_title">Brûk legacy triemsysteem</string>
+    <string name="ftp_preference_saf_filesystem">Ynskeakelje dit foar stipe foar it brûken fan eksterne opslach fan apparaat op nijere Android-ferzjes</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP-tsjinner dielde paad wie weromset nei ynterne opslach, om\'t jo weromskeakelje nei ymplemintaasje fan legacy bestânssysteem. Selektearje asjebleaft in nij paad mei it menu rjochtsboppe as nedich.</string>
+    <string name="ftp_server_reset_notify">FTP-tsjinner dielde paad wie weromset nei ynterne opslach</string>
+    <string name="ftp_server_root_unavailable">Jo kieze in paad dat root-tagong fereasket. Aktivearje asjebleaft root explorer yn ynstellings as jo apparaat root is.</string>
+    <string name="ftp_server_root_filesystem_warning">Jo kieze in paad dat root-tagong fereasket, wat lês-/skriuwoperaasjes yn it hiele bestânsysteem op jo apparaat mooglik makket, en it is gefaarlik - achtleaze flaters kinne jo apparaat bakje!\n\nBinne jo wis?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Flater by it iepenjen fan URI \"%s\" foar it lêzen.</string>
+    <string name="error_empty_archive">\"%s\" is in leech argyf.</string>
+    <string name="error_bad_archive_without_info">\"%s\" is in skansearre argyf .</string>
+    <string name="error_bad_archive_with_info">\"%s\" is in skansearre argyf.\nBerjocht fan extractor: \"%s\"</string>
+    <string name="security_error">Bestân koe net iepene wurde mei dizze app</string>
+    <string name="cloud_drive_tooltip">Meitsje in Google Drive™-ferbining foar it behearen fan bestannen fanút Amaze File Manager.</string>
+    <string name="signin_with_google_title">Autentisearje om Google Drive™ te brûken</string>
+    <string name="show_system_apps">Systeemapps sjen litte</string>
+    <string name="system_apps">Systeemapps</string>
+    <string name="select_inverse">Selektearje Omkearde</string>
+    <string name="select_by_type">Selektearje op type</string>
+    <string name="select_by_date">Selektearje op datum</string>
+    <string name="select_similar">Selektearje ferlykber</string>
+    <string name="error_fetching_google_play_product_list">Flater by it opheljen fan produktlist fan Google Play.</string>
+    <string name="grant_all_files_permission">Sûnt Android 11 , Google freget Triembehearders om tastimming fan brûkers te freegjen foar it behearen fan alle bestannen op it apparaat. Details hjir.
+        \n\nAmaze File Manager hat dizze tastimming ek nedich. Nei it drukken op "Grant" hjir, selektearje asjebleaft Tastean tagong om alle bestannen te behearjen opsje op it folgjende skerm.
+        \n\nIt annulearjen fan dit dialoochfinster sil de app ôfslute.</string>
+    <string name="user_apps">Brûkersapps</string>
+    <string name="appearance">Utsjen</string>
+    <string name="behavior">Gedrach</string>
+    <string name="appearance_summary">It tema, de kleuren en it uterlik fan de triembehearder oanpasse</string>
+    <string name="ui_summary">Bestjoere hokker ynformaasje jo sjen litte, oanpasse de sydbalke en wikselje UI-foarkarren</string>
+    <string name="behavior_summary">Feroarje gedrach lykas avansearre sykjen en oft bestannen as nije taak iepenje moatte</string>
+    <string name="security_summary">Wachtwurd ynstelle en fersifering</string>
+    <string name="backup_summary">Eksportearje/Ymportearje Amaze-ynstellingen</string>
+
+    <string name="pref_export">Eksportearje</string>
+    <string name="pref_export_summary">Ynstellings eksportearje</string>
+    <string name="pref_import">Ymportearje</string>
+    <string name="pref_import_summary">Ymportynstellingen</string>
+
+    <string name="quick_desc">Triemen koartlyn tagong fia Amaze</string>
+    <string name="recent_desc">Koartlyn oanmakke of wizige triemmen</string>
+    <string name="error_cannot_find_way_open">Koe gjin manier fine om it bestân te iepenjen</string>
+    <string name="error_cant_decompress_that_file">Kin it frege argyf net ferwurkje</string>
+    <string name="analyse_storage">Opslach analysearje</string>
+    
+    <string name="download_amaze_utils_text">Jo wurde omlaat nei Amaze File Utilities. It is ús iepen boarne-app mei ynboude audio-/fideo-/ôfbyldings-/dokumintsjoggers, lit jo junkbestannen analysearje om opslach frij te meitsjen, rappe oerdracht mei Wifi P2P en folle mear.\nStypje ús asjebleaft troch it út te probearjen.</string>
+    
+    
+    <string name="amaze_utils_installed_alias">Tankewol foar it ynstallearjen fan Amaze File Utilities. Jo wurde omlaat nei de app.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">Logboeken diele</string>
+    <string name="share_logs_summary">Diel fêstleine logs fia e-post / telegram</string>
+    <string name="open_with_amaze">Iepenje mei Amaze</string>
+    <string name="confirmation">Befêstiging</string>
+    <string name="open_file_confirmation">Binne jo wis dat jo de folgjende triem iepenje wolle?\n\nNamme:\n%s\n\nLokaasje:\n%s\n\n Grutte:\n%s\n\nMD5:\n%s\n\nSHA256:\ n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Yn Google Play-beliedsmandaten meie apps net sels bywurkje. Update app asjebleaft fan Google Play.</string>
+    <string name="error_cannot_get_package_info">Kin pakketynformaasje net krije fan triem \"%s\". Of it opjûne bestân is gjin APK, of it pakketbestân is skansearre.</string>
+    <string name="preference_delete_confirmation">Befêstiging wiskje</string>
+    <string name="preference_delete_confirmation_summary">Freegje om befêstiging foardat jo triemmen wiskje. It útskeakeljen fan dit wurdt tige ûntmoedige!</string>
+    
+    
+    <string name="protocol_ftps">Feilige FTP</string>
+    <string name="unavailable">Net beskikber</string>
+
+    <string name="exporting_failed">Eksportearje mislearre: koe it reservekopybestân net skriuwe</string>
+    <string name="importing_failed">Ymportearjen mislearre: koe de reservekopy net lêze triem</string>
+    <string name="importing_completed">Ymportearjen foltôge</string>
+    <string name="invalid_backup_file">Unjildige reservekopybestân</string>
+    <string name="import_failed_for">Ymport mislearre foar:</string>
+    <string name="free_of">"%s\n%s frij fan %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud-plugin net stipe mei F-Droid-ferzje. Brûk asjebleaft Play Store-ferzje fan Amaze.</string>
+    <string name="disable_player_intent_filters">Spylderyntinsjefilters útskeakelje</string>
+    <string name="disable_player_intent_filters_summary">Skakelt Amaze ynboude mediaspielers út fan triemkiezer</string>
+    <string name="no_app_found_intent">Gjin app fûn om dizze yntinsje te behanneljen. Hawwe jo DocumentsUI ynstallearre?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection credentials wiske</string>
+    <string name="cloud_connection_credentials_cleared_msg">Spitigernôch koenen wy jo wolkferbining credentials net migrearje nei it nije databankskema, en wy hienen om se út de app te ferwiderjen. Meitsje de wolkferbining opnij oan.</string>
+</resources>

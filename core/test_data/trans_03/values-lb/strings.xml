@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Navigatiouns-Tirang opzemaachen</string>
+    <string name="drawer_close">Navigatiouns-Tirang zoumaachen</string>
+    <string name="icon">Ikon</string>
+    
+    
+    <string name="setting">Astellungen</string>
+    <string name="select">Element auswielen</string>
+    <string name="press_again">Dréckt nach eng Kéier fir erauszekommen</string>
+    
+    
+    
+    
+    <string name="properties">Eegeschafte</string>
+    <string name="copyingapks">%d APK Dateien op %s kopéieren</string>
+    <string name="delbook">Lieszeechen läschen</string>
+    <string name="add_to_bookmarks">Füügt an de Lieszeechen</string>
+    <string name="enterpath">Path anzeginn</string>
+    <string name="cancel">ANNULEREN</string>
+    
+    <string name="loading">Lueden...</string>
+    <string name="file_empty">De Fichier ass eidel</string>
+    <string name="error">Feeler</string>
+    <string name="search_results">Sichresultater vun %s</string>
+    <string name="rename">Nummen</string>
+    <string name="save">Späicheren</string>
+    <string name="bookmarks_added">Lieszeechen dobäigesat</string>
+    <string name="fileexist">Datei mam selwechten Numm existéiert schonn</string>
+    <string name="name">Numm</string>
+    <string name="date">Datum</string>
+    <string name="location">Plaz</string>
+    <string name="size_capitalized">Gréisst</string>
+    <string name="size">Gréisst vum Dossier</string>
+    <string name="enterzipname">Gitt Zip Numm an</string>
+    <string name="no_app_found">Keng App fonnt fir dëse Fichier opzemaachen</string>
+    <string name="copying">Kopieer</string>
+    <string name="moving">Bewegt</string>
+    <string name="file">Fichier</string>
+    <string name="folder">Dossier</string>
+    <string name="newfolder">Neien Dossier</string>
+    <string name="entername">Numm aginn</string>
+    <string name="extracting">Extraheren</string>
+    <string name="stopping">Stoppen</string>
+    <string name="open_parent">Open Elterenverzeechnes</string>
+    <string name="open_with">Opzemaachen mat</string>
+    <string name="share">Deelen</string>
+    <string name="about">Iwwer</string>
+    <string name="extract">Extrait</string>
+    <string name="compress">Kompriméieren</string>
+    <string name="yes">Jo</string>
+    <string name="no">Nee</string>
+    
+    <string name="dialog_delete_category_directories">Verzeichnungen</string>
+    <string name="dialog_delete_category_files">Dateien</string>
+    <string name="dialog_delete_disclaimer">D\'Element hei drënner läscht wäert se permanent vun Ärem Apparat ewechhuelen a se kënnen net erëmfonnt ginn.</string>
+    <string name="dialog_delete_title">Elementer permanent läschen?</string>
+    <string name="deleting">Läschen</string>
+    <string name="question_set_path_as_home">Wëllt Dir den aktuelle Wee als Heem fir dës Tab setzen?</string>
+    
+    <string name="sort_by">Sortéieren no</string>
+    <string name="sort_only_this">Nëmmen dësen Dossier</string>
+    <string name="theme">Thema</string>
+    <string name="random">Zoufälleg Haut</string>
+    <string name="random_summary">Setzt zoufälleg primär Faarf beim Start</string>
+    <string name="colorize">Faarwen Ikonen</string>
+    <string name="colorize_summary">Sets statesch icon Faarf. Iwwerschreift d\'Verzeechnes Ikon Faarf Präferenz net.</string>
+    
+    
+    <string name="history">Geschicht</string>
+    <string name="copy">Kopie</string>
+    
+    <string name="root_mode_summary">Nëmmen fir rootéierten Apparat. Iwwerpréift et nëmmen wann Dir sécher sidd.</string>
+    <string name="root_failure">Root Access net accordéiert</string>
+    <string name="select_all">All auswielen</string>
+    <string name="delete">Läschen</string>
+    <string name="set_as_home">Als Heem setzen</string>
+    <string name="operation_not_supported">Operatioun net ënnerstëtzt</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    
+    
+    <string name="daytime">Dagzäit</string>
+    <string name="black">Schwaarz (fir OLED)</string>
+    <string name="system">System (folgend Systemthema)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Dossier uewen</string>
+    <string name="filesOnTop">Dateien uewen</string>
+    <string name="none_on_top">Keen uewen</string>
+    <!--SortBy-->
+    <string name="sort_name">Numm</string>
+    <string name="lastModified">Last geännert</string>
+    <string name="sort_size">Gréisst</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Wielt e Fichier</string>
+    <string name="process_viewer">Prozess Viewer</string>
+    <string name="in_safe">Net genuch Plaz</string>
+    <string name="no_file_overwrite">Kee Fichier iwwerschriwwen</string>
+    <string name="skip">Sprangen</string>
+    <string name="overwrite">Iwwerschreiwe</string>
+    <string name="not_allowed">Net erlaabt</string>
+    <string name="searching">Sichen %s</string>
+    <string name="done">Fäerdeg</string>
+    
+    <string name="enablerootmde">Root Mode aktivéieren</string>
+    <string name="goback">Zréck</string>
+    <string name="newfile">Neie Fichier</string>
+    <string name="no_files">Keng Dateien</string>
+    <string name="used">benotzt Plaz</string>
+    <string name="used_by_others">vun aneren benotzt</string>
+    <string name="free">fräie Raum</string>
+    <string name="listview">Lëscht View</string>
+    
+    <string name="permission">Permissiounen</string>
+    <string name="hide">Verstoppen</string>
+    
+    <string name="doforall">Do fir all Elementer</string>
+    <string name="gridcolumnno">Zuel vun de Kolonnen an der Gittervisioun</string>
+    <string name="set_random">Ännerunge wäerten stattfannen nodeems Dir d\'App nei gestart hutt</string>
+    <string name="authors">Auteuren</string>
+    
+    
+    
+    <string name="general">Allgemeng</string>
+    <string name="thumb_summary">Show Thumbnails vun Apps a Biller</string>
+    
+    <string name="hidden">Verstoppt Dateien an Ordner weisen</string>
+    <string name="lastModifiedSummary">Den Datum an d\'Zäit vun der leschter Ännerung weisen</string>
+    <string name="lastModifiedPref">Show Last Modified Date an Zäit</string>
+    <string name="size_pref_summary">Wäis d\'Gréisst vun de Dateien an d\'Zuel vun den Elementer an den Ordner</string>
+    <string name="size_pref">Weis Gréissten</string>
+    <string name="miscellaneous">Diverse</string>
+    <string name="root_pref_summary">Weis Permissiounen vun Dateien an Ordner</string>
+    <string name="root_pref">Weisen Permissiounen</string>
+    <string name="about_amaze_file_manager_label">Iwwert den Amaze Datei Manager</string>
+    <string name="version">Versioun</string>
+    <string name="rate">Bewäert d\'App</string>
+    <string name="feedback">Schéckt Feedback</string>
+    <string name="hiddenfiles">Verstoppt Dateien</string>
+    <string name="type">Typ</string>
+    
+    <string name="add_shortcut">Ofkierzung derbäi</string>
+    <string name="unsaved_changes">Net gespäichert Ännerungen</string>
+    <string name="unsaved_changes_description">Dir hutt net gespäichert Ännerungen, wëllt Dir se späicheren ier Dir ofgitt?</string>
+    <string name="saving">Späicheren</string>
+    
+    
+    <string name="install">Installéieren</string>
+    <string name="archive">Archiv</string>
+    <string name="archive_text">Dëst ass en Archiv. Wéi eng Aktioun wëllt Dir ausféieren?</string>
+    <string name="package_installer_text">Dëst ass e Package Installateur. Wéi eng Aktioun wëllt Dir ausféieren?</string>
+    
+    <string name="xda_summary">Q&amp;amp;A, Hëllef &amp;amp; Troubleshooting</string>
+    <string name="circular_images">Benotzt kreesfërmeg Symboler fir Biller a Videoen</string>
+    <string name="circular_icons">Benotzt kreesfërmeg Ikonen</string>
+    <string name="back_title">Récknavigatioun</string>
+    <string name="back_summary">Erméiglecht personaliséiert Récknavigatioun uewen op der Lëscht</string>
+    <string name="details">Detailer</string>
+    <string name="translators">Iwwersetzer</string>
+    <string name="german_translation_title">Däitsch</string>
+    <string name="italian_translation_title">Italienesch</string>
+    <string name="french_translation_title">Franséisch</string>
+    <string name="russian_translation_title">Russesch</string>
+    <string name="spanish_translation_title">Spuenesch</string>
+    <string name="basque_translation_title">Baskesch</string>
+    <string name="chinese_translation_title">Chinesesch</string>
+    <string name="serbian_translation_title">Serbesch</string>
+    <string name="turkish_translation_title">Tierkesch</string>
+    <string name="ukrainian_translation_title">Ukrainesch</string>
+    <string name="portuguese_translation_title">Portugisesch</string>
+    <string name="polish_translation_title">Polnesch</string>
+    <string name="korean_translation_title">Koreanesch</string>
+    <string name="greek_translation_title">Griichesch</string>
+    <string name="dutch_translation_title">Hollännesch</string>
+    <string name="romanian_translation_title">Rumänesch</string>
+    <string name="vietnamese_translation_title">Vietnamesesch</string>
+    <string name="japanese_translation_title">Japanesch</string>
+    
+
+    
+    <string name="unin_system_apk">Dëst ass eng Systemapp, d\'Läsche kann zu enger Unstabilitéit vum System féieren.\nGitt weider?</string>
+    <string name="warning">Warnung</string>
+    <string name="donate">Donéieren</string>
+    <string name="archive_extract_folder">Archivextraktorder</string>
+    <string name="archive_summary">Archivdateien ginn an dësen Dossier extrahéiert. De Standardwäert ass de Verzeechnes an deem den Archiv präsent ass.</string>
+    
+    
+    
+    
+    <string name="other">Aner</string>
+    <string name="image">Bild</string>
+    <string name="contributors">Contributeure</string>
+    <string name="save_paths">Erënnere Weeër</string>
+    <string name="save_path_summary">Beim Start gëtt de kierzlechst gekuckten Dossier fir all Tab ugewisen</string>
+    <string name="select_intent">Wielt</string>
+    <string name="database">Datebank</string>
+    <string name="colored_navigation">Faarf Navigatiounsbar</string>
+    <string name="colored_navigvation_sum">Ob d\'Systemnavigatiounsbar mat der Haut faarweg ass</string>
+
+    <string name="color_title">Faarf</string>
+    <string name="color_summary">Faarf op verschidde UI Komponenten setzen</string>
+    <string name="primary_color_title">Primärfär (lénks Tab)</string>
+    <string name="primary_color_summary">Faarf op grouss UI Elementer fir déi lénks Tab setzen</string>
+    <string name="accent_color_title">Akzentfaarf</string>
+    <string name="accent_color_summary">Faarf op FAB an aner kleng UI setzen Elementer</string>
+    <string name="icon_color_title">Ikonfaarf</string>
+    <string name="icon_color_summary">Faarf op Ikonen setzen</string>
+    <string name="choose_color">Faarf wielen</string>
+    <string name="files">Dateien</string>
+    <string name="textreader">Textleser</string>
+    <string name="databasereader">Datebase Lieser</string>
+    <string name="show_dividers">Deeler weisen</string>
+    <string name="needs_access">Schreifzougang erfuerderlech</string>
+    <string name="needs_access_summary">Wielt w.e.g. de Root Verzeechnes vun \t</string>
+    <string name="needs_access_summary1">\tfir Schreifzougang ze ginn fir ze bedreiwen</string>
+    
+    <string name="smb_server">Server IP Adress</string>
+    <string name="server_address">Server IP Adress</string>
+    <string name="username">Benotzernumm</string>
+    <string name="password">Passwuert</string>
+    <string name="anonymous">Anonym</string>
+    
+    <string name="folders">Dossieren</string>
+    <string name="folderfilecount">%1$d Classeure an %2$d Dateien</string>
+    <string name="videos">Videoen</string>
+    
+    <string name="documents">Dokumenter</string>
+    <string name="images">Biller</string>
+    <string name="clear">Kläeren</string>
+    
+    
+    <string name="calculating">berechent</string>
+    <string name="sort">Sortéieren</string>
+    <string name="ascending">Steiend</string>
+    <string name="descending">Niddereg</string>
+    <string name="default_string">Standard</string>
+    <string name="doit">Maacht et</string>
+    <string name="want_help">Hëllef braucht?</string>
+    <string name="quick">Schnell Zougang</string>
+    <string name="recent">Rezent Dateien</string>
+    <string name="edit">Änneren</string>
+    <string name="find">Fannt op der Säit</string>
+    <string name="grant">Gent</string>
+    <string name="grantper">Gent Erlaabnis</string>
+    <string name="grantfailed">Erlaabnes net zougestëmmt</string>
+    <string name="grant_storage_permission">App brauch Späichererlaabnis fir weiderzemaachen. Wann Dir dësen Dialog annuléiert, geet d\'App aus.</string>
+    <string name="operation_unsuccesful">Operatioun net erfollegräich</string>
+    <string name="creatingfile">Fichier erstellen</string>
+    <string name="creatingfolder">Dossier erstellen</string>
+    <string name="renaming">Ëmbenennen</string>
+    <string name="cant_be_empty">%s kann net eidel sinn</string>
+    <string name="ip">Adress</string>
+    <string name="connection_name">Verbindungsnumm</string>
+    <string name="no_device_found">Keng Geräter fonnt</string>
+    
+    <string name="rename_bookmark">Lieszeechen änneren</string>
+    
+    <string name="search">Sich</string>
+    <string name="invalid_name">Ongülteg Numm</string>
+    <string name="search_hint">Typ fir ze sichen…</string>
+    <string name="advanced_search">Erweidert Sich</string>
+    <string name="regular_expression">Reegelméissegen Ausdrock</string>
+    <string name="regular_expression_summary">Sich mat engem BASH-Stil regulären Ausdrock</string>
+    <string name="match_content">Match Inhalt</string>
+    <string name="match_content_summary">Wann gesat gëtt, gëtt de reegelméissegen Ausdrock mam ganzen Dateinumm ugepasst,
+        wäert soss no Optriede kucken.</string>
+    
+    
+    <string name="ftp_status_running">Lafen</string>
+    <string name="ftp_status_not_running">Net Lafen</string>
+    <string name="ftp_no_wifi">Vergewëssert Iech datt Dir mat Wi verbonne sidd -Fi</string>
+    
+    <string name="smb_share">Deelwee</string>
+    
+    <string name="ftp_notif_starting">FTP Server fänkt un</string>
+    
+    <string name="ftp_notif_title">Amaze FTP Server leeft</string>
+    <string name="ftp_notif_text">op %s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP-Port</string>
+    <string name="ftp_port_change_success">FTP-Port erfollegräich geännert</string>
+    <string name="ftp_port_change_error_invalid">Ongülteg Portnummer ausgewielt</string>
+    <string name="primary_two_title">Primärfaarf (riets Tab)</string>
+    <string name="primary_two_summary">Faarf op grouss UI Elementer fir de richtege Tab setzen</string>
+    <string name="support_development">Support Entwécklung</string>
+    <string name="report_bugs_title">Bugs mellen</string>
+    <string name="source_title">Quellcode</string>
+    <string name="source_summary">Kuckt eise Quellcode op GitHub</string>
+    <string name="report_bugs_summary">Käfer mellen oder nei Feature froen</string>
+    <string name="translate_title">Iwwersetzen</string>
+    <string name="translate_summary">Iwwersetzen Amaze an Ärer Sprooch</string>
+    <string name="paypal_copy_message">PayPal ID kopéiert op de Clipboard</string>
+    <string name="searching_devices">Sich no Geräter</string>
+    <string name="use_custom_ip">Benotzt personaliséiert IP</string>
+    <string name="bookmark_lost">Bookmark net fonnt, erstallt ...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Wéi Zougang zu gedeelt Windows Dossier op Android (SMB)\n\n
+                
+                    
+                        Aktivéiert Datei Sharing op Windows\n
+                    
+                    
+                        Öffnen d\'Kontrollpanel, klickt Wielt HomeGroup a Sharing Optiounen ënner Network
+                        an Internet, a klickt op "Advanced Sharing Settings änneren", aktivéiert de "Datei an
+                        Printer Sharing" Feature.\n\n
+                    
+
+                    
+                        Zousätzlech Datei Sharing Astellungen\n
+                    
+                    
+                        Dir wëllt och déi aner fortgeschratt Deele-Astellungen hei konfiguréieren. \n
+                        Zum Beispill, Dir kënnt Zougang zu Äre Fichieren ouni Passwuert aktivéieren wann Dir all vertraut
+                        d\'Apparater op Ärem lokalen Netzwierk. Eemol Datei- an Dréckerdeelen aktivéiert ass, kënnt Dir
+                        oppen Datei Explorer oder Windows Explorer, klickt op en Dossier deen Dir wëllt deelen, an
+                        wielt Properties. \n
+                        Klickt op de Knäppchen Deelen a maacht den Dossier am Netz verfügbar.\n\n
+                        
+
+                    
+                        Vergewëssert Iech datt béid Apparater um selwechte Wifi\n sinn
+                    
+                    
+                        Dës Fonktioun mécht Dateien am lokalen Netzwierk verfügbar, sou datt Äre PC a mobilen Apparater
+                        mussen um selwechte lokalen Netzwierk sinn. Dir kënnt net Zougang zu engem gemeinsame Windows Dossier
+                        iwwer den Internet oder wann Äre Smartphone mat sengen mobilen Daten verbonnen ass - et
+                        muss mat Wi-Fi verbonne sinn.\n\n
+                    
+
+                    
+                        Fannt d\'IP Adress\n
+                    
+                    
+                        Open Command Prompt. Typ \'ipconfig\' an dréckt Enter. Sich no Default Gateway
+                        ënner Ärem Netzwierkadapter fir d\'IP Adress vun Ärem Router. Sichen
+                        \\\"IPv4 Adress\\\" ënner der selwechter Adapter Sektioun fir d\'IP vun Ärem Computer ze fannen
+                        Adress.\n\n
+                    
+
+                    Gitt Detailer an der SMB Dialogbox\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Kann net méi wéi 100 Dateien deelen</string>
+    <string name="otg_access">Wielt d\'Wuerzel vum OTG Apparat</string>
+    <string name="information">Informatioun</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Zougänglech</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Geännert</string>
+
+    <string name="title">Titel</string>
+    <string name="artist">Kënschtler</string>
+    
+    <string name="year">Joer</string>
+    <string name="duration">Dauer</string>
+    <string name="comment">Kommentar</string>
+    <!-- reference to audio/video file -->
+    
+    
+    <string name="channels">Kanäl</string>
+    
+    
+    <string name="dimensions">Dimensiounen</string>
+    <string name="frame_rate">Framerate</string>
+    <string name="image_type">Bildtyp</string>
+    <string name="width">Breet</string>
+    <string name="height">Héicht</string>
+    <string name="date_modified">Datum geännert</string>
+    
+    
+    <string name="camera_brand">Kameramark</string>
+    <string name="camera_model">Kamera Modell</string>
+    <string name="date_taken">Datum geholl</string>
+    <string name="exposure_time">Beliichtungszäit</string>
+    <string name="aperture_value">Blendwert</string>
+    <string name="image_iso">ISO Geschwindegkeet Bewäertung</string>
+    <string name="flash_fired">Blitz gebrannt</string>
+    <string name="focal_length">Brennwäit</string>
+    <string name="subject">Betreff</string>
+    <string name="author">Auteur</string>
+    <string name="keywords">Schlësselwierder</string>
+    <string name="producer">Produzent</string>
+    <string name="created">Erstellt</string>
+    
+    <string name="pages">Zuel vun Säiten</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimiséiert</string>
+    <string name="security">Sécherheet</string>
+    <string name="paper_size">Pabeiergréisst</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">E puer Dateie goufen net erfollegräich %s</string>
+    <string name="copied">kopéiert</string>
+    <string name="moved">geplënnert</string>
+    <string name="copy_complete">Kopie fäerdeg</string>
+    <string name="waiting_title">Waarden</string>
+    <string name="waiting_content">Waart op d\'Operatioun fäerdeg</string>
+    <string name="extract_complete">Extraktioun fäerdeg</string>
+    <string name="compression_complete">Kompressioun fäerdeg</string>
+    <string name="compressing">Kompriméieren</string>
+    <string name="cancelled">Annuléiert</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Schreift</string>
+    <string name="out_of">aus</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">vun</string>
+    <string name="processing_file">Veraarbechtungsdatei</string>
+    <string name="current_speed">Aktuell Geschwindegkeet</string>
+    <string name="smb_launch_error">Dir musst dës Datei op d\'Späichere kopéieren fir se opzemaachen</string>
+    <string name="error_file_not_found">Feeler: Datei net fonnt</string>
+    <string name="error_io">I/O Feeler</string>
+    <string name="error_file_too_large">Feeler: Datei ze grouss</string>
+    <string name="medium_text">Mëtteltext</string>
+    <string name="permission_read">Liesen</string>
+    <string name="permission_write">Schreift</string>
+    <string name="permission_execute">Ausféieren</string>
+    <string name="permission_owner">Besëtzer</string>
+    <string name="permission_group">Grupp</string>
+    <string name="permission_other">Aner</string>
+    <string name="clipboard_path_copy">Pad kopéiert op de Clipboard</string>
+    <string name="service_timer">Zäit vergaangen</string>
+    <string name="please_wait">W.e.g. waart</string>
+
+    
+    <string name="cloud_connection_new">Nei Cloud Connection</string>
+    
+    
+    
+    
+    <string name="cloud_get">Kritt Cloud Plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Keng Uwendungen</string>
+    <string name="ftp_path">Gedeelt Wee</string>
+    <string name="ftp_path_hint">Path op d\'Wuerzel vum Verzeechnes fir ze deelen</string>
+    <string name="change">Änneren</string>
+    <string name="unknown_error">Oops, eppes ass falsch gaang!</string>
+
+    <string name="ftp_path_change_success">FTP Wee erfollegräich geännert</string>
+    <string name="ftp_path_change_error_invalid">Invalid Wee</string>
+    <string name="ftp_status_no_connection">Keng Verbindung</string>
+    <string name="ftp_status_secure_connection">Séchert Verbindung</string>
+    
+    
+    
+    <string name="field_empty">Feld kann net eidel sinn</string>
+    
+    <string name="ftp_seconds">Sekonnen</string>
+    
+    <string name="intellihide_toolbar_summary">Automatesch Toolbar verstoppen beim Scrollen</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">op de Clipboard kopéiert</string>
+    <string name="contributors_1_summary">Iwwersetzung</string>
+    <string name="contributors_2_summary">Ikon a Banneren</string>
+    
+    <string name="contributors_4_summary">Schatt hannert FAB</string>
+    <string name="contributors_5_summary">Faarftransitioun beim Swiping vun Tabs</string>
+    
+    <string name="contributors_7_summary">En interaktiven Shell opmaachen</string>
+    <string name="connection_exists">Verbindung existéiert schonn</string>
+
+    <string name="crypt_encrypting">Verschlësselung</string>
+    <string name="crypt_decrypting">Entschlëssel</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Verschlësselte</string>
+    <string name="crypt_decrypted">Entschlësselt</string>
+    <string name="crypt_encrypt">Verschlësselung</string>
+    <string name="crypt_decrypt">Entschlëssel</string>
+    <string name="operation_fail_following">Operatioun ass gescheitert fir folgend Dateien</string>
+    <string name="crypt_pref_master_password_title">Masterpasswuert</string>
+    <string name="crypt_pref_master_password_summary">Ein Masterpasswuert fir d\'Verschlësselung setzen.
+        Loosst eidel fir ze läschen.</string>
+    <string name="crypt_pref_fingerprint_title">Fangerofdrock</string>
+    <string name="crypt_pref_fingerprint_summary">Benotzt Fangerofdrock fir d\'Verschlësselung ze authentifizéieren</string>
+    <string name="crypt_fingerprint_no_permission">Fangerofdrock Permissiounen feelen</string>
+    <string name="crypt_fingerprint_not_enrolled">Kee Fangerofdrock ageschriwwen</string>
+    <string name="crypt_fingerprint_no_security">Keng Sperrbildschirm Sécherheet fonnt</string>
+    <string name="crypt_warning_key">Gitt beroden, wann Dir Äert Sécherheetsmuster ännert vun
+        Systemastellungen, Dir kënnt dësen Inhalt net entschlësselen.</string>
+    <string name="warning_never_show">Informéieren net nach eng Kéier</string>
+    <string name="warning_confirm">Gott et!</string>
+    <string name="crypt_encryption_fail">Verschlësselung ausgefall</string>
+    <string name="crypt_decryption_fail">Kehlt entschlësselt</string>
+    <string name="crypt_decryption_fail_password">Fälscht Passwuert!</string>
+    <string name="crypt_fingerprint_authenticate">Touchsensor fir weiderzemaachen</string>
+    <string name="authenticate_password">Passwuert aginn</string>
+
+    
+    <string name="sidebar_quick_access_title">Sidebar séier Zougang</string>
+    <string name="show_quick_access_pref_title">Schnellzugriff weisen</string>
+    <string name="show_quick_access_pref">Schnellzugriff</string>
+    <string name="directory">Verzeichnis</string>
+
+    <string name="sidebar_bookmarks_title">Sidebar Lieszeechen</string>
+    <string name="show_bookmarks_pref_title">Lieszeechen weisen</string>
+    <string name="show_bookmarks_pref">Lieszeechen</string>
+    <string name="create_bookmark">Lieszeeche erstellen</string>
+    <string name="edit_bookmark">Lieszeechen änneren</string>
+    <string name="question_delete_bookmark">Lieszeechen läschen?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud Plugin net fonnt. Luet w.e.g. vum Play Store erof.</string>
+    <string name="cloud_error_failed_restart">Konnt d\'Verbindung net lueden.
+        Maacht w.e.g. Amaze Cloud eng Kéier op.</string>
+    <string name="cloud_remove">Wëllt Dir d\'Cloudverbindung ewechhuelen?</string>
+    <string name="cloud_fail_authenticate">Authentifizéieren ausgefall</string>
+    <string name="cloud_share_copied">Sharable Link kopéiert op Clipboard</string>
+    <string name="copy_low_memory">Laacht aus Erënnerung, w.e.g. läscht e puer RAM</string>
+    <string name="cloud_token_lost">Token verluer, mellt Iech w.e.g. nach eng Kéier un</string>
+    <string name="monofont">Monospace Schrëft</string>
+    <string name="showHeaders">Header weisen</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Keng Elementer</string>
+	
+	
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Datei soll en Numm hunn</string>
+    <string name="add_item">Artikel derbäi</string>
+    <string name="failed_smb_decrypt_path">Kehlt lueden SMB-Verbindung</string>
+    <string name="failed_cloud_new_connection">Kehler fir eng nei Cloud-Verbindung derbäizefügen</string>
+    <string name="failed_cloud_api_key">Konnt de Cloud Plug-in authentifizéieren</string>
+
+    <string name="local_inet_addr_error">Fehler beim Erhalen vun der lokaler Inet Adress</string>
+    <string name="intent_save_as">Späicheren als...</string>
+    
+    <string name="advanced">Fortgeschratt</string>
+    <string name="typeable_paths_title">Custom Weeër</string>
+    <string name="typeable_paths_summary">Laang Press Path Bar fir e personaliséierte Wee ze tippen</string>
+    <string name="send_email_to">Schéckt eng E-Mail un</string>
+
+    <string name="text_editor">Text Editor Astellungen</string>
+    <string name="preference_newstack_title">Fichier opmaachen als nei Aufgab</string>
+    <string name="preference_newstack_summary">Erlaabt Iech Dateien a getrennten Aufgaben opzemaachen. Zougang se vum System Rezent Écran.</string>
+    
+    <string name="developers">Entwéckler</string>
+    <string name="no_bitcoin_app">Installéiert w.e.g. eng Bitcoin Wallet App</string>
+    <string name="channel_name_normal">Amaze Notifikatiounen</string>
+    <string name="channel_description_normal">Amaze Datei Manager Notifikatiounen</string>
+    
+    <string name="channel_description_ftp">Amaze File Manager FTP-Server Notifikatiounen</string>
+
+    
+    <string name="processing">Veraarbechtung...</string>
+    <string name="failed_no_connection">Konnt Dateien net lueden. Kontrolléiert w.e.g. Är Verbindung.</string>
+
+    
+	
+    
+    <string name="ftps_connection">FTP iwwer SSL Connection</string>
+    
+    <string name="ssh_host_key_verification_prompt">D\'Authentizitéit vum Host \'%1$s\' kann net etabléiert ginn.\n\n%2$s Schlëssel Fangerofdrock ass %3$s.\n\nTipp w.e.g. \"Jo\" fir ze bestätegen Identitéit; soss tippt w.e.g. op \"Nee\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Verifizéiere Host</string>
+    
+    <string name="ssh_pem_key_parse_error">Kënnt net ausgewielte PEM liesen: %s</string>
+    <string name="password_unchanged">(ongeännert)</string>
+    <string name="ssh_authentication_failure_password">Umeldungsfehler: Kann net authentifizéieren mat geliwwertem Benotzernumm a Passwuert.</string>
+    <string name="ssh_authentication_failure_key">Loginfehler: Kann net authentifizéieren mat geliwwertem Benotzernumm a private Schlëssel.</string>
+    <string name="ssh_connect_failed">Kënnt net mat %1$skonnektéieren s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">OPGEPASST: REMOTE HOST IDENTIFICATIOUN HUET GÄNNERT!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">ET ASS MULIG DAT JEMEEN Eppes BLECH MACHT!\n\nEen kéint Iech oflauschteren grad elo (Mann-an-der-Mëtt Attack)! Et ass och méiglech datt den Hostschlëssel just geännert gouf. De Fangerofdrock fir den ëffentleche Schlëssel, dee vum Fernhost geschéckt gëtt, entsprécht net deem, deen am Amaze gespäichert ass.\n\nKontaktéiert w.e.g. Äre Systemadministrator oder setzt eng nei Verbindung op fir weider mam Server ze verbannen.</string>
+    <string name="ssh_key_prompt_passphrase">Gitt w.e.g. Schlësselpassphrase .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Ofkierzungen kreéieren gëtt net vun Ärem Launcher ënnerstëtzt.</string>
+    
+    <string name="select_color_config">Faarfkonfiguratioun auswielen</string>
+    
+    
+    <string name="preselected_configs_title">Virausgewielten Konfiguratioun</string>
+    
+    <string name="blue">Blo</string>
+    <string name="green">Gréng</string>
+    <string name="password_no_match">Passwuert passt net</string>
+    <string name="deselect_all">All auswielen</string>
+    <string name="filename">Dateiname</string>
+    <string name="compress_file_suggest_zip_extension">Et ass recommandéiert \".zip\" als Dateierweiterung ze benotzen.</string>
+    <string name="about_amaze">Materialdesign Dateimanager fir Android</string>
+    <string name="license">Lizenz</string>
+    <string name="libraries">Bibliothéiken</string>
+    <string name="password_repeat">Passwuert widderhuelen</string>
+    <string name="create_file_suggest_txt_extension">Et ass recommandéiert \".txt\" als Dateierweiterung ze benotzen.</string>
+    <string name="ssh_select_pem">Private Schlëssel fir d\'Authentifikatioun auswielen</string>
+    <string name="ssh_key_invalid_passphrase">Invalid Schlësselpasswuert.</string>
+    <string name="ssh_key_no_decoder_decrypt">Kee gültege Decoder fir PEM ze entschlësselen.</string>
+    <string name="encryption_fail_copy">Kehler aktualiséieren d\'Verschlësselungsentrée an der Datebank</string>
+    <string name="extracted">Extraitéiert</string>
+    <string name="compressed">Kompriméiert</string>
+    <string name="processed">Veraarbechtt</string>
+    <string name="no_obtainable_info">Et gëtt keng Info iwwer dëse Fichier</string>
+    <string name="reopen_from_source">Kann net, w.e.g. vun der leschter App nei opmaachen</string>
+    <string name="no_file_error">Eppes ass falsch gaang, et ass näischt opzemaachen</string>
+    <string name="file_too_long">Den Datei ass ze laang a kann net geännert ginn, awer Dir kënnt déi éischt %d Zeeche liesen</string>
+    <string name="file_read_only">Den opgemaache Fichier ass nëmme liesen.</string>
+    <string name="got_it">Gott et!</string>
+    <string name="encrypt_file_save_as">Verschlësselte späicheren Datei als...</string>
+    <string name="encrypt_folder_save_as">Verschlësselte Fichier späicheren als...</string>
+    <string name="encrypt_option_use_aze">Benotzt Amaze Verschlësselungsformat</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt ass en Open Source Dateverschlësselungsformat baséiert op AES Verschlësselung. Et ass och portabel, kann mat AESCrypt Programmer op anere Plattformen entschlësselt ginn.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt Websäit</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'s Verschlësselungsformat baséiert och op AES Verschlësselung; awer anescht wéi AESCrypt Format, et kann nëmme vun dësem Apparat entschlësselt ginn; och Dir däerft den Amaze File Manager net vun dësem Apparat deinstalléieren an och net de Wee wéi Dir de Sperrbildschirm ännert, soss hutt Dir kee Wee fir déi verschlësselte Datei ze recuperéieren.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Verschlësselte Dateien mussen \".aze\" als Dateierweiterung benotzen.</string>
+    <string name="encrypt_file_must_end_with_aes">Verschlësselte Fichier mussen \".aes\" als Dateierweiterung benotzen.</string>
+    <string name="error_aescrypt_decrypt_failed">Kann net entschlësselen \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Kann de Fichier net iwwerschreiwe.</string>
+    <string name="saved_single_file">Fichier gespäichert als \'%s\'.</string>
+    <string name="saved_multi_files">%d Dateien gespäichert.</string>
+    <string name="create_hidden_file_warn">De erstallt Fichier gëtt an der Dateilëscht verstoppt.</string>
+    <string name="grant_apkinstall_permission">App brauch Erlaabnis fir Apps z\'installéieren weider.</string>
+    <string name="time_remaining">Restzeit</string>
+    <string name="transfer_rate">Transferrate</string>
+    <string name="unknown">onbekannt</string>
+    <string name="multiple_invalid_archive_entries">E puer Dateien am Archiv kënnen net extrahéiert ginn; Archiv ka beschiedegt sinn oder aus béiswëlleger Quell kommen.</string>
+    <string name="saf_otg_explanation">Dir gitt elo aus Sécherheetsgrënn op den Dateiesystem vun Android. Wielt w.e.g. den USB-Apparat aus der Lëscht lénks.</string>
+    <string name="donation_thanks">Merci fir den Don, dëst hält eis motivéiert! (:</string>
+    <string name="enable_marquee_filename">Aktivéiert Marquee-Effekt fir Dateinamen</string>
+    <string name="archive_password_prompt">Gitt w.e.g. Archivpasswuert un:</string>
+    
+    <string name="cannot_extract_archive">Kann net den Archiv \"%s\" extrahéieren: %s</string>
+    <string name="archive_unsupported_or_corrupt">Kann net oppen Archiv \"%s\". Entweder mir kënnen den Archiv net opmaachen, oder d\'Archiv gouf beschiedegt.</string>
+    <string name="close">Zoumaachen</string>
+    <string name="bookmark_exists">Bookmark existéiert</string>
+    <string name="hide_media">Vun Medienbrowser verstoppen</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ET ASS MÉIGLECH DASS JEMEEN Eppes BLECH MACHT!\n\nEppes kéint Iech elo direkt oflauschteren (Man-in-the-Mëtt Attack)! Et ass och méiglech datt den Hostschlëssel just geännert gouf. De Fangerofdrock fir den ëffentleche Schlëssel, deen vum Fernhost geschéckt gëtt, passt net mat deem, deen am Amaze gespäichert ass.\n\nDir kënnt weidergoen mat der Aktualiséierung vum Host-Fangerofdrock oder d\'Aktualiséierung vun der SSH-Verbindungsastellung annuléieren.</string>
+    
+    <string name="cancel_recommended">Annuléieren (recommandéiert)</string>
+    
+    
+    <string name="failed_install_apk">Installéiere konnt net</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Intern Späichere</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD Kaart</string>
+    <string name="choose_folder">Wielt dësen Dossier</string>
+    
+    <string name="some_files_failed_invalid_operation">E puer Dateien hu gescheitert wéinst ongëlteg Operatioun</string>
+    <string name="ftp_server_prompt_connect_to_network">Verbindt mat engem Netzwierk oder aktivéiert AP</string>
+    <string name="ftp_server_open_settings">Open Astellungen</string>
+    <string name="move">Beweegt</string>
+    <string name="select_save_location">Wielt Plaz fir ze späicheren</string>
+    <string name="scp_default_path">Standard Wee (Optional)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Entschëllegt, dat sollt net geschéien.</string>
+    
+    <string name="error_report_button_text">Dëse Feeler per E-Mail mellen</string>
+    <string name="error_report_button_telegram">Dëse Feeler iwwer Telegramm mellen</string>
+    <string name="copy_for_github">Formatéiert Bericht kopéieren</string>
+    <string name="error_report_open_issue_button_text">Rapport op GitHub</string>
+    <string name="error_report_open_github_notice">Kuckt w.e.g. ob en Thema iwwer Ären Crash schonn existéiert.</string>
+    <string name="error_snackbar_message">Entschëllegt, eppes ass falsch gaang.</string>
+    <string name="error_snackbar_action">Rapport</string>
+    
+    <string name="what_happened_headline">Wat ass geschitt:</string>
+    <string name="info_labels">Wat:\\nUfro:\\nGMT Zäit:\\nPackage:\\nVersioun:\\nOS Versioun:\\nApparat:\\nModel:\\nProdukt :</string>
+    <string name="your_comment">Äre Kommentar (op englesch):</string>
+    <string name="error_details_headline">Detailer:</string>
+    <string name="app_ui_crash">App/UI erofgefall</string>
+    <string name="error_report_title">Feelerbericht</string>
+    <string name="crash_report_copied">Crashbericht kopéiert op Clipboard</string>
+    <string name="disableIpcSignature">IPC Ënnerschrëftcheck auszeschalten (Fir legacy SMBv1 Serveren - ONSAFE!)</string>
+    <string name="cannot_delete_file">Kann Datei net läschen</string>
+    <string name="cannot_delete_file_with_reason">Kann Datei net läschen - %s</string>
+    <string name="cannot_rename_file">Kann net de Fichier ëmbenennen %s - %s</string>
+    <string name="cannot_read_directory">Kann den Verzeechnes %s net liesen - %s</string>
+    <string name="just_once">Nëmmen eemol</string>
+    <string name="always">Ëmmer</string>
+    <string name="choose_different_app">Eng aner Applikatioun auswielen</string>
+    <string name="clear_open_file">Kläeren Cache</string>
+    <string name="clear_open_file_summary">Läscht ausgewielte Standarddateieröffnungsapps</string>
+    <string name="ftp_readonly">Liesen Zougang</string>
+    <string name="legacy_listing_title">Benotzt legacy Oplëschtung fir Root</string>
+    <string name="legacy_listing_summary">Wann aktivéiert, benotzt Legacy Method fir Dateien opzemaachen</string>
+    <string name="error_unsupported_v5_rar">RAR-Archiv \"%s\" gëtt net ënnerstëtzt RAR v5-Archiv.</string>
+    <string name="ftp_prompt_restart_server">Dir musst den FTP-Server nei starten fir datt d\'Ännerungen a Kraaft trieden.</string>
+    <string name="error_permission_denied">Erlaabnes refuséiert</string>
+    <string name="error_archive_password_incorrect">Fälschte Archivpasswuert.</string>
+    <string name="error_archive_cannot_extract">Kann den Archiveintrag \"%s\" net op \"%s\" extrahéieren.</string>
+    <string name="drag_and_drop_preference">Auswielen Drag-and-Drop-Präferenz (Experimentell)</string>
+    <string name="drag_to_move_copy">Touch and draw to move or copy files</string>
+    <string name="drag_to_select">Touch an zitt fir Dateien ze wielen</string>
+    <string name="disable">Desaktivéieren</string>
+    <string name="choose_operation">Wielt Operatioun fir auszeféieren</string>
+    <string name="remember">Erënnert Iech fir d\'nächst Kéier</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Gent SAF-Zougang fir FTP-Server</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Well dëst Ären éischte Run vum FTP-Server ass, an Dir benotzt d\'intern Späichere vum Apparat als gedeelt Dossier, erlaabt Iech Amaze Zougang zu der Späichere mat SAF.\n\n
+
+Dir braucht dat nëmmen eemol ze maachen, bis déi nächst Kéier Dir eng nei Plaz wielt fir ze deelen.</string>
+    <string name="android_data_prompt_saf_access">Zënter Android 10 huet Android Restriktiounen op bestëmmte Verzeichnisser agesat, a si mussen Zougang mam Storage Access Framework kréien.\n \n Erlaabt w.e.g. Amaze Zougang zum Verzeechnes vum System Dateiemanager andeems Dir op \"Allow Access\" tippt.</string>
+    <string name="android_data_prompt_saf_access_title">Gent SAF Zougang</string>
+    <string name="ftp_preference_saf_filesystem_title">Benotzt legacy Dateiesystem</string>
+    <string name="ftp_preference_saf_filesystem">Aktivéiert dëst fir Ënnerstëtzung fir extern Späichere vum Apparat op méi nei Android Versiounen ze benotzen</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP Server gemeinsame Wee gouf op intern Späichere zréckgesat wéi Dir zréck op wiesselt Legacy Dateisystem Implementatioun. Wielt w.e.g. en neie Wee mam Menü uewe riets wéi néideg.</string>
+    <string name="ftp_server_reset_notify">FTP-Server gedeelt Wee gouf op intern Späichere zréckgesat</string>
+    <string name="ftp_server_root_unavailable">Dir wielt e Wee deen root-Zougang erfuerdert. Aktivéiert w.e.g. Root Explorer an Astellungen wann Ären Apparat rootéiert ass.</string>
+    <string name="ftp_server_root_filesystem_warning">Dir wielt e Wee deen root-Zougang erfuerdert, deen d\'Lies-/Schreifoperatioune am ganzen Dateiesystem op Ärem Apparat erméiglecht, an et ass geféierlech - suergfälteg Feeler kéinten brick Ären Apparat!\n\nSidd Dir sécher?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Feeler beim URI \"%s\" opzemaachen fir ze liesen.</string>
+    <string name="error_empty_archive">\"%s\" ass en eidelen Archiv.</string>
+    <string name="error_bad_archive_without_info">\"%s\" ass e beschiedegten Archiv.</string>
+    <string name="error_bad_archive_with_info">\"%s\" ass e beschiedegten Archiv.\nMessage vum Extraktor: \"%s\"</string>
+    <string name="security_error">De Fichier konnt net mat dëser App opgemaach ginn</string>
+    <string name="cloud_drive_tooltip">Erstellt eng Google Drive™ Verbindung fir Dateien aus dem Amaze File Manager ze managen.</string>
+    <string name="signin_with_google_title">Authentifizéiere fir Google Drive™ ze benotzen</string>
+    <string name="show_system_apps">Systemapps weisen</string>
+    <string name="system_apps">Systemapps</string>
+    <string name="select_inverse">Wielt Inverse</string>
+    <string name="select_by_type">Wielt no Typ</string>
+    <string name="select_by_date">Wielt nom Datum</string>
+    <string name="select_similar">Wielt ähnlech</string>
+    <string name="error_fetching_google_play_product_list">Feeler beim Ofhuelen vun der Produktlëscht vun Google Play.</string>
+    <string name="grant_all_files_permission">Zënter Android 11 freet Google Dateiemanager fir d\'Benotzererlaabnis ze froen fir all Dateien um Apparat ze managen. Detailer hei.
+        \n\nAmaze File Manager brauch och dës Erlaabnis. Nodeems Dir "Grant"hei gedréckt hutt, wielt w.e.g. Erlaabt Zougang fir all Dateien ze managen Optioun op den nächsten Écran.
+        \n\nDësen Dialog annuléieren wäert d\'App ausgoen.</string>
+    <string name="user_apps">Benotzerapps</string>
+    <string name="appearance">Ausgesinn</string>
+    <string name="behavior">Behuelen</string>
+    <string name="appearance_summary">D\'Thema, d\'Faarwen an d\'Erscheinung vum Dateimanager personaliséieren</string>
+    <string name="ui_summary">Kontrolléiere wéi eng Informatioun ze weisen, d\'Sidebar personaliséieren an d\'UI-Astellunge wiesselen</string>
+    <string name="behavior_summary">Behuelen änneren wéi fortgeschratt Sich an ob Dateien als nei Aufgab opmaachen</string>
+    <string name="security_summary">Passwuert astellen an Verschlësselung</string>
+    <string name="backup_summary">Export/Import Amaze Astellungen</string>
+
+    
+    <string name="pref_export_summary">Export Astellunge</string>
+    
+    <string name="pref_import_summary">Import Astellunge</string>
+
+    <string name="quick_desc">Dateien kierzlech zougänglech duerch Amaze</string>
+    <string name="recent_desc">Kuerzlech erstallt oder geännert Dateien</string>
+    <string name="error_cannot_find_way_open">Konnt kee Wee fannen fir d\'Datei opzemaachen</string>
+    <string name="error_cant_decompress_that_file">Kann de ugefrote Archiv net veraarbechten</string>
+    <string name="analyse_storage">Analyse Späicher</string>
+    
+    <string name="download_amaze_utils_text">Dir gitt op Amaze File Utilities ëmgeleet. Et ass eis Open Source App déi inbuilt Audio/Video/Bild/Dokumentbetrachter huet, erlaabt Iech Junkdateien ze analyséieren fir Späicheren ze befreien, séier Transfert mat Wifi P2P a vill méi.\n Ënnerstëtzt eis w.e.g. andeems Dir et ausprobéiert.</string>
+    
+    
+    <string name="amaze_utils_installed_alias">Merci fir d\'Installatioun vun Amaze File Utilities. Dir sidd an d\'App ëmgeleet.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">Deel Logbicher</string>
+    <string name="share_logs_summary">Deel gefaange Logbicher per E-Mail / Telegram</string>
+    <string name="open_with_amaze">Opmaache mat Amaze</string>
+    <string name="confirmation">Confirmatioun</string>
+    <string name="open_file_confirmation">Sidd Dir sécher datt Dir déi folgend Datei opmaache wëllt?\n\nNumm:\n%s\n\nPlaz:\n%s\n\nGréisst:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">La Google Play Politikmandater däerfen d\'Apps net selwer aktualiséieren. Update w.e.g. d\'App vu Google Play.</string>
+    <string name="error_cannot_get_package_info">Kënnt net Paketinformatioun vum Fichier \"%s\" kréien. Entweder déi spezifizéiert Datei ass keen APK, oder d\'Packagedatei ass korrupt.</string>
+    <string name="preference_delete_confirmation">Bestätegung läschen</string>
+    <string name="preference_delete_confirmation_summary">Ufro no Bestätegung ier Dir Dateien läscht. Dëst auszeschalten ass héich decouragéiert!</string>
+    
+    
+    <string name="protocol_ftps">Sécher FTP</string>
+    <string name="unavailable">Net verfügbar</string>
+
+    <string name="exporting_failed">Exportéieren ass gescheitert: konnt d\'Backupdatei net schreiwen</string>
+    <string name="importing_failed">Import ass gescheitert: konnt de Backup net liesen Datei</string>
+    <string name="importing_completed">Import fäerdeg</string>
+    <string name="invalid_backup_file">Ongülteg Backupdatei</string>
+    <string name="import_failed_for">Import ass gescheitert fir:</string>
+    <string name="free_of">"%s\n%s fräi vun %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin net ënnerstëtzt mat F- Droid Versioun. Benotzt w.e.g. Play Store Versioun vun Amaze.</string>
+    <string name="disable_player_intent_filters">Spiller Absicht Filteren auszeschalten</string>
+    <string name="disable_player_intent_filters_summary">Desaktivéiert Amaze inbuilt Media Player vum Dateiwieler</string>
+    <string name="no_app_found_intent">Keng App fonnt fir dës Absicht ze handhaben. Dir hutt DocumentsUI installéiert?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection Umeldungsinformatioune geläscht</string>
+    <string name="cloud_connection_credentials_cleared_msg">Leider konnte mir Är Cloud Connection Umeldungsinformatioune net an dat neit Datebankschema migréieren, a mir hunn se aus der App ewechgeholl. Erstellt w.e.g. d\'Wollekverbindung erëm.</string>
+</resources>

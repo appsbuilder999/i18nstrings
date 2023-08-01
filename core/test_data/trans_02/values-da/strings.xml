@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Åbn navigationsskuffe</string>
+    <string name="drawer_close">Luk navigationsskuffe</string>
+    <string name="icon">ikon</string>
+    
+    <string name="ftp">FTP-server</string>
+    <string name="setting">Indstillinger</string>
+    <string name="select">Vælg element</string>
+    <string name="press_again">Tryk igen for at afslutte</string>
+    <string name="open">Åbn</string>
+    
+    <string name="uninstall">Afinstaller</string>
+    <string name="play">Play butik</string>
+    <string name="properties">Egenskaber</string>
+    <string name="copyingapks">Kopierer %d APK-filer til %s</string>
+    <string name="delbook">Slet bogmærke</string>
+    <string name="add_to_bookmarks">Føj til bogmærker</string>
+    <string name="enterpath">Indtast sti</string>
+    <string name="cancel">ANNULLER</string>
+    <string name="create">OPRET</string>
+    <string name="loading">Indlæser...</string>
+    <string name="file_empty">Filen er tom</string>
+    <string name="error">Fejl</string>
+    <string name="search_results">Søgeresultater for %s</string>
+    <string name="rename">Omdøb</string>
+    <string name="save">Gem</string>
+    <string name="bookmarks_added">Bogmærker tilføjet</string>
+    <string name="fileexist">Fil med samme navn findes allerede</string>
+    <string name="name">Navn</string>
+    <string name="date">Dato</string>
+    <string name="location">Placering</string>
+    <string name="size_capitalized">Størrelse</string>
+    <string name="size">størrelse på mappe</string>
+    <string name="enterzipname">Indtast zip-navn</string>
+    <string name="no_app_found">Der blev ikke fundet nogen app til at åbne denne fil</string>
+    <string name="copying">Kopierer</string>
+    <string name="moving">Flytning</string>
+    <string name="file">Fil</string>
+    <string name="folder">Mappe</string>
+    <string name="newfolder">Ny mappe</string>
+    <string name="entername">Indtast navn</string>
+    <string name="extracting">Udpakning</string>
+    <string name="stopping">Stop</string>
+    <string name="open_parent">Åben overordnet mappe</string>
+    <string name="open_with">Åbn med</string>
+    <string name="share">Del</string>
+    <string name="about">Om</string>
+    <string name="extract">Udtræk</string>
+    <string name="compress">Komprimer</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    
+    <string name="dialog_delete_category_directories">Mappen</string>
+    <string name="dialog_delete_category_files">Filer</string>
+    <string name="dialog_delete_disclaimer">Hvis du sletter elementerne nedenfor, fjernes de permanent fra din enhed, og de kan ikke gendannes.</string>
+    <string name="dialog_delete_title">Slet elementer permanent?</string>
+    <string name="deleting">Sletter</string>
+    <string name="question_set_path_as_home">Vil du indstille den aktuelle sti som hjemsted for denne fane?</string>
+    <string name="directorysort">Tilstand til bibliotekssortering</string>
+    <string name="sort_by">Sortér efter</string>
+    <string name="sort_only_this">Kun denne mappe</string>
+    <string name="theme">Tema</string>
+    <string name="random">Tilfældig hud</string>
+    <string name="random_summary">Indstiller tilfældig primær farve ved opstart</string>
+    <string name="colorize">Farvsæt ikoner</string>
+    <string name="colorize_summary">Sæt statisk ikon farve. Tilsidesætter ikke katalogikonets farvepræference.</string>
+    <string name="home">Hjem</string>
+    <string name="paste">Indsæt</string>
+    <string name="history">Historik</string>
+    <string name="copy">Kopiér</string>
+    
+    <string name="root_mode_summary">Kun for rootet enhed. Tjek det kun, hvis du er sikker på det.</string>
+    <string name="root_failure">Rootadgang ikke givet</string>
+    <string name="select_all">Vælg alle</string>
+    <string name="delete">Slet</string>
+    <string name="set_as_home">Sæt som startside</string>
+    <string name="operation_not_supported">Betjening ikke understøttet</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    
+    
+    <string name="daytime">Dagtid</string>
+    <string name="black">Sort (til OLED)</string>
+    <string name="system">System (følg systemtema)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Mapper øverst</string>
+    <string name="filesOnTop">Filer øverst</string>
+    <string name="none_on_top">Ingen øverst</string>
+    <!--SortBy-->
+    <string name="sort_name">Navn</string>
+    <string name="lastModified">Sidst ændret</string>
+    <string name="sort_size">Størrelse</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Vælg en fil</string>
+    
+    <string name="in_safe">Utilstrækkelig plads</string>
+    <string name="no_file_overwrite">Ingen fil overskrevet</string>
+    <string name="skip">Spring over</string>
+    <string name="overwrite">Overskriv</string>
+    <string name="not_allowed">Ikke tilladt</string>
+    <string name="searching">Søger %s</string>
+    <string name="done">Udført</string>
+    <string name="set">Indstil</string>
+    <string name="enablerootmde">Aktiver rodtilstand</string>
+    <string name="goback">Gå tilbage</string>
+    <string name="newfile">Ny fil</string>
+    <string name="no_files">Ingen filer</string>
+    <string name="used">brugt plads</string>
+    <string name="used_by_others">brugt af andre</string>
+    <string name="free">fri plads</string>
+    <string name="listview">Listevisning</string>
+    <string name="gridview">Grid Vis</string>
+    <string name="permission">Tilladelser</string>
+    <string name="hide">Skjul</string>
+    <string name="exit">Afslut</string>
+    <string name="doforall">Do for alle elementer</string>
+    <string name="gridcolumnno">Antal kolonner i gittervisning</string>
+    <string name="set_random">Ændringer vil finde sted, når du genstarter appen</string>
+    <string name="authors">Forfattere</string>
+    
+    
+    <string name="ui">Grænseflade</string>
+    <string name="general">Generelt</string>
+    <string name="thumb_summary">Vis miniaturebilleder af apps og billeder</string>
+    <string name="thumb">Vis miniaturebilleder</string>
+    <string name="hidden">Vis skjulte filer og mapper</string>
+    <string name="lastModifiedSummary">Vis dato og klokkeslæt for sidste ændring</string>
+    <string name="lastModifiedPref">Vis dato for sidste ændring og Tid</string>
+    <string name="size_pref_summary">Vis størrelse på filer og antal elementer i mapper</string>
+    <string name="size_pref">Vis størrelser</string>
+    <string name="miscellaneous">Diverse</string>
+    <string name="root_pref_summary">Vis tilladelser for filer og mapper</string>
+    <string name="root_pref">Vis tilladelser</string>
+    <string name="about_amaze_file_manager_label">Om Amaze File Manager</string>
+    
+    <string name="rate">Vurder appen</string>
+    
+    <string name="hiddenfiles">Skjulte filer</string>
+    <string name="type">Skriv</string>
+    
+    <string name="add_shortcut">Tilføj genvej</string>
+    <string name="unsaved_changes">Ikke-gemte ændringer</string>
+    <string name="unsaved_changes_description">Du har ikke-gemte ændringer, vil du gemme dem før du afslutter?</string>
+    <string name="saving">Gemmer</string>
+    
+    <string name="view">Se</string>
+    <string name="install">Installer</string>
+    <string name="archive">Arkiv</string>
+    <string name="archive_text">Dette er et arkiv. Hvilken handling vil du udføre?</string>
+    <string name="package_installer_text">Dette er et pakkeinstallationsprogram. Hvilken handling vil du gerne udføre?</string>
+    <string name="xda_title">XDA-tråd</string>
+    <string name="xda_summary">Spørgsmål og svar, hjælp og fejlfinding</string>
+    <string name="circular_images">Brug cirkulære ikoner til billeder og videoer</string>
+    <string name="circular_icons">Brug cirkulære ikoner</string>
+    <string name="back_title">Tilbagenavigation</string>
+    <string name="back_summary">Aktiverer tilpasset tilbagenavigation øverst på listen</string>
+    <string name="details">Detaljer</string>
+    <string name="translators">Oversættere</string>
+    <string name="german_translation_title">Tysk</string>
+    <string name="italian_translation_title">Italiensk</string>
+    <string name="french_translation_title">Fransk</string>
+    <string name="russian_translation_title">Russisk</string>
+    <string name="spanish_translation_title">Spansk</string>
+    <string name="basque_translation_title">baskisk</string>
+    <string name="chinese_translation_title">kinesisk</string>
+    <string name="serbian_translation_title">serbisk</string>
+    <string name="turkish_translation_title">tyrkisk</string>
+    <string name="ukrainian_translation_title">ukrainsk</string>
+    <string name="portuguese_translation_title">portugisisk</string>
+    <string name="polish_translation_title">polsk</string>
+    <string name="korean_translation_title">koreansk</string>
+    <string name="greek_translation_title">græsk</string>
+    <string name="dutch_translation_title">hollandsk</string>
+    <string name="romanian_translation_title">rumænsk</string>
+    <string name="vietnamese_translation_title">Vietnamesisk</string>
+    <string name="japanese_translation_title">Japansk</string>
+    
+
+    
+    <string name="unin_system_apk">Dette er en systemapp, hvis sletning af den kan føre til ustabilitet i systemet.\nVil du fortsætte?</string>
+    <string name="warning">Advarsel</string>
+    <string name="donate">Doner</string>
+    <string name="archive_extract_folder">Arkivudtræksmappe</string>
+    <string name="archive_summary">Arkivfiler vil blive udtrukket til denne mappe. Standardværdien er den mappe, hvori arkivet er til stede.</string>
+    <string name="open_as">Åben som</string>
+    <string name="text">Tekst</string>
+    <string name="audio">Lyd</string>
+    
+    <string name="other">Andet</string>
+    <string name="image">Billede</string>
+    <string name="contributors">Bidragydere</string>
+    <string name="save_paths">Husk stier</string>
+    <string name="save_path_summary">Ved opstart vil den senest viste mappe for hver fane blive vist</string>
+    <string name="select_intent">Vælg</string>
+    
+    <string name="colored_navigation">Farvet navigationslinje</string>
+    <string name="colored_navigvation_sum">Om systemets navigationslinje er farvet med skindet eller ej</string>
+
+    <string name="color_title">Farve</string>
+    <string name="color_summary">Indstil farve til forskellige brugergrænsefladekomponenter</string>
+    <string name="primary_color_title">Primærfarve (venstre fane)</string>
+    <string name="primary_color_summary">Indstil farve til store UI-elementer for venstre fane</string>
+    <string name="accent_color_title">Accentfarve</string>
+    <string name="accent_color_summary">Indstil farve til FAB og andre små UI elementer</string>
+    <string name="icon_color_title">Ikonfarve</string>
+    <string name="icon_color_summary">Indstil farve til ikoner</string>
+    <string name="choose_color">Vælg farve</string>
+    <string name="files">Filer</string>
+    <string name="textreader">Tekstlæser</string>
+    <string name="databasereader">Databaselæser</string>
+    <string name="show_dividers">Vis skillelinjer</string>
+    <string name="needs_access">Skriveadgang påkrævet</string>
+    <string name="needs_access_summary">Vælg venligst rodmappen for \t</string>
+    <string name="needs_access_summary1">\tfor at give skriveadgang til at betjene</string>
+    <string name="smb_connection">SMB-forbindelse</string>
+    <string name="smb_server">Server IP-adresse</string>
+    <string name="server_address">Server IP-adresse</string>
+    <string name="username">Brugernavn</string>
+    <string name="password">Adgangskode</string>
+    <string name="anonymous">Anonym</string>
+    
+    <string name="folders">Mapper</string>
+    <string name="folderfilecount">%1$d mapper og %2$d filer</string>
+    <string name="videos">Videoer</string>
+    <string name="apks">APK\'er</string>
+    <string name="documents">Dokumenter</string>
+    <string name="images">Billeder</string>
+    <string name="clear">Ryd</string>
+    
+    <string name="total">I alt:</string>
+    <string name="calculating">beregner</string>
+    <string name="sort">Sorter</string>
+    <string name="ascending">Stigende</string>
+    <string name="descending">Faldende</string>
+    <string name="default_string">Standard</string>
+    <string name="doit">Gør det</string>
+    <string name="want_help">Har du brug for hjælp?</string>
+    <string name="quick">Hurtig adgang</string>
+    <string name="recent">Seneste filer</string>
+    <string name="edit">Rediger</string>
+    <string name="find">Find på side</string>
+    <string name="grant">Giv</string>
+    <string name="grantper">Giv tilladelse</string>
+    <string name="grantfailed">Tilladelse ikke givet</string>
+    <string name="grant_storage_permission">App skal have lagringstilladelse for at fortsætte. Annullering af denne dialog vil afslutte appen.</string>
+    <string name="operation_unsuccesful">Betjening mislykkedes</string>
+    <string name="creatingfile">Oprettelse af fil</string>
+    <string name="creatingfolder">Oprettelse af mappe</string>
+    <string name="renaming">Omdøbning</string>
+    <string name="cant_be_empty">%s må ikke være tom</string>
+    <string name="ip">Adresse</string>
+    <string name="connection_name">Forbindelsesnavn</string>
+    <string name="no_device_found">Ingen enheder fundet</string>
+    <string name="path">Sti</string>
+    <string name="rename_bookmark">Rediger bogmærke</string>
+    <string name="cut">Klip</string>
+    <string name="search">Søg</string>
+    <string name="invalid_name">Ugyldigt navn</string>
+    <string name="search_hint">Skriv for at søge...</string>
+    <string name="advanced_search">Avanceret søgning</string>
+    <string name="regular_expression">Regulært udtryk</string>
+    <string name="regular_expression_summary">Søg med et regulært udtryk i BASH-stil</string>
+    <string name="match_content">Match indhold</string>
+    <string name="match_content_summary">Hvis indstillet, vil regulære udtryk blive matchet med hele filnavnet,
+        vil se efter forekomst ellers.</string>
+    
+    
+    <string name="ftp_status_running">Kører</string>
+    <string name="ftp_status_not_running">Kører ikke</string>
+    <string name="ftp_no_wifi">Sørg for, at du har forbindelse til Wi -Fi</string>
+    <string name="domain">Domæne</string>
+    <string name="smb_share">Delingssti</string>
+    <string name="invalid">Ugyldig %s</string>
+    <string name="ftp_notif_starting">FTP-server starter</string>
+    <string name="ftp_notif_starting_title">FTP-server</string>
+    <string name="ftp_notif_title">Amaze FTP-server kører</string>
+    <string name="ftp_notif_text">ved %s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP-port</string>
+    <string name="ftp_port_change_success">FTP-port ændret med succes</string>
+    <string name="ftp_port_change_error_invalid">Ugyldigt portnummer valgt</string>
+    <string name="primary_two_title">Primær farve (højre fane)</string>
+    <string name="primary_two_summary">Indstil farve til store UI-elementer for højre fane</string>
+    <string name="support_development">Supportudvikling</string>
+    <string name="report_bugs_title">Rapporter fejl</string>
+    <string name="source_title">Kildekode</string>
+    <string name="source_summary">Se vores kildekode på GitHub</string>
+    <string name="report_bugs_summary">Rapporter fejl eller anmod om ny funktion</string>
+    <string name="translate_title">Oversæt</string>
+    <string name="translate_summary">Oversæt Forbløffe på dit sprog</string>
+    <string name="paypal_copy_message">PayPal ID kopieret til udklipsholder</string>
+    <string name="searching_devices">Søger efter enheder</string>
+    <string name="use_custom_ip">Brug tilpasset IP</string>
+    <string name="bookmark_lost">Bogmærke ikke fundet, genskaber...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Sådan får du adgang til delt Windows-mappe på Android (SMB)\n\n
+                
+                    
+                        Aktiver fildeling på Windows\n
+                    
+                    
+                        Åbn kontrolpanelet, klik på Vælg hjemmegruppe og delingsindstillinger under Netværk
+                        og internet, og klik på "Skift avancerede delingsindstillinger", aktiver "Filer og
+                        Printer Sharing"-funktion.\n\n
+                    
+
+                    
+                        Yderligere fildelingsindstillinger\n
+                    
+                    
+                        Du vil måske også konfigurere de andre avancerede delingsindstillinger her. \n
+                        For eksempel kan du aktivere adgang til dine filer uden en adgangskode, hvis du stoler på alle
+                        enhederne på dit lokale netværk. Når fil- og printerdeling er aktiveret, kan du
+                        åbne Stifinder eller Windows Stifinder, højreklik på en mappe, du vil dele, og
+                        vælg Egenskaber. \n
+                        Klik på knappen Del, og gør mappen tilgængelig på netværket.\n\n
+                        
+
+                    
+                        Sørg for, at begge enheder er på samme Wifi\n
+                    
+                    
+                        Denne funktion gør filer tilgængelige på det lokale netværk, så din pc og mobile enheder
+                        skal være på det samme lokale netværk. Du kan ikke få adgang til en delt Windows-mappe
+                        over internettet, eller når din smartphone er forbundet til dens mobildata — den
+                        skal være forbundet til Wi-Fi.\n\n
+                    
+
+                    
+                        Find IP-adresse\n
+                    
+                    
+                        Åbn kommandoprompt. Skriv \'ipconfig\' og tryk på Enter. Se efter standardgateway
+                        under din netværksadapter for din routers IP-adresse. Lede efter
+                        \\\"IPv4-adresse\\\" under den samme adaptersektion for at finde din computers IP
+                        adresse.\n\n
+                    
+
+                    Indtast detaljer i SMB-dialogboksen\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Kan ikke dele mere end 100 filer</string>
+    <string name="otg_access">Vælg roden af ​​OTG-enheden</string>
+    <string name="information">Oplysninger</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Få adgang til</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Ændret</string>
+
+    <string name="title">Titel</string>
+    <string name="artist">Kunstner</string>
+    
+    <string name="year">År</string>
+    <string name="duration">Varighed</string>
+    <string name="comment">Kommentar</string>
+    <!-- reference to audio/video file -->
+    
+    
+    <string name="channels">Kanaler</string>
+    
+    
+    <string name="dimensions">Dimensioner</string>
+    
+    <string name="image_type">Billedtype</string>
+    <string name="width">Bredde</string>
+    <string name="height">Højde</string>
+    <string name="date_modified">Dato Ændret</string>
+    
+    
+    <string name="camera_brand">Kameramærke</string>
+    <string name="camera_model">Kamera Model</string>
+    <string name="date_taken">Dato taget</string>
+    <string name="exposure_time">Eksponeringstid</string>
+    <string name="aperture_value">Blændeværdi</string>
+    <string name="image_iso">ISO-hastighedsvurdering</string>
+    <string name="flash_fired">Flash udløst</string>
+    <string name="focal_length">Brændvidde</string>
+    <string name="subject">Emne</string>
+    <string name="author">Forfatter</string>
+    <string name="keywords">Søgeord</string>
+    
+    <string name="created">Oprettet</string>
+    
+    <string name="pages">Antal af Sider</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimeret</string>
+    <string name="security">Sikkerhed</string>
+    <string name="paper_size">Papirstørrelse</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Nogle filer blev ikke %s</string>
+    <string name="copied">kopieret</string>
+    <string name="moved">flyttet</string>
+    <string name="copy_complete">Kopi fuldført</string>
+    <string name="waiting_title">Venter</string>
+    <string name="waiting_content">Venter på, at operationen er fuldført</string>
+    <string name="extract_complete">Udtrækningen er fuldført</string>
+    <string name="compression_complete">Kompressionen er fuldført</string>
+    <string name="compressing">Komprimering</string>
+    <string name="cancelled">Annulleret</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Skrevet</string>
+    <string name="out_of">ud af</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">af</string>
+    <string name="processing_file">Behandler fil</string>
+    <string name="current_speed">Aktuel hastighed</string>
+    <string name="smb_launch_error">Du skal kopiere denne fil til lageret for at åbne den</string>
+    <string name="error_file_not_found">Fejl: Filen blev ikke fundet</string>
+    <string name="error_io">I/O-fejl</string>
+    <string name="error_file_too_large">Fejl: Filen er for stor</string>
+    <string name="medium_text">Mellem tekst</string>
+    <string name="permission_read">Læs</string>
+    <string name="permission_write">Skriv</string>
+    <string name="permission_execute">Udfør</string>
+    <string name="permission_owner">Ejer</string>
+    <string name="permission_group">Gruppe</string>
+    <string name="permission_other">Andet</string>
+    <string name="clipboard_path_copy">Sti kopieret til udklipsholder</string>
+    <string name="service_timer">Forløbet tid</string>
+    <string name="please_wait">Vent venligst</string>
+
+    <string name="cloud_connection">Cloudforbindelse</string>
+    <string name="cloud_connection_new">Ny skyforbindelse</string>
+    
+    
+    
+    <string name="cloud_box">Boks</string>
+    <string name="cloud_get">Hent Cloud-plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Ingen applikationer</string>
+    <string name="ftp_path">Delt sti</string>
+    <string name="ftp_path_hint">Sti til roden af ​​biblioteket for at dele</string>
+    <string name="change">Skift</string>
+    <string name="unknown_error">Ups, noget gik galt!</string>
+
+    <string name="ftp_path_change_success">FTP-sti blev ændret</string>
+    <string name="ftp_path_change_error_invalid">Ugyldig sti</string>
+    <string name="ftp_status_no_connection">Ingen forbindelse</string>
+    <string name="ftp_status_secure_connection">Sikker forbindelse</string>
+    
+    
+    
+    <string name="field_empty">Feltet må ikke være tomt</string>
+    <string name="ftp_timeout">Inaktiv timeout</string>
+    <string name="ftp_seconds">Sekunder</string>
+    <string name="intellihide_toolbar_title">Intellihide Værktøjslinje</string>
+    <string name="intellihide_toolbar_summary">Skjul automatisk værktøjslinje, mens du ruller</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">kopieret til udklipsholder</string>
+    <string name="contributors_1_summary">Oversættelse</string>
+    <string name="contributors_2_summary">Ikon og bannere</string>
+    <string name="contributors_3_summary">Temamotor</string>
+    <string name="contributors_4_summary">Skygge bag FAB</string>
+    <string name="contributors_5_summary">Farveovergang ved strygning af faner</string>
+    <string name="contributors_6_summary">FTP-server</string>
+    <string name="contributors_7_summary">Opstart af en interaktiv skal</string>
+    <string name="connection_exists">Forbindelse eksisterer allerede</string>
+
+    <string name="crypt_encrypting">Krypterer</string>
+    <string name="crypt_decrypting">Dekrypterer</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Krypteret</string>
+    <string name="crypt_decrypted">Dekrypteret</string>
+    <string name="crypt_encrypt">Krypter</string>
+    <string name="crypt_decrypt">Dekrypter</string>
+    <string name="operation_fail_following">Handlingen mislykkedes for følgende filer</string>
+    <string name="crypt_pref_master_password_title">Hovedadgangskode</string>
+    <string name="crypt_pref_master_password_summary">Indstil en hovedadgangskode til kryptering.
+        Lad være tomt for at fjerne.</string>
+    <string name="crypt_pref_fingerprint_title">Fingeraftryk</string>
+    <string name="crypt_pref_fingerprint_summary">Brug fingeraftryk til at godkende kryptering</string>
+    <string name="crypt_fingerprint_no_permission">Fingeraftrykstilladelser mangler</string>
+    <string name="crypt_fingerprint_not_enrolled">Intet fingeraftryk tilmeldt</string>
+    <string name="crypt_fingerprint_no_security">Ingen låseskærmssikkerhed fundet</string>
+    <string name="crypt_warning_key">Vær opmærksom på, når du ændrer dit sikkerhedsmønster fra
+        Systemindstillinger, du vil ikke være i stand til at dekryptere dette indhold.</string>
+    <string name="warning_never_show">Informer ikke igen</string>
+    <string name="warning_confirm">Godt!</string>
+    <string name="crypt_encryption_fail">Kunnede ikke kryptere</string>
+    <string name="crypt_decryption_fail">Kunnede ikke dekryptere</string>
+    <string name="crypt_decryption_fail_password">Forkert adgangskode!</string>
+    <string name="crypt_fingerprint_authenticate">Berør sensor for at fortsætte</string>
+    <string name="authenticate_password">Indtast adgangskode</string>
+
+    <string name="sidebar_preferences">Sidepanel</string>
+    <string name="sidebar_quick_access_title">Hurtig adgang til sidepanel</string>
+    <string name="show_quick_access_pref_title">Vis hurtige adgange</string>
+    <string name="show_quick_access_pref">Hurtige adgange</string>
+    <string name="directory">Bogmærker</string>
+
+    <string name="sidebar_bookmarks_title">Sidebjælkebogmærker</string>
+    <string name="show_bookmarks_pref_title">Vis bogmærker</string>
+    <string name="show_bookmarks_pref">Bogmærker</string>
+    <string name="create_bookmark">Opret bogmærke</string>
+    <string name="edit_bookmark">Rediger bogmærke</string>
+    <string name="question_delete_bookmark">Slet bogmærke?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud-plugin blev ikke fundet. Download venligst fra Play Butik.</string>
+    <string name="cloud_error_failed_restart">Forbindelsen kunne ikke indlæses.
+        Åbn venligst Amaze Cloud én gang.</string>
+    <string name="cloud_remove">Vil du fjerne cloudforbindelsen?</string>
+    <string name="cloud_fail_authenticate">Kunne ikke godkendes</string>
+    <string name="cloud_share_copied">Delesbart link blev kopieret til udklipsholder</string>
+    <string name="copy_low_memory">Løber tør for hukommelse, ryd venligst noget RAM</string>
+    <string name="cloud_token_lost">Token tabt, log venligst ind igen</string>
+    <string name="monofont">Monospace-skrifttype</string>
+    <string name="showHeaders">Vis overskrifter</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Ingen varer</string>
+	<string name="item">emne</string>
+	<string name="items">elementer</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Filen skal have et navn</string>
+    <string name="add_item">Tilføj element</string>
+    <string name="failed_smb_decrypt_path">Kunne ikke indlæses SMB-forbindelse</string>
+    <string name="failed_cloud_new_connection">Kunne ikke tilføje ny Cloud-forbindelse</string>
+    <string name="failed_cloud_api_key">Kunne ikke godkende Cloud-plug-in</string>
+
+    <string name="local_inet_addr_error">Fejl ved hentning af lokal inet-adresse</string>
+    <string name="intent_save_as">Gem som...</string>
+    
+    <string name="advanced">Avanceret</string>
+    <string name="typeable_paths_title">Tilpassede stier</string>
+    <string name="typeable_paths_summary">Langt tryk på stibjælken for at indtaste en brugerdefineret sti</string>
+    <string name="send_email_to">Send en e-mail til</string>
+
+    <string name="text_editor">Tekstredigeringsindstillinger</string>
+    <string name="preference_newstack_title">Åbn filer som ny opgave</string>
+    <string name="preference_newstack_summary">Giver dig mulighed for at åbne filer i separate opgaver. Få adgang til dem fra systemets seneste skærm.</string>
+    
+    <string name="developers">Udviklere</string>
+    <string name="no_bitcoin_app">Installer venligst en Bitcoin Wallet-app</string>
+    <string name="channel_name_normal">Amaze-meddelelser</string>
+    <string name="channel_description_normal">Amaze File Managers meddelelser</string>
+    <string name="channel_name_ftp">Amaze FTP-server</string>
+    <string name="channel_description_ftp">Amaze-fil Manager FTP-servers meddelelser</string>
+
+    
+    <string name="processing">Behandler...</string>
+    <string name="failed_no_connection">Kunne ikke indlæse filer. Tjek venligst din forbindelse.</string>
+
+    <string name="update">OPDATERING</string>
+	<string name="scp_connection">SCP/SFTP-forbindelse</string>
+    <string name="ftp_connection">FTP-forbindelse</string>
+    <string name="ftps_connection">FTP over SSL-forbindelse</string>
+    
+    <string name="ssh_host_key_verification_prompt">Ægtheden af ​​værten \'%1$s\' kan ikke etableres.\n\n%2$s nøglefingeraftryk er %3$s.\n\nTryk venligst på \"Ja\" for at bekræfte identitet; Ellers skal du trykke på \"Nej\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Bekræft vært</string>
+    <string name="ssh_select_pem_button">SSH privat nøgle</string>
+    <string name="ssh_pem_key_parse_error">Kan ikke læse den valgte PEM: %s</string>
+    <string name="password_unchanged">(uændret)</string>
+    <string name="ssh_authentication_failure_password">Logonfejl: Kan ikke godkendes med angivet brugernavn og adgangskode.</string>
+    <string name="ssh_authentication_failure_key">Logonfejl: Kan ikke godkendes med angivet brugernavn og privat nøgle.</string>
+    <string name="ssh_connect_failed">Kan ikke oprette forbindelse til %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ADVARSEL: FJERNVÆRTIDENTIFIKATION ER ÆNDRET!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">DET ER MULIGT, AT NOGEN GØR NOGET GRØMT!\n\nNogen kunne aflytte dig lige nu (man-in-the-middle-angreb)! Det er også muligt, at værtsnøglen lige er blevet ændret. Fingeraftrykket for den offentlige nøgle, der sendes af fjernværten, svarer ikke til det, der er gemt i Amaze.\n\nKontakt din systemadministrator, eller opsæt en ny forbindelse for at fortsætte med at oprette forbindelse til serveren.</string>
+    <string name="ssh_key_prompt_passphrase">Indtast venligst nøgleadgangssætning .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Oprettelse af genveje understøttes ikke af din launcher.</string>
+    
+    <string name="select_color_config">Vælg farvekonfiguration</string>
+    <string name="customize">Tilpas</string>
+    <string name="custom">Brugerdefineret</string>
+    <string name="preselected_configs_title">Forudvalgte konfigurationer</string>
+    
+    <string name="blue">Blå</string>
+    <string name="green">Grøn</string>
+    <string name="password_no_match">Adgangskoden stemmer ikke overens</string>
+    <string name="deselect_all">Fravælg alle</string>
+    <string name="filename">Filnavn</string>
+    <string name="compress_file_suggest_zip_extension">Det anbefales at bruge \".zip\" som filtypenavnet.</string>
+    <string name="about_amaze">Materialedesign filhåndtering til Android</string>
+    <string name="license">Licens</string>
+    <string name="libraries">Biblioteker</string>
+    <string name="password_repeat">Gentag adgangskode</string>
+    <string name="create_file_suggest_txt_extension">Det anbefales at bruge \".txt\" som filtypenavnet.</string>
+    <string name="ssh_select_pem">Vælg privat nøgle til godkendelse</string>
+    <string name="ssh_key_invalid_passphrase">Ugyldig nøgleadgangssætning.</string>
+    <string name="ssh_key_no_decoder_decrypt">Ingen gyldig dekoder til at dekryptere PEM.</string>
+    <string name="encryption_fail_copy">Kunne ikke opdatere krypteringsindtastningen i databasen</string>
+    <string name="extracted">Udtrukket</string>
+    <string name="compressed">Komprimeret</string>
+    <string name="processed">Behandlet</string>
+    <string name="no_obtainable_info">Der er ingen information om denne fil</string>
+    <string name="reopen_from_source">Kan ikke, genåbn fra sidste app</string>
+    <string name="no_file_error">Der er noget galt, der er intet at åbne</string>
+    <string name="file_too_long">Den filen er for lang og kan ikke redigeres, men du kan læse de første %d tegn</string>
+    <string name="file_read_only">Den åbnede fil er skrivebeskyttet.</string>
+    <string name="got_it">Godt!</string>
+    <string name="encrypt_file_save_as">Gem krypteret Filer som...</string>
+    <string name="encrypt_folder_save_as">Gem krypteret mappe som...</string>
+    <string name="encrypt_option_use_aze">Brug Amaze-krypteringsformat</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt er et open source filkrypteringsformat baseret på AES-kryptering. Den er også bærbar, kan dekrypteres med AESCrypt-programmer på andre platforme.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt-websted</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amazes krypteringsformat er også baseret på AES-kryptering; men forskelligt fra AESCrypt-formatet kan det kun dekrypteres af denne enhed; Du må heller ikke afinstallere Amaze File Manager fra denne enhed eller ændre den måde, du låser skærmen på, ellers har du ingen mulighed for at gendanne den krypterede fil.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Krypterede filer skal bruge \".aze\" som filtypenavnet.</string>
+    <string name="encrypt_file_must_end_with_aes">Krypterede filer skal bruge \".aes\" som filtypenavnet.</string>
+    <string name="error_aescrypt_decrypt_failed">Kan ikke dekryptere \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Kan ikke overskrive fil.</string>
+    <string name="saved_single_file">Fil gemt som \'%s\'.</string>
+    <string name="saved_multi_files">%d filer gemt.</string>
+    <string name="create_hidden_file_warn">Den oprettede fil vil blive skjult i fillisten.</string>
+    <string name="grant_apkinstall_permission">Appen skal have tilladelse til at installere apps fortsæt.</string>
+    <string name="time_remaining">Resterende tid</string>
+    <string name="transfer_rate">Overførselshastighed</string>
+    <string name="unknown">ukendt</string>
+    <string name="multiple_invalid_archive_entries">Nogle filer i arkivet kan ikke udpakkes; arkivet kan være beskadiget eller kom fra ondsindet kilde.</string>
+    <string name="saf_otg_explanation">Du vil nu gå til Androids filsystem af sikkerhedsmæssige årsager. Vælg venligst USB-enheden fra listen til venstre.</string>
+    <string name="donation_thanks">Tak for donationen, dette holder os motiverede! (:</string>
+    <string name="enable_marquee_filename">Aktiver marquee-effekt for filnavne</string>
+    <string name="archive_password_prompt">Indtast venligst arkivadgangskode:</string>
+    
+    <string name="cannot_extract_archive">Kan ikke udpakke arkivet \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Kan ikke åben arkiv \"%s\". Enten kan vi ikke åbne arkivet, eller også er arkivet beskadiget.</string>
+    <string name="close">Luk</string>
+    <string name="bookmark_exists">Bogmærke findes</string>
+    <string name="hide_media">Skjul fra mediebrowsere</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">DET ER MULIGT, AT NOGEN GØR NOGET GRØMT!\n\nNogen kunne aflytte dig lige nu (man-in-the-middle-angreb)! Det er også muligt, at værtsnøglen lige er blevet ændret. Fingeraftrykket for den offentlige nøgle sendt af fjernværten svarer ikke til den, der er gemt i Amaze.\n\nDu kan fortsætte med at opdatere værtens fingeraftryk eller annullere opdatering af SSH-forbindelsesindstillinger.</string>
+    <string name="update_host_key">Opdater værtsnøgle</string>
+    <string name="cancel_recommended">Annuller (anbefalet)</string>
+    
+    
+    <string name="failed_install_apk">Kunne ikke installere</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Internt lager</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD-kort</string>
+    <string name="choose_folder">Vælg denne mappe</string>
+    
+    <string name="some_files_failed_invalid_operation">Nogle filer mislykkedes på grund af ugyldige operation</string>
+    <string name="ftp_server_prompt_connect_to_network">Opret forbindelse til et netværk eller aktiver AP</string>
+    <string name="ftp_server_open_settings">Åbn indstillinger</string>
+    <string name="move">Flyt</string>
+    <string name="select_save_location">Vælg placering for at gemme</string>
+    <string name="scp_default_path">Standardsti (valgfrit)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Beklager, det skulle ikke være sket.</string>
+    
+    <string name="error_report_button_text">Rapportér denne fejl via e-mail</string>
+    <string name="error_report_button_telegram">Rapportér denne fejl via telegram</string>
+    <string name="copy_for_github">Kopiér formateret rapport</string>
+    <string name="error_report_open_issue_button_text">Rapportér om GitHub</string>
+    <string name="error_report_open_github_notice">Tjek venligst, om der allerede eksisterer et problem, der diskuterer dit nedbrud.</string>
+    <string name="error_snackbar_message">Beklager, noget gik galt.</string>
+    <string name="error_snackbar_action">Rapportér</string>
+    
+    <string name="what_happened_headline">Hvad skete der:</string>
+    <string name="info_labels">Hvad:\\nForespørgsel:\\nGMT-tid:\\nPakke:\\nVersion:\\nOS-version:\\nEnhed:\\nModel:\\nProdukt :</string>
+    <string name="your_comment">Din kommentar (på engelsk):</string>
+    <string name="error_details_headline">Detaljer:</string>
+    <string name="app_ui_crash">App/UI gik ned</string>
+    <string name="error_report_title">Fejlrapport</string>
+    <string name="crash_report_copied">Nedbrudsrapport kopieret til udklipsholder</string>
+    <string name="disableIpcSignature">Deaktiver IPC-signeringskontrol (for ældre SMBv1-servere - USIKKER!)</string>
+    <string name="cannot_delete_file">Kan ikke slette fil</string>
+    <string name="cannot_delete_file_with_reason">Kan ikke slette fil - %s</string>
+    <string name="cannot_rename_file">Kan ikke omdøbe fil %s - %s</string>
+    <string name="cannot_read_directory">Kan ikke læse biblioteket %s - %s</string>
+    <string name="just_once">Bare én gang</string>
+    <string name="always">Altid</string>
+    <string name="choose_different_app">Vælg en anden applikation</string>
+    <string name="clear_open_file">Ryd cache</string>
+    <string name="clear_open_file_summary">Ryder valgte standardapps til åbning af filer</string>
+    <string name="ftp_readonly">Skrivebeskyttet adgang</string>
+    <string name="legacy_listing_title">Brug ældre liste til root</string>
+    <string name="legacy_listing_summary">Hvis aktiveret, bruger den ældre metode til at vise filer</string>
+    <string name="error_unsupported_v5_rar">RAR-arkiv \"%s\" er ikke-understøttet RAR v5-arkiv.</string>
+    <string name="ftp_prompt_restart_server">Du skal genstarte FTP-serveren for at ændringerne træder i kraft.</string>
+    <string name="error_permission_denied">Tilladelse nægtet</string>
+    <string name="error_archive_password_incorrect">Forkert arkivadgangskode.</string>
+    <string name="error_archive_cannot_extract">Kan ikke udtrække arkivposten \"%s\" til \"%s\".</string>
+    <string name="drag_and_drop_preference">Vælg træk og slip-præference (eksperimentel)</string>
+    <string name="drag_to_move_copy">Tryk og træk for at flytte eller kopiere filer</string>
+    <string name="drag_to_select">Tryk og træk for at vælge filer</string>
+    <string name="disable">Deaktiver</string>
+    <string name="choose_operation">Vælg handling at udføre</string>
+    <string name="remember">Husk til næste gang</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Giv SAF-adgang til FTP-server</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Da dette er din første kørsel af FTP-serveren, og du bruger enhedens interne lager som delt mappe, bedes du give Amaze adgang til lageret vha. SAF.\n\n
+
+Du behøver kun at gøre dette én gang, indtil næste gang du vælger en ny placering til deling.</string>
+    <string name="android_data_prompt_saf_access">Siden Android 10 har Android pålagt begrænsninger for visse mapper, og de skal have adgang med Storage Access Framework.\n \nGiv venligst Amaze adgang til mappen fra systemets filhåndtering ved at trykke på \"Tillad adgang\".</string>
+    <string name="android_data_prompt_saf_access_title">Giv SAF-adgang</string>
+    <string name="ftp_preference_saf_filesystem_title">Brug ældre filsystem</string>
+    <string name="ftp_preference_saf_filesystem">Aktiver dette til støtte for at bruge eksternt lager på enheden på nyere Android-versioner</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP-serverens delte sti var blevet nulstillet til internt lager, da du skifter tilbage til ældre filsystemimplementering. Vælg venligst en ny sti ved at bruge menuen øverst til højre efter behov.</string>
+    <string name="ftp_server_reset_notify">FTP-serverens delte sti var blevet nulstillet til internt lager</string>
+    <string name="ftp_server_root_unavailable">Du vælger en sti, der kræver root-adgang. Aktiver venligst root explorer i indstillingerne, hvis din enhed er rootet.</string>
+    <string name="ftp_server_root_filesystem_warning">Du vælger en sti, som kræver root-adgang, som muliggør læse-/skriveoperationer i hele filsystemet på din enhed, og det er farligt - skødesløse fejl kan blokere din enhed!\n\nEr du sikker?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Fejl ved åbning af URI \"%s\" til læsning.</string>
+    <string name="error_empty_archive">\"%s\" er et tomt arkiv.</string>
+    <string name="error_bad_archive_without_info">\"%s\" er et beskadiget arkiv .</string>
+    <string name="error_bad_archive_with_info">\"%s\" er et beskadiget arkiv.\nBesked fra udtrækker: \"%s\"</string>
+    <string name="security_error">Filen kunne ikke åbnes ved hjælp af denne app</string>
+    <string name="cloud_drive_tooltip">Opret en Google Drive™-forbindelse til håndtering af filer fra Amaze File Manager.</string>
+    <string name="signin_with_google_title">Godkend for at bruge Google Drive™</string>
+    <string name="show_system_apps">Vis systemapps</string>
+    <string name="system_apps">Systemapps</string>
+    <string name="select_inverse">Vælg Omvendt</string>
+    <string name="select_by_type">Vælg efter type</string>
+    <string name="select_by_date">Vælg efter dato</string>
+    <string name="select_similar">Vælg lignende</string>
+    <string name="error_fetching_google_play_product_list">Fejl ved hentning af produktliste fra Google Play.</string>
+    <string name="grant_all_files_permission">Siden Android 11 , Google anmoder filadministratorer om at anmode om brugertilladelse til at administrere alle filer på enheden. Detaljer her.
+        \n\nAmaze File Manager har også brug for denne tilladelse. Når du har trykket på "Gent" her, skal du vælge Tillad adgang til at administrere alle filer på næste skærmbillede.
+        \n\nHvis du annullerer denne dialog, afsluttes appen.</string>
+    <string name="user_apps">Brugerapps</string>
+    <string name="appearance">Udseende</string>
+    <string name="behavior">Adfærd</string>
+    <string name="appearance_summary">Tilpas temaet, farverne og udseendet af filhåndteringen</string>
+    <string name="ui_summary">Kontrollér, hvilke oplysninger der skal vises, tilpas sidebjælken, og skift UI-præferencer</string>
+    <string name="behavior_summary">Rediger adfærd såsom avanceret søgning, og om filer skal åbnes som en ny opgave</string>
+    <string name="security_summary">Konfigurer adgangskode og kryptering</string>
+    <string name="backup_summary">Eksporter/Importér Amaze-indstillinger</string>
+
+    <string name="pref_export">Eksporter</string>
+    <string name="pref_export_summary">Eksportindstillinger</string>
+    <string name="pref_import">Importer</string>
+    <string name="pref_import_summary">Importindstillinger</string>
+
+    <string name="quick_desc">Filer for nylig tilgået gennem Amaze</string>
+    <string name="recent_desc">Nyligt oprettede eller ændrede filer</string>
+    <string name="error_cannot_find_way_open">Kunne ikke finde måde at åbne filen</string>
+    <string name="error_cant_decompress_that_file">Kan ikke behandle det anmodede arkiv</string>
+    <string name="analyse_storage">Analyser lager</string>
+    
+    <string name="download_amaze_utils_text">Du bliver omdirigeret til Amaze File Utilities. Det er vores open source-app, der har indbygget audio/video/billed-/dokumentfremvisere, giver dig mulighed for at analysere uønskede filer for at frigøre lagerplads, hurtig overførsel ved hjælp af Wifi P2P og meget mere.\nStøt os venligst ved at prøve det.</string>
+    
+    
+    <string name="amaze_utils_installed_alias">Tak, fordi du installerede Amaze File Utilities. Du bliver omdirigeret til appen.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">Del logfiler</string>
+    <string name="share_logs_summary">Del opfangede logfiler via e-mail/telegram</string>
+    <string name="open_with_amaze">Åbn med Amaze</string>
+    <string name="confirmation">Bekræftelse</string>
+    <string name="open_file_confirmation">Er du sikker på, at du vil åbne følgende fil?\n\nNavn:\n%s\n\nPlacering:\n%s\n\nStørrelse:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">I henhold til Google Plays politikkrav må apps ikke opdatere sig selv. Opdater venligst app fra Google Play.</string>
+    <string name="error_cannot_get_package_info">Kan ikke hente pakkeoplysninger fra filen \"%s\". Enten er den angivne fil ikke en APK, eller også er pakkefilen korrupt.</string>
+    <string name="preference_delete_confirmation">Slet bekræftelse</string>
+    <string name="preference_delete_confirmation_summary">Spørg om bekræftelse, før du sletter filer. Det frarådes stærkt at deaktivere dette!</string>
+    
+    
+    <string name="protocol_ftps">Sikker FTP</string>
+    <string name="unavailable">Utilgængelig</string>
+
+    <string name="exporting_failed">Eksporten mislykkedes: kunne ikke skrive backupfilen</string>
+    <string name="importing_failed">Importen mislykkedes: kunne ikke læse sikkerhedskopien fil</string>
+    <string name="importing_completed">Import afsluttet</string>
+    <string name="invalid_backup_file">Ugyldig backupfil</string>
+    <string name="import_failed_for">Import mislykkedes for:</string>
+    <string name="free_of">"%s\n%s fri for %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin understøttes ikke med F-Droid version. Brug venligst Play Store version af Amaze.</string>
+    <string name="disable_player_intent_filters">Deaktiver afspillerhensigtsfiltre</string>
+    <string name="disable_player_intent_filters_summary">Deaktiverer Amaze indbyggede medieafspillere fra filvælger</string>
+    <string name="no_app_found_intent">Der blev ikke fundet nogen app til at håndtere denne hensigt. Har du installeret DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection-legitimationsoplysninger ryddet</string>
+    <string name="cloud_connection_credentials_cleared_msg">Desværre var vi ikke i stand til at migrere dine cloud-forbindelseslegitimationsoplysninger til det nye databaseskema, og vi havde for at fjerne dem fra appen. Opret venligst skyforbindelsen igen.</string>
+</resources>

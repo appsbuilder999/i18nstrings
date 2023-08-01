@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Archivo Gestor</string>
+    <string name="drawer_open">Jist’araña cajón de navegación</string>
+    <string name="drawer_close">Jist’araña cajón de navegación</string>
+    <string name="icon">icono</string>
+    <string name="apps">App Gestor</string>
+    <string name="ftp">Servidor FTP</string>
+    <string name="setting">Askichawinaka</string>
+    <string name="select">Ajlliñani yänaka</string>
+    <string name="press_again">Mayampi ch’iqt’aña mistuñataki</string>
+    <string name="open">Jist’araña</string>
+    <string name="backup">Copia de seguridad</string>
+    <string name="uninstall">Jan instalaña</string>
+    <string name="play">Anatañ uta</string>
+    <string name="properties">Propiedades</string>
+    <string name="copyingapks">%d APK qillqatanaka %s ukar copiaña</string>
+    <string name="delbook">Marcador chhaqtayaña</string>
+    <string name="add_to_bookmarks">Marcador ukar yapxataña</string>
+    <string name="enterpath">Thakhi mantaña</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="create">LURASMA</string>
+    <string name="loading">Cargamiento...</string>
+    <string name="file_empty">Archivox ch’usawa</string>
+    <string name="error">Pantjasi</string>
+    <string name="search_results">%s ukan thaqhaña</string>
+    <string name="rename">Suti mayjt’ayaña</string>
+    <string name="save">Qhispiyaña</string>
+    <string name="bookmarks_added">Marcadores yapxatatawa</string>
+    <string name="fileexist">Pachpa sutini qillqataxa nayratpach utji</string>
+    <string name="name">Suti</string>
+    <string name="date">Uraqi</string>
+    <string name="location">Uñt’ayawi</string>
+    <string name="size_capitalized">Tama</string>
+    <string name="size">carpeta jach’a</string>
+    <string name="enterzipname">Zip Suti qillqt’aña</string>
+    <string name="no_app_found">Janiw App ukax jikxataskiti aka qillqat jist’arañataki</string>
+    <string name="copying">Copiar</string>
+    <string name="moving">Kust’ayaña</string>
+    <string name="file">Archivo</string>
+    <string name="folder">Carpeta</string>
+    <string name="newfolder">Machaq Carpeta</string>
+    <string name="entername">Suti qillqt’aña</string>
+    <string name="extracting">Apsuña</string>
+    <string name="stopping">Sayt’aña</string>
+    <string name="open_parent">Awk tayka Directorio jist’araña</string>
+    <string name="open_with">Jist’araña</string>
+    <string name="share">Compartir</string>
+    <string name="about">Uka tuqita</string>
+    <string name="extract">Apsuña</string>
+    <string name="compress">Comprimir</string>
+    <string name="yes">Jïsa</string>
+    <string name="no">Janiwa</string>
+    
+    <string name="dialog_delete_category_directories">Directorios</string>
+    <string name="dialog_delete_category_files">Archivos</string>
+    <string name="dialog_delete_disclaimer">Aka amparamp lurat yänak chhaqtayañax dispositivo ukanx wiñayatakiw apsusini ukatx janiw kutt’ayatäkaspati.</string>
+    <string name="dialog_delete_title">Wiñayataki yänaka chhaqtayaña?</string>
+    <string name="deleting">Chhaqtayaña</string>
+    <string name="question_set_path_as_home">Jichha thakhi utar uñtasita utt’ayañ munasmati aka tab ukatakixa?</string>
+    <string name="directorysort">Modo de Ordenar de Directorio</string>
+    <string name="sort_by">Ordenar Por</string>
+    <string name="sort_only_this">Aka carpeta ukakiw</string>
+    <string name="theme">Tema</string>
+    <string name="random">Qillqata aleatoria</string>
+    <string name="random_summary">Qalltanxa nayrïr color aleatorio ukar uñt’ayi</string>
+    <string name="colorize">Iconos de colorear</string>
+    <string name="colorize_summary">Uñt’ayaña icono estático ukax mä color ukhamawa. Janiw directorio icono color preferencia ukarux mayjt\'aykiti.</string>
+    <string name="home">Uta</string>
+    <string name="paste">Pegar</string>
+    <string name="history">Historia</string>
+    <string name="copy">Copiar</string>
+    <string name="root_mode">Saphi uñakipaña</string>
+    <string name="root_mode_summary">Saphin dispositivo ukatakikiwa. Uñakipt’añatakixa chiqapawa.</string>
+    <string name="root_failure">Saphiru mantañax janiw churatäkiti</string>
+    <string name="select_all">Taqi uk ajlliñamawa</string>
+    <string name="delete">Chhaqtayaña</string>
+    <string name="set_as_home">Utaparjam utt’ayaña</string>
+    <string name="operation_not_supported">Operación ukax janiw yanapt’atäkiti</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Material Luz</string>
+    <string name="dark">Material Ch’amaka</string>
+    <string name="daytime">Uru</string>
+    <string name="black">Ch’iyara (OLED ukataki)</string>
+    <string name="system">Sistema (sistema tema ukarjam arktañamawa)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Carpetas ukanakax pata tuqinkiwa</string>
+    <string name="filesOnTop">Archivos ukanakax pata tuqinkiwa</string>
+    <string name="none_on_top">Janiw kunas patat utjkiti</string>
+    <!--SortBy-->
+    <string name="sort_name">Suti</string>
+    <string name="lastModified">Qhipa mayjt’ayata</string>
+    <string name="sort_size">Tama</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Mä qillqat ajlliñani</string>
+    <string name="process_viewer">Proceso Uñakipiri</string>
+    <string name="in_safe">Jan suficiente chiqa</string>
+    <string name="no_file_overwrite">Janiw mä qillqat qillqt’atäkiti</string>
+    <string name="skip">Jantaña</string>
+    <string name="overwrite">Jichha qillqt’aña</string>
+    <string name="not_allowed">Janiw jaysatäkiti</string>
+    <string name="searching">Tsqhachañax %s</string>
+    <string name="done">Lurjata</string>
+    <string name="set">Uñt’ayaña</string>
+    <string name="enablerootmde">Modo de saphi ch’amanchaña</string>
+    <string name="goback">Qhiparu kutt’aña</string>
+    <string name="newfile">Machaq Archivo</string>
+    <string name="no_files">Janiw Archivonaka</string>
+    <string name="used">uñt’ayata chiqa</string>
+    <string name="used_by_others">yaqhanakan apnaqata</string>
+    <string name="free">libre chiqa</string>
+    <string name="listview">Lista uñakipaña</string>
+    <string name="gridview">Rejilla Uñakipaña</string>
+    <string name="permission">Permisos</string>
+    <string name="hide">Imantaña</string>
+    <string name="exit">Mistxaña</string>
+    <string name="doforall">Taqi yänakataki luraña</string>
+    <string name="gridcolumnno">Jakhuwi columnas ukanaka cuadrícula uñakipaña</string>
+    <string name="set_random">Mayjt’awinakaxa app</string>
+    <string name="authors">Qillqirinaka</string>
+    <string name="changelog">Mayjt’ayaña qillqata</string>
+    
+    <string name="ui">Interfaz</string>
+    <string name="general">General ukar wasitat qalltañ tukuyatatw lurasini</string>
+    <string name="thumb_summary">ukar wasitat qalltañ tukuyatatw lurasini Apps ukat jamuqanak uñacht’ayaña</string>
+    <string name="thumb">Jichha uñacht’ayaña</string>
+    <string name="hidden">Imantat archivonaka ukat carpetas uñacht’ayaña</string>
+    <string name="lastModifiedSummary">Qhipa mayjt’ayawi uru ukhamaraki pacha uñacht’ayaña</string>
+    <string name="lastModifiedPref">Qhipa mayjt’ayat uru uñacht’ayaña ukat... Pacha</string>
+    <string name="size_pref_summary">Archivonakan jach’atapa uñacht’ayaña ukhamarak carpetas ukan utjki uka yänak uñacht’ayaña</string>
+    <string name="size_pref">Uñacht’ayaña jach’a</string>
+    <string name="miscellaneous">Kunaymana</string>
+    <string name="root_pref_summary">Archivos ukat Carpetas ukan permisonakap uñacht’ayaña</string>
+    <string name="root_pref">Permisos uñacht’ayaña</string>
+    <string name="about_amaze_file_manager_label">Amaze Archivo apnaqiri tuqita</string>
+    <string name="version">Versión</string>
+    <string name="rate">App ukar chaninchaña</string>
+    <string name="feedback">Amuyawinak apayaniña</string>
+    <string name="hiddenfiles">Imantat qillqatanaka</string>
+    <string name="type">Jiskt’awi</string>
+    <string name="root_directory">Saphi</string>
+    <string name="add_shortcut">Jach’a thakhi yapxataña</string>
+    <string name="unsaved_changes">Jan qhispiyat mayjt’awinaka</string>
+    <string name="unsaved_changes_description">Jan imatäki uka mayjt’awinakax utjiwa, ¿janïr mistuñkamax imañ munasmati?</string>
+    <string name="saving">Qhispiyaña</string>
+    <string name="package_installer">Paquete Instalador</string>
+    <string name="view">Uñakipaña</string>
+    <string name="install">Instalación</string>
+    <string name="archive">Archivo</string>
+    <string name="archive_text">Akax mä archivowa. ¿Kuna lurawinaksa lurañ munasma?</string>
+    <string name="package_installer_text">Akax mä paquete instalador ukhamawa. ¿Kuna lurawinaksa lurañ munta?</string>
+    
+    <string name="xda_summary">Jiskt’awinaka, Yanapt’awinaka &amp;amp; Jan walt’awinak askichaña</string>
+    <string name="circular_images">Imajinakata ukhamaraki videonakata muyu chimpunaka apnaqaña</string>
+    <string name="circular_icons">Muyu chimpunaka apnaqaña</string>
+    <string name="back_title">Qhipa tuqiru saraña</string>
+    <string name="back_summary">Lista pata tuqina qhipa tuqiru sarañatakixa yanapt’iwa</string>
+    <string name="details">Detalles</string>
+    <string name="translators">Jaqukipirinaka</string>
+    <string name="german_translation_title">Alemán</string>
+    <string name="italian_translation_title">Italiano</string>
+    <string name="french_translation_title">Francés</string>
+    <string name="russian_translation_title">Rusia</string>
+    <string name="spanish_translation_title">Español</string>
+    <string name="basque_translation_title">Vasco</string>
+    <string name="chinese_translation_title">Chino</string>
+    <string name="serbian_translation_title">serbio</string>
+    <string name="turkish_translation_title">Turco</string>
+    <string name="ukrainian_translation_title">Ucraniano</string>
+    <string name="portuguese_translation_title">portugués</string>
+    <string name="polish_translation_title">Polaco</string>
+    <string name="korean_translation_title">coreano</string>
+    <string name="greek_translation_title">griego</string>
+    <string name="dutch_translation_title">holandés</string>
+    <string name="romanian_translation_title">Romano</string>
+    <string name="vietnamese_translation_title">Vietnam</string>
+    <string name="japanese_translation_title">Japonés</string>
+    
+
+    <string name="zip_viewer">Zip uñakipiri</string>
+    <string name="unin_system_apk">Akax sistema app ukawa, chhaqtayañax sistema jan estabilidad ukar puriyaspawa.\nSarnaqaskakim?</string>
+    <string name="warning">Amuyañataki</string>
+    <string name="donate">Yanapt’aña</string>
+    <string name="archive_extract_folder">Archivo apsuña Carpeta</string>
+    <string name="archive_summary">Archivo qillqatanakax aka carpeta ukar apsutäni. Nayraqata chimpuxa kawkhantixa archivo utjki uka directorio ukawa.</string>
+    <string name="open_as">Jist’araña Kunjama</string>
+    <string name="text">Qillqawi</string>
+    
+    
+    <string name="other">Yaqha</string>
+    <string name="image">Imajina</string>
+    <string name="contributors">Yanapt’irinaka</string>
+    <string name="save_paths">Thakhinaka amtañani</string>
+    <string name="save_path_summary">Qalltañatakixa, sapa tab ukatakixa qhipa uñakipata carpeta uñacht’ayataraki</string>
+    <string name="select_intent">Ajlliñani</string>
+    <string name="database">Base de datos</string>
+    <string name="colored_navigation">Barra de navegación colorida</string>
+    <string name="colored_navigvation_sum">Sistema barra de navegación ukax janchimpi saminakaniti janicha</string>
+
+    
+    <string name="color_summary">Kunayman componentes de UI ukar colores ukar uñt’ayaña</string>
+    <string name="primary_color_title">Nayrïr Color (Ch’iqa Tab)</string>
+    <string name="primary_color_summary">Ch’iqa tab ukatakix jach’a elementos UI ukar color ukar uñt’ayaña</string>
+    <string name="accent_color_title">Acento Color</string>
+    <string name="accent_color_summary">FAB ukat yaqha jisk’a UI ukar color ukar uñt’ayaña elementos</string>
+    <string name="icon_color_title">Icono Color</string>
+    <string name="icon_color_summary">Iconos ukar color uñstayaña</string>
+    <string name="choose_color">Sami ajlliñani</string>
+    <string name="files">Archivos</string>
+    <string name="textreader">Qillqata uñakipiri</string>
+    <string name="databasereader">Base de datos uñakipiri</string>
+    <string name="show_dividers">Divisores uñacht’ayaña</string>
+    <string name="needs_access">Qillqañataki mantañax wakisiwa</string>
+    <string name="needs_access_summary">Askiw \t</string>
+    <string name="needs_access_summary1">\tto saphi directorio ajlliñamawa qillqañar mantañ churañataki irnaqañataki</string>
+    <string name="smb_connection">apnaqañataki qillqañataki SMB Conexión</string>
+    <string name="smb_server">Servidor IP uñt’ayawi</string>
+    <string name="server_address">Servidor IP uñt’ayawi</string>
+    <string name="username">Usuyiri suti</string>
+    <string name="password">Contraseña</string>
+    <string name="anonymous">Jan sutini</string>
+    <string name="bluetooth">Bluetooth ukax mä jach’a uñacht’äwiwa</string>
+    <string name="folders">Carpetas</string>
+    <string name="folderfilecount">%1$d carpetas ukat %2$d archivonaka</string>
+    
+    
+    <string name="documents">Qillqanaka</string>
+    <string name="images">Imajinaka</string>
+    <string name="clear">Qhana</string>
+    
+    <string name="total">Taqi:</string>
+    <string name="calculating">jakthapiwi</string>
+    <string name="sort">Ordenar</string>
+    <string name="ascending">Ascende</string>
+    <string name="descending">Saraqaña</string>
+    <string name="default_string">Jan wali</string>
+    <string name="doit">Ukhamti</string>
+    <string name="want_help">Yanapt’aña munasmati?</string>
+    <string name="quick">Jank’aki mantañataki</string>
+    <string name="recent">Jichha qillqatanaka</string>
+    <string name="edit">Editar</string>
+    <string name="find">Página ukan jikxatañamawa</string>
+    <string name="grant">Yanapt’aña</string>
+    <string name="grantper">Permiso churaña</string>
+    <string name="grantfailed">Permiso janiw churatäkiti</string>
+    <string name="grant_storage_permission">App ukax sarantañapatakix almacenamiento permiso ukax wakisiwa. Aka aruskipäw chhaqtayañax app ukat mistuñapawa.</string>
+    <string name="operation_unsuccesful">Operación Janiw askïkiti</string>
+    <string name="creatingfile">Archivo luraña</string>
+    <string name="creatingfolder">Carpeta luraña</string>
+    <string name="renaming">Suti mayjt’ayaña</string>
+    <string name="cant_be_empty">%s ukax janiw ch’usakïkaspati</string>
+    <string name="ip">Dirección</string>
+    <string name="connection_name">Conexión suti</string>
+    <string name="no_device_found">Janiw kuna dispositivos ukanakas jikxataskiti</string>
+    <string name="path">Thakhi</string>
+    <string name="rename_bookmark">Marcador mayjt’ayaña</string>
+    
+    <string name="search">Thaqhaña</string>
+    <string name="invalid_name">Jan wali Suti</string>
+    <string name="search_hint">Thaqhañataki qillqt’aña...</string>
+    <string name="advanced_search">Nayraqata thaqhaña</string>
+    <string name="regular_expression">Expresión regular</string>
+    <string name="regular_expression_summary">Expresión regular estilo BASH ukampi thaqhaña</string>
+    <string name="match_content">Contenido ukar uñtasita</string>
+    <string name="match_content_summary">Uñt’ayatächi ukhaxa, expresión regular ukax taqpach archivo sutimpiw chikancht’asi,
+        jan ukhamäkchi ukhax uñstawi thaqhani.</string>
+    <string name="start_ftp">Qalltañataki</string>
+    <string name="stop_ftp">Shat</string>
+    <string name="ftp_status_running">T’ijt’aña</string>
+    <string name="ftp_status_not_running">Janiw t’ijtkiti</string>
+    <string name="ftp_no_wifi">Wi-Fi ukar uñt\'ayañamawa</string>
+    <string name="domain">Dominio</string>
+    <string name="smb_share">Compartir thakhi</string>
+    <string name="invalid">Jan wali %s</string>
+    <string name="ftp_notif_starting">Servidor FTP ukax qalltaski</string>
+    <string name="ftp_notif_starting_title">FTP Servidor</string>
+    <string name="ftp_notif_title">Muspharkañawa FTP Servidor ukax irnaqaski</string>
+    <string name="ftp_notif_text">%s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP puerto</string>
+    <string name="ftp_port_change_success">FTP puerto ukax suma mayjt’ayatawa</string>
+    <string name="ftp_port_change_error_invalid">Jan wali puerto jakhu ajllitawa</string>
+    <string name="primary_two_title">Nayrïr Color (Chiqa Pestaña)</string>
+    <string name="primary_two_summary">Saminak jach’a elementos UI ukar chiqa tab ukar uñt’ayaña</string>
+    <string name="support_development">Desarrollo de apoyo</string>
+    <string name="report_bugs_title">Jan walt’awinak yatiyaña</string>
+    <string name="source_title">Código fuente</string>
+    <string name="source_summary">Jiwasan código fuente uñakipt’añäni GitHub</string>
+    <string name="report_bugs_summary">Jan walt’awinak yatiyaña jan ukax machaq lurawi mayiña</string>
+    <string name="translate_title">Jaqukipaña</string>
+    <string name="translate_summary">Jaqukipaña Amaze ukax aruman</string>
+    <string name="paypal_copy_message">ID PayPal ukax portapapeles ukar copiatawa</string>
+    <string name="searching_devices">Dispositivos ukar thaqhaña</string>
+    <string name="use_custom_ip">IP costumbre apnaqaña</string>
+    <string name="bookmark_lost">Marcador ukax janiw jikxataskiti, wasitat luraña...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Kunjamas Android (SMB) ukan Windows carpeta compartida ukar mantañax\n\n
+                
+                    
+                        Windows ukan Archivonak chikancht’asiñ ch’amanchaña\n
+                    
+                    
+                        Panel de Control jist’araña, Red ukanxa HomeGroup ukatxa Compartir ukanaka ajlliñatakiwa
+                        ukat Internet ukaruw ch’iqt’añama, ukat “Configuración de compartición avanzada ukar mayjt’ayaña” ukx ch’iqt’añamawa, “Archivo ukat...
+                        Impresora Compartir" uka lurawi.\n\n
+                    
+
+                    
+                        Yaqha Archivo Compartido ukan utt’ayatanakapa\n
+                    
+                    
+                        Ukhamarakiw yaqha nayrar sartat chikancht’asiñ wakichäwinak aka chiqan wakicht’añ munaraksna. \n
+                        Amuyt’añataki, taqinir atinisiñax jan contraseñampiw archivonakamar mantañax ch’amanchasispa
+                        uka dispositivonakax red local ukan utji. Mä kutix archivo ukat impresora ukanakamp chikancht’asiñax ch’amanchatawa, ukax lurasispawa
+                        jist’araña File Explorer jan ukaxa Windows Explorer, ch’iqa tuqiru ch’iqt’aña mä carpeta uñt’ayañataki, ukatxa
+                        Propiedades ukanaka ajlliñamawa. \n
+                        Compartir ukxaru ch’iqt’aña ukatxa carpeta ukaxa red ukana utjañapawa.\n\n
+                        
+
+                    
+                        Panpacha dispositivonakax pachpa Wifi\n ukankapxañapatakiw uñjañama
+                    
+                    
+                        Aka lurawix archivonakax red local ukan utjañapatakiw lurasi, ukhamat PC ukat dispositivos móviles ukanaka
+                        pachpa red local ukankapxañapawa. Janiw Windows carpeta compartida ukar mantañax wakiskiti
+                        Internet tuqi jan ukax kunapachatix smartphone ukax datos móviles ukar uñt’ayat ukhax — ukax
+                        Wi-Fi ukar uñt\'ayañaw wakisi.\n\n
+                    
+
+                    
+                        Dirección IP ukar jikxataña\n
+                    
+                    
+                        Jist’araña Kamachi Uñakipaña. \'ipconfig\' qillqt\'aña ukatxa Enter ukxaru ch\'iqt\'aña. Uñakipt’aña Default Gateway
+                        adaptador de red ukax router\'s IP ukar uñt\'ayañataki. Uñakipt’apxañani
+                        \\\"IPv4 Dirección\\\" pachpa adaptador uksanxa computadora\'s IP jikxatañataki
+                        dirección.\n\n
+                    
+
+                    SMB aruskipañ chimpun yatiyawinak qillqt’aña\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Janiw 100 jila qillqatanakax jaljañjamäkiti</string>
+    <string name="otg_access">OTG dispositivo ukan saphip ajlliñamawa</string>
+    <string name="information">Yatiyawi</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Accesado</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Modificado</string>
+
+    <string name="title">Título</string>
+    <string name="artist">Artista</string>
+    <string name="album">Álbum</string>
+    <string name="year">Mara</string>
+    <string name="duration">Qhawqha pachasa</string>
+    <string name="comment">Qhanacht’awi</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Contenedor</string>
+    <string name="codec">Código</string>
+    <string name="channels">Canales</string>
+    <string name="sample_rate">Tasa de muestra</string>
+    <string name="bitrate">Bitrato</string>
+    <string name="dimensions">Dimensiones</string>
+    <string name="frame_rate">Tasa de marco</string>
+    <string name="image_type">Tipo de imagen</string>
+    <string name="width">Ancho</string>
+    <string name="height">Altura</string>
+    <string name="date_modified">Uraqi mayjt’ayata</string>
+    
+    <string name="creator">Lururi</string>
+    <string name="camera_brand">Cámara Marca</string>
+    <string name="camera_model">Cámara Modelo</string>
+    <string name="date_taken">Uka uru apsuta</string>
+    <string name="exposure_time">Exposición pacha</string>
+    <string name="aperture_value">Apertura valor</string>
+    <string name="image_iso">ISO velocidad uñakipaña</string>
+    <string name="flash_fired">Flash Irnaqt’ayata</string>
+    <string name="focal_length">Distancia focal</string>
+    <string name="subject">Materia</string>
+    <string name="author">Qillqiri</string>
+    <string name="keywords">Jach’a arunaka</string>
+    <string name="producer">Aru</string>
+    <string name="created">Uñt’ayata</string>
+    <string name="format">Formato</string>
+    <string name="pages">Jakhuwi Pankanaka</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Askichata</string>
+    <string name="security">Qillqata</string>
+    <string name="paper_size">Papel Tama</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Yaqhip qillqatanakax janiw suma %s</string>
+    <string name="copied">copiatäkänti</string>
+    <string name="moved">jist’ayata</string>
+    <string name="copy_complete">Copia Completo</string>
+    <string name="waiting_title">Suyt’aña</string>
+    <string name="waiting_content">Suyt’aña operación tukuyaña</string>
+    <string name="extract_complete">Extracción tukuyaña</string>
+    <string name="compression_complete">Compresión tukuyaña</string>
+    <string name="compressing">Comprimir</string>
+    <string name="cancelled">Cancelado</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Qillqata</string>
+    <string name="out_of">u</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">u</string>
+    <string name="processing_file">Archivo lurawi</string>
+    <string name="current_speed">Jichha pacha jank’aki</string>
+    <string name="smb_launch_error">Aka qillqat jist’arañatakix imañ utar copiañaw wakisi</string>
+    <string name="error_file_not_found">Pantjasiwi: Arsuwix janiw jikxataskiti</string>
+    <string name="error_io">E/S Pantjasiwi</string>
+    <string name="error_file_too_large">Pantjasiwi: Arsuwix sinti jach’awa</string>
+    <string name="medium_text">Medio Texto</string>
+    <string name="permission_read">Uñakipt’aña</string>
+    <string name="permission_write">Qillqaña</string>
+    <string name="permission_execute">Ejecutar</string>
+    <string name="permission_owner">Uywiri</string>
+    <string name="permission_group">Grupo</string>
+    <string name="permission_other">Yaqha</string>
+    <string name="clipboard_path_copy">Thakhix portapapeles ukar copiatawa</string>
+    <string name="service_timer">Tiempo pasawayxi</string>
+    <string name="please_wait">Aski suyt’aña</string>
+
+    <string name="cloud_connection">Qhixu qhixu uñt’ayawi</string>
+    <string name="cloud_connection_new">Machaq qinaya uñt’ayawi</string>
+    
+    <string name="cloud_drive">Google DriveTM</string>
+    
+    <string name="cloud_box">Cacua</string>
+    <string name="cloud_get">Plugin Cloud ukar katuqaña</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Janiw kuna aplicacionanakas utjkiti</string>
+    <string name="ftp_path">Compartido Thakhi</string>
+    <string name="ftp_path_hint">Thakhi directorio saphiru uñt’ayañataki</string>
+    <string name="change">Mayjt’ayaña</string>
+    <string name="unknown_error">Ay, kunas jan walt’ayata!</string>
+
+    <string name="ftp_path_change_success">FTP thakhixa suma mayjt’ayatawa</string>
+    <string name="ftp_path_change_error_invalid">Jan wali thakhi</string>
+    <string name="ftp_status_no_connection">Janiwa Conexión</string>
+    <string name="ftp_status_secure_connection">Seguro Conexión</string>
+    <string name="ftp_status_title">Estado</string>
+    <string name="ftp_port">Puerto</string>
+    <string name="ftp_login">Mantaña</string>
+    <string name="field_empty">Yapuxa janiwa ch\'usakïkaspati</string>
+    <string name="ftp_timeout">Inactivo tiempo de espera</string>
+    <string name="ftp_seconds">Segundos</string>
+    <string name="intellihide_toolbar_title">Intellihide Barra de Herramientas</string>
+    <string name="intellihide_toolbar_summary">Automáticamente imantaña barra de herramientas ukaxa desplazamiento</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">copiado portapapeles</string>
+    <string name="contributors_1_summary">Jaqukipaña</string>
+    <string name="contributors_2_summary">Icono ukat pancartas</string>
+    <string name="contributors_3_summary">Motor de Tema</string>
+    <string name="contributors_4_summary">FAB qhipäxan ch\'amanchawi</string>
+    <string name="contributors_5_summary">Saminak mayjt’ayaña kunawsatix tablas ukar swiping</string>
+    <string name="contributors_6_summary">Servidor FTP</string>
+    <string name="contributors_7_summary">Mä concha interactiva ukar ch’amanchaña</string>
+    <string name="connection_exists">Conexión ukax nayratpach utji</string>
+
+    <string name="crypt_encrypting">Chifrado</string>
+    <string name="crypt_decrypting">Descifrado</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Chifrado</string>
+    <string name="crypt_decrypted">Descifrado</string>
+    <string name="crypt_encrypt">Encriptar</string>
+    <string name="crypt_decrypt">Descifrar</string>
+    <string name="operation_fail_following">Aka qillqatanakatakixa lurawixa janiwa phuqhaskiti</string>
+    <string name="crypt_pref_master_password_title">Master Contraseña</string>
+    <string name="crypt_pref_master_password_summary">Chifrado ukatakixa mä master contraseña utt’ayaña.
+        Ch’usa jaytaña apsuñataki.</string>
+    <string name="crypt_pref_fingerprint_title">Huella digital</string>
+    <string name="crypt_pref_fingerprint_summary">Jan ch’iyar ch’iyar ch’ankha apnaqaña encriptación chiqanchañataki</string>
+    <string name="crypt_fingerprint_no_permission">Huella digital permisos janiw utjkiti</string>
+    <string name="crypt_fingerprint_not_enrolled">Janiw huella digital qillqantatäkiti</string>
+    <string name="crypt_fingerprint_no_security">Janiw pantalla bloqueo seguridad ukax utjkiti jikxatasi</string>
+    <string name="crypt_warning_key">Iwxt’atäñamawa, kunapachatixa mayjt’ayaña seguridad patrón ukatxa
+        Sistema ukan utt\'ayatanakapa, janiw aka contenido descifrar ukax utjkaniti.</string>
+    <string name="warning_never_show">Jan mayamp yatiyañati</string>
+    <string name="warning_confirm">Amuyawayta!</string>
+    <string name="crypt_encryption_fail">Janiw encriptar</string>
+    <string name="crypt_decryption_fail">Janiw descifrar</string>
+    <string name="crypt_decryption_fail_password">Jan wali contraseña!</string>
+    <string name="crypt_fingerprint_authenticate">Sensor táctil ukax sarantañataki</string>
+    <string name="authenticate_password">Contraseña ukar mantañamawa</string>
+
+    <string name="sidebar_preferences">Barrra lateral</string>
+    <string name="sidebar_quick_access_title">Barra lateral jank\'ak mantañ</string>
+    <string name="show_quick_access_pref_title">Jank\'ak mantañanak uñacht\'ayaña</string>
+    <string name="show_quick_access_pref">Jank’ak mantañanak uñacht’ayaña</string>
+    <string name="directory">Directorio</string>
+
+    <string name="sidebar_bookmarks_title">Barrra lateral ukan chimpunaka</string>
+    <string name="show_bookmarks_pref_title">Marka uñacht’ayaña</string>
+    <string name="show_bookmarks_pref">Jank’a chimpunaka</string>
+    <string name="create_bookmark">Marcador luraña</string>
+    <string name="edit_bookmark">Marcador chiqañchaña</string>
+    <string name="question_delete_bookmark">Marcador chhaqtayaña?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin ukax janiw jikxataskiti. Play Store ukan apkatañamawa.</string>
+    <string name="cloud_error_failed_restart">Janiw kunas utjkiti.
+        Mä kuti Amaze Cloud jist’arañamawa.</string>
+    <string name="cloud_remove">¿Qhixu qhixu uñt’ayawi apsuñ munasmati?</string>
+    <string name="cloud_fail_authenticate">Janiw chiqaw sañjamäkiti</string>
+    <string name="cloud_share_copied">Compartir enlace ukax portapapeles ukar copiatawa</string>
+    <string name="copy_low_memory">T’unjatawa amuyu, mä qawqha RAM</string>
+    <string name="cloud_token_lost">Token chhaqhat q’umachañamawa, mayamp mantam</string>
+    <string name="monofont">Font Monoespacio</string>
+    <string name="showHeaders">P’iqinchanaka uñacht’ayaña</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Janiw kuna yänakas utjkiti</string>
+	<string name="item">artículo</string>
+	<string name="items">kuna</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Archivo ukax mä sutimpiw uñt’ayasiñapa</string>
+    <string name="add_item">Yatiyañ utar yapxataña</string>
+    <string name="failed_smb_decrypt_path">Janiw apkatañjamäkiti SMB conexión</string>
+    <string name="failed_cloud_new_connection">Machaq Cloud conexión yapxatañax janiw utjkiti</string>
+    <string name="failed_cloud_api_key">Cloud plugin ukar chiqanchañax janiw utjkiti</string>
+
+    <string name="local_inet_addr_error">Pantjasiw local inet dirección</string>
+    <string name="intent_save_as">Save as...</string>
+    
+    <string name="advanced">Nayra sartawi</string>
+    <string name="typeable_paths_title">Thakhinaka sapa mayniru</string>
+    <string name="typeable_paths_summary">Jach’a ch’iqa ch’iqa tuqiru ch’iqt’aña mä thakhi qillqt’añataki</string>
+    <string name="send_email_to">Mä correo electrónico ukar apaña</string>
+
+    <string name="text_editor">Qillqata editor ukana wakichawipa</string>
+    <string name="preference_newstack_title">Archivos machaq lurawi ukhama jist’araña</string>
+    <string name="preference_newstack_summary">Sapa lurawinakan qillqatanaka jist’arañatakiwa. Jupanakarux sistema recentes pantallat mantañamawa.</string>
+    
+    <string name="developers">Desarrolladores</string>
+    <string name="no_bitcoin_app">Mä Bitcoin Wallet app ukar uskt\'añamawa</string>
+    <string name="channel_name_normal">Muspharkañawa Yatiyawinaka</string>
+    <string name="channel_description_normal">Muspharkañawa Archivo apnaqiri\'s Yatiyawinaka</string>
+    <string name="channel_name_ftp">Amaze FTP Servidor</string>
+    <string name="channel_description_ftp">Amaze Archivo apnaqiri FTP Servidor\'s Yatiyawinaka</string>
+
+    
+    <string name="processing">Proceso...</string>
+    <string name="failed_no_connection">Archivonakaxa janiwa apkatatäkiti. Uñakipt’añatakix conexión uñakipt’añamawa.</string>
+
+    <string name="update">AKTUALIZACIÓN</string>
+	<string name="scp_connection">SCP/SFTP Conexión</string>
+    <string name="ftp_connection">FTP Conexión</string>
+    <string name="ftps_connection">FTP ukat SSL Conexión</string>
+    <string name="scp_port">Puerto</string>
+    <string name="ssh_host_key_verification_prompt">Host \'%1$s\' ukan chiqapar uñjatapax janiw utt\'ayatäkaspati.\n\n%2$s llave fingerprint ukax %3$s ukhamawa.\n\n\'Jïsa\" ukx ch\'iqt\'añamawa chiqañchañataki khititansa; jan ukhamäkanixa, \"Janiw\" ukxaru ch’iqt’añamawa.</string>
+    <string name="ssh_host_key_verification_prompt_title">Host chiqañchañamawa</string>
+    <string name="ssh_select_pem_button">SSH Privado Llave</string>
+    <string name="ssh_pem_key_parse_error">Janiw ajllit PEM uñakipt’añjamäkiti: %s</string>
+    <string name="password_unchanged">(janiw mayjt’ayatakiti)</string>
+    <string name="ssh_authentication_failure_password">Jan walt’awi: Janiwa chiqañchañjamäkiti churata apnaqiri sutimpi ukhamaraki contraseñampi.</string>
+    <string name="ssh_authentication_failure_key">Mantaña jani chiqapa: Janiwa chiqapa uñt’ayañjamäkiti churata apnaqiri sutimpi ukhamaraki privado llavempi.</string>
+    <string name="ssh_connect_failed">Janiwa %1$sukampi chikachasiñakiti s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">AKHAM LURASMA: IDENTIFICACIÓN DE HOST REMOTA UKAX MAYNATÄXIWA!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">JANIW MAYNIX AKHAM LURASPA!\n\nMaynix jumar ist\'aspa jichhax (jaqix chika taypin ataque)! Ukhamaraki, inas uka llave host ukax jichhak mayjt’ayatächispa. Jayankir utar apayat llave pública ukatakix ch’iyar ch’akhax janiw Amaze ukan imatäki ukampi kikipäkiti.\n\nSistema apnaqirir jawst’añamawa jan ukax machaq conexión wakicht’añamawa servidor ukar chikañchaskakiñataki.</string>
+    <string name="ssh_key_prompt_passphrase">Amuyañamawa clave contraseña.</string>
+    <string name="add_shortcut_not_supported_by_launcher">Jach’a thakhi lurañaxa janiwa lanzador ukampixa yanapt’atäkiti.</string>
+    
+    <string name="select_color_config">Ajlliñani color config</string>
+    <string name="customize">Personalización</string>
+    <string name="custom">Custo</string>
+    <string name="preselected_configs_title">Configuraciones nayra ajllitanaka</string>
+    <string name="orange">Naranja</string>
+    <string name="blue">Ch`uxña</string>
+    <string name="green">Ch`uxña</string>
+    <string name="password_no_match">Contraseña ukax janiw kikipäkiti</string>
+    <string name="deselect_all">Taqi jan ajlliñamawa</string>
+    <string name="filename">Archivo suti</string>
+    <string name="compress_file_suggest_zip_extension">\".zip\" uka apnaqañax wali askiwa, ukax mä archivo extensión ukhamawa.</string>
+    <string name="about_amaze">Android ukatakix material diseño archivo apnaqiri</string>
+    <string name="license">Licencia</string>
+    <string name="libraries">Bibliotecas</string>
+    <string name="password_repeat">Contraseña mayamp luraña</string>
+    <string name="create_file_suggest_txt_extension">\".txt\" uka apnaqañax wali askiwa, ukax mä archivo extensión ukhamawa.</string>
+    <string name="ssh_select_pem">Chiqañchañatakix privado llave ajlliñamawa</string>
+    <string name="ssh_key_invalid_passphrase">Jan wali llave contraseña.</string>
+    <string name="ssh_key_no_decoder_decrypt">Janiw mä chiqap decodificador ukax PEM descifrar ukatakix utjkiti.</string>
+    <string name="encryption_fail_copy">Janiw encriptación ukar mantañax base de datos ukan machaqar tukuyatäkiti</string>
+    <string name="extracted">Extratado</string>
+    <string name="compressed">Comprimido</string>
+    <string name="processed">Procesado</string>
+    <string name="no_obtainable_info">Janiw kuna yatiyawis aka qillqatanx utjkiti</string>
+    <string name="reopen_from_source">Janiw lurañjamäkiti, qhipa app ukanx wasitat jist\'arañamawa</string>
+    <string name="no_file_error">Kunas jan walt\'ayawayi, janiw kunas jist\'arañax utjkiti</string>
+    <string name="file_too_long">The qillqatax wali jach’awa ukatx janiw mayjt’ayatäkaspati, ukampis nayrïr %d chimpunak uñakipt’asmawa</string>
+    <string name="file_read_only">Jist’arat qillqatax ullart’añatakikiw.</string>
+    <string name="got_it">Aski!</string>
+    <string name="encrypt_file_save_as">Save Encrypted Archivo Kunjama...</string>
+    <string name="encrypt_folder_save_as">Carpeta encriptada ukhama imaña...</string>
+    <string name="encrypt_option_use_aze">Formato de Encriptación Amaze apnaqaña</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt ukax mä formato abierto de código fuente de archivo encriptación ukawa, ukax AES encriptación ukarjam luratawa. Ukhamarakiw apañjamawa, yaqha plataformanakan AESCrypt wakichäwinakampiw descifrar lurasispa.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt ukan sitio web</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[ukax mä juk’a pachanakanwa
+        <p>Amaze\'s Formato de Encriptación ukax AES encriptación ukarjam luratawa; ukampis formato AESCrypt ukat sipanx mayjawa, ukax aka dispositivo tuqikiw descifrar lurasispa; ukhamaraki janiwa Amaze File Manager ukaxa aka dispositivo ukata apsuñakiti jani ukaxa pantalla bloqueo ukarjama mayjt’ayañakiti, jani ukaxa janiwa kunasa utjkaniti encriptado archivo kutt’ayañataki.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Chifrado qillqatanakax \".aze\" ukham apnaqañapawa arsuwi jilxatawi.</string>
+    <string name="encrypt_file_must_end_with_aes">Chiqt’at qillqatanakax \".aes\" qillqat jach’anchawimp apnaqañapawa.</string>
+    <string name="error_aescrypt_decrypt_failed">Janiw ch’amanchañjamakiti \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Janiw qillqat qillqt\'añjamäkiti.</string>
+    <string name="saved_single_file">Archivox \'%s\' ukham imatäxiwa.</string>
+    <string name="saved_multi_files">%d qillqatanakax imatäxiwa.</string>
+    <string name="create_hidden_file_warn">Uñt’ayat qillqatax qillqat listaruw imantasini.</string>
+    <string name="grant_apkinstall_permission">App ukax apps ukar uñstayañatakix permiso ukax wakisi sarantaskakiwa.</string>
+    <string name="time_remaining">Tiempo qhiparañapawa</string>
+    <string name="transfer_rate">Tasa de transferencia</string>
+    <string name="unknown">jan uñt’ata</string>
+    <string name="multiple_invalid_archive_entries">Archivo ukan yaqhip qillqatanakax janiw apsutäkaspati; archivox jan walt\'ayataw uñjasispa jan ukax jan wali phunchhawit jutaspa.</string>
+    <string name="saf_otg_explanation">Jichhax Android\'s sistema de ficheros ukaruw sarañama seguridad tuqita. Ch’iqa tuqinkir lista ukanx USB dispositivo ukx ajlliñamawa.</string>
+    <string name="donation_thanks">Yuspärañaw yanapt’awimata, ukax ch’amanchañatakiw yanapt’istu! (:</string>
+    <string name="enable_marquee_filename">Archivo sutinakataki marquee efecto ch’amanchaña</string>
+    <string name="archive_password_prompt">Archivo contraseña qillqt’aña:</string>
+    
+    <string name="cannot_extract_archive">Janiw archivo apsuñakiti \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Janiwa archivo jist’araña \"%s\".Jan ukax janiw archivo jist’arañjamakiti, jan ukax archivox jan walt’ayataw uñjasi.</string>
+    <string name="close">Jist’antaña</string>
+    <string name="bookmark_exists">Marcador ukax utji</string>
+    <string name="hide_media">Medios de comunicación uñakipirinakat imantaña</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">JANIW MAYNIX AKHAM LURASPA!\n\nMaynix jichhax ist\'asispawa (ataque de hombre-in-the-middle)!Ukhamaraki inas llave host ukax jichhak mayjt\'ayatächispa.Huella digital kunatix jaya chiqat apayat llave pública ukax janiw Amaze ukan imatäki ukampi kikipäkiti.\n\nUñt’ir ampar luk’anap machaqar tukuyañampiw sarantasma jan ukax SSH mayachasiñ wakichäwinak machaqar tukuyañampiw sarantasma.</string>
+    <string name="update_host_key">Host Llave machaqar tukuyaña</string>
+    <string name="cancel_recommended">Cancelar (Iwxt’atawa)</string>
+    
+    
+    <string name="failed_install_apk">Janiw uskt’atäkiti</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Manqhankir imaña</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Tarjeta SD</string>
+    <string name="choose_folder">Aka Carpeta ajlliñamawa</string>
+    
+    <string name="some_files_failed_invalid_operation">Yaqhip qillqatanakax jan walt’ayataw uñjasi operación</string>
+    <string name="ftp_server_prompt_connect_to_network">Mä red ukar chikañchasiña jan ukax AP ukar ch’amanchaña</string>
+    <string name="ftp_server_open_settings">Jist’arañ wakichäwinak</string>
+    <string name="move">Kust’ayaña</string>
+    <string name="select_save_location">Qhispiyañatakix kawkhans utji uk ajlliñamawa</string>
+    <string name="scp_default_path">Thakhi nayraqat (Janiw munaskiti)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Askiw, janiw ukax lurasiñapäkänti.</string>
+    
+    <string name="error_report_button_text">Aka pantjasiw correo electrónico tuqi yatiyaña</string>
+    <string name="error_report_button_telegram">Aka pantjasiw telegrama tuqi yatiyaña</string>
+    <string name="copy_for_github">Formato formato yatiyaw copia</string>
+    <string name="error_report_open_issue_button_text">GitHub ukan yatiyaña</string>
+    <string name="error_report_open_github_notice">Uñakipt’añamawa kuna jan walt’awis ch’axwawimat aruskipt’aski ukax nayratpach utji.</string>
+    <string name="error_snackbar_message">Askiw, kunas jan walt’ayat uñjasi.</string>
+    <string name="error_snackbar_action">Yatiy</string>
+    <string name="what_device_headline">Yatiyawi:</string>
+    <string name="what_happened_headline">Kunas pasäna:</string>
+    <string name="info_labels">Kunas:\\nMayisiña:\\nGMT Pacha:\\nPaquete:\\nVersión:\\nOS versión:\\nDispositivo:\\nModelo:\\nProducto :</string>
+    <string name="your_comment">Juman amuyt’awimax (inglés arun):</string>
+    <string name="error_details_headline">Detalles:</string>
+    <string name="app_ui_crash">App/UI ukax jan walt’ayatawa</string>
+    <string name="error_report_title">Pantjasiw yatiyawi</string>
+    <string name="crash_report_copied">Ch’axwañ yatiyawix copiatawa portapapeles</string>
+    <string name="disableIpcSignature">IPC firmañ uñakipañ jan ch’amanchaña (SMBv1 herencia servidoranakataki - UNSAFE!)</string>
+    <string name="cannot_delete_file">Janiw arsuwi chhaqtayañjamäkiti</string>
+    <string name="cannot_delete_file_with_reason">Janiw qillqat chhaqtayañjamäkiti - %s</string>
+    <string name="cannot_rename_file">Janiw qillqat suti mayjt’ayañakiti %s - %s</string>
+    <string name="cannot_read_directory">Janiw directorio %s uñakipt’añjamäkiti - %s</string>
+    <string name="just_once">Mä kutikiw</string>
+    <string name="always">Sapa kuti</string>
+    <string name="choose_different_app">Yaqha apnaqawi ajlliñani</string>
+    <string name="clear_open_file">Q’umachaña cache</string>
+    <string name="clear_open_file_summary">Ajllitanaka nayraqata archivo jist’araña apps ukanaka q’umacha</string>
+    <string name="ftp_readonly">Uñakipt’añatakik mantañ</string>
+    <string name="legacy_listing_title">Root ukatakix herencia lista apnaqaña</string>
+    <string name="legacy_listing_summary">Ukham ch’amanchatächi ukhaxa, legacy método apnaqi ark listar lurañataki</string>
+    <string name="error_unsupported_v5_rar">RAR archivo \"%s\" ukax janiw yanapt’atäkiti RAR v5 archivo.</string>
+    <string name="ftp_prompt_restart_server">FTP servidor ukax wasitat qalltañaw wakisi mayjt’awinakax phuqhasiñapataki.</string>
+    <string name="error_permission_denied">Permisox janiw churatäkiti</string>
+    <string name="error_archive_password_incorrect">Jan wali archivo contraseña.</string>
+    <string name="error_archive_cannot_extract">Janiw archivo qillqat \"%s\" ukar \"%s\" ukar apsuñjamäkiti.</string>
+    <string name="drag_and_drop_preference">Ajllt’aña ukat jaqukipañ munaña (Experimental)</string>
+    <string name="drag_to_move_copy">Llamt’aña ukatxa ayxataña archivonaka apsuñataki jan ukaxa copiañataki</string>
+    <string name="drag_to_select">Llamt’aña ukatxa ayxataña archivonaka ajlliñatakiwa</string>
+    <string name="disable">Jan ch’amanchaña</string>
+    <string name="choose_operation">Ajlliña operación lurañataki</string>
+    <string name="remember">Jutir pachataki amtañani</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP servidor ukatakix SAF ukar mantañax churañawa</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Niyakejjay akax FTP servidor ukan nayrïr apnaqawipawa, ukatx dispositivo ukan manqhan imañap carpeta compartida ukham apnaqañamawa, Amaze ukarux apnaqasaw imañ utar mantañapatak jaysañama SAF.\n\n ukax mä juk’a pachanakanwa
+
+Mä kutikiw uk lurañama, jutïr kutin machaq chiqawj chikancht’asiñ ajlliñakama.</string>
+    <string name="android_data_prompt_saf_access">Android 10 ukhatpachax Android ukax yaqhip directorios ukarux jark’awinak uñstayatayna, ukatx jupanakax Storage Access Framework ukampiw mantapxañapa.\n \nAmaze ukax sistema\'s archivo apnaqirit directorio ukar mantañapatak jaysañamawa \"Allow Access\" uk ch\'iqt\'asa.</string>
+    <string name="android_data_prompt_saf_access_title">SAF ukar mantañ churañamawa</string>
+    <string name="ftp_preference_saf_filesystem_title">Sistema de archivos herenciales apnaqaña</string>
+    <string name="ftp_preference_saf_filesystem">Akax dispositivo anqäx imañ apnaqañ yanapt’añatakiw ch’amanchasi machaq Android versión ukanakan</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP servidor compartido thakhix manqhan imañar kutt’ayatänwa kunjamatix kutt’anktan ukhama herencia sistema de ficheros ukan phuqhawipa. Mä machaq thakhi ajlliñamawa menú ukampiwa ch’iqa tuqiru kunjamatixa wakiski ukhama.</string>
+    <string name="ftp_server_reset_notify">FTP servidor compartido thakhixa manqhana imaña ukarux kutt’ayatäxänwa</string>
+    <string name="ftp_server_root_unavailable">Mä thakhi ajlliñamawa kunatixa saphiru mantañawa wakisi. Ukhamaraki, root explorer ukarux configuración ukan ch’amanchañamawa, dispositivo ukax saphintat ukhamawa.</string>
+    <string name="ftp_server_root_filesystem_warning">Mä thakhi ajlliñamawa kunatix root ukar mantañax wakisi, ukax dispositivo ukan taqpach sistema de ficheros ukan uñakipañ/qillqañ lurawinakaruw yanapt’i, ukatx jan walt’ayiriwa - jan amuyt’asis pantjasiwinakax utjaspawa ladrillo dispositivo!\n\nChiqati?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">URI \"%s\" jist\'araña pantjawi uñakipañataki.</string>
+    <string name="error_empty_archive">\"%s\" mä ch\'usa archivo.</string>
+    <string name="error_bad_archive_without_info">\"%s\" ukax mä jan walt\'ayat archivowa.</string>
+    <string name="error_bad_archive_with_info">\"%s\" ukax mä jan walt\'ayat archivowa.\nExtractor ukan yatiyawipa: \"%s\"</string>
+    <string name="security_error">Archivox janiw atipkanti aka app apnaqasa jist’aratäñapawa</string>
+    <string name="cloud_drive_tooltip">Google DriveTM conexión luraña Amaze File Manager ukan qillqatanaka apnaqañataki.</string>
+    <string name="signin_with_google_title">Google DriveTM apnaqañataki chiqanchaña</string>
+    <string name="show_system_apps">Sistema apps uñacht’ayaña</string>
+    <string name="system_apps">Sistema apps</string>
+    <string name="select_inverse">Inverso ajlliñani</string>
+    <string name="select_by_type">Tipo ukarjama ajlliñani</string>
+    <string name="select_by_date">Uraqjama ajlliñani</string>
+    <string name="select_similar">Uñtasita ajlliñani</string>
+    <string name="error_fetching_google_play_product_list">Pantjasiwi producto lista apsuñataki Google Play.</string>
+    <string name="grant_all_files_permission">Android 11 ukhatpacha, Google ukax Archivo Gestores ukanakaruw mayi, dispositivo ukan taqi archivonakap apnaqañatakix apnaqirin permiso mayiñapataki. Aka chiqanx detalles ukanakaw utji.
+        \n\nAmaze File Manager ukax aka permiso munarakiw. Aka chiqanx "Grant" ukx ch\'iqt\'ayasax, jutir pantalla ukanx Permitir acceso para manejar todos los ficheros opción uk ajlliñamawa.
+        \n\nAka aruskipawi chhaqtayañaxa app ukata mistuñapawa.</string>
+    <string name="user_apps">Usuyiri apps</string>
+    <string name="appearance">Uñtawi</string>
+    <string name="behavior">Sarxawi</string>
+    <string name="appearance_summary">Archivo apnaqirin tema, colores ukat uñnaqap mayjt’ayaña</string>
+    <string name="ui_summary">Kuna yatiyawinaksa uñacht’ayañapa apnaqaña, lado barra ukarjama luraña, ukhamaraki UI munañanaka mayjt’ayaña</string>
+    <string name="behavior_summary">Sarxawi mayjt’ayaña kunjamatixa nayraru sartaña thakhi ukhamaraki qillqatanaka jist’araña machaq lurawi ukhama</string>
+    <string name="security_summary">Contraseña wakicht’aña ukat encriptación</string>
+    <string name="backup_summary">Export/Import Amaze ukan utt’ayata</string>
+
+    <string name="pref_export">Exportar</string>
+    <string name="pref_export_summary">Export ukan utt’ayata</string>
+    <string name="pref_import">Importación</string>
+    <string name="pref_import_summary">Importar ukan utt’ayata</string>
+
+    <string name="quick_desc">Archivos jichhakiw Amaze tuqi mantawayi</string>
+    <string name="recent_desc">Jichhak lurat jan ukax mayjt’ayat qillqatanaka</string>
+    <string name="error_cannot_find_way_open">Janiw qillqat jist’arañatakix thakhi jikxataskiti</string>
+    <string name="error_cant_decompress_that_file">Janiw mayit archivox lurañjamäkiti</string>
+    <string name="analyse_storage">Almacenamiento uñakipaña</string>
+    
+    <string name="download_amaze_utils_text">Ukax Amaze File Utilities ukar uñt\'ayatawa. Ukax jiwasan app abierto de código fuente ukawa, ukax audio/video/imagen/documento uñakipirinakaniwa, ukax archivos basuras ukanakat uñakipañatakiw jayti, ukhamat imañ qhispiyañataki, Wifi P2P apnaqasa jank\'ak apañataki ukat juk\'ampinaka.\nYant\'asaw yanapt\'apxita.</string>
+    <string name="download">Apaqaña</string>
+    
+    <string name="amaze_utils_installed_alias">Amaze File Utilities ukan utt’ayatapat yuspajarapxsma. Jumax app ukar kutt\'ayatätawa.</string>
+    <string name="image_viewer">Muspharkañawa Imajin uñjiri</string>
+    <string name="video_player">Muspharkañawa Video Reproductor</string>
+    <string name="amaze_audio_player">Muspharkañawa Musica Reproductor</string>
+    <string name="pdf_viewer">Muspharkañawa Documento Uñch\'ukiri</string>
+    <string name="docx_viewer">Muspharkañawa Documento Uñch’ukiri</string>
+    <string name="share_logs">Registronak chikancht’asiña</string>
+    <string name="share_logs_summary">Amuyaña qillqatanaka correo electrónico / telegrama tuqi uñt’ayaña</string>
+    <string name="open_with_amaze">Amaze ukampi jist’araña</string>
+    <string name="confirmation">Chiqanchawi</string>
+    <string name="open_file_confirmation">¿Aka qillqat jist’arañ munasmati?\n\nSuti:\n%s\n\nUka:\n%s\n\nTama:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n ukax mä juk’a pachanakanwa</string>
+    <string name="error_google_play_cannot_update_myself">Google Play kamachirjam kamachiparjamaxa, apps ukax janiw jupanakpachax machaqar tukuyañapatak jaysatäkiti. Google Play ukan app ukar machaqar tukuyañamawa.</string>
+    <string name="error_cannot_get_package_info">Janiw \"%s\" qillqatat paquete ukan yatiyawip katuqañjamäkiti. Jan ukax uñt’ayat qillqatax janiw APK ukhamäkiti, jan ukax paquete qillqatax jan walt’ayatawa.</string>
+    <string name="preference_delete_confirmation">Chiqanchawi chhaqtayaña</string>
+    <string name="preference_delete_confirmation_summary">Janiräkipanx chiqañchäwi mayiñamawa. Uk jan ch’amanchañax wali ch’amanchatawa!</string>
+    
+    
+    <string name="protocol_ftps">FTP seguro</string>
+    <string name="unavailable">Janiw utjkiti</string>
+
+    <string name="exporting_failed">Exportación ukax janiw phuqhaskiti: janiw copia de seguridad qillqat qillqt’añjamäkiti</string>
+    <string name="importing_failed">Importación ukax janiw phuqhaskiti: janiw copia de seguridad uñakipt’añjamäkiti archivo</string>
+    <string name="importing_completed">Importación tukuyata</string>
+    <string name="invalid_backup_file">Jan wali copia de seguridad archivo</string>
+    <string name="import_failed_for">Importación ukax janiw phuqhaskiti:</string>
+    <string name="free_of">"%s\n%s ukax %s ukan qhispiyatawa</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin ukax janiw F- ukamp yanapt\'atäkiti. Droid versión.Amaze ukan Play Store versión uka apnaqañamawa.</string>
+    <string name="disable_player_intent_filters">Filtros de intención de jugadores ukar jan ch’amanchaña</string>
+    <string name="disable_player_intent_filters_summary">Amaze inbuilt media players ukar archivo ajlliñ tuqit jan ch’amanchaña</string>
+    <string name="no_app_found_intent">Janiw mä app ukax jikxataskiti aka amta apnaqañataki. ¿DocumentosUI ukax utjiti?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection ukan credenciales ukanakax q’umachatawa</string>
+    <string name="cloud_connection_credentials_cleared_msg">Llakiskañawa, janiw cloud conexión ukan credenciales ukanakax machaq esquema de base de datos ukar jaqukipañjamäkiti, ukat app ukanx apsuñaw wakisi uka qinayax mayamp chikt’atawa.</string>
+</resources>

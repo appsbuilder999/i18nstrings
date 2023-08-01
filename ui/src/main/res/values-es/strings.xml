@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+    <string name="i18n_ui_setting">Configuración de idioma</string>
+
+    <string name="i18n_type_none">Predeterminado del dispositivo</string>
+    <string name="i18n_type_release">Integrado</string>
+    
+    
+    <string name="i18n_type_online_cache">Caché en línea</string>
+    <string name="i18n_type_online">En línea</string>
+
+    <string name="i18n_not_supported">No se detectó ningún archivo de configuración. Asegúrese de que el complemento i18nStrings se haya integrado en su proyecto y que la tarea \"i18nStrings\" se haya ejecutado en el módulo de la aplicación.</string>
+    <string name="i18n_ui_disclaimer_title">Descargo de responsabilidad</string>
+    <string name="i18n_ui_disclaimer_content">Nuestra aplicación ahora admite varias opciones de idioma, incluidas algunas que aún son experimentales. este soporte de lenguaje experimental puede contener errores, traducciones inexactas o visualización incompleta del texto. estamos trabajando arduamente para mejorar la compatibilidad con estos idiomas, pero no podemos garantizar que estén libres de errores o que tengan el mismo estándar de calidad que otros idiomas totalmente compatibles. \nuusuarios que utilicen opciones de lenguaje experimentales deben comprender que nuestro equipo no será responsable de los problemas causados ​​por el uso de estas opciones de lenguaje experimentales, incluidos, entre otros, información malinterpretada, engañosa o cualquier otro problema potencial. \nAnimamos a los usuarios a informar cualquier problema o error que encuentren al usar estas opciones de idioma experimentales. apreciamos su comprensión y apoyo, y nuestro equipo está comprometido a mejorar y perfeccionar continuamente el soporte multilingüe.</string>
+    <string name="i18n_ui_disclaimer_agree">Acepto</string>
+    <string name="i18n_ui_disclaimer_disagree">No estoy de acuerdo</string>
+
+    <string name="i18n_ui_reboot_title">Reiniciar para tener efecto después de cambiar de idioma</string>
+    <string name="i18n_ui_reboot_content">¿Está seguro de cambiar y reiniciar?</string>
+
+    <string name="i18n_ui_refresh_title">Actualizar datos de traducción</string>
+    <string name="i18n_ui_refresh_content">¿Está seguro de actualizar los datos de traducción?</string>
+
+    <string name="i18n_ui_realtime_translate_title">Traducción en tiempo real</string>
+    <string name="i18n_ui_realtime_translate_comfirm_min">%d minutos estimados para traducir %d textos. ¿Continuar?</string>
+    <string name="i18n_ui_realtime_translate_comfirm_sec">Estimación de %d segundos para traducir %d textos. ¿Continuar?</string>
+    <string name="i18n_ui_realtime_translate_text">Traduciendo, espera...</string>
+    <string name="i18n_ui_realtime_translate_text_with_time_sec">Se estima que la traducción tardará %ds , ten paciencia.</string>
+    <string name="i18n_ui_realtime_translate_fails_title">La traducción en tiempo real falla</string>
+    <string name="i18n_ui_realtime_translate_fails_content">Consulte el registro de errores y asegúrese de que su red pueda visitar https://translate.google.com</string>
+</resources>

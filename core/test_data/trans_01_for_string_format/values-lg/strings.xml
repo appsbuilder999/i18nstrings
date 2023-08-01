@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Yewuunyisa Omuddukanya Fayiro</string>
+    <string name="drawer_open">Ggulawo ddulaaya y\'okutambulirako</string>
+    <string name="drawer_close">Ggalawo ddulaaya y\'okutambulirako</string>
+    <string name="icon">akabonero</string>
+    <string name="apps">Omuddukanya App</string>
+    
+    <string name="setting">Ensengeka</string>
+    <string name="select">Londa Ekintu</string>
+    <string name="press_again">Ddamu onyige okufuluma</string>
+    <string name="open">Ggulawo</string>
+    <string name="backup">Okutereka</string>
+    <string name="uninstall">Ggyawo</string>
+    <string name="play">Edduuka ly\'okuzannya</string>
+    <string name="properties">Eby\'obugagga</string>
+    <string name="copyingapks">Okukoppa fayiro za %d APK ku %s</string>
+    <string name="delbook">Sazaamu Bookmark</string>
+    <string name="add_to_bookmarks">Ongera ku Bookmarks</string>
+    <string name="enterpath">Yinga Ekkubo</string>
+    
+    <string name="create">TONDA</string>
+    <string name="loading">Okutikka...</string>
+    <string name="file_empty">Fayiro njereere</string>
+    <string name="error">Ensobi</string>
+    <string name="search_results">Ebivudde mu kunoonyereza kwa %s</string>
+    <string name="rename">Kyuusa erinnya</string>
+    <string name="save">Teeka</string>
+    <string name="bookmarks_added">Obubonero Bwongerwako</string>
+    <string name="fileexist">Fayiro erimu erinnya lye limu eriwo dda</string>
+    <string name="name">Erinnya</string>
+    <string name="date">Olunaku</string>
+    <string name="location">Ekifo</string>
+    
+    <string name="size">sayizi ya folda</string>
+    <string name="enterzipname">Ssaamu Erinnya lya Zip</string>
+    <string name="no_app_found">Tewali App ezuuliddwa kuggulawo fayiro eno</string>
+    <string name="copying">Okukoppa</string>
+    <string name="moving">Okutambuza</string>
+    <string name="file">Fayiro</string>
+    <string name="folder">Folda</string>
+    <string name="newfolder">Folda Empya</string>
+    <string name="entername">Yinga Erinnya</string>
+    <string name="extracting">Okuggyamu</string>
+    <string name="stopping">Okuyimiriza</string>
+    <string name="open_parent">Ggulawo Dayirekita y\'abazadde</string>
+    <string name="open_with">Ggulawo ne</string>
+    <string name="share">Gabana</string>
+    <string name="about">Ebikwata ku</string>
+    <string name="extract">Ggyayo</string>
+    <string name="compress">Nyigiriza</string>
+    <string name="yes">Yee</string>
+    <string name="no">Nedda</string>
+    
+    <string name="dialog_delete_category_directories">Endagiriro</string>
+    <string name="dialog_delete_category_files">Fayiro</string>
+    <string name="dialog_delete_disclaimer">Okusazaamu ebintu ebiri wansi kijja kubiggyawo enkalakkalira ku kyuma kyo era tebisobola kuzuulibwa.</string>
+    <string name="dialog_delete_title">Sazaamu ebintu enkalakkalira?</string>
+    <string name="deleting">Okusazaamu</string>
+    <string name="question_set_path_as_home">Oyagala okuteeka ekkubo eririko kati nga amaka ga tabu eno?</string>
+    <string name="directorysort">Engeri y\'okusunsulamu endagiriro</string>
+    <string name="sort_by">Sonya Okusinziira ku</string>
+    <string name="sort_only_this">Folda eno yokka</string>
+    <string name="theme">Omulamwa</string>
+    <string name="random">Olususu olutali lwa bulijjo</string>
+    <string name="random_summary">Eteeka langi enkulu etali ya bulijjo ku ntandikwa</string>
+    <string name="colorize">Embala Ebifaananyi</string>
+    <string name="colorize_summary">Eteekawo langi y\'akabonero akatakyukakyuka. Tekyusa langi ya kabonero ka dayirekita.</string>
+    <string name="home">Awaka</string>
+    <string name="paste">Teeka</string>
+    <string name="history">Ebyafaayo</string>
+    <string name="copy">Koppa</string>
+    <string name="root_mode">Omunoonyereza ku bikoola</string>
+    <string name="root_mode_summary">Ku kyuma ekiriko emirandira kyokka. Kikebere singa oba okakasa ku kyo.</string>
+    <string name="root_failure">Okuyingira mu kikolo tekukkirizibwa</string>
+    <string name="select_all">Londa Byonna</string>
+    <string name="delete">Sazaamu</string>
+    <string name="set_as_home">Teeka Nga Awaka</string>
+    <string name="operation_not_supported">Okukola tekuwagirwa</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Ekitangaala ky’Ekikozesebwa</string>
+    <string name="dark">Ekizikiza ky’Ekintu</string>
+    <string name="daytime">Ekiseera ky’Emisana</string>
+    <string name="black">Ekiddugavu (ku OLED)</string>
+    <string name="system">Enkola (goberera omulamwa gw’enkola)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Folda Ku Ngulu</string>
+    <string name="filesOnTop">Fayiro Ku Waggulu</string>
+    <string name="none_on_top">Tewali Ku Waggulu</string>
+    <!--SortBy-->
+    <string name="sort_name">Erinnya</string>
+    <string name="lastModified">Eyasembayo Okukyusibwa</string>
+    
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Londa fayiro</string>
+    <string name="process_viewer">Omulabi w’enkola</string>
+    <string name="in_safe">Ekifo ekitali kimala</string>
+    <string name="no_file_overwrite">Tewali Fayiro Ewandiikiddwako</string>
+    <string name="skip">Buuka</string>
+    <string name="overwrite">Okuwandiika ku</string>
+    <string name="not_allowed">Tekikkirizibwa</string>
+    <string name="searching">Okunoonya %s</string>
+    <string name="done">Kikoze</string>
+    <string name="set">Teeka</string>
+    <string name="enablerootmde">Ssobozesa Enkola y\'Emirandira</string>
+    <string name="goback">Dda emabega</string>
+    <string name="newfile">Fayiro Empya</string>
+    <string name="no_files">Tewali Fayiro</string>
+    <string name="used">ekifo ekikozesebwa</string>
+    <string name="used_by_others">ekikozesebwa abalala</string>
+    <string name="free">ekifo eky\'obwereere</string>
+    <string name="listview">Okulaba Olukalala</string>
+    <string name="gridview">Grid Laba</string>
+    <string name="permission">Olukusa</string>
+    <string name="hide">Kweka</string>
+    <string name="exit">Fuluma</string>
+    <string name="doforall">Kola ku bintu byonna</string>
+    <string name="gridcolumnno">Omuwendo gw\'ennyiriri mu kulaba kwa giridi</string>
+    <string name="set_random">Enkyukakyuka zijja kubaawo oluvannyuma lw\'okuddamu okutandika app</string>
+    <string name="authors">Abawandiisi</string>
+    <string name="changelog">Ekitabo ky’enkyukakyuka</string>
+    
+    <string name="ui">Enkolagana</string>
+    <string name="general">Ekika</string>
+    <string name="thumb_summary">Laga Ebifaananyi ebitonotono ebya apps n’ebifaananyi</string>
+    <string name="thumb">Laga Ebifaananyi ebitonotono</string>
+    <string name="hidden">Laga Fayiro n’Ebifo Ebikwekeddwa</string>
+    <string name="lastModifiedSummary">Laga olunaku n’essaawa gye byasembayo okukyusibwa</string>
+    <string name="lastModifiedPref">Laga Olunaku Lwasembyeyo Okukyusibwa ne Ebiseera</string>
+    <string name="size_pref_summary">Laga obunene bwa fayiro n\'omuwendo gw\'ebintu mu folda</string>
+    <string name="size_pref">Laga Sayizi</string>
+    <string name="miscellaneous">Eby\'enjawulo</string>
+    <string name="root_pref_summary">Laga Olukusa lwa Fayiro ne Folda</string>
+    <string name="root_pref">Laga Olukusa</string>
+    <string name="about_amaze_file_manager_label">Ebikwata ku Amaze File Manager</string>
+    <string name="version">Enkyusa</string>
+    <string name="rate">Teeka app</string>
+    <string name="feedback">Wereza Ebiteeso</string>
+    <string name="hiddenfiles">Fayiro Enkweke</string>
+    <string name="type">Ekika</string>
+    <string name="root_directory">Ekikolo</string>
+    <string name="add_shortcut">Ongera ku Shortcut</string>
+    <string name="unsaved_changes">Enkyukakyuka ezitaterekeddwa</string>
+    <string name="unsaved_changes_description">Olina enkyukakyuka ezitaterekeddwa, oyagala okuzitereka nga tonnafuluma?</string>
+    <string name="saving">Okutereka</string>
+    <string name="package_installer">Omuteeka Paka</string>
+    <string name="view">Laba</string>
+    <string name="install">Teeka</string>
+    <string name="archive">Etterekero</string>
+    <string name="archive_text">Kino kiterekeddwa. Kikolwa ki kye wandyagadde okukola?</string>
+    <string name="package_installer_text">Kino kiteeka package. Kikolwa ki kye wandyagadde okukola?</string>
+    <string name="xda_title">Oluwuzi lwa XDA</string>
+    <string name="xda_summary">Ebibuuzo n\'Ebyokuddamu, Obuyambi n\'Okugonjoola Ebizibu</string>
+    <string name="circular_images">Kozesa obubonero obwekulungirivu ku bifaananyi ne vidiyo</string>
+    <string name="circular_icons">Kozesa obubonero obwekulungirivu</string>
+    <string name="back_title">Okutambula emabega</string>
+    <string name="back_summary">Esobozesa okutambulira emabega mu ngeri ey\'enjawulo waggulu ku lukalala</string>
+    <string name="details">Ebisingawo</string>
+    <string name="translators">Abavvuunuzi</string>
+    <string name="german_translation_title">Olugirimaani</string>
+    <string name="italian_translation_title">Oluyitale</string>
+    <string name="french_translation_title">Olufaransa</string>
+    <string name="russian_translation_title">Olurussia</string>
+    <string name="spanish_translation_title">Olusipeyini</string>
+    <string name="basque_translation_title">Olubasque</string>
+    <string name="chinese_translation_title">Oluchina</string>
+    <string name="serbian_translation_title">Oluserbia</string>
+    <string name="turkish_translation_title">Olutuluuki</string>
+    <string name="ukrainian_translation_title">Oluyukireniya</string>
+    <string name="portuguese_translation_title">Olupotugo</string>
+    <string name="polish_translation_title">Olupolandi</string>
+    <string name="korean_translation_title">Olukorea</string>
+    <string name="greek_translation_title">Oluyonaani</string>
+    <string name="dutch_translation_title">Oludaaki</string>
+    <string name="romanian_translation_title">Oluroma</string>
+    <string name="vietnamese_translation_title">Oluvietnam</string>
+    <string name="japanese_translation_title">Olujapani</string>
+    <string name="tamil_translation_title">Olutamil</string>
+
+    <string name="zip_viewer">Omulabi wa Zipu</string>
+    <string name="unin_system_apk">Eno app ya nkola, okugisazaamu kiyinza okuvaako enkola obutabeera nnywevu.\ nMugende mu maaso?</string>
+    <string name="warning">Okulabula</string>
+    <string name="donate">Okuwaayo</string>
+    <string name="archive_extract_folder">Folda y\'okuggya mu tterekero</string>
+    <string name="archive_summary">Fayiro z\'okutereka zijja kuggyibwa mu folda eno. Omuwendo ogusookerwako gwe dayirekita omuli archive.</string>
+    <string name="open_as">Ggulawo Nga</string>
+    <string name="text">Ekiwandiiko</string>
+    <string name="audio">Amaloboozi</string>
+    <string name="video">Vidiyo</string>
+    <string name="other">Ebirala</string>
+    <string name="image">Ekifaananyi</string>
+    <string name="contributors">Abawaayo</string>
+    <string name="save_paths">Jjukira amakubo</string>
+    <string name="save_path_summary">Bw\'oba otandika, ekitabo ekisembyeyo okulabibwa ku buli tabu kijja kulagibwa</string>
+    <string name="select_intent">Londa</string>
+    <string name="database">Ekitabo ky’amawulire</string>
+    <string name="colored_navigation">Ebbaala y’okutambulira mu langi</string>
+    <string name="colored_navigvation_sum">Oba oba nedda system navigation bar eriko langi n\'olususu</string>
+
+    <string name="color_title">Langi</string>
+    <string name="color_summary">Teeka langi ku bitundu bya UI eby\'enjawulo</string>
+    <string name="primary_color_title">Langi Esookerwako (Taabu ya Kkono)</string>
+    <string name="primary_color_summary">Teeka langi ku bintu ebinene ebya UI ku tabu ya kkono</string>
+    <string name="accent_color_title">Langi ya Accent</string>
+    <string name="accent_color_summary">Teeka langi ku FAB ne UI endala entono elements</string>
+    <string name="icon_color_title">Langi y’Ebifaananyi</string>
+    <string name="icon_color_summary">Teeka langi ku bifaananyi</string>
+    <string name="choose_color">Londa langi</string>
+    <string name="files">Fayiro</string>
+    <string name="textreader">Omusomi w’Ebiwandiiko</string>
+    <string name="databasereader">Omusomi wa Database</string>
+    <string name="show_dividers">Laga Abagabanya</string>
+    <string name="needs_access">Okuyingira kw\'okuwandiika kwetaagisa</string>
+    <string name="needs_access_summary">Nkusaba olonde dayirekita y\'ekikolo ya \t</string>
+    <string name="needs_access_summary1">\okukkiriza okuwandiika okukola</string>
+    <string name="smb_connection">Omukago gwa SMB</string>
+    <string name="smb_server">Endagiriro ya IP ya Seva</string>
+    <string name="server_address">Endagiriro ya IP ya Seva</string>
+    <string name="username">Erinnya ly\'omukozesa</string>
+    <string name="password">Ekigambo ky\'okuyita</string>
+    <string name="anonymous">Ekitamanyiddwa mannya</string>
+    
+    <string name="folders">Ebitabo</string>
+    <string name="folderfilecount">%1$d ebitabo ne %2$d fayiro</string>
+    <string name="videos">Vidiyo</string>
+    
+    <string name="documents">Ebiwandiiko</string>
+    <string name="images">Ebifaananyi</string>
+    <string name="clear">Okulongoosa</string>
+    
+    <string name="total">Omugatte:</string>
+    <string name="calculating">okubala</string>
+    <string name="sort">Okusunsula</string>
+    <string name="ascending">Okulinnya</string>
+    <string name="descending">Okukka</string>
+    <string name="default_string">Ekisookerwako</string>
+    <string name="doit">Kikola</string>
+    <string name="want_help">Okwetaaga obuyambi?</string>
+    <string name="quick">Okutuuka amangu</string>
+    <string name="recent">Fayiro ezisembyeyo</string>
+    <string name="edit">Okukyusa</string>
+    <string name="find">Funa mu lupapula</string>
+    <string name="grant">Okugaba</string>
+    <string name="grantper">Okuwa olukusa</string>
+    <string name="grantfailed">Olukusa teruweereddwa</string>
+    <string name="grant_storage_permission">App yeetaaga olukusa lw\'okutereka okugenda mu maaso. Okusazaamu akasengejja kano kijja kufuluma mu app.</string>
+    <string name="operation_unsuccesful">Okukola Tekufunye buwanguzi</string>
+    <string name="creatingfile">Okutondawo Fayiro</string>
+    <string name="creatingfolder">Okutondawo Folda</string>
+    <string name="renaming">Okukyusa amannya</string>
+    <string name="cant_be_empty">%s teziyinza kuba bwereere</string>
+    <string name="ip">Endagiriro</string>
+    <string name="connection_name">Erinnya ly\'omukago</string>
+    <string name="no_device_found">Tewali byuma bizuuliddwa</string>
+    <string name="path">Ekkubo</string>
+    <string name="rename_bookmark">Kyusa Bookmark</string>
+    <string name="cut">Ssala</string>
+    <string name="search">Noonya</string>
+    <string name="invalid_name">Erinnya eritali ntuufu</string>
+    <string name="search_hint">Ekika ky\'okunoonya...</string>
+    <string name="advanced_search">Okunoonya okw\'omulembe</string>
+    <string name="regular_expression">Ekigambo ekya bulijjo</string>
+    <string name="regular_expression_summary">Noonya ng\'okozesa ekigambo ekya bulijjo eky\'omulembe gwa BASH</string>
+    <string name="match_content">Genkanya ebirimu</string>
+    <string name="match_content_summary">Singa kiteekebwawo, ekigambo ekya bulijjo kijja kukwatagana n\'erinnya lya fayiro lyonna,
+        ejja kunoonya okubeerawo mu ngeri endala.</string>
+    <string name="start_ftp">Tandika</string>
+    <string name="stop_ftp">Koma</string>
+    <string name="ftp_status_running">Okudduka</string>
+    <string name="ftp_status_not_running">Tekudduka</string>
+    <string name="ftp_no_wifi">Kakasa nti oyungiddwa ku Wi -Fi</string>
+    <string name="domain">Ekifo</string>
+    <string name="smb_share">Ekkubo ly\'okugabana</string>
+    <string name="invalid">%s etali ntuufu</string>
+    <string name="ftp_notif_starting">FTP Server etandise</string>
+    <string name="ftp_notif_starting_title">Seva ya FTP</string>
+    <string name="ftp_notif_title">Weewuunye FTP Server ekola</string>
+    <string name="ftp_notif_text">ku %s</string>
+    <string name="ftp_notif_stop_server">YIMIRIZA</string>
+    <string name="ftp_port_edit_menu_title">Omwalo gwa FTP</string>
+    <string name="ftp_port_change_success">Omwalo gwa FTP gwakyuka bulungi</string>
+    <string name="ftp_port_change_error_invalid">Ennamba y\'omwalo etali ntuufu yalondeddwa</string>
+    <string name="primary_two_title">Langi Ensookerwako (Taabu eya Ddyo)</string>
+    <string name="primary_two_summary">Teeka langi ku bintu ebinene ebya UI ku tabu entuufu</string>
+    <string name="support_development">Enkulaakulana y\'Obuwagizi</string>
+    <string name="report_bugs_title">Oloopa ebizibu</string>
+    <string name="source_title">Ensibuko ya koodi</string>
+    <string name="source_summary">Laba ensibuko yaffe ku GitHub</string>
+    <string name="report_bugs_summary">Loopa ebizibu oba saba ekintu ekipya</string>
+    <string name="translate_title">Vunula</string>
+    <string name="translate_summary">Vunula Weewuunye mu lulimi lwo</string>
+    <string name="paypal_copy_message">PayPal ID ekoppeddwa ku clipboard</string>
+    <string name="searching_devices">Okunoonya ebyuma</string>
+    <string name="use_custom_ip">Kozesa IP eya bulijjo</string>
+    <string name="bookmark_lost">Bookmark tezuuliddwa, okuddamu okukola...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Engeri y\'okuyingira mu folda ya Windows egabanyizibwa ku Android (SMB)\n\n
+                
+                    
+                        Ssobozesa Okugabana Fayiro ku Windows\n
+                    
+                    
+                        Ggulawo Control Panel, nyweza Londa HomeGroup ne Sharing options wansi wa Network
+                        ne Intaneeti, n\'onyiga "Change Advanced Sharing Settings," sobozesa "Fayiro ne...
+                        Ekintu eky\'okugabana ku Printer".\n\n
+                    
+
+                    
+                        Enteekateeka endala ez\'okugabana Fayiro\n
+                    
+                    
+                        Oyinza n\'okwagala okutegeka ensengeka endala ez\'okugabana ez\'omulembe wano. \n
+                        Okugeza, oyinza okusobozesa okuyingira mu fayiro zo nga tolina kigambo kya kuyita singa oba weesiga zonna
+                        ebyuma ebiri ku mutimbagano gwo ogw’omu kitundu. Oluvannyuma lw\'okugabana fayiro ne printa okusobozesa, osobola
+                        ggulawo File Explorer oba Windows Explorer, koona ku ddyo ku folda gy’oyagala okugabana, era
+                        londa Ebintu. \n
+                        Nywa ku bbaatuuni Gabana era okole ekitabo okubeera ku mutimbagano.\n\n
+                        
+
+                    
+                        Kakasa nti ebyuma byombi biri ku Wifi emu\n
+                    
+                    
+                        Ekintu kino kifuula fayiro okubeera ku mutimbagano gw’omu kitundu, kale PC yo n’ebyuma by’oku ssimu
+                        balina okuba ku mutimbagano gwe gumu ogw’omu kitundu. Tosobola kuyingira mu folda ya Windows egabanyizibwa
+                        ku yintaneeti oba nga ssimu yo ey’omu ngalo eyungibwa ku data yaayo ey’oku ssimu — it
+                        erina okuyungibwa ku Wi-Fi.\n\n
+                    
+
+                    
+                        Funa Endagiriro ya IP\n
+                    
+                    
+                        Ggulawo Ekiragiro Ekiragiro. Wandiika \'ipconfig\' n\'onyiga Enter. Noonya Omulyango ogusookerwako
+                        wansi wa network adapter yo ku router\'s IP address yo. Noonya
+                        \\\"IPv4 Address\\\" wansi w\\\" wansi w\'ekitundu kya adapter kyekimu okuzuula IP ya kompyuta yo
+                        endagiriro.\n\n
+                    
+
+                    Yingiza ebikwata ku nsonga mu kasengejja ka SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Tesobola kugabana fayiro ezisukka mu 100</string>
+    <string name="otg_access">Londa ekikolo ky\'ekyuma kya OTG</string>
+    <string name="information">Amawulire</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Ekituukiddwaako</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Ekyusiddwa</string>
+
+    <string name="title">Omutwe</string>
+    <string name="artist">Omuyimbi</string>
+    <string name="album">Alubaamu</string>
+    <string name="year">Omwaka</string>
+    <string name="duration">Ebbanga</string>
+    <string name="comment">Okuteesa</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Konteyina</string>
+    <string name="codec">Koodiko</string>
+    <string name="channels">Emikutu</string>
+    <string name="sample_rate">Omuwendo gw’ekyokulabirako</string>
+    
+    <string name="dimensions">Ebipimo</string>
+    <string name="frame_rate">Omuwendo gwa Fuleemu</string>
+    <string name="image_type">Ekika ky’Ekifaananyi</string>
+    <string name="width">Obugazi</string>
+    <string name="height">Obugulumivu</string>
+    <string name="date_modified">Olunaku lwakyusibwa</string>
+    <string name="software">Sofutiweya</string>
+    <string name="creator">Omutonzi</string>
+    <string name="camera_brand">Ekika kya Kamera</string>
+    <string name="camera_model">Kkamera Model</string>
+    <string name="date_taken">Olunaku Lwatwaliddwa</string>
+    <string name="exposure_time">Obudde bw’Okubikkula</string>
+    <string name="aperture_value">Omuwendo gw’Aperture</string>
+    <string name="image_iso">Okupima Sipiidi ya ISO</string>
+    <string name="flash_fired">Flash ekubiddwa</string>
+    <string name="focal_length">Obuwanvu bw’Ekifo</string>
+    <string name="subject">Essomo</string>
+    <string name="author">Omuwandiisi</string>
+    <string name="keywords">Ebigambo ebikulu</string>
+    <string name="producer">Omufulumya</string>
+    <string name="created">Eyatondebwa</string>
+    <string name="format">Ensengeka</string>
+    <string name="pages">Omuwendo gwa Emiko</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Egirongooseddwa</string>
+    <string name="security">Obukuumi</string>
+    <string name="paper_size">Obunene bw\'empapula</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Fayiro ezimu tezaakoppebwa bulungi %s</string>
+    <string name="copied"/>
+    <string name="moved">yasenguka</string>
+    <string name="copy_complete">Koppa Emaliriziddwa</string>
+    <string name="waiting_title">Nnindirira</string>
+    <string name="waiting_content">Okulinda okukola okuggwa</string>
+    <string name="extract_complete">Okuggyamu kuwedde</string>
+    <string name="compression_complete">Okunyiga kuwedde</string>
+    <string name="compressing">Okunyiga</string>
+    <string name="cancelled">Kasaziddwamu</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Ekiwandiiko</string>
+    <string name="out_of">okuva mu</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ya</string>
+    <string name="processing_file">Fayiro y’okukola</string>
+    <string name="current_speed">Sipiidi eriwo kati</string>
+    <string name="smb_launch_error">Ojja kwetaaga okukoppa fayiro eno mu tterekero okugiggulawo</string>
+    <string name="error_file_not_found">Ensobi: Fayiro Tezuuliddwa</string>
+    <string name="error_io">Ensobi ya I/O</string>
+    <string name="error_file_too_large">Ensobi: Fayiro Nnene nnyo</string>
+    <string name="medium_text">Ekiwandiiko eky\'omu makkati</string>
+    <string name="permission_read">Soma</string>
+    <string name="permission_write">Wandiika</string>
+    <string name="permission_execute">Okukola</string>
+    <string name="permission_owner">Nnannyini</string>
+    <string name="permission_group">Ekibinja</string>
+    <string name="permission_other">Ebirala</string>
+    <string name="clipboard_path_copy">Ekkubo eryakoppololwa ku clipboard</string>
+    <string name="service_timer">Ekiseera ekiyise</string>
+    <string name="please_wait">Nsaba Lindako</string>
+
+    <string name="cloud_connection">Okuyungibwa kw\'Ekire</string>
+    <string name="cloud_connection_new">Okuyungibwa kw\'Ekire Ekipya</string>
+    <string name="cloud_dropbox">Ekibokisi</string>
+    <string name="cloud_drive">Google DriveTM</string>
+    
+    <string name="cloud_box">Ebokisi</string>
+    <string name="cloud_get">Funa Cloud plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Tewali nkola</string>
+    <string name="ftp_path">Ekkubo erigabanyizibwa</string>
+    <string name="ftp_path_hint">Ekkubo erigenda mu kikolo kya dayirekita okugabana</string>
+    <string name="change">Kyusa</string>
+    <string name="unknown_error">Oops, waliwo ekikyamu!</string>
+
+    <string name="ftp_path_change_success">Ekkubo lya FTP lyakyuka bulungi</string>
+    <string name="ftp_path_change_error_invalid">Ekkubo eritali ntuufu</string>
+    <string name="ftp_status_no_connection">Tewali Muyungiro</string>
+    <string name="ftp_status_secure_connection">Omukago ogw\'obukuumi</string>
+    <string name="ftp_status_title">Embeera</string>
+    <string name="ftp_port">Omwalo</string>
+    <string name="ftp_login">Okuyingira</string>
+    <string name="field_empty">Ennimiro teyinza kuba njereere</string>
+    <string name="ftp_timeout">Ekiseera ekitaliiko kye kiwedde</string>
+    <string name="ftp_seconds">Sekondi</string>
+    <string name="intellihide_toolbar_title">Intellihide Ebbaala y’ebikozesebwa</string>
+    <string name="intellihide_toolbar_summary">kweka ebbaala y’ebikozesebwa mu ngeri ey’otoma ng’ogenda</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">ekoppoloddwa ku kipande</string>
+    <string name="contributors_1_summary">Okuvvuunula</string>
+    <string name="contributors_2_summary">Ekifaananyi ne banner</string>
+    <string name="contributors_3_summary">Yingini y\'omulamwa</string>
+    <string name="contributors_4_summary">Ekisiikirize emabega wa FAB</string>
+    <string name="contributors_5_summary">Okukyusa langi nga osika tabu</string>
+    <string name="contributors_6_summary">Seva ya FTP</string>
+    <string name="contributors_7_summary">Okukuba ekisusunku ekikwatagana</string>
+    <string name="connection_exists">Omukago ebaddewo dda</string>
+
+    <string name="crypt_encrypting">Okusiba</string>
+    <string name="crypt_decrypting">Okuggya ensirifu</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Ekikubiddwa</string>
+    <string name="crypt_decrypted">Ekiggiddwamu</string>
+    <string name="crypt_encrypt">Okusiba</string>
+    <string name="crypt_decrypt">Okuggyamu</string>
+    <string name="operation_fail_following">Okukola kulemereddwa ku fayiro zino wammanga</string>
+    <string name="crypt_pref_master_password_title">Ekigambo ky\'okuyingira ekikulu</string>
+    <string name="crypt_pref_master_password_summary">Teeka ekigambo ekikulu eky\'okusiba.
+        Leka nga njereere okuggyawo.</string>
+    <string name="crypt_pref_fingerprint_title">Engalo</string>
+    <string name="crypt_pref_fingerprint_summary">Kozesa engalo okukakasa ensirifu</string>
+    <string name="crypt_fingerprint_no_permission">Olukusa lw\'engalo lubuze</string>
+    <string name="crypt_fingerprint_not_enrolled">Tewali kiwandiiko kya ngalo</string>
+    <string name="crypt_fingerprint_no_security">Tewali bukuumi bwa lockscreen found</string>
+    <string name="crypt_warning_key">Be amagezi, nga okyusa enkola yo ey\'obukuumi okuva
+        Ensengeka z\'enkola, tojja kusobola kusumulula birimu bino.</string>
+    <string name="warning_never_show">Toddamu kutegeeza</string>
+    <string name="warning_confirm">Kifunye!</string>
+    <string name="crypt_encryption_fail">Eremereddwa okusiba</string>
+    <string name="crypt_decryption_fail">Eremereddwa okuggyamu</string>
+    <string name="crypt_decryption_fail_password">Ekigambo ky\'okuyingira ekikyamu!</string>
+    <string name="crypt_fingerprint_authenticate">Kuba ku sensa okugenda mu maaso</string>
+    <string name="authenticate_password">Yinga ekigambo ky\'okuyingira</string>
+
+    <string name="sidebar_preferences">Ebbaala</string>
+    <string name="sidebar_quick_access_title">Okuyingira amangu ku bbali</string>
+    <string name="show_quick_access_pref_title">Laga ebituukiddwaako amangu</string>
+    <string name="show_quick_access_pref">Ebiyingizibwa amangu</string>
+    <string name="directory">Endagiriro</string>
+
+    <string name="sidebar_bookmarks_title">Ebifaananyi eby\'oku mabbali</string>
+    <string name="show_bookmarks_pref_title">Laga obubonero</string>
+    <string name="show_bookmarks_pref">Obubonero</string>
+    <string name="create_bookmark">Tonda akabonero</string>
+    <string name="edit_bookmark">Edita akabonero</string>
+    <string name="question_delete_bookmark">Sazaamu akabonero?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin tezuuliddwa. Nsaba owanule okuva ku Play Store.</string>
+    <string name="cloud_error_failed_restart">Eremereddwa okutikka omukutu.
+        Nsaba oggulewo Amaze Cloud omulundi gumu.</string>
+    <string name="cloud_remove">Oyagala okuggyawo omukago gw\'ekire?</string>
+    <string name="cloud_fail_authenticate">Eremereddwa okukakasa</string>
+    <string name="cloud_share_copied">Omukago ogugabibwa gukoppoloddwa ku clipboard</string>
+    <string name="copy_low_memory">Oguweddewo memory, nsaba olongoose RAM ezimu</string>
+    <string name="cloud_token_lost">Token ebuze, nsaba oddemu oyingire</string>
+    <string name="monofont">Empandiika ya Monospace</string>
+    <string name="showHeaders">Laga Emitwe</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Tewali bintu</string>
+	<string name="item">ekintu</string>
+	<string name="items">ebintu</string>
+	
+	<string name="byte_singular">bayiti</string>
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Fayiro erina okuba n\'erinnya</string>
+    <string name="add_item">Okwongerako Ekintu</string>
+    <string name="failed_smb_decrypt_path">Eremereddwa okutikka SMB connection</string>
+    <string name="failed_cloud_new_connection">Eremereddwa okwongerako Cloud connection empya</string>
+    <string name="failed_cloud_api_key">Eremereddwa okukakasa Cloud plug-in</string>
+
+    <string name="local_inet_addr_error">Ensobi mu kufuna endagiriro ya inet ey\'omu kitundu</string>
+    <string name="intent_save_as">Teeka nga...</string>
+    <string name="go">Genda</string>
+    <string name="advanced">Ebimanyisibwa eby\'omulembe</string>
+    <string name="typeable_paths_title">Amakubo aga bulijjo</string>
+    <string name="typeable_paths_summary">Nywa ebbaala y’ekkubo eddene okuwandiika ekkubo ery’enjawulo</string>
+    <string name="send_email_to">Wereza e-mail ku</string>
+
+    <string name="text_editor">Ensengeka z\'omuwandiisi w\'ebiwandiiko</string>
+    <string name="preference_newstack_title">Ggulawo fayiro ng\'omulimu omupya</string>
+    <string name="preference_newstack_summary">Ekusobozesa okuggulawo fayiro mu mirimu egy\'enjawulo. Zifune okuva ku screen ya system recents.</string>
+    
+    <string name="developers">Abakola</string>
+    <string name="no_bitcoin_app">Nsaba oteekewo app ya Bitcoin Wallet</string>
+    <string name="channel_name_normal">Amaze Okumanyisibwa</string>
+    <string name="channel_description_normal">Ebyewuunyisa Omuddukanya Fayiro</string>
+    <string name="channel_name_ftp">Weewuunyisa Seva ya FTP</string>
+    <string name="channel_description_ftp">Amaze Fayiro Manager FTP Server\'s Notifications</string>
+
+    
+    <string name="processing">Okukola...</string>
+    <string name="failed_no_connection">Eremereddwa okutikka fayiro. Nsaba okebere omukago gwo.</string>
+
+    <string name="update">OKUTUUSA</string>
+	<string name="scp_connection">Omukago gwa SCP/SFTP</string>
+    <string name="ftp_connection">Omukago gwa FTP</string>
+    <string name="ftps_connection">Omukago gwa FTP ku SSL</string>
+    <string name="scp_port">Omwalo</string>
+    <string name="ssh_host_key_verification_prompt">Obutuufu bwa host \'%1$s\' tebusobola kuteekebwawo.\n\n%2$s key fingerprint ye %3$s.\n\nNsaba koona ku \"Yee\" okukakasa ebikukwatako; bwe kitaba ekyo, nsaba koona ku \"Nedda\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Kakasa Host</string>
+    <string name="ssh_select_pem_button">Ekisumuluzo eky\'ekyama ekya SSH</string>
+    <string name="ssh_pem_key_parse_error">Tekisobola kusoma PEM erongooseddwa: %s</string>
+    <string name="password_unchanged">(tekyusiddwa)</string>
+    <string name="ssh_authentication_failure_password">Okulemererwa okuyingira: Tekisoboka kukakasa n\'erinnya ly\'omukozesa n\'ekigambo ky\'okuyita ekiweereddwa.</string>
+    <string name="ssh_authentication_failure_key">Okulemererwa okuyingira: Tekisoboka kukakasa n\'erinnya ly\'omukozesa n\'ekisumuluzo eky\'ekyama ekiweereddwa.</string>
+    <string name="ssh_connect_failed">Tekisoboka kuyungibwa ku %1$ s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">WARNING: REMOTE HOST IDENTIFICATION KYUSE!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">KIsoboka NTI OMUNTU AKOZESA EKINTU EKIBI!\n\nOmuntu ayinza okuba ng\'akuwuliriza mu kiseera kino (okulumba omusajja-mu-makkati)! Era kisoboka okuba nti ekisumuluzo ky\'omugenyi kyakakyusibwa. Engalo y\'ekisumuluzo eky\'olukale esindikiddwa omukozi ow\'ewala tekwatagana n\'eyo eterekeddwa mu Amaze.\n\nNsaba otuukirire omuddukanya enkola yo oba teekawo omukago omupya okugenda mu maaso n\'okuyungibwa ku seva.</string>
+    <string name="ssh_key_prompt_passphrase">Nsaba oyingize ekigambo ky\'okuyita ekisumuluzo .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Okutonda amakubo amampi tekiwagirwa mutongozi wo.</string>
+    
+    <string name="select_color_config">Londa ensengeka ya langi</string>
+    <string name="customize">Okulongoosa</string>
+    <string name="custom">Okulongoosa</string>
+    <string name="preselected_configs_title">Ensengeka ezirondeddwa</string>
+    <string name="orange">Emicungwa</string>
+    <string name="blue">Bbulu</string>
+    <string name="green">Ekijanjalo</string>
+    <string name="password_no_match">Ekigambo ky\'okuyita tekikwatagana</string>
+    <string name="deselect_all">Ggyawo Byonna</string>
+    <string name="filename">Erinnya lya fayiro</string>
+    <string name="compress_file_suggest_zip_extension">Kiba kirungi okukozesa \".zip\" nga ekyongereza fayiro.</string>
+    <string name="about_amaze">Omuddukanya fayiro y`okukola ebintu ku Android</string>
+    <string name="license">Layisinsi</string>
+    <string name="libraries">Amaterekero g\'ebitabo</string>
+    <string name="password_repeat">Ddamu ekigambo ky\'okuyingira</string>
+    <string name="create_file_suggest_txt_extension">Kirungi okukozesa \".txt\" ng\" nga fayiro eyongereza.</string>
+    <string name="ssh_select_pem">Londa ekisumuluzo eky\'ekyama okukakasa</string>
+    <string name="ssh_key_invalid_passphrase">Ekigambo ky\'ekisumuluzo ekitali kituufu.</string>
+    <string name="ssh_key_no_decoder_decrypt">Tewali decoder ntuufu okuggya ensirifu ya PEM.</string>
+    <string name="encryption_fail_copy">Eremereddwa okulongoosa okuyingira kw\'okusiba mu database</string>
+    <string name="extracted">Eggyibwamu</string>
+    <string name="compressed">Enyigiddwa</string>
+    <string name="processed">Ekoleddwa</string>
+    <string name="no_obtainable_info">Tewali info yonna ku fayiro eno</string>
+    <string name="reopen_from_source">Can\'t, nsaba oggulewo okuva ku app esembayo</string>
+    <string name="no_file_error">Ekintu kyatambula bubi, tewali kiggulawo</string>
+    <string name="file_too_long">The fayiro mpanvu nnyo era tesobola kulongoosebwa, wabula osobola okusoma ennukuta za %d ezisooka</string>
+    <string name="file_read_only">Fayiro egguddwawo ya kusoma kwokka.</string>
+    <string name="got_it">Ekifunye!</string>
+    <string name="encrypt_file_save_as">Save Encrypted Fayiro Nga...</string>
+    <string name="encrypt_folder_save_as">Teeka Folda Ensirifu Nga...</string>
+    <string name="encrypt_option_use_aze">Kozesa Enkola y\'Ensirifu Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt ye nkola y\'okusiba fayiro ey\'ensibuko enzigule eyesigamiziddwa ku kusiba kwa AES. Era etambuzibwa, esobola okuggyibwamu ensirifu ne pulogulaamu za AESCrypt ku mikutu emirala.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">Omukutu gwa AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[nga bwe kiri
+        <p>Amaze\'s Encryption Format nayo yeesigamiziddwa ku kusiba kwa AES; naye eyawukana ku nkola ya AESCrypt, esobola okuggyibwamu ensirifu ekyuma kino kyokka; era tolina kuggya Amaze File Manager ku kyuma kino wadde okukyusa engeri gy\'osiba screen, bwe kitaba ekyo tojja kuba na ngeri yonna gy\'oyinza kuzzaawo fayiro ensirifu.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Fayiro ezisibiddwa zirina okukozesa \".aze\" ng\'ekyongerwako kya fayiro.</string>
+    <string name="encrypt_file_must_end_with_aes">Fayiro ezisibiddwa zirina okukozesa \".aes\" ng\'ekyongerwako kya fayiro.</string>
+    <string name="error_aescrypt_decrypt_failed">Tezisobola kuggyamu \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Tesobola kuwandiika ku fayiro.</string>
+    <string name="saved_single_file">Fayiro eterekeddwa nga \'%s\'.</string>
+    <string name="saved_multi_files">%d fayiro ziterekeddwa.</string>
+    <string name="create_hidden_file_warn">Fayiro ekoleddwa ejja kukwekebwa mu lukalala lwa fayiro.</string>
+    <string name="grant_apkinstall_permission">App yeetaaga olukusa okuteeka apps zigenda mu maaso.</string>
+    <string name="time_remaining">Obudde obusigaddewo</string>
+    <string name="transfer_rate">Omuwendo gw\'okutambuza</string>
+    <string name="unknown">tekimanyiddwa</string>
+    <string name="multiple_invalid_archive_entries">Fayiro ezimu mu tterekero teziyinza kuggyibwamu; archive eyinza okwonooneka oba nga yava mu nsibuko embi.</string>
+    <string name="saf_otg_explanation">Kati ojja kugenda ku nkola ya fayiro ya Android olw\'ensonga z\'ebyokwerinda. Nsaba olonde ekyuma kya USB okuva ku lukalala oluli ku kkono.</string>
+    <string name="donation_thanks">Mwebale kuwaayo, kino kitukuuma nga tuli banyiikivu! (:</string>
+    <string name="enable_marquee_filename">Ssobozesa marquee effect ku mannya ga fayiro</string>
+    <string name="archive_password_prompt">Nsaba oyingize ekigambo ky\'okuyingira eky\'okutereka:</string>
+    
+    <string name="cannot_extract_archive">Tekisobola kuggyamu tterekero \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Tekisoboka open archive \"%s\".Oba tetusobola kuggulawo archive, oba archive eyonoonese.</string>
+    <string name="close">Ggala</string>
+    <string name="bookmark_exists">Bookmark eriwo</string>
+    <string name="hide_media">Kweka okuva ku mikutu gy\'amawulire</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">KIsoboka NTI OMUNTU AKOZESA EKINTU EKIBI!\n\nOmuntu ayinza okuba ng\'akuwuliriza mu kiseera kino (okulumba omuntu mu makkati)!Era kisoboka okuba nti ekisumuluzo ky\'omugenyi kyakakyusibwa.Ekifaananyi ky\'engalo kubanga ekisumuluzo eky\'olukale ekiweerezeddwa omukozi ow\'ewala tekikwatagana n\'ekyo ekiterekeddwa mu Amaze.\n\nOyinza okugenda mu maaso n\'okulongoosa engalo z\'omugenyi oba okusazaamu okulongoosa ensengeka z\'omukago gwa SSH.</string>
+    <string name="update_host_key">Okulongoosa Ekisumuluzo ky\'Omugenyi</string>
+    <string name="cancel_recommended">Sazaamu (Esemba)</string>
+    
+    
+    <string name="failed_install_apk">Eremereddwa okuteeka</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Okutereka okw\'omunda</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Kaadi ya SD</string>
+    <string name="choose_folder">Londa Folda Eno</string>
+    
+    <string name="some_files_failed_invalid_operation">Fayiro ezimu zalemererwa olw\'obutali ntuufu okukola</string>
+    <string name="ftp_server_prompt_connect_to_network">Yungibwa ku mutimbagano oba sobozesa AP</string>
+    <string name="ftp_server_open_settings">Ggulawo ensengeka</string>
+    <string name="move">Tambula</string>
+    <string name="select_save_location">Londa ekifo ky\'ogenda okutereka</string>
+    <string name="scp_default_path">Ekkubo erisookerwako (Eky\'okwesalirawo)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Musonyiwe, ekyo tekyandibaddewo.</string>
+    
+    <string name="error_report_button_text">Tegeeza ensobi eno ng\'oyita ku e-mail</string>
+    <string name="error_report_button_telegram">Teega ensobi eno ng\'oyita ku telegram</string>
+    <string name="copy_for_github">Koppa lipoota eriko ensengeka</string>
+    <string name="error_report_open_issue_button_text">Lipoota ku GitHub</string>
+    <string name="error_report_open_github_notice">Nsaba okebere oba ensonga eteesa ku kabenje kwo yaliwo dda.</string>
+    <string name="error_snackbar_message">Musonyiwe, waliwo ekikyamu.</string>
+    <string name="error_snackbar_action">Lipoota</string>
+    <string name="what_device_headline">Amawulire:</string>
+    <string name="what_happened_headline">Ekyabaddewo:</string>
+    <string name="info_labels">Kiki:\\nOkusaba:\\nGMT Obudde:\\nEkipapula:\\nEnkyusa:\\nEnkyusa yaOS:\\nEkyuma:\\nOmuze:\\nEkintu :</string>
+    <string name="your_comment">Endowooza yo (mu Lungereza):</string>
+    <string name="error_details_headline">Ebisingawo:</string>
+    <string name="app_ui_crash">App/UI yagwa</string>
+    <string name="error_report_title">Lipoota y\'ensobi</string>
+    <string name="crash_report_copied">Lipoota y\'okugwa yakoppololwa ku clipboard</string>
+    <string name="disableIpcSignature">Lemesa okukebera okussa omukono ku IPC (Ku seeva za SMBv1 ez\'edda - UNSAFE!)</string>
+    <string name="cannot_delete_file">Tesobola kusazaamu fayiro</string>
+    <string name="cannot_delete_file_with_reason">Tesobola kusazaamu fayiro - %s</string>
+    <string name="cannot_rename_file">Tesobola kukyusa linnya lya fayiro %s - %s</string>
+    <string name="cannot_read_directory">Tesobola kusoma dayirekita %s - %s</string>
+    <string name="just_once">Omulundi gumu gwokka</string>
+    <string name="always">Bulijjo</string>
+    <string name="choose_different_app">Londa enkola ey\'enjawulo</string>
+    <string name="clear_open_file">Okulongoosa cache</string>
+    <string name="clear_open_file_summary">Erongoosa enkola z\'okuggulawo fayiro ezisookerwako ezirondeddwa</string>
+    <string name="ftp_readonly">Okuyingira okusoma kwokka</string>
+    <string name="legacy_listing_title">Kozesa olukalala olw\'edda olw\'ekikolo</string>
+    <string name="legacy_listing_summary">Bwe kiba kisobozeseddwa, ekozesa enkola ey\'edda okuwandiika fayiro</string>
+    <string name="error_unsupported_v5_rar">RAR archive \"%s\" is un supported RAR v5 archive.</string>
+    <string name="ftp_prompt_restart_server">Ojja kwetaaga okuddamu okutandika seva ya FTP enkyukakyuka okutandika okukola.</string>
+    <string name="error_permission_denied">Olukusa lugaaniddwa</string>
+    <string name="error_archive_password_incorrect">Ekigambo ky\'okuyingira ekikyamu eky\'okutereka.</string>
+    <string name="error_archive_cannot_extract">Tekisobola kuggya kuyingira mu tterekero \"%s\" okutuuka ku \"%s\".</string>
+    <string name="drag_and_drop_preference">Londa okusika n\'okusuula kw\'oyagala (Experimental)</string>
+    <string name="drag_to_move_copy">Kuba n\'okusika okutambuza oba okukoppa fayiro</string>
+    <string name="drag_to_select">Kuuba n\'okusika okulonda fayiro</string>
+    <string name="disable">Lemesa</string>
+    <string name="choose_operation">Londa omulimu gw\'ogenda okukola</string>
+    <string name="remember">Jjukira omulundi oguddako</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Kwa okuyingira kwa SAF ku seva ya FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Okuva bwe kiri nti eno ye run yo esoose eya FTP server, era nga okozesa ekyuma\'s internal storage nga shared folder, nsaba okkirize Amaze okuyingira mu storage nga okozesa SAF.\n\n
+
+Kino olina okukikola omulundi gumu gwokka, okutuusa omulundi oguddako lw\'olonda ekifo ekipya eky\'okugabana.</string>
+    <string name="android_data_prompt_saf_access">Okuva ku Android 10, Android yali etaddewo obukwakkulizo ku dayirekita ezimu, era zeetaaga okuyingira ne Storage Access Framework.\n \nNkusaba okkirize Amaze okuyingira mu dayirekita okuva ku muddukanya fayiro y\'enkola ng\'onyiga ku \"Kiriza Okuyingira\".</string>
+    <string name="android_data_prompt_saf_access_title">Kwa okuyingira kwa SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Kozesa enkola ya fayiro ey\'edda</string>
+    <string name="ftp_preference_saf_filesystem">Enable kino olw’obuwagizi bw’okukozesa okutereka okw’ebweru w’ekyuma ku nkyusa za Android empya</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Ekkubo eryagabana seva ya FTP lyali lizzeemu okuteekebwa mu kutereka okw’omunda nga bw’okyusa okudda ku kussa mu nkola enkola ya fayiro ey’edda. Nkusaba olonde ekkubo eppya ng\'okozesa menu eri waggulu ku ddyo nga bwe kyetaagisa.</string>
+    <string name="ftp_server_reset_notify">Ekkubo erya FTP server shared path lyali lizzeemu okuteekebwa mu kutereka okw\'omunda</string>
+    <string name="ftp_server_root_unavailable">Olonda ekkubo eryetaaga okuyingira mu kikolo. Nsaba osobozesa root explorer mu nsengeka singa ekyuma kyo kiba kikoola.</string>
+    <string name="ftp_server_root_filesystem_warning">Olonda ekkubo eryetaaga okuyingira mu kikolo, erisobozesa emirimu gy\'okusoma/okuwandiika mu nkola ya fayiro yonna ku kyuma kyo, era kya bulabe - ensobi ezitafaayo ziyinza okuziba ekyuma kyo!\n\nOkakasa?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Ensobi mu kuggulawo URI \"%s\" okusoma.</string>
+    <string name="error_empty_archive">\"%s\" ye tterekero njereere.</string>
+    <string name="error_bad_archive_without_info">\"%s\" ye tterekero eyonoonese .</string>
+    <string name="error_bad_archive_with_info">\"%s\" ye tterekero eyonoonese.\nObubaka okuva mu extractor: \"%s\"</string>
+    <string name="security_error">Fayiro tesobola kuggulwawo nga okozesa app eno</string>
+    <string name="cloud_drive_tooltip">Tonda omukutu gwa Google DriveTM ogw’okuddukanya fayiro okuva munda mu Amaze File Manager.</string>
+    <string name="signin_with_google_title">Kakasa okukozesa Google DriveTM</string>
+    <string name="show_system_apps">Laga enkola z’enkola</string>
+    <string name="system_apps">Enkola z’enkola</string>
+    <string name="select_inverse">Londa Inverse</string>
+    <string name="select_by_type">Londa okusinziira ku kika</string>
+    <string name="select_by_date">Londa okusinziira ku lunaku</string>
+    <string name="select_similar">Londa ebifaanagana</string>
+    <string name="error_fetching_google_play_product_list">Ensobi mu kuleeta olukalala lw’ebintu okuva ku Google Play.</string>
+    <string name="grant_all_files_permission">Okuva ku Android 11 , Google esaba Abaddukanya Fayiro okusaba olukusa lw’omukozesa okuddukanya fayiro zonna ku kyuma. Ebisingawo wano.
+        \n\nAmaze File Manager naye yeetaaga olukusa luno. Oluvannyuma lw\'okunyiga "Grant"wano, nsaba londa Allow access to manage all files option ku screen eddako.
+        \n\nOkusazaamu akasengejja kano kijja kufuluma mu pulogulaamu.</string>
+    <string name="user_apps">Enkola z\'omukozesa</string>
+    <string name="appearance">Endabika</string>
+    <string name="behavior">Enneeyisa</string>
+    <string name="appearance_summary">Teeka omulamwa, langi n\'endabika y\'omuddukanya fayiro</string>
+    <string name="ui_summary">Fuga amawulire ki g\'olina okulaga, okulongoosa ebbaala y\'oku mabbali, n\'okukyusakyusa mu by\'okwettanira UI</string>
+    <string name="behavior_summary">Kyusa enneeyisa nga okunoonya okw\'omulembe n\'okumanya oba okuggulawo fayiro ng\'omulimu omupya</string>
+    <string name="security_summary">Teekawo ekigambo ky\'okuyita n\'okusiba</string>
+    <string name="backup_summary">Okufulumya/Okuyingiza Enteekateeka za Amaze</string>
+
+    <string name="pref_export">Okufulumya</string>
+    <string name="pref_export_summary">Enteekateeka z\'okufulumya ebweru</string>
+    <string name="pref_import">Okuyingiza</string>
+    <string name="pref_import_summary">Enteekateeka z\'okuyingiza</string>
+
+    <string name="quick_desc">Fayiro gye buvuddeko yayingizibwa okuyita mu Amaze</string>
+    <string name="recent_desc">Fayiro ezaakatondebwa oba ezikyusiddwa</string>
+    <string name="error_cannot_find_way_open">Teyasobodde kufuna ngeri ya kuggulawo fayiro</string>
+    <string name="error_cant_decompress_that_file">Tesobola kukola ku tterekero esabiddwa</string>
+    <string name="analyse_storage">Weekenneenye Okutereka</string>
+    
+    <string name="download_amaze_utils_text">Ogenda kukyusibwa okudda mu Amaze File Utilities. It\'s our open source app that has inbuilt audio/video/image/document viewers, ekusobozesa okwekenneenya fayiro ezitali nnungi okusumulula okutereka, okutambuza amangu nga okozesa Wifi P2P n\'ebirala bingi.\nNsaba otuwagire nga ogezaako.</string>
+    <string name="download">Wanula</string>
+    
+    <string name="amaze_utils_installed_alias">Mwebale kuteeka Amaze File Utilities. You\'re being redirected to the app.</string>
+    <string name="image_viewer">Ekyewuunyisa Omulabi w’Ebifaananyi</string>
+    <string name="video_player">Ekyewuunyisa Omuzannyi wa Vidiyo</string>
+    <string name="amaze_audio_player">Weewuunyisa Omuzannyi w’Emiziki</string>
+    <string name="pdf_viewer">Weewuunyisa Omulabi w’Ebiwandiiko</string>
+    <string name="docx_viewer">Ekyewuunyisa Ekiwandiiko Omulabi</string>
+    <string name="share_logs">Gabana ebiwandiiko</string>
+    <string name="share_logs_summary">Gabana ebiwandiiko ebikwatiddwa ng’oyita ku email / telegram</string>
+    <string name="open_with_amaze">Ggulawo ne Amaze</string>
+    <string name="confirmation">Okukakasa</string>
+    <string name="open_file_confirmation">Oli kakasa nti oyagala kuggulawo fayiro eno wammanga?\n\nErinnya:\n%s\n\nEkifo:\n%s\n\nSize:\n%s\n\nMD5:\n%s\n\nSHA256:\ n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Okugoberera enkola ya Google Play, apps tezikkirizibwa kwetereeza ku bwazo. Nsaba okulongoosa app okuva ku Google Play.</string>
+    <string name="error_cannot_get_package_info">Tekisoboka kufuna bikwata ku package okuva mu fayiro \"%s\". Oba fayiro eragiddwa si APK, oba fayiro ya package eyonoonese.</string>
+    <string name="preference_delete_confirmation">Sazaamu okukakasa</string>
+    <string name="preference_delete_confirmation_summary">Saba okukakasa nga tonnasazaamu fayiro. Okulemesa kino kimalamu nnyo amaanyi!</string>
+    
+    
+    <string name="protocol_ftps">FTP ekuumibwa</string>
+    <string name="unavailable">Tekiriwo</string>
+
+    <string name="exporting_failed">Okufulumya kulemereddwa: tekusobodde kuwandiika fayiro ya backup</string>
+    <string name="importing_failed">Okuyingiza kulemereddwa: tekusobodde kusoma backup fayiro</string>
+    <string name="importing_completed">Okuyingiza kuwedde</string>
+    <string name="invalid_backup_file">Fayiro ey\'okutereka etali ntuufu</string>
+    <string name="import_failed_for">Okuyingiza kulemereddwa ku:</string>
+    <string name="free_of">"%s\n%s temuli %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin tewagirwa na nkyusa ya F-Droid.Nsaba okozese enkyusa ya Play Store eya Amaze.</string>
+    <string name="disable_player_intent_filters">Lemesa ebisengejja ekigendererwa ky\'omuzannyi</string>
+    <string name="disable_player_intent_filters_summary">Elemesa Amaze inbuilt media players okuva mu file chooser</string>
+    <string name="no_app_found_intent">Tewali app ezuuliddwa kukwata kigendererwa kino.Olina DocumentsUI etekeddwako?</string>
+    <string name="cloud_connection_credentials_cleared">Ebiwandiiko by\'okuyunga ekire birongooseddwa</string>
+    <string name="cloud_connection_credentials_cleared_msg">Ebyembi, tetwasobola kukyusa biwandiiko byo eby\'okuyunga ekire ku schema empya eya database, era twalina okuziggya mu app.Nsaba oddemu okukola omukago gw\'ekire.</string>
+</resources>

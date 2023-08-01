@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Iftaħ il-kexxun tan-navigazzjoni</string>
+    <string name="drawer_close">Agħlaq il-kexxun tan-navigazzjoni</string>
+    <string name="icon">ikona</string>
+    
+    
+    
+    <string name="select">Agħżel l-oġġett</string>
+    <string name="press_again">Agħfas mill-ġdid biex toħroġ</string>
+    <string name="open">Ftaħ</string>
+    
+    <string name="uninstall">Diżinstalla</string>
+    <string name="play">Ilgħab maħżen</string>
+    <string name="properties">Proprjetajiet</string>
+    <string name="copyingapks">Kopjar %d fajls APK għal %s</string>
+    <string name="delbook">Ħassar Bookmark</string>
+    <string name="add_to_bookmarks">Żid mal-Bookmarks</string>
+    <string name="enterpath">Daħħal il-Path</string>
+    <string name="cancel">KANNELLA</string>
+    <string name="create">OĦLOQ</string>
+    <string name="loading">Tagħbija...</string>
+    <string name="file_empty">Il-fajl huwa vojt</string>
+    <string name="error">Żball</string>
+    <string name="search_results">Riżultati tat-tfittxija ta\' %s</string>
+    <string name="rename">Semmi</string>
+    
+    <string name="bookmarks_added">Bookmarks Miżjuda</string>
+    <string name="fileexist">Fajl bl-istess isem diġà jeżisti</string>
+    <string name="name">Isem</string>
+    <string name="date">Data</string>
+    <string name="location">Lokazzjoni</string>
+    <string name="size_capitalized">Daqs</string>
+    <string name="size">daqs tal-folder</string>
+    <string name="enterzipname">Daħħal Isem Zip</string>
+    <string name="no_app_found">Ebda App ma nstabet biex tiftaħ dan il-fajl</string>
+    <string name="copying">Kopjar</string>
+    <string name="moving">Niċċaqlaq</string>
+    <string name="file">Fajl</string>
+    
+    <string name="newfolder">Folder Ġdid</string>
+    <string name="entername">Daħħal Isem</string>
+    <string name="extracting">Estrazzjoni</string>
+    <string name="stopping">Waqfien</string>
+    
+    
+    
+    <string name="about">Dwar</string>
+    <string name="extract">Estratt</string>
+    <string name="compress">Ikkompressa</string>
+    <string name="yes">Iva</string>
+    <string name="no">Le</string>
+    
+    <string name="dialog_delete_category_directories">Direttorji</string>
+    <string name="dialog_delete_category_files">Fajls</string>
+    <string name="dialog_delete_disclaimer">It-tħassir tal-oġġetti hawn taħt se tneħħihom b\'mod permanenti mit-tagħmir tiegħek u ma jistgħux jiġu rkuprati.</string>
+    <string name="dialog_delete_title">Ħassar l-oġġetti b\'mod permanenti?</string>
+    <string name="deleting">Tħassir</string>
+    <string name="question_set_path_as_home">Trid issettja l-mogħdija kurrenti bħala dar għal din it-tab?</string>
+    <string name="directorysort">Modalità ta\' Sort tad-Direttorju</string>
+    <string name="sort_by">Issortja Minn</string>
+    <string name="sort_only_this">Dan il-folder biss</string>
+    <string name="theme">Tema</string>
+    <string name="random">Ġilda każwali</string>
+    <string name="random_summary">Jissettja kulur primarju bl-addoċċ fl-istartjar</string>
+    <string name="colorize">Ikkulurita Ikoni</string>
+    <string name="colorize_summary">Settijiet kulur tal-ikona statiku. Ma jegħlbux il-preferenza tal-kulur tal-ikona tad-direttorju.</string>
+    
+    
+    <string name="history">Storja</string>
+    <string name="copy">Kopja</string>
+    
+    <string name="root_mode_summary">Għal apparat bl-għeruq biss. Iċċekkjaha biss jekk tkun ċert dwarha.</string>
+    <string name="root_failure">Aċċess għall-Għerq mhux mogħti</string>
+    <string name="select_all">Agħżel Kollha</string>
+    <string name="delete">Ħassar</string>
+    <string name="set_as_home">Issettja bħala Home</string>
+    <string name="operation_not_supported">Operazzjoni mhux appoġġjata</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Materjal Light</string>
+    <string name="dark">Materjal Dark</string>
+    <string name="daytime">Bi nhar</string>
+    <string name="black">Iswed (għal OLED)</string>
+    <string name="system">Sistema (segwi t-tema tas-sistema)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Folders Fuq Fuq</string>
+    <string name="filesOnTop">Fajls Fuq Fuq</string>
+    <string name="none_on_top">Xejn Fuq Fuq</string>
+    <!--SortBy-->
+    <string name="sort_name">Isem</string>
+    <string name="lastModified">L-aħħar Modifikat</string>
+    <string name="sort_size">Daqs</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Agħżel fajl</string>
+    
+    <string name="in_safe">Spazju insuffiċjenti</string>
+    <string name="no_file_overwrite">Ebda Fajl Inkiteb mill-ġdid</string>
+    <string name="skip">Aqbeż</string>
+    <string name="overwrite">Sobrewrite</string>
+    <string name="not_allowed">Mhux Permess</string>
+    <string name="searching">Tfittex %s</string>
+    <string name="done">Magħmul</string>
+    <string name="set">Issettja</string>
+    <string name="enablerootmde">Ippermetti Root Mode</string>
+    <string name="goback">Mur lura</string>
+    <string name="newfile">Fajl Ġdid</string>
+    <string name="no_files">Ebda Fajls</string>
+    <string name="used">spazju użat</string>
+    <string name="used_by_others">użat minn oħrajn</string>
+    <string name="free">spazju ħieles</string>
+    <string name="listview">Dehra tal-Lista</string>
+    <string name="gridview">Grid Ara</string>
+    <string name="permission">Permessi</string>
+    <string name="hide">Aħbi</string>
+    <string name="exit">Ħruġ</string>
+    <string name="doforall">Agħmel għall-oġġetti kollha</string>
+    <string name="gridcolumnno">Numru ta\' kolonni fil-vista tal-grilja</string>
+    <string name="set_random">Il-bidliet se jseħħu wara li terġa tibda l-app</string>
+    <string name="authors">Awturi</string>
+    
+    
+    
+    <string name="general">Ġenerali</string>
+    <string name="thumb_summary">Uri Thumbnails ta\' apps u stampi</string>
+    <string name="thumb">Uri Thumbnails</string>
+    <string name="hidden">Uri Fajls u Folders Moħbija</string>
+    <string name="lastModifiedSummary">Uri d-data u l-ħin tal-aħħar modifika</string>
+    <string name="lastModifiedPref">Uri l-Aħħar Data Modifikata u Ħin</string>
+    <string name="size_pref_summary">Uri daqs tal-fajls u numru ta’ oġġetti fil-folders</string>
+    <string name="size_pref">Uri Daqsijiet</string>
+    
+    <string name="root_pref_summary">Uri Permessi ta’ Fajls u Folders</string>
+    <string name="root_pref">Uri l-Permessi</string>
+    <string name="about_amaze_file_manager_label">Dwar Amaze File Manager</string>
+    <string name="version">Verżjoni</string>
+    <string name="rate">Vota l-app</string>
+    <string name="feedback">Ibgħat Feedback</string>
+    <string name="hiddenfiles">Fajls Moħbija</string>
+    <string name="type">Ittajpja</string>
+    
+    <string name="add_shortcut">Żid Shortcut</string>
+    <string name="unsaved_changes">Tibdil mhux salvat</string>
+    <string name="unsaved_changes_description">Għandek bidliet mhux salvati, trid issalvahom qabel ma toħroġ?</string>
+    <string name="saving">Iffrankar</string>
+    <string name="package_installer">Installatur tal-Pakketti</string>
+    <string name="view">Ara</string>
+    <string name="install">Installa</string>
+    <string name="archive">Arkiv</string>
+    <string name="archive_text">Dan huwa arkivju. X\'azzjoni tixtieq twettaq?</string>
+    <string name="package_installer_text">Dan huwa installatur ta\' pakkett. X\'azzjoni tixtieq twettaq?</string>
+    
+    <string name="xda_summary">Q&amp;amp;A, Għajnuna u Soluzzjoni ta’ Problemi</string>
+    <string name="circular_images">Uża ikoni ċirkolari għal stampi u vidjows</string>
+    <string name="circular_icons">Uża ikoni ċirkolari</string>
+    <string name="back_title">Navigazzjoni ta\' wara</string>
+    <string name="back_summary">Jippermetti n-navigazzjoni ta\' wara apposta fil-quċċata tal-lista</string>
+    <string name="details">Dettalji</string>
+    <string name="translators">Tradutturi</string>
+    <string name="german_translation_title">Ġermaniż</string>
+    <string name="italian_translation_title">Taljan</string>
+    <string name="french_translation_title">Franċiż</string>
+    <string name="russian_translation_title">Russu</string>
+    <string name="spanish_translation_title">Spanjol</string>
+    <string name="basque_translation_title">Bask</string>
+    <string name="chinese_translation_title">Ċiniż</string>
+    <string name="serbian_translation_title">Serb</string>
+    <string name="turkish_translation_title">Tork</string>
+    <string name="ukrainian_translation_title">Ukrain</string>
+    <string name="portuguese_translation_title">Portugall </string>
+    <string name="polish_translation_title">Pollakk</string>
+    <string name="korean_translation_title">Korejan</string>
+    <string name="greek_translation_title">Grieg</string>
+    <string name="dutch_translation_title">Olandiż</string>
+    <string name="romanian_translation_title">Rumen</string>
+    <string name="vietnamese_translation_title">Vjetnamiż</string>
+    <string name="japanese_translation_title">Ġappuniż</string>
+    
+
+    
+    <string name="unin_system_apk">Din hija app tas-sistema, it-tħassir jista\' jwassal għal nuqqas ta\' stabbiltà tas-sistema.\nIpproċedi?</string>
+    <string name="warning">Twissija</string>
+    <string name="donate">Dona</string>
+    <string name="archive_extract_folder">Folder tal-Estratt tal-Arkivju</string>
+    <string name="archive_summary">Fajls tal-arkivji se jiġu estratti f\'dan il-folder. Valur default huwa d-direttorju li fih l-arkivju huwa preżenti.</string>
+    
+    <string name="text">Test</string>
+    <string name="audio">Awdjo</string>
+    <string name="video">Vidjo</string>
+    <string name="other">Oħrajn</string>
+    <string name="image">Immaġini</string>
+    <string name="contributors">Kontributuri</string>
+    <string name="save_paths">Ftakar mogħdijiet</string>
+    <string name="save_path_summary">Meta tibda, se jintwera l-folder li rajt l-aħħar għal kull tab</string>
+    <string name="select_intent">Agħżel</string>
+    <string name="database">Bażi tad-dejta</string>
+    <string name="colored_navigation">Bar tan-Navigazzjoni kkulurit</string>
+    <string name="colored_navigvation_sum">Jekk il-bar tan-navigazzjoni tas-sistema hijiex ikkulurita mal-ġilda jew le</string>
+
+    <string name="color_title">Kulur</string>
+    <string name="color_summary">Issettja l-kulur għal diversi komponenti tal-IU</string>
+    <string name="primary_color_title">Kulur Primarju (Tab tax-Xellug)</string>
+    <string name="primary_color_summary">Issettja l-kulur għal elementi kbar tal-UI għat-tab tax-xellug</string>
+    <string name="accent_color_title">Kulur tal-aċċent</string>
+    <string name="accent_color_summary">Issettja l-kulur għal FAB u elementi żgħar oħra tal-UI</string>
+    <string name="icon_color_title">Kulur tal-Ikona</string>
+    <string name="icon_color_summary">Issettja l-kulur għall-ikoni</string>
+    <string name="choose_color">Agħżel il-kulur</string>
+    <string name="files">Fajls</string>
+    
+    
+    <string name="show_dividers">Uri Dividers</string>
+    <string name="needs_access">Aċċess għall-Kitba Meħtieġa</string>
+    <string name="needs_access_summary">Jekk jogħġbok agħżel id-direttorju tal-għeruq ta\' \t</string>
+    <string name="needs_access_summary1">\biex tagħti aċċess għall-kitba biex topera</string>
+    <string name="smb_connection">Konnessjoni SMB</string>
+    <string name="smb_server">Indirizz IP tas-Server</string>
+    <string name="server_address">Indirizz IP tas-Server</string>
+    <string name="username">Isem tal-Utent</string>
+    
+    <string name="anonymous">Anonimu</string>
+    
+    
+    <string name="folderfilecount">%1$d folders u %2$d fajls</string>
+    <string name="videos">Vidjows</string>
+    <string name="apks">div86&gt;APKs</string>
+    <string name="documents">Dokumenti</string>
+    <string name="images">Immaġini</string>
+    <string name="clear">ċar</string>
+    
+    <string name="total">totali:</string>
+    <string name="calculating">kalkolu</string>
+    <string name="sort">issortja</string>
+    
+    <string name="descending">dixxendenti</string>
+    
+    <string name="doit">Tagħmel dan</string>
+    <string name="want_help">Għandek bżonn għajnuna?</string>
+    <string name="quick">Aċċess rapidu</string>
+    <string name="recent">Fajls riċenti</string>
+    <string name="edit">Editja</string>
+    <string name="find">Sib fil-paġna</string>
+    <string name="grant">Agħti</string>
+    <string name="grantper">Agħti permess</string>
+    <string name="grantfailed">Permess mhux mogħti</string>
+    <string name="grant_storage_permission">App teħtieġ permess għall-ħażna biex tkompli. Jekk tikkanċella din id-djalogu toħroġ mill-app.</string>
+    <string name="operation_unsuccesful">Operazzjoni Unsuccess</string>
+    <string name="creatingfile">Ħolqien tal-Fajl</string>
+    <string name="creatingfolder">Ħolqien ta’ Folder</string>
+    <string name="renaming">Tibdil ta’ isem</string>
+    <string name="cant_be_empty">%s ma jistax ikun vojt</string>
+    <string name="ip">Indirizz</string>
+    <string name="connection_name">Isem tal-konnessjoni</string>
+    <string name="no_device_found">Ebda apparat misjub</string>
+    
+    <string name="rename_bookmark">Immodifika Bookmark</string>
+    <string name="cut">Aqta</string>
+    <string name="search">Fittex</string>
+    <string name="invalid_name">Isem Invalidu</string>
+    <string name="search_hint">Ittajpja biex tfittex...</string>
+    <string name="advanced_search">Tiftix Avvanzat</string>
+    <string name="regular_expression">Espressjoni Regolari</string>
+    <string name="regular_expression_summary">Fittex bl-użu ta\' espressjoni regolari ta\' stil BASH</string>
+    <string name="match_content">Kontenut ta\' tqabbil</string>
+    <string name="match_content_summary">Jekk issettjat, l-espressjoni regolari tkun imqabbla mal-isem tal-fajl kollu,
+        se tfittex okkorrenza mod ieħor.</string>
+    <string name="start_ftp">Ibda</string>
+    <string name="stop_ftp">Waqqaf</string>
+    <string name="ftp_status_running">Tħaddim</string>
+    <string name="ftp_status_not_running">Mhux Tħaddim</string>
+    <string name="ftp_no_wifi">Aċċerta ruħek li tkun konness mal-Wi -Fi</string>
+    <string name="domain">Dominju</string>
+    
+    <string name="invalid">%s invalidu</string>
+    <string name="ftp_notif_starting">FTP Server qed jibda</string>
+    <string name="ftp_notif_starting_title">div86&gt;FTP Server</string>
+    <string name="ftp_notif_title">Amaze FTP Server qed jaħdem</string>
+    <string name="ftp_notif_text">fuq %s</string>
+    <string name="ftp_notif_stop_server">div86&gt; STOP</string>
+    <string name="ftp_port_edit_menu_title">Port FTP</string>
+    <string name="ftp_port_change_success">Port FTP inbidel b\'suċċess</string>
+    <string name="ftp_port_change_error_invalid">Numru tal-port magħżul mhux validu</string>
+    <string name="primary_two_title">Kulur Primarju (Tab Lemin)</string>
+    <string name="primary_two_summary">Issettja l-kulur għal elementi kbar tal-UI għat-tab tal-lemin</string>
+    <string name="support_development">Appoġġ għall-Iżvilupp</string>
+    <string name="report_bugs_title">Irrapporta Bugs</string>
+    <string name="source_title">Kodiċi tas-sors</string>
+    <string name="source_summary">Ara l-kodiċi sors tagħna fuq GitHub</string>
+    <string name="report_bugs_summary">Rapporta bugs jew itlob karatteristika ġdida</string>
+    <string name="translate_title">Ittraduċi</string>
+    <string name="translate_summary">Ittraduċi Sorprendi bil-lingwa tiegħek</string>
+    <string name="paypal_copy_message">ID tal-PayPal ikkupjat fil-clipboard</string>
+    <string name="searching_devices">Tfittex tagħmir</string>
+    <string name="use_custom_ip">Uża IP personalizzat</string>
+    <string name="bookmark_lost">Bookmark ma nstabx, rikreġja...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Kif taċċessa folder kondiviż tal-Windows fuq Android (SMB)\n\n
+                
+                    
+                        Ippermetti File Sharing fuq Windows\n
+                    
+                    
+                        Iftaħ il-Panew tal-Kontroll, ikklikkja Agħżel l-għażliet tal-Grupp tad-Dar u l-Qsim taħt Netwerk
+                        u l-Internet, u kklikkja "Ibdel is-Settings tal-Kondiviżjoni Avvanzata", ppermetti l-"File u
+                        karatteristika tal-Kondiviżjoni tal-Printer".\n\n
+                    
+
+                    
+                        Settings addizzjonali tal-Kondiviżjoni tal-Fajls\n
+                    
+                    
+                        Tista \'wkoll trid tikkonfigura s-settings avvanzati l-oħra tal-qsim hawn. \n
+                        Pereżempju, tista\' tippermetti aċċess għall-fajls tiegħek mingħajr password jekk tafda kollox
+                        l-apparati fuq in-netwerk lokali tiegħek. Ladarba l-kondiviżjoni tal-fajls u tal-printer tkun attivata, tista \'
+                        tiftaħ File Explorer jew Windows Explorer, ikklikkja lemin fuq folder li trid taqsam, u
+                        agħżel Proprjetajiet. \n
+                        Ikklikkja l-buttuna Share u agħmel il-folder disponibbli fuq in-netwerk.\n\n
+                        
+
+                    
+                        Kun żgur li ż-żewġ apparati jkunu fuq l-istess Wifi\n
+                    
+                    
+                        Din il-karatteristika tagħmel il-fajls disponibbli fuq in-netwerk lokali, għalhekk il-PC tiegħek u t-tagħmir mobbli
+                        iridu jkunu fuq l-istess netwerk lokali. Ma tistax taċċessa folder kondiviż tal-Windows
+                        fuq l-Internet jew meta l-ismartphone tiegħek ikun konness mad-dejta mobbli tiegħu — it
+                        irid ikun konness mal-Wi-Fi.\n\n
+                    
+
+                    
+                        Sib l-indirizz IP\n
+                    
+                    
+                        Iftaħ il-Prompt tal-Kmand. Ittajpja \'ipconfig\' u agħfas Enter. Fittex għal Default Gateway
+                        taħt l-adapter tan-netwerk tiegħek għall-indirizz IP tar-router tiegħek. Fittex
+                        \\\"Indirizz IPv4\\\" taħt l-istess sezzjoni tal-adapter biex issib l-IP tal-kompjuter tiegħek
+                        indirizz.\n\n
+                    
+
+                    Daħħal id-dettalji fil-kaxxa tad-djalogu SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Ma tistax taqsam aktar minn 100 fajl</string>
+    <string name="otg_access">Agħżel l-għerq tal-apparat OTG</string>
+    <string name="information">Informazzjoni</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Aċċess</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Modifikat</string>
+
+    <string name="title">Titlu</string>
+    
+    
+    <string name="year">Sena</string>
+    <string name="duration">Tul</string>
+    <string name="comment">Kumment</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Kontenitur</string>
+    
+    <string name="channels">Kanali</string>
+    <string name="sample_rate">Rata tal-kampjun</string>
+    
+    <string name="dimensions">Dimensjonijiet</string>
+    
+    <string name="image_type">Tip ta\' Immaġni</string>
+    <string name="width">Wisa</string>
+    <string name="height">Għoli</string>
+    <string name="date_modified">Data Modifikata</string>
+    
+    <string name="creator">Ħallieq</string>
+    <string name="camera_brand">Marka tal-Kamera</string>
+    <string name="camera_model">Kamera Mudell</string>
+    <string name="date_taken">Data Meħuda</string>
+    <string name="exposure_time">Ħin ta’ Espożizzjoni</string>
+    <string name="aperture_value">Valur tal-Apertura</string>
+    <string name="image_iso">Klassifikazzjoni tal-Veloċità ISO</string>
+    <string name="flash_fired">Flash sparat</string>
+    <string name="focal_length">Tul Fokali</string>
+    <string name="subject">Suġġett</string>
+    <string name="author">Awtur</string>
+    <string name="keywords">Kliem ewlenin</string>
+    <string name="producer">Produttur</string>
+    <string name="created">Maħluq</string>
+    
+    <string name="pages">Numru ta\' Paġni</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Ottimizzat</string>
+    <string name="security">Sigurtà</string>
+    <string name="paper_size">Daqs tal-Karta</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Xi fajls ma ġewx %s</string>
+    <string name="copied">ikkupjati b\'suċċess</string>
+    <string name="moved">mċaqlaq</string>
+    <string name="copy_complete">Kopja kompluta</string>
+    <string name="waiting_title">Stennija</string>
+    <string name="waiting_content">Stennija għat-tlestija tal-operazzjoni</string>
+    <string name="extract_complete">Estrazzjoni kompluta</string>
+    <string name="compression_complete">Kompressjoni kompluta</string>
+    <string name="compressing">Kompressjoni</string>
+    <string name="cancelled">Kkanċellata</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Miktub</string>
+    <string name="out_of">minn</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ta</string>
+    <string name="processing_file">Fajl tal-ipproċessar</string>
+    <string name="current_speed">Veloċità kurrenti</string>
+    <string name="smb_launch_error">Ikollok bżonn tikkopja dan il-fajl fil-ħażna biex tiftaħ</string>
+    <string name="error_file_not_found">Żball: Fajl Mhux Misjub</string>
+    <string name="error_io">Żball I/O</string>
+    <string name="error_file_too_large">Żball: Fajl Kbir Wisq</string>
+    <string name="medium_text">Test Medju</string>
+    <string name="permission_read">Aqra</string>
+    <string name="permission_write">Ikteb</string>
+    <string name="permission_execute">Eżegwixxi</string>
+    <string name="permission_owner">Sid</string>
+    <string name="permission_group">Grupp</string>
+    <string name="permission_other">Oħrajn</string>
+    <string name="clipboard_path_copy">Mogħdija kkupjata fil-clipboard</string>
+    <string name="service_timer">Ħin li għadda</string>
+    <string name="please_wait">Jekk jogħġbok Stenna</string>
+
+    
+    
+    
+    
+    
+    <string name="cloud_box">Kaxxa</string>
+    <string name="cloud_get">Ikseb Cloud plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Ebda applikazzjonijiet</string>
+    
+    <string name="ftp_path_hint">Path għall-għerq tad-direttorju biex taqsam</string>
+    <string name="change">Bidla</string>
+    <string name="unknown_error">Oops, xi ħaġa marret ħażin!</string>
+
+    <string name="ftp_path_change_success">Il-mogħdija tal-FTP inbidlet b\'suċċess</string>
+    <string name="ftp_path_change_error_invalid">Mogħdija invalida</string>
+    <string name="ftp_status_no_connection">L-ebda Konnessjoni</string>
+    <string name="ftp_status_secure_connection">Konnessjoni Sikura</string>
+    
+    
+    
+    <string name="field_empty">Il-qasam ma jistax ikun vojt</string>
+    <string name="ftp_timeout">Timeout inattiv</string>
+    <string name="ftp_seconds">Sekondi</string>
+    
+    <string name="intellihide_toolbar_summary">Aħbi awtomatikament toolbar waqt li tiskrollja</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">ikkupjata fil-clipboard</string>
+    <string name="contributors_1_summary">Traduzzjoni</string>
+    <string name="contributors_2_summary">Ikona u banners</string>
+    
+    <string name="contributors_4_summary">Shade wara FAB</string>
+    <string name="contributors_5_summary">Tranżizzjoni tal-kulur meta swiping tabs</string>
+    
+    <string name="contributors_7_summary">Sparaw ta’ qoxra interattiva</string>
+    <string name="connection_exists">Konnessjoni diġà jeżisti</string>
+
+    <string name="crypt_encrypting">Kodifikazzjoni</string>
+    <string name="crypt_decrypting">Deċifrar</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Kodifikat</string>
+    <string name="crypt_decrypted">Dekript</string>
+    <string name="crypt_encrypt">Ikkript</string>
+    <string name="crypt_decrypt">Dekript</string>
+    <string name="operation_fail_following">L-operazzjoni falliet għall-fajls li ġejjin</string>
+    
+    <string name="crypt_pref_master_password_summary">Issettja master password għall-encryption.
+        Ħalli vojta biex tneħħi.</string>
+    <string name="crypt_pref_fingerprint_title">Marka tas-swaba</string>
+    <string name="crypt_pref_fingerprint_summary">Uża l-marki tas-swaba’ biex tawtentika l-encryption</string>
+    <string name="crypt_fingerprint_no_permission">Permessi tal-marki tas-swaba’ nieqsa</string>
+    <string name="crypt_fingerprint_not_enrolled">Ebda marki tas-swaba’ rreġistrati</string>
+    <string name="crypt_fingerprint_no_security">Le sigurtà misjuba</string>
+    <string name="crypt_warning_key">Kun avżat, meta tibdel il-mudell tas-sigurtà tiegħek minn
+        Is-settings tas-sistema, ma tkunx tista\' tiddikriptaġġ dan il-kontenut.</string>
+    <string name="warning_never_show">Terġax tinforma</string>
+    <string name="warning_confirm">Gsibni!</string>
+    <string name="crypt_encryption_fail">Ma rnexxilekx tikkodifika</string>
+    <string name="crypt_decryption_fail">Naqas milli jiddekofra</string>
+    <string name="crypt_decryption_fail_password">Password ħażina!</string>
+    <string name="crypt_fingerprint_authenticate">Tmiss is-sensur biex tkompli</string>
+    <string name="authenticate_password">Daħħal il-password</string>
+
+    <string name="sidebar_preferences">Istrixxa tal-ġenb</string>
+    <string name="sidebar_quick_access_title">Aċċess rapidu għall-Istrixxa tal-ġenb</string>
+    <string name="show_quick_access_pref_title">Uri aċċess rapidi</string>
+    <string name="show_quick_access_pref">Aċċess rapidi</string>
+    <string name="directory">Direttorju</string>
+
+    <string name="sidebar_bookmarks_title">Bookmarks tal-barra tal-ġenb</string>
+    <string name="show_bookmarks_pref_title">Uri bookmarks</string>
+    
+    <string name="create_bookmark">Oħloq bookmark</string>
+    <string name="edit_bookmark">Editja bookmark</string>
+    <string name="question_delete_bookmark">Ħassar bookmark?</string>
+
+    <string name="cloud_error_plugin">Ma nstabx il-plugin Amaze Cloud. Jekk jogħġbok niżżel minn Play Store.</string>
+    <string name="cloud_error_failed_restart">Ma rnexxilhiex tgħabbi l-konnessjoni.
+        Jekk jogħġbok iftaħ Amaze Cloud darba.</string>
+    <string name="cloud_remove">Tridu tneħħi l-konnessjoni tal-cloud?</string>
+    <string name="cloud_fail_authenticate">Ma rnexxilhiex awtentika</string>
+    <string name="cloud_share_copied">Link kondiviżibbli kkuppjat mal-clipboard</string>
+    <string name="copy_low_memory">Saqajt memorja, jekk jogħġbok ċar xi RAM</string>
+    <string name="cloud_token_lost">Token mitluf, jekk jogħġbok idħol mill-ġdid</string>
+    <string name="monofont">Font Monospace</string>
+    <string name="showHeaders">Uri Headers</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Ebda oġġetti</string>
+	<string name="item">oġġett</string>
+	<string name="items">oġġetti</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Il-fajl għandu jkollu isem</string>
+    <string name="add_item">Żid l-oġġett</string>
+    <string name="failed_smb_decrypt_path">Ma rnexxilux jgħabbi Konnessjoni SMB</string>
+    <string name="failed_cloud_new_connection">Ma rnexxilhiex iżżid konnessjoni ġdida ta\' Cloud</string>
+    <string name="failed_cloud_api_key">Ma rnexxilhiex jawtentika l-plug-in ta\' Cloud</string>
+
+    <string name="local_inet_addr_error">Żball meta nġib l-indirizz inet lokali</string>
+    <string name="intent_save_as">Issejvja bħala...</string>
+    <string name="go">Mur</string>
+    <string name="advanced">Avvanzat</string>
+    <string name="typeable_paths_title">Mogħdijiet personalizzati</string>
+    <string name="typeable_paths_summary">Istrixxa tal-mogħdija tal-istampa twila biex ittajpja mogħdija tad-dwana</string>
+    <string name="send_email_to">Ibgħat e-mail lil</string>
+
+    <string name="text_editor">Settings tal-editur tat-test</string>
+    <string name="preference_newstack_title">Iftaħ fajls bħala kompitu ġdid</string>
+    <string name="preference_newstack_summary">Jippermettilek tiftaħ fajls f\'kompiti separati. Aċċessa għalihom mill-iskrin reċenti tas-sistema.</string>
+    
+    <string name="developers">Iżviluppaturi</string>
+    <string name="no_bitcoin_app">Jekk jogħġbok installa app Bitcoin Wallet</string>
+    <string name="channel_name_normal">Amaze Notifiki</string>
+    <string name="channel_description_normal">Amaze File Manager\'s Notifiki</string>
+    
+    <string name="channel_description_ftp">Amaze File In-Notifiki tal-Maniġer FTP Server</string>
+
+    
+    <string name="processing">Pproċessar...</string>
+    <string name="failed_no_connection">Naqas milli jgħabbi l-fajls. Jekk jogħġbok iċċekkja l-konnessjoni tiegħek.</string>
+
+    <string name="update">AĠĠORNAMENT</string>
+	<string name="scp_connection">Konnessjoni SCP/SFTP</string>
+    <string name="ftp_connection">Konnessjoni FTP</string>
+    <string name="ftps_connection">Konnessjoni FTP fuq SSL</string>
+    
+    
+    <string name="ssh_host_key_verification_prompt_title">Ivverifika Ospitanti</string>
+    
+    <string name="ssh_pem_key_parse_error">Ma tistax taqra PEM magħżula: %s</string>
+    <string name="password_unchanged">(mhux mibdula)</string>
+    <string name="ssh_authentication_failure_password">Nuqqas ta\' login: Ma jistax jawtentika bl-isem tal-utent u l-password forniti.</string>
+    <string name="ssh_authentication_failure_key">Nuqqas ta\' login: Ma jistax jawtentika bl-isem tal-utent u ċ-ċavetta privata pprovduti.</string>
+    <string name="ssh_connect_failed">Ma jistax jaqbad ma\' %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">TWISSIJA: L-IDENTIFIKAZZJONI TAL-Ospitanti mill-bogħod INBIDLET!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">HISTA POSSIBBLI LI XI ĦADD QED JGĦAMLU XI ĦAĠA WAĦDA!\n\nXi ħadd jista\' jisma\' fuqek bħalissa (attakk man-in-the-middle)! Huwa wkoll possibbli li ċ-ċavetta ospitanti għadha kif ġiet mibdula. Il-marki tas-swaba\' għaċ-ċavetta pubblika mibgħuta mill-host remot ma taqbilx ma\' dik maħżuna f\'Amze.\n\nJekk jogħġbok ikkuntattja lill-amministratur tas-sistema tiegħek jew waqqaf konnessjoni ġdida biex tkompli tikkonnettja mas-server.</string>
+    <string name="ssh_key_prompt_passphrase">Jekk jogħġbok daħħal passphrase taċ-ċavetta .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Il-ħolqien ta\' shortcuts mhuwiex appoġġjat mill-lanċjar tiegħek.</string>
+    
+    <string name="select_color_config">Agħżel il-konfigurazzjoni tal-kulur</string>
+    <string name="customize">Ippersonalizza</string>
+    <string name="custom">Personalizzata</string>
+    <string name="preselected_configs_title">Konfigurazzjonijiet magħżula minn qabel</string>
+    <string name="orange">Oranġjo</string>
+    <string name="blue">Blu</string>
+    <string name="green">Aħdar</string>
+    <string name="password_no_match">Il-password ma taqbilx</string>
+    <string name="deselect_all">Agħżel Kollha</string>
+    <string name="filename">Isem tal-fajl</string>
+    <string name="compress_file_suggest_zip_extension">Huwa rakkomandat li tuża \".zip\" bħala l-estensjoni tal-fajl.</string>
+    <string name="about_amaze">Maniġer tal-fajl tad-disinn tal-materjal għal Android</string>
+    <string name="license">Liċenzja</string>
+    <string name="libraries">Libreriji</string>
+    <string name="password_repeat">Irrepeti l-password</string>
+    <string name="create_file_suggest_txt_extension">Huwa rakkomandat li tuża \".txt\" bħala l-estensjoni tal-fajl.</string>
+    <string name="ssh_select_pem">Agħżel ċavetta privata għall-awtentikazzjoni</string>
+    <string name="ssh_key_invalid_passphrase">Passphrase taċ-ċavetta mhux valida.</string>
+    <string name="ssh_key_no_decoder_decrypt">L-ebda decoder validu biex jiddekodifika PEM.</string>
+    <string name="encryption_fail_copy">Ma rnexxilux jaġġorna d-dħul tal-kriptaġġ fid-database</string>
+    <string name="extracted">Estrat</string>
+    <string name="compressed">Kompress</string>
+    <string name="processed">Ipproċessat</string>
+    <string name="no_obtainable_info">M\'hemm l-ebda informazzjoni dwar dan il-fajl</string>
+    <string name="reopen_from_source">Ma tistax, jekk jogħġbok terġa\' tiftaħ mill-aħħar app</string>
+    <string name="no_file_error">Xi ħaġa marret ħażin, m\'hemm xejn x\'tiftaħ</string>
+    <string name="file_too_long">Il- Il-fajl huwa twil wisq u ma jistax jiġi editjat, madankollu tista’ taqra l-ewwel %d karattri</string>
+    <string name="file_read_only">Il-fajl miftuħ huwa ta’ qari biss.</string>
+    <string name="got_it">Gsibnih!</string>
+    <string name="encrypt_file_save_as">Save Encrypted File As...</string>
+    <string name="encrypt_folder_save_as">Save Encrypted Folder As...</string>
+    <string name="encrypt_option_use_aze">Uża Amaze Encryption Format</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt huwa format ta\' encryption ta\' fajls ta\' sors miftuħ ibbażat fuq encryption AES. Huwa wkoll portabbli, jista \'jiġi decrypted bi programmi AESCrypt fuq pjattaformi oħra.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">websajt AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Il-Format ta\' Encryption ta\' Amaze huwa bbażat ukoll fuq encryption AES; iżda differenti mill-format AESCrypt, jista \'jiġi dekriptat biss minn dan l-apparat; ukoll m\'għandekx tneħħi Amaze File Manager minn dan l-apparat u lanqas tibdel il-mod kif tissakkar l-iskrin, inkella ma jkollokx mod kif tirkupra l-fajl encrypted.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Fajls encrypted iridu jużaw \".aze\" bħala l-estensjoni tal-fajl.</string>
+    <string name="encrypt_file_must_end_with_aes">Fajls encrypted għandhom jużaw \".aes\" bħala l-estensjoni tal-fajl.</string>
+    <string name="error_aescrypt_decrypt_failed">Ma jistgħux jiddeċifraw \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Ma tistax tikteb fuq il-fajl.</string>
+    <string name="saved_single_file">Fajl issejvjat bħala \'%s\'.</string>
+    <string name="saved_multi_files">%d fajls salvati.</string>
+    <string name="create_hidden_file_warn">Il-fajl maħluq se jkun moħbi fil-lista tal-fajls.</string>
+    <string name="grant_apkinstall_permission">App teħtieġ permess biex tinstalla apps tkompli.</string>
+    <string name="time_remaining">Ħin li fadal</string>
+    <string name="transfer_rate">Rata ta’ trasferiment</string>
+    <string name="unknown">mhux magħruf</string>
+    <string name="multiple_invalid_archive_entries">Xi fajls fl-arkivju ma jistgħux jiġu estratti; arkivju jista\' jkun bil-ħsara jew ġej minn sors malizzjuż.</string>
+    <string name="saf_otg_explanation">Issa se tmur fis-sistema tal-fajls ta\' Android għal raġunijiet ta\' sigurtà. Jekk jogħġbok agħżel l-apparat USB mil-lista fuq ix-xellug.</string>
+    <string name="donation_thanks">Grazzi tad-donazzjoni, dan iżommna motivati! (:</string>
+    <string name="enable_marquee_filename">Ippermetti l-effett marquee għall-ismijiet tal-fajls</string>
+    <string name="archive_password_prompt">Jekk jogħġbok daħħal il-password tal-arkivju:</string>
+    
+    <string name="cannot_extract_archive">Ma tistax tiġbed l-arkivju \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Ma tistax tiġbed iftaħ l-arkivju \"%s\". Jew ma nistgħux niftħu l-arkivju, jew l-arkivju kien bil-ħsara.</string>
+    <string name="close">Agħlaq</string>
+    <string name="bookmark_exists">Jeżisti Bookmark</string>
+    <string name="hide_media">Aħbi mill-browsers tal-midja</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">Huwa POSSIBBLI LI XI ĦADD QED Jagħmel XI ĦAĠA KOŻERĠA!\n\nXi ħadd jista\' jkun qed jismagħek bħalissa (attakk man-in-the-middle)! Huwa possibbli wkoll li ċ-ċavetta tal-host għadha kif ġiet mibdula. Il-marki tas-swaba\' għaċ-ċavetta pubblika mibgħuta mill-host remot ma taqbilx ma’ dik maħżuna f’Amze.\n\nTista’ tipproċedi bl-aġġornament tal-marki tas-swaba’ tal-host jew tikkanċella l-aġġornament tas-settings tal-konnessjoni SSH.</string>
+    <string name="update_host_key">Aġġorna l-Ost Key</string>
+    <string name="cancel_recommended">Ikkanċella (Rakkomandat)</string>
+    
+    
+    <string name="failed_install_apk">Ma rnexxiex tinstalla</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Ħażna Interna</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Kard SD</string>
+    <string name="choose_folder">Agħżel Dan il-Folder</string>
+    
+    <string name="some_files_failed_invalid_operation">Xi fajls fallew minħabba invalidi operazzjoni</string>
+    <string name="ftp_server_prompt_connect_to_network">Ikkonnettja ma’ netwerk jew ppermetti AP</string>
+    <string name="ftp_server_open_settings">Iftaħ is-settings</string>
+    <string name="move">Mexxi</string>
+    <string name="select_save_location">Agħżel il-post biex issalva</string>
+    <string name="scp_default_path">Mogħdija Default (Mhux obbligatorja)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Skużani, dan ma kellux jiġri.</string>
+    
+    <string name="error_report_button_text">Irrapporta dan l-iżball permezz tal-posta elettronika</string>
+    <string name="error_report_button_telegram">Irrapporta dan l-iżball permezz tat-telegramma</string>
+    <string name="copy_for_github">Ikkopja r-rapport ifformattjat</string>
+    <string name="error_report_open_issue_button_text">Rapport fuq GitHub</string>
+    <string name="error_report_open_github_notice">Jekk jogħġbok iċċekkja jekk diġà teżistix kwistjoni li tiddiskuti l-ħabta tiegħek.</string>
+    <string name="error_snackbar_message">Skużani, xi ħaġa marret ħażin.</string>
+    <string name="error_snackbar_action">Rapport</string>
+    <string name="what_device_headline">Informazzjoni:</string>
+    <string name="what_happened_headline">X\'ġara:</string>
+    <string name="info_labels">Xi:\\nTalba:\\nĦin GMT:\\nPakkett:\\nVerżjoni:\\nVerżjoni tal-OS:\\nTagħmir:\\nMudell:\\nProdott :</string>
+    <string name="your_comment">Il-kumment tiegħek (bl-Ingliż):</string>
+    <string name="error_details_headline">Dettalji:</string>
+    <string name="app_ui_crash">App/UI ġġarraf</string>
+    <string name="error_report_title">Rapport ta\' żball</string>
+    <string name="crash_report_copied">Rapport tal-ħabta kkupjat fuq clipboard</string>
+    <string name="disableIpcSignature">Iddiżattiva l-kontroll tal-iffirmar tal-IPC (Għal servers SMBv1 legacy - MHUX SIGURT!)</string>
+    <string name="cannot_delete_file">Ma tistax tħassar il-fajl</string>
+    <string name="cannot_delete_file_with_reason">Ma tistax tħassar il-fajl - %s</string>
+    <string name="cannot_rename_file">Ma tistax tibdel isem il-fajl %s - %s</string>
+    <string name="cannot_read_directory">Ma tistax taqra d-direttorju %s - %s</string>
+    <string name="just_once">Darba biss</string>
+    <string name="always">Dejjem</string>
+    <string name="choose_different_app">Agħżel applikazzjoni differenti</string>
+    <string name="clear_open_file">Ħar cache</string>
+    <string name="clear_open_file_summary">Jikklerja l-apps tal-ftuħ tal-fajl default magħżula</string>
+    <string name="ftp_readonly">Aċċess għall-qari biss</string>
+    <string name="legacy_listing_title">Uża l-elenkar tal-wirt għall-għeruq</string>
+    <string name="legacy_listing_summary">Jekk ikun attivat, juża metodu legacy biex telenka l-fajls</string>
+    <string name="error_unsupported_v5_rar">Arkivju RAR \"%s\" mhux appoġġjat arkivju RAR v5.</string>
+    <string name="ftp_prompt_restart_server">Ikollok bżonn terġa\' tibda s-server FTP biex il-bidliet jidħlu fis-seħħ.</string>
+    <string name="error_permission_denied">Permess miċħud</string>
+    <string name="error_archive_password_incorrect">Password tal-arkivju ħażina.</string>
+    <string name="error_archive_cannot_extract">Ma jistax jiġi estratt id-dħul tal-arkivju \"%s\" għal \"%s\".</string>
+    <string name="drag_and_drop_preference">Agħżel il-preferenza tat-tkaxkir u l-qatra (Sperimentali)</string>
+    <string name="drag_to_move_copy">Mess u drag biex iċċaqlaq jew tikkopja fajls</string>
+    <string name="drag_to_select">Mess u drag biex tagħżel fajls</string>
+    <string name="disable">Iżżeb</string>
+    <string name="choose_operation">Agħżel l-operazzjoni li twettaq</string>
+    <string name="remember">Ftakar għall-ħin li jmiss</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Agħti aċċess SAF għas-server FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Peress li din hija l-ewwel run tiegħek tas-server FTP, u qed tuża l-ħażna interna tal-apparat bħala folder kondiviż, jekk jogħġbok ħalli Amaze jaċċessa l-ħażna billi tuża SAF.\n\n
+
+Trid tagħmel dan darba biss, sal-ħin li jmiss tagħżel post ġdid għall-kondiviżjoni.</string>
+    <string name="android_data_prompt_saf_access">Minn Android 10, Android kien impona restrizzjonijiet fuq ċerti direttorji, u jeħtieġ li jkollhom aċċess bil-Qafas ta\' Aċċess għall-Ħażna.\n \nJekk jogħġbok ħalli lil Amaze jaċċessa d-direttorju mill-maniġer tal-fajls tas-sistema billi ttektek \"Ħalli l-Aċċess\".</string>
+    <string name="android_data_prompt_saf_access_title">Agħti aċċess SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Uża sistema tal-fajls legacy</string>
+    <string name="ftp_preference_saf_filesystem">Agħti aċċess SAF dan għall-appoġġ għall-użu tal-ħażna esterna tal-apparat fuq verżjonijiet Android aktar ġodda</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Il-mogħdija kondiviża tas-server FTP kienet reset għal ħażna interna hekk kif qed taqleb lura għall-implimentazzjoni tas-sistema tal-fajls tal-legat. Jekk jogħġbok agħżel mogħdija ġdida billi tuża l-menu fuq il-lemin ta\' fuq kif meħtieġ.</string>
+    <string name="ftp_server_reset_notify">Il-mogħdija kondiviża tas-server FTP kienet reset għal ħażna interna</string>
+    <string name="ftp_server_root_unavailable">Qed tagħżel mogħdija li teħtieġ aċċess għall-għeruq. Jekk jogħġbok ippermetti root explorer fis-settings jekk it-tagħmir tiegħek għandu l-għeruq.</string>
+    <string name="ftp_server_root_filesystem_warning">Qed tagħżel mogħdija li teħtieġ aċċess għall-għeruq, li tippermetti operazzjonijiet ta\' qari/kitba fis-sistema tal-fajls kollha fuq it-tagħmir tiegħek, u hija perikoluża - żbalji ta\' traskuraġni jistgħu jgħaqqdu t-tagħmir tiegħek!\n\nInt ċert?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Żball fil-ftuħ tal-URI \"%s\" għall-qari.</string>
+    <string name="error_empty_archive">\"%s\" huwa arkivju vojt.</string>
+    <string name="error_bad_archive_without_info">\"%s\" huwa arkivju korrotta .</string>
+    <string name="error_bad_archive_with_info">\"%s\" huwa arkivju korrotta.\nMessaġġ minn estrattur: \"%s\"</string>
+    <string name="security_error">Il-fajl ma setax jinfetaħ bl-użu ta\' din l-app</string>
+    <string name="cloud_drive_tooltip">Oħloq konnessjoni ta\' Google Drive™ għall-immaniġġjar ta\' fajls minn ġewwa Amaze File Manager.</string>
+    <string name="signin_with_google_title">Awtentika biex tuża Google Drive™</string>
+    <string name="show_system_apps">Uri apps tas-sistema</string>
+    <string name="system_apps">Apps tas-sistema</string>
+    <string name="select_inverse">Agħżel Invers</string>
+    <string name="select_by_type">Agħżel skont it-tip</string>
+    <string name="select_by_date">Agħżel skont id-data</string>
+    <string name="select_similar">Agħżel simili</string>
+    <string name="error_fetching_google_play_product_list">Żball li ġġib il-lista tal-prodotti minn Google Play.</string>
+    <string name="grant_all_files_permission">Minn Android 11 , Google titlob lill-Maniġers tal-Fajls biex jitolbu permess tal-utent għall-ġestjoni tal-fajls kollha fuq l-apparat. Dettalji hawn.
+        \n\nAmaze File Manager jeħtieġ dan il-permess ukoll. Wara li tagħfas "Għotja" hawn, jekk jogħġbok agħżel Ħalli aċċess biex timmaniġġja l-fajls kollha għażla fuq l-iskrin li jmiss.
+        \n\nL-ikkanċellament ta\' dan id-djalogu joħroġ mill-app.</string>
+    <string name="user_apps">Apps tal-utent</string>
+    <string name="appearance">Dehra</string>
+    <string name="behavior">Imġieba</string>
+    <string name="appearance_summary">Ippersonalizza t-tema, il-kuluri u d-dehra tal-maniġer tal-fajls</string>
+    <string name="ui_summary">Ikkontrolla liema informazzjoni trid turi, tippersonalizza l-sidebar, u taqleb il-preferenzi tal-IU</string>
+    <string name="behavior_summary">Immodifika l-imgieba bħal tfittxija avvanzata u jekk tiftaħx fajls bħala kompitu ġdid</string>
+    <string name="security_summary">Issettja l-password u encryption</string>
+    <string name="backup_summary">Esportazzjoni/Importazzjoni Amaze settings</string>
+
+    <string name="pref_export">Esportazzjoni</string>
+    <string name="pref_export_summary">Esportazzjoni settings</string>
+    <string name="pref_import">Importa</string>
+    <string name="pref_import_summary">Importa settings</string>
+
+    <string name="quick_desc">Fajls aċċessata reċentement permezz ta\' Amaze</string>
+    <string name="recent_desc">Fajls maħluqa jew modifikati reċentement</string>
+    <string name="error_cannot_find_way_open">Ma setgħetx issib mod kif tiftaħ il-fajl</string>
+    <string name="error_cant_decompress_that_file">Ma tistax tipproċessa l-arkivju mitlub</string>
+    <string name="analyse_storage">Analizza l-Ħażna</string>
+    
+    <string name="download_amaze_utils_text">Int qed tiġi ridirett lejn Amaze File Utilities. Hija l-app ta\' sors miftuħ tagħna li għandha telespettaturi ta\' awdjo/vidjow/immaġini/dokument inkorporati, tippermettilek tanalizza fajls junk biex tillibera l-ħażna, trasferiment veloċi bl-użu ta\' Wifi P2P u ħafna aktar.\nJekk jogħġbok appoġġina billi tipprovaha.</string>
+    <string name="download">Niżżel</string>
+    
+    <string name="amaze_utils_installed_alias">Grazzi talli installajt Amaze File Utilities. Int qed tiġi ridirett lejn l-app.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">Aqsam zkuk</string>
+    <string name="share_logs_summary">Aqsam zkuk maqbudin permezz ta’ email/telegramma</string>
+    
+    <string name="confirmation">Konferma</string>
+    <string name="open_file_confirmation">Żgur li trid tiftaħ il-fajl li ġej?\n\nIsem:\n%s\n\nLokazzjoni:\n%s\n\nDaqs:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Skond il-mandati tal-politika ta\' Google Play, l-apps mhumiex permessi jaġġornaw lilhom infushom waħedhom. Jekk jogħġbok aġġorna l-app minn Google Play.</string>
+    <string name="error_cannot_get_package_info">Ma tistax tikseb informazzjoni dwar il-pakkett mill-fajl \"%s\". Jew il-fajl speċifikat mhuwiex APK, jew il-fajl tal-pakkett huwa korrott.</string>
+    <string name="preference_delete_confirmation">Ħassar il-konferma</string>
+    <string name="preference_delete_confirmation_summary">Itlob għall-konferma qabel ma tħassar il-fajls. Id-diżattivazzjoni ta\' dan hija skoraġġuta ħafna!</string>
+    
+    
+    <string name="protocol_ftps">FTP Sikur</string>
+    <string name="unavailable">Mhux disponibbli</string>
+
+    <string name="exporting_failed">L-esportazzjoni falliet: ma setgħetx tikteb il-fajl tal-backup</string>
+    <string name="importing_failed">L-importazzjoni falliet: ma setgħetx taqra l-backup fajl</string>
+    <string name="importing_completed">Importazzjoni kompluta</string>
+    <string name="invalid_backup_file">Fajl backup invalidu</string>
+    <string name="import_failed_for">Importazzjoni falliet għal:</string>
+    <string name="free_of">"%s\n%s ħielsa minn %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin mhux appoġġjat bil-verżjoni F-Droid. Jekk jogħġbok uża l-verżjoni Play Store ta\' Amaze.</string>
+    <string name="disable_player_intent_filters">Iżżejjen il-filtri tal-intenzjoni tal-plejer</string>
+    <string name="disable_player_intent_filters_summary">Jitfi l-plejers tal-midja inbuilt ta\' Amaze mill-għażla tal-fajl</string>
+    <string name="no_app_found_intent">L-ebda app ma nstabet biex timmaniġġja din l-intenzjoni. Għandek DocumentsUI installat?</string>
+    <string name="cloud_connection_credentials_cleared">Kredenzjali tal-Konnessjoni tas-Cloud ikklerjati</string>
+    <string name="cloud_connection_credentials_cleared_msg">Sfortunatament, ma stajniex nimmigraw il-kredenzjali tal-konnessjoni tal-cloud tiegħek għall-iskema tad-database l-ġdida, u kellna biex tneħħihom mill-app. Jekk jogħġbok erġa\' oħloq il-konnessjoni tal-cloud.</string>
+</resources>

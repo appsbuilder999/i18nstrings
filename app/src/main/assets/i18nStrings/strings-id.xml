@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <string name="app_name">Demo I18nString</string>
+  <string name="title">I18nString</string>
+  <string name="content">I18nstrings adalah plugin gradle proyek android plug-and-play yang menyediakan internasionalisasi penuh dan dukungan multibahasa untuk proyek Anda. dengan mengintegrasikan plugin yang mudah digunakan ini, Anda dapat langsung mengaktifkan berbagai pelokalan bahasa dalam proyek Anda, membuatnya lebih dapat diterima oleh pengguna di seluruh dunia.</string>
+  <string name="functions_title">Pengenalan Fungsi</string>
+  <string name="functions">- terjemahan multibahasa: i18nstrings mendukung penerjemahan teks proyek ke berbagai bahasa, dan mendukung terjemahan inkremental.
+\n- jaminan kualitas terjemahan: i18nstrings menjamin kualitas terjemahan melalui berbagai tindakan, dan mengeluarkan laporan kualitas terjemahan untuk membantu Anda memantau dan meningkatkan proses pelokalan.
+\n- alih bahasa: i18nstrings memberikan solusi untuk beralih bahasa dalam aplikasi, meningkatkan pengalaman bagi pengguna internasional.
+\n- dukungan bahasa beta: i18nstrings mendukung terjemahan bahasa beta dan menyertakan penafian untuk memberi Anda lebih banyak fleksibilitas dalam melokalkan aplikasi Anda.</string>
+  <string name="guide">Klik spinner di bawah untuk mencoba beralih di antara bahasa yang berbeda:</string>
+  <string name="action_settings">Atur</string>
+  <string name="first_fragment_label">Fragmen Pertama</string>
+  <string name="second_fragment_label">Fragmen Kedua</string>
+  <string name="next">Berikutnya</string>
+  <string name="previous">Sebelumnya</string>
+  <string name="match_content_summary">Jika disetel, ekspresi reguler akan
+        cocok dengan seluruh nama file,
+        jika tidak, cari kejadian.</string>
+  <string name="dialog_delete_title">Hapus item secara permanen?</string>
+  <string name="deleting">Hapus</string>
+  <string name="question_set_path_as_home">Apakah Anda ingin menyetel jalur saat ini sebagai beranda untuk tab ini?</string>
+  <string name="directorysort">Mode penyortiran direktori</string>
+  <string name="sort_by">Metode Penyortiran</string>
+  <string name="sort_only_this">Folder ini saja</string>
+  <string name="theme">Tema</string>
+  <string name="random">Kulit Acak</string>
+  <string name="random_summary">Tetapkan warna primer acak saat memulai</string>
+  <string name="colorize">Warna ikon</string>
+  <string name="colorize_summary">Atur warna ikon statis. tidak mengesampingkan preferensi warna ikon direktori.</string>
+  <string name="i18n_ui_setting">Pengaturan Bahasa</string>
+  <string name="i18n_type_none">Default Perangkat</string>
+  <string name="i18n_type_local">Lokal</string>
+  <string name="i18n_type_online_cache">Cache Online</string>
+  <string name="i18n_not_supported">Tidak ada file konfigurasi yang terdeteksi. Pastikan plugin i18nStrings telah diintegrasikan ke dalam proyek Anda dan tugas \"i18nStrings\" telah dijalankan di modul aplikasi.</string>
+  <string name="i18n_ui_disclaimer_title">Penafian</string>
+  <string name="i18n_ui_disclaimer_agree">Setuju</string>
+  <string name="i18n_ui_disclaimer_disagree">Tidak Setuju</string>
+  <string name="i18n_ui_reboot_title">Mulai ulang agar berlaku setelah beralih bahasa</string>
+  <string name="i18n_ui_reboot_content">Apakah Anda yakin untuk beralih dan memulai ulang?</string>
+  <string name="i18n_ui_refresh_title">Segarkan Data Terjemahan</string>
+  <string name="i18n_ui_refresh_content">Anda yakin untuk menyegarkan data terjemahan?</string>
+  <string name="i18n_ui_realtime_translate_title">Terjemahan waktu nyata</string>
+  <string name="i18n_ui_realtime_translate_comfirm_min">Diperkirakan %d menit untuk menerjemahkan %d teks. Lanjutkan?</string>
+  <string name="i18n_ui_realtime_translate_comfirm_sec">Diperkirakan %d detik untuk menerjemahkan %d teks. Lanjutkan?</string>
+  <string name="i18n_ui_realtime_translate_text">Menerjemahkan, harap tunggu...</string>
+  <string name="i18n_ui_realtime_translate_text_with_time_sec">Terjemahannya adalah diperkirakan memakan waktu %ds, harap bersabar.</string>
+  <string name="i18n_ui_realtime_translate_fails_title">Terjemahan waktu nyata gagal</string>
+  <string name="i18n_ui_realtime_translate_fails_content">Harap periksa log kesalahan dan pastikan jaringan Anda dapat mengunjungi https://translate.google.com</string>
+  <string name="properties_copied_clipboard">Disalin ke papan klip</string>
+  <string name="contributors_1_summary">Terjemahkan</string>
+  <string name="contributors_2_summary">Ikon dan spanduk</string>
+  <string name="contributors_3_summary">Mesin Tema</string>
+  <string name="contributors_4_summary">Bayangan luar biasa di belakang</string>
+  <string name="contributors_5_summary">Transisi warna saat menggeser tab</string>
+  <string name="contributors_6_summary">Server Ftp</string>
+  <string name="contributors_7_summary">Luncurkan shell interaktif</string>
+  <string name="connection_exists">Koneksi sudah ada</string>
+  <string name="crypt_encrypted">Dienkripsi</string>
+  <string name="crypt_decrypted">Didekripsi</string>
+  <string name="crypt_encrypt">Enkripsi</string>
+  <string name="crypt_decrypt">Dekripsi</string>
+  <string name="operation_fail_following">Operasi file berikut gagal</string>
+  <string name="crypt_pref_master_password_title">Kata Sandi Utama</string>
+  <string name="crypt_pref_master_password_summary">Tetapkan kata sandi utama enkripsi.
+        kosongkan untuk menghapus.</string>
+  <string name="crypt_pref_fingerprint_title">Sidik Jari</string>
+  <string name="crypt_pref_fingerprint_summary">Gunakan enkripsi autentikasi sidik jari</string>
+  <string name="crypt_fingerprint_no_permission">Kurangnya izin sidik jari</string>
+  <string name="crypt_fingerprint_not_enrolled">Sidik Jari Tidak Terdaftar</string>
+  <string name="crypt_fingerprint_no_security">Tidak ada penemuan keamanan layar kunci</string>
+  <string name="crypt_warning_key">Hati-hati saat mengubah mode perlindungan
+        pengaturan sistem, Anda tidak akan dapat mendekripsi konten ini.</string>
+  <string name="sidebar_preferences">Bilah Samping</string>
+  <string name="sidebar_quick_access_title">Akses cepat sidebar</string>
+  <string name="show_quick_access_pref_title">Tampilkan akses cepat</string>
+  <string name="show_quick_access_pref">Akses Cepat</string>
+  <string name="directory">Katalog</string>
+  <string name="sidebar_bookmarks_title">Bookmark Sidebar</string>
+  <string name="show_bookmarks_pref_title">Tampilkan Bookmark</string>
+  <string name="show_bookmarks_pref">Bookmark</string>
+  <string name="create_bookmark">Buat Bookmark</string>
+  <string name="edit_bookmark">Edit Bookmark</string>
+  <string name="question_delete_bookmark">Hapus Bookmark ?</string>
+  <string name="cloud_error_plugin">Plugin cloud Amaze tidak ditemukan. silakan unduh dari play store.</string>
+  <string name="cloud_error_failed_restart">Gagal memuat tautan.
+        tolong buka cloud yang menakjubkan sekali.</string>
+  <string name="cloud_remove">Apakah Anda ingin menghapus koneksi cloud?</string>
+</resources>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="crypt_encrypted">Crypté</string>
+    <string name="crypt_decrypted">Déchiffré</string>
+    <string name="crypt_encrypt">Cryptage</string>
+    <string name="crypt_decrypt">Déchiffrement</string>
+    <string name="operation_fail_following">Échec de l\'opération de fichier suivante</string>
+    <string name="crypt_pref_master_password_title">Mot de passe principal</string>
+    <string name="crypt_pref_master_password_summary">Définissez le mot de passe principal de chiffrement.
+        laisser vide pour supprimer.</string>
+    <string name="crypt_pref_fingerprint_title">Empreinte digitale</string>
+    <string name="crypt_pref_fingerprint_summary">Utiliser le cryptage d\'authentification d\'empreinte digitale</string>
+    <string name="crypt_fingerprint_no_permission">Absence d\'autorisation d\'empreinte digitale</string>
+    <string name="crypt_fingerprint_not_enrolled">Empreinte digitale non enregistrée</string>
+    <string name="crypt_fingerprint_no_security">Aucune détection de sécurité de l\'écran de verrouillage</string>
+    <string name="crypt_warning_key">Soyez prudent lorsque vous modifiez votre mode de sécurité
+        paramètres système, vous ne pourrez pas déchiffrer ce contenu.</string>
+</resources>

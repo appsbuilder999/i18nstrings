@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Qhib navigation tub rau khoom</string>
+    <string name="drawer_close">Kaw navigation tub rau khoom</string>
+    
+    
+    
+    
+    <string name="select">Xaiv yam khoom</string>
+    <string name="press_again">Nias dua los tawm</string>
+    
+    <string name="backup">Packup</string>
+    
+    
+    
+    <string name="copyingapks">Copy %d APK file to %s</string>
+    
+    <string name="add_to_bookmarks">Ntxiv rau Bookmarks</string>
+    
+    
+    
+    
+    <string name="file_empty">Cov ntaub ntawv tsis muaj dab tsi</string>
+    
+    
+    
+    <string name="save">Txuag</string>
+    <string name="bookmarks_added">Bookmarks Ntxiv</string>
+    <string name="fileexist">Cov ntaub ntawv nrog tib lub npe twb muaj lawm</string>
+    
+    
+    
+    
+    
+    <string name="enterzipname">Pau Zip Name</string>
+    <string name="no_app_found">Tsis pom App los qhib cov ntaub ntawv no</string>
+    
+    
+    <string name="file">Cov ntaub ntawv</string>
+    
+    <string name="newfolder">Hloov tshiab</string>
+    <string name="entername">Tau npe</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="yes">Yog</string>
+    <string name="no">Tsis yog</string>
+    
+    <string name="dialog_delete_category_directories">Cov Ntaub Ntawv</string>
+    <string name="dialog_delete_category_files">Cov ntaub ntawv</string>
+    <string name="dialog_delete_disclaimer">Kev rho tawm cov khoom hauv qab no yuav tshem tawm lawv ntawm koj lub cuab yeej mus tas li thiab lawv tsis tuaj yeem rov qab tau.</string>
+    <string name="dialog_delete_title">Rho tawm cov khoom mus tas li?</string>
+    <string name="deleting">Kev tshem tawm</string>
+    <string name="question_set_path_as_home">Koj puas xav teeb tsa txoj hauv kev tam sim no ua tsev rau lub tab no?</string>
+    
+    <string name="sort_by">Xaiv</string>
+    <string name="sort_only_this">Tsuas yog cov folders no</string>
+    <string name="theme">Lub ntsiab</string>
+    
+    <string name="random_summary">Set random thawj xim ntawm startup</string>
+    
+    <string name="colorize_summary">Teeb static icon xim. Tsis override directory icon color preference.</string>
+    
+    
+    
+    
+    
+    <string name="root_mode_summary">Rau ntaus ntawv nkaus xwb. Xyuas nws tsuas yog tias koj paub tseeb txog nws.</string>
+    <string name="root_failure">Root Access tsis tau tso cai</string>
+    <string name="select_all">Xaiv Tag Nrho</string>
+    
+    
+    <string name="operation_not_supported">Kev ua haujlwm tsis txaus siab</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Cov Khoom Siv Lub Teeb</string>
+    <string name="dark">Cov Khoom Tsaus</string>
+    <string name="daytime">Hnub Hnub</string>
+    <string name="black">Dub (rau OLED)</string>
+    <string name="system">System (ua raws li lub ntsiab lus)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    
+    <string name="filesOnTop">Cov ntaub ntawv nyob rau sab saum toj</string>
+    <string name="none_on_top">Tsis muaj nyob rau saum</string>
+    <!--SortBy-->
+    <string name="sort_name">Npe</string>
+    <string name="lastModified">Hloov Kho Kawg</string>
+    
+    <!--ListMode-->
+    <!--Folder-->
+    
+    
+    <string name="in_safe">Tsis txaus qhov chaw</string>
+    <string name="no_file_overwrite">Tsis muaj ntaub ntawv Overwritten</string>
+    
+    
+    <string name="not_allowed">Tsis tso cai</string>
+    <string name="searching">Nrhiav %s</string>
+    
+    
+    <string name="enablerootmde">Ua hom cag</string>
+    <string name="goback">Rov qab</string>
+    <string name="newfile">Cov ntaub ntawv tshiab</string>
+    <string name="no_files">Tsis muaj cov ntaub ntawv</string>
+    <string name="used">siv qhov chaw</string>
+    <string name="used_by_others">siv los ntawm lwm tus</string>
+    <string name="free">qhov chaw dawb</string>
+    
+    <string name="gridview">Grid Saib</string>
+    
+    
+    
+    <string name="doforall">Ua rau txhua yam khoom</string>
+    
+    <string name="set_random">Cov kev hloov pauv yuav tshwm sim tom qab koj rov pib lub app</string>
+    <string name="authors">Tus sau</string>
+    
+    
+    
+    
+    <string name="thumb_summary">Qhia Thumbnails ntawm apps thiab duab</string>
+    
+    
+    <string name="lastModifiedSummary">Qhia hnub tim thiab lub sijhawm ntawm kev hloov kho zaum kawg</string>
+    <string name="lastModifiedPref">Show Last Modified Date and Sijhawm</string>
+    <string name="size_pref_summary">Qhia qhov loj ntawm cov ntaub ntawv thiab cov naj npawb ntawm cov khoom hauv folders</string>
+    
+    <string name="miscellaneous">Misscellaneous</string>
+    
+    <string name="root_pref">Qhia Kev Tso Cai</string>
+    
+    
+    <string name="rate">Rate lub app</string>
+    
+    
+    <string name="type">Hom</string>
+    
+    
+    
+    <string name="unsaved_changes_description">Koj muaj cov kev hloov uas tsis tau khaws tseg, koj puas xav cawm lawv ua ntej tawm?</string>
+    <string name="saving">Txuag</string>
+    
+    <string name="view">Saib</string>
+    
+    
+    <string name="archive_text">Qhov no yog ib qho archive. Koj xav ua dab tsi?</string>
+    <string name="package_installer_text">Qhov no yog lub pob installer. Koj xav ua dab tsi?</string>
+    <string name="xda_title">XDA xov</string>
+    <string name="xda_summary">Q&amp;amp;A, Pab &amp;amp; daws teeb meem</string>
+    <string name="circular_images">Siv puag ncig icons rau cov duab thiab yeeb yaj duab</string>
+    <string name="circular_icons">Siv icons ncig</string>
+    <string name="back_title">Rov qab navigation</string>
+    <string name="back_summary">Ua kom muaj kev cai rov qab navigation rau saum cov npe</string>
+    <string name="details">Cov ntsiab lus</string>
+    <string name="translators">Cov neeg txhais lus</string>
+    
+    
+    <string name="french_translation_title">Fabkis</string>
+    
+    
+    
+    <string name="chinese_translation_title">Suav</string>
+    <string name="serbian_translation_title">S </string>
+    
+    <string name="ukrainian_translation_title"/>
+    
+    
+    
+    <string name="greek_translation_title"/>
+    
+    
+    <string name="vietnamese_translation_title">V </string>
+    <string name="japanese_translation_title"/>
+    
+
+    <string name="zip_viewer">Zip View</string>
+    <string name="unin_system_apk">Qhov no yog lub kaw lus app, tshem tawm nws yuav ua rau lub kaw lus tsis ruaj khov.\nUa li cas?</string>
+    <string name="warning">Kev ceeb toom</string>
+    
+    
+    <string name="archive_summary">Cov ntaub ntawv khaws cia yuav raug muab rho tawm rau hauv daim nplaub tshev no. Default value is the directory in which archive is present.</string>
+    
+    
+    
+    
+    <string name="other">Lwm yam</string>
+    
+    
+    <string name="save_paths">Nco txog txoj kev</string>
+    <string name="save_path_summary">Thaum pib, lub nplaub tshev uas nyuam qhuav saib rau txhua lub tab yuav tshwm sim</string>
+    <string name="select_intent">Xaiv</string>
+    
+    
+    <string name="colored_navigvation_sum">Txawm hais tias lub system navigation bar yog xim nrog daim tawv nqaij</string>
+
+    
+    <string name="color_summary">Tsim xim rau ntau yam UI Cheebtsam</string>
+    <string name="primary_color_title">Primary Color (Sab laug Tab)</string>
+    <string name="primary_color_summary">Teem xim rau loj UI ntsiab rau sab laug tab</string>
+    <string name="accent_color_title">Accent Colour</string>
+    <string name="accent_color_summary">Teeb xim rau FAB thiab lwm yam me me UI ntsiab</string>
+    <string name="icon_color_title">Icon Xim</string>
+    <string name="icon_color_summary">Teeb xim rau icons</string>
+    <string name="choose_color">Xaiv xim</string>
+    <string name="files">Cov ntaub ntawv</string>
+    
+    
+    <string name="show_dividers">Show Dividers&gt;</string>
+    <string name="needs_access">Sau Access Required</string>
+    <string name="needs_access_summary">Thov xaiv lub hauv paus directory ntawm \t</string>
+    <string name="needs_access_summary1">\tto grant sau nkag mus ua haujlwm</string>
+    <string name="smb_connection">SMB Txuas</string>
+    <string name="smb_server">Server IP Chaw Nyob</string>
+    <string name="server_address">Server IP Chaw Nyob</string>
+    
+    
+    
+    
+    
+    <string name="folderfilecount">%1$d folders thiab %2$d files</string>
+    
+    
+    
+    
+    
+    <string name="md5">5 </string>
+    <string name="total">Tag nrho:</string>
+    <string name="calculating">xam</string>
+    
+    
+    <string name="descending">Txog</string>
+    
+    <string name="doit">Ua</string>
+    <string name="want_help">Xav tau kev pab?</string>
+    <string name="quick">Kaw nkag</string>
+    <string name="recent">Cov ntaub ntawv tsis ntev los no</string>
+    <string name="edit"/>
+    <string name="find">Nrhiav hauv nplooj</string>
+    
+    <string name="grantper">Pant permission</string>
+    <string name="grantfailed">Kev tso cai tsis tau tso cai</string>
+    <string name="grant_storage_permission">App xav tau kev tso cai cia mus ntxiv. Tso tseg qhov kev sib tham no yuav tawm ntawm lub app.</string>
+    <string name="operation_unsuccesful">Kev ua haujlwm tsis ua tiav</string>
+    <string name="creatingfile">Tsim cov ntaub ntawv</string>
+    <string name="creatingfolder">Tsim Folder</string>
+    
+    <string name="cant_be_empty">%s tsis tuaj yeem khoob</string>
+    
+    
+    <string name="no_device_found">No pab kiag li lawm pom</string>
+    
+    
+    
+    
+    
+    <string name="search_hint">Type to search...</string>
+    <string name="advanced_search">Kev Tshawb Nrhiav Advanced</string>
+    <string name="regular_expression">Kev nthuav qhia tsis tu ncua</string>
+    <string name="regular_expression_summary">Search using a BASH style ib txwm qhia</string>
+    <string name="match_content">Match cov ntsiab lus</string>
+    <string name="match_content_summary">Yog tias teeb tsa, cov lus qhia tsis tu ncua yuav raug suav nrog tag nrho cov npe ntawm cov ntaub ntawv,
+        yuav saib lwm qhov tshwm sim.</string>
+    
+    
+    
+    <string name="ftp_status_not_running">Tsis khiav</string>
+    <string name="ftp_no_wifi">Ua kom paub tseeb tias koj txuas nrog Wi -Fi</string>
+    
+    <string name="smb_share">Qhia path</string>
+    
+    <string name="ftp_notif_starting">FTP Server tab tom pib</string>
+    
+    <string name="ftp_notif_title">Amaze FTP Server khiav</string>
+    
+    
+    <string name="ftp_port_edit_menu_title">FTP chaw nres nkoj</string>
+    <string name="ftp_port_change_success">FTP chaw nres nkoj hloov tau zoo</string>
+    <string name="ftp_port_change_error_invalid">Xaiv qhov chaw nres nkoj tsis raug</string>
+    <string name="primary_two_title">Primary Xim (Tab sab xis)</string>
+    <string name="primary_two_summary">Teeb xim rau cov ntsiab lus UI loj rau txoj cai tab</string>
+    <string name="support_development">Txhawb Kev Txhim Kho</string>
+    <string name="report_bugs_title">Qhia kab laum</string>
+    
+    <string name="source_summary">Saib peb qhov chaws ntawm GitHub</string>
+    <string name="report_bugs_summary">Qhia kab laum lossis thov cov yam ntxwv tshiab</string>
+    <string name="translate_title">Hloov</string>
+    <string name="translate_summary">Hloov Txaus siab rau koj hom lus</string>
+    <string name="paypal_copy_message">PayPal ID luam theej rau hauv daim ntawv teev lus</string>
+    <string name="searching_devices">Nrhiav cov khoom siv</string>
+    <string name="use_custom_ip">Siv kev cai IP</string>
+    <string name="bookmark_lost">Tsis pom Bookmark, rov tsim…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Yuav ua li cas nkag mus tau sib koom Windows folder ntawm Android (SMB)\n\n
+                
+                    
+                        Qhib Cov Ntaub Ntawv Sib Koom ntawm Windows\n
+                    
+                    
+                        Qhib Control Vaj Huam Sib Luag, nyem Xaiv HomeGroup thiab sib koom kev xaiv hauv Network
+                        thiab Internet, thiab nias "Hloov Advanced Sib Koom Chaw," pab kom "Cov ntaub ntawv thiab
+                        Lub tshuab luam ntawv sib koom" feature.\n\n
+                    
+
+                    
+                        Ntxiv cov ntaub ntawv sib qhia\n
+                    
+                    
+                        Tej zaum koj kuj yuav xav teeb tsa lwm qhov kev sib koom siab heev ntawm no. \n
+                        Piv txwv li, koj tuaj yeem tso cai nkag mus rau koj cov ntaub ntawv yam tsis muaj tus password yog tias koj ntseeg tag nrho
+                        cov khoom siv ntawm koj lub network hauv zos. Thaum qhib cov ntaub ntawv thiab lub tshuab luam ntawv sib koom, koj tuaj yeem ua tau
+                        qhib File Explorer lossis Windows Explorer, right-click ib daim nplaub tshev uas koj xav qhia, thiab
+                        xaiv Properties. \n
+                        Nyem khawm Qhia thiab ua kom cov ntawv tais ceev tseg rau hauv lub network.\n\n
+                        
+
+                    
+                        Xyuas kom tseeb tias ob lub cuab yeej siv tib lub Wifi\n
+                    
+                    
+                        Qhov no feature ua rau cov ntaub ntawv muaj nyob rau hauv lub zos network, yog li koj lub PC thiab mobile pab kiag li lawm
+                        yuav tsum nyob rau tib lub zos network. Koj tsis tuaj yeem nkag mus rau qhov sib koom Windows nplaub tshev
+                        Hauv Is Taws Nem lossis thaum koj lub xov tooj smartphone txuas nrog nws cov ntaub ntawv mobile - nws
+                        yuav tsum txuas nrog Wi-Fi.\n\n
+                    
+
+                    
+                        Nrhiav IP chaw nyob\n
+                    
+                    
+                        Qhib Command Prompt. Ntaus \'ipconfig\' thiab nias Enter. Saib rau Default Gateway
+                        Hauv qab koj lub network adapter rau koj tus router tus IP chaw nyob. Nrhiav
+                        \\\"IPv4 Chaw Nyob\\\" nyob rau hauv tib seem adapter mus nrhiav koj lub computer\'s IP
+                        chaw nyob.\n\n
+                    
+
+                    Sau cov ntsiab lus hauv SMB dialog box\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Tsis pub tshaj 100 cov ntaub ntawv</string>
+    <string name="otg_access">Xaiv lub hauv paus ntawm OTG ntaus ntawv</string>
+    <string name="information">Cov ntaub ntawv</string>
+    <!-- reference to file accessed date -->
+    
+    <!-- reference to file modified date -->
+    
+
+    
+    
+    
+    
+    <string name="duration"/>
+    <string name="comment"/>
+    <!-- reference to audio/video file -->
+    
+    <string name="codec">Code</string>
+    
+    
+    
+    
+    <string name="frame_rate">Rate</string>
+    <string name="image_type">Image </string>
+    
+    
+    <string name="date_modified">Hnub hloov kho</string>
+    
+    <string name="creator">Cre</string>
+    <string name="camera_brand">Camera Hom</string>
+    <string name="camera_model">Camera Qauv</string>
+    <string name="date_taken">Hnub Tim</string>
+    <string name="exposure_time">Lub Sijhawm Tawm</string>
+    <string name="aperture_value">Aperture Tus Nqi</string>
+    <string name="image_iso">ISO Kev Ntsuas Ceev</string>
+    <string name="flash_fired">Flash Hluav Taws Xob</string>
+    <string name="focal_length">F Length</string>
+    
+    
+    
+    
+    <string name="created"/>
+    
+    <string name="pages">Number of Cov nplooj ntawv</string>
+    <!-- reference to a document file -->
+    <string name="optimized"/>
+    <string name="security">Kev nyab xeeb</string>
+    <string name="paper_size">Daim ntawv Loj</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Qee cov ntaub ntawv tsis ua tiav %s</string>
+    
+    <string name="moved"/>
+    <string name="copy_complete">Copy tiav</string>
+    <string name="waiting_title">Taiting</string>
+    <string name="waiting_content">Tau ua haujlwm kom tiav</string>
+    <string name="extract_complete">Extraction tiav</string>
+    <string name="compression_complete">Compression tiav</string>
+    <string name="compressing">Compressing </string>
+    
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Sau</string>
+    
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    
+    
+    <string name="current_speed">Tam sim no Ceev</string>
+    <string name="smb_launch_error">Koj yuav tsum luam cov ntaub ntawv no mus cia qhib nws</string>
+    <string name="error_file_not_found">Yuam kev: File Not Found</string>
+    <string name="error_io">I/O yuam kev</string>
+    <string name="error_file_too_large">yuam kev: Cov ntaub ntawv loj heev</string>
+    
+    
+    <string name="permission_write">Sau</string>
+    
+    
+    <string name="permission_group">Proup</string>
+    <string name="permission_other">Lwm yam</string>
+    <string name="clipboard_path_copy">Txoj kev theej rau cov ntawv teev cia</string>
+    <string name="service_timer">Lub sijhawm dhau los</string>
+    <string name="please_wait">Thov Tos</string>
+
+    
+    <string name="cloud_connection_new">Txoj Kev Sib Txuas Huab Cua Tshiab</string>
+    
+    <string name="cloud_drive">Drive™</string>
+    
+    <string name="cloud_box">8Box</string>
+    <string name="cloud_get">Tau txais Cloud plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Tsis muaj daim ntawv thov</string>
+    <string name="ftp_path">Txoj kev sib koom</string>
+    <string name="ftp_path_hint">Txoj kev mus rau hauv paus ntawm phau ntawv qhia</string>
+    <string name="change">Hloov</string>
+    <string name="unknown_error">Oops, muaj ib yam dab tsi mus tsis ncaj ncees lawm!</string>
+
+    <string name="ftp_path_change_success">FTP txoj kev hloov tau zoo</string>
+    <string name="ftp_path_change_error_invalid">Txoj kev tsis raug</string>
+    <string name="ftp_status_no_connection">Tsis muaj kev sib txuas</string>
+    <string name="ftp_status_secure_connection">Kev sib txuas ruaj ntseg</string>
+    <string name="ftp_status_title">Txheej xwm</string>
+    <string name="ftp_port">Chaw nres nkoj</string>
+    <string name="ftp_login"/>
+    
+    
+    
+    <string name="intellihide_toolbar_title">Intellihide18 Toolbar</string>
+    <string name="intellihide_toolbar_summary">Tsis siv neeg zais toolbar thaum scrolling</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">copy rau clipboard</string>
+    <string name="contributors_1_summary">Kev txhais</string>
+    <string name="contributors_2_summary">Icon thiab banners</string>
+    <string name="contributors_3_summary">Lub ntsiab cav</string>
+    <string name="contributors_4_summary">Tshaj tawm tom qab FAB</string>
+    <string name="contributors_5_summary">Kev hloov xim thaum swiping tabs</string>
+    
+    <string name="contributors_7_summary">Tshem tawm lub plhaub sib tham sib</string>
+    <string name="connection_exists">Kev sib txuas twb muaj lawm</string>
+
+    
+    
+    <!-- references to 'Some files weren't successfully %s -->
+    
+    
+    <string name="crypt_encrypt">Encrypted</string>
+    <string name="crypt_decrypt">Decrypted</string>
+    <string name="operation_fail_following">Kev ua haujlwm ua tsis tiav rau cov ntaub ntawv nram qab no</string>
+    <string name="crypt_pref_master_password_title">Master Password </string>
+    <string name="crypt_pref_master_password_summary">Tsim tus password tus tswv rau kev encryption.
+        Cia qhov khoob kom tshem tawm.</string>
+    <string name="crypt_pref_fingerprint_title">Ntiv tes</string>
+    <string name="crypt_pref_fingerprint_summary">Siv tus ntiv tes txhawm rau txheeb xyuas qhov encryption</string>
+    <string name="crypt_fingerprint_no_permission">Kev tso cai tus ntiv tes uas ploj lawm</string>
+    <string name="crypt_fingerprint_not_enrolled">Tsis muaj tus ntiv tes nkag</string>
+    <string name="crypt_fingerprint_no_security">Tsis muaj kev ruaj ntseg xauv npo pom</string>
+    <string name="crypt_warning_key">Tau qhia, thaum koj hloov koj tus qauv kev ruaj ntseg los ntawm
+        Kev teeb tsa lub cev, koj yuav tsis muaj peev xwm decrypt cov ntsiab lus no.</string>
+    <string name="warning_never_show">Tsis txhob qhia dua</string>
+    <string name="warning_confirm">Tau!</string>
+    <string name="crypt_encryption_fail">Kev nkag tsis tau</string>
+    <string name="crypt_decryption_fail">Kev decrypted</string>
+    <string name="crypt_decryption_fail_password">Password tsis raug!</string>
+    <string name="crypt_fingerprint_authenticate">Kov sensor mus txuas ntxiv</string>
+    <string name="authenticate_password">Password</string>
+
+    
+    <string name="sidebar_quick_access_title">Sidebar ceev nkag</string>
+    <string name="show_quick_access_pref_title">Show sai accesses</string>
+    <string name="show_quick_access_pref">accesses</string>
+    <string name="directory">Director</string>
+
+    <string name="sidebar_bookmarks_title">Sidebar bookmark </string>
+    <string name="show_bookmarks_pref_title"/>
+    <string name="show_bookmarks_pref"/>
+    <string name="create_bookmark">Tsim bookmark</string>
+    <string name="edit_bookmark">Kho kom raug bookmark</string>
+    <string name="question_delete_bookmark">Rho tawm bookmark?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin tsis pom. Thov rub tawm los ntawm Play Store.</string>
+    <string name="cloud_error_failed_restart">Ua tsis tiav rau kev thauj khoom txuas.
+        Thov qhib Amaze Cloud ib zaug.</string>
+    <string name="cloud_remove">Koj puas xav tshem tawm huab kev sib txuas?</string>
+    <string name="cloud_fail_authenticate">Tsis lees paub qhov tseeb</string>
+    <string name="cloud_share_copied">Siv tau txuas tau theej rau hauv daim ntawv teev cia</string>
+    <string name="copy_low_memory">Running out of nco, thov tshem qee cov RAM</string>
+    <string name="cloud_token_lost">Token poob, thov kos npe dua</string>
+    
+    
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Tsis muaj khoom</string>
+	<string name="item">yam</string>
+	<string name="items">yam</string>
+	
+	
+	<string name="bytes">bytes&gt;</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Cov ntaub ntawv yuav tsum muaj lub npe</string>
+    <string name="add_item">Ntxiv cov khoom</string>
+    <string name="failed_smb_decrypt_path">Load SMB kev twb kev txuas</string>
+    <string name="failed_cloud_new_connection">Failed to add new Kev sib txuas huab</string>
+    <string name="failed_cloud_api_key">Failed to authenticate Cloud plug -in</string>
+
+    <string name="local_inet_addr_error">Yug tau txais qhov chaw nyob hauv zos</string>
+    <string name="intent_save_as">Txuag li…</string>
+    
+    
+    <string name="typeable_paths_title">Txoj kev cai</string>
+    <string name="typeable_paths_summary">Ntev xovxwm kab bar los ntaus ib txoj kev cai</string>
+    <string name="send_email_to">Xa e-mail rau</string>
+
+    
+    <string name="preference_newstack_title">Qhib cov ntaub ntawv ua haujlwm tshiab</string>
+    <string name="preference_newstack_summary">Tso cai rau koj qhib cov ntaub ntawv hauv kev ua haujlwm sib cais. Nkag mus rau lawv los ntawm kev tshuaj ntsuam qhov system tsis ntev los no.</string>
+    
+    
+    <string name="no_bitcoin_app">Thov nruab ib Bitcoin Wallet app</string>
+    
+    
+    
+    <string name="channel_description_ftp">Amaze File Tus Thawj Tswj FTP Server\'s Notifications</string>
+
+    
+    <string name="processing">Kev ua…</string>
+    <string name="failed_no_connection">Ua tsis tau tej ntaub ntawv. Thov xyuas koj qhov kev sib txuas.</string>
+
+    <string name="update">Hloov tshiab</string>
+	<string name="scp_connection">SCP/SFTP Kev Txuas</string>
+    <string name="ftp_connection">FTP Kev Txuas</string>
+    <string name="ftps_connection">FTP dhau SSL Kev Txuas</string>
+    <string name="scp_port">Chaw nres nkoj</string>
+    <string name="ssh_host_key_verification_prompt">Qhov tseeb ntawm tus tswv \'%1$s\' tsis tuaj yeem tsim tau.\n\n%2$s tus ntiv tes tseem ceeb yog %3$s.\n\nThov coj mus rhaub \"Yes\" kom paub meej tus kheej; txwv tsis pub, thov coj mus rhaub \"No\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Tshwj xeeb Host</string>
+    
+    <string name="ssh_pem_key_parse_error">Tsis tuaj yeem nyeem cov ntawv xaiv PEM: %s</string>
+    <string name="password_unchanged">(tsis hloov)</string>
+    <string name="ssh_authentication_failure_password">Kev nkag mus tsis ua haujlwm: Tsis tuaj yeem lees paub nrog tus neeg siv lub npe thiab tus password.</string>
+    <string name="ssh_authentication_failure_key">Kev nkag mus tsis ua haujlwm: Tsis tuaj yeem lees paub nrog tus neeg siv lub npe thiab tus yuam sij ntiag tug.</string>
+    <string name="ssh_connect_failed">Tsis tuaj yeem txuas rau %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">WARNING: REMOTE HOST IDENTIFICATION tau hloov lawm!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">Nws muaj peev xwm ua tau tias ib tug neeg ua qee yam tsis zoo!\n\nIb tug neeg tuaj yeem ua rau koj eavesdropping tam sim no (txiv neej-hauv-tus-nruab nrab tawm tsam)! Kuj tseem muaj peev xwm hais tias tus yuam sij host nyuam qhuav raug hloov. Tus ntiv tes rau pej xeem tus yuam sij xa los ntawm tus tswv tsev nyob deb tsis sib xws rau qhov khaws cia hauv Amaze.\n\nThov hu rau koj tus thawj tswj hwm lub cev lossis teeb tsa qhov kev sib txuas tshiab kom txuas ntxiv mus rau tus neeg rau zaub mov.</string>
+    <string name="ssh_key_prompt_passphrase">Thov sau lo lus zais tseem ceeb .</string>
+    
+    
+    <string name="select_color_config">Xaiv xim config</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="deselect_all">Xaiv tag nrho</string>
+    <string name="filename">File</string>
+    <string name="compress_file_suggest_zip_extension">Nws tau pom zoo kom siv \.zip\" ua cov ntaub ntawv txuas ntxiv.</string>
+    <string name="about_amaze">Cov ntaub ntawv tsim cov ntaub ntawv rau Android</string>
+    <string name="license">Lic</string>
+    <string name="libraries">Li</string>
+    <string name="password_repeat">Rov hais dua lo lus zais</string>
+    <string name="create_file_suggest_txt_extension">Nws tau pom zoo kom siv \.txt\" ua cov ntaub ntawv txuas ntxiv.</string>
+    <string name="ssh_select_pem">Xaiv tus yuam sij rau kev lees paub</string>
+    <string name="ssh_key_invalid_passphrase">Cov nqe lus tseem ceeb tsis raug.</string>
+    <string name="ssh_key_no_decoder_decrypt">Tsis muaj tus txiav txim siab siv tau los decrypt PEM.</string>
+    <string name="encryption_fail_copy">Tsis hloov tshiab encryption hauv database</string>
+    
+    
+    
+    <string name="no_obtainable_info">Tsis muaj cov ntaub ntawv hais txog cov ntaub ntawv no</string>
+    <string name="reopen_from_source">Tsis tau, thov rov qhib dua los ntawm lub xeem app</string>
+    <string name="no_file_error">Ib yam tsis raug, tsis muaj dab tsi qhib</string>
+    <string name="file_too_long">Cov. cov ntaub ntawv ntev dhau lawm thiab tsis tuaj yeem hloov kho, txawm li cas los xij koj tuaj yeem nyeem thawj %d cim</string>
+    <string name="file_read_only">Cov ntaub ntawv qhib yog nyeem nkaus xwb.</string>
+    <string name="got_it">Tau txais!</string>
+    <string name="encrypt_file_save_as">Txuag Encrypted File As…</string>
+    
+    <string name="encrypt_option_use_aze">Siv Amaze Encryption Format</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt yog qhov qhib cov ntaub ntawv encryption hom ntawv raws li AES encryption. Nws kuj yog portable, tuaj yeem decrypted nrog AESCrypt cov kev pab cuam ntawm lwm lub platform.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt lub vev xaib</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'s Encryption Format kuj yog raws li AES encryption; tab sis txawv ntawm AESCrypt hom, nws tsuas yog decrypted los ntawm cov cuab yeej no; kuj koj yuav tsum tsis txhob uninstall Amaze File Manager los ntawm lub cuab yeej no los yog hloov txoj kev koj xauv npo, txwv tsis pub koj yuav tsis muaj txoj hauv kev rov qab tau cov ntaub ntawv encrypted.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Encrypted cov ntaub ntawv yuav tsum siv \."aze\" raws li cov ntaub ntawv extension.</string>
+    <string name="encrypt_file_must_end_with_aes">Encrypted cov ntaub ntawv yuav tsum siv \."aes\" ua cov ntaub ntawv extension.</string>
+    <string name="error_aescrypt_decrypt_failed">Tsis tau decrypt \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Tsis tuaj yeem sau cov ntaub ntawv ntxiv.</string>
+    <string name="saved_single_file">Cov ntaub ntawv khaws cia li \'%s\'.</string>
+    <string name="saved_multi_files">%d cov ntaub ntawv khaws tseg.</string>
+    <string name="create_hidden_file_warn">Cov ntaub ntawv tsim yuav raug muab zais rau hauv daim ntawv teev npe.</string>
+    <string name="grant_apkinstall_permission">App xav tau kev tso cai rau nruab cov apps txuas ntxiv.</string>
+    <string name="time_remaining">Sij hawm seem</string>
+    <string name="transfer_rate">Hloov tus nqi</string>
+    <string name="unknown">tsis paub</string>
+    <string name="multiple_invalid_archive_entries">Qee cov ntaub ntawv hauv archive tsis tuaj yeem muab rho tawm; archive tej zaum yuav puas los yog los ntawm qhov phem.</string>
+    <string name="saf_otg_explanation">Tam sim no koj yuav mus rau Android\'s filesystem vim kev ruaj ntseg. Thov xaiv lub USB ntaus ntawv los ntawm cov npe ntawm sab laug.</string>
+    <string name="donation_thanks">Ua tsaug rau qhov pub dawb, qhov no ua rau peb mob siab rau! (:</string>
+    <string name="enable_marquee_filename">Enable marquee effect for file npe</string>
+    <string name="archive_password_prompt">Thov sau archive password:</string>
+    
+    <string name="cannot_extract_archive">Tsis tuaj yeem rho tawm cov ntaub ntawv \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Cannot qhib archive \"%s\". Txawm hais tias peb tsis tuaj yeem qhib cov ntaub ntawv, lossis cov ntaub ntawv tau raug puas tsuaj.</string>
+    <string name="close">Kaw</string>
+    <string name="bookmark_exists">Bookmark muaj nyob</string>
+    <string name="hide_media">Hide los ntawm media browsers</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">YUAV TSUM PAUB TIAS YUAV UA LI CAS YUAV UA LI CAS!\n\nIb tug neeg tuaj yeem tau eavesdropping rau koj tam sim no (tus txiv neej-hauv-tus-nruab nrab tawm tsam)! Nws kuj tseem muaj peev xwm hais tias tus yuam sij host nyuam qhuav hloov. rau tus yuam sij rau pej xeem xa los ntawm tus tswv tsev nyob deb tsis sib xws rau ib qho khaws cia hauv Amaze.\n\nKoj tuaj yeem txuas ntxiv nrog kev hloov kho tus tswv ntiv tes lossis tshem tawm qhov hloov kho SSH kev twb kev txuas mus.</string>
+    <string name="update_host_key">Hloov tshiab Host Key</string>
+    <string name="cancel_recommended">Ncua tseg (pom zoo)</string>
+    
+    
+    <string name="failed_install_apk">Failed rau nruab</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    
+    <string name="choose_folder">Xaiv Qhov Folder</string>
+    
+    <string name="some_files_failed_invalid_operation">Qee cov ntaub ntawv ua tsis tau tejyam vim siv tsis tau kev ua haujlwm</string>
+    <string name="ftp_server_prompt_connect_to_network">Txuas mus rau lub network lossis qhib AP</string>
+    <string name="ftp_server_open_settings">Qhib chaw</string>
+    <string name="move">Txav</string>
+    <string name="select_save_location">Xaiv qhov chaw los cawm</string>
+    <string name="scp_default_path">Txoj Kev Default (Yeem)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Thov txim, qhov ntawd yuav tsum tsis txhob tshwm sim.</string>
+    
+    <string name="error_report_button_text">Tshaj tawm qhov yuam kev no ntawm e-mail</string>
+    <string name="error_report_button_telegram">Tshaj tawm qhov yuam kev no ntawm telegram</string>
+    <string name="copy_for_github">Cov ntawv luam tawm cov ntawv luam tawm</string>
+    <string name="error_report_open_issue_button_text">Tshaj tawm ntawm GitHub</string>
+    <string name="error_report_open_github_notice">Thov xyuas seb puas muaj teeb meem tham txog koj qhov kev sib tsoo twb muaj lawm.</string>
+    <string name="error_snackbar_message">Thov txim, muaj ib yam dab tsi tsis ncaj ncees lawm.</string>
+    <string name="error_snackbar_action">Qhia</string>
+    <string name="what_device_headline">Info :</string>
+    <string name="what_happened_headline">Dab tsi tshwm sim:</string>
+    <string name="info_labels">Dab tsi:\\nRequest:\\nGMT Sijhawm:\\nPackage:\\nVersion:\\nOS version:\\nDevice:\\nModel:\\nProduct :</string>
+    <string name="your_comment">Koj cov lus qhia (ua lus Askiv):</string>
+    <string name="error_details_headline">Cov ntsiab lus:</string>
+    <string name="app_ui_crash">App /UI crashed</string>
+    <string name="error_report_title">Daim ntawv qhia yuam kev</string>
+    <string name="crash_report_copied">Crash report the copyed to clipboard</string>
+    <string name="disableIpcSignature">Disable IPC signing check (Rau legacy SMBv1 servers - UNSAFE!)</string>
+    <string name="cannot_delete_file">Yuav rho tawm tsis tau ntaub ntawv</string>
+    <string name="cannot_delete_file_with_reason">Cannot delete file - %s</string>
+    <string name="cannot_rename_file">Tsis tuaj yeem hloov npe cov ntaub ntawv %s - %s</string>
+    <string name="cannot_read_directory">Nyeem tsis tau %s - %s</string>
+    <string name="just_once">Ib zaug</string>
+    <string name="always">Ib txwm</string>
+    <string name="choose_different_app">Xaiv daim ntawv thov sib txawv</string>
+    
+    <string name="clear_open_file_summary">Clear xaiv cov ntaub ntawv pib qhib apps</string>
+    <string name="ftp_readonly">Nyeem nkaus xwb</string>
+    <string name="legacy_listing_title">Siv cov npe qub rau hauv paus</string>
+    <string name="legacy_listing_summary">Yog tias qhib tau, siv txoj hauv kev los sau cov ntaub ntawv</string>
+    <string name="error_unsupported_v5_rar">RAR archive \"%s\" tsis txhawb RAR v5 archive.</string>
+    <string name="ftp_prompt_restart_server">Koj yuav tsum rov pib FTP neeg rau zaub mov rau kev hloov pauv kom muaj txiaj ntsig.</string>
+    <string name="error_permission_denied">Kev tso cai tsis lees paub</string>
+    <string name="error_archive_password_incorrect">Ua tsis raug archive password.</string>
+    <string name="error_archive_cannot_extract">Tsis tuaj yeem rho tawm cov ntaub ntawv nkag \"%s\" rau \"%s\".</string>
+    <string name="drag_and_drop_preference">Xaiv luag thiab poob nyiam (Xav tau)</string>
+    <string name="drag_to_move_copy">Kov thiab luag kom txav los yog luam cov ntaub ntawv</string>
+    <string name="drag_to_select">Kov thiab luag xaiv cov ntaub ntawv</string>
+    
+    <string name="choose_operation">Xaiv kev ua haujlwm los ua</string>
+    <string name="remember">Nco ntsoov rau lub sijhawm tom ntej</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Grant SAF nkag rau FTP server</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Vim qhov no yog koj thawj zaug ntawm FTP server, thiab koj siv lub device\'s internal storage as shared folder, please allow Amaze to access the storage using SAF.\n\n
+
+Koj tsuas yog yuav tsum ua qhov no ib zaug, mus txog rau lub sijhawm tom ntej koj xaiv qhov chaw tshiab rau kev sib koom.</string>
+    <string name="android_data_prompt_saf_access">Txij li Android 10, Android tau txwv qee cov npe, thiab lawv yuav tsum nkag mus nrog Storage Access Framework.\n \nThov tso cai rau Amaze nkag mus rau cov npe ntawm lub system\ tus thawj tswj cov ntaub ntawv los ntawm tapping \"Allow Access\".</string>
+    
+    <string name="ftp_preference_saf_filesystem_title">Siv legacy filesystem</string>
+    <string name="ftp_preference_saf_filesystem">Enable qhov no rau kev txhawb nqa rau kev siv cov cuab yeej sab nraud cia ntawm cov tshiab Android versions</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP server sib koom txoj hauv kev tau rov pib dua rau hauv qhov chaw cia thaum koj tab tom hloov rov qab mus rau kev siv cov ntaub ntawv qub qub. Thov xaiv txoj hauv kev tshiab uas siv cov ntawv qhia zaub mov nyob rau sab xis saum toj kawg nkaus raws li qhov tsim nyog.</string>
+    <string name="ftp_server_reset_notify">FTP server sib koom txoj hauv kev tau rov pib dua rau hauv qhov chaw cia</string>
+    <string name="ftp_server_root_unavailable">Koj tab tom xaiv txoj hauv kev uas yuav tsum tau nkag mus hauv paus. Thov qhib lub hauv paus explorer hauv kev teeb tsa yog tias koj lub cuab yeej rooted.</string>
+    <string name="ftp_server_root_filesystem_warning">Koj tab tom xaiv txoj hauv kev uas yuav tsum muaj kev nkag mus rau hauv paus, uas tso cai rau kev nyeem / sau ua haujlwm hauv tag nrho cov ntaub ntawv ntawm koj lub cuab yeej, thiab nws yog qhov txaus ntshai - kev ua yuam kev tsis ua haujlwm tuaj yeem ci koj lub cuab yeej!\n\nKoj puas paub tseeb?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">yuam kev qhib URI \"%s\" rau kev nyeem ntawv.</string>
+    <string name="error_empty_archive">\"%s\" yog ib qho archive khoob.</string>
+    <string name="error_bad_archive_without_info">\"%s\" yog cov ntaub ntawv tsis raug .</string>
+    <string name="error_bad_archive_with_info">\"%s\" yog corrupted archive.\nMessage los ntawm extractor: \"%s\"</string>
+    <string name="security_error">Cov ntaub ntawv tsis tuaj yeem qhib siv lub app no ​​</string>
+    <string name="cloud_drive_tooltip">Tsim kev sib txuas hauv Google Drive™ rau kev tswj cov ntaub ntawv los ntawm hauv Amaze File Manager.</string>
+    <string name="signin_with_google_title">Authenticate siv Google Drive™</string>
+    
+    
+    <string name="select_inverse">Xaiv Inverse</string>
+    <string name="select_by_type">Xaiv los ntawm hom</string>
+    <string name="select_by_date">Xaiv los ntawm hnub</string>
+    <string name="select_similar">Xaiv zoo sib xws</string>
+    <string name="error_fetching_google_play_product_list">Xaiv cov npe khoom los ntawm Google Play.</string>
+    <string name="grant_all_files_permission">Txij li Android 11 , Google thov File Managers thov kev tso cai rau cov neeg siv los tswj txhua cov ntaub ntawv ntawm lub cuab yeej. Paub meej ntawm no.
+        \n\nAmaze File Manager xav tau kev tso cai no thiab. Tom qab nias "Grant" ntawm no, thov xaiv tso cai nkag mus tswj tag nrho cov ntaub ntawv xaiv ntawm lub vijtsam tom ntej.
+        \n\nKev tshem tawm qhov kev sib tham no yuav tawm ntawm lub app.</string>
+    <string name="user_apps">Cov neeg siv cov apps</string>
+    <string name="appearance">Tshem</string>
+    <string name="behavior">Cwj pwm</string>
+    <string name="appearance_summary">Kho lub ntsiab lus, xim thiab zoo li tus thawj tswj ntaub ntawv</string>
+    <string name="ui_summary">Control dab tsi cov ntaub ntawv los qhia, customize lub sidebar, thiab toggle UI nyiam</string>
+    <string name="behavior_summary">Hloov tus cwj pwm xws li kev tshawb fawb siab heev thiab seb puas yuav qhib cov ntaub ntawv ua haujlwm tshiab</string>
+    <string name="security_summary">Teeb tus password thiab encryption</string>
+    
+
+    
+    
+    <string name="pref_import">Ntshuam</string>
+    <string name="pref_import_summary">Ntshuam chaw</string>
+
+    <string name="quick_desc">Cov ntaub ntawv nyuam qhuav nkag los ntawm Amaze</string>
+    <string name="recent_desc">Cov ntaub ntawv tsis ntev los no tau tsim lossis hloov kho</string>
+    <string name="error_cannot_find_way_open">Tsis tuaj yeem nrhiav txoj hauv kev qhib cov ntaub ntawv</string>
+    <string name="error_cant_decompress_that_file">Tsis tuaj yeem ua tiav cov ntaub ntawv thov</string>
+    <string name="analyse_storage">Tam sim cia</string>
+    
+    <string name="download_amaze_utils_text">Koj tab tom raug xa mus rau Amaze File Utilities. Nws yog peb qhov chaw qhib app uas muaj inbuilt audio / video / duab / cov ntaub ntawv saib, tso cai rau koj los tshuaj xyuas cov ntaub ntawv tsis txaus ntseeg kom tso tseg, hloov pauv ceev siv Wifi P2P thiab ntau ntxiv.\nThov txhawb peb los ntawm kev sim nws.</string>
+    
+    
+    <string name="amaze_utils_installed_alias">Ua tsaug rau kev txhim kho Amaze File Utilities. Koj tab tom raug xa mus rau lub app.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">Tshaj tawm cov cav</string>
+    <string name="share_logs_summary">Qhia ntes cov cav ntawm email / telegram</string>
+    <string name="open_with_amaze">Qhib nrog Amaze</string>
+    
+    <string name="open_file_confirmation">Koj puas paub tseeb tias koj xav qhib cov ntaub ntawv hauv qab no?\n\nNpe:\n%s\n\nLocation:\n%s\n\nSize:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Rau Google Play txoj cai tswjfwm, cov apps tsis raug tso cai hloov kho nws tus kheej ntawm nws tus kheej. Thov hloov tshiab app los ntawm Google Play.</string>
+    <string name="error_cannot_get_package_info">Tsis tuaj yeem tau txais cov ntaub ntawv pob los ntawm cov ntaub ntawv \"%s\". Txawm li cas los xij cov ntaub ntawv teev tseg tsis yog APK, lossis cov ntaub ntawv pob tsis raug.</string>
+    <string name="preference_delete_confirmation">Delete kev pom zoo</string>
+    <string name="preference_delete_confirmation_summary">Nug kom paub meej ua ntej rho tawm cov ntaub ntawv. Disabling qhov no yog kev poob siab heev!</string>
+    
+    
+    <string name="protocol_ftps">Ruaj Ntseg FTP</string>
+    
+
+    <string name="exporting_failed">Export ua tsis tau tejyam: sau tsis tau cov ntaub ntawv backup</string>
+    <string name="importing_failed">Ntshuam ua tsis tau tejyam: nyeem tsis tau cov thaub qab file</string>
+    <string name="importing_completed">Ntshuam tiav</string>
+    <string name="invalid_backup_file">Cov ntaub ntawv thaub qab tsis raug</string>
+    <string name="import_failed_for">Ntshuam ua tsis tau tejyam rau:</string>
+    <string name="free_of">"%s\n%s dawb ntawm %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin tsis txaus siab nrog F-Droid version. Thov siv Play Store version of Amaze.</string>
+    <string name="disable_player_intent_filters">Luam cov neeg siv lub hom phiaj lim</string>
+    <string name="disable_player_intent_filters_summary">Disables Amaze inbuilt media player los ntawm cov ntawv xaiv</string>
+    <string name="no_app_found_intent">Tsis pom lub app los tswj lub hom phiaj no. Koj puas tau teeb tsa DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Cov ntaub ntawv pov thawj kev sib txuas huab tau tshem tawm</string>
+    <string name="cloud_connection_credentials_cleared_msg">Hmoov tsis zoo, peb tsis tuaj yeem txav koj cov ntaub ntawv kev sib txuas huab mus rau qhov tshiab database schema, thiab peb muaj kom tshem lawv tawm ntawm lub app. Thov tsim huab sib txuas dua.</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="sidebar_preferences">側邊欄</string>
+    <string name="sidebar_quick_access_title">側邊欄快速訪問</string>
+    <string name="show_quick_access_pref_title">顯示快速訪問</string>
+    <string name="show_quick_access_pref">快速訪問</string>
+    <string name="directory">目錄</string>
+
+    <string name="sidebar_bookmarks_title">側邊欄書籤</string>
+    <string name="show_bookmarks_pref_title">顯示書籤</string>
+    <string name="show_bookmarks_pref">書籤</string>
+    <string name="create_bookmark">創建書籤</string>
+    <string name="edit_bookmark">編輯書籤</string>
+    <string name="question_delete_bookmark">刪除書籤？</string>
+
+    <string name="cloud_error_plugin">未找到 Amaze 雲插件。請從 Play 商店下載。</string>
+    <string name="cloud_error_failed_restart">無法加載鏈接。
+        請打開amaze cloud一次。</string>
+    <string name="cloud_remove">您要刪除雲連接嗎？</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="app_name">I18nStrings Demo</string>
+    <string name="title">I18nStrings</string>
+    <string name="content">I18nstrings is a plug-and-play android project gradle plugin that provides full internationalization and multilingual support for your projects. by integrating this easy-to-use plugin, you can instantly enable various language localization in your project, making it more acceptable to users around the world.</string>
+    <string name="functions_title">Function Introduction</string>
+    <string name="functions">- multilingual translation: i18nstrings supports translating the text of the project into multiple languages, and supports incremental translation.
+\n- translation quality assurance: i18nstrings guarantees translation quality through various measures, and outputs translation quality reports to help you monitor and improve the localization process.
+\n- language switching: i18nstrings provides a solution to switch languages ​​within the app, improving the experience for international users.
+\n- beta language support: i18nstrings supports beta language translations and includes a disclaimer to give you more flexibility in localizing your app.</string>
+    <string name="guide">Click the spinner below to try to switch between different languages:</string>
+
+
+    <string name="action_settings">Set</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="match_content_summary">If set, the regular expression will
+        matches the entire filename,
+        otherwise look for occurrences.</string>
+</resources>

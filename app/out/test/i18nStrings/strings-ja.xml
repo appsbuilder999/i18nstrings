@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <string name="app_name">複数の文字列</string>
+  <string name="action_settings">セット</string>
+  <string name="first_fragment_label">最初のフラグメント</string>
+  <string name="second_fragment_label">2 番目のフラグメント</string>
+  <string name="next">次</string>
+  <string name="previous">前</string>
+  <string name="match_content_summary">設定されている場合、正規表現は
+        ファイル名全体と一致します。
+        それ以外の場合は、出現箇所を探します。</string>
+  <string name="lorem_ipsum">
+        Lorem ipsum dolor sat amet、consectetur adipiscing elit。
+        volutpat、dolor id interdum ullamcorper、risus dolor egestas lectus、imamet mattis purus
+        dui nec risus。 Maecenas non sodales nisi, vel dictum dolor。
+        litora Tornt per conubia nostra、per inceptoshimenaeos。
+        直径，vel rutrum Tellus vulputate quis。 Aliquam eget libero aliquet, imperdiet nisl a,
+        奥纳雷前 Sed rhoncus est ut libero porta lobortis。 Fusce in dictumtellus。\n\n
+        Suspendise interdum ornare ante。 Aliquam nec cursus lorem。 Morbi id magna felis。
+        Egestas、est a condimentum Egestas、turpis nisl iaculis ipsum、in dictumtellus dolor sed
+        Morbitelluserat、dapibusutsema、iaculistinciduntdui。
+        福西クロスの名前はipsum primisに始まる。 Curabitur et eros porttitor、ultricies urna vitae、
+        菜豆はアリケット・メトゥスのコモド・エロスに位置する。
+        必ず登ってください、vel congue leo egestas。\n\n
+        Sed interdum tortor nibh，in sagittis risus mollis quis。 Curabitur mi odio、调味品坐
+        ナラム・プレティウム・リベロ前庭、フィニバス・オルシベル、
+        Fusce blandit Tincidunt nulla、quis solicitudin libero facilisis et。整数
+        interdum nunc ligula, et Fermentum metus hendrerit id。猫前庭直立、格言
+        lacinia sat amet，tristique id quam。 Cras eu consequat dui。 Suspendise sodales nunc ligula、
+        lobortis sem porta sed で。全体数は ultrices magna、luctus elit です。
+        \n\n
+        Aenean nunc velit、lacinia sed dolor sed、ultrices viverra nulla。 Etiam a venenatis nibh。
+        Morbi laoreet、tortor sed facilisis varius、nibh Orci Rhoncus nulla、id elementum leo dui
+        Nam mollis ipsum quis auctor varius。 Quisque elementum eu libero sed commodo。
+        ペレンテスク ヴァリウス エクス ヌンク、ペレンテスク ヴァリウス、ブロックなど。
+        quis imperdiet eros placerat ac。 Duis finibus orci et est auctortincidunt。
+        Nunc quis augue egestas、cursus lorem at、molestie sem。 Morbi a consectetur ipsum、a
+        プララス直径特Etiam vulputate dignissim convallis。整数faucibus mauris mate finibus
+        康ナリシス。\n\n
+        Pellentesque 栖息地 morbi tristique senectus et netus et
+        Malesuada 名气 ac turpis egestas。 Volutpat arcu ut felis sagittis、in finibus Massa
+        妊娠。Pellentesque id Tellus Orci。整数命令、lorem sed efficitur ullamcorper、
+        Libero justo consectetur ipsum、in mollis nisl ex sed nisl。
+        複数のクロンクスが存在する。
+        Libero vel nunc consequat、quistincidunt nisl eleifend。
+        Fusce dictum libero quiserat maximus、vitae volutpat diam dennissim。
+  </string>
+  <string name="home">ホームページ</string>
+  <string name="paste">貼り付け</string>
+  <string name="history">履歴</string>
+  <string name="copy">コピー</string>
+  <string name="root_mode">ルート エクスプローラー</string>
+  <string name="root_mode_summary">利用可能なルート化デバイスのみ。確実な場合のみ確認してください。</string>
+  <string name="root_failure">ルート アクセスが許可されていません</string>
+  <string name="select_all">すべて選択</string>
+  <string name="delete">削除</string>
+  <string name="set_as_home">ホームページとして設定</string>
+  <string name="operation_not_supported">はサポートされていません操作</string>
+  <string name="dialog_delete_title">アイテムを完全に削除しますか?</string>
+  <string name="deleting">削除</string>
+  <string name="question_set_path_as_home">現在のパスをこのタブのホームページとして設定しますか?</string>
+  <string name="directorysort">ディレクトリ並べ替えモード</string>
+  <string name="sort_by">並べ替え方法</string>
+  <string name="sort_only_this">このフォルダのみ</string>
+  <string name="theme">テーマ</string>
+  <string name="random">ランダムスキン</string>
+  <string name="random_summary">起動時にランダムな原色を設定する</string>
+  <string name="colorize">色icon</string>
+  <string name="colorize_summary">静的なアイコンの色を設定します。ディレクトリ アイコンの色の設定は上書きされません。</string>
+  <string name="i18n_ui_disclaimer_title">免責条項</string>
+  <string name="i18n_ui_disclaimer_content">私たちのアプリは、まだ実験段階のものを含む複数の言語オプションをサポートするようになりました。これらの試験的な言語サポートには、エラー、不正確な翻訳、または不完全なテキストの表示が含まれる可能性があります。これらの言語のサポートを改善するために懸命に取り組んでいますが、それらの言語にバグがないことや、完全にサポートされている他の言語と同じ品質基準であることを保証することはできません。 \n試験用言語オプションを使用しているユーザーは、誤解された情報、誤解を招く、またはその他の潜在的な問題を含むがこれらに限定されない、試験用言語オプションの使用によって引き起こされる問題について、当社チームは責任を負わないことを理解する必要があります。 \nこれらの試験的な言語オプションを使用するときに発見した問題やバグを報告することをお勧めします。皆様のご理解とご支援に感謝いたします。私たちのチームは、多言語サポートの継続的な改善と完成に努めてまいります。</string>
+  <string name="i18n_ui_disclaimer_agree">同意する</string>
+  <string name="i18n_ui_disclaimer_disagree">同意しない</string>
+  <string name="i18n_ui_reboot_title">言語を切り替えた後に再起動すると有効になります</string>
+  <string name="i18n_ui_reboot_content">切り替えて再起動してもよろしいですか?</string>
+  <string name="i18n_ui_online_title">オンライン言語パックを読み込み中</string>
+  <string name="i18n_ui_online_loading">お待ちください...</string>
+  <string name="properties_copied_clipboard">クリップボードにコピーしました</string>
+  <string name="contributors_1_summary">翻訳</string>
+  <string name="contributors_2_summary">アイコンとバナー</string>
+  <string name="contributors_3_summary">テーマ エンジン</string>
+  <string name="contributors_4_summary">背後にあるシャドウ ファブ</string>
+  <string name="contributors_5_summary">タブをスワイプしたときの色の変化</string>
+  <string name="contributors_6_summary">FTP サーバー</string>
+  <string name="contributors_7_summary">起動インタラクティブ シェル</string>
+  <string name="connection_exists">接続はすでに存在します</string>
+  <string name="crypt_encrypted">暗号化されました</string>
+  <string name="crypt_decrypted">復号されました</string>
+  <string name="crypt_encrypt">暗号化</string>
+  <string name="crypt_decrypt">復号</string>
+  <string name="operation_fail_following">次のファイル操作が失敗しました</string>
+  <string name="crypt_pref_master_password_title">マスターパスワード</string>
+  <string name="crypt_pref_master_password_summary">暗号化マスターパスワードを設定します。
+        削除するには空白のままにします。</string>
+  <string name="crypt_pref_fingerprint_title">指紋</string>
+  <string name="crypt_pref_fingerprint_summary">指紋認証の暗号化を使用</string>
+  <string name="crypt_fingerprint_no_permission">指紋の権限がありません</string>
+  <string name="crypt_fingerprint_not_enrolled">未登録の指紋</string>
+  <string name="crypt_fingerprint_no_security">ロック画面セキュリティなしDiscovery</string>
+  <string name="crypt_warning_key">セーフ モードを変更するときは注意してください
+        システム設定により、このコンテンツを復号化することはできません。</string>
+  <string name="sidebar_preferences">サイドバー</string>
+  <string name="sidebar_quick_access_title">サイドバーのクイック アクセス</string>
+  <string name="show_quick_access_pref_title">表示のクイック アクセス</string>
+  <string name="show_quick_access_pref">クイック アクセス</string>
+  <string name="directory">カタログ</string>
+  <string name="sidebar_bookmarks_title">サイドバーのブックマーク</string>
+  <string name="show_bookmarks_pref_title">ブックマークの表示</string>
+  <string name="show_bookmarks_pref">ブックマーク</string>
+  <string name="create_bookmark">ブックマークの作成</string>
+  <string name="edit_bookmark">ブックマークの編集</string>
+  <string name="question_delete_bookmark">ブックマークの削除?</string>
+  <string name="cloud_error_plugin">Amaze クラウド プラグインが見つかりません。 Play ストアからダウンロードしてください。</string>
+  <string name="cloud_error_failed_restart">リンクの読み込みに失敗しました。
+        一度、amaze クラウドを開いてください。</string>
+  <string name="cloud_remove">クラウド接続を削除しますか?</string>
+</resources>
+

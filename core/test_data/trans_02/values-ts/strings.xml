@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Mufambisi wa Fayili</string>
+    <string name="drawer_open">Pfula drowara yo fambafamba</string>
+    <string name="drawer_close">Pfala drowara yo fambafamba</string>
+    <string name="icon">xifaniso</string>
+    <string name="apps">Mufambisi wa App</string>
+    <string name="ftp">Sevha ya FTP</string>
+    <string name="setting">Switirhisiwa</string>
+    <string name="select">Hlawula Nchumu</string>
+    <string name="press_again">Tshikelela nakambe ku huma</string>
+    <string name="open">Pfula</string>
+    <string name="backup">Ku Hlayisa</string>
+    <string name="uninstall">Susa</string>
+    <string name="play">Vhengele ro tlanga</string>
+    <string name="properties">Swihlawulekisi</string>
+    <string name="copyingapks">Ku kopa tifayela ta %d ta APK eka %s</string>
+    <string name="delbook">Susa Bukumaka</string>
+    <string name="add_to_bookmarks">Engetela eka Tibukumaki</string>
+    <string name="enterpath">Nghenisa Ndlela</string>
+    <string name="cancel">KHANSELA</string>
+    <string name="create">TUMBULUXA</string>
+    <string name="loading">Ku layicha...</string>
+    <string name="file_empty">Fayili a yi na nchumu</string>
+    <string name="error">Xihoxo</string>
+    <string name="search_results">Mimbuyelo ya ku lavisisa ya %s</string>
+    <string name="rename">Tlhelela vito</string>
+    <string name="save">Hlayisa</string>
+    <string name="bookmarks_added">Tibukumaki ti Engeteriwile</string>
+    <string name="fileexist">Fayili leyi nga na vito leri fanaka se yi kona</string>
+    <string name="name">Vito</string>
+    <string name="date">Siku</string>
+    <string name="location">Ndhawu</string>
+    <string name="size_capitalized">Vukulu</string>
+    <string name="size">sayizi ya folda</string>
+    <string name="enterzipname">Nghenisa Vito ra Zip</string>
+    <string name="no_app_found">Ku hava App leyi kumiweke ku pfula fayili leyi</string>
+    <string name="copying">Ku kopa</string>
+    <string name="moving">Ku rhurhela</string>
+    <string name="file">Fayili</string>
+    <string name="folder">Folda</string>
+    <string name="newfolder">Folda Leyintshwa</string>
+    <string name="entername">Nghenisa Vito</string>
+    <string name="extracting">Ku humesa</string>
+    <string name="stopping">Ku yima</string>
+    <string name="open_parent">Pfula Ndzawulo ya Vatswari</string>
+    <string name="open_with">Pfula hi</string>
+    <string name="share">Avela</string>
+    <string name="about">Malunghana na</string>
+    <string name="extract">Humesa</string>
+    <string name="compress">Tshikelela</string>
+    <string name="yes">Ina</string>
+    <string name="no">E-e</string>
+    
+    <string name="dialog_delete_category_directories">Tidayirekitara</string>
+    <string name="dialog_delete_category_files">Tifayili</string>
+    <string name="dialog_delete_disclaimer">Ku susa swilo leswi nga laha hansi swi ta swi susa hi laha ku nga heriki eka xitirhisiwa xa wena naswona a swi nge vuyiseriwi.</string>
+    <string name="dialog_delete_title">Susa swilo hi laha ku nga heriki?</string>
+    <string name="deleting">Ku susa</string>
+    <string name="question_set_path_as_home">Xana u lava ku veka ndlela ya sweswi tanihi kaya ra thebhu leyi?</string>
+    <string name="directorysort">Mode yo Hlela Directory</string>
+    <string name="sort_by">Hlela Hi</string>
+    <string name="sort_only_this">Ntsena folda leyi</string>
+    <string name="theme">Nhlokomhaka</string>
+    <string name="random">Xikhumba xa Xitshuketa</string>
+    <string name="random_summary">Yi veka muvala wa masungulo hi xitshuketa loko yi sungula</string>
+    <string name="colorize">Mihlovo ya Swifaniso</string>
+    <string name="colorize_summary">Swi veka muvala wa xifaniso lexi nga cinciki. A yi tluleli ku tsakela ka muvala wa xifaniso xa xikombo.</string>
+    <string name="home">Kaya</string>
+    <string name="paste">Namarheta</string>
+    <string name="history">Matimu</string>
+    <string name="copy">Kopa</string>
+    <string name="root_mode">Xihlohloteri xa Timitsu</string>
+    <string name="root_mode_summary">Eka xitirhisiwa lexi dzimeke timitsu ntsena. Yi langutile ntsena loko u tiyiseka hi yona.</string>
+    <string name="root_failure">Mfikelelo wa Rimitsu a wu nyikiwanga</string>
+    <string name="select_all">Hlawula Hinkwaswo</string>
+    <string name="delete">Susa</string>
+    <string name="set_as_home">Seta Tanihi Kaya</string>
+    <string name="operation_not_supported">Ku tirha a swi seketeriwi</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Ku Vonakala ka Switirhisiwa</string>
+    <string name="dark">Munyama wa Switirhisiwa</string>
+    <string name="daytime">Nkarhi wa Siku</string>
+    <string name="black">Ntima (eka OLED)</string>
+    <string name="system">Sisiteme (landzelela nhlokomhaka ya sisiteme)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Tifolda Ehenhla</string>
+    <string name="filesOnTop">Tifayili Ehenhla</string>
+    <string name="none_on_top">A ku na yin’we Ehenhla</string>
+    <!--SortBy-->
+    <string name="sort_name">Vito</string>
+    <string name="lastModified">Ku Cinciwile ro hetelela</string>
+    <string name="sort_size">Vukulu</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Hlawula fayili</string>
+    <string name="process_viewer">Xilanguti xa Maendlelo</string>
+    <string name="in_safe">Ndhawu leyi nga enelangiki</string>
+    <string name="no_file_overwrite">Ku hava Fayili leyi tsariweke ehenhla</string>
+    <string name="skip">Tlula</string>
+    <string name="overwrite">Tsala ehenhla</string>
+    <string name="not_allowed">A swi pfumeleriwi</string>
+    <string name="searching">Ku lavisisa %s</string>
+    <string name="done">Ku endliwile</string>
+    <string name="set">Seta</string>
+    <string name="enablerootmde">Endla leswaku Mode ya Rimitsu Endla</string>
+    <string name="goback">Vuya Endzhaku</string>
+    <string name="newfile">Fayili Leyintshwa</string>
+    <string name="no_files">Ku hava Tifayili</string>
+    <string name="used">xivandla lexi tirhisiweke</string>
+    <string name="used_by_others">xi tirhisiwa hi van’wana</string>
+    <string name="free">xivandla xo ntshunxeka</string>
+    <string name="listview">Xivono xa Nxaxamelo</string>
+    <string name="gridview">Gridi Languta</string>
+    <string name="permission">Mpfumelelo</string>
+    <string name="hide">Fihla</string>
+    <string name="exit">Huma</string>
+    <string name="doforall">Endla eka swilo hinkwaswo</string>
+    <string name="gridcolumnno">Nhlayo ya tikholomu eka xivono xa giridi</string>
+    <string name="set_random">Ku cinca ku ta endleka endzhaku ka loko u sungurile nakambe app</string>
+    <string name="authors">Vatsari</string>
+    <string name="changelog">Ndzavisiso wa ku cinca</string>
+    <string name="ok">Swi lulamile</string>
+    <string name="ui">Xihlanganisi</string>
+    <string name="general">Xiyenge</string>
+    <string name="thumb_summary">Kombisa Swifaniso leswitsongo swa ti-app na swifaniso</string>
+    <string name="thumb">Kombisa Swifaniso leswitsongo</string>
+    <string name="hidden">Kombisa Tifayili leti Fihliweke na Tifolda</string>
+    <string name="lastModifiedSummary">Kombisa siku na nkarhi wa ku cinca ko hetelela</string>
+    <string name="lastModifiedPref">Kombisa Siku ro Hetelela leri Cinciweke na Nkarhi</string>
+    <string name="size_pref_summary">Kombisa vukulu bya tifayela na nhlayo ya swilo eka tifolda</string>
+    <string name="size_pref">Kombisa Vukulu</string>
+    <string name="miscellaneous">Ku hambana</string>
+    <string name="root_pref_summary">Kombisa Mpfumelelo wa Tifayili na Tifolda</string>
+    <string name="root_pref">Kombisa Mpfumelelo</string>
+    <string name="about_amaze_file_manager_label">Malunghana na Mufambisi wa Tifayili wa Amaze</string>
+    <string name="version">Vuhundzuluxi</string>
+    <string name="rate">Rayita app</string>
+    <string name="feedback">Rhumela Vuyelo</string>
+    <string name="hiddenfiles">Tifayili leti Fihliweke</string>
+    <string name="type">Thayipha</string>
+    <string name="root_directory">Rimitsu</string>
+    <string name="add_shortcut">Engetela Ndlela yo koma</string>
+    <string name="unsaved_changes">Ku cinca loku nga hlayisiwangiki</string>
+    <string name="unsaved_changes_description">U na ku cinca loku nga hlayisiwangiki, xana u lava ku ku hlayisa u nga si huma?</string>
+    <string name="saving">Ku hlayisa</string>
+    <string name="package_installer">Mufambisi wa Phasela</string>
+    <string name="view">Vona</string>
+    <string name="install">Nghenisa</string>
+    
+    <string name="archive_text">Leyi i archive. Hi xihi xiendlo lexi u nga tsakelaka ku xi endla?</string>
+    <string name="package_installer_text">Lexi i xitirhisiwa xo nghenisa tiphasela. Hi xihi xiendlo lexi u nga tsakelaka ku xi endla?</string>
+    <string name="xda_title">Thread ya XDA</string>
+    <string name="xda_summary">Swivutiso na tinhlamulo, Mpfuneto &amp;amp; Ku lulamisa swiphiqo</string>
+    <string name="circular_images">Tirhisa swifaniso swa xirhendzevutani eka swifaniso na tivhidiyo</string>
+    <string name="circular_icons">Tirhisa swifaniso swa xirhendzevutani</string>
+    <string name="back_title">Ku famba-famba endzhaku</string>
+    <string name="back_summary">Swi endla leswaku ku famba-famba endzhaku ka ntolovelo ehenhla ka nxaxamelo</string>
+    <string name="details">Vuxokoxoko</string>
+    <string name="translators">Vhundzuluxeri</string>
+    <string name="german_translation_title">Xijarimani</string>
+    <string name="italian_translation_title">Xitaliyana</string>
+    <string name="french_translation_title">Xifurwa</string>
+    <string name="russian_translation_title">Xirhaxiya</string>
+    <string name="spanish_translation_title">Xipaniya</string>
+    <string name="basque_translation_title">Xibasque</string>
+    <string name="chinese_translation_title">Xichayina</string>
+    <string name="serbian_translation_title">Xiserbia</string>
+    <string name="turkish_translation_title">Xiturkey</string>
+    <string name="ukrainian_translation_title">Xiukraine</string>
+    <string name="portuguese_translation_title">Xiputukezi</string>
+    <string name="polish_translation_title">Xipoland</string>
+    <string name="korean_translation_title">Xikorea</string>
+    <string name="greek_translation_title">Xigriki</string>
+    <string name="dutch_translation_title">Xidachi</string>
+    <string name="romanian_translation_title">Xirhoma</string>
+    <string name="vietnamese_translation_title">Xivietnamese</string>
+    <string name="japanese_translation_title">Xijapani</string>
+    <string name="tamil_translation_title">Xitamil</string>
+
+    <string name="zip_viewer">Mulanguti wa Zip</string>
+    <string name="unin_system_apk">Leyi i app ya sisiteme, ku yi susa swi nga endla leswaku sisiteme yi nga tshamiseki.\nYana emahlweni?</string>
+    <string name="warning">Xilemukiso</string>
+    <string name="donate">Nyikela</string>
+    <string name="archive_extract_folder">Folda yo Humesa Aarchive</string>
+    <string name="archive_summary">Tifayili ta archive ti ta humesiwa eka folda leyi. Nhlayo ya ntolovelo i xikombo lexi eka xona akhavhiyu yi nga kona.</string>
+    <string name="open_as">Vula Tanihi</string>
+    <string name="text">Tsalwa</string>
+    <string name="audio">Audiyo</string>
+    <string name="video">Vhidiyo</string>
+    <string name="other">Swin\'wana</string>
+    <string name="image">Xifaniso</string>
+    <string name="contributors">Va hoxa xandla</string>
+    <string name="save_paths">Tsundzuka tindlela</string>
+    <string name="save_path_summary">Loko u sungula, folda leyi langutiweke sweswinyana ya thebhu yin’wana na yin’wana yi ta kombisiwa</string>
+    <string name="select_intent">Hlawula</string>
+    
+    <string name="colored_navigation">Barhi ya ku famba-famba ya mihlovo</string>
+    <string name="colored_navigvation_sum">Loko barhi ya ku famba-famba ya sisiteme yi mihlovo hi nhlonge kumbe e-e</string>
+
+    <string name="color_title">Muhlovo</string>
+    <string name="color_summary">Seta muvala eka swiphemu swo hambana swa UI</string>
+    <string name="primary_color_title">Muhlovo wa Nkoka (Thebhu ya Ximatsi)</string>
+    <string name="primary_color_summary">Seta muvala eka swiaki leswikulu swa UI swa thebhu ya ximatsi</string>
+    <string name="accent_color_title">Muhlovo wa Accent</string>
+    <string name="accent_color_summary">Seta muvala eka FAB na UI yin’wana leyitsongo swiaki</string>
+    <string name="icon_color_title">Muhlovo wa Swifaniso</string>
+    <string name="icon_color_summary">Seta muvala eka swifaniso</string>
+    <string name="choose_color">Hlawula muvala</string>
+    <string name="files">Tifayili</string>
+    <string name="textreader">Muhlayi wa Matsalwa</string>
+    <string name="databasereader">Muhlayi wa Dathabeyisi</string>
+    <string name="show_dividers">Kombisa Swihambanisi</string>
+    <string name="needs_access">Ku Laveka Mfikelelo wo Tsala</string>
+    <string name="needs_access_summary">Hi kombela u hlawula xikombo xa timitsu xa \t</string>
+    <string name="needs_access_summary1">\ku nyika mfikelelo wo tsala ku tirha</string>
+    <string name="smb_connection">Nhlanganiso wa SMB</string>
+    <string name="smb_server">Adirese ya IP ya Sevha</string>
+    <string name="server_address">Adirese ya IP ya Sevha</string>
+    <string name="username">Vito ra Mutirhisi</string>
+    <string name="password">Phasiwedi</string>
+    <string name="anonymous">A nga tiviwi</string>
+    
+    <string name="folders">Tifolda</string>
+    <string name="folderfilecount">Tifolda ta %1$d na tifayela ta %2$d</string>
+    <string name="videos">Tivhidiyo</string>
+    <string name="apks">Ti-APK</string>
+    <string name="documents">Matsalwa</string>
+    <string name="images">Swifaniso</string>
+    <string name="clear">Ku basisa</string>
+    
+    <string name="total">Nhlayo hinkwayo:</string>
+    <string name="calculating">ku hlayela</string>
+    <string name="sort">Hlela</string>
+    <string name="ascending">Ku tlhandluka</string>
+    <string name="descending">Ku rhelela</string>
+    <string name="default_string">Xihlawulekisi</string>
+    <string name="doit">Xana swi</string>
+    <string name="want_help">U lava mpfuneto?</string>
+    <string name="quick">Ku fikelela hi xihatla</string>
+    <string name="recent">Tifayili ta sweswinyana</string>
+    <string name="edit">Hlela</string>
+    <string name="find">Ku kuma eka tluka</string>
+    <string name="grant">Nyika</string>
+    <string name="grantper">Nyika mpfumelelo</string>
+    <string name="grantfailed">Mpfumelelo a wu nyikiwanga</string>
+    <string name="grant_storage_permission">App yi lava mpfumelelo wa vuhlayiselo ku ya emahlweni. Ku khansela mbulavurisano lowu swi ta huma eka app.</string>
+    <string name="operation_unsuccesful">Ntirho a wu humelelanga</string>
+    <string name="creatingfile">Ku tumbuluxa Fayili</string>
+    <string name="creatingfolder">Ku tumbuluxa Folda</string>
+    <string name="renaming">Ku thya vito hi vuntshwa</string>
+    <string name="cant_be_empty">%s a yi nge vi na nchumu</string>
+    <string name="ip">Adirese</string>
+    <string name="connection_name">Vito ra vuhlanganisi</string>
+    <string name="no_device_found">A ku kumeki switirhisiwa</string>
+    <string name="path">Ndlela</string>
+    <string name="rename_bookmark">Cinca Bukumaki</string>
+    <string name="cut">Tsema</string>
+    <string name="search">Ku lavisisa</string>
+    <string name="invalid_name">Vito leri nga tirhiki</string>
+    <string name="search_hint">Type ku lavisisa...</string>
+    <string name="advanced_search">Ku lavisisa ka le henhla</string>
+    <string name="regular_expression">Xivulavulelo xa Nkarhi na Nkarhi</string>
+    <string name="regular_expression_summary">Secha hi ku tirhisa xivulavulelo xa ntolovelo xa xitayili xa BASH</string>
+    <string name="match_content">Ku fambelanisa nhundzu</string>
+    <string name="match_content_summary">Loko swi vekiwile, xivulavulelo xa ntolovelo xi ta fambelanisiwa na vito hinkwaro ra fayili, .
+        yi ta lava ku humelela handle ka sweswo.</string>
+    <string name="start_ftp">Sungula</string>
+    <string name="stop_ftp">Yima</string>
+    <string name="ftp_status_running">Ku tsutsuma</string>
+    <string name="ftp_status_not_running">Ku nga tsutsumi</string>
+    <string name="ftp_no_wifi">Tiyisisa leswaku u hlanganisiwile na Wi -Fi</string>
+    
+    <string name="smb_share">Ndlela yo avelana</string>
+    <string name="invalid">%s leyi nga tirhiki</string>
+    <string name="ftp_notif_starting">Sevha ya FTP yi sungula</string>
+    <string name="ftp_notif_starting_title">Sevha ya FTP</string>
+    <string name="ftp_notif_title">Amaze FTP Server leyi tirhaka</string>
+    <string name="ftp_notif_text">eka %s</string>
+    <string name="ftp_notif_stop_server">YIMA</string>
+    <string name="ftp_port_edit_menu_title">Xipfalo xa FTP</string>
+    <string name="ftp_port_change_success">FTP port yi cinciwile hi ndlela leyi humelelaka</string>
+    <string name="ftp_port_change_error_invalid">Nomboro ya port leyi nga tirhiki yi hlawuriwile</string>
+    <string name="primary_two_title">Muhlovo wa Nkoka (Thebhu ya Xinene)</string>
+    <string name="primary_two_summary">Seta muvala eka swiaki leswikulu swa UI swa thebhu ya xinene</string>
+    <string name="support_development">Nhluvukiso wa Nseketelo</string>
+    <string name="report_bugs_title">Vika Swihoxo</string>
+    <string name="source_title">Khodi ya xihlovo</string>
+    <string name="source_summary">Vona khodi ya hina ya xihlovo eka GitHub</string>
+    <string name="report_bugs_summary">Vika swihoxo kumbe u kombela xivumbeko lexintshwa</string>
+    <string name="translate_title">Hhundzuluxa</string>
+    <string name="translate_summary">Hhundzuluxa Hlamarisa hi ririmi ra wena</string>
+    <string name="paypal_copy_message">ID ya PayPal yi kopiwile eka clipboard</string>
+    <string name="searching_devices">Ku lavisisa switirhisiwa</string>
+    <string name="use_custom_ip">Tirhisa IP ya ntolovelo</string>
+    <string name="bookmark_lost">Bookmark a yi kumeki, ku tumbuluxa nakambe...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Ndlela yo nghena eka folda ya Windows leyi avelaniwa eka Android (SMB)\n\n
+                
+                    
+                        Endla leswaku Ku Avelana Fayili ku tirha eka Windows\n
+                    
+                    
+                        Pfula Control Panel, tinya Choose HomeGroup na Sharing swihlawulekisi ehansi ka Network
+                        na Inthanete, kutani u tikhoma "Cinca Switirhisiwa swa ku Avelana swa le Henhla," pfumelela "Fayili na
+                        Xivumbeko xa Ku Avelana ka Mukandziyisi".\n\n
+                    
+
+                    
+                        Switirhisiwa swo Engetela swa Ku Avelana Fayili\n
+                    
+                    
+                        U nga ha tlhela u lava ku lulamisa swiletelo swin’wana swa xiyimo xa le henhla swa ku avelana laha. \n
+                        Hi xikombiso, u nga ha pfumelela ku nghena eka tifayela ta wena handle ka phaswedi loko u tshemba hinkwato
+                        switirhisiwa leswi nga eka netiweke ya le ndhawini ya ka n’wina. Loko ku avelana tifayela na muchini wo gandlisa ku tirhisiwile, u nga swi kota
+                        pfula File Explorer kumbe Windows Explorer, right-click folda leyi u lavaka ku yi avelana, naswona
+                        hlawula Swihlawulekisi. \n
+                        Click button ya Share kutani u endla leswaku folda yi kumeka eka network.\n\n
+                        
+
+                    
+                        Tiyisisa leswaku switirhisiwa leswimbirhi swi le ka Wifi yin\'we\n
+                    
+                    
+                        Xivumbeko lexi xi endla leswaku tifayela ti kumeka eka netiweke ya laha kaya, hikwalaho PC ya wena na switirhisiwa swa tiselfoni
+                        va fanele va va eka netiweke yin’we ya laha kaya. A wu nge swi koti ku nghena eka folda ya Windows leyi avelaniwa
+                        hi ku tirhisa Internet kumbe loko smartphone ya wena yi hlanganisiwe na data ya yona ya mobile — yona
+                        yi fanele ku hlanganisiwa na Wi-Fi.\n\n
+                    
+
+                    
+                        Kuma Adirese ya IP\n
+                    
+                    
+                        Pfula Xitsundzuxo xa Xileriso. Thayipha \'ipconfig\' ivi u tshikelela Enter. Languta Default Gateway
+                        ehansi ka adaptara ya wena ya netiweke ya adirese ya IP ya router\'s ya wena. Languta
+                        \\\"IPv4 Address\\\" ehansi ka xiyenge lexi fanaka xa adaptara ku kuma IP ya khompyuta ya wena
+                        adirese.\n\n
+                    
+
+                    Nghenisa vuxokoxoko eka bokisi ra mbulavurisano ra SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">A swi nge avelani ku tlula 100 wa tifayela</string>
+    <string name="otg_access">Hlawula rimitsu ra xitirhisiwa xa OTG</string>
+    <string name="information">Mahungu</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Yi fikeleriwile</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Yi cinciwile</string>
+
+    <string name="title">Nhlokomhaka</string>
+    <string name="artist">Mutshila</string>
+    <string name="album">Albamu</string>
+    <string name="year">Lembe</string>
+    <string name="duration">Nkarhi</string>
+    <string name="comment">Mavonelo</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Xigwitsirisi</string>
+    <string name="codec">Khodi</string>
+    <string name="channels">Tichanele</string>
+    <string name="sample_rate">Nhlayo ya Xikombiso</string>
+    <string name="bitrate">Bitara</string>
+    <string name="dimensions">Tidimenxini</string>
+    <string name="frame_rate">Nhlayo ya Fureme</string>
+    <string name="image_type">Muxaka wa Xifaniso</string>
+    <string name="width">Ku anama</string>
+    <string name="height">Ku leha</string>
+    <string name="date_modified">Siku leri cinciweke</string>
+    
+    <string name="creator">Muvumbi</string>
+    <string name="camera_brand">Vumaki bya Khamera</string>
+    <string name="camera_model">Khamera Model</string>
+    <string name="date_taken">Siku leri tekiweke</string>
+    <string name="exposure_time">Nkarhi wo paluxeka</string>
+    <string name="aperture_value">Nxavo wa Aperture</string>
+    <string name="image_iso">Xiringanyeto xa Rivilo ra ISO</string>
+    <string name="flash_fired">Xigwitsirisi xa Flash</string>
+    <string name="focal_length">Ku leha ka Focal</string>
+    <string name="subject">Nhlokomhaka</string>
+    <string name="author">Mutsari</string>
+    <string name="keywords">Marito ya nkoka</string>
+    <string name="producer">Muhumelerisi</string>
+    <string name="created">U tumbuluxiwile</string>
+    <string name="format">Fomati</string>
+    <string name="pages">Nhlayo ya Matluka</string>
+    <!-- reference to a document file -->
+    <string name="optimized">ya antswisiwile</string>
+    <string name="security">Vuhlayiseki</string>
+    <string name="paper_size">Vukulu bya Phepha</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Tifayili tin\'wana a ti %s</string>
+    <string name="copied">kopiwa hi ndlela leyi humelelaka</string>
+    <string name="moved">ku rhurhisiwa</string>
+    <string name="copy_complete">Kopiya Ku helerile</string>
+    <string name="waiting_title">Ku rindze</string>
+    <string name="waiting_content">Ku yimela leswaku ntirho wu hela</string>
+    <string name="extract_complete">Ku humesiwa ku hetisekile</string>
+    <string name="compression_complete">Ku tshikileriwa ku hetisiwile</string>
+    <string name="compressing">Ku tshikileriwa</string>
+    <string name="cancelled">Ku khanseliwile</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Ku tsariwile</string>
+    <string name="out_of">ehandle ka</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ka</string>
+    <string name="processing_file">fayili yo lulamisa</string>
+    <string name="current_speed">Rivilo ra sweswi</string>
+    <string name="smb_launch_error">U ta lava ku kopa fayili leyi eka vuhlayiselo ku yi pfula</string>
+    <string name="error_file_not_found">Xihoxo: Fayili A yi Kumiwanga</string>
+    <string name="error_io">Xihoxo xa I/O</string>
+    <string name="error_file_too_large">Xihoxo: Fayili Yikulu Ngopfu</string>
+    <string name="medium_text">Tsalwa ra le Xikarhi</string>
+    <string name="permission_read">Hlaya</string>
+    <string name="permission_write">Tsala</string>
+    <string name="permission_execute">Endla</string>
+    <string name="permission_owner">N’wini</string>
+    <string name="permission_group">Ntlawa</string>
+    <string name="permission_other">Swin’wana</string>
+    <string name="clipboard_path_copy">Ndlela leyi kopiweke eka clipboard</string>
+    <string name="service_timer">Nkarhi lowu hundzeke</string>
+    <string name="please_wait">Hi kombela u Yimela</string>
+
+    <string name="cloud_connection">Nhlanganiso wa Mapapa</string>
+    <string name="cloud_connection_new">Nhlanganiso Lowuntshwa wa Mapapa</string>
+    
+    <string name="cloud_drive">Google DriveTM</string>
+    
+    <string name="cloud_box">Bokisi</string>
+    <string name="cloud_get">Kuma plugin ya Cloud</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Ku hava switirhisiwa</string>
+    <string name="ftp_path">Ndlela leyi avelaniwa</string>
+    <string name="ftp_path_hint">Ndlela yo ya eka rimitsu ra vukorhokeri ku avelana</string>
+    <string name="change">Cinca</string>
+    <string name="unknown_error">Oops, ku na leswi nga famba kahle!</string>
+
+    <string name="ftp_path_change_success">Ndlela ya FTP yi cinciwile hi ndlela leyi humelelaka</string>
+    <string name="ftp_path_change_error_invalid">Ndlela leyi nga tirhiki</string>
+    <string name="ftp_status_no_connection">Ku hava Nhlanganiso</string>
+    <string name="ftp_status_secure_connection">Nhlanganiso lowu sirhelelekeke</string>
+    <string name="ftp_status_title">Xiyimo</string>
+    <string name="ftp_port">Xiporo</string>
+    <string name="ftp_login">Nghena</string>
+    <string name="field_empty">Nsimu a yi nge vi na nchumu</string>
+    <string name="ftp_timeout">Nkarhi wo hela lowu nga tirhiki</string>
+    <string name="ftp_seconds">Tisekoni</string>
+    <string name="intellihide_toolbar_title">Intellihide Barha ya switirhisiwa</string>
+    <string name="intellihide_toolbar_summary">Fihla barhi ya switirhisiwa hi ku tisungulela loko u ri karhi u rhendzeleka</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">yi kopiwile eka clipboard</string>
+    <string name="contributors_1_summary">Vuhundzuluxi</string>
+    <string name="contributors_2_summary">Xifaniso na ti banner</string>
+    <string name="contributors_3_summary">Injhini ya Nhlokomhaka</string>
+    <string name="contributors_4_summary">Ndzhuti endzhaku ka FAB</string>
+    <string name="contributors_5_summary">Ku cinca ka mihlovo loko u swipa tithebhu</string>
+    <string name="contributors_6_summary">Sevha ya FTP</string>
+    <string name="contributors_7_summary">Ku pfurheta xikhegelo xa vuhlanganisi</string>
+    <string name="connection_exists">Nhlanganiso se yi kona</string>
+
+    <string name="crypt_encrypting">Ku fihla</string>
+    <string name="crypt_decrypting">Ku pfuriwa</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Ku pfaleriwa</string>
+    <string name="crypt_decrypted">Ku pfaleriwa</string>
+    <string name="crypt_encrypt">Ku fihla</string>
+    <string name="crypt_decrypt">Ku pfalela</string>
+    <string name="operation_fail_following">Ku tirha ku tsandzekile eka tifayela leti landzelaka</string>
+    <string name="crypt_pref_master_password_title">Paswedi ya Nhloko</string>
+    <string name="crypt_pref_master_password_summary">Seta phaswedi ya nkoka ya ku fihla.
+        Tshika yi nga ri na nchumu ku susa.</string>
+    <string name="crypt_pref_fingerprint_title">Xikombiso xa tintiho</string>
+    <string name="crypt_pref_fingerprint_summary">Tirhisa xikombiso xa tintiho ku tiyisisa ku fihla</string>
+    <string name="crypt_fingerprint_no_permission">Mpfumelelo wa swikombiso swa tintiho a wu kona</string>
+    <string name="crypt_fingerprint_not_enrolled">A ku tsarisiwanga xikombiso xa tintiho</string>
+    <string name="crypt_fingerprint_no_security">A ku na vuhlayiseki bya xikirini xo pfala found</string>
+    <string name="crypt_warning_key">Tivisa, loko u cinca xivumbeko xa wena xa vuhlayiseki ku suka eka
+        Switirhisiwa swa sisiteme, a wu nge swi koti ku pfula xihundla lexi.</string>
+    <string name="warning_never_show">U nga ha tivisi nakambe</string>
+    <string name="warning_confirm">Ku swi kumile!</string>
+    <string name="crypt_encryption_fail">Ku tsandzekile ku fihla</string>
+    <string name="crypt_decryption_fail">Ku tsandzekile ku pfula</string>
+    <string name="crypt_decryption_fail_password">Paswedi leyi hoxeke!</string>
+    <string name="crypt_fingerprint_authenticate">Ku khumba sensor ku ya emahlweni</string>
+    <string name="authenticate_password">Nghenisa phaswedi</string>
+
+    <string name="sidebar_preferences">Barhi ya le tlhelo</string>
+    <string name="sidebar_quick_access_title">Ku fikelela hi ku hatlisa ka barhi ya le tlhelo</string>
+    <string name="show_quick_access_pref_title">Kombisa mfikelelo wa xihatla</string>
+    <string name="show_quick_access_pref">Ku fikelela hi xihatla</string>
+    <string name="directory">Xikombo</string>
+
+    <string name="sidebar_bookmarks_title">Tibukumaki ta le tlhelo</string>
+    <string name="show_bookmarks_pref_title">Kombisa tibukumaki</string>
+    <string name="show_bookmarks_pref">Tibukumaki</string>
+    <string name="create_bookmark">Endla buku-maki</string>
+    <string name="edit_bookmark">Hlela buku-makha</string>
+    <string name="question_delete_bookmark">Susa buku-maki?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin a yi kumeki. Hi kombela u kopa eka Play Store.</string>
+    <string name="cloud_error_failed_restart">Ku tsandzekile ku layicha vuhlanganisi.
+        Hi kombela u pfula Amaze Cloud kan\'we.</string>
+    <string name="cloud_remove">Xana u lava ku susa vuhlanganisi bya cloud?</string>
+    <string name="cloud_fail_authenticate">Ku tsandzekile ku tiyisisa</string>
+    <string name="cloud_share_copied">Xihlanganisi lexi avelaniwa xi kopiwile eka clipboard</string>
+    <string name="copy_low_memory">Ku hela memori, hi kombela u basisa RAM yin’wana</string>
+    <string name="cloud_token_lost">Token yi lahlekile, hi kombela u nghena nakambe</string>
+    <string name="monofont">Font ya Monospace</string>
+    <string name="showHeaders">Kombisa Tinhloko-mhaka</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Ku hava swilo</string>
+	<string name="item">nchumu</string>
+	<string name="items">swilo</string>
+	
+	<string name="byte_singular">bayiti</string>
+	<string name="bytes">bayiti</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Fayili yi fanele ku va na vito</string>
+    <string name="add_item">Engetela Nchumu</string>
+    <string name="failed_smb_decrypt_path">Yi tsandzekile ku layicha Nhlanganiso wa SMB</string>
+    <string name="failed_cloud_new_connection">Ku tsandzekile ku engetela vuhlanganisi lebyintshwa bya Cloud</string>
+    <string name="failed_cloud_api_key">Ku tsandzekile ku tiyisisa plug-in ya Cloud</string>
+
+    <string name="local_inet_addr_error">Xihoxo xo kuma adirese ya inet ya laha kaya</string>
+    <string name="intent_save_as">Hlayisa tanihi...</string>
+    <string name="go">Famba</string>
+    <string name="advanced">Eka xiyimo xa le henhla</string>
+    <string name="typeable_paths_title">Tindlela ta ntolovelo</string>
+    <string name="typeable_paths_summary">Barhi ya ndlela yo cinca cinca nkarhi wo leha ku thayipa ndlela ya ntolovelo</string>
+    <string name="send_email_to">Rhumela imeyili eka</string>
+
+    <string name="text_editor">Swiyimiso swa muhleri ​​wa matsalwa</string>
+    <string name="preference_newstack_title">Pfula tifayela tanihi ntirho lowuntshwa</string>
+    <string name="preference_newstack_summary">Swi ku pfumelela ku pfula tifayela eka mintirho yo hambana. Va fikelela ku suka eka xikirini xa sweswinyana xa sisiteme.</string>
+    
+    <string name="developers">Vatumbuluxi</string>
+    <string name="no_bitcoin_app">Hi kombela u nghenisa app ya Bitcoin Wallet</string>
+    <string name="channel_name_normal">Amaze Switiviso</string>
+    <string name="channel_description_normal">Amaze File Manager\'s Switiviso</string>
+    <string name="channel_name_ftp">Hlakisa Seva ya FTP</string>
+    <string name="channel_description_ftp">Amaze File Switiviso swa Sevha ya FTP ya Mufambisi</string>
+
+    
+    <string name="processing">Ku lulamisiwa...</string>
+    <string name="failed_no_connection">Ku tsandzekile ku layicha tifayela. Hi kombela u kambela vuhlanganisi bya wena.</string>
+
+    
+	<string name="scp_connection">Nhlanganiso wa SCP/SFTP</string>
+    <string name="ftp_connection">Nhlanganiso wa FTP</string>
+    <string name="ftps_connection">Nhlanganiso wa FTP eka SSL</string>
+    
+    <string name="ssh_host_key_verification_prompt">Ntiyiso wa host \'%1$s\' a wu nge simekiwi.\n\n%2$s key fingerprint i %3$s.\n\nHi kombela u khoma \"Yes\" ku tiyisisa vutitivi; handle ka sweswo, hi kombela u khoma \"E-e\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Tiyisisa Host</string>
+    <string name="ssh_select_pem_button">Xilotlelo xa le xihundleni xa SSH</string>
+    <string name="ssh_pem_key_parse_error">A swi swi koti ku hlaya PEM leyi hlawuriweke: %s</string>
+    <string name="password_unchanged">(a yi cinciwanga)</string>
+    <string name="ssh_authentication_failure_password">Ku tsandzeka ku nghena: A swi koteki ku tiyisisa hi vito ra mutirhisi leri nyikiweke na phaswedi.</string>
+    <string name="ssh_authentication_failure_key">Ku tsandzeka ku nghena: A swi koteki ku tiyisisa hi vito ra mutirhisi leri nyikiweke na xilotlelo xa le xihundleni.</string>
+    <string name="ssh_connect_failed">A swi koteki ku hlanganisa na %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">XILERISO: XITLHOKOVETSELO XA HOST YA LE KULE XI CINCILE!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">SWI NGA ENDLEKA LESWAKU MUNHU U ENDLA SWIN\'WANI SWO BIHA!\n\nUn\'wana a nga ha va a ku yingisela hi ku tumbela sweswi (nhlaselo wa munhu wa le xikarhi)! Swi nga ha endleka na leswaku xilotlelo xa host xi ha ku cinciwa. Xikombiso xa tintiho xa xilotlelo xa mani na mani lexi rhumeriweke hi mufambisi wa le kule a xi fambelani na lexi hlayisiweke eka Amaze.\n\nHi kombela u tihlanganisa na mulawuri wa wena wa sisiteme kumbe u lulamisa vuhlanganisi lebyintshwa ku ya emahlweni u hlanganisa na sevha.</string>
+    <string name="ssh_key_prompt_passphrase">Hi kombela u nghenisa xivulwa xa xilotlelo .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Ku tumbuluxiwa ka tindlela to koma a swi seketeriwi hi xisunguri xa wena.</string>
+    
+    <string name="select_color_config">Hlawula xivumbeko xa mihlovo</string>
+    <string name="customize">Endla hi ku landza swilaveko swa wena</string>
+    <string name="custom">Xihlawulekisi</string>
+    <string name="preselected_configs_title">Ti-config leti hlawuriweke ka ha ri emahlweni</string>
+    
+    <string name="blue">Rihlaza</string>
+    <string name="green">Rihlaza</string>
+    <string name="password_no_match">Password a yi fambelani</string>
+    <string name="deselect_all">Susa Hlawula Hinkwaswo</string>
+    <string name="filename">Vito ra fayili</string>
+    <string name="compress_file_suggest_zip_extension">Swi ringanyetiwa ku tirhisa \".zip\" tanihi xiengetelo xa fayili.</string>
+    <string name="about_amaze">Mufambisi wa fayili ya dizayini ya switirhisiwa ya Android</string>
+    <string name="license">Layisense</string>
+    <string name="libraries">Tilayiburari</string>
+    <string name="password_repeat">Phindha phaswedi</string>
+    <string name="create_file_suggest_txt_extension">Swa hlohleteriwa ku tirhisa \".txt\" tanihi xiengetelo xa fayili.</string>
+    <string name="ssh_select_pem">Hlawula xilotlelo xa le xihundleni xa vuhlayiseki</string>
+    <string name="ssh_key_invalid_passphrase">Xivulwa xa xilotlelo lexi nga tirhiki.</string>
+    <string name="ssh_key_no_decoder_decrypt">Ku hava decoder leyi tirhaka ku decrypt PEM.</string>
+    <string name="encryption_fail_copy">Ku tsandzekile ku pfuxeta ku nghena ka encryption eka database</string>
+    <string name="extracted">Ku humesiwile</string>
+    <string name="compressed">Ku tshikeleriwa</string>
+    <string name="processed">Ku endliwile</string>
+    <string name="no_obtainable_info">Akuna info hi fayili leyi</string>
+    <string name="reopen_from_source">A swi nge swi koti, hi kombela u pfula nakambe ku suka eka app yo hetelela</string>
+    <string name="no_file_error">Ku na leswi nga famba kahle, a ku na nchumu wo pfula</string>
+    <string name="file_too_long">The fayili yi lehe ngopfu naswona a yi nge hleriwi, hambiswiritano u nga hlaya swihlawulekisi swo sungula swa %d</string>
+    <string name="file_read_only">Fayili leyi pfuriweke i ya ku hlaya ntsena.</string>
+    <string name="got_it">Yi kumile!</string>
+    <string name="encrypt_file_save_as">Hlayisa Encrypted Fayili Tanihi...</string>
+    <string name="encrypt_folder_save_as">Hlayisa Folda leyi Fihliweke Tanihi...</string>
+    <string name="encrypt_option_use_aze">Tirhisa Fomati ya Vuhlayiselo bya Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt i xivumbeko xa ku fihla ka fayili ya xihlovo lexi pfulekeke lexi simekiweke eka ku fihla ka AES. Nakambe ya rhwalekaka, yi nga ha pfuriwa hi minongonoko ya AESCrypt eka tipulatifomo tin’wana.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">Website ya AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[ya xirhendzevutani
+        <p>Amaze\'s Encryption Format yi tlhela yi sekeriwe eka ku fihla ka AES; kambe ku hambana na xivumbeko xa AESCrypt, yi nga ha pfuriwa ntsena hi xitirhisiwa lexi; nakambe a wu fanelanga ku susa Amaze File Manager eka xitirhisiwa lexi kumbe ku cinca ndlela leyi u pfala xikirini ha yona, handle ka sweswo a wu nge vi na ndlela yo vuyisa fayili leyi pfaleriweke.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Tifayili leti pfaleriweke ti fanele ku tirhisa \".aze\" tanihi xiengetelo xa fayili.</string>
+    <string name="encrypt_file_must_end_with_aes">Tifayili leti pfaleriweke ti fanele ku tirhisa \".aes\" tanihi xiengetelo xa fayili.</string>
+    <string name="error_aescrypt_decrypt_failed">A yi nge swi koti ku pfula \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">A swi nge tsali ehenhla ka fayili.</string>
+    <string name="saved_single_file">Fayili yi hlayisiwile tanihi \'%s\'.</string>
+    <string name="saved_multi_files">%d tifayela ti hlayisiwile.</string>
+    <string name="create_hidden_file_warn">Fayili leyi endliweke yi ta fihliwa eka nxaxamelo wa tifayela.</string>
+    <string name="grant_apkinstall_permission">App yi lava mpfumelelo wo nghenisa ti-app yi ya emahlweni.</string>
+    <string name="time_remaining">Nkarhi lowu saleke</string>
+    <string name="transfer_rate">Nhlayo ya ku hundzisela</string>
+    <string name="unknown">a swi tiviwi</string>
+    <string name="multiple_invalid_archive_entries">Tifayili tin\'wana eka akhavhiyu a ti nge humesiwi; archive yi nga ha onhaka kumbe yi huma eka xihlovo xo biha.</string>
+    <string name="saf_otg_explanation">Sweswi u ta ya eka Android\'s filesystem hi swivangelo swa vuhlayiseki. Hi kombela u hlawula xitirhisiwa xa USB eka nxaxamelo lowu nga etlhelo ra ximatsi.</string>
+    <string name="donation_thanks">Ndza khensa munyikelo, leswi swi hi hlayisa hi ri na nsusumeto! (:</string>
+    <string name="enable_marquee_filename">Endla leswaku marquee effect yi tirha eka mavito ya tifayela</string>
+    <string name="archive_password_prompt">Hi kombela u nghenisa phaswedi ya akhavhiyu:</string>
+    
+    <string name="cannot_extract_archive">A swi koteki ku humesa akhavhiyu \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">A swi koteki pfula akhavhiyu \"%s\".Kumbe a hi nge swi koti ku pfula akhavhiyu, kumbe akhavhiyu yi onhakile.</string>
+    <string name="close">Pfala</string>
+    <string name="bookmark_exists">Bukmaki yi kona</string>
+    <string name="hide_media">Fihla eka swihlamusela-marito swa swihangalasamahungu</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">SWI KOTEKA LESWAKU MUNHU U ENDLA SWILO SWO BIHA!\n\nUn\'wana a nga ha va a ku yingisela hi ku tumbela sweswi (nhlaselo wa munhu wa le xikarhi)!Swi nga ha endleka na leswaku xilotlelo xa host xi ha ku cinciwa.Xikombiso xa tintiho hikuva xilotlelo xa mani na mani lexi rhumeriweke hi host ya le kule a xi fambelani na lexi hlayisiweke eka Amaze.\n\nU nga ha ya emahlweni na ku pfuxeta xikombiso xa tintiho xa host kumbe u khansela ku pfuxeta swiletelo swa vuhlanganisi bya SSH.</string>
+    <string name="update_host_key">Pfuxeta Xilotlelo xa Host</string>
+    <string name="cancel_recommended">Khansela (Swi ringanyetiwa)</string>
+    
+    
+    <string name="failed_install_apk">Ku tsandzekile ku nghenisa</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Vuhlayiselo bya le Ndzeni</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Khadi ra SD</string>
+    <string name="choose_folder">Hlawula Folda Leyi</string>
+    
+    <string name="some_files_failed_invalid_operation">Tifayili tin’wana ti tsandzekile hikwalaho ka leswi nga tirhiki ntirho</string>
+    <string name="ftp_server_prompt_connect_to_network">Tihlanganise na netiweke kutani u pfumelela AP</string>
+    <string name="ftp_server_open_settings">Pfula swiletelo</string>
+    <string name="move">Suka</string>
+    <string name="select_save_location">Hlawula ndhawu yo hlayisa</string>
+    <string name="scp_default_path">Ndlela ya Xiviri (Swa hlawuleka)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Ndzi rivaleli, sweswo a swi nga fanelanga swi humelela.</string>
+    
+    <string name="error_report_button_text">Vika xihoxo lexi hi ku tirhisa imeyili</string>
+    <string name="error_report_button_telegram">Vika xihoxo lexi hi ku tirhisa thelegiramu</string>
+    <string name="copy_for_github">Kopa xiviko lexi fomatiweke</string>
+    <string name="error_report_open_issue_button_text">Xiviko eka GitHub</string>
+    <string name="error_report_open_github_notice">Hi kombela u kambela loko mhaka leyi vulavulaka hi ku wa ka wena se yi ri kona.</string>
+    <string name="error_snackbar_message">Ndzi rivaleli, ku na leswi nga famba kahle.</string>
+    <string name="error_snackbar_action">Xiviko</string>
+    <string name="what_device_headline">Vuxokoxoko:</string>
+    <string name="what_happened_headline">Leswi humeleleke:</string>
+    <string name="info_labels">I yini:\\nXikombelo:\\nGMT Nkarhi:\\nPhakelo:\\nVuhundzuluxi:\\nVuhundzuluxi bya OS:\\nXitirhisiwa:\\nModel:\\nXiendliwa :</string>
+    <string name="your_comment">Nhlamuselo ya wena (hi Xinghezi):</string>
+    <string name="error_details_headline">Vuxokoxoko:</string>
+    <string name="app_ui_crash">App/UI yi tshovekile</string>
+    <string name="error_report_title">Xiviko xa xihoxo</string>
+    <string name="crash_report_copied">Xiviko xa ku wa xi kopiwe eka clipboard</string>
+    <string name="disableIpcSignature">Tshika ku kambela ku sayina ka IPC (Eka tisevha ta ndzhaka ta SMBv1 - UNSAFE!)</string>
+    <string name="cannot_delete_file">A swi nge swi koti ku susa fayili</string>
+    <string name="cannot_delete_file_with_reason">A swi nge swi koti ku susa fayili - %s</string>
+    <string name="cannot_rename_file">A swi nge swi koti ku thya fayili vito lerintshwa %s - %s</string>
+    <string name="cannot_read_directory">A ndzi swi koti ku hlaya xikombo %s - %s</string>
+    <string name="just_once">Kambe ntsena</string>
+    <string name="always">Minkarhi hinkwayo</string>
+    <string name="choose_different_app">Hlawula xitirhisiwa xo hambana</string>
+    <string name="clear_open_file">Susa cache</string>
+    <string name="clear_open_file_summary">Yi basisa ti-app to pfula fayili ta xiviri leti hlawuriweke</string>
+    <string name="ftp_readonly">Mfikelelo wo hlaya ntsena</string>
+    <string name="legacy_listing_title">Tirhisa nxaxamelo wa ndzhaka wa root</string>
+    <string name="legacy_listing_summary">Loko wu pfuriwile, yi tirhisa ndlela ya ndzhaka ku xaxameta tifayela</string>
+    <string name="error_unsupported_v5_rar">RAR archive \"%s\" i RAR v5 archive leyi nga seketeriwangiki.</string>
+    <string name="ftp_prompt_restart_server">U ta lava ku sungula nakambe sevha ya FTP leswaku ku cinca ku tirha.</string>
+    <string name="error_permission_denied">Mpfumelelo wu ariwile</string>
+    <string name="error_archive_password_incorrect">Paswedi ya akhavhiyu leyi hoxeke.</string>
+    <string name="error_archive_cannot_extract">A yi nge humesi ku nghena ka akhavhiyu \"%s\" ku ya eka \"%s\".</string>
+    <string name="drag_and_drop_preference">Hlawula ku koka na ku hoxa ku tsakela (Xikambelo)</string>
+    <string name="drag_to_move_copy">Khoma u koka ku yisa kumbe ku kopa tifayela</string>
+    <string name="drag_to_select">Khoma u koka ku hlawula tifayela</string>
+    <string name="disable">Tshika</string>
+    <string name="choose_operation">Hlawula ntirho ku wu endla</string>
+    <string name="remember">Tsundzuka nkarhi lowu taka</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Nyika mfikelelo wa SAF eka sevha ya FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Tanihi leswi ku nga ku tsutsuma ka wena ko sungula ka sevha ya FTP, naswona u tirhisa vuhlayiselo bya le ndzeni bya xitirhisiwa tanihi folda leyi avelaniwa, hi kombela u pfumelela Amaze ku fikelela vuhlayiselo hi ku tirhisa SAF.\n\n
+
+U fanele ku endla leswi kan’we ntsena, ku fikela nkarhi lowu taka loko u hlawula ndhawu leyintshwa yo avelana.</string>
+    <string name="android_data_prompt_saf_access">Ku sukela eka Android 10, Android a yi veke swipimelo eka tidayirekitara to karhi, naswona va fanele ku nghena hi Rimba ra Mfikelelo wa Vuhlayiselo.\n \nHi kombela u pfumelela Amaze ku nghena eka xikombo ku suka eka mufambisi wa fayili ya sisiteme hi ku khoma \"Pfumelela Mfikelelo\".</string>
+    <string name="android_data_prompt_saf_access_title">Nyika mfikelelo wa SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Tirhisa sisiteme ya fayili ya ndzhaka</string>
+    <string name="ftp_preference_saf_filesystem">Endla leswi eka nseketelo wo tirhisa vuhlayiselo bya le handle bya xitirhisiwa eka vuhundzuluxeri lebyintshwa bya Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Ndlela leyi avelaniwa ya sevha ya FTP a yi tlheriseriwe eka vuhlayiselo bya le ndzeni tanihileswi u cincelaka endzhaku eka ku tirhisiwa ka sisiteme ya tifayela ya ndzhaka. Hi kombela u hlawula ndlela leyintshwa hi ku tirhisa menyu leyi nga ehenhla exineneni tanihilaha swi lavekaka hakona.</string>
+    <string name="ftp_server_reset_notify">Ndlela leyi avelaniwa ya sevha ya FTP a yi tlheriseriwe eka vuhlayiselo bya le ndzeni</string>
+    <string name="ftp_server_root_unavailable">U hlawula ndlela leyi lavaka mfikelelo wa timitsu. Hi kombela u pfumelela root explorer eka swiletelo loko xitirhisiwa xa wena xi dzime timitsu.</string>
+    <string name="ftp_server_root_filesystem_warning">U hlawula ndlela leyi lavaka ku nghena ka timitsu, leyi endlaka leswaku ku va na matirhelo yo hlaya/tsala eka sisiteme hinkwayo ya fayili eka xitirhisiwa xa wena, naswona swi na khombo - swihoxo swo pfumala vukheta swi nga brick xitirhisiwa xa wena!\n\nXana wa tiyiseka?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Xihoxo xo pfula URI \"%s\" ku hlaya.</string>
+    <string name="error_empty_archive">\"%s\" i akhavhiyu leyi nga riki na nchumu.</string>
+    <string name="error_bad_archive_without_info">\"%s\" i akhavhiyu leyi onhakeke .</string>
+    <string name="error_bad_archive_with_info">\"%s\" i archive leyi onhakeke.\nRihungu leri humaka eka extractor: \"%s\"</string>
+    <string name="security_error">Fayili a yi pfuriwanga hi ku tirhisa app leyi</string>
+    <string name="cloud_drive_tooltip">Endla vuhlanganisi bya Google DriveTM byo lawula tifayela ku suka endzeni ka Amaze File Manager.</string>
+    <string name="signin_with_google_title">Tiyisisa ku tirhisa Google DriveTM</string>
+    <string name="show_system_apps">Kombisa ti-app ta sisiteme</string>
+    <string name="system_apps">Ti-app ta sisiteme</string>
+    <string name="select_inverse">Hlawula Inverse</string>
+    <string name="select_by_type">Hlawula hi muxaka</string>
+    <string name="select_by_date">Hlawula hi siku</string>
+    <string name="select_similar">Hlawula leswi fanaka</string>
+    <string name="error_fetching_google_play_product_list">Xihoxo xo teka nxaxamelo wa swikumiwa eka Google Play.</string>
+    <string name="grant_all_files_permission">Ku sukela eka Android 11 , Google yi kombela Vafambisi va Tifayili ku kombela mpfumelelo wa mutirhisi wo lawula tifayela hinkwato eka xitirhisiwa. Vuxokoxoko laha.
+        \n\nAmaze File Manager na yena u lava mpfumelelo lowu. Endzhaku ko tshikelela "Grant"laha, hi kombela u hlawula Pfumelela mfikelelo ku lawula tifayela hinkwato nhlawulo eka xikirini lexi landzelaka.
+        \n\nKu khansela mbulavurisano lowu swi ta huma eka app.</string>
+    <string name="user_apps">Tiapp ta mutirhisi</string>
+    <string name="appearance">Ku languteka</string>
+    <string name="behavior">Mahanyelo</string>
+    <string name="appearance_summary">Endla hi ku landza theme, mihlovo na ku languteka ka mufambisi wa fayili</string>
+    <string name="ui_summary">Lawula leswaku i mahungu wahi lawa u faneleke ku ma kombisa, lulamisa barhi ya le tlhelo, na ku cinca-cinca swihlawulekisi swa UI</string>
+    <string name="behavior_summary">Cinca mahanyelo yo fana na ku lavisisa ka xiyimo xa le henhla na loko u fanele ku pfula tifayela tanihi ntirho lowuntshwa</string>
+    <string name="security_summary">Seta phaswedi na ku fihla</string>
+    <string name="backup_summary">Ku rhumela ehandle/Ku nghenisa Swiyimiso swa Amaze</string>
+
+    <string name="pref_export">Ku rhumela ehandle</string>
+    <string name="pref_export_summary">Ku rhumela ehandle</string>
+    <string name="pref_import">Ku nghenisa</string>
+    <string name="pref_import_summary">Ku nghenisa swiletelo</string>
+
+    <string name="quick_desc">Tifayili sweswinyana ku nghenisiwa hi ku tirhisa Amaze</string>
+    <string name="recent_desc">Tifayili leti endliweke sweswinyana kumbe leti cinciweke</string>
+    <string name="error_cannot_find_way_open">A swi kumi ndlela yo pfula fayili</string>
+    <string name="error_cant_decompress_that_file">A swi koteki ku tirhisa akhavhiyu leyi komberiweke</string>
+    <string name="analyse_storage">Kambisisa Vuhlayiselo</string>
+    
+    <string name="download_amaze_utils_text">U\'u kongomisiwa nakambe eka Amaze File Utilities. I app ya hina ya xihlovo lexi pfulekeke leyi nga na vahlaleri va audio/video/image/document inbuilt, yi ku pfumelela ku xopaxopa tifayela ta junk ku ntshunxa vuhlayiselo, ku hundzisela hi ku hatlisa hi ku tirhisa Wifi P2P na swin\'wana swo tala.\nHi kombela u hi seketela hi ku ringeta.</string>
+    <string name="download">Ku dawuniloda</string>
+    
+    <string name="amaze_utils_installed_alias">Ndza khensa ku nghenisa Amaze File Utilities. U\'re kongomisiwa nakambe eka app.</string>
+    <string name="image_viewer">Xihlamariso xa Mulanguti wa Swifaniso</string>
+    <string name="video_player">Amaze Vhidiyo Player</string>
+    <string name="amaze_audio_player">Xihlamariso xa Mutlangi wa Vuyimbeleri</string>
+    <string name="pdf_viewer">Xihlamariso xa Mulanguti wa Matsalwa</string>
+    <string name="docx_viewer">Xihlamariso xa Mulanguti wa Matsalwa</string>
+    <string name="share_logs">Avela swiviko</string>
+    <string name="share_logs_summary">Avela swiviko leswi khomiweke hi ku tirhisa imeyili / thelegiramu</string>
+    <string name="open_with_amaze">Pfula hi Amaze</string>
+    <string name="confirmation">Ku tiyisisiwa</string>
+    <string name="open_file_confirmation">Xana u tiyisile leswaku u lava ku pfula fayili leyi landzelaka?\n\nVito:\n%s\n\nNdhawu:\n%s\n\nVukulu:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Hi ku ya hi swileriso swa pholisi ya Google Play, ti-app a ti pfumeleriwi ku ti pfuxeta hi toxe. Hi kombela u pfuxeta app ku suka eka Google Play.</string>
+    <string name="error_cannot_get_package_info">A swi koteki ku kuma vuxokoxoko bya phasela ku suka eka fayili ya \"%s\". Kumbe fayili leyi boxiweke a hi APK, kumbe fayili ya phasela yi onhakile.</string>
+    <string name="preference_delete_confirmation">Susa xitiyisekiso</string>
+    <string name="preference_delete_confirmation_summary">Kombela ku tiyisisiwa u nga si susa tifayela. Ku tshikisa leswi swi khunguvanyekile swinene!</string>
+    
+    
+    <string name="protocol_ftps">FTP leyi sirhelelekeke</string>
+    <string name="unavailable">A yi kumeki</string>
+
+    <string name="exporting_failed">Ku rhumela ehandle swi tsandzekile: a swi swi kotanga ku tsala fayili ya vuhlayiselo</string>
+    <string name="importing_failed">Ku nghenisa swi tsandzekile: a swi swi kotanga ku hlaya vuhlayiselo fayili</string>
+    <string name="importing_completed">Ku nghenisa ku hetisiwile</string>
+    <string name="invalid_backup_file">Fayili ya vuhlayiselo leyi nga tirhiki</string>
+    <string name="import_failed_for">Ku nghenisa ku tsandzekile eka:</string>
+    <string name="free_of">"%s\n%s mahala eka %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin a yi seketeriwi hi vuhundzuluxeri bya F-Droid.Hi kombela u tirhisa vuhundzuluxeri bya Play Store bya Amaze.</string>
+    <string name="disable_player_intent_filters">Tshika swisefo swa xikongomelo xa mutlangi</string>
+    <string name="disable_player_intent_filters_summary">Yi tshikisa swichayachayani swa midiya leswi akiweke endzeni ka Amaze ku suka eka muhlawuri wa fayili</string>
+    <string name="no_app_found_intent">Ku hava app leyi kumiweke ku khoma xikongomelo lexi.Xana u na DocumentsUI leyi nghenisiweke?</string>
+    <string name="cloud_connection_credentials_cleared">Switifiketi swa Nhlanganiso wa le Papa swi basisiwile</string>
+    <string name="cloud_connection_credentials_cleared_msg">Khombo ra kona, hi tsandzekile ku rhurhela switifiketi swa wena swa vuhlanganisi bya le mapapa eka xikimi lexintshwa xa database, naswona hi vile na swona ku va susa eka app.Hi kombela u tumbuluxa vuhlanganisi bya le mapapa nakambe.</string>
+</resources>

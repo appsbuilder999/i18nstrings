@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Ֆայլերի կառավարիչ</string>
+    <string name="drawer_open">Բացել նավիգացիոն դարակը</string>
+    <string name="drawer_close">Փակել նավիգացիոն դարակը</string>
+    <string name="icon">պատկերակը</string>
+    <string name="apps">Հավելվածների կառավարիչ</string>
+    <string name="ftp">FTP սերվեր</string>
+    <string name="setting">Կարգավորումներ</string>
+    <string name="select">Ընտրեք տարր</string>
+    <string name="press_again">Դուրս գալու համար կրկին սեղմեք</string>
+    <string name="open">Բացել</string>
+    <string name="backup">Պահուստավորում</string>
+    <string name="uninstall">Տեղահանել</string>
+    
+    <string name="properties">Հատկություններ</string>
+    <string name="copyingapks">%d APK ֆայլ պատճենելը %s</string>
+    <string name="delbook">Ջնջել էջանիշը</string>
+    <string name="add_to_bookmarks">Ավելացնել էջանիշներին</string>
+    <string name="enterpath">Մուտքագրեք ուղին</string>
+    <string name="cancel">ՉԵՂԱՐԿԵԼ</string>
+    <string name="create">ՍՏԵՂԾԵԼ</string>
+    <string name="loading">Բեռնվում է…</string>
+    <string name="file_empty">Ֆայլը դատարկ է</string>
+    <string name="error">Սխալ</string>
+    <string name="search_results">%s-ի որոնման արդյունքները</string>
+    <string name="rename">Վերանվանել</string>
+    <string name="save">Պահել</string>
+    <string name="bookmarks_added">Ավելացված էջանիշները</string>
+    <string name="fileexist">Նույն անունով ֆայլն արդեն գոյություն ունի</string>
+    <string name="name">Անուն</string>
+    <string name="date">Ամսաթիվ</string>
+    <string name="location">Գտնվելու վայրը</string>
+    <string name="size_capitalized">Չափը</string>
+    <string name="size">թղթապանակի չափը</string>
+    <string name="enterzipname">Մուտքագրեք Zip անունը</string>
+    <string name="no_app_found">Այս ֆայլը բացելու համար ոչ մի ծրագիր չի գտնվել</string>
+    <string name="copying">Պատճենում</string>
+    <string name="moving">Տեղափոխում</string>
+    <string name="file">Ֆայլ</string>
+    <string name="folder">Թղթապանակ</string>
+    <string name="newfolder">Նոր թղթապանակ</string>
+    <string name="entername">Մուտքագրեք անունը</string>
+    <string name="extracting">Արտահանում</string>
+    <string name="stopping"/>
+    <string name="open_parent">Բացել ծնողական գրացուցակը</string>
+    <string name="open_with">Բացել</string>
+    <string name="share">Կիսվել</string>
+    <string name="about">Մի մասին</string>
+    
+    <string name="compress">Կոմպրես</string>
+    <string name="yes">Այո</string>
+    <string name="no">Ոչ</string>
+    
+    <string name="dialog_delete_category_directories">Տեղեկագիր</string>
+    <string name="dialog_delete_category_files">Ֆայլեր</string>
+    <string name="dialog_delete_disclaimer">Ջնջելով ստորեւ բերված տարրերը դրանք ընդմիշտ կհեռացվեն ձեր սարքից, և դրանք հնարավոր չի լինի վերականգնել:</string>
+    <string name="dialog_delete_title">Ընդմիշտ ջնջե՞լ տարրերը:</string>
+    <string name="deleting">Ջնջել</string>
+    <string name="question_set_path_as_home">Ցանկանու՞մ եք ընթացիկ ուղին այս ներդիրի գլխավոր ուղին սահմանել:</string>
+    <string name="directorysort">Գրանցատուի տեսակավորման ռեժիմ</string>
+    <string name="sort_by">Տեսակավորել ըստ</string>
+    <string name="sort_only_this">Միայն այս թղթապանակը</string>
+    <string name="theme">Թեմա</string>
+    <string name="random">Պատահական մաշկ</string>
+    <string name="random_summary">Սահմանում է պատահական հիմնական գույնը գործարկման ժամանակ</string>
+    <string name="colorize">Գունավորել պատկերակները</string>
+    <string name="colorize_summary">Սրբապատկերներ ստատիկ պատկերակի գույնը: Չի անտեսում գրացուցակի պատկերակի գույնի նախապատվությունը:</string>
+    <string name="home">Տուն</string>
+    <string name="paste">Տեղադրել</string>
+    <string name="history">Պատմություն</string>
+    <string name="copy">Պատճենել</string>
+    
+    <string name="root_mode_summary">Միայն արմատավորված սարքի համար: Ստուգեք այն միայն այն դեպքում, եթե համոզված եք դրա մասին:</string>
+    <string name="root_failure">Արմատային մուտքը չի տրվում</string>
+    <string name="select_all">Ընտրել բոլորը</string>
+    <string name="delete">Ջնջել</string>
+    <string name="set_as_home">Սահմանել որպես հիմնական</string>
+    <string name="operation_not_supported">Գործողությունը չի աջակցվում</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Նյութական լույս</string>
+    <string name="dark">Նյութական մուգ</string>
+    <string name="daytime">Ցերեկային</string>
+    <string name="black">Սև (OLED-ի համար)</string>
+    <string name="system">Համակարգ (հետևել համակարգի թեմային)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Թղթապանակներ վերևում</string>
+    <string name="filesOnTop">Ֆայլեր վերևում</string>
+    <string name="none_on_top">Վերևում չկա</string>
+    <!--SortBy-->
+    <string name="sort_name">Անուն</string>
+    <string name="lastModified">Վերջին փոփոխված</string>
+    <string name="sort_size">Չափը</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Ընտրեք ֆայլ</string>
+    <string name="process_viewer">Գործընթացի դիտիչ</string>
+    <string name="in_safe">Անբավարար տարածք</string>
+    <string name="no_file_overwrite">Ֆայլը վերագրված չէ</string>
+    <string name="skip">Բաց թողնել</string>
+    <string name="overwrite">Վերագրել</string>
+    <string name="not_allowed">Չի թույլատրվում</string>
+    <string name="searching">Որոնում %s</string>
+    <string name="done">Կատարված</string>
+    <string name="set">Սահմանել</string>
+    <string name="enablerootmde">Միացնել արմատային ռեժիմը</string>
+    <string name="goback">Վերադառնալ</string>
+    <string name="newfile">Նոր ֆայլ</string>
+    <string name="no_files">Ֆայլեր չկան</string>
+    <string name="used">օգտագործված տարածք</string>
+    <string name="used_by_others">օգտագործվում է ուրիշների կողմից</string>
+    <string name="free">ազատ տարածք</string>
+    <string name="listview">Ցուցակի տեսք</string>
+    <string name="gridview">Ցանց Դիտել</string>
+    <string name="permission">Թույլտվությունները</string>
+    <string name="hide">Թաքցնել</string>
+    <string name="exit">Ելք</string>
+    <string name="doforall">Կատարել բոլոր տարրերի համար</string>
+    <string name="gridcolumnno">Սյունակների թիվը ցանցի տեսքով</string>
+    <string name="set_random">Փոփոխությունները կկատարվեն հավելվածը վերագործարկելուց հետո</string>
+    <string name="authors">Հեղինակներ</string>
+    <string name="changelog">Փոփոխությունների տեղեկագիր</string>
+    
+    <string name="ui">Ինտերֆեյս</string>
+    <string name="general">Ընդհանուր</string>
+    <string name="thumb_summary">Ցույց տալ հավելվածների և պատկերների մանրապատկերները</string>
+    <string name="thumb">Ցուցադրել մանրապատկերները</string>
+    <string name="hidden">Ցուցադրել թաքնված ֆայլերը և թղթապանակները</string>
+    <string name="lastModifiedSummary">Ցույց տալ վերջին փոփոխության ամսաթիվը և ժամը</string>
+    <string name="lastModifiedPref">Ցույց տալ վերջին փոփոխության ամսաթիվը և Ժամանակը</string>
+    <string name="size_pref_summary">Ցույց տալ ֆայլերի չափը և թղթապանակների տարրերի քանակը</string>
+    <string name="size_pref">Ցուցադրել չափերը</string>
+    <string name="miscellaneous">Տարբեր</string>
+    <string name="root_pref_summary">Ցույց տալ ֆայլերի և թղթապանակների թույլտվությունները</string>
+    <string name="root_pref">Ցույց տալ թույլտվությունները</string>
+    <string name="about_amaze_file_manager_label">Amaze ֆայլերի կառավարչի մասին</string>
+    <string name="version">տարբերակը</string>
+    <string name="rate">Գնահատել հավելվածը</string>
+    <string name="feedback">Ուղարկել կարծիք</string>
+    <string name="hiddenfiles">Թաքնված ֆայլեր</string>
+    <string name="type">Մուտքագրեք</string>
+    
+    <string name="add_shortcut">Ավելացնել դյուրանցում</string>
+    <string name="unsaved_changes">Չպահված փոփոխություններ</string>
+    <string name="unsaved_changes_description">Դուք ունեք չպահված փոփոխություններ, ուզում եք պահպանել դրանք նախքան դուրս գալը:</string>
+    <string name="saving">Պահվում է</string>
+    <string name="package_installer">Փաթեթի տեղադրող</string>
+    <string name="view">Դիտել</string>
+    <string name="install">Տեղադրել</string>
+    <string name="archive">Արխիվ</string>
+    <string name="archive_text">Սա արխիվ է: Ի՞նչ գործողություն կցանկանայիք կատարել:</string>
+    <string name="package_installer_text">Սա փաթեթի տեղադրող է: Ի՞նչ գործողություն կցանկանայիք կատարել:</string>
+    <string name="xda_title">XDA շարանը</string>
+    <string name="xda_summary">Հարց ու պատասխան, օգնություն և անսարքությունների վերացում</string>
+    <string name="circular_images">Օգտագործեք շրջանաձև պատկերակներ պատկերների և տեսանյութերի համար</string>
+    <string name="circular_icons">Օգտագործեք շրջանաձև պատկերակներ</string>
+    <string name="back_title">Հետ նավարկություն</string>
+    <string name="back_summary">Միացնում է հատուկ նավարկությունը ցանկի վերևում</string>
+    <string name="details">Մանրամասներ</string>
+    <string name="translators">Թարգմանիչներ</string>
+    <string name="german_translation_title">գերմաներեն</string>
+    <string name="italian_translation_title">Ital</string>
+    <string name="french_translation_title">ֆրանսերեն</string>
+    <string name="russian_translation_title">ռուսերեն</string>
+    <string name="spanish_translation_title">իսպաներեն</string>
+    <string name="basque_translation_title">բասկերեն</string>
+    <string name="chinese_translation_title">չինական</string>
+    <string name="serbian_translation_title">սերբերեն</string>
+    <string name="turkish_translation_title">թուրքերեն</string>
+    <string name="ukrainian_translation_title">ուկրաիներեն</string>
+    <string name="portuguese_translation_title">պորտուգալերեն</string>
+    <string name="polish_translation_title">լեհ</string>
+    <string name="korean_translation_title">կորեերեն</string>
+    <string name="greek_translation_title">հունարեն</string>
+    <string name="dutch_translation_title"/>
+    <string name="romanian_translation_title">Ռումիներեն</string>
+    <string name="vietnamese_translation_title">Վիետնամերեն</string>
+    <string name="japanese_translation_title">ճապոներեն</string>
+    <string name="tamil_translation_title">թամիլերեն</string>
+
+    
+    <string name="unin_system_apk">Սա համակարգային հավելված է, այն ջնջելը կարող է հանգեցնել համակարգի անկայունության .\nՇարունակե՞լ:</string>
+    <string name="warning">Զգուշացում</string>
+    <string name="donate">Նվիրաբերել</string>
+    <string name="archive_extract_folder">Արխիվի արդյունահանման պանակը</string>
+    <string name="archive_summary">Արխիվի ֆայլերը կարտահանվեն այս թղթապանակում: Կանխադրված արժեքն այն գրացուցակն է, որտեղ առկա է արխիվը:</string>
+    <string name="open_as">Բացել որպես</string>
+    <string name="text">Տեքստ</string>
+    <string name="audio">Աուդիո</string>
+    <string name="video">Տեսանյութ</string>
+    <string name="other">Այլ</string>
+    <string name="image">Պատկեր</string>
+    <string name="contributors">Աջակիցներ</string>
+    <string name="save_paths">Հիշեք ուղիները</string>
+    <string name="save_path_summary">Միացնելիս կցուցադրվի յուրաքանչյուր ներդիրի վերջին դիտված թղթապանակը</string>
+    <string name="select_intent">Ընտրել</string>
+    <string name="database">Տվյալների բազա</string>
+    <string name="colored_navigation">Գունավոր Նավիգացիոն տող</string>
+    <string name="colored_navigvation_sum">Արդյոք համակարգի նավիգացիոն գոտին գունավորված է մաշկի հետ, թե ոչ</string>
+
+    <string name="color_title">Գույնը</string>
+    <string name="color_summary">Գույնը սահմանել UI-ի տարբեր բաղադրիչների</string>
+    <string name="primary_color_title">Հիմնական գույնը (ձախ ներդիր )</string>
+    <string name="primary_color_summary">Սահմանել գույնը մեծ միջերեսի տարրերին ձախ ներդիրի համար</string>
+    <string name="accent_color_title">Շեշտադրման գույնը</string>
+    <string name="accent_color_summary">Սահմանել գույնը FAB-ին և միջերեսի այլ փոքր տարրերին</string>
+    
+    <string name="icon_color_summary">Գույնը սահմանել պատկերակներին</string>
+    <string name="choose_color">Ընտրել գույն</string>
+    <string name="files">Ֆայլեր</string>
+    <string name="textreader">Տեքստ ընթերցող</string>
+    <string name="databasereader">Տվյալների բազայի ընթերցող</string>
+    <string name="show_dividers">Ցուցադրել բաժանարարները</string>
+    <string name="needs_access">Պահանջվում է գրելու հասանելիություն</string>
+    <string name="needs_access_summary">Խնդրում ենք ընտրել \t</string>
+    <string name="needs_access_summary1">\t-ի արմատային գրացուցակը, որպեսզի գրելու իրավունք տրամադրեք գործելու</string>
+    <string name="smb_connection">SMB միացում</string>
+    <string name="smb_server">Սերվերի IP հասցե</string>
+    <string name="server_address">Սերվերի IP հասցե</string>
+    <string name="username">Օգտվողի անուն</string>
+    <string name="password">Գաղտնաբառ</string>
+    <string name="anonymous">Անանուն</string>
+    
+    <string name="folders">Թղթապանակներ</string>
+    <string name="folderfilecount">%1$d պանակ և %2$d ֆայլ</string>
+    <string name="videos">Տեսանյութեր</string>
+    <string name="apks">APK-ներ</string>
+    <string name="documents">Փաստաթղթեր</string>
+    <string name="images">Պատկերներ</string>
+    <string name="clear">Մաքրել</string>
+    
+    <string name="total">Ընդամենը`</string>
+    <string name="calculating">հաշվում</string>
+    <string name="sort">Տեսակավորում</string>
+    <string name="ascending">Աճող</string>
+    <string name="descending">Նվազող</string>
+    <string name="default_string">Լռելյայն</string>
+    <string name="doit">Արա դա</string>
+    <string name="want_help">Օգնության կարիք ունե՞ք:</string>
+    <string name="quick">Արագ մուտք</string>
+    <string name="recent">Վերջին ֆայլերը</string>
+    <string name="edit">Խմբագրել</string>
+    <string name="find">Գտնել էջում</string>
+    <string name="grant">Տրամադրել</string>
+    <string name="grantper">Տրամադրել թույլտվություն</string>
+    <string name="grantfailed">Թույլտվությունը տրված չէ</string>
+    <string name="grant_storage_permission">Հավելվածին անհրաժեշտ է պահեստավորման թույլտվություն շարունակելու համար: Եթե ​​չեղարկեք այս երկխոսությունը, դուրս կգաք հավելվածից:</string>
+    <string name="operation_unsuccesful">Գործողությունը անհաջող</string>
+    <string name="creatingfile">Ֆայլի ստեղծում</string>
+    <string name="creatingfolder">Պանակի ստեղծում</string>
+    <string name="renaming">Վերանվանումը</string>
+    <string name="cant_be_empty">%s-ը չի կարող դատարկ լինել</string>
+    <string name="ip">Հասցե</string>
+    <string name="connection_name">Միացման անունը</string>
+    <string name="no_device_found">Սարքեր չեն գտնվել</string>
+    <string name="path">Ուղին</string>
+    <string name="rename_bookmark">Փոփոխել էջանիշը</string>
+    <string name="cut">Կտրել</string>
+    <string name="search">Որոնում</string>
+    <string name="invalid_name">Անվավեր անուն</string>
+    <string name="search_hint">Մուտքագրեք որոնման համար…</string>
+    <string name="advanced_search">Ընդլայնված որոնում</string>
+    <string name="regular_expression">Կանոնավոր արտահայտություն</string>
+    <string name="regular_expression_summary">Որոնեք BASH ոճի կանոնավոր արտահայտությունով</string>
+    <string name="match_content">Համապատասխան բովանդակություն</string>
+    <string name="match_content_summary">Եթե սահմանված է, սովորական արտահայտությունը կհամընկնի ամբողջ ֆայլի անվան հետ,
+        հակառակ դեպքում կփնտրի տեղի ունենալը:</string>
+    <string name="start_ftp">Սկսել</string>
+    <string name="stop_ftp">Դադարեցնել</string>
+    <string name="ftp_status_running">Գործարկել</string>
+    <string name="ftp_status_not_running">Չգործել</string>
+    <string name="ftp_no_wifi">Համոզվեք, որ միացված եք Wi-Fi-ին</string>
+    <string name="domain">Դոմենի</string>
+    <string name="smb_share">Համօգտագործման ուղին</string>
+    <string name="invalid">%s անվավեր</string>
+    <string name="ftp_notif_starting">FTP սերվերը մեկնարկում</string>
+    <string name="ftp_notif_starting_title">FTP սերվեր</string>
+    <string name="ftp_notif_title">Amaze FTP սերվերն աշխատում է</string>
+    <string name="ftp_notif_text">%s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP պորտ</string>
+    <string name="ftp_port_change_success">FTP նավահանգիստը հաջողությամբ փոխվեց</string>
+    <string name="ftp_port_change_error_invalid">Ընտրված է անվավեր միացքի համար</string>
+    <string name="primary_two_title">Հիմնական գույն (աջ ներդիր)</string>
+    <string name="primary_two_summary">Գույնը սահմանել աջ ներդիրի միջերեսի մեծ տարրերի վրա</string>
+    <string name="support_development">Աջակցել մշակմանը</string>
+    <string name="report_bugs_title">Հաղորդել սխալների մասին</string>
+    <string name="source_title">Աղբյուր կոդը</string>
+    <string name="source_summary">Դիտեք մեր սկզբնական կոդը GitHub-ում</string>
+    <string name="report_bugs_summary">Հաղորդեք սխալների մասին կամ խնդրեք նոր հնարավորություն</string>
+    <string name="translate_title">Թարգմանել</string>
+    <string name="translate_summary">Թարգմանել Զարմացրեք ձեր լեզվով</string>
+    <string name="paypal_copy_message">PayPal ID-ն պատճենված է սեղմատախտակին</string>
+    <string name="searching_devices">Սարքերի որոնում</string>
+    <string name="use_custom_ip">Օգտագործեք հատուկ IP</string>
+    <string name="bookmark_lost">Էջանիշը չի գտնվել, վերստեղծվում է…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Ինչպես մուտք գործել Windows-ի ընդհանուր պանակ Android-ում (SMB)\n\n
+                
+                    
+                        Միացնել ֆայլերի փոխանակումը Windows-ում\n
+                    
+                    
+                        Բացեք Կառավարման վահանակը, կտտացրեք «Ընտրեք Գլխավոր խումբը և Համօգտագործման ընտրանքները» ցանցի տակ
+                        և ինտերնետ, և սեղմեք «Փոխել ընդլայնված համօգտագործման կարգավորումները», միացնել «Ֆայլ և
+                        Տպիչի համօգտագործում» գործառույթը:\n\n
+                    
+
+                    
+                        Ֆայլերի փոխանակման լրացուցիչ կարգավորումներ\n
+                    
+                    
+                        Կարող եք նաև կարգավորել այլ առաջադեմ համօգտագործման կարգավորումները այստեղ: \n
+                        Օրինակ, դուք կարող եք միացնել ձեր ֆայլերի մուտքն առանց գաղտնաբառի, եթե վստահում եք բոլորին
+                        սարքերը ձեր տեղական ցանցում: Երբ ֆայլերի և տպիչների փոխանակումը միացված է, կարող եք
+                        բացեք File Explorer-ը կամ Windows Explorer-ը, աջ սեղմեք թղթապանակի վրա, որը ցանկանում եք համօգտագործել և
+                        ընտրեք Հատկություններ: \n
+                        Սեղմեք Share կոճակը և պանակը հասանելի դարձրեք ցանցում:\n\n
+                        
+
+                    
+                        Համոզվեք, որ երկու սարքերն էլ միացված են նույն Wi-Fi-ին\n
+                    
+                    
+                        Այս հատկությունը ֆայլերը հասանելի է դարձնում տեղական ցանցում, այնպես որ ձեր համակարգիչը և շարժական սարքերը
+                        պետք է լինեն նույն տեղական ցանցում: Դուք չեք կարող մուտք գործել Windows-ի ընդհանուր պանակ
+                        ինտերնետի միջոցով կամ երբ ձեր սմարթֆոնը միացված է իր բջջային տվյալներին
+                        պետք է միացված լինի Wi-Fi-ին:\n\n
+                    
+
+                    
+                        Գտեք IP հասցե\n
+                    
+                    
+                        Բացեք հրամանի տողը: Մուտքագրեք \'ipconfig\' և սեղմեք Enter: Փնտրեք Default Gateway
+                        ձեր ցանցային ադապտերի տակ ձեր երթուղիչի IP հասցեի համար: Փնտրել
+                        \\\"IPv4 հասցե\\\" նույն ադապտեր բաժնում՝ ձեր համակարգչի IP-ն գտնելու համար
+                        հասցե։\n\n
+                    
+
+                    Մուտքագրեք մանրամասները SMB երկխոսության վանդակում\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Չի կարող կիսվել 100-ից ավելի ֆայլերով</string>
+    <string name="otg_access">Ընտրեք OTG սարքի արմատը</string>
+    <string name="information">Տեղեկություններ</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Մուտք գործած</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Փոփոխված</string>
+
+    <string name="title">Վերնագիր</string>
+    <string name="artist">Արտիստ</string>
+    <string name="album">Ալբոմ</string>
+    <string name="year">Տարին</string>
+    <string name="duration">Տևողությունը</string>
+    <string name="comment">Մեկնաբանություն</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Տարակ</string>
+    <string name="codec">Կոդեկ</string>
+    <string name="channels">Ալիքներ</string>
+    <string name="sample_rate">Նմուշի արագություն</string>
+    <string name="bitrate">բիթ արագություն</string>
+    <string name="dimensions">Չափերը</string>
+    <string name="frame_rate">Կադրերի արագություն</string>
+    <string name="image_type"/>
+    <string name="width">Լայնություն</string>
+    <string name="height">Բարձրություն</string>
+    <string name="date_modified">Փոփոխման ամսաթիվ</string>
+    <string name="software">Ծրագրաշար</string>
+    <string name="creator">Ստեղծող</string>
+    <string name="camera_brand">Խցիկի ապրանքանիշ</string>
+    <string name="camera_model">Cam Մոդել</string>
+    <string name="date_taken">Ձեռք բերելու ամսաթիվ</string>
+    <string name="exposure_time">Լուսավորման ժամանակը</string>
+    <string name="aperture_value">բացվածքի արժեքը</string>
+    <string name="image_iso">ISO արագության գնահատական</string>
+    <string name="flash_fired">Ֆլեշը գործարկվել է</string>
+    <string name="focal_length">ֆոկալ երկարություն</string>
+    <string name="subject">Թեմա</string>
+    <string name="author">Հեղինակ</string>
+    <string name="keywords">Հիմնաբառեր</string>
+    <string name="producer">Արտադրող</string>
+    <string name="created">Ստեղծված</string>
+    <string name="format">Ձևաչափ</string>
+    <string name="pages">Num Էջեր</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Օպտիմիզացված</string>
+    <string name="security">Անվտանգություն</string>
+    <string name="paper_size">Թղթի չափ</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Որոշ ֆայլեր հաջողությամբ չեն պատճենվել %s</string>
+    <string name="copied">պատճենվել</string>
+    <string name="moved">տեղափոխված</string>
+    <string name="copy_complete">Պատճենումն ավարտված է</string>
+    <string name="waiting_title">Սպասում</string>
+    <string name="waiting_content">Սպասում է գործողության ավարտին</string>
+    <string name="extract_complete">Առահանումն ավարտված է</string>
+    <string name="compression_complete">Կոմպրեսումն ավարտված է</string>
+    <string name="compressing">Կոմպրեսում</string>
+    <string name="cancelled">Չեղարկված</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Գրված</string>
+    <string name="out_of"/>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of"/>
+    <string name="processing_file">մշակվող ֆայլից</string>
+    <string name="current_speed">Ընթացիկ արագություն</string>
+    <string name="smb_launch_error">Դուք պետք է պատճենեք այս ֆայլը պահեստում այն ​​բացելու համար</string>
+    <string name="error_file_not_found">Սխալ. ֆայլը չի ​​գտնվել</string>
+    <string name="error_io">I/O սխալ</string>
+    <string name="error_file_too_large">Սխալ. ֆայլը չափազանց մեծ է</string>
+    <string name="medium_text">միջին տեքստ</string>
+    <string name="permission_read">Կարդալ</string>
+    <string name="permission_write">Գրել</string>
+    <string name="permission_execute">Կատարել</string>
+    <string name="permission_owner">Սեփականատեր</string>
+    <string name="permission_group">Խումբ</string>
+    <string name="permission_other">Այլ</string>
+    <string name="clipboard_path_copy">Ուղին համակցված դեպի սեղմատախտակ</string>
+    <string name="service_timer">Անցած ժամանակը</string>
+    <string name="please_wait">Խնդրում ենք սպասել</string>
+
+    
+    <string name="cloud_connection_new">Նոր Cloud Connection</string>
+    
+    <string name="cloud_drive">Google Drive ™</string>
+    
+    
+    <string name="cloud_get">Ստացեք Cloud plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Ծրագրեր չկան</string>
+    <string name="ftp_path">Համօգտագործվող ուղի</string>
+    <string name="ftp_path_hint">Ուղին դեպի արմատ համօգտագործվող գրացուցակի</string>
+    <string name="change">Փոխել</string>
+    <string name="unknown_error">Վա՜յ, ինչ-որ սխալ տեղի ունեցավ:</string>
+
+    <string name="ftp_path_change_success">FTP ուղին հաջողությամբ փոխվեց</string>
+    <string name="ftp_path_change_error_invalid">Անվավեր ուղի</string>
+    <string name="ftp_status_no_connection">Կապ չկա</string>
+    <string name="ftp_status_secure_connection">Ապահով կապ</string>
+    <string name="ftp_status_title">Կարգավիճակ</string>
+    <string name="ftp_port">Միացք</string>
+    <string name="ftp_login">Մուտք</string>
+    <string name="field_empty">Դաշտը չի կարող դատարկ լինել</string>
+    <string name="ftp_timeout">Պատասխան ժամանակի ավարտը</string>
+    <string name="ftp_seconds">Վայրկյաններ</string>
+    
+    <string name="intellihide_toolbar_summary">Ավտոմատ թաքցնել գործիքագոտին ոլորելիս</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">պատճենվել է սեղմատախտակում</string>
+    <string name="contributors_1_summary">Թարգմանություն</string>
+    <string name="contributors_2_summary">Սրբապատկեր և պաստառներ</string>
+    <string name="contributors_3_summary">Թեմայի շարժիչ</string>
+    <string name="contributors_4_summary">Սերվեր ետևում FAB</string>
+    <string name="contributors_5_summary">Գույնի անցում ներդիրները սահեցնելիս</string>
+    <string name="contributors_6_summary">FTP սերվեր</string>
+    <string name="contributors_7_summary">Ինտերակտիվ շերտի գործարկում</string>
+    <string name="connection_exists">Միացումն արդեն գոյություն ունի</string>
+
+    <string name="crypt_encrypting">Գաղտնագրում</string>
+    <string name="crypt_decrypting">Գաղտնազերծում</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Գաղտնագրված</string>
+    <string name="crypt_decrypted">Գաղտնազերծված</string>
+    <string name="crypt_encrypt">Գաղտնագրված</string>
+    <string name="crypt_decrypt">Գաղտնազերծում</string>
+    <string name="operation_fail_following">Գործողությունը ձախողվեց հետևյալ ֆայլերի համար</string>
+    <string name="crypt_pref_master_password_title">Գլխավոր գաղտնաբառեր</string>
+    <string name="crypt_pref_master_password_summary">Սահմանել հիմնական գաղտնաբառ գաղտնագրման համար:
+        Դատարկ թողեք՝ հեռացնելու համար:</string>
+    <string name="crypt_pref_fingerprint_title">Մատնահետք</string>
+    <string name="crypt_pref_fingerprint_summary">Օգտագործեք մատնահետքը կոդավորումը նույնականացնելու համար</string>
+    <string name="crypt_fingerprint_no_permission">Մատնահետքի թույլտվությունները բացակայում են</string>
+    <string name="crypt_fingerprint_not_enrolled">Մատնահետք գրանցված չէ</string>
+    <string name="crypt_fingerprint_no_security">Կողպէկրանի անվտանգությունը չկա found</string>
+    <string name="crypt_warning_key">Խորհուրդ եղեք, երբ փոխեք ձեր անվտանգության օրինաչափությունը
+        Համակարգի կարգավորումներ, դուք չեք կարողանա վերծանել այս բովանդակությունը:</string>
+    <string name="warning_never_show">Այլևս մի տեղեկացրեք</string>
+    <string name="warning_confirm">Հասկացա:</string>
+    <string name="crypt_encryption_fail">Չհաջողվեց գաղտնագրել</string>
+    <string name="crypt_decryption_fail">Չհաջողվեց վերծանել</string>
+    <string name="crypt_decryption_fail_password">Սխալ գաղտնաբառը:</string>
+    <string name="crypt_fingerprint_authenticate">Շարունակելու համար հպեք սենսորին</string>
+    <string name="authenticate_password">Մուտքագրեք գաղտնաբառը</string>
+
+    <string name="sidebar_preferences">Կողային տող</string>
+    <string name="sidebar_quick_access_title">Կողային տողի արագ մուտք</string>
+    <string name="show_quick_access_pref_title">Ցույց տալ արագ մուտքերը</string>
+    <string name="show_quick_access_pref">Արագ մուտք է գործում</string>
+    <string name="directory">Տեղեկատու</string>
+
+    <string name="sidebar_bookmarks_title">Կողային էջանիշեր</string>
+    <string name="show_bookmarks_pref_title">Ցուցադրել էջանիշները</string>
+    <string name="show_bookmarks_pref">Էջանիշներ</string>
+    <string name="create_bookmark">Ստեղծել էջանիշ</string>
+    <string name="edit_bookmark">v18էջանիշ Խմբագրել էջանիշը</string>
+    <string name="question_delete_bookmark">Ջնջե՞լ էջանիշը:</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud հավելվածը չի գտնվել: Խնդրում ենք ներբեռնել Play Store-ից:</string>
+    <string name="cloud_error_failed_restart">Չհաջողվեց բեռնել կապը:
+        Խնդրում ենք բացել Amaze Cloud-ը մեկ անգամ:</string>
+    <string name="cloud_remove">Ցանկանու՞մ եք հեռացնել ամպային կապը:</string>
+    <string name="cloud_fail_authenticate">Չհաջողվեց նույնականացնել</string>
+    <string name="cloud_share_copied">Համօգտագործելի հղումը պատճենվեց clipboard-ին</string>
+    <string name="copy_low_memory">Սպառվում է հիշողությունը, խնդրում ենք մաքրել RAM-ի մի մասը</string>
+    <string name="cloud_token_lost">Token կորել է, խնդրում ենք նորից մուտք գործել</string>
+    <string name="monofont">Monospace տառատեսակ</string>
+    <string name="showHeaders">Ցուցադրել վերնագրերը</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Չկան տարրեր</string>
+	<string name="item">տարր</string>
+	<string name="items">տարրեր</string>
+	
+	<string name="byte_singular">բայթ</string>
+	<string name="bytes">բայթ</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Ֆայլը պետք է ունենա անուն</string>
+    <string name="add_item">Ավելացնել տարր</string>
+    <string name="failed_smb_decrypt_path">Չհաջողվեց բեռնել SMB կապ</string>
+    <string name="failed_cloud_new_connection">Չհաջողվեց ավելացնել նոր Cloud կապ</string>
+    <string name="failed_cloud_api_key">Չհաջողվեց հաստատել Cloud plug-in</string>
+
+    <string name="local_inet_addr_error">Սխալ՝ տեղական ինետ հասցեի ստացման մեջ</string>
+    <string name="intent_save_as">Պահել որպես…</string>
+    <string name="go">Գնա</string>
+    <string name="advanced">Ընդլայնված</string>
+    <string name="typeable_paths_title">Պատվիրված ուղիներ</string>
+    <string name="typeable_paths_summary">Երկար սեղմեք ուղու բարը՝ հատուկ ուղի մուտքագրելու համար</string>
+    <string name="send_email_to">Ուղարկեք էլ-նամակ</string>
+
+    <string name="text_editor">Տեքստային խմբագրի կարգավորումներ</string>
+    <string name="preference_newstack_title">Բացել ֆայլերը որպես նոր առաջադրանք</string>
+    <string name="preference_newstack_summary">Թույլ է տալիս բացել ֆայլերը առանձին առաջադրանքներում: Մուտք գործեք դրանք համակարգի վերջին էկրանից:</string>
+    
+    <string name="developers">Կարգավորողներ</string>
+    <string name="no_bitcoin_app">Խնդրում ենք տեղադրել Bitcoin Wallet հավելվածը</string>
+    <string name="channel_name_normal">Amaze ծանուցումներ</string>
+    <string name="channel_description_normal">Amaze File Manager-ի ծանուցումները</string>
+    <string name="channel_name_ftp">Amaze FTP սերվեր</string>
+    <string name="channel_description_ftp">Amaze File Կառավարիչ FTP սերվերի ծանուցումներ</string>
+
+    
+    <string name="processing">մշակում…</string>
+    <string name="failed_no_connection">Չհաջողվեց բեռնել ֆայլերը: Խնդրում ենք ստուգել ձեր կապը:</string>
+
+    
+	<string name="scp_connection">SCP/SFTP միացում</string>
+    <string name="ftp_connection">FTP միացում</string>
+    <string name="ftps_connection">FTP-ը SSL միացման միջոցով</string>
+    
+    <string name="ssh_host_key_verification_prompt">Հոսթի \'%1$s\'-ի իսկությունը չի կարող հաստատվել:\n\n%2$s բանալի մատնահետքը %3$s է:\n\nՀաստատելու համար խնդրում ենք սեղմել \"Այո\" ինքնություն; հակառակ դեպքում, խնդրում ենք սեղմել \"Ոչ\":</string>
+    <string name="ssh_host_key_verification_prompt_title">Ստուգել հյուրընկալողը</string>
+    <string name="ssh_select_pem_button">SSH անձնական բանալի</string>
+    <string name="ssh_pem_key_parse_error">Անհնար է կարդալ ընտրված PEM-ը. %s</string>
+    <string name="password_unchanged">(անփոփոխ)</string>
+    <string name="ssh_authentication_failure_password">Մուտք գործելու ձախողում. Հնարավոր չէ նույնականացնել տրամադրված օգտանունով և գաղտնաբառով:</string>
+    <string name="ssh_authentication_failure_key">Մուտքի սխալ. հնարավոր չէ նույնականացնել տրամադրված օգտվողի անունով և անձնական բանալիով:</string>
+    <string name="ssh_connect_failed">Հնարավոր չէ միանալ %1$s-ին:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ԶԳՈՒՇԱՑՈՒՄ. ՀԵՌԱԿԱ ՀԱՍՏԱՏՈՒՍԻ ՆԱԽԱԶԳՈՒՑՈՒՄԸ ՓՈԽՎԵԼ Է:</string>
+    <string name="ssh_connect_failed_host_key_changed_message">ՀՆԱՐԱՎՈՐ Է, ՈՐ ՈՉ ՈՉ ՈՉ ՈՉ ՈՉ ՈՉ ԱՆՎԱՐ ԻՆՉ Է ԱՆՈՒՄ:\n\nԻնչ-որ մեկը կարող է ձեզ վրա լինել հենց հիմա (մարդը միջին հարձակումը)! Հնարավոր է նաև, որ հյուրընկալող ստեղնը նոր է փոխվել: Հեռակա հոսթի կողմից ուղարկված հանրային բանալու մատնահետքը չի համընկնում Amaze-ում պահվածի հետ:\n\nԽնդրում ենք կապվել ձեր համակարգի ադմինիստրատորի հետ կամ կարգավորել նոր կապ՝ սերվերին միանալը շարունակելու համար:</string>
+    <string name="ssh_key_prompt_passphrase">Խնդրում ենք մուտքագրել հիմնական անցաբառը .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Դյուրանցումների ստեղծումը չի աջակցվում ձեր գործարկիչի կողմից:</string>
+    
+    <string name="select_color_config">Ընտրել գույնի կազմաձև</string>
+    <string name="customize">Անհատականացնել</string>
+    <string name="custom">Պատվիրել</string>
+    <string name="preselected_configs_title">Նախընտրված կազմաձևեր</string>
+    <string name="orange">Նարնջագույն</string>
+    <string name="blue">Կապույտ</string>
+    <string name="green">Կանաչ</string>
+    <string name="password_no_match">Գաղտնաբառը չի համընկնում</string>
+    <string name="deselect_all">Անջատել բոլորը</string>
+    <string name="filename">Ֆայլի անունը</string>
+    <string name="compress_file_suggest_zip_extension">Խորհուրդ է տրվում օգտագործել \".zip\" որպես ֆայլի ընդլայնում:</string>
+    <string name="about_amaze">Նյութական դիզայնի ֆայլերի կառավարիչ Android-ի համար</string>
+    <string name="license">Լիցենզիա</string>
+    <string name="libraries">Գրադարաններ</string>
+    <string name="password_repeat">Կրկնեք գաղտնաբառը</string>
+    <string name="create_file_suggest_txt_extension">Խորհուրդ է տրվում օգտագործել \".txt\" որպես ֆայլի ընդլայնում:</string>
+    <string name="ssh_select_pem">Ընտրեք անձնական բանալի նույնականացման համար</string>
+    <string name="ssh_key_invalid_passphrase">Սխալ բանալի անցաբառ:</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM-ի վերծանման վավեր ապակոդավորիչ չկա:</string>
+    <string name="encryption_fail_copy">Չհաջողվեց թարմացնել գաղտնագրման գրառումը տվյալների բազայում</string>
+    <string name="extracted">Արտահանված</string>
+    <string name="compressed">սեղմված</string>
+    <string name="processed">մշակված</string>
+    <string name="no_obtainable_info">Այս ֆայլի մասին տեղեկություններ չկան</string>
+    <string name="reopen_from_source">Չի կարելի, խնդրում ենք նորից բացել վերջին հավելվածից</string>
+    <string name="no_file_error">Սխալ առաջացավ, բացելու բան չկա</string>
+    <string name="file_too_long">ֆայլը չափազանց երկար է և հնարավոր չէ խմբագրել, սակայն դուք կարող եք կարդալ առաջին %d նիշերը</string>
+    <string name="file_read_only">Բացված ֆայլը միայն կարդալու համար է:</string>
+    <string name="got_it">Հասկացա:</string>
+    <string name="encrypt_file_save_as">Պահել կոդավորված Ֆայլ որպես…</string>
+    <string name="encrypt_folder_save_as">Պահպանել գաղտնագրված թղթապանակը որպես…</string>
+    <string name="encrypt_option_use_aze">Օգտագործել Amaze կոդավորման ձևաչափը</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt-ը բաց կոդով ֆայլերի կոդավորման ձևաչափ է՝ հիմնված AES կոդավորման վրա: Այն նաև շարժական է, կարող է վերծանվել AESCrypt ծրագրերով այլ հարթակներում:</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt կայք</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze-ի գաղտնագրման ձևաչափը նույնպես հիմնված է AES կոդավորման վրա. բայց տարբերվում է AESCrypt ձևաչափից, այն կարող է վերծանվել միայն այս սարքի միջոցով. Դուք նաև չպետք է հեռացնեք Amaze File Manager-ն այս սարքից և չփոխեք էկրանի կողպման եղանակը, այլապես գաղտնագրված ֆայլը վերականգնելու միջոց չեք ունենա:</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Կոդավորված ֆայլերը պետք է օգտագործեն \".aze\" որպես ֆայլի ընդլայնում:</string>
+    <string name="encrypt_file_must_end_with_aes">Կոդավորված ֆայլերը պետք է օգտագործեն \".aes\" որպես ֆայլի ընդլայնում:</string>
+    <string name="error_aescrypt_decrypt_failed">Հնարավոր չէ վերծանել \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Հնարավոր չէ վերագրանցել ֆայլը:</string>
+    <string name="saved_single_file">Ֆայլը պահվել է որպես \'%s\':</string>
+    <string name="saved_multi_files">%d ֆայլ է պահվել:</string>
+    <string name="create_hidden_file_warn">Ստեղծված ֆայլը կթաքցվի ֆայլերի ցանկում:</string>
+    <string name="grant_apkinstall_permission">Հավելվածին անհրաժեշտ է թույլտվություն` հավելվածները շարունակելու համար:</string>
+    <string name="time_remaining">Մնացած ժամանակը</string>
+    <string name="transfer_rate">Փոխանցման արագությունը</string>
+    <string name="unknown">անհայտ</string>
+    <string name="multiple_invalid_archive_entries">Արխիվի որոշ ֆայլեր հնարավոր չէ հանել; Արխիվը կարող է վնասված լինել կամ վնասակար աղբյուրից:</string>
+    <string name="saf_otg_explanation">Դուք այժմ կգնաք Android-ի ֆայլային համակարգ անվտանգության նկատառումներից ելնելով: Խնդրում ենք ընտրել USB սարքը ձախ կողմում գտնվող ցանկից:</string>
+    <string name="donation_thanks">Շնորհակալություն նվիրատվության համար, սա մեզ մոտիվացված է պահում: (:</string>
+    <string name="enable_marquee_filename">Միացնել ֆայլերի անունների համար նախատեսված էֆեկտը</string>
+    <string name="archive_password_prompt">Խնդրում ենք մուտքագրել արխիվի գաղտնաբառը.</string>
+    
+    <string name="cannot_extract_archive">Հնարավոր չէ հանել \"%s\" արխիվը. %s</string>
+    <string name="archive_unsupported_or_corrupt">Հնարավոր չէ բացել \"%s\" արխիվը: Կամ մենք չենք կարող բացել արխիվը, կամ արխիվը վնասվել է:</string>
+    <string name="close">Փակել</string>
+    <string name="bookmark_exists">Էջանիշը գոյություն ունի</string>
+    <string name="hide_media">Թաքցնել մեդիա բրաուզերներից</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ՀՆԱՐԱՎՈՐ Է, ՈՐ ՈՉ ՈՉ ՈՉ ՈՉ ՈՉ ԱՆՎԱՐ ԻՆՉ ԱՆՈՒՄ Է:\n\nԻնչ-որ մեկը կարող է հենց հիմա գաղտնալսել ձեզ (մարդիկ- միջին հարձակումը)! Հնարավոր է նաև, որ հյուրընկալող ստեղնը նոր է փոխվել: Հեռակա հոսթավարի կողմից ուղարկված հանրային բանալու մատնահետքը չի համընկնում Amaze-ում պահվածի հետ:\n\nԴուք կարող եք շարունակել մատնահետքի թարմացումը կամ չեղարկել SSH կապի կարգավորումների թարմացումը:</string>
+    <string name="update_host_key">Թարմացնել հոսթի բանալին</string>
+    <string name="cancel_recommended">Չեղարկել (խորհուրդ է տրվում)</string>
+    
+    
+    <string name="failed_install_apk">Չհաջողվեց տեղադրել</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Ներքին հիշողություն</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD քարտ</string>
+    <string name="choose_folder">Ընտրեք այս թղթապանակը</string>
+    
+    <string name="some_files_failed_invalid_operation">Որոշ ֆայլեր ձախողվեցին անվավեր գործողության պատճառով</string>
+    <string name="ftp_server_prompt_connect_to_network">Միացեք ցանցին կամ միացրեք AP</string>
+    <string name="ftp_server_open_settings">Բացեք կարգավորումները</string>
+    <string name="move">Տեղափոխեք</string>
+    <string name="select_save_location">Ընտրեք գտնվելու վայրը պահելու համար</string>
+    <string name="scp_default_path">Լռելյայն ուղի (ըստ ցանկության)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Ներողություն, դա չպետք է տեղի ունենար:</string>
+    
+    <string name="error_report_button_text">Հաղորդեք այս սխալի մասին էլ. փոստով</string>
+    <string name="error_report_button_telegram">Հաղորդեք այս սխալի մասին telegram-ի միջոցով</string>
+    <string name="copy_for_github">Պատճենել ձևաչափված զեկույցը</string>
+    <string name="error_report_open_issue_button_text">Հաղորդել GitHub-ում</string>
+    <string name="error_report_open_github_notice">Խնդրում ենք ստուգել, ​​թե արդյոք ձեր խափանումը քննարկող խնդիր արդեն կա:</string>
+    <string name="error_snackbar_message">Ներողություն, ինչ-որ բան սխալ է տեղի ունեցել:</string>
+    <string name="error_snackbar_action">Հաղորդել</string>
+    <string name="what_device_headline">Տեղեկություն.</string>
+    <string name="what_happened_headline">Ինչ եղավ:</string>
+    <string name="info_labels">Ինչ:\\nՀարցում:\\nGMT Ժամը:\\nՓաթեթ:\\nՏարբերակ:\\nՕՀ տարբերակ:\\nՍարք:\\nՄոդել:\\nԱպրանք :</string>
+    <string name="your_comment">Ձեր մեկնաբանությունը (անգլերեն).</string>
+    <string name="error_details_headline">Մանրամասները.</string>
+    <string name="app_ui_crash">Հավելվածը/UI-ը խափանվել է</string>
+    <string name="error_report_title">Սխալի մասին հաշվետվություն</string>
+    <string name="crash_report_copied">Խափանումների մասին հաշվետվությունը պատճենվել է clipboard</string>
+    <string name="disableIpcSignature">Անջատել IPC-ի ստորագրման ստուգումը (Հին SMBv1 սերվերների համար՝ ԱՆԱՊԱՀՈՎ!)</string>
+    <string name="cannot_delete_file">Հնարավոր չէ ջնջել ֆայլը</string>
+    <string name="cannot_delete_file_with_reason">Հնարավոր չէ ջնջել ֆայլը - %s</string>
+    <string name="cannot_rename_file">Հնարավոր չէ վերանվանել ֆայլը %s - %s</string>
+    <string name="cannot_read_directory">Հնարավոր չէ կարդալ գրացուցակը %s - %s</string>
+    <string name="just_once">Ընդամենը մեկ անգամ</string>
+    <string name="always">Միշտ</string>
+    <string name="choose_different_app">Ընտրեք այլ հավելված</string>
+    <string name="clear_open_file">Մաքրել cache</string>
+    <string name="clear_open_file_summary">Ջնջում է ընտրված լռելյայն ֆայլերի բացման հավելվածները</string>
+    <string name="ftp_readonly">Միայն կարդալու հասանելիություն</string>
+    <string name="legacy_listing_title">Օգտագործել ժառանգական ցուցակը արմատի համար</string>
+    <string name="legacy_listing_summary">Եթե միացված է, օգտագործում է հին մեթոդ ֆայլերը ցուցակագրելու համար</string>
+    <string name="error_unsupported_v5_rar">RAR արխիվ \"%s\"-ը չի աջակցվում RAR v5 արխիվ:</string>
+    <string name="ftp_prompt_restart_server">Փոփոխությունների ուժի մեջ մտնելու համար դուք պետք է վերագործարկեք FTP սերվերը:</string>
+    <string name="error_permission_denied">Թույլտվությունը մերժված է</string>
+    <string name="error_archive_password_incorrect">Արխիվի սխալ գաղտնաբառ:</string>
+    <string name="error_archive_cannot_extract">Հնարավոր չէ հանել \"%s\" արխիվի մուտքագրումը \"%s\"-ից:</string>
+    <string name="drag_and_drop_preference">Ընտրեք քաշել և թողնել նախապատվությունը (Փորձնական)</string>
+    <string name="drag_to_move_copy">Հպեք և քաշեք ֆայլերը տեղափոխելու կամ պատճենելու համար</string>
+    <string name="drag_to_select">Հպեք և քաշեք` ֆայլեր ընտրելու համար</string>
+    <string name="disable">Անջատել</string>
+    <string name="choose_operation">Ընտրեք գործողությունը կատարելու համար</string>
+    <string name="remember">Հիշեք հաջորդ անգամ</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Տրամադրել SAF մուտք FTP սերվերին</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Քանի որ սա FTP սերվերի ձեր առաջին գործարկումն է, և դուք օգտագործում եք սարքի ներքին հիշողությունը որպես ընդհանուր թղթապանակ, խնդրում ենք թույլատրել Amaze-ին մուտք գործել պահեստ՝ օգտագործելով SAF:\n\n
+
+Դա պետք է անեք միայն մեկ անգամ, մինչև հաջորդ անգամ, երբ ընտրեք նոր տեղադրություն՝ համօգտագործելու համար:</string>
+    <string name="android_data_prompt_saf_access">Android 10-ից ի վեր, Android-ը սահմանափակումներ էր սահմանել որոշ գրացուցակների վրա, և դրանք պետք է մուտք գործեն Storage Access Framework-ի միջոցով:\n \nԽնդրում ենք թույլ տալ Amaze-ին մուտք գործել գրացուցակ համակարգի ֆայլերի կառավարիչից՝ սեղմելով «Թույլատրել մուտքը»:</string>
+    <string name="android_data_prompt_saf_access_title">Տրամադրել SAF մուտք</string>
+    <string name="ftp_preference_saf_filesystem_title">Օգտագործել հին ֆայլային համակարգը</string>
+    <string name="ftp_preference_saf_filesystem">Միացնել սա Android-ի նոր տարբերակներում սարքի արտաքին հիշողություն օգտագործելու աջակցության համար</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP սերվերի ընդհանուր ուղին վերակայվել է դեպի ներքին հիշողություն, երբ դուք վերադառնում եք հին ֆայլային համակարգի ներդրմանը: Խնդրում ենք ընտրել նոր ուղի՝ օգտագործելով վերևի աջ կողմում գտնվող ընտրացանկը, ըստ անհրաժեշտության:</string>
+    <string name="ftp_server_reset_notify">FTP սերվերի ընդհանուր ուղին վերակայվել է ներքին հիշողություն</string>
+    <string name="ftp_server_root_unavailable">Դուք ընտրում եք ուղի, որը պահանջում է արմատային մուտք: Խնդրում ենք միացնել root Explorer-ը կարգավորումներում, եթե ձեր սարքը արմատավորված է:</string>
+    <string name="ftp_server_root_filesystem_warning">Դուք ընտրում եք ուղի, որը պահանջում է արմատային մուտք, որը հնարավորություն է տալիս կարդալ/գրել գործողություններ ձեր սարքի ողջ ֆայլային համակարգում, և դա վտանգավոր է. անզգույշ սխալները կարող են աղյուսել ձեր սարքը:\n\nՎստա՞հ եք:</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Սխալ՝ URI \"%s\"-ը կարդալու համար բացելիս:</string>
+    <string name="error_empty_archive">\"%s\"-ը դատարկ արխիվ է:</string>
+    <string name="error_bad_archive_without_info">\"%s\"-ը վնասված արխիվ է: .</string>
+    <string name="error_bad_archive_with_info">\"%s\"-ը վնասված արխիվ է:\nՀաղորդագրություն արդյունահանողից. \"%s\"</string>
+    <string name="security_error">Ֆայլը չհաջողվեց բացել այս հավելվածի միջոցով</string>
+    <string name="cloud_drive_tooltip">Ստեղծել Google Drive™ միացում՝ Amaze File Manager-ից ֆայլերը կառավարելու համար:</string>
+    <string name="signin_with_google_title">Նույնականացում՝ Google Drive™ օգտագործելու համար</string>
+    <string name="show_system_apps">Ցուցադրել համակարգի հավելվածները</string>
+    <string name="system_apps">Համակարգի հավելվածները</string>
+    <string name="select_inverse">Ընտրել Հակադարձ</string>
+    <string name="select_by_type">Ընտրել ըստ տեսակի</string>
+    <string name="select_by_date">Ընտրել ըստ ամսաթվի</string>
+    <string name="select_similar">Ընտրել նմանատիպ</string>
+    <string name="error_fetching_google_play_product_list">Սխալ՝ Google Play-ից ապրանքների ցանկը բեռնելիս:</string>
+    <string name="grant_all_files_permission">Android 11-ից սկսած , Google-ը Ֆայլերի կառավարիչներին խնդրում է օգտատիրոջ թույլտվություն խնդրել սարքի բոլոր ֆայլերը կառավարելու համար: Մանրամասներն այստեղ։
+        \n\nAmaze File Manager-ին այս թույլտվությունը նույնպես անհրաժեշտ է: Այստեղ «Տրամադրել» սեղմելուց հետո, հաջորդ էկրանին ընտրեք «Թույլատրել մուտքը կառավարել բոլոր ֆայլերը» տարբերակը:
+        \n\nԱյս երկխոսության չեղարկումը դուրս կգա հավելվածից:</string>
+    <string name="user_apps">Օգտվողի հավելվածներ</string>
+    <string name="appearance">Արտաքին տեսք</string>
+    <string name="behavior">Վարք</string>
+    <string name="appearance_summary">Անհատականացրեք ֆայլերի կառավարչի թեման, գույները և տեսքը</string>
+    <string name="ui_summary">Վերահսկեք, թե ինչ տեղեկատվություն ցուցադրվի, հարմարեցրեք կողագոտին և փոխարկեք միջերեսի նախապատվությունները</string>
+    <string name="behavior_summary">Փոփոխեք վարքագիծը, ինչպիսին է առաջադեմ որոնումը և արդյոք բացել ֆայլերը որպես նոր առաջադրանք</string>
+    <string name="security_summary">Կարգավորել գաղտնաբառը և գաղտնագրում</string>
+    <string name="backup_summary">Արտահանում/ներմուծում Amaze կարգավորումներ</string>
+
+    <string name="pref_export">Արտահանում</string>
+    <string name="pref_export_summary">Արտահանման կարգավորումներ</string>
+    <string name="pref_import">Ներմուծում</string>
+    <string name="pref_import_summary">Ներմուծման կարգավորումներ</string>
+
+    <string name="quick_desc">Files վերջերս հասանելի է Amaze-ի միջոցով</string>
+    <string name="recent_desc">Վերջերս ստեղծված կամ փոփոխված ֆայլեր</string>
+    <string name="error_cannot_find_way_open">Չհաջողվեց գտնել ֆայլը բացելու միջոց</string>
+    <string name="error_cant_decompress_that_file">Հնարավոր չէ մշակել հայցվող արխիվը</string>
+    <string name="analyse_storage">Վերլուծել պահեստը</string>
+    
+    <string name="download_amaze_utils_text">Դուք վերաուղղորդվում եք դեպի Amaze File Utilities: Դա մեր բաց կոդով հավելվածն է, որն ունի ներկառուցված աուդիո/վիդեո/պատկեր/փաստաթղթերի դիտիչներ, թույլ է տալիս վերլուծել անպետք ֆայլերը՝ ազատելու պահեստը, արագ փոխանցել Wifi P2P-ի միջոցով և շատ ավելին:\nԽնդրում ենք աջակցել մեզ՝ փորձելով այն:</string>
+    <string name="download">Ներբեռնում</string>
+    
+    <string name="amaze_utils_installed_alias">Շնորհակալություն Amaze File Utilities-ը տեղադրելու համար: Դուք վերահղվում եք դեպի հավելված:</string>
+    
+    
+    
+    
+    <string name="docx_viewer">Amaze Document Viewer24</string>
+    <string name="share_logs">Share տեղեկամատյաններ</string>
+    <string name="share_logs_summary">Կիսվել գրանցված տեղեկամատյաններով էլեկտրոնային փոստի / հեռագրի միջոցով</string>
+    <string name="open_with_amaze">Բացել Amaze-ով</string>
+    <string name="confirmation">Հաստատում</string>
+    <string name="open_file_confirmation">Իսկապե՞ս ուզում եք բացել հետևյալ ֆայլը:\n\nԱնունը՝\n%s\n\nԳտնվելու վայրը՝\n%s\n\nՉափը՝\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Համաձայն Google Play քաղաքականության մանդատների՝ հավելվածներին չի թույլատրվում ինքնուրույն թարմացնել: Խնդրում ենք թարմացնել հավելվածը Google Play-ից:</string>
+    <string name="error_cannot_get_package_info">Հնարավոր չէ փաթեթի մասին տեղեկություններ ստանալ \"%s\" ֆայլից: Կամ նշված ֆայլը APK չէ, կամ փաթեթի ֆայլը վնասված է:</string>
+    <string name="preference_delete_confirmation">Ջնջել հաստատումը</string>
+    <string name="preference_delete_confirmation_summary">Ֆայլերը ջնջելուց առաջ խնդրեք հաստատում: Սա անջատելը շատ հուսահատված է:</string>
+    
+    
+    <string name="protocol_ftps">Անվտանգ FTP</string>
+    <string name="unavailable">Անհասանելի</string>
+
+    <string name="exporting_failed">Արտահանումը ձախողվեց. չհաջողվեց գրել պահուստային ֆայլը</string>
+    <string name="importing_failed">Ներմուծումը ձախողվեց. չհաջողվեց կարդալ կրկնօրինակը file</string>
+    <string name="importing_completed">Ներմուծումն ավարտված է</string>
+    <string name="invalid_backup_file">Անվավեր պահուստային ֆայլ</string>
+    <string name="import_failed_for">Ներմուծումը ձախողվեց հետևյալի համար`</string>
+    <string name="free_of">"%s\n%s առանց %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin-ը չի աջակցվում F-Droid տարբերակով: Խնդրում ենք օգտագործել Amaze-ի Play Store-ի տարբերակը:</string>
+    <string name="disable_player_intent_filters">Անջատել նվագարկչի մտադրության զտիչները</string>
+    <string name="disable_player_intent_filters_summary">Անջատում է Amaze ներկառուցված մեդիա նվագարկիչները ֆայլերի ընտրիչից</string>
+    <string name="no_app_found_intent">Այս մտադրությունը կարգավորելու համար ոչ մի հավելված չի գտնվել: Տեղադրե՞լ եք DocumentsUI:</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection-ի հավատարմագրերը մաքրված են</string>
+    <string name="cloud_connection_credentials_cleared_msg">Ցավոք, մենք չկարողացանք տեղափոխել ձեր ամպային կապի հավատարմագրերը տվյալների բազայի նոր սխեման, և մենք ունեցանք դրանք հավելվածից հեռացնելու համար: Խնդրում ենք կրկին ստեղծել ամպային կապը:</string>
+</resources>

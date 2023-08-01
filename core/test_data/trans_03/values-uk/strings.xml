@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Диспетчер файлів Amaze</string>
+    <string name="drawer_open">Відкрити панель навігації</string>
+    <string name="drawer_close">Закрити панель навігації</string>
+    <string name="icon">значок</string>
+    <string name="apps">Менеджер програм</string>
+    <string name="ftp">FTP-сервер</string>
+    <string name="setting">Налаштування</string>
+    <string name="select">Виберіть елемент</string>
+    <string name="press_again">Натисніть ще раз, щоб вийти</string>
+    <string name="open">Відкрити</string>
+    <string name="backup">Резервне копіювання</string>
+    <string name="uninstall">Видалити</string>
+    <string name="play">Магазин Play</string>
+    <string name="properties">Властивості</string>
+    <string name="copyingapks">Копіювання %d файлів APK до %s</string>
+    <string name="delbook">Видалити закладку</string>
+    <string name="add_to_bookmarks">Додати до закладок</string>
+    <string name="enterpath">Введіть шлях</string>
+    <string name="cancel">СКАСУВАТИ</string>
+    <string name="create">СТВОРИТИ</string>
+    <string name="loading">Завантаження…</string>
+    <string name="file_empty">Файл порожній</string>
+    <string name="error">Помилка</string>
+    <string name="search_results">Результати пошуку %s</string>
+    <string name="rename">Перейменувати</string>
+    <string name="save">Зберегти</string>
+    <string name="bookmarks_added">Додані закладки</string>
+    <string name="fileexist">Файл із такою назвою вже існує</string>
+    <string name="name">Ім\'я</string>
+    <string name="date">Дата</string>
+    <string name="location">Розташування</string>
+    <string name="size_capitalized">Розмір</string>
+    <string name="size">розмір папки</string>
+    <string name="enterzipname">Введіть назву Zip</string>
+    <string name="no_app_found">Не знайдено програми для відкриття цього файлу</string>
+    <string name="copying">Копіювання</string>
+    <string name="moving">Переміщення</string>
+    <string name="file">Файл</string>
+    <string name="folder">Папка</string>
+    <string name="newfolder">Нова папка</string>
+    <string name="entername">Введіть назву</string>
+    <string name="extracting">Видобуток</string>
+    <string name="stopping">Зупинення</string>
+    <string name="open_parent">Відкрити батьківський каталог</string>
+    <string name="open_with">Відкрити за допомогою</string>
+    <string name="share">Поділитися</string>
+    <string name="about">Про</string>
+    <string name="extract">Видобути</string>
+    <string name="compress">Стиснути</string>
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+    
+    <string name="dialog_delete_category_directories">Каталоги</string>
+    <string name="dialog_delete_category_files">Файли</string>
+    <string name="dialog_delete_disclaimer">Якщо видалити наведені нижче елементи, їх буде назавжди видалено з вашого пристрою, і їх неможливо буде відновити.</string>
+    <string name="dialog_delete_title">Видалити елементи назавжди?</string>
+    <string name="deleting">Видалення</string>
+    <string name="question_set_path_as_home">Ви хочете встановити поточний шлях як домашній для ця вкладка?</string>
+    <string name="directorysort">Режим сортування каталогу</string>
+    <string name="sort_by">Сортувати за</string>
+    <string name="sort_only_this">Лише ця папка</string>
+    <string name="theme">Тема</string>
+    <string name="random">Випадкова оболонка</string>
+    <string name="random_summary">Встановлює випадковий основний колір під час запуску</string>
+    <string name="colorize">Розфарбувати піктограми</string>
+    <string name="colorize_summary">Установлює статичний колір піктограми. Не перекриває налаштування кольору піктограми каталогу.</string>
+    <string name="home">Домашня сторінка</string>
+    <string name="paste">Вставити</string>
+    <string name="history">Історія</string>
+    <string name="copy">Копіювати</string>
+    
+    <string name="root_mode_summary">Лише для рутованого пристрою. Перевірте це, лише якщо ви впевнені в цьому.</string>
+    <string name="root_failure">Кореневий доступ не надано</string>
+    <string name="select_all">Вибрати все</string>
+    <string name="delete">Видалити</string>
+    <string name="set_as_home">Установити як домашню</string>
+    <string name="operation_not_supported">Операція не підтримується</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Матеріал Світлий</string>
+    <string name="dark">Матеріал Темний</string>
+    <string name="daytime">Денний час</string>
+    <string name="black">Чорний (для OLED)</string>
+    <string name="system">Система (дотримуйтеся теми системи)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Папки зверху</string>
+    <string name="filesOnTop">Файли зверху</string>
+    <string name="none_on_top">Немає зверху</string>
+    <!--SortBy-->
+    <string name="sort_name">Назва</string>
+    <string name="lastModified">Остання зміна</string>
+    <string name="sort_size">Розмір</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Виберіть файл</string>
+    <string name="process_viewer">Перегляд процесів</string>
+    <string name="in_safe">Недостатньо місця</string>
+    <string name="no_file_overwrite">Файл не перезаписано</string>
+    <string name="skip">Пропустити</string>
+    <string name="overwrite">Перезаписати</string>
+    <string name="not_allowed">Не дозволено</string>
+    <string name="searching">Пошук %s</string>
+    <string name="done">Готово</string>
+    <string name="set">Установити</string>
+    <string name="enablerootmde">Увімкнути кореневий режим</string>
+    <string name="goback">Повернутися</string>
+    <string name="newfile">Новий файл</string>
+    <string name="no_files">Немає файлів</string>
+    <string name="used">використаний простір</string>
+    <string name="used_by_others">використаний іншими</string>
+    <string name="free">вільний простір</string>
+    <string name="listview">Перегляд списку</string>
+    <string name="gridview">Перегляд сітки</string>
+    <string name="permission">Дозволи</string>
+    <string name="hide">Сховати</string>
+    <string name="exit">Вийти</string>
+    <string name="doforall">Виконати для всіх елементів</string>
+    <string name="gridcolumnno">Номер стовпців у вигляді таблиці</string>
+    <string name="set_random">Зміни відбудуться після перезапуску програми</string>
+    <string name="authors">Автори</string>
+    <string name="changelog">Журнал змін</string>
+    <string name="ok">ОК</string>
+    <string name="ui">Інтерфейс</string>
+    <string name="general">Загальні</string>
+    <string name="thumb_summary">Показати мініатюри програм і зображень</string>
+    <string name="thumb">Показати мініатюри</string>
+    <string name="hidden">Показати приховані файли та папки</string>
+    <string name="lastModifiedSummary">Показати дату й час останньої зміни</string>
+    <string name="lastModifiedPref">Показати дату й час останньої зміни</string>
+    <string name="size_pref_summary">Показати розмір файлів і кількість елементів у папках</string>
+    <string name="size_pref">Показати розміри</string>
+    <string name="miscellaneous">Різне</string>
+    <string name="root_pref_summary">Показати дозволи для файлів і папок</string>
+    <string name="root_pref">Показати дозволи</string>
+    <string name="about_amaze_file_manager_label">Про файловий менеджер Amaze</string>
+    <string name="version">Версія</string>
+    <string name="rate">Оцініть програму</string>
+    <string name="feedback">Надіслати відгук</string>
+    <string name="hiddenfiles">Приховані файли</string>
+    <string name="type">Тип</string>
+    <string name="root_directory">Кореневий</string>
+    <string name="add_shortcut">Додати ярлик</string>
+    <string name="unsaved_changes">Незбережені зміни</string>
+    <string name="unsaved_changes_description">У вас є незбережені зміни, ви хочете зберегти їх перед виходом?</string>
+    <string name="saving">Збереження</string>
+    <string name="package_installer">Інсталятор пакетів</string>
+    <string name="view">Перегляд</string>
+    <string name="install">Встановлення</string>
+    <string name="archive">Архів</string>
+    <string name="archive_text">Це архів. Яку дію ви хочете виконати?</string>
+    <string name="package_installer_text">Це програма встановлення пакетів. Яку дію ви хотіли б виконати?</string>
+    <string name="xda_title">Потік XDA</string>
+    <string name="xda_summary">Запитання та відповіді, довідка та усунення несправностей</string>
+    <string name="circular_images">Використовуйте круглі значки для зображень і відео</string>
+    <string name="circular_icons">Використовуйте круглі значки</string>
+    <string name="back_title">Назад навігація</string>
+    <string name="back_summary">Вмикає спеціальну навігацію назад у верхній частині списку</string>
+    <string name="details">Деталі</string>
+    <string name="translators">Перекладачі</string>
+    <string name="german_translation_title">німецька</string>
+    <string name="italian_translation_title">італійська</string>
+    <string name="french_translation_title">французька</string>
+    <string name="russian_translation_title">російська</string>
+    <string name="spanish_translation_title">іспанська</string>
+    <string name="basque_translation_title">баскська</string>
+    <string name="chinese_translation_title">китайська</string>
+    <string name="serbian_translation_title">сербська</string>
+    <string name="turkish_translation_title">турецька</string>
+    <string name="ukrainian_translation_title">українська</string>
+    <string name="portuguese_translation_title">португальська</string>
+    <string name="polish_translation_title">польська</string>
+    <string name="korean_translation_title">корейська</string>
+    <string name="greek_translation_title">грецька</string>
+    <string name="dutch_translation_title">голландська</string>
+    <string name="romanian_translation_title">румунська</string>
+    <string name="vietnamese_translation_title">В\'єтнамська</string>
+    <string name="japanese_translation_title">Японська</string>
+    
+
+    
+    <string name="unin_system_apk">Це системна програма, її видалення може призвести до нестабільності системи.\nПродовжити?</string>
+    <string name="warning">Попередження</string>
+    <string name="donate">Пожертвувати</string>
+    <string name="archive_extract_folder">Папка вилучення архіву</string>
+    <string name="archive_summary">Файли архіву буде розпаковано до цієї папки. Значенням за замовчуванням є каталог, у якому присутній архів.</string>
+    <string name="open_as">Відкрити як</string>
+    <string name="text">Текст</string>
+    <string name="audio">Аудіо</string>
+    <string name="video">Відео</string>
+    <string name="other">Інше</string>
+    <string name="image">Зображення</string>
+    <string name="contributors">Співучасники</string>
+    <string name="save_paths">Запам\'ятати шляхи</string>
+    <string name="save_path_summary">Під час запуску відображатиметься остання переглянута папка для кожної вкладки</string>
+    <string name="select_intent">Вибрати</string>
+    <string name="database">База даних</string>
+    <string name="colored_navigation">Кольорова навігаційна панель</string>
+    <string name="colored_navigvation_sum">Чи пофарбована системна навігаційна панель у колір шкіри</string>
+
+    <string name="color_title">Колір</string>
+    <string name="color_summary">Установити колір для різних компонентів інтерфейсу користувача</string>
+    <string name="primary_color_title">Основний колір (ліва вкладка)</string>
+    <string name="primary_color_summary">Установити колір для великих елементів інтерфейсу користувача для лівої вкладки</string>
+    <string name="accent_color_title">Колір акценту</string>
+    <string name="accent_color_summary">Установити колір для FAB та іншого маленького інтерфейсу користувача elements</string>
+    <string name="icon_color_title">Колір піктограм</string>
+    <string name="icon_color_summary">Установити колір для піктограм</string>
+    <string name="choose_color">Вибрати колір</string>
+    <string name="files">Файли</string>
+    <string name="textreader">Читач тексту</string>
+    <string name="databasereader">Читач баз даних</string>
+    <string name="show_dividers">Показати розділювачі</string>
+    <string name="needs_access">Потрібен доступ для запису</string>
+    <string name="needs_access_summary">Будь ласка, виберіть кореневий каталог \t</string>
+    <string name="needs_access_summary1">\щоб надати доступ для запису для роботи</string>
+    <string name="smb_connection">Підключення SMB</string>
+    <string name="smb_server">IP-адреса сервера</string>
+    <string name="server_address">IP-адреса сервера</string>
+    <string name="username">Ім\'я користувача</string>
+    <string name="password">Пароль</string>
+    <string name="anonymous">Анонімний</string>
+    
+    <string name="folders">Папки</string>
+    <string name="folderfilecount">%1$d папок і %2$d файлів</string>
+    <string name="videos">Відео</string>
+    <string name="apks">APK</string>
+    <string name="documents">Документи</string>
+    <string name="images">Зображення</string>
+    <string name="clear">Очистити</string>
+    
+    <string name="total">Усього:</string>
+    <string name="calculating">обчислення</string>
+    <string name="sort">Сортувати</string>
+    <string name="ascending">За зростанням</string>
+    <string name="descending">За спаданням</string>
+    <string name="default_string">За умовчанням</string>
+    <string name="doit">Зробіть це</string>
+    <string name="want_help">Потрібна допомога?</string>
+    <string name="quick">Швидкий доступ</string>
+    <string name="recent">Останні файли</string>
+    <string name="edit">Редагувати</string>
+    <string name="find">Знайти на сторінці</string>
+    <string name="grant">Надати</string>
+    <string name="grantper">Надати дозвіл</string>
+    <string name="grantfailed">Дозвіл не надано</string>
+    <string name="grant_storage_permission">Програмі потрібен дозвіл на зберігання, щоб продовжити. Скасування цього діалогового вікна призведе до виходу з програми.</string>
+    <string name="operation_unsuccesful">Операція не вдалася</string>
+    <string name="creatingfile">Створення файлу</string>
+    <string name="creatingfolder">Створення папки</string>
+    <string name="renaming">Перейменування</string>
+    <string name="cant_be_empty">%s не може бути порожнім</string>
+    <string name="ip">Адреса</string>
+    <string name="connection_name">Назва підключення</string>
+    <string name="no_device_found">Пристроїв не знайдено</string>
+    <string name="path">Шлях</string>
+    <string name="rename_bookmark">Змінити закладку</string>
+    <string name="cut">Вирізати</string>
+    <string name="search">Пошук</string>
+    <string name="invalid_name">Недійсна назва</string>
+    <string name="search_hint">Введіть для пошуку…</string>
+    <string name="advanced_search">Розширений пошук</string>
+    <string name="regular_expression">Регулярний вираз</string>
+    <string name="regular_expression_summary">Пошук за допомогою регулярного виразу в стилі BASH</string>
+    <string name="match_content">Відповідати вмісту</string>
+    <string name="match_content_summary">Якщо встановлено, регулярний вираз буде відповідати повній назві файлу,
+        шукатиме входження інакше.</string>
+    <string name="start_ftp">Почати</string>
+    <string name="stop_ftp">Зупинити</string>
+    <string name="ftp_status_running">Виконується</string>
+    <string name="ftp_status_not_running">Не працює</string>
+    <string name="ftp_no_wifi">Переконайтеся, що ви підключені до Wi-Fi -Fi</string>
+    <string name="domain">Домен</string>
+    <string name="smb_share">Спільний шлях</string>
+    <string name="invalid">Недійсний %s</string>
+    <string name="ftp_notif_starting">FTP-сервер запускається</string>
+    <string name="ftp_notif_starting_title">FTP-сервер</string>
+    <string name="ftp_notif_title">FTP-сервер Amaze працює</string>
+    <string name="ftp_notif_text">в %s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP-порт</string>
+    <string name="ftp_port_change_success">FTP-порт успішно змінено</string>
+    <string name="ftp_port_change_error_invalid">Вибрано недійсний номер порту</string>
+    <string name="primary_two_title">Основний колір (права вкладка)</string>
+    <string name="primary_two_summary">Установити колір для великих елементів інтерфейсу користувача для правої вкладки</string>
+    <string name="support_development">Підтримка розробки</string>
+    <string name="report_bugs_title">Повідомити про помилки</string>
+    <string name="source_title">Вихідний код</string>
+    <string name="source_summary">Перегляньте наш вихідний код на GitHub</string>
+    <string name="report_bugs_summary">Повідомте про помилки або надішліть запит на нову функцію</string>
+    <string name="translate_title">Перекласти</string>
+    <string name="translate_summary">Перекласти Amaze своєю мовою</string>
+    <string name="paypal_copy_message">Ідентифікатор PayPal скопійовано в буфер обміну</string>
+    <string name="searching_devices">Пошук пристроїв</string>
+    <string name="use_custom_ip">Використовувати спеціальну IP</string>
+    <string name="bookmark_lost">Закладку не знайдено, відтворення…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Як отримати доступ до спільної папки Windows на Android (SMB)\n\n
+                
+                    
+                        Увімкніть спільний доступ до файлів у Windows\n
+                    
+                    
+                        Відкрийте панель керування, натисніть «Вибрати домашню групу та параметри спільного доступу» в розділі «Мережа».
+                        та Інтернеті та натисніть «Змінити додаткові параметри спільного доступу», увімкніть «Файл і
+                        Спільний доступ до принтера".\n\n
+                    
+
+                    
+                        Додаткові налаштування спільного доступу до файлів\n
+                    
+                    
+                        Ви також можете налаштувати тут інші додаткові параметри спільного доступу. \n
+                        Наприклад, ви можете дозволити доступ до ваших файлів без пароля, якщо ви довіряєте всім
+                        пристроїв у вашій локальній мережі. Після ввімкнення спільного доступу до файлів і принтерів ви можете
+                        відкрийте Провідник файлів або Провідник Windows, клацніть правою кнопкою миші папку, до якої потрібно надати спільний доступ, і
+                        виберіть Властивості. \n
+                        Натисніть кнопку «Поділитися» та зробіть папку доступною в мережі.\n\n
+                        
+
+                    
+                        Переконайтеся, що обидва пристрої підключено до однієї мережі Wi-Fi\n
+                    
+                    
+                        Ця функція робить файли доступними в локальній мережі, тому ваш ПК і мобільні пристрої
+                        мають бути в одній локальній мережі. Ви не можете отримати доступ до спільної папки Windows
+                        через Інтернет або коли ваш смартфон підключено до мобільного передавання даних — це
+                        має бути підключено до Wi-Fi.\n\n
+                    
+
+                    
+                        Знайдіть IP-адресу\n
+                    
+                    
+                        Відкрийте командний рядок. Введіть \'ipconfig\' і натисніть Enter. Знайдіть шлюз за замовчуванням
+                        під ваш мережевий адаптер для IP-адреси вашого маршрутизатора. Шукати
+                        \\\"Адреса IPv4\\\" у тому ж розділі адаптера, щоб знайти IP-адресу вашого комп\'ютера
+                        адреса.\n\n
+                    
+
+                    Введіть дані в діалоговому вікні SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Не можна поділитися більше ніж 100 файлами</string>
+    <string name="otg_access">Виберіть корінь пристрою OTG</string>
+    <string name="information">Інформація</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Доступ</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Змінено</string>
+
+    <string name="title">Назва</string>
+    <string name="artist">Виконавець</string>
+    <string name="album">Альбом</string>
+    <string name="year">Рік</string>
+    <string name="duration">Тривалість</string>
+    <string name="comment">Коментар</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Контейнер</string>
+    <string name="codec">Кодек</string>
+    <string name="channels">Канали</string>
+    <string name="sample_rate">Частота дискретизації</string>
+    <string name="bitrate">Бітрейт</string>
+    <string name="dimensions">Розміри</string>
+    <string name="frame_rate">Частота кадрів</string>
+    <string name="image_type">Тип зображення</string>
+    <string name="width">Ширина</string>
+    <string name="height">Висота</string>
+    <string name="date_modified">Дата зміни</string>
+    <string name="software">Програмне забезпечення</string>
+    <string name="creator">Творець</string>
+    <string name="camera_brand">Марка камери</string>
+    <string name="camera_model">Камера Модель</string>
+    <string name="date_taken">Дата зйомки</string>
+    <string name="exposure_time">Час експозиції</string>
+    <string name="aperture_value">Значення діафрагми</string>
+    <string name="image_iso">Швидкість ISO</string>
+    <string name="flash_fired">Спрацьовування спалаху</string>
+    <string name="focal_length">Фокусна відстань</string>
+    <string name="subject">Тема</string>
+    <string name="author">Автор</string>
+    <string name="keywords">Ключові слова</string>
+    <string name="producer">Виробник</string>
+    <string name="created">Створено</string>
+    <string name="format">Формат</string>
+    <string name="pages">Кількість Сторінки</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Оптимізовано</string>
+    <string name="security">Безпека</string>
+    <string name="paper_size">Розмір паперу</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Деякі файли не вдалося %s</string>
+    <string name="copied">скопіювати</string>
+    
+    <string name="copy_complete">Копіювання завершено</string>
+    <string name="waiting_title">Очікування</string>
+    <string name="waiting_content">Очікування завершення операції</string>
+    <string name="extract_complete">Видобування завершено</string>
+    <string name="compression_complete">Стиснення завершено</string>
+    <string name="compressing">Стиснення</string>
+    <string name="cancelled">Скасовано</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Записано</string>
+    <string name="out_of">з</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">з</string>
+    <string name="processing_file">Обробка файлу</string>
+    <string name="current_speed">Поточна швидкість</string>
+    <string name="smb_launch_error">Вам потрібно буде скопіювати цей файл у сховище, щоб відкрити його</string>
+    <string name="error_file_not_found">Помилка: файл не знайдено</string>
+    <string name="error_io">Помилка введення/виведення</string>
+    <string name="error_file_too_large">Помилка: файл завеликий</string>
+    <string name="medium_text">Середній текст</string>
+    <string name="permission_read">Читання</string>
+    <string name="permission_write">Запис</string>
+    <string name="permission_execute">Виконання</string>
+    <string name="permission_owner">Власник</string>
+    <string name="permission_group">Група</string>
+    <string name="permission_other">Інше</string>
+    <string name="clipboard_path_copy">Шлях скопійовано в буфер обміну</string>
+    <string name="service_timer">Минув час</string>
+    <string name="please_wait">Зачекайте</string>
+
+    <string name="cloud_connection">Хмарне підключення</string>
+    <string name="cloud_connection_new">Нове хмарне підключення</string>
+    
+    
+    
+    
+    <string name="cloud_get">Отримати плагін Cloud</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Немає програм</string>
+    <string name="ftp_path">Спільний шлях</string>
+    <string name="ftp_path_hint">Шлях до кореня каталогу для спільного використання</string>
+    <string name="change">Змінити</string>
+    <string name="unknown_error">На жаль, щось пішло не так!</string>
+
+    <string name="ftp_path_change_success">Шлях FTP успішно змінено</string>
+    <string name="ftp_path_change_error_invalid">Недійсний шлях</string>
+    <string name="ftp_status_no_connection">Немає з’єднання</string>
+    <string name="ftp_status_secure_connection">Захищене з’єднання</string>
+    <string name="ftp_status_title">Статус</string>
+    <string name="ftp_port">Порт</string>
+    <string name="ftp_login">Вхід</string>
+    <string name="field_empty">Поле не може бути порожнім</string>
+    <string name="ftp_timeout">Час простою</string>
+    <string name="ftp_seconds">Секунди</string>
+    <string name="intellihide_toolbar_title">Панель інструментів Intellihide</string>
+    <string name="intellihide_toolbar_summary">Автоматично приховувати панель інструментів під час прокручування</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">скопійовано в буфер обміну</string>
+    <string name="contributors_1_summary">Переклад</string>
+    <string name="contributors_2_summary">Значок і банери</string>
+    
+    <string name="contributors_4_summary">Тінь за FAB</string>
+    <string name="contributors_5_summary">Перехід кольорів під час гортання вкладок</string>
+    <string name="contributors_6_summary">FTP-сервер</string>
+    <string name="contributors_7_summary">Запуск інтерактивної оболонки</string>
+    <string name="connection_exists">З’єднання вже існує</string>
+
+    <string name="crypt_encrypting">Шифрування</string>
+    <string name="crypt_decrypting">Розшифрування</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Зашифровано</string>
+    <string name="crypt_decrypted">Розшифровано</string>
+    <string name="crypt_encrypt">Шифрувати</string>
+    <string name="crypt_decrypt">Розшифрувати</string>
+    <string name="operation_fail_following">Помилка операції для таких файлів</string>
+    <string name="crypt_pref_master_password_title">Головний пароль</string>
+    <string name="crypt_pref_master_password_summary">Установити головний пароль для шифрування.
+        Залиште порожнім, щоб видалити.</string>
+    <string name="crypt_pref_fingerprint_title">Відбиток пальця</string>
+    <string name="crypt_pref_fingerprint_summary">Використовувати відбиток пальця для автентифікації шифрування</string>
+    <string name="crypt_fingerprint_no_permission">Відсутні дозволи на відбиток пальця</string>
+    <string name="crypt_fingerprint_not_enrolled">Відбиток пальця не зареєстровано</string>
+    <string name="crypt_fingerprint_no_security">Без безпеки блокування екрана знайдено</string>
+    <string name="crypt_warning_key">Зверніть увагу, коли ви змінюєте шаблон безпеки з
+        Системні налаштування, ви не зможете розшифрувати цей вміст.</string>
+    <string name="warning_never_show">Не інформуйте знову</string>
+    <string name="warning_confirm">Зрозуміло!</string>
+    <string name="crypt_encryption_fail">Не вдалося зашифрувати</string>
+    <string name="crypt_decryption_fail">Не вдалося розшифрувати</string>
+    <string name="crypt_decryption_fail_password">Неправильний пароль!</string>
+    <string name="crypt_fingerprint_authenticate">Торкніться сенсора, щоб продовжити</string>
+    <string name="authenticate_password">Введіть пароль</string>
+
+    <string name="sidebar_preferences">Бічна панель</string>
+    <string name="sidebar_quick_access_title">Швидкий доступ до бічної панелі</string>
+    <string name="show_quick_access_pref_title">Показати швидкі доступи</string>
+    <string name="show_quick_access_pref">Швидкі доступи</string>
+    <string name="directory">Каталог</string>
+
+    <string name="sidebar_bookmarks_title">Закладки на бічній панелі</string>
+    <string name="show_bookmarks_pref_title">Показати закладки</string>
+    <string name="show_bookmarks_pref">Закладки</string>
+    <string name="create_bookmark">Створити закладку</string>
+    <string name="edit_bookmark">Редагувати закладку</string>
+    <string name="question_delete_bookmark">Видалити закладку?</string>
+
+    <string name="cloud_error_plugin">Плагін Amaze Cloud не знайдено. Завантажте з Play Store.</string>
+    <string name="cloud_error_failed_restart">Не вдалося завантажити з’єднання.
+        Будь ласка, відкрийте Amaze Cloud один раз.</string>
+    <string name="cloud_remove">Ви хочете видалити підключення до хмари?</string>
+    <string name="cloud_fail_authenticate">Не вдалося автентифікувати</string>
+    <string name="cloud_share_copied">Посилання для спільного доступу скопійовано в буфер обміну</string>
+    <string name="copy_low_memory">Закінчується пам’ять, будь ласка, очистіть оперативну пам’ять</string>
+    <string name="cloud_token_lost">Токен втрачено, увійдіть ще раз</string>
+    <string name="monofont">Моноширинний шрифт</string>
+    <string name="showHeaders">Показати заголовки</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Немає елементів</string>
+	
+	
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Файл повинен мати назву</string>
+    <string name="add_item">Додати елемент</string>
+    <string name="failed_smb_decrypt_path">Не вдалося завантажити Підключення SMB</string>
+    <string name="failed_cloud_new_connection">Не вдалося додати нове підключення до хмари</string>
+    <string name="failed_cloud_api_key">Не вдалося автентифікувати плагін Cloud</string>
+
+    <string name="local_inet_addr_error">Помилка отримання локальної адреси inet</string>
+    <string name="intent_save_as">Зберегти як…</string>
+    
+    
+    
+    <string name="typeable_paths_summary">Утримуйте панель шляху, щоб ввести спеціальний шлях</string>
+    <string name="send_email_to">Надіслати електронний лист на</string>
+
+    <string name="text_editor">Налаштування текстового редактора</string>
+    <string name="preference_newstack_title">Відкривати файли як нове завдання</string>
+    <string name="preference_newstack_summary">Дозволяє відкривати файли в окремих завданнях. Доступ до них із екрана останніх систем.</string>
+    
+    <string name="developers">Розробники</string>
+    <string name="no_bitcoin_app">Будь ласка, установіть програму Bitcoin Wallet</string>
+    <string name="channel_name_normal">Сповіщення Amaze</string>
+    <string name="channel_description_normal">Сповіщення диспетчера файлів Amaze</string>
+    <string name="channel_name_ftp">FTP-сервер Amaze</string>
+    <string name="channel_description_ftp">Сповіщення FTP-сервера менеджера файлів Amaze</string>
+
+    
+    <string name="processing">Обробка…</string>
+    <string name="failed_no_connection">Не вдалося завантажити файли. Перевірте підключення.</string>
+
+    <string name="update">ОНОВЛЕННЯ</string>
+	<string name="scp_connection">SCP/SFTP-з’єднання</string>
+    <string name="ftp_connection">FTP-з’єднання</string>
+    <string name="ftps_connection">FTP через SSL-з’єднання</string>
+    <string name="scp_port">Порт</string>
+    <string name="ssh_host_key_verification_prompt">Неможливо встановити автентичність хосту \'%1$s\'.\n\nВідбиток ключа %2$s — %3$s.\n\nБудь ласка, натисніть \"Так\", щоб підтвердити ідентичність; інакше натисніть \"Ні\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Перевірте хост</string>
+    <string name="ssh_select_pem_button">Закритий ключ SSH</string>
+    <string name="ssh_pem_key_parse_error">Неможливо прочитати вибраний PEM: %s</string>
+    <string name="password_unchanged">(без змін)</string>
+    <string name="ssh_authentication_failure_password">Помилка входу: Неможливо автентифікуватися за допомогою наданого імені користувача та пароля.</string>
+    <string name="ssh_authentication_failure_key">Помилка входу: Неможливо автентифікуватися за допомогою наданого імені користувача та закритого ключа.</string>
+    <string name="ssh_connect_failed">Неможливо підключитися до %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ПОПЕРЕДЖЕННЯ: ІДЕНТИФІКАЦІЯ ВІДДАЛЕНОГО ХОСТУ ЗМІНЕНО!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">МОЖЛИВО, ЩО ХТОСЬ РОБИТЬ ЩОСЬ НЕПРАВИЛЬНЕ!\n\nХтось може вас підслуховувати прямо зараз (атака "людина посередині")! Також можливо, що ключ хоста було щойно змінено. Відбиток відкритого ключа, надісланого віддаленим хостом, не збігається з тим, що зберігається в Amaze.\n\nЗв’яжіться зі своїм системним адміністратором або встановіть нове з’єднання, щоб продовжити з’єднання з сервером.</string>
+    <string name="ssh_key_prompt_passphrase">Будь ласка, введіть ключову парольну фразу .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Створення ярликів не підтримується вашою програмою запуску.</string>
+    
+    <string name="select_color_config">Виберіть конфігурацію кольору</string>
+    <string name="customize">Налаштувати</string>
+    <string name="custom">Користувацькі</string>
+    <string name="preselected_configs_title">Попередньо вибрані конфігурації</string>
+    <string name="orange">Помаранчевий</string>
+    <string name="blue">Синій</string>
+    <string name="green">Зелений</string>
+    <string name="password_no_match">Пароль не збігається</string>
+    <string name="deselect_all">Скасувати вибір усіх</string>
+    <string name="filename">Назва файлу</string>
+    <string name="compress_file_suggest_zip_extension">Рекомендовано використовувати \".zip\" як розширення файлу.</string>
+    <string name="about_amaze">Менеджер файлів матеріального дизайну для Android</string>
+    <string name="license">Ліцензія</string>
+    <string name="libraries">Бібліотеки</string>
+    <string name="password_repeat">Повторіть пароль</string>
+    <string name="create_file_suggest_txt_extension">Рекомендовано використовувати \".txt\" як розширення файлу.</string>
+    <string name="ssh_select_pem">Виберіть закритий ключ для автентифікації</string>
+    <string name="ssh_key_invalid_passphrase">Недійсна парольна фраза ключа.</string>
+    <string name="ssh_key_no_decoder_decrypt">Немає дійсного декодера для розшифрування PEM.</string>
+    <string name="encryption_fail_copy">Не вдалося оновити запис шифрування в базі даних</string>
+    <string name="extracted">Видобуто</string>
+    <string name="compressed">Стиснуто</string>
+    <string name="processed">Оброблено</string>
+    <string name="no_obtainable_info">Немає інформації про цей файл</string>
+    <string name="reopen_from_source">Не можу, будь ласка, повторно відкрийте з останньої програми</string>
+    <string name="no_file_error">Щось пішло не так, нема чого відкривати</string>
+    <string name="file_too_long">файл задовгий і його не можна редагувати, однак ви можете прочитати перші %d символи</string>
+    <string name="file_read_only">Відкритий файл доступний лише для читання.</string>
+    <string name="got_it">Зрозуміло!</string>
+    <string name="encrypt_file_save_as">Зберегти зашифрованим Файл як…</string>
+    <string name="encrypt_folder_save_as">Зберегти зашифровану папку як…</string>
+    <string name="encrypt_option_use_aze">Використовувати формат шифрування Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt — це формат шифрування файлів із відкритим вихідним кодом на основі шифрування AES. Він також портативний, його можна розшифрувати за допомогою програм AESCrypt на інших платформах.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">Веб-сайт AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Формат шифрування Amaze також базується на шифруванні AES; але відрізняється від формату AESCrypt, його можна розшифрувати лише цим пристроєм; також не можна видаляти Amaze File Manager із цього пристрою та змінювати спосіб блокування екрана, інакше ви не зможете відновити зашифрований файл.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Зашифровані файли мають використовувати \".aze\" як розширення файлу.</string>
+    <string name="encrypt_file_must_end_with_aes">Зашифровані файли мають використовувати \.aes\" як розширення файлу.</string>
+    <string name="error_aescrypt_decrypt_failed">Не вдається розшифрувати \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Не вдається перезаписати файл.</string>
+    <string name="saved_single_file">Файл збережено як \'%s\'.</string>
+    <string name="saved_multi_files">Збережено %d файлів.</string>
+    <string name="create_hidden_file_warn">Створений файл буде приховано в списку файлів.</string>
+    <string name="grant_apkinstall_permission">Програмі потрібен дозвіл, щоб продовжити встановлення програм.</string>
+    <string name="time_remaining">Залишився час</string>
+    <string name="transfer_rate">Швидкість передачі даних</string>
+    <string name="unknown">невідомо</string>
+    <string name="multiple_invalid_archive_entries">Деякі файли в архіві неможливо розпакувати; архів може бути пошкоджений або надійшов зі зловмисного джерела.</string>
+    <string name="saf_otg_explanation">З міркувань безпеки ви перейдете до файлової системи Android. Виберіть USB-пристрій зі списку ліворуч.</string>
+    <string name="donation_thanks">Дякуємо за пожертву, це мотивує нас! (:</string>
+    <string name="enable_marquee_filename">Увімкнути ефект рамки для імен файлів</string>
+    <string name="archive_password_prompt">Будь ласка, введіть пароль архіву:</string>
+    
+    <string name="cannot_extract_archive">Не вдається розпакувати архів \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Не вдається відкрити архів \"%s\". Або ми не можемо відкрити архів, або архів пошкоджено.</string>
+    <string name="close">Закрити</string>
+    <string name="bookmark_exists">Закладка існує</string>
+    <string name="hide_media">Приховати від браузерів медіа</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">МОЖЛИВО, ЩО ХТОСЬ РОБИТЬ ЩОСЬ ГИДРО!\n\nХтось може підслуховувати вас прямо зараз (атака "людина посередині")! Також можливо, що ключ хоста щойно змінено. Відбиток пальця оскільки відкритий ключ, надісланий віддаленим хостом, не збігається з тим, що зберігається в Amaze.\n\nВи можете продовжити оновлення відбитка хоста або скасувати оновлення налаштувань підключення SSH.</string>
+    <string name="update_host_key">Оновити ключ хосту</string>
+    <string name="cancel_recommended">Скасувати (рекомендовано)</string>
+    
+    
+    <string name="failed_install_apk">Не вдалося встановити</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Внутрішнє сховище</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Карта SD</string>
+    <string name="choose_folder">Вибрати цю папку</string>
+    
+    <string name="some_files_failed_invalid_operation">Деякі файли не вдалося встановити через недійсність операція</string>
+    <string name="ftp_server_prompt_connect_to_network">Під’єднатися до мережі або ввімкнути точку доступу</string>
+    <string name="ftp_server_open_settings">Відкрити налаштування</string>
+    <string name="move">Перемістити</string>
+    <string name="select_save_location">Вибрати розташування для збереження</string>
+    <string name="scp_default_path">Шлях за замовчуванням (необов’язково)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">На жаль, цього не повинно було статися.</string>
+    
+    <string name="error_report_button_text">Повідомити про цю помилку електронною поштою</string>
+    <string name="error_report_button_telegram">Повідомити про цю помилку через telegram</string>
+    <string name="copy_for_github">Скопіювати відформатований звіт</string>
+    <string name="error_report_open_issue_button_text">Повідомте про GitHub</string>
+    <string name="error_report_open_github_notice">Перевірте чи вже існує проблема з обговоренням вашого збою.</string>
+    <string name="error_snackbar_message">На жаль, щось пішло не так.</string>
+    <string name="error_snackbar_action">Повідомте</string>
+    <string name="what_device_headline">Інформація:</string>
+    <string name="what_happened_headline">Що сталося:</string>
+    <string name="info_labels">Що:\\nЗапит:\\nGMT Час:\\nПакет:\\nВерсія:\\nВерсія ОС:\\nПристрій:\\nМодель:\\nПродукт :</string>
+    <string name="your_comment">Ваш коментар (англійською):</string>
+    <string name="error_details_headline">Деталі:</string>
+    <string name="app_ui_crash">Збій програми/інтерфейсу користувача</string>
+    <string name="error_report_title">Звіт про помилку</string>
+    <string name="crash_report_copied">Звіт про збій скопійовано в буфер обміну</string>
+    <string name="disableIpcSignature">Вимкнути перевірку підпису IPC (Для застарілих серверів SMBv1 – НЕБЕЗПЕЧНО!)</string>
+    <string name="cannot_delete_file">Не вдається видалити файл</string>
+    <string name="cannot_delete_file_with_reason">Не вдається видалити файл - %s</string>
+    <string name="cannot_rename_file">Не вдається перейменувати файл %s - %s</string>
+    <string name="cannot_read_directory">Не вдається прочитати каталог %s - %s</string>
+    
+    <string name="always">Завжди</string>
+    <string name="choose_different_app">Вибрати іншу програму</string>
+    <string name="clear_open_file">Очистити кеш</string>
+    <string name="clear_open_file_summary">Очищає вибрані програми для відкриття файлів за замовчуванням</string>
+    <string name="ftp_readonly">Доступ лише для читання</string>
+    <string name="legacy_listing_title">Використовувати застарілий список для кореня</string>
+    <string name="legacy_listing_summary">Якщо ввімкнено, для списку файлів використовується застарілий метод</string>
+    <string name="error_unsupported_v5_rar">Архів RAR \"%s\" є непідтримуваним архівом RAR v5.</string>
+    <string name="ftp_prompt_restart_server">Щоб зміни набули чинності, потрібно перезапустити FTP-сервер.</string>
+    <string name="error_permission_denied">У дозволі відмовлено</string>
+    <string name="error_archive_password_incorrect">Неправильний пароль архіву.</string>
+    <string name="error_archive_cannot_extract">Не вдається розпакувати запис архіву \"%s\" до \"%s\".</string>
+    <string name="drag_and_drop_preference">Виберіть налаштування перетягування (експериментально)</string>
+    <string name="drag_to_move_copy">Торкніться та перетягніть, щоб перемістити або скопіювати файли</string>
+    <string name="drag_to_select">Торкніться та перетягніть, щоб вибрати файли</string>
+    <string name="disable">Вимкнути</string>
+    <string name="choose_operation">Вибрати операцію для виконання</string>
+    <string name="remember">Запам’ятати наступного разу</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Надайте доступ SAF для FTP-сервера</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Оскільки це ваш перший запуск FTP-сервера, і ви використовуєте внутрішню пам’ять пристрою як спільну папку, дозвольте Amaze отримати доступ до пам’яті за допомогою SAF.\n\n
+
+Вам потрібно зробити це лише один раз, доки ви наступного разу не виберете нове розташування для спільного доступу.</string>
+    <string name="android_data_prompt_saf_access">Починаючи з Android 10, Android наклав обмеження на певні каталоги, і до них потрібен доступ за допомогою Storage Access Framework.\n \nБудь ласка, дозвольте Amaze отримати доступ до каталогу з файлового менеджера системи, натиснувши \"Дозволити доступ\".</string>
+    <string name="android_data_prompt_saf_access_title">Надати доступ SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Використовувати застарілу файлову систему</string>
+    <string name="ftp_preference_saf_filesystem">Увімкніть це, щоб підтримувати використання зовнішньої пам’яті пристрою в новіших версіях Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Спільний шлях сервера FTP було скинуто до внутрішньої пам’яті, коли ви повертаєтеся до реалізація застарілої файлової системи. Будь ласка, виберіть новий шлях за допомогою меню у верхньому правому куті, якщо це необхідно.</string>
+    <string name="ftp_server_reset_notify">Спільний шлях FTP-сервера було скинуто до внутрішньої пам’яті</string>
+    <string name="ftp_server_root_unavailable">Ви вибираєте шлях, для якого потрібен доступ root. Будь ласка, увімкніть кореневий провідник у налаштуваннях, якщо ваш пристрій має рутований доступ.</string>
+    <string name="ftp_server_root_filesystem_warning">Ви обираєте шлях, який потребує кореневого доступу, що дозволяє виконувати операції читання/запису у всій файловій системі на вашому пристрої, і це небезпечно – необережні помилки можуть блокуйте свій пристрій!\n\nВи впевнені?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Помилка відкриття URI \"%s\" для читання.</string>
+    <string name="error_empty_archive">\"%s\" — це порожній архів.</string>
+    <string name="error_bad_archive_without_info">\"%s\" — це пошкоджений архів.</string>
+    <string name="error_bad_archive_with_info">\"%s\" — це пошкоджений архів.\nПовідомлення від екстрактора: \"%s\"</string>
+    <string name="security_error">Файл не вдалося відкрити за допомогою цієї програми</string>
+    <string name="cloud_drive_tooltip">Створіть підключення до Google Drive™ для керування файлами з диспетчера файлів Amaze.</string>
+    <string name="signin_with_google_title">Автентифікація для використання Google Drive™</string>
+    <string name="show_system_apps">Показати системні програми</string>
+    <string name="system_apps">Системні програми</string>
+    <string name="select_inverse">Виберіть Inverse</string>
+    <string name="select_by_type">Виберіть за типом</string>
+    <string name="select_by_date">Виберіть за датою</string>
+    <string name="select_similar">Виберіть подібні</string>
+    <string name="error_fetching_google_play_product_list">Помилка під час отримання списку продуктів із Google Play.</string>
+    <string name="grant_all_files_permission">Починаючи з Android 11, Google просить менеджери файлів запитувати дозвіл користувача на керування всіма файлами на пристрої. Подробиці тут.
+        \n\nЦей дозвіл також потрібен Amaze File Manager. Натиснувши тут «Надати», виберіть опцію «Дозволити доступ для керування всіма файлами» на наступному екрані.
+        \n\nЯкщо скасувати це діалогове вікно, програма буде закрита.</string>
+    <string name="user_apps">Програми користувача</string>
+    <string name="appearance">Зовнішній вигляд</string>
+    <string name="behavior">Поведінка</string>
+    <string name="appearance_summary">Налаштуйте тему, кольори та вигляд диспетчера файлів</string>
+    <string name="ui_summary">Контролюйте, яку інформацію відображати, налаштовуйте бічну панель і перемикайте параметри інтерфейсу</string>
+    <string name="behavior_summary">Змінюйте поведінку, як-от розширений пошук і чи відкривати файли як нове завдання</string>
+    <string name="security_summary">Установіть пароль і шифрування</string>
+    <string name="backup_summary">Експорт/імпорт налаштувань Amaze</string>
+
+    <string name="pref_export">Експорт</string>
+    <string name="pref_export_summary">Експорт налаштувань</string>
+    <string name="pref_import">Імпорт</string>
+    <string name="pref_import_summary">Імпорт налаштувань</string>
+
+    <string name="quick_desc">Файли нещодавно доступ через Amaze</string>
+    <string name="recent_desc">Нещодавно створені або змінені файли</string>
+    <string name="error_cannot_find_way_open">Не вдалося знайти спосіб відкрити файл</string>
+    <string name="error_cant_decompress_that_file">Не вдається обробити запитаний архів</string>
+    <string name="analyse_storage">Аналізувати сховище</string>
+    
+    <string name="download_amaze_utils_text">Вас буде перенаправлено до Amaze File Utilities. Це наша програма з відкритим кодом, яка має вбудовані засоби перегляду аудіо/відео/зображень/документів, дозволяє аналізувати непотрібні файли, щоб звільнити пам’ять, швидко передавати через Wi-Fi P2P і багато іншого.\nБудь ласка, підтримайте нас, спробувавши це.</string>
+    <string name="download">Завантажити</string>
+    
+    <string name="amaze_utils_installed_alias">Дякуємо за встановлення Amaze File Utilities. Вас буде перенаправлено до програми.</string>
+    <string name="image_viewer">Засіб перегляду зображень Amaze</string>
+    <string name="video_player">Програвач відео Amaze</string>
+    <string name="amaze_audio_player">Програвач музики Amaze</string>
+    <string name="pdf_viewer">Програвач документів Amaze</string>
+    <string name="docx_viewer">Засіб перегляду документів Amaze</string>
+    <string name="share_logs">Поділитися журналами</string>
+    <string name="share_logs_summary">Поділитися записаними журналами електронною поштою або телеграмою</string>
+    <string name="open_with_amaze">Відкрити за допомогою Amaze</string>
+    <string name="confirmation">Підтвердження</string>
+    <string name="open_file_confirmation">Ви впевнені, що хочете відкрити наступний файл?\n\nІм\'я:\n%s\n\nРозташування:\n%s\n\nРозмір:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Згідно з вимогами політики Google Play, програмам заборонено оновлюватись самостійно. Оновіть програму з Google Play.</string>
+    <string name="error_cannot_get_package_info">Не вдалося отримати інформацію про пакет із файлу \"%s\". Або вказаний файл не є файлом APK, або файл пакета пошкоджено.</string>
+    <string name="preference_delete_confirmation">Підтвердження видалення</string>
+    <string name="preference_delete_confirmation_summary">Запитувати підтвердження перед видаленням файлів. Вимикати це вкрай не рекомендується!</string>
+    
+    
+    <string name="protocol_ftps">Захищений FTP</string>
+    <string name="unavailable">Недоступний</string>
+
+    <string name="exporting_failed">Помилка експорту: не вдалося записати файл резервної копії</string>
+    <string name="importing_failed">Помилка імпорту: не вдалося прочитати резервну копію file</string>
+    <string name="importing_completed">Імпортування завершено</string>
+    <string name="invalid_backup_file">Недійсний файл резервної копії</string>
+    <string name="import_failed_for">Помилка імпорту для:</string>
+    <string name="free_of">"%s\n%s не містить %s</string>
+    <string name="cloud_error_fdroid">Плагін Amaze Cloud не підтримується F- Версія для Droid. Будь ласка, використовуйте версію Amaze для Play Store.</string>
+    <string name="disable_player_intent_filters">Вимкнути фільтри намірів програвача</string>
+    <string name="disable_player_intent_filters_summary">Вимикає вбудовані медіаплеєри Amaze із засобу вибору файлів</string>
+    <string name="no_app_found_intent">Не знайдено жодної програми для обробки цього наміру. Виконайте у вас встановлено DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Облікові дані Cloud Connection очищено</string>
+    <string name="cloud_connection_credentials_cleared_msg">На жаль, нам не вдалося перенести ваші облікові дані Cloud Connection до нової схеми бази даних, тому нам довелося видалити їх із програми. Будь ласка, створіть знову з\'єднання з хмарою.</string>
+</resources>

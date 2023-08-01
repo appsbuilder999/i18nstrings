@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze File Manager</string>
+    <string name="drawer_open">Open navigation bus</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="icon">bookmark</string>
+    <string name="apps">App Manager</string>
+    <string name="ftp">FTP server</string>
+    <string name="setting">Settings</string>
+    <string name="select">Select item</string>
+    <string name="press_again">Press again to exit</string>
+    <string name="open">Open</string>
+    <string name="backup">Empty</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="play">Game repository</string>
+    <string name="properties">Features</string>
+    <string name="copyingapks">Copy %d APK files to %s</string>
+    <string name="delbook">Remove Icons</string>
+    <string name="add_to_bookmarks">Add to Icons</string>
+    <string name="enterpath">Enter Path</string>
+    <string name="cancel">DELETE</string>
+    <string name="create">CREATE</string>
+    <string name="loading">Loading...</string>
+    <string name="file_empty">Empty file</string>
+    <string name="error">Error</string>
+    <string name="search_results">Search results for %s</string>
+    <string name="rename">Rename</string>
+    <string name="save">Save</string>
+    <string name="bookmarks_added">Added symbols</string>
+    <string name="fileexist">A file with the same name already exists</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="location">Location</string>
+    <string name="size_capitalized">Amount</string>
+    <string name="size">folder size</string>
+    <string name="enterzipname">Enter Zip Name</string>
+    <string name="no_app_found">File open this App not found</string>
+    <string name="copying">Copy</string>
+    <string name="moving">Move</string>
+    <string name="file">File</string>
+    <string name="folder">Folder</string>
+    <string name="newfolder">New Folder</string>
+    <string name="entername">Enter Name</string>
+    <string name="extracting">Export</string>
+    <string name="stopping">Installation</string>
+    <string name="open_parent">Open Parent Directory</string>
+    <string name="open_with">Open</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="extract">Remove</string>
+    <string name="compress">Delete</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <string name="dialog_delete_category_directories">Directors</string>
+    <string name="dialog_delete_category_files">Files</string>
+    <string name="dialog_delete_disclaimer">Delete the following items permanently tool will delete them from your site, they can\'t be recovered.</string>
+    <string name="dialog_delete_title">Permanently delete items?</string>
+    <string name="deleting">Delete</string>
+    <string name="question_set_path_as_home">Do you want to set the current path as home for this tab?</string>
+    <string name="directorysort">Folder Set Mode</string>
+    <string name="sort_by">Set By</string>
+    <string name="sort_only_this">Only this folder</string>
+    <string name="theme">Title</string>
+    <string name="random">Random Skin</string>
+    <string name="random_summary">First color at the bottom randomly set</string>
+    <string name="colorize">ColorSymbols</string>
+    <string name="colorize_summary">Saa icon color unchanged. Does not override document marker color selection.</string>
+    <string name="home">Home</string>
+    <string name="paste">Publish</string>
+    <string name="history">History</string>
+    <string name="copy">Copy</string>
+    <string name="root_mode">Root Explorer</string>
+    <string name="root_mode_summary">Only for core material. Only check if you\'re sure about it.</string>
+    <string name="root_failure">Root Access not granted</string>
+    <string name="select_all">Select All</string>
+    <string name="delete">Delete</string>
+    <string name="set_as_home">Set As Home</string>
+    <string name="operation_not_supported">Operation not supported</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Device Light</string>
+    <string name="dark">Device Dark</string>
+    <string name="daytime">Time of Day</string>
+    <string name="black">Grey (for OLED\'s)</string>
+    <string name="system">System (title follow system)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Surface Folders</string>
+    <string name="filesOnTop">Surface Files</string>
+    <string name="none_on_top">None on Surface</string>
+    <!--SortBy-->
+    <string name="sort_name">Name</string>
+    <string name="lastModified">Last Modified</string>
+    <string name="sort_size">Until</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Select a file</string>
+    <string name="process_viewer">Process Viewer</string>
+    <string name="in_safe">Insufficient space</string>
+    <string name="no_file_overwrite">No File Overwritten</string>
+    <string name="skip">Skip</string>
+    <string name="overwrite">Overwrite</string>
+    <string name="not_allowed">Not Allowed</string>
+    <string name="searching">Search %s</string>
+    <string name="done">Done</string>
+    <string name="set">Set</string>
+    <string name="enablerootmde">Enable Root Mode</string>
+    <string name="goback">Undo</string>
+    <string name="newfile">New File</string>
+    <string name="no_files">No files</string>
+    <string name="used">used space</string>
+    <string name="used_by_others">used others</string>
+    <string name="free">free space</string>
+    <string name="listview">List View</string>
+    <string name="gridview">Grid View</string>
+    <string name="permission">Authorization</string>
+    <string name="hide">Hidden</string>
+    <string name="exit">Exit</string>
+    <string name="doforall">Do for all items</string>
+    <string name="gridcolumnno">Number of columns in grid view</string>
+    <string name="set_random">Changes are made after the app</string>
+    <string name="authors">Authors</string>
+    <string name="changelog">Changes</string>
+    
+    <string name="ui">Interface</string>
+    <string name="general">General</string>
+    <string name="thumb_summary">Show Thumbnails of apps and images after restart</string>
+    <string name="thumb">Show Thumbnails</string>
+    <string name="hidden">Show Hidden Files and Folders</string>
+    <string name="lastModifiedSummary">Date and time show last revision</string>
+    <string name="lastModifiedPref">Display Last Modified Date and Time</string>
+    <string name="size_pref_summary">Display file size and number of items in directory</string>
+    <string name="size_pref">Display Sizes</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="root_pref_summary">Show File and Folders Permissions</string>
+    <string name="root_pref">Show Permissions</string>
+    <string name="about_amaze_file_manager_label">About Amaze File Manager</string>
+    <string name="version">Version</string>
+    <string name="rate">App</string>
+    <string name="feedback">Send Comments</string>
+    <string name="hiddenfiles">Hidden Files</string>
+    <string name="type">Format</string>
+    <string name="root_directory">Root</string>
+    <string name="add_shortcut">Add Shortcuts</string>
+    <string name="unsaved_changes">Unsaved Variables</string>
+    <string name="unsaved_changes_description">Variables you have unsaved, do you want to save it before exiting?</string>
+    <string name="saving">Save</string>
+    <string name="package_installer">Utilities Package</string>
+    <string name="view">View</string>
+    <string name="install">Install</string>
+    <string name="archive">Archive</string>
+    <string name="archive_text">This is an archive. What action do you want to perform?</string>
+    <string name="package_installer_text">This is a package installer. What actions do you want to perform?</string>
+    <string name="xda_title">XDA threads</string>
+    <string name="xda_summary">FAQ, Help and Troubleshooting</string>
+    <string name="circular_images">Use circle icons for images and videos</string>
+    <string name="circular_icons">Use circle icons</string>
+    <string name="back_title">Background navigation</string>
+    <string name="back_summary">Enables background navigation top row feature</string>
+    <string name="details">Detail</string>
+    <string name="translators">Translators</string>
+    <string name="german_translation_title">German</string>
+    <string name="italian_translation_title">Italian</string>
+    <string name="french_translation_title">French</string>
+    <string name="russian_translation_title">Russian</string>
+    <string name="spanish_translation_title">Spanish</string>
+    <string name="basque_translation_title">Basque</string>
+    <string name="chinese_translation_title">Chinese</string>
+    <string name="serbian_translation_title">Serbian</string>
+    <string name="turkish_translation_title">Language Turkish</string>
+    <string name="ukrainian_translation_title">Ukrainian</string>
+    <string name="portuguese_translation_title">Portuguese</string>
+    <string name="polish_translation_title">Polish</string>
+    <string name="korean_translation_title">Korean</string>
+    <string name="greek_translation_title">Greek</string>
+    <string name="dutch_translation_title">Dutch</string>
+    <string name="romanian_translation_title">Romanian</string>
+    <string name="vietnamese_translation_title">Vietnamese</string>
+    <string name="japanese_translation_title">Japanese</string>
+    <string name="tamil_translation_title">Tamil</string>
+
+    <string name="zip_viewer">Zip Viewer</string>
+    <string name="unin_system_apk">This is a system app, deleting instability of the system.\nContinue?</string>
+    <string name="warning">Warning</string>
+    <string name="donate">Donation</string>
+    <string name="archive_extract_folder">Storage Extraction Folder</string>
+    <string name="archive_summary">Archive files will be extracted to this directory. The default value is the directory the repository is in.</string>
+    <string name="open_as">Such as</string>
+    <string name="text">Text</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="other">Other</string>
+    <string name="image">Image</string>
+    <string name="contributors">Contributors</string>
+    <string name="save_paths">Remember Paths</string>
+    <string name="save_path_summary">When you start, the most recently viewed record of each tab will appear</string>
+    <string name="select_intent">Select</string>
+    <string name="database">Database</string>
+    <string name="colored_navigation">Navigation Text\'s Color</string>
+    <string name="colored_navigvation_sum">Whether the system navigation text is colored with skin</string>
+
+    <string name="color_title">Color</string>
+    <string name="color_summary">Set colors to various UI elements</string>
+    <string name="primary_color_title">Primary Color (Left Tab)</string>
+    <string name="primary_color_summary">Set color to major UI elements for left tab</string>
+    <string name="accent_color_title">Voice Color</string>
+    <string name="accent_color_summary">Set color to FAB and other smaller UI elements</string>
+    <string name="icon_color_title">Icon Color</string>
+    <string name="icon_color_summary">Set Color to Icons</string>
+    <string name="choose_color">Select Color</string>
+    <string name="files">File</string>
+    <string name="textreader">Text Reader</string>
+    <string name="databasereader">Database Reader</string>
+    <string name="show_dividers">Show Components</string>
+    <string name="needs_access">Write Point Required</string>
+    <string name="needs_access_summary">Please select to allow write access to run the root directory \t</string>
+    
+    <string name="smb_connection">SMB Connection</string>
+    <string name="smb_server">Server IP Address</string>
+    <string name="server_address">Server IP Address</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="anonymous">Anonymous</string>
+    
+    <string name="folders">Logs</string>
+    <string name="folderfilecount">%1$d documents and %2$d files</string>
+    <string name="videos">Videos</string>
+    
+    <string name="documents">Documents</string>
+    <string name="images">Image</string>
+    <string name="clear">Clear</string>
+    
+    <string name="total">Total:</string>
+    <string name="calculating">calculate</string>
+    <string name="sort">Sort</string>
+    <string name="ascending">Ascend</string>
+    <string name="descending">Descen</string>
+    <string name="default_string">Default</string>
+    <string name="doit">Nine</string>
+    <string name="want_help">Need help?</string>
+    <string name="quick">Quick access</string>
+    <string name="recent">Recent files</string>
+    <string name="edit">Edit</string>
+    <string name="find">Search in page</string>
+    
+    <string name="grantper">Give permission</string>
+    <string name="grantfailed">Permission not granted</string>
+    <string name="grant_storage_permission">App requires storage permission to continue. Deleting this dialog will exit the app.</string>
+    <string name="operation_unsuccesful">Failed operation</string>
+    <string name="creatingfile">Create File</string>
+    <string name="creatingfolder">Create Folder</string>
+    <string name="renaming">Rename</string>
+    <string name="cant_be_empty">%s cannot be empty</string>
+    <string name="ip">Address</string>
+    <string name="connection_name">Connection name</string>
+    <string name="no_device_found">Device not found</string>
+    <string name="path">Path</string>
+    <string name="rename_bookmark">Label Modify</string>
+    <string name="cut">GrantWriteAccess&gt;Section</string>
+    <string name="search">Search</string>
+    <string name="invalid_name">Invalid Name</string>
+    <string name="search_hint">Search search...</string>
+    <string name="advanced_search">Advanced Search</string>
+    <string name="regular_expression">Regular Expression</string>
+    <string name="regular_expression_summary">Find regular expressions using BASH style</string>
+    <string name="match_content">Match content</string>
+    <string name="match_content_summary">If set, regular expressions are matched to the full filename, .
+        otherwise it will need to be created.</string>
+    <string name="start_ftp">Start</string>
+    <string name="stop_ftp">Stop</string>
+    <string name="ftp_status_running">Running</string>
+    <string name="ftp_status_not_running">Not Working</string>
+    
+    <string name="domain">Domain</string>
+    <string name="smb_share">Share path</string>
+    <string name="invalid">Invalid %s</string>
+    <string name="ftp_notif_starting">FTP server being started</string>
+    <string name="ftp_notif_starting_title">FTP server</string>
+    <string name="ftp_notif_title">Amaze FTP Server running</string>
+    <string name="ftp_notif_text">at %s</string>
+    <string name="ftp_notif_stop_server">STOP</string>
+    <string name="ftp_port_edit_menu_title">FTP port</string>
+    <string name="ftp_port_change_success">Make sure you are connected to FTP port successfully switched</string>
+    <string name="ftp_port_change_error_invalid">Incorrect port number selected</string>
+    <string name="primary_two_title">Default Color (Right Tab)</string>
+    <string name="primary_two_summary">Set color to maximal UI elements of the correct tab</string>
+    <string name="support_development">Support Development</string>
+    <string name="report_bugs_title">Reporting Errors</string>
+    <string name="source_title">Source code</string>
+    <string name="source_summary">View our source code on GitHub</string>
+    <string name="report_bugs_summary">Report bugs or request new features</string>
+    <string name="translate_title">Translate</string>
+    <string name="translate_summary">Translate Amaze in your own language</string>
+    <string name="paypal_copy_message">PayPal ID copied to clipboard</string>
+    <string name="searching_devices">Search tool</string>
+    <string name="use_custom_ip">Use custom IP</string>
+    <string name="bookmark_lost">Signal not found, recreating... partition18</string>
+
+    
+    <string name="share_limit">Cannot split more than 100 files</string>
+    <string name="otg_access">Select OTG device root</string>
+    <string name="information">Info</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Heard</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Updated</string>
+
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="year">Year</string>
+    <string name="duration">Time</string>
+    <string name="comment">Comment</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Container</string>
+    <string name="codec">Encoding</string>
+    <string name="channels">Channel</string>
+    <string name="sample_rate">Sample Measurement</string>
+    
+    
+    <string name="frame_rate">Frame Measurement</string>
+    <string name="image_type">Image Format</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="date_modified">Modified Date</string>
+    <string name="software">Software</string>
+    <string name="creator">Creator</string>
+    <string name="camera_brand">Camera Name</string>
+    <string name="camera_model">Camera Model</string>
+    <string name="date_taken">Date Taken</string>
+    <string name="exposure_time">Exposure Time</string>
+    <string name="aperture_value">Aperture Value</string>
+    <string name="image_iso">ISO Rating Velocity</string>
+    
+    <string name="focal_length">Focal Length</string>
+    <string name="subject">Title</string>
+    <string name="author">Author</string>
+    <string name="keywords">Keywords</string>
+    <string name="producer">Manufacturer</string>
+    <string name="created">Created</string>
+    <string name="format">Format</string>
+    <string name="pages">Number of Pages</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Modified</string>
+    <string name="security">Security</string>
+    <string name="paper_size">Paper Size</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Some files successfully %s</string>
+    <string name="copied">moved non</string>
+    <string name="moved">copy</string>
+    <string name="copy_complete">Copy Completed</string>
+    <string name="waiting_title">Waiting</string>
+    <string name="waiting_content">Waiting for operation to complete</string>
+    <string name="extract_complete">Withdrawal ended</string>
+    <string name="compression_complete">Press Ended</string>
+    <string name="compressing">Press</string>
+    <string name="cancelled">Canceled</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Written</string>
+    <string name="out_of">of</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">of</string>
+    <string name="processing_file">Process file</string>
+    <string name="current_speed">Current Speed</string>
+    <string name="smb_launch_error">You will need to copy this file to storage to open it</string>
+    <string name="error_file_not_found">Error: File Not Found</string>
+    <string name="error_io">I/O Error</string>
+    <string name="error_file_too_large">Error: File Too Large</string>
+    <string name="medium_text">Central Write</string>
+    <string name="permission_read">Read</string>
+    <string name="permission_write">Write</string>
+    <string name="permission_execute">Execute</string>
+    <string name="permission_owner">Parent</string>
+    <string name="permission_group">Group</string>
+    <string name="permission_other">Other</string>
+    <string name="clipboard_path_copy">Path to clipboard</string>
+    <string name="service_timer">Last time</string>
+    <string name="please_wait">Please Wait</string>
+
+    <string name="cloud_connection">Cloud Connection</string>
+    <string name="cloud_connection_new">New Cloud Connection</string>
+    
+    <string name="cloud_drive">Google Drive™</string>
+    
+    <string name="cloud_box">Box</string>
+    <string name="cloud_get">Get Cloud Builder</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">No application</string>
+    <string name="ftp_path">Shared Path</string>
+    <string name="ftp_path_hint">Path to share root directory</string>
+    <string name="change">Changes</string>
+    <string name="unknown_error">Oops, something went wrong!</string>
+
+    <string name="ftp_path_change_success">FTP path changed successfully</string>
+    <string name="ftp_path_change_error_invalid">Invalid path</string>
+    <string name="ftp_status_no_connection">No connection</string>
+    <string name="ftp_status_secure_connection">Secure connection</string>
+    <string name="ftp_status_title">Status</string>
+    <string name="ftp_port">Station</string>
+    <string name="ftp_login">Login</string>
+    <string name="field_empty">Field cannot be empty</string>
+    <string name="ftp_timeout">Idle time</string>
+    <string name="ftp_seconds">Seconds</string>
+    <string name="intellihide_toolbar_title">Hide the Intellid Toolbar</string>
+    <string name="intellihide_toolbar_summary">Automatically hide the toolbar when scrolling</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">to the clipboard</string>
+    <string name="contributors_1_summary">Translation</string>
+    <string name="contributors_2_summary">Icons and banners</string>
+    <string name="contributors_3_summary">Theme Engine</string>
+    <string name="contributors_4_summary">FAB shadow behind</string>
+    <string name="contributors_5_summary">Color transition when dragging tab</string>
+    <string name="contributors_6_summary">FTP server</string>
+    <string name="contributors_7_summary">Shooting up interface shell</string>
+    <string name="connection_exists">Connection already exists</string>
+
+    <string name="crypt_encrypting">Confidential</string>
+    <string name="crypt_decrypting">Decrypt</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Confidential</string>
+    <string name="crypt_decrypted">Confidential</string>
+    <string name="crypt_encrypt">Confidential</string>
+    <string name="crypt_decrypt">Confidential</string>
+    <string name="operation_fail_following">The following files operation failed for lower</string>
+    <string name="crypt_pref_master_password_title">Master Password</string>
+    <string name="crypt_pref_master_password_summary">Set the master password.
+        Leave blank to delete.</string>
+    <string name="crypt_pref_fingerprint_title">Fingerprint</string>
+    <string name="crypt_pref_fingerprint_summary">Use fingerprint for encryption</string>
+    <string name="crypt_fingerprint_no_permission">Fingerprint license missing</string>
+    <string name="crypt_fingerprint_not_enrolled">Fingerprint not registered</string>
+    <string name="crypt_fingerprint_no_security">No lock screen security found</string>
+    <string name="crypt_warning_key">Advised, when switching from your security style
+        System settings, you cannot decrypt this content.</string>
+    <string name="warning_never_show">Do not re-advertise</string>
+    <string name="warning_confirm">Got it!</string>
+    <string name="crypt_encryption_fail">Cannot encrypt</string>
+    <string name="crypt_decryption_fail">Cannot decrypt</string>
+    <string name="crypt_decryption_fail_password">Wrong password!</string>
+    <string name="crypt_fingerprint_authenticate">Touch sensor to continue</string>
+    <string name="authenticate_password">Enter password</string>
+
+    <string name="sidebar_preferences">Sidebar</string>
+    <string name="sidebar_quick_access_title">Quick access sidebar</string>
+    <string name="show_quick_access_pref_title">Show quick thread</string>
+    <string name="show_quick_access_pref">Quick thread</string>
+    <string name="directory">Log</string>
+
+    <string name="sidebar_bookmarks_title">Sidebar marks</string>
+    <string name="show_bookmarks_pref_title">Show marks</string>
+    <string name="show_bookmarks_pref">Books</string>
+    <string name="create_bookmark">Create bookmark</string>
+    <string name="edit_bookmark">Edit bookmark</string>
+    <string name="question_delete_bookmark">Remove bookmark?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin not found. Please download it from Play Store.</string>
+    <string name="cloud_error_failed_restart">Connection failed to load.
+        Please open Amaze Cloud once.</string>
+    <string name="cloud_remove">Do you want to delete the cloud connection?</string>
+    <string name="cloud_fail_authenticate">Unable to verify</string>
+    <string name="cloud_share_copied">Shared link copied to clipboard</string>
+    <string name="copy_low_memory">End there\'s a memory, please clear some RAM</string>
+    <string name="cloud_token_lost">Lost symbol, please re-register</string>
+    <string name="monofont">Single Space Character</string>
+    <string name="showHeaders">Show Title</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">No items</string>
+	<string name="item">item</string>
+	<string name="items">items</string>
+	
+	<string name="byte_singular">bytes</string>
+	<string name="bytes">bytes</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">File must have a name</string>
+    <string name="add_item">Add Item</string>
+    <string name="failed_smb_decrypt_path">Failed to load SMB connection</string>
+    <string name="failed_cloud_new_connection">Could not add new Cloud Connection</string>
+    <string name="failed_cloud_api_key">Could not verify Cloud Builder</string>
+
+    <string name="local_inet_addr_error">Error getting local inet address</string>
+    <string name="intent_save_as">Like...</string>
+    <string name="go">Go</string>
+    <string name="advanced">Advanced</string>
+    <string name="typeable_paths_title">Custom paths</string>
+    <string name="typeable_paths_summary">Long press the path bar to write a custom path</string>
+    <string name="send_email_to">Email to</string>
+
+    <string name="text_editor">Text editor guide</string>
+    <string name="preference_newstack_title">Open files as new task</string>
+    <string name="preference_newstack_summary">Allows you to open files in different tasks. Get these from the system recent screen.</string>
+    
+    
+    <string name="no_bitcoin_app">Please install the Bitcoin Wallet app</string>
+    <string name="channel_name_normal">Surprise Notifications</string>
+    <string name="channel_description_normal">Amazing File Manager Notifications</string>
+    
+    <string name="channel_description_ftp">Amaze FTP Manager FTP Server\'s Notifications</string>
+
+    
+    <string name="processing">Processing...</string>
+    <string name="failed_no_connection">Not loading files we were able to. Please check your connection.</string>
+
+    
+	<string name="scp_connection">SCP/SFTP Connection</string>
+    <string name="ftp_connection">FTP Connection</string>
+    <string name="ftps_connection">Save&gt;FTP Over SSL Connection</string>
+    <string name="scp_port">Port</string>
+    <string name="ssh_host_key_verification_prompt">Host authentication \'%1$s\' cannot be established.\n\n%2$s is the fingerprint of key %3$s.\n\nPlease click \"Yes\" to confirm the identity; otherwise, please touch \"No\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Authenticate Host</string>
+    <string name="ssh_select_pem_button">SSH Private Key</string>
+    <string name="ssh_pem_key_parse_error">Could not read selected PEM: %s</string>
+    <string name="password_unchanged">(unchanged)</string>
+    <string name="ssh_authentication_failure_password">Login failure: Failed to authenticate with supplied username and password.</string>
+    <string name="ssh_authentication_failure_key">Login failure: Unable to authenticate with supplied username and private key.</string>
+    <string name="ssh_connect_failed">Cannot connect to %1$s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">WARNING: REMOTE HOST IDENTIFICATION CHANGES!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">SOMEONE COULD DO SOMETHING!\n\nSomeone could be listening to you right now (a man-in-the-middle attack)! It\'s also possible that the host key has just changed. The public key fingerprint sent by the remote host did not match the one stored in Amaze.\n\nPlease contact your system administrator or set up a new connection to continue connecting to the server.</string>
+    <string name="ssh_key_prompt_passphrase">Please enter the key pass phrase .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Shortcut creation is not supported by your launcher.</string>
+    
+    <string name="select_color_config">Select color setting</string>
+    <string name="customize">Clear</string>
+    <string name="custom">Uniqueness</string>
+    <string name="preselected_configs_title">Pre-selected settings</string>
+    <string name="orange">Orange</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="password_no_match">Password mismatch</string>
+    <string name="deselect_all">Unselect All</string>
+    <string name="filename">File Name</string>
+    <string name="compress_file_suggest_zip_extension">It is recommended to use\".zip\" as the file extension.</string>
+    <string name="about_amaze">Android device design file manager</string>
+    <string name="license">Licenses</string>
+    <string name="libraries">Libraries</string>
+    <string name="password_repeat">Repeat password</string>
+    <string name="create_file_suggest_txt_extension">It is recommended to use \".txt\" as file extension.</string>
+    <string name="ssh_select_pem">Select private key for authentication</string>
+    <string name="ssh_key_invalid_passphrase">Invalid key pass phrase.</string>
+    <string name="ssh_key_no_decoder_decrypt">There is no valid decoder to decrypt the PEM.</string>
+    <string name="encryption_fail_copy">Unable to update encrypted entry in database</string>
+    <string name="extracted">Removed</string>
+    <string name="compressed">Compressed</string>
+    <string name="processed">Processed</string>
+    <string name="no_obtainable_info">No information about this file</string>
+    <string name="reopen_from_source">Can\'t, please reopen from previous app</string>
+    <string name="no_file_error">Something went wrong, nothing opens exists</string>
+    <string name="file_too_long">The file is too long to be edited, however you can read the first %d characters</string>
+    <string name="file_read_only">Opened file is read-only.</string>
+    <string name="got_it">Got it!</string>
+    <string name="encrypt_file_save_as">Save Encryption File As...</string>
+    <string name="encrypt_folder_save_as">Encrypt Folder As...</string>
+    <string name="encrypt_option_use_aze">Use Amaze Encryption Feature</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt is an open source file encryption format based on AES encryption. It\'s also portable, and AESCrypt programs can be interpreted on other platforms.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt Website</a></p>
+  ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'s Encryption Format is also based on AES encryption; but unlike the AESCrypt format, it\'s only decryptable by this tool; you also shouldn\'t uninstall Amaze File Manager from this device and you shouldn\'t change the way you lock the screen, otherwise you\'ll have no way to recover the encrypted file.</p>
+  ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Encrypted files should use \".aze\" as the file extension.</string>
+    <string name="encrypt_file_must_end_with_aes">Encrypted files should use \".aes\" as file extension.</string>
+    <string name="error_aescrypt_decrypt_failed">Cannot decrypt \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Cannot overwrite file.</string>
+    <string name="saved_single_file">File saved as \'%s\'.</string>
+    <string name="saved_multi_files">%d files saved.</string>
+    <string name="create_hidden_file_warn">The file created is a list of files will hide in.</string>
+    <string name="grant_apkinstall_permission">App requires permission to install apps and continue.</string>
+    <string name="time_remaining">Time remaining</string>
+    <string name="transfer_rate">Transfer speed</string>
+    <string name="unknown">Unknown</string>
+    <string name="multiple_invalid_archive_entries">Some files in the archive can\'t be removed; the archive may be damaged or it may come from a malicious source.</string>
+    <string name="saf_otg_explanation">You\'ll now go to the Android file system for security reasons. Please select a USB device from the left column.</string>
+    <string name="donation_thanks">Thank you for your donation, this keeps us motivated! (:</string>
+    <string name="enable_marquee_filename">Enable marquee effect for filename</string>
+    <string name="archive_password_prompt">Please enter archive password:</string>
+    
+    <string name="cannot_extract_archive">Cannot remove archive \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Cannot open the repository \"%s\". Either we cannot open the repository, or the repository is damaged.</string>
+    <string name="close">Close</string>
+    <string name="bookmark_exists">There is a signal</string>
+    <string name="hide_media">Hide from the media</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">SOMEONE COULD DO SOMETHING MEAT!\n\nSomeone could be listening to you right now (man-in-the-middle attack)!And the host\'s key could have just changed \'a.Fingerprint because the public key sent by the remote host does not match the one stored in Amaze.\n\nYou can continue modifying the host fingerprint or cancel modifying the SSH connection settings.</string>
+    <string name="update_host_key">Key Update Host</string>
+    <string name="cancel_recommended">Delete (Recommended)</string>
+    
+    
+    <string name="failed_install_apk">Unable to spread</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Internal Storage</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    
+    <string name="choose_folder">Select This Folder</string>
+    
+    <string name="some_files_failed_invalid_operation">Some files failed due to incorrect task</string>
+    <string name="ftp_server_prompt_connect_to_network">Connect to the network or enable the AP</string>
+    <string name="ftp_server_open_settings">Open Settings</string>
+    <string name="move">Move</string>
+    <string name="select_save_location">Select a location to save</string>
+    <string name="scp_default_path">Default Path (Optional) .</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Sorry, that shouldn\'t have happened.</string>
+    
+    <string name="error_report_button_text">Report this error via email</string>
+    <string name="error_report_button_telegram">Report this error via telegram</string>
+    <string name="copy_for_github">Copy the formatted report</string>
+    <string name="error_report_open_issue_button_text">Report on GitHub</string>
+    <string name="error_report_open_github_notice">Please check if an issue discussing your crash already exists.</string>
+    <string name="error_snackbar_message">Sorry, something went wrong.</string>
+    <string name="error_snackbar_action">Report</string>
+    <string name="what_device_headline">Information:</string>
+    <string name="what_happened_headline">What happened:</string>
+    <string name="info_labels">What:\\nRequest:\\nGMT Time:\\nPackage:\\nVersion:\\nOS version :\\nDevice:\\nModel:\\nProduct :</string>
+    <string name="your_comment">Your comments (in English):</string>
+    <string name="error_details_headline">Details:</string>
+    <string name="app_ui_crash">App/UI failed</string>
+    <string name="error_report_title">Error reporting</string>
+    <string name="crash_report_copied">Fail reporting to clip board</string>
+    <string name="disableIpcSignature">Disable IPC token checking (For legacy SMBv1 servers - UNSAFE!)</string>
+    <string name="cannot_delete_file">Do not delete file can</string>
+    <string name="cannot_delete_file_with_reason">Cannot delete file - %s</string>
+    <string name="cannot_rename_file">Cannot rename file %s - %s</string>
+    <string name="cannot_read_directory">Cannot read the directory\ \'u %s - %s</string>
+    <string name="just_once">Only once</string>
+    <string name="always">Always</string>
+    <string name="choose_different_app">Select a different application</string>
+    <string name="clear_open_file">Clear cache</string>
+    <string name="clear_open_file_summary">Open apps clears selected default files</string>
+    <string name="ftp_readonly">Read-only access</string>
+    <string name="legacy_listing_title">Use legacy list for root</string>
+    <string name="legacy_listing_summary">If enabled, uses legacy method to list files</string>
+    <string name="error_unsupported_v5_rar">RAR storage \"%s\ " is an unsupported RAR v5 repository.</string>
+    <string name="ftp_prompt_restart_server">You will need to restart the FTP server for changes to take effect.</string>
+    <string name="error_permission_denied">License denied</string>
+    <string name="error_archive_password_incorrect">Incorrect repository password.</string>
+    <string name="error_archive_cannot_extract">Can\'t extract storage entry \"%s\" to \"%s\".</string>
+    <string name="drag_and_drop_preference">Select drag and drop option (Experimental)</string>
+    <string name="drag_to_move_copy">Touch and drag to move or copy files</string>
+    <string name="drag_to_select">Touch and drag to select files</string>
+    <string name="disable">Leave</string>
+    <string name="choose_operation">Select to execute operation</string>
+    <string name="remember">Remember for next time</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Give SAF access to the FTP server</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Since this is your first run of the FTP server, and you\'re using the appliance\'s internal storage as a shared directory, please allow SAF to access the storage using Amaze. \n\n
+
+You only need to do this once, until the next time you choose to share a new location.</string>
+    <string name="android_data_prompt_saf_access">Starting with Android 10, Android placed restrictions on certain folders that must be accessed with the Storage Access Framework.\n \nPlease allow Amaze to access the folder from the system file manager by clicking \"Allow Access\".</string>
+    <string name="android_data_prompt_saf_access_title">Give SAF access</string>
+    <string name="ftp_preference_saf_filesystem_title">Use legacy file systems</string>
+    <string name="ftp_preference_saf_filesystem">Enable this for external storage support tool to use on newer versions of Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">The shared path of the FTP server was restored as you\'re restoring to the internal storage legacy file system implementation. Please select a new path using the top right menu as needed.</string>
+    <string name="ftp_server_reset_notify">The shared path of the FTP server was restored to the internal repository</string>
+    <string name="ftp_server_root_unavailable">You are selecting a path that requires root access. Please enable root explorer in the settings if your device is rooted.</string>
+    <string name="ftp_server_root_filesystem_warning">You\'re choosing a path that requires root access, which enables read/write operations on the entire filesystem of your device, and is dangerous - errors may be executed carelessly by bricking your device!\n\nAre you sure?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Error opening URI \"%s\" to read.</string>
+    <string name="error_empty_archive">\"%s\" is an empty database.</string>
+    <string name="error_bad_archive_without_info">\"%s\" is a corrupt repository.</string>
+    <string name="error_bad_archive_with_info">\"%s\" is a corrupt repository.\nFrom output message: \"%s\"</string>
+    <string name="security_error">Unabled files must be opened using this app</string>
+    <string name="cloud_drive_tooltip">Create a Google Drive™ connection to manage files within Amaze File Manager.</string>
+    <string name="signin_with_google_title">Make sure to use Google Drive™</string>
+    <string name="show_system_apps">Display the system app</string>
+    <string name="system_apps">System app</string>
+    <string name="select_inverse">Select contrast</string>
+    <string name="select_by_type">Select format</string>
+    <string name="select_by_date">Select by date</string>
+    <string name="select_similar">Select parallel</string>
+    <string name="error_fetching_google_play_product_list">Error from output list bring Google Play.</string>
+    <string name="grant_all_files_permission">As of Android 11, Google requires File Managers to ask for user permissions to manage all files on the device. Details here.
+        \n\nAmaze File Manager requires this permission as well. After pressing "Grant"here, please select the Allow access to manage all files option on the next screen.
+        \n\nDeleting this tab will exit the app.</string>
+    <string name="user_apps">User app</string>
+    <string name="appearance">Appearance</string>
+    <string name="behavior">Behavior</string>
+    <string name="appearance_summary">Theme, colors and customize the file manager view</string>
+    <string name="ui_summary">Control what information it displays, customize the sidebar, and change UI options</string>
+    <string name="behavior_summary">Modify features like advanced search and whether to open files as new tasks</string>
+    <string name="security_summary">Set password and encrypt</string>
+    <string name="backup_summary">Export/Import Amaze Settings</string>
+
+    <string name="pref_export">Export</string>
+    <string name="pref_export_summary">Export settings</string>
+    <string name="pref_import">Import</string>
+    <string name="pref_import_summary">Import settings</string>
+
+    <string name="quick_desc">Recent files via Amaze</string>
+    <string name="recent_desc">Recently created or modified files</string>
+    <string name="error_cannot_find_way_open">Cannot find a way to open the file</string>
+    <string name="error_cant_decompress_that_file">Archive failed to process requested</string>
+    <string name="analyse_storage">Analyze Collection</string>
+    
+    <string name="download_amaze_utils_text">You are navigating to the Amaze File Utility. It\'s our open source app that allows you to have built-in audio/video/image/document viewers, free up storage by analyzing junk files, fast transfer using Wifi P2P, etc.\nPlease support us by trying.</string>
+    <string name="download">Download</string>
+    
+    <string name="amaze_utils_installed_alias">Thank you for installing Amaze File Utilities. You\'re being redirected to this app.</string>
+    <string name="image_viewer">Amazing Image Viewer</string>
+    <string name="video_player">Amazing Video Player</string>
+    <string name="amaze_audio_player">Amazing Music Player</string>
+    <string name="pdf_viewer">Document Viewer Amazing</string>
+    <string name="docx_viewer">Amazing Document Viewer</string>
+    <string name="share_logs">Share documents</string>
+    <string name="share_logs_summary">Share captured documents via email / telegram</string>
+    <string name="open_with_amaze">Open with Amaze</string>
+    <string name="confirmation">Confirm</string>
+    <string name="open_file_confirmation">Are you sure you want to open the following file?\n\nName:\n%s\n\nLocation:\n%s\n\nSize:\n%s\n\nMD5:\n n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Per Google Play policy dictates, apps are not allowed to update themselves. Please update the app from Google Play.</string>
+    <string name="error_cannot_get_package_info">Could not retrieve package information from file \"%s\" Either the specified file is not an APK, or the package file is corrupt.</string>
+    <string name="preference_delete_confirmation">Remove confirmation</string>
+    <string name="preference_delete_confirmation_summary">Ask for confirmation before deleting files. Disabling this is very frustrating!</string>
+    
+    
+    <string name="protocol_ftps">Secure FTP</string>
+    <string name="unavailable">Not available</string>
+
+    <string name="exporting_failed">Send failed: couldn\'t write empty file</string>
+    <string name="importing_failed">Logging on failed: unable to read backup file</string>
+    <string name="importing_completed">Login completed</string>
+    <string name="invalid_backup_file">Invalid backup file</string>
+    <string name="import_failed_for">Login failed:</string>
+    <string name="free_of">"%s\n%s Exempt from %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin is not supported with F-.Droid version.Please use Play Store version of Amaze.</string>
+    <string name="disable_player_intent_filters">Disable player intent calters</string>
+    <string name="disable_player_intent_filters_summary">Amaze prevents inbuilt media players from file selector</string>
+    <string name="no_app_found_intent">No app has been found to handle this comment. Have you installed DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection credentials cleared</string>
+    <string name="cloud_connection_credentials_cleared_msg">Unfortunately, we couldn\'t migrate your cloud connection credentials to the new database schema, and we need to remove them from the app.Please create them cloud connectivity again.</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="crypt_encrypted">Encrypted</string>
+    <string name="crypt_decrypted">Decrypted</string>
+    <string name="crypt_encrypt">Encryption</string>
+    <string name="crypt_decrypt">Decryption</string>
+    <string name="operation_fail_following">Following file operation failed</string>
+    <string name="crypt_pref_master_password_title">Master Password</string>
+    <string name="crypt_pref_master_password_summary">Set encryption master password.
+        leave blank to delete.</string>
+    <string name="crypt_pref_fingerprint_title">Fingerprint</string>
+    <string name="crypt_pref_fingerprint_summary">Use fingerprint authentication encryption</string>
+    <string name="crypt_fingerprint_no_permission">Lack of fingerprint permission</string>
+    <string name="crypt_fingerprint_not_enrolled">Unregistered Fingerprint</string>
+    <string name="crypt_fingerprint_no_security">No lock screen security discovery</string>
+    <string name="crypt_warning_key">Be careful when you change your safety mode
+        system settings, you will not be able to decrypt this content.</string>
+</resources>

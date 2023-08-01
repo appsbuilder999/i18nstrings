@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Fayl menejeri</string>
+    <string name="drawer_open">navigatsiya tortmasini oching</string>
+    <string name="drawer_close">Navigatsiya tortmasini yoping</string>
+    
+    <string name="apps">Ilova menejeri</string>
+    
+    <string name="setting">Sozlamalar</string>
+    <string name="select">Elementni tanlang</string>
+    <string name="press_again">Chiqish uchun yana bosing</string>
+    <string name="open">Ochish</string>
+    <string name="backup">Zaxiralash</string>
+    <string name="uninstall">Oʻchirish</string>
+    
+    <string name="properties">Xususiyatlar</string>
+    <string name="copyingapks">%d APK faylini %sga nusxalash</string>
+    <string name="delbook">Xatcho‘pni o‘chirish</string>
+    <string name="add_to_bookmarks">Xatcho‘plarga qo‘shish</string>
+    <string name="enterpath">Yo‘lni kiriting</string>
+    <string name="cancel">BEKOR QILISh</string>
+    <string name="create">YARASH</string>
+    <string name="loading">Yuklanmoqda...</string>
+    <string name="file_empty">Fayl boʻsh</string>
+    <string name="error">Xato</string>
+    <string name="search_results">%s qidiruv natijalari</string>
+    <string name="rename">Nomini o\'zgartiring</string>
+    <string name="save">Saqlash</string>
+    <string name="bookmarks_added">Qo\'shilgan xatcho\'plar</string>
+    <string name="fileexist">Bir xil nomdagi fayl allaqachon mavjud</string>
+    <string name="name">Nomi</string>
+    <string name="date">Sana</string>
+    <string name="location">Joylashuv</string>
+    <string name="size_capitalized">Hajmi</string>
+    <string name="size">jild hajmi</string>
+    <string name="enterzipname">Zip nomini kiriting</string>
+    <string name="no_app_found">Ushbu faylni ochadigan ilova topilmadi</string>
+    <string name="copying">Nusxa olmoqda</string>
+    <string name="moving">Ko\'chirish</string>
+    <string name="file">Fayl</string>
+    <string name="folder">Jild</string>
+    <string name="newfolder">Yangi jild</string>
+    <string name="entername">Ismni kiriting</string>
+    <string name="extracting">Chiqish</string>
+    <string name="stopping">To\'xtash</string>
+    <string name="open_parent">Ota-ona katalogini oching</string>
+    <string name="open_with">Bundan keyin oching</string>
+    <string name="share">Ulashish</string>
+    <string name="about">Haqida</string>
+    
+    <string name="compress">Siqish</string>
+    <string name="yes">Ha</string>
+    <string name="no">Yoʻq</string>
+    
+    <string name="dialog_delete_category_directories">Kataloglar</string>
+    <string name="dialog_delete_category_files">Fayllar</string>
+    <string name="dialog_delete_disclaimer">Quyidagi elementlarni oʻchirish ularni qurilmangizdan butunlay oʻchirib tashlaydi va ularni qayta tiklab boʻlmaydi.</string>
+    <string name="dialog_delete_title">Elementlar butunlay oʻchirilsinmi?</string>
+    <string name="deleting">Oʻchirib tashlanmoqda</string>
+    <string name="question_set_path_as_home">Ushbu varaq uchun joriy yoʻlni uy sifatida belgilamoqchimisiz?</string>
+    <string name="directorysort">Katalogni saralash rejimi</string>
+    <string name="sort_by">Saralash boʻyicha</string>
+    <string name="sort_only_this">Faqat shu jild</string>
+    <string name="theme">Mavzu</string>
+    <string name="random">Tasodifiy teri</string>
+    <string name="random_summary">Ishga tushirishda tasodifiy asosiy rangni o\'rnatadi</string>
+    <string name="colorize">Ranglarni belgilash</string>
+    <string name="colorize_summary">Sets statik belgi rangi. Katalog piktogramma rangi parametrlarini bekor qilmaydi.</string>
+    <string name="home">Bosh sahifa</string>
+    <string name="paste">Qoʻyish</string>
+    <string name="history">Tarixni nusxalash</string>
+    <string name="copy">Nusxalash</string>
+    
+    <string name="root_mode_summary">Faqat ildiz otgan qurilma uchun. Agar bunga ishonchingiz komil bo\'lsa, uni tekshiring.</string>
+    <string name="root_failure">Ildizga ruxsat berilmagan</string>
+    <string name="select_all">Hammasini tanlang</string>
+    <string name="delete">O\'chirish</string>
+    <string name="set_as_home">Uy sifatida o\'rnatish</string>
+    <string name="operation_not_supported">Amaliyot qo\'llab-quvvatlanmaydi</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Material yorug\'lik</string>
+    <string name="dark">Material qorong\'i</string>
+    <string name="daytime">Kunduz</string>
+    <string name="black">Qora (OLED uchun)</string>
+    <string name="system">Tizim (tizim mavzusiga rioya qiling)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Yuqori jildlar</string>
+    <string name="filesOnTop">Tepadagi fayllar</string>
+    <string name="none_on_top">Yuqori yo\'q</string>
+    <!--SortBy-->
+    <string name="sort_name">Nomi</string>
+    <string name="lastModified">Oxirgi o\'zgartirilgan</string>
+    <string name="sort_size">Hajmi</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Faylni tanlang</string>
+    <string name="process_viewer">Jarayonni ko\'rish vositasi</string>
+    <string name="in_safe">Bo\'sh joy yetarli emas</string>
+    <string name="no_file_overwrite">Faylning ustiga yozilmagan</string>
+    <string name="skip">O\'tkazib yuborish</string>
+    <string name="overwrite">Ostidan yozish</string>
+    <string name="not_allowed">Ruxsat berilmagan</string>
+    <string name="searching">%s qidiruvi</string>
+    <string name="done">Bajarildi</string>
+    <string name="set">Oʻrnatish</string>
+    <string name="enablerootmde">Ildiz rejimini yoqish</string>
+    <string name="goback">Orqaga qaytish</string>
+    <string name="newfile">Yangi fayl</string>
+    <string name="no_files">Fayl yo\'q</string>
+    <string name="used">ishlatilgan bo\'sh joy</string>
+    <string name="used_by_others">boshqalar tomonidan foydalaniladi</string>
+    <string name="free">bo\'sh joy</string>
+    <string name="listview">Ro\'yxat ko\'rinishi</string>
+    <string name="gridview">Tor Ko\'rish</string>
+    <string name="permission">Ruxsatlar</string>
+    <string name="hide">Yashirish</string>
+    <string name="exit">Chiqish</string>
+    <string name="doforall">Barcha elementlar uchun bajaring</string>
+    <string name="gridcolumnno">To\'r ko\'rinishidagi ustunlar soni</string>
+    <string name="set_random">Ilovani qayta ishga tushirganingizdan so\'ng o\'zgarishlar amalga oshiriladi</string>
+    <string name="authors">Mualliflar</string>
+    
+    
+    <string name="ui">Interfeys</string>
+    <string name="general">Umumiy</string>
+    <string name="thumb_summary">Ilovalar va rasmlarning eskizlarini ko\'rsatish</string>
+    <string name="thumb">Eskizlarni ko\'rsatish</string>
+    <string name="hidden">Yashirin fayllar va papkalarni ko\'rsatish</string>
+    <string name="lastModifiedSummary">Oxirgi o\'zgartirish sanasi va vaqtini ko\'rsatish</string>
+    <string name="lastModifiedPref">So\'nggi o\'zgartirilgan sanani ko\'rsatish va Vaqt</string>
+    <string name="size_pref_summary">Fayllar hajmini va papkalardagi elementlar sonini ko\'rsatish</string>
+    <string name="size_pref">O\'lchamlarni ko\'rsatish</string>
+    <string name="miscellaneous">Turli</string>
+    <string name="root_pref_summary">Fayl va jildlarga ruxsatlarni ko\'rsatish</string>
+    <string name="root_pref">Ruxsatlarni ko\'rsatish</string>
+    <string name="about_amaze_file_manager_label">Amaze File Manager haqida</string>
+    <string name="version">Versiya</string>
+    <string name="rate">Ilovaga baho bering</string>
+    <string name="feedback">Fikr-mulohaza yuborish</string>
+    <string name="hiddenfiles">Yashirin fayllar</string>
+    <string name="type"/>
+    
+    <string name="add_shortcut">Yorliq qo\'shish</string>
+    <string name="unsaved_changes">Saqlanmagan o\'zgarishlarni kiriting</string>
+    <string name="unsaved_changes_description">Sizda saqlanmagan o\'zgarishlar bor, ularni chiqishdan oldin saqlamoqchimisiz?</string>
+    <string name="saving">Saqlanmoqda</string>
+    <string name="package_installer">Paket o\'rnatuvchisi</string>
+    <string name="view">Ko\'rish</string>
+    <string name="install">O\'rnatish</string>
+    <string name="archive">Arxiv</string>
+    <string name="archive_text">Bu arxiv. Qaysi amalni bajarmoqchisiz?</string>
+    <string name="package_installer_text">Bu paketni oʻrnatuvchi. Qaysi amalni bajarmoqchisiz?</string>
+    <string name="xda_title">XDA ip</string>
+    <string name="xda_summary">Savol-javob, Yordam va nosozliklarni bartaraf etish</string>
+    <string name="circular_images">Rasmlar va videolar uchun dumaloq piktogrammalardan foydalaning</string>
+    <string name="circular_icons">Doiraviy belgilardan foydalaning</string>
+    <string name="back_title">Orqaga navigatsiya</string>
+    <string name="back_summary">Roʻyxatning yuqori qismida maxsus orqaga navigatsiyani yoqadi</string>
+    <string name="details">Tafsilotlar</string>
+    <string name="translators">Tarjimonlar</string>
+    <string name="german_translation_title">Nemischa</string>
+    <string name="italian_translation_title">Italyan</string>
+    <string name="french_translation_title">Fransuzcha</string>
+    <string name="russian_translation_title">Ruscha</string>
+    <string name="spanish_translation_title">Ispancha</string>
+    <string name="basque_translation_title">Baskcha</string>
+    <string name="chinese_translation_title">Xitoycha</string>
+    <string name="serbian_translation_title">Serbcha</string>
+    <string name="turkish_translation_title">Turkcha</string>
+    <string name="ukrainian_translation_title">Ukraincha</string>
+    <string name="portuguese_translation_title">Portugalcha</string>
+    <string name="polish_translation_title">Polshacha</string>
+    <string name="korean_translation_title">Koreys</string>
+    <string name="greek_translation_title">Yunon</string>
+    <string name="dutch_translation_title">Golland</string>
+    <string name="romanian_translation_title">Rumin</string>
+    <string name="vietnamese_translation_title">Vetnam</string>
+    <string name="japanese_translation_title">Yapon</string>
+    <string name="tamil_translation_title">Tamil </string>
+
+    
+    <string name="unin_system_apk">Bu tizim ilovasi, uni oʻchirib tashlash tizimning ishlamay qolishiga olib kelishi mumkin.\nDavom etasizmi?</string>
+    <string name="warning">Ogohlantirish</string>
+    <string name="donate">Xayriya qilish</string>
+    <string name="archive_extract_folder">Arxiv koʻchirma jildini</string>
+    <string name="archive_summary">Arxiv fayllari ushbu jildga chiqariladi. Birlamchi qiymat arxiv mavjud katalogdir.</string>
+    <string name="open_as">Shunday qilib ochish</string>
+    <string name="text">Matn</string>
+    
+    
+    <string name="other">Boshqa</string>
+    <string name="image">Rasm</string>
+    <string name="contributors">Hissyorlar</string>
+    <string name="save_paths">Yo\'llarni eslab qoling</string>
+    <string name="save_path_summary">Ishga tushirishda har bir yorliq uchun eng oxirgi ko\'rilgan jild ko\'rsatiladi</string>
+    <string name="select_intent">Tanlash</string>
+    <string name="database">Ma\'lumotlar bazasi</string>
+    <string name="colored_navigation">Rangli navigatsiya paneli</string>
+    <string name="colored_navigvation_sum">Tizim navigatsiya paneli teri bilan ranglanganmi yoki yo\'qmi</string>
+
+    <string name="color_title">Rang</string>
+    <string name="color_summary">Turli UI komponentlariga rang o\'rnating</string>
+    <string name="primary_color_title">Birlamchi rang (chap yorliq)</string>
+    <string name="primary_color_summary">Rangni chap varaq uchun katta UI elementlariga oʻrnating</string>
+    <string name="accent_color_title">Accent Rang</string>
+    <string name="accent_color_summary">FAB va boshqa kichik UI elementlari rangini oʻrnating</string>
+    
+    <string name="icon_color_summary">Rangni piktogrammalarga o\'rnating</string>
+    <string name="choose_color">Rangni tanlang</string>
+    <string name="files">Fayllar</string>
+    <string name="textreader">Matn o\'quvchi</string>
+    <string name="databasereader">Ma\'lumotlar bazasini o\'quvchi</string>
+    <string name="show_dividers">Bo\'luvchilarni ko\'rsatish</string>
+    <string name="needs_access">Yozish uchun ruxsat kerak</string>
+    <string name="needs_access_summary">Iltimos, \t</string>
+    <string name="needs_access_summary1">\t uchun asosiy katalogni tanlang</string>
+    <string name="smb_connection">SMB ulanishi</string>
+    <string name="smb_server">Server IP-manzili</string>
+    <string name="server_address">uchun yozishga ruxsat bering. Server IP manzili</string>
+    <string name="username">Foydalanuvchi nomi</string>
+    <string name="password">Parol</string>
+    <string name="anonymous">Anonim</string>
+    
+    <string name="folders">Papkalar</string>
+    <string name="folderfilecount">%1$d papkalar va %2$d fayl</string>
+    <string name="videos">Videolar</string>
+    <string name="apks">APK\'lar</string>
+    <string name="documents">Hujjatlar</string>
+    <string name="images">Rasmlar</string>
+    <string name="clear">Tozalash</string>
+    
+    <string name="total">Jami:</string>
+    <string name="calculating">hisoblash</string>
+    <string name="sort">Sortlash</string>
+    <string name="ascending">O\'sish bo\'yicha</string>
+    <string name="descending">Kamishda</string>
+    <string name="default_string"/>
+    <string name="doit">Buni bajaring</string>
+    <string name="want_help">Yordam kerakmi?</string>
+    <string name="quick">Tez kirish</string>
+    <string name="recent">Oxirgi fayllar</string>
+    <string name="edit">Tahrirlash</string>
+    <string name="find">Sahifada toping</string>
+    
+    <string name="grantper">Ruxsat berish</string>
+    <string name="grantfailed">Ruxsat berilmagan</string>
+    <string name="grant_storage_permission">Davom etish uchun ilovaga saqlash ruxsati kerak. Ushbu muloqot oynasini bekor qilish ilovadan chiqadi.</string>
+    <string name="operation_unsuccesful">Amaliyat muvaffaqiyatsiz</string>
+    <string name="creatingfile">Fayl yaratilmoqda</string>
+    <string name="creatingfolder">Jild yaratilmoqda</string>
+    <string name="renaming">Nomini oʻzgartirish</string>
+    <string name="cant_be_empty">%s boʻsh boʻlishi mumkin emas.</string>
+    <string name="ip">Manzil</string>
+    <string name="connection_name">Ulanish nomi</string>
+    <string name="no_device_found">Hech qanday qurilma topilmadi</string>
+    <string name="path">Yo\'l</string>
+    <string name="rename_bookmark">Xatcho\'pni o\'zgartirish</string>
+    <string name="cut">Kesish</string>
+    <string name="search">Qidiruv</string>
+    <string name="invalid_name">Noto\'g\'ri nom</string>
+    <string name="search_hint">Qidirish uchun yozing...</string>
+    <string name="advanced_search">Kengaytirilgan qidiruv</string>
+    <string name="regular_expression">Oddiy ifoda</string>
+    <string name="regular_expression_summary">BASH uslubidagi muntazam ifoda yordamida qidirish</string>
+    <string name="match_content">Tarkibni moslashtirish</string>
+    <string name="match_content_summary">Agar oʻrnatilgan boʻlsa, muntazam ifoda butun fayl nomi bilan mos keladi,
+        aks holda sodir bo\'lishini qidiradi.</string>
+    <string name="start_ftp">Boshlash</string>
+    <string name="stop_ftp">To\'xtatish</string>
+    <string name="ftp_status_running">Ishlash</string>
+    <string name="ftp_status_not_running">Ishlamayapti</string>
+    <string name="ftp_no_wifi">Wi tarmog\'iga ulanganligingizga ishonch hosil qiling -Fi</string>
+    <string name="domain">Domen</string>
+    <string name="smb_share">Ulashish yo\'li</string>
+    <string name="invalid">Yaroqsiz %s</string>
+    <string name="ftp_notif_starting">FTP server ishga tushmoqda</string>
+    
+    <string name="ftp_notif_title">Amaze FTP serveri ishlayotgan</string>
+    <string name="ftp_notif_text">%s</string>
+    
+    
+    <string name="ftp_port_change_success">FTP port muvaffaqiyatli o\'zgartirildi</string>
+    <string name="ftp_port_change_error_invalid">Port raqami noto\'g\'ri tanlangan</string>
+    <string name="primary_two_title">Asosiy rang (o\'ng yorliq)</string>
+    <string name="primary_two_summary">To\'g\'ri varaq uchun katta UI elementlari rangini o\'rnating</string>
+    <string name="support_development">Rivojlanishni qo\'llab-quvvatlash</string>
+    <string name="report_bugs_title">Xatoliklar haqida xabar berish</string>
+    <string name="source_title">Manba kodi</string>
+    <string name="source_summary">GitHub-dagi manba kodimizni koʻrish</string>
+    <string name="report_bugs_summary">Xatoliklar haqida xabar berish yoki yangi funksiyani soʻrash</string>
+    <string name="translate_title">Tarjima</string>
+    <string name="translate_summary">Tarjima O\'z tilingizda hayratda qoldiring</string>
+    <string name="paypal_copy_message">PayPal ID almashish xotirasiga ko\'chirildi</string>
+    <string name="searching_devices">Qurilmalar qidirilmoqda</string>
+    <string name="use_custom_ip">Maxsus IP-dan foydalaning</string>
+    <string name="bookmark_lost">Xatcho\'p topilmadi, qayta yaratilmoqda...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Androidda (SMB) umumiy Windows jildiga qanday kirish mumkin\n\n
+                
+                    
+                        Windows tizimida fayl almashishni yoqish\n
+                    
+                    
+                        Boshqaruv panelini oching, Tarmoq ostidagi Uy guruhi va almashish parametrlarini tanlang
+                        va Internetga o\'ting va "Kengaytirilgan almashish sozlamalarini o\'zgartirish" tugmasini bosing, "Fayl va
+                        Printerni almashish” funksiyasi.\n\n
+                    
+
+                    
+                        Qoʻshimcha fayl almashish sozlamalari\n
+                    
+                    
+                        Bu yerda boshqa kengaytirilgan almashish sozlamalarini ham sozlashni xohlashingiz mumkin. \n
+                        Masalan, agar hammaga ishonsangiz, fayllaringizga parolsiz kirishni yoqishingiz mumkin
+                        mahalliy tarmog\'ingizdagi qurilmalar. Fayl va printerni almashish yoqilgandan so\'ng, mumkin
+                        File Explorer yoki Windows Explorer-ni oching, baham ko\'rmoqchi bo\'lgan jildni o\'ng tugmasini bosing va
+                        Properties-ni tanlang. \n
+                        Ulashish tugmasini bosing va jildni tarmoqda mavjud qiling.\n\n
+                        
+
+                    
+                        Ikkala qurilma ham bir Wi-Fi tarmog‘ida ekanligiga ishonch hosil qiling\n
+                    
+                    
+                        Bu xususiyat sizning shaxsiy kompyuteringiz va mobil qurilmalaringiz uchun fayllarni mahalliy tarmoqda mavjud qiladi
+                        bir xil mahalliy tarmoqda bo\'lishi kerak. Siz umumiy Windows jildiga kira olmaysiz
+                        Internet orqali yoki smartfoningiz mobil ma\'lumotlariga ulanganda - bu
+                        Wi-Fi tarmog‘iga ulangan bo‘lishi kerak.\n\n
+                    
+
+                    
+                        IP manzilini toping\n
+                    
+                    
+                        Buyruqlar satrini oching. \'ipconfig\' kiriting va Enter tugmasini bosing. Standart shlyuzni qidiring
+                        routeringizning IP manzili uchun tarmoq adapteringiz ostida. Izlamoq
+                        Kompyuteringizning IP manzilini topish uchun bir xil adapter bo\'limi ostidagi \\\"IPv4 manzili\\\"
+                        manzil.\n\n
+                    
+
+                    SMB dialog oynasiga tafsilotlarni kiriting\n
+                
+            
+        
+   </string>
+    <string name="share_limit">100 dan ortiq fayl almashish mumkin emas</string>
+    <string name="otg_access">OTG qurilmasining ildizini tanlang</string>
+    <string name="information">Ma\'lumot</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Kirish mumkin</string>
+    <!-- reference to file modified date -->
+    <string name="modified">O\'zgartirilgan</string>
+
+    <string name="title">Sarlavha</string>
+    <string name="artist">Ijrochi</string>
+    <string name="album">Albom</string>
+    <string name="year">Yil</string>
+    <string name="duration">Davomlik</string>
+    <string name="comment">Izoh</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Konteyner</string>
+    <string name="codec">Kodek</string>
+    <string name="channels">Kanallar</string>
+    <string name="sample_rate">Namuna tezligi</string>
+    
+    <string name="dimensions">O\'lchamlar</string>
+    <string name="frame_rate">Kadr tezligi</string>
+    <string name="image_type">Im turi </string>
+    <string name="width">Eng</string>
+    <string name="height">Balandligi</string>
+    <string name="date_modified">Oʻzgartirilgan sana</string>
+    <string name="software">Dasturiy taʼminot</string>
+    <string name="creator">Yarauvchi</string>
+    <string name="camera_brand">Kamera brendi</string>
+    <string name="camera_model">Cam Model</string>
+    <string name="date_taken">Qabul qilingan sana</string>
+    <string name="exposure_time">EHM vaqti</string>
+    <string name="aperture_value">Diafragma qiymati</string>
+    <string name="image_iso">ISO tezligi reytingi</string>
+    <string name="flash_fired">Flash yoqilgan</string>
+    <string name="focal_length">Fokal masofa</string>
+    <string name="subject">Mavzu</string>
+    <string name="author">Muallif</string>
+    <string name="keywords">Kalit so\'zlar</string>
+    <string name="producer">Prodyuser</string>
+    <string name="created">Yaratilgan</string>
+    
+    <string name="pages">Number Sahifalar</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimallashtirilgan</string>
+    <string name="security">Xavfsizlik</string>
+    <string name="paper_size">Qog\'oz hajmi</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Ba\'zi fayllar muvaffaqiyatli bajarilmadi %s</string>
+    <string name="copied">nusxa olinmadi</string>
+    <string name="moved">ko\'chirildi</string>
+    <string name="copy_complete">Nusxalash tugallandi</string>
+    <string name="waiting_title">Kutishda</string>
+    <string name="waiting_content">Amaliyat tugallanishi kutilmoqda</string>
+    <string name="extract_complete">Ekstraktsiya tugallandi</string>
+    <string name="compression_complete">Siqish tugallandi</string>
+    <string name="compressing">Siqish</string>
+    <string name="cancelled">Bekor qilingan</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Yozma</string>
+    <string name="out_of">dan</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">dan</string>
+    <string name="processing_file">Faylni qayta ishlash</string>
+    <string name="current_speed">Joriy tezlik</string>
+    <string name="smb_launch_error">Ushbu faylni ochish uchun uni xotiraga nusxalashingiz kerak</string>
+    <string name="error_file_not_found">Xato: Fayl topilmadi</string>
+    <string name="error_io">I/O xatosi</string>
+    <string name="error_file_too_large">Xato: Fayl juda katta</string>
+    <string name="medium_text">Oʻrtacha matn</string>
+    <string name="permission_read">Oʻqildi</string>
+    <string name="permission_write">Yozish</string>
+    <string name="permission_execute">Bajarish</string>
+    <string name="permission_owner">Egasi</string>
+    <string name="permission_group">Guruh</string>
+    <string name="permission_other">Boshqa</string>
+    <string name="clipboard_path_copy">Yoʻl vaqtinchalik xotiraga koʻchirildi</string>
+    <string name="service_timer">Oʻtgan vaqt</string>
+    <string name="please_wait">Iltimos, kuting</string>
+
+    <string name="cloud_connection">Bulutli ulanish</string>
+    <string name="cloud_connection_new">Yangi bulutli ulanish</string>
+    
+    
+    
+    
+    <string name="cloud_get">Bulutli plaginni oling</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Ilova yoʻq</string>
+    <string name="ftp_path">Umumiy yoʻl</string>
+    <string name="ftp_path_hint">Ulishish uchun katalog ildiziga yoʻl</string>
+    <string name="change">Oʻzgartirish</string>
+    <string name="unknown_error">Of, nimadir noto‘g‘ri ketdi!</string>
+
+    <string name="ftp_path_change_success">FTP yo‘li muvaffaqiyatli o‘zgartirildi</string>
+    <string name="ftp_path_change_error_invalid">Yo‘l noto‘g‘ri</string>
+    <string name="ftp_status_no_connection">Ulanish yo‘q</string>
+    <string name="ftp_status_secure_connection">Xavfsiz ulanish</string>
+    <string name="ftp_status_title">Holat</string>
+    
+    <string name="ftp_login">Kirish</string>
+    <string name="field_empty">Maydon bo\'sh bo\'lishi mumkin emas</string>
+    <string name="ftp_timeout">Bo\'sh vaqt tugashi</string>
+    <string name="ftp_seconds">Soniyalar</string>
+    <string name="intellihide_toolbar_title">Intellihide Asboblar paneli</string>
+    <string name="intellihide_toolbar_summary">Ajratish paytida asboblar panelini avtomatik ravishda yashirish</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">buferga nusxalash</string>
+    <string name="contributors_1_summary">Tarjima</string>
+    <string name="contributors_2_summary">Ikoncha va bannerlar</string>
+    <string name="contributors_3_summary">Mavzu mexanizmi</string>
+    <string name="contributors_4_summary">FAB orqasidagi soya</string>
+    <string name="contributors_5_summary">Yorliqlarni siljitishda rang oʻzgarishi</string>
+    
+    <string name="contributors_7_summary">Interaktiv qobiqni ishga tushirish</string>
+    <string name="connection_exists">Ulanish allaqachon mavjud</string>
+
+    <string name="crypt_encrypting">Shifrlash</string>
+    <string name="crypt_decrypting">Shifrni ochish</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Shifrlangan</string>
+    <string name="crypt_decrypted">Shifrlangan</string>
+    <string name="crypt_encrypt">Shifrlangan</string>
+    <string name="crypt_decrypt">Shifrni yechish</string>
+    <string name="operation_fail_following">Quyidagi fayllar uchun operatsiya bajarilmadi</string>
+    <string name="crypt_pref_master_password_title">Master parol</string>
+    <string name="crypt_pref_master_password_summary">Shifrlash uchun asosiy parolni o\'rnating.
+        Oʻchirish uchun boʻsh qoldiring.</string>
+    <string name="crypt_pref_fingerprint_title">Barmoq izi</string>
+    <string name="crypt_pref_fingerprint_summary">Shifrlashni autentifikatsiya qilish uchun barmoq izidan foydalaning</string>
+    <string name="crypt_fingerprint_no_permission">Barmoq izi ruxsatlari yoʻq</string>
+    <string name="crypt_fingerprint_not_enrolled">Barmoq izi qayd etilmagan</string>
+    <string name="crypt_fingerprint_no_security">Bloklangan ekran xavfsizligi topildi</string>
+    <string name="crypt_warning_key">Xavfsizlik namunangizni o\'zgartirganda, maslahat bering
+        Tizim sozlamalari, siz ushbu kontentning shifrini hal qila olmaysiz.</string>
+    <string name="warning_never_show">Boshqa xabar bermang</string>
+    <string name="warning_confirm">Tushundim!</string>
+    <string name="crypt_encryption_fail">Shifrlab bo\'lmadi</string>
+    <string name="crypt_decryption_fail">Shifrni yechib bo\'lmadi</string>
+    <string name="crypt_decryption_fail_password">Parol noto\'g\'ri!</string>
+    <string name="crypt_fingerprint_authenticate">Davom etish uchun sensorni bosing</string>
+    <string name="authenticate_password">Parolni kiriting</string>
+
+    <string name="sidebar_preferences">Yon panel</string>
+    <string name="sidebar_quick_access_title">Yon panelga tezkor kirish</string>
+    <string name="show_quick_access_pref_title">Tezkor kirishlarni ko‘rsatish</string>
+    <string name="show_quick_access_pref">Tezkor kirishlar</string>
+    <string name="directory">Katalog</string>
+
+    <string name="sidebar_bookmarks_title">Yon panel xatcho‘plari</string>
+    <string name="show_bookmarks_pref_title">Show xatcho\'plar</string>
+    <string name="show_bookmarks_pref">Xatcho\'plar</string>
+    <string name="create_bookmark">Xatcho\'p yaratish</string>
+    <string name="edit_bookmark">Xatcho\'pni tahrirlash</string>
+    <string name="question_delete_bookmark">Xatcho\'p o\'chirilsinmi?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plagini topilmadi. Iltimos, Play Marketdan yuklab oling.</string>
+    <string name="cloud_error_failed_restart">Ulanishni yuklab boʻlmadi.
+        Iltimos, Amaze Cloud ilovasini bir marta oching.</string>
+    <string name="cloud_remove">Bulutli ulanishni olib tashlamoqchimisiz?</string>
+    <string name="cloud_fail_authenticate">Autentifikatsiya qilinmadi</string>
+    <string name="cloud_share_copied">Umumiy havola almashish buferiga koʻchirildi</string>
+    <string name="copy_low_memory">Toʻxtab qoldi xotira, iltimos, biroz operativ xotirani tozalang</string>
+    <string name="cloud_token_lost">Token yoʻqolgan, qayta kiring</string>
+    <string name="monofont">Monospace shrifti</string>
+    <string name="showHeaders">Sarlavhalarni koʻrsatish</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Elementlar yoʻq</string>
+	<string name="item">element</string>
+	<string name="items">elementlar</string>
+	
+	<string name="byte_singular">bayt</string>
+	<string name="bytes">bayt</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Fayl nomiga ega bo\'lishi kerak</string>
+    <string name="add_item">Element qo\'shish</string>
+    <string name="failed_smb_decrypt_path">SMB ulanishini yuklab bo\'lmadi</string>
+    <string name="failed_cloud_new_connection">Yangi bulutli ulanishni qo\'shib bo\'lmadi</string>
+    <string name="failed_cloud_api_key">Muvaffaqiyatsiz Cloud plaginini autentifikatsiya qilish</string>
+
+    <string name="local_inet_addr_error">Mahalliy inet manzilini olishda xatolik yuz berdi</string>
+    <string name="intent_save_as">Saqlash…</string>
+    <string name="go">O‘tish</string>
+    <string name="advanced">Kengaytirilgan</string>
+    <string name="typeable_paths_title">Maxsus yo‘llar</string>
+    <string name="typeable_paths_summary">Maxsus yoʻlni kiritish uchun yoʻl satrini uzoq bosib turing</string>
+    <string name="send_email_to">E-pochta manziliga yuboring</string>
+
+    <string name="text_editor">Matn muharriri sozlamalari</string>
+    <string name="preference_newstack_title">Fayllarni yangi vazifa sifatida ochish</string>
+    <string name="preference_newstack_summary">Fayllarni alohida vazifalarda ochish imkonini beradi. Ularga tizimning soʻnggi maʼlumotlari ekranidan kiring.</string>
+    
+    <string name="developers">Dasturchilar</string>
+    <string name="no_bitcoin_app">Iltimos, Bitcoin Wallet ilovasini oʻrnating</string>
+    <string name="channel_name_normal">Amaze Bildirishnomalari</string>
+    <string name="channel_description_normal">Amaze File Manager bildirishnomalari</string>
+    
+    <string name="channel_description_ftp">Amaze File Menejer FTP serverining bildirishnomalari</string>
+
+    
+    <string name="processing">Qayta ishlanmoqda...</string>
+    <string name="failed_no_connection">Fayllarni yuklab bo‘lmadi. Iltimos, ulanishingizni tekshiring.</string>
+
+    <string name="update">YANGILASH</string>
+	<string name="scp_connection">SCP/SFTP ulanishi</string>
+    <string name="ftp_connection">FTP ulanishi</string>
+    <string name="ftps_connection">FTP orqali SSL ulanishi</string>
+    
+    <string name="ssh_host_key_verification_prompt">\'%1$s\' xostining haqiqiyligini aniqlab bo\'lmadi.\n\n%2$s kalit barmoq izi: %3$s.\n\nTasdiqlash uchun \"Ha\" tugmasini bosing. shaxs; aks holda, \"Yo\'q\" tugmasini bosing.</string>
+    <string name="ssh_host_key_verification_prompt_title">Xostni tekshirish</string>
+    <string name="ssh_select_pem_button">SSH shaxsiy kaliti</string>
+    <string name="ssh_pem_key_parse_error">Tanlangan PEMni o\'qib bo\'lmadi: %s</string>
+    <string name="password_unchanged">(o\'zgarmagan)</string>
+    <string name="ssh_authentication_failure_password">Tizimga kirishda xatolik: taqdim etilgan foydalanuvchi nomi va parol bilan autentifikatsiyadan o‘tib bo‘lmadi.</string>
+    <string name="ssh_authentication_failure_key">Kirish xatosi: taqdim etilgan foydalanuvchi nomi va shaxsiy kalit yordamida autentifikatsiyadan o‘tib bo‘lmadi.</string>
+    <string name="ssh_connect_failed">%1$ tarmog‘iga ulanib bo‘lmadi. s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">OGOHLANTIRISH: MASAFLIK HOSTNI identifikatsiya qilish o‘zgardi!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">KIMdir YAXSHI NIMA QILayotgan bo‘lishi MUMKIN!\n\nKimdir sizni tashlab yuborishi mumkin hozir (odam-in-the-o\'rta hujum)! Xost kaliti hozirgina o\'zgartirilgan bo\'lishi ham mumkin. Masofaviy xost tomonidan yuborilgan ochiq kalit uchun barmoq izi Amaze’da saqlanganiga mos kelmaydi.\n\nServerga ulanishni davom ettirish uchun tizim administratoriga murojaat qiling yoki yangi ulanishni o‘rnating.</string>
+    <string name="ssh_key_prompt_passphrase">Iltimos, kalit parol iborasini kiriting. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Yorliqlarni yaratish ishga tushirgich tomonidan qo‘llab-quvvatlanmaydi.</string>
+    
+    <string name="select_color_config">Rang konfiguratsiyasini tanlang</string>
+    <string name="customize">Sozlash</string>
+    <string name="custom">Maxsus</string>
+    <string name="preselected_configs_title">Oldindan tanlangan konfiguratsiyalar</string>
+    <string name="orange">To\'q sariq</string>
+    <string name="blue">Moviy</string>
+    <string name="green">Yashil</string>
+    <string name="password_no_match">Parol mos emas</string>
+    <string name="deselect_all">Hammasini tanlashni bekor qiling</string>
+    <string name="filename">Fayl nomi</string>
+    <string name="compress_file_suggest_zip_extension">Fayl kengaytmasi sifatida \".zip\" dan foydalanish tavsiya etiladi.</string>
+    <string name="about_amaze">Android uchun material dizayni fayl menejeri</string>
+    <string name="license">Litsenziya</string>
+    <string name="libraries">Kutubxonalar</string>
+    <string name="password_repeat">Parolni takrorlang</string>
+    <string name="create_file_suggest_txt_extension">Fayl kengaytmasi sifatida \".txt\" dan foydalanish tavsiya etiladi.</string>
+    <string name="ssh_select_pem">Autentifikatsiya qilish uchun shaxsiy kalitni tanlang</string>
+    <string name="ssh_key_invalid_passphrase">Kalit paroli noto\'g\'ri.</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM shifrini ochish uchun yaroqli dekoder yoʻq.</string>
+    <string name="encryption_fail_copy">Maʼlumotlar bazasidagi shifrlash yozuvini yangilab boʻlmadi</string>
+    <string name="extracted">Chiqib olindi</string>
+    <string name="compressed">Siqilgan</string>
+    <string name="processed">Qayta ishlangan</string>
+    <string name="no_obtainable_info">Bu fayl haqida hech qanday ma’lumot yo‘q</string>
+    <string name="reopen_from_source">Mumkun emas, oxirgi ilovadan qayta oching</string>
+    <string name="no_file_error">Nimadir xato ketdi, ochish uchun hech narsa yo‘q</string>
+    <string name="file_too_long">fayl juda uzun va uni tahrirlab bo\'lmaydi, lekin siz birinchi %d ta belgini o\'qishingiz mumkin</string>
+    <string name="file_read_only">Ochilgan fayl faqat o\'qish uchun.</string>
+    <string name="got_it">Tushundim!</string>
+    <string name="encrypt_file_save_as">Shifrlangan saqlash Fayl...</string>
+    <string name="encrypt_folder_save_as">Shifrlangan jildni shunday saqlash...</string>
+    <string name="encrypt_option_use_aze">Amaze shifrlash formatidan foydalanish</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt - bu AES shifrlash asosidagi ochiq kodli fayl shifrlash formati. Shuningdek, u portativ bo‘lib, boshqa platformalarda AESCrypt dasturlari yordamida shifrini ochish mumkin.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt veb-sayti</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze shifrlash formati ham AES shifrlashiga asoslangan; lekin AESCrypt formatidan farqli o\'laroq, uni faqat ushbu qurilma shifrini ochishi mumkin; Shuningdek, Amaze File Manager dasturini ushbu qurilmadan olib tashlamasligingiz yoki ekranni qulflash usulini o‘zgartirmasligingiz kerak, aks holda shifrlangan faylni qayta tiklash imkoni bo‘lmaydi.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Shifrlangan fayllar fayl kengaytmasi sifatida \".aze\" dan foydalanishi kerak.</string>
+    <string name="encrypt_file_must_end_with_aes">Shifrlangan fayllar fayl kengaytmasi sifatida \".aes\" dan foydalanishi kerak.</string>
+    <string name="error_aescrypt_decrypt_failed">Shifrni hal qilib bo‘lmaydi. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Faylning ustiga yozib bo\'lmadi.</string>
+    <string name="saved_single_file">Fayl \'%s\' sifatida saqlangan.</string>
+    <string name="saved_multi_files">%d ta fayl saqlandi.</string>
+    <string name="create_hidden_file_warn">Yaratilgan fayl fayllar roʻyxatida yashiriladi.</string>
+    <string name="grant_apkinstall_permission">Davom etish uchun ilovalarni oʻrnatish uchun ilovaga ruxsat kerak.</string>
+    <string name="time_remaining">Qolgan vaqt</string>
+    <string name="transfer_rate">Oʻtkazish tezligi</string>
+    <string name="unknown">noma\'lum</string>
+    <string name="multiple_invalid_archive_entries">Arxivdagi ba\'zi fayllarni chiqarib bo\'lmaydi; arxiv shikastlangan yoki zararli manbadan kelgan boʻlishi mumkin.</string>
+    <string name="saf_otg_explanation">Endi siz xavfsizlik nuqtai nazaridan Android fayl tizimiga oʻtasiz. Chapdagi roʻyxatdan USB qurilmani tanlang.</string>
+    <string name="donation_thanks">Xayringiz uchun tashakkur, bu bizni rag\'batlantiradi! (:</string>
+    <string name="enable_marquee_filename">Fayl nomlari uchun marquee effektini yoqish</string>
+    <string name="archive_password_prompt">Iltimos, arxiv parolini kiriting:</string>
+    
+    <string name="cannot_extract_archive">\"%s\" arxivini chiqarib bo‘lmadi: %s</string>
+    <string name="archive_unsupported_or_corrupt">Iltimos \"%s\" arxivini oching. Biz arxivni ocholmayapmiz yoki arxiv shikastlangan.</string>
+    <string name="close">Yopish</string>
+    <string name="bookmark_exists">Xatcho‘p mavjud</string>
+    <string name="hide_media">Media brauzerlaridan yashirish</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">KIMdir YAXSHI NIMA QILayotgani MUMKIN!\n\nKimdir sizni hozir tinglayotgan boʻlishi mumkin (oʻrtadagi odam hujumi)! Xost kaliti hozirgina oʻzgartirilgan boʻlishi ham mumkin. Barmoq izi chunki masofaviy xost tomonidan yuborilgan ochiq kalit Amaze\'da saqlangan kalitga mos kelmaydi.\n\nSiz xost barmoq izini yangilashni davom ettirishingiz yoki SSH ulanish sozlamalarini yangilashni bekor qilishingiz mumkin.</string>
+    <string name="update_host_key">Xost kalitini yangilash</string>
+    <string name="cancel_recommended">Bekor qilish (Tavsiya etiladi)</string>
+    
+    
+    <string name="failed_install_apk">O‘rnatish amalga oshmadi</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Ichki xotira</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD karta</string>
+    <string name="choose_folder">Ushbu jildni tanlang</string>
+    
+    <string name="some_files_failed_invalid_operation">Ba’zi fayllar noto‘g‘riligi sababli bajarilmadi operatsiya</string>
+    <string name="ftp_server_prompt_connect_to_network">Tarmoqqa ulaning yoki AP-ni yoqing</string>
+    <string name="ftp_server_open_settings">Sozlamalarni ochish</string>
+    <string name="move">Koʻchirish</string>
+    <string name="select_save_location">Saqlash uchun joyni tanlang</string>
+    <string name="scp_default_path">Standart yoʻl (ixtiyoriy)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Kechirasiz, bunday bo\'lmasligi kerak edi.</string>
+    
+    <string name="error_report_button_text">Ushbu xatoni elektron pochta orqali xabar qiling</string>
+    <string name="error_report_button_telegram">Ushbu xatoni telegram orqali xabar qiling</string>
+    <string name="copy_for_github">Formatlangan hisobotni nusxalash</string>
+    <string name="error_report_open_issue_button_text">GitHub-da hisobot</string>
+    <string name="error_report_open_github_notice">Iltimos, sizning buzilishingizni muhokama qilayotgan muammo allaqachon mavjudligini tekshiring.</string>
+    <string name="error_snackbar_message">Kechirasiz, nimadir xato ketdi.</string>
+    <string name="error_snackbar_action">Hisobot</string>
+    <string name="what_device_headline">Ma\'lumot:</string>
+    <string name="what_happened_headline">Nima bo\'ldi:</string>
+    <string name="info_labels">Nima:\\nSo\'rov:\\nGMT vaqti:\\nPaket:\\nVersiya:\\nOS versiyasi:\\nQurilma:\\nModel:\\nMahsulot :</string>
+    <string name="your_comment">Izohingiz (ingliz tilida):</string>
+    <string name="error_details_headline">Tafsilotlar:</string>
+    <string name="app_ui_crash">Ilova/UI ishlamay qoldi</string>
+    <string name="error_report_title">Xatolik hisoboti</string>
+    <string name="crash_report_copied">Buzilish hisoboti quyidagiga nusxalandi clipboard</string>
+    <string name="disableIpcSignature">IPC imzo chekini o\'chirib qo\'ying (eski SMBv1 serverlari uchun - UNSAFE!)</string>
+    <string name="cannot_delete_file">Faylni o\'chirib bo\'lmadi</string>
+    <string name="cannot_delete_file_with_reason">Faylni o\'chirib bo\'lmadi - %s</string>
+    <string name="cannot_rename_file">Fayl nomini o\'zgartirib bo\'lmaydi %s - %s</string>
+    <string name="cannot_read_directory">%s katalogini o‘qib bo‘lmaydi - %s</string>
+    <string name="just_once">Faqat bir marta</string>
+    <string name="always">Har doim</string>
+    <string name="choose_different_app">Boshqa dasturni tanlang</string>
+    <string name="clear_open_file">O‘chirish kesh</string>
+    <string name="clear_open_file_summary">Tanlangan standart fayl ochish ilovalarini tozalaydi</string>
+    <string name="ftp_readonly">Faqat oʻqish uchun ruxsat</string>
+    <string name="legacy_listing_title">Root uchun eski roʻyxatni ishlatish</string>
+    <string name="legacy_listing_summary">Agar yoqilgan boʻlsa, fayllar roʻyxati uchun eski usuldan foydalanadi</string>
+    <string name="error_unsupported_v5_rar">RAR arxivi \"%s\" RAR v5 arxivi qo‘llab-quvvatlanmaydi.</string>
+    <string name="ftp_prompt_restart_server">O‘zgarishlar kuchga kirishi uchun FTP serverini qayta ishga tushirishingiz kerak.</string>
+    <string name="error_permission_denied">Ruxsat rad etildi</string>
+    <string name="error_archive_password_incorrect">Arxiv paroli noto‘g‘ri.</string>
+    <string name="error_archive_cannot_extract">Arxiv yozuvini \"%s\" dan \"%s\"ga chiqarib bo‘lmadi.</string>
+    <string name="drag_and_drop_preference">Sudrab olib tashlash afzalligini tanlang (Tajribaviy)</string>
+    <string name="drag_to_move_copy">Fayllarni ko‘chirish yoki nusxalash uchun teging va torting</string>
+    <string name="drag_to_select">Fayllarni tanlash uchun teging va torting</string>
+    <string name="disable">O‘chirish</string>
+    <string name="choose_operation">Bajarish uchun operatsiyani tanlang</string>
+    <string name="remember">Keyingi safar eslab qoling</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP-server uchun SAF ruxsatini bering</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Bu FTP-serverning birinchi ishga tushirilishi va siz qurilmaning ichki xotirasidan umumiy jild sifatida foydalanayotganingiz uchun, Amaze-ga xotiradan foydalanishga ruxsat bering. SAF.\n\n
+
+Buni faqat bir marta, keyingi safar ulashish uchun yangi joy tanlamaguningizcha bajarishingiz kerak.</string>
+    <string name="android_data_prompt_saf_access">Android 10-dan beri Android maʼlum kataloglarga cheklovlar qoʻygan va ular Storage Access Framework orqali kirishlari kerak.\n \nIltimos, Amaze dasturiga tizim fayl boshqaruvchisi orqali \"Kirishga ruxsat berish\" tugmasini bosish orqali katalogga kirishiga ruxsat bering.</string>
+    <string name="android_data_prompt_saf_access_title">SAFga ruxsat berish</string>
+    <string name="ftp_preference_saf_filesystem_title">Eski fayl tizimidan foydalanish</string>
+    <string name="ftp_preference_saf_filesystem">Yoqish Bu Androidning yangi versiyalarida qurilmaning tashqi xotirasidan foydalanishni qoʻllab-quvvatlash uchun</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP serverining umumiy yoʻli eski fayl tizimini joriy qilishga qaytayotganingiz uchun ichki xotiraga qayta oʻrnatildi. Iltimos, kerak bo\'lganda yuqori o\'ngdagi menyudan foydalanib yangi yo\'lni tanlang.</string>
+    <string name="ftp_server_reset_notify">FTP serverining umumiy yo\'li ichki xotiraga qayta o\'rnatildi</string>
+    <string name="ftp_server_root_unavailable">Siz ildizga kirishni talab qiluvchi yo\'lni tanlayapsiz. Agar qurilmangiz ildiz otgan boʻlsa, sozlamalarda root Explorer dasturini yoqing.</string>
+    <string name="ftp_server_root_filesystem_warning">Siz qurilmangizdagi butun fayl tizimida oʻqish/yozish operatsiyalarini taʼminlaydigan ildizga kirishni talab qiluvchi yoʻlni tanlayapsiz va bu xavfli – ehtiyotsizlik bilan qilingan xatolar qurilmangizni buzishi mumkin!\n\nIshonasizmi?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">O‘qish uchun \"%s\" URI-ni ochishda xatolik yuz berdi.</string>
+    <string name="error_empty_archive">\"%s\" bo‘sh arxiv.</string>
+    <string name="error_bad_archive_without_info">\"%s\" - buzilgan arxiv. .</string>
+    <string name="error_bad_archive_with_info">\"%s\" bu buzilgan arxiv.\nExtractordan xabar: \"%s\"</string>
+    <string name="security_error">Faylni ushbu ilova yordamida ochib boʻlmadi</string>
+    <string name="cloud_drive_tooltip">Yaratish Amaze File Manager-dan fayllarni boshqarish uchun Google Drive™ ulanishi.</string>
+    <string name="signin_with_google_title">Google Drive™-dan foydalanish uchun haqiqiylikni tekshiring</string>
+    <string name="show_system_apps">Tizim ilovalarini ko\'rsatish</string>
+    <string name="system_apps">Tizim ilovalarini</string>
+    <string name="select_inverse">Tanlash Teskari</string>
+    <string name="select_by_type">Tur bo\'yicha tanlang</string>
+    <string name="select_by_date">Sana bo\'yicha tanlang</string>
+    <string name="select_similar">O\'xshashni tanlang</string>
+    <string name="error_fetching_google_play_product_list">Google Play\'dan mahsulotlar ro\'yxatini olishda xatolik yuz berdi.</string>
+    <string name="grant_all_files_permission">Android 11-dan beri , Google Fayl menejerlaridan qurilmadagi barcha fayllarni boshqarish uchun foydalanuvchi ruxsatini soʻrashini soʻraydi. Tafsilotlar bu yerda.
+        \n\nAmaze File Manager uchun ham bu ruxsat kerak. Bu yerda “Ruxsat berish” tugmasini bosgandan so‘ng, keyingi ekranda “Barcha fayllarni boshqarishga ruxsat berish” opsiyasini tanlang.
+        \n\nUshbu muloqot oynasini bekor qilish ilovadan chiqadi.</string>
+    <string name="user_apps">Foydalanuvchi ilovalari</string>
+    <string name="appearance">Tashqi koʻrinish</string>
+    <string name="behavior">Xulq-atvori</string>
+    <string name="appearance_summary">Fayl menejeri mavzusini, ranglarini va koʻrinishini moslashtiring.</string>
+    <string name="ui_summary">Qaysi ma\'lumotlarni ko\'rsatishni boshqarish, yon panelni sozlash va UI afzalliklarini almashtirish</string>
+    <string name="behavior_summary">Kengaytirilgan qidiruv va fayllarni yangi vazifa sifatida ochish kabi xatti-harakatlarni o\'zgartirish</string>
+    <string name="security_summary">Parolni o\'rnatish va shifrlash</string>
+    <string name="backup_summary">Amaze sozlamalarini eksport/import qilish</string>
+
+    <string name="pref_export">Eksport qilish</string>
+    <string name="pref_export_summary">Eksport sozlamalari</string>
+    <string name="pref_import">Import qilish</string>
+    <string name="pref_import_summary">Import sozlamalari</string>
+
+    <string name="quick_desc">Fayllar yaqinda Amaze orqali kirildi</string>
+    <string name="recent_desc">Yaqinda yaratilgan yoki o\'zgartirilgan fayllar</string>
+    <string name="error_cannot_find_way_open">Faylni ochish yo\'li topilmadi</string>
+    <string name="error_cant_decompress_that_file">So\'ralgan arxivni qayta ishlab bo\'lmadi</string>
+    <string name="analyse_storage">Xotirani tahlil qiling</string>
+    
+    <string name="download_amaze_utils_text">Siz Amaze File Utilities-ga yo\'naltirilyapsiz. Bu bizning ochiq kodli ilovamiz boʻlib, u ichki audio/video/tasvir/hujjatlarni koʻrish vositalariga ega boʻlib, xotiradan joy boʻshatish uchun keraksiz fayllarni tahlil qilish, Wi-Fi P2P yordamida tezkor uzatish va boshqa koʻp narsalarni amalga oshirish imkonini beradi.\nIltimos, uni sinab koʻrish orqali bizni qoʻllab-quvvatlang.</string>
+    <string name="download">Yuklab olish</string>
+    
+    <string name="amaze_utils_installed_alias">Amaze File Utilities dasturini oʻrnatganingiz uchun tashakkur. Siz ilovaga yoʻnaltirilyapsiz.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">Jurnallarni almashish</string>
+    <string name="share_logs_summary">Olingan jurnallarni elektron pochta / telegram orqali ulashing</string>
+    <string name="open_with_amaze">Amaze bilan ochish</string>
+    <string name="confirmation">Tasdiqlash</string>
+    <string name="open_file_confirmation">Are Quyidagi faylni ochmoqchimisiz?\n\nIsm:\n%s\n\nJoylashuv:\n%s\n\nHajmi:\n%s\n\nMD5:\n%s\n\nSHA256:\ n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play qoidalariga koʻra, ilovalar oʻz-oʻzidan yangilanishi mumkin emas. Iltimos, ilovani Google Play Marketdan yangilang.</string>
+    <string name="error_cannot_get_package_info">Paket maʼlumotlarini \"%s\" faylidan olib boʻlmadi. Belgilangan fayl APK emas yoki paket fayli buzilgan.</string>
+    <string name="preference_delete_confirmation">Oʻchirish tasdigʻi</string>
+    <string name="preference_delete_confirmation_summary">Fayllarni oʻchirishdan oldin tasdiqlashni soʻrang. Buni o\'chirib qo\'yish juda tavsiya etilmaydi!</string>
+    
+    
+    <string name="protocol_ftps">Xavfsiz FTP</string>
+    <string name="unavailable">Mavjud emas</string>
+
+    <string name="exporting_failed">Eksport qilinmadi: zahira faylini yozib bo\'lmadi</string>
+    <string name="importing_failed">Import qilinmadi: zaxira nusxasini o\'qib bo\'lmadi fayl</string>
+    <string name="importing_completed">Import qilish tugallandi</string>
+    <string name="invalid_backup_file">Yaroqsiz zaxira fayli</string>
+    <string name="import_failed_for">Import qilinmadi:</string>
+    <string name="free_of">"%s\n%s%sdan bepul</string>
+    <string name="cloud_error_fdroid">Amaze Cloud plaginini F-Droid versiyasida qo‘llab-quvvatlamaydi. Iltimos, Amaze ilovasining Play Store versiyasidan foydalaning.</string>
+    <string name="disable_player_intent_filters">O‘yinchi maqsad filtrlarini o‘chirib qo‘ying</string>
+    <string name="disable_player_intent_filters_summary">Fayl tanlash vositasidan Amaze o‘rnatilgan media pleyerlarini o‘chirib qo‘yadi</string>
+    <string name="no_app_found_intent">Bu maqsadni bajaradigan hech qanday ilova topilmadi. DocumentsUI oʻrnatilganmi?</string>
+    <string name="cloud_connection_credentials_cleared">Bulutli ulanish hisob maʼlumotlari tozalandi</string>
+    <string name="cloud_connection_credentials_cleared_msg">Afsuski, bulutga ulanish hisob maʼlumotlaringizni yangi maʼlumotlar bazasi sxemasiga koʻchira olmadik va bizda mavjud edi. ularni ilovadan olib tashlash uchun. Iltimos, bulutli ulanishni qayta yarating.</string>
+</resources>

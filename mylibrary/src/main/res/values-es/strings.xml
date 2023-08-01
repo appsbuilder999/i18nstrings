@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="properties_copied_clipboard">Copiado en el portapapeles</string>
+    <string name="contributors_1_summary">Traducir</string>
+    <string name="contributors_2_summary">Iconos y pancartas</string>
+    <string name="contributors_3_summary">Motor de temas</string>
+    <string name="contributors_4_summary">Sombra fabulosa detrás</string>
+    <string name="contributors_5_summary">Transición de color al deslizar pestañas</string>
+    <string name="contributors_6_summary">Servidor Ftp</string>
+    <string name="contributors_7_summary">Iniciar shell interactivo</string>
+    <string name="connection_exists">La conexión ya existe</string>
+</resources>

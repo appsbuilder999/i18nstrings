@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">فتح درج التنقل</string>
+    <string name="drawer_close">إغلاق درج التنقل</string>
+    
+    
+    
+    <string name="setting">الإعدادات</string>
+    <string name="select">حدد عنصرًا</string>
+    <string name="press_again">اضغط مرة أخرى للخروج من</string>
+    <string name="open">فتح</string>
+    <string name="backup">النسخ الاحتياطي</string>
+    <string name="uninstall">إلغاء التثبيت</string>
+    <string name="play">متجر Play</string>
+    <string name="properties">الخصائص</string>
+    <string name="copyingapks">نسخ ملفات APK%d إلى%s</string>
+    <string name="delbook">حذف الإشارة المرجعية</string>
+    <string name="add_to_bookmarks">إضافة إلى الإشارات المرجعية</string>
+    <string name="enterpath">أدخل المسار</string>
+    <string name="cancel">إلغاء</string>
+    <string name="create">إنشاء</string>
+    <string name="loading">تحميل…</string>
+    <string name="file_empty">الملف فارغ</string>
+    <string name="error">خطأ</string>
+    <string name="search_results">نتائج البحث عن%s</string>
+    <string name="rename">إعادة تسمية</string>
+    <string name="save">حفظ</string>
+    <string name="bookmarks_added">تمت إضافة الإشارات المرجعية</string>
+    <string name="fileexist">الملف الذي يحمل نفس الاسم موجود بالفعل</string>
+    <string name="name">الاسم</string>
+    <string name="date">التاريخ</string>
+    <string name="location">الموقع</string>
+    <string name="size_capitalized">الحجم</string>
+    <string name="size">حجم المجلد</string>
+    <string name="enterzipname">أدخل اسم مضغوط</string>
+    <string name="no_app_found">لم يتم العثور على تطبيق لفتح هذا الملف</string>
+    <string name="copying">نسخ</string>
+    <string name="moving">نقل</string>
+    <string name="file">ملف</string>
+    <string name="folder">مجلد</string>
+    <string name="newfolder">مجلد جديد</string>
+    <string name="entername">أدخل الاسم</string>
+    <string name="extracting">استخراج</string>
+    <string name="stopping">إيقاف</string>
+    <string name="open_parent">فتح دليل الوالدين</string>
+    <string name="open_with">فتح باستخدام</string>
+    <string name="share">مشاركة</string>
+    <string name="about">حول</string>
+    <string name="extract">استخراج</string>
+    <string name="compress">ضغط</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    
+    <string name="dialog_delete_category_directories">الدلائل</string>
+    <string name="dialog_delete_category_files">الملفات</string>
+    <string name="dialog_delete_disclaimer">سيؤدي حذف العناصر أدناه إلى إزالتها نهائيًا من جهازك ولا يمكن استعادتها.</string>
+    <string name="dialog_delete_title">حذف العناصر نهائيًا؟</string>
+    <string name="deleting">حذف</string>
+    <string name="question_set_path_as_home">هل تريد تعيين المسار الحالي كمنزل لعلامة التبويب هذه؟</string>
+    <string name="directorysort">وضع فرز الدليل</string>
+    <string name="sort_by">فرز حسب</string>
+    <string name="sort_only_this">هذا المجلد فقط</string>
+    
+    
+    <string name="random_summary">يضبط اللون الأساسي العشوائي عند بدء التشغيل</string>
+    <string name="colorize">تلوين الرموز</string>
+    <string name="colorize_summary">يضبط لون الرمز الثابت. لا يتجاوز تفضيل لون رمز الدليل.</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="paste">لصق</string>
+    <string name="history">المحفوظات</string>
+    <string name="copy">نسخ</string>
+    <string name="root_mode">مستكشف الجذر</string>
+    <string name="root_mode_summary">للجهاز الجذر فقط. حدده فقط إذا كنت متأكدًا منه.</string>
+    <string name="root_failure">لم يتم منح الوصول إلى الجذر</string>
+    <string name="select_all">حدد الكل</string>
+    <string name="delete">حذف</string>
+    <string name="set_as_home">تعيين كالصفحة الرئيسية</string>
+    <string name="operation_not_supported">العملية غير مدعومة</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    
+    
+    <string name="daytime">النهار</string>
+    <string name="black">أسود (لـ OLED)</string>
+    <string name="system">النظام (اتبع سمة النظام)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">مجلدات في الأعلى</string>
+    <string name="filesOnTop">ملفات في الأعلى</string>
+    <string name="none_on_top">بلا في المقدمة</string>
+    <!--SortBy-->
+    <string name="sort_name">الاسم</string>
+    <string name="lastModified">آخر تعديل</string>
+    <string name="sort_size">الحجم</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">اختر ملفًا</string>
+    
+    <string name="in_safe">مساحة غير كافية</string>
+    <string name="no_file_overwrite">لا يوجد ملف مكتوب</string>
+    <string name="skip">تخطي</string>
+    <string name="overwrite">الكتابة فوق</string>
+    <string name="not_allowed">غير مسموح به</string>
+    <string name="searching">البحث في%s</string>
+    
+    <string name="set">تعيين</string>
+    <string name="enablerootmde">تمكين وضع الجذر</string>
+    <string name="goback">رجوع</string>
+    <string name="newfile">ملف جديد</string>
+    <string name="no_files">لا توجد ملفات</string>
+    <string name="used">مستخدمة space</string>
+    <string name="used_by_others">مستخدمة من قبل الآخرين</string>
+    <string name="free">مساحة خالية</string>
+    <string name="listview">عرض القائمة</string>
+    <string name="gridview">عرض الشبكة</string>
+    <string name="permission">الأذونات</string>
+    <string name="hide">إخفاء</string>
+    <string name="exit">خروج</string>
+    <string name="doforall">تنفيذ لجميع العناصر</string>
+    <string name="gridcolumnno">عدد الأعمدة في عرض الشبكة</string>
+    <string name="set_random">سيتم إجراء التغييرات بعد إعادة تشغيل التطبيق</string>
+    <string name="authors">المؤلفون</string>
+    <string name="changelog">سجل التغيير</string>
+    <string name="ok">موافق</string>
+    <string name="ui">الواجهة</string>
+    <string name="general">عام</string>
+    <string name="thumb_summary">عرض الصور المصغرة للتطبيقات والصور</string>
+    <string name="thumb">إظهار الصور المصغرة</string>
+    <string name="hidden">إظهار الملفات والمجلدات المخفية</string>
+    <string name="lastModifiedSummary">إظهار تاريخ ووقت آخر تعديل</string>
+    <string name="lastModifiedPref">إظهار تاريخ ووقت آخر تعديل</string>
+    <string name="size_pref_summary">إظهار حجم الملفات وعدد العناصر في المجلدات</string>
+    <string name="size_pref">إظهار الأحجام</string>
+    <string name="miscellaneous">متنوع</string>
+    <string name="root_pref_summary">إظهار أذونات الملفات والمجلدات</string>
+    <string name="root_pref">إظهار الأذونات</string>
+    <string name="about_amaze_file_manager_label">حول Amaze File Manager</string>
+    <string name="version">الإصدار</string>
+    <string name="rate">تقييم التطبيق</string>
+    <string name="feedback">إرسال ملاحظات</string>
+    <string name="hiddenfiles">الملفات المخفية</string>
+    <string name="type">اكتب</string>
+    <string name="root_directory">الجذر</string>
+    <string name="add_shortcut">إضافة اختصار</string>
+    <string name="unsaved_changes">التغييرات غير المحفوظة</string>
+    <string name="unsaved_changes_description">لديك تغييرات لم يتم حفظها ، هل تريد حفظها قبل الخروج؟</string>
+    <string name="saving">حفظ</string>
+    
+    <string name="view">عرض</string>
+    <string name="install">تثبيت</string>
+    <string name="archive">أرشيف</string>
+    <string name="archive_text">هذا أرشيف. ما الإجراء الذي ترغب في تنفيذه؟</string>
+    <string name="package_installer_text">هذا مثبت حزمة. ما الإجراء الذي تريد تنفيذه؟</string>
+    <string name="xda_title">مؤشر ترابط XDA</string>
+    <string name="xda_summary">سؤال وجواب ، تعليمات واستكشاف الأخطاء وإصلاحها</string>
+    <string name="circular_images">استخدم الرموز الدائرية للصور ومقاطع الفيديو</string>
+    <string name="circular_icons">استخدم الرموز الدائرية</string>
+    <string name="back_title">رجوع التنقل</string>
+    <string name="back_summary">يتيح التنقل الخلفي المخصص أعلى القائمة</string>
+    <string name="details">التفاصيل</string>
+    <string name="translators">المترجمون</string>
+    <string name="german_translation_title">الألمانية</string>
+    <string name="italian_translation_title">الإيطالية</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="portuguese_translation_title">البرتغالية</string>
+    <string name="polish_translation_title">البولندية</string>
+    
+    
+    
+    
+    <string name="vietnamese_translation_title">الفيتنامية</string>
+    <string name="japanese_translation_title">اليابانية</string>
+    
+
+    
+    <string name="unin_system_apk">هذا تطبيق نظام ، قد يؤدي حذفه إلى عدم استقرار النظام. \n هل تريد المتابعة؟</string>
+    <string name="warning">تحذير</string>
+    <string name="donate">تبرع</string>
+    <string name="archive_extract_folder">مجلد استخراج الأرشيف</string>
+    <string name="archive_summary">سيتم استخراج ملفات الأرشيف إلى هذا المجلد. القيمة الافتراضية هي الدليل الذي يوجد فيه الأرشيف.</string>
+    <string name="open_as">فتح باسم</string>
+    <string name="text">نص</string>
+    <string name="audio">صوت</string>
+    <string name="video">فيديو</string>
+    <string name="other">أخرى</string>
+    <string name="image">صورة</string>
+    <string name="contributors">المساهمون</string>
+    <string name="save_paths">تذكر المسارات</string>
+    <string name="save_path_summary">عند بدء التشغيل ، سيتم عرض أحدث مجلد تم عرضه لكل علامة تبويب</string>
+    <string name="select_intent">حدد</string>
+    <string name="database">قاعدة البيانات</string>
+    <string name="colored_navigation">شريط التنقل الملون</string>
+    <string name="colored_navigvation_sum">ما إذا كان شريط تنقل النظام ملونًا بالجلد</string>
+
+    <string name="color_title">اللون</string>
+    <string name="color_summary">تعيين اللون لمكونات واجهة المستخدم المختلفة</string>
+    <string name="primary_color_title">اللون الأساسي (علامة التبويب اليسرى )</string>
+    <string name="primary_color_summary">اضبط اللون على عناصر واجهة المستخدم الكبيرة لعلامة التبويب اليسرى</string>
+    <string name="accent_color_title">لون التمييز</string>
+    <string name="accent_color_summary">اضبط اللون على FAB وعناصر واجهة المستخدم الصغيرة الأخرى</string>
+    
+    <string name="icon_color_summary">اضبط اللون على الرموز</string>
+    <string name="choose_color">اختر اللون</string>
+    <string name="files">الملفات</string>
+    
+    <string name="databasereader">قارئ قاعدة البيانات</string>
+    <string name="show_dividers">إظهار الفواصل</string>
+    <string name="needs_access">مطلوب حق الوصول للكتابة</string>
+    <string name="needs_access_summary">الرجاء اختيار الدليل الجذر لـ \ t</string>
+    <string name="needs_access_summary1">\ t لمنح حق الوصول للكتابة لتشغيل</string>
+    <string name="smb_connection">اتصال SMB</string>
+    <string name="smb_server">عنوان IP للخادم</string>
+    <string name="server_address">عنوان IP للخادم</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="anonymous">مجهول</string>
+    
+    <string name="folders">المجلدات</string>
+    <string name="folderfilecount">%1$d مجلد و%2$d ملف</string>
+    <string name="videos">مقاطع فيديو</string>
+    
+    <string name="documents">المستندات</string>
+    <string name="images">الصور</string>
+    <string name="clear">مسح</string>
+    
+    <string name="total">الإجمالي:</string>
+    <string name="calculating">حساب</string>
+    <string name="sort">فرز</string>
+    <string name="ascending">تصاعدي</string>
+    <string name="descending">تنازلي</string>
+    <string name="default_string">افتراضي</string>
+    <string name="doit">هل تريد</string>
+    <string name="want_help">هل تحتاج إلى مساعدة؟</string>
+    <string name="quick">وصول سريع</string>
+    <string name="recent">الملفات الأخيرة</string>
+    <string name="edit">تحرير</string>
+    <string name="find">بحث في الصفحة</string>
+    <string name="grant">منح</string>
+    <string name="grantper">منح الإذن</string>
+    <string name="grantfailed">لم يتم منح الإذن</string>
+    <string name="grant_storage_permission">يحتاج التطبيق إلى إذن تخزين للمتابعة. سيؤدي إلغاء مربع الحوار هذا إلى الخروج من التطبيق.</string>
+    <string name="operation_unsuccesful">العملية غير ناجحة</string>
+    <string name="creatingfile">إنشاء ملف</string>
+    <string name="creatingfolder">إنشاء مجلد</string>
+    <string name="renaming">إعادة تسمية</string>
+    <string name="cant_be_empty">%s فارغة</string>
+    <string name="ip">العنوان</string>
+    <string name="connection_name">اسم الاتصال</string>
+    <string name="no_device_found">لم يتم العثور على أجهزة</string>
+    <string name="path">المسار</string>
+    <string name="rename_bookmark">تعديل الإشارة المرجعية</string>
+    <string name="cut">قص</string>
+    <string name="search">بحث</string>
+    <string name="invalid_name">اسم غير صالح</string>
+    <string name="search_hint">اكتب للبحث ...</string>
+    <string name="advanced_search">بحث متقدم</string>
+    <string name="regular_expression">تعبير عادي</string>
+    <string name="regular_expression_summary">البحث باستخدام تعبير عادي بنمط BASH</string>
+    <string name="match_content">تطابق المحتوى</string>
+    <string name="match_content_summary">في حالة التعيين ، سيتم مطابقة التعبير العادي مع اسم الملف بالكامل ،
+        سيبحث عن التواجد بخلاف ذلك.</string>
+    <string name="start_ftp">ابدأ</string>
+    <string name="stop_ftp">توقف</string>
+    <string name="ftp_status_running">قيد التشغيل</string>
+    <string name="ftp_status_not_running">لا يعمل</string>
+    <string name="ftp_no_wifi">تأكد من أنك متصل بشبكة Wi -Fi</string>
+    <string name="domain">المجال</string>
+    <string name="smb_share">مشاركة المسار</string>
+    <string name="invalid">غير صالح%s</string>
+    <string name="ftp_notif_starting">خادم FTP يبدأ</string>
+    
+    <string name="ftp_notif_title">خادم Amaze FTP قيد التشغيل</string>
+    <string name="ftp_notif_text">في%s</string>
+    <string name="ftp_notif_stop_server">إيقاف</string>
+    <string name="ftp_port_edit_menu_title">منفذ FTP</string>
+    <string name="ftp_port_change_success">تم تغيير منفذ FTP بنجاح</string>
+    <string name="ftp_port_change_error_invalid">تم تحديد رقم منفذ غير صالح</string>
+    <string name="primary_two_title">اللون الأساسي (علامة التبويب اليمنى)</string>
+    <string name="primary_two_summary">اضبط اللون على عناصر واجهة المستخدم الكبيرة لعلامة التبويب اليمنى</string>
+    <string name="support_development">تطوير الدعم</string>
+    
+    <string name="source_title">شفرة المصدر</string>
+    <string name="source_summary">اعرض شفرة المصدر الخاصة بنا على GitHub</string>
+    <string name="report_bugs_summary">الإبلاغ عن الأخطاء أو طلب ميزة جديدة</string>
+    <string name="translate_title">ترجمة</string>
+    <string name="translate_summary">ترجمة مذهلة بلغتك</string>
+    <string name="paypal_copy_message">نسخ معرف PayPal إلى الحافظة</string>
+    <string name="searching_devices">البحث عن الأجهزة</string>
+    <string name="use_custom_ip">استخدم IP المخصص</string>
+    <string name="bookmark_lost">لم يتم العثور على إشارة مرجعية ، إعادة إنشاء…</string>
+
+    
+    <string name="share_limit">لا يمكن مشاركة أكثر من 100 ملف</string>
+    <string name="otg_access">حدد جذر جهاز OTG</string>
+    <string name="information">المعلومات</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">تم الوصول إليه</string>
+    <!-- reference to file modified date -->
+    <string name="modified">معدل</string>
+
+    <string name="title">العنوان</string>
+    <string name="artist">الفنان</string>
+    <string name="album">الألبوم</string>
+    <string name="year">السنة</string>
+    <string name="duration">المدة</string>
+    <string name="comment">تعليق</string>
+    <!-- reference to audio/video file -->
+    <string name="container">الحاوية</string>
+    <string name="codec">برنامج الترميز</string>
+    <string name="channels">القنوات</string>
+    <string name="sample_rate">معدل العينة</string>
+    <string name="bitrate">معدل البت</string>
+    <string name="dimensions">الأبعاد</string>
+    <string name="frame_rate">معدل الإطار</string>
+    <string name="image_type">نوع الصورة</string>
+    <string name="width">العرض</string>
+    <string name="height">الارتفاع</string>
+    <string name="date_modified">تاريخ التعديل</string>
+    <string name="software">البرنامج</string>
+    
+    <string name="camera_brand">ماركة الكاميرا</string>
+    <string name="camera_model">Camera الطراز</string>
+    <string name="date_taken">تاريخ الالتقاط</string>
+    <string name="exposure_time">وقت التعريض</string>
+    <string name="aperture_value">قيمة فتحة العدسة</string>
+    <string name="image_iso">معدل سرعة ISO</string>
+    <string name="flash_fired">تشغيل الفلاش</string>
+    <string name="focal_length">الطول البؤري</string>
+    <string name="subject">الموضوع</string>
+    <string name="author">المؤلف</string>
+    <string name="keywords">الكلمات الرئيسية</string>
+    
+    <string name="created">تم إنشاؤه</string>
+    <string name="format">تنسيق</string>
+    <string name="pages">Number of الصفحات</string>
+    <!-- reference to a document file -->
+    <string name="optimized">محسن</string>
+    <string name="security">الأمان</string>
+    <string name="paper_size">حجم الورق</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">تم نسخ بعض الملفات بنجاح%s</string>
+    <string name="copied">نسخ</string>
+    <string name="moved">تم نقل</string>
+    <string name="copy_complete">اكتمال النسخ</string>
+    <string name="waiting_title">انتظار</string>
+    <string name="waiting_content">في انتظار اكتمال العملية</string>
+    <string name="extract_complete">اكتمل الاستخراج</string>
+    <string name="compression_complete">اكتمل الضغط</string>
+    <string name="compressing">الضغط</string>
+    <string name="cancelled">ملغى</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">مكتوب</string>
+    <string name="out_of">خارج</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">من</string>
+    <string name="processing_file">ملف المعالجة</string>
+    <string name="current_speed">السرعة الحالية</string>
+    <string name="smb_launch_error">ستحتاج إلى نسخ هذا الملف إلى وحدة التخزين لفتحه</string>
+    <string name="error_file_not_found">خطأ: لم يتم العثور على الملف</string>
+    <string name="error_io">خطأ I / O</string>
+    <string name="error_file_too_large">خطأ: الملف كبير جدًا</string>
+    <string name="medium_text">نص متوسط ​​</string>
+    <string name="permission_read">قراءة</string>
+    <string name="permission_write">كتابة</string>
+    <string name="permission_execute">تنفيذ</string>
+    <string name="permission_owner">المالك</string>
+    
+    <string name="permission_other">أخرى</string>
+    <string name="clipboard_path_copy">تم نسخ المسار إلى الحافظة</string>
+    <string name="service_timer">انقضى الوقت</string>
+    <string name="please_wait">الرجاء الانتظار</string>
+
+    
+    
+    
+    <string name="cloud_drive">Google Drive ™</string>
+    
+    
+    <string name="cloud_get">الحصول على المكون الإضافي السحابي</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">لا توجد تطبيقات</string>
+    <string name="ftp_path">مسار مشترك</string>
+    <string name="ftp_path_hint">Path إلى جذر الدليل للمشاركة</string>
+    <string name="change">تغيير</string>
+    <string name="unknown_error">عفوًا ، حدث خطأ ما!</string>
+
+    <string name="ftp_path_change_success">تم تغيير مسار FTP بنجاح</string>
+    <string name="ftp_path_change_error_invalid">مسار غير صالح</string>
+    <string name="ftp_status_no_connection">لا يوجد اتصال</string>
+    <string name="ftp_status_secure_connection">اتصال آمن</string>
+    <string name="ftp_status_title">الحالة</string>
+    <string name="ftp_port">المنفذ</string>
+    <string name="ftp_login">تسجيل الدخول</string>
+    <string name="field_empty">لا يمكن أن يكون الحقل فارغًا</string>
+    <string name="ftp_timeout">مهلة الخمول</string>
+    <string name="ftp_seconds">الثواني</string>
+    
+    <string name="intellihide_toolbar_summary">إخفاء شريط الأدوات تلقائيًا أثناء التمرير</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">نسخ إلى الحافظة</string>
+    <string name="contributors_1_summary">ترجمة</string>
+    <string name="contributors_2_summary">أيقونة وشعارات</string>
+    
+    <string name="contributors_4_summary">الظل خلف FAB</string>
+    <string name="contributors_5_summary">انتقال اللون عند تمرير علامات التبويب</string>
+    <string name="contributors_6_summary">خادم FTP</string>
+    <string name="contributors_7_summary">إطلاق قذيفة تفاعلية</string>
+    <string name="connection_exists">الاتصال موجود بالفعل</string>
+
+    <string name="crypt_encrypting">تشفير</string>
+    <string name="crypt_decrypting">فك تشفير</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">مشفر</string>
+    <string name="crypt_decrypted">غير مشفر</string>
+    <string name="crypt_encrypt">تشفير</string>
+    <string name="crypt_decrypt">فك تشفير</string>
+    <string name="operation_fail_following">فشلت العملية للملفات التالية</string>
+    <string name="crypt_pref_master_password_title">كلمة المرور الرئيسية</string>
+    <string name="crypt_pref_master_password_summary">تعيين كلمة مرور رئيسية للتشفير.
+        اتركه فارغًا للإزالة.</string>
+    <string name="crypt_pref_fingerprint_title">بصمة الإصبع</string>
+    <string name="crypt_pref_fingerprint_summary">استخدم بصمة الإصبع لمصادقة التشفير</string>
+    <string name="crypt_fingerprint_no_permission">أذونات بصمات الأصابع مفقودة</string>
+    <string name="crypt_fingerprint_not_enrolled">لم يتم تسجيل بصمة الإصبع</string>
+    <string name="crypt_fingerprint_no_security">لا تأمين شاشة التأمين تم العثور على</string>
+    <string name="crypt_warning_key">عند تغيير نمط الأمان الخاص بك من
+        إعدادات النظام ، لن تتمكن من فك تشفير هذا المحتوى.</string>
+    <string name="warning_never_show">لا تخبر مرة أخرى</string>
+    <string name="warning_confirm">حسنًا!</string>
+    <string name="crypt_encryption_fail">فشل تشفير</string>
+    <string name="crypt_decryption_fail">فشل في فك تشفير</string>
+    <string name="crypt_decryption_fail_password">كلمة مرور خاطئة!</string>
+    <string name="crypt_fingerprint_authenticate">مستشعر اللمس للمتابعة</string>
+    <string name="authenticate_password">أدخل كلمة المرور</string>
+
+    <string name="sidebar_preferences">الشريط الجانبي</string>
+    <string name="sidebar_quick_access_title">الوصول السريع إلى الشريط الجانبي</string>
+    <string name="show_quick_access_pref_title">إظهار الوصول السريع</string>
+    <string name="show_quick_access_pref">وصول سريع</string>
+    
+
+    <string name="sidebar_bookmarks_title">إشارات مرجعية للشريط الجانبي</string>
+    <string name="show_bookmarks_pref_title">إظهار الإشارات المرجعية</string>
+    <string name="show_bookmarks_pref">الإشارات المرجعية</string>
+    <string name="create_bookmark">إنشاء إشارة مرجعية</string>
+    <string name="edit_bookmark">تحرير الإشارة المرجعية</string>
+    <string name="question_delete_bookmark">حذف الإشارة المرجعية؟</string>
+
+    <string name="cloud_error_plugin">لم يتم العثور على المكون الإضافي Amaze Cloud. الرجاء التنزيل من متجر Play.</string>
+    <string name="cloud_error_failed_restart">فشل تحميل الاتصال.
+        الرجاء فتح Amaze Cloud مرة واحدة.</string>
+    <string name="cloud_remove">هل تريد إزالة الاتصال السحابي؟</string>
+    <string name="cloud_fail_authenticate">فشل المصادقة</string>
+    <string name="cloud_share_copied">رابط قابل للمشاركة تم نسخه إلى الحافظة</string>
+    <string name="copy_low_memory">نفد الذاكرة ، يرجى مسح بعض ذاكرة الوصول العشوائي</string>
+    <string name="cloud_token_lost">فقد الرمز المميز ، يرجى تسجيل الدخول مرة أخرى</string>
+    
+    <string name="showHeaders">إظهار الرؤوس</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">لا توجد عناصر</string>
+	<string name="item">العنصر</string>
+	<string name="items">العناصر</string>
+	
+	<string name="byte_singular">بايت</string>
+	<string name="bytes">بايت</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">يجب أن يكون للملف اسم</string>
+    <string name="add_item">إضافة عنصر</string>
+    <string name="failed_smb_decrypt_path">فشل التحميل اتصال SMB</string>
+    <string name="failed_cloud_new_connection">فشل إضافة اتصال Cloud جديد</string>
+    <string name="failed_cloud_api_key">فشل مصادقة المكون الإضافي السحابي</string>
+
+    <string name="local_inet_addr_error">خطأ في الحصول على عنوان inet المحلي</string>
+    <string name="intent_save_as">حفظ باسم ...</string>
+    <string name="go">اذهب</string>
+    <string name="advanced">متقدم</string>
+    <string name="typeable_paths_title">مسارات مخصصة</string>
+    <string name="typeable_paths_summary">الضغط مطولاً على شريط المسار لكتابة مسار مخصص</string>
+    <string name="send_email_to">إرسال بريد إلكتروني إلى</string>
+
+    <string name="text_editor">إعدادات محرر النص</string>
+    <string name="preference_newstack_title">فتح الملفات كمهمة جديدة</string>
+    <string name="preference_newstack_summary">يسمح لك بفتح الملفات في مهام منفصلة. الوصول إليها من شاشة أحدث النظام.</string>
+    
+    <string name="developers">المطورون</string>
+    <string name="no_bitcoin_app">الرجاء تثبيت تطبيق Bitcoin Wallet</string>
+    <string name="channel_name_normal">إشعارات Amaze</string>
+    <string name="channel_description_normal">إخطارات Amaze File Manager \ \'s</string>
+    <string name="channel_name_ftp">خادم Amaze FTP</string>
+    <string name="channel_description_ftp">إشعارات خادم FTP لـ Amaze File Manager</string>
+
+    
+    <string name="processing">المعالجة…</string>
+    <string name="failed_no_connection">فشل تحميل الملفات. يرجى التحقق من الاتصال.</string>
+
+    
+	<string name="scp_connection">SCP / SFTP Connection</string>
+    <string name="ftp_connection">اتصال FTP</string>
+    <string name="ftps_connection">FTP عبر اتصال SSL</string>
+    <string name="scp_port">المنفذ</string>
+    
+    <string name="ssh_host_key_verification_prompt_title">تحقق من المضيف</string>
+    <string name="ssh_select_pem_button">مفتاح SSH الخاص</string>
+    <string name="ssh_pem_key_parse_error">غير قادر على قراءة PEM المحدد:%s</string>
+    <string name="password_unchanged">(بدون تغيير)</string>
+    <string name="ssh_authentication_failure_password">فشل تسجيل الدخول: غير قادر على المصادقة باستخدام اسم المستخدم وكلمة المرور المقدمين.</string>
+    <string name="ssh_authentication_failure_key">فشل تسجيل الدخول: غير قادر على المصادقة باستخدام اسم المستخدم والمفتاح الخاص المقدمين.</string>
+    <string name="ssh_connect_failed">تعذر الاتصال بـ%1$s:%2$d:%3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">تحذير: تم تغيير معرف المضيف البعيد!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">من المحتمل أن يقوم شخص ما بشيء سيء! \n \n قد يتنصت شخص ما عليك الآن (هجوم رجل في الوسط)! من الممكن أيضًا أن يكون مفتاح المضيف قد تم تغييره للتو. بصمة المفتاح العام التي أرسلها المضيف البعيد لا تتطابق مع البصمة المخزنة في Amaze. \n \n الرجاء الاتصال بمسؤول النظام أو إعداد اتصال جديد لمتابعة الاتصال بالخادم.</string>
+    <string name="ssh_key_prompt_passphrase">الرجاء إدخال عبارة مرور المفتاح .</string>
+    <string name="add_shortcut_not_supported_by_launcher">إنشاء الاختصارات غير مدعوم من المشغل.</string>
+    
+    <string name="select_color_config">حدد تهيئة اللون</string>
+    <string name="customize">تخصيص</string>
+    <string name="custom">مخصص</string>
+    <string name="preselected_configs_title">التكوينات المحددة مسبقًا</string>
+    <string name="orange">برتقالي</string>
+    <string name="blue">أزرق</string>
+    <string name="green">أخضر</string>
+    <string name="password_no_match">كلمة المرور لا تتطابق مع</string>
+    <string name="deselect_all">إلغاء تحديد الكل</string>
+    <string name="filename">اسم الملف</string>
+    <string name="compress_file_suggest_zip_extension">يوصى باستخدام \ ". zip \" كملحق للملف.</string>
+    <string name="about_amaze">مدير ملفات تصميم المواد لنظام Android</string>
+    <string name="license">الترخيص</string>
+    <string name="libraries">المكتبات</string>
+    <string name="password_repeat">كرر كلمة المرور</string>
+    <string name="create_file_suggest_txt_extension">يوصى باستخدام \ ". txt \" كملحق للملف.</string>
+    <string name="ssh_select_pem">حدد المفتاح الخاص للمصادقة</string>
+    <string name="ssh_key_invalid_passphrase">عبارة مرور المفتاح غير صالحة.</string>
+    <string name="ssh_key_no_decoder_decrypt">لا يوجد وحدة فك ترميز صالحة لفك تشفير PEM.</string>
+    <string name="encryption_fail_copy">فشل تحديث إدخال التشفير في قاعدة البيانات</string>
+    <string name="extracted">مستخرج</string>
+    <string name="compressed">مضغوط</string>
+    <string name="processed">تمت معالجته</string>
+    <string name="no_obtainable_info">لا توجد معلومات حول هذا الملف</string>
+    <string name="reopen_from_source">لا يمكن ، الرجاء إعادة الفتح من التطبيق الأخير</string>
+    <string name="no_file_error">حدث خطأ ما ، لا يوجد شيء لفتحه</string>
+    <string name="file_too_long">الملف طويل جدًا ولا يمكن تحريره ، ومع ذلك يمكنك قراءة الأحرف%d الأولى</string>
+    <string name="file_read_only">الملف المفتوح للقراءة فقط .</string>
+    <string name="got_it">حسنًا!</string>
+    <string name="encrypt_file_save_as">حفظ الملف المشفر باسم ...</string>
+    <string name="encrypt_folder_save_as">حفظ المجلد المشفر باسم ...</string>
+    <string name="encrypt_option_use_aze">استخدام تنسيق Amaze Encryption</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p> AESCrypt هو تنسيق تشفير ملف مفتوح المصدر يعتمد على تشفير AES. كما أنه محمول ويمكن فك تشفيره باستخدام برامج AESCrypt على الأنظمة الأساسية الأخرى. </ p>
+        <p> <a href="https://www.aescrypt.com" target="_blank"> موقع AESCrypt على الويب </a> </p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p> يعتمد تنسيق تشفير Amaze أيضًا على تشفير AES ؛ ولكن يختلف عن تنسيق AESCrypt ، لا يمكن فك تشفيره إلا بواسطة هذا الجهاز ؛ كما يجب عليك عدم إلغاء تثبيت Amaze File Manager من هذا الجهاز أو تغيير طريقة قفل الشاشة ، وإلا فلن يكون لديك طريقة لاستعادة الملف المشفر. </ p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">يجب أن تستخدم الملفات المشفرة \ ". aze \" كملحق للملف.</string>
+    <string name="encrypt_file_must_end_with_aes">يجب أن تستخدم الملفات المشفرة \ ". aes \" كملحق للملف.</string>
+    <string name="error_aescrypt_decrypt_failed">لا يمكن فك التشفير \ \'%s \': \ \'%s \'</string>
+    <string name="cannot_overwrite">لا يمكن الكتابة فوق الملف.</string>
+    <string name="saved_single_file">تم حفظ الملف كـ \ \'%s \'. تم حفظ</string>
+    <string name="saved_multi_files">%d من الملفات.</string>
+    <string name="create_hidden_file_warn">سيتم إخفاء الملف الذي تم إنشاؤه في قائمة الملفات.</string>
+    <string name="grant_apkinstall_permission">يحتاج التطبيق إلى إذن لتثبيت التطبيقات.</string>
+    <string name="time_remaining">الوقت المتبقي</string>
+    <string name="transfer_rate">معدل النقل</string>
+    <string name="unknown">غير معروف</string>
+    <string name="multiple_invalid_archive_entries">لا يمكن استخراج بعض الملفات في الأرشيف ؛ قد يكون الأرشيف تالفًا أو جاء من مصدر ضار.</string>
+    <string name="saf_otg_explanation">ستنتقل الآن إلى نظام ملفات Android لأسباب أمنية. الرجاء تحديد جهاز USB من القائمة الموجودة على اليسار.</string>
+    <string name="donation_thanks">شكرًا لك على التبرع ، فهذا يجعلنا متحمسين! (:</string>
+    <string name="enable_marquee_filename">تمكين تأثير الشاشة الاسمية لأسماء الملفات</string>
+    <string name="archive_password_prompt">الرجاء إدخال كلمة مرور الأرشيف:</string>
+    
+    <string name="cannot_extract_archive">لا يمكن استخراج الأرشيف \ "%s \":%s</string>
+    <string name="archive_unsupported_or_corrupt">لا يمكن فتح الأرشيف \ "%s \". إما أننا لا نستطيع فتح الأرشيف ، أو أن الأرشيف تالف.</string>
+    <string name="close">إغلاق</string>
+    <string name="bookmark_exists">إشارة مرجعية موجودة</string>
+    <string name="hide_media">إخفاء من مستعرضات الوسائط</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">من المحتمل أن يقوم شخص ما بشيء سيء! \n \n قد يتنصت شخص ما عليك الآن (هجوم رجل في الوسط)! من الممكن أيضًا أن يكون مفتاح المضيف قد تم تغييره للتو. بصمة المفتاح العام التي أرسلها المضيف البعيد لا تتطابق مع البصمة المخزنة في Amaze. \n \n يمكنك متابعة تحديث بصمة المضيف أو إلغاء تحديث إعدادات اتصال SSH.</string>
+    <string name="update_host_key">تحديث مفتاح المضيف</string>
+    <string name="cancel_recommended">إلغاء (موصى به)</string>
+    
+    
+    <string name="failed_install_apk">فشل تثبيت</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">وحدة تخزين داخلية</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">بطاقة SD</string>
+    <string name="choose_folder">اختر هذا المجلد</string>
+    
+    <string name="some_files_failed_invalid_operation">فشلت بعض الملفات بسبب عدم صلاحيتها العملية</string>
+    <string name="ftp_server_prompt_connect_to_network">الاتصال بشبكة أو تمكين AP</string>
+    <string name="ftp_server_open_settings">فتح الإعدادات</string>
+    <string name="move">نقل</string>
+    <string name="select_save_location">حدد موقعًا لحفظ</string>
+    <string name="scp_default_path">المسار الافتراضي (اختياري)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">عذرًا ، لا يجب أن يحدث هذا.</string>
+    
+    <string name="error_report_button_text">الإبلاغ عن هذا الخطأ عبر البريد الإلكتروني</string>
+    <string name="error_report_button_telegram">الإبلاغ عن هذا الخطأ عبر telegram</string>
+    <string name="copy_for_github">نسخ التقرير المنسق</string>
+    <string name="error_report_open_issue_button_text">تقرير على GitHub</string>
+    <string name="error_report_open_github_notice">الرجاء التحقق مما إذا كانت هناك مشكلة تناقش العطل بالفعل أم لا.</string>
+    <string name="error_snackbar_message">عذرًا ، حدث خطأ ما.</string>
+    <string name="error_snackbar_action">إبلاغ</string>
+    <string name="what_device_headline">معلومات:</string>
+    <string name="what_happened_headline">ماذا حدث:</string>
+    
+    <string name="your_comment">تعليقك (باللغة الإنجليزية):</string>
+    <string name="error_details_headline">التفاصيل:</string>
+    <string name="app_ui_crash">تعطل التطبيق / واجهة المستخدم</string>
+    <string name="error_report_title">تقرير الخطأ</string>
+    <string name="crash_report_copied">تم نسخ تقرير الأعطال إلى الحافظة</string>
+    <string name="disableIpcSignature">تعطيل التحقق من توقيع IPC (لخوادم SMBv1 القديمة - UNSAFE!)</string>
+    <string name="cannot_delete_file">لا يمكن حذف الملف</string>
+    <string name="cannot_delete_file_with_reason">لا يمكن حذف الملف -%s</string>
+    <string name="cannot_rename_file">لا يمكن إعادة تسمية الملف %s -%s</string>
+    <string name="cannot_read_directory">لا يمكن قراءة الدليل%s -%s</string>
+    <string name="just_once">مرة واحدة فقط</string>
+    <string name="always">دائمًا</string>
+    <string name="choose_different_app">اختر تطبيقًا مختلفًا</string>
+    <string name="clear_open_file">مسح cache</string>
+    <string name="clear_open_file_summary">يمسح تطبيقات فتح الملفات الافتراضية المحددة</string>
+    <string name="ftp_readonly">وصول للقراءة فقط</string>
+    <string name="legacy_listing_title">استخدم القائمة القديمة للجذر</string>
+    <string name="legacy_listing_summary">في حالة التمكين ، يستخدم الأسلوب القديم لسرد الملفات</string>
+    <string name="error_unsupported_v5_rar">أرشيف RAR \ "%s \" هو أرشيف RAR v5 غير مدعوم.</string>
+    <string name="ftp_prompt_restart_server">ستحتاج إلى إعادة تشغيل خادم FTP لتصبح التغييرات سارية المفعول.</string>
+    <string name="error_permission_denied">تم رفض الإذن</string>
+    <string name="error_archive_password_incorrect">كلمة مرور أرشيف خاطئة.</string>
+    <string name="error_archive_cannot_extract">لا يمكن استخراج إدخال الأرشيف \ "%s \" إلى \ "%s \".</string>
+    <string name="drag_and_drop_preference">حدد تفضيل السحب والإفلات (تجريبي)</string>
+    <string name="drag_to_move_copy">المس واسحب لنقل الملفات أو نسخها</string>
+    <string name="drag_to_select">المس واسحب لتحديد الملفات</string>
+    <string name="disable">تعطيل</string>
+    <string name="choose_operation">اختر عملية لتنفيذ</string>
+    <string name="remember">تذكر للمرة التالية</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">منح وصول SAF لخادم FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">نظرًا لأن هذا هو أول تشغيل لخادم FTP ، وأنت تستخدم وحدة التخزين الداخلية للجهاز كمجلد مشترك ، فالرجاء السماح لـ Amaze بالوصول إلى التخزين باستخدام SAF. \n \n
+
+ما عليك سوى القيام بذلك مرة واحدة ، حتى المرة التالية التي تحدد فيها موقعًا جديدًا للمشاركة.</string>
+    <string name="android_data_prompt_saf_access">منذ Android 10 ، فرض Android قيودًا على أدلة معينة ، ويحتاجون إلى الوصول باستخدام Storage Access Framework. \n \n الرجاء السماح لـ Amaze بالوصول إلى الدليل من مدير ملفات النظام من خلال النقر على \ "السماح بالوصول \".</string>
+    <string name="android_data_prompt_saf_access_title">منح وصول SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">استخدام نظام الملفات القديم</string>
+    <string name="ftp_preference_saf_filesystem">قم بتمكين هذا للدعم لاستخدام وحدة التخزين الخارجية للجهاز على إصدارات Android الأحدث</string>
+    <string name="ftp_server_fallback_path_reset_prompt">تمت إعادة تعيين المسار المشترك لخادم FTP إلى وحدة التخزين الداخلية أثناء التبديل مرة أخرى إلى تطبيق نظام الملفات القديم. الرجاء تحديد مسار جديد باستخدام القائمة الموجودة في الجزء العلوي الأيمن حسب الضرورة.</string>
+    <string name="ftp_server_reset_notify">تمت إعادة تعيين المسار المشترك لخادم FTP إلى وحدة التخزين الداخلية</string>
+    <string name="ftp_server_root_unavailable">أنت تختار مسارًا يتطلب الوصول إلى الجذر. يرجى تمكين مستكشف الجذر في الإعدادات إذا كان جهازك متجذرًا.</string>
+    <string name="ftp_server_root_filesystem_warning">إنك تختار مسارًا يتطلب الوصول إلى الجذر ، مما يتيح عمليات القراءة / الكتابة في نظام الملفات بأكمله على جهازك ، وهو أمر خطير - قد تؤدي أخطاء الإهمال إلى تعطيل جهازك! \n \n هل أنت متأكد؟</string>
+    <string name="compressed_explorer_fragment_error_open_uri">خطأ في فتح URI \ "%s \" للقراءة.</string>
+    <string name="error_empty_archive">\ "%s \" هو أرشيف فارغ.</string>
+    <string name="error_bad_archive_without_info">\ "%s \" هو أرشيف تالف.</string>
+    <string name="error_bad_archive_with_info">\ "%s \" أرشيف تالف. \n رسالة من المستخرج: \ "%s \"</string>
+    <string name="security_error">تعذر على الملف يمكن فتحه باستخدام هذا التطبيق</string>
+    <string name="cloud_drive_tooltip">إنشاء اتصال Google Drive ™ لإدارة الملفات من داخل Amaze File Manager.</string>
+    <string name="signin_with_google_title">المصادقة لاستخدام Google Drive ™</string>
+    <string name="show_system_apps">عرض تطبيقات النظام</string>
+    <string name="system_apps">تطبيقات النظام</string>
+    <string name="select_inverse">حدد معكوس</string>
+    <string name="select_by_type">حدد حسب النوع</string>
+    <string name="select_by_date">حدد حسب التاريخ</string>
+    <string name="select_similar">حدد مشابهًا</string>
+    <string name="error_fetching_google_play_product_list">خطأ في جلب قائمة المنتجات من Google Play.</string>
+    <string name="grant_all_files_permission">منذ Android 11 ، تطلب Google من مديري الملفات طلب إذن المستخدم لإدارة جميع الملفات على الجهاز. التفاصيل هنا.
+        \n \n يحتاج Amaze File Manager إلى هذا الإذن أيضًا. بعد الضغط على "منح" هنا ، يرجى تحديد خيار السماح بالوصول لإدارة جميع الملفات على الشاشة التالية.
+        \n \n سيؤدي إلغاء مربع الحوار هذا إلى الخروج من التطبيق.</string>
+    <string name="user_apps">تطبيقات المستخدم</string>
+    <string name="appearance">المظهر</string>
+    <string name="behavior">السلوك</string>
+    <string name="appearance_summary">تخصيص المظهر والألوان ومظهر مدير الملفات</string>
+    <string name="ui_summary">التحكم في المعلومات المراد إظهارها وتخصيص الشريط الجانبي وتبديل تفضيلات واجهة المستخدم</string>
+    <string name="behavior_summary">تعديل السلوكيات مثل البحث المتقدم وما إذا كان سيتم فتح الملفات كمهمة جديدة</string>
+    <string name="security_summary">إعداد كلمة المرور والتشفير</string>
+    <string name="backup_summary">تصدير / استيراد إعدادات مذهلة</string>
+
+    <string name="pref_export">تصدير</string>
+    <string name="pref_export_summary">تصدير الإعدادات</string>
+    <string name="pref_import">استيراد</string>
+    <string name="pref_import_summary">استيراد إعدادات</string>
+
+    <string name="quick_desc">ملفات تم الوصول إليه مؤخرًا من خلال Amaze</string>
+    <string name="recent_desc">الملفات التي تم إنشاؤها أو تعديلها مؤخرًا</string>
+    <string name="error_cannot_find_way_open">تعذر العثور على طريقة لفتح الملف</string>
+    <string name="error_cant_decompress_that_file">لا يمكن معالجة الأرشيف المطلوب</string>
+    <string name="analyse_storage">تحليل التخزين</string>
+    
+    <string name="download_amaze_utils_text">تتم إعادة توجيهك إلى Amaze File Utilities. إنه تطبيقنا مفتوح المصدر الذي يحتوي على عارضين للصوت / الفيديو / الصور / المستندات ، ويسمح لك بتحليل الملفات غير المرغوب فيها لتحرير مساحة التخزين ، والنقل السريع باستخدام Wifi P2P وغير ذلك الكثير. \n يرجى دعمنا بتجربته.</string>
+    <string name="download">تنزيل</string>
+    
+    <string name="amaze_utils_installed_alias">شكرًا لك على تثبيت Amaze File Utilities. تتم إعادة توجيهك إلى التطبيق.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">مشاركة السجلات</string>
+    <string name="share_logs_summary">مشاركة السجلات الملتقطة عبر البريد الإلكتروني / telegram</string>
+    <string name="open_with_amaze">فتح مع Amaze</string>
+    <string name="confirmation">تأكيد</string>
+    <string name="open_file_confirmation">هل تريد بالتأكيد فتح الملف التالي؟ \n \n الاسم: \n%s \n \n الموقع: \n%s \n \n الحجم: \n%s \n \nMD5: \n%s \n \nSHA256 : \n%s \n \n</string>
+    <string name="error_google_play_cannot_update_myself">وفقًا لمتطلبات سياسة Google Play ، لا يُسمح للتطبيقات بتحديث نفسها من تلقاء نفسها. يرجى تحديث التطبيق من Google Play.</string>
+    <string name="error_cannot_get_package_info">تعذر الحصول على معلومات الحزمة من الملف \ "%s \". إما أن الملف المحدد ليس APK ، أو أن ملف الحزمة تالف.</string>
+    <string name="preference_delete_confirmation">حذف تأكيد</string>
+    <string name="preference_delete_confirmation_summary">اطلب التأكيد قبل حذف الملفات. تعطيل هذا الأمر محبط للغاية!</string>
+    
+    
+    
+    <string name="unavailable">غير متوفر</string>
+
+    <string name="exporting_failed">فشل التصدير: تعذر كتابة ملف النسخ الاحتياطي</string>
+    <string name="importing_failed">فشل الاستيراد: تعذر قراءة النسخة الاحتياطية ملف</string>
+    <string name="importing_completed">اكتمل الاستيراد</string>
+    <string name="invalid_backup_file">ملف نسخ احتياطي غير صالح</string>
+    <string name="import_failed_for">فشل الاستيراد لـ:</string>
+    <string name="free_of">"%s \n%s خالية من%s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin غير مدعوم مع F- إصدار Droid. الرجاء استخدام إصدار متجر Play من Amaze.</string>
+    <string name="disable_player_intent_filters">تعطيل عوامل تصفية هدف المشغل</string>
+    <string name="disable_player_intent_filters_summary">تعطيل Amaze مشغلات الوسائط المضمنة من منتقي الملفات</string>
+    <string name="no_app_found_intent">لم يتم العثور على تطبيق للتعامل مع هذه النية. قم هل لديك DocumentsUI مثبتة؟</string>
+    <string name="cloud_connection_credentials_cleared">تم مسح بيانات اعتماد الاتصال السحابي</string>
+    <string name="cloud_connection_credentials_cleared_msg">للأسف ، لم نتمكن من ترحيل بيانات اعتماد الاتصال السحابي إلى مخطط قاعدة البيانات الجديد ، وكان علينا إزالتها من التطبيق. الرجاء إنشاء الاتصال السحابي مرة أخرى.</string>
+</resources>

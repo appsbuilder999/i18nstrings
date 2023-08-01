@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="properties_copied_clipboard">Copié dans le presse-papiers</string>
+    <string name="contributors_1_summary">Traduire</string>
+    <string name="contributors_2_summary">Icônes et bannières</string>
+    <string name="contributors_3_summary">Moteur de thème</string>
+    <string name="contributors_4_summary">Shadow fab derrière</string>
+    <string name="contributors_5_summary">Transition de couleur lors du balayage des onglets</string>
+    <string name="contributors_6_summary">Serveur FTP</string>
+    <string name="contributors_7_summary">Lancer le shell interactif</string>
+    <string name="connection_exists">La connexion existe déjà</string>
+</resources>

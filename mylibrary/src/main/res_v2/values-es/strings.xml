@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="crypt_encrypted">Cifrado</string>
+    <string name="crypt_decrypted">Descifrado</string>
+    <string name="crypt_encrypt">Cifrado</string>
+    <string name="crypt_decrypt">Descifrado</string>
+    <string name="operation_fail_following">Falló la siguiente operación de archivo</string>
+    <string name="crypt_pref_master_password_title">Contraseña maestra</string>
+    <string name="crypt_pref_master_password_summary">Establezca la contraseña maestra de cifrado.
+        déjelo en blanco para eliminarlo.</string>
+    <string name="crypt_pref_fingerprint_title">Huella digital</string>
+    <string name="crypt_pref_fingerprint_summary">Usar cifrado de autenticación de huellas digitales</string>
+    <string name="crypt_fingerprint_no_permission">Falta de permiso de huellas digitales</string>
+    <string name="crypt_fingerprint_not_enrolled">Huella digital no registrada</string>
+    <string name="crypt_fingerprint_no_security">Sin descubrimiento de seguridad en la pantalla de bloqueo</string>
+    <string name="crypt_warning_key">Tenga cuidado al cambiar el modo de seguridad
+        configuración del sistema, no podrá descifrar este contenido.</string>
+</resources>

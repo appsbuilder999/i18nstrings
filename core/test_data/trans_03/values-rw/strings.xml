@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Gufungura icyerekezo cyo kugendana</string>
+    <string name="drawer_close">Funga icyerekezo cyo kugendana</string>
+    <string name="icon">igishushanyo</string>
+    <string name="apps">Umuyobozi wa porogaramu</string>
+    <string name="ftp">Seriveri ya FTP</string>
+    <string name="setting">Igenamiterere</string>
+    <string name="select">Hitamo Ikintu</string>
+    <string name="press_again">Ongera ukande kugirango usohoke</string>
+    <string name="open">Fungura</string>
+    <string name="backup">Wibike</string>
+    <string name="uninstall">Kuramo</string>
+    <string name="play">Ububiko bukinirwaho</string>
+    <string name="properties">Ibyiza</string>
+    <string name="copyingapks">Gukoporora%d dosiye ya APK kuri%s</string>
+    <string name="delbook">Gusiba Ikimenyetso</string>
+    <string name="add_to_bookmarks">Ongeraho Ibimenyetso</string>
+    <string name="enterpath">Injira Inzira</string>
+    <string name="cancel">KANSELI</string>
+    <string name="create">REMA</string>
+    <string name="loading">Gutwara…</string>
+    <string name="file_empty">Idosiye irimo ubusa</string>
+    <string name="error">Ikosa</string>
+    <string name="search_results">Shakisha ibisubizo bya%s</string>
+    <string name="rename">Hindura izina</string>
+    <string name="save">Uzigame</string>
+    <string name="bookmarks_added">Ibimenyetso byongeweho</string>
+    <string name="fileexist">Idosiye ifite izina rimwe isanzweho</string>
+    <string name="name">Izina</string>
+    <string name="date">Itariki</string>
+    <string name="location">Ahantu</string>
+    <string name="size_capitalized">Ingano</string>
+    <string name="size">ubunini bwububiko</string>
+    <string name="enterzipname">Andika izina rya Zip</string>
+    <string name="no_app_found">Nta Porogaramu yabonetse yo gufungura iyi dosiye</string>
+    <string name="copying">Gukoporora</string>
+    <string name="moving">Kwimuka</string>
+    <string name="file">Idosiye</string>
+    <string name="folder">Ububiko</string>
+    <string name="newfolder">Ububiko bushya</string>
+    <string name="entername">Andika Izina</string>
+    <string name="extracting">Gukuramo</string>
+    <string name="stopping">Guhagarika</string>
+    <string name="open_parent">Gufungura Ububiko bwababyeyi</string>
+    <string name="open_with">Fungura hamwe na</string>
+    <string name="share">Sangira</string>
+    <string name="about">Ibyerekeye</string>
+    <string name="extract">Gukuramo</string>
+    
+    <string name="yes">Yego</string>
+    <string name="no">Oya</string>
+    
+    <string name="dialog_delete_category_directories">Ubuyobozi</string>
+    <string name="dialog_delete_category_files">Amadosiye</string>
+    <string name="dialog_delete_disclaimer">Gusiba ibintu bikurikira bizabikuraho burundu mubikoresho byawe kandi ntibishobora kugarurwa.</string>
+    <string name="dialog_delete_title">Gusiba ibintu burundu?</string>
+    <string name="deleting">Gusiba</string>
+    <string name="question_set_path_as_home">Urashaka gushyiraho inzira igezweho nkurugo kuriyi tab?</string>
+    <string name="directorysort">Uburyo bwo Gutondekanya Ububiko</string>
+    <string name="sort_by">Itondekanya Na</string>
+    <string name="sort_only_this">Gusa ubu bubiko</string>
+    <string name="theme">Insanganyamatsiko</string>
+    <string name="random">Uruhu rusanzwe</string>
+    <string name="random_summary">Shiraho ibara ryibanze ridasanzwe mugitangira</string>
+    <string name="colorize">Hindura amabara</string>
+    <string name="colorize_summary">Shiraho ibara ryerekana ishusho. Ntabwo arenga ububiko bwibishushanyo byerekana ibara.</string>
+    <string name="home">Urugo</string>
+    <string name="paste">Shyira</string>
+    <string name="history">Amateka</string>
+    <string name="copy">Gukoporora</string>
+    <string name="root_mode">Ubushakashatsi bwumuzi</string>
+    <string name="root_mode_summary">Kubikoresho byashinze imizi gusa. Reba gusa niba ubyizeye neza.</string>
+    <string name="root_failure">Kwinjira mu mizi ntabwo byemewe</string>
+    <string name="select_all">Hitamo Byose</string>
+    <string name="delete">Gusiba</string>
+    <string name="set_as_home">Shyira nkurugo</string>
+    <string name="operation_not_supported">Igikorwa ntigishyigikiwe</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Umucyo wibikoresho</string>
+    <string name="dark">Umwijima wibikoresho</string>
+    <string name="daytime">Ku manywa</string>
+    <string name="black">Umukara (kuri OLED)</string>
+    <string name="system">Sisitemu (kurikira insanganyamatsiko ya sisitemu)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Ububiko Hejuru</string>
+    <string name="filesOnTop">Amadosiye Hejuru</string>
+    <string name="none_on_top">Ntanumwe Hejuru</string>
+    <!--SortBy-->
+    <string name="sort_name">Izina</string>
+    <string name="lastModified">Iheruka Guhinduka</string>
+    <string name="sort_size">Ingano</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Tora dosiye</string>
+    <string name="process_viewer">Abareba Ibikorwa</string>
+    <string name="in_safe">Umwanya udahagije</string>
+    <string name="no_file_overwrite">Nta Idosiye Yanditse</string>
+    <string name="skip">Simbuka</string>
+    <string name="overwrite">Kwandika</string>
+    <string name="not_allowed">Ntibyemewe</string>
+    <string name="searching">Gushakisha%s</string>
+    <string name="done">Byakozwe</string>
+    <string name="set">Shyira</string>
+    <string name="enablerootmde">Gushoboza Imizi</string>
+    <string name="goback">Subira inyuma</string>
+    <string name="newfile">Idosiye Nshya</string>
+    <string name="no_files">Nta Idosiye</string>
+    <string name="used">yakoresheje umwanya</string>
+    <string name="used_by_others">ikoreshwa nabandi</string>
+    <string name="free">umwanya wubusa</string>
+    <string name="listview">Urutonde Reba</string>
+    <string name="gridview">Reba Imiyoboro</string>
+    <string name="permission">Uruhushya</string>
+    <string name="hide">Hisha</string>
+    <string name="exit">Gusohoka</string>
+    <string name="doforall">Kora kubintu byose</string>
+    <string name="gridcolumnno">Umubare winkingi muburyo bwa grid reba</string>
+    <string name="set_random">Impinduka zizaba nyuma yo gutangira porogaramu</string>
+    <string name="authors">Abanditsi</string>
+    
+    <string name="ok">Nibyiza</string>
+    <string name="ui">Imigaragarire</string>
+    <string name="general">Rusange</string>
+    <string name="thumb_summary">Erekana Thumbnail ya porogaramu n\'amashusho</string>
+    <string name="thumb">Erekana Thumbnail</string>
+    <string name="hidden">Erekana Idosiye Yihishe hamwe nububiko</string>
+    <string name="lastModifiedSummary">Erekana itariki nigihe cyo guhinduka kwanyuma</string>
+    <string name="lastModifiedPref">Erekana Itariki Yahinduwe nigihe nigihe</string>
+    <string name="size_pref_summary">Erekana ingano yama dosiye numubare wibintu mububiko</string>
+    <string name="size_pref">Erekana Ingano</string>
+    <string name="miscellaneous">Dutandukanye</string>
+    <string name="root_pref_summary">Erekana Uruhushya rwamadosiye nububiko</string>
+    <string name="root_pref">Erekana Uruhushya</string>
+    <string name="about_amaze_file_manager_label">Ibyerekeye Umuyobozi wa File Amaze</string>
+    <string name="version">verisiyo</string>
+    <string name="rate">Gereranya porogaramu</string>
+    <string name="feedback">Kohereza Ibitekerezo</string>
+    <string name="hiddenfiles">Idosiye Yihishe</string>
+    <string name="type">Andika</string>
+    <string name="root_directory">Imizi</string>
+    <string name="add_shortcut">Ongeraho Amagambo</string>
+    <string name="unsaved_changes">Impinduka zidakijijwe</string>
+    <string name="unsaved_changes_description">Ufite impinduka zidakijijwe, urashaka kuzigama mbere yo gusohoka?</string>
+    <string name="saving">Kuzigama</string>
+    <string name="package_installer">Gushyira paki</string>
+    <string name="view">Reba</string>
+    <string name="install">Shyira</string>
+    <string name="archive">Ububiko</string>
+    <string name="archive_text">Iyi ni archive. Ni ikihe gikorwa wifuza gukora?</string>
+    <string name="package_installer_text">Iki ni igikoresho cyo gushiraho. Niki gikorwa wifuza gukora?</string>
+    <string name="xda_title">Urudodo rwa XDA</string>
+    <string name="xda_summary">Ikibazo &amp;amp; Ikibazo, Gufasha &amp;amp; Gukemura Ibibazo</string>
+    <string name="circular_images">Koresha amashusho azenguruka kumashusho na videwo</string>
+    <string name="circular_icons">Koresha amashusho azenguruka</string>
+    <string name="back_title">Kugenda inyuma</string>
+    <string name="back_summary">Gushoboza gusubira inyuma kugiti hejuru yurutonde</string>
+    <string name="details">Ibisobanuro</string>
+    <string name="translators">Abasemuzi</string>
+    <string name="german_translation_title">Ikidage</string>
+    <string name="italian_translation_title">Umutaliyani</string>
+    <string name="french_translation_title">Igifaransa</string>
+    <string name="russian_translation_title">Ikirusiya</string>
+    <string name="spanish_translation_title">Icyesipanyoli</string>
+    
+    <string name="chinese_translation_title">Igishinwa</string>
+    <string name="serbian_translation_title">Igiseribiya</string>
+    <string name="turkish_translation_title">Turukiya</string>
+    <string name="ukrainian_translation_title">Ukraine</string>
+    <string name="portuguese_translation_title">Igiporutugali</string>
+    <string name="polish_translation_title">Igipolonye</string>
+    <string name="korean_translation_title">Igikoreya</string>
+    <string name="greek_translation_title">Ikigereki</string>
+    <string name="dutch_translation_title">Abadage</string>
+    <string name="romanian_translation_title">Umunyarumaniya</string>
+    <string name="vietnamese_translation_title">Abanya Viyetinamu</string>
+    <string name="japanese_translation_title">Ikiyapani</string>
+    
+
+    <string name="zip_viewer">Reba Zip</string>
+    
+    <string name="warning">Kuburira</string>
+    <string name="donate">Gutanga</string>
+    <string name="archive_extract_folder">Ububiko bwububiko bwububiko</string>
+    <string name="archive_summary">Amadosiye yububiko azakurwa muri ubu bubiko. Agaciro gasanzwe nububiko burimo ububiko.</string>
+    <string name="open_as">Fungura Nka</string>
+    <string name="text">Inyandiko</string>
+    <string name="audio">Ijwi</string>
+    
+    <string name="other">Ibindi</string>
+    <string name="image">Ishusho</string>
+    <string name="contributors">Abaterankunga</string>
+    <string name="save_paths">Ibuka inzira</string>
+    <string name="save_path_summary">Mugihe utangiye, ububiko buherutse kugaragara kuri buri tab buzerekanwa</string>
+    <string name="select_intent">Hitamo</string>
+    <string name="database">Ububikoshingiro</string>
+    <string name="colored_navigation">Ibara ryerekana amabara</string>
+    <string name="colored_navigvation_sum">Niba sisitemu yo kugendana sisitemu ifite ibara ryuruhu</string>
+
+    <string name="color_title">Ibara</string>
+    <string name="color_summary">Shyira ibara mubice bitandukanye bya UI</string>
+    <string name="primary_color_title">Ibara ryibanze (Tab ibumoso)</string>
+    <string name="primary_color_summary">Shyira ibara kubintu binini bya UI kuri tab ibumoso</string>
+    <string name="accent_color_title">Ibara ryihuta</string>
+    <string name="accent_color_summary">Shyira ibara kuri FAB nibindi bintu bito bya UI</string>
+    <string name="icon_color_title">Agashusho Ibara</string>
+    <string name="icon_color_summary">Shyira ibara kumashusho</string>
+    <string name="choose_color">Hitamo ibara</string>
+    <string name="files">Amadosiye</string>
+    <string name="textreader">Umusomyi winyandiko</string>
+    <string name="databasereader">Umusomyi wububiko</string>
+    <string name="show_dividers">Erekana abatandukanya</string>
+    <string name="needs_access">Andika Kwinjira Bisabwa</string>
+    <string name="needs_access_summary">Nyamuneka hitamo ububiko bwimizi ya \ t</string>
+    <string name="needs_access_summary1">\ gutanga uburenganzira bwo kwandika kugirango ukore</string>
+    <string name="smb_connection">Ihuza rya SMB</string>
+    <string name="smb_server">Aderesi ya IP Seriveri</string>
+    <string name="server_address">Aderesi ya IP Seriveri</string>
+    <string name="username">Izina ryukoresha</string>
+    <string name="password">Ijambobanga</string>
+    
+    
+    <string name="folders">Ububiko</string>
+    <string name="folderfilecount">%1$d ububiko na%2$d dosiye</string>
+    <string name="videos">Amashusho</string>
+    
+    <string name="documents">Inyandiko</string>
+    <string name="images">Amashusho</string>
+    <string name="clear">Sobanura</string>
+    
+    <string name="total">Igiteranyo:</string>
+    <string name="calculating">kubara</string>
+    <string name="sort">Gutandukanya</string>
+    <string name="ascending">Kuzamuka</string>
+    <string name="descending">Kumanuka</string>
+    <string name="default_string">Ibisanzwe</string>
+    <string name="doit">Bikora</string>
+    <string name="want_help">Ukeneye ubufasha?</string>
+    <string name="quick">Kwihuta byihuse</string>
+    <string name="recent">Amadosiye ya vuba</string>
+    <string name="edit">Hindura</string>
+    <string name="find">Shakisha kurupapuro</string>
+    <string name="grant">Tanga</string>
+    <string name="grantper">Tanga uruhushya</string>
+    <string name="grantfailed">Uruhushya ntiruhabwa</string>
+    <string name="grant_storage_permission">Porogaramu ikeneye uruhushya rwo kubika kugirango ikomeze. Guhagarika iki kiganiro bizasohoka muri porogaramu.</string>
+    <string name="operation_unsuccesful">Igikorwa kitatsinzwe</string>
+    <string name="creatingfile">Gukora Idosiye</string>
+    <string name="creatingfolder">Gukora Ububiko</string>
+    <string name="renaming">Guhindura izina</string>
+    <string name="cant_be_empty">%s ntibishobora kuba ubusa</string>
+    <string name="ip">Aderesi</string>
+    <string name="connection_name">Izina ryihuza</string>
+    <string name="no_device_found">Nta bikoresho byabonetse</string>
+    <string name="path">Inzira</string>
+    <string name="rename_bookmark">Hindura Ikimenyetso</string>
+    <string name="cut">Kata</string>
+    <string name="search">Shakisha</string>
+    <string name="invalid_name">Izina ritemewe</string>
+    <string name="search_hint">Andika gushakisha…</string>
+    <string name="advanced_search">Ishakisha Ryambere</string>
+    <string name="regular_expression">Imvugo isanzwe</string>
+    <string name="regular_expression_summary">Shakisha ukoresheje uburyo bwa BASH imvugo isanzwe</string>
+    <string name="match_content">Guhuza ibirimo</string>
+    <string name="match_content_summary">Niba byashyizweho, imvugo isanzwe izahuzwa nizina rya dosiye yose,
+        izashakisha ibibaho ukundi.</string>
+    <string name="start_ftp">Tangira</string>
+    <string name="stop_ftp">Hagarika</string>
+    <string name="ftp_status_running">Kwiruka</string>
+    <string name="ftp_status_not_running">Kutiruka</string>
+    <string name="ftp_no_wifi">Menya neza ko uhuza Wi-Fi</string>
+    <string name="domain">Domisiyo</string>
+    <string name="smb_share">Sangira inzira</string>
+    <string name="invalid">%s</string>
+    <string name="ftp_notif_starting">Seriveri ya FTP iratangira</string>
+    <string name="ftp_notif_starting_title">Seriveri ya FTP</string>
+    <string name="ftp_notif_title">Serveri Amaze FTP ikoresha</string>
+    <string name="ftp_notif_text">kuri%s</string>
+    <string name="ftp_notif_stop_server">Hagarara</string>
+    <string name="ftp_port_edit_menu_title">Icyambu cya FTP</string>
+    <string name="ftp_port_change_success">Icyambu cya FTP cyahindutse neza</string>
+    <string name="ftp_port_change_error_invalid">Inomero yicyambu itemewe yatoranijwe</string>
+    <string name="primary_two_title">Ibara ryibanze (Tab iburyo)</string>
+    <string name="primary_two_summary">Shyira ibara kubintu binini bya UI kuri tab iburyo</string>
+    <string name="support_development">Gushyigikira Iterambere</string>
+    <string name="report_bugs_title">Raporo Amakosa</string>
+    <string name="source_title">Kode yinkomoko</string>
+    <string name="source_summary">Reba code yinkomoko yacu kuri GitHub</string>
+    <string name="report_bugs_summary">Menyesha amakosa cyangwa usabe ibintu bishya</string>
+    <string name="translate_title">Sobanura</string>
+    <string name="translate_summary">Sobanura Amaze mu rurimi rwawe</string>
+    <string name="paypal_copy_message">Indangamuntu ya PayPal yimuwe kuri clip clip</string>
+    <string name="searching_devices">Gushakisha ibikoresho</string>
+    <string name="use_custom_ip">Koresha IP yihariye</string>
+    <string name="bookmark_lost">Ikimenyetso nticyabonetse, gisubiramo…</string>
+
+    
+    <string name="share_limit">Ntishobora gusangira dosiye zirenga 100</string>
+    <string name="otg_access">Hitamo umuzi wigikoresho cya OTG</string>
+    <string name="information">Amakuru</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Yemewe</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Yahinduwe</string>
+
+    <string name="title">Umutwe</string>
+    <string name="artist">Umuhanzi</string>
+    
+    <string name="year">Umwaka</string>
+    <string name="duration">Igihe</string>
+    <string name="comment">Igitekerezo</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Ibirimo</string>
+    
+    <string name="channels">Imiyoboro</string>
+    <string name="sample_rate">Igipimo Cyitegererezo</string>
+    
+    <string name="dimensions">Ibipimo</string>
+    <string name="frame_rate">Ikigereranyo cya Frame</string>
+    <string name="image_type">Ubwoko bw\'ishusho</string>
+    <string name="width">Ubugari</string>
+    <string name="height">Uburebure</string>
+    <string name="date_modified">Itariki Yahinduwe</string>
+    <string name="software">Porogaramu</string>
+    <string name="creator">Umuremyi</string>
+    <string name="camera_brand">Ikirangantego cya Kamera</string>
+    <string name="camera_model">Kamera Model</string>
+    <string name="date_taken">Itariki Yafashwe</string>
+    <string name="exposure_time">Igihe cyo Kumurika</string>
+    <string name="aperture_value">Agaciro keza</string>
+    <string name="image_iso">Ikigereranyo cyihuta cya ISO</string>
+    
+    <string name="focal_length">Uburebure bwibanze</string>
+    <string name="subject">Ingingo</string>
+    <string name="author">Umwanditsi</string>
+    <string name="keywords">Ijambo ryibanze</string>
+    
+    <string name="created">Yaremye</string>
+    <string name="format">Imiterere</string>
+    <string name="pages">Umubare wurupapuro</string>
+    <!-- reference to a document file -->
+    
+    <string name="security">Umutekano</string>
+    <string name="paper_size">Ingano yimpapuro</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Amadosiye amwe ntiyagenze neza%s</string>
+    <string name="copied">yandukuye</string>
+    <string name="moved">yimura</string>
+    <string name="copy_complete">Gukoporora Byuzuye</string>
+    <string name="waiting_title">Gutegereza</string>
+    <string name="waiting_content">Gutegereza ibikorwa kugirango birangire</string>
+    <string name="extract_complete">Gukuramo byuzuye</string>
+    <string name="compression_complete">Kwiyunvisha Byuzuye</string>
+    <string name="compressing">Gukanda</string>
+    <string name="cancelled">Yahagaritswe</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Yanditse</string>
+    <string name="out_of">muri</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ya</string>
+    <string name="processing_file">Gutunganya dosiye</string>
+    <string name="current_speed">Umuvuduko wubu</string>
+    <string name="smb_launch_error">Uzakenera gukoporora iyi dosiye mububiko kugirango uyifungure</string>
+    <string name="error_file_not_found">Ikosa: Idosiye Ntabonetse</string>
+    <string name="error_io">I / O Ikosa</string>
+    <string name="error_file_too_large">Ikosa: Idosiye Nini cyane</string>
+    <string name="medium_text">Inyandiko Hagati</string>
+    <string name="permission_read">Soma</string>
+    <string name="permission_write">Andika</string>
+    <string name="permission_execute">Kora</string>
+    <string name="permission_owner">Nyirayo</string>
+    <string name="permission_group">Itsinda</string>
+    <string name="permission_other">Ibindi</string>
+    <string name="clipboard_path_copy">Inzira yimuwe kuri clip clip</string>
+    <string name="service_timer">Igihe cyashize</string>
+    <string name="please_wait">Nyamuneka Tegereza</string>
+
+    <string name="cloud_connection">Guhuza Igicu</string>
+    <string name="cloud_connection_new">Guhuza Ibicu bishya</string>
+    <string name="cloud_dropbox">Igitonyanga</string>
+    <string name="cloud_drive">Google Drive ™</string>
+    
+    <string name="cloud_box">Agasanduku</string>
+    <string name="cloud_get">Shakisha Igicu</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Nta porogaramu</string>
+    <string name="ftp_path">Inzira Yisangiwe</string>
+    <string name="ftp_path_hint">Inzira igana mumuzi yububiko kugirango dusangire</string>
+    <string name="change">Hindura</string>
+    <string name="unknown_error">Oops, hari ibitagenze neza!</string>
+
+    <string name="ftp_path_change_success">Inzira ya FTP yahindutse neza</string>
+    <string name="ftp_path_change_error_invalid">Inzira itemewe</string>
+    <string name="ftp_status_no_connection">Ntaho uhurira</string>
+    <string name="ftp_status_secure_connection">Guhuza Umutekano</string>
+    <string name="ftp_status_title">Imiterere</string>
+    <string name="ftp_port">Icyambu</string>
+    <string name="ftp_login">Injira</string>
+    <string name="field_empty">Ikibanza ntigishobora kuba ubusa</string>
+    <string name="ftp_timeout">Igihe ntarengwa</string>
+    <string name="ftp_seconds">Amasegonda</string>
+    <string name="intellihide_toolbar_title">Toolbar ya Intellihide</string>
+    <string name="intellihide_toolbar_summary">Mu buryo bwikora uhisha umwanyabikoresho mugihe uzunguruka</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">yandukuye kuri clip clip</string>
+    <string name="contributors_1_summary">Ubuhinduzi</string>
+    <string name="contributors_2_summary">Agashusho na banneri</string>
+    <string name="contributors_3_summary">Moteri yinsanganyamatsiko</string>
+    <string name="contributors_4_summary">Igicucu inyuma ya FAB</string>
+    <string name="contributors_5_summary">Guhindura amabara mugihe cyohanagura tabs</string>
+    <string name="contributors_6_summary">Seriveri ya FTP</string>
+    <string name="contributors_7_summary">Kurasa igiceri gikorana</string>
+    <string name="connection_exists">Guhuza bimaze kubaho</string>
+
+    
+    <string name="crypt_decrypting">Gufungura</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Byabitswe</string>
+    <string name="crypt_decrypted">Yabitswe</string>
+    
+    <string name="crypt_decrypt">Gufungura</string>
+    <string name="operation_fail_following">Imikorere yananiwe gukurikira dosiye</string>
+    <string name="crypt_pref_master_password_title">Ijambobanga ryibanga</string>
+    <string name="crypt_pref_master_password_summary">Shiraho ijambo ryibanga ryibanga.
+        Kureka ubusa kugirango ukureho.</string>
+    <string name="crypt_pref_fingerprint_title">Urutoki</string>
+    <string name="crypt_pref_fingerprint_summary">Koresha igikumwe kugirango wemeze ibanga</string>
+    <string name="crypt_fingerprint_no_permission">Uruhushya rwo gutunga urutoki rwabuze</string>
+    <string name="crypt_fingerprint_not_enrolled">Nta rutoki rwanditseho</string>
+    <string name="crypt_fingerprint_no_security">Nta mutekano wo gufunga wabonetse</string>
+    <string name="crypt_warning_key">Mugire inama, mugihe uhinduye uburyo bwumutekano wawe kuva
+        Igenamiterere rya sisitemu, ntushobora gufungura ibiyirimo.</string>
+    <string name="warning_never_show">Ntuzongere kumenyesha</string>
+    <string name="warning_confirm">Yabonye!</string>
+    <string name="crypt_encryption_fail">Kunanirwa gushishoza</string>
+    <string name="crypt_decryption_fail">Kunanirwa gushishoza</string>
+    <string name="crypt_decryption_fail_password">Ijambobanga ritari ryo!</string>
+    <string name="crypt_fingerprint_authenticate">Gukoraho sensor kugirango ukomeze</string>
+    <string name="authenticate_password">Injira ijambo ryibanga</string>
+
+    <string name="sidebar_preferences">Uruhande rwuruhande</string>
+    <string name="sidebar_quick_access_title">Kuruhande rwihuta</string>
+    <string name="show_quick_access_pref_title">Erekana uburyo bwihuse</string>
+    <string name="show_quick_access_pref">Kwihuta byihuse</string>
+    <string name="directory">Ubuyobozi</string>
+
+    <string name="sidebar_bookmarks_title">Ibimenyetso byerekana kuruhande</string>
+    <string name="show_bookmarks_pref_title">Erekana ibimenyetso</string>
+    <string name="show_bookmarks_pref">Ibimenyetso</string>
+    <string name="create_bookmark">Kurema ibimenyetso</string>
+    <string name="edit_bookmark">Hindura akamenyetso</string>
+    <string name="question_delete_bookmark">Gusiba ibimenyetso?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin ntabwo yabonetse. Nyamuneka kura mububiko bukinirwaho.</string>
+    <string name="cloud_error_failed_restart">Kunanirwa kwikorera imiyoboro.
+        Nyamuneka fungura Amaze Cloud rimwe.</string>
+    <string name="cloud_remove">Urashaka kuvanaho igicu?</string>
+    <string name="cloud_fail_authenticate">Kunanirwa kwemeza</string>
+    <string name="cloud_share_copied">Ihuriro risangiwe ryimuwe kuri clip clip</string>
+    <string name="copy_low_memory">Kubura kwibuka, nyamuneka usibe RAM</string>
+    <string name="cloud_token_lost">Token yatakaye, nyamuneka ongera winjire</string>
+    <string name="monofont">Imyandikire ya Monospace</string>
+    <string name="showHeaders">Erekana Imitwe</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Nta kintu</string>
+	<string name="item">ingingo</string>
+	<string name="items">ibintu</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">File igomba kugira izina</string>
+    <string name="add_item">Ongeramo Ikintu</string>
+    <string name="failed_smb_decrypt_path">Kunanirwa kwipakurura SMB ihuza</string>
+    <string name="failed_cloud_new_connection">Kunanirwa kongeramo igicu gishya</string>
+    <string name="failed_cloud_api_key">Kunanirwa kwemeza Cloud plug-in</string>
+
+    <string name="local_inet_addr_error">Ikosa ryo kubona aderesi ya inet yaho</string>
+    <string name="intent_save_as">Uzigame nka…</string>
+    <string name="go">Genda</string>
+    <string name="advanced">Iterambere</string>
+    <string name="typeable_paths_title">Inzira yihariye</string>
+    <string name="typeable_paths_summary">Kanda inzira ndende kugirango wandike inzira yihariye</string>
+    <string name="send_email_to">Ohereza e-imeri kuri</string>
+
+    <string name="text_editor">Igenamiterere rya mwanditsi wanditse</string>
+    <string name="preference_newstack_title">Fungura dosiye nkigikorwa gishya</string>
+    <string name="preference_newstack_summary">Emera gufungura dosiye mubikorwa bitandukanye. Kubageraho uhereye kuri sisitemu yakira ecran.</string>
+    
+    <string name="developers">Abashinzwe iterambere</string>
+    <string name="no_bitcoin_app">Nyamuneka shyiramo porogaramu ya Bitcoin ya Wallet</string>
+    <string name="channel_name_normal">Amatangazo ya Amaze</string>
+    <string name="channel_description_normal">Amaze File Manager \ \'Amatangazo</string>
+    <string name="channel_name_ftp">Amaze FTP Seriveri</string>
+    <string name="channel_description_ftp">Amaze File Manager Umuyobozi wa FTP Seriveri ya</string>
+
+    
+    <string name="processing">Gutunganya…</string>
+    <string name="failed_no_connection">Kunanirwa gupakira dosiye. Nyamuneka reba isano yawe.</string>
+
+    <string name="update">AMAKURU MASHYA</string>
+	<string name="scp_connection">Ihuza rya SCP / SFTP</string>
+    <string name="ftp_connection">Ihuza rya FTP</string>
+    <string name="ftps_connection">FTP hejuru ya SSL Ihuza</string>
+    <string name="scp_port">Icyambu</string>
+    
+    <string name="ssh_host_key_verification_prompt_title">Kugenzura uwakiriye</string>
+    <string name="ssh_select_pem_button">SSH Urufunguzo rwihariye</string>
+    <string name="ssh_pem_key_parse_error">Ntushobora gusoma PEM yatoranijwe:%s</string>
+    <string name="password_unchanged">(idahindutse)</string>
+    <string name="ssh_authentication_failure_password">Kunanirwa kwa Logon: Ntibishobora kwemeza izina ryumukoresha nijambo ryibanga.</string>
+    <string name="ssh_authentication_failure_key">Kunanirwa kwa Logon: Ntibishobora kwemeza hamwe nizina ryukoresha hamwe nurufunguzo rwihariye.</string>
+    <string name="ssh_connect_failed">Ntibishobora guhuza%1$s:%2$d:%3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">UMUBURO: WIBUKE KUMENYEKANA CYANE CYANE!</string>
+    
+    <string name="ssh_key_prompt_passphrase">Nyamuneka andika ijambo ryibanze.</string>
+    <string name="add_shortcut_not_supported_by_launcher">Kurema ama shortcuts ntabwo ashyigikiwe nuwatangije.</string>
+    
+    <string name="select_color_config">Hitamo ibara ryamabara</string>
+    <string name="customize">Hindura</string>
+    
+    <string name="preselected_configs_title">Ibikoresho byatoranijwe</string>
+    
+    <string name="blue">Ubururu</string>
+    <string name="green">Icyatsi</string>
+    <string name="password_no_match">Ijambobanga ntirihuye</string>
+    <string name="deselect_all">Hitamo Byose</string>
+    <string name="filename">Filename Izina</string>
+    <string name="compress_file_suggest_zip_extension">Birasabwa gukoresha \ ". zip \" nk\'iyagurwa rya dosiye.</string>
+    <string name="about_amaze">Umuyobozi wa dosiye yububiko bwa dosiye ya Android</string>
+    <string name="license">Uruhushya</string>
+    <string name="libraries">Amasomero</string>
+    <string name="password_repeat">Subiramo ijambo ryibanga</string>
+    <string name="create_file_suggest_txt_extension">Birasabwa gukoresha \ ". txt \" nk\'iyagurwa rya dosiye.</string>
+    <string name="ssh_select_pem">Hitamo urufunguzo rwihariye rwo kwemeza</string>
+    <string name="ssh_key_invalid_passphrase">Urufunguzo rwibanze rutemewe.</string>
+    <string name="ssh_key_no_decoder_decrypt">Nta decoder yemewe yo gufungura PEM.</string>
+    <string name="encryption_fail_copy">Kunanirwa kuvugurura ibanga ryinjira muri data base</string>
+    <string name="extracted">Yakuwe</string>
+    <string name="compressed">Gucomeka</string>
+    <string name="processed">Byatunganijwe</string>
+    <string name="no_obtainable_info">Nta makuru yerekeye iyi dosiye</string>
+    <string name="reopen_from_source">Ntishobora, nyamuneka fungura muri porogaramu iheruka</string>
+    <string name="no_file_error">Ikintu kitagenze neza, nta kintu cyo gufungura</string>
+    <string name="file_too_long">Idosiye ni ndende cyane kandi ntishobora guhindurwa, icyakora urashobora gusoma inyuguti ya mbere%d</string>
+    <string name="file_read_only">Idosiye yafunguwe irasomwa gusa.</string>
+    <string name="got_it">Yabonye!</string>
+    <string name="encrypt_file_save_as">Bika Idosiye Yabitswe Nka…</string>
+    <string name="encrypt_folder_save_as">Bika Ububiko Bwabitswe Nka…</string>
+    <string name="encrypt_option_use_aze">Koresha Imiterere ya Encryption ya Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p> AESCrypt nuburyo bwimikorere ya dosiye ibanga ishingiye kubanga rya AES. Irashobora kandi kwerekanwa, irashobora gufungurwa hamwe na porogaramu ya AESCrypt kurundi rubuga. </p>
+        <p> <a href="https://www.aescrypt.com" intego="_blank"> Urubuga rwa AESCrypt </a> </p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p> Imiterere ya Amaze \ \'Encryption Format nayo ishingiye kuri encryption ya AES; ariko bitandukanye na AESCrypt format, irashobora gufungurwa gusa niki gikoresho; nanone ntugomba gukuramo Amaze File Manager muri iki gikoresho cyangwa ngo uhindure uburyo ufunga ecran, bitabaye ibyo ntuzabona uburyo bwo kugarura dosiye ihishe. </p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Idosiye ihishe igomba gukoresha \ ". aze \" nk\'iyagurwa rya dosiye.</string>
+    <string name="encrypt_file_must_end_with_aes">Idosiye ihishe igomba gukoresha \ ". aes \" nk\'iyagurwa rya dosiye.</string>
+    <string name="error_aescrypt_decrypt_failed">Ntishobora gushishoza \ \'%s \': \ \'%s \'</string>
+    <string name="cannot_overwrite">Ntishobora kwandika dosiye.</string>
+    <string name="saved_single_file">Idosiye yabitswe nka \ \'%s \'.</string>
+    <string name="saved_multi_files">%d dosiye zabitswe.</string>
+    <string name="create_hidden_file_warn">Idosiye yakozwe izahishwa kurutonde rwa dosiye.</string>
+    <string name="grant_apkinstall_permission">Porogaramu ikeneye uruhushya rwo kwishyiriraho porogaramu komeza.</string>
+    <string name="time_remaining">Igihe gisigaye</string>
+    <string name="transfer_rate">Igipimo cyo kohereza</string>
+    <string name="unknown">kitazwi</string>
+    <string name="multiple_invalid_archive_entries">Amadosiye amwe ari muri archive ntashobora gukururwa; archive irashobora kwangirika cyangwa yaturutse ahantu habi.</string>
+    <string name="saf_otg_explanation">Ubu uzajya muri dosiye ya Android kubera impamvu z\'umutekano. Nyamuneka hitamo igikoresho cya USB kurutonde rwibumoso.</string>
+    <string name="donation_thanks">Urakoze kubwimpano, ibi bidutera imbaraga! (:</string>
+    <string name="enable_marquee_filename">Gushoboza marquee kumazina ya dosiye</string>
+    <string name="archive_password_prompt">Nyamuneka andika ijambo ryibanga:</string>
+    
+    <string name="cannot_extract_archive">Ntushobora gukuramo ububiko \ "%s \":%s</string>
+    <string name="archive_unsupported_or_corrupt">Ntushobora gufungura ububiko \ "%s \". Ntabwo dushobora gufungura ububiko, cyangwa ububiko bwarangiritse.</string>
+    <string name="close">Funga</string>
+    <string name="bookmark_exists">Ikimenyetso kirahari</string>
+    <string name="hide_media">Hisha mubashakisha itangazamakuru</string>
+    
+    <string name="update_host_key">Kuvugurura Urufunguzo rwabakiriye</string>
+    <string name="cancel_recommended">Hagarika (Basabwe)</string>
+    
+    
+    <string name="failed_install_apk">Kunanirwa kwishyiriraho</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Ububiko bw\'imbere</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Ikarita ya SD</string>
+    <string name="choose_folder">Hitamo ubu bubiko</string>
+    
+    <string name="some_files_failed_invalid_operation">Amadosiye amwe yarananiwe kubera imikorere itemewe</string>
+    <string name="ftp_server_prompt_connect_to_network">Kwihuza numuyoboro cyangwa ushoboze AP</string>
+    <string name="ftp_server_open_settings">Gufungura igenamiterere</string>
+    <string name="move">Himura</string>
+    <string name="select_save_location">Hitamo ahantu kugirango ubike</string>
+    <string name="scp_default_path">Inzira isanzwe (Bihitamo)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Ihangane, ibyo ntibyari bikwiye kubaho.</string>
+    
+    <string name="error_report_button_text">Menyesha iri kosa ukoresheje imeri</string>
+    <string name="error_report_button_telegram">Menyesha iri kosa ukoresheje telegaramu</string>
+    <string name="copy_for_github">Gukoporora raporo yakozwe</string>
+    <string name="error_report_open_issue_button_text">Raporo kuri GitHub</string>
+    <string name="error_report_open_github_notice">Nyamuneka reba niba ikibazo kivuga ku mpanuka yawe kimaze kubaho.</string>
+    <string name="error_snackbar_message">Ihangane, hari ibitagenze neza.</string>
+    <string name="error_snackbar_action">Raporo</string>
+    <string name="what_device_headline">Amakuru:</string>
+    <string name="what_happened_headline">Ibyabaye:</string>
+    
+    <string name="your_comment">Igitekerezo cyawe (mucyongereza):</string>
+    <string name="error_details_headline">Ibisobanuro:</string>
+    <string name="app_ui_crash">App / UI yakoze impanuka</string>
+    <string name="error_report_title">Raporo yamakosa</string>
+    <string name="crash_report_copied">Raporo yimpanuka yimuwe kuri clip clip</string>
+    <string name="disableIpcSignature">Hagarika igenzura rya IPC (Kubireba umurage wa SMBv1 - UMUTEKANO!)</string>
+    <string name="cannot_delete_file">Ntushobora gusiba dosiye</string>
+    <string name="cannot_delete_file_with_reason">Ntushobora gusiba dosiye -%s</string>
+    <string name="cannot_rename_file">Ntushobora guhindura dosiye%s -%s</string>
+    <string name="cannot_read_directory">Ntushobora gusoma ububiko%s -%s</string>
+    <string name="just_once">Rimwe Rimwe</string>
+    <string name="always">Buri gihe</string>
+    <string name="choose_different_app">Hitamo porogaramu zitandukanye</string>
+    <string name="clear_open_file">Cache isobanutse</string>
+    <string name="clear_open_file_summary">Ihanagura porogaramu zidasanzwe zifungura porogaramu zifungura</string>
+    <string name="ftp_readonly">Soma-gusa kwinjira</string>
+    <string name="legacy_listing_title">Koresha urutonde rwumurage kumuzi</string>
+    <string name="legacy_listing_summary">Niba bishoboka, koresha uburyo bwumurage kurutonde rwamadosiye</string>
+    <string name="error_unsupported_v5_rar">Ububiko bwa RAR \ "%s \" ntibushyigikiwe na RAR v5 ububiko.</string>
+    <string name="ftp_prompt_restart_server">Uzakenera gutangira seriveri ya FTP kugirango impinduka zitangire gukurikizwa.</string>
+    <string name="error_permission_denied">Uruhushya rwanze</string>
+    <string name="error_archive_password_incorrect">Ijambobanga ryibanga ryibanga.</string>
+    <string name="error_archive_cannot_extract">Ntushobora gukuramo ububiko bwububiko \ "%s \" kuri \ "%s \".</string>
+    <string name="drag_and_drop_preference">Hitamo gukurura no guta ibyifuzo (Ubushakashatsi)</string>
+    <string name="drag_to_move_copy">Gukoraho no gukurura kugirango wimure cyangwa wandukure dosiye</string>
+    <string name="drag_to_select">Gukoraho no gukurura kugirango uhitemo dosiye</string>
+    <string name="disable">Hagarika</string>
+    <string name="choose_operation">Hitamo imikorere yo gukora</string>
+    <string name="remember">Ibuka ubutaha</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Tanga SAF kwinjira kuri seriveri ya FTP</string>
+    
+    
+    <string name="android_data_prompt_saf_access_title">Tanga SAF kwinjira</string>
+    <string name="ftp_preference_saf_filesystem_title">Koresha sisitemu yumurage wumurage</string>
+    <string name="ftp_preference_saf_filesystem">Gushoboza ibi kugirango ushyigikire ibikoresho byo kubika ibikoresho byo hanze kuri verisiyo nshya ya Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP seriveri yasanganywe inzira yari yarasubitswe mububiko bwimbere mugihe urimo usubira mubikorwa bya dosiye yumurage. Nyamuneka hitamo inzira nshya ukoresheje menu iri iburyo hejuru nkuko bikenewe.</string>
+    <string name="ftp_server_reset_notify">FTP seriveri yasanganywe inzira yari yarasubitswe mububiko bwimbere</string>
+    <string name="ftp_server_root_unavailable">Urimo guhitamo inzira isaba kwinjira mumuzi. Nyamuneka ushoboze gushora imizi mumiterere niba igikoresho cyawe gishinze imizi.</string>
+    
+    <string name="compressed_explorer_fragment_error_open_uri">Ikosa ryo gufungura URI \ "%s \" kugirango usome.</string>
+    <string name="error_empty_archive">\ "%s \" ni ububiko bwubusa.</string>
+    <string name="error_bad_archive_without_info">\ "%s \" ni ububiko bwangiritse.</string>
+    <string name="error_bad_archive_with_info">\ "%s \" ni ububiko bwangiritse. \nUbutumwa buva mu bisohoka: \ "%s \"</string>
+    <string name="security_error">Idosiye ntishobora gufungurwa ukoresheje iyi porogaramu</string>
+    <string name="cloud_drive_tooltip">Kora Google Drive ™ ihuza yo gucunga amadosiye avuye muri Amaze File Manager.</string>
+    <string name="signin_with_google_title">Kwemeza gukoresha Google Drive ™</string>
+    <string name="show_system_apps">Erekana porogaramu za sisitemu</string>
+    <string name="system_apps">Porogaramu za sisitemu</string>
+    <string name="select_inverse">Hitamo Inyuma</string>
+    <string name="select_by_type">Hitamo kubwoko</string>
+    <string name="select_by_date">Hitamo kumunsi</string>
+    <string name="select_similar">Hitamo ibisa</string>
+    <string name="error_fetching_google_play_product_list">Ikosa ryo kuzana urutonde rwibicuruzwa muri Google Play.</string>
+    <string name="grant_all_files_permission">Kuva kuri Android 11, Google isaba Abayobozi ba File gusaba uruhushya rwabakoresha gucunga dosiye zose kubikoresho. Ibisobanuro hano.
+        \n \nAmaze File File ikeneye uru ruhushya. Nyuma yo gukanda "Impano" hano, nyamuneka hitamo Emerera kwinjira kugirango ucunge dosiye zose kuri ecran ikurikira.
+        \n \nGuhagarika iki kiganiro bizasohoka muri porogaramu.</string>
+    <string name="user_apps">Porogaramu zikoresha</string>
+    <string name="appearance">Kugaragara</string>
+    <string name="behavior">Imyitwarire</string>
+    <string name="appearance_summary">Hindura insanganyamatsiko, amabara n\'imiterere y\'umuyobozi wa dosiye</string>
+    <string name="ui_summary">Igenzura amakuru yerekana, uhindure kuruhande, hanyuma uhindure UI ukunda</string>
+    <string name="behavior_summary">Hindura imyitwarire nkishakisha ryambere kandi niba ufungura dosiye nkigikorwa gishya</string>
+    <string name="security_summary">Shiraho ijambo ryibanga na encryption</string>
+    <string name="backup_summary">Kohereza / Kuzana Amaze igenamiterere</string>
+
+    <string name="pref_export">Kohereza</string>
+    <string name="pref_export_summary">Igenamiterere ryohereza hanze</string>
+    <string name="pref_import">Kuzana</string>
+    <string name="pref_import_summary">Kuzana ibicuruzwa</string>
+
+    <string name="quick_desc">Amadosiye aherutse kuboneka binyuze kuri Amaze</string>
+    <string name="recent_desc">Amadosiye aherutse gukorwa cyangwa yahinduwe</string>
+    <string name="error_cannot_find_way_open">Ntabwo washoboye kubona uburyo bwo gufungura dosiye</string>
+    <string name="error_cant_decompress_that_file">Ntushobora gutunganya ububiko bwasabwe</string>
+    <string name="analyse_storage">Gusesengura Ububiko</string>
+    
+    
+    <string name="download">Gukuramo</string>
+    
+    <string name="amaze_utils_installed_alias">Urakoze gushiraho Amaze File Utilities. Wongeye koherezwa kuri porogaramu.</string>
+    <string name="image_viewer">Amaze Reba Amashusho</string>
+    <string name="video_player">Umukinnyi wa Video Amaze</string>
+    <string name="amaze_audio_player">Umucuraranzi wumuziki Amaze</string>
+    <string name="pdf_viewer">Amaze Yerekana Inyandiko</string>
+    <string name="docx_viewer">Amaze Reba Inyandiko Reba</string>
+    <string name="share_logs">Sangira ibiti</string>
+    <string name="share_logs_summary">Sangira ibiti byafashwe ukoresheje imeri / telegaramu</string>
+    <string name="open_with_amaze">Fungura hamwe na Amaze</string>
+    <string name="confirmation">Kwemeza</string>
+    
+    <string name="error_google_play_cannot_update_myself">Kuri manda ya politiki ya Google Play, porogaramu ntizemewe kwivugurura wenyine. Nyamuneka vugurura porogaramu kuva Google Play.</string>
+    <string name="error_cannot_get_package_info">Ntushobora kubona amakuru yamakuru muri dosiye \ "%s \". Haba dosiye yerekanwe ntabwo ari APK, cyangwa dosiye yububiko yangiritse.</string>
+    <string name="preference_delete_confirmation">Gusiba ibyemezo</string>
+    <string name="preference_delete_confirmation_summary">Saba ibyemezo mbere yo gusiba dosiye. Guhagarika ibi biracika intege cyane!</string>
+    
+    
+    <string name="protocol_ftps">Umutekano FTP</string>
+    <string name="unavailable">Ntishobora kuboneka</string>
+
+    <string name="exporting_failed">Kohereza hanze byananiranye: ntishobora kwandika dosiye yinyuma</string>
+    <string name="importing_failed">Kuzana byananiranye: ntushobora gusoma dosiye yububiko</string>
+    <string name="importing_completed">Kuzana ibicuruzwa byarangiye</string>
+    <string name="invalid_backup_file">Idosiye yububiko itemewe</string>
+    <string name="import_failed_for">Kuzana byananiranye kuri:</string>
+    <string name="free_of">"%s \n%s yubusa%s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin idashyigikiwe na verisiyo ya F-Droid. Nyamuneka koresha verisiyo yububiko bwa Amaze.</string>
+    <string name="disable_player_intent_filters">Hagarika umukinnyi imigambi yo gushungura</string>
+    <string name="disable_player_intent_filters_summary">Ihagarika Amaze yubatswe nabakinnyi ba media kuva bahitamo dosiye</string>
+    <string name="no_app_found_intent">Nta porogaramu yabonetse kugirango ikemure iyi ntego. Ufite DocumentsUI yashizwemo?</string>
+    <string name="cloud_connection_credentials_cleared">Ibyangombwa byo guhuza ibicu byahanaguwe</string>
+    <string name="cloud_connection_credentials_cleared_msg">Kubwamahirwe, ntitwashoboye kwimura ibyangombwa byawe bihuza ibicu kuri gahunda nshya yububiko, kandi twagombaga kubikura muri porogaramu. Nyamuneka ongera ushyireho igicu.</string>
+</resources>

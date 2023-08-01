@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Tatala le pusa fa\'ata\'avale</string>
+    <string name="drawer_close">Tapuni le fa\'ailoga fa\'ata\'ita\'i</string>
+    
+    <string name="apps">Fa\'atonu Fa\'atonu</string>
+    
+    <string name="setting">Fa\'atonu</string>
+    <string name="select">Fili\'ili le Mea</string>
+    <string name="press_again">Toe toe fetaomi e alu ese</string>
+    <string name="open">Tatala</string>
+    <string name="backup">Tatala</string>
+    <string name="uninstall">Tatala</string>
+    <string name="play">Ta\'alo faleoloa</string>
+    <string name="properties">Metotia</string>
+    <string name="copyingapks">Kopi %d faila APK i %s</string>
+    <string name="delbook">Ta\'ese le Fa\'ailoga</string>
+    <string name="add_to_bookmarks">Fa\'aopoopo i Fa\'ailoga</string>
+    <string name="enterpath">Ulu i le Ala</string>
+    <string name="cancel">FA\'AVAE</string>
+    <string name="create">FUA</string>
+    <string name="loading">Lo\'uina...</string>
+    <string name="file_empty">Ua avanoa le faila</string>
+    <string name="error">Sese</string>
+    <string name="search_results">Su\'esu\'ega o %s</string>
+    <string name="rename">Sui igoa</string>
+    <string name="save">Sefe</string>
+    <string name="bookmarks_added">Fa\'ailoga Fa\'aopoopo</string>
+    <string name="fileexist">Faila o lo\'o iai le igoa tutusa</string>
+    <string name="name">Igoa</string>
+    <string name="date">Aso</string>
+    <string name="location">Tulaga</string>
+    <string name="size_capitalized">Lapopoa</string>
+    <string name="size">le tele o le faila</string>
+    <string name="enterzipname">Tu\'u Igoa Sipi</string>
+    <string name="no_app_found">Leai se App na maua e tatala ai lenei faila</string>
+    <string name="copying">Kopi</string>
+    <string name="moving">Si\'i</string>
+    <string name="file">Fila</string>
+    <string name="folder">Foloa</string>
+    <string name="newfolder">Foma\'i Fou</string>
+    <string name="entername">Tu\'u Igoa</string>
+    <string name="extracting">Ave\'ese</string>
+    <string name="stopping">Taofi</string>
+    <string name="open_parent">Tatala Fa\'atonu Matua</string>
+    <string name="open_with">Tatala ma</string>
+    <string name="share">Fa\'asoa</string>
+    <string name="about">E uiga i</string>
+    <string name="extract">Si\'ese</string>
+    
+    <string name="yes">Ioe</string>
+    <string name="no">Leai</string>
+    
+    
+    <string name="dialog_delete_category_files">Faila</string>
+    <string name="dialog_delete_disclaimer">O le tapeina o mea o lo\'o i lalo o le a aveesea tumau ai mai lau masini ma e le mafai ona toe maua.</string>
+    <string name="dialog_delete_title">Tape uma mea?</string>
+    <string name="deleting">Tape</string>
+    <string name="question_set_path_as_home">E te mana\'o e seti le ala o lo\'o i ai nei e fai ma fale mo lenei fa\'ailoga?</string>
+    <string name="directorysort">Fa\'atonu Fa\'avasega Fa\'atonu</string>
+    <string name="sort_by">Fa\'avasega I</string>
+    <string name="sort_only_this">Na\'o le faila lenei</string>
+    <string name="theme">Autu</string>
+    <string name="random">Pa\'u Fa\'afuase\'i</string>
+    <string name="random_summary">Se\'i fa\'asolo le lanu muamua i le amataga</string>
+    <string name="colorize">Voloi Ata</string>
+    <string name="colorize_summary">Seti lanu fa\'amaufa\'ailoga. E le fa\'alilolilo fa\'ailoga lanu mea e fiafia i ai.</string>
+    <string name="home">Aiga</string>
+    <string name="paste">Pa\'i</string>
+    <string name="history">Talafaasolopito</string>
+    <string name="copy">Kopi</string>
+    
+    <string name="root_mode_summary">Mo na\'o masini maua\'a. Siaki pe afai e te mautinoa i ai.</string>
+    <string name="root_failure">E le\'i fa\'atagaina le avanoa mo a\'a</string>
+    <string name="select_all">Filifili Uma</string>
+    <string name="delete">Tape</string>
+    <string name="set_as_home">Fa\'atonu e fai ma Fale</string>
+    <string name="operation_not_supported">E le lagolagoina le gaioiga</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Malamalama Mea</string>
+    <string name="dark">Material Pogisa</string>
+    <string name="daytime">Ao</string>
+    <string name="black">Black (mo OLED)</string>
+    <string name="system">Faiga (mulimuli i le autu o le polokalama)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Fulu i Luga</string>
+    <string name="filesOnTop">Faila i Luga</string>
+    <string name="none_on_top">Leai i Luga</string>
+    <!--SortBy-->
+    <string name="sort_name">Igoa</string>
+    <string name="lastModified">Suiga Mulimuli</string>
+    <string name="sort_size">Lapopoa</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Fili se faila</string>
+    <string name="process_viewer">Vaaiga Fa\'agasolo</string>
+    <string name="in_safe">E le lava le avanoa</string>
+    <string name="no_file_overwrite">Leai se Faila ua Soia</string>
+    <string name="skip">Sese</string>
+    <string name="overwrite">Suii</string>
+    <string name="not_allowed">E le fa\'ataga</string>
+    <string name="searching">Su\'esu\'e %s</string>
+    <string name="done">Mau</string>
+    
+    <string name="enablerootmde">Fa\'aaga le Fa\'aa\'a</string>
+    <string name="goback">Toe Fo\'i</string>
+    <string name="newfile">Faila Fou</string>
+    <string name="no_files">Leai ni faila</string>
+    <string name="used">avanoa fa\'aoga</string>
+    <string name="used_by_others">fa\'aoga e isi</string>
+    <string name="free">avanoa avanoa</string>
+    <string name="listview">Lisi Va\'aiga</string>
+    <string name="gridview">Grid Va\'ai</string>
+    <string name="permission">Faatagaga</string>
+    <string name="hide">Natia</string>
+    <string name="exit">Ofo</string>
+    <string name="doforall">Faia mo mea uma</string>
+    <string name="gridcolumnno">Numera o koluma ile va\'aiga fa\'ata</string>
+    <string name="set_random">O le a faia suiga pe a uma ona e toe amata le app</string>
+    <string name="authors">Tutala</string>
+    
+    <string name="ok">Ua lelei</string>
+    <string name="ui">Atafa\'atasi</string>
+    <string name="general">Aotele</string>
+    <string name="thumb_summary">Fa\'aali Ata Ata o polokalame ma ata</string>
+    <string name="thumb">Fa\'aali Ata Fa\'aali</string>
+    <string name="hidden">Fa\'aali Faila Natia ma Folder</string>
+    <string name="lastModifiedSummary">Fa\'aali le aso ma le taimi o le suiga mulimuli</string>
+    <string name="lastModifiedPref">Fa\'aali Aso Fa\'ai\'uga Fa\'afou ma Taimi</string>
+    <string name="size_pref_summary">Fa\'aali le tele o faila ma le aofa\'i o mea i totonu o faila</string>
+    <string name="size_pref">Fa\'aali Fua</string>
+    <string name="miscellaneous">Visi</string>
+    <string name="root_pref_summary">Fa\'aali Fa\'atagaga o Faila ma Fa\'amau</string>
+    <string name="root_pref">Faaali Faatagaga</string>
+    <string name="about_amaze_file_manager_label">E uiga i le Amaze File Manager</string>
+    <string name="version">Versi</string>
+    <string name="rate">Fa\'ailoga le app</string>
+    <string name="feedback">Auina Manatu</string>
+    <string name="hiddenfiles">Faila Natia</string>
+    <string name="type">Ituaiga</string>
+    <string name="root_directory">A\'a</string>
+    <string name="add_shortcut">Fa\'aopoopo le Ala Pu\'upu</string>
+    <string name="unsaved_changes">Suiga e le\'i Sefeina</string>
+    <string name="unsaved_changes_description">E iai au suiga e le\'i fa\'asaoina, ete mana\'o e teu a\'o le\'i alu ese?</string>
+    <string name="saving">Faasaoina</string>
+    <string name="package_installer">Fa\'apipi\'i Fa\'aputu</string>
+    <string name="view">Va\'ai</string>
+    <string name="install">Fa\'amau</string>
+    <string name="archive">Fa\'amaumauga</string>
+    <string name="archive_text">O se fa\'amaumauga lenei. O le a le gaioiga e te mana\'o e fai?</string>
+    <string name="package_installer_text">O se fa\'apipi\'i pusa lea. O le a le gaioiga e te mana\'o e fai?</string>
+    <string name="xda_title">XDA filo</string>
+    <string name="xda_summary">Q&amp;amp;A, Fesoasoani &amp;amp; Troubleshooting</string>
+    <string name="circular_images">Fa\'aoga ata li\'o mo ata ma vitiō</string>
+    <string name="circular_icons">Fa\'aoga ata li\'o</string>
+    <string name="back_title">Ta\'uta\'ua i tua</string>
+    <string name="back_summary">Fa\'aagaoioi le fa\'asinomaga tua i le pito i luga o le lisi</string>
+    <string name="details">Fa\'amatalaga</string>
+    <string name="translators">Faaliliu</string>
+    <string name="german_translation_title">Siamani</string>
+    <string name="italian_translation_title">Italia</string>
+    <string name="french_translation_title">Farani</string>
+    <string name="russian_translation_title">Rusia</string>
+    <string name="spanish_translation_title">Sipaniolo</string>
+    
+    <string name="chinese_translation_title">Saina</string>
+    <string name="serbian_translation_title">Serbia</string>
+    <string name="turkish_translation_title">Turki</string>
+    <string name="ukrainian_translation_title">Ukaraina</string>
+    <string name="portuguese_translation_title">Potukale </string>
+    <string name="polish_translation_title">Polani</string>
+    <string name="korean_translation_title">Korea</string>
+    <string name="greek_translation_title">Eleni</string>
+    <string name="dutch_translation_title">Holani</string>
+    <string name="romanian_translation_title">Romania</string>
+    <string name="vietnamese_translation_title">Vietname</string>
+    <string name="japanese_translation_title">Iapani</string>
+    
+
+    <string name="zip_viewer">Sisi Va\'ai</string>
+    <string name="unin_system_apk">O le polokalama fa\'aoga lea, o le tapeina e ono o\'o atu ai i le le mautu.\nFa\'agasolo?</string>
+    <string name="warning">Lapataiga</string>
+    <string name="donate">Foai</string>
+    <string name="archive_extract_folder">Fa\'amaumauga Aveese le faila</string>
+    <string name="archive_summary">O le a ave\'ese faila i le faila lea. O le tau masani o le lisi lea o lo\'o i ai fa\'amaumauga.</string>
+    <string name="open_as">Tatala Pei</string>
+    
+    <string name="audio">Leo</string>
+    <string name="video">Vitio</string>
+    <string name="other">Isi</string>
+    <string name="image">Ata</string>
+    <string name="contributors">Fai sao</string>
+    <string name="save_paths">Manatua ala</string>
+    <string name="save_path_summary">Pe a amataina, o le faila sili ona lata mai na va\'ai mo laupepa ta\'itasi o le a fa\'aalia</string>
+    <string name="select_intent">Fili</string>
+    <string name="database">Fa\'amaumauga</string>
+    <string name="colored_navigation">Lulu Fa\'ailoga lanu</string>
+    <string name="colored_navigvation_sum">Pe lanu le pa\'u o le fa\'aogaina o le system i le pa\'u</string>
+
+    <string name="color_title">Lili</string>
+    <string name="color_summary">Se\'i lanu i vaega UI eseese</string>
+    <string name="primary_color_title">Lanu Tulaga Muamua (Itu Tauagavale)</string>
+    <string name="primary_color_summary">Se\'i lanu i elemene UI lapopoa mo le itu agavale</string>
+    <string name="accent_color_title">Lanu Fa\'ailo</string>
+    <string name="accent_color_summary">Setu lanu i le FAB ma isi elemene UI laiti</string>
+    <string name="icon_color_title">Lili Ata</string>
+    <string name="icon_color_summary">Se\'i lanu i ata</string>
+    <string name="choose_color">Fili lanu</string>
+    <string name="files">Faila</string>
+    <string name="textreader">Su\'esu\'e Tusi</string>
+    <string name="databasereader">Su\'esu\'e Fa\'amaumauga</string>
+    <string name="show_dividers">Fa\'aali Vaevae</string>
+    <string name="needs_access">E Mana\'omia le Avanoa Tusi</string>
+    <string name="needs_access_summary">Fa\'amolemole filifili le lisi autu o le \t</string>
+    <string name="needs_access_summary1">\tto tu\'uina atu le avanoa tusitusi e fa\'atino ai</string>
+    <string name="smb_connection">SMB So\'oga</string>
+    <string name="smb_server">Tuātusi IP Server</string>
+    <string name="server_address">Tuātusi IP Server</string>
+    <string name="username">Igoa o le tagata faʻaoga</string>
+    <string name="password">Utuutala</string>
+    <string name="anonymous">E le taʻua</string>
+    
+    <string name="folders">Folder</string>
+    <string name="folderfilecount">%1$d folders ma %2$d faila</string>
+    <string name="videos">Vitio</string>
+    <string name="apks">APK</string>
+    <string name="documents">Pepa</string>
+    <string name="images">Ata</string>
+    <string name="clear">Ta\'a\'ese</string>
+    
+    <string name="total">Aofa\'i:</string>
+    <string name="calculating">fa\'atatau</string>
+    <string name="sort">Fa\'avasega</string>
+    <string name="ascending">A\'e i luga</string>
+    <string name="descending">Alu i lalo</string>
+    <string name="default_string">Taunoa</string>
+    <string name="doit">Faia</string>
+    <string name="want_help">Manaomia se fesoasoani?</string>
+    <string name="quick">Aso vave</string>
+    <string name="recent">Faila lata mai</string>
+    <string name="edit">Fa\'asa\'o</string>
+    <string name="find">Su\'e i le itulau</string>
+    <string name="grant">Tuuina atu</string>
+    <string name="grantper">Tuuina atu le fa\'atagaga</string>
+    <string name="grantfailed">E le\'i tu\'uina atu le fa\'atagaga</string>
+    <string name="grant_storage_permission">E mana\'omia e le app le fa\'atagaga e teu ai e fa\'aauau ai. O le faalēaogāina o lenei talanoaga o le a alu ese ai mai le app.</string>
+    <string name="operation_unsuccesful">Ua Le manuia le Fa\'agaioiga</string>
+    <string name="creatingfile">Faia o le Faila</string>
+    <string name="creatingfolder">Fausia le Folder</string>
+    <string name="renaming">Suia le igoa</string>
+    <string name="cant_be_empty">%s e le mafai ona avanoa</string>
+    <string name="ip">Tulaga</string>
+    <string name="connection_name">Igoa so\'oga</string>
+    <string name="no_device_found">Leai ni masini na maua</string>
+    <string name="path">Ala</string>
+    <string name="rename_bookmark">Suia le Fa\'ailoga</string>
+    <string name="cut">Oti</string>
+    <string name="search">Su\'esu\'e</string>
+    <string name="invalid_name">Igoa le sa\'o</string>
+    <string name="search_hint">Ituaiga e su\'e...</string>
+    <string name="advanced_search">Su\'esu\'e Lautele</string>
+    <string name="regular_expression">Fa\'amatalaga masani</string>
+    <string name="regular_expression_summary">Su\'esu\'e e fa\'aaoga ai le fa\'amatalaga masani a le BASH</string>
+    <string name="match_content">Faafetaui mea i totonu</string>
+    <string name="match_content_summary">Afai e seti, o le a fa\'afetaui le fa\'amatalaga masani ma le igoa faila atoa,
+        o le a vaavaai mo se mea e tupu i se isi itu.</string>
+    <string name="start_ftp">Amata</string>
+    <string name="stop_ftp">Taofi</string>
+    <string name="ftp_status_running">Tamo</string>
+    <string name="ftp_status_not_running">Le Tamo</string>
+    <string name="ftp_no_wifi">Ia mautinoa e te feso\'ota\'i ma Wi -Fi</string>
+    <string name="domain"> Domain</string>
+    <string name="smb_share">Faasoa ala</string>
+    <string name="invalid">Le aoga %s</string>
+    <string name="ftp_notif_starting">FTP Server ua amata</string>
+    
+    <string name="ftp_notif_title">Fa\'ate\'ia FTP Server o lo\'o fa\'agaoioi</string>
+    <string name="ftp_notif_text">i %s</string>
+    <string name="ftp_notif_stop_server">TUMA</string>
+    
+    <string name="ftp_port_change_success">FTP ua suia manuia</string>
+    <string name="ftp_port_change_error_invalid">Numera uafu le aoga ua filifilia</string>
+    <string name="primary_two_title">Lili Muamua (Itu Taumatau)</string>
+    <string name="primary_two_summary">Setu lanu i elemene UI tetele mo le itu taumatau</string>
+    <string name="support_development">Atiae Lagolago</string>
+    <string name="report_bugs_title">Lipoti Bugs</string>
+    
+    <string name="source_summary">Vaai i la matou source code ile GitHub</string>
+    <string name="report_bugs_summary">Lipoti mea sese pe talosagaina se mea fou</string>
+    <string name="translate_title">Faaliliu</string>
+    <string name="translate_summary">Faaliliu Maofa i lau gagana</string>
+    <string name="paypal_copy_message">PayPal ID kopi i le laupapa kilipa</string>
+    <string name="searching_devices">Su\'esu\'e mo masini</string>
+    <string name="use_custom_ip">Fa\'aoga le IP masani</string>
+    <string name="bookmark_lost">Fa\'ailoga tusi e le o maua, toe fai...</string>
+
+    <string name="smb_instructions">
+        
+            
+                E fa\'afefea ona fa\'aoga le faila Windows fa\'asoa ile Android (SMB)\n\n
+                
+                    
+                        Fa\'aaga le Fetufa\'aiga faila ile Windows\n
+                    
+                    
+                        Tatala le Panele Pulea, kiliki Filifili HomeGroup ma Fetufaaiga filifiliga i lalo o le Network
+                        ma le Initoneti, ma kiliki "Suiga Advanced Fetufaaiga Seti," mafai ai le "File ma
+                        Fa\'asoa lomitusi".\n\n
+                    
+
+                    
+                        Fa\'aopoopo Fetufa\'aiga faila\n
+                    
+                    
+                        Atonu e te mana\'o fo\'i e fa\'atulaga isi tulaga fa\'asoa fa\'alautele i\'i. \n
+                        Mo se faʻataʻitaʻiga, e mafai ona e faʻatagaina le avanoa i au faila e aunoa ma se faʻaupuga pe afai e te faʻatuatuaina uma
+                        o masini i lau feso\'otaiga fa\'apitonu\'u. A uma loa ona fa\'asoa faila ma lomitusi, e mafai
+                        tatala le File Explorer poʻo le Windows Explorer, kiliki-matau se faila e te manaʻo e faʻasoa, ma
+                        filifili Meatotino. \n
+                        Kiliki le Fa\'asoa fa\'amau ma fa\'aavanoa le faila i luga ole feso\'otaiga.\n\n
+                        
+
+                    
+                        Ia mautinoa o masini e lua o lo\'o i luga ole Wifi e tasi\n
+                    
+                    
+                        O lenei vaega e maua ai faila i luga o fesoʻotaʻiga faʻapitonuʻu, o lau PC ma masini feaveaʻi
+                        e tatau ona i ai i luga ole feso\'otaiga fa\'apitonu\'u tutusa. E le mafai ona e mauaina se faila Windows fa\'asoa
+                        i luga ole Initaneti poʻo pe a fesoʻotaʻi lau telefoni i ana faʻamatalaga feaveaʻi - e
+                        e tatau ona feso\'ota\'i ile Wi-Fi.\n\n
+                    
+
+                    
+                        Su\'e tuatusi IP\n
+                    
+                    
+                        Tatala Poloaiga Fa\'atonu. Tusa \'ipconfig\' ma fetaomi Enter. Su\'e mo Default Gateway
+                        i lalo o lau feso\'ota\'iga feso\'ota\'iga mo le tuatusi IP a lau router. Sue ane
+                        \\\"Tulaga IPv4\\\" i lalo o le vaega fa\'apipi\'i tutusa e su\'e ai le IP o lau komepiuta
+                        tuatusi.\n\n
+                    
+
+                    Tu\'u fa\'amatalaga ile SMB dialog box\n
+                
+            
+        
+   </string>
+    <string name="share_limit">E le mafai ona fa\'asoa sili atu nai lo le 100 faila</string>
+    <string name="otg_access">Filifili le a\'a o le masini OTG</string>
+    <string name="information">Fa\'amatalaga</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">A\'afia</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Suia</string>
+
+    <string name="title">Igoa</string>
+    <string name="artist">Tufuse</string>
+    
+    <string name="year">Tausaga</string>
+    <string name="duration">Taimi</string>
+    <string name="comment">Fa\'amatalaga</string>
+    <!-- reference to audio/video file -->
+    
+    
+    <string name="channels">Aila</string>
+    <string name="sample_rate">Fa\'ata\'ita\'iga Fa\'ata\'ita\'iga</string>
+    
+    <string name="dimensions">Ala</string>
+    <string name="frame_rate">Frame Sate</string>
+    <string name="image_type">Ituaiga Ata</string>
+    <string name="width">Aotele</string>
+    <string name="height">Uluga</string>
+    <string name="date_modified">Aso Suia</string>
+    <string name="software">Polokalamemea</string>
+    <string name="creator">Faifo</string>
+    <string name="camera_brand">Mea Pu\'epue</string>
+    <string name="camera_model">Meapueata Fa\'ata\'ita\'iga</string>
+    <string name="date_taken">Aso na Ave\'esea</string>
+    <string name="exposure_time">Taimi Fa\'aaliga</string>
+    <string name="aperture_value">Taua o le Pu</string>
+    <string name="image_iso">ISO Speed ​​Rating</string>
+    <string name="flash_fired">Fuilamu</string>
+    <string name="focal_length">Umi Fa\'atatau</string>
+    <string name="subject">Matā\'upu</string>
+    <string name="author">Tutala</string>
+    <string name="keywords">Fa\'aigoa</string>
+    <string name="producer">Tufuga</string>
+    <string name="created">Faia</string>
+    <string name="format">Fa\'a</string>
+    <string name="pages">Numera o Itulau</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Otometi</string>
+    <string name="security">Saogalemu</string>
+    <string name="paper_size">Lapopoa Pepa</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">O nisi faila e le\'i manuia %s</string>
+    <string name="copied">kopi</string>
+    <string name="moved">sii</string>
+    <string name="copy_complete">Kopi Maea</string>
+    <string name="waiting_title">Faatali</string>
+    <string name="waiting_content">Talia\'i mo le fa\'agaioiga e fa\'auma</string>
+    <string name="extract_complete">Ma\'ea le aveeseina</string>
+    <string name="compression_complete">Ma\'ea Fa\'auma</string>
+    <string name="compressing">Fa\'amau</string>
+    <string name="cancelled">Ua fa\'aleaogaina</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">tusia</string>
+    <string name="out_of">mai</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">o</string>
+    <string name="processing_file">fa\'agaioiina faila</string>
+    <string name="current_speed">Saosaoa o lo\'o i ai nei</string>
+    <string name="smb_launch_error">E mana\'omia lou kopiina o lenei faila i le teuina e tatala ai</string>
+    <string name="error_file_not_found">Sese: E Le Maua le Faila</string>
+    <string name="error_io">I/O Sese</string>
+    <string name="error_file_too_large">Sese: Faila Tele Tele</string>
+    
+    <string name="permission_read">Faitau</string>
+    <string name="permission_write">Tusi</string>
+    <string name="permission_execute">Fa\'atino</string>
+    <string name="permission_owner">E ona</string>
+    <string name="permission_group">Vaega</string>
+    <string name="permission_other">Isi</string>
+    <string name="clipboard_path_copy">Ala ua kopi i le laupapa kilipa</string>
+    <string name="service_timer">Ua mavae le taimi</string>
+    <string name="please_wait">Fa\'amolemole fa\'atali</string>
+
+    <string name="cloud_connection">Ao Feso\'ota\'iga</string>
+    <string name="cloud_connection_new">Feso\'ota\'iga Fou ao</string>
+    
+    
+    
+    <string name="cloud_box">Pusa</string>
+    <string name="cloud_get">Maua le Cloud plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Leai ni talosaga</string>
+    <string name="ftp_path">Ala Fetufa\'atasi</string>
+    <string name="ftp_path_hint">Ala i le a\'a o le directory e fa\'asoa</string>
+    <string name="change">Suiga</string>
+    <string name="unknown_error">Oi, ua i ai se mea ua tupu!</string>
+
+    <string name="ftp_path_change_success">Ua manuia le suiga o le ala FTP</string>
+    <string name="ftp_path_change_error_invalid">Ala le aoga</string>
+    <string name="ftp_status_no_connection">Leai se So\'oga</string>
+    <string name="ftp_status_secure_connection">Saogalemu So\'oga</string>
+    <string name="ftp_status_title">Tulaga</string>
+    
+    
+    <string name="field_empty">E le mafai ona gaogao le fanua</string>
+    <string name="ftp_timeout">Taimi fa\'aoga</string>
+    <string name="ftp_seconds">Sekona</string>
+    
+    <string name="intellihide_toolbar_summary">Otometi natia mea faigaluega a\'o ta\'avale</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">kopi i le laupapa kilipa</string>
+    <string name="contributors_1_summary">Fa\'aliliuga</string>
+    <string name="contributors_2_summary">Aikona ma fu\'a</string>
+    <string name="contributors_3_summary">Inisinia Autu</string>
+    <string name="contributors_4_summary">Paolo i tua FAB</string>
+    <string name="contributors_5_summary">Suiga lanu pe a swipe tabs</string>
+    
+    <string name="contributors_7_summary">Fa\'aola se atigi fegalegaleai</string>
+    <string name="connection_exists">So\'oga ua uma ona i ai</string>
+
+    <string name="crypt_encrypting">Fa\'ailogaina</string>
+    <string name="crypt_decrypting">Fa\'asa\'o</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Fa\'alilo</string>
+    <string name="crypt_decrypted">Fa\'asa\'o</string>
+    <string name="crypt_encrypt">Fa\'ali\'i</string>
+    <string name="crypt_decrypt">Fa\'ailoga</string>
+    <string name="operation_fail_following">Ua le manuia le fa\'agaioiga mo le mulimulitaia o faila</string>
+    
+    <string name="crypt_pref_master_password_summary">Seti se fa\'aupuga matua mo fa\'ailoga.
+        Tu\'u avanoa e aveese ai.</string>
+    
+    <string name="crypt_pref_fingerprint_summary">Fa\'aoga tamatamailima e fa\'amaonia ai fa\'ailoga</string>
+    <string name="crypt_fingerprint_no_permission">O lo\'o misi fa\'atagaga o tamatamai lima</string>
+    <string name="crypt_fingerprint_not_enrolled">Leai se fa\'ailoga tamatamai lima na lesitala</string>
+    <string name="crypt_fingerprint_no_security">Leai se loka puipui puipui maua</string>
+    <string name="crypt_warning_key">Ia logoina, pe a e suia lau mamanu saogalemu mai
+        Seti faiga, o le a le mafai ona e fa\'aseseina lenei mea.</string>
+    <string name="warning_never_show">Aua le toe logoina</string>
+    <string name="warning_confirm">Maua!</string>
+    <string name="crypt_encryption_fail">Ua le mafai ona fa\'aigoaina</string>
+    <string name="crypt_decryption_fail">Ua le mafai ona fa\'asalaina</string>
+    <string name="crypt_decryption_fail_password">Sese uputatala!</string>
+    <string name="crypt_fingerprint_authenticate">To\'i pa\'i e fa\'aauau</string>
+    <string name="authenticate_password">Tu\'u uputatala</string>
+
+    
+    <string name="sidebar_quick_access_title">Sidebar vave avanoa</string>
+    <string name="show_quick_access_pref_title">Fa\'aali avanoa vave</string>
+    <string name="show_quick_access_pref">Asoa vave</string>
+    
+
+    
+    <string name="show_bookmarks_pref_title">Sho fa\'ailoga tusi</string>
+    <string name="show_bookmarks_pref">Fa\'ailoga tusi</string>
+    <string name="create_bookmark">Fausia le fa\'ailoga</string>
+    <string name="edit_bookmark">Fa\'asa\'o le fa\'ailoga</string>
+    <string name="question_delete_bookmark">Ta\'ese le fa\'ailoga?</string>
+
+    <string name="cloud_error_plugin">E le\'i maua le fa\'apipi\'i Amaze Cloud. Fa\'amolemole la\'u mai i lalo mai le Faleoloa Play.</string>
+    <string name="cloud_error_failed_restart">Ua le mafai ona utaina le feso\'ota\'iga.
+        Fa\'amolemole tatala fa\'atasi le Amaze Cloud.</string>
+    <string name="cloud_remove">E te mana\'o e aveese le feso\'ota\'iga ao?</string>
+    <string name="cloud_fail_authenticate">Ua le mafai ona fa\'amaonia</string>
+    <string name="cloud_share_copied">So\'oga fa\'asoa ua kopiina i le laupapa kilipa</string>
+    <string name="copy_low_memory">Ua uma. manatua, faamolemole tape le RAM</string>
+    <string name="cloud_token_lost">Token ua leiloa, faamolemole toe saini i totonu</string>
+    
+    <string name="showHeaders">Fa\'aali Ulutala</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Leai ni mea</string>
+	<string name="item">mea</string>
+	<string name="items">aitema</string>
+	
+	<string name="byte_singular">paita</string>
+	<string name="bytes">paita</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">O le faila e tatau ona i ai se igoa</string>
+    <string name="add_item">Faaopoopo Mea</string>
+    <string name="failed_smb_decrypt_path">Ua le mafai ona utaina le SMB so\'oga</string>
+    <string name="failed_cloud_new_connection">Ua le mafai ona fa\'aopoopoina le feso\'ota\'iga fou i le Ao</string>
+    <string name="failed_cloud_api_key">Ua le mafai fa\'amaoni Cloud plug-in</string>
+
+    <string name="local_inet_addr_error">Sese i le mauaina o le tuatusi inet local</string>
+    <string name="intent_save_as">Sefe e pei...</string>
+    <string name="go">Alu</string>
+    <string name="advanced">Atua</string>
+    <string name="typeable_paths_title">Ala masani</string>
+    <string name="typeable_paths_summary">Oomi umi le pa o le ala e lolomi ai se ala masani</string>
+    <string name="send_email_to">Auina se i-meli i</string>
+
+    <string name="text_editor">Fa\'atonu tusitusiga</string>
+    <string name="preference_newstack_title">Tatala faila o se galuega fou</string>
+    <string name="preference_newstack_summary">Fa\'ataga oe e tatala faila i galuega eseese. Avatu i latou mai le screen recents system.</string>
+    
+    <string name="developers">Atia\'e</string>
+    <string name="no_bitcoin_app">Fa\'amolemole fa\'apipi\'i se polokalama Bitcoin Wallet</string>
+    <string name="channel_name_normal">Fa\'asilasilaga Fa\'ate\'ia</string>
+    <string name="channel_description_normal">Fa\'amatalaga a le Pule Faila Fa\'aofo</string>
+    <string name="channel_name_ftp">Fa\'aumau FTP Server</string>
+    <string name="channel_description_ftp">Faila Fa\'aofo Fa\'amatalaga a le Pule FTP Server</string>
+
+    
+    <string name="processing">Fa\'agaioiina...</string>
+    <string name="failed_no_connection">Ua le mafai ona uta faila. Fa\'amolemole siaki lau feso\'ota\'iga.</string>
+
+    <string name="update">FAUFAU</string>
+	<string name="scp_connection">SCP/SFTP So\'oga</string>
+    <string name="ftp_connection">FTP So\'oga</string>
+    <string name="ftps_connection">FTP i luga ole SSL So\'oga</string>
+    
+    
+    <string name="ssh_host_key_verification_prompt_title">Fa\'amaonia le Talimalo</string>
+    
+    <string name="ssh_pem_key_parse_error">Le mafai ona faitau PEM filifilia: %s</string>
+    <string name="password_unchanged">(e le suia)</string>
+    <string name="ssh_authentication_failure_password">Logon le manuia: Le mafai ona fa\'amaonia i le igoa fa\'aigoa ma le fa\'aupuga.</string>
+    <string name="ssh_authentication_failure_key">Logon le manuia: Le mafai ona fa\'amaoni i le igoa fa\'aigoa tu\'u mai ma le ki patino.</string>
+    <string name="ssh_connect_failed">Le mafai ona feso\'ota\'i i %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">LAPATA\'IGA: UA SUIA LE FA\'ATA\'IGA O LE HOST FA\'AMATALAGA!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">MASI LAVA O LO\'O FAIA E SE SATU SE MEA LEAGA!\n\nAtonu o lo\'o fa\'alogo mai se tasi ia te oe. i le taimi nei (osofaiga a le tagata i le ogatotonu)! E mafai foi ona sui le ki talimalo. O le tamatamailima mo le ki fa\'alaua\'itele e lafo e le \'au\'aunaga mamao e le fetaui ma le ki o lo\'o teuina i le Amaze.\n\nFa\'amolemole fa\'afeso\'ota\'i lau pule fa\'aoga po\'o le setiina o se feso\'ota\'iga fou e fa\'aauau ai le feso\'ota\'i atu i le server.</string>
+    <string name="ssh_key_prompt_passphrase">Fa\'amolemole fa\'aoga le fa\'aupuga autu. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">E le lagolagoina e lau fa\'ala\'ala le faiga o ala pupuu.</string>
+    
+    <string name="select_color_config">Fili le lanu config</string>
+    <string name="customize">Fesuia\'i</string>
+    <string name="custom">Aganu\'u</string>
+    <string name="preselected_configs_title">Filifilia configs</string>
+    <string name="orange">Mulinu</string>
+    <string name="blue">Lauila</string>
+    <string name="green">Munumeamea</string>
+    <string name="password_no_match">E le fetaui le uputatala</string>
+    <string name="deselect_all">Se\'i filifili uma</string>
+    <string name="filename">Igoa faila</string>
+    <string name="compress_file_suggest_zip_extension">E fautuaina e fa\'aoga le \".zip\" e fai ma fa\'alautelega o le faila.</string>
+    <string name="about_amaze">Material design file manager mo Android</string>
+    <string name="license">Laisene</string>
+    <string name="libraries">Faletusi</string>
+    <string name="password_repeat">Toe fai upu fa\'apolokalame</string>
+    <string name="create_file_suggest_txt_extension">E fautuaina e fa\'aoga le \".txt\" e fai ma fa\'alautelega o le faila.</string>
+    <string name="ssh_select_pem">Filia le ki fa\'apitoa mo le fa\'amaoni</string>
+    <string name="ssh_key_invalid_passphrase">Fa\'amatalaga fa\'aoga le aoga.</string>
+    <string name="ssh_key_no_decoder_decrypt">Leai se decoder aoga e fa\'amama le PEM.</string>
+    <string name="encryption_fail_copy">Ua le mafai ona fa\'afou fa\'amatalaga fa\'amatalaga i totonu o fa\'amaumauga</string>
+    <string name="extracted">Ave\'a</string>
+    <string name="compressed">Fa\'amau</string>
+    <string name="processed">Fa\'agasolo</string>
+    <string name="no_obtainable_info">E leai se fa\'amatalaga e uiga i lenei faila</string>
+    <string name="reopen_from_source">E le mafai, fa\'amolemole toe tatala mai le app mulimuli</string>
+    <string name="no_file_error">Na iai se mea na tupu, e leai se mea e tatalaina</string>
+    <string name="file_too_long">O le e umi tele le faila ma e le mafai ona fa\'asa\'o, peita\'i e mafai ona e faitau i le %d mata\'itusi muamua</string>
+    <string name="file_read_only">O le faila na tatalaina o se na\'o le faitau.</string>
+    <string name="got_it">Maua!</string>
+    <string name="encrypt_file_save_as">Save Encrypted Faila Fa\'a...</string>
+    <string name="encrypt_folder_save_as">Sefe le Fa\'amaufa\'ailoga e Fa\'aigoa Fa\'a...</string>
+    <string name="encrypt_option_use_aze">Fa\'aoga le Fa\'ailoga Fa\'ailoga Mata\'utia</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>O le AESCrypt o se fa\'ailoga fa\'ailoga faila e fa\'avae i luga ole fa\'ailoga AES. E feavea\'i fo\'i, e mafai ona fa\'amuta i polokalame AESCrypt i isi fa\'avae.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt website</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'s Encryption Format e fa\'avae fo\'i ile fa\'ailoga AES; ae ese mai le faatulagaga AESCrypt, e mafai ona decrypted na o lenei masini; e le tatau foi ona e aveese le Amaze File Manager mai lenei masini pe suia foi le auala e te lokaina ai lau mata, a leai o le a leai sau auala e toe maua ai le faila natia.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">E tatau ona fa\'aoga faila e fa\'ailoga le \".aze\" e fai ma fa\'aopoopoga o faila.</string>
+    <string name="encrypt_file_must_end_with_aes">E tatau ona fa\'aogaina e faila fa\'ailoga le \".aes\" e fai ma fa\'alautelega o le faila.</string>
+    <string name="error_aescrypt_decrypt_failed">E le mafai ona fa\'ailoaina. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">E le mafai ona toe fa\'asolo le faila.</string>
+    <string name="saved_single_file">sefe faila ile \'%s\'.</string>
+    <string name="saved_multi_files">%d faila na sefe.</string>
+    <string name="create_hidden_file_warn">O le faila na faia o le a natia i le lisi o faila.</string>
+    <string name="grant_apkinstall_permission">E manaʻomia e le app le faʻatagaga e faʻapipiʻi ai polokalama faʻaauau.</string>
+    <string name="time_remaining">Taimi o totoe</string>
+    <string name="transfer_rate">Fesuiaiga fua</string>
+    <string name="unknown">le iloa</string>
+    <string name="multiple_invalid_archive_entries">O nisi faila i totonu o le archive e le mafai ona aveese; e mafai ona fa\'aleagaina le fa\'amaumauga pe sau mai le puna leaga.</string>
+    <string name="saf_otg_explanation">E te alu nei i le faila faila a le Android mo mafuaaga saogalemu. Fa\'amolemole filifili le masini USB mai le lisi i le agavale.</string>
+    <string name="donation_thanks">Fa\'afetai mo le foa\'i, e fa\'amalosia ai i matou! (:</string>
+    <string name="enable_marquee_filename">Ia fa\'aagaoioiga fa\'ailoga mo igoa faila</string>
+    <string name="archive_password_prompt">Fa\'amolemole tu\'u upu fa\'apolopolo:</string>
+    
+    <string name="cannot_extract_archive">E le mafai ona aveese fa\'amaumauga \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">E le mafai tatala le archive \"%s\". A le mafai ona matou tatalaina le archive, po\'o le archive na faaleagaina.</string>
+    <string name="close">Tapuni</string>
+    <string name="bookmark_exists">O lo\'o iai le fa\'ailoga</string>
+    <string name="hide_media">Natia mai su\'esu\'ega fa\'asalalau</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">MASANI UA FAIA E SE ISI SE MEA LEAGA!\n\nAtonu o lo\'o fa\'alogo mai se tasi ia te oe i le taimi nei (osofaiga a le tagata i le ogatotonu)! E ono fa\'ato\'a suia fo\'i le ki fa\'afeiloa\'i. Fa\'ailoga tamatamailima auā o le ki fa\'alaua\'itele e lafo mai e le \'au\'aunaga mamao e le\'o fetaui ma le ki o lo\'o teuina i le Amaze.\n\nE mafai ona e fa\'aauau le fa\'afouina o le fa\'ailoga tamatamai lima o le tagata talimalo pe fa\'alēaogāina le fa\'afouina o fa\'aoga feso\'ota\'iga SSH.</string>
+    <string name="update_host_key">Fa\'afou le Ki talimalo</string>
+    <string name="cancel_recommended">Fa\'aleaogaina (Fautuaina)</string>
+    
+    
+    <string name="failed_install_apk">Ua le mafai ona fa\'apipi\'i</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Teuina i totonu</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    
+    <string name="choose_folder">Filifili Lenei Folder</string>
+    
+    <string name="some_files_failed_invalid_operation">O nisi faila ua le aoga ona o le le aoga fa\'agaioiga</string>
+    <string name="ftp_server_prompt_connect_to_network">Feso\'ota\'i i se feso\'ota\'iga po\'o fa\'agaoioi le AP</string>
+    <string name="ftp_server_open_settings">Tatala fa\'atonu</string>
+    <string name="move">Sii</string>
+    <string name="select_save_location">Fili le nofoaga e fa\'asaoina</string>
+    <string name="scp_default_path">Ala Fa\'atonu (Filifili)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Fa\'amalie atu, e le\'i tatau ona tupu lena mea.</string>
+    
+    <string name="error_report_button_text">Lisi atu lenei mea sese e ala ile i-meli</string>
+    <string name="error_report_button_telegram">Lisi atu lenei mea sese e ala ile telegram</string>
+    <string name="copy_for_github">Kopi le lipoti ua fa\'atulagaina</string>
+    <string name="error_report_open_issue_button_text">Lipoti ile GitHub</string>
+    <string name="error_report_open_github_notice">Fa\'amolemole siaki pe o iai se fa\'afitauli o lo\'o talanoaina ai lau fa\'alavelave.</string>
+    <string name="error_snackbar_message">Fa\'amolemole, ua i ai se mea na tupu.</string>
+    <string name="error_snackbar_action">Lipoti</string>
+    <string name="what_device_headline">Fa\'amatalaga:</string>
+    <string name="what_happened_headline">O le a le mea na tupu:</string>
+    <string name="info_labels">O le a:\\nTalosaga:\\nGMT Taimi:\\nPackage:\\nVersion:\\nOS version:\\nMeasini:\\nModel:\\nOloa :</string>
+    <string name="your_comment">O lau fa\'amatalaga (i le gagana Peretania):</string>
+    <string name="error_details_headline">Fa\'amatalaga:</string>
+    <string name="app_ui_crash">App/UI na pa\'u</string>
+    <string name="error_report_title">Lipoti o measese</string>
+    <string name="crash_report_copied">Ripoti fa\'alavelave na kopiina i clipboard</string>
+    <string name="disableIpcSignature">Ta\'e le siaki saini IPC (Mo SMBv1 servers - UNSAFE!)</string>
+    <string name="cannot_delete_file">E le mafai ona tape le faila</string>
+    <string name="cannot_delete_file_with_reason">E le mafai ona tape le faila - %s</string>
+    <string name="cannot_rename_file">E le mafai ona toe igoa faila %s - %s</string>
+    <string name="cannot_read_directory">E le mafai ona faitau le fa\'atonuga %s - %s</string>
+    <string name="just_once">Na\'o le Tasi</string>
+    <string name="always">I taimi uma</string>
+    <string name="choose_different_app">Filifili se isi talosaga</string>
+    <string name="clear_open_file">Tape cache</string>
+    <string name="clear_open_file_summary">Ta\'e\'ese polokalame e tatala ai faila le aoga ua filifilia</string>
+    <string name="ftp_readonly">Na\'o le faitau na\'o le avanoa</string>
+    <string name="legacy_listing_title">Fa\'aoga le lisi o talatuu mo a\'a</string>
+    <string name="legacy_listing_summary">Afai e mafai, fa\'aaoga metotia talatuu e lisi ai faila</string>
+    <string name="error_unsupported_v5_rar">RAR archive \"%s\" e le\'o lagolagoina RAR v5 archive.</string>
+    <string name="ftp_prompt_restart_server">E tatau ona e toe amata le FTP server mo suiga e fa\'amanaia.</string>
+    <string name="error_permission_denied">Ua le maua le faatagaga</string>
+    <string name="error_archive_password_incorrect">Sese upu fa\'apolokalame.</string>
+    <string name="error_archive_cannot_extract">E le mafai ona ave\'ese le fa\'amaumauga o le \"%s\" i le \"%s\".</string>
+    <string name="drag_and_drop_preference">Filifili le toso ma le pa\'u mana\'oga (Fa\'ata\'ita\'i)</string>
+    <string name="drag_to_move_copy">Pa\'i ma toso e fa\'anofo pe kopi faila</string>
+    <string name="drag_to_select">Pa\'i ma toso e filifili faila</string>
+    <string name="disable">Fa\'agata</string>
+    <string name="choose_operation">Filifili le gaioiga e fai</string>
+    <string name="remember">Manatua mo le isi taimi</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Tuu atu le avanoa SAF mo le FTP server</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Talu ai o lau fa\'agasolo muamua lea o le FTP server, ma o lo\'o e fa\'aogaina le teuina i totonu o le masini e fai ma faila fa\'asoa, fa\'amolemole fa\'ataga le Amaze e fa\'aoga le teuina e fa\'aaoga ai SAF.\n\n
+
+E na\'o le tasi le taimi e te faia ai, se\'ia o\'o i le isi taimi e te filifilia ai se nofoaga fou e fa\'asoa ai.</string>
+    <string name="android_data_prompt_saf_access">Talu mai le Android 10, na fa\'atulafonoina e Android ni fa\'agata i luga o fa\'atonuga patino, ma e mana\'omia ona latou fa\'aoga i le Storage Access Framework.\n \nFa\'amolemole fa\'ataga le Amaze e fa\'aoga le fa\'atonuga mai le faila faila a le system e ala i le kilikiina o le \"Allow Access\".</string>
+    <string name="android_data_prompt_saf_access_title">Tuu atu le avanoa SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Fa\'aoga legacy filesystem</string>
+    <string name="ftp_preference_saf_filesystem">Enable lenei mo le lagolago mo le faaaogaina o masini teuina fafo i fou Android versions</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP server shared ala na toe setiina i totonu teuina ao e fesuiai i tua i le faatinoga o faiga faila. Fa\'amolemole filifili se ala fou e fa\'aaoga ai le lisi o lo\'o i le pito i luga taumatau pe a mana\'omia.</string>
+    <string name="ftp_server_reset_notify">FTP server shared path has reset to internal storage</string>
+    <string name="ftp_server_root_unavailable">O lo\'o e filifilia se ala e mana\'omia ai le a\'a. Fa\'amolemole fa\'afeso\'ota\'i le root explorer i fa\'atulagaga pe a maua\'a lau masini.</string>
+    <string name="ftp_server_root_filesystem_warning">O lo\'o e filifilia se auala e mana\'omia ai le a\'a, lea e mafai ai ona fa\'agaoioi le faitau/tusi i le faila faila atoa i lau masini, ma e mata\'utia - o mea sese fa\'aleaogaina e mafai ona piliki lau masini!\n\nE te mautinoa?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Sese le tatalaina o le URI \"%s\" mo le faitau.</string>
+    <string name="error_empty_archive">\"%s\" o se fa\'amaumauga gaogao.</string>
+    <string name="error_bad_archive_without_info">\"%s\" o se fa\'amaumauga leaga. .</string>
+    <string name="error_bad_archive_with_info">\"%s\" ose faila leaga.\nSavali mai extractor: \"%s\"</string>
+    <string name="security_error">E le mafai ona tatalaina le faila i le faaaogaina o lenei app</string>
+    <string name="cloud_drive_tooltip">Create se feso\'ota\'iga Google Drive™ mo le fa\'afoeina o faila mai totonu o le Amaze File Manager.</string>
+    <string name="signin_with_google_title">Fa\'amaoni e fa\'aoga Google Drive™</string>
+    <string name="show_system_apps">Fa\'aali polokalama fa\'aoga</string>
+    <string name="system_apps">Fa\'atonuga polokalama</string>
+    <string name="select_inverse">Filifili Fa\'afeagai</string>
+    <string name="select_by_type">Filifili i le ituaiga</string>
+    <string name="select_by_date">Filifili ile aso</string>
+    <string name="select_similar">Filifili tutusa</string>
+    <string name="error_fetching_google_play_product_list">Sese i le la\'uina mai o le lisi o oloa mai le Google Play.</string>
+    <string name="grant_all_files_permission">Talu mai le Android 11 , Google talosagaina Pule Fa\'atonu e talosagaina le fa\'atagaga a le tagata fa\'aoga mo le puleaina o faila uma i luga o le masini. Fa\'amatalaga iinei.
+        \n\nAmaze File Manager e manaʻomia foʻi lenei faʻatagaga. A uma ona oomi le "Grant" iinei, fa\'amolemole filifili Fa\'ataga avanoa e pulea uma faila filifiliga i le isi lau.
+        \n\nO le faalēaogāina o lenei talanoaga o le a alu ese ai mai le app.</string>
+    <string name="user_apps">Tagata fa\'aoga</string>
+    <string name="appearance">Fa\'aaliga</string>
+    <string name="behavior">Amio</string>
+    <string name="appearance_summary">Fa\'apena le autu, lanu ma foliga o le faila faila.</string>
+    <string name="ui_summary">pulea po\'o a fa\'amatalaga e fa\'aalia, fa\'avasega le itu, ma fa\'asolo i UI mana\'oga</string>
+    <string name="behavior_summary">Suia amio e pei o su\'esu\'ega fa\'alautele ma pe tatala faila o se galuega fou</string>
+    <string name="security_summary">Set up password ma fa\'ailoga</string>
+    <string name="backup_summary">Auina atu/Auina atu Fa\'aofo Fa\'atonu</string>
+
+    <string name="pref_export">Auina atu i fafo</string>
+    <string name="pref_export_summary">Fa\'aulufale atu tulaga</string>
+    <string name="pref_import">Auina atu</string>
+    <string name="pref_import_summary">Fa\'aulufale mai tulaga</string>
+
+    <string name="quick_desc">Faila na maua talu ai nei e ala i le Amaze</string>
+    <string name="recent_desc">Faila fou na faia pe suia</string>
+    <string name="error_cannot_find_way_open">Ua le mafai ona maua se auala e tatala ai le faila</string>
+    <string name="error_cant_decompress_that_file">E le mafai ona fa\'agasolo le archive ua talosagaina</string>
+    <string name="analyse_storage">Su\'esu\'e Teuga</string>
+    
+    <string name="download_amaze_utils_text">O lo\'o fa\'atonuina oe ile Amaze File Utilities. O la matou polokalama faʻapipiʻi matala lea e iai tagata matamata leo / vitio / ata / pepa, e mafai ai ona e suʻeina faila leaga e faʻasaʻo ai le teuina, faʻafeiloaʻi vave e faʻaaoga ai le Wifi P2P ma sili atu.\nFaamolemole lagolago i matou e ala i le taumafai. </string>
+    <string name="download">La\'u mai</string>
+    <string name="wifip2p">Wi -Fi P2P</string>
+    <string name="amaze_utils_installed_alias">Fa\'afetai mo le fa\'apipi\'iina o Amaze File Utilities. O lo\'o fa\'atonuina oe i le app.</string>
+    <string name="image_viewer">Vaaiga Ata Fa\'ofoofoofogia</string>
+    <string name="video_player">Fa\'ata Vitio Fa\'ofoofoofogia</string>
+    <string name="amaze_audio_player">Fa\'alogo Musika Fa\'ofoofoofogia</string>
+    <string name="pdf_viewer">Vaaiga Fa\'amatalaga Fa\'ofoofogia</string>
+    <string name="docx_viewer">Mamaze Document Viewer</string>
+    <string name="share_logs">Faasoa ogalaau</string>
+    <string name="share_logs_summary">Faasoa atu ogalaau na pueina e ala ile imeli / telegram</string>
+    <string name="open_with_amaze">Tatala i le Amaze</string>
+    <string name="confirmation">Fa\'amaoniga</string>
+    <string name="open_file_confirmation">E te mautinoa e te mana\'o e tatala le faila o lo\'o mulimuli mai?\n\nIgoa:\n%s\n\n Nofoaga:\n%s\n\nSize:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">E tusa ai ma tulafono a Google Play, e le fa\'atagaina polokalama e fa\'afou na\'o ia. Fa\'amolemole fa\'afou le app mai le Google Play.</string>
+    <string name="error_cannot_get_package_info">Le mafai ona maua fa\'amatalaga o afifi mai le faila \"%s\". A le o le faila fa\'amaonia e le o se APK, pe leaga le faila o le afifi.</string>
+    <string name="preference_delete_confirmation">Tape le fa\'amaoniga</string>
+    <string name="preference_delete_confirmation_summary">Talosaga mo se fa\'amaoniga a\'o le\'i tapeina faila. O le fa\'agata o lenei mea e matua fa\'avaivai lava!</string>
+    
+    
+    <string name="protocol_ftps">FTP Saogalemu</string>
+    <string name="unavailable">Le avanoa</string>
+
+    <string name="exporting_failed">Ua le mafai ona auina atu i fafo: le mafai ona tusia le faila faila</string>
+    <string name="importing_failed">Ua le mafai ona faaulufale mai: le mafai ona faitau le faaleoleo faila</string>
+    <string name="importing_completed">Ua mae\'a le fa\'aulufaleina</string>
+    <string name="invalid_backup_file">faila faaleoleo le aoga</string>
+    <string name="import_failed_for">Ua le mafai ona faaulufale mai mo:</string>
+    <string name="free_of">"%s\n%s e leai se %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin e le\'o lagolagoina i le F-Droid version Fa\'amolemole fa\'aoga le Play Store version of Amaze.</string>
+    <string name="disable_player_intent_filters">Ta\'e le filiga fa\'amoemoe tagata ta\'alo</string>
+    <string name="disable_player_intent_filters_summary">Fa\'amalo le Amaze fa\'apipi\'i fa\'asalalauga mai le faila faila</string>
+    <string name="no_app_found_intent">Leai se app na maua e taulima ai lenei fa\'amoemoe. Ua fa\'apipi\'iina ea lau DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection credentials</string>
+    <string name="cloud_connection_credentials_cleared_msg">Ae paga lea, e le\'i mafai ona matou fa\'asolo atu lau fa\'amatalaga feso\'ota\'iga ao i le fuafuaga fou o fa\'amaumauga, ma na matou maua. e aveese mai le app. Fa\'amolemole toe fai le feso\'ota\'iga ao.</string>
+</resources>

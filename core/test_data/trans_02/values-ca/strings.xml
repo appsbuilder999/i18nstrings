@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Gestor de fitxers Amaze</string>
+    <string name="drawer_open">Obre el calaix de navegació</string>
+    <string name="drawer_close">Tanca el calaix de navegació</string>
+    <string name="icon">icona</string>
+    <string name="apps">Gestor d\'aplicacions</string>
+    <string name="ftp">Servidor FTP</string>
+    <string name="setting">Configuració</string>
+    <string name="select">Selecciona l\'element</string>
+    <string name="press_again">Torneu a prémer per sortir</string>
+    <string name="open">Obre</string>
+    <string name="backup">Còpia de seguretat</string>
+    <string name="uninstall">Desinstal·la</string>
+    
+    <string name="properties">Propietats</string>
+    <string name="copyingapks">S\'estan copiant %d fitxers APK a %s</string>
+    <string name="delbook">Suprimeix el marcador</string>
+    <string name="add_to_bookmarks">Afegeix als marcadors</string>
+    <string name="enterpath">Introdueix el camí</string>
+    <string name="cancel">CANCEL·LA</string>
+    <string name="create">CREAR</string>
+    <string name="loading">S\'està carregant...</string>
+    <string name="file_empty">El fitxer està buit</string>
+    
+    <string name="search_results">Resultats de la cerca de %s</string>
+    <string name="rename">Canvia el nom</string>
+    <string name="save">Desa</string>
+    <string name="bookmarks_added">Marcadors afegits</string>
+    <string name="fileexist">El fitxer amb el mateix nom ja existeix</string>
+    <string name="name">Nom</string>
+    <string name="date">Data</string>
+    <string name="location">Ubicació</string>
+    <string name="size_capitalized">Mida</string>
+    <string name="size">mida de la carpeta</string>
+    <string name="enterzipname">Introduïu el nom del codi postal</string>
+    <string name="no_app_found">No s\'ha trobat cap aplicació per obrir aquest fitxer</string>
+    <string name="copying">S\'està copiant</string>
+    <string name="moving">Moure</string>
+    <string name="file">Fitxer</string>
+    <string name="folder">Carpeta</string>
+    <string name="newfolder">Carpeta nova</string>
+    <string name="entername">Introduïu el nom</string>
+    <string name="extracting">Extraint</string>
+    <string name="stopping">Aturant</string>
+    <string name="open_parent">Obre el directori principal</string>
+    <string name="open_with">Obre amb</string>
+    <string name="share">Comparteix</string>
+    <string name="about">Quant a</string>
+    <string name="extract">Extreu</string>
+    <string name="compress">Comprimeix</string>
+    <string name="yes">Sí</string>
+    
+    
+    <string name="dialog_delete_category_directories">Directoris</string>
+    <string name="dialog_delete_category_files">Fitxers</string>
+    <string name="dialog_delete_disclaimer">Si suprimiu els elements següents, els eliminarà permanentment del vostre dispositiu i no es podran recuperar.</string>
+    <string name="dialog_delete_title">Suprimir elements permanentment?</string>
+    <string name="deleting">Suprimir</string>
+    <string name="question_set_path_as_home">Voleu establir el camí actual com a inici d\'aquesta pestanya?</string>
+    <string name="directorysort">Mode d\'ordenació del directori</string>
+    <string name="sort_by">Ordenar per</string>
+    <string name="sort_only_this">Només aquesta carpeta</string>
+    <string name="theme">Tema</string>
+    <string name="random">Aspecte aleatori</string>
+    <string name="random_summary">Defineix un color primari aleatori a l\'inici</string>
+    <string name="colorize">Acoloreix icones</string>
+    <string name="colorize_summary">Conjunts color de la icona estàtica. No substitueix la preferència de color de la icona del directori.</string>
+    <string name="home">Inici</string>
+    <string name="paste">Enganxa</string>
+    <string name="history">Historial</string>
+    <string name="copy">Copia</string>
+    <string name="root_mode">Explorador arrel</string>
+    <string name="root_mode_summary">Només per a dispositius arrelats. Comproveu-lo només si n\'estàs segur.</string>
+    <string name="root_failure">Accés arrel no concedit</string>
+    <string name="select_all">Selecciona-ho tot</string>
+    <string name="delete">Suprimeix</string>
+    <string name="set_as_home">Estableix com a inici</string>
+    <string name="operation_not_supported">Operació no compatible</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Material clar</string>
+    <string name="dark">Material fosc</string>
+    <string name="daytime">Dia</string>
+    <string name="black">Negre (per a OLED)</string>
+    <string name="system">Sistema (seguiu el tema del sistema)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Carpetes a la part superior</string>
+    <string name="filesOnTop">Fitxers a la part superior</string>
+    <string name="none_on_top">Cap a la part superior</string>
+    <!--SortBy-->
+    <string name="sort_name">Nom</string>
+    <string name="lastModified">Darrera modificació</string>
+    <string name="sort_size">Mida</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Tria un fitxer</string>
+    <string name="process_viewer">Visor de processos</string>
+    <string name="in_safe">Espai insuficient</string>
+    <string name="no_file_overwrite">No s\'ha sobreescrit cap fitxer</string>
+    <string name="skip">Omet</string>
+    <string name="overwrite">Sobreescriu</string>
+    <string name="not_allowed">No es permet</string>
+    <string name="searching">Cerca %s</string>
+    <string name="done">Fet</string>
+    <string name="set">Estableix</string>
+    <string name="enablerootmde">Activa el mode arrel</string>
+    <string name="goback">Torna enrere</string>
+    <string name="newfile">Fitxer nou</string>
+    <string name="no_files">No hi ha fitxers</string>
+    <string name="used">espai utilitzat</string>
+    <string name="used_by_others">utilitzat per altres</string>
+    <string name="free">espai lliure</string>
+    <string name="listview">Vista de llista</string>
+    <string name="gridview">Quadricula Visualitza</string>
+    <string name="permission">Permisos</string>
+    <string name="hide">Oculta</string>
+    <string name="exit">Surt</string>
+    <string name="doforall">Fes per a tots els elements</string>
+    <string name="gridcolumnno">Nombre de columnes a la visualització de quadrícula</string>
+    <string name="set_random">Els canvis es produiran després de reiniciar l\'aplicació</string>
+    <string name="authors">Autors</string>
+    
+    <string name="ok">D\'acord</string>
+    <string name="ui">Interfície</string>
+    
+    <string name="thumb_summary">Mostra les miniatures d\'aplicacions i imatges</string>
+    <string name="thumb">Mostra les miniatures</string>
+    <string name="hidden">Mostra els fitxers i carpetes ocults</string>
+    <string name="lastModifiedSummary">Mostra la data i l\'hora de la darrera modificació</string>
+    <string name="lastModifiedPref">Mostra la data de l\'última modificació i Hora</string>
+    <string name="size_pref_summary">Mostra la mida dels fitxers i el nombre d\'elements a les carpetes</string>
+    <string name="size_pref">Mostra les mides</string>
+    <string name="miscellaneous">Divers</string>
+    <string name="root_pref_summary">Mostra els permisos de fitxers i carpetes</string>
+    <string name="root_pref">Mostra els permisos</string>
+    <string name="about_amaze_file_manager_label">Quant a Amaze File Manager</string>
+    <string name="version">Versió</string>
+    <string name="rate">Valora l\'aplicació</string>
+    <string name="feedback">Envia comentaris</string>
+    <string name="hiddenfiles">Fitxers ocults</string>
+    <string name="type">Escriviu</string>
+    <string name="root_directory">Arrel</string>
+    <string name="add_shortcut">Afegeix una drecera</string>
+    <string name="unsaved_changes">Canvis no desats</string>
+    <string name="unsaved_changes_description">Teniu canvis no desats, els voleu desar abans de sortir?</string>
+    <string name="saving">S\'està desant</string>
+    <string name="package_installer">Instal·lador de paquets</string>
+    <string name="view">Mostra</string>
+    <string name="install">Instal·la</string>
+    <string name="archive">Arxiu</string>
+    <string name="archive_text">Aquest és un arxiu. Quina acció voldríeu dur a terme?</string>
+    <string name="package_installer_text">Aquest és un instal·lador de paquets. Quina acció t\'agradaria dur a terme?</string>
+    <string name="xda_title">Fil XDA</string>
+    <string name="xda_summary">Preguntes, ajuda i resolució de problemes</string>
+    <string name="circular_images">Fes servir icones circulars per a imatges i vídeos</string>
+    <string name="circular_icons">Fes servir icones circulars</string>
+    <string name="back_title">Navegació posterior</string>
+    <string name="back_summary">Activa la navegació posterior personalitzada a la part superior de la llista</string>
+    <string name="details">Detalls</string>
+    <string name="translators">Traductors</string>
+    <string name="german_translation_title">alemany</string>
+    <string name="italian_translation_title">italià</string>
+    <string name="french_translation_title">francès</string>
+    <string name="russian_translation_title">rus</string>
+    <string name="spanish_translation_title">Espanyol</string>
+    <string name="basque_translation_title">Basc</string>
+    <string name="chinese_translation_title">Xinès</string>
+    <string name="serbian_translation_title">Serbi</string>
+    <string name="turkish_translation_title">Turc</string>
+    <string name="ukrainian_translation_title">Ucraïnès</string>
+    <string name="portuguese_translation_title">Portuguès </string>
+    <string name="polish_translation_title">polonès</string>
+    <string name="korean_translation_title">coreà</string>
+    <string name="greek_translation_title">grec</string>
+    <string name="dutch_translation_title">holandès</string>
+    <string name="romanian_translation_title">romanès</string>
+    <string name="vietnamese_translation_title">vietnamita</string>
+    <string name="japanese_translation_title">japonès</string>
+    
+
+    <string name="zip_viewer">Visor de zip</string>
+    <string name="unin_system_apk">Aquesta és una aplicació del sistema, la supressió pot provocar una inestabilitat del sistema.\nContinueu?</string>
+    <string name="warning">Avís</string>
+    <string name="donate">Dona</string>
+    <string name="archive_extract_folder">Carpeta d\'extracció de l\'arxiu</string>
+    <string name="archive_summary">Els fitxers d\'arxiu s\'extreuran a aquesta carpeta. El valor per defecte és el directori on hi ha l\'arxiu.</string>
+    <string name="open_as">Obre com a</string>
+    
+    <string name="audio">Àudio</string>
+    <string name="video">Vídeo</string>
+    <string name="other">Altres</string>
+    <string name="image">Imatge</string>
+    <string name="contributors">Col·laboradors</string>
+    <string name="save_paths">Recorda camins</string>
+    <string name="save_path_summary">Quan s\'inicia, es mostrarà la carpeta visualitzada més recentment per a cada pestanya</string>
+    <string name="select_intent">Selecciona</string>
+    <string name="database">Base de dades</string>
+    <string name="colored_navigation">Barra de navegació de colors</string>
+    <string name="colored_navigvation_sum">Si la barra de navegació del sistema té o no color amb la pell</string>
+
+    
+    <string name="color_summary">Estableix el color a diversos components de la IU</string>
+    <string name="primary_color_title">Color principal (pestanya esquerra)</string>
+    <string name="primary_color_summary">Estableix el color als elements grans de la interfície d\'usuari per a la pestanya esquerra</string>
+    <string name="accent_color_title">Color d\'accent</string>
+    <string name="accent_color_summary">Estableix el color a FAB i altres elements petits de la interfície d\'usuari</string>
+    <string name="icon_color_title">Color de la icona</string>
+    <string name="icon_color_summary">Estableix el color a les icones</string>
+    <string name="choose_color">Tria el color</string>
+    <string name="files">Fitxers</string>
+    <string name="textreader">Lector de text</string>
+    <string name="databasereader">Lector de bases de dades</string>
+    <string name="show_dividers">Mostra els divisors</string>
+    <string name="needs_access">Accés d\'escriptura necessari</string>
+    <string name="needs_access_summary">Escolliu el directori arrel de \t</string>
+    <string name="needs_access_summary1">\per atorgar accés d\'escriptura per operar</string>
+    <string name="smb_connection">Connexió SMB</string>
+    <string name="smb_server">Adreça IP del servidor</string>
+    <string name="server_address">Adreça IP del servidor</string>
+    <string name="username">Nom d\'usuari</string>
+    <string name="password">Contrasenya</string>
+    <string name="anonymous">Anònim</string>
+    
+    <string name="folders">Carpetes</string>
+    <string name="folderfilecount">%1$d carpetes i %2$d fitxers</string>
+    <string name="videos">Vídeos</string>
+    <string name="apks">APK</string>
+    
+    <string name="images">Imatges</string>
+    <string name="clear">Esborra</string>
+    
+    <string name="total">Total :</string>
+    <string name="calculating">calculant</string>
+    <string name="sort">Ordena</string>
+    <string name="ascending">Ascendent</string>
+    <string name="descending">Decreixent</string>
+    <string name="default_string">Per defecte</string>
+    <string name="doit">Fes-ho</string>
+    <string name="want_help">Necessites ajuda?</string>
+    <string name="quick">Accés ràpid</string>
+    <string name="recent">Fitxers recents</string>
+    <string name="edit">Edita</string>
+    <string name="find">Troba a la pàgina</string>
+    <string name="grant">Concedir</string>
+    <string name="grantper">Concedir permís</string>
+    <string name="grantfailed">Permís no concedit</string>
+    <string name="grant_storage_permission">L\'aplicació necessita permís d\'emmagatzematge per continuar. Si cancel·les aquest diàleg, sortirà de l\'aplicació.</string>
+    <string name="operation_unsuccesful">Operació no reeixida</string>
+    <string name="creatingfile">Creació del fitxer</string>
+    <string name="creatingfolder">Creació de la carpeta</string>
+    <string name="renaming">Canvi de nom</string>
+    <string name="cant_be_empty">%s no pot estar buit</string>
+    <string name="ip">Adreça</string>
+    <string name="connection_name">Nom de la connexió</string>
+    <string name="no_device_found">No s\'ha trobat cap dispositiu</string>
+    <string name="path">Camí</string>
+    <string name="rename_bookmark">Modifica el marcador</string>
+    <string name="cut">Talla</string>
+    <string name="search">Cerca</string>
+    <string name="invalid_name">Nom no vàlid</string>
+    <string name="search_hint">Escriviu per cercar...</string>
+    <string name="advanced_search">Cerca avançada</string>
+    <string name="regular_expression">Expressió regular</string>
+    <string name="regular_expression_summary">Cerqueu amb una expressió regular d\'estil BASH</string>
+    <string name="match_content">Contingut de coincidència</string>
+    <string name="match_content_summary">Si s\'estableix, l\'expressió regular coincidirà amb el nom complet del fitxer,
+        buscarà una ocurrència en cas contrari.</string>
+    <string name="start_ftp">Inici</string>
+    <string name="stop_ftp">Atura</string>
+    <string name="ftp_status_running">En execució</string>
+    <string name="ftp_status_not_running">No en execució</string>
+    <string name="ftp_no_wifi">Assegureu-vos que esteu connectat a Wi -Fi</string>
+    <string name="domain">Domini</string>
+    <string name="smb_share">Camí de compartició</string>
+    <string name="invalid">%s no vàlid</string>
+    <string name="ftp_notif_starting">El servidor FTP s\'està iniciant</string>
+    <string name="ftp_notif_starting_title">Servidor FTP</string>
+    <string name="ftp_notif_title">Amaze FTP Server executant</string>
+    <string name="ftp_notif_text">a %s</string>
+    
+    <string name="ftp_port_edit_menu_title">Port FTP</string>
+    <string name="ftp_port_change_success">El port FTP s\'ha canviat correctament</string>
+    <string name="ftp_port_change_error_invalid">Número de port seleccionat no vàlid</string>
+    <string name="primary_two_title">Color principal (pestanya dreta)</string>
+    <string name="primary_two_summary">Definiu el color als elements grans de la interfície d\'usuari per a la pestanya dreta</string>
+    <string name="support_development">Desenvolupament de suport</string>
+    <string name="report_bugs_title">Informa d\'errors</string>
+    <string name="source_title">Codi font</string>
+    <string name="source_summary">Consulta el nostre codi font a GitHub</string>
+    <string name="report_bugs_summary">Informa d\'errors o sol·licita una nova funció</string>
+    <string name="translate_title">Tradueix</string>
+    <string name="translate_summary">Tradueix Sorprèn en el teu idioma</string>
+    <string name="paypal_copy_message">Identificador de PayPal copiat al porta-retalls</string>
+    <string name="searching_devices">Cercant dispositius</string>
+    <string name="use_custom_ip">Utilitza la IP personalitzada</string>
+    <string name="bookmark_lost">No s\'ha trobat el marcador, s\'està recreant...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Com accedir a la carpeta compartida de Windows a Android (SMB)\n\n
+                
+                    
+                        Activa l\'ús compartit de fitxers a Windows\n
+                    
+                    
+                        Obriu el tauler de control, feu clic a Tria les opcions de grup d\'inici i compartició a Xarxa
+                        i Internet, i feu clic a "Canvia la configuració avançada de compartició", activeu l\'opció "Fitxer i
+                        Funció "Compartir impressora".\n\n
+                    
+
+                    
+                        Configuració addicional per compartir fitxers\n
+                    
+                    
+                        És possible que també vulgueu configurar les altres opcions de compartició avançades aquí. \n
+                        Per exemple, podeu habilitar l\'accés als vostres fitxers sense contrasenya si confieu en tots
+                        els dispositius de la vostra xarxa local. Un cop habilitat l\'ús compartit de fitxers i impressores, podeu fer-ho
+                        obriu l\'Explorador de fitxers o l\'Explorador de Windows, feu clic amb el botó dret a una carpeta que vulgueu compartir i
+                        seleccioneu Propietats. \n
+                        Feu clic al botó Compartir i feu que la carpeta estigui disponible a la xarxa.\n\n
+                        
+
+                    
+                        Assegura\'t que els dos dispositius estiguin a la mateixa Wifi\n
+                    
+                    
+                        Aquesta característica fa que els fitxers estiguin disponibles a la xarxa local, de manera que el vostre ordinador i dispositius mòbils
+                        han d\'estar a la mateixa xarxa local. No podeu accedir a una carpeta compartida de Windows
+                        a Internet o quan el vostre telèfon intel·ligent està connectat a les seves dades mòbils, això
+                        ha d\'estar connectat a Wi-Fi.\n\n
+                    
+
+                    
+                        Cerca l\'adreça IP\n
+                    
+                    
+                        Obriu el símbol del sistema. Escriviu \'ipconfig\' i premeu Enter. Busqueu la passarel·la predeterminada
+                        sota l\'adaptador de xarxa per a l\'adreça IP del vostre encaminador. Cercar
+                        \\\"Adreça IPv4\\\" a la mateixa secció d\'adaptador per trobar la IP del vostre ordinador
+                        adreça.\n\n
+                    
+
+                    Introduïu els detalls al quadre de diàleg SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">No es poden compartir més de 100 fitxers</string>
+    <string name="otg_access">Seleccioneu l\'arrel del dispositiu OTG</string>
+    <string name="information">Informació</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Accedit</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Modificat</string>
+
+    <string name="title">Títol</string>
+    <string name="artist">Artista</string>
+    <string name="album">Àlbum</string>
+    <string name="year">Any</string>
+    <string name="duration">Durada</string>
+    <string name="comment">Comentari</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Contenidor</string>
+    
+    <string name="channels">Canals</string>
+    <string name="sample_rate">Velocitat de mostreig</string>
+    <string name="bitrate">Taxa de bits</string>
+    
+    <string name="frame_rate">Velocitat de fotogrames</string>
+    <string name="image_type">Tipus d\'imatge</string>
+    <string name="width">Amplada</string>
+    <string name="height">Alçada</string>
+    <string name="date_modified">Data de modificació</string>
+    <string name="software">Programari</string>
+    <string name="creator">Creador</string>
+    <string name="camera_brand">Marca de la càmera</string>
+    <string name="camera_model">Càmera Model</string>
+    <string name="date_taken">Data de presa</string>
+    <string name="exposure_time">Temps d\'exposició</string>
+    <string name="aperture_value">Valor d\'obertura</string>
+    <string name="image_iso">Velocitat ISO</string>
+    <string name="flash_fired">Flash disparat</string>
+    <string name="focal_length">Distància focal</string>
+    <string name="subject">Assumpte</string>
+    <string name="author">Autor</string>
+    <string name="keywords">Paraules clau</string>
+    <string name="producer">Productor</string>
+    <string name="created">Creat</string>
+    
+    <string name="pages">Nombre de Pàgines</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimitzada</string>
+    <string name="security">Seguretat</string>
+    <string name="paper_size">Mida del paper</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Alguns fitxers no s\'han copiat correctament %s</string>
+    <string name="copied"/>
+    <string name="moved">mogut</string>
+    <string name="copy_complete">Copia completa</string>
+    <string name="waiting_title">Esperant</string>
+    <string name="waiting_content">Esperant que finalitzi l\'operació</string>
+    <string name="extract_complete">Extracció completada</string>
+    <string name="compression_complete">Compressió completada</string>
+    <string name="compressing">Compressió</string>
+    <string name="cancelled">Cancel·lada</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Escrit</string>
+    <string name="out_of">fora de</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">de</string>
+    <string name="processing_file">Fitxer en procés</string>
+    <string name="current_speed">Velocitat actual</string>
+    <string name="smb_launch_error">Haureu de copiar aquest fitxer a l\'emmagatzematge per obrir-lo</string>
+    <string name="error_file_not_found">Error: No s\'ha trobat el fitxer</string>
+    <string name="error_io">Error d\'E/S</string>
+    <string name="error_file_too_large">Error: Fitxer massa gran</string>
+    <string name="medium_text">Text mitjà</string>
+    <string name="permission_read">Llegir</string>
+    <string name="permission_write">Escriu</string>
+    <string name="permission_execute">Executeu</string>
+    <string name="permission_owner">Propietari</string>
+    <string name="permission_group">Grup</string>
+    <string name="permission_other">Altre</string>
+    <string name="clipboard_path_copy">Camí copiat al porta-retalls</string>
+    <string name="service_timer">Temps transcorregut</string>
+    <string name="please_wait">Espereu</string>
+
+    <string name="cloud_connection">Connexió al núvol</string>
+    <string name="cloud_connection_new">Nova connexió al núvol</string>
+    
+    
+    
+    <string name="cloud_box">Caixa</string>
+    <string name="cloud_get">Obtén el connector de núvol</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">No hi ha aplicacions</string>
+    <string name="ftp_path">Camí compartit</string>
+    <string name="ftp_path_hint">Camí a l\'arrel del directori per compartir</string>
+    <string name="change">Canvia</string>
+    <string name="unknown_error">Vaja, alguna cosa ha anat malament!</string>
+
+    <string name="ftp_path_change_success">El camí FTP s\'ha canviat correctament</string>
+    <string name="ftp_path_change_error_invalid">Camí no vàlid</string>
+    <string name="ftp_status_no_connection">No hi ha connexió</string>
+    <string name="ftp_status_secure_connection">Connexió segura</string>
+    <string name="ftp_status_title">Estat</string>
+    
+    <string name="ftp_login">Inici de sessió</string>
+    <string name="field_empty">El camp no pot estar buit</string>
+    <string name="ftp_timeout">Temps d\'espera d\'inactivitat</string>
+    <string name="ftp_seconds">Segons</string>
+    <string name="intellihide_toolbar_title">Intellihide Barra d\'eines</string>
+    <string name="intellihide_toolbar_summary">Oculta automàticament la barra d\'eines mentre us desplaceu</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">s\'ha copiat al porta-retalls</string>
+    <string name="contributors_1_summary">Traducció</string>
+    <string name="contributors_2_summary">Icona i bàners</string>
+    <string name="contributors_3_summary">Temàtica del motor</string>
+    <string name="contributors_4_summary">Ombra darrere de FAB</string>
+    <string name="contributors_5_summary">Transició de color en lliscar les pestanyes</string>
+    <string name="contributors_6_summary">Servidor FTP</string>
+    <string name="contributors_7_summary">Engegar un shell interactiu</string>
+    <string name="connection_exists">Connexió ja existeix</string>
+
+    <string name="crypt_encrypting">Encriptació</string>
+    <string name="crypt_decrypting">Desxifrat</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Encriptat</string>
+    <string name="crypt_decrypted">Desxifrat</string>
+    <string name="crypt_encrypt">Encriptació</string>
+    <string name="crypt_decrypt">Desxifrat</string>
+    <string name="operation_fail_following">L\'operació ha fallat per als fitxers següents</string>
+    <string name="crypt_pref_master_password_title">Contrasenya mestra</string>
+    <string name="crypt_pref_master_password_summary">Definiu una contrasenya mestra per al xifratge.
+        Deixeu-lo en blanc per eliminar-lo.</string>
+    <string name="crypt_pref_fingerprint_title">Empremta digital</string>
+    <string name="crypt_pref_fingerprint_summary">Utilitzeu l\'empremta digital per autenticar l\'encriptació</string>
+    <string name="crypt_fingerprint_no_permission">Permisos d\'empremta digital que falten</string>
+    <string name="crypt_fingerprint_not_enrolled">No hi ha cap empremta digital registrada</string>
+    <string name="crypt_fingerprint_no_security">No, seguretat found</string>
+    <string name="crypt_warning_key">Tingueu en compte que quan canvieu el vostre patró de seguretat
+        Configuració del sistema, no podreu desxifrar aquest contingut.</string>
+    <string name="warning_never_show">No torneu a informar</string>
+    <string name="warning_confirm">Ho entenc!</string>
+    <string name="crypt_encryption_fail">No s\'ha pogut xifrar</string>
+    <string name="crypt_decryption_fail">No s\'ha pogut desxifrar</string>
+    <string name="crypt_decryption_fail_password">Contrasenya incorrecta!</string>
+    <string name="crypt_fingerprint_authenticate">Toqueu el sensor per continuar</string>
+    <string name="authenticate_password">Introduïu la contrasenya</string>
+
+    <string name="sidebar_preferences">Barra lateral</string>
+    <string name="sidebar_quick_access_title">Accés ràpid a la barra lateral</string>
+    <string name="show_quick_access_pref_title">Mostra els accessos ràpids</string>
+    <string name="show_quick_access_pref">Accesos ràpids</string>
+    <string name="directory">Directori</string>
+
+    <string name="sidebar_bookmarks_title">Adreces d\'interès de la barra lateral</string>
+    <string name="show_bookmarks_pref_title">Mostra les adreces d\'interès</string>
+    <string name="show_bookmarks_pref">Adreces d\'interès</string>
+    <string name="create_bookmark">Crear un marcador</string>
+    <string name="edit_bookmark">Edita el marcador</string>
+    <string name="question_delete_bookmark">Vols suprimir el marcador?</string>
+
+    <string name="cloud_error_plugin">No s\'ha trobat el connector Amaze Cloud. Baixeu-lo des de Play Store.</string>
+    <string name="cloud_error_failed_restart">No s\'ha pogut carregar la connexió.
+        Obriu Amaze Cloud una vegada.</string>
+    <string name="cloud_remove">Voleu suprimir la connexió al núvol?</string>
+    <string name="cloud_fail_authenticate">No s\'ha pogut autenticar</string>
+    <string name="cloud_share_copied">S\'ha copiat l\'enllaç compartible al porta-retalls</string>
+    <string name="copy_low_memory">S\'ha quedat sense memòria, esborreu una mica de RAM</string>
+    <string name="cloud_token_lost">S\'ha perdut el testimoni, torneu a iniciar la sessió</string>
+    <string name="monofont">Tipus de lletra monoespai</string>
+    <string name="showHeaders">Mostra les capçaleres</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">No hi ha elements</string>
+	
+	
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">El fitxer ha de tenir un nom</string>
+    <string name="add_item">Afegir element</string>
+    <string name="failed_smb_decrypt_path">No s\'ha pogut carregar Connexió SMB</string>
+    <string name="failed_cloud_new_connection">No s\'ha pogut afegir una nova connexió al núvol</string>
+    <string name="failed_cloud_api_key">No s\'ha pogut autenticar el connector Cloud</string>
+
+    <string name="local_inet_addr_error">S\'ha produït un error en obtenir l\'adreça inet local</string>
+    <string name="intent_save_as">Desa com a...</string>
+    <string name="go">Vés</string>
+    <string name="advanced">Avançat</string>
+    <string name="typeable_paths_title">Camins personalitzats</string>
+    <string name="typeable_paths_summary">Premeu llargament la barra del camí per escriure un camí personalitzat</string>
+    <string name="send_email_to">Envieu un correu electrònic a</string>
+
+    <string name="text_editor">Configuració de l\'editor de text</string>
+    <string name="preference_newstack_title">Obrir fitxers com a tasca nova</string>
+    <string name="preference_newstack_summary">Us permet obrir fitxers en tasques separades. Accediu-hi des de la pantalla recents del sistema.</string>
+    
+    <string name="developers">Desenvolupadors</string>
+    <string name="no_bitcoin_app">Instal·leu una aplicació Bitcoin Wallet</string>
+    <string name="channel_name_normal">Notificacions d\'Amaze</string>
+    <string name="channel_description_normal">Notificacions d\'Amaze File Manager</string>
+    <string name="channel_name_ftp">Servidor FTP d\'Amaze</string>
+    <string name="channel_description_ftp">Amaze File Notificacions del servidor FTP del gestor</string>
+
+    
+    <string name="processing">Processament...</string>
+    <string name="failed_no_connection">No s\'han pogut carregar els fitxers. Comproveu la vostra connexió.</string>
+
+    <string name="update">ACTUALITZAR</string>
+	<string name="scp_connection">Connexió SCP/SFTP</string>
+    <string name="ftp_connection">Connexió FTP</string>
+    <string name="ftps_connection">Connexió FTP a través de SSL</string>
+    
+    
+    <string name="ssh_host_key_verification_prompt_title">Verifica l\'amfitrió</string>
+    <string name="ssh_select_pem_button">Clau privada SSH</string>
+    <string name="ssh_pem_key_parse_error">No es pot llegir el PEM seleccionat: %s</string>
+    <string name="password_unchanged">(sense canvis)</string>
+    <string name="ssh_authentication_failure_password">Error a l\'inici de sessió: no es pot autenticar amb el nom d\'usuari i la contrasenya proporcionats.</string>
+    <string name="ssh_authentication_failure_key">Error a l\'inici de sessió: no es pot autenticar amb el nom d\'usuari i la clau privada proporcionats.</string>
+    <string name="ssh_connect_failed">No es pot connectar a %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ADVERTIMENT: LA IDENTIFICACIÓ DE L\'AMFITRICIÓ REMOTA HA CANVIAT!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">ÉS POSSIBLE QUE ALGÚ ESTIGUI FENT ALGUNA COSA DONYA!\n\nAlgú podria estar escoltant-te. ara mateix (atac de l\'home del mig)! També és possible que s\'acabi de canviar la clau de l\'amfitrió. L\'empremta digital de la clau pública enviada per l\'amfitrió remot no coincideix amb la emmagatzemada a Amaze.\n\nContacteu amb l\'administrador del sistema o configureu una nova connexió per continuar connectant-vos al servidor.</string>
+    <string name="ssh_key_prompt_passphrase">Introduïu la contrasenya de la clau. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">El vostre llançador no admet la creació de dreceres.</string>
+    
+    <string name="select_color_config">Seleccioneu la configuració del color</string>
+    <string name="customize">Personalitza</string>
+    <string name="custom">Personalitza</string>
+    <string name="preselected_configs_title">Configuracions preseleccionades</string>
+    <string name="orange">Taronja</string>
+    <string name="blue">Blau</string>
+    <string name="green">Verd</string>
+    <string name="password_no_match">La contrasenya no coincideix</string>
+    <string name="deselect_all">Desseleccioneu-ho tot</string>
+    <string name="filename">Nom del fitxer</string>
+    <string name="compress_file_suggest_zip_extension">Es recomana utilitzar \".zip\" com a extensió de fitxer.</string>
+    <string name="about_amaze">Gestor de fitxers de disseny de materials per a Android</string>
+    <string name="license">Llicència</string>
+    <string name="libraries">Biblioteques</string>
+    <string name="password_repeat">Repetiu la contrasenya</string>
+    <string name="create_file_suggest_txt_extension">Es recomana utilitzar \".txt\" com a extensió de fitxer.</string>
+    <string name="ssh_select_pem">Seleccioneu la clau privada per a l\'autenticació</string>
+    <string name="ssh_key_invalid_passphrase">Frase de contrasenya de clau no vàlida.</string>
+    <string name="ssh_key_no_decoder_decrypt">Cap descodificador vàlid per desxifrar PEM.</string>
+    <string name="encryption_fail_copy">No s\'ha pogut actualitzar l\'entrada de xifratge a la base de dades</string>
+    <string name="extracted">Extreta</string>
+    <string name="compressed">Comprimida</string>
+    <string name="processed">Processada</string>
+    <string name="no_obtainable_info">No hi ha informació sobre aquest fitxer</string>
+    <string name="reopen_from_source">No es pot, torna a obrir des de l\'última aplicació</string>
+    <string name="no_file_error">Alguna cosa ha anat malament, no hi ha res a obrir</string>
+    <string name="file_too_long">El El fitxer és massa llarg i no es pot editar, però podeu llegir els primers %d caràcters</string>
+    <string name="file_read_only">El fitxer obert és només de lectura.</string>
+    <string name="got_it">Ho entenc!</string>
+    <string name="encrypt_file_save_as">Desa xifrat Fitxer com a...</string>
+    <string name="encrypt_folder_save_as">Desa la carpeta xifrada com...</string>
+    <string name="encrypt_option_use_aze">Utilitza el format de xifratge Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt és un format de xifratge de fitxers de codi obert basat en el xifratge AES. També és portàtil, es pot desxifrar amb programes AESCrypt en altres plataformes.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">lloc web d\'AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>El format de xifratge d\'Amaze també es basa en el xifratge AES; però diferent del format AESCrypt, només pot ser desxifrat per aquest dispositiu; a més, no heu de desinstal·lar Amaze File Manager d\'aquest dispositiu ni canviar la manera de bloquejar la pantalla, en cas contrari no tindreu cap manera de recuperar el fitxer xifrat.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Els fitxers xifrats han d\'utilitzar \".aze\" com a extensió de fitxer.</string>
+    <string name="encrypt_file_must_end_with_aes">Els fitxers xifrats han d\'utilitzar \".aes\" com a extensió de fitxer.</string>
+    <string name="error_aescrypt_decrypt_failed">No es poden desxifrar \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">No es pot sobreescriure el fitxer.</string>
+    <string name="saved_single_file">El fitxer s\'ha desat com a \'%s\'.</string>
+    <string name="saved_multi_files">S\'han desat %d fitxers.</string>
+    <string name="create_hidden_file_warn">El fitxer creat s\'amagarà a la llista de fitxers.</string>
+    <string name="grant_apkinstall_permission">L\'aplicació necessita permís per continuar amb la instal·lació d\'aplicacions.</string>
+    <string name="time_remaining">Temps restant</string>
+    <string name="transfer_rate">Taxa de transferència</string>
+    <string name="unknown">desconegut</string>
+    <string name="multiple_invalid_archive_entries">Alguns fitxers de l\'arxiu no es poden extreure; L\'arxiu pot estar danyat o prové d\'una font maliciosa.</string>
+    <string name="saf_otg_explanation">Ara aniràs al sistema de fitxers d\'Android per motius de seguretat. Si us plau, seleccioneu el dispositiu USB de la llista de l\'esquerra.</string>
+    <string name="donation_thanks">Gràcies per la donació, això ens manté motivats! (:</string>
+    <string name="enable_marquee_filename">Activa l\'efecte de marquesina per als noms de fitxer</string>
+    <string name="archive_password_prompt">Introduïu la contrasenya d\'arxiu:</string>
+    
+    <string name="cannot_extract_archive">No es pot extreure l\'arxiu \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">No es pot extreure obre l\'arxiu \"%s\". O no podem obrir l\'arxiu o bé l\'arxiu s\'ha fet malbé.</string>
+    <string name="close">Tancar</string>
+    <string name="bookmark_exists">El marcador existeix</string>
+    <string name="hide_media">Amaga dels navegadors multimèdia</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ÉS POSSIBLE QUE ALGÚ ESTIGUI FENT ALGUNA COSA DONYA!\n\nAlgú podria estar escoltant-te ara mateix (atac home-in-the-middle)! També és possible que s\'acabi de canviar la clau de l\'amfitrió. L\'empremta digital perquè la clau pública enviada per l\'amfitrió remot no coincideix amb la emmagatzemada a Amaze.\n\nPodeu continuar amb l\'actualització de l\'empremta digital de l\'amfitrió o cancel·lar l\'actualització de la configuració de connexió SSH.</string>
+    <string name="update_host_key">Actualitza la clau de l\'amfitrió</string>
+    <string name="cancel_recommended">Cancel·la (recomanat)</string>
+    
+    
+    <string name="failed_install_apk">No s\'ha pogut instal·lar</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Emmagatzematge intern</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Targeta SD</string>
+    <string name="choose_folder">Trieu aquesta carpeta</string>
+    
+    <string name="some_files_failed_invalid_operation">Alguns fitxers no han pogut ser vàlids operació</string>
+    <string name="ftp_server_prompt_connect_to_network">Connecteu-vos a una xarxa o activeu l\'AP</string>
+    <string name="ftp_server_open_settings">Obre la configuració</string>
+    <string name="move">Mou</string>
+    <string name="select_save_location">Seleccioneu la ubicació per desar</string>
+    <string name="scp_default_path">Camí predeterminat (opcional)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Ho sentim, això no hauria d\'haver passat.</string>
+    
+    <string name="error_report_button_text">Informa d\'aquest error per correu electrònic</string>
+    <string name="error_report_button_telegram">Informa d\'aquest error via telegrama</string>
+    <string name="copy_for_github">Copia l\'informe amb format</string>
+    <string name="error_report_open_issue_button_text">Informe a GitHub</string>
+    <string name="error_report_open_github_notice">Si us plau, comproveu si ja hi ha cap problema que parla del vostre bloqueig.</string>
+    <string name="error_snackbar_message">Ho sentim, hi ha hagut un error.</string>
+    <string name="error_snackbar_action">Informe</string>
+    <string name="what_device_headline">Informació:</string>
+    <string name="what_happened_headline">Què va passar:</string>
+    <string name="info_labels">Què:\\nSolicitud:\\nHora GMT:\\nPaquet:\\nVersió:\\nVersió del SO:\\nDispositiu:\\nModel:\\nProducte :</string>
+    <string name="your_comment">El teu comentari (en anglès):</string>
+    <string name="error_details_headline">Detalls:</string>
+    <string name="app_ui_crash">S\'ha bloquejat l\'aplicació/IU</string>
+    <string name="error_report_title">Informe d\'error</string>
+    <string name="crash_report_copied">S\'ha copiat l\'informe d\'error a porta-retalls</string>
+    <string name="disableIpcSignature">Desactiva la comprovació de signatura IPC (per als servidors SMBv1 heretats: NO SEGUR!)</string>
+    <string name="cannot_delete_file">No es pot suprimir el fitxer</string>
+    <string name="cannot_delete_file_with_reason">No es pot suprimir el fitxer - %s</string>
+    <string name="cannot_rename_file">No es pot canviar el nom del fitxer %s - %s</string>
+    <string name="cannot_read_directory">No es pot llegir el directori %s - %s</string>
+    <string name="just_once">Una vegada</string>
+    <string name="always">Sempre</string>
+    <string name="choose_different_app">Tria una aplicació diferent</string>
+    <string name="clear_open_file">Esborra cache</string>
+    <string name="clear_open_file_summary">Esborra les aplicacions d\'obertura de fitxers predeterminades seleccionades</string>
+    <string name="ftp_readonly">Accés de només lectura</string>
+    <string name="legacy_listing_title">Utilitza la llista heretada per a root</string>
+    <string name="legacy_listing_summary">Si està activada, utilitza el mètode heretat per llistar els fitxers</string>
+    <string name="error_unsupported_v5_rar">L\'arxiu RAR \"%s\" no és compatible amb l\'arxiu RAR v5.</string>
+    <string name="ftp_prompt_restart_server">Haureu de reiniciar el servidor FTP perquè els canvis tinguin efecte.</string>
+    <string name="error_permission_denied">Permís denegat</string>
+    <string name="error_archive_password_incorrect">Contrasenya d\'arxiu incorrecta.</string>
+    <string name="error_archive_cannot_extract">No es pot extreure l\'entrada de l\'arxiu \"%s\" a \"%s\".</string>
+    <string name="drag_and_drop_preference">Seleccioneu la preferència d\'arrossegar i deixar anar (experimental)</string>
+    <string name="drag_to_move_copy">Toqueu i arrossegueu per moure o copiar fitxers</string>
+    <string name="drag_to_select">Toqueu i arrossegueu per seleccionar fitxers</string>
+    <string name="disable">Desactiva</string>
+    <string name="choose_operation">Seleccioneu l\'operació per realitzar</string>
+    <string name="remember">Recordeu-ho per a la propera vegada</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Concediu accés SAF al servidor FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Com que aquesta és la vostra primera execució del servidor FTP i esteu utilitzant l\'emmagatzematge intern del dispositiu com a carpeta compartida, permeteu que Amaze accedeixi a l\'emmagatzematge mitjançant SAF.\n\n
+
+Només heu de fer-ho una vegada, fins a la propera vegada que seleccioneu una ubicació nova per compartir.</string>
+    <string name="android_data_prompt_saf_access">Des d\'Android 10, Android havia imposat restriccions a determinats directoris i han d\'accedir-hi amb Storage Access Framework.\n \nPermet que Amaze accedeixi al directori des del gestor de fitxers del sistema tocant \"Permet l\'accés\".</string>
+    <string name="android_data_prompt_saf_access_title">Concediu accés SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Utilitza el sistema de fitxers heretat</string>
+    <string name="ftp_preference_saf_filesystem">Activa això per suportar l\'ús d\'emmagatzematge extern del dispositiu a les versions més noves d\'Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">La ruta compartida del servidor FTP s\'ha restablert a l\'emmagatzematge intern mentre torneu a la implementació del sistema de fitxers heretat. Si us plau, seleccioneu una ruta nova utilitzant el menú de la part superior dreta segons sigui necessari.</string>
+    <string name="ftp_server_reset_notify">La ruta compartida del servidor FTP s\'ha restablert a l\'emmagatzematge intern</string>
+    <string name="ftp_server_root_unavailable">Esteu escollint una ruta que requereix accés root. Si us plau, activeu l\'explorador d\'arrel a la configuració si el vostre dispositiu està arrelat.</string>
+    <string name="ftp_server_root_filesystem_warning">Esteu escollint un camí que requereix accés root, que permet operacions de lectura/escriptura a tot el sistema de fitxers del vostre dispositiu, i és perillós: els errors descuidats podrien bloquejar el vostre dispositiu!\n\nEsteu segur?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">S\'ha produït un error en obrir l\'URI \"%s\" per llegir-lo.</string>
+    <string name="error_empty_archive">\"%s\" és un arxiu buit.</string>
+    <string name="error_bad_archive_without_info">\"%s\" és un arxiu danyat. .</string>
+    <string name="error_bad_archive_with_info">\"%s\" és un arxiu malmès.\nMissatge de l\'extractor: \"%s\"</string>
+    <string name="security_error">No s\'ha pogut obrir el fitxer amb aquesta aplicació</string>
+    <string name="cloud_drive_tooltip">Crea una connexió de Google Drive™ per gestionar fitxers des de Amaze File Manager.</string>
+    <string name="signin_with_google_title">Autentiqueu-vos per utilitzar Google Drive™</string>
+    <string name="show_system_apps">Mostra les aplicacions del sistema</string>
+    <string name="system_apps">Aplicacions del sistema</string>
+    <string name="select_inverse">Seleccioneu Inversa</string>
+    <string name="select_by_type">Selecciona per tipus</string>
+    <string name="select_by_date">Selecciona per data</string>
+    <string name="select_similar">Selecciona similar</string>
+    <string name="error_fetching_google_play_product_list">S\'ha produït un error en obtenir la llista de productes de Google Play.</string>
+    <string name="grant_all_files_permission">Des d\'Android 11 , Google demana als gestors de fitxers que sol·licitin permís de l\'usuari per gestionar tots els fitxers del dispositiu. Detalls aquí.
+        \n\nAmaze File Manager també necessita aquest permís. Després de prémer "Concedir" aquí, seleccioneu l\'opció Permetre l\'accés per gestionar tots els fitxers a la pantalla següent.
+        \n\nSi cancel·les aquest diàleg, sortirà de l\'aplicació.</string>
+    <string name="user_apps">Aplicacions d\'usuari</string>
+    <string name="appearance">Aparença</string>
+    <string name="behavior">Comportament</string>
+    <string name="appearance_summary">Personalitza el tema, els colors i l\'aparença del gestor de fitxers</string>
+    <string name="ui_summary">Controlar quina informació es mostra, personalitzar la barra lateral i canviar les preferències de la interfície d\'usuari</string>
+    <string name="behavior_summary">Modificar comportaments com ara la cerca avançada i si cal obrir fitxers com a tasca nova</string>
+    <string name="security_summary">Configurar la contrasenya i xifratge</string>
+    <string name="backup_summary">Exporta/Importa la configuració de Amaze</string>
+
+    <string name="pref_export">Exporta</string>
+    <string name="pref_export_summary">Configura la exporta</string>
+    <string name="pref_import">Importa</string>
+    <string name="pref_import_summary">Importa la configuració</string>
+
+    <string name="quick_desc">Fitxers Accés recentment a Amaze</string>
+    <string name="recent_desc">Fitxers creats o modificats recentment</string>
+    <string name="error_cannot_find_way_open">No s\'ha pogut trobar la manera d\'obrir el fitxer</string>
+    <string name="error_cant_decompress_that_file">No es pot processar l\'arxiu sol·licitat</string>
+    <string name="analyse_storage">Analitzar l\'emmagatzematge</string>
+    
+    <string name="download_amaze_utils_text">Se\'t redirigeix ​​a Amaze File Utilities. És la nostra aplicació de codi obert que té visors d\'àudio/vídeo/imatge/documents integrats, us permet analitzar fitxers brossa per alliberar emmagatzematge, transferir-se ràpidament mitjançant Wifi P2P i molt més.\nSi us plau, ajudeu-nos provant-ho.</string>
+    <string name="download">Baixa</string>
+    
+    <string name="amaze_utils_installed_alias">Gràcies per instal·lar Amaze File Utilities. Se\'t redirigeix ​​a l\'aplicació.</string>
+    <string name="image_viewer">Amaze Visualitzador d\'imatges</string>
+    <string name="video_player">Reproductor de vídeo Amaze</string>
+    <string name="amaze_audio_player">Reproductor de música Amaze</string>
+    <string name="pdf_viewer">Visor de documents Amaze</string>
+    <string name="docx_viewer">Visor de documents Amaze</string>
+    <string name="share_logs">Comparteix els registres</string>
+    <string name="share_logs_summary">Comparteix els registres capturats per correu electrònic/telegrama</string>
+    <string name="open_with_amaze">Obre amb Amaze</string>
+    <string name="confirmation">Confirmació</string>
+    <string name="open_file_confirmation">Esteu segur que voleu obrir el fitxer següent?\n\nNom:\n%s\n\nUbicació:\n%s\n\nMida:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">D\'acord amb els mandats de la política de Google Play, les aplicacions no poden actualitzar-se per si soles. Actualitzeu l\'aplicació de Google Play.</string>
+    <string name="error_cannot_get_package_info">No es pot obtenir la informació del paquet del fitxer \"%s\". O el fitxer especificat no és un APK o el fitxer del paquet està malmès.</string>
+    <string name="preference_delete_confirmation">Suprimeix la confirmació</string>
+    <string name="preference_delete_confirmation_summary">Demana confirmació abans d\'eliminar fitxers. No es recomana desactivar-ho!</string>
+    
+    
+    <string name="protocol_ftps">FTP segur</string>
+    <string name="unavailable">No disponible</string>
+
+    <string name="exporting_failed">S\'ha produït un error en l\'exportació: no s\'ha pogut escriure el fitxer de còpia de seguretat</string>
+    <string name="importing_failed">La importació ha fallat: no s\'ha pogut llegir la còpia de seguretat fitxer</string>
+    <string name="importing_completed">Importació completada</string>
+    <string name="invalid_backup_file">Fitxer de còpia de seguretat no vàlid</string>
+    <string name="import_failed_for">La importació ha fallat per a:</string>
+    <string name="free_of">"%s\n%s lliure de %s</string>
+    <string name="cloud_error_fdroid">El connector Amaze Cloud no és compatible amb la versió F-Droid. Utilitzeu la versió Play Store d\'Amaze.</string>
+    <string name="disable_player_intent_filters">Desactiva els filtres d\'intencions del reproductor</string>
+    <string name="disable_player_intent_filters_summary">Desactiva els reproductors multimèdia integrats d\'Amaze des del selector de fitxers</string>
+    <string name="no_app_found_intent">No s\'ha trobat cap aplicació per gestionar aquesta intenció. Tens DocumentsUI instal·lat?</string>
+    <string name="cloud_connection_credentials_cleared">Credencials de connexió al núvol esborrades</string>
+    <string name="cloud_connection_credentials_cleared_msg">Desafortunadament, no hem pogut migrar les teves credencials de connexió al núvol al nou esquema de base de dades i hem tingut per eliminar-los de l\'aplicació. Torneu a crear la connexió al núvol.</string>
+</resources>

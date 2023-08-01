@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Vhura dhirowa rekufambisa</string>
+    <string name="drawer_close">Vhara dhirowa rekufambisa</string>
+    
+    
+    
+    
+    <string name="select">Sarudza Chinhu</string>
+    <string name="press_again">Dzvanya zvakare kuti ubude</string>
+    <string name="open">Vhura</string>
+    
+    <string name="uninstall">Bvisa</string>
+    
+    <string name="properties">Zvinhu</string>
+    <string name="copyingapks">Kukopa %d APK mafaira ku%s</string>
+    
+    <string name="add_to_bookmarks">Wedzera kuBhukumaka</string>
+    <string name="enterpath">Pinda Path</string>
+    <string name="cancel">KANCEL</string>
+    <string name="create">GADZIRA</string>
+    <string name="loading">Kutsvaga…</string>
+    <string name="file_empty">Faira harina chinhu</string>
+    <string name="error">Kukanganisa</string>
+    <string name="search_results">Kutsvaga zvawanikwa zve%s</string>
+    
+    <string name="save">Chengetedza</string>
+    <string name="bookmarks_added">Mabhukumaka Akawedzerwa</string>
+    <string name="fileexist">Faira rine zita rimwe chetero ravepo</string>
+    <string name="name">Zita</string>
+    
+    <string name="location">Nzvimbo</string>
+    
+    <string name="size">saizi yefolder</string>
+    <string name="enterzipname">Isa Zita reZip</string>
+    <string name="no_app_found">Hapana App yawanikwa yekuvhura faira iri</string>
+    <string name="copying">Kukopa</string>
+    <string name="moving">Kufambisa</string>
+    <string name="file">Faira</string>
+    
+    <string name="newfolder">Folder Itsva</string>
+    <string name="entername">div18 Isa Zita</string>
+    <string name="extracting">Kubvisa</string>
+    <string name="stopping">Kumira</string>
+    <string name="open_parent">Vhura Dhairekitori Revabereki</string>
+    <string name="open_with">Vhura ne</string>
+    <string name="share">Goverana</string>
+    
+    
+    
+    <string name="yes">Hongu</string>
+    <string name="no">Kwete</string>
+    
+    
+    <string name="dialog_delete_category_files">Mafaira</string>
+    <string name="dialog_delete_disclaimer">Kudzima zvinhu zviri pasi apa kuchazvibvisa zvachose kubva pamudziyo wako uye hazvichakwanisi kudzoserwa.</string>
+    <string name="dialog_delete_title">Delete zvinhu zvachose?</string>
+    <string name="deleting">Kudzima</string>
+    <string name="question_set_path_as_home">Unoda kuseta nzira iripo semusha this tab?</string>
+    
+    <string name="sort_by">Ronga Ne</string>
+    <string name="sort_only_this">Iri folda chete</string>
+    
+    <string name="random">Random Ganda </string>
+    <string name="random_summary">Inoseta isina kurongeka yeruvara rwekutanga</string>
+    <string name="colorize">Rora Zvidhori</string>
+    <string name="colorize_summary">Inoisa static icon color. Haisi kunzvenga dhairekitori chiratidzo chemavara anofarira.</string>
+    <string name="home">Kumba</string>
+    <string name="paste">Namira</string>
+    <string name="history">Nhoroondo</string>
+    
+    <string name="root_mode">Root Explorer </string>
+    <string name="root_mode_summary">Kuitira midzi midzi chete. Itarise chete kana uine chokwadi nazvo.</string>
+    <string name="root_failure">Root Access haina kupihwa</string>
+    <string name="select_all">Sarudza Zvese</string>
+    
+    <string name="set_as_home">Set sePamba</string>
+    <string name="operation_not_supported">Kushanda hakuna kutsigirwa</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    
+    
+    <string name="daytime">Masikati</string>
+    <string name="black">Dema (yeOLED)</string>
+    <string name="system">System (tevedzera system theme)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Mafolda Pamusoro</string>
+    <string name="filesOnTop">Mafaira Ari Pamusoro</string>
+    <string name="none_on_top">Hapana Pamusoro</string>
+    <!--SortBy-->
+    <string name="sort_name">Zita</string>
+    <string name="lastModified">Yakapedzisira Kugadziridzwa</string>
+    
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Sarudza faira</string>
+    
+    <string name="in_safe">Inzvimbo isina kukwana</string>
+    <string name="no_file_overwrite">Hapana Faili Rakadhindwa</string>
+    
+    <string name="overwrite">Nyora</string>
+    <string name="not_allowed">Hazvibvumirwe</string>
+    <string name="searching">Kutsvaga %s</string>
+    <string name="done">Zvaitwa</string>
+    
+    <string name="enablerootmde">Enetse Midzi Mode</string>
+    <string name="goback">Dzokera Kumashure</string>
+    <string name="newfile">Itsva Faira</string>
+    <string name="no_files">Hapana Mafaira</string>
+    <string name="used">nzvimbo yakashandiswa</string>
+    <string name="used_by_others">anoshandiswa nevamwe</string>
+    <string name="free">nzvimbo yemahara</string>
+    
+    <string name="gridview">Gridhi Ona</string>
+    <string name="permission">Mvumo</string>
+    <string name="hide">Viga</string>
+    <string name="exit">Buda</string>
+    <string name="doforall">Ita nokuda zvinhu zvese</string>
+    <string name="gridcolumnno">Nhamba yemakoramu mugrid view</string>
+    <string name="set_random">Kuchinja kuchaitika kana watangazve app</string>
+    <string name="authors">Vanyori</string>
+    
+    <string name="ok">Zvakanaka</string>
+    
+    <string name="general">Zvakawanda</string>
+    <string name="thumb_summary">Ratidza Zvidhoma zvemaapps nemifananidzo</string>
+    <string name="thumb">Ratidza Zvidhoma</string>
+    <string name="hidden">Ratidza Mafaira NemaFolder Akavigwa</string>
+    <string name="lastModifiedSummary">Ratidza zuva uye nguva yekupedzisira kugadziridzwa</string>
+    <string name="lastModifiedPref">Ratidza Zuva Rekupedzisira uye Nguva</string>
+    <string name="size_pref_summary">Ratidza saizi yemafaira nenhamba yezvinhu zviri mumaforodha</string>
+    <string name="size_pref">Ratidza Saizi</string>
+    
+    <string name="root_pref_summary">Ratidza Mvumo Yemafaira nemaFolder</string>
+    <string name="root_pref">Ratidza Mvumo</string>
+    
+    
+    <string name="rate">Rea app</string>
+    <string name="feedback">Tumira Mhinduro</string>
+    <string name="hiddenfiles">Mafaira Akavanzika</string>
+    
+    <string name="root_directory">Mudzi</string>
+    <string name="add_shortcut">Wedzera Shortcut</string>
+    <string name="unsaved_changes">Shanduko Dzisina Kuchengetwa</string>
+    <string name="unsaved_changes_description">Une shanduko dzisina kuchengetwa, unoda kudzichengeta usati wabuda here?</string>
+    <string name="saving">Kuchengeta</string>
+    
+    <string name="view">Ona</string>
+    <string name="install">Isa</string>
+    
+    <string name="archive_text">Iyi inzvimbo. Ndechipi chiito chaungade kuita?</string>
+    <string name="package_installer_text">Ichi chiisimi chepasuru. Chii chaungada kuita?</string>
+    
+    <string name="xda_summary">Q&amp;amp;A, Rubatsiro &amp;amp; Kugadzirisa Matambudziko</string>
+    <string name="circular_images">Shandisa maaikoni edenderedzwa pamifananidzo nemavhidhiyo</string>
+    <string name="circular_icons">Shandisa mifananidzo yedenderedzwa </string>
+    <string name="back_title">Kufamba uchidzoka</string>
+    <string name="back_summary">Inogonesa kufamba uchidzokera kumashure pamusoro pechirongwa</string>
+    
+    <string name="translators">Vashanduri</string>
+    <string name="german_translation_title">ChiGerman</string>
+    <string name="italian_translation_title">ChiItalian</string>
+    <string name="french_translation_title">ChiFrench</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="portuguese_translation_title">Chiputukezi</string>
+    
+    <string name="korean_translation_title">Korea </string>
+    <string name="greek_translation_title">Chigiriki </string>
+    
+    
+    
+    <string name="japanese_translation_title">ChiJapan </string>
+    
+
+    
+    <string name="unin_system_apk">Iyi isystem app, ichidzima zvingatungamirira kukusagadzikana kwegadziriro.\nKuenderera mberi?</string>
+    <string name="warning">Yambiro</string>
+    
+    
+    <string name="archive_summary">Mafaira emuArchive achaiswa kufolder iri. Default value idhairekitori rine dura.</string>
+    <string name="open_as">Vhura Se</string>
+    <string name="text">Mashoko</string>
+    
+    <string name="video">Vhidhiyo</string>
+    <string name="other">Zvimwe</string>
+    <string name="image">Mufananidzo</string>
+    <string name="contributors">Vabatsiri</string>
+    <string name="save_paths">Rangarira nzira</string>
+    <string name="save_path_summary">Paunotanga, folda ichaonekwa nguva pfupi yapfuura yetabhu yega yega icharatidzwa</string>
+    <string name="select_intent">Sarudza</string>
+    
+    
+    <string name="colored_navigvation_sum">Kuti system navigation bar ine ruvara neganda</string>
+
+    <string name="color_title">Ruvara</string>
+    <string name="color_summary">Seta ruvara kuzvikamu zvakasiyana zveUI</string>
+    <string name="primary_color_title">Muvara wekutanga (Kuruboshwe Tab)</string>
+    <string name="primary_color_summary">Seta ruvara kuzvinhu zvakakura zveUI zvetabhu rekuruboshwe</string>
+    <string name="accent_color_title">Accent Ruvara</string>
+    <string name="accent_color_summary">Seta ruvara kuFAB nezvimwe zvidiki zveUI</string>
+    <string name="icon_color_title">Icon Ruvara</string>
+    <string name="icon_color_summary">Seta ruvara kune zvidhori</string>
+    <string name="choose_color">Sarudza ruvara</string>
+    <string name="files">Mafaira</string>
+    
+    
+    
+    <string name="needs_access">Nyora Kupinda Kunodiwa</string>
+    <string name="needs_access_summary">Ndokumbira usarudze mudzi wedhairekitori we\t</string>
+    <string name="needs_access_summary1">\kuti upe mukana wekunyora kuti ushande</string>
+    
+    <string name="smb_server">Sevha IP Kero</string>
+    <string name="server_address">Seva IP Kero</string>
+    <string name="username">Zita rekushandisa</string>
+    
+    <string name="anonymous">Asingazivikanwe</string>
+    <string name="bluetooth">Bluetooth </string>
+    <string name="folders">Mafolda</string>
+    <string name="folderfilecount">%1$d mafolder uye %2$d mafaira</string>
+    <string name="videos">Mavhidhiyo</string>
+    
+    <string name="documents">Zvinyorwa</string>
+    <string name="images">Mifananidzo</string>
+    <string name="clear">Pachena</string>
+    <string name="md5">MD5 </string>
+    <string name="total">Zvose:</string>
+    <string name="calculating">kuverenga</string>
+    <string name="sort">Ronga</string>
+    <string name="ascending">Kukwira</string>
+    <string name="descending">Kudzika</string>
+    
+    <string name="doit">Iite</string>
+    <string name="want_help">Unoda rubatsiro here?</string>
+    <string name="quick">Kurumidza kupinda</string>
+    <string name="recent">Mafaira achangoburwa</string>
+    <string name="edit">Gadzirisa</string>
+    <string name="find">Tsvaga papeji</string>
+    <string name="grant">Ipa</string>
+    <string name="grantper">Ipa mvumo</string>
+    <string name="grantfailed">Mvumo haina kupihwa</string>
+    <string name="grant_storage_permission">App inoda mvumo yekuchengetedza kuti ienderere mberi. Kukanzura nhaurirano iyi kuchabuda muapp.</string>
+    <string name="operation_unsuccesful">Kushanda Hakuna Kubudirira</string>
+    <string name="creatingfile">Kugadzira Faira</string>
+    <string name="creatingfolder">Kugadzira Folder</string>
+    <string name="renaming">Kupazve zita</string>
+    <string name="cant_be_empty">%s haigone kupera</string>
+    <string name="ip">Kero</string>
+    <string name="connection_name">Zita rekubatanidza</string>
+    <string name="no_device_found">Hapana zvishandiso zvawanikwa</string>
+    <string name="path">Nzira</string>
+    <string name="rename_bookmark">Gadzirisa Bookmark</string>
+    <string name="cut">Cheka</string>
+    <string name="search">Tsvaga</string>
+    <string name="invalid_name">Zita Ririsiriro</string>
+    <string name="search_hint">Type yekutsvaga…</string>
+    <string name="advanced_search">Kutsvaga Kwepamusoro</string>
+    <string name="regular_expression">Kutaura Kwenguva Dzose</string>
+    <string name="regular_expression_summary">Tsvaga uchishandisa BASH style yekutaura nguva dzose</string>
+    
+    <string name="match_content_summary">Kana yaiswa, kutaura nguva dzose kunofananidzwa nezita rese refaira,
+        ichatsvaga zviitiko neimwe nzira.</string>
+    <string name="start_ftp">Tanga</string>
+    <string name="stop_ftp">Misa</string>
+    <string name="ftp_status_running">Kumhanya</string>
+    <string name="ftp_status_not_running">Kwete Kumhanya</string>
+    <string name="ftp_no_wifi">Iva nechokwadi chekuti wakabatana neWi -Fi</string>
+    
+    <string name="smb_share">Goverana nzira</string>
+    <string name="invalid">Isiriyo %s</string>
+    <string name="ftp_notif_starting">FTP Server iri kutanga</string>
+    <string name="ftp_notif_starting_title">FTP port</string>
+    <string name="ftp_notif_title">Shamisa FTP Server irikumhanya</string>
+    <string name="ftp_notif_text">pa %s</string>
+    <string name="ftp_notif_stop_server">MISA</string>
+    
+    <string name="ftp_port_change_success">FTP port yachinja zvakabudirira</string>
+    <string name="ftp_port_change_error_invalid">Nhamba yechiteshi yakasarudzwa</string>
+    <string name="primary_two_title">Muvara Wekutanga (Kurudyi Tab)</string>
+    <string name="primary_two_summary">Seta ruvara kuzvinhu zvakakura zveUI zvetebhu yerudyi</string>
+    <string name="support_development">Kutsigira Kutsigira</string>
+    <string name="report_bugs_title">Report Bugs </string>
+    <string name="source_title">Kunobva kodhi</string>
+    <string name="source_summary">Ona kwatakabva kodhi paGitHub</string>
+    <string name="report_bugs_summary">Mhan’ara tsikidzi kana kukumbira chimiro chitsva</string>
+    <string name="translate_title">Shandura</string>
+    <string name="translate_summary">Shandura Mamaze mumutauro wako</string>
+    <string name="paypal_copy_message">PayPal ID yakakopwa kuclipboard</string>
+    <string name="searching_devices">Kutsvaga zvishandiso</string>
+    <string name="use_custom_ip">Shandisa tsika IP</string>
+    <string name="bookmark_lost">Bhukimark rawanikwa, recreating…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Maitiro ekuwana yakagovaniswa Windows folda pane Android (SMB)\n\n
+                
+                    
+                        Gonesa Kugovera Mafaira paWindows\n
+                    
+                    
+                        Vhura iyo Control Panel, tinya Sarudza HomeGroup uye Kugovera sarudzo pasi peNetwork
+                        uye Internet, wobva wadzvanya "Shandura Yepamberi Kugovera Zvirongwa," gonesa iyo "Faira uye
+                        Printer Sharing".\n\n
+                    
+
+                    
+                        Yekuwedzera Mafaira ekugovera marongero\n
+                    
+                    
+                        Iwe unogona zvakare kuda kugadzirisa mamwe epamberi ekugovera marongero pano. \n
+                        Semuenzaniso, unogona kugonesa kuwana mafaera ako pasina password kana uchivimba zvese
+                        zvishandiso panetiweki yako yemuno. Kana faira neprinter kugovera zvagoneswa, unogona
+                        vhura File Explorer kana Windows Explorer, tinya-kurudyi folda yaunoda kugovera, uye
+                        sarudza Properties. \n
+                        Baya bhatani rakanzi Share woita kuti folda iwanikwe panetiweki.\n\n
+                        
+
+                    
+                        Ita shuwa kuti zvese zviri zviviri zviri paWifi imwe chete\n
+                    
+                    
+                        Ichi chimiro chinoita kuti mafaera awanikwe pane yemuno network, saka PC yako uye nharembozha
+                        inofanirwa kunge iri pane imwecheteyo network network. Iwe haugone kuwana iyo yakagovaniswa Windows folda
+                        paInternet kana kana smartphone yako yakabatana nenharembozha data - iyo
+                        inofanirwa kubatana neWi-Fi.\n\n
+                    
+
+                    
+                        Tsvaga IP Kero\n
+                    
+                    
+                        Vhura Command Prompt. Nyora \'ipconfig\' uye wodzvanya Enter. Tsvaga Default Gateway
+                        pasi pe network adapta yerouter yako IP kero. Tsvaga
+                        \\\"IPv4 Kero\\\" pasi pechikamu chimwe chete cheadapter kuti uwane IP yekombuta yako
+                        kero.\n\n
+                    
+
+                    Isa ruzivo muSMB dialog box\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Haikwanise kugovera mafaera anopfuura zana</string>
+    <string name="otg_access">Sarudza mudzi weOTG mudziyo</string>
+    <string name="information">Mashoko</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Yasvikwa</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Yakagadziriswa</string>
+
+    <string name="title">Artist</string>
+    <string name="artist">Album</string>
+    
+    <string name="year">Gore</string>
+    <string name="duration">Nguva</string>
+    <string name="comment">Codec</string>
+    <!-- reference to audio/video file -->
+    
+    
+    <string name="channels">Zviteshi</string>
+    <string name="sample_rate">Sample Rate </string>
+    
+    
+    <string name="frame_rate">Freme Rate</string>
+    <string name="image_type">Rudzi rwemufananidzo</string>
+    <string name="width">Kufara</string>
+    <string name="height">Kureba</string>
+    <string name="date_modified">Date Rakagadziriswa</string>
+    
+    <string name="creator">Mugadziri</string>
+    <string name="camera_brand">Kamera Brand</string>
+    <string name="camera_model">Modhi yeKamera</string>
+    <string name="date_taken">Date Rakatorwa</string>
+    <string name="exposure_time">Kuratidzwa Nguva</string>
+    <string name="aperture_value">Kukosha Kwemuburi </string>
+    <string name="image_iso">ISO Speed ​​Rating</string>
+    <string name="flash_fired">Flash Yakadzingwa</string>
+    <string name="focal_length">Kureba Kwekutarisisa</string>
+    <string name="subject">Nyaya</string>
+    <string name="author">Munyori</string>
+    <string name="keywords">Mazwi Akakosha</string>
+    <string name="producer">Mugadziri</string>
+    <string name="created">Yakagadzirwa</string>
+    <string name="format">Format </string>
+    <string name="pages">Nhamba Yemapeji</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Yakagadzirwa</string>
+    <string name="security">Chengetedzo</string>
+    <string name="paper_size">Size Yebepa</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Mamwe mafaera haana kunyatsokopwa %s</string>
+    <string name="copied">kukopwa</string>
+    <string name="moved">yakafambiswa</string>
+    <string name="copy_complete">Kopa Yakwana</string>
+    <string name="waiting_title">Yakamirira</string>
+    <string name="waiting_content">Yakamirira kuti kushanda kupere</string>
+    <string name="extract_complete">Kubvisa kwapera</string>
+    <string name="compression_complete">Kudzvanya Kwapera</string>
+    <string name="compressing">Kudzvanya</string>
+    <string name="cancelled">Yakanzurwa</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Yakanyorwa</string>
+    <string name="out_of">kubva</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ye</string>
+    <string name="processing_file">Kugadzira faira</string>
+    <string name="current_speed">Yazvino Kumhanya</string>
+    <string name="smb_launch_error">Unozofanirwa kukopa iyi faira kuchichengetedzo kuti uivhure</string>
+    <string name="error_file_not_found">Kanganiso:Faira Harisi Kuwanikwa</string>
+    <string name="error_io">I/O Chikanganiso</string>
+    <string name="error_file_too_large">Error:Faili Rakakurisa</string>
+    <string name="medium_text">Yepakati Mavara</string>
+    <string name="permission_read">Verenga</string>
+    <string name="permission_write">Nyora</string>
+    <string name="permission_execute">Gadzira</string>
+    <string name="permission_owner">Muridzi</string>
+    <string name="permission_group">Boka</string>
+    <string name="permission_other">Zvimwe</string>
+    <string name="clipboard_path_copy">Nzira yakakopwa kuclipboard</string>
+    <string name="service_timer">Nguva yakapfuura</string>
+    <string name="please_wait">Ndapota Mirai</string>
+
+    <string name="cloud_connection">New Cloud Connection</string>
+    
+    
+    <string name="cloud_drive">OneDrive</string>
+    
+    <string name="cloud_box">Bhokisi</string>
+    <string name="cloud_get">Tora Cloud plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Hapana maapplication</string>
+    <string name="ftp_path">Nzira Yakagoverwa</string>
+    <string name="ftp_path_hint">Nzira kumudzi wedhairekitori kuti ugovane</string>
+    <string name="change">Chinja</string>
+    <string name="unknown_error">Maiwe, pane chakashata!</string>
+
+    <string name="ftp_path_change_success">FTP nzira yachinja zvinobudirira</string>
+    <string name="ftp_path_change_error_invalid">Nzira isina kururama</string>
+    <string name="ftp_status_no_connection">Hapana Connection</string>
+    <string name="ftp_status_secure_connection">Secure Connection </string>
+    <string name="ftp_status_title">Port</string>
+    
+    <string name="ftp_login">Kupinda</string>
+    <string name="field_empty">Munda haugoni kushaya</string>
+    
+    <string name="ftp_seconds">Second</string>
+    <string name="intellihide_toolbar_title">Intellihide Toolbar </string>
+    <string name="intellihide_toolbar_summary">Viga otomatiki bhara rekushandisa uchikwenya</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">wakopwa ku clipboard</string>
+    <string name="contributors_1_summary">Shanduro</string>
+    <string name="contributors_2_summary">Icon nemabhena</string>
+    
+    <string name="contributors_4_summary">Shade kuseri kweFAB</string>
+    <string name="contributors_5_summary">Kuchinja kweruvara paunenge uchitsvaira matabo</string>
+    <string name="contributors_6_summary">FTP Server div18</string>
+    <string name="contributors_7_summary">Kubatidza shell inopindirana</string>
+    <string name="connection_exists">Connection iripo</string>
+
+    <string name="crypt_encrypting">Kunyora</string>
+    <string name="crypt_decrypting">Kunyora</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Yakavharirwa</string>
+    <string name="crypt_decrypted">&gt;Decrypted</string>
+    <string name="crypt_encrypt">Decrypt</string>
+    
+    <string name="operation_fail_following">Kushanda kwakundikana pakutevera mafaira</string>
+    
+    <string name="crypt_pref_master_password_summary">Seta password yekuvharisa.
+        Siya isina chinhu kuti ubvise.</string>
+    
+    <string name="crypt_pref_fingerprint_summary">Shandisa zvigunwe kuratidza encryption</string>
+    <string name="crypt_fingerprint_no_permission">Mvumo yeFingerprint isipo</string>
+    <string name="crypt_fingerprint_not_enrolled">Hapana mafingerprint akanyoreswa</string>
+    <string name="crypt_fingerprint_no_security">Hapana chekuvhara chekuchengetedza chawanikwa</string>
+    <string name="crypt_warning_key">Kurairwa, kana uchinge wachinja chengetedzo yako kubva
+        Masetin\'i eSisitimu, hauchakwanisi kudzima zvinyorwa izvi.</string>
+    <string name="warning_never_show">Usazivise zvakare</string>
+    <string name="warning_confirm">Ndazviwana!</string>
+    <string name="crypt_encryption_fail">Watadza encrypt</string>
+    <string name="crypt_decryption_fail">Watadza kunyora pasi</string>
+    <string name="crypt_decryption_fail_password">Pasiwedhi isiriyo!</string>
+    <string name="crypt_fingerprint_authenticate">Bata sensor kuti uenderere mberi</string>
+    <string name="authenticate_password">Isa password</string>
+
+    
+    <string name="sidebar_quick_access_title">Sidebar kukurumidza kuwana</string>
+    <string name="show_quick_access_pref_title">Ratidza zvekukurumidza kupinda</string>
+    <string name="show_quick_access_pref">Kupinda nekukasika</string>
+    
+
+    <string name="sidebar_bookmarks_title">Mabhukumaka ekuSidebar</string>
+    <string name="show_bookmarks_pref_title">Ratidza mabhukumaki</string>
+    <string name="show_bookmarks_pref">Mabhukumaka</string>
+    <string name="create_bookmark">Gadzira bookmark</string>
+    <string name="edit_bookmark">Rongedza bookmark</string>
+    <string name="question_delete_bookmark">Dita bookmark?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin haina kuwanikwa. Ndapota dhaunirodha kubva kuPlay Store.</string>
+    <string name="cloud_error_failed_restart">Yatadza kuburitsa.
+        Ndokumbira uvhure Amaze Cloud kamwe chete.</string>
+    <string name="cloud_remove">Unoda here kubvisa cloud connection?</string>
+    <string name="cloud_fail_authenticate">Zvaramba simbisa</string>
+    <string name="cloud_share_copied">Sharable link yakopwa kuclipboard</string>
+    <string name="copy_low_memory">Running out of ndangariro, ndapota bvisa imwe RAM</string>
+    <string name="cloud_token_lost">Chiratidzo charasika, ndapota pinda zvakare</string>
+    
+    <string name="showHeaders">Ratidza Misoro</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Hapana zvinhu</string>
+	<string name="item">chinhu</string>
+	<string name="items">zvinhu</string>
+	
+	
+	<string name="bytes">mabhaiti </string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Faira rinofanira kuva nezita</string>
+    <string name="add_item">Wedzera Chinhu</string>
+    <string name="failed_smb_decrypt_path">Yatadza kurodha SMB yekubatanidza</string>
+    <string name="failed_cloud_new_connection">Yatadza kuwedzera Cloud connection patsva</string>
+    <string name="failed_cloud_api_key">Yatadza kutendesa Cloud plug-in</string>
+
+    <string name="local_inet_addr_error">Kutadza kuwana kero yeinet yemunharaunda</string>
+    <string name="intent_save_as">Chengetedza se…</string>
+    <string name="go">Enda</string>
+    <string name="advanced">Pamusoro</string>
+    <string name="typeable_paths_title">Makwara etsika</string>
+    <string name="typeable_paths_summary">Baya yenzira refu kuti unyore nzira yetsika</string>
+    <string name="send_email_to">Tumira e-mail ku</string>
+
+    <string name="text_editor">Zvirongwa zvemupepeti wemashoko</string>
+    <string name="preference_newstack_title">Vhura mafaira sebasa idzva</string>
+    <string name="preference_newstack_summary">Inokutendera kuti uvhure mafaera mumabasa akasiyana. Svika pazviri kubva munguva ichangoburwa skrini.</string>
+    
+    <string name="developers">Vagadziri</string>
+    <string name="no_bitcoin_app">Ndapota isai Bitcoin Wallet app</string>
+    
+    <string name="channel_description_normal">Shamisa File Manager\'s Notifications</string>
+    <string name="channel_name_ftp">Shamisa FTP Server</string>
+    <string name="channel_description_ftp">Amaze File Manager FTP Server\'s Notifications </string>
+
+    
+    <string name="processing">Kugadziridza…</string>
+    <string name="failed_no_connection">Zvaramba kurodha mafaira. Ndokumbira utarise kubatana kwako.</string>
+
+    
+	<string name="scp_connection">FTP Connection</string>
+    
+    <string name="ftps_connection">FTP pamusoro peSSL Connection</string>
+    
+    <string name="ssh_host_key_verification_prompt">Huchokwadi hwemuridzi \'%1$s\' hahungazivikanwi.\n\n%2$s kiyi yemafingerprint is %3$s.\n\nTapota baya \"Hongu\" kuti usimbise identity; zvimwe, tapota baya \"Kwete\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Simbisa Host</string>
+    <string name="ssh_select_pem_button">SSH Yakavanzika Kiyi</string>
+    <string name="ssh_pem_key_parse_error">Haikwanisi kuverenga yakasarudzwa PEM: %s</string>
+    <string name="password_unchanged">(isina kuchinjwa)</string>
+    <string name="ssh_authentication_failure_password">Kutadza kwelogon: Hatikwanisi kutendesa zita rekushandisa nepassword zvawapihwa.</string>
+    <string name="ssh_authentication_failure_key">Kutadza kwelogon: Hatina kukwanisa kushandisa zita rekushandisa nemakiyi akavanzika.</string>
+    <string name="ssh_connect_failed">Hatikwanisi kubatana ne%1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">YAMBIRO: REMOTE HOST IDENTIFICATION YACHINJA!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">ZVINOGONA KUTI MUNHU ARI KUITA CHINHU CHINHU!\n\nMumwe munhu angangove akakunyenyeredza izvozvi (man-in-the-middle attack)! Zvinogoneka zvakare kuti kiyi yekugamuchira ichangobva kuchinjwa. Fingerprint yekiyi yeruzhinji inotumirwa neremote host haienderane neyakachengetwa muAmaze.\n\nNdapota taura nemukuru wesystem yako kana kuseta chinongedzo chitsva kuti uenderere mberi nekubatana nesevha.</string>
+    <string name="ssh_key_prompt_passphrase">Ndapota isa chirevo chekiyi .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Kugadzira nzira dzekudimbudzira hakubatike nechinhu chinovhura.</string>
+    
+    <string name="select_color_config">Sarudza gadziriso yeruvara</string>
+    <string name="customize">Gadzirisa</string>
+    
+    <string name="preselected_configs_title">Magadzirirwo agara asarudzwa</string>
+    <string name="orange">Orenji</string>
+    <string name="blue">Bhuruu</string>
+    <string name="green">Yegirini</string>
+    <string name="password_no_match">Password haina kuenderana</string>
+    <string name="deselect_all">Rega Kusarudza Zvese</string>
+    <string name="filename">Zita refaira</string>
+    <string name="compress_file_suggest_zip_extension">It\' inokurudzirwa kushandisa \".zip\" sekuwedzera kwefaira.</string>
+    <string name="about_amaze">Zvinhu dhizaini faira maneja yeAndroid</string>
+    <string name="license">Rezinesi</string>
+    <string name="libraries">Maraibhurari</string>
+    <string name="password_repeat">Dzokorora password </string>
+    <string name="create_file_suggest_txt_extension">Zvinokurudzirwa kushandisa \".txt\" sewedzero yefaira.</string>
+    <string name="ssh_select_pem">Sarudza kiyi yakavanzika yeuthentication</string>
+    <string name="ssh_key_invalid_passphrase">Isiriyo yekiyi izwi rekutaura.</string>
+    <string name="ssh_key_no_decoder_decrypt">Hapana decoder inoshanda yekubvisa PEM.</string>
+    <string name="encryption_fail_copy">Watadza kugadzirisa encryption entry mudatabase</string>
+    <string name="extracted">Yakatorwa</string>
+    <string name="compressed">Yakadzvanywa</string>
+    <string name="processed">Yagadziriswa</string>
+    <string name="no_obtainable_info">Iko\' s hapana ruzivo nezve faira iri</string>
+    <string name="reopen_from_source">Haukwanise, ndapota vhura kubva kuapp yekupedzisira</string>
+    <string name="no_file_error">Pane chakaipa, hapana chekuvhura</string>
+    <string name="file_too_long">Faira rakareba uye haugone kupepetwa, zvisinei unokwanisa kuverenga mabhii %d ekutanga</string>
+    <string name="file_read_only">Faira rakavhurwa nderekuverenga chete.</string>
+    <string name="got_it">Ndaiwana!</string>
+    <string name="encrypt_file_save_as">Chengetedza Faira Yakavharidzirwa Se…</string>
+    <string name="encrypt_folder_save_as">Chengetedza Folder Yakavharidzirwa Se…</string>
+    <string name="encrypt_option_use_aze">Shandisa Imaze Encryption Format</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p> AESCrypt ndeye yakavhurwa sosi faira encryption fomati yakavakirwa paAES encryption. Inotakurika zvakare, inogona kucheneswa nezvirongwa zveAESCrypt pane mamwe mapuratifomu.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt webhusaiti</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'s Encryption Format zvakare yakavakirwa paAES encryption; asi yakasiyana neAESCrypt fomati, inogona kungodzikiswa nemudziyo uyu; zvakare haufanirwe kuburitsa Amaze File Manager kubva pamudziyo uyu kana kuchinja makiyiro aunoita skrini, zvikasadaro hauzoshaya nzira yekudzosera faira rakavharidzirwa.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Mafaira akavharidzirwa anofanira kushandisa \".aze\" sekuwedzera kwefaira.</string>
+    <string name="encrypt_file_must_end_with_aes">Mafaira akavharidzirwa anofanira kushandisa \".aes\" sekuwedzera kwefaira.</string>
+    <string name="error_aescrypt_decrypt_failed">Haikwanisi kudhibha. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Hatikwanise kunyora pamusoro faira.</string>
+    <string name="saved_single_file">Faira rakachengetwa se\'%s\'.</string>
+    <string name="saved_multi_files">%d mafaira akachengetwa.</string>
+    <string name="create_hidden_file_warn">Faera rakagadzirwa richavanzwa muchirongwa chefaira.</string>
+    <string name="grant_apkinstall_permission">App inoda mvumo kuti iise maapuro aenderere mberi.</string>
+    <string name="time_remaining">Nguva yasara</string>
+    <string name="transfer_rate">Chirevo chekufambisa</string>
+    <string name="unknown">hazvizivikanwe</string>
+    <string name="multiple_invalid_archive_entries">Mamwe mafaera ari mudura haakwanise kutorwa; dura rinogona kuvadzwa kana kubva kune zvakaipa.</string>
+    <string name="saf_otg_explanation">Iwe zvino wava kuenda kuAndroid\'s filesystem nezvikonzero zvekuchengetedza. Ndapota sarudza mudziyo weUSB kubva pane zviri kuruboshwe.</string>
+    <string name="donation_thanks">Maita basa nemupiro, izvi zvinoita kuti tirambe tichikurudzirwa! (:</string>
+    <string name="enable_marquee_filename">Gonesa marquee maitiro emazita emafaira</string>
+    <string name="archive_password_prompt">Ndapota isai password password:</string>
+    
+    <string name="cannot_extract_archive">Hatikwanise kutora dura \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Hatikwanise kuvhura dura renhoroondo \"%s\". Hatikwanise kuvhura dura, kana dura rakanganiswa.</string>
+    <string name="close">Vhara</string>
+    <string name="bookmark_exists">Bookmark iripo</string>
+    <string name="hide_media">Vigai kubva kumabrowser enhau</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ZVINOGONA KUTI MUNHU ARI KUITA CHINHU CHINHU!\n\nMumwe munhu anogona kunge achikuteerera izvozvi (man-in-- kurwisa kwepakati)! Zvinogoneka zvakare kuti kiyi yekugamuchira ichangobva kuchinjwa. Fingerprint yekiyi yeruzhinji inotumirwa nemunhu ari kure haienderani neyakachengetwa muAmaze.\n\nUnogona kuenderera mberi nekuvandudza mafingerprint kana kukanzura masettings eSSH.</string>
+    <string name="update_host_key">Gadziridza Kiyi Yekugamuchira</string>
+    <string name="cancel_recommended">Kanzura (Yakurudzirwa)</string>
+    
+    
+    <string name="failed_install_apk">Watadza kuisa</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Kuchengeta Kwemukati</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD kadhi</string>
+    <string name="choose_folder">Sarudza Iri Folder</string>
+    
+    <string name="some_files_failed_invalid_operation">Mamwe mafaera atadza nekuda kwekusashanda</string>
+    <string name="ftp_server_prompt_connect_to_network">Batanidza kunetiweki kana kuti shandisa AP</string>
+    <string name="ftp_server_open_settings">Vhura marongero</string>
+    <string name="move">Fambisa</string>
+    <string name="select_save_location">Sarudza nzvimbo yekuchengeta</string>
+    <string name="scp_default_path">Default Path (Sarudzo)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Tine hurombo, zvanga zvisina kudaro.</string>
+    
+    <string name="error_report_button_text">Mhan\'ara kukanganisa uku uchishandisa e-mail</string>
+    <string name="error_report_button_telegram">Mhan\'ara kukanganisa uku uchishandisa telegiramu div18</string>
+    <string name="copy_for_github">Kopa mushumo wakarongwa</string>
+    <string name="error_report_open_issue_button_text">Chirevo nezveGitHub</string>
+    <string name="error_report_open_github_notice">Tapota tarisai kana nyaya irikukurukura nezvekuparara kwenyu yatovapo.</string>
+    <string name="error_snackbar_message">Tine hurombo, pane chakaipa.</string>
+    <string name="error_snackbar_action">Chirevo</string>
+    <string name="what_device_headline">Info :</string>
+    <string name="what_happened_headline">Zvakaitika:</string>
+    <string name="info_labels">Chii:\\nChikumbiro:\\nGMT Nguva:\\nPackage:\\nVersion:\\nOS version :\\nChishandiso:\\nMuenzaniso:\\nChigadzirwa:</string>
+    <string name="your_comment">Maonero ako (muChirungu):</string>
+    
+    <string name="app_ui_crash">App/UI yaparara</string>
+    
+    <string name="crash_report_copied">Chirevo chekuparara chakopwa kuclipboard</string>
+    <string name="disableIpcSignature">Dzima cheki yekusaina yeIPC (Pamaseva eSMBv1 enhaka - UNSAFE!)</string>
+    <string name="cannot_delete_file">Hatigone kudzima faira</string>
+    <string name="cannot_delete_file_with_reason">Hatigone kudzima faira - %s</string>
+    <string name="cannot_rename_file">Hatigone kupa zita refaira %s - %s</string>
+    <string name="cannot_read_directory">Hatigone kuverenga dhairekitori %s - %s</string>
+    <string name="just_once">Kamwe chete</string>
+    <string name="always">Nguva dzose</string>
+    <string name="choose_different_app">Sarudza shanduro yakasiyana</string>
+    <string name="clear_open_file">Bvisa cache</string>
+    <string name="clear_open_file_summary">Inodzima yakasarudzwa faira yekuvhura maapplication</string>
+    <string name="ftp_readonly">Kuverenga-chete</string>
+    <string name="legacy_listing_title">Shandisa legacy list yemidzi</string>
+    <string name="legacy_listing_summary">Kana ikabatidzwa, inoshandisa nzira yenhaka kunyora mafaera</string>
+    <string name="error_unsupported_v5_rar">RAR archive \"%s\" haitsigirwi RAR v5 archive.</string>
+    <string name="ftp_prompt_restart_server">Uchada kutangidzazve sevha yeFTP kuti shanduko dzitange kushanda.</string>
+    <string name="error_permission_denied">Mvumo yarambwa</string>
+    <string name="error_archive_password_incorrect">Pasiwedhi yekuchengetera faira isiriyo.</string>
+    <string name="error_archive_cannot_extract">Hatigone kuburitsa mudura \"%s\" ku \"%s\".</string>
+    <string name="drag_and_drop_preference">Sarudza kudhonza nekudonhedza zvaunoda (Kuedza)</string>
+    <string name="drag_to_move_copy">Bata uye dhonza kuti ufambise kana kukopa mafaira</string>
+    <string name="drag_to_select">Bata uye dhonza kuti usarudze mafaera</string>
+    <string name="disable">Dzima</string>
+    <string name="choose_operation">Sarudza oparesheni yekuita</string>
+    <string name="remember">Yeuka zvenguva inotevera</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Ipa SAF mukana weFTP server</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Sezvo uku kuri kwekutanga kumhanya kwako iyo FTP sevha, uye uri kushandisa chengetedzo yemukati yemudziyo seforodha yakagovaniswa, ndapota bvumidza Amaze kuti iwane chengetedzo uchishandisa SAF.\n\n
+
+Unongofanira kuita izvi kamwe chete, kusvikira nguva inotevera yauchasarudza nzvimbo itsva yekugovera.</string>
+    <string name="android_data_prompt_saf_access">Sezvo Android 10, Android yakanga yaisa zvirambidzo pane mamwe madhairekitori, uye vanoda kupinda neStorage Access Framework.\n \nNdokumbira ubvumire Amaze kuti iwane dhairekitori kubva kune system\'s file manager nekudzvanya \"Bvumira Kupinda\".</string>
+    <string name="android_data_prompt_saf_access_title">Ipa SAF kuwana</string>
+    <string name="ftp_preference_saf_filesystem_title">Shandisa legacy filesystem</string>
+    <string name="ftp_preference_saf_filesystem">Gonesa izvi kuti utsigire kushandisa mudziyo wekunze chengetedzo pashanduro itsva dzeAndroid</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP server yakagovaniswa nzira yaiswa patsva kuchichengetedzo chemukati sezvauri kudzokera ku legacy filesystem kuita. Ndapota sarudza nzira itsva uchishandisa menyu kumusoro kurudyi kana zvichidikanwa.</string>
+    <string name="ftp_server_reset_notify">FTP server nzira yakagoverwa yanga yaiswa patsva kuti igare mukati</string>
+    <string name="ftp_server_root_unavailable">Uri kusarudza nzira inoda midzi kupinda. Ndokumbirawo ugonese root explorer muzvirongwa kana mudziyo wako wakadzika midzi.</string>
+    <string name="ftp_server_root_filesystem_warning">Uri kusarudza nzira inoda kupinda nemidzi, inoita kuti kuverenga/kunyora kushande muhurongwa hwese hwefaira pamudziyo wako, uye zvine njodzi - zvikanganiso zvisina hanya zvinogona zvidhinha mudziyo wako!\n\nUne chokwadi here?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Pakanganisika pakuvhura URI \"%s\" kuti uverenge.</string>
+    <string name="error_empty_archive">\"%s\" idura risina chinhu.</string>
+    <string name="error_bad_archive_without_info">\"%s\" idura rakashatiswa.</string>
+    <string name="error_bad_archive_with_info">\"%s\" idura rakashatiswa.\nMharidzo kubva kuextractor: \"%s\"</string>
+    <string name="security_error">Faili harina kukwanisa vhura uchishandisa app iyi</string>
+    <string name="cloud_drive_tooltip">Gadzira chinongedzo cheGoogle Drive™ chekugadzirisa mafaera kubva mukati meAmaze File Manager.</string>
+    <string name="signin_with_google_title">Simbisa kushandisa Google Drive™</string>
+    <string name="show_system_apps">Ratidza maapps ehurongwa</string>
+    
+    <string name="select_inverse">Sarudza Inverse</string>
+    <string name="select_by_type">Sarudza nerudzi</string>
+    <string name="select_by_date">Sarudza nemazuva</string>
+    <string name="select_similar">Sarudza zvakafanana</string>
+    <string name="error_fetching_google_play_product_list">Kutadza kutora chigadzirwa kubva Google Play.</string>
+    <string name="grant_all_files_permission">Kubva Android 11, Google inokumbira Vatariri Vemafaira kuti vakumbire mvumo yevashandisi yekugadzirisa mafaera ese ari pamudziyo. Details pano.
+        \n\nAmaze File Manager anodawo mvumo iyi. Mushure mekudzvanya "Bvumira"pano, ndapota sarudza Bvumira kupinda kubata ese mafaera sarudzo pane inotevera skrini.
+        \n\nKukanzura nhaurirano iyi kuchabuda muapp.</string>
+    <string name="user_apps">Maapplication emushandisi</string>
+    <string name="appearance">Chitarisiko</string>
+    <string name="behavior">Maitiro</string>
+    <string name="appearance_summary">Gadzirisa dingindira, mavara uye chitarisiko chemaneja wefaira.</string>
+    <string name="ui_summary">Dzora kuti ndeupi ruzivo rwekuratidza, gadzirisa bhara reparutivi, uye shandura zvido zveUI</string>
+    <string name="behavior_summary">Gadzirisa maitiro akadai sekutsvaga kwepamusoro uye kuti wovhura mafaira sebasa idzva here</string>
+    <string name="security_summary">Gadzirisa password uye encryption</string>
+    <string name="backup_summary">Export/Import Amaze settings </string>
+
+    <string name="pref_export">Import</string>
+    <string name="pref_export_summary">Export settings </string>
+    <string name="pref_import">Import div18</string>
+    <string name="pref_import_summary">Import marongero</string>
+
+    <string name="quick_desc">Mafaira ichangoburwa kuburikidza neAmaze</string>
+    <string name="recent_desc">Mafaira achangobva kugadzirwa kana kugadziridzwa</string>
+    <string name="error_cannot_find_way_open">Hatina kuwana nzira yekuvhura faira racho</string>
+    <string name="error_cant_decompress_that_file">Hatigone kugadzirisa dura rakumbirwa</string>
+    <string name="analyse_storage">Ongorora Kuchengeta</string>
+    
+    <string name="download_amaze_utils_text">Iwe uri kuendeswa kuAmaze File Utilities. Ndiyo yedu yakavhurika sosi app ine inbuilt audio/video/image/document viewers, inokubvumira kuti uongorore zvisina basa mafaira kuti usunungure chengetedzo, kukurumidza kutamisa uchishandisa Wifi P2P nezvimwe zvakawanda.\nNdokumbira titsigire nekuzviedza.</string>
+    <string name="download">Dhaunirodha</string>
+    
+    <string name="amaze_utils_installed_alias">Maita basa nekuisa Amaze File Utilities. Uri kuendeswa kuapp.</string>
+    <string name="image_viewer">Shamisa Image Viewer</string>
+    <string name="video_player">Shamisa Vhidhiyo Player</string>
+    <string name="amaze_audio_player">Amaze Document Viewer</string>
+    
+    <string name="docx_viewer">Amaze Document Muoni</string>
+    <string name="share_logs">Goverana matanda</string>
+    <string name="share_logs_summary">Goverana matanda akatorwa neemail/teregiramu</string>
+    <string name="open_with_amaze">Vhura neAmaze</string>
+    <string name="confirmation">Simbiso</string>
+    <string name="open_file_confirmation">Une chokwadi chekuti unoda kuvhura faira rinotevera here?\n\nZita:\n%s\n\nNzvimbo:\n%s\n\nSize:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Pamitemo yeGoogle Play, maapuro haabvumidzwe kuzvivandudza pachawo. Ndapota gadziridza app kubva kuGoogle Play.</string>
+    <string name="error_cannot_get_package_info">Hatikwanisi kuwana ruzivo rwepasuru kubva mufaira \"%s\". Iro faira rataurwa harisi APK, kana kuti faira repasuru rine uori.</string>
+    <string name="preference_delete_confirmation">Delete simbiso</string>
+    <string name="preference_delete_confirmation_summary">Bvunza vimbiso usati wadzima mafaira. Kudzima izvi hakukurudzirwe zvakanyanya!</string>
+    
+    
+    <string name="protocol_ftps">Chengetedza FTP</string>
+    <string name="unavailable">Haisipo</string>
+
+    <string name="exporting_failed">Kutumira kunze kwatadza:haina kukwanisa kunyora faira rekuchengetedza</string>
+    <string name="importing_failed">Kupinza kunze kwaramba: tatadza kuverenga backup faira</string>
+    <string name="importing_completed">Kupinza kunze kwapera</string>
+    <string name="invalid_backup_file">Faira rekuchengetedza risiri iro</string>
+    <string name="import_failed_for">Kutora kunze kwatadza nokuda kwe:</string>
+    <string name="free_of">"%s\n%s yemahara %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin haina kutsigirwa neF- Droid version. Ndapota shandisai Play Store vhezheni yeAmaze.</string>
+    <string name="disable_player_intent_filters">Dzinga mafirita emutambi</string>
+    <string name="disable_player_intent_filters_summary">Dzivisa maAze inbuilt media player kubva mukusarudza mafaira</string>
+    <string name="no_app_found_intent">Hapana app yawanikwa kuti ibate chinangwa ichi. une DocumentsUI yakaiswa?</string>
+    <string name="cloud_connection_credentials_cleared">Mvumo yeCloud Connection yadzimwa</string>
+    <string name="cloud_connection_credentials_cleared_msg">Sezvineiwo, hatina kukwanisa kutamisa zvitupa zvako zvekubatanidza mumakore kuenda kuzvigadziriso zvedatabase idzva, uye tatozvibvisa muapp. Ndokumbira ugadzire kubatana kwegore zvakare.</string>
+</resources>

@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Manadjè fichye Amaze</string>
+    <string name="drawer_open">Louvri tiwa navigasyon</string>
+    <string name="drawer_close">Fèmen tiwa navigasyon</string>
+    <string name="icon">ikòn</string>
+    <string name="apps">Manadjè aplikasyon</string>
+    <string name="ftp">FTP sèvè</string>
+    <string name="setting">Anviwònman</string>
+    <string name="select">Chwazi atik</string>
+    <string name="press_again">Peze ankò pou sòti</string>
+    <string name="open">Louvri</string>
+    <string name="backup">Sovgad</string>
+    <string name="uninstall">Désinstaller</string>
+    <string name="play">Jwe magazen</string>
+    <string name="properties">Pwopriyete</string>
+    <string name="copyingapks">Kopi %d fichye APK nan %s</string>
+    <string name="delbook">Efase Bookmark</string>
+    <string name="add_to_bookmarks">Ajoute nan Bookmarks</string>
+    <string name="enterpath">Antre Chemen</string>
+    <string name="cancel">ANILE</string>
+    <string name="create">KREYE</string>
+    <string name="loading">Chaje...</string>
+    <string name="file_empty">Fichiye a vid</string>
+    <string name="error">Erè</string>
+    <string name="search_results">Rezilta rechèch %s</string>
+    <string name="rename">Chanje non</string>
+    <string name="save">Sove</string>
+    <string name="bookmarks_added">Save yo te ajoute</string>
+    <string name="fileexist">Fichye ki gen menm non deja egziste</string>
+    <string name="name">Non</string>
+    <string name="date">Dat</string>
+    <string name="location">Kote</string>
+    <string name="size_capitalized">Gwosè</string>
+    <string name="size">gwosè katab</string>
+    <string name="enterzipname">Antre non postal</string>
+    <string name="no_app_found">Okenn aplikasyon pa jwenn pou louvri fichye sa a</string>
+    <string name="copying">Kopi</string>
+    <string name="moving">Deplase</string>
+    <string name="file">Fichiye</string>
+    <string name="folder">Dosye</string>
+    <string name="newfolder">Nouvo Dosye</string>
+    <string name="entername">Antre non</string>
+    <string name="extracting">Ekstraksyon</string>
+    <string name="stopping">Sispann</string>
+    <string name="open_parent">Louvri Anyè Paran</string>
+    <string name="open_with">Louvri ak</string>
+    <string name="share">Pataje</string>
+    <string name="about">Ou</string>
+    <string name="extract">Ekstrè</string>
+    <string name="compress">Konprese</string>
+    <string name="yes">Wi</string>
+    <string name="no">Non</string>
+    
+    <string name="dialog_delete_category_directories">Anyè</string>
+    <string name="dialog_delete_category_files">Fichiye</string>
+    <string name="dialog_delete_disclaimer">Si w efase atik ki anba yo ap retire yo nan aparèy ou an pou tout tan epi yo pa ka refè yo.</string>
+    <string name="dialog_delete_title">Efase atik yo nèt ale?</string>
+    <string name="deleting">Efase</string>
+    <string name="question_set_path_as_home">Èske w vle mete chemen aktyèl la kòm kay pou onglet sa a?</string>
+    <string name="directorysort">Mòd Triye Anyè</string>
+    <string name="sort_by">Kòt pa</string>
+    <string name="sort_only_this">Sèlman katab sa a</string>
+    <string name="theme">Tèm</string>
+    <string name="random">Po o aza</string>
+    <string name="random_summary">Fikse koulè prensipal o aza nan demaraj</string>
+    <string name="colorize">Kolorize ikon</string>
+    <string name="colorize_summary">Ansanm koulè icon estatik. Pa depase preferans koulè icon anyè.</string>
+    <string name="home">Kay</string>
+    <string name="paste">Kole</string>
+    <string name="history">Istwa</string>
+    <string name="copy">Kopi</string>
+    
+    <string name="root_mode_summary">Pou aparèy rasin sèlman. Tcheke li sèlman si ou sèten sou li.</string>
+    <string name="root_failure">Aksè rasin yo pa akòde</string>
+    <string name="select_all">Chwazi tout</string>
+    <string name="delete">Efase</string>
+    <string name="set_as_home">Fikse kòm Kay</string>
+    <string name="operation_not_supported">Operasyon pa sipòte</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Materyèl limyè</string>
+    <string name="dark">Materyèl nwa</string>
+    <string name="daytime">Lajounen</string>
+    <string name="black">Nwa (pou OLED)</string>
+    <string name="system">Sistèm (swiv tèm sistèm)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Dosye anlè</string>
+    <string name="filesOnTop">Fichye anlè</string>
+    <string name="none_on_top">Okenn sou tèt</string>
+    <!--SortBy-->
+    <string name="sort_name">Non</string>
+    <string name="lastModified">Dènye modifye</string>
+    <string name="sort_size">Gwosè</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Chwazi yon fichye</string>
+    <string name="process_viewer">Visè Pwosesis</string>
+    <string name="in_safe">Pa gen ase espas</string>
+    <string name="no_file_overwrite">Pa gen okenn dosye ki ranplase</string>
+    <string name="skip">Sote</string>
+    <string name="overwrite">Rekouvri</string>
+    <string name="not_allowed">Pa pèmèt</string>
+    <string name="searching">Rechèch %s</string>
+    <string name="done">Fè</string>
+    <string name="set">Mete</string>
+    <string name="enablerootmde">Pèmèt mòd rasin</string>
+    <string name="goback">Retounen</string>
+    <string name="newfile">Nouvo Fichye</string>
+    <string name="no_files">Pa gen Fichye</string>
+    <string name="used">espas ki itilize</string>
+    <string name="used_by_others">lòt moun yo itilize</string>
+    <string name="free">espas gratis</string>
+    <string name="listview">Lis View</string>
+    <string name="gridview">Kadriyaj Gade</string>
+    <string name="permission">Otorizasyon</string>
+    <string name="hide">Kache</string>
+    <string name="exit">Sòti</string>
+    <string name="doforall">Fè pou tout atik</string>
+    <string name="gridcolumnno">Kantite kolòn nan kadriyaj gade</string>
+    <string name="set_random">Chanjman ap fèt apre ou rekòmanse aplikasyon an</string>
+    <string name="authors">Otè</string>
+    
+    
+    <string name="ui">Entèfas</string>
+    <string name="general">Jeneral</string>
+    <string name="thumb_summary">Montre miniatures aplikasyon ak imaj</string>
+    <string name="thumb">Montre miniatures</string>
+    <string name="hidden">Montre fichye ak dosye kache</string>
+    <string name="lastModifiedSummary">Montre dat ak lè dènye modifikasyon</string>
+    <string name="lastModifiedPref">Montre dat dènye modifye ak Tan</string>
+    <string name="size_pref_summary">Montre gwosè fichye yo ak kantite atik nan dosye</string>
+    <string name="size_pref">Montre gwosè</string>
+    <string name="miscellaneous">Divès</string>
+    <string name="root_pref_summary">Montre otorizasyon fichye yo ak dosye</string>
+    <string name="root_pref">Montre otorizasyon</string>
+    <string name="about_amaze_file_manager_label">Konsènan Amaze File Manager</string>
+    <string name="version">Vèsyon</string>
+    <string name="rate">Evalye aplikasyon an</string>
+    <string name="feedback">Voye Feedback</string>
+    <string name="hiddenfiles">Fichye kache</string>
+    <string name="type">Tape</string>
+    <string name="root_directory">Rasin</string>
+    <string name="add_shortcut">Ajoute chemen kout</string>
+    <string name="unsaved_changes">Chanjman ki pa sove</string>
+    <string name="unsaved_changes_description">Ou gen chanjman ki pa sove, èske ou vle sove yo anvan ou soti?</string>
+    <string name="saving">Ekonomize</string>
+    <string name="package_installer">Enstalatè pake</string>
+    
+    <string name="install">Enstale</string>
+    <string name="archive">Achiv</string>
+    <string name="archive_text">Sa se yon achiv. Ki aksyon ou ta renmen fè?</string>
+    <string name="package_installer_text">Sa a se yon enstalasyon pake. Ki aksyon ou ta renmen fè?</string>
+    <string name="xda_title">Fis XDA</string>
+    <string name="xda_summary">K&amp;amp;A, Èd &amp;amp; Depanaj</string>
+    <string name="circular_images">Sèvi ak ikon sikilè pou imaj ak videyo</string>
+    <string name="circular_icons">Sèvi ak ikon sikilè</string>
+    <string name="back_title">Retounen navigasyon</string>
+    <string name="back_summary">Pèmèt navigasyon dèyè personnalisé nan tèt lis la</string>
+    <string name="details">Detay</string>
+    <string name="translators">Tradiksyon</string>
+    <string name="german_translation_title">Alman</string>
+    <string name="italian_translation_title">Italyen</string>
+    <string name="french_translation_title">Fransè</string>
+    <string name="russian_translation_title">Ris</string>
+    <string name="spanish_translation_title">Panyòl</string>
+    <string name="basque_translation_title">Bask</string>
+    <string name="chinese_translation_title">Chinwa</string>
+    <string name="serbian_translation_title">Sèb</string>
+    <string name="turkish_translation_title">Tik</string>
+    <string name="ukrainian_translation_title">Ikrenyen</string>
+    <string name="portuguese_translation_title">Pòtigè </string>
+    <string name="polish_translation_title">Polonè</string>
+    <string name="korean_translation_title">Koreyen</string>
+    <string name="greek_translation_title">Grèk</string>
+    <string name="dutch_translation_title">Olandè</string>
+    <string name="romanian_translation_title">Roumen</string>
+    <string name="vietnamese_translation_title">Vyetnam</string>
+    <string name="japanese_translation_title">Japonè</string>
+    
+
+    
+    <string name="unin_system_apk">Sa a se yon aplikasyon sistèm, efase li ka lakòz sistèm dezastabilite.\nKontinye?</string>
+    <string name="warning">Avètisman</string>
+    <string name="donate">Done</string>
+    <string name="archive_extract_folder">Dosye Ekstrè Achiv</string>
+    <string name="archive_summary">Fichye Achiv yo pral ekstrè nan katab sa a. Valè default se anyè kote achiv la prezan.</string>
+    <string name="open_as">Louvri kòm</string>
+    <string name="text">Tèks</string>
+    <string name="audio">Odyo</string>
+    <string name="video">Videyo</string>
+    <string name="other">Lòt</string>
+    <string name="image">Imaj</string>
+    <string name="contributors">Kontributè</string>
+    <string name="save_paths">Sonje chemen</string>
+    <string name="save_path_summary">Lè w kòmanse, yo pral parèt dosye ki pi resan pou chak tab la</string>
+    <string name="select_intent">Chwazi</string>
+    <string name="database">Baz done</string>
+    <string name="colored_navigation">Ba Navigasyon ki gen koulè</string>
+    <string name="colored_navigvation_sum">Si ba navigasyon sistèm lan gen koulè ak po a</string>
+
+    <string name="color_title">Koulè</string>
+    <string name="color_summary">Mete koulè sou divès eleman UI</string>
+    <string name="primary_color_title">Koulè Prensipal (Onglet Goch)</string>
+    <string name="primary_color_summary">Mete koulè sou gwo eleman UI pou tab gòch la</string>
+    <string name="accent_color_title">Koulè aksan</string>
+    <string name="accent_color_summary">Mete koulè sou FAB ak lòt ti eleman UI</string>
+    <string name="icon_color_title">Koulè ikon</string>
+    <string name="icon_color_summary">Mete koulè nan ikon</string>
+    <string name="choose_color">Chwazi koulè</string>
+    <string name="files">Fichye</string>
+    <string name="textreader">Lektè tèks</string>
+    <string name="databasereader">Lektè baz done</string>
+    <string name="show_dividers">Montre Dividers</string>
+    <string name="needs_access">Aksè ekriti obligatwa</string>
+    <string name="needs_access_summary">Tanpri chwazi anyè rasin \t</string>
+    <string name="needs_access_summary1">\pou bay aksè ekri pou opere</string>
+    <string name="smb_connection">Koneksyon SMB</string>
+    <string name="smb_server">Adrès IP sèvè</string>
+    <string name="server_address">Adrès IP sèvè</string>
+    <string name="username">Non itilizatè</string>
+    <string name="password">Modpas</string>
+    <string name="anonymous">Anonim</string>
+    
+    <string name="folders">Dosye</string>
+    <string name="folderfilecount">%1$d dosye ak %2$d fichye</string>
+    <string name="videos">Videyo</string>
+    <string name="apks">APK</string>
+    <string name="documents">Dokiman</string>
+    <string name="images">Imaj</string>
+    <string name="clear">Klè</string>
+    
+    
+    <string name="calculating">kalkile</string>
+    <string name="sort">Triye</string>
+    <string name="ascending">K ap monte</string>
+    <string name="descending">Desandan</string>
+    
+    <string name="doit">Èske li</string>
+    <string name="want_help">Bezwen èd?</string>
+    <string name="quick">Aksè rapid</string>
+    <string name="recent">Fichye ki sot pase yo</string>
+    <string name="edit">Edisyon</string>
+    <string name="find">Jwenn nan paj</string>
+    
+    <string name="grantper">Ote pèmisyon</string>
+    <string name="grantfailed">Pwomisyon pa akòde</string>
+    <string name="grant_storage_permission">Aplikasyon bezwen pèmisyon depo pou kontinye. Anile dyalòg sa a pral sòti nan aplikasyon an.</string>
+    <string name="operation_unsuccesful">Operasyon pa reyisi</string>
+    <string name="creatingfile">Kreye fichye</string>
+    <string name="creatingfolder">Kreye Dosye</string>
+    <string name="renaming">Chanje non</string>
+    <string name="cant_be_empty">%s pa kapab vid</string>
+    <string name="ip">Adrès</string>
+    <string name="connection_name">Non koneksyon</string>
+    <string name="no_device_found">Okenn aparèy pa jwenn</string>
+    <string name="path">Chemen</string>
+    <string name="rename_bookmark">Modifye Bookmark</string>
+    <string name="cut">Koute</string>
+    <string name="search">Rechèch</string>
+    <string name="invalid_name">Non valid</string>
+    <string name="search_hint">Tape pou fè rechèch...</string>
+    <string name="advanced_search">Rechèch avanse</string>
+    <string name="regular_expression">Ekspresyon regilye</string>
+    <string name="regular_expression_summary">Rechèch lè l sèvi avèk yon ekspresyon regilye style BASH</string>
+    <string name="match_content">Match kontni</string>
+    <string name="match_content_summary">Si yo mete, ekspresyon regilye yo pral matche ak tout non fichye a,
+        pral chèche ensidan otreman.</string>
+    <string name="start_ftp">Kòmanse</string>
+    <string name="stop_ftp">Sispann</string>
+    <string name="ftp_status_running">Kouri</string>
+    <string name="ftp_status_not_running">Pa Kouri</string>
+    <string name="ftp_no_wifi">Asire w ou konekte ak Wi. -Fi</string>
+    <string name="domain">Domèn</string>
+    <string name="smb_share">Pataje chemen</string>
+    <string name="invalid">Envalid %s</string>
+    <string name="ftp_notif_starting">FTP sèvè ap kòmanse</string>
+    <string name="ftp_notif_starting_title">FTP sèvè</string>
+    <string name="ftp_notif_title">Amaze FTP Server ap kouri</string>
+    <string name="ftp_notif_text">nan %s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP pò</string>
+    <string name="ftp_port_change_success">FTP pò chanje avèk siksè</string>
+    <string name="ftp_port_change_error_invalid">Seleksyone nimewo pò ki pa valab</string>
+    <string name="primary_two_title">Koulè Prensipal (Onglet Dwat)</string>
+    <string name="primary_two_summary">Mete koulè sou gwo eleman UI pou tab dwat la</string>
+    <string name="support_development">Devlopman Sipò</string>
+    <string name="report_bugs_title">Rapòte ensèk</string>
+    <string name="source_title">Kod sous</string>
+    <string name="source_summary">Gade kòd sous nou an sou GitHub</string>
+    <string name="report_bugs_summary">Rapòte ensèk oswa mande nouvo karakteristik</string>
+    <string name="translate_title">Tradwi</string>
+    <string name="translate_summary">Tradui Sezi nan lang ou a</string>
+    <string name="paypal_copy_message">Idantifikasyon PayPal kopye nan clipboard</string>
+    <string name="searching_devices">Rechèch aparèy</string>
+    <string name="use_custom_ip">Sèvi ak IP personnalisé</string>
+    <string name="bookmark_lost">Pa jwenn Bookmark, rkree...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Ki jan yo jwenn aksè nan katab Windows pataje sou Android (SMB)\n\n
+                
+                    
+                        Pèmèt Pataje Fichye sou Windows\n
+                    
+                    
+                        Louvri Panèl Kontwòl la, klike sou Chwazi Gwoup Kay ak Opsyon Pataje anba Rezo
+                        ak Entènèt, epi klike sou "Chanje Anviwònman Pataje Avanse", pèmèt "Fichiye ak
+                        Karakteristik Pataje Printer".\n\n
+                    
+
+                    
+                        Lòt paramèt pataje dosye\n
+                    
+                    
+                        Ou ka vle tou configured lòt anviwònman pataje avanse isit la. \n
+                        Pou egzanp, ou ta ka pèmèt aksè nan dosye ou san yon modpas si ou fè tout konfyans
+                        aparèy yo sou rezo lokal ou a. Yon fwa pataje dosye ak enprimant pèmèt, ou kapab
+                        ouvri File Explorer oswa Windows Explorer, klike sou yon katab ou vle pataje, ak dwa-klike sou
+                        chwazi Pwopriyete. \n
+                        Klike bouton Pataje a epi fè katab la disponib sou rezo a.\n\n
+                        
+
+                    
+                        Asire w ke tou de aparèy yo sou menm Wifi\n
+                    
+                    
+                        Karakteristik sa a fè dosye disponib sou rezo lokal la, kidonk PC ou ak aparèy mobil yo
+                        dwe sou menm rezo lokal la. Ou pa ka jwenn aksè nan yon katab Windows pataje
+                        sou entènèt la oswa lè smartphone ou konekte ak done mobil li yo - li
+                        dwe konekte ak Wi-Fi.\n\n
+                    
+
+                    
+                        Jwenn adrès IP\n
+                    
+                    
+                        Louvri èd kòmand. Tape \'ipconfig\' epi peze Antre. Gade pou Default Gateway
+                        anba adaptè rezo ou pou adrès IP routeur ou a. Chèche
+                        \\\"Adrès IPv4\\\" anba menm seksyon adaptè a pou jwenn IP òdinatè w lan
+                        adrès.\n\n
+                    
+
+                    Antre detay nan bwat dyalòg SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Pa ka pataje plis pase 100 fichye</string>
+    <string name="otg_access">Chwazi rasin aparèy OTG</string>
+    <string name="information">Enfòmasyon</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Aksede</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Modifye</string>
+
+    <string name="title">Tit</string>
+    <string name="artist">Atis</string>
+    
+    <string name="year">Ane</string>
+    <string name="duration">Dire</string>
+    <string name="comment">Kòmante</string>
+    <!-- reference to audio/video file -->
+    
+    
+    <string name="channels">Chanèl</string>
+    <string name="sample_rate">Tou echantiyon</string>
+    <string name="bitrate">Birate</string>
+    <string name="dimensions">Dimansyon</string>
+    <string name="frame_rate">To Frame</string>
+    <string name="image_type">Tip Imaj</string>
+    <string name="width">Lajè</string>
+    <string name="height">Wotè</string>
+    <string name="date_modified">Dat modifye</string>
+    <string name="software">Lojisyèl</string>
+    <string name="creator">Kreyatè</string>
+    <string name="camera_brand">Mak kamera</string>
+    <string name="camera_model">Kamera Modèl</string>
+    <string name="date_taken">Dat yo pran</string>
+    <string name="exposure_time">Tan Ekspozisyon</string>
+    <string name="aperture_value">Valè Ouverture</string>
+    <string name="image_iso">Evalyasyon Vitès ISO</string>
+    <string name="flash_fired">Flash Tire</string>
+    <string name="focal_length">Longè Fokal</string>
+    <string name="subject">Sijè</string>
+    <string name="author">Otè</string>
+    <string name="keywords">Mo kle</string>
+    <string name="producer">Pwodiktè</string>
+    <string name="created">Kreye</string>
+    <string name="format">Fòma</string>
+    <string name="pages">Kantite Paj</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimize</string>
+    <string name="security">Sekirite</string>
+    <string name="paper_size">Gwosè papye</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Kèk fichye yo pa te byen kopye %s</string>
+    <string name="copied"/>
+    <string name="moved">deplase</string>
+    <string name="copy_complete">Kopi konplè</string>
+    <string name="waiting_title">Atann</string>
+    <string name="waiting_content">Atann operasyon fini</string>
+    <string name="extract_complete">Ekstraksyon fini</string>
+    <string name="compression_complete">Konpresyon konplè</string>
+    <string name="compressing">Konpresyon</string>
+    <string name="cancelled">Anile</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Ekri</string>
+    <string name="out_of">soti nan</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">nan</string>
+    <string name="processing_file">Fichye pwosesis</string>
+    <string name="current_speed">Vitès aktyèl</string>
+    <string name="smb_launch_error">W ap bezwen kopye fichye sa a nan depo pou ouvri li</string>
+    <string name="error_file_not_found">Erè: Fichye pa jwenn</string>
+    <string name="error_io">I/O Erè</string>
+    <string name="error_file_too_large">Erè: Fichye twò gwo</string>
+    <string name="medium_text">Tèks mwayen</string>
+    <string name="permission_read">Li</string>
+    <string name="permission_write">Ekri</string>
+    <string name="permission_execute">Egzekite</string>
+    <string name="permission_owner">Pwopriyetè</string>
+    <string name="permission_group">Gwoup</string>
+    <string name="permission_other">Lòt</string>
+    <string name="clipboard_path_copy">Chemen kopye nan clipboard</string>
+    <string name="service_timer">Tan pase</string>
+    <string name="please_wait">Tanpri, tann</string>
+
+    
+    <string name="cloud_connection_new">Nouvo Cloud Connection</string>
+    
+    
+    
+    <string name="cloud_box">Bwat</string>
+    <string name="cloud_get">Jwenn Plugin Cloud</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Pa gen aplikasyon</string>
+    <string name="ftp_path">Chemen Pataje</string>
+    <string name="ftp_path_hint">Chemen ki mennen nan rasin anyè pou pataje</string>
+    <string name="change">Chanje</string>
+    <string name="unknown_error">Oops, gen yon bagay ki mal!</string>
+
+    <string name="ftp_path_change_success">Chemen FTP chanje avèk siksè</string>
+    <string name="ftp_path_change_error_invalid">Chemen ki pa valab</string>
+    <string name="ftp_status_no_connection">Pa gen koneksyon</string>
+    <string name="ftp_status_secure_connection">Koneksyon an sekirite</string>
+    <string name="ftp_status_title">Estati</string>
+    <string name="ftp_port">Pò</string>
+    <string name="ftp_login">Konekte</string>
+    <string name="field_empty">Jaden pa ka vid</string>
+    <string name="ftp_timeout">Délai inactif</string>
+    <string name="ftp_seconds">Sekond</string>
+    <string name="intellihide_toolbar_title">Intellihide Ba zouti</string>
+    <string name="intellihide_toolbar_summary">Otomatikman kache ba ikòn pandan y ap defile</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">kopi nan clipboard</string>
+    <string name="contributors_1_summary">Tradiksyon</string>
+    <string name="contributors_2_summary">Ikon ak banyè</string>
+    <string name="contributors_3_summary">Tèm Engine</string>
+    <string name="contributors_4_summary">Lonbraj dèyè FAB</string>
+    <string name="contributors_5_summary">Koulè tranzisyon lè glise onglet</string>
+    <string name="contributors_6_summary">FTP sèvè</string>
+    <string name="contributors_7_summary">Lonbraj yon koki entèaktif</string>
+    <string name="connection_exists">Koneksyon deja egziste</string>
+
+    <string name="crypt_encrypting">Chiffre</string>
+    <string name="crypt_decrypting">Dechifre</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Ankripte</string>
+    <string name="crypt_decrypted">Dechifre</string>
+    <string name="crypt_encrypt">Ankripte</string>
+    <string name="crypt_decrypt">Dechifre</string>
+    <string name="operation_fail_following">Operasyon echwe pou dosye sa yo</string>
+    <string name="crypt_pref_master_password_title">Mèt Modpas</string>
+    <string name="crypt_pref_master_password_summary">Fikse yon modpas mèt pou chifreman.
+        Kite vid pou retire.</string>
+    <string name="crypt_pref_fingerprint_title">Anprent</string>
+    <string name="crypt_pref_fingerprint_summary">Sèvi ak anprent pou otantifye chifreman</string>
+    <string name="crypt_fingerprint_no_permission">Otorizasyon anprent manke</string>
+    <string name="crypt_fingerprint_not_enrolled">Pa gen anprent ki enskri</string>
+    <string name="crypt_fingerprint_no_security">Non sekirite found</string>
+    <string name="crypt_warning_key">Nou dwe avèti, lè ou chanje modèl sekirite ou soti nan
+        Anviwònman sistèm, ou p ap kapab dechifre kontni sa a.</string>
+    <string name="warning_never_show">Pa enfòme ankò</string>
+    <string name="warning_confirm">Ou konprann!</string>
+    <string name="crypt_encryption_fail">Echwe pou ankripte</string>
+    <string name="crypt_decryption_fail">Echwe pou dechifre</string>
+    <string name="crypt_decryption_fail_password">Move modpas!</string>
+    <string name="crypt_fingerprint_authenticate">Manyen Capteur pou kontinye</string>
+    <string name="authenticate_password">Antre modpas</string>
+
+    <string name="sidebar_preferences">Bay</string>
+    <string name="sidebar_quick_access_title">Aksè rapid nan ba</string>
+    <string name="show_quick_access_pref_title">Montre aksè rapid</string>
+    <string name="show_quick_access_pref">Aksè rapid</string>
+    <string name="directory">Anyè</string>
+
+    <string name="sidebar_bookmarks_title">Anyè signets</string>
+    <string name="show_bookmarks_pref_title">Montre signets</string>
+    <string name="show_bookmarks_pref">Signets</string>
+    <string name="create_bookmark">Kreye makè</string>
+    <string name="edit_bookmark">Edite makè</string>
+    <string name="question_delete_bookmark">Efase makè?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin pa jwenn. Tanpri telechaje nan Play Store.</string>
+    <string name="cloud_error_failed_restart">Echwe pou chaje koneksyon an.
+        Tanpri louvri Amaze Cloud yon fwa.</string>
+    <string name="cloud_remove">Èske ou vle retire koneksyon nwaj la?</string>
+    <string name="cloud_fail_authenticate">Echwe pou otantifye</string>
+    <string name="cloud_share_copied">Lyen pataje kopye nan clipboard</string>
+    <string name="copy_low_memory">Koupe soti. memwa, tanpri efase kèk RAM</string>
+    <string name="cloud_token_lost">Token pèdi, tanpri konekte ankò</string>
+    
+    <string name="showHeaders">Montre Headers</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Pa gen atik</string>
+	<string name="item">atik</string>
+	<string name="items">atik</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Fichye a ta dwe gen yon non</string>
+    <string name="add_item">Ajoute atik</string>
+    <string name="failed_smb_decrypt_path">Echwe pou chaje Koneksyon SMB</string>
+    <string name="failed_cloud_new_connection">Echwe pou ajoute nouvo koneksyon Cloud</string>
+    <string name="failed_cloud_api_key">Echwe pou otantifye Cloud plug-in</string>
+
+    <string name="local_inet_addr_error">Erè resevwa adrès inet lokal yo</string>
+    <string name="intent_save_as">Sove kòm...</string>
+    <string name="go">Ale</string>
+    <string name="advanced">Avanse</string>
+    <string name="typeable_paths_title">Chemen pèsonalize</string>
+    <string name="typeable_paths_summary">Bawo chemen pou peze long pou tape yon chemen koutim</string>
+    <string name="send_email_to">Voye yon imèl bay</string>
+
+    <string name="text_editor">Anviwònman editè tèks</string>
+    <string name="preference_newstack_title">Louvri fichye yo kòm nouvo travay</string>
+    <string name="preference_newstack_summary">Pèmèt ou louvri fichye nan travay separe. Aksede yo nan ekran dènye sistèm yo.</string>
+    
+    <string name="developers">Devlopè</string>
+    <string name="no_bitcoin_app">Tanpri enstale yon aplikasyon Bitcoin Wallet</string>
+    <string name="channel_name_normal">Amaze Notifikasyon</string>
+    <string name="channel_description_normal">Amaze File Manager\'s Notifikasyon</string>
+    
+    <string name="channel_description_ftp">Amaze File Manadjè FTP Sèvè Notifikasyon yo</string>
+
+    
+    <string name="processing">Trasesan...</string>
+    <string name="failed_no_connection">Echwe pou chaje fichye yo. Tanpri tcheke koneksyon w la.</string>
+
+    <string name="update">MIJOU</string>
+	<string name="scp_connection">SCP/SFTP Koneksyon</string>
+    <string name="ftp_connection">FTP Koneksyon</string>
+    <string name="ftps_connection">FTP sou SSL Koneksyon</string>
+    <string name="scp_port">Pò</string>
+    
+    
+    
+    <string name="ssh_pem_key_parse_error">Pa kapab li PEM chwazi: %s</string>
+    <string name="password_unchanged">(pa chanje)</string>
+    <string name="ssh_authentication_failure_password">Echèk koneksyon: Pa kapab otantifye avèk non itilizatè yo bay ak modpas.</string>
+    <string name="ssh_authentication_failure_key">Echèk koneksyon: Pa kapab otantifye avèk non itilizatè yo bay ak kle prive.</string>
+    <string name="ssh_connect_failed">Pa kapab konekte ak %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">AVÈTISMAN: IDANTIFIKASYON LÒT LÒT A CHANJE!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">LI POSIB YON MOUN KI FÈ YON BAGAY NOU!\n\nYon moun ta ka tande w. kounye a (atak nonm nan mitan an)! Li posib tou ke kle lame a te jis chanje. Anprent kle piblik lame a aleka voye a pa matche ak sa ki estoke nan Amaze la.\n\nTanpri kontakte administratè sistèm ou an oswa mete yon nouvo koneksyon pou kontinye konekte ak sèvè a.</string>
+    <string name="ssh_key_prompt_passphrase">Tanpri antre kle pasfraz. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Lanse ou a pa sipòte kreyasyon rakoursi yo.</string>
+    
+    <string name="select_color_config">Chwazi konfigirasyon koulè</string>
+    <string name="customize">Personnaliser</string>
+    <string name="custom">Personnaliser</string>
+    <string name="preselected_configs_title">Konfigirasyon preseleksyone</string>
+    <string name="orange">Oranj</string>
+    <string name="blue">Ble</string>
+    <string name="green">Vèt</string>
+    <string name="password_no_match">Modpas pa matche</string>
+    <string name="deselect_all">Deseleksyone tout</string>
+    <string name="filename">Non fichye</string>
+    <string name="compress_file_suggest_zip_extension">Li rekòmande pou itilize \".zip\" kòm ekstansyon fichye a.</string>
+    <string name="about_amaze">Manadjè fichye konsepsyon materyèl pou android</string>
+    <string name="license">Lisans</string>
+    <string name="libraries">Bibliyotèk</string>
+    <string name="password_repeat">Repete modpas</string>
+    <string name="create_file_suggest_txt_extension">Li rekòmande pou itilize \".txt\" kòm ekstansyon fichye a.</string>
+    <string name="ssh_select_pem">Chwazi kle prive pou otantifikasyon</string>
+    <string name="ssh_key_invalid_passphrase">Fraz pas kle ki pa valab.</string>
+    <string name="ssh_key_no_decoder_decrypt">Pa gen dekodeur valab pou dechifre PEM.</string>
+    <string name="encryption_fail_copy">Echwe pou mete ajou antre chifreman nan baz done</string>
+    <string name="extracted">Extrè</string>
+    <string name="compressed">Konprese</string>
+    <string name="processed">Trasesè</string>
+    <string name="no_obtainable_info">Pa gen enfòmasyon sou fichye sa a</string>
+    <string name="reopen_from_source">Pa ka, tanpri relouvri nan dènye aplikasyon an</string>
+    <string name="no_file_error">Yon bagay te mal pase, pa gen anyen pou ouvri</string>
+    <string name="file_too_long">The fichye a twò long epi li pa ka modifye, sepandan ou ka li premye %d karaktè yo</string>
+    <string name="file_read_only">Fichye a louvri se yon lekti sèlman.</string>
+    <string name="got_it">Ou jwenn li!</string>
+    <string name="encrypt_file_save_as">Save Encrypted Fichye kòm...</string>
+    <string name="encrypt_folder_save_as">Sove Dosye chiffres kòm...</string>
+    <string name="encrypt_option_use_aze">Sèvi ak Amaze Encryption Format</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt se yon fòma cryptage dosye sous louvri ki baze sou cryptage AES. Li se pòtab tou, yo ka dechifre ak pwogram AESCrypt sou lòt platfòm.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">Sit entènèt AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Fòma chifreman Amaze a baze tou sou chifreman AES; men diferan de fòma AESCrypt, li kapab sèlman dechifre pa aparèy sa a; tou, ou pa dwe dezenstale Amaze File Manager nan aparèy sa a ni chanje fason ou fèmen ekran an, otreman ou pa pral gen okenn fason yo refè fichye a chiffres.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Fichye ankripte yo dwe itilize \".aze\" kòm ekstansyon fichye a.</string>
+    <string name="encrypt_file_must_end_with_aes">Fichye ankripte yo dwe itilize \".aes\" kòm ekstansyon fichye a.</string>
+    <string name="error_aescrypt_decrypt_failed">Pa ka dechifre. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Pa ka ranplase fichye a.</string>
+    <string name="saved_single_file">Fichye a sove kòm \'%s\'.</string>
+    <string name="saved_multi_files">%d fichye sove.</string>
+    <string name="create_hidden_file_warn">Fichye kreye a pral kache nan lis fichye a.</string>
+    <string name="grant_apkinstall_permission">Aplikasyon bezwen pèmisyon pou enstale aplikasyon yo kontinye.</string>
+    <string name="time_remaining">Tan ki rete</string>
+    <string name="transfer_rate">To transfè</string>
+    <string name="unknown">enkoni</string>
+    <string name="multiple_invalid_archive_entries">Kèk fichye nan achiv la pa ka ekstrè; achiv yo ka domaje oswa soti nan sous move.</string>
+    <string name="saf_otg_explanation">Ou pral kounye a ale nan sistèm fichye Android a pou rezon sekirite. Tanpri chwazi aparèy USB nan lis ki sou bò gòch la.</string>
+    <string name="donation_thanks">Mèsi pou don an, sa kenbe nou motive! (:</string>
+    <string name="enable_marquee_filename">Pèmèt efè chapit pou non fichye</string>
+    <string name="archive_password_prompt">Tanpri antre modpas achiv:</string>
+    
+    <string name="cannot_extract_archive">Pa ka ekstrè achiv \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Pa kapab ouvri achiv \"%s\". Swa nou pa ka ouvri achiv la, oswa achiv la domaje.</string>
+    <string name="close">Fèmen</string>
+    <string name="bookmark_exists">Signets egziste</string>
+    <string name="hide_media">Kache nan navigatè medya yo</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">LI POSIB KE YON MOUN AP FÈ YON BAGAY NÉGASANT!\n\nYon moun ta ka tande w kounye a (atak moun ki nan mitan an)! Li posib tou ke kle lame a te fèk chanje. Anprent la. pou kle piblik lame a aleka voye pa matche ak sa ki estoke nan Amaze.\n\nOu ka kontinye ak ajou anprent lame oswa anile aktyalizasyon paramèt koneksyon SSH la.</string>
+    <string name="update_host_key">Mizajou kle lame</string>
+    <string name="cancel_recommended">Anile (Rekòmande)</string>
+    
+    
+    <string name="failed_install_apk">Echwe pou enstale</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Depo Entèn</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Kat SD</string>
+    <string name="choose_folder">Chwazi Dosye sa a</string>
+    
+    <string name="some_files_failed_invalid_operation">Kèk fichye echwe akòz envalid operasyon</string>
+    <string name="ftp_server_prompt_connect_to_network">Konekte ak yon rezo oswa aktive AP</string>
+    <string name="ftp_server_open_settings">Louvri paramèt</string>
+    <string name="move">Deplase</string>
+    <string name="select_save_location">Chwazi kote pou konsève pou</string>
+    <string name="scp_default_path">Chemen Default (Si ou vle)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Padon, sa pa ta dwe rive.</string>
+    
+    <string name="error_report_button_text">Rapòte erè sa a pa imèl</string>
+    <string name="error_report_button_telegram">Rapòte erè sa a via telegram</string>
+    <string name="copy_for_github">Kopi fòma rapò</string>
+    <string name="error_report_open_issue_button_text">Rapò sou GitHub</string>
+    <string name="error_report_open_github_notice">Tanpri tcheke si gen yon pwoblèm ki pale sou aksidan ou a deja egziste.</string>
+    <string name="error_snackbar_message">Dezole, gen yon bagay ki mal pase.</string>
+    <string name="error_snackbar_action">Rapòte</string>
+    <string name="what_device_headline">Enfo:</string>
+    <string name="what_happened_headline">Kisa ki te pase:</string>
+    <string name="info_labels">Kisa:\\nDemann:\\nTè GMT:\\nPake:\\nVèsyon:\\nVèsyon OS:\\nAparèy:\\nModèl:\\nPwodwi :</string>
+    <string name="your_comment">Komantè ou a (an Angle):</string>
+    <string name="error_details_headline">Detay:</string>
+    <string name="app_ui_crash">Aplikasyon/UI te fè aksidan</string>
+    <string name="error_report_title">Rapò erè</string>
+    <string name="crash_report_copied">Rapò aksidan yo kopye sou clipboard</string>
+    <string name="disableIpcSignature">Enfim chèk siyati IPC (Pou eritaj SMBv1 sèvè - DANSEKIRI!)</string>
+    <string name="cannot_delete_file">Pa ka efase fichye</string>
+    <string name="cannot_delete_file_with_reason">Pa ka efase fichye a - %s</string>
+    <string name="cannot_rename_file">Pa ka chanje non fichye a. %s - %s</string>
+    <string name="cannot_read_directory">Pa ka li anyè %s - %s</string>
+    <string name="just_once">Jis yon fwa</string>
+    <string name="always">Toujou</string>
+    <string name="choose_different_app">Chwazi diferan aplikasyon</string>
+    <string name="clear_open_file">Klè kachèt</string>
+    <string name="clear_open_file_summary">Efase aplikasyon pou ouvèti dosye default yo</string>
+    <string name="ftp_readonly">Aksè pou lekti sèlman</string>
+    <string name="legacy_listing_title">Itilize lis eritaj pou rasin</string>
+    <string name="legacy_listing_summary">Si li aktive, sèvi ak metòd eritaj pou lis fichye yo</string>
+    <string name="error_unsupported_v5_rar">Achiv RAR \"%s\" pa sipòte achiv RAR v5.</string>
+    <string name="ftp_prompt_restart_server">W ap bezwen rekòmanse sèvè FTP la pou chanjman yo pran efè.</string>
+    <string name="error_permission_denied">Pmisyon refize</string>
+    <string name="error_archive_password_incorrect">Move modpas achiv.</string>
+    <string name="error_archive_cannot_extract">Pa ka retire antre achiv \"%s\" nan \"%s\".</string>
+    <string name="drag_and_drop_preference">Chwazi preferans trennen epi depoze (eksperimantal)</string>
+    <string name="drag_to_move_copy">Manyen epi trennen pou deplase oswa kopye fichye</string>
+    <string name="drag_to_select">Manyen epi trennen pou chwazi fichye</string>
+    <string name="disable">Enfim</string>
+    <string name="choose_operation">Chwazi operasyon pou fè</string>
+    <string name="remember">Sonje pou pwochen fwa</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Akòde aksè SAF pou sèvè FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Piske sa a se premye kouri ou nan sèvè FTP la, epi w ap itilize depo entèn aparèy la kòm katab pataje, tanpri pèmèt Amaze jwenn aksè nan depo a lè l sèvi avèk SAF.\n\n
+
+Ou bezwen fè sa sèlman yon fwa, jiska pwochen fwa ou chwazi yon nouvo kote pou pataje.</string>
+    <string name="android_data_prompt_saf_access">Depi Android 10, Android te enpoze restriksyon sou sèten anyè, epi yo bezwen jwenn aksè ak Storage Access Framework.\n \nTanpri pèmèt Amaze jwenn aksè nan anyè a nan men manadjè dosye sistèm lan lè w tape \"Pèmèt Aksè\".</string>
+    <string name="android_data_prompt_saf_access_title">Akòde aksè SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Itilize sistèm fichye eritaj</string>
+    <string name="ftp_preference_saf_filesystem">Pèmèt. sa a pou sipò pou itilize aparèy depo ekstèn sou nouvo Android vèsyon</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP sèvè pataje chemen yo te reset nan depo entèn pandan w ap chanje tounen nan aplikasyon filesystem eritaj. Tanpri chwazi yon nouvo chemen lè l sèvi avèk meni ki anlè a dwat jan sa nesesè.</string>
+    <string name="ftp_server_reset_notify">Chemen pataje sèvè FTP yo te retabli nan depo entèn</string>
+    <string name="ftp_server_root_unavailable">W ap chwazi yon chemen ki mande aksè rasin. Tanpri pèmèt eksploratè rasin nan anviwònman si aparèy ou an rasin.</string>
+    <string name="ftp_server_root_filesystem_warning">W ap chwazi yon chemen ki mande aksè rasin, ki pèmèt operasyon lekti/ekri nan tout sistèm fichye sou aparèy ou an, epi li danjere - erè neglijans ka brik aparèy ou an!\n\nÈske w sèten?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Erè lè w ap ouvri URI \"%s\" pou lekti.</string>
+    <string name="error_empty_archive">\"%s\" se yon achiv vid.</string>
+    <string name="error_bad_archive_without_info">\"%s\" se yon achiv ki pèvèti. .</string>
+    <string name="error_bad_archive_with_info">\"%s\" se yon achiv pèvèti.\nMesaj soti nan ekstrè: \"%s\"</string>
+    <string name="security_error">Fichye pa t \'kapab louvri lè l sèvi avèk aplikasyon sa a</string>
+    <string name="cloud_drive_tooltip">Kreye yon koneksyon Google Drive™ pou jere fichye nan Amaze File Manager.</string>
+    <string name="signin_with_google_title">Otantifye pou itilize Google Drive™</string>
+    <string name="show_system_apps">Montre aplikasyon sistèm</string>
+    <string name="system_apps">Aplikasyon sistèm</string>
+    <string name="select_inverse">Chwazi Envès</string>
+    <string name="select_by_type">Chwazi pa kalite</string>
+    <string name="select_by_date">Chwazi pa dat</string>
+    <string name="select_similar">Chwazi menm jan an</string>
+    <string name="error_fetching_google_play_product_list">Erè lè w ap chèche lis pwodwi nan Google Play.</string>
+    <string name="grant_all_files_permission">Depi Android 11 , Google mande Manadjè Fichye yo mande itilizatè pèmisyon pou jere tout fichye ki sou aparèy la. Detay isit la.
+        \n\nManadjè Fichye Amaze bezwen pèmisyon sa a tou. Apre peze "Grant" isit la, tanpri chwazi Pèmèt aksè pou jere tout dosye opsyon sou pwochen ekran an.
+        \n\nSi w anile dyalòg sa a ap soti nan aplikasyon an.</string>
+    <string name="user_apps">Aplikasyon itilizatè</string>
+    <string name="appearance">Aparans</string>
+    <string name="behavior">Konpòtman</string>
+    <string name="appearance_summary">Personalize tèm, koulè ak aparans manadjè fichye a.</string>
+    <string name="ui_summary">Kontwole ki enfòmasyon pou montre, pèsonalize ba a, ak aktive preferans UI</string>
+    <string name="behavior_summary">Modifye konpòtman tankou rechèch avanse epi si wi ou non yo louvri fichye yo kòm yon nouvo travay</string>
+    <string name="security_summary">Fikse modpas ak chifreman</string>
+    <string name="backup_summary">Ekspòtasyon/Enpòte Anviwònman Amaze</string>
+
+    <string name="pref_export">Ekspòtasyon</string>
+    <string name="pref_export_summary">Anviwònman ekspòte</string>
+    <string name="pref_import">Enpòte</string>
+    <string name="pref_import_summary">Anviwònman enpòte</string>
+
+    <string name="quick_desc">Fichiye te fèk jwenn aksè atravè Amaze</string>
+    <string name="recent_desc">Fichye ki te kreye oswa modifye dènyèman</string>
+    <string name="error_cannot_find_way_open">Pa t \'kapab jwenn fason yo louvri fichye a</string>
+    <string name="error_cant_decompress_that_file">Pa ka trete achiv yo mande yo</string>
+    <string name="analyse_storage">Analize Depo</string>
+    
+    <string name="download_amaze_utils_text">Y ap redireksyon w sou Amaze File Utilities. Se aplikasyon sous ouvè nou an ki gen espektatè odyo/videyo/imaj/dokiman entegre, ki pèmèt ou analize fichye indésirables pou libere depo, transfè rapid lè l sèvi avèk Wifi P2P ak plis ankò.\nTanpri, sipòte nou lè w eseye li.</string>
+    <string name="download">Telechaje</string>
+    
+    <string name="amaze_utils_installed_alias">Mèsi paske w enstale Amaze File Utilities. Y ap redireksyon w nan aplikasyon an.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">Pataje mòso bwa</string>
+    <string name="share_logs_summary">Pataje mòso bwa yo pa imel/telegram</string>
+    <string name="open_with_amaze">Louvri ak Amaze</string>
+    <string name="confirmation">Konfimasyon</string>
+    <string name="open_file_confirmation">Èske w sèten ou vle ouvri dosye sa a?\n\nNon:\n%s\n\nKote:\n%s\n\nGwosè:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Dapre règleman Google Play yo, aplikasyon yo pa gen dwa mete ajou poukont li. Tanpri mete ajou aplikasyon an nan Google Play.</string>
+    <string name="error_cannot_get_package_info">Pa ka jwenn enfòmasyon pakè nan fichye \"%s\". Swa fichye espesifye a pa yon APK, oswa fichye pake a fin pouri.</string>
+    <string name="preference_delete_confirmation">Efase konfimasyon</string>
+    <string name="preference_delete_confirmation_summary">Mande konfimasyon anvan efase fichye yo. Enfim sa a trè dekouraje!</string>
+    
+    
+    <string name="protocol_ftps">FTP an sekirite</string>
+    <string name="unavailable">Disponib</string>
+
+    <string name="exporting_failed">Ekspòtasyon echwe: pa t \'kapab ekri dosye a backup</string>
+    <string name="importing_failed">Enpòte echwe: pa t\' kapab li backup la fichye</string>
+    <string name="importing_completed">Enpòtasyon fini</string>
+    <string name="invalid_backup_file">Fichye backup ki pa valab</string>
+    <string name="import_failed_for">Enpòtasyon echwe pou:</string>
+    <string name="free_of">"%s\n%s gratis nan %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin pa sipòte ak vèsyon F-Droid. Tanpri itilize vèsyon Play Store nan Amaze.</string>
+    <string name="disable_player_intent_filters">Dezactive filtè entansyon jwè</string>
+    <string name="disable_player_intent_filters_summary">Dezactive jwè medya Amaze entegre nan seleksyon fichye</string>
+    <string name="no_app_found_intent">Yo pa jwenn okenn aplikasyon pou jere entansyon sa a. Èske w gen DocumentsUI enstale?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection kalifikasyon yo netwaye</string>
+    <string name="cloud_connection_credentials_cleared_msg">Malerezman, nou pa t \'kapab imigre kalifikasyon koneksyon nwaj ou a nan nouvo chema baz done a, epi nou te gen pou retire yo nan aplikasyon an. Tanpri kreye koneksyon nwaj la ankò.</string>
+</resources>

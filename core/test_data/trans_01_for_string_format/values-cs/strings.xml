@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Otevřít navigační vysouvací panel</string>
+    <string name="drawer_close">Zavřít navigační vysouvací panel</string>
+    <string name="icon">ikona</string>
+    <string name="apps">Správce aplikací</string>
+    
+    <string name="setting">Nastavení</string>
+    <string name="select">Vyberte položku</string>
+    <string name="press_again">Opětovným stisknutím ukončíte</string>
+    <string name="open">Otevřít</string>
+    <string name="backup">Záloha</string>
+    <string name="uninstall">Odinstalovat</string>
+    <string name="play">Obchod Play</string>
+    <string name="properties">Vlastnosti</string>
+    <string name="copyingapks">Kopírování %d souborů APK do %s</string>
+    <string name="delbook">Smazat záložku</string>
+    <string name="add_to_bookmarks">Přidat do záložek</string>
+    <string name="enterpath">Zadejte cestu</string>
+    <string name="cancel">ZRUŠIT</string>
+    <string name="create">VYTVOŘIT</string>
+    <string name="loading">Načítání…</string>
+    <string name="file_empty">Soubor je prázdný</string>
+    <string name="error">Chyba</string>
+    <string name="search_results">Výsledky hledání %s</string>
+    <string name="rename">Přejmenovat</string>
+    <string name="save">Uložit</string>
+    <string name="bookmarks_added">Přidané záložky</string>
+    <string name="fileexist">Soubor se stejným názvem již existuje</string>
+    <string name="name">Jméno</string>
+    <string name="date">Datum</string>
+    <string name="location">Umístění</string>
+    <string name="size_capitalized">Velikost</string>
+    <string name="size">velikost složky</string>
+    <string name="enterzipname">Zadejte PSČ</string>
+    <string name="no_app_found">Nebyla nalezena žádná aplikace pro otevření tohoto souboru</string>
+    <string name="copying">Kopírování</string>
+    <string name="moving">Přesouvání</string>
+    <string name="file">Soubor</string>
+    <string name="folder">Složka</string>
+    <string name="newfolder">Nová složka</string>
+    <string name="entername">Zadejte název</string>
+    <string name="extracting">Rozbalování</string>
+    <string name="stopping">Zastavení</string>
+    <string name="open_parent">Otevřít nadřazený adresář</string>
+    <string name="open_with">Otevřít pomocí</string>
+    <string name="share">Sdílet</string>
+    <string name="about">O</string>
+    <string name="extract">Extrahovat</string>
+    <string name="compress">Komprimovat</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    
+    <string name="dialog_delete_category_directories">Adresáře</string>
+    <string name="dialog_delete_category_files">Soubory</string>
+    <string name="dialog_delete_disclaimer">Smazáním níže uvedených položek je trvale odstraníte z vašeho zařízení a nebude možné je obnovit.</string>
+    <string name="dialog_delete_title">Smazat položky trvale?</string>
+    <string name="deleting">Odstranění</string>
+    <string name="question_set_path_as_home">Chcete pro tuto kartu nastavit aktuální cestu jako domovskou?</string>
+    <string name="directorysort">Režim třídění adresáře</string>
+    <string name="sort_by">Řadit podle</string>
+    <string name="sort_only_this">Pouze tato složka</string>
+    <string name="theme">Motiv</string>
+    <string name="random">Náhodný vzhled</string>
+    <string name="random_summary">Nastaví náhodnou primární barvu při spuštění</string>
+    <string name="colorize">Vybarvit ikony</string>
+    <string name="colorize_summary">Sady barva statické ikony. Nepřepisuje předvolbu barvy ikony adresáře.</string>
+    <string name="home">Domů</string>
+    <string name="paste">Vložit</string>
+    <string name="history">Historie</string>
+    <string name="copy">Kopírovat</string>
+    
+    <string name="root_mode_summary">Pouze pro zakořeněné zařízení. Zaškrtněte jej, pouze pokud jste si tím jisti.</string>
+    <string name="root_failure">Kořenový přístup nebyl udělen</string>
+    <string name="select_all">Vybrat vše</string>
+    <string name="delete">Smazat</string>
+    <string name="set_as_home">Nastavit jako domovskou</string>
+    <string name="operation_not_supported">Operace není podporována</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Materiál Světlý</string>
+    <string name="dark">Materiál Tmavý</string>
+    <string name="daytime">Denní</string>
+    <string name="black">Černá (pro OLED)</string>
+    <string name="system">Systém (sledujte systémové téma)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Složky nahoře</string>
+    <string name="filesOnTop">Soubory nahoře</string>
+    <string name="none_on_top">Žádné nahoře</string>
+    <!--SortBy-->
+    <string name="sort_name">Název</string>
+    <string name="lastModified">Naposledy upraveno</string>
+    <string name="sort_size">Velikost</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Vyberte soubor</string>
+    <string name="process_viewer">Prohlížeč procesů</string>
+    <string name="in_safe">Nedostatek místa</string>
+    <string name="no_file_overwrite">Žádný soubor nepřepsán</string>
+    <string name="skip">Přeskočit</string>
+    <string name="overwrite">Přepsat</string>
+    <string name="not_allowed">Nepovoleno</string>
+    <string name="searching">Hledání %s</string>
+    <string name="done">Hotovo</string>
+    <string name="set">Nastavit</string>
+    <string name="enablerootmde">Povolit kořenový režim</string>
+    <string name="goback">Vrátit se</string>
+    <string name="newfile">Nový soubor</string>
+    <string name="no_files">Žádné soubory</string>
+    <string name="used">použité místo</string>
+    <string name="used_by_others">používané ostatními</string>
+    <string name="free">volné místo</string>
+    <string name="listview">Zobrazení seznamu</string>
+    <string name="gridview">Mřížka Zobrazit</string>
+    <string name="permission">Oprávnění</string>
+    <string name="hide">Skrýt</string>
+    <string name="exit">Ukončit</string>
+    <string name="doforall">Provést pro všechny položky</string>
+    <string name="gridcolumnno">Počet sloupců v zobrazení mřížky</string>
+    <string name="set_random">Změny se projeví po restartování aplikace</string>
+    <string name="authors">Autoři</string>
+    
+    
+    <string name="ui">Rozhraní</string>
+    <string name="general">Obecné</string>
+    <string name="thumb_summary">Zobrazit miniatury aplikací a obrázků</string>
+    <string name="thumb">Zobrazit miniatury</string>
+    <string name="hidden">Zobrazit skryté soubory a složky</string>
+    <string name="lastModifiedSummary">Zobrazit datum a čas poslední úpravy</string>
+    <string name="lastModifiedPref">Zobrazit datum poslední úpravy a Čas</string>
+    <string name="size_pref_summary">Zobrazit velikost souborů a počet položek ve složkách</string>
+    <string name="size_pref">Zobrazit velikosti</string>
+    <string name="miscellaneous">Různé</string>
+    <string name="root_pref_summary">Zobrazit oprávnění souborů a složek</string>
+    <string name="root_pref">Zobrazit oprávnění</string>
+    <string name="about_amaze_file_manager_label">O aplikaci Amaze File Manager</string>
+    <string name="version">Verze</string>
+    <string name="rate">Hodnocení aplikace</string>
+    <string name="feedback">Odeslat zpětnou vazbu</string>
+    <string name="hiddenfiles">Skryté soubory</string>
+    <string name="type">Typ</string>
+    
+    <string name="add_shortcut">Přidat zástupce</string>
+    <string name="unsaved_changes">Neuložené změny</string>
+    <string name="unsaved_changes_description">Máte neuložené změny, chcete je před ukončením uložit?</string>
+    <string name="saving">Ukládání</string>
+    <string name="package_installer">Instalátor balíčku</string>
+    <string name="view">Zobrazit</string>
+    <string name="install">Instalovat</string>
+    <string name="archive">Archiv</string>
+    <string name="archive_text">Toto je archiv. Jakou akci chcete provést?</string>
+    <string name="package_installer_text">Toto je instalační program balíčku. Jakou akci chcete provést?</string>
+    <string name="xda_title">Vlákno XDA</string>
+    <string name="xda_summary">Otázky a odpovědi, Nápověda a odstraňování problémů</string>
+    <string name="circular_images">Používejte kruhové ikony pro obrázky a videa</string>
+    <string name="circular_icons">Používejte kruhové ikony</string>
+    <string name="back_title">Navigace zpět</string>
+    <string name="back_summary">Povoluje vlastní navigaci zpět v horní části seznamu</string>
+    <string name="details">Podrobnosti</string>
+    <string name="translators">Překladatelé</string>
+    <string name="german_translation_title">Němčina</string>
+    <string name="italian_translation_title">Italština</string>
+    <string name="french_translation_title">Francouzština</string>
+    <string name="russian_translation_title">Ruština</string>
+    <string name="spanish_translation_title">Španělština</string>
+    <string name="basque_translation_title">Baskičtina</string>
+    <string name="chinese_translation_title">Čínština</string>
+    <string name="serbian_translation_title">Srbština</string>
+    <string name="turkish_translation_title">Turečtina</string>
+    <string name="ukrainian_translation_title">Ukrajinština</string>
+    <string name="portuguese_translation_title">Portugalština</string>
+    <string name="polish_translation_title">Polština</string>
+    <string name="korean_translation_title">Korejština</string>
+    <string name="greek_translation_title">Řečtina</string>
+    <string name="dutch_translation_title">Nizozemština</string>
+    <string name="romanian_translation_title">Rumunština</string>
+    <string name="vietnamese_translation_title">Vietnamština</string>
+    <string name="japanese_translation_title">Japonština</string>
+    <string name="tamil_translation_title">Tamilština</string>
+
+    <string name="zip_viewer">Prohlížeč ZIP</string>
+    <string name="unin_system_apk">Toto je systémová aplikace, jejíž odstranění může vést k nestabilitě systému.\ nPokračovat?</string>
+    <string name="warning">Upozornění</string>
+    <string name="donate">Darovat</string>
+    <string name="archive_extract_folder">Složka rozbalení archivu</string>
+    <string name="archive_summary">Archivní soubory budou rozbaleny do této složky. Výchozí hodnota je adresář, ve kterém se archiv nachází.</string>
+    <string name="open_as">Otevřít jako</string>
+    
+    <string name="audio">Zvuk</string>
+    
+    <string name="other">Jiné</string>
+    <string name="image">Obrázek</string>
+    <string name="contributors">Přispěvatelé</string>
+    <string name="save_paths">Zapamatovat cesty</string>
+    <string name="save_path_summary">Při spuštění se na každé kartě zobrazí naposledy zobrazená složka</string>
+    <string name="select_intent">Vybrat</string>
+    <string name="database">Databáze</string>
+    <string name="colored_navigation">Barevná navigační lišta</string>
+    <string name="colored_navigvation_sum">Zda je navigační lišta systému zbarvena vzhledem ke kůži</string>
+
+    <string name="color_title">Barva</string>
+    <string name="color_summary">Nastavte barvu pro různé komponenty uživatelského rozhraní</string>
+    <string name="primary_color_title">Primární barva (levá karta)</string>
+    <string name="primary_color_summary">Nastavit barvu pro velké prvky uživatelského rozhraní pro levou kartu</string>
+    <string name="accent_color_title">Barva zvýraznění</string>
+    <string name="accent_color_summary">Nastavit barvu pro FAB a další malé uživatelské rozhraní prvky</string>
+    <string name="icon_color_title">Barva ikon</string>
+    <string name="icon_color_summary">Nastavit barvu ikon</string>
+    <string name="choose_color">Vybrat barvu</string>
+    <string name="files">Soubory</string>
+    <string name="textreader">Čtečka textu</string>
+    <string name="databasereader">Čtečka databáze</string>
+    <string name="show_dividers">Zobrazit oddělovače</string>
+    <string name="needs_access">Vyžadován přístup pro zápis</string>
+    <string name="needs_access_summary">Vyberte prosím kořenový adresář \t</string>
+    <string name="needs_access_summary1">\tpro udělení oprávnění pro zápis k provozu</string>
+    <string name="smb_connection">Připojení SMB</string>
+    <string name="smb_server">IP adresa serveru</string>
+    <string name="server_address">IP adresa serveru</string>
+    <string name="username">Uživatelské jméno</string>
+    <string name="password">Heslo</string>
+    <string name="anonymous">Anonymní</string>
+    
+    <string name="folders">Složky</string>
+    <string name="folderfilecount">%1$d složek a %2$d souborů</string>
+    <string name="videos">Videa</string>
+    <string name="apks">soubory APK</string>
+    <string name="documents">Dokumenty</string>
+    <string name="images">Obrázky</string>
+    <string name="clear">Vymazat</string>
+    
+    <string name="total">Celkem:</string>
+    <string name="calculating">výpočet</string>
+    <string name="sort">Řadit</string>
+    <string name="ascending">Vzestupně</string>
+    <string name="descending">Sestupně</string>
+    <string name="default_string">Výchozí</string>
+    <string name="doit">Udělat to</string>
+    <string name="want_help">Potřebujete pomoc?</string>
+    <string name="quick">Rychlý přístup</string>
+    <string name="recent">Poslední soubory</string>
+    <string name="edit">Upravit</string>
+    <string name="find">Najít na stránce</string>
+    <string name="grant">Udělit</string>
+    <string name="grantper">Udělit oprávnění</string>
+    <string name="grantfailed">Oprávnění nebylo uděleno</string>
+    <string name="grant_storage_permission">Aplikace potřebuje oprávnění k úložišti, aby mohla pokračovat. Zrušením tohoto dialogu se aplikace ukončí.</string>
+    <string name="operation_unsuccesful">Operace se nezdařila</string>
+    <string name="creatingfile">Vytváření souboru</string>
+    <string name="creatingfolder">Vytváření složky</string>
+    <string name="renaming">Přejmenování</string>
+    <string name="cant_be_empty">%s nemůže být prázdné</string>
+    <string name="ip">Adresa</string>
+    <string name="connection_name">Název připojení</string>
+    <string name="no_device_found">Nebyla nalezena žádná zařízení</string>
+    <string name="path">Cesta</string>
+    <string name="rename_bookmark">Upravit záložku</string>
+    <string name="cut">Vyjmout</string>
+    <string name="search">Hledat</string>
+    <string name="invalid_name">Neplatný název</string>
+    <string name="search_hint">Typ pro vyhledávání…</string>
+    <string name="advanced_search">Pokročilé vyhledávání</string>
+    <string name="regular_expression">Regulární výraz</string>
+    <string name="regular_expression_summary">Hledat pomocí regulárního výrazu stylu BASH</string>
+    <string name="match_content">Odpovídat obsahu</string>
+    <string name="match_content_summary">Pokud je nastaveno, regulární výraz bude odpovídat celému názvu souboru,
+        bude hledat výskyt jinak.</string>
+    
+    <string name="stop_ftp">Zastavit</string>
+    <string name="ftp_status_running">Spuštěno</string>
+    <string name="ftp_status_not_running">Neběží</string>
+    <string name="ftp_no_wifi">Ujistěte se, že jste připojeni k Wi -Fi</string>
+    <string name="domain">Doména</string>
+    <string name="smb_share">Sdílená cesta</string>
+    <string name="invalid">Neplatný %s</string>
+    <string name="ftp_notif_starting">FTP server se spouští</string>
+    
+    <string name="ftp_notif_title">Amaze FTP Server běží</string>
+    <string name="ftp_notif_text">na %s</string>
+    
+    
+    <string name="ftp_port_change_success">FTP port byl úspěšně změněn</string>
+    <string name="ftp_port_change_error_invalid">Vybráno neplatné číslo portu</string>
+    <string name="primary_two_title">Primární barva (pravá karta)</string>
+    <string name="primary_two_summary">Nastavit barvu pro velké prvky uživatelského rozhraní pro pravou kartu</string>
+    <string name="support_development">Podpora vývoje</string>
+    <string name="report_bugs_title">Nahlásit chyby</string>
+    <string name="source_title">Zdrojový kód</string>
+    <string name="source_summary">Zobrazit náš zdrojový kód na GitHubu</string>
+    <string name="report_bugs_summary">Nahlásit chyby nebo požádat o novou funkci</string>
+    <string name="translate_title">Přeložit</string>
+    <string name="translate_summary">Přeložit Ohromte ve svém jazyce</string>
+    <string name="paypal_copy_message">PayPal ID zkopírováno do schránky</string>
+    <string name="searching_devices">Hledání zařízení</string>
+    <string name="use_custom_ip">Použít vlastní IP</string>
+    <string name="bookmark_lost">Záložka nenalezena, znovu se vytváří…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Jak získat přístup ke sdílené složce Windows v systému Android (SMB)\n\n
+                
+                    
+                        Povolte sdílení souborů ve Windows\n
+                    
+                    
+                        Otevřete Ovládací panely, v části Síť klikněte na možnost Vybrat domácí skupinu a možnosti sdílení
+                        a Internet a klikněte na „Změnit pokročilé nastavení sdílení“, povolte „Soubor a
+                        Funkce sdílení tiskárny".\n\n
+                    
+
+                    
+                        Další nastavení sdílení souborů\n
+                    
+                    
+                        Můžete zde také nakonfigurovat další pokročilá nastavení sdílení. \n
+                        Můžete například povolit přístup ke svým souborům bez hesla, pokud všem důvěřujete
+                        zařízení ve vaší místní síti. Jakmile je sdílení souborů a tiskáren povoleno, můžete
+                        otevřete Průzkumník souborů nebo Průzkumník Windows, klepněte pravým tlačítkem na složku, kterou chcete sdílet, a
+                        vyberte Vlastnosti. \n
+                        Klikněte na tlačítko Sdílet a zpřístupněte složku v síti.\n\n
+                        
+
+                    
+                        Ujistěte se, že jsou obě zařízení na stejné Wifi\n
+                    
+                    
+                        Tato funkce zpřístupňuje soubory v místní síti, tedy ve vašem počítači a mobilních zařízeních
+                        musí být ve stejné místní síti. Nemáte přístup ke sdílené složce Windows
+                        přes internet nebo když je váš smartphone připojen k mobilním datům – to
+                        musí být připojen k Wi-Fi.\n\n
+                    
+
+                    
+                        Najít IP adresu\n
+                    
+                    
+                        Otevřete příkazový řádek. Zadejte \'ipconfig\' a stiskněte Enter. Hledejte výchozí bránu
+                        pod vaším síťovým adaptérem pro IP adresu vašeho routeru. Hledat
+                        \\\"Adresa IPv4\\\" ve stejné sekci adaptéru, abyste našli IP svého počítače
+                        adresu.\n\n
+                    
+
+                    Zadejte podrobnosti v dialogovém okně SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Nelze sdílet více než 100 souborů</string>
+    <string name="otg_access">Vyberte kořen OTG zařízení</string>
+    <string name="information">Informace</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Přístup</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Změněno</string>
+
+    <string name="title">Název</string>
+    <string name="artist">Umělec</string>
+    
+    <string name="year">Rok</string>
+    <string name="duration">Délka</string>
+    <string name="comment">Komentář</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Kontejner</string>
+    <string name="codec">Kodek</string>
+    <string name="channels">Kanály</string>
+    <string name="sample_rate">Vzorkovací frekvence</string>
+    <string name="bitrate">Datový tok</string>
+    <string name="dimensions">Dimenze</string>
+    <string name="frame_rate">Snímková frekvence</string>
+    <string name="image_type">Typ obrázku</string>
+    <string name="width">Šířka</string>
+    <string name="height">Výška</string>
+    <string name="date_modified">Datum úpravy</string>
+    
+    <string name="creator">Tvůrce</string>
+    <string name="camera_brand">Značka fotoaparátu</string>
+    <string name="camera_model">Fotoaparát Model</string>
+    <string name="date_taken">Datum pořízení</string>
+    <string name="exposure_time">Doba expozice</string>
+    <string name="aperture_value">Hodnota clony</string>
+    <string name="image_iso">Hodnocení citlivosti ISO</string>
+    <string name="flash_fired">Odpálení blesku</string>
+    <string name="focal_length">Ohnisková vzdálenost</string>
+    <string name="subject">Předmět</string>
+    <string name="author">Autor</string>
+    <string name="keywords">Klíčová slova</string>
+    <string name="producer">Producent</string>
+    <string name="created">Vytvořeno</string>
+    <string name="format">Formát</string>
+    <string name="pages">Počet Stránky</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimalizováno</string>
+    <string name="security">Zabezpečení</string>
+    <string name="paper_size">Velikost papíru</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Některé soubory se nepodařilo úspěšně %s</string>
+    <string name="copied">zkopírovat</string>
+    <string name="moved">přesunuto</string>
+    <string name="copy_complete">Kopírování dokončeno</string>
+    <string name="waiting_title">Čekání</string>
+    <string name="waiting_content">Čekání na dokončení operace</string>
+    <string name="extract_complete">Extrakce dokončena</string>
+    <string name="compression_complete">Komprese dokončena</string>
+    <string name="compressing">Komprese</string>
+    <string name="cancelled">Zrušeno</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Zapsáno</string>
+    <string name="out_of">z</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">z</string>
+    <string name="processing_file">Zpracovávání souboru</string>
+    <string name="current_speed">Aktuální rychlost</string>
+    <string name="smb_launch_error">Abyste tento soubor mohli otevřít, budete jej muset zkopírovat do úložiště</string>
+    <string name="error_file_not_found">Chyba: Soubor nenalezen</string>
+    <string name="error_io">Chyba I/O</string>
+    <string name="error_file_too_large">Chyba: Soubor je příliš velký</string>
+    <string name="medium_text">Střední text</string>
+    <string name="permission_read">Číst</string>
+    <string name="permission_write">Zapsat</string>
+    <string name="permission_execute">Provést</string>
+    <string name="permission_owner">Vlastník</string>
+    <string name="permission_group">Skupina</string>
+    <string name="permission_other">Jiné</string>
+    <string name="clipboard_path_copy">Cesta zkopírována do schránky</string>
+    <string name="service_timer">Uplynulý čas</string>
+    <string name="please_wait">Čekejte prosím</string>
+
+    <string name="cloud_connection">Připojení ke cloudu</string>
+    <string name="cloud_connection_new">Nové připojení ke cloudu</string>
+    
+    
+    
+    
+    <string name="cloud_get">Získat cloudový plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Žádné aplikace</string>
+    <string name="ftp_path">Sdílená cesta</string>
+    <string name="ftp_path_hint">Cesta ke kořenovému adresáři ke sdílení</string>
+    <string name="change">Změnit</string>
+    <string name="unknown_error">Jejda, něco se pokazilo!</string>
+
+    <string name="ftp_path_change_success">Cesta FTP byla úspěšně změněna</string>
+    <string name="ftp_path_change_error_invalid">Neplatná cesta</string>
+    <string name="ftp_status_no_connection">Žádné připojení</string>
+    <string name="ftp_status_secure_connection">Zabezpečené připojení</string>
+    <string name="ftp_status_title">Stav</string>
+    
+    <string name="ftp_login">Přihlášení</string>
+    <string name="field_empty">Pole nemůže být prázdné</string>
+    <string name="ftp_timeout">Časový limit nečinnosti</string>
+    <string name="ftp_seconds">Sekundy</string>
+    <string name="intellihide_toolbar_title">Intellihide Panel nástrojů</string>
+    <string name="intellihide_toolbar_summary">Automaticky skrýt panel nástrojů při posouvání</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">zkopírováno do schránky</string>
+    <string name="contributors_1_summary">Překlad</string>
+    <string name="contributors_2_summary">Ikona a bannery</string>
+    <string name="contributors_3_summary">Motiv motivu</string>
+    <string name="contributors_4_summary">Stín za FAB</string>
+    <string name="contributors_5_summary">Přechod barev při přejíždění karet</string>
+    
+    <string name="contributors_7_summary">Spuštění interaktivního prostředí</string>
+    <string name="connection_exists">Připojení již existuje</string>
+
+    <string name="crypt_encrypting">Šifrování</string>
+    <string name="crypt_decrypting">Dešifrování</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Šifrováno</string>
+    <string name="crypt_decrypted">Dešifrováno</string>
+    <string name="crypt_encrypt">Šifrovat</string>
+    <string name="crypt_decrypt">Dešifrovat</string>
+    <string name="operation_fail_following">Operace se nezdařila pro následující soubory</string>
+    <string name="crypt_pref_master_password_title">Hlavní heslo</string>
+    <string name="crypt_pref_master_password_summary">Nastavte hlavní heslo pro šifrování.
+        Chcete-li odstranit, ponechte prázdné.</string>
+    <string name="crypt_pref_fingerprint_title">Otisk prstu</string>
+    <string name="crypt_pref_fingerprint_summary">Použít otisk prstu k ověření šifrování</string>
+    <string name="crypt_fingerprint_no_permission">Chybí oprávnění k otisku prstu</string>
+    <string name="crypt_fingerprint_not_enrolled">Není zaregistrován žádný otisk prstu</string>
+    <string name="crypt_fingerprint_no_security">Žádné zabezpečení obrazovky uzamčení found</string>
+    <string name="crypt_warning_key">Upozorňujeme, že změníte svůj bezpečnostní vzor z
+        Nastavení systému, tento obsah nebudete moci dešifrovat.</string>
+    <string name="warning_never_show">Neinformovat znovu</string>
+    <string name="warning_confirm">Rozumím!</string>
+    <string name="crypt_encryption_fail">Nezašifrování se nezdařilo</string>
+    <string name="crypt_decryption_fail">Nepodařilo se dešifrovat</string>
+    <string name="crypt_decryption_fail_password">Špatné heslo!</string>
+    <string name="crypt_fingerprint_authenticate">Pokračujte dotykem senzoru</string>
+    <string name="authenticate_password">Zadejte heslo</string>
+
+    <string name="sidebar_preferences">Postranní panel</string>
+    <string name="sidebar_quick_access_title">Rychlý přístup k postrannímu panelu</string>
+    <string name="show_quick_access_pref_title">Zobrazit rychlé přístupy</string>
+    <string name="show_quick_access_pref">Rychlé přístupy</string>
+    <string name="directory">Adresář</string>
+
+    <string name="sidebar_bookmarks_title">Záložky postranního panelu</string>
+    <string name="show_bookmarks_pref_title">Zobrazit záložky</string>
+    <string name="show_bookmarks_pref">Záložky</string>
+    <string name="create_bookmark">Vytvořit záložku</string>
+    <string name="edit_bookmark">Upravit záložku</string>
+    <string name="question_delete_bookmark">Smazat záložku?</string>
+
+    <string name="cloud_error_plugin">Plugin Amaze Cloud nebyl nalezen. Stáhněte si prosím z Obchodu Play.</string>
+    <string name="cloud_error_failed_restart">Nepodařilo se načíst připojení.
+        Otevřete prosím Amaze Cloud jednou.</string>
+    <string name="cloud_remove">Chcete odebrat připojení ke cloudu?</string>
+    <string name="cloud_fail_authenticate">Nepodařilo se ověřit</string>
+    <string name="cloud_share_copied">Odkaz ke sdílení zkopírován do schránky</string>
+    <string name="copy_low_memory">Dochází paměť, prosím vymažte část RAM</string>
+    <string name="cloud_token_lost">Token ztracen, přihlaste se prosím znovu</string>
+    <string name="monofont">Písmo bez mezer</string>
+    <string name="showHeaders">Zobrazit záhlaví</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Žádné položky</string>
+	<string name="item">položka</string>
+	<string name="items">položky</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Soubor by měl mít název</string>
+    <string name="add_item">Přidat položku</string>
+    <string name="failed_smb_decrypt_path">Nepodařilo se načíst Připojení SMB</string>
+    <string name="failed_cloud_new_connection">Nepodařilo se přidat nové cloudové připojení</string>
+    <string name="failed_cloud_api_key">Nepodařilo se ověřit cloudový plug-in</string>
+
+    <string name="local_inet_addr_error">Chyba při získávání místní inet adresy</string>
+    <string name="intent_save_as">Uložit jako…</string>
+    <string name="go">Přejít</string>
+    <string name="advanced">Pokročilé</string>
+    <string name="typeable_paths_title">Vlastní cesty</string>
+    <string name="typeable_paths_summary">Dlouhým stisknutím pruhu cesty zadejte vlastní cestu</string>
+    <string name="send_email_to">Pošlete e-mail na adresu</string>
+
+    <string name="text_editor">Nastavení textového editoru</string>
+    <string name="preference_newstack_title">Otevřít soubory jako nový úkol</string>
+    <string name="preference_newstack_summary">Umožňuje otevírat soubory v samostatných úlohách. Získejte k nim přístup z obrazovky nedávných zpráv systému.</string>
+    
+    <string name="developers">Vývojáři</string>
+    <string name="no_bitcoin_app">Nainstalujte si prosím aplikaci Bitcoin Wallet</string>
+    <string name="channel_name_normal">Oznámení aplikace Amaze</string>
+    <string name="channel_description_normal">Oznámení aplikace Amaze File Manager</string>
+    
+    <string name="channel_description_ftp">Amaze File Oznámení správce FTP serveru</string>
+
+    
+    <string name="processing">Zpracovávání…</string>
+    <string name="failed_no_connection">Nepodařilo se načíst soubory. Zkontrolujte prosím své připojení.</string>
+
+    <string name="update">AKTUALIZACE</string>
+	<string name="scp_connection">Připojení SCP/SFTP</string>
+    <string name="ftp_connection">Připojení FTP</string>
+    <string name="ftps_connection">Připojení FTP přes SSL</string>
+    
+    <string name="ssh_host_key_verification_prompt">Autentičnost hostitele \'%1$s\' nelze ověřit.\n\n%2$s klíčový otisk je %3$s.\n\nProsím potvrďte klepnutím na \"Ano\" identita; jinak klepněte na \"Ne\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Ověřit hostitele</string>
+    <string name="ssh_select_pem_button">Soukromý klíč SSH</string>
+    <string name="ssh_pem_key_parse_error">Nelze přečíst vybraný PEM: %s</string>
+    <string name="password_unchanged">(nezměněno)</string>
+    <string name="ssh_authentication_failure_password">Chyba přihlášení: Nelze se ověřit pomocí zadaného uživatelského jména a hesla.</string>
+    <string name="ssh_authentication_failure_key">Selhání přihlášení: Nelze se ověřit pomocí zadaného uživatelského jména a soukromého klíče.</string>
+    <string name="ssh_connect_failed">Nelze se připojit k %1$ s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">UPOZORNĚNÍ: IDENTIFIKACE VZDÁLENÉHO HOSTATELE SE ZMĚNILA!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">JE MOŽNÉ, ŽE NĚKDO DĚLÁ NĚCO NEVHODNÉHO!\n\nNěkdo by vás mohl odposlouchávat právě teď (útok muže uprostřed)! Je také možné, že byl právě změněn hostitelský klíč. Otisk prstu pro veřejný klíč odeslaný vzdáleným hostitelem se neshoduje s otiskem uloženým v Amaze.\n\nObraťte se prosím na správce systému nebo nastavte nové připojení, abyste mohli pokračovat v připojování k serveru.</string>
+    <string name="ssh_key_prompt_passphrase">Zadejte přístupové heslo klíče .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Váš spouštěč nepodporuje vytváření zástupců.</string>
+    
+    <string name="select_color_config">Vyberte konfiguraci barev</string>
+    <string name="customize">Přizpůsobit</string>
+    <string name="custom">Vlastní</string>
+    <string name="preselected_configs_title">Předvolené konfigurace</string>
+    <string name="orange">Oranžová</string>
+    <string name="blue">Modrá</string>
+    <string name="green">Zelená</string>
+    <string name="password_no_match">Heslo se neshoduje</string>
+    <string name="deselect_all">Zrušit výběr všeho</string>
+    <string name="filename">Název souboru</string>
+    <string name="compress_file_suggest_zip_extension">Doporučujeme použít jako příponu souboru \".zip\".</string>
+    <string name="about_amaze">Správce souborů Material Design pro Android</string>
+    <string name="license">Licence</string>
+    <string name="libraries">Knihovny</string>
+    <string name="password_repeat">Zopakujte heslo</string>
+    <string name="create_file_suggest_txt_extension">Doporučujeme použít jako příponu souboru \".txt\".</string>
+    <string name="ssh_select_pem">Vyberte soukromý klíč pro ověření</string>
+    <string name="ssh_key_invalid_passphrase">Neplatná přístupová fráze klíče.</string>
+    <string name="ssh_key_no_decoder_decrypt">Žádný platný dekodér k dešifrování PEM.</string>
+    <string name="encryption_fail_copy">Nepodařilo se aktualizovat položku šifrování v databázi</string>
+    <string name="extracted">Extrahováno</string>
+    <string name="compressed">Komprimováno</string>
+    <string name="processed">Zpracováno</string>
+    <string name="no_obtainable_info">O tomto souboru nejsou žádné informace</string>
+    <string name="reopen_from_source">Nemohu, znovu otevřete z poslední aplikace</string>
+    <string name="no_file_error">Něco se pokazilo, není co otevřít</string>
+    <string name="file_too_long">The soubor je příliš dlouhý a nelze jej upravovat, můžete však přečíst prvních %d znaků</string>
+    <string name="file_read_only">Otevřený soubor je pouze pro čtení.</string>
+    <string name="got_it">Rozumím!</string>
+    <string name="encrypt_file_save_as">Uložit šifrované Soubor jako…</string>
+    <string name="encrypt_folder_save_as">Uložit šifrovanou složku jako…</string>
+    <string name="encrypt_option_use_aze">Použít šifrovací formát Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt je formát pro šifrování souborů s otevřeným zdrojovým kódem založený na šifrování AES. Je také přenosný, lze jej dešifrovat pomocí programů AESCrypt na jiných platformách.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">Web AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Formát šifrování aplikace Amaze je také založen na šifrování AES; ale na rozdíl od formátu AESCrypt jej lze dešifrovat pouze tímto zařízením; také nesmíte odinstalovat Amaze File Manager z tohoto zařízení ani změnit způsob zamykání obrazovky, jinak nebudete mít žádný způsob, jak obnovit zašifrovaný soubor.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Šifrované soubory musí používat jako příponu souboru \".aze\".</string>
+    <string name="encrypt_file_must_end_with_aes">Šifrované soubory musí používat jako příponu souboru \".aes\".</string>
+    <string name="error_aescrypt_decrypt_failed">Nelze dešifrovat \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Soubor nelze přepsat.</string>
+    <string name="saved_single_file">Soubor uložen jako \'%s\'.</string>
+    <string name="saved_multi_files">Uloženo %d souborů.</string>
+    <string name="create_hidden_file_warn">Vytvořený soubor bude skryt v seznamu souborů.</string>
+    <string name="grant_apkinstall_permission">Aplikace potřebuje oprávnění k pokračování instalace aplikací.</string>
+    <string name="time_remaining">Zbývající čas</string>
+    <string name="transfer_rate">Rychlost přenosu</string>
+    <string name="unknown">neznámý</string>
+    <string name="multiple_invalid_archive_entries">Některé soubory v archivu nelze extrahovat; archiv může být poškozen nebo pochází ze škodlivého zdroje.</string>
+    <string name="saf_otg_explanation">Nyní přejdete z bezpečnostních důvodů do souborového systému Android. Vyberte prosím zařízení USB ze seznamu vlevo.</string>
+    <string name="donation_thanks">Děkujeme za dar, udržuje nás motivací! (:</string>
+    <string name="enable_marquee_filename">Povolit efekt ohraničení pro názvy souborů</string>
+    <string name="archive_password_prompt">Zadejte heslo archivu:</string>
+    
+    <string name="cannot_extract_archive">Nelze extrahovat archiv \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Nelze otevřít archiv \"%s\". Buď nelze archiv otevřít, nebo byl archiv poškozen.</string>
+    <string name="close">Zavřít</string>
+    <string name="bookmark_exists">Záložka existuje</string>
+    <string name="hide_media">Skrýt v prohlížečích médií</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">JE MOŽNÉ, ŽE NĚKDO DĚLÁ NĚCO NEVHODNÉHO!\n\nNěkdo by vás mohl právě teď odposlouchávat (útok man-in-the-middle)! Je také možné, že byl právě změněn klíč hostitele. Otisk prstu veřejný klíč odeslaný vzdáleným hostitelem neodpovídá tomu, který je uložen v Amaze.\n\nMůžete pokračovat v aktualizaci otisku hostitele nebo zrušit aktualizaci nastavení připojení SSH.</string>
+    <string name="update_host_key">Aktualizovat hostitelský klíč</string>
+    <string name="cancel_recommended">Zrušit (doporučeno)</string>
+    
+    
+    <string name="failed_install_apk">Nepodařilo se nainstalovat</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Interní úložiště</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD karta</string>
+    <string name="choose_folder">Vybrat tuto složku</string>
+    
+    <string name="some_files_failed_invalid_operation">Některé soubory se nezdařily z důvodu neplatnosti operace</string>
+    <string name="ftp_server_prompt_connect_to_network">Připojte se k síti nebo povolte AP</string>
+    <string name="ftp_server_open_settings">Otevřít nastavení</string>
+    <string name="move">Přesunout</string>
+    <string name="select_save_location">Vyberte umístění k uložení</string>
+    <string name="scp_default_path">Výchozí cesta (volitelné)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Omlouváme se, to se nemělo stát.</string>
+    
+    <string name="error_report_button_text">Nahlaste tuto chybu e-mailem</string>
+    <string name="error_report_button_telegram">Nahlaste tuto chybu telegramem</string>
+    <string name="copy_for_github">Kopírovat formátovanou zprávu</string>
+    <string name="error_report_open_issue_button_text">Nahlásit na GitHubu</string>
+    <string name="error_report_open_github_notice">Zkontrolujte, zda již neexistuje problém týkající se vašeho selhání.</string>
+    <string name="error_snackbar_message">Je nám líto, něco se pokazilo.</string>
+    <string name="error_snackbar_action">Nahlásit</string>
+    <string name="what_device_headline">Informace:</string>
+    <string name="what_happened_headline">Co se stalo:</string>
+    <string name="info_labels">Co:\\nPožadavek:\\nČas GMT:\\nBalíček:\\nVerze:\\nVerze operačního systému:\\nZařízení:\\nModel:\\nProdukt :</string>
+    <string name="your_comment">Váš komentář (v angličtině):</string>
+    <string name="error_details_headline">Podrobnosti:</string>
+    <string name="app_ui_crash">Aplikace/uživatelské rozhraní selhalo</string>
+    <string name="error_report_title">Hlášení o chybě</string>
+    <string name="crash_report_copied">Zpráva o selhání zkopírována do schránka</string>
+    <string name="disableIpcSignature">Zakázat kontrolu podepisování IPC (pro starší servery SMBv1 - NEBEZPEČNÉ!)</string>
+    <string name="cannot_delete_file">Nelze smazat soubor</string>
+    <string name="cannot_delete_file_with_reason">Nelze smazat soubor - %s</string>
+    <string name="cannot_rename_file">Nelze přejmenovat soubor %s - %s</string>
+    <string name="cannot_read_directory">Nelze číst adresář %s - %s</string>
+    <string name="just_once">Jen jednou</string>
+    <string name="always">Vždy</string>
+    <string name="choose_different_app">Vybrat jinou aplikaci</string>
+    <string name="clear_open_file">Vymazat cache</string>
+    <string name="clear_open_file_summary">Vymaže vybrané výchozí aplikace pro otevírání souborů</string>
+    <string name="ftp_readonly">Přístup pouze pro čtení</string>
+    <string name="legacy_listing_title">Použít starší výpis pro root</string>
+    <string name="legacy_listing_summary">Pokud je povoleno, používá k výpisu souborů starší metodu</string>
+    <string name="error_unsupported_v5_rar">Archiv RAR \"%s\" je nepodporovaný archiv RAR v5.</string>
+    <string name="ftp_prompt_restart_server">Aby se změny projevily, budete muset restartovat FTP server.</string>
+    <string name="error_permission_denied">Oprávnění odepřeno</string>
+    <string name="error_archive_password_incorrect">Chybné heslo archivu.</string>
+    <string name="error_archive_cannot_extract">Nelze extrahovat položku archivu \"%s\" do \"%s\".</string>
+    <string name="drag_and_drop_preference">Vyberte předvolbu přetažení (experimentální)</string>
+    <string name="drag_to_move_copy">Dotykem a přetažením přesunete nebo zkopírujete soubory</string>
+    <string name="drag_to_select">Dotykem a přetažením vyberete soubory</string>
+    <string name="disable">Zakázat</string>
+    <string name="choose_operation">Vyberte operaci, kterou chcete provést</string>
+    <string name="remember">Pamatujte si pro příště</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Udělte SAF přístup pro FTP server</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Vzhledem k tomu, že toto je vaše první spuštění FTP serveru a používáte interní úložiště zařízení jako sdílenou složku, povolte Amaze přístup k úložišti pomocí SAF.\n\n
+
+Stačí to udělat jednou, dokud příště nevyberete nové umístění pro sdílení.</string>
+    <string name="android_data_prompt_saf_access">Od Androidu 10 uvalil Android omezení na určité adresáře a ty potřebují přístup pomocí Storage Access Framework.\n \nPovolte Amaze přístup k adresáři ze systémového správce souborů klepnutím na \"Povolit přístup\".</string>
+    <string name="android_data_prompt_saf_access_title">Udělit přístup SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Použít starší souborový systém</string>
+    <string name="ftp_preference_saf_filesystem">Povolit toto pro podporu používání externího úložiště zařízení na novějších verzích Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Sdílená cesta serveru FTP byla resetována na interní úložiště, protože přecházíte zpět na starší implementaci souborového systému. Podle potřeby vyberte novou cestu pomocí nabídky vpravo nahoře.</string>
+    <string name="ftp_server_reset_notify">Sdílená cesta serveru FTP byla resetována na interní úložiště</string>
+    <string name="ftp_server_root_unavailable">Vybíráte cestu, která vyžaduje přístup root. Pokud je vaše zařízení rootované, povolte v nastavení root explorer.</string>
+    <string name="ftp_server_root_filesystem_warning">Vybíráte cestu, která vyžaduje přístup root, což umožňuje operace čtení/zápisu v celém souborovém systému na vašem zařízení a je nebezpečná – neopatrné chyby by mohly vaše zařízení zničit!\n\nJste si jistý?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Chyba při otevírání URI \"%s\" pro čtení.</string>
+    <string name="error_empty_archive">\"%s\" je prázdný archiv.</string>
+    <string name="error_bad_archive_without_info">\"%s\" je poškozený archiv .</string>
+    <string name="error_bad_archive_with_info">\"%s\" je poškozený archiv.\nZpráva z extraktoru: \"%s\"</string>
+    <string name="security_error">Soubor pomocí této aplikace nelze otevřít</string>
+    <string name="cloud_drive_tooltip">Vytvořit připojení Google Drive™ pro správu souborů z aplikace Amaze File Manager.</string>
+    <string name="signin_with_google_title">Pro použití Disku Google™ se ověřte</string>
+    <string name="show_system_apps">Zobrazit systémové aplikace</string>
+    <string name="system_apps">Systémové aplikace</string>
+    <string name="select_inverse">Vybrat Inverzní</string>
+    <string name="select_by_type">Vybrat podle typu</string>
+    <string name="select_by_date">Vybrat podle data</string>
+    <string name="select_similar">Vybrat podobné</string>
+    <string name="error_fetching_google_play_product_list">Chyba při načítání seznamu produktů z Google Play.</string>
+    <string name="grant_all_files_permission">Od Androidu 11 Google žádá správce souborů, aby požádali uživatele o povolení ke správě všech souborů v zařízení. Podrobnosti zde.
+        \n\nAmaze File Manager potřebuje toto oprávnění také. Po stisknutí tlačítka "Udělit" zde vyberte možnost Povolit přístup ke správě všech souborů na další obrazovce.
+        \n\nZrušením tohoto dialogového okna aplikaci ukončíte.</string>
+    <string name="user_apps">Uživatelské aplikace</string>
+    <string name="appearance">Vzhled</string>
+    <string name="behavior">Chování</string>
+    <string name="appearance_summary">Přizpůsobte si motiv, barvy a vzhled správce souborů</string>
+    <string name="ui_summary">Ovládejte, jaké informace se mají zobrazovat, přizpůsobte postranní panel a přepínejte předvolby uživatelského rozhraní</string>
+    <string name="behavior_summary">Upravte chování, jako je pokročilé vyhledávání a zda otevírat soubory jako nový úkol</string>
+    <string name="security_summary">Nastavit heslo a šifrování</string>
+    <string name="backup_summary">Nastavení exportu/importu Amaze</string>
+
+    
+    <string name="pref_export_summary">Nastavení exportu</string>
+    
+    <string name="pref_import_summary">Nastavení importu</string>
+
+    <string name="quick_desc">Soubory nedávno přístupné přes Amaze</string>
+    <string name="recent_desc">Nedávno vytvořené nebo upravené soubory</string>
+    <string name="error_cannot_find_way_open">Nelze najít způsob, jak otevřít soubor</string>
+    <string name="error_cant_decompress_that_file">Nelze zpracovat požadovaný archiv</string>
+    <string name="analyse_storage">Analyzovat úložiště</string>
+    
+    <string name="download_amaze_utils_text">Jste přesměrováni na Amaze File Utilities. Je to naše aplikace s otevřeným zdrojovým kódem, která má vestavěné prohlížeče zvuku/videa/obrázků/dokumentů, umožňuje analyzovat nevyžádané soubory za účelem uvolnění úložiště, rychlý přenos pomocí Wifi P2P a mnoho dalšího.\nPodpořte nás prosím tím, že to vyzkoušíte.</string>
+    <string name="download">Stáhnout</string>
+    
+    <string name="amaze_utils_installed_alias">Děkujeme za instalaci Amaze File Utilities. Jste přesměrováni do aplikace.</string>
+    <string name="image_viewer">Prohlížeč obrázků Amaze</string>
+    <string name="video_player">Přehrávač videa Amaze</string>
+    
+    
+    
+    <string name="share_logs">Sdílet protokoly</string>
+    <string name="share_logs_summary">Sdílet zachycené protokoly prostřednictvím e-mailu / telegramu</string>
+    <string name="open_with_amaze">Otevřít pomocí Amaze</string>
+    <string name="confirmation">Potvrzení</string>
+    <string name="open_file_confirmation">Jste opravdu chcete otevřít následující soubor?\n\nNázev:\n%s\n\nUmístění:\n%s\n\nVelikost:\n%s\n\nMD5:\n%s\n\nSHA256:\ n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">V souladu se zásadami Google Play se aplikace nemohou samy aktualizovat. Aktualizujte aplikaci z Google Play.</string>
+    <string name="error_cannot_get_package_info">Nelze získat informace o balíčku ze souboru \"%s\". Buď zadaný soubor není APK, nebo je soubor balíčku poškozen.</string>
+    <string name="preference_delete_confirmation">Potvrzení smazání</string>
+    <string name="preference_delete_confirmation_summary">Před smazáním souborů požádejte o potvrzení. Toto zakázání důrazně nedoporučujeme!</string>
+    
+    
+    <string name="protocol_ftps">Zabezpečený FTP</string>
+    <string name="unavailable">Nedostupný</string>
+
+    <string name="exporting_failed">Export se nezdařil: nelze zapsat soubor zálohy</string>
+    <string name="importing_failed">Import se nezdařil: zálohu nelze přečíst soubor</string>
+    <string name="importing_completed">Import dokončen</string>
+    <string name="invalid_backup_file">Neplatný záložní soubor</string>
+    <string name="import_failed_for">Import se nezdařil pro:</string>
+    <string name="free_of">"%s\n%s bez %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin není podporován verzí F-Droid. Použijte prosím verzi Amaze z Obchodu Play.</string>
+    <string name="disable_player_intent_filters">Zakázat filtry záměru přehrávače</string>
+    <string name="disable_player_intent_filters_summary">Zakáže vestavěné přehrávače médií Amaze z nástroje pro výběr souborů</string>
+    <string name="no_app_found_intent">Nebyla nalezena žádná aplikace, která by zpracovala tento záměr. Máte nainstalované DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Přihlašovací údaje cloudového připojení byly vymazány</string>
+    <string name="cloud_connection_credentials_cleared_msg">Bohužel se nám nepodařilo migrovat vaše přihlašovací údaje ke cloudovému připojení do nového schématu databáze. k jejich odstranění z aplikace. Vytvořte prosím připojení ke cloudu znovu.</string>
+</resources>

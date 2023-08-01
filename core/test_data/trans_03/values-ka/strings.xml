@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze ფაილების მენეჯერი</string>
+    <string name="drawer_open">ნავიგაციის უჯრის გახსნა</string>
+    <string name="drawer_close">ნავიგაციის უჯრის დახურვა</string>
+    <string name="icon">ხატი</string>
+    <string name="apps">აპლიკაციის მენეჯერი</string>
+    <string name="ftp">FTP სერვერი</string>
+    <string name="setting">პარამეტრები</string>
+    <string name="select">აირჩიეთ ელემენტი</string>
+    <string name="press_again">დააჭირეთ ხელახლა გასასვლელად</string>
+    <string name="open">გახსნა</string>
+    <string name="backup">სარეზერვო</string>
+    <string name="uninstall">წაშლა</string>
+    
+    <string name="properties">თვისებები</string>
+    <string name="copyingapks">%d APK ფაილის კოპირება %s</string>
+    <string name="delbook">სანიშნის წაშლა</string>
+    <string name="add_to_bookmarks">სანიშნეებში დამატება</string>
+    <string name="enterpath">შეიყვანეთ გზა</string>
+    <string name="cancel">გაუქმება</string>
+    
+    <string name="loading">იტვირთება…</string>
+    <string name="file_empty">ფაილი ცარიელია</string>
+    <string name="error">შეცდომა</string>
+    <string name="search_results">%s-ის ძიების შედეგები</string>
+    <string name="rename">გადარქმევა</string>
+    <string name="save">შენახვა</string>
+    <string name="bookmarks_added">დამატებულია სანიშნეები</string>
+    <string name="fileexist">იგივე სახელის ფაილი უკვე არსებობს</string>
+    <string name="name">სახელი</string>
+    <string name="date">თარიღი</string>
+    <string name="location">მდებარეობა</string>
+    <string name="size_capitalized">ზომა</string>
+    <string name="size">საქაღალდის ზომა</string>
+    <string name="enterzipname">შეიყვანეთ საფოსტო სახელი</string>
+    <string name="no_app_found">ამ ფაილის გასახსნელად აპლიკაცია ვერ მოიძებნა</string>
+    <string name="copying">კოპირება</string>
+    <string name="moving">გადაადგილება</string>
+    <string name="file">ფაილი</string>
+    <string name="folder">საქაღალდე</string>
+    <string name="newfolder">ახალი საქაღალდე</string>
+    <string name="entername">შეიყვანეთ სახელი</string>
+    <string name="extracting">ამოღება</string>
+    <string name="stopping">შეჩერება</string>
+    <string name="open_parent">მშობლის დირექტორიის გახსნა</string>
+    <string name="open_with">გახსნა</string>
+    <string name="share">გაზიარებით</string>
+    <string name="about">შესახებ</string>
+    <string name="extract">ამონაწერი</string>
+    <string name="compress">შეკუმშვა</string>
+    <string name="yes">დიახ</string>
+    <string name="no">არა</string>
+    
+    <string name="dialog_delete_category_directories">დირექტორიები</string>
+    <string name="dialog_delete_category_files">ფაილები</string>
+    <string name="dialog_delete_disclaimer">ქვემოთ მოცემული ერთეულების წაშლა სამუდამოდ წაშლის მათ თქვენი მოწყობილობიდან და მათი აღდგენა შეუძლებელია.</string>
+    <string name="dialog_delete_title">წაშალოთ ელემენტები სამუდამოდ?</string>
+    <string name="deleting">წაშლა</string>
+    <string name="question_set_path_as_home">გსურთ დააყენოთ მიმდინარე გზა ამ ჩანართისთვის?</string>
+    <string name="directorysort">დირექტორიული დალაგების რეჟიმი</string>
+    <string name="sort_by">დახარისხება</string>
+    <string name="sort_only_this">მხოლოდ ამ საქაღალდე</string>
+    <string name="theme">თემა</string>
+    <string name="random">შემთხვევითი კანი</string>
+    <string name="random_summary">ადგენს შემთხვევით ძირითად ფერს გაშვებისას</string>
+    <string name="colorize">ხატულის გაფერადება</string>
+    <string name="colorize_summary">აყენებს სტატიკური ხატულას ფერს. არ უგულებელყოფს დირექტორიაში ხატულის ფერის უპირატესობებს.</string>
+    <string name="home">მთავარი</string>
+    <string name="paste">ჩასმა</string>
+    <string name="history">ისტორია</string>
+    <string name="copy">კოპირება</string>
+    
+    <string name="root_mode_summary">მხოლოდ ძირეული მოწყობილობისთვის. შეამოწმეთ მხოლოდ თუ დარწმუნებული ხართ ამაში.</string>
+    <string name="root_failure">Root Access არ არის მინიჭებული</string>
+    <string name="select_all">აირჩიეთ ყველა</string>
+    <string name="delete">წაშლა</string>
+    <string name="set_as_home">დაყენება როგორც მთავარი</string>
+    <string name="operation_not_supported">ოპერაცია არ არის მხარდაჭერილი</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">მასალა მსუბუქი</string>
+    <string name="dark">მასალა მუქი</string>
+    <string name="daytime">დღისით</string>
+    <string name="black">შავი (OLED-ისთვის)</string>
+    <string name="system">სისტემა (მიჰყევით სისტემის თემას)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">საქაღალდეები ზემოთ</string>
+    <string name="filesOnTop">ფაილები ზემოთ</string>
+    <string name="none_on_top">არცერთი ზემოთ</string>
+    <!--SortBy-->
+    <string name="sort_name">სახელი</string>
+    <string name="lastModified">ბოლო შეცვლილი</string>
+    <string name="sort_size">ზომა</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">აირჩიე ფაილი</string>
+    <string name="process_viewer">პროცესის მაყურებელი</string>
+    <string name="in_safe">არასაკმარისი სივრცე</string>
+    <string name="no_file_overwrite">ფაილი არ არის გადაწერილი</string>
+    <string name="skip">გამოტოვება</string>
+    <string name="overwrite">გადაწერა</string>
+    <string name="not_allowed">არ არის დაშვებული</string>
+    <string name="searching">%s ძიება</string>
+    <string name="done">დასრულებულია</string>
+    <string name="set">დაყენება</string>
+    <string name="enablerootmde">ჩართვა Root Mode</string>
+    <string name="goback">უკან დაბრუნება</string>
+    <string name="newfile">ახალი ფაილი</string>
+    <string name="no_files">ფაილები არ არის</string>
+    <string name="used">გამოყენებული სივრცე</string>
+    <string name="used_by_others">გამოიყენა სხვები</string>
+    <string name="free">თავისუფალი სივრცე</string>
+    <string name="listview">სიის ხედი</string>
+    <string name="gridview">ბადის ხედი</string>
+    <string name="permission">ნებართვები</string>
+    <string name="hide">დამალვა</string>
+    <string name="exit">გამოსვლა</string>
+    <string name="doforall">გააკეთეთ ყველა ელემენტი</string>
+    <string name="gridcolumnno">სვეტების რაოდენობა ბადის ხედში</string>
+    <string name="set_random">ცვლილებები განხორციელდება აპის გადატვირთვის შემდეგ</string>
+    
+    
+    
+    <string name="ui">ინტერფეისი</string>
+    <string name="general">ზოგადი</string>
+    <string name="thumb_summary">აპლიკაციების და სურათების ესკიზების ჩვენება</string>
+    <string name="thumb">მინიატურების ჩვენება</string>
+    <string name="hidden">დამალული ფაილების და საქაღალდეების ჩვენება</string>
+    <string name="lastModifiedSummary">ბოლო ცვლილების თარიღისა და დროის ჩვენება</string>
+    <string name="lastModifiedPref">ბოლო ცვლილების თარიღისა და დროის ჩვენება</string>
+    <string name="size_pref_summary">აჩვენეთ ფაილების ზომა და რაოდენობა ელემენტი საქაღალდეებში</string>
+    <string name="size_pref">ზომების ჩვენება</string>
+    <string name="miscellaneous">სხვადასხვა</string>
+    <string name="root_pref_summary">ფაილების და საქაღალდეების ნებართვების ჩვენება</string>
+    <string name="root_pref">ნებართვების ჩვენება</string>
+    <string name="about_amaze_file_manager_label">Amaze1 File Manager-ის შესახებ</string>
+    <string name="version">ვერსია</string>
+    <string name="rate">აპლიკაციის შეფასება</string>
+    <string name="feedback">გამოხმაურების გაგზავნა</string>
+    <string name="hiddenfiles">დამალული ფაილები</string>
+    <string name="type">ტიპი</string>
+    <string name="root_directory">ძირეული</string>
+    <string name="add_shortcut">მალსახმობის დამატება</string>
+    <string name="unsaved_changes">შეუნახავი ცვლილებები</string>
+    <string name="unsaved_changes_description">თქვენ გაქვთ შენახული ცვლილებები, გსურთ მათი შენახვა გასვლამდე?</string>
+    <string name="saving">შენახვა</string>
+    <string name="package_installer">პაკეტის ინსტალერი</string>
+    <string name="view">ნახვა</string>
+    <string name="install">ინსტალაცია</string>
+    <string name="archive">არქივი</string>
+    <string name="archive_text">ეს არის არქივი. რა მოქმედების შესრულება გსურთ?</string>
+    <string name="package_installer_text">ეს არის პაკეტის ინსტალერი. რა მოქმედების შესრულება გსურთ?</string>
+    <string name="xda_title">XDA თემა</string>
+    <string name="xda_summary">კითხვა და პასუხი, დახმარება და პრობლემების მოგვარება</string>
+    <string name="circular_images">გამოიყენეთ წრიული ხატები სურათებისთვის და ვიდეოებისთვის</string>
+    <string name="circular_icons">გამოიყენეთ წრიული ხატები</string>
+    <string name="back_title">უკან ნავიგაცია</string>
+    <string name="back_summary">ჩართავს მორგებულ უკან ნავიგაციას სიის ზედა ნაწილში</string>
+    <string name="details">დეტალები</string>
+    
+    <string name="german_translation_title">გერმანული</string>
+    <string name="italian_translation_title">იტალიური</string>
+    <string name="french_translation_title">ფრანგული</string>
+    <string name="russian_translation_title">რუსული</string>
+    <string name="spanish_translation_title">ესპანური</string>
+    <string name="basque_translation_title">ბასკური</string>
+    <string name="chinese_translation_title">ჩინური</string>
+    <string name="serbian_translation_title">სერბული</string>
+    <string name="turkish_translation_title">თურქული</string>
+    <string name="ukrainian_translation_title">უკრაინული</string>
+    <string name="portuguese_translation_title">პორტუგალიური</string>
+    <string name="polish_translation_title">პოლონური</string>
+    <string name="korean_translation_title">კორეული</string>
+    <string name="greek_translation_title">ბერძნული</string>
+    <string name="dutch_translation_title"/>
+    <string name="romanian_translation_title">რუმინული</string>
+    <string name="vietnamese_translation_title">ვიეტნამური</string>
+    <string name="japanese_translation_title">იაპონური</string>
+    <string name="tamil_translation_title">ტამილური</string>
+
+    
+    <string name="unin_system_apk">ეს არის სისტემის აპი, რომლის წაშლა შეიძლება გამოიწვიოს სისტემის un-სტაბილურობისთვის.\nგაგრძელება?</string>
+    <string name="warning">გაფრთხილება</string>
+    <string name="donate">შეწირულობა</string>
+    <string name="archive_extract_folder">არქივის ამონაწერის საქაღალდე</string>
+    <string name="archive_summary">არქივის ფაილები ამოღებულ იქნება ამ საქაღალდეში. ნაგულისხმევი მნიშვნელობა არის დირექტორია, რომელშიც არის არქივი.</string>
+    <string name="open_as">გახსენით როგორც</string>
+    <string name="text">ტექსტი</string>
+    <string name="audio">აუდიო</string>
+    <string name="video">ვიდეო</string>
+    <string name="other">სხვა</string>
+    <string name="image">სურათი</string>
+    <string name="contributors">კონტრიბუტორები</string>
+    <string name="save_paths">დაიმახსოვრე ბილიკები</string>
+    <string name="save_path_summary">დატვირთვისას გამოჩნდება ბოლო ნახული საქაღალდე თითოეული ჩანართისთვის</string>
+    <string name="select_intent">აირჩიეთ</string>
+    <string name="database">მონაცემთა ბაზა</string>
+    <string name="colored_navigation">ფერადი ნავიგაციის ზოლი</string>
+    <string name="colored_navigvation_sum">სისტემის ნავიგაციის ზოლი შეღებილია თუ არა კანთან</string>
+
+    <string name="color_title">ფერი</string>
+    <string name="color_summary">დააყენეთ ფერი სხვადასხვა UI კომპონენტზე</string>
+    <string name="primary_color_title">ძირითადი ფერი (მარცხენა ჩანართი)</string>
+    <string name="primary_color_summary">დაყენება ფერი დიდ ინტერფეისის ელემენტებზე მარცხენა ჩანართისთვის</string>
+    <string name="accent_color_title">აქცენტი ფერი</string>
+    <string name="accent_color_summary">დააყენეთ ფერი FAB-ზე და სხვა მცირე ინტერფეისის ელემენტებზე</string>
+    <string name="icon_color_title">Icon ფერი</string>
+    <string name="icon_color_summary">დააყენეთ ფერი ხატებზე</string>
+    <string name="choose_color">აირჩიეთ ფერი</string>
+    <string name="files">ფაილები</string>
+    <string name="textreader">ტექსტის წამკითხველი</string>
+    <string name="databasereader">მონაცემთა ბაზის წამკითხველი</string>
+    <string name="show_dividers">გამყოფების ჩვენება</string>
+    <string name="needs_access">საჭიროა ჩაწერის წვდომა</string>
+    <string name="needs_access_summary">გთხოვთ, აირჩიოთ ძირეული დირექტორია \t</string>
+    <string name="needs_access_summary1">\t, რომ მიანიჭოთ ჩაწერის წვდომა მუშაობისთვის</string>
+    <string name="smb_connection">SMB კავშირი</string>
+    <string name="smb_server">სერვერის IP მისამართი</string>
+    <string name="server_address">სერვერის IP მისამართი</string>
+    <string name="username">მომხმარებლის სახელი</string>
+    <string name="password">პაროლი</string>
+    <string name="anonymous">ანონიმური</string>
+    
+    <string name="folders">საქაღალდეები</string>
+    <string name="folderfilecount">%1$d საქაღალდე და %2$d ფაილი</string>
+    <string name="videos">ვიდეოები</string>
+    <string name="apks">APK-ები</string>
+    <string name="documents">დოკუმენტები</string>
+    <string name="images">სურათები</string>
+    <string name="clear">გასუფთავება</string>
+    
+    <string name="total">სულ:</string>
+    <string name="calculating">გამოთვლა</string>
+    <string name="sort">დალაგება</string>
+    <string name="ascending">აღმავალი</string>
+    <string name="descending">კლებად</string>
+    <string name="default_string">ნაგულისხმევი</string>
+    <string name="doit">გააკეთე</string>
+    <string name="want_help">დახმარება გჭირდებათ?</string>
+    <string name="quick">სწრაფი წვდომა</string>
+    <string name="recent">ბოლოდროინდელი ფაილები</string>
+    <string name="edit">რედაქტირება</string>
+    <string name="find">იპოვეთ გვერდზე</string>
+    
+    <string name="grantper">ნებართვის გაცემა</string>
+    <string name="grantfailed">ნებართვა არ არის მინიჭებული</string>
+    <string name="grant_storage_permission">აპს სჭირდება შენახვის ნებართვა გასაგრძელებლად. ამ დიალოგის გაუქმებით გამოვა აპი.</string>
+    <string name="operation_unsuccesful">ოპერაცია წარუმატებელი</string>
+    <string name="creatingfile">ფაილის შექმნა</string>
+    <string name="creatingfolder">საქაღალდის შექმნა</string>
+    <string name="renaming">სახელების გადარქმევა</string>
+    <string name="cant_be_empty">%s არ შეიძლება იყოს ცარიელი</string>
+    <string name="ip">მისამართი</string>
+    <string name="connection_name">კავშირის სახელი</string>
+    <string name="no_device_found">მოწყობილობები ვერ მოიძებნა</string>
+    <string name="path">გზა</string>
+    <string name="rename_bookmark">სანიშნეის შეცვლა</string>
+    <string name="cut">გაჭრა</string>
+    <string name="search">ძებნა</string>
+    <string name="invalid_name">არასწორი სახელი</string>
+    <string name="search_hint">აკრიფეთ საძიებლად…</string>
+    <string name="advanced_search">დამატებითი ძიება</string>
+    <string name="regular_expression">რეგულარული გამოხატულება</string>
+    <string name="regular_expression_summary">მოძებნეთ BASH სტილის რეგულარული გამოხატვის გამოყენებით</string>
+    <string name="match_content">შეესაბამება კონტენტი</string>
+    <string name="match_content_summary">თუ დაყენებულია, რეგულარული გამოხატულება დაემთხვევა ფაილის მთელ სახელს,
+        სხვაგვარად დაეძებს შემთხვევას.</string>
+    <string name="start_ftp">დაწყება</string>
+    <string name="stop_ftp">შეჩერება</string>
+    <string name="ftp_status_running">გაშვება</string>
+    <string name="ftp_status_not_running">არ მუშაობს</string>
+    <string name="ftp_no_wifi">დარწმუნდით, რომ დაკავშირებული ხართ Wi-სთან -Fi</string>
+    <string name="domain">დომენი</string>
+    <string name="smb_share">გაზიარების გზა</string>
+    <string name="invalid">არასწორი %s</string>
+    <string name="ftp_notif_starting">FTP სერვერი იწყება</string>
+    <string name="ftp_notif_starting_title">FTP სერვერი</string>
+    <string name="ftp_notif_title">Amaze FTP სერვერი მუშაობს</string>
+    <string name="ftp_notif_text">%s-ზე</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP პორტი</string>
+    <string name="ftp_port_change_success">FTP პორტი წარმატებით შეიცვალა</string>
+    <string name="ftp_port_change_error_invalid">არჩეულია არასწორი პორტის ნომერი</string>
+    <string name="primary_two_title">ძირითადი ფერი (მარჯვენა ჩანართი)</string>
+    <string name="primary_two_summary">დააყენეთ ფერი დიდ ინტერფეისის ელემენტებზე მარჯვენა ჩანართისთვის</string>
+    <string name="support_development">შემუშავების მხარდაჭერა</string>
+    <string name="report_bugs_title">შეტყობინებები შეცდომების შესახებ</string>
+    <string name="source_title">წყარო კოდი</string>
+    <string name="source_summary">იხილეთ ჩვენი წყაროს კოდი GitHub-ზე</string>
+    <string name="report_bugs_summary">შეატყობინეთ შეცდომების შესახებ ან მოითხოვეთ ახალი ფუნქცია</string>
+    <string name="translate_title">თარგმნა</string>
+    <string name="translate_summary">თარგმნეთ Amaze თქვენს ენაზე</string>
+    <string name="paypal_copy_message">PayPal ID კოპირებულია ბუფერში</string>
+    <string name="searching_devices">მოწყობილობების ძიება</string>
+    <string name="use_custom_ip">გამოიყენეთ მორგებული IP</string>
+    <string name="bookmark_lost">სანიშნე ვერ მოიძებნა, ხელახლა შექმნა…</string>
+
+    <string name="smb_instructions">
+        
+            
+                როგორ შეხვიდეთ გაზიარებულ Windows საქაღალდეზე Android-ზე (SMB)\n\n
+                
+                    
+                        ჩართეთ ფაილების გაზიარება Windows-ზე\n
+                    
+                    
+                        გახსენით საკონტროლო პანელი, დააწკაპუნეთ არჩევა HomeGroup და გაზიარების პარამეტრები ქსელში
+                        და ინტერნეტი და დააწკაპუნეთ „გაზიარების გაფართოებული პარამეტრების შეცვლა“, ჩართეთ „ფაილი და
+                        პრინტერის გაზიარების" ფუნქცია.\n\n
+                    
+
+                    
+                        ფაილის გაზიარების დამატებითი პარამეტრები\n
+                    
+                    
+                        შეიძლება ასევე გინდოდეთ გაზიარების სხვა გაფართოებული პარამეტრების კონფიგურაცია. \n
+                        მაგალითად, შეგიძლიათ ჩართოთ თქვენს ფაილებზე წვდომა პაროლის გარეშე, თუ ყველას ენდობით
+                        მოწყობილობები თქვენს ლოკალურ ქსელში. ფაილისა და პრინტერის გაზიარების ჩართვის შემდეგ, შეგიძლიათ
+                        გახსენით File Explorer ან Windows Explorer, დააწკაპუნეთ მარჯვენა ღილაკით საქაღალდეზე, რომლის გაზიარებაც გსურთ და
+                        აირჩიეთ თვისებები. \n
+                        დააწკაპუნეთ გაზიარების ღილაკზე და გახადეთ საქაღალდე ხელმისაწვდომი ქსელში.\n\n
+                        
+
+                    
+                        დარწმუნდით, რომ ორივე მოწყობილობა ერთსა და იმავე Wifi-ზეა\n
+                    
+                    
+                        ეს ფუნქცია ფაილებს ხელმისაწვდომი ხდის ლოკალურ ქსელში, ასე რომ, თქვენი კომპიუტერი და მობილური მოწყობილობები
+                        უნდა იყოს იმავე ლოკალურ ქსელში. თქვენ ვერ შეხვალთ გაზიარებულ Windows საქაღალდეზე
+                        ინტერნეტით ან როცა თქვენი სმარტფონი დაკავშირებულია მის მობილურ მონაცემებთან — ის
+                        უნდა იყოს დაკავშირებული Wi-Fi-თან.\n\n
+                    
+
+                    
+                        იპოვეთ IP მისამართი\n
+                    
+                    
+                        გახსენით Command Prompt. ჩაწერეთ \'ipconfig\' და დააჭირეთ Enter. მოძებნეთ ნაგულისხმევი კარიბჭე
+                        თქვენი ქსელის ადაპტერის ქვეშ თქვენი როუტერის IP მისამართისთვის. Ვეძებოთ
+                        \\\"IPv4 მისამართი\\\" იმავე ადაპტერის განყოფილებაში თქვენი კომპიუტერის IP-ის საპოვნელად
+                        მისამართი.\n\n
+                    
+
+                    შეიყვანეთ დეტალები SMB დიალოგურ ფანჯარაში\n
+                
+            
+        
+   </string>
+    <string name="share_limit">100-ზე მეტი ფაილის გაზიარება შეუძლებელია</string>
+    <string name="otg_access">აირჩიეთ OTG მოწყობილობის ძირი</string>
+    <string name="information">ინფორმაცია</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">წვდომა</string>
+    <!-- reference to file modified date -->
+    <string name="modified">შეცვლილია</string>
+
+    <string name="title">სათაური</string>
+    <string name="artist">მხატვარი</string>
+    <string name="album">ალბომი</string>
+    <string name="year">წელი</string>
+    <string name="duration">ხანგრძლივობა</string>
+    <string name="comment">კომენტარი</string>
+    <!-- reference to audio/video file -->
+    <string name="container">კონტეინერი</string>
+    <string name="codec">კოდეკი</string>
+    <string name="channels">არხები</string>
+    <string name="sample_rate">ნიმუშების სიხშირე</string>
+    <string name="bitrate">ბიტის სიხშირე</string>
+    <string name="dimensions">განზომილებები</string>
+    <string name="frame_rate">კადრის სიხშირე</string>
+    <string name="image_type"/>
+    <string name="width">სიგანე</string>
+    <string name="height">სიმაღლე</string>
+    <string name="date_modified">შეცვლის თარიღი</string>
+    <string name="software">პროგრამული უზრუნველყოფა</string>
+    <string name="creator">შემქმნელი</string>
+    <string name="camera_brand">კამერის ბრენდი</string>
+    <string name="camera_model">Cam მოდელი</string>
+    <string name="date_taken">გადაღების თარიღი</string>
+    <string name="exposure_time">ექსპოზიციის დრო</string>
+    <string name="aperture_value">დიაფრაგმის მნიშვნელობა</string>
+    <string name="image_iso">ISO სიჩქარის რეიტინგი</string>
+    <string name="flash_fired">Flash გასროლა</string>
+    <string name="focal_length">ფოკალური სიგრძე</string>
+    <string name="subject">თემა</string>
+    <string name="author">ავტორი</string>
+    <string name="keywords">საკვანძო სიტყვები</string>
+    <string name="producer">პროდიუსერი</string>
+    <string name="created">შექმნა</string>
+    <string name="format">ფორმატი</string>
+    <string name="pages">Num გვერდები</string>
+    <!-- reference to a document file -->
+    <string name="optimized">ოპტიმიზებული</string>
+    <string name="security">უსაფრთხოება</string>
+    <string name="paper_size">ქაღალდის ზომა</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">ზოგიერთი ფაილი წარმატებით ვერ მოხერხდა %s</string>
+    <string name="copied">კოპირებული</string>
+    <string name="moved">გადატანილია</string>
+    <string name="copy_complete">კოპირება დასრულდა</string>
+    <string name="waiting_title">ელოდება</string>
+    <string name="waiting_content">ოპერაციის დასრულებას ელოდება</string>
+    <string name="extract_complete">მოპოვება დასრულდა</string>
+    <string name="compression_complete">შეკუმშვა დასრულდა</string>
+    <string name="compressing">შეკუმშვა</string>
+    <string name="cancelled">გაუქმდა</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">ჩაწერილია</string>
+    <string name="out_of">გამოდის</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of"/>
+    <string name="processing_file">დამუშავების ფაილიდან</string>
+    <string name="current_speed">მიმდინარე სიჩქარე</string>
+    <string name="smb_launch_error">თქვენ დაგჭირდებათ ამ ფაილის საცავში კოპირება მის გასახსნელად</string>
+    <string name="error_file_not_found">შეცდომა: ფაილი ვერ მოიძებნა</string>
+    <string name="error_io">I/O შეცდომა</string>
+    <string name="error_file_too_large">შეცდომა: ფაილი ძალიან დიდია</string>
+    <string name="medium_text">საშუალო ტექსტი</string>
+    <string name="permission_read">წაკითხვა</string>
+    <string name="permission_write">ჩაწერა</string>
+    <string name="permission_execute">შესრულება</string>
+    <string name="permission_owner">მფლობელი</string>
+    <string name="permission_group">ჯგუფი</string>
+    <string name="permission_other">სხვა</string>
+    <string name="clipboard_path_copy">გზა კოპირებულია ბუფერში</string>
+    <string name="service_timer">გასული დრო</string>
+    <string name="please_wait">გთხოვთ მოითმინოთ</string>
+
+    
+    <string name="cloud_connection_new">ახალი Cloud Connection</string>
+    
+    
+    
+    
+    <string name="cloud_get">Cloud მოდულის მიღება</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">აპლიკაციები არ არის</string>
+    <string name="ftp_path">გაზიარებული გზა</string>
+    <string name="ftp_path_hint">გზა გასაზიარებლად დირექტორიის ძირში</string>
+    <string name="change">შეცვლა</string>
+    <string name="unknown_error">ოჰ, რაღაც შეფერხდა!</string>
+
+    <string name="ftp_path_change_success">FTP გზა წარმატებით შეიცვალა</string>
+    <string name="ftp_path_change_error_invalid">არასწორი გზა</string>
+    <string name="ftp_status_no_connection">კავშირი არ არის</string>
+    <string name="ftp_status_secure_connection">უსაფრთხო კავშირი</string>
+    <string name="ftp_status_title">სტატუსი</string>
+    <string name="ftp_port">პორტი</string>
+    <string name="ftp_login">შესვლა</string>
+    <string name="field_empty">ველი არ შეიძლება იყოს ცარიელი</string>
+    <string name="ftp_timeout">უმოქმედობის დრო</string>
+    <string name="ftp_seconds">წამები</string>
+    <string name="intellihide_toolbar_title">Intellihide </string>
+    <string name="intellihide_toolbar_summary">ავტომატური დამალვა ინსტრუმენტთა ზოლის გადახვევისას</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">კოპირებულია c-ზე </string>
+    <string name="contributors_1_summary">თარგმანი</string>
+    <string name="contributors_2_summary">ხატი და ბანერები</string>
+    <string name="contributors_3_summary">თემის ძრავა</string>
+    <string name="contributors_4_summary">ჩრდილი FAB-ს უკან</string>
+    <string name="contributors_5_summary">ფერების გადასვლა ჩანართების გადაფურვისას</string>
+    <string name="contributors_6_summary">FTP სერვერი</string>
+    <string name="contributors_7_summary">ინტერაქტიული გარსის გააქტიურება</string>
+    <string name="connection_exists">კავშირი უკვე არსებობს</string>
+
+    <string name="crypt_encrypting">დაშიფვრა</string>
+    <string name="crypt_decrypting">გაშიფვრა</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">დაშიფრული</string>
+    <string name="crypt_decrypted">გაშიფრულია</string>
+    <string name="crypt_encrypt">დაშიფვრა</string>
+    <string name="crypt_decrypt">გაშიფვრა</string>
+    <string name="operation_fail_following">ოპერაცია ვერ მოხერხდა შემდეგი ფაილებისთვის</string>
+    <string name="crypt_pref_master_password_title">ძირითადი პაროლი</string>
+    <string name="crypt_pref_master_password_summary">დააყენეთ ძირითადი პაროლი დაშიფვრისთვის.
+        დატოვეთ ცარიელი წასაშლელად.</string>
+    <string name="crypt_pref_fingerprint_title">თითის ანაბეჭდი</string>
+    <string name="crypt_pref_fingerprint_summary">თითის ანაბეჭდის გამოყენება დაშიფვრის ავთენტიფიკაციისთვის</string>
+    <string name="crypt_fingerprint_no_permission">თითის ანაბეჭდის ნებართვები აკლია</string>
+    <string name="crypt_fingerprint_not_enrolled">თითის ანაბეჭდი არ არის რეგისტრირებული</string>
+    <string name="crypt_fingerprint_no_security">დაბლოკვის ეკრანი არ არის ნაპოვნია</string>
+    <string name="crypt_warning_key">გაეცანით, როცა შეცვლით უსაფრთხოების შაბლონს
+        სისტემის პარამეტრები, თქვენ ვერ შეძლებთ ამ კონტენტის გაშიფვრას.</string>
+    <string name="warning_never_show">აღარ შეატყობინოთ</string>
+    <string name="warning_confirm">გავიგე!</string>
+    <string name="crypt_encryption_fail">დაშიფვრა ვერ მოხერხდა</string>
+    <string name="crypt_decryption_fail">ვერ მოხერხდა გაშიფვრა</string>
+    <string name="crypt_decryption_fail_password">არასწორი პაროლი!</string>
+    <string name="crypt_fingerprint_authenticate">გაგრძელებისთვის შეეხეთ სენსორს</string>
+    <string name="authenticate_password">შეიყვანეთ პაროლი</string>
+
+    <string name="sidebar_preferences">გვერდითი ზოლი</string>
+    <string name="sidebar_quick_access_title">გვერდითა ზოლის სწრაფი წვდომა</string>
+    <string name="show_quick_access_pref_title">სწრაფი წვდომების ჩვენება</string>
+    <string name="show_quick_access_pref">სწრაფი წვდომა</string>
+    <string name="directory">დირექტორია</string>
+
+    <string name="sidebar_bookmarks_title">გვერდითი ზოლის სანიშნეები</string>
+    <string name="show_bookmarks_pref_title">სანიშნეების ჩვენება</string>
+    <string name="show_bookmarks_pref">სანიშნეები</string>
+    <string name="create_bookmark">შექმენით სანიშნე</string>
+    <string name="edit_bookmark">სანიშნეის რედაქტირება</string>
+    <string name="question_delete_bookmark">წაშალოთ სანიშნე?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud მოდული ვერ მოიძებნა. გთხოვთ, ჩამოტვირთოთ Play Store-დან.</string>
+    <string name="cloud_error_failed_restart">კავშირის ჩატვირთვა ვერ მოხერხდა.
+        გთხოვთ, ერთხელ გახსენით Amaze Cloud.</string>
+    <string name="cloud_remove">გსურთ ღრუბლოვანი კავშირის წაშლა?</string>
+    <string name="cloud_fail_authenticate">ვერ მოხერხდა ავტორიზაცია</string>
+    <string name="cloud_share_copied">გაზიარებადი ბმული დაკოპირდა ბუფერში</string>
+    <string name="copy_low_memory">იწურება მეხსიერება, გთხოვთ გაასუფთაოთ ოპერატიული მეხსიერება</string>
+    <string name="cloud_token_lost">დაკარგული ჟეტონი, გთხოვთ შეხვიდეთ ხელახლა</string>
+    <string name="monofont">Monospace ფონტი</string>
+    <string name="showHeaders">აჩვენეთ სათაურები</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">ერთეულები არ არის</string>
+	<string name="item">ელემენტი</string>
+	<string name="items">ერთები</string>
+	
+	<string name="byte_singular">ბაიტი</string>
+	<string name="bytes">ბაიტი</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">ფაილს უნდა ჰქონდეს სახელი</string>
+    <string name="add_item">ელემენტის დამატება</string>
+    <string name="failed_smb_decrypt_path">ჩაიტვირთა ვერ მოხერხდა SMB კავშირი</string>
+    <string name="failed_cloud_new_connection">ვერ დაემატა ახალი ღრუბლოვანი კავშირი</string>
+    <string name="failed_cloud_api_key">ვერ მოხერხდა Cloud დანამატის ავთენტიფიკაცია</string>
+
+    <string name="local_inet_addr_error">შეცდომა ლოკალური ინეტის მისამართის მიღებაში</string>
+    <string name="intent_save_as">შენახვა როგორც…</string>
+    <string name="go">გადადით</string>
+    <string name="advanced">გაფართოებული</string>
+    <string name="typeable_paths_title">მორგებული ბილიკები</string>
+    <string name="typeable_paths_summary">დააჭირეთ დიდხანს ბილიკების ზოლს მორგებული ბილიკის ასაღებად</string>
+    <string name="send_email_to">ელ.ფოსტის გაგზავნა</string>
+
+    <string name="text_editor">ტექსტური რედაქტორის პარამეტრები</string>
+    <string name="preference_newstack_title">ფაილების გახსნა, როგორც ახალი დავალება</string>
+    <string name="preference_newstack_summary">საშუალებას გაძლევთ გახსნათ ფაილები ცალკეულ ამოცანებში. მათზე წვდომა სისტემის უახლესი ეკრანიდან.</string>
+    
+    <string name="developers">დეველოპერები</string>
+    <string name="no_bitcoin_app">გთხოვთ დააინსტალიროთ Bitcoin Wallet აპი</string>
+    <string name="channel_name_normal">Amaze შეტყობინებები</string>
+    <string name="channel_description_normal">Amaze ფაილ მენეჯერის შეტყობინებები</string>
+    <string name="channel_name_ftp">Amaze FTP სერვერი</string>
+    <string name="channel_description_ftp">Amaze ფაილი მენეჯერის FTP სერვერის შეტყობინებები</string>
+
+    
+    <string name="processing">დამუშავება…</string>
+    <string name="failed_no_connection">ფაილების ჩატვირთვა ვერ მოხერხდა. გთხოვთ, შეამოწმოთ თქვენი კავშირი.</string>
+
+    <string name="update">განახლება</string>
+	<string name="scp_connection">SCP/SFTP კავშირი</string>
+    <string name="ftp_connection">FTP კავშირი</string>
+    <string name="ftps_connection">FTP SSL კავშირით</string>
+    <string name="scp_port">პორტი</string>
+    <string name="ssh_host_key_verification_prompt">ჰოსტის \'%1$s\' ავთენტურობის დადგენა შეუძლებელია.\n\n%2$s გასაღების თითის ანაბეჭდია %3$s.\n\nგთხოვთ, შეეხეთ \"დიახ\" იდენტურობის დასადასტურებლად; წინააღმდეგ შემთხვევაში, გთხოვთ, შეეხეთ \"არა\".</string>
+    <string name="ssh_host_key_verification_prompt_title">დაამოწმეთ ჰოსტი</string>
+    <string name="ssh_select_pem_button">SSH პირადი გასაღები</string>
+    <string name="ssh_pem_key_parse_error">შეუძლებელია არჩეული PEM წაკითხვა: %s</string>
+    <string name="password_unchanged">(უცვლელი)</string>
+    <string name="ssh_authentication_failure_password">შესვლის შეცდომა: შეუძლებელია ავტორიზაცია მოწოდებული მომხმარებლის სახელით და პაროლით.</string>
+    <string name="ssh_authentication_failure_key">შესვლის წარუმატებლობა: შეუძლებელია მოწოდებული მომხმარებლის სახელით და პირადი გასაღებით ავტორიზაცია.</string>
+    <string name="ssh_connect_failed">%1$s-თან დაკავშირება შეუძლებელია:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">გაფრთხილება: დისტანციური მასპინძლის იდენტიფიკაცია შეიცვალა!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">შესაძლებელია, რომ ვიღაც რაღაც საზიზღარს აკეთებს!\n\nვინმე შეიძლება იყოს თქვენზე ახლავე (კაცი-შუა შეტევა)! ასევე შესაძლებელია, რომ მასპინძლის გასაღები ახლახან შეიცვალა. დისტანციური ჰოსტის მიერ გაგზავნილი საჯარო გასაღების თითის ანაბეჭდი არ ემთხვევა Amaze-ში შენახულს.\n\nგთხოვთ, დაუკავშირდეთ თქვენი სისტემის ადმინისტრატორს ან დააყენოთ ახალი კავშირი სერვერთან დაკავშირების გასაგრძელებლად.</string>
+    <string name="ssh_key_prompt_passphrase">გთხოვთ, შეიყვანოთ გასაღების საიდუმლო ფრაზა. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">მალსახმების შექმნა არ არის მხარდაჭერილი თქვენი გამშვების მიერ.</string>
+    
+    <string name="select_color_config">აირჩიეთ ფერის კონფიგურაცია</string>
+    <string name="customize">მორგება</string>
+    <string name="custom">მორგებული</string>
+    <string name="preselected_configs_title">წინასწარ შერჩეული კონფიგურაციები</string>
+    <string name="orange">ნარინჯისფერი</string>
+    <string name="blue">ლურჯი</string>
+    <string name="green">მწვანე</string>
+    <string name="password_no_match">პაროლი არ ემთხვევა</string>
+    <string name="deselect_all">ყველას მონიშვნის გაუქმება</string>
+    <string name="filename">ფაილის სახელი</string>
+    <string name="compress_file_suggest_zip_extension">რეკომენდებულია გამოიყენოთ \".zip\" როგორც ფაილის გაფართოება.</string>
+    <string name="about_amaze">მატერიალური დიზაინის ფაილების მენეჯერი Android-ისთვის</string>
+    <string name="license">ლიცენზია</string>
+    <string name="libraries">ბიბლიოთეკები</string>
+    <string name="password_repeat">პაროლის გამეორება</string>
+    <string name="create_file_suggest_txt_extension">რეკომენდებულია გამოიყენოთ \".txt\" ფაილის გაფართოებად.</string>
+    <string name="ssh_select_pem">აირჩიეთ პირადი გასაღები ავთენტიფიკაციისთვის</string>
+    <string name="ssh_key_invalid_passphrase">გასაღების არასწორი ფრაზა.</string>
+    <string name="ssh_key_no_decoder_decrypt">არ არის სწორი დეკოდერი PEM-ის გასაშიფრად.</string>
+    <string name="encryption_fail_copy">დაშიფვრის ჩანაწერის განახლება მონაცემთა ბაზაში ვერ მოხერხდა</string>
+    <string name="extracted">ამოღებული</string>
+    <string name="compressed">შეკუმშული</string>
+    <string name="processed">დამუშავებული</string>
+    <string name="no_obtainable_info">ამ ფაილის შესახებ ინფორმაცია არ არის</string>
+    <string name="reopen_from_source">არ შეიძლება, გთხოვთ ხელახლა გახსნათ ბოლო აპიდან</string>
+    <string name="no_file_error">რაღაც შეფერხდა, გასახსნელი არაფერია</string>
+    <string name="file_too_long">ფაილი ძალიან გრძელია და მისი რედაქტირება შეუძლებელია, თუმცა შეგიძლიათ წაიკითხოთ პირველი %d სიმბოლო</string>
+    <string name="file_read_only">გახსნილი ფაილი წასაკითხია მხოლოდ.</string>
+    <string name="got_it">გავიგე!</string>
+    <string name="encrypt_file_save_as">დაშიფრული ფაილის შენახვა როგორც…</string>
+    <string name="encrypt_folder_save_as">დაშიფრული საქაღალდის შენახვა როგორც…</string>
+    <string name="encrypt_option_use_aze">გამოიყენე Amaze Encryption Format</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt არის ღია კოდის ფაილის დაშიფვრის ფორმატი, რომელიც დაფუძნებულია AES დაშიფვრაზე. ის ასევე პორტატულია, მისი გაშიფვრა შესაძლებელია AESCrypt პროგრამებით სხვა პლატფორმებზე.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt ვებსაიტი</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'s Encryption Format ასევე დაფუძნებულია AES დაშიფვრაზე; მაგრამ განსხვავდება AESCrypt ფორმატისაგან, მისი გაშიფვრა შესაძლებელია მხოლოდ ამ მოწყობილობის მიერ; ასევე არ უნდა წაშალოთ Amaze File Manager ამ მოწყობილობიდან და არ შეცვალოთ ეკრანის დაბლოკვის მეთოდი, წინააღმდეგ შემთხვევაში დაშიფრული ფაილის აღდგენის საშუალება არ გექნებათ.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">დაშიფრულმა ფაილებმა ფაილის გაფართოებად უნდა გამოიყენონ \".aze\".</string>
+    <string name="encrypt_file_must_end_with_aes">დაშიფრული ფაილები უნდა გამოიყენონ \".aes\" ფაილის გაფართოებად.</string>
+    <string name="error_aescrypt_decrypt_failed">გაშიფვრა შეუძლებელია. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">არ შეიძლება 8 ფაილის გადაწერა.</string>
+    <string name="saved_single_file">ფაილი შენახულია როგორც \'%s\'.</string>
+    <string name="saved_multi_files">შენახულია %d ფაილი.</string>
+    <string name="create_hidden_file_warn">შექმნილი ფაილი დაიმალება ფაილების სიაში.</string>
+    <string name="grant_apkinstall_permission">აპს სჭირდება ნებართვა აპების ინსტალაციის გასაგრძელებლად.</string>
+    <string name="time_remaining">დარჩენილი დრო</string>
+    <string name="transfer_rate">გადაცემის სიჩქარე</string>
+    <string name="unknown">უცნობი</string>
+    <string name="multiple_invalid_archive_entries">არქივში არსებული ზოგიერთი ფაილის ამოღება შეუძლებელია; არქივი შეიძლება იყოს დაზიანებული ან მომდინარეობს მავნე წყაროდან.</string>
+    <string name="saf_otg_explanation">თქვენ ახლა გადადით Android-ის ფაილურ სისტემაში უსაფრთხოების მიზეზების გამო. გთხოვთ, აირჩიოთ USB მოწყობილობა სიიდან მარცხნივ.</string>
+    <string name="donation_thanks">გმადლობთ შემოწირულობისთვის, ეს გვაძლევს მოტივაციას! (:</string>
+    <string name="enable_marquee_filename">ჩართეთ marquee ეფექტი ფაილის სახელებისთვის</string>
+    <string name="archive_password_prompt">გთხოვთ, შეიყვანოთ არქივის პაროლი:</string>
+    
+    <string name="cannot_extract_archive">არქივის ამოღება შეუძლებელია \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">ვერ გახსენით არქივი \"%s\". ჩვენ არ შეგვიძლია არქივის გახსნა, ან არქივი დაზიანდა.</string>
+    <string name="close">დახურვა</string>
+    <string name="bookmark_exists">სანიშნე არსებობს</string>
+    <string name="hide_media">დამალვა მედია ბრაუზერებიდან</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">შესაძლებელია, რომ ვიღაცა რაღაც საზიზღარს აკეთებს!\n\nვიღაც შესაძლოა ახლა გიყუროთ (შეტევა მამაკაცის შუაგულში)! ასევე შესაძლებელია, რომ მასპინძლის გასაღები ახლახან შეიცვალა. თითის ანაბეჭდი რადგან დისტანციური ჰოსტის მიერ გაგზავნილი საჯარო გასაღები არ ემთხვევა Amaze-ში შენახულს.\n\nშეგიძლიათ გააგრძელოთ ჰოსტის თითის ანაბეჭდის განახლება ან გააუქმოთ SSH კავშირის პარამეტრების განახლება.</string>
+    <string name="update_host_key">ჰოსტის გასაღების განახლება</string>
+    <string name="cancel_recommended">გაუქმება (რეკომენდებულია)</string>
+    
+    
+    <string name="failed_install_apk">ვერ დაინსტალირდა</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">შიდა მეხსიერება</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD ბარათი</string>
+    <string name="choose_folder">აირჩიეთ ეს საქაღალდე</string>
+    
+    <string name="some_files_failed_invalid_operation">ზოგიერთი ფაილი ვერ მოხერხდა არასწორი გამო. ოპერაცია</string>
+    <string name="ftp_server_prompt_connect_to_network">დაკავშირება ქსელთან ან ჩართეთ AP</string>
+    <string name="ftp_server_open_settings">გახსენით პარამეტრები</string>
+    <string name="move">გადატანა</string>
+    <string name="select_save_location">აირჩიეთ ადგილი შესანახად</string>
+    <string name="scp_default_path">ნაგულისხმევი გზა (არასავალდებულო)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">ბოდიში, ეს არ უნდა მომხდარიყო.</string>
+    
+    <string name="error_report_button_text">შეატყობინეთ ამ შეცდომის შესახებ ელფოსტით</string>
+    <string name="error_report_button_telegram">შეატყობინეთ ამ შეცდომის შესახებ ტელეგრამის მეშვეობით</string>
+    <string name="copy_for_github">დააკოპირეთ ფორმატირებული ანგარიში</string>
+    <string name="error_report_open_issue_button_text">მოხსენება GitHub-ზე</string>
+    <string name="error_report_open_github_notice">გთხოვთ, შეამოწმოთ, არის თუ არა პრობლემა თქვენი ავარიის განხილვის შესახებ.</string>
+    <string name="error_snackbar_message">უკაცრავად, შეფერხება მოხდა.</string>
+    <string name="error_snackbar_action">ანგარიში</string>
+    <string name="what_device_headline">ინფორმაცია:</string>
+    <string name="what_happened_headline">რა მოხდა:</string>
+    <string name="info_labels">რა:\\nმოთხოვნა:\\nGMT დრო:\\nპაკეტი:\\nვერსია:\\nOS ვერსია:\\nმოწყობილობა:\\nმოდელი:\\nპროდუქტი :</string>
+    <string name="your_comment">თქვენი კომენტარი (ინგლისურად):</string>
+    <string name="error_details_headline">დეტალები:</string>
+    <string name="app_ui_crash">აპი/ინტერფეისი გაფუჭდა</string>
+    <string name="error_report_title">შეცდომის მოხსენება</string>
+    <string name="crash_report_copied">ავარიის ანგარიში დაკოპირდა აქ ბუფერში</string>
+    <string name="disableIpcSignature">IPC ხელმოწერის შემოწმების გამორთვა (მოძველებული SMBv1 სერვერებისთვის - არაუსაფრთხო!)</string>
+    <string name="cannot_delete_file">ფაილის წაშლა შეუძლებელია</string>
+    <string name="cannot_delete_file_with_reason">ფაილის წაშლა შეუძლებელია - %s</string>
+    <string name="cannot_rename_file">ფაილის სახელის შეცვლა შეუძლებელია %s - %s</string>
+    <string name="cannot_read_directory">ვერ წაიკითხავს დირექტორია %s - %s</string>
+    <string name="just_once">მხოლოდ ერთხელ</string>
+    <string name="always">ყოველთვის</string>
+    <string name="choose_different_app">აირჩიე სხვა აპლიკაცია</string>
+    <string name="clear_open_file">გასუფთავება ქეში</string>
+    <string name="clear_open_file_summary">ასუფთავებს არჩეულ ნაგულისხმევი ფაილების გახსნის აპებს</string>
+    <string name="ftp_readonly">მხოლოდ წაკითხვადი წვდომა</string>
+    <string name="legacy_listing_title">გამოიყენე ძველი სიის გამოყენება root-ისთვის</string>
+    <string name="legacy_listing_summary">თუ ჩართულია, იყენებს ძველი მეთოდს ფაილების სიაში</string>
+    <string name="error_unsupported_v5_rar">RAR არქივი \"%s\" მხარდაუჭერელია RAR v5 არქივი.</string>
+    <string name="ftp_prompt_restart_server">ცვლილებების ძალაში შესვლისთვის დაგჭირდებათ FTP სერვერის გადატვირთვა.</string>
+    <string name="error_permission_denied">ნებართვა უარყოფილია</string>
+    <string name="error_archive_password_incorrect">არქივის არასწორი პაროლი.</string>
+    <string name="error_archive_cannot_extract">არქივის ჩანაწერის ამონაწერი \"%s\" \"%s\"-ში შეუძლებელია.</string>
+    <string name="drag_and_drop_preference">აირჩიეთ გადაათრიეთ და ჩამოაგდეთ უპირატესობა (ექსპერიმენტული)</string>
+    <string name="drag_to_move_copy">შეეხეთ და გადაათრიეთ ფაილების გადასატანად ან კოპირებისთვის</string>
+    <string name="drag_to_select">შეეხეთ და გადაათრიეთ ფაილების ასარჩევად</string>
+    <string name="disable">გამორთვა</string>
+    <string name="choose_operation">აირჩიეთ ოპერაცია შესასრულებლად</string>
+    <string name="remember">დაიმახსოვრეთ შემდეგი ჯერზე</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">მიეცით SAF წვდომას FTP სერვერზე</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">რადგან ეს თქვენი პირველი გაშვებაა FTP სერვერზე და თქვენ იყენებთ მოწყობილობის შიდა მეხსიერებას, როგორც საზიარო საქაღალდე, გთხოვთ, ნება დართეთ Amaze-ს წვდომა მეხსიერებაზე გამოყენებით SAF.\n\n
+
+ამის გაკეთება მხოლოდ ერთხელ გჭირდებათ, სანამ შემდეგ ჯერზე არ აირჩევთ ახალ მდებარეობას გაზიარებისთვის.</string>
+    <string name="android_data_prompt_saf_access">Android 10-დან Android-მა დააწესა შეზღუდვები გარკვეულ დირექტორიაზე და მათ სჭირდებათ წვდომა Storage Access Framework-ით.\n \nგთხოვთ, მიეცით საშუალება Amaze-ს შევიდეს დირექტორიაში სისტემის ფაილების მენეჯერიდან შეხებით \"წვდომის დაშვება\".</string>
+    <string name="android_data_prompt_saf_access_title">მიეცით SAF წვდომას</string>
+    <string name="ftp_preference_saf_filesystem_title">გამოიყენეთ ძველი ფაილური სისტემა</string>
+    <string name="ftp_preference_saf_filesystem">ჩართეთ ეს მოწყობილობის გარე მეხსიერების გამოყენების მხარდაჭერისთვის Android-ის უახლეს ვერსიებზე</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP სერვერის საზიარო ბილიკი გადაკეთდა შიდა მეხსიერებაზე, როდესაც თქვენ უბრუნდებით მემკვიდრეობითი ფაილური სისტემის დანერგვა. გთხოვთ, აირჩიოთ ახალი გზა ზედა მარჯვენა მენიუს გამოყენებით.</string>
+    <string name="ftp_server_reset_notify">FTP სერვერის საზიარო გზა გადაკეთდა შიდა მეხსიერებაზე</string>
+    <string name="ftp_server_root_unavailable">თქვენ ირჩევთ გზას, რომელიც საჭიროებს root წვდომას. გთხოვთ, ჩართოთ root explorer პარამეტრებში, თუ თქვენი მოწყობილობა Root-ია.</string>
+    <string name="ftp_server_root_filesystem_warning">თქვენ ირჩევთ გზას, რომელიც მოითხოვს root წვდომას, რომელიც საშუალებას აძლევს წაკითხვის/ჩაწერის ოპერაციებს მთელ ფაილურ სისტემაში თქვენს მოწყობილობაზე, და ეს საშიშია - უყურადღებო შეცდომები შეიძლება იყოს მოამზადეთ თქვენი მოწყობილობა!\n\nდარწმუნებული ხართ?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">შეცდომა წასაკითხად URI \"%s\" გახსნისას.</string>
+    <string name="error_empty_archive">\"%s\" ცარიელი არქივია.</string>
+    <string name="error_bad_archive_without_info">\"%s\" არის დაზიანებული არქივი.</string>
+    <string name="error_bad_archive_with_info">\"%s\" არის დაზიანებული არქივი.\nშეტყობინება ამომყვანისგან: \"%s\"</string>
+    <string name="security_error">ფაილი ვერ მოხერხდა გაიხსნება ამ აპის გამოყენებით</string>
+    <string name="cloud_drive_tooltip">შექმენით Google Drive™ კავშირი ფაილების სამართავად Amaze File Manager-იდან.</string>
+    
+    <string name="show_system_apps">აჩვენეთ სისტემის აპები</string>
+    <string name="system_apps">სისტემის აპები</string>
+    <string name="select_inverse">აირჩიეთ ინვერსი</string>
+    <string name="select_by_type">აირჩიეთ ტიპის მიხედვით</string>
+    <string name="select_by_date">აირჩიეთ თარიღის მიხედვით</string>
+    <string name="select_similar">აირჩიეთ მსგავსი</string>
+    <string name="error_fetching_google_play_product_list">შეცდომა პროდუქციის სიის მიღებისას Google Play.</string>
+    <string name="grant_all_files_permission">Android 11-დან Google ითხოვს ფაილ მენეჯერებს, მოითხოვონ მომხმარებლის ნებართვა მოწყობილობაზე არსებული ყველა ფაილის მართვისთვის. დეტალები აქ.
+        \n\nAmaze File Manager-საც ეს ნებართვა სჭირდება. მას შემდეგ, რაც დააჭირეთ "Grant"-ს, გთხოვთ, აირჩიოთ წვდომის დაშვება ყველა ფაილის მართვის პარამეტრი შემდეგ ეკრანზე.
+        \n\nამ დიალოგის გაუქმება აპიდან გამოვა.</string>
+    <string name="user_apps">მომხმარებლის აპები</string>
+    <string name="appearance">გარეგნობა</string>
+    <string name="behavior">ქცევა</string>
+    <string name="appearance_summary">დააყენეთ ფაილის მენეჯერის თემა, ფერები და გარეგნობა</string>
+    <string name="ui_summary">აკონტროლეთ რა ინფორმაციის ჩვენება, გვერდითი ზოლის მორგება და ინტერფეისის პარამეტრების გადართვა</string>
+    <string name="behavior_summary">შეცვალეთ ისეთი ქცევები, როგორიცაა გაფართოებული ძიება და გახსნათ თუ არა ფაილები ახალ ამოცანად</string>
+    <string name="security_summary">პაროლის დაყენება და დაშიფვრა</string>
+    <string name="backup_summary">ექსპორტი/იმპორტი Amaze პარამეტრები</string>
+
+    <string name="pref_export">ექსპორტი</string>
+    <string name="pref_export_summary">ექსპორტის პარამეტრები</string>
+    <string name="pref_import">იმპორტი</string>
+    <string name="pref_import_summary">იმპორტის პარამეტრები</string>
+
+    <string name="quick_desc">Files ცოტა ხნის წინ წვდომა Amaze-ის მეშვეობით</string>
+    <string name="recent_desc">ბოლო დროს შექმნილი ან შეცვლილი ფაილები</string>
+    <string name="error_cannot_find_way_open">ვერ ვიპოვე ფაილის გახსნის გზა</string>
+    <string name="error_cant_decompress_that_file">მოთხოვნილი არქივის დამუშავება შეუძლებელია</string>
+    <string name="analyse_storage">საცავის ანალიზი</string>
+    
+    <string name="download_amaze_utils_text">თქვენ გადამისამართდებით Amaze File Utilities-ზე. ეს არის ჩვენი ღია კოდის აპი, რომელსაც აქვს ჩაშენებული აუდიო/ვიდეო/სურათი/დოკუმენტის მაყურებელი, საშუალებას გაძლევთ გაანალიზოთ უსარგებლო ფაილები მეხსიერების გასათავისუფლებლად, სწრაფი გადატანა Wifi P2P-ის გამოყენებით და მრავალი სხვა.\nგთხოვთ, მხარი დაგვიჭიროთ სცადეთ.</string>
+    <string name="download">ჩამოტვირთვა</string>
+    
+    <string name="amaze_utils_installed_alias">გმადლობთ, რომ დააინსტალირეთ Amaze File Utilities. თქვენ გადამისამართდებით აპზე.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">ჟურნალების გაზიარება</string>
+    <string name="share_logs_summary">გააზიარეთ გადაღებული ჟურნალები ელფოსტით / ტელეგრამით</string>
+    <string name="open_with_amaze">გახსენით Amaze</string>
+    <string name="confirmation">დადასტურებით</string>
+    <string name="open_file_confirmation">დარწმუნებული ხართ, რომ გსურთ შემდეგი ფაილის გახსნა?\n\nსახელი:\n%s\n\nადგილმდებარეობა:\n%s\n\nზომა:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play-ს პოლიტიკის მანდატების მიხედვით, აპებს არ აქვთ უფლება განაახლონ თავად. გთხოვთ, განაახლოთ აპი Google Play-დან.</string>
+    <string name="error_cannot_get_package_info">შეუძლებელია პაკეტის ინფორმაციის მიღება ფაილიდან \"%s\". მითითებული ფაილი ან არ არის APK, ან პაკეტის ფაილი დაზიანებულია.</string>
+    <string name="preference_delete_confirmation">დადასტურების წაშლა</string>
+    <string name="preference_delete_confirmation_summary">ითხოვეთ დადასტურება ფაილების წაშლამდე. ამის გამორთვა არ არის საჭირო!</string>
+    
+    
+    <string name="protocol_ftps">უსაფრთხო FTP</string>
+    <string name="unavailable">მიუწვდომელია</string>
+
+    <string name="exporting_failed">ექსპორტი ვერ მოხერხდა: სარეზერვო ფაილის ჩაწერა ვერ მოხერხდა</string>
+    <string name="importing_failed">იმპორტი ვერ მოხერხდა: სარეზერვო ასლის წაკითხვა ვერ მოხერხდა ფაილი</string>
+    <string name="importing_completed">იმპორტი დასრულდა</string>
+    <string name="invalid_backup_file">არასწორი სარეზერვო ფაილი</string>
+    <string name="import_failed_for">იმპორტი ვერ მოხერხდა შემდეგისთვის:</string>
+    <string name="free_of">"%s\n%s %s-ისგან თავისუფალი</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin არ არის მხარდაჭერილი F- Droid ვერსია. გთხოვთ, გამოიყენოთ Amaze-ის Play Store-ის ვერსია.</string>
+    <string name="disable_player_intent_filters">მოთამაშის განზრახვის ფილტრების გამორთვა</string>
+    <string name="disable_player_intent_filters_summary">გამორთავს Amaze-ის ჩაშენებულ მედია ფლეერებს ფაილის ამომრჩევიდან</string>
+    <string name="no_app_found_intent">აპი ვერ მოიძებნა ამ განზრახვის დასამუშავებლად. დაინსტალირებული გაქვთ DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection-ის სერთიფიკატები გასუფთავდა</string>
+    <string name="cloud_connection_credentials_cleared_msg">სამწუხაროდ, ჩვენ ვერ შევძელით თქვენი ღრუბლოვანი კავშირის სერთიფიკატების მიგრაცია მონაცემთა ბაზის ახალ სქემაში და მოგვიწია მათი ამოღება აპიდან. გთხოვთ შექმნათ ისევ ღრუბლოვანი კავშირი.</string>
+</resources>

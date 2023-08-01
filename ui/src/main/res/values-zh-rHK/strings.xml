@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+    <string name="i18n_ui_setting">語言設置</string>
+
+    <string name="i18n_type_none">設備默認</string>
+    <string name="i18n_type_release">內置</string>
+    
+    <string name="i18n_type_local">本地</string>
+    <string name="i18n_type_online_cache">在線緩存</string>
+    <string name="i18n_type_online">在線</string>
+
+    <string name="i18n_not_supported">未檢測到配置文件。請確保 i18nStrings 插件已集成到您的項目中，並且“i18nStrings”任務已在應用模塊中執行。</string>
+    <string name="i18n_ui_disclaimer_title">免責聲明</string>
+    <string name="i18n_ui_disclaimer_content">我們的應用程序現在支持多種語言選項，包括一些仍處於實驗階段的語言選項。這些實驗性語言支持可能包含錯誤、不准確的翻譯或不完整的文本顯示。我們正在努力改進對這些語言的支持，但不能保證它們沒有錯誤或與其他完全支持的語言具有相同的質量標準。 \n使用實驗性語言選項的用戶應了解，我們的團隊不會對使用這些實驗性語言選項引起的任何問題負責，包括但不限於誤解信息、誤導或任何其他潛在問題。 \n我們鼓勵用戶報告他們在使用這些實驗性語言選項時發現的任何問題或錯誤。感謝您的理解和支持，我們的團隊致力於不斷改進和完善多語言支持。</string>
+    <string name="i18n_ui_disclaimer_agree">同意</string>
+    <string name="i18n_ui_disclaimer_disagree">不同意</string>
+
+    <string name="i18n_ui_reboot_title">切換語言後重啟生效</string>
+    <string name="i18n_ui_reboot_content">確定切換並重啟嗎？</string>
+
+    <string name="i18n_ui_refresh_title">刷新翻譯數據</string>
+    <string name="i18n_ui_refresh_content">確定刷新翻譯數據嗎？</string>
+
+    <string name="i18n_ui_realtime_translate_title">實時翻譯</string>
+    <string name="i18n_ui_realtime_translate_comfirm_min">預計需要 %d 分鐘翻譯 %d 篇文本。繼續嗎？</string>
+    <string name="i18n_ui_realtime_translate_comfirm_sec">預計 %d 秒翻譯 %d 條文本。繼續嗎？</string>
+    <string name="i18n_ui_realtime_translate_text">正在翻譯，請稍等...</string>
+    <string name="i18n_ui_realtime_translate_text_with_time_sec">翻譯預計需要 %ds，請耐心等待。</string>
+    <string name="i18n_ui_realtime_translate_fails_title">實時翻譯失敗</string>
+    <string name="i18n_ui_realtime_translate_fails_content">請檢查錯誤日誌並確保您的網絡可以訪問https://translate.google.com</string>
+</resources>

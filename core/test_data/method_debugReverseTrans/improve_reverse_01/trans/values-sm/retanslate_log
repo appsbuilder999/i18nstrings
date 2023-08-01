@@ -1,0 +1,140 @@
+needTransItems size: 135
+needTransList: 135
+index: 0, content: Open navigation drawer
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+index: 1, content: Close navigation drawer
+index: 2, content: App Manager
+index: 3, content: Settings
+index: 4, content: Backup
+index: 5, content: Uninstall
+index: 6, content: Properties
+index: 7, content: CANCEL
+index: 8, content: CREATE
+index: 9, content: Location
+index: 10, content: size of folder
+index: 11, content: Enter Name
+index: 12, content: Extracting
+index: 13, content: Extract
+index: 14, content: Directory Sort Mode
+index: 15, content: Random Skin
+index: 16, content: Sets random primary color at startup
+index: 17, content: Colorize Icons
+index: 18, content: Sets static icon color. Doesn\'t override directory icon color preference.
+index: 19, content: Root Access not granted
+index: 20, content: Material Light
+index: 21, content: Material Dark
+index: 22, content: Daytime
+index: 23, content: Folders On Top
+index: 24, content: None On Top
+index: 25, content: Insufficient space
+index: 26, content: Overwrite
+index: 27, content: Go Back
+index: 28, content: List View
+index: 29, content: Do for all items
+index: 30, content: Authors
+index: 31, content: Interface
+index: 32, content: General
+index: 33, content: Show Thumbnails
+index: 34, content: Show the date and time of last modification
+index: 35, content: Miscellaneous
+index: 36, content: Show Permissions of Files and Folders
+index: 37, content: Send Feedback
+index: 38, content: Package Installer
+index: 39, content: Install
+index: 40, content: Archive
+index: 41, content: Use circular icons
+index: 42, content: Back navigation
+index: 43, content: Dutch
+index: 44, content: Zip Viewer
+index: 45, content: Donate
+index: 46, content: Archive Extract Folder
+index: 47, content: Select
+index: 48, content: Colored Navigation bar
+index: 49, content: Whether or not the system navigation bar is colored with the skin
+index: 50, content: Set color to various UI components
+index: 51, content: Icon Color
+index: 52, content: Text Reader
+index: 53, content: Database Reader
+index: 54, content: Server IP Address
+index: 55, content: Password
+index: 56, content:  calculating 
+index: 57, content: Ascending
+index: 58, content: Descending
+index: 59, content: Quick access
+index: 60, content: Edit
+index: 61, content: Permission not granted
+index: 62, content: Address
+index: 63, content: Modify Bookmark
+index: 64, content: Type to search…
+index: 65, content: Regular Expression
+index: 66, content: Search using a BASH style regular expression
+index: 67, content: Not Running
+index: 68, content: Primary Color (Right Tab)
+index: 69, content: Support Development
+index: 70, content: Bookmark not found, recreating…
+index: 71, content: Information
+index: 72, content: Accessed
+index: 73, content: Modified
+index: 74, content: Artist
+index: 75, content: Duration
+index: 76, content: Channels
+index: 77, content: Sample Rate
+index: 78, content: Dimensions
+index: 79, content: Width
+index: 80, content: Camera Model
+index: 81, content: Date Taken
+index: 82, content: Focal Length
+index: 83, content: Subject
+index: 84, content: Keywords
+index: 85, content: Producer
+index: 86, content: Number of Pages
+index: 87, content: Optimized
+index: 88, content: moved
+index: 89, content: Extraction complete
+index: 90, content: Compression Complete
+index: 91, content: Compressing
+index: 92, content: Processing file
+index: 93, content: Time elapsed
+index: 94, content: No applications
+index: 95, content: Translation
+index: 96, content: Shade behind FAB
+index: 97, content: Encrypting
+index: 98, content: Decrypting
+index: 99, content: Encrypted
+index: 100, content: Decrypted
+index: 101, content: Encrypt
+index: 102, content: Decrypt
+index: 103, content: Operation failed for following files
+index: 104, content: Fingerprint permissions missing
+index: 105, content: Enter password
+index: 106, content: Advanced
+index: 107, content: Text editor settings
+index: 108, content: Amaze File Manager FTP Server\'s Notifications
+index: 109, content: FTP Connection
+index: 110, content: Shortcuts creation is not supported by your launcher.
+index: 111, content: Customize
+index: 112, content: Extracted
+index: 113, content: Compressed
+index: 114, content: Processed
+index: 115, content: Save Encrypted Folder As…
+index: 116, content: Use Amaze Encryption Format
+index: 117, content: Cannot overwrite file.
+index: 118, content: Bookmark exists
+index: 119, content: Internal Storage
+index: 120, content: Select location to save
+index: 121, content: Copy formatted report
+index: 122, content: Info:
+index: 123, content: Clears selected default file opening apps
+index: 124, content: Select drag and drop preference (Experimental)
+index: 125, content: Appearance
+index: 126, content: Analyse Storage
+index: 127, content: Amaze Image Viewer
+index: 128, content: Amaze Document Viewer
+index: 129, content: Share logs
+index: 130, content: Secure FTP
+index: 131, content: Unavailable
+index: 132, content: Exporting failed: could not write the backup file
+index: 133, content: Import failed for:
+index: 134, content: Disable player intent filters

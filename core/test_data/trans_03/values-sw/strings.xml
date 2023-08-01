@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Kidhibiti Faili cha Amaze</string>
+    <string name="drawer_open">Fungua droo ya kusogeza</string>
+    <string name="drawer_close">Funga droo ya kusogeza</string>
+    <string name="icon">ikoni</string>
+    <string name="apps">Kidhibiti Programu</string>
+    <string name="ftp">Seva ya FTP</string>
+    <string name="setting">Mipangilio</string>
+    <string name="select">Chagua Kipengee</string>
+    <string name="press_again">Bonyeza tena ili kuondoka</string>
+    <string name="open">Fungua</string>
+    <string name="backup">Hifadhi</string>
+    <string name="uninstall">Sanidua</string>
+    <string name="play">Duka la Google Play</string>
+    <string name="properties">Sifa</string>
+    <string name="copyingapks">Inakili faili %d za APK kwenye %s</string>
+    <string name="delbook">Futa Alamisho</string>
+    <string name="add_to_bookmarks">Ongeza kwenye Alamisho</string>
+    <string name="enterpath">Ingiza Njia</string>
+    <string name="cancel">GHAIRI</string>
+    <string name="create">UNDA</string>
+    <string name="loading">Inapakia…</string>
+    <string name="file_empty">Faili ni tupu</string>
+    <string name="error">Hitilafu</string>
+    <string name="search_results">Matokeo ya utafutaji ya %s</string>
+    <string name="rename">Ipe Jina upya</string>
+    <string name="save">Hifadhi</string>
+    <string name="bookmarks_added">Alamisho Zimeongezwa</string>
+    <string name="fileexist">Faili yenye jina sawa tayari ipo</string>
+    <string name="name">Jina</string>
+    <string name="date">Tarehe</string>
+    <string name="location">Eneo</string>
+    <string name="size_capitalized">Ukubwa</string>
+    <string name="size">ukubwa wa folda</string>
+    <string name="enterzipname">Ingiza Jina la Zip</string>
+    <string name="no_app_found">Hakuna Programu iliyopatikana ya kufungua faili hii</string>
+    <string name="copying">Inakili</string>
+    <string name="moving">Kusonga</string>
+    <string name="file">Faili</string>
+    <string name="folder">Folda</string>
+    <string name="newfolder">Folda Mpya</string>
+    <string name="entername">div18 Ingiza Jina</string>
+    <string name="extracting">Kutoa</string>
+    <string name="stopping">Kusimamisha</string>
+    <string name="open_parent">Fungua Saraka ya Mzazi</string>
+    <string name="open_with">Fungua kwa</string>
+    <string name="share">Shiriki</string>
+    <string name="about">Kuhusu</string>
+    <string name="extract">Dondoo</string>
+    <string name="compress">Finyaza</string>
+    <string name="yes">Ndiyo</string>
+    <string name="no">Hapana</string>
+    
+    
+    <string name="dialog_delete_category_files">Faili</string>
+    <string name="dialog_delete_disclaimer">Kufuta vipengee vilivyo hapa chini kutaviondoa kabisa kwenye kifaa chako na haviwezi kurejeshwa.</string>
+    <string name="dialog_delete_title">Ungependa kufuta vipengee kabisa?</string>
+    <string name="deleting">Kufuta</string>
+    <string name="question_set_path_as_home">Je, ungependa kuweka njia ya sasa kuwa ya nyumbani kwa kichupo hiki?</string>
+    <string name="directorysort">Njia ya Kupanga Saraka</string>
+    <string name="sort_by">Panga Kwa</string>
+    <string name="sort_only_this">Folda hii pekee</string>
+    <string name="theme">Mandhari</string>
+    <string name="random">Ngozi Bila mpangilio</string>
+    <string name="random_summary">Huweka rangi msingi nasibu wakati wa kuanza</string>
+    <string name="colorize">Pakia Aikoni</string>
+    <string name="colorize_summary">Huweka rangi ya ikoni tuli. Haibatili upendeleo wa rangi ya ikoni ya saraka.</string>
+    <string name="home">Nyumbani</string>
+    <string name="paste">Bandika</string>
+    <string name="history">Historia</string>
+    <string name="copy">Nakili</string>
+    <string name="root_mode">Mgunduzi wa Mizizi</string>
+    <string name="root_mode_summary">Kwa kifaa chenye mizizi pekee. Iangalie ikiwa tu una uhakika nayo.</string>
+    <string name="root_failure">Ufikiaji wa Mizizi haujatolewa</string>
+    <string name="select_all">Chagua Zote</string>
+    <string name="delete">Futa</string>
+    <string name="set_as_home">Weka Kama Nyumbani</string>
+    <string name="operation_not_supported">Uendeshaji hautumiki</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Nuru Nyenzo</string>
+    <string name="dark">Nyenzo Yeusi</string>
+    <string name="daytime">Mchana</string>
+    <string name="black">Nyeusi (kwa OLED)</string>
+    <string name="system">Mfumo (fuata mandhari ya mfumo)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Folda Zilizo Juu</string>
+    <string name="filesOnTop">Faili Zilizo Juu</string>
+    <string name="none_on_top">Hakuna Juu</string>
+    <!--SortBy-->
+    <string name="sort_name">Jina</string>
+    <string name="lastModified">Marekebisho Ya Mwisho</string>
+    <string name="sort_size">Ukubwa</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Chagua faili</string>
+    <string name="process_viewer">Kitazamaji Cha Mchakato</string>
+    <string name="in_safe">Nafasi haitoshi</string>
+    <string name="no_file_overwrite">Hakuna Faili Iliyobatilishwa</string>
+    <string name="skip">Ruka</string>
+    <string name="overwrite">Batilisha</string>
+    <string name="not_allowed">Hairuhusiwi</string>
+    <string name="searching">Inatafuta %s</string>
+    <string name="done">Imekamilika</string>
+    <string name="set">Weka</string>
+    <string name="enablerootmde">Washa Hali ya Mizizi</string>
+    <string name="goback">Rudi Nyuma</string>
+    <string name="newfile">Faili Mpya</string>
+    <string name="no_files">Hakuna Faili</string>
+    <string name="used">nafasi iliyotumika</string>
+    <string name="used_by_others">inayotumiwa na wengine</string>
+    <string name="free">nafasi isiyolipishwa</string>
+    <string name="listview">Mwonekano wa Orodha</string>
+    <string name="gridview">Mwonekano wa Gridi</string>
+    <string name="permission">Ruhusa</string>
+    <string name="hide">Ficha</string>
+    <string name="exit">Ondoka</string>
+    <string name="doforall">Fanya kwa vipengee vyote</string>
+    <string name="gridcolumnno">Idadi ya safu wima katika mwonekano wa gridi</string>
+    <string name="set_random">Mabadiliko yatafanyika baada ya kuwasha upya programu</string>
+    <string name="authors">Waandishi</string>
+    <string name="changelog">Badiliko</string>
+    <string name="ok">Sawa</string>
+    <string name="ui">Kiolesura</string>
+    <string name="general">Jumla</string>
+    <string name="thumb_summary">Onyesha Vijipicha vya programu na picha</string>
+    <string name="thumb">Onyesha Vijipicha</string>
+    <string name="hidden">Onyesha Faili na Folda Zilizofichwa</string>
+    <string name="lastModifiedSummary">Onyesha tarehe na saa ya marekebisho ya mwisho</string>
+    <string name="lastModifiedPref">Onyesha Tarehe na Saa Zilizobadilishwa Mwisho</string>
+    <string name="size_pref_summary">Onyesha ukubwa wa faili na idadi ya vipengee kwenye folda </string>
+    <string name="size_pref">Onyesha Ukubwa</string>
+    <string name="miscellaneous">Nyinginezo</string>
+    <string name="root_pref_summary">Onyesha Ruhusa za Faili na Folda</string>
+    <string name="root_pref">Onyesha Ruhusa</string>
+    <string name="about_amaze_file_manager_label">Kuhusu Kidhibiti Faili cha Amaze</string>
+    <string name="version"/>
+    <string name="rate">Kadiria programu</string>
+    <string name="feedback">Tuma Maoni</string>
+    <string name="hiddenfiles">Faili Zilizofichwa</string>
+    <string name="type">Aina</string>
+    <string name="root_directory">Mzizi</string>
+    <string name="add_shortcut">Ongeza Njia ya Mkato</string>
+    <string name="unsaved_changes">Mabadiliko Hayajahifadhiwa</string>
+    <string name="unsaved_changes_description">Una mabadiliko ambayo hayajahifadhiwa, ungependa kuyahifadhi kabla ya kuondoka?</string>
+    <string name="saving">Kuhifadhi</string>
+    <string name="package_installer">Kisakinishaji Kifurushi</string>
+    <string name="view">Angalia</string>
+    <string name="install">Sakinisha</string>
+    <string name="archive">Kumbukumbu</string>
+    <string name="archive_text">Hii ni kumbukumbu. Je, ungependa kutekeleza kitendo gani?</string>
+    <string name="package_installer_text">Hiki ni kisakinishi cha kifurushi. Je, ungependa kufanya kitendo gani?</string>
+    <string name="xda_title">Mzingo wa XDA</string>
+    <string name="xda_summary">Maswali na Majibu, Usaidizi na Utatuzi wa Matatizo</string>
+    <string name="circular_images">Tumia aikoni za mduara kwa picha na video</string>
+    <string name="circular_icons">Tumia aikoni za duara </string>
+    <string name="back_title">Urambazaji wa nyuma</string>
+    <string name="back_summary">Huwasha usogezaji maalum nyuma juu ya orodha</string>
+    <string name="details">Maelezo</string>
+    <string name="translators">Watafsiri</string>
+    <string name="german_translation_title">Kijerumani</string>
+    <string name="italian_translation_title">Kiitaliano</string>
+    <string name="french_translation_title">Kifaransa</string>
+    <string name="russian_translation_title">Kirusi</string>
+    <string name="spanish_translation_title">Kihispania</string>
+    
+    <string name="chinese_translation_title">Kichina</string>
+    <string name="serbian_translation_title">Kiserbia</string>
+    <string name="turkish_translation_title">Kituruki </string>
+    <string name="ukrainian_translation_title">Kiukreni</string>
+    <string name="portuguese_translation_title">Kireno</string>
+    <string name="polish_translation_title">Kipolishi</string>
+    <string name="korean_translation_title">Kikorea</string>
+    <string name="greek_translation_title">Kigiriki</string>
+    <string name="dutch_translation_title">Kiholanzi</string>
+    <string name="romanian_translation_title">Kiromania</string>
+    <string name="vietnamese_translation_title">Kivietinamu</string>
+    <string name="japanese_translation_title">Kijapani</string>
+    
+
+    
+    <string name="unin_system_apk">Hii ni programu ya mfumo, na kuifuta kunaweza kusababisha uthabiti wa mfumo.\nUngependa kuendelea?</string>
+    <string name="warning">Onyo</string>
+    <string name="donate">Changia</string>
+    <string name="archive_extract_folder">Folda ya Dondoo la Kumbukumbu</string>
+    <string name="archive_summary">Faili za Kumbukumbu zitatolewa kwenye folda hii. Thamani chaguo-msingi ni saraka ambayo kumbukumbu ipo.</string>
+    <string name="open_as">Fungua Kama</string>
+    <string name="text">Maandishi</string>
+    <string name="audio">Sauti</string>
+    
+    <string name="other">Nyingine</string>
+    <string name="image">Picha</string>
+    <string name="contributors">Wachangiaji</string>
+    <string name="save_paths">Kumbuka njia</string>
+    <string name="save_path_summary">Unapoanzisha, folda iliyotazamwa hivi karibuni kwa kila kichupo itaonyeshwa</string>
+    <string name="select_intent">Chagua</string>
+    
+    <string name="colored_navigation">Upau wa Uelekezaji Wenye Rangi</string>
+    <string name="colored_navigvation_sum">Iwapo upau wa kusogeza wa mfumo umepakwa rangi ya ngozi</string>
+
+    <string name="color_title">Rangi</string>
+    <string name="color_summary">Weka rangi kwenye vipengele mbalimbali vya UI</string>
+    <string name="primary_color_title">Rangi ya Msingi (Kichupo cha Kushoto)</string>
+    <string name="primary_color_summary">Weka rangi iwe vipengele vikubwa vya UI kwa kichupo cha kushoto</string>
+    <string name="accent_color_title">Rangi ya Msisitizo</string>
+    <string name="accent_color_summary">Weka rangi iwe FAB na UI nyingine ndogo vipengele</string>
+    <string name="icon_color_title">Aikoni ya Rangi</string>
+    <string name="icon_color_summary">Weka rangi kwenye ikoni</string>
+    <string name="choose_color">Chagua rangi</string>
+    <string name="files">Faili</string>
+    <string name="textreader">Kisoma Maandishi</string>
+    <string name="databasereader">Kisoma Hifadhidata</string>
+    <string name="show_dividers">Onyesha Vigawanyiko</string>
+    <string name="needs_access">Ufikiaji wa Kuandika Unahitajika</string>
+    <string name="needs_access_summary">Tafadhali chagua saraka ya mizizi ya \t</string>
+    <string name="needs_access_summary1">\ili kutoa ufikiaji wa kuandika kuendesha</string>
+    <string name="smb_connection">Muunganisho wa SMB</string>
+    <string name="smb_server">Anwani ya IP ya Seva</string>
+    <string name="server_address">Anwani ya IP ya Seva</string>
+    <string name="username">Jina la mtumiaji</string>
+    <string name="password">Nenosiri</string>
+    <string name="anonymous">Bila Kujulikana</string>
+    
+    <string name="folders">Folda</string>
+    <string name="folderfilecount">%1$d folda na faili %2$d</string>
+    <string name="videos">Video</string>
+    
+    <string name="documents">Hati</string>
+    <string name="images">Picha</string>
+    <string name="clear">Futa</string>
+    
+    <string name="total">Jumla:</string>
+    <string name="calculating">inayokokotoa</string>
+    <string name="sort">Panga</string>
+    <string name="ascending">Kupanda</string>
+    <string name="descending">Kushuka</string>
+    <string name="default_string">Chaguo-msingi</string>
+    <string name="doit">Je,Je</string>
+    <string name="want_help">Unahitaji usaidizi?</string>
+    <string name="quick">Ufikiaji wa haraka</string>
+    <string name="recent">Faili za hivi majuzi</string>
+    <string name="edit">Hariri</string>
+    <string name="find">Tafuta kwenye ukurasa</string>
+    <string name="grant">Ruhusu</string>
+    <string name="grantper">Ruhusa ya Ruhusa</string>
+    <string name="grantfailed">Ruhusa haijatolewa</string>
+    <string name="grant_storage_permission">Programu inahitaji ruhusa ya kuhifadhi ili kuendelea . Kughairi mazungumzo haya kutaondoa programu.</string>
+    <string name="operation_unsuccesful">Operesheni Haijafaulu</string>
+    <string name="creatingfile">Kuunda Faili</string>
+    <string name="creatingfolder">Kuunda Folda</string>
+    <string name="renaming">Kubadilisha Jina</string>
+    <string name="cant_be_empty">%s haiwezi kuwa tupu</string>
+    <string name="ip">Anwani</string>
+    <string name="connection_name">Jina la muunganisho</string>
+    <string name="no_device_found">Hakuna vifaa vilivyopatikana</string>
+    <string name="path">Njia</string>
+    <string name="rename_bookmark">Rekebisha Alamisho</string>
+    <string name="cut">Kata</string>
+    <string name="search">Tafuta</string>
+    <string name="invalid_name">Jina Batili</string>
+    <string name="search_hint">Aina ya kutafuta…</string>
+    <string name="advanced_search">Utafutaji wa Juu</string>
+    <string name="regular_expression">Maonyesho ya Kawaida</string>
+    <string name="regular_expression_summary">Tafuta kwa kutumia mwonekano wa kawaida wa mtindo wa BASH</string>
+    <string name="match_content">Linganisha maudhui</string>
+    <string name="match_content_summary">Ikiwekwa, usemi wa kawaida utalinganishwa na jina zima la faili,
+        itatafuta tukio vinginevyo.</string>
+    <string name="start_ftp">Anza</string>
+    <string name="stop_ftp">Acha</string>
+    <string name="ftp_status_running">Kukimbia</string>
+    <string name="ftp_status_not_running">Haifanyiki</string>
+    <string name="ftp_no_wifi">Hakikisha kuwa umeunganishwa kwenye Wi -Fi</string>
+    <string name="domain">Kikoa</string>
+    <string name="smb_share">Shiriki njia</string>
+    <string name="invalid">Batili %s</string>
+    <string name="ftp_notif_starting">Seva ya FTP inaanza</string>
+    <string name="ftp_notif_starting_title">Seva ya FTP</string>
+    <string name="ftp_notif_title">Angaza Seva ya FTP inayoendesha</string>
+    <string name="ftp_notif_text">kwa %s</string>
+    
+    <string name="ftp_port_edit_menu_title">Mlango wa FTP</string>
+    <string name="ftp_port_change_success">Mlango wa FTP umebadilishwa</string>
+    <string name="ftp_port_change_error_invalid">Nambari ya mlango batili imechaguliwa</string>
+    <string name="primary_two_title">Rangi ya Msingi (Kichupo cha Kulia)</string>
+    <string name="primary_two_summary">Weka rangi iwe vipengele vikubwa vya UI kwa kichupo cha kulia</string>
+    <string name="support_development">Maendeleo ya Usaidizi</string>
+    <string name="report_bugs_title">Ripoti Hitilafu</string>
+    <string name="source_title">Msimbo wa chanzo</string>
+    <string name="source_summary">Ona msimbo wetu wa chanzo kwenye GitHub</string>
+    <string name="report_bugs_summary">Ripoti hitilafu au uombe kipengele kipya</string>
+    <string name="translate_title">Tafsiri</string>
+    <string name="translate_summary">Tafsiri Amaze katika lugha yako</string>
+    <string name="paypal_copy_message">Kitambulisho cha PayPal kimenakiliwa kwenye ubao wa kunakili</string>
+    <string name="searching_devices">Inatafuta vifaa</string>
+    <string name="use_custom_ip">Tumia IP maalum</string>
+    <string name="bookmark_lost">Alamisho haijapatikana, inaunda upya…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Jinsi ya kufikia folda ya Windows iliyoshirikiwa kwenye Android (SMB)\n\n
+                
+                    
+                        Washa Kushiriki Faili kwenye Windows\n
+                    
+                    
+                        Fungua Paneli ya Kudhibiti, bofya Chagua Chaguo za Kikundi cha Nyumbani na Kushiriki chini ya Mtandao
+                        na Mtandao, na ubofye "Badilisha Mipangilio ya Juu ya Kushiriki," wezesha "Faili na
+                        Kipengele cha Kushiriki Printa".\n\n
+                    
+
+                    
+                        Mipangilio ya Ziada ya Kushiriki Faili\n
+                    
+                    
+                        Unaweza pia kutaka kusanidi mipangilio mingine ya kina ya kushiriki hapa. \n
+                        Kwa mfano, unaweza kuwezesha ufikiaji wa faili zako bila nenosiri ikiwa unaamini zote
+                        vifaa kwenye mtandao wako wa karibu. Mara tu kushiriki faili na kichapishi kumewezeshwa, unaweza
+                        fungua Kichunguzi cha Picha au Windows Explorer, bofya kulia folda unayotaka kushiriki, na
+                        chagua Mali. \n
+                        Bofya kitufe cha Shiriki na ufanye folda ipatikane kwenye mtandao.\n\n
+                        
+
+                    
+                        Hakikisha kuwa vifaa vyote viwili vinatumia Wifi sawa\n
+                    
+                    
+                        Kipengele hiki hufanya faili zipatikane kwenye mtandao wa karibu nawe, kwa hivyo Kompyuta yako na vifaa vya mkononi
+                        lazima iwe kwenye mtandao huo wa ndani. Huwezi kufikia folda ya Windows iliyoshirikiwa
+                        kwenye mtandao au simu mahiri yako ikiwa imeunganishwa kwa data yake ya rununu - it
+                        lazima iunganishwe kwenye Wi-Fi.\n\n
+                    
+
+                    
+                        Tafuta Anwani ya IP\n
+                    
+                    
+                        Fungua Amri Prompt. Andika \'ipconfig\' na ubonyeze Enter. Tafuta Lango Chaguomsingi
+                        chini ya adapta yako ya mtandao kwa anwani ya IP ya kipanga njia chako. Tafuta
+                        \\\"Anwani ya IPv4\\\" chini ya sehemu ya adapta sawa ili kupata IP ya kompyuta yako
+                        anwani.\n\n
+                    
+
+                    Ingiza maelezo katika kisanduku kidadisi cha SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Haiwezi kushiriki zaidi ya faili 100</string>
+    <string name="otg_access">Chagua mzizi wa kifaa cha OTG</string>
+    <string name="information">Maelezo</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Imefikiwa</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Iliyorekebishwa</string>
+
+    <string name="title">Kichwa</string>
+    <string name="artist">Msanii</string>
+    <string name="album">Albamu</string>
+    <string name="year">Mwaka</string>
+    <string name="duration">Muda</string>
+    <string name="comment">Maoni</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Kontena</string>
+    
+    <string name="channels">Vituo</string>
+    <string name="sample_rate">Kiwango cha Sampuli</string>
+    
+    <string name="dimensions">Vipimo</string>
+    <string name="frame_rate">Kiwango cha Fremu</string>
+    <string name="image_type">Aina ya Picha</string>
+    <string name="width">Upana</string>
+    <string name="height">Urefu</string>
+    <string name="date_modified">Tarehe Iliyorekebishwa</string>
+    <string name="software">Programu</string>
+    <string name="creator">Mtayarishi</string>
+    <string name="camera_brand">Chapa ya Kamera</string>
+    <string name="camera_model">Muundo wa Kamera</string>
+    <string name="date_taken">Tarehe Iliyopigwa</string>
+    <string name="exposure_time">Muda wa Kufichua</string>
+    <string name="aperture_value">Thamani ya Kipenyo</string>
+    <string name="image_iso">Ukadiriaji wa Kasi ya ISO</string>
+    <string name="flash_fired">Mweko Umechomwa</string>
+    <string name="focal_length">Urefu wa Kuzingatia</string>
+    <string name="subject">Mada</string>
+    <string name="author">Mwandishi</string>
+    <string name="keywords">Maneno Muhimu</string>
+    <string name="producer">Mtayarishaji</string>
+    <string name="created">Imeundwa</string>
+    <string name="format">Umbiza</string>
+    <string name="pages">Idadi ya Kurasa</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Imeboreshwa</string>
+    <string name="security">Usalama</string>
+    <string name="paper_size">Ukubwa wa Karatasi</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Baadhi ya faili hazikufanikiwa %s</string>
+    <string name="copied">kunakiliwa</string>
+    <string name="moved">kusogezwa</string>
+    <string name="copy_complete">Nakala Imekamilika</string>
+    <string name="waiting_title">Inasubiri</string>
+    <string name="waiting_content">Inasubiri utendakazi kukamilika</string>
+    <string name="extract_complete">Uchimbaji umekamilika</string>
+    <string name="compression_complete">Mfinyazo Umekamilika</string>
+    <string name="compressing">Inabana</string>
+    <string name="cancelled">Imeghairiwa</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Imeandikwa</string>
+    <string name="out_of">nje ya</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ya</string>
+    <string name="processing_file">Inachakata faili</string>
+    <string name="current_speed">Kasi ya Sasa</string>
+    <string name="smb_launch_error">Utahitaji kunakili faili hii kwenye hifadhi ili kuifungua</string>
+    <string name="error_file_not_found">Hitilafu: Faili Haijapatikana</string>
+    <string name="error_io">Hitilafu ya I/O</string>
+    <string name="error_file_too_large">Hitilafu: Faili Kubwa Sana</string>
+    <string name="medium_text">Maandishi ya Kati</string>
+    <string name="permission_read">Soma</string>
+    <string name="permission_write">Andika</string>
+    <string name="permission_execute">Tekeleza</string>
+    <string name="permission_owner">Mmiliki</string>
+    <string name="permission_group">Kundi</string>
+    <string name="permission_other">Nyingine</string>
+    <string name="clipboard_path_copy">Njia imenakiliwa kwenye ubao wa kunakili</string>
+    <string name="service_timer">Muda umepita</string>
+    <string name="please_wait">Tafadhali Subiri</string>
+
+    <string name="cloud_connection">Muunganisho wa Wingu</string>
+    <string name="cloud_connection_new">Muunganisho Mpya wa Wingu</string>
+    <string name="cloud_dropbox">Dropbox </string>
+    <string name="cloud_drive">Hifadhi ya Google™</string>
+    
+    
+    <string name="cloud_get">Pata programu-jalizi ya Wingu</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Hakuna programu</string>
+    <string name="ftp_path">Njia Inayoshirikiwa</string>
+    <string name="ftp_path_hint">Njia kwenye mzizi wa saraka ili kushiriki</string>
+    <string name="change">Badilisha</string>
+    <string name="unknown_error">Lo, hitilafu fulani!</string>
+
+    <string name="ftp_path_change_success">Njia ya FTP imebadilishwa kwa mafanikio</string>
+    <string name="ftp_path_change_error_invalid">Njia batili</string>
+    <string name="ftp_status_no_connection">Hakuna Muunganisho</string>
+    <string name="ftp_status_secure_connection">Muunganisho Salama</string>
+    <string name="ftp_status_title">Hali</string>
+    <string name="ftp_port">Mlango</string>
+    <string name="ftp_login">Ingia</string>
+    <string name="field_empty">Sehemu haiwezi kuwa tupu</string>
+    <string name="ftp_timeout">Muda wa kutofanya kazi umekwisha</string>
+    <string name="ftp_seconds">Sekunde</string>
+    <string name="intellihide_toolbar_title">Upauzana wa Intellihide</string>
+    <string name="intellihide_toolbar_summary">Ficha upau wa vidhibiti kiotomatiki unaposogeza</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">imenakiliwa kwenye ubao wa kunakili</string>
+    <string name="contributors_1_summary">Tafsiri</string>
+    <string name="contributors_2_summary">Aikoni na mabango</string>
+    <string name="contributors_3_summary">Injini ya Mandhari</string>
+    <string name="contributors_4_summary">Kivuli nyuma ya FAB</string>
+    <string name="contributors_5_summary">Ubadilishaji wa rangi unapotelezesha vichupo</string>
+    <string name="contributors_6_summary">Seva ya FTP</string>
+    <string name="contributors_7_summary">Kufungua ganda wasilianifu</string>
+    <string name="connection_exists">Muunganisho tayari upo</string>
+
+    <string name="crypt_encrypting">Usimbaji</string>
+    <string name="crypt_decrypting">Usimbuaji</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Usimbo fiche</string>
+    <string name="crypt_decrypted">Umesimbwa</string>
+    <string name="crypt_encrypt">Simba kwa njia fiche</string>
+    <string name="crypt_decrypt">Simbua</string>
+    <string name="operation_fail_following">Uendeshaji haukufaulu kwa kufuata faili</string>
+    <string name="crypt_pref_master_password_title">Nenosiri Kuu</string>
+    <string name="crypt_pref_master_password_summary">Weka nenosiri kuu la usimbaji fiche.
+        Acha tupu ili uondoe.</string>
+    <string name="crypt_pref_fingerprint_title">Alama ya vidole</string>
+    <string name="crypt_pref_fingerprint_summary">Tumia alama ya vidole ili kuthibitisha usimbaji fiche</string>
+    <string name="crypt_fingerprint_no_permission">Ruhusa za alama za vidole hazipo</string>
+    <string name="crypt_fingerprint_not_enrolled">Hakuna alama ya vidole iliyoandikishwa</string>
+    <string name="crypt_fingerprint_no_security">Hakuna usalama wa kufunga skrini kupatikana</string>
+    <string name="crypt_warning_key">Pata ushauri, unapobadilisha muundo wako wa usalama kutoka
+        Mipangilio ya mfumo, hutaweza kusimbua maudhui haya.</string>
+    <string name="warning_never_show">Usijulishe tena</string>
+    <string name="warning_confirm">Nimeelewa!</string>
+    <string name="crypt_encryption_fail">Imeshindwa kusimba</string>
+    <string name="crypt_decryption_fail">Imeshindwa kusimbua</string>
+    <string name="crypt_decryption_fail_password">Nenosiri si sahihi!</string>
+    <string name="crypt_fingerprint_authenticate">Gusa kihisi ili kuendelea</string>
+    <string name="authenticate_password">Weka nenosiri</string>
+
+    <string name="sidebar_preferences">Upau wa kando</string>
+    <string name="sidebar_quick_access_title">Ufikiaji wa haraka wa Upau wa kando</string>
+    <string name="show_quick_access_pref_title">Onyesha ufikiaji wa haraka</string>
+    <string name="show_quick_access_pref">Mifikio ya haraka</string>
+    
+
+    <string name="sidebar_bookmarks_title">alamisho za Upau wa kando</string>
+    <string name="show_bookmarks_pref_title">Onyesha alamisho</string>
+    <string name="show_bookmarks_pref">Alamisho</string>
+    <string name="create_bookmark">Unda alamisho</string>
+    <string name="edit_bookmark">Hariri alamisho</string>
+    <string name="question_delete_bookmark">Ungependa kufuta alamisho?</string>
+
+    <string name="cloud_error_plugin">Programu-jalizi ya Wingu la Amaze haijapatikana. Tafadhali pakua kutoka kwa Play Store.</string>
+    <string name="cloud_error_failed_restart">Imeshindwa kupakia muunganisho.
+        Tafadhali fungua Amaze Cloud mara moja.</string>
+    <string name="cloud_remove">Je, ungependa kuondoa muunganisho wa wingu?</string>
+    <string name="cloud_fail_authenticate">Imeshindwa kuthibitisha</string>
+    <string name="cloud_share_copied">Kiungo kinachoweza kushirikiwa kimenakiliwa kwenye ubao wa kunakili</string>
+    <string name="copy_low_memory">Imeisha kumbukumbu, tafadhali futa baadhi ya RAM</string>
+    <string name="cloud_token_lost">Ishara iliyopotea, tafadhali ingia tena</string>
+    <string name="monofont">Fonti ya Monospace</string>
+    <string name="showHeaders">Onyesha Vichwa</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Hakuna vipengee</string>
+	<string name="item">bidhaa</string>
+	<string name="items">vipengee</string>
+	
+	
+	<string name="bytes">baiti</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Faili inapaswa kuwa na jina</string>
+    <string name="add_item">Ongeza Bidhaa</string>
+    <string name="failed_smb_decrypt_path">Imeshindwa kupakia Muunganisho wa SMB</string>
+    <string name="failed_cloud_new_connection">Imeshindwa kuongeza muunganisho mpya wa Wingu</string>
+    <string name="failed_cloud_api_key">Imeshindwa kuthibitisha programu-jalizi ya Wingu</string>
+
+    <string name="local_inet_addr_error">Hitilafu katika kupata anwani ya kieneo ya ndani</string>
+    <string name="intent_save_as">Hifadhi kama…</string>
+    <string name="go">Nenda</string>
+    
+    <string name="typeable_paths_title">Njia maalum</string>
+    <string name="typeable_paths_summary">Upau wa njia ya kubonyeza kwa muda mrefu ili kuandika njia maalum</string>
+    <string name="send_email_to">Tuma barua pepe kwa</string>
+
+    <string name="text_editor">Mipangilio ya kihariri cha maandishi</string>
+    <string name="preference_newstack_title">Fungua faili kama kazi mpya</string>
+    <string name="preference_newstack_summary">Hukuruhusu kufungua faili katika kazi tofauti. Zifikie kutoka skrini ya hivi karibuni ya mfumo.</string>
+    
+    <string name="developers">Wasanidi</string>
+    <string name="no_bitcoin_app">Tafadhali sakinisha programu ya Bitcoin Wallet</string>
+    <string name="channel_name_normal">Arifa za Amaze</string>
+    <string name="channel_description_normal">Arifa za Kidhibiti Faili</string>
+    <string name="channel_name_ftp">Angaza Seva ya FTP</string>
+    <string name="channel_description_ftp">Arifa za Kidhibiti Faili cha FTP\</string>
+
+    
+    <string name="processing">Inachakata…</string>
+    <string name="failed_no_connection">Imeshindwa kupakia faili. Tafadhali angalia muunganisho wako.</string>
+
+    <string name="update">SASISHA</string>
+	<string name="scp_connection">Muunganisho wa SCP/SFTP</string>
+    <string name="ftp_connection">Muunganisho wa FTP</string>
+    <string name="ftps_connection">FTP juu ya Muunganisho wa SSL</string>
+    <string name="scp_port">Mlango</string>
+    <string name="ssh_host_key_verification_prompt">Ukweli wa seva pangishi \'%1$s\' hauwezi kuthibitishwa.\n\n%2$s alama ya vidole muhimu ni %3$s.\n\nTafadhali gusa \"Ndiyo\" ili kuthibitisha utambulisho; vinginevyo, tafadhali gusa \"Hapana\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Thibitisha Mpangishi</string>
+    <string name="ssh_select_pem_button">Ufunguo wa Faragha wa SSH</string>
+    <string name="ssh_pem_key_parse_error">Haiwezi kusoma PEM iliyochaguliwa: %s</string>
+    <string name="password_unchanged">(haijabadilika)</string>
+    <string name="ssh_authentication_failure_password">Kushindwa kwa nembo: Haiwezi kuthibitisha kwa jina la mtumiaji na nenosiri lililotolewa.</string>
+    <string name="ssh_authentication_failure_key">Imeshindwa kuingia: Haijaweza kuthibitisha kwa kutumia jina la mtumiaji na ufunguo wa faragha uliotolewa.</string>
+    <string name="ssh_connect_failed">Imeshindwa kuunganisha kwa %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ONYO: KITAMBULISHO CHA MWENYEJI WA NDANI WA NDANI UMEBADILIKA!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">INAWEZEKANA MTU ANAFANYA KITU KICHAFU!\n\nHuenda mtu akawa anakusikiliza! sasa hivi (shambulio la mtu katikati)! Inawezekana pia kwamba ufunguo wa mwenyeji umebadilishwa hivi karibuni. Alama ya kidole ya ufunguo wa umma unaotumwa na seva pangishi ya mbali hailingani na ile iliyohifadhiwa katika Amaze.\n\nTafadhali wasiliana na msimamizi wa mfumo wako au usanidi muunganisho mpya ili kuendelea kuunganisha kwenye seva.</string>
+    <string name="ssh_key_prompt_passphrase">Tafadhali weka kaulisiri muhimu. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Uundaji wa njia za mkato hauauniwi na kizindua chako.</string>
+    
+    <string name="select_color_config">Chagua usanidi wa rangi</string>
+    <string name="customize">Geuza kukufaa</string>
+    
+    <string name="preselected_configs_title">Mipangilio Iliyochaguliwa Mapema</string>
+    <string name="orange">Machungwa</string>
+    <string name="blue">Bluu</string>
+    <string name="green">Kijani</string>
+    <string name="password_no_match">Nenosiri halilingani</string>
+    <string name="deselect_all">Ondoa Chaguo Zote</string>
+    <string name="filename">Jina la Faili</string>
+    <string name="compress_file_suggest_zip_extension">Inapendekezwa kutumia \".zip\" kama kiendelezi cha faili.</string>
+    <string name="about_amaze">Kidhibiti cha faili cha muundo wa nyenzo kwa Android</string>
+    <string name="license">Leseni</string>
+    <string name="libraries">Maktaba</string>
+    <string name="password_repeat">Rudia nenosiri</string>
+    <string name="create_file_suggest_txt_extension">Inapendekezwa kutumia \".txt\" kama kiendelezi cha faili.</string>
+    <string name="ssh_select_pem">Chagua ufunguo wa faragha kwa uthibitishaji</string>
+    <string name="ssh_key_invalid_passphrase">Nenosiri la ufunguo batili.</string>
+    <string name="ssh_key_no_decoder_decrypt">Hakuna dekoda halali ya kusimbua PEM.</string>
+    <string name="encryption_fail_copy">Imeshindwa kusasisha ingizo la usimbaji fiche katika hifadhidata</string>
+    <string name="extracted">Imetolewa</string>
+    <string name="compressed">Imebanwa</string>
+    <string name="processed">Imechakatwa</string>
+    <string name="no_obtainable_info">Hakuna maelezo kuhusu faili hii</string>
+    <string name="reopen_from_source">Haiwezi, tafadhali fungua tena kutoka kwa programu ya mwisho</string>
+    <string name="no_file_error">Hitilafu imetokea, hakuna kitu cha kufungua</string>
+    <string name="file_too_long">faili ni ndefu sana na haiwezi kuhaririwa, hata hivyo unaweza kusoma herufi %d za kwanza</string>
+    <string name="file_read_only">Faili iliyofunguliwa ni ya kusoma tu.</string>
+    <string name="got_it">Nimeelewa!</string>
+    <string name="encrypt_file_save_as">Hifadhi Iliyosimbwa kwa Njia Fiche. Faili Kama…</string>
+    <string name="encrypt_folder_save_as">Hifadhi Folda Iliyosimbwa Kama…</string>
+    <string name="encrypt_option_use_aze">Tumia Umbizo la Usimbaji Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt ni umbizo la usimbaji faili huria kulingana na usimbaji fiche wa AES. Pia inabebeka, inaweza kusimbwa kwa programu za AESCrypt kwenye mifumo mingine.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">Tovuti ya AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Muundo wa Usimbaji wa Amaze pia unatokana na usimbaji fiche wa AES; lakini tofauti na umbizo la AESCrypt, inaweza tu kusimbwa na kifaa hiki; pia hupaswi kusanidua Kidhibiti Faili cha Amaze kutoka kwa kifaa hiki wala kubadilisha jinsi unavyofunga skrini, vinginevyo hutakuwa na njia ya kurejesha faili iliyosimbwa.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Faili zilizosimbwa lazima zitumie \".aze\" kama kiendelezi cha faili.</string>
+    <string name="encrypt_file_must_end_with_aes">Faili zilizosimbwa lazima zitumie \".aes\" kama kiendelezi cha faili.</string>
+    <string name="error_aescrypt_decrypt_failed">Haiwezi kusimbua usimbaji fiche. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Haiwezi kubatilisha faili.</string>
+    <string name="saved_single_file">Faili imehifadhiwa kama \'%s\'.</string>
+    <string name="saved_multi_files">Faili %d zimehifadhiwa.</string>
+    <string name="create_hidden_file_warn">Faili iliyoundwa itafichwa katika orodha ya faili.</string>
+    <string name="grant_apkinstall_permission">Programu inahitaji ruhusa ili kusakinisha programu kuendelea.</string>
+    <string name="time_remaining">Muda uliosalia</string>
+    <string name="transfer_rate">Asilimia ya uhamishaji</string>
+    <string name="unknown">haijulikani</string>
+    <string name="multiple_invalid_archive_entries">Baadhi ya faili kwenye kumbukumbu haziwezi kutolewa; kumbukumbu inaweza kuharibiwa au kutoka kwa chanzo hasidi.</string>
+    <string name="saf_otg_explanation">Sasa utaenda kwenye mfumo wa faili wa Android kwa sababu za kiusalama. Tafadhali chagua kifaa cha USB kutoka kwenye orodha iliyo upande wa kushoto.</string>
+    <string name="donation_thanks">Asante kwa mchango, hii hutuweka motisha! (:</string>
+    <string name="enable_marquee_filename">Washa madoido kwa majina ya faili</string>
+    <string name="archive_password_prompt">Tafadhali weka nenosiri la kumbukumbu:</string>
+    
+    <string name="cannot_extract_archive">Haiwezi kutoa kumbukumbu \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Haiwezi fungua kumbukumbu \"%s\". Hatuwezi kufungua kumbukumbu, au kumbukumbu iliharibiwa.</string>
+    <string name="close">Funga</string>
+    <string name="bookmark_exists">Alamisho ipo</string>
+    <string name="hide_media">Ficha kutoka kwa vivinjari vya midia</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">INAWEZEKANA KWAMBA MTU ANAFANYA JAMBO KIASI!\n\nHuenda mtu anakusikiliza kwa sasa (shambulio la mtu katikati)! Inawezekana pia kwamba ufunguo wa seva pangishi umebadilishwa hivi punde. Alama ya kidole kwa maana ufunguo wa umma unaotumwa na seva pangishi ya mbali haulingani na ule uliohifadhiwa katika Amaze.\n\nUnaweza kuendelea na kusasisha alama za vidole vya mpangishi au kughairi kusasisha mipangilio ya muunganisho wa SSH.</string>
+    <string name="update_host_key">Sasisha Ufunguo wa Sevaji</string>
+    <string name="cancel_recommended">Ghairi (Inapendekezwa)</string>
+    
+    
+    <string name="failed_install_apk">Imeshindwa kusakinisha</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Hifadhi ya Ndani</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">kadi ya SD</string>
+    <string name="choose_folder">Chagua Folda Hii</string>
+    
+    <string name="some_files_failed_invalid_operation">Baadhi ya faili hazijafaulu kwa sababu ya batili operesheni</string>
+    <string name="ftp_server_prompt_connect_to_network">Unganisha kwenye mtandao au uwashe AP</string>
+    <string name="ftp_server_open_settings">Fungua mipangilio</string>
+    <string name="move">Hamisha</string>
+    <string name="select_save_location">Chagua eneo ili kuhifadhi</string>
+    <string name="scp_default_path">Njia Chaguomsingi (Si lazima)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Samahani, hilo halingefanyika.</string>
+    
+    <string name="error_report_button_text">Ripoti hitilafu hii kupitia barua pepe</string>
+    <string name="error_report_button_telegram">Ripoti hitilafu hii kupitia telegram</string>
+    <string name="copy_for_github">Nakili ripoti iliyoumbizwa</string>
+    <string name="error_report_open_issue_button_text">Ripoti kuhusu GitHub</string>
+    <string name="error_report_open_github_notice">Tafadhali angalia kama tatizo linalojadili kuacha kufanya kazi tayari lipo.</string>
+    <string name="error_snackbar_message">Samahani, hitilafu imetokea.</string>
+    <string name="error_snackbar_action">Ripoti</string>
+    <string name="what_device_headline">Maelezo:</string>
+    <string name="what_happened_headline">Kilichotokea:</string>
+    <string name="info_labels">Nini:\\nOmba:\\nGMT Time:\\nPackage:\\nVersion:\\nOS version:\\nKifaa:\\nModel:\\nBidhaa :</string>
+    <string name="your_comment">Maoni yako (kwa Kiingereza):</string>
+    <string name="error_details_headline">Maelezo:</string>
+    <string name="app_ui_crash">Programu/UI imeanguka</string>
+    <string name="error_report_title">Ripoti ya hitilafu</string>
+    <string name="crash_report_copied">Ripoti ya kuacha kufanya kazi imenakiliwa kwa ubao wa kunakili</string>
+    <string name="disableIpcSignature">Zima hundi ya kutia sahihi kwa IPC (Kwa seva za SMBv1 zilizopitwa na wakati - UNSALAMA!)</string>
+    <string name="cannot_delete_file">Haiwezi kufuta faili</string>
+    <string name="cannot_delete_file_with_reason">Haiwezi kufuta faili - %s</string>
+    <string name="cannot_rename_file">Haiwezi kubadili jina la faili %s - %s</string>
+    <string name="cannot_read_directory">Haiwezi kusoma saraka %s - %s</string>
+    <string name="just_once">Mara Moja Tu </string>
+    <string name="always">Daima</string>
+    <string name="choose_different_app">Chagua programu tofauti</string>
+    <string name="clear_open_file">Futa akiba</string>
+    <string name="clear_open_file_summary">Hufuta programu chaguomsingi za kufungua faili zilizochaguliwa</string>
+    <string name="ftp_readonly">ufikiaji wa kusoma pekee</string>
+    <string name="legacy_listing_title">Tumia uorodheshaji wa urithi kwa mzizi</string>
+    <string name="legacy_listing_summary">Ikiwashwa, hutumia mbinu ya urithi kuorodhesha faili </string>
+    <string name="error_unsupported_v5_rar">Kumbukumbu ya RAR \"%s\" haitumiki kwenye kumbukumbu ya RAR v5.</string>
+    <string name="ftp_prompt_restart_server">Utahitaji kuwasha upya seva ya FTP ili mabadiliko yaanze kutekelezwa.</string>
+    <string name="error_permission_denied">Ruhusa imekataliwa</string>
+    <string name="error_archive_password_incorrect">Nenosiri lisilo sahihi la kumbukumbu.</string>
+    <string name="error_archive_cannot_extract">Haiwezi kutoa ingizo la kumbukumbu \"%s\" hadi \"%s\".</string>
+    <string name="drag_and_drop_preference">Chagua mapendeleo ya kuvuta na kuacha (Majaribio)</string>
+    <string name="drag_to_move_copy">Gusa na uburute ili kuhamisha au kunakili faili</string>
+    <string name="drag_to_select">Gusa na uburute ili kuchagua faili</string>
+    <string name="disable">Zima</string>
+    <string name="choose_operation">Chagua operesheni ya kutekeleza</string>
+    <string name="remember">Kumbuka kwa wakati ujao</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Ipe SAF ufikiaji wa seva ya FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Kwa kuwa huu ni utumiaji wako wa kwanza wa seva ya FTP, na unatumia hifadhi ya ndani ya kifaa kama folda iliyoshirikiwa, tafadhali ruhusu Amaze kufikia hifadhi kwa kutumia. SAF.\n\n
+
+Unahitaji kufanya hivi mara moja tu, hadi wakati mwingine utakapochagua eneo jipya la kushiriki.</string>
+    <string name="android_data_prompt_saf_access">Kwa kuwa Android 10, Android iliweka vikwazo kwenye saraka fulani, na zinahitaji kufikia kwa kutumia Mfumo wa Kufikia Hifadhi.\n \nTafadhali ruhusu Amaze kufikia saraka kutoka kwa kidhibiti faili cha mfumo kwa kugonga \"Ruhusu Ufikiaji\".</string>
+    <string name="android_data_prompt_saf_access_title">Ipe SAF ufikiaji</string>
+    <string name="ftp_preference_saf_filesystem_title">Tumia mfumo wa faili uliopitwa na wakati</string>
+    <string name="ftp_preference_saf_filesystem">Washa hii kwa usaidizi wa kutumia hifadhi ya nje ya kifaa kwenye matoleo mapya ya Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Njia ya pamoja ya seva ya FTP imewekwa upya hadi hifadhi ya ndani unaporudi utekelezaji wa mfumo wa urithi. Tafadhali chagua njia mpya kwa kutumia menyu iliyo upande wa juu kulia inapohitajika.</string>
+    <string name="ftp_server_reset_notify">Njia ya pamoja ya seva ya FTP imewekwa upya hadi hifadhi ya ndani</string>
+    <string name="ftp_server_root_unavailable">Unachagua njia ambayo inahitaji ufikiaji wa mizizi. Tafadhali washa kichunguzi cha mizizi katika mipangilio ikiwa kifaa chako kimezibwa.</string>
+    <string name="ftp_server_root_filesystem_warning">Unachagua njia ambayo inahitaji ufikiaji wa mizizi, ambayo huwezesha shughuli za kusoma/kuandika katika mfumo mzima wa faili kwenye kifaa chako, na ni hatari - makosa ya kutojali yanaweza. tonea kifaa chako!\n\nJe, una uhakika?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Hitilafu imetokea wakati wa kufungua URI \"%s\" kwa ajili ya kusoma.</string>
+    <string name="error_empty_archive">\"%s\" ni kumbukumbu tupu.</string>
+    <string name="error_bad_archive_without_info">\"%s\" ni kumbukumbu iliyoharibika.</string>
+    <string name="error_bad_archive_with_info">\"%s\" ni kumbukumbu iliyoharibika.\nUjumbe kutoka kwa kichuna: \"%s\"</string>
+    <string name="security_error">Faili haikuweza. itafunguliwa kwa kutumia programu hii</string>
+    <string name="cloud_drive_tooltip">Unda muunganisho wa Hifadhi ya Google™ kwa ajili ya kudhibiti faili kutoka ndani ya Kidhibiti Faili cha Amaze.</string>
+    <string name="signin_with_google_title">Thibitisha ili kutumia Hifadhi ya Google™</string>
+    <string name="show_system_apps">Onyesha programu za mfumo</string>
+    <string name="system_apps">Programu za mfumo</string>
+    <string name="select_inverse">Chagua Inverse</string>
+    <string name="select_by_type">Chagua kwa aina</string>
+    <string name="select_by_date">Chagua kwa tarehe</string>
+    <string name="select_similar">Chagua inayofanana</string>
+    <string name="error_fetching_google_play_product_list">Hitilafu katika kuleta orodha ya bidhaa kutoka Google Play.</string>
+    <string name="grant_all_files_permission">Kwa kuwa Android 11, Google huwaomba Wasimamizi wa Faili kuomba ruhusa ya mtumiaji ili kudhibiti faili zote kwenye kifaa. Maelezo hapa.
+        \n\nKidhibiti Faili cha Amaze kinahitaji ruhusa hii pia. Baada ya kubonyeza "Ruhusu" hapa, tafadhali chagua Ruhusu ufikiaji ili kudhibiti chaguo la faili zote kwenye skrini inayofuata.
+        \n\nKughairi mazungumzo haya kutaondoka kwenye programu.</string>
+    <string name="user_apps">Programu za mtumiaji</string>
+    <string name="appearance">Muonekano</string>
+    <string name="behavior">Tabia</string>
+    <string name="appearance_summary">Badilisha mandhari, rangi na mwonekano wa kidhibiti faili kukufaa.</string>
+    <string name="ui_summary">Dhibiti taarifa gani ya kuonyesha, badilisha upau wa kando upendavyo, na ugeuze mapendeleo ya UI</string>
+    <string name="behavior_summary">Rekebisha tabia kama vile utafutaji wa kina na iwapo utafungua faili kama kazi mpya</string>
+    <string name="security_summary">Kuweka nenosiri na usimbaji fiche</string>
+    <string name="backup_summary">Hamisha/Leta mipangilio ya Amaze</string>
+
+    <string name="pref_export">Hamisha</string>
+    <string name="pref_export_summary">Hamisha mipangilio</string>
+    <string name="pref_import">Leta</string>
+    <string name="pref_import_summary">Leta mipangilio</string>
+
+    <string name="quick_desc">Faili iliyofikiwa hivi majuzi kupitia Amaze</string>
+    <string name="recent_desc">Faili zilizoundwa au zilizorekebishwa hivi majuzi</string>
+    <string name="error_cannot_find_way_open">Haikuweza kupata njia ya kufungua faili</string>
+    <string name="error_cant_decompress_that_file">Haiwezi kuchakata kumbukumbu iliyoombwa</string>
+    <string name="analyse_storage">Changanua Hifadhi</string>
+    
+    <string name="download_amaze_utils_text">Unaelekezwa kwingine kwa Huduma za Faili za Amaze. Ni programu yetu huria ambayo ina vitazamaji vya sauti/video/picha/hati, hukuruhusu kuchanganua faili taka ili kuongeza hifadhi, uhamishe haraka ukitumia Wifi P2P na mengine mengi.\nTafadhali utusaidie kwa kujaribu.</string>
+    <string name="download">Pakua</string>
+    
+    <string name="amaze_utils_installed_alias">Asante kwa kusakinisha Huduma za Faili za Amaze. Unaelekezwa kwenye programu.</string>
+    <string name="image_viewer">Kitazamaji Picha cha Amaze</string>
+    <string name="video_player">Kicheza Video cha Amaze</string>
+    <string name="amaze_audio_player">Kicheza Muziki cha Amaze</string>
+    <string name="pdf_viewer">Kitazama Hati cha Ajabu</string>
+    <string name="docx_viewer">Kitazamaji cha Hati cha Amaze</string>
+    <string name="share_logs">Shiriki kumbukumbu</string>
+    <string name="share_logs_summary">Shiriki kumbukumbu zilizonaswa kupitia barua pepe / telegram</string>
+    <string name="open_with_amaze">Fungua ukitumia Amaze</string>
+    <string name="confirmation">Uthibitisho</string>
+    <string name="open_file_confirmation">Je, una uhakika unataka kufungua faili ifuatayo?\n\nJina:\n%s\n\nMahali:\n%s\n\nUkubwa:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Kwa mujibu wa mamlaka ya sera ya Google Play, programu haziruhusiwi kujisasisha zenyewe. Tafadhali sasisha programu kutoka Google Play.</string>
+    <string name="error_cannot_get_package_info">Haijaweza kupata maelezo ya kifurushi kutoka kwa faili \"%s\". Faili iliyobainishwa si APK, au faili ya kifurushi ni mbovu.</string>
+    <string name="preference_delete_confirmation">Futa uthibitisho</string>
+    <string name="preference_delete_confirmation_summary">Omba uthibitisho kabla ya kufuta faili. Kuzima hii kumekatishwa tamaa sana!</string>
+    
+    
+    <string name="protocol_ftps">Salama FTP</string>
+    <string name="unavailable">Haipatikani</string>
+
+    <string name="exporting_failed">Kuhamisha kumeshindwa: haikuweza kuandika faili chelezo</string>
+    <string name="importing_failed">Imeshindwa kuleta: haikuweza kusoma nakala rudufu. faili</string>
+    <string name="importing_completed">Kuagiza kumekamilika</string>
+    <string name="invalid_backup_file">Faili mbadala isiyo sahihi</string>
+    <string name="import_failed_for">Imeshindwa kuleta kwa:</string>
+    <string name="free_of">"%s\n%s bila %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin haitumiki kwa F- Toleo la Droid. Tafadhali tumia toleo la Duka la Google Play la Amaze.</string>
+    <string name="disable_player_intent_filters">Zima vichujio vya kuratibu vya kichezaji</string>
+    <string name="disable_player_intent_filters_summary">Lemaza vicheza media vilivyoundwa ndani ya Amaze kutoka kwa kichagua faili</string>
+    <string name="no_app_found_intent">Hakuna programu iliyopatikana kushughulikia dhamira hii. Je, umesakinisha DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Vyeti vya Muunganisho wa Wingu vimefutwa</string>
+    <string name="cloud_connection_credentials_cleared_msg">Kwa bahati mbaya, hatukuweza kuhamisha vitambulisho vyako vya muunganisho wa wingu hadi kwa taratibu mpya ya hifadhidata, na ilitubidi kuviondoa kwenye programu. Tafadhali unda muunganisho wa wingu tena.</string>
+</resources>

@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze ھۆججەت باشقۇرغۇچىسى</string>
+    <string name="drawer_open">ئوچۇق يول باشلاش تارتمىسى</string>
+    <string name="drawer_close">يول باشلاش تارتمىسىنى تاقاش</string>
+    <string name="icon">سىنبەلگىسى</string>
+    <string name="apps">ئەپ باشقۇرغۇچى</string>
+    <string name="ftp">FTP مۇلازىمېتىر</string>
+    <string name="setting">تەڭشەكلەر</string>
+    <string name="select">تۈرنى تاللاڭ</string>
+    <string name="press_again">قايتا چېكىڭ</string>
+    <string name="open"/>
+    <string name="backup">زاپاسلاش</string>
+    <string name="uninstall">ئۆچۈرۈڭ</string>
+    <string name="play">ئويۇن دۇكىنى</string>
+    <string name="properties">خاسلىقى</string>
+    <string name="copyingapks">% d APK ھۆججىتىنى% s</string>
+    <string name="delbook">خەتكۈچنى ئۆچۈرۈڭ</string>
+    <string name="add_to_bookmarks">خەتكۈچكە قوشۇڭ</string>
+    <string name="enterpath">يولنى كىرگۈزۈڭ</string>
+    
+    
+    <string name="loading">يۈكلەۋاتىدۇ…</string>
+    <string name="file_empty">ھۆججەت قۇرۇق</string>
+    <string name="error">خاتالىق</string>
+    <string name="search_results">% s</string>
+    <string name="rename">نامىنى ئۆزگەرتىش</string>
+    <string name="save"/>
+    <string name="bookmarks_added">خەتكۈچ قوشۇلدى</string>
+    <string name="fileexist">ئوخشاش ئىسىمدىكى ھۆججەت ئاللىبۇرۇن مەۋجۇت</string>
+    <string name="name">ئىسمى</string>
+    <string name="date">چېسلا</string>
+    <string name="location">ئورنى</string>
+    <string name="size_capitalized">چوڭلۇقى</string>
+    <string name="size">ھۆججەت قىسقۇچنىڭ چوڭلۇقى</string>
+    <string name="enterzipname">پوچتا نامىنى كىرگۈزۈڭ</string>
+    <string name="no_app_found">بۇ ھۆججەتنى ئېچىش ئۈچۈن ھېچقانداق ئەپ تېپىلمىدى</string>
+    <string name="copying"/>
+    <string name="moving">يۆتكىلىش</string>
+    <string name="file">ھۆججەت</string>
+    <string name="folder">ھۆججەت قىسقۇچ</string>
+    <string name="newfolder">يېڭى ھۆججەت قىسقۇچ</string>
+    <string name="entername">ئىسىمنى كىرگۈزۈڭ</string>
+    <string name="extracting">ئېلىش</string>
+    <string name="stopping">توختىتىش</string>
+    <string name="open_parent">ئاتا-ئانىلار مۇندەرىجىسى</string>
+    <string name="open_with"/>
+    <string name="share">بىلەن ئورتاقلىشىش</string>
+    <string name="about">ھەققىدە</string>
+    <string name="extract">قىسقارتىش</string>
+    <string name="compress">پىرىسلاش</string>
+    <string name="yes">ھەئە</string>
+    <string name="no">ياق</string>
+    
+    <string name="dialog_delete_category_directories">مۇندەرىجە</string>
+    <string name="dialog_delete_category_files">ھۆججەتلەر</string>
+    <string name="dialog_delete_disclaimer">تۆۋەندىكى تۈرلەرنى ئۆچۈرسىڭىز ئۈسكۈنىڭىزدىن مەڭگۈلۈك ئۆچۈرۈۋېتىلىدۇ ۋە ئەسلىگە كەلتۈرگىلى بولمايدۇ.</string>
+    <string name="dialog_delete_title">تۈرلەرنى مەڭگۈلۈك ئۆچۈرەمسىز؟</string>
+    <string name="deleting">ئۆچۈرۈش</string>
+    <string name="question_set_path_as_home">سىز بۇ بەتكۈچنىڭ ئۆيى سۈپىتىدە ھازىرقى يولنى بەلگىلىمەكچىمۇ؟</string>
+    <string name="directorysort">مۇندەرىجە تەرتىپلەش ھالىتى</string>
+    <string name="sort_by">تەرتىپلەش</string>
+    <string name="sort_only_this">پەقەت بۇ ھۆججەت قىسقۇچ</string>
+    <string name="theme">تېما</string>
+    <string name="random">ئىختىيارى تېرە</string>
+    <string name="random_summary">قوزغالغاندا ئىختىيارى دەسلەپكى رەڭنى بەلگىلەيدۇ</string>
+    <string name="colorize">سىنبەلگىلەرنى رەڭلەش</string>
+    <string name="colorize_summary">تۇراقلىق سىنبەلگە رەڭگىنى بەلگىلەيدۇ. مۇندەرىجە سىنبەلگىسىنىڭ رەڭ مايىللىقىنى قاپلىمايدۇ.</string>
+    <string name="home">باش بەت</string>
+    <string name="paste">چاپلاش</string>
+    <string name="history">تارىخ</string>
+    <string name="copy">كۆچۈرۈش</string>
+    
+    <string name="root_mode_summary">پەقەت يىلتىز ئۈسكۈنىسى ئۈچۈن. ئەگەر ئۇنى جەزملەشتۈرسىڭىزلا تەكشۈرۈپ بېقىڭ.</string>
+    <string name="root_failure">يىلتىز زىيارەت قىلىش ھوقۇقى بېرىلمىدى</string>
+    <string name="select_all">بارلىق</string>
+    <string name="delete">ئۆچۈرۈڭ</string>
+    <string name="set_as_home">ئۆي قىلىپ قويۇڭ</string>
+    <string name="operation_not_supported">مەشغۇلاتنى قوللىمايدۇ</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">ماتېرىيال نۇرى</string>
+    <string name="dark">ماتېرىيال قاراڭغۇ</string>
+    <string name="daytime">كۈندۈزلۈك</string>
+    <string name="black">قارا (OLED ئۈچۈن)</string>
+    <string name="system">سىستېما (سىستېما تېمىغا ئەگىشىڭ)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">ئۈستىدىكى ھۆججەت قىسقۇچ</string>
+    <string name="filesOnTop">ئۈستىدىكى ھۆججەتلەر</string>
+    <string name="none_on_top">ئۈستىدىكى ھېچكىم</string>
+    <!--SortBy-->
+    <string name="sort_name">ئىسمى</string>
+    <string name="lastModified">ئاخىرقى قېتىم ئۆزگەرتىلگەن</string>
+    <string name="sort_size">چوڭلۇقى</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">ھۆججەت تاللاڭ</string>
+    <string name="process_viewer">جەريان كۆرگۈچى</string>
+    <string name="in_safe">بوشلۇق يېتەرلىك ئەمەس</string>
+    <string name="no_file_overwrite">ھۆججەت يېزىلمىدى</string>
+    <string name="skip">ئاتلاش</string>
+    <string name="overwrite">قاپلاش</string>
+    <string name="not_allowed">رۇخسەت قىلىنمايدۇ</string>
+    <string name="searching">ئىزدەش% s</string>
+    <string name="done">تاماملاندى</string>
+    <string name="set">تەڭشەش</string>
+    <string name="enablerootmde">يىلتىز ھالىتىنى قوزغىتىش</string>
+    <string name="goback">قايتىش</string>
+    <string name="newfile">يېڭى ھۆججەت</string>
+    <string name="no_files">ھۆججەت يوق</string>
+    <string name="used">ئىشلىتىلگەن بوشلۇق</string>
+    <string name="used_by_others">باشقىلار ئىشلەتكەن</string>
+    <string name="free">ھەقسىز بوشلۇق</string>
+    <string name="listview">تىزىملىك ​​كۆرۈنۈشى</string>
+    <string name="gridview">كاتەكچە كۆرۈنۈش</string>
+    <string name="permission">ئىجازەتنامە</string>
+    <string name="hide">يوشۇرۇش</string>
+    <string name="exit">چېكىنىش</string>
+    <string name="doforall">بارلىق تۈرلەرنى قىلىڭ</string>
+    <string name="gridcolumnno">كاتەكچە كۆرۈنۈشتىكى ئىستون سانى</string>
+    <string name="set_random">ئەپنى قايتا قوزغىغاندىن كېيىن يۈز بېرىدۇ</string>
+    <string name="authors">ئاپتورلار</string>
+    
+    
+    <string name="ui">كۆرۈنمە يۈزى</string>
+    <string name="general">ئادەتتىكى</string>
+    <string name="thumb_summary">ئەپ ۋە رەسىملەرنىڭ كىچىك كۆرۈنۈشلىرىنى كۆرسىتىش</string>
+    <string name="thumb">كىچىك كۆرۈنۈشلەرنى كۆرسىتىش</string>
+    <string name="hidden">يوشۇرۇن ھۆججەت ۋە ھۆججەت قىسقۇچلارنى كۆرسىتىش</string>
+    <string name="lastModifiedSummary">ئاخىرقى ئۆزگەرتىشنىڭ ۋاقتى ۋە ۋاقتىنى كۆرسىتىڭ</string>
+    <string name="lastModifiedPref">ئاخىرقى ئۆزگەرتىلگەن چېسلا ۋە ۋاقىتنى كۆرسىتىڭ</string>
+    <string name="size_pref_summary">ھۆججەتلەرنىڭ چوڭ-كىچىكلىكىنى ۋە ھۆججەت قىسقۇچتىكى تۈر سانىنى كۆرسىتىڭ</string>
+    <string name="size_pref">چوڭ-كىچىكلىكىنى كۆرسىتىش</string>
+    <string name="miscellaneous">ھەرخىل</string>
+    <string name="root_pref_summary">ھۆججەت ۋە ھۆججەت قىسقۇچلارنىڭ ئىجازەتنامىسىنى كۆرسىتىش</string>
+    <string name="root_pref">ئىجازەتنامە كۆرسىتىش</string>
+    <string name="about_amaze_file_manager_label">Amaze ھۆججەت باشقۇرغۇچىسى ھەققىدە</string>
+    <string name="version">نەشرى</string>
+    <string name="rate">ئەپكە باھا بېرىڭ</string>
+    <string name="feedback">تەكلىپ ئەۋەتىش</string>
+    <string name="hiddenfiles">يوشۇرۇن ھۆججەتلەر</string>
+    <string name="type">تىپى</string>
+    <string name="root_directory">يىلتىز</string>
+    <string name="add_shortcut">تېزلەتمە قوشۇش</string>
+    <string name="unsaved_changes">ساقلانمىغان ئۆزگىرىشلەر</string>
+    <string name="unsaved_changes_description">سىز ساقلانمىغان ئۆزگىرىشلەر بار ، چىقىشتىن بۇرۇن ئۇلارنى قۇتۇلدۇرماقچىمۇ؟</string>
+    <string name="saving">تېجەش</string>
+    <string name="package_installer">ئورالما قاچىلاش پروگراممىسى</string>
+    <string name="view">كۆرۈش</string>
+    <string name="install">قاچىلاش</string>
+    <string name="archive">ئارخىپ</string>
+    <string name="archive_text">بۇ بىر ئارخىپ. سىز قايسى ھەرىكەتنى قىلماقچى؟</string>
+    <string name="package_installer_text">بۇ ئورالما قاچىلىغۇچ. سىز قايسى ھەرىكەتنى قىلماقچى؟</string>
+    <string name="xda_title">XDA تېمىسى</string>
+    <string name="xda_summary">سوئال-جاۋاب ، ياردەم ۋە مەسىلىلەرنى ھەل قىلىش</string>
+    <string name="circular_images">رەسىم ۋە سىن ئۈچۈن ئايلانما سىنبەلگىلەرنى ئىشلىتىڭ</string>
+    <string name="circular_icons">ئايلانما سىنبەلگىلەرنى ئىشلىتىڭ</string>
+    <string name="back_title">ئارقا يول باشلاش</string>
+    <string name="back_summary">تىزىملىكنىڭ ئۈستىدىكى ئىختىيارى ئارقا يول باشلاشنى قوزغىتىدۇ</string>
+    <string name="details">تەپسىلاتلار</string>
+    <string name="translators">تەرجىمانلار</string>
+    <string name="german_translation_title">گېرمانچە</string>
+    <string name="italian_translation_title">ئىتالىيە</string>
+    <string name="french_translation_title">فىرانسۇزچە</string>
+    <string name="russian_translation_title">رۇسچە</string>
+    <string name="spanish_translation_title">ئىسپانچە</string>
+    <string name="basque_translation_title">باسك</string>
+    <string name="chinese_translation_title">خەنزۇچە</string>
+    <string name="serbian_translation_title">سېربىيە</string>
+    <string name="turkish_translation_title">تۈرك</string>
+    <string name="ukrainian_translation_title">ئۇكرائىنا</string>
+    <string name="portuguese_translation_title">پورتۇگالچە</string>
+    <string name="polish_translation_title">پولشا</string>
+    <string name="korean_translation_title">كورېيە</string>
+    <string name="greek_translation_title">گرېتسىيە</string>
+    <string name="dutch_translation_title">گوللاندىيە</string>
+    <string name="romanian_translation_title">رۇمىنىيە</string>
+    <string name="vietnamese_translation_title">ۋېيتناملىق</string>
+    <string name="japanese_translation_title">ياپونچە</string>
+    <string name="tamil_translation_title">تامىل</string>
+
+    
+    <string name="unin_system_apk">بۇ سىستېما دېتالى ، ئۇنى ئۆچۈرۈۋەتسىڭىز سىستېمىنىڭ مۇقىمسىزلىقىنى كەلتۈرۈپ چىقىرىشى مۇمكىن. \ n ئىلگىرىلەڭ؟</string>
+    <string name="warning">ئاگاھلاندۇرۇش</string>
+    <string name="donate">ئىئانە قىلىڭ</string>
+    <string name="archive_extract_folder">ئارخىپ چىقىرىش ھۆججەت قىسقۇچى</string>
+    <string name="archive_summary">ئارخىپ ھۆججەتلىرى بۇ ھۆججەت قىسقۇچقا چىقىرىلىدۇ. سۈكۈتتىكى قىممىتى ئارخىپ بار مۇندەرىجە.</string>
+    <string name="open_as"/>
+    <string name="text">تېكىست</string>
+    <string name="audio">ئاۋازلىق</string>
+    <string name="video">سىن</string>
+    <string name="other">باشقا</string>
+    <string name="image">رەسىم</string>
+    <string name="contributors">تۆھپىكارلار</string>
+    <string name="save_paths">يوللارنى ئەستە ساقلاڭ</string>
+    <string name="save_path_summary">قوزغالغاندا ، ھەر بىر بەتكۈچتە ئەڭ يېڭى كۆرۈنىدىغان ھۆججەت قىسقۇچ كۆرسىتىلىدۇ</string>
+    <string name="select_intent"/>
+    <string name="database">ساندان</string>
+    <string name="colored_navigation">رەڭلىك يول باشلاش بالدىقى</string>
+    <string name="colored_navigvation_sum">سىستېما يولباشچى ستونىنىڭ تېرە بىلەن رەڭدار ياكى ئەمەسلىكى</string>
+
+    <string name="color_title">رەڭ</string>
+    <string name="color_summary">ھەر خىل UI زاپچاسلىرىغا رەڭ بەلگىلەڭ</string>
+    <string name="primary_color_title">دەسلەپكى رەڭ (سول بەتكۈچ)</string>
+    <string name="primary_color_summary">سول بەتكۈچ ئۈچۈن چوڭ UI ئېلېمېنتلىرىغا رەڭ بەلگىلەڭ</string>
+    <string name="accent_color_title">تېز رەڭ</string>
+    <string name="accent_color_summary">FAB ۋە باشقا كىچىك UI ئېلېمېنتلىرىغا رەڭ بەلگىلەڭ</string>
+    <string name="icon_color_title">سىنبەلگە رەڭگى</string>
+    <string name="icon_color_summary">سىنبەلگە رەڭ بەلگىلەڭ</string>
+    <string name="choose_color">رەڭنى تاللاڭ</string>
+    <string name="files">ھۆججەتلەر</string>
+    <string name="textreader">تېكىست ئوقۇغۇچ</string>
+    <string name="databasereader">ساندان ئوقۇغۇچ</string>
+    <string name="show_dividers">بۆلگۈچىلەرنى كۆرسىتىش</string>
+    <string name="needs_access">يېزىش تەلەپ قىلىنغان</string>
+    <string name="needs_access_summary">\ t</string>
+    <string name="needs_access_summary1">\ t نىڭ يىلتىز مۇندەرىجىسىنى تاللاڭ ،</string>
+    <string name="smb_connection">SMB ئۇلىنىشى</string>
+    <string name="smb_server">مۇلازىمېتىر IP ئادرېسى</string>
+    <string name="server_address">مۇلازىمېتىر IP ئادرېسى</string>
+    <string name="username">ئىشلەتكۈچى ئىسمى</string>
+    <string name="password">پارول</string>
+    <string name="anonymous">نامسىز</string>
+    <string name="bluetooth">كۆك چىش</string>
+    <string name="folders">ھۆججەت قىسقۇچلار</string>
+    <string name="folderfilecount">% 1 $ d ھۆججەت قىسقۇچ ۋە% 2 $ d ھۆججەتلەر</string>
+    <string name="videos">سىنلار</string>
+    
+    <string name="documents">ھۆججەتلەر</string>
+    <string name="images">رەسىملەر</string>
+    <string name="clear">ئېنىق</string>
+    
+    <string name="total">ئومۇمىي:</string>
+    <string name="calculating">ھېسابلاش</string>
+    <string name="sort">تەرتىپلەش</string>
+    <string name="ascending">ئۆرلەش</string>
+    <string name="descending">چۈشۈش</string>
+    <string name="default_string">سۈكۈتتىكى</string>
+    <string name="doit">قىل</string>
+    <string name="want_help">ياردەمگە ئېھتىياجلىقمۇ؟</string>
+    <string name="quick">تېز زىيارەت قىلىش</string>
+    <string name="recent">يېقىنقى ھۆججەتلەر</string>
+    <string name="edit">تەھرىرلەش</string>
+    <string name="find">بەتتىن ئىزدەڭ</string>
+    <string name="grant">ياردەم</string>
+    <string name="grantper">ئىجازەتنامە</string>
+    <string name="grantfailed">ئىجازەت بېرىلمەيدۇ</string>
+    <string name="grant_storage_permission">ئەپ داۋاملاشتۇرۇش ئۈچۈن ساقلاش ئىجازىتىگە موھتاج. بۇ دىئالوگنى ئەمەلدىن قالدۇرۇش ئەپتىن چېكىنىدۇ.</string>
+    <string name="operation_unsuccesful">مەشغۇلات مەغلۇپ بولغان</string>
+    <string name="creatingfile">ھۆججەت قۇرۇش</string>
+    <string name="creatingfolder">ھۆججەت قىسقۇچ قۇرۇش</string>
+    <string name="renaming">ئىسىم ئۆزگەرتىش</string>
+    <string name="cant_be_empty">% s قۇرۇق بولالمايدۇ</string>
+    <string name="ip">ئادرېس</string>
+    <string name="connection_name">ئۇلىنىش ئىسمى</string>
+    <string name="no_device_found">ھېچقانداق ئۈسكۈنى تېپىلمىدى</string>
+    <string name="path">يول</string>
+    <string name="rename_bookmark">خەتكۈچنى ئۆزگەرتىش</string>
+    <string name="cut">كېسىش</string>
+    <string name="search">ئىزدەش</string>
+    <string name="invalid_name">ئىناۋەتسىز ئىسىم</string>
+    <string name="search_hint">ئىزدەش تىپى…</string>
+    <string name="advanced_search">ئىلغار ئىزدەش</string>
+    <string name="regular_expression">دائىملىق ئىپادىلەش</string>
+    <string name="regular_expression_summary">BASH ئۇسلۇبىدىكى دائىملىق ئىپادىلەش ئارقىلىق ئىزدەش</string>
+    <string name="match_content">ماس مەزمۇن مەزمۇنى</string>
+    <string name="match_content_summary">تەڭشەلسە ، دائىملىق ئىپادىلەش پۈتكۈل ھۆججەت ئىسمى بىلەن ماس كېلىدۇ ،
+        بولمىسا ھادىسىنى ئىزدەيدۇ.</string>
+    <string name="start_ftp">باشلاش</string>
+    <string name="stop_ftp">توختا</string>
+    <string name="ftp_status_running"/>
+    <string name="ftp_status_not_running">ئىجرا بولماسلىق</string>
+    <string name="ftp_no_wifi">Wi-Fi غا ئۇلانغانلىقىڭىزنى جەزملەشتۈرۈڭ</string>
+    <string name="domain">دائىرە</string>
+    <string name="smb_share">ئورتاقلىشىش يولى</string>
+    <string name="invalid">ئىناۋەتسىز% s</string>
+    <string name="ftp_notif_starting">FTP مۇلازىمېتىر</string>
+    <string name="ftp_notif_starting_title">FTP مۇلازىمېتىرى</string>
+    <string name="ftp_notif_title">Amaze FTP مۇلازىمېتىرى</string>
+    <string name="ftp_notif_text">نى% s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP ئېغىزى</string>
+    <string name="ftp_port_change_success">FTP ئېغىزى مۇۋەپپەقىيەتلىك ئۆزگەردى</string>
+    <string name="ftp_port_change_error_invalid">ئىناۋەتسىز ئېغىز نومۇرى تاللانغان</string>
+    <string name="primary_two_title">دەسلەپكى رەڭ (ئوڭ بەتكۈچ)</string>
+    <string name="primary_two_summary">ئوڭ بەتكۈچ ئۈچۈن چوڭ UI ئېلېمېنتلىرىغا رەڭ بەلگىلەڭ</string>
+    <string name="support_development">قوللاش تەرەققىيات</string>
+    <string name="report_bugs_title">خاتالىقلارنى دوكلات قىلىش</string>
+    <string name="source_title">مەنبە كودى</string>
+    <string name="source_summary">GitHub دىكى مەنبە كودىمىزنى كۆرۈڭ</string>
+    <string name="report_bugs_summary">كەمتۈكلەرنى دوكلات قىلىڭ ياكى يېڭى ئىقتىدار تەلەپ قىلىڭ</string>
+    <string name="translate_title">تەرجىمە</string>
+    <string name="translate_summary">Amaze نى تىلىڭىزدا تەرجىمە قىلىڭ</string>
+    <string name="paypal_copy_message">چاپلاش تاختىسىغا كۆچۈرۈلگەن PayPal كىملىكى</string>
+    <string name="searching_devices">ئۈسكۈنىلەرنى ئىزدەش</string>
+    <string name="use_custom_ip">ئىختىيارى IP ئىشلىتىش</string>
+    <string name="bookmark_lost">خەتكۈچ تېپىلمىدى ، قايتا قۇرۇش…</string>
+
+    <string name="smb_instructions">
+        
+            
+                ئاندىرويىد (SMB) \ n \ n دىكى ئورتاق Windows ھۆججەت قىسقۇچىنى قانداق زىيارەت قىلىش كېرەك
+                
+                    
+                        Windows \ n دا ھۆججەت ئورتاقلىشىشنى قوزغىتىڭ
+                    
+                    
+                        كونترول تاختىسىنى ئېچىڭ ، تور ئاستىدىكى HomeGroup ۋە ھەمبەھىر تاللاشنى تاللاڭ
+                        ۋە ئىنتېرنېت ، ھەمدە «ئىلغار ئورتاقلىشىش تەڭشەكلىرىنى ئۆزگەرتىش» نى چېكىپ ، «ھۆججەت ۋە
+                        پرىنتېردىن ئورتاقلىشىش "ئىقتىدارى. \ N \ n
+                    
+
+                    
+                        قوشۇمچە ھۆججەت ئورتاقلىشىش تەڭشەكلىرى \ n
+                    
+                    
+                        باشقا ئىلغار ئورتاقلىشىش تەڭشەكلىرىنى بۇ يەردىن تەڭشىسىڭىزمۇ بولىدۇ. \ n
+                        مەسىلەن ، ھەممىگە ئىشەنسىڭىز ھۆججەتلىرىڭىزنى پارولسىز زىيارەت قىلالايسىز
+                        يەرلىك توردىكى ئۈسكۈنىلەر. ھۆججەت ۋە پرىنتېردىن ئورتاقلىشىش قوزغىتىلغاندىن كېيىن ، قىلالايسىز
+                        File Explorer ياكى Windows Explorer نى ئېچىڭ ، ھەمبەھىرلىمەكچى بولغان ھۆججەت قىسقۇچنى ئوڭ چېكىڭ ۋە
+                        خاسلىقنى تاللاڭ. \ n
+                        ھەمبەھىر كۇنۇپكىسىنى چېكىپ ، ھۆججەت قىسقۇچنى تورغا چىقارغىلى بولىدۇ. \ N \ n
+                        
+
+                    
+                        ھەر ئىككى ئۈسكۈنىنىڭ ئوخشاش Wifi \ n ئىكەنلىكىنى جەزملەشتۈرۈڭ
+                    
+                    
+                        بۇ ئىقتىدار ھۆججەتلەرنى يەرلىك تورغا چىقارغىلى بولىدۇ ، شۇڭا كومپيۇتېرىڭىز ۋە كۆچمە ئۈسكۈنىلىرىڭىز
+                        ئوخشاش يەرلىك توردا بولۇشى كېرەك. ئورتاق بەھرىلىنىدىغان Windows ھۆججەت قىسقۇچىنى زىيارەت قىلالمايسىز
+                        ئىنتېرنېتتە ياكى ئەقلىيفونىڭىز كۆچمە سانلىق مەلۇماتقا ئۇلانغاندا - ئۇ
+                        Wi-Fi غا ئۇلىنىشى كېرەك. \ n \ n
+                    
+
+                    
+                        IP ئادرېسىنى تېپىڭ \ n
+                    
+                    
+                        بۇيرۇق بۇيرۇقىنى ئېچىڭ. \ \'Ipconfig \' نى كىرگۈزۈپ Enter نى بېسىڭ. كۆڭۈلدىكى دەرۋازىنى ئىزدەڭ
+                        يېتەكلىگۈچىڭىزنىڭ IP ئادرېسى ئۈچۈن تور ماسلاشتۇرغۇچ ئاستىدا. ئىزدەڭ
+                        \\\ "IPv4 ئادرېس \\\" ئوخشاش ماسلاشتۇرغۇچ بۆلىكىدە كومپيۇتېرىڭىزنىڭ IP نى تېپىش
+                        ئادرېس. \ n \ n
+                    
+
+                    تەپسىلاتلارنى SMB سۆزلىشىش رامكىسىغا كىرگۈزۈڭ \ n
+                
+            
+        
+   </string>
+    <string name="share_limit">100 دىن ئارتۇق ھۆججەتنى ئورتاقلىشالمايدۇ</string>
+    <string name="otg_access">OTG ئۈسكۈنىسىنىڭ يىلتىزىنى تاللاڭ</string>
+    <string name="information">ئۇچۇر</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">ئېتىراپ قىلىنغان</string>
+    <!-- reference to file modified date -->
+    <string name="modified">ئۆزگەرتىلگەن</string>
+
+    <string name="title">ئىسمى</string>
+    <string name="artist">سەنئەتكار</string>
+    <string name="album">پىلاستىنكا</string>
+    <string name="year">يىل</string>
+    <string name="duration">ۋاقتى</string>
+    <string name="comment">باھا</string>
+    <!-- reference to audio/video file -->
+    <string name="container">كونتېينېر</string>
+    <string name="codec">كودېك</string>
+    <string name="channels">قاناللار</string>
+    <string name="sample_rate">ئەۋرىشكە نىسبىتى</string>
+    <string name="bitrate">بىترات</string>
+    <string name="dimensions">ئۆلچىمى</string>
+    <string name="frame_rate">رامكا نىسبىتى</string>
+    <string name="image_type">رەسىم تىپى</string>
+    <string name="width">كەڭلىك</string>
+    <string name="height">ئېگىزلىك</string>
+    <string name="date_modified">ئۆزگەرتىلگەن ۋاقىت</string>
+    <string name="software">يۇمشاق دېتال</string>
+    <string name="creator">ياراتقۇچى</string>
+    <string name="camera_brand">كامېرا ماركىسى</string>
+    <string name="camera_model">كامېرا مودېلى</string>
+    <string name="date_taken">تارتىلغان ۋاقىت</string>
+    <string name="exposure_time">ئاشكارلىنىش ۋاقتى</string>
+    <string name="aperture_value">ئېنىقلىق قىممىتى</string>
+    <string name="image_iso">ISO سۈرئەت دەرىجىسى</string>
+    <string name="flash_fired">چاقماق لامپا</string>
+    <string name="focal_length">فوكۇس ئۇزۇنلۇقى</string>
+    <string name="subject">تېما</string>
+    <string name="author">ئاپتور</string>
+    <string name="keywords">ئاچقۇچلۇق سۆزلەر</string>
+    <string name="producer">ئىشلەپچىقارغۇچى</string>
+    <string name="created">ئىجاد قىلىنغان</string>
+    <string name="format">فورماتى</string>
+    <string name="pages">بەت سانى</string>
+    <!-- reference to a document file -->
+    <string name="optimized">ئەلالاشتۇرۇلغان</string>
+    <string name="security">بىخەتەرلىك</string>
+    <string name="paper_size">قەغەز چوڭلۇقى</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">بەزى ھۆججەتلەر يوق. مۇۋەپپەقىيەتلىك% s</string>
+    <string name="copied">كۆچۈرۈلگەن</string>
+    <string name="moved">يۆتكەلدى</string>
+    <string name="copy_complete">تولۇق كۆچۈرۈڭ</string>
+    <string name="waiting_title">كۈتۈش</string>
+    <string name="waiting_content">مەشغۇلاتنىڭ تاماملىنىشىنى ساقلاۋاتىدۇ</string>
+    <string name="extract_complete">ئېلىش تاماملاندى</string>
+    <string name="compression_complete">پىرىسلاش تاماملاندى</string>
+    <string name="compressing">پىرىسلاش</string>
+    <string name="cancelled">ئەمەلدىن قالدۇرۇلدى</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">يېزىلغان</string>
+    <string name="out_of"/>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">دىن</string>
+    <string name="processing_file">دىن   بىر تەرەپ قىلىش ھۆججىتى</string>
+    <string name="current_speed">نۆۋەتتىكى سۈرئەت</string>
+    <string name="smb_launch_error">ئۇنى ئېچىش ئۈچۈن بۇ ھۆججەتنى ساقلاشقا كۆچۈرۈشىڭىز كېرەك</string>
+    <string name="error_file_not_found">خاتالىق: ھۆججەت تېپىلمىدى</string>
+    <string name="error_io">I / O خاتالىق</string>
+    <string name="error_file_too_large">خاتالىق: ھۆججەت بەك چوڭ</string>
+    <string name="medium_text">ئوتتۇرا تېكىست</string>
+    <string name="permission_read">ئوقۇڭ</string>
+    <string name="permission_write">يېزىڭ</string>
+    <string name="permission_execute">ئىجرا قىلىڭ</string>
+    <string name="permission_owner">ئىگىسى</string>
+    <string name="permission_group">گۇرۇپپا</string>
+    <string name="permission_other">باشقا</string>
+    <string name="clipboard_path_copy">يول تاختىسىغا كۆچۈرۈلگەن يول</string>
+    <string name="service_timer">ۋاقىت ئۆتۈپ كەتتى</string>
+    <string name="please_wait">ساقلاپ تۇرۇڭ</string>
+
+    <string name="cloud_connection">بۇلۇت ئۇلىنىشى</string>
+    <string name="cloud_connection_new">يېڭى بۇلۇت ئۇلىنىشى</string>
+    <string name="cloud_dropbox">تامچە</string>
+    <string name="cloud_drive">Google Drive ™</string>
+    
+    <string name="cloud_box">قۇتا</string>
+    <string name="cloud_get">بۇلۇت قىستۇرمىسىنى ئېلىڭ</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">ھېچقانداق پروگرامما يوق</string>
+    <string name="ftp_path">ئورتاق يول</string>
+    <string name="ftp_path_hint">مۇندەرىجەنىڭ يىلتىزىغا ئورتاقلىشىش يولى</string>
+    <string name="change">ئۆزگەرتىش</string>
+    <string name="unknown_error">ئاپلا ، چاتاق چىقتى!</string>
+
+    <string name="ftp_path_change_success">FTP يولى مۇۋەپپەقىيەتلىك ئۆزگەردى</string>
+    <string name="ftp_path_change_error_invalid">ئىناۋەتسىز يول</string>
+    <string name="ftp_status_no_connection">ئۇلىنىش يوق</string>
+    <string name="ftp_status_secure_connection">بىخەتەر ئۇلىنىش</string>
+    <string name="ftp_status_title">ھالەت</string>
+    <string name="ftp_port">پورت</string>
+    <string name="ftp_login">كىرىش</string>
+    <string name="field_empty">مەيدان بوش قالمايدۇ</string>
+    <string name="ftp_timeout">بىكار ۋاقىت</string>
+    <string name="ftp_seconds">سېكۇنت</string>
+    <string name="intellihide_toolbar_title">Intellihide قورالبالدىقى</string>
+    <string name="intellihide_toolbar_summary"/>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">چاپلاش تاختىسىغا كۆچۈرۈلدى</string>
+    <string name="contributors_1_summary">تەرجىمە</string>
+    <string name="contributors_2_summary">سىنبەلگە ۋە لوزۇنكىلار</string>
+    <string name="contributors_3_summary">تېما ماتورى</string>
+    <string name="contributors_4_summary">FAB نىڭ ئارقىسىدىكى سايە</string>
+    <string name="contributors_5_summary">بەتكۈچلەرنى سۈرگەندە رەڭ ئالماشتۇرۇش</string>
+    <string name="contributors_6_summary">FTP مۇلازىمېتىر</string>
+    <string name="contributors_7_summary">ئۆز-ئارا تەسىر كۆرسىتىدىغان قاپنى قوزغىتىش</string>
+    <string name="connection_exists">ئۇلىنىش ئاللىبۇرۇن مەۋجۇت</string>
+
+    <string name="crypt_encrypting">شىفىرلاش</string>
+    <string name="crypt_decrypting">شىفىرلاش</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">شىفىرلانغان</string>
+    <string name="crypt_decrypted">شىفىرلانغان</string>
+    <string name="crypt_encrypt">شىفىرلانغان</string>
+    <string name="crypt_decrypt">شىفىر يېشىش</string>
+    <string name="operation_fail_following">تۆۋەندىكى ھۆججەتلەردە مەشغۇلات مەغلۇپ بولدى</string>
+    <string name="crypt_pref_master_password_title">ئاساسىي پارول</string>
+    <string name="crypt_pref_master_password_summary">مەخپىيلەشتۈرۈش ئۈچۈن ئاساسىي پارول بەلگىلەڭ.
+        چىقىرىۋېتىش ئۈچۈن بوش قويۇڭ.</string>
+    <string name="crypt_pref_fingerprint_title">بارماق ئىزى</string>
+    <string name="crypt_pref_fingerprint_summary">بارماق ئىزىنى ئىشلىتىپ مەخپىيلەشتۈرۈشنى دەلىللەڭ</string>
+    <string name="crypt_fingerprint_no_permission">بارماق ئىزى ئىجازەتنامىسى يوقاپ كەتتى</string>
+    <string name="crypt_fingerprint_not_enrolled">ھېچقانداق بارماق ئىزى تىزىملىتىلمىدى</string>
+    <string name="crypt_fingerprint_no_security">بىخەتەرلىك ئەندىزىسىنى ئۆزگەرتكەندە قۇلۇپ ئېكرانىنىڭ بىخەتەرلىكى تېپىلمىدى</string>
+    <string name="crypt_warning_key">تەۋسىيە قىلىڭ.
+        سىستېما تەڭشىكى ، سىز بۇ مەزمۇننى يېشىپ بېرەلمەيسىز.</string>
+    <string name="warning_never_show">قايتا ئۇچۇر بەرمەڭ</string>
+    <string name="warning_confirm">چۈشەندىم!</string>
+    <string name="crypt_encryption_fail">مەخپىيلەشتۈرۈش مەغلۇب بولدى</string>
+    <string name="crypt_decryption_fail"/>
+    <string name="crypt_decryption_fail_password">پارول خاتا!</string>
+    <string name="crypt_fingerprint_authenticate">چەكمە سېنزورنى داۋاملاشتۇرۇش</string>
+    <string name="authenticate_password">پارولنى كىرگۈزۈڭ</string>
+
+    <string name="sidebar_preferences">يان كۆزنەك</string>
+    <string name="sidebar_quick_access_title">يان كۆزنەك تېز زىيارەت قىلىش</string>
+    <string name="show_quick_access_pref_title">تېز زىيارەتنى كۆرسىتىش</string>
+    <string name="show_quick_access_pref">تېز زىيارەت قىلىش</string>
+    <string name="directory">مۇندەرىجە</string>
+
+    <string name="sidebar_bookmarks_title">يان كۆزنەك خەتكۈچلىرى</string>
+    <string name="show_bookmarks_pref_title">خەتكۈچلەرنى كۆرسىتىش</string>
+    <string name="show_bookmarks_pref">خەتكۈچلەر</string>
+    <string name="create_bookmark">خەتكۈچ قۇرۇش</string>
+    <string name="edit_bookmark">خەتكۈچنى تەھرىرلەش</string>
+    <string name="question_delete_bookmark">خەتكۈچنى ئۆچۈرۈڭ؟</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud قىستۇرمىسى تېپىلمىدى. Play دۇكىنىدىن چۈشۈرۈڭ.</string>
+    <string name="cloud_error_failed_restart">ئۇلىنىشنى يۈكلىيەلمىدى.
+        Amaze Cloud نى بىر قېتىم ئېچىڭ.</string>
+    <string name="cloud_remove">بۇلۇت ئۇلىنىشىنى ئۆچۈرمەكچىمۇ؟</string>
+    <string name="cloud_fail_authenticate"/>
+    <string name="cloud_share_copied">ھەمبەھىر ئۇلىنىش چاپلاش تاختىسىغا كۆچۈرۈلدى</string>
+    <string name="copy_low_memory">ئىچكى ساقلىغۇچ تۈگەپ كەتتى ، بىر قىسىم RAM</string>
+    <string name="cloud_token_lost">توكەن يوقاپ كەتتى ، قايتا تىزىملىتىڭ</string>
+    
+    <string name="showHeaders">ماۋزۇلارنى كۆرسىتىش</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">ھېچقانداق تۈر يوق</string>
+	<string name="item">تۈر</string>
+	<string name="items">تۈرلەر</string>
+	
+	<string name="byte_singular">بايت</string>
+	<string name="bytes">بايت</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">ھۆججەتنىڭ ئىسمى بولۇشى كېرەك</string>
+    <string name="add_item">تۈر قوشۇش</string>
+    <string name="failed_smb_decrypt_path">SMB ئۇلىنىشىنى يۈكلىيەلمىدى</string>
+    <string name="failed_cloud_new_connection">يېڭى بۇلۇت ئۇلىنىشى قوشۇلمىدى</string>
+    <string name="failed_cloud_api_key">بۇلۇت قىستۇرمىسىنى دەلىللەش مەغلۇب بولدى</string>
+
+    <string name="local_inet_addr_error">يەرلىك تور ئادرېسىنى ئېلىشتا خاتالىق</string>
+    <string name="intent_save_as">as</string>
+    
+    
+    <string name="typeable_paths_title">خاس يوللار</string>
+    <string name="typeable_paths_summary">ئىختىيارى يولنى يېزىش ئۈچۈن ئۇزۇن بېسىش يولى بالدىقى</string>
+    <string name="send_email_to"/>
+
+    <string name="text_editor">تېكىست تەھرىرلىگۈچ تەڭشىكى</string>
+    <string name="preference_newstack_title">ھۆججەتلەرنى يېڭى ۋەزىپە سۈپىتىدە ئېچىڭ</string>
+    <string name="preference_newstack_summary">ھۆججەتلەرنى ئايرىم ۋەزىپىلەردە ئېچىشىڭىزغا يول قويىدۇ. ئۇلارنى سىستېما چېكىنىش ئېكرانىدىن زىيارەت قىلىڭ.</string>
+    
+    <string name="developers">ئاچقۇچىلار</string>
+    <string name="no_bitcoin_app">بىت تەڭگىسى ھەميان دېتالىنى قاچىلاڭ</string>
+    <string name="channel_name_normal">ئاماز ئۇقتۇرۇشى</string>
+    <string name="channel_description_normal">Amaze ھۆججەت باشقۇرغۇچىنىڭ ئۇقتۇرۇشى</string>
+    <string name="channel_name_ftp">Amaze FTP مۇلازىمېتىرى</string>
+    <string name="channel_description_ftp">Amaze ھۆججەت باشقۇرغۇچى FTP مۇلازىمېتىرنىڭ ئۇقتۇرۇشى</string>
+
+    
+    <string name="processing">بىر تەرەپ قىلىش…</string>
+    <string name="failed_no_connection">ھۆججەتلەرنى يۈكلىيەلمىدى. ئۇلىنىشىڭىزنى تەكشۈرۈپ بېقىڭ.</string>
+
+    
+	<string name="scp_connection">SCP / SFTP ئۇلىنىشى</string>
+    <string name="ftp_connection">FTP ئۇلىنىشى</string>
+    <string name="ftps_connection">SSL ئۇلىنىشى ئۈستىدىكى FTP</string>
+    <string name="scp_port">پورت</string>
+    <string name="ssh_host_key_verification_prompt">ساھىبجامالنىڭ چىنلىقى \ \'% 1 $ s \' نى جەزملەشتۈرگىلى بولمايدۇ. \ n \ n% 2 $ s ئاچقۇچ بارماق ئىزى% 3 $ s. \ n \ n چېكىڭ \ "ھەئە \ "سالاھىيىتىنى جەزملەشتۈرۈش بولمىسا ، \ "ياق \" نى چېكىڭ.</string>
+    <string name="ssh_host_key_verification_prompt_title">رىياسەتچىنى تەكشۈرۈپ بېقىڭ</string>
+    <string name="ssh_select_pem_button">SSH شەخسىي ئاچقۇچ</string>
+    <string name="ssh_pem_key_parse_error">تاللانغان PEM نى ئوقۇيالمىدى:% s</string>
+    <string name="password_unchanged">(ئۆزگەرمەيدۇ)</string>
+    <string name="ssh_authentication_failure_password">كىرىش مەغلۇبىيىتى: تەمىنلەنگەن ئىشلەتكۈچى ئىسمى ۋە پارولى بىلەن دەلىللىيەلمىدى.</string>
+    <string name="ssh_authentication_failure_key">كىرىش مەغلۇبىيىتى: تەمىنلەنگەن ئىشلەتكۈچى ئىسمى ۋە شەخسىي ئاچقۇچ بىلەن دەلىللىيەلمىدى.</string>
+    <string name="ssh_connect_failed">% 1 $ s غا ئۇلىنالمىدى:% 2 $ d:% 3 $ s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ئاگاھلاندۇرۇش: ئەڭ ياخشى كىملىكنى ئۆزگەرتىڭ!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">بىراۋنىڭ ناتوغرا ئىش قىلىۋاتقانلىقى مۇمكىن! \ n \ n بەزىلەر ھازىر سىزنى ئوغرىلىقچە ئاڭلىغان بولۇشى مۇمكىن (ئوتتۇرىدىكى ئادەم)! باش ئاپپارات ئاچقۇچىنىڭ ئۆزگەرتىلگەن بولۇشىمۇ مۇمكىن. يىراقتىكى مۇلازىمېتىر ئەۋەتكەن ئاممىۋى ئاچقۇچنىڭ بارماق ئىزى Amaze دا ساقلانغانغا ماس كەلمەيدۇ. \ N \ n سىستېما باشقۇرغۇچى بىلەن ئالاقىلىشىڭ ياكى مۇلازىمېتىرغا داۋاملىق ئۇلىنىشنى داۋاملاشتۇرۇڭ.</string>
+    <string name="ssh_key_prompt_passphrase">ئاچقۇچلۇق ئىمنى كىرگۈزۈڭ. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">تېزلەتمە قوزغىتىشنى قوزغىتىشىڭىز قوللىمايدۇ.</string>
+    
+    <string name="select_color_config">رەڭ سەپلىمىسىنى تاللاڭ</string>
+    <string name="customize">خاسلاشتۇرۇڭ</string>
+    <string name="custom">ئىختىيارى</string>
+    <string name="preselected_configs_title">ئالدىن تاللانغان سەپلىمە</string>
+    <string name="orange">ئاپېلسىن</string>
+    <string name="blue">كۆك</string>
+    <string name="green">يېشىل</string>
+    <string name="password_no_match">پارول ماس كەلمەيدۇ</string>
+    <string name="deselect_all">ھەممىنى تاللاڭ</string>
+    <string name="filename">ھۆججەت ئىسمى</string>
+    <string name="compress_file_suggest_zip_extension">It \ \' s ھۆججەت كېڭەيتىلمىسى سۈپىتىدە \ ". zip \" نى ئىشلىتىشنى تەۋسىيە قىلدى.</string>
+    <string name="about_amaze">ئاندىرويىد</string>
+    <string name="license">ئىجازەتنامە</string>
+    <string name="libraries">كۈتۈپخانىلار</string>
+    <string name="password_repeat">پارولنى تەكرارلاڭ</string>
+    <string name="create_file_suggest_txt_extension">ھۆججەت كېڭەيتىلمىسى سۈپىتىدە \ ". txt \" نى ئىشلىتىش تەۋسىيە قىلىنىدۇ.</string>
+    <string name="ssh_select_pem">دەلىللەش ئۈچۈن شەخسىي ئاچقۇچنى تاللاڭ.</string>
+    <string name="ssh_key_invalid_passphrase">ئىناۋەتسىز ئاچقۇچلۇق سۆز.</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM نى يېشىش ئۈچۈن ئۈنۈملۈك كود يەشكۈچ يوق.</string>
+    <string name="encryption_fail_copy">سانداندىكى شىفىرلىق كىرگۈزۈشنى يېڭىلاش مەغلۇب بولدى</string>
+    <string name="extracted">چىقىرىۋېتىلگەن</string>
+    <string name="compressed">پىرىسلانغان</string>
+    <string name="processed">بىر تەرەپ قىلىنغان</string>
+    <string name="no_obtainable_info">بۇ ھۆججەت ھەققىدە ھېچقانداق ئۇچۇر يوق</string>
+    <string name="reopen_from_source">قىلالمايدۇ ، ئاخىرقى ئەپتىن</string>
+    <string name="no_file_error">خاتالىق كۆرۈلدى ،</string>
+    <string name="file_too_long">ئاچقىلى بولىدىغان نەرسە يوق ، ھۆججەت بەك ئۇزۇن بولۇپ ، تەھرىرلىگىلى بولمايدۇ ، ئەمما سىز بىرىنچى% d ھەرپنى</string>
+    <string name="file_read_only">ھۆججەتنى ئوقۇيالايسىز. ئېچىلدى پەقەت ئوقۇشقىلا بولىدىغان.</string>
+    <string name="got_it">چۈشەندىم!</string>
+    <string name="encrypt_file_save_as">شىفىرلانغان ھۆججەتنى…</string>
+    <string name="encrypt_folder_save_as">شىفىرلانغان ھۆججەت قىسقۇچنى ساقلاڭ…</string>
+    <string name="encrypt_option_use_aze">Amaze مەخپىيلەشتۈرۈش فورماتىنى ئىشلىتىڭ</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p> AESCrypt بولسا AES مەخپىيلەشتۈرۈشنى ئاساس قىلغان ئوچۇق كودلۇق ھۆججەت مەخپىيلەشتۈرۈش شەكلى. ئۇ يەنە ئېلىپ يۈرۈشكە ئەپلىك ، باشقا سۇپىلاردىكى AESCrypt پروگراممىلىرى بىلەن شىفىرلىغىلى بولىدۇ. </p>
+        <p> <a href="https://www.aescrypt.com" target="_blank"> AESCrypt تور بېكىتى </a> </p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p> Amaze \ نىڭ مەخپىيلەشتۈرۈش فورماتىمۇ AES مەخپىيلەشتۈرۈشنى ئاساس قىلىدۇ. ئەمما AESCrypt فورماتىغا ئوخشىمايدۇ ، ئۇنى پەقەت بۇ ئۈسكۈنە ئارقىلىق شىفىرلىغىلى بولىدۇ. سىز يەنە Amaze ھۆججەت باشقۇرغۇچنى بۇ ئۈسكۈنىدىن ئۆچۈرۈۋەتمەسلىكىڭىز ياكى ئېكراننى قۇلۇپلاش ئۇسۇلىنى ئۆزگەرتمەسلىكىڭىز كېرەك ، بولمىسا شىفىرلانغان ھۆججەتنى ئەسلىگە كەلتۈرۈشكە ئامالىڭىز بولمايدۇ. </p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">شىفىرلانغان ھۆججەتلەر چوقۇم ھۆججەتنىڭ كېڭەيتىلمىسى سۈپىتىدە \ ". aze \" نى ئىشلىتىشى كېرەك.</string>
+    <string name="encrypt_file_must_end_with_aes">شىفىرلانغان ھۆججەتلەر چوقۇم ھۆججەتنىڭ كېڭەيتىلمىسى سۈپىتىدە \ ". aes \" نى ئىشلىتىشى كېرەك.</string>
+    <string name="error_aescrypt_decrypt_failed">شىفىر يېيىشكە بولمايدۇ \ \'% s \': \ \'% s \'</string>
+    <string name="cannot_overwrite">ھۆججەتنى قاپلىغىلى بولمايدۇ.</string>
+    <string name="saved_single_file">ھۆججەت \ \'% s \' سۈپىتىدە ساقلاندى.</string>
+    <string name="saved_multi_files">% d ھۆججەتلەر ساقلاندى.</string>
+    <string name="create_hidden_file_warn">قۇرۇلغان ھۆججەت ھۆججەت تىزىملىكىدە يوشۇرۇن بولىدۇ.</string>
+    <string name="grant_apkinstall_permission">ئەپ داۋاملىق قاچىلاشقا رۇخسەت قىلىدۇ.</string>
+    <string name="time_remaining">قالغان ۋاقىت</string>
+    <string name="transfer_rate">يۆتكىلىش نىسبىتى</string>
+    <string name="unknown">نامەلۇم</string>
+    <string name="multiple_invalid_archive_entries">ئارخىپتىكى بەزى ھۆججەتلەرنى چىقارغىلى بولمايدۇ. ئارخىپ بۇزۇلغان ياكى يامان غەرەزلىك مەنبەدىن كەلگەن بولۇشى مۇمكىن.</string>
+    <string name="saf_otg_explanation">سىز بىخەتەرلىك سەۋەبىدىن ئاندىرويىدنىڭ ھۆججەت سىستېمىسىغا كىرىسىز. سول تەرەپتىكى تىزىملىكتىن USB ئۈسكۈنىسىنى تاللاڭ.</string>
+    <string name="donation_thanks">ئىئانە قىلغانلىقىڭىزغا رەھمەت ، بۇ بىزنى روھلاندۇرىدۇ! (:</string>
+    <string name="enable_marquee_filename">ھۆججەت ناملىرىنىڭ ماركا ئۈنۈمىنى قوزغىتىڭ</string>
+    <string name="archive_password_prompt">ئارخىپ پارولىنى كىرگۈزۈڭ:</string>
+    
+    <string name="cannot_extract_archive">ئارخىپنى چىقىرىۋېتەلمەيدۇ \ "% s \":% s</string>
+    <string name="archive_unsupported_or_corrupt">ئارخىپنى ئاچقىلى بولمايدۇ \ "% s \". يا ئارخىپنى ئاچالمايمىز ، ياكى ئارخىپ بۇزۇلدى.</string>
+    <string name="close">تاقاش</string>
+    <string name="bookmark_exists">خەتكۈچ مەۋجۇت</string>
+    <string name="hide_media">مېدىيا توركۆرگۈلىرىدىن يوشۇرۇڭ</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">بۇ بەلكىم بىرەيلەننىڭ ناتوغرا ئىشلارنى قىلىۋاتقانلىقى مۇمكىن! \ n \ n بەزىلەر ھازىر سىزنى ئوغرىلىقچە ئاڭلىغان بولۇشى مۇمكىن (ئوتتۇرىدىكى ئادەم)! باش ئاپپارات ئاچقۇچىنىڭ ئۆزگەرتىلگەن بولۇشىمۇ مۇمكىن. يىراقتىكى مۇلازىمېتىر ئەۋەتكەن ئاممىۋى ئاچقۇچنىڭ بارماق ئىزى Amaze دا ساقلانغانغا ماس كەلمەيدۇ. \ N \ n سىز باش بارماق ئىزىنى يېڭىلاش ياكى SSH ئۇلىنىش تەڭشىكىنى يېڭىلاشنى ئەمەلدىن قالدۇرسىڭىز بولىدۇ.</string>
+    <string name="update_host_key">باش ئاپپارات ئاچقۇچىنى يېڭىلاش</string>
+    <string name="cancel_recommended">ئەمەلدىن قالدۇرۇش (تەۋسىيە قىلىنغان)</string>
+    
+    
+    <string name="failed_install_apk"/>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">ئىچكى ساقلىغۇچنى قاچىلاش مەغلۇب بولدى</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD كارتا</string>
+    <string name="choose_folder">بۇ ھۆججەت قىسقۇچنى تاللاڭ</string>
+    
+    <string name="some_files_failed_invalid_operation">بەزى ھۆججەتلەر ئىناۋەتسىز مەشغۇلات سەۋەبىدىن مەغلۇپ بولدى</string>
+    <string name="ftp_server_prompt_connect_to_network">تورغا ئۇلاڭ ياكى AP</string>
+    <string name="ftp_server_open_settings">تەڭشەكلەرنى ئېچىڭ</string>
+    <string name="move">يۆتكىلىش</string>
+    <string name="select_save_location">ساقلاش ئۈچۈن ئورۇن تاللاڭ</string>
+    <string name="scp_default_path">كۆڭۈلدىكى يول (ئىختىيارىي)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">كەچۈرۈڭ ، بۇنداق بولۇشى ناتايىن.</string>
+    
+    <string name="error_report_button_text">بۇ خاتالىقنى ئېلېكترونلۇق خەت ئارقىلىق</string>
+    <string name="error_report_button_telegram">تېلېگرامما ئارقىلىق بۇ خاتالىقنى دوكلات قىلىڭ</string>
+    <string name="copy_for_github">فورماتلانغان دوكلاتنى كۆچۈرۈڭ</string>
+    <string name="error_report_open_issue_button_text">GitHub دىكى دوكلات</string>
+    <string name="error_report_open_github_notice">سىزنىڭ چۈشۈپ كېتىشىڭىزنى مۇزاكىرە قىلىدىغان مەسىلىنىڭ بار-يوقلۇقىنى تەكشۈرۈپ بېقىڭ.</string>
+    <string name="error_snackbar_message">كەچۈرۈڭ ، خاتالىق كۆرۈلدى.</string>
+    <string name="error_snackbar_action">دوكلات</string>
+    <string name="what_device_headline">ئۇچۇر:</string>
+    <string name="what_happened_headline">نېمە ئىش بولدى:</string>
+    <string name="info_labels">نېمە: \\ n تەلەپ: \\ nGMT ۋاقتى: \\ n بەت: : \\ n مودېل: \\ n مەھسۇلات:</string>
+    <string name="your_comment">ئىنكاسىڭىز (ئىنگلىزچە):</string>
+    <string name="error_details_headline">تەپسىلاتلار:</string>
+    <string name="app_ui_crash">ئەپ / UI چۈشۈپ كەتتى</string>
+    <string name="error_report_title">خاتالىق دوكلاتى</string>
+    <string name="crash_report_copied">چاپلاش تاختىسىغا كۆچۈرۈلگەن كاشىلا دوكلاتى</string>
+    <string name="disableIpcSignature">IPC ئىمزا تەكشۈرۈشنى چەكلەش (مىراس SMBv1 مۇلازىمېتىرلىرى ئۈچۈن - بىخەتەر ئەمەس!)</string>
+    <string name="cannot_delete_file">ھۆججەتنى ئۆچۈرگىلى بولمايدۇ</string>
+    <string name="cannot_delete_file_with_reason">ھۆججەتنى ئۆچۈرگىلى بولمايدۇ -% s</string>
+    <string name="cannot_rename_file">ھۆججەتنىڭ نامىنى% s -% s</string>
+    <string name="cannot_read_directory">مۇندەرىجىنى ئوقۇغىلى بولمايدۇ% s -% s</string>
+    <string name="just_once">پەقەت بىر قېتىم</string>
+    <string name="always">ھەمىشە</string>
+    <string name="choose_different_app">ئوخشىمىغان پروگراممىنى تاللاڭ</string>
+    <string name="clear_open_file">غەملەكنى تازىلاش</string>
+    <string name="clear_open_file_summary">تاللانغان سۈكۈتتىكى ھۆججەت ئېچىش پروگراممىلىرىنى تازىلايدۇ</string>
+    <string name="ftp_readonly">ئوقۇشقىلا بولىدىغان زىيارەت</string>
+    <string name="legacy_listing_title">يىلتىز ئۈچۈن مىراس تىزىملىكىنى ئىشلىتىڭ</string>
+    <string name="legacy_listing_summary">ئەگەر قوزغىتىلغان بولسا ، مىراس ئۇسۇلى ئارقىلىق ھۆججەتلەرنى تىزىش</string>
+    <string name="error_unsupported_v5_rar">RAR ئارخىپى \ "% s \" قوللىمايدىغان RAR v5 ئارخىپى.</string>
+    <string name="ftp_prompt_restart_server">ئۆزگەرتىشنىڭ كۈچكە ئىگە بولۇشى ئۈچۈن FTP مۇلازىمېتىرىنى قايتا قوزغىتىشىڭىز كېرەك.</string>
+    <string name="error_permission_denied">ئىجازەت رەت قىلىندى</string>
+    <string name="error_archive_password_incorrect">ئارخىپ مەخپىي نومۇرى خاتا.</string>
+    <string name="error_archive_cannot_extract">ئارخىپ خاتىرىسىنى \ "% s \" دىن \ "% s \" غا چىقارغىلى بولمايدۇ.</string>
+    <string name="drag_and_drop_preference">سۆرەپ تاشلاش مايىللىقىنى تاللاڭ (تەجرىبە)</string>
+    <string name="drag_to_move_copy">ھۆججەتلەرنى يۆتكەش ياكى كۆچۈرۈش ئۈچۈن چېكىڭ ۋە سۆرەيسىز</string>
+    <string name="drag_to_select">ھۆججەتلەرنى تاللاش ئۈچۈن چېكىڭ ۋە سۆرەپ چىقىڭ</string>
+    <string name="disable"/>
+    <string name="choose_operation">مەشغۇلاتنى تاللاڭ</string>
+    <string name="remember">كېلەر قېتىم ئېسىڭىزدە تۇتۇڭ</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP مۇلازىمېتىرى ئۈچۈن SAF نى زىيارەت قىلىڭ</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">بۇ سىزنىڭ FTP مۇلازىمېتىرىڭىزنى تۇنجى قېتىم ئىجرا قىلىشىڭىز ، ھەمدە ئۈسكۈنىنىڭ ئىچكى ساقلىغۇچنى ئورتاق ھۆججەت قىسقۇچ سۈپىتىدە ئىشلىتىۋاتقانلىقىڭىز ئۈچۈن ، Amaze نىڭ SAF ئارقىلىق ساقلاشقا ئېرىشىشىگە يول قويۇڭ. \ n \ n
+
+سىز پەقەت بىرلا قېتىم قىلىشىڭىز كېرەك ، كېلەر قېتىم ئورتاقلىشىش ئۈچۈن يېڭى ئورۇن تاللىغۇچە.</string>
+    <string name="android_data_prompt_saf_access">ئاندىرويىد 10 دىن باشلاپ ، ئاندىرويىد بەزى مۇندەرىجىلەرگە چەكلىمە قويدى ، ھەمدە ئۇلار ساقلاش زىيارەت رامكىسى بىلەن زىيارەت قىلىشى كېرەك. زىيارەتكە يول قويۇڭ \ ".</string>
+    <string name="android_data_prompt_saf_access_title">SAF نى زىيارەت قىلىڭ</string>
+    <string name="ftp_preference_saf_filesystem_title">مىراس ھۆججەت سىستېمىسىنى ئىشلىتىڭ</string>
+    <string name="ftp_preference_saf_filesystem">بۇنى ئاندىرويىدنىڭ يېڭى نەشرىدىكى</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP مۇلازىمېتىر ئورتاقلىشىش يولى ئىچكى ساقلىغۇچقا ئەسلىگە كەلتۈرۈلگەن بولۇپ ، سىز كونا ھۆججەت سىستېمىسىنى يولغا قويماقچى بولۇۋاتىسىز. زۆرۈر تېپىلغاندا ئوڭ تەرەپتىكى تىزىملىكتىن پايدىلىنىپ يېڭى يول تاللاڭ.</string>
+    <string name="ftp_server_reset_notify">FTP مۇلازىمېتىر ئورتاق يولى ئىچكى ساقلىغۇچقا ئەسلىگە كەلتۈرۈلدى</string>
+    <string name="ftp_server_root_unavailable">سىز يىلتىز زىيارەت قىلىشنى تەلەپ قىلىدىغان يولنى تاللاۋاتىسىز. ئەگەر ئۈسكۈنىڭىز يىلتىز تارتسا ، تەڭشەكلەردە يىلتىز ئىزدىگۈچىنى قوزغىتىڭ.</string>
+    <string name="ftp_server_root_filesystem_warning">سىز يىلتىز زىيارەت قىلىشنى تەلەپ قىلىدىغان يولنى تاللاۋاتىسىز ، ئۇ ئۈسكۈنىڭىزدىكى بارلىق ھۆججەت سىستېمىسىدا ئوقۇش / يېزىش مەشغۇلاتىنى قوزغىتىدۇ ، ئۇ خەتەرلىك - پەرۋاسىز خاتالىقلار ئۈسكۈنىڭىزنى خىش قىلىشى مۇمكىن! \ n \ n جەزملەشتۈرەمسىز؟</string>
+    <string name="compressed_explorer_fragment_error_open_uri">ئوقۇش ئۈچۈن URI \ "% s \" نى ئېچىشتا خاتالىق.</string>
+    <string name="error_empty_archive">\ "% s \" قۇرۇق ئارخىپ.</string>
+    <string name="error_bad_archive_without_info">\ "% s \" بۇزۇلغان ئارخىپ. .</string>
+    <string name="error_bad_archive_with_info">\ "% s \" بۇزۇلغان ئارخىپ. \ n تارقاتقۇچىنىڭ ئۇچۇرى: \ "% s \"</string>
+    <string name="security_error">ھۆججەتنى بۇ دېتال ئارقىلىق ئاچقىلى بولمىدى</string>
+    <string name="cloud_drive_tooltip">Amaze ھۆججەت باشقۇرغۇچىنىڭ ئىچىدىكى ھۆججەتلەرنى باشقۇرۇش ئۈچۈن Google Drive ™ ئۇلىنىشى قۇرۇڭ.</string>
+    <string name="signin_with_google_title">Google Drive نى ئىشلىتىشنى دەلىللەڭ ™</string>
+    <string name="show_system_apps">سىستېما ئەپلىرىنى كۆرسىتىش</string>
+    <string name="system_apps">سىستېما ئەپلىرى</string>
+    <string name="select_inverse">تەتۈر</string>
+    <string name="select_by_type">تىپنى تاللاڭ</string>
+    <string name="select_by_date">چېسلا بويىچە تاللاڭ</string>
+    <string name="select_similar">مۇشۇنىڭغا ئوخشاش</string>
+    <string name="error_fetching_google_play_product_list">Google Play دىن مەھسۇلات تىزىملىكىنى ئېلىشتا خاتالىق كۆرۈلدى.</string>
+    <string name="grant_all_files_permission">ئاندىرويىد 11 دىن باشلاپ ، گۇگۇل ھۆججەت باشقۇرغۇچىلاردىن ئۈسكۈنىدىكى بارلىق ھۆججەتلەرنى باشقۇرۇشقا ئىجازەت بېرىشنى تەلەپ قىلدى. تەپسىلاتى بۇ يەردە.
+        \ n \ nAmaze ھۆججەت باشقۇرغۇچىمۇ بۇ ئىجازەتكە موھتاج. بۇ يەردىكى «Grant» نى باسقاندىن كېيىن ، كېيىنكى ئېكراندىكى بارلىق ھۆججەتلەرنى باشقۇرۇشقا يول قويۇڭ.
+        \ n \ n بۇ دىئالوگنى ئەمەلدىن قالدۇرۇش ئەپتىن چېكىنىدۇ.</string>
+    <string name="user_apps">ئىشلەتكۈچى ئەپلىرى</string>
+    <string name="appearance">كۆرۈنۈش</string>
+    <string name="behavior">ھەرىكەت</string>
+    <string name="appearance_summary">ھۆججەت باشقۇرغۇچىنىڭ تېمىسى ، رەڭگى ۋە كۆرۈنۈشىنى خاسلاشتۇرۇڭ</string>
+    <string name="ui_summary">قايسى ئۇچۇرلارنى كۆرسىتىشنى كونترول قىلىڭ ، يانبالداقنى ئىختىيارىي قىلىڭ ۋە UI مايىللىقىنى ئالماشتۇرۇڭ</string>
+    <string name="behavior_summary">ئىلغار ئىزدەش قاتارلىق ھەرىكەتلەرنى ئۆزگەرتىڭ ھەمدە ھۆججەتلەرنى يېڭى ۋەزىپە سۈپىتىدە ئېچىڭمۇ؟</string>
+    <string name="security_summary">پارول ۋە مەخپىيلەشتۈرۈشنى تەڭشەڭ</string>
+    <string name="backup_summary">Amaze تەڭشەكلىرىنى چىقىرىش / ئەكىرىش</string>
+
+    <string name="pref_export">ئېكسپورت</string>
+    <string name="pref_export_summary">ئېكسپورت تەڭشەكلىرى</string>
+    <string name="pref_import">ئەكىرىش</string>
+    <string name="pref_import_summary">تەڭشەكلەرنى ئەكىرىش</string>
+
+    <string name="quick_desc">يېقىندا Amaze</string>
+    <string name="recent_desc">ئارقىلىق زىيارەت قىلىنغان ھۆججەتلەر</string>
+    <string name="error_cannot_find_way_open">ھۆججەتنى ئېچىش يولىنى تاپالمىدى</string>
+    <string name="error_cant_decompress_that_file">تەلەپ قىلىنغان ئارخىپنى بىر تەرەپ قىلالمىدى</string>
+    <string name="analyse_storage">ساقلاشنى تەھلىل قىلىڭ</string>
+    
+    <string name="download_amaze_utils_text">سىز Amaze ھۆججەت قورالىغا قايتا ئۇلىنىسىز. ئۇ بىزنىڭ ئوچۇق كود دېتالىمىز بولۇپ ، ئاۋاز / سىن / رەسىم / ھۆججەت كۆرگۈچىلەرنى قۇرغان ، ئەخلەت ھۆججەتلەرنى ئانالىز قىلىپ ، ساقلاشنى ھەقسىز ، Wifi P2P ئارقىلىق تېز يوللاش ۋە باشقا نۇرغۇن نەرسىلەرنى تەھلىل قىلالايسىز. \ N سىناپ بېقىڭ. </string>
+    <string name="download">چۈشۈرۈش</string>
+    
+    <string name="amaze_utils_installed_alias">Amaze ھۆججەت قورالىنى ئورناتقانلىقىڭىزغا رەھمەت. سىز بۇ دېتالغا قايتا ئۇلىنىسىز.</string>
+    <string name="image_viewer">ھەيران قالارلىق رەسىم كۆرگۈچى</string>
+    
+    <string name="amaze_audio_player">Amaze مۇزىكا قويغۇچى</string>
+    <string name="pdf_viewer">Amaze ھۆججەت كۆرگۈچى</string>
+    <string name="docx_viewer">Amaze ھۆججەت كۆرگۈچى</string>
+    <string name="share_logs">خاتىرىلەرنى ھەمبەھىرلەش</string>
+    <string name="share_logs_summary">تۇتۇلغان خاتىرىلەرنى ئېلېكترونلۇق خەت / تېلېگرامما ئارقىلىق ئورتاقلىشىش</string>
+    <string name="open_with_amaze">Amaze</string>
+    <string name="confirmation">جەزملەشتۈرۈش</string>
+    <string name="open_file_confirmation">تۆۋەندىكى ھۆججەتنى ئاچماقچىمۇ؟ \ n \ n ئىسمى: \ n% s \ n \ n ئورنى: \ n% s \ n \ n چوڭلۇقى: \ n% s \ n \ nMD5: \ n % s \ n \ nSHA256: \ n% s \ n \ n</string>
+    <string name="error_google_play_cannot_update_myself">ھەر بىر Google Play سىياسىتىنىڭ بۇيرۇقلىرىغا ئاساسەن ، ئەپلەرنىڭ ئۆزلۈكىدىن يېڭىلىنىشىغا يول قويۇلمايدۇ. Google Play دىن ئەپنى يېڭىلاڭ.</string>
+    <string name="error_cannot_get_package_info">\ "% s \" ھۆججىتىدىن بوغچا ئۇچۇرىغا ئېرىشەلمىدى. كۆرسىتىلگەن ھۆججەت APK ئەمەس ، ياكى ئورالما ھۆججىتى بۇزۇلغان.</string>
+    <string name="preference_delete_confirmation">جەزملەشتۈرۈشنى ئۆچۈرۈڭ</string>
+    <string name="preference_delete_confirmation_summary">ھۆججەتلەرنى ئۆچۈرۈشتىن بۇرۇن جەزملەشتۈرۈڭ. بۇنى چەكلەش تولىمۇ ئۈمىدسىزلىنىدۇ!</string>
+    
+    
+    <string name="protocol_ftps">بىخەتەر FTP</string>
+    <string name="unavailable">ئىشلەتكىلى بولمايدۇ</string>
+
+    <string name="exporting_failed">ئېكسپورت مەغلۇب بولدى: زاپاس ھۆججەتنى يازالمىدى</string>
+    <string name="importing_failed">ئەكىرىش مەغلۇب بولدى: زاپاس ھۆججەتنى ئوقۇيالمىدى</string>
+    <string name="importing_completed">تاماملانغان</string>
+    <string name="invalid_backup_file">ئىناۋەتسىز زاپاس ھۆججەت</string>
+    <string name="import_failed_for">ئىمپورت مەغلۇب بولدى:</string>
+    <string name="free_of">"% s \ n% s ھەقسىز% s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud قىستۇرمىسى F- قوللىمايدۇ. Droid نەشرى. Amaze نىڭ Play Store نۇسخىسىنى ئىشلىتىڭ.</string>
+    <string name="disable_player_intent_filters">قويغۇچنىڭ مۇددىئاسى سۈزگۈچنى چەكلەڭ</string>
+    <string name="disable_player_intent_filters_summary">Amaze قۇرغان مېدىيا قويغۇچلىرىنى ھۆججەت تاللىغۇچتىن چەكلەيدۇ</string>
+    <string name="no_app_found_intent">بۇ نىيەتنى بىر تەرەپ قىلىدىغان ئەپ تېپىلمىدى. سىزدە ھۆججەتلەر قاچىلانغانمۇ؟</string>
+    <string name="cloud_connection_credentials_cleared">بۇلۇت ئۇلىنىش كىنىشكىسى تازىلاندى</string>
+    <string name="cloud_connection_credentials_cleared_msg">بەختكە قارشى ، بىز بۇلۇت ئۇلىنىش كىنىشكىڭىزنى يېڭى ساندان پىلانىغا كۆچۈرەلمىدۇق ، ئۇلارنى ئەپتىن ئۆچۈرۈۋېتىشىمىز كېرەك. بۇلۇت ئۇلىنىشىنى قايتا قۇرۇڭ.</string>
+</resources>

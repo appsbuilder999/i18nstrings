@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Manajer File Amaze</string>
+    <string name="drawer_open">Buka laci navigasi</string>
+    <string name="drawer_close">Tutup laci navigasi</string>
+    <string name="icon">ikon</string>
+    <string name="apps">Manajer Aplikasi</string>
+    <string name="ftp">Server FTP</string>
+    <string name="setting">Setélan</string>
+    <string name="select">Pilih Item</string>
+    <string name="press_again">Pencét deui pikeun kaluar</string>
+    <string name="open">Buka</string>
+    <string name="backup">Cadangan</string>
+    <string name="uninstall">Cabut pamasangan</string>
+    <string name="play">Playstore</string>
+    <string name="properties">Pasipatan</string>
+    <string name="copyingapks">Nyalin %d file APK ka %s</string>
+    <string name="delbook">Pupus Tetengger</string>
+    <string name="add_to_bookmarks">Tambahkeun kana Tetengger</string>
+    <string name="enterpath">Asupkeun Jalur</string>
+    <string name="cancel">BATAL</string>
+    <string name="create">Jieun</string>
+    <string name="loading">Ngamuat…</string>
+    <string name="file_empty">Koropak kosong</string>
+    <string name="error">Kasalahan</string>
+    <string name="search_results">Hasil teangan %s</string>
+    <string name="rename">Ganti ngaran</string>
+    <string name="save">Simpen</string>
+    <string name="bookmarks_added">Tetengger Ditambahkeun</string>
+    <string name="fileexist">Koropak anu ngaranna sarua geus aya</string>
+    <string name="name">Ngaran</string>
+    <string name="date">Tanggal</string>
+    <string name="location">Lokasi</string>
+    <string name="size_capitalized">Ukuran</string>
+    <string name="size">ukuran polder</string>
+    <string name="enterzipname">Asupkeun Ngaran Pos</string>
+    <string name="no_app_found">Teu aya Aplikasi pikeun muka file ieu</string>
+    <string name="copying">Niron</string>
+    <string name="moving">Mindahkeun</string>
+    <string name="file">Berkas</string>
+    <string name="folder">Polder</string>
+    <string name="newfolder">Polder Anyar</string>
+    <string name="entername">Asupkeun Ngaran</string>
+    <string name="extracting">Ngekstrak</string>
+    <string name="stopping">Stop</string>
+    <string name="open_parent">Buka Diréktori Indungna</string>
+    <string name="open_with">Buka nganggo</string>
+    <string name="share">Bagikeun</string>
+    <string name="about">Ngeunaan</string>
+    <string name="extract">Ekstrak</string>
+    <string name="compress">Kompres</string>
+    <string name="yes">Leres</string>
+    <string name="no">Henteu</string>
+    
+    <string name="dialog_delete_category_directories">Diréktori</string>
+    <string name="dialog_delete_category_files">Koropak</string>
+    <string name="dialog_delete_disclaimer">Mupus item di handap bakal ngahapus sacara permanen tina alat anjeun sareng moal tiasa pulih.</string>
+    <string name="dialog_delete_title">Pupus item permanén?</string>
+    <string name="deleting">Hapus</string>
+    <string name="question_set_path_as_home">Naha anjeun badé nyetél jalur ayeuna salaku bumi pikeun tab ieu?</string>
+    <string name="directorysort">Mode Urut Diréktori</string>
+    <string name="sort_by">Urutkeun Dumasar</string>
+    <string name="sort_only_this">Ngan folder ieu</string>
+    <string name="theme">Téma</string>
+    <string name="random">Kulit Acak</string>
+    <string name="random_summary">Nyetél warna primér acak dina ngamimitian</string>
+    <string name="colorize">Kolori Ikon</string>
+    <string name="colorize_summary">Set warna ikon statik. Teu nimpa preferensi warna ikon diréktori.</string>
+    <string name="home">Imah</string>
+    <string name="paste">Tempelkeun</string>
+    <string name="history">Sajarah</string>
+    <string name="copy">Salin</string>
+    
+    <string name="root_mode_summary">Pikeun alat rooted wungkul. Pariksa éta ngan upami anjeun yakin ngeunaan éta.</string>
+    <string name="root_failure">Akses Akar teu dipasihkeun</string>
+    <string name="select_all">Pilih Sadaya</string>
+    <string name="delete">Pupus</string>
+    <string name="set_as_home">Setel Salaku Imah</string>
+    <string name="operation_not_supported">Operasi teu dirojong</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    
+    <string name="dark">Material Poék</string>
+    <string name="daytime">Beurang</string>
+    <string name="black">Hideung (pikeun OLED)</string>
+    <string name="system">Sistem (tuturkeun téma sistem)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Polder Di Luhur</string>
+    <string name="filesOnTop">Koropak Di Luhur</string>
+    <string name="none_on_top">Euweuh Di Luhur</string>
+    <!--SortBy-->
+    <string name="sort_name">Ngaran</string>
+    <string name="lastModified">Pamungkas Dirobah</string>
+    <string name="sort_size">Ukuran</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Pilih file</string>
+    <string name="process_viewer">Proses Viewer</string>
+    <string name="in_safe">Spasi teu cukup</string>
+    <string name="no_file_overwrite">Teu aya File Ditimpa</string>
+    
+    <string name="overwrite">Nimpa</string>
+    <string name="not_allowed">Teu Diidinan</string>
+    <string name="searching">Milarian %s</string>
+    <string name="done">Rengse</string>
+    <string name="set">Setel</string>
+    <string name="enablerootmde">Aktipkeun Modeu Root</string>
+    <string name="goback">Balik deui</string>
+    <string name="newfile">Berkas Anyar</string>
+    <string name="no_files">Euweuh File</string>
+    <string name="used">spasi dipaké</string>
+    <string name="used_by_others">dipaké ku batur</string>
+    <string name="free">spasi bébas</string>
+    <string name="listview">Témbongkeun Daptar</string>
+    <string name="gridview">Grid Tempo</string>
+    <string name="permission">Idin</string>
+    <string name="hide">Sumputkeun</string>
+    <string name="exit">Kaluar</string>
+    <string name="doforall">Lakukeun pikeun sakabéh item</string>
+    <string name="gridcolumnno">Jumlah kolom dina tampilan grid</string>
+    <string name="set_random">Parobahan bakal lumangsung sanggeus anjeun ngabalikan deui aplikasi</string>
+    <string name="authors">Panulis</string>
+    
+    
+    <string name="ui">Antarbeungeut</string>
+    <string name="general">Umum</string>
+    <string name="thumb_summary">Témbongkeun Gambar leutik aplikasi jeung gambar</string>
+    <string name="thumb">Témbongkeun Gambar leutik</string>
+    <string name="hidden">Témbongkeun Payil jeung Polder Nyumput</string>
+    <string name="lastModifiedSummary">Témbongkeun tanggal jeung waktu modifikasi panungtungan</string>
+    <string name="lastModifiedPref">Témbongkeun Tanggal Panungtungan dirobah sarta Waktos</string>
+    <string name="size_pref_summary">Témbongkeun ukuran koropak jeung jumlah item dina polder</string>
+    <string name="size_pref">Témbongkeun Ukuran</string>
+    <string name="miscellaneous">Segala-rupa</string>
+    <string name="root_pref_summary">Témbongkeun Idin File jeung Polder</string>
+    <string name="root_pref">Témbongkeun Idin</string>
+    <string name="about_amaze_file_manager_label">Ngeunaan Manajer File Amaze</string>
+    <string name="version">Vérsi</string>
+    <string name="rate">Peunteun aplikasi</string>
+    <string name="feedback">Kirim Eupan Balik</string>
+    <string name="hiddenfiles">File Disumputkeun</string>
+    <string name="type">Ketik</string>
+    <string name="root_directory">Akar</string>
+    <string name="add_shortcut">Tambahkeun Potong kompas</string>
+    <string name="unsaved_changes">Parobihan anu Teu Disimpen</string>
+    <string name="unsaved_changes_description">Anjeun gaduh perobahan anu teu disimpen, naha anjeun badé nyimpen éta sateuacan kaluar?</string>
+    <string name="saving">Nyimpen</string>
+    <string name="package_installer">Pamasang Paket</string>
+    <string name="view">Tingali</string>
+    <string name="install">Pasang</string>
+    <string name="archive">Arsip</string>
+    <string name="archive_text">Ieu arsip. Peta naon anu anjeun hoyong laksanakeun?</string>
+    <string name="package_installer_text">Ieu pamasang pakét. Peta naon anu anjeun hoyong laksanakeun?</string>
+    
+    <string name="xda_summary">P&amp;amp;J, Pitulung &amp;amp; Troubleshooting</string>
+    <string name="circular_images">Paké ikon sirkular pikeun gambar sareng video</string>
+    <string name="circular_icons">Paké ikon sirkular</string>
+    <string name="back_title">Navigasi Balik</string>
+    <string name="back_summary">Aktifkeun navigasi balik custom di luhur daptar</string>
+    <string name="details">Detail</string>
+    <string name="translators">Penerjemah</string>
+    <string name="german_translation_title">Jerman</string>
+    <string name="italian_translation_title">Italia</string>
+    <string name="french_translation_title">Prancis</string>
+    <string name="russian_translation_title">Rusia</string>
+    <string name="spanish_translation_title">Spanyol</string>
+    
+    <string name="chinese_translation_title">Cina</string>
+    <string name="serbian_translation_title">Serbia</string>
+    <string name="turkish_translation_title">Turki</string>
+    <string name="ukrainian_translation_title">Ukraina</string>
+    <string name="portuguese_translation_title">Portugis </string>
+    <string name="polish_translation_title">Polandia</string>
+    <string name="korean_translation_title">Korea</string>
+    <string name="greek_translation_title">Yunani</string>
+    <string name="dutch_translation_title">Walanda</string>
+    <string name="romanian_translation_title">Rumania</string>
+    <string name="vietnamese_translation_title">Vietnam</string>
+    <string name="japanese_translation_title">Jepang</string>
+    <string name="tamil_translation_title">Tamil </string>
+
+    
+    <string name="unin_system_apk">Ieu mangrupikeun aplikasi sistem, mupusna tiasa nyababkeun teu stabilna sistem.\nTeruskeun?</string>
+    <string name="warning">Awas</string>
+    <string name="donate">Sumbang</string>
+    <string name="archive_extract_folder">Polder Ekstrak Arsip</string>
+    <string name="archive_summary">Koropak arsip bakal diekstrak kana folder ieu. Nilai standar nyaéta diréktori dimana arsipna aya.</string>
+    <string name="open_as">Buka Salaku</string>
+    <string name="text">Teks</string>
+    
+    
+    <string name="other">Lainna</string>
+    <string name="image">Gambar</string>
+    <string name="contributors">Kontributor</string>
+    <string name="save_paths">Inget jalur</string>
+    <string name="save_path_summary">Nalika ngamimitian, nu panganyarna ditempo folder pikeun tiap tab bakal dipintonkeun</string>
+    <string name="select_intent">Pilih</string>
+    
+    <string name="colored_navigation">Warna Bar Navigasi</string>
+    <string name="colored_navigvation_sum">Naha bar navigasi sistem diwarnaan ku kulit</string>
+
+    <string name="color_title">Warna</string>
+    <string name="color_summary">Setel warna kana sagala rupa komponén UI</string>
+    <string name="primary_color_title">Warna Primer (Tab Kénca)</string>
+    <string name="primary_color_summary">Setel warna ka elemen UI badag pikeun tab kénca</string>
+    <string name="accent_color_title">Warna Aksen</string>
+    <string name="accent_color_summary">Setel warna ka FAB sareng elemen UI leutik sejenna</string>
+    <string name="icon_color_title">Warna Ikon</string>
+    <string name="icon_color_summary">Setel warna ka ikon</string>
+    <string name="choose_color">Pilih warna</string>
+    <string name="files">File</string>
+    
+    
+    <string name="show_dividers">Témbongkeun Divider</string>
+    <string name="needs_access">Write Aksés Diperlukeun</string>
+    <string name="needs_access_summary">Punten pilih diréktori akar \t</string>
+    <string name="needs_access_summary1">\tto masihan aksés nulis pikeun beroperasi</string>
+    <string name="smb_connection">Sambungan SMB</string>
+    <string name="smb_server">Alamat IP Server</string>
+    <string name="server_address">Alamat IP Server</string>
+    <string name="username">Ngaran pamaké</string>
+    <string name="password">Sandi</string>
+    <string name="anonymous">Anonim</string>
+    
+    <string name="folders">Polder</string>
+    <string name="folderfilecount">%1$d polder jeung %2$d file</string>
+    <string name="videos">Video</string>
+    <string name="apks">APK</string>
+    <string name="documents">Dokumén</string>
+    <string name="images">Gambar</string>
+    <string name="clear">Hapus</string>
+    
+    
+    <string name="calculating">ngitung</string>
+    <string name="sort">Urut</string>
+    <string name="ascending">Naek</string>
+    <string name="descending">Turun</string>
+    
+    <string name="doit">Naha</string>
+    <string name="want_help">Peryogi bantosan?</string>
+    <string name="quick">Akses gancang</string>
+    <string name="recent">File panganyarna</string>
+    <string name="edit">Édit</string>
+    <string name="find">Panggihan dina kaca</string>
+    <string name="grant">Pasihan</string>
+    <string name="grantper">Pasihan idin</string>
+    <string name="grantfailed">Idin teu dipasihkeun</string>
+    <string name="grant_storage_permission">Aplikasi peryogi idin neundeun nuluykeun. Ngabolaykeun dialog ieu bakal kaluar tina aplikasi.</string>
+    <string name="operation_unsuccesful">Operasi Teu Sukses</string>
+    <string name="creatingfile">Nyieun File</string>
+    <string name="creatingfolder">Nyieun Polder</string>
+    <string name="renaming">Ngaganti ngaran</string>
+    <string name="cant_be_empty">%s teu bisa kosong</string>
+    <string name="ip">Alamat</string>
+    <string name="connection_name">Ngaran sambungan</string>
+    <string name="no_device_found">Teu kapanggih alat</string>
+    <string name="path">Jalur</string>
+    <string name="rename_bookmark">Robah Tetengger</string>
+    <string name="cut">Potong</string>
+    <string name="search">Pamilarian</string>
+    <string name="invalid_name">Ngaran Teu Sah</string>
+    <string name="search_hint">Ketik kanggo milarian…</string>
+    <string name="advanced_search">Pamilarian Lanjutan</string>
+    <string name="regular_expression">Ekspresi Biasa</string>
+    <string name="regular_expression_summary">Teangan nganggo ekspresi biasa gaya BASH</string>
+    <string name="match_content">Cocok eusi</string>
+    <string name="match_content_summary">Upami disetel, ekspresi biasa bakal cocog sareng sadayana nami file,
+        bakal milarian kajadian anu sanés.</string>
+    <string name="start_ftp">Mimitian</string>
+    <string name="stop_ftp">Eureun</string>
+    <string name="ftp_status_running">Jalan</string>
+    <string name="ftp_status_not_running">Teu Jalan</string>
+    <string name="ftp_no_wifi">Pastikeun anjeun nyambung ka Wi -Fi</string>
+    
+    <string name="smb_share">Bagikeun jalur</string>
+    <string name="invalid">Teu valid %s</string>
+    <string name="ftp_notif_starting">FTP Server dimimitian</string>
+    
+    <string name="ftp_notif_title">Amaze FTP Server ngajalankeun</string>
+    <string name="ftp_notif_text">di %s</string>
+    
+    <string name="ftp_port_edit_menu_title">port FTP</string>
+    <string name="ftp_port_change_success">port FTP junun robah</string>
+    <string name="ftp_port_change_error_invalid">Nomer port teu valid dipilih</string>
+    <string name="primary_two_title">Warna Primer (Tab Katuhu)</string>
+    <string name="primary_two_summary">Setel warna ka elemen UI badag pikeun tab katuhu</string>
+    <string name="support_development">Pamekaran Rojongan</string>
+    <string name="report_bugs_title">Laporkeun Bug</string>
+    <string name="source_title">Kode sumber</string>
+    <string name="source_summary">Tingali kodeu sumber kami dina GitHub</string>
+    <string name="report_bugs_summary">Laporkeun bug atawa ménta fitur anyar</string>
+    <string name="translate_title">Tarjamahkeun</string>
+    <string name="translate_summary">Tarjamah Kagum dina basa anjeun</string>
+    <string name="paypal_copy_message">ID PayPal disalin kana clipboard</string>
+    <string name="searching_devices">Milarian alat</string>
+    <string name="use_custom_ip">Paké IP khusus</string>
+    <string name="bookmark_lost">Bookmark teu kapanggih, nyieun deui...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Kumaha ngaksés polder Windows anu dibagikeun dina Android (SMB)\n\n
+                
+                    
+                        Aktipkeun File Sharing dina Windows\n
+                    
+                    
+                        Buka Control Panel, klik Pilih HomeGroup and Sharing options di bawah Network
+                        sareng Internét, teras klik "Robah Setélan Sharing Advanced," aktipkeun "File and
+                        Fitur Printer Sharing".\n\n
+                    
+
+                    
+                        Setelan Babagi File Tambahan\n
+                    
+                    
+                        Anjeun tiasa ogé hoyong ngonpigurasikeun setélan babagi canggih anu sanés di dieu. \n
+                        Contona, anjeun tiasa ngaktipkeun aksés ka file anjeun tanpa kecap akses upami anjeun percanten ka sadayana
+                        alat dina jaringan lokal Anjeun. Saatos ngabagi file sareng printer diaktipkeun, anjeun tiasa
+                        buka File Explorer atanapi Windows Explorer, klik katuhu polder anu anjeun hoyong bagikeun, sareng
+                        pilih Properties. \n
+                        Klik tombol Bagikeun tur jieun polder nu sadia dina jaringan.\n\n
+                        
+
+                    
+                        Pastikeun kadua alatna dina Wifi nu sami\n
+                    
+                    
+                        Fitur ieu ngajantenkeun file sayogi dina jaringan lokal, janten PC sareng alat sélulér anjeun
+                        kudu dina jaringan lokal nu sami. Anjeun teu tiasa ngaksés polder Windows anu dibagikeun
+                        ngaliwatan Internet atawa lamun smartphone Anjeun disambungkeun ka data mobile na - eta
+                        kudu disambungkeun ka Wi-Fi.\n\n
+                    
+
+                    
+                        Panggihan Alamat IP\n
+                    
+                    
+                        Buka Komando Ajakan. Ketik \'ipconfig\' terus pencét Lebetkeun. Tingali pikeun Default Gateway
+                        handapeun adaptor jaringan anjeun pikeun alamat IP router anjeun. Milarian
+                        \\\"Alamat IPv4\\\" dina bagian adaptor nu sami pikeun manggihan IP komputer Anjeun
+                        alamat.\n\n
+                    
+
+                    Lebetkeun detil dina kotak dialog SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Teu tiasa ngabagikeun langkung ti 100 file</string>
+    <string name="otg_access">Pilih akar alat OTG</string>
+    <string name="information">Inpormasi</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Diaksés</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Dirobih</string>
+
+    <string name="title">Judul</string>
+    <string name="artist">Artis</string>
+    <string name="album">Albeum</string>
+    <string name="year">Taun</string>
+    <string name="duration">Durasi</string>
+    <string name="comment">Komentar</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Wadah</string>
+    
+    <string name="channels">Saluran</string>
+    <string name="sample_rate">Laju Sampel</string>
+    
+    <string name="dimensions">Diménsi</string>
+    <string name="frame_rate">Laju Bingkai</string>
+    <string name="image_type">Jenis Gambar</string>
+    <string name="width">Lebar</string>
+    <string name="height">Jangkungna</string>
+    <string name="date_modified">Kaping Dirobih</string>
+    
+    <string name="creator">Panyipta</string>
+    <string name="camera_brand">Merek Kaméra</string>
+    <string name="camera_model">Kaméra Model</string>
+    <string name="date_taken">Tanggal Dicokot</string>
+    <string name="exposure_time">Waktu Paparan</string>
+    <string name="aperture_value">Nilai Aperture</string>
+    <string name="image_iso">Peunteun Kacepetan ISO</string>
+    <string name="flash_fired">Flash Dipecat</string>
+    <string name="focal_length">Jangka Fokus</string>
+    <string name="subject">Subjek</string>
+    <string name="author">Panulis</string>
+    <string name="keywords">Konci</string>
+    <string name="producer">Produser</string>
+    <string name="created">Dijieun</string>
+    
+    <string name="pages">Jumlah Kaca</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Dioptimalkeun</string>
+    <string name="security">Kaamanan</string>
+    <string name="paper_size">Ukuran Kertas</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Sababaraha file henteu hasil %s</string>
+    <string name="copied">disalin</string>
+    <string name="moved">dipindahkeun</string>
+    <string name="copy_complete">Salinan Lengkep</string>
+    <string name="waiting_title">Antosan</string>
+    <string name="waiting_content">Ngadagoan operasi réngsé</string>
+    <string name="extract_complete">Ékstrak réngsé</string>
+    <string name="compression_complete">Komprési Réngsé</string>
+    <string name="compressing">Komprés</string>
+    <string name="cancelled">Dibatalkeun</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Ditulis</string>
+    <string name="out_of">tina</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">tina</string>
+    <string name="processing_file">Ngolah file</string>
+    <string name="current_speed">Laju Ayeuna</string>
+    <string name="smb_launch_error">Anjeun kudu nyalin koropak ieu ka gudang pikeun mukakeunana</string>
+    <string name="error_file_not_found">Kasalahan: Berkas Teu Kapanggih</string>
+    <string name="error_io">Kasalahan I/O</string>
+    <string name="error_file_too_large">Kasalahan: Berkas Teuing</string>
+    <string name="medium_text">Téks Sedeng</string>
+    <string name="permission_read">Baca</string>
+    <string name="permission_write">Tulis</string>
+    <string name="permission_execute">Jalankeun</string>
+    <string name="permission_owner">Pamilik</string>
+    <string name="permission_group">Grup</string>
+    <string name="permission_other">Lainna</string>
+    <string name="clipboard_path_copy">Jalur disalin kana clipboard</string>
+    <string name="service_timer">Waktos geus kaliwat</string>
+    <string name="please_wait">Punten Antosan</string>
+
+    <string name="cloud_connection">Koneksi Cloud</string>
+    <string name="cloud_connection_new">Koneksi Awan Anyar</string>
+    
+    
+    
+    <string name="cloud_box">Kotak</string>
+    <string name="cloud_get">Kéngingkeun plugin Cloud</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Teu aya aplikasi</string>
+    <string name="ftp_path">Jalur Dibagi</string>
+    <string name="ftp_path_hint">Jalur ka akar diréktori pikeun dibagikeun</string>
+    <string name="change">Robah</string>
+    <string name="unknown_error">Aduh, aya nu lepat!</string>
+
+    <string name="ftp_path_change_success">Jalur FTP junun robah</string>
+    <string name="ftp_path_change_error_invalid">Jalur teu valid</string>
+    <string name="ftp_status_no_connection">Teu aya sambungan</string>
+    <string name="ftp_status_secure_connection">Sambungan Aman</string>
+    
+    
+    
+    <string name="field_empty">Widang teu tiasa kosong</string>
+    <string name="ftp_timeout">Waktu dianggurkeun</string>
+    <string name="ftp_seconds">Detik</string>
+    
+    <string name="intellihide_toolbar_summary">Otomatis nyumputkeun toolbar bari ngagulung</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">disalin kana clipboard</string>
+    <string name="contributors_1_summary">Tarjamahan</string>
+    <string name="contributors_2_summary">Ikon jeung spanduk</string>
+    <string name="contributors_3_summary">Mesin Téma</string>
+    <string name="contributors_4_summary">Tangan di tukangeun FAB</string>
+    <string name="contributors_5_summary">Transisi warna nalika ngusap tab</string>
+    
+    <string name="contributors_7_summary">Ngahurungkeun cangkang interaktif</string>
+    <string name="connection_exists">Koneksi geus aya</string>
+
+    <string name="crypt_encrypting">Énkripsi</string>
+    <string name="crypt_decrypting">Dekripsi</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Énkripsi</string>
+    <string name="crypt_decrypted">Didékripsi</string>
+    <string name="crypt_encrypt">Énkripsi</string>
+    <string name="crypt_decrypt">Énkripsi</string>
+    <string name="operation_fail_following">Operasigagalpikeunnuturkeunfile</string>
+    <string name="crypt_pref_master_password_title">Master Sandi</string>
+    <string name="crypt_pref_master_password_summary">Setel kecap akses master kanggo énkripsi.
+        Ninggalkeun kosong pikeun miceun.</string>
+    <string name="crypt_pref_fingerprint_title">Sidik</string>
+    <string name="crypt_pref_fingerprint_summary">Paké sidik pikeun ngaoténtikasi énkripsi</string>
+    <string name="crypt_fingerprint_no_permission">Idin sidik sidik leungit</string>
+    <string name="crypt_fingerprint_not_enrolled">Teu aya sidik ramo anu didaptarkeun</string>
+    <string name="crypt_fingerprint_no_security">Teu aya kaamanan layar konci kapanggih</string>
+    <string name="crypt_warning_key">Perhatikeun, mun anjeun ngarobah pola kaamanan anjeun tina
+        Setélan sistem, anjeun moal tiasa ngadekrip eusi ieu.</string>
+    <string name="warning_never_show">Tong wartosan deui</string>
+    <string name="warning_confirm">Geus!</string>
+    <string name="crypt_encryption_fail">Gagal ngenkripsi</string>
+    <string name="crypt_decryption_fail">Gagal ngadekrip</string>
+    <string name="crypt_decryption_fail_password">Sandi salah!</string>
+    <string name="crypt_fingerprint_authenticate">Sénsor toél pikeun neruskeun</string>
+    <string name="authenticate_password">Asupkeun kecap akses</string>
+
+    
+    <string name="sidebar_quick_access_title">Sidebar aksés gancang</string>
+    <string name="show_quick_access_pref_title">Témbongkeun aksés gancang</string>
+    <string name="show_quick_access_pref">Aksés gancang</string>
+    <string name="directory">Diréktori</string>
+
+    <string name="sidebar_bookmarks_title">Tetengger sidebar</string>
+    <string name="show_bookmarks_pref_title">Témbongkeun tetengger</string>
+    <string name="show_bookmarks_pref">Tetengger</string>
+    <string name="create_bookmark">Jieun tetengger</string>
+    <string name="edit_bookmark">Edit tetengger</string>
+    <string name="question_delete_bookmark">Pupus tetengger?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin teu kapanggih. Mangga undeur ti Play Store.</string>
+    <string name="cloud_error_failed_restart">Gagal ngamuat sambunganna.
+        Mangga buka Amaze Cloud sakali.</string>
+    <string name="cloud_remove">Naha anjeun hoyong ngahapus sambungan awan?</string>
+    <string name="cloud_fail_authenticate">Gagal ngaoténtikasi</string>
+    <string name="cloud_share_copied">Tumbu anu tiasa dibagi disalin kana clipboard</string>
+    <string name="copy_low_memory">Kahabisan memori, punten hapus sababaraha RAM</string>
+    <string name="cloud_token_lost">Token leungit, mangga lebet deui</string>
+    <string name="monofont">Fon Monospace</string>
+    <string name="showHeaders">Témbongkeun Header</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Euweuh item</string>
+	
+	<string name="items">item</string>
+	
+	<string name="byte_singular">bait</string>
+	<string name="bytes">bait</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">File kudu boga ngaran</string>
+    <string name="add_item">Tambahkeun Item</string>
+    <string name="failed_smb_decrypt_path">Gagal dimuat Sambungan SMB</string>
+    <string name="failed_cloud_new_connection">Gagal nambahkeun sambungan Cloud anyar</string>
+    <string name="failed_cloud_api_key">Gagal ngaoténtikasi plug-in Cloud</string>
+
+    <string name="local_inet_addr_error">Eror meunangkeun alamat inet lokal</string>
+    <string name="intent_save_as">Simpen salaku…</string>
+    
+    
+    <string name="typeable_paths_title">Jalur kustom</string>
+    <string name="typeable_paths_summary">Path bar pencét lila pikeun ngetik jalur custom</string>
+    <string name="send_email_to">Kirim e-mail ka</string>
+
+    <string name="text_editor">Setélan pangropéa téksu</string>
+    <string name="preference_newstack_title">Buka file salaku tugas anyar</string>
+    <string name="preference_newstack_summary">Ngidinan anjeun muka file dina tugas anu misah. Aksés éta tina layar panganyarna sistem.</string>
+    
+    <string name="developers">Pamekar</string>
+    <string name="no_bitcoin_app">Mangga pasang aplikasi Bitcoin Wallet</string>
+    <string name="channel_name_normal">Amaze Bewara</string>
+    <string name="channel_description_normal">Amaze File Manager\'s Bewara</string>
+    
+    <string name="channel_description_ftp">Amaze File Bewara Pangatur FTP Server</string>
+
+    
+    <string name="processing">Ngolah…</string>
+    <string name="failed_no_connection">Gagal ngamuat koropak. Mangga parios sambungan anjeun.</string>
+
+    
+	
+    
+    <string name="ftps_connection">FTP leuwih SSL Connection</string>
+    
+    <string name="ssh_host_key_verification_prompt">Kaaslian host \'%1$s\' teu tiasa ditetepkeun.\n\n%2$s sidik konci %3$s.\n\nPunten ketok \"Leres\" kanggo mastikeun idéntitas; lamun henteu, mangga ketok \"Henteu\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Verifikasi Host</string>
+    
+    <string name="ssh_pem_key_parse_error">Teu bisa maca PEM dipilih: %s</string>
+    <string name="password_unchanged">(teu robah)</string>
+    <string name="ssh_authentication_failure_password">Gagal asup: Teu bisa nga-auténtikasi maké ngaran pamaké sarta sandi nu geus disadiakeun.</string>
+    <string name="ssh_authentication_failure_key">Gagal asup log: Teu bisa nga-auténtikasi maké ngaran pamaké sarta konci pribadi nu disadiakeun.</string>
+    <string name="ssh_connect_failed">Teu bisa nyambung ka %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">PERHATOSAN: Idéntifikasi HOST JAUH GEUS ROBAH!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">MUNGKIN BARANG NU NGALAKUKAN NU JAHAT!\n\nBisa waé aya anu nguping anjeun ayeuna (man-in-the-middle attack)! Ieu oge mungkin yen konci host geus ngan geus robah. Sidik jari pikeun konci umum anu dikirim ku host jauh henteu cocog sareng anu disimpen di Amaze.\n\nPunten wartosan administrator sistem anjeun atanapi setel sambungan énggal pikeun teras nyambung ka server.</string>
+    <string name="ssh_key_prompt_passphrase">Punten lebetkeun frasa sandi konci .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Nyiptakeun potong kompas teu dirojong ku launcher anjeun.</string>
+    
+    <string name="select_color_config">Pilih config warna</string>
+    <string name="customize">Saluyukeun</string>
+    
+    <string name="preselected_configs_title">Konfigurasi anu tos dipilih</string>
+    <string name="orange">Oranyeu</string>
+    <string name="blue">Biru</string>
+    <string name="green">Héjo</string>
+    <string name="password_no_match">Sandi teu cocog</string>
+    <string name="deselect_all">Pupus Pilihan Sadaya</string>
+    <string name="filename">Ngaran koropak</string>
+    <string name="compress_file_suggest_zip_extension">Disarankeun ngagunakeun \".zip\" salaku ekstensi file.</string>
+    <string name="about_amaze">Manajer file desain bahan pikeun Android</string>
+    <string name="license">Lisensi</string>
+    <string name="libraries">Perpustakaan</string>
+    <string name="password_repeat">Ulang sandi</string>
+    <string name="create_file_suggest_txt_extension">Disarankeun make \".txt\" salaku ekstensi file.</string>
+    <string name="ssh_select_pem">Pilih konci pribadi pikeun auténtikasi</string>
+    <string name="ssh_key_invalid_passphrase">Frasa sandi konci teu valid.</string>
+    <string name="ssh_key_no_decoder_decrypt">Teu aya dekoder anu valid pikeun ngadekrip PEM.</string>
+    <string name="encryption_fail_copy">Gagal ngapdet éntri énkripsi dina pangkalan data</string>
+    <string name="extracted">Diekstrak</string>
+    <string name="compressed">Dikomprés</string>
+    <string name="processed">Diprosés</string>
+    <string name="no_obtainable_info">Teu aya info ngeunaan file ieu</string>
+    <string name="reopen_from_source">Teu tiasa, mangga buka deui tina aplikasi anu terakhir</string>
+    <string name="no_file_error">Aya nu lepat, teu aya anu tiasa dibuka</string>
+    <string name="file_too_long">The filena panjang teuing jeung teu bisa diédit, tapi anjeun bisa maca %d karakter nu munggaran</string>
+    <string name="file_read_only">Koropak nu dibuka ngan ukur dibaca.</string>
+    <string name="got_it">Get it!</string>
+    <string name="encrypt_file_save_as">Simpen Énkripsi. File Salaku…</string>
+    <string name="encrypt_folder_save_as">Simpen Polder Énkripsi Salaku…</string>
+    <string name="encrypt_option_use_aze">Paké Format Énkripsi Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt nyaéta format énkripsi file open source dumasar kana énkripsi AES. Éta ogé portabel, tiasa didékripsi nganggo program AESCrypt dina platform sanés.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">situs web AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Format Énkripsi Amaze ogé dumasar kana énkripsi AES; tapi béda ti format AESCrypt, éta ngan bisa decrypted ku alat ieu; Anjeun oge teu kedah nyabut pamasangan Amaze File Manager tina alat ieu atanapi ngarobih cara ngonci layar, upami henteu, anjeun moal gaduh jalan pikeun pulih file anu énkripsi.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Koropak énkripsi kedah nganggo \".aze\" salaku ekstensi file.</string>
+    <string name="encrypt_file_must_end_with_aes">Koropak énkripsi kedah nganggo \".aes\" salaku ekstensi file.</string>
+    <string name="error_aescrypt_decrypt_failed">Teu tiasa ngadekrip \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Teu bisa nimpa koropak.</string>
+    <string name="saved_single_file">Koropak disimpen jadi \'%s\'.</string>
+    <string name="saved_multi_files">%d file disimpen.</string>
+    <string name="create_hidden_file_warn">Koropak nu dijieun bakal disumputkeun dina daptar payil.</string>
+    <string name="grant_apkinstall_permission">Aplikasi perlu idin pikeun masang aplikasi terus.</string>
+    <string name="time_remaining">Waktos sésana</string>
+    <string name="transfer_rate">Laju transfer</string>
+    <string name="unknown">teu kanyahoan</string>
+    <string name="multiple_invalid_archive_entries">Sababaraha file dina arsip teu tiasa diékstrak; arsip bisa jadi ruksak atawa asalna tina sumber jahat.</string>
+    <string name="saf_otg_explanation">Anjeun ayeuna bakal buka sistem file Android pikeun alesan kaamanan. Mangga pilih alat USB tina daptar di kénca.</string>
+    <string name="donation_thanks">Hatur nuhun kanggo sumbangan, ieu ngajantenkeun urang tetep sumanget! (:</string>
+    <string name="enable_marquee_filename">Aktipkeun éfék marquee pikeun ngaran koropak</string>
+    <string name="archive_password_prompt">Punten lebetkeun kecap akses arsip:</string>
+    
+    <string name="cannot_extract_archive">Teu tiasa nimba arsip \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Teu tiasa buka arsip \"%s\". Boh urang teu bisa muka arsip, atawa arsip geus ruksak.</string>
+    <string name="close">Tutup</string>
+    <string name="bookmark_exists">Bookmark aya</string>
+    <string name="hide_media">Sumputkeun tina browser média</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">Mungkin aya anu ngalakukeun anu jahat!\n\nAyeuna aya anu nguping anjeun (serangan man-in-the-middle)! Mungkin ogé konci host parantos dirobih. Sidik ramo sabab konci umum anu dikirim ku host jauh henteu cocog sareng anu disimpen di Amaze.\n\nAnjeun tiasa teraskeun ngapdet sidik host atanapi ngabatalkeun ngapdet setélan sambungan SSH.</string>
+    <string name="update_host_key">Update Key Host</string>
+    <string name="cancel_recommended">Batal (Disarankeun)</string>
+    
+    
+    <string name="failed_install_apk">Gagal dipasang</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Panyimpenan Internal</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Kartu SD</string>
+    <string name="choose_folder">Pilih Polder Ieu</string>
+    
+    <string name="some_files_failed_invalid_operation">Sababaraha file gagal alatan teu valid operasi</string>
+    <string name="ftp_server_prompt_connect_to_network">Nyambung ka jaringan atawa aktipkeun AP</string>
+    <string name="ftp_server_open_settings">Buka setelan</string>
+    <string name="move">Pindahkeun</string>
+    <string name="select_save_location">Pilih lokasi pikeun disimpen</string>
+    <string name="scp_default_path">Jalur Default (Opsional)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Hampura, éta teu kudu kajadian.</string>
+    
+    <string name="error_report_button_text">Laporkeun kasalahan ieu ngaliwatan e-mail</string>
+    <string name="error_report_button_telegram">Laporkeun kasalahan ieu ngaliwatan telegram</string>
+    <string name="copy_for_github">Salin laporan anu diformat</string>
+    <string name="error_report_open_issue_button_text">Laporkeun dina GitHub</string>
+    <string name="error_report_open_github_notice">Punten parios naha masalah anu ngabahas kacilakaan anjeun parantos aya.</string>
+    <string name="error_snackbar_message">Hapunten, aya anu lepat.</string>
+    <string name="error_snackbar_action">Laporkeun</string>
+    
+    <string name="what_happened_headline">Naon anu lumangsung:</string>
+    <string name="info_labels">Naon:\\nPaménta:\\nWaktu GMT:\\nPakét:\\nVérsi:\\nVérsi OS:\\nAlat:\\nModél:\\nProduk :</string>
+    <string name="your_comment">Koméntar anjeun (dina basa Inggris):</string>
+    <string name="error_details_headline">Detail:</string>
+    <string name="app_ui_crash">Aplikasi/UI ngadat</string>
+    <string name="error_report_title">Laporan kasalahan</string>
+    <string name="crash_report_copied">Laporan kacilakaan disalin ka clipboard</string>
+    <string name="disableIpcSignature">Pareuman cék tandatangan IPC (Pikeun server SMBv1 warisan - UNSAFE!)</string>
+    <string name="cannot_delete_file">Teu tiasa ngahapus file</string>
+    <string name="cannot_delete_file_with_reason">Teu tiasa ngahapus file - %s</string>
+    <string name="cannot_rename_file">Teu tiasa ngaganti ngaran file %s - %s</string>
+    <string name="cannot_read_directory">Teu bisa maca diréktori %s - %s</string>
+    <string name="just_once">Sakali</string>
+    <string name="always">Sok</string>
+    <string name="choose_different_app">Pilih aplikasi anu béda</string>
+    <string name="clear_open_file">Hapus cache</string>
+    <string name="clear_open_file_summary">Ngabersihan aplikasi muka file standar anu dipilih</string>
+    <string name="ftp_readonly">Akses baca wungkul</string>
+    <string name="legacy_listing_title">Paké daptar warisan pikeun root</string>
+    <string name="legacy_listing_summary">Upami diaktipkeun, paké metodeu warisan pikeun daptar file</string>
+    <string name="error_unsupported_v5_rar">Arsip RAR \"%s\" mangrupa arsip RAR v5 anu teu dirojong.</string>
+    <string name="ftp_prompt_restart_server">Anjeun kudu ngabalikan deui server FTP pikeun parobahan bisa mawa pangaruh.</string>
+    <string name="error_permission_denied">Idin ditolak</string>
+    <string name="error_archive_password_incorrect">Sandi arsip salah.</string>
+    <string name="error_archive_cannot_extract">Teu bisa nimba éntri arsip \"%s\" kana \"%s\".</string>
+    <string name="drag_and_drop_preference">Pilih preferensi sered tur leupaskeun (Ekspérimén)</string>
+    <string name="drag_to_move_copy">Toél jeung séred pikeun mindahkeun atawa nyalin payil</string>
+    <string name="drag_to_select">Toél jeung séred pikeun milih payil</string>
+    <string name="disable">Pareuman</string>
+    <string name="choose_operation">Pilih operasi pikeun ngalakukeun</string>
+    <string name="remember">Emut kanggo waktos salajengna</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Pasihan aksés SAF kanggo server FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Kusabab ieu mangrupikeun pangladén FTP munggaran anjeun, sareng anjeun nganggo panyimpenan internal alat salaku polder anu dibagikeun, punten ijinkeun Amaze ngaksés panyimpenan nganggo SAF.\n\n
+
+Anjeun ngan ukur kedah ngalakukeun ieu sakali, dugi ka waktos salajengna anjeun milih lokasi anyar pikeun dibagikeun.</string>
+    <string name="android_data_prompt_saf_access">Ti saprak Android 10, Android parantos maksakeun larangan dina diréktori anu tangtu, sareng aranjeunna kedah ngaksés nganggo Storage Access Framework.\n \nPunten ijinkeun Amaze ngaksés diréktori tina pangatur file sistem ku cara ngetok \"Idinan Aksés\".</string>
+    <string name="android_data_prompt_saf_access_title">Pasihan aksés SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Paké sistem file warisan</string>
+    <string name="ftp_preference_saf_filesystem">Aktipkeun Ieu pikeun pangrojong pikeun ngagunakeun panyimpenan éksternal alat dina vérsi Android anu langkung énggal</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Jalur anu dibagikeun server FTP parantos direset kana panyimpenan internal nalika anjeun ngalih deui kana palaksanaan sistem file warisan. Punten pilih jalur anyar nganggo ménu di katuhu luhur upami diperyogikeun.</string>
+    <string name="ftp_server_reset_notify">Jalur dibagikeun server FTP parantos direset ka panyimpenan internal</string>
+    <string name="ftp_server_root_unavailable">Anjeun milih jalur anu peryogi aksés root. Punten aktipkeun root explorer dina setélan upami alat anjeun parantos rooted.</string>
+    <string name="ftp_server_root_filesystem_warning">Anjeun milih jalur anu meryogikeun aksés root, anu ngamungkinkeun operasi maca/tulis dina sakabéh sistem file dina alat anjeun, sareng bahaya - kasalahan anu teu ati-ati tiasa ngaruksak alat anjeun!\n\nNaha anjeun yakin?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Eror muka URI \"%s\" pikeun maca.</string>
+    <string name="error_empty_archive">\"%s\" mangrupa arsip kosong.</string>
+    <string name="error_bad_archive_without_info">\"%s\" arsip ruksak. .</string>
+    <string name="error_bad_archive_with_info">\"%s\" arsip ruksak.\nPesen ti extractor: \"%s\"</string>
+    <string name="security_error">File teu bisa dibuka maké aplikasi ieu</string>
+    <string name="cloud_drive_tooltip">Jieun sambungan Google Drive™ pikeun ngatur payil ti jero Amaze File Manager.</string>
+    <string name="signin_with_google_title">Oténtikasi pikeun ngagunakeun Google Drive™</string>
+    <string name="show_system_apps">Témbongkeun aplikasi sistem</string>
+    <string name="system_apps">Aplikasi sistem</string>
+    <string name="select_inverse">Pilih Tibalik</string>
+    <string name="select_by_type">Pilih dumasar jenis</string>
+    <string name="select_by_date">Pilih dumasar titimangsa</string>
+    <string name="select_similar">Pilih sarupa</string>
+    <string name="error_fetching_google_play_product_list">Eror nyokot daptar produk ti Google Play.</string>
+    <string name="grant_all_files_permission">Ti Android 11 , Google nyuhunkeun Pangatur File pikeun menta idin pamaké pikeun ngatur sadaya file dina alat. Rincian dieu.
+        \n\n Pangatur File Amaze ogé peryogi idin ieu. Saatos mencét "Grant"di dieu, mangga pilih Ngidinan aksés pikeun ngatur sadaya file pilihan dina layar salajengna.
+        \n\nNgabolaykeun dialog ieu bakal kaluar tina aplikasi.</string>
+    <string name="user_apps">Aplikasi pamaké</string>
+    <string name="appearance">Panémbong</string>
+    <string name="behavior">Pokok</string>
+    <string name="appearance_summary">Saluyukeun téma, warna sareng penampilan pangatur file</string>
+    <string name="ui_summary">Kadalikeun inpormasi naon anu bakal ditingalikeun, ngaropea sidebar, sareng togél préferénsi UI</string>
+    <string name="behavior_summary">Robah paripolah sapertos milarian maju sareng naha badé muka file janten tugas énggal</string>
+    <string name="security_summary">Setel kecap akses jeung énkripsi</string>
+    <string name="backup_summary">Setélan Ékspor/Impor Amaze</string>
+
+    <string name="pref_export">Ékspor</string>
+    <string name="pref_export_summary">Setélan ékspor</string>
+    <string name="pref_import">Impor</string>
+    <string name="pref_import_summary">Setélan Impor</string>
+
+    <string name="quick_desc">File nembe diakses ngaliwatan Amaze</string>
+    <string name="recent_desc">File nu nembe dijieun atawa dirobah</string>
+    <string name="error_cannot_find_way_open">Teu bisa manggihan jalan pikeun muka file</string>
+    <string name="error_cant_decompress_that_file">Teu bisa ngolah arsip nu dipénta</string>
+    <string name="analyse_storage">Analisis Panyimpenan</string>
+    
+    <string name="download_amaze_utils_text">Anjeun nuju dialihkeun ka Amaze File Utilities. Ieu mangrupikeun aplikasi open source kami anu gaduh pemirsa audio/video/gambar/dokumen, ngamungkinkeun anjeun nganalisa file sampah pikeun ngosongkeun panyimpenan, transfer gancang nganggo Wifi P2P sareng seueur deui.\nPunten dukung kami ku nyobian éta.</string>
+    <string name="download">Unduh</string>
+    
+    <string name="amaze_utils_installed_alias">Hatur nuhun parantos masang Amaze File Utilities. Anjeun nuju dialihkeun ka aplikasi.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">Bagikeun log</string>
+    <string name="share_logs_summary">Bagikeun log anu dicandak ngalangkungan email / telegram</string>
+    <string name="open_with_amaze">Buka nganggo Amaze</string>
+    <string name="confirmation">Konfirmasi</string>
+    <string name="open_file_confirmation">Anjeun yakin rék muka koropak ieu?\n\nNgaran:\n%s\n\nLokasi:\n%s\n\nUkuran:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Sesuai amanat kawijakan Google Play, aplikasi teu diwenangkeun pikeun ngapdet sorangan. Punten apdet aplikasi tina Google Play.</string>
+    <string name="error_cannot_get_package_info">Teu tiasa nampi inpormasi pakét tina file \"%s\". Boh file anu ditangtukeun sanés APK, atanapi file pakét rusak.</string>
+    <string name="preference_delete_confirmation">Hapus konfirmasi</string>
+    <string name="preference_delete_confirmation_summary">Tanyakeun konfirmasi sateuacan ngahapus file. Nganonaktipkeun ieu kacida teu dianjurkeun!</string>
+    
+    
+    <string name="protocol_ftps">FTP Aman</string>
+    <string name="unavailable">Teu sadia</string>
+
+    <string name="exporting_failed">Ékspor gagal: teu bisa nulis payel cadangan</string>
+    <string name="importing_failed">Impor gagal: teu bisa maca cadangan file</string>
+    <string name="importing_completed">Impor réngsé</string>
+    <string name="invalid_backup_file">Koropak cadangan teu valid</string>
+    <string name="import_failed_for">Impor gagal pikeun:</string>
+    <string name="free_of">"%s\n%s bébas tina %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin teu dirojong ku versi F-Droid. Punten pake Play Store versi Amaze.</string>
+    <string name="disable_player_intent_filters">Pareuman saringan hajat pamuter</string>
+    <string name="disable_player_intent_filters_summary">Tumpurkeun pamaen media inbuilt Amaze tina pamilih file</string>
+    <string name="no_app_found_intent">Teu aya aplikasi anu kapanggih pikeun nanganan maksud ieu. Naha anjeun parantos dipasang DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Kredénsial Cloud Connection diberesihan</string>
+    <string name="cloud_connection_credentials_cleared_msg">Hanjakalna, kami henteu tiasa migrasi kredensial sambungan awan anjeun ka skéma pangkalan data anu énggal, sareng kami ngagaduhan pikeun miceun eta tina aplikasi. Mangga jieun sambungan awan deui.</string>
+</resources>

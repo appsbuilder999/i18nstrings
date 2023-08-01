@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Fael Manager</string>
+    <string name="drawer_open">Bue akwantuo drawer</string>
+    <string name="drawer_close">To akwantuo drawer</string>
+    <string name="icon">ahyɛnsodeɛ</string>
+    
+    
+    <string name="setting">Nsiesiei</string>
+    <string name="select">Paw Ade</string>
+    <string name="press_again">Mia bio na fi</string>
+    <string name="open">Bue</string>
+    
+    <string name="uninstall">Yi instɔlehyɛn</string>
+    <string name="play">Agorudi sotɔɔ</string>
+    <string name="properties">Agyapadeɛ</string>
+    <string name="copyingapks">Yɛre kɔpi %d APK fael kɔ %s</string>
+    <string name="delbook">Popa Bookmark</string>
+    <string name="add_to_bookmarks">Fa ka Bookmarks ho</string>
+    <string name="enterpath">Hyɛ Ɔkwan no mu</string>
+    <string name="cancel">TWA mu</string>
+    <string name="create">BƆ</string>
+    <string name="loading">Wɔrehyɛ mu...</string>
+    <string name="file_empty">Fael no da mpan</string>
+    <string name="error">Mfomso</string>
+    <string name="search_results">Nhwehwɛmu aba a %s</string>
+    <string name="rename">Sesa din</string>
+    <string name="save">Sie</string>
+    <string name="bookmarks_added">Wɔde Bookmarks Aka ho</string>
+    <string name="fileexist">Fael a ɛwɔ din koro no ara wɔ hɔ dedaw</string>
+    <string name="name">Edin</string>
+    <string name="date">Da</string>
+    <string name="location">Beae</string>
+    <string name="size_capitalized">Kyerɛ</string>
+    <string name="size">folda no kɛse</string>
+    <string name="enterzipname">Hye Zip Name</string>
+    <string name="no_app_found">Wɔanhu App biara a ɛbɛbue fael yi</string>
+    <string name="copying">Wɔrekyerɛw</string>
+    <string name="moving">Yɛretu</string>
+    <string name="file">Fael</string>
+    <string name="folder">Folda</string>
+    <string name="newfolder">Folda Foforo</string>
+    <string name="entername">Hyɛ Edin</string>
+    <string name="extracting">Yɛreyi</string>
+    <string name="stopping">Wɔregyae</string>
+    <string name="open_parent">Bue Ɔwofoɔ Nwoma</string>
+    <string name="open_with">Bue ne</string>
+    <string name="share">Kyɛ</string>
+    <string name="about">Ɛfa</string>
+    <string name="extract">Yi</string>
+    <string name="compress">Mmia</string>
+    <string name="yes">Yiw</string>
+    <string name="no">Dabi</string>
+    
+    <string name="dialog_delete_category_directories">Nkyerɛwde ahorow</string>
+    <string name="dialog_delete_category_files">Fael</string>
+    <string name="dialog_delete_disclaimer">Sɛ wopopa nneɛma a ɛwɔ aseɛ ha yi a, ɛbɛyi afiri wo mfiri no so daa na wɔrentumi nnya bio.</string>
+    <string name="dialog_delete_title">Popa nneɛma daa?</string>
+    <string name="deleting">Popa</string>
+    <string name="question_set_path_as_home">Wopɛ sɛ wode mprempren kwan no si fie ma tab yi?</string>
+    <string name="directorysort">Directory Nsiesiei Mode</string>
+    <string name="sort_by">Hyɛ no sɛnea</string>
+    <string name="sort_only_this">Saa folda yi nkutoo</string>
+    <string name="theme">Asɛmti</string>
+    
+    <string name="random_summary">Ɛhyehyɛ kɔla titiriw a wɔanhyɛ da wɔ mfiase</string>
+    <string name="colorize">Kɔla Nsɛnkyerɛnne</string>
+    <string name="colorize_summary">Sɛhyehyɛ static icon kɔla. Ɛntu daerekta ahyɛnsode kɔla a wɔpɛ so.</string>
+    <string name="home">Fie</string>
+    
+    <string name="history">Abakɔsɛm</string>
+    <string name="copy">Kɔpi</string>
+    <string name="root_mode">Ntini mu Nhwehwɛmu</string>
+    <string name="root_mode_summary">Ma rooted device nkutoo. Hwɛ sɛ wowɔ awerɛhyem wɔ ho nkutoo a.</string>
+    <string name="root_failure">Wɔamma Ntini Nkɔso</string>
+    <string name="select_all">Paw Ne Nyinaa</string>
+    <string name="delete">Popa</string>
+    <string name="set_as_home">Set Sɛ́ Fie</string>
+    <string name="operation_not_supported">Wɔnnye adwumayɛ ntom</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Nneɛma Hann</string>
+    <string name="dark">Nneɛma Esum</string>
+    <string name="daytime">Dabere</string>
+    <string name="black">Tuntum (ma OLED)</string>
+    <string name="system">Nhyehyɛe (di nhyehyɛe no asɛmti akyi)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Folda a Ɛwɔ Atifi</string>
+    <string name="filesOnTop">Fael a Ɛwɔ Atifi</string>
+    <string name="none_on_top">Biribiara nni Atifi</string>
+    <!--SortBy-->
+    <string name="sort_name">Edin</string>
+    <string name="lastModified">Wɔsesae Nea etwa to</string>
+    <string name="sort_size">Kye</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Paw fael bi</string>
+    <string name="process_viewer">Adwumayɛ Hwɛfo</string>
+    <string name="in_safe">Akwan a ɛnnɔɔso</string>
+    <string name="no_file_overwrite">Fael biara nni hɔ a wɔakyerɛw so</string>
+    <string name="skip">Twaw</string>
+    <string name="overwrite">Twerɛ so</string>
+    <string name="not_allowed">Wɔamma ho kwan</string>
+    <string name="searching">Wɔrehwehwɛ %s</string>
+    <string name="done">Wɔayɛ</string>
+    <string name="set">Hyɛ</string>
+    <string name="enablerootmde">Ma Ntini Mode no nyɛ adwuma</string>
+    <string name="goback">Kɔ San Akyi</string>
+    <string name="newfile">Fael Foforo</string>
+    <string name="no_files">Fael biara nni hɔ</string>
+    <string name="used">beae a wɔde adi dwuma</string>
+    <string name="used_by_others">a afoforo de adi dwuma</string>
+    <string name="free">ahɔho a wɔde di dwuma</string>
+    <string name="listview">Nkyerɛwde Hwɛ</string>
+    <string name="gridview">Grid Hwɛ</string>
+    <string name="permission">Makwan</string>
+    
+    <string name="exit">Fi</string>
+    <string name="doforall">Yɛ ma nneɛma nyinaa</string>
+    <string name="gridcolumnno">Ndum dodow a ɛwɔ grid hwɛ mu</string>
+    <string name="set_random">Nsakrae bɛba bere a woasan ahyɛ app</string>
+    <string name="authors">Akyerɛwfo</string>
+    <string name="changelog">Nsakrae ho kyerɛwtohɔ</string>
+    
+    <string name="ui">Nkitahodi</string>
+    <string name="general">Asafo</string>
+    <string name="thumb_summary">no akyi Kyerɛ apps ne mfonini nketewa</string>
+    <string name="thumb">Kyerɛ Mfonini nketewa</string>
+    <string name="hidden">Kyerɛ Fael ne Folda a Ahintaw</string>
+    <string name="lastModifiedSummary">Kyerɛ da ne bere a wɔyɛɛ nsakrae a etwa to</string>
+    <string name="lastModifiedPref">Kyerɛ Da a etwa to a wɔsesaa ne Bere</string>
+    <string name="size_pref_summary">Kyerɛ fael no kɛse ne nneɛma dodow a ɛwɔ folda mu</string>
+    <string name="size_pref">Kyerɛ Nkɛntɛnso</string>
+    <string name="miscellaneous">Ahodoɔ</string>
+    <string name="root_pref_summary">Kyerɛ Fael ne Folda ho Akwankyerɛ</string>
+    <string name="root_pref">Kyerɛ Tumi</string>
+    <string name="about_amaze_file_manager_label">Ɛfa Amaze Fael Manager</string>
+    <string name="version">Nkyekyɛm</string>
+    <string name="rate">Fa app no ​​toto ho</string>
+    <string name="feedback">Fa Nsɛm a Wɔka Kyerɛ</string>
+    <string name="hiddenfiles">Fael a Wɔde Ahintaw</string>
+    
+    <string name="root_directory">Ntini</string>
+    <string name="add_shortcut">Fa Ɔkwan tiawa ka ho</string>
+    <string name="unsaved_changes">Nsakraeɛ a wɔankora so</string>
+    <string name="unsaved_changes_description">Wowɔ nsakraeɛ a wɔankora so, wopɛ sɛ wo sie ansa na woafiri mu?</string>
+    <string name="saving">Sɛkora</string>
+    
+    <string name="view">Hwɛ</string>
+    <string name="install">Fa</string>
+    <string name="archive">Akoraeɛ</string>
+    <string name="archive_text">Eyi yɛ akoraeɛ. Adeyɛ bɛn na wobɛpɛ sɛ woyɛ?</string>
+    <string name="package_installer_text">Eyi yɛ package installer. Adeyɛ bɛn na wobɛpɛ sɛ woyɛ?</string>
+    <string name="xda_title">XDA asaawa</string>
+    <string name="xda_summary">Nsɛmmisa ne Mmuae, Mmoa &amp;amp; Ɔhaw Ho Nsiesiei</string>
+    <string name="circular_images">Fa ahyɛnsode kurukuruwa di dwuma ma mfonini ne video</string>
+    <string name="circular_icons">Fa ahyɛnsode kurukuruwa di dwuma</string>
+    <string name="back_title">Akyi akwantuo</string>
+    <string name="back_summary">Ɛma wotumi kɔ akyi kwan a wɔahyɛ da ayɛ wɔ list no atifi</string>
+    <string name="details">Nsɛm a ɛkɔ akyiri</string>
+    <string name="translators">Nkyerɛasefoɔ</string>
+    <string name="german_translation_title">German kasa</string>
+    <string name="italian_translation_title">Italian kasa</string>
+    <string name="french_translation_title">Franse kasa</string>
+    <string name="russian_translation_title">Russia</string>
+    
+    
+    <string name="chinese_translation_title">China</string>
+    <string name="serbian_translation_title">Serbia</string>
+    <string name="turkish_translation_title">Turkey</string>
+    <string name="ukrainian_translation_title">Ukraine kasa</string>
+    
+    <string name="polish_translation_title">Poland kasa</string>
+    
+    <string name="greek_translation_title">Hela</string>
+    
+    <string name="romanian_translation_title">Romania</string>
+    <string name="vietnamese_translation_title">Vietname</string>
+    <string name="japanese_translation_title">Japan</string>
+    
+
+    
+    <string name="unin_system_apk">Eyi yɛ system app, sɛ wopopa a, ebetumi ama system no ntumi nnyina.\ nToa so?</string>
+    <string name="warning">Kɔkɔbɔ</string>
+    <string name="donate">Doma</string>
+    <string name="archive_extract_folder">Akorae yiyi Folda</string>
+    <string name="archive_summary">Wɔbɛyi Archive fael akɔ saa folda yi mu. Default value ne directory a archive wɔ mu.</string>
+    <string name="open_as">Bue Sɛnea</string>
+    <string name="text">Nkyerɛwee</string>
+    <string name="audio">Odio</string>
+    
+    <string name="other">Afoforo</string>
+    <string name="image">Mfonini</string>
+    <string name="contributors">Aboafo</string>
+    <string name="save_paths">Kae akwan</string>
+    <string name="save_path_summary">Sɛ worefi ase a, wɔbɛda folda a wɔahwɛ nnansa yi ara ama tab biara adi</string>
+    <string name="select_intent">Paw</string>
+    
+    <string name="colored_navigation">Kɔla a Wɔde Fa Akwantuo Bar</string>
+    <string name="colored_navigvation_sum">Sɛ ebia wɔde kɔla ahyɛ system navigation bar no mu anaasɛ ɛnte saa</string>
+
+    <string name="color_title">Kɔla</string>
+    <string name="color_summary">Fa kɔla si UI afã ahodoɔ so</string>
+    <string name="primary_color_title">Kɔla Titiriw (Benkum Tab)</string>
+    <string name="primary_color_summary">Fa kɔla to UI nneɛma akɛse so ma benkum tab</string>
+    <string name="accent_color_title">Accent Kɔla</string>
+    <string name="accent_color_summary">Fa kɔla to FAB ne UI nketewa afoforo so elements</string>
+    <string name="icon_color_title">Ahyɛnsodeɛ Kɔla</string>
+    <string name="icon_color_summary">Fa kɔla si ahyɛnsodeɛ so</string>
+    <string name="choose_color">Paw kɔla</string>
+    <string name="files">Fael</string>
+    <string name="textreader">Nkyerɛwee Akenkanfoɔ</string>
+    <string name="databasereader">Database Akenkanfoɔ</string>
+    <string name="show_dividers">Kyerɛ Nkyekyɛmu</string>
+    <string name="needs_access">Twerɛ Akwantuo a Ɛhia</string>
+    <string name="needs_access_summary">Yɛsrɛ wo paw \t</string>
+    <string name="needs_access_summary1">\tto ma kwan ma kyerɛw kwan ma ɛyɛ adwuma</string>
+    <string name="smb_connection">SMB Nkitahodi</string>
+    
+    
+    <string name="username">Ɔdefo Din</string>
+    <string name="password">Asɛmfua</string>
+    <string name="anonymous">Wɔn a wonni din</string>
+    
+    <string name="folders">Folda</string>
+    <string name="folderfilecount">%1$d folda ne %2$d fael</string>
+    <string name="videos">Video</string>
+    
+    <string name="documents">Nwoma</string>
+    <string name="images">Mfonini</string>
+    <string name="clear">Eda adi pefee</string>
+    
+    <string name="total">Ne nyinaa:</string>
+    <string name="calculating">a wɔrebu akontaa</string>
+    <string name="sort">Hyɛ nhyehyɛe</string>
+    <string name="ascending">Aforosian</string>
+    <string name="descending">Sian</string>
+    
+    <string name="doit">So ɛyɛ</string>
+    <string name="want_help">Ɛhia mmoa?</string>
+    <string name="quick">Ntɛmntɛm access</string>
+    <string name="recent">Fael a aba nnansa yi</string>
+    <string name="edit">Sesa</string>
+    <string name="find">Hwehwɛ wɔ kratafa</string>
+    <string name="grant">Ma</string>
+    <string name="grantper">Ma kwan</string>
+    <string name="grantfailed">Wɔamma kwan</string>
+    <string name="grant_storage_permission">App hia storage kwan na ama akɔ so. Sɛ wotwa saa nkɔmmɔbɔ yi mu a, ɛbɛfiri app no ​​mu.</string>
+    <string name="operation_unsuccesful">Adwumayɛ no antumi</string>
+    <string name="creatingfile">Fael a wɔrebɔ</string>
+    <string name="creatingfolder">Folda a wɔrebɔ</string>
+    <string name="renaming">Wɔresan ato din</string>
+    <string name="cant_be_empty">%s ntumi nyɛ hunu</string>
+    
+    <string name="connection_name">Nkitahodi din</string>
+    <string name="no_device_found">Wanhu mfiri biara</string>
+    <string name="path">Ɔkwan</string>
+    <string name="rename_bookmark">Sesa Bookmark</string>
+    <string name="cut">Twa</string>
+    <string name="search">Hwehwɛ</string>
+    <string name="invalid_name">Edin a ɛnnyɛ adwuma</string>
+    <string name="search_hint">Type to search...</string>
+    <string name="advanced_search">Nhwehwɛ a ɛkɔ akyiri</string>
+    <string name="regular_expression">Daa Nkyerɛkyerɛmu</string>
+    <string name="regular_expression_summary">Hwehwɛ denam BASH kwan so daa asɛmfua a wɔde di dwuma so</string>
+    <string name="match_content">Ma nsɛm a ɛwɔ mu no hyia</string>
+    <string name="match_content_summary">Sɛ wɔahyehyɛ a, daa expression ne fael din nyinaa bɛhyia, .
+        bɛhwehwɛ sɛ ɛba saa a ɛnte saa.</string>
+    <string name="start_ftp">Fi ase</string>
+    <string name="stop_ftp">Gyae</string>
+    <string name="ftp_status_running">Mmirikatu</string>
+    <string name="ftp_status_not_running">Ɛnyɛ Mmirikatu</string>
+    <string name="ftp_no_wifi">Hwɛ sɛ woanya Wi -Fi</string>
+    
+    <string name="smb_share">Kyɛfa kwan</string>
+    <string name="invalid">%s a ɛnnyɛ adwuma</string>
+    <string name="ftp_notif_starting">FTP Server refi ase</string>
+    <string name="ftp_notif_starting_title">FTP Serwa</string>
+    <string name="ftp_notif_title">Amaze FTP Server a ɛreyɛ adwuma</string>
+    <string name="ftp_notif_text">wɔ %s</string>
+    <string name="ftp_notif_stop_server">GYINA</string>
+    <string name="ftp_port_edit_menu_title">FTP hyɛn gyinabea</string>
+    <string name="ftp_port_change_success">FTP port sesae yie</string>
+    <string name="ftp_port_change_error_invalid">Wɔapaw port nɔma a ɛnteɛ</string>
+    <string name="primary_two_title">Kɔla Titiriw (Tab Nifa)</string>
+    <string name="primary_two_summary">Hyɛ kɔla ma UI nneɛma akɛse ma tab a ɛfata</string>
+    <string name="support_development">Mmoa Nkɔso</string>
+    <string name="report_bugs_title">Bɔbɔ Mfomso ho amanneɛ</string>
+    <string name="source_title">Fibea koodu</string>
+    <string name="source_summary">Hwɛ yɛn fibea koodu wɔ GitHub</string>
+    <string name="report_bugs_summary">Bɔ mfomso ho amanneɛ anaa bisa ade foforo</string>
+    <string name="translate_title">Nkyerɛase</string>
+    <string name="translate_summary">Nkyerɛ ase Amaze wɔ wo kasa mu</string>
+    <string name="paypal_copy_message">PayPal ID a wɔayɛ no kɔpi wɔ clipboard</string>
+    <string name="searching_devices">Wɔrehwehwɛ mfiri</string>
+    <string name="use_custom_ip">Fa IP a wɔahyɛ da ayɛ</string>
+    <string name="bookmark_lost">Wɔanhu Bookmark, woresan ayɛ...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Sɛnea wobɛkɔ Windows folda a wɔakyekyɛ mu wɔ Android (SMB) so\n\n
+                
+                    
+                        Ma Fael Kyɛfa nyɛ adwuma wɔ Windows so\n
+                    
+                    
+                        Bue Control Panel no, klik Choose HomeGroup ne Sharing options wɔ Network ase
+                        ne Intanɛt, na klik "Change Advanced Sharing Settings," ma "File and..." no nyɛ adwuma
+                        Printer Kyɛfa" afã.\n\n
+                    
+
+                    
+                        Fael Kyɛ nhyehyɛe foforo\n
+                    
+                    
+                        Ebia wobɛpɛ nso sɛ wo hyehyɛ kyɛfa nhyehyɛe afoforo a ɛkɔ akyiri no wɔ ha. \n
+                        Sɛ nhwɛso no, wubetumi ama woatumi akɔ wo fael ahorow no so a wunni password sɛ wugye ne nyinaa di a
+                        mfiri ahorow a ɛwɔ wo mpɔtam hɔ network so no. Sɛ wɔma fael ne printa kyɛfa no yɛ adwuma wie a, wubetumi
+                        bue File Explorer anaa Windows Explorer, klik folda bi a wopɛ sɛ wokyɛ so nifa so, na
+                        paw Agyapade ahorow. \n
+                        Klik Share button no so na ma folda no ntumi nkɔ netɛw no so.\n\n
+                        
+
+                    
+                        Hwɛ sɛ mfiri mmienu no nyinaa wɔ Wifi\n koro so
+                    
+                    
+                        Saa ade yi ma fael ahorow wɔ mpɔtam hɔ network no so, enti wo PC ne mobile devices
+                        ɛsɛ sɛ ɛwɔ mpɔtam hɔ nkitahodibea koro no ara so. Worentumi nkɔ Windows folda a wɔakyekyɛ mu
+                        wɔ Intanɛt so anaa bere a wo smartphone no akɔ ne mobile data so — ɛno
+                        ɛsɛ sɛ wɔde bata Wi-Fi ho.\n\n
+                    
+
+                    
+                        Hwehwɛ IP Address\n
+                    
+                    
+                        Bue Ahyɛde a Wɔde Kyerɛw Nsɛm. Type \'ipconfig\' na mia Enter so. Hwehwɛ Default Gateway a ɛwɔ hɔ
+                        wɔ wo network adapter ase ma wo router\'s IP address. Hwehwɛ
+                        \\\"IPv4 Address\\\" wɔ adapter ɔfa koro no ara ase sɛ wobɛhwehwɛ wo kɔmputa\'s IP
+                        address.\n\n
+                    
+
+                    Hyehyɛ nsɛm no mu nsɛm wɔ SMB nkɔmmɔbɔ adaka mu\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Entumi nkyɛ fael bɛboro 100</string>
+    <string name="otg_access">Paw OTG mfiri no ntini</string>
+    <string name="information">Nsɛm</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Wɔakɔ mu</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Wɔasesa</string>
+
+    <string name="title">Asɛmti</string>
+    <string name="artist">Adwumfo</string>
+    
+    <string name="year">Afe</string>
+    <string name="duration">Bere tenten</string>
+    <string name="comment">Nsɛm a wɔka</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Ahina</string>
+    <string name="codec">Kodec</string>
+    <string name="channels">Nkwan</string>
+    <string name="sample_rate">Nhwɛsode Rate</string>
+    
+    <string name="dimensions">Nsusuwii</string>
+    
+    <string name="image_type">Mfonini no su</string>
+    <string name="width">Trɛw</string>
+    <string name="height">Ɔsorokɔ</string>
+    <string name="date_modified">Da a Wɔsesaa</string>
+    
+    <string name="creator">Ɔbɔadeɛ</string>
+    <string name="camera_brand">Kamera Brand</string>
+    <string name="camera_model">Kamera Model</string>
+    <string name="date_taken">Da a Wɔfaa</string>
+    <string name="exposure_time">Bere a Wɔde Daa Nneɛma Adi</string>
+    <string name="aperture_value">Aperture Botae</string>
+    <string name="image_iso">ISO Ahoɔhare Nhwehwɛmu</string>
+    
+    <string name="focal_length">Nneɛma a wɔde si biribi so</string>
+    <string name="subject">Asɛmti</string>
+    <string name="author">Ɔkyerɛwfo</string>
+    <string name="keywords">Nsɛmfua atitiriw</string>
+    <string name="producer">Ɔyɛfo</string>
+    <string name="created">Wɔabɔ</string>
+    <string name="format">Nhyehyɛe</string>
+    <string name="pages">Dodow a Nkratafa</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Wɔayɛ no yie</string>
+    <string name="security">Ahobanbɔ</string>
+    <string name="paper_size">Krataa Kɛseɛ</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Wɔannyɛ fael binom %s</string>
+    <string name="copied">nkyerɛwee yiye</string>
+    <string name="moved">tu</string>
+    <string name="copy_complete">Kɔpi no awie</string>
+    <string name="waiting_title">Twɛn</string>
+    <string name="waiting_content">Wɔretwɛn sɛ adwumayɛ bɛwie</string>
+    <string name="extract_complete">Wɔayiyi awie</string>
+    <string name="compression_complete">Nhyɛso awie</string>
+    <string name="compressing">Wɔrebɔ</string>
+    <string name="cancelled">Wɔatwa mu</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Wɔakyerɛw</string>
+    <string name="out_of">firi</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">a ɛfa</string>
+    <string name="processing_file">Fael a wɔreyɛ</string>
+    <string name="current_speed">Mprempren Ahoɔhare</string>
+    <string name="smb_launch_error">Ɛbɛhia sɛ wo kɔpi fael yi kɔ storage na woabue</string>
+    <string name="error_file_not_found">Mfomso: Wɔanhu Fael</string>
+    <string name="error_io">I/O Mfomso</string>
+    <string name="error_file_too_large">Mfomso: Fael Kɛse Dodo</string>
+    <string name="medium_text">Nkyerɛwee a Ɛwɔ Mfinimfini</string>
+    <string name="permission_read">Kenkan</string>
+    <string name="permission_write">Twerɛ</string>
+    <string name="permission_execute">Dwuma</string>
+    <string name="permission_owner">Owura</string>
+    <string name="permission_group">Kuw</string>
+    <string name="permission_other">Afoforo</string>
+    <string name="clipboard_path_copy">Ɔkwan a wɔafa so akɔ clipboard</string>
+    <string name="service_timer">Bere a atwam</string>
+    <string name="please_wait">Yɛsrɛ wo Twɛn</string>
+
+    <string name="cloud_connection">Mununkum Nkitahodi</string>
+    <string name="cloud_connection_new">Mununkum Nkitahodi Foforo</string>
+    <string name="cloud_dropbox">ho Dropbox</string>
+    <string name="cloud_drive">Google DriveTM</string>
+    
+    <string name="cloud_box">Adaka</string>
+    <string name="cloud_get">Gya Cloud plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Aplikeshene biara nni hɔ</string>
+    <string name="ftp_path">Kyɛkwan Kwan</string>
+    <string name="ftp_path_hint">Ɔkwan a ɛkɔ daerekta ntini a wobɛkyɛ</string>
+    <string name="change">Sesa</string>
+    <string name="unknown_error">Oops, biribi ankɔ yie!</string>
+
+    <string name="ftp_path_change_success">FTP kwan no sesae yie</string>
+    <string name="ftp_path_change_error_invalid">Ɔkwan a ɛnnyɛ adwuma</string>
+    <string name="ftp_status_no_connection">Nkitahodi biara nni hɔ</string>
+    <string name="ftp_status_secure_connection">Nkitahodi a Ahobammɔ</string>
+    <string name="ftp_status_title">Gyinabea</string>
+    
+    <string name="ftp_login">Kɔhyɛn mu</string>
+    <string name="field_empty">Afuw no ntumi nyɛ hunu</string>
+    <string name="ftp_timeout">Bere a ɛnyɛ adwuma</string>
+    <string name="ftp_seconds">Sekan</string>
+    <string name="intellihide_toolbar_title">Intellihide Nnwinnade kyerɛwpon</string>
+    <string name="intellihide_toolbar_summary">Fa adwinnade kyerɛwpon no sie wo ho bere a worekɔ</string>
+    <string name="hash_sha256">SHA- . 256</string>
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">wɔayɛ no kɔ clipboard</string>
+    <string name="contributors_1_summary">Nkyerɛase</string>
+    <string name="contributors_2_summary">Ahyɛnsode ne frankaa</string>
+    <string name="contributors_3_summary">Asɛmti Engine</string>
+    <string name="contributors_4_summary">Shade wɔ FAB akyi</string>
+    <string name="contributors_5_summary">Kɔla nsakrae bere a worebɔ tabs</string>
+    <string name="contributors_6_summary">FTP Serwa</string>
+    <string name="contributors_7_summary">Wɔretow nkitahodi shell</string>
+    <string name="connection_exists">Nkitahodi ɛwɔ hɔ dedaw</string>
+
+    <string name="crypt_encrypting">Nsɛm a wɔde sie</string>
+    <string name="crypt_decrypting">Decrypt</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Wɔde Encrypt</string>
+    <string name="crypt_decrypted">Decrypt</string>
+    
+    
+    <string name="operation_fail_following">Dwumadie no antumi amma fael a ɛdidi soɔ yi</string>
+    <string name="crypt_pref_master_password_title">Master Asɛmfua</string>
+    <string name="crypt_pref_master_password_summary">Hyɛ master password ma encryption.
+        Gyae kwa na yiyi.</string>
+    <string name="crypt_pref_fingerprint_title">Nsateaa nkyerɛwee</string>
+    <string name="crypt_pref_fingerprint_summary">Fa nsateaa nkyerɛwee di dwuma de gye encryption no tom</string>
+    <string name="crypt_fingerprint_no_permission">Nsateaa nkyerɛwee ho kwan nni hɔ</string>
+    <string name="crypt_fingerprint_not_enrolled">Wɔankyerɛw nsateaa nkyerɛwee biara</string>
+    <string name="crypt_fingerprint_no_security">No lockscreen ahobammɔ found</string>
+    <string name="crypt_warning_key">Wɔ afotuo, berɛ a wo sesa wo ahobanbɔ nhyehyɛeɛ firi
+        System nhyehyeɛ, worentumi nyi saa nsɛm yi mu.</string>
+    <string name="warning_never_show">Nbɔ amanneɛ bio</string>
+    <string name="warning_confirm">Menyaa no!</string>
+    <string name="crypt_encryption_fail">Wɔntumi mfa encrypt</string>
+    <string name="crypt_decryption_fail">Wɔantumi annye decrypt</string>
+    <string name="crypt_decryption_fail_password">Asɛmfua a ɛnteɛ!</string>
+    <string name="crypt_fingerprint_authenticate">Ka sensor na toa so</string>
+    <string name="authenticate_password">Hye asɛmfua</string>
+
+    <string name="sidebar_preferences">Afã</string>
+    <string name="sidebar_quick_access_title">Sidebar ntɛm kwan</string>
+    <string name="show_quick_access_pref_title">Kyerɛ akwan a wɔfa so kɔ hɔ ntɛmntɛm</string>
+    <string name="show_quick_access_pref">Nneɛma a wɔfa so kɔ hɔ ntɛmntɛm</string>
+    <string name="directory">Akwankyerɛ</string>
+
+    <string name="sidebar_bookmarks_title">Afã kyerɛwpon</string>
+    <string name="show_bookmarks_pref_title">Kye bookmarks</string>
+    <string name="show_bookmarks_pref">Nkyerɛwde</string>
+    <string name="create_bookmark">Yɛ nhoma agyiraehyɛde</string>
+    <string name="edit_bookmark">Sesa ahyɛnsode</string>
+    <string name="question_delete_bookmark">Popa nhoma agyiraehyɛde?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin no nhuu. Yɛsrɛ wo twe fi Play Store.</string>
+    <string name="cloud_error_failed_restart">Wɔntumi mfa nkitahodi no nkɔ.
+        Yɛsrɛ wo bue Amaze Cloud pɛnkoro.</string>
+    <string name="cloud_remove">Wopɛ sɛ woyi mununkum nkitahodi no fi hɔ?</string>
+    <string name="cloud_fail_authenticate">Wɔantumi ankyerɛ sɛ ɛyɛ nokware</string>
+    <string name="cloud_share_copied">Wɔayɛ link a wɔtumi kyɛ a wɔatwe akɔ clipboard</string>
+    <string name="copy_low_memory">Running out of memory, yɛsrɛ wo yi RAM bi fi hɔ</string>
+    <string name="cloud_token_lost">Token ayera, yɛsrɛ wo san kɔ mu bio</string>
+    
+    <string name="showHeaders">Kyerɛ Atiri</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Nneɛma biara nni hɔ</string>
+	<string name="item">ade</string>
+	<string name="items">nneɛma</string>
+	
+	<string name="byte_singular">baiti</string>
+	<string name="bytes">baiti</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Ɛsɛ sɛ fael no nya din</string>
+    <string name="add_item">Fa Adeɛ ka ho</string>
+    <string name="failed_smb_decrypt_path">Entumi mfa nhyɛ mu SMB nkitahodi</string>
+    <string name="failed_cloud_new_connection">Entumi mfa Cloud nkitahodi foforo nka ho</string>
+    <string name="failed_cloud_api_key">Wantumi annye Cloud plug-in no antom</string>
+
+    <string name="local_inet_addr_error">Mfomso wɔ mpɔtam hɔ inet address a wonyae</string>
+    <string name="intent_save_as">Save as...</string>
+    <string name="go">Kɔ</string>
+    <string name="advanced">Akɔ anim</string>
+    <string name="typeable_paths_title">Akwan a wɔahyɛ da ayɛ</string>
+    <string name="typeable_paths_summary">Mia ɔkwan bar so tenten na kyerɛw ɔkwan a wɔahyɛ da ayɛ</string>
+    <string name="send_email_to">Fa e-mail kɔma</string>
+
+    <string name="text_editor">Text editor nhyehyeɛ</string>
+    <string name="preference_newstack_title">Bue fael sɛ adwuma foforɔ</string>
+    <string name="preference_newstack_summary">Ɛma wo kwan ma wobue fael wɔ nnwuma ahodoɔ mu. Nya wɔn fi system nnansa yi screen.</string>
+    
+    <string name="developers">Nyɛfoɔ</string>
+    <string name="no_bitcoin_app">Yɛsrɛ wo instɔl Bitcoin Wallet app</string>
+    <string name="channel_name_normal">Amaze Amanneɛbɔ</string>
+    <string name="channel_description_normal">Amaze Fael Manager\'s Amanneɛbɔ</string>
+    <string name="channel_name_ftp">Amaze FTP Serwa</string>
+    <string name="channel_description_ftp">Amaze Fael Manager FTP Server\'s Amanneɛbɔ</string>
+
+    
+    <string name="processing">Ɛreyɛ...</string>
+    <string name="failed_no_connection">Entumi mfa fael nhyɛ mu. Yɛsrɛ wo hwɛ wo nkitahodi no.</string>
+
+    
+	<string name="scp_connection">SCP/SFTP Nkitahodi</string>
+    <string name="ftp_connection">FTP Nkitahodi</string>
+    <string name="ftps_connection">FTP so SSL Nkitahodi</string>
+    
+    <string name="ssh_host_key_verification_prompt">Wɔntumi nsi host \'%1$s\' nokwaredi.\n\n%2$s nsateaa safoa no yɛ %3$s.\n\nYɛsrɛ wo pia \"Yiw\" na si so dua adida; anyɛ saa a, yɛsrɛ wo pia \"Dabi\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Hyɛ Host no ho adanse</string>
+    <string name="ssh_select_pem_button">SSH Kokoam Safoa</string>
+    <string name="ssh_pem_key_parse_error">Entumi nkenkan PEM a wɔapaw: %s</string>
+    <string name="password_unchanged">(wɔnsakraa)</string>
+    <string name="ssh_authentication_failure_password">Logon huammɔdi: Entumi mfa ɔdefo din ne asɛmfua a wɔde ama no nnye ntom.</string>
+    <string name="ssh_authentication_failure_key">Logon huammɔdi: Entumi mfa ɔdefo din ne kokoam safoa a wɔde ama no nnye ntom.</string>
+    <string name="ssh_connect_failed">Entumi nkɔ %1$ s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">KƆBƆ: REMOTE HOST IDENTIFICATION ASESA!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">ƐBƐYƐ SƐ OBI reyɛ BIBI A WƆYƐ AKWANKYERƐ!\n\nObi betumi atie wo mprempren yi ara (onipa-a-wɔ-mfinimfini ntua)! Ɛsan nso betumi aba sɛ wɔasesa host key no nkyɛe. Nsateaa nkyerɛwee ma ɔmanfoɔ safoa a akyirikyiri host no de amena no nhyia deɛ wɔde asie wɔ Amaze mu.\n\nYɛsrɛ wo, di wo system sohwɛfoɔ ho nkɔmmɔ anaa hyehyɛ nkitahodiɛ foforɔ na kɔ so nkɔka server no ho.</string>
+    <string name="ssh_key_prompt_passphrase">Yɛsrɛ wo hyɛ safoa passphrase .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Akwan tiawa adebɔ no, wo launcher no ntumi mmoa.</string>
+    
+    <string name="select_color_config">Paw kɔla nhyehyɛe</string>
+    <string name="customize">Twe</string>
+    <string name="custom">Apɛde</string>
+    <string name="preselected_configs_title">Nhyehyɛe a wɔadi kan apaw</string>
+    <string name="orange">Akutu</string>
+    <string name="blue">Bluu</string>
+    <string name="green">Ahabammono</string>
+    <string name="password_no_match">Asɛmfua no nhyia</string>
+    <string name="deselect_all">Pow Ne nyinaa</string>
+    <string name="filename">Fael din</string>
+    <string name="compress_file_suggest_zip_extension">Ɛyɛ nyansa sɛ wode \".zip\" di dwuma sɛ fael ntrɛwmu.</string>
+    <string name="about_amaze">Nneɛma nhyehyɛɛ fael sohwɛfoɔ ma Android</string>
+    <string name="license">Tumi krataa</string>
+    <string name="libraries">Nwomakorabea</string>
+    <string name="password_repeat">Tia asɛmfua bio</string>
+    <string name="create_file_suggest_txt_extension">Ɛyɛ nyansa sɛ fa \". txt\" sɛ fael ntrɛwmu.</string>
+    <string name="ssh_select_pem">Paw kokoam safoa ma nokwaredi</string>
+    <string name="ssh_key_invalid_passphrase">Safoa passphrase a ɛnteɛ.</string>
+    <string name="ssh_key_no_decoder_decrypt">Decoder biara nni hɔ a ɛfata a wɔde bɛkyerɛkyerɛ PEM mu.</string>
+    <string name="encryption_fail_copy">Wɔantumi update encryption entry in database</string>
+    <string name="extracted">Wɔayiyi</string>
+    <string name="compressed">Wɔahyɛ</string>
+    <string name="processed">Wɔayɛ ho adwuma</string>
+    <string name="no_obtainable_info">Wɔayɛ info biara fa fael yi ho</string>
+    <string name="reopen_from_source">Can\'. t, yɛsrɛ wo san bue fi app a etwa to</string>
+    <string name="no_file_error">Biribi ankɔ yiye, biribiara nni hɔ a ɛsɛ sɛ wubue</string>
+    <string name="file_too_long">Fael no ware dodo na wontumi nsiesie, nanso wubetumi akenkan %d nkyerɛwde a edi kan</string>
+    <string name="file_read_only">Fael a wɔabue no yɛ akenkan nko ara.</string>
+    <string name="got_it">Woanya!</string>
+    <string name="encrypt_file_save_as">Sie Fael a Wɔabɔ no Encrypted Sɛ...</string>
+    <string name="encrypt_folder_save_as">Sie Folda a Wɔabɔ no Encrypted Sɛ...</string>
+    <string name="encrypt_option_use_aze">Fa Amaze Encryption Format</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[a ɛwɔ hɔ
+        <p>AESCrypt yɛ fael encryption format a ɛbue a egyina AES encryption so. Ɛsan nso yɛ portable, wobetumi de AESCrypt program ahorow a ɛwɔ platform afoforo so decrypt.</p>
+        <p><a href="https://www.aescrypt.com" botaeɛ="_blank">AESCrypt wɛbsaet</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[a ɛwɔ hɔ
+        <p>Amaze\'s Encryption Format nso gyina AES encryption so; nanso ɛsono AESCrypt format no, saa afiri yi nkutoo na ɛtumi decrypt; nso ɛnsɛ sɛ woyi Amaze File Manager fi saa afiri yi so anaasɛ wosesa ɔkwan a wobɛfa so abɔ screen no, anyɛ saa a worennya ɔkwan biara a wobɛfa so asan anya fael a wɔabɔ no kokoam no.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Ɛsɛ sɛ fael a wɔabɔ no kokoam no de \".aze\" di dwuma sɛ fael ntrɛwmu.</string>
+    <string name="encrypt_file_must_end_with_aes">Ɛsɛ sɛ fael a wɔabɔ no kokoam no de \".aes\" di dwuma sɛ fael ntrɛwmu.</string>
+    <string name="error_aescrypt_decrypt_failed">Entumi nyiyi \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Entumi nkyerɛw so fael.</string>
+    <string name="saved_single_file">Fael a wɔakora so sɛ \'%s\'.</string>
+    <string name="saved_multi_files">%d fael a wɔakora so.</string>
+    <string name="create_hidden_file_warn">Wɔde fael a wɔabɔ no besie wɔ fael list no mu.</string>
+    <string name="grant_apkinstall_permission">App hia kwan na wɔde ahyɛ apps no kɔ so.</string>
+    <string name="time_remaining">Bere a aka</string>
+    <string name="transfer_rate">Nneɛma a wɔde kɔ baabi foforo</string>
+    <string name="unknown">a wonnim</string>
+    <string name="multiple_invalid_archive_entries">Wɔrentumi nyi fael bi a ɛwɔ archive no mu; archive betumi asɛe anaasɛ efi fibea bɔne.</string>
+    <string name="saf_otg_explanation">Afei wobɛkɔ Android\'s fael nhyehyɛe no so esiane ahobammɔ nti. Yɛsrɛ wo paw USB afiri no fi nea wɔahyehyɛ wɔ benkum so no mu.</string>
+    <string name="donation_thanks">Yɛda mo ase wɔ ntoboa no ho, eyi ma yɛkɔ so nya ɔpɛ! (:</string>
+    <string name="enable_marquee_filename">Ma marquee effect nyɛ adwuma mma fael din</string>
+    <string name="archive_password_prompt">Yɛsrɛ wo hyɛ archive password:</string>
+    
+    <string name="cannot_extract_archive">Entumi nyi archive \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Entumi bue archive \"%s\".Yɛrentumi mmue archive no, anaasɛ archive no asɛe.</string>
+    <string name="close">To</string>
+    <string name="bookmark_exists">Bookmark wɔ hɔ</string>
+    <string name="hide_media">Hide fi media browsers</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ƐBƐYƐ SƐ OBI REYƐ BIBI A ƐYƐ AYƐ!\n\nObi betumi atie wo seesei ara (man-in-the-middle attack)!Ɛbɛyɛ nso sɛ wɔasesa host safoa no nkyɛe.Nsateaa nkyerɛwee no ɛfiri sɛ ɔmanfoɔ safoa a akyirikyiri host no de amena no nhyia deɛ wɔde asie wɔ Amaze.\n\nWobɛtumi akɔ so ayɛ host nsateaa nkyerɛwee foforɔ anaa wobɛtwa SSH nkitahodi nhyehyɛɛ foforɔ mu.</string>
+    <string name="update_host_key">Yɛ Host Key no foforɔ</string>
+    <string name="cancel_recommended">Twa mu (Wɔkamfo kyerɛ)</string>
+    
+    
+    <string name="failed_install_apk">Wɔantumi anhyɛ</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Mfinimfini Storage</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD kaad</string>
+    <string name="choose_folder">Paw Folda yi</string>
+    
+    <string name="some_files_failed_invalid_operation">Fael binom adi nkogu esiane sɛ enni mu nti adwumayɛ</string>
+    <string name="ftp_server_prompt_connect_to_network">Fa nkitahodi kɔ ntwamutam bi so anaa ma AP nyɛ adwuma</string>
+    <string name="ftp_server_open_settings">Bue nhyehyɛe</string>
+    <string name="move">Tu</string>
+    <string name="select_save_location">Paw beae a wode besie</string>
+    <string name="scp_default_path">Default Path (Wɔpɛ)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Pa kyɛw, anka ɛnsɛ sɛ ɛba saa.</string>
+    
+    <string name="error_report_button_text">Fa e-mail so bɔ mfomso yi ho amanneɛ</string>
+    <string name="error_report_button_telegram">Fa telegram so bɔ mfomso yi ho amanneɛ</string>
+    <string name="copy_for_github">Kɔpi amanneɛbɔ a wɔahyehyɛ</string>
+    <string name="error_report_open_issue_button_text">Mabɔ amanneɛ wɔ GitHub</string>
+    <string name="error_report_open_github_notice">Yɛsrɛ wo hwɛ sɛ asɛm bi a ɛka wo krash ho asɛm wɔ hɔ dedaw anaa.</string>
+    <string name="error_snackbar_message">Pa kyɛw, biribi ankɔ yiye.</string>
+    <string name="error_snackbar_action">Mabɔ amanneɛ</string>
+    <string name="what_device_headline">Nsɛm:</string>
+    <string name="what_happened_headline">Nea esii:</string>
+    <string name="info_labels">Nea:\\nAbisade:\\nGMT Bere:\\nPackage:\\nVersion:\\nOS version:\\nDevice:\\nModel:\\nProduct :</string>
+    <string name="your_comment">Wo nsɛm (wɔ Borɔfo kasa mu):</string>
+    <string name="error_details_headline">Nsɛm a ɛkɔ akyiri:</string>
+    <string name="app_ui_crash">App/UI asɛe</string>
+    <string name="error_report_title">Mfomso amanneɛbɔ</string>
+    <string name="crash_report_copied">Wɔayɛ amanneɛbɔ a ɛhwee ase clipboard</string>
+    <string name="disableIpcSignature">Ma IPC nsaano nkyerɛwee nhwehwɛmu no nyɛ adwuma (Ma SMBv1 seva ahorow a ɛwɔ hɔ dedaw - UNSAFE!)</string>
+    <string name="cannot_delete_file">Entumi mpopa fael</string>
+    <string name="cannot_delete_file_with_reason">Entumi mpopa fael - %s</string>
+    <string name="cannot_rename_file">Entumi nsakra fael din %s - %s</string>
+    <string name="cannot_read_directory">Entumi nkenkan kyerɛwtohɔ %s - %s</string>
+    <string name="just_once">Pɛnkoro</string>
+    <string name="always">Bere nyinaa</string>
+    <string name="choose_different_app">Paw aplikeshɔn foforo</string>
+    <string name="clear_open_file">Popa cache</string>
+    <string name="clear_open_file_summary">Popa default fael bue apps a wɔapaw</string>
+    <string name="ftp_readonly">Akenkan nko ara kwan</string>
+    <string name="legacy_listing_title">Fa agyapadeɛ listing di dwuma ma root</string>
+    <string name="legacy_listing_summary">Sɛ wɔma ɛyɛ adwuma a, de legacy kwan di dwuma de kyerɛw fael</string>
+    <string name="error_unsupported_v5_rar">RAR archive \"%s\" yɛ RAR v5 archive a wɔmmoa.</string>
+    <string name="ftp_prompt_restart_server">Ɛho behia sɛ wosan hyɛ FTP somfo no ase na nsakrae no ayɛ adwuma.</string>
+    <string name="error_permission_denied">Wɔapow kwan</string>
+    <string name="error_archive_password_incorrect">Akorae asɛmfua a ɛnteɛ.</string>
+    <string name="error_archive_cannot_extract">Entumi nyi archive entry \"%s\" nkɔ \"%s\".</string>
+    <string name="drag_and_drop_preference">Paw twetwe na gyae apɛde (Sɔhwɛ)</string>
+    <string name="drag_to_move_copy">Ka na twetwe na fa anaa kɔpi fael</string>
+    <string name="drag_to_select">Ka na twetwe na paw fael</string>
+    <string name="disable">Ma</string>
+    <string name="choose_operation">Paw adwuma a wobɛyɛ</string>
+    <string name="remember">Kae bere foforo</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Ma SAF kwan ma FTP somfo</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Esiane sɛ eyi ne wo FTP somfo no mmirikatu a edi kan, na wode afiri no mu akorae redi dwuma sɛ folda a wɔakyɛ nti, yɛsrɛ wo ma Amaze kwan ma ɔmfa nkɔ akorae no so SAF.\n\n
+
+Ɛsɛ sɛ woyɛ eyi pɛnkoro pɛ, kosi sɛ bere foforo a wobɛpaw beae foforo a wobɛkyɛ.</string>
+    <string name="android_data_prompt_saf_access">Efi Android 10 no, na Android de anohyeto ahorow ahyɛ daerekta ahorow bi so, na ɛsɛ sɛ wɔde Storage Access Framework kɔ mu.\n \nYɛsrɛ wo ma Amaze kwan ma ɛnkɔ daerekta no mu mfiri system\'s fael sohwɛfoɔ no so denam \"Ma kwan ma kwan a wobɛfa so\" a wobɛbɔ so.</string>
+    <string name="android_data_prompt_saf_access_title">Ma SAF kwan</string>
+    <string name="ftp_preference_saf_filesystem_title">Fa agyapadeɛ fael nhyehyɛɛ</string>
+    <string name="ftp_preference_saf_filesystem">Ma eyi ma mmoa a wɔde bedi dwuma wɔ mfiri akyi akorae a wɔde bedi dwuma wɔ Android nkyerɛase foforo so</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP server kyɛfa kwan no na wɔasan de akɔ mu akorae bere a woresan akɔ agyapade fael nhyehyɛe a wɔde di dwuma no so. Yɛsrɛ wo paw ɔkwan foforo denam menu a ɛwɔ atifi nifa so no so sɛnea ɛho hia.</string>
+    <string name="ftp_server_reset_notify">FTP server a wɔakyekyɛ na wɔasan de kwan no akɔ mu akoraeɛ</string>
+    <string name="ftp_server_root_unavailable">Worepaw ɔkwan a ɛhwehwɛ sɛ root kwan. Yɛsrɛ wo ma root explorer nyɛ adwuma wɔ nhyehyɛe mu sɛ wo mfiri no yɛ root a.</string>
+    <string name="ftp_server_root_filesystem_warning">Worepaw ɔkwan bi a ɛhwehwɛ sɛ wotumi kɔ ntini mu, a ɛma akenkan/kyerɛw adwuma tumi wɔ fael nhyehyɛe no nyinaa mu wɔ wo mfiri no so, na ɛyɛ hu - mfomso a wodi ahwɛyiye betumi ayɛ wo mfiri no birikisi!\n\nSo wugye di?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Mfomsoɔ wɔ URI \"%s\" a wobuee mu ma akenkan.</string>
+    <string name="error_empty_archive">\"%s\" yɛ akoraeɛ a ɛda mpan.</string>
+    <string name="error_bad_archive_without_info">\"%s\" yɛ akoraeɛ a asɛe .</string>
+    <string name="error_bad_archive_with_info">\"%s\" yɛ archive a asɛe.\nNkrasɛm a efi extractor: \"%s\"</string>
+    <string name="security_error">Wɔantumi anbue fael no denam saa app yi so</string>
+    <string name="cloud_drive_tooltip">Bɔ Google DriveTM nkitahodi a wɔde hwɛ fael ahorow so fi Amaze Fael Manager mu.</string>
+    <string name="signin_with_google_title">Gye sɛ wode Google DriveTM bedi dwuma</string>
+    <string name="show_system_apps">Kyerɛ system apps</string>
+    <string name="system_apps">Nhyehyɛe apps</string>
+    <string name="select_inverse">Paw Inverse</string>
+    <string name="select_by_type">Paw sɛnea su te</string>
+    <string name="select_by_date">Paw sɛnea date te</string>
+    <string name="select_similar">Paw nea ɛte saa ara</string>
+    <string name="error_fetching_google_play_product_list">Mfomso a ɛba bere a woregye nneɛma a wɔahyehyɛ afi Google Play so.</string>
+    <string name="grant_all_files_permission">Efi Android 11 , Google srɛ File Managers sɛ wɔnsrɛ nea ɔde di dwuma no kwan ma wɔmfa nhwɛ fael ahorow a ɛwɔ afiri no so nyinaa so. Nsɛm a ɛkɔ akyiri wɔ ha.
+        \n\nAmaze Fael Manager nso hia saa kwan yi. Sɛ wobɔ "Grant"ha akyi a, yɛsrɛ wo paw Allow access to manage all files option wɔ screen a edi hɔ no so.
+        \n\nSɛ wotwa saa nkɔmmɔdie yi mu a, ɛbɛfiri app no ​​mu.</string>
+    <string name="user_apps">Ɔdefoɔ apps</string>
+    <string name="appearance">Nea ɛda adi</string>
+    <string name="behavior">Su</string>
+    <string name="appearance_summary">Sesa fael sohwɛfoɔ no asɛmti, kɔla ne ne hwɛbea</string>
+    <string name="ui_summary">Hwɛ nsɛm a wobɛkyerɛ so, sesa ɔfã no, na sesa UI apɛde</string>
+    <string name="behavior_summary">Sesa nneyɛe te sɛ hwehwɛ a ɛkɔ akyiri ne sɛ ebia wobɛbue fael sɛ adwuma foforo</string>
+    <string name="security_summary">Hyɛ asɛmfua ne encryption</string>
+    <string name="backup_summary">Export/Import Amaze nhyehyeɛ</string>
+
+    <string name="pref_export">nyɛadwuma&gt;Export</string>
+    <string name="pref_export_summary">Export nhyehyeɛ</string>
+    <string name="pref_import">Fa ba</string>
+    <string name="pref_import_summary">Fa nsiesie</string>
+
+    <string name="quick_desc">Files nnansa yi ara na wɔfa Amaze</string>
+    <string name="recent_desc">Fael a wɔayɛ anaa wɔasesa no nnansa yi ara</string>
+    <string name="error_cannot_find_way_open">Wantumi anhu ɔkwan a wɔbɛfa so abue fael no</string>
+    <string name="error_cant_decompress_that_file">Entumi nni archive a wɔabisa no ho dwuma</string>
+    <string name="analyse_storage">Hwehwɛ Storage</string>
+    
+    <string name="download_amaze_utils_text">Wɔredan wo akɔ Amaze File Utilities so. Ɛyɛ yɛn open source app a ɛwɔ inbuilt audio/video/image/document viewers, ɛma wo kwan ma wo hwehwɛ junk fael ahorow mu ma ɛyɛ ahofadi storage, fast transfer denam Wifi P2P so ne nea ɛkeka ho.\nYɛsrɛ wo boa yɛn denam sɔ a wobɛsɔ ahwɛ so.</string>
+    <string name="download">Twe</string>
+    
+    <string name="amaze_utils_installed_alias">Yɛda wo ase sɛ wode Amaze Fael Utilities ahyɛ mu. Wɔredan wo akɔ app no ​​so.</string>
+    <string name="image_viewer">Amaze Mfonini Hwɛfo</string>
+    
+    <string name="amaze_audio_player">Amaze Nnwom Player</string>
+    <string name="pdf_viewer">Amaze Nwoma Hwɛfoɔ</string>
+    <string name="docx_viewer">Amaze Nwoma Hwɛfoɔ</string>
+    <string name="share_logs">Kyɛ nsɛm a wɔakyerɛw</string>
+    <string name="share_logs_summary">Kyɛ nsɛm a wɔakyere no denam email / telegram so</string>
+    <string name="open_with_amaze">Bue ne Amaze</string>
+    <string name="confirmation">Nsi so dua</string>
+    <string name="open_file_confirmation">So woyɛ awerɛhyem sɛ wopɛ sɛ wubue fael a edidi so yi?\n\nEdin:\n%s\n\nBeae:\n%s\n\nKɛse:\n%s\n\nMD5:\n%s\n\nSHA256:\ n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Sɛnea Google Play nhyehyeɛ hyɛ no, wɔmma apps kwan sɛ wɔn ankasa nnyɛ foforɔ. Yɛsrɛ wo yɛ app no ​​foforo mfi Google Play.</string>
+    <string name="error_cannot_get_package_info">Entumi nnya package info mfi fael \"%s\" mu. Fael a wɔakyerɛ no nyɛ APK, anaasɛ package fael no asɛe.</string>
+    <string name="preference_delete_confirmation">Popa confirmation</string>
+    <string name="preference_delete_confirmation_summary">Bisa confirmation ansa na woapopa fael. Eyi a wobɛma ayɛ adwuma no yɛ abasamtu kɛse!</string>
+    
+    
+    <string name="protocol_ftps">FTP a ahobanbɔ wom</string>
+    <string name="unavailable">Enni hɔ</string>
+
+    <string name="exporting_failed">Exporting no adi nkogu: wɔantumi ankyerɛw backup fael no</string>
+    <string name="importing_failed">Importing no antumi: antumi ankenkan backup no fael</string>
+    <string name="importing_completed">Wɔawie a wɔde bɛba</string>
+    <string name="invalid_backup_file">Fael a wɔde sie a enni mu</string>
+    <string name="import_failed_for">Fa a wɔde ba no adi nkogu ma:</string>
+    <string name="free_of">"%s\n%s a %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin no ntumi nnye F-Droid version.Yɛsrɛ wo fa Play Store version of Amaze di dwuma.</string>
+    <string name="disable_player_intent_filters">Siw player intent filters</string>
+    <string name="disable_player_intent_filters_summary">Siw Amaze inbuilt media players fi fael paw</string>
+    <string name="no_app_found_intent">mu Wɔanhu app biara a ɛbɛdi saa adwene yi ho dwuma So wowɔ DocumentsUI a woahyɛ mu?</string>
+    <string name="cloud_connection_credentials_cleared">Mununkum Nkitahodi nni mu adansedi nkrataa a wɔaprapra</string>
+    <string name="cloud_connection_credentials_cleared_msg">Awerɛhosɛm ne sɛ, yɛantumi antu wo cloud connection credentials no ankɔ database schema foforo no mu, na yɛyɛɛ saa sɛ wobɛyi wɔn afiri app no ​​mu Yɛsrɛ wo san yɛ mununkum nkitahodi no bio.</string>
+</resources>

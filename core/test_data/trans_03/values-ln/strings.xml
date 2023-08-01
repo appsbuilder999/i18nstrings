@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Kokamwa Gestionnaire ya ba fichiers</string>
+    <string name="drawer_open">Fungola tiroir ya navigation</string>
+    <string name="drawer_close">Kanga tiroir ya navigation</string>
+    <string name="icon">icône</string>
+    <string name="apps">Mokambi ya ba appli</string>
+    <string name="ftp">Serveur FTP</string>
+    <string name="setting">Paramètres</string>
+    <string name="select">Pona Eloko</string>
+    <string name="press_again">Fina lisusu mpo na kobima</string>
+    <string name="open">Fungola</string>
+    <string name="backup">Sauvegarde</string>
+    <string name="uninstall">Kolongola</string>
+    <string name="play">Magasin ya kosakana</string>
+    <string name="properties">Propriétés</string>
+    <string name="copyingapks">Kosala kopi ya ba fichiers APK %d na %s</string>
+    <string name="delbook">Bolongola Marque-pages</string>
+    <string name="add_to_bookmarks">Bakisa na ba marque-pages</string>
+    <string name="enterpath">Kokota Nzela</string>
+    <string name="cancel">ACANCEL</string>
+    <string name="create">KOZALA</string>
+    <string name="loading">Ezali ko charger...</string>
+    <string name="file_empty">Fisyé ezali vide</string>
+    <string name="error">Erreur</string>
+    <string name="search_results">Ba résultats ya boluki ya %s</string>
+    <string name="rename">Bobongola nkombo</string>
+    <string name="save">Bomba</string>
+    <string name="bookmarks_added">Ba marque-pages ebakisami</string>
+    <string name="fileexist">Fisyé oyo ezali na nkombo moko ezali déjà</string>
+    <string name="name">Nkombo</string>
+    <string name="date">Mokolo</string>
+    <string name="location">Esika</string>
+    <string name="size_capitalized">Taille</string>
+    <string name="size">bonene ya dossier</string>
+    <string name="enterzipname">Kotisa Kombo ya Zip</string>
+    <string name="no_app_found">App moko te ezwami mpo na kofungola fichier oyo</string>
+    <string name="copying">Kosala kopi</string>
+    <string name="moving">Kokende</string>
+    <string name="file">Fisyé</string>
+    <string name="folder">Dossier</string>
+    <string name="newfolder">Dossier ya sika</string>
+    <string name="entername">Kotia Nkombo</string>
+    <string name="extracting">Kobimisa</string>
+    <string name="stopping">Kotelemisa</string>
+    <string name="open_parent">Fungola Annuaire ya baboti</string>
+    <string name="open_with">Fungola na</string>
+    <string name="share">Kabola</string>
+    <string name="about">Na ntina ya</string>
+    <string name="extract">Kobimisa</string>
+    <string name="compress">Kofina</string>
+    <string name="yes">Ee</string>
+    <string name="no">Te</string>
+    
+    <string name="dialog_delete_category_directories">Ba annuaires</string>
+    <string name="dialog_delete_category_files">Fisyé</string>
+    <string name="dialog_delete_disclaimer">Kolongola biloko oyo ezali awa na nse ekolongola yango libela na aparɛyi na yo mpe ekoki kozongisama te.</string>
+    <string name="dialog_delete_title">Kolongola biloko mpo na libela?</string>
+    <string name="deleting">Kolongola</string>
+    <string name="question_set_path_as_home">Olingi kotiya nzela ya lelo lokola ndako mpo na onglet oyo?</string>
+    <string name="directorysort">Mode ya bobongisi ya annuaire</string>
+    <string name="sort_by">Kobongisa Na</string>
+    <string name="sort_only_this">Kaka dossier oyo</string>
+    <string name="theme">Thème</string>
+    <string name="random">Loposo ya kozanga kokana</string>
+    <string name="random_summary">Etie langi ya liboso ya kozanga kokana na ebandeli</string>
+    <string name="colorize">Kopesa langi na bilembo</string>
+    <string name="colorize_summary">Ebongisami langi ya elembo ya statique. Ezali koboya te bolingi ya langi ya elembo ya répertoire.</string>
+    <string name="home">Ndako</string>
+    <string name="paste">Kola</string>
+    <string name="history">Histoire</string>
+    <string name="copy">Kopi</string>
+    <string name="root_mode">Explorateur ya misisa</string>
+    <string name="root_mode_summary">Mpo na dispositif oyo ezali na misisa kaka. Tala yango kaka soki ozali na ntembe na yango.</string>
+    <string name="root_failure">Accès ya misisa epesami te</string>
+    <string name="select_all">Pona Nyonso</string>
+    <string name="delete">Bolongola</string>
+    <string name="set_as_home">Tia lokola Ndako</string>
+    <string name="operation_not_supported">Fonctionnement esimbami te</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Mwinda ya biloko</string>
+    <string name="dark">Molili ya biloko</string>
+    <string name="daytime">Mokolo</string>
+    <string name="black">Noir (mpo na OLED)</string>
+    <string name="system">Système (landa thème ya système)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Ba dossiers na likolo</string>
+    <string name="filesOnTop">Ba fichiers na likolo</string>
+    <string name="none_on_top">Ezali moko te na likolo</string>
+    <!--SortBy-->
+    <string name="sort_name">Nkombo</string>
+    <string name="lastModified">Bobongwani ya nsuka</string>
+    <string name="sort_size">Taille</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Pona fisyé</string>
+    <string name="process_viewer">Motali ya mosala</string>
+    <string name="in_safe">Esika ekoki te</string>
+    <string name="no_file_overwrite">Fisyé ekomami likolo te</string>
+    <string name="skip">Koleka</string>
+    <string name="overwrite">Kokoma likolo</string>
+    <string name="not_allowed">Epesameli nzela te</string>
+    <string name="searching">Koluka %s</string>
+    <string name="done">Esalemi</string>
+    <string name="set">Botia</string>
+    <string name="enablerootmde">Kofungola Mode ya misisa</string>
+    <string name="goback">Kozonga sima</string>
+    <string name="newfile">Fisyé ya sika</string>
+    <string name="no_files">Fisyé te</string>
+    <string name="used">esika oyo basaleli</string>
+    <string name="used_by_others">esalelami na basusu</string>
+    <string name="free">esika ya ofele</string>
+    <string name="listview">Botali liste</string>
+    <string name="gridview">Gride Tala</string>
+    <string name="permission">Ndingisa</string>
+    <string name="hide">Bomba</string>
+    <string name="exit">Bima</string>
+    <string name="doforall">Sala mpo na biloko nyonso</string>
+    <string name="gridcolumnno">Motango ya makonzí na botali ya grille</string>
+    <string name="set_random">Mbongwana ekosalema sima ya kobanda lisusu app</string>
+    <string name="authors">Bakomi</string>
+    <string name="changelog">Mokanda ya mbongwana</string>
+    
+    
+    <string name="general">Général</string>
+    <string name="thumb_summary">Lakisa Bilili ya mike ya ba apps mpe bilili</string>
+    <string name="thumb">Lakisa bilili ya mike</string>
+    <string name="hidden">Lakisa ba fichiers mpe ba dossiers oyo ebombami</string>
+    <string name="lastModifiedSummary">Lakisa mokolo mpe ngonga ya mbongwana ya suka</string>
+    <string name="lastModifiedPref">Lakisa Date ya suka oyo ebongwani mpe Ntango</string>
+    <string name="size_pref_summary">Lakisa bonene ya ba fisyé mpe motango ya biloko na ba dossiers</string>
+    <string name="size_pref">Lakisa ba taille</string>
+    <string name="miscellaneous">Ezali ndenge na ndenge</string>
+    <string name="root_pref_summary">Lakisa ndingisa ya ba fichiers na ba dossiers</string>
+    <string name="root_pref">Lakisa ndingisa</string>
+    <string name="about_amaze_file_manager_label">Na ntina na Amaze File Manager</string>
+    
+    <string name="rate">Kopesa cote ya app</string>
+    <string name="feedback">Tinda makanisi</string>
+    <string name="hiddenfiles">Ba fichiers oyo ebombami</string>
+    <string name="type">Lolenge</string>
+    <string name="root_directory">Mosisa</string>
+    <string name="add_shortcut">Bakisa nzela mokuse</string>
+    <string name="unsaved_changes">Mbongwana oyo ebombami te</string>
+    <string name="unsaved_changes_description">Ozali na mbongwana oyo ebombami te, olingi kobomba yango liboso ya kobima?</string>
+    <string name="saving">Kobomba</string>
+    <string name="package_installer">Mobongisi ya paquet</string>
+    <string name="view">Tala</string>
+    <string name="install">Kotia</string>
+    
+    <string name="archive_text">Oyo ezali archive. Mosala nini olingi kosala?</string>
+    <string name="package_installer_text">Oyo ezali installateur ya paquet. Action nini olingi kosala?</string>
+    <string name="xda_title">Thread XDA</string>
+    <string name="xda_summary">Mituna mpe biyano, Lisalisi &amp;amp; kosilisa mikakatano</string>
+    <string name="circular_images">Salelá bilembo ya sɛrklɛ mpo na bililingi mpe bavideo</string>
+    <string name="circular_icons">Salelá bilembo ya sɛrklɛ</string>
+    <string name="back_title">Navigation ya sima</string>
+    <string name="back_summary">Ezali ko permettre navigation ya sima ya personnalisé na likolo ya liste</string>
+    <string name="details">Makambo</string>
+    <string name="translators">Babongoli</string>
+    <string name="german_translation_title">Allemand</string>
+    <string name="italian_translation_title">Italien</string>
+    <string name="french_translation_title">Lifalanse</string>
+    <string name="russian_translation_title">Russie</string>
+    <string name="spanish_translation_title">Espagnol</string>
+    
+    <string name="chinese_translation_title">Chinois</string>
+    <string name="serbian_translation_title">Serbien</string>
+    <string name="turkish_translation_title">Turquie</string>
+    <string name="ukrainian_translation_title">Ukrainien</string>
+    <string name="portuguese_translation_title">Portugais</string>
+    <string name="polish_translation_title">Pologne</string>
+    <string name="korean_translation_title">Coréen</string>
+    <string name="greek_translation_title">Grèke</string>
+    <string name="dutch_translation_title">Néerlandais</string>
+    <string name="romanian_translation_title">Romain</string>
+    <string name="vietnamese_translation_title">Vietnam</string>
+    <string name="japanese_translation_title">Japon</string>
+    
+
+    <string name="zip_viewer">Motali ya zip</string>
+    <string name="unin_system_apk">Oyo ezali appli ya système, kosukola yango ekoki komema na instabilité ya système.\nKokende liboso?</string>
+    <string name="warning">Kebisa</string>
+    <string name="donate">Kopesa</string>
+    <string name="archive_extract_folder">Dossier ya kobimisa archive</string>
+    <string name="archive_summary">Ba fichiers ya archive ekobima na dossier oyo. Valeur par défaut ezali répertoire oyo archive ezali.</string>
+    <string name="open_as">Fungola Lokola</string>
+    <string name="text">Mokanda</string>
+    
+    
+    <string name="other">Mosusu</string>
+    <string name="image">Elilingi</string>
+    <string name="contributors">Bapesi maboko</string>
+    <string name="save_paths">Kobosana banzela</string>
+    <string name="save_path_summary">Ntango ozali kobanda, dossier oyo etalisami kala mingi te mpo na onglet moko na moko ekolakisama</string>
+    <string name="select_intent">Pona</string>
+    <string name="database">Base ya ba données</string>
+    <string name="colored_navigation">Barre ya navigation ya couleur</string>
+    <string name="colored_navigvation_sum">Ezala to te barre ya navigation ya système ezali na couleur na loposo</string>
+
+    <string name="color_title">Couleur</string>
+    <string name="color_summary">Tia couleur na ba composants ya UI ndenge na ndenge</string>
+    <string name="primary_color_title">Couleur primaire (Onglet gauche)</string>
+    <string name="primary_color_summary">Tia couleur na ba éléments ya UI ya minene pona onglet gauche</string>
+    <string name="accent_color_title">Langi ya accent</string>
+    <string name="accent_color_summary">Tia couleur na FAB na UI misusu ya mike elements</string>
+    <string name="icon_color_title">Langi ya elembo</string>
+    <string name="icon_color_summary">Tia langi na bilembo</string>
+    <string name="choose_color">Pona langi</string>
+    <string name="files">Fisyé</string>
+    <string name="textreader">Motangi ya makomi</string>
+    <string name="databasereader">Motangi ya base ya ba données</string>
+    <string name="show_dividers">Lakisa ba Diviseurs</string>
+    <string name="needs_access">Bokoti ya kokoma esengeli</string>
+    <string name="needs_access_summary">Svp pona répertoire ya misisa ya \t</string>
+    <string name="needs_access_summary1">\to kopesa nzela ya kokoma mpo na kosala</string>
+    <string name="smb_connection">Bokangami ya SMB</string>
+    <string name="smb_server">Adresse IP ya serveur</string>
+    <string name="server_address">Adresse IP ya serveur</string>
+    <string name="username">Nkombo ya mosaleli</string>
+    <string name="password">Mot ya nzela</string>
+    <string name="anonymous">Anonyme</string>
+    
+    <string name="folders">Ba dossiers</string>
+    <string name="folderfilecount">Ba dossiers ya %1$d mpe ba fichiers %2$d</string>
+    <string name="videos">Video</string>
+    
+    <string name="documents">Mikanda</string>
+    <string name="images">Bililingi</string>
+    <string name="clear">Effacer</string>
+    
+    <string name="total">Motango mobimba:</string>
+    <string name="calculating">kosala calcul</string>
+    <string name="sort">Kobongisa</string>
+    <string name="ascending">Komata</string>
+    <string name="descending">Kokita</string>
+    <string name="default_string">Na ndenge ya liboso</string>
+    <string name="doit">Ezali kosala</string>
+    <string name="want_help">Ezali na mposa ya lisalisi?</string>
+    <string name="quick">Accès noki</string>
+    <string name="recent">Ba fichiers ya sika</string>
+    <string name="edit">Bobongisi</string>
+    <string name="find">Luka na lokasa</string>
+    <string name="grant">Kopesa</string>
+    <string name="grantper">Kopesa ndingisa</string>
+    <string name="grantfailed">Ndingisa epesami te</string>
+    <string name="grant_storage_permission">App esengeli ndingisa ya kobomba mpo na kokoba. Ko annuler dialogue oyo ekobima na app.</string>
+    <string name="operation_unsuccesful">Opération elongi te</string>
+    <string name="creatingfile">Kosala fichier</string>
+    <string name="creatingfolder">Kosala dossier</string>
+    <string name="renaming">Kobongola kombo</string>
+    <string name="cant_be_empty">%s ekoki kozala vide te</string>
+    <string name="ip">Adresse</string>
+    <string name="connection_name">Nkombo ya boyokani</string>
+    <string name="no_device_found">Ba dispositif ezwami te</string>
+    <string name="path">Nzela</string>
+    <string name="rename_bookmark">Bobongola Marque-pages</string>
+    <string name="cut">Kata</string>
+    <string name="search">Boluka</string>
+    <string name="invalid_name">Nkombo ya mabe</string>
+    <string name="search_hint">Type ya koluka...</string>
+    <string name="advanced_search">Boluka ya liboso</string>
+    <string name="regular_expression">Expression régulière</string>
+    <string name="regular_expression_summary">Boluka na kosalelaka expression régulière ya style BASH</string>
+    <string name="match_content">Kokokanisa makambo</string>
+    <string name="match_content_summary">Soki etiamaki, expression régulière eko correspondre na kombo ya fichier mobimba,
+        ekoluka occurrence soki te.</string>
+    <string name="start_ftp">Banda</string>
+    <string name="stop_ftp">Tika</string>
+    <string name="ftp_status_running">Kotambola</string>
+    <string name="ftp_status_not_running">Ezali kosala te</string>
+    <string name="ftp_no_wifi">Salá ete ozala na boyokani na Wi -Fi</string>
+    <string name="domain">Domaine</string>
+    <string name="smb_share">Nzela ya kokabola</string>
+    <string name="invalid">%s ya mabe</string>
+    <string name="ftp_notif_starting">Serveur FTP ezali kobanda</string>
+    <string name="ftp_notif_starting_title">Serveur FTP</string>
+    <string name="ftp_notif_title">Kamwisa Serveur FTP ezali kosala</string>
+    <string name="ftp_notif_text">na %s</string>
+    <string name="ftp_notif_stop_server">TIKA</string>
+    <string name="ftp_port_edit_menu_title">Port FTP</string>
+    <string name="ftp_port_change_success">Port FTP ebongwanaki malamu</string>
+    <string name="ftp_port_change_error_invalid">Motango ya port ya mabe eponami</string>
+    <string name="primary_two_title">Langi ya liboso (Onglet ya loboko ya mobali)</string>
+    <string name="primary_two_summary">Tia langi na biloko ya minene ya UI mpo na onglet ya malamu</string>
+    <string name="support_development">Bokoli ya lisungi</string>
+    <string name="report_bugs_title">Koyebisa ba bugs</string>
+    <string name="source_title">Code source</string>
+    <string name="source_summary">Tala code source na biso na GitHub</string>
+    <string name="report_bugs_summary">Koyebisa ba bugs to senga fonctionnalité ya sika</string>
+    <string name="translate_title">Kobongola</string>
+    <string name="translate_summary">Bobongola Amaze na monoko na yo</string>
+    <string name="paypal_copy_message">ID ya PayPal oyo esalemi kopi na tableau de bord</string>
+    <string name="searching_devices">Koluka ba appareils</string>
+    <string name="use_custom_ip">Salelá IP personnalisé</string>
+    <string name="bookmark_lost">Marqueur ezwami te, kosala lisusu...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Ndenge ya kokɔta na dossier Windows oyo bakabolaka na Android (SMB)\n\n
+                
+                    
+                        Bofungola Bokaboli ya Fisyé na Windows\n
+                    
+                    
+                        Fungola Panneau de contrôle, finá Pona ba options ya HomeGroup mpe Partager na se ya Réseau
+                        mpe Internet, mpe finá "Bobongola Paramètres ya kokabola ya likolo," fungola "Fichier mpe...
+                        Eloko ya kokabola imprimante".\n\n
+                    
+
+                    
+                        Ba paramètres ya Bokaboli Fisyé ya kobakisa\n
+                    
+                    
+                        Okoki mpe kolinga ko configurer ba paramètres mosusu ya partage avancé awa. \n
+                        Na ndakisa, okoki kofungola nzela ya kokɔta na bafichiers na yo kozanga mot de passe soki ozali kotyela nyonso motema
+                        ba appareils oyo ezali na réseau local na yo. Soki kaka kokabola ba fichiers mpe imprimante e activé, okoki
+                        fungola File Explorer to Windows Explorer, finá na lobɔkɔ ya mobali na dossier oyo olingi kokabola, mpe
+                        pona Propriétés. \n
+                        Finá na butɔ Kabola mpe salá ete dosyé ezala na réseau.\n\n
+                        
+
+                    
+                        Sala que ba appareils nionso mibale ezala na Wifi moko\n
+                    
+                    
+                        Ezaleli oyo esalaka ete ba fichiers ezala na réseau local, yango wana PC na yo mpe ba appareils mobiles
+                        esengeli kozala na réseau local moko. Okoki\’t kokɔta na dossier ya Windows oyo bakabolaka
+                        na nzela ya Internet to ntango smartphone na yo ekangami na ba données na yango ya telefone ya mabɔkɔ — yango
+                        esengeli kozala na boyokani na Wi-Fi.\n\n
+                    
+
+                    
+                        Luka Addresse IP\n
+                    
+                    
+                        Fungola esika ya kosɛnga komande. Tyá \'ipconfig\' mpe finá Enter. Luka Porte ya Par défaut
+                        na nse ya adaptateur ya réseau na yo mpo na adresse IP ya routeur\'s na yo. Boluka
+                        \\\"Adresse IPv4\\\" na nse ya eteni ya adaptateur moko mpo na koluka IP ya ordinateur na yo
+                        adresi.\n\n
+                    
+
+                    Tyá makambo na esika ya kosolola SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Ekoki te kokabola ba fichiers koleka 100</string>
+    <string name="otg_access">Pona misisa ya dispositif OTG</string>
+    <string name="information">Mayebisi</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Ezwami</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Ebongwani</string>
+
+    <string name="title">Titre</string>
+    <string name="artist">Artiste</string>
+    
+    <string name="year">Mbula</string>
+    <string name="duration">Bolai</string>
+    <string name="comment">Commentaire</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Conteneur</string>
+    
+    <string name="channels">Ba canaux</string>
+    <string name="sample_rate">Taux ya échantillon</string>
+    
+    
+    <string name="frame_rate">Taux ya cadre</string>
+    <string name="image_type">Lolenge ya elilingi</string>
+    <string name="width">Bolai</string>
+    <string name="height">Bolai</string>
+    <string name="date_modified">Mokolo oyo ebongwani</string>
+    <string name="software">Logiciel</string>
+    <string name="creator">Mokeli</string>
+    <string name="camera_brand">Marque ya caméra</string>
+    <string name="camera_model">Camera Modèle</string>
+    <string name="date_taken">Date oyo ezuami</string>
+    <string name="exposure_time">Ntango ya exposition</string>
+    <string name="aperture_value">Motuya ya ouverture</string>
+    <string name="image_iso">Evaluation ya vitesse ya ISO</string>
+    <string name="flash_fired">Flash epelisami</string>
+    <string name="focal_length">Bolai ya focal</string>
+    <string name="subject">Sujet</string>
+    <string name="author">Mokomi</string>
+    <string name="keywords">Maloba ya ntina</string>
+    <string name="producer">Mobimisi</string>
+    <string name="created">Ekelami</string>
+    
+    <string name="pages">Motango ya Nkasa</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Abongwani</string>
+    <string name="security">Bobateli</string>
+    <string name="paper_size">Bonene ya papier</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Ba fisyé mosusu ezwaki %s</string>
+    <string name="copied">ezwami kopi</string>
+    <string name="moved">ekendeki</string>
+    <string name="copy_complete">Copie Complet</string>
+    <string name="waiting_title">Kozela</string>
+    <string name="waiting_content">Kozela opération esila</string>
+    <string name="extract_complete">Extraction esili</string>
+    <string name="compression_complete">Compression esili</string>
+    <string name="compressing">Ko compresser</string>
+    <string name="cancelled">Elongolami</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Ekomami</string>
+    <string name="out_of">na</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ya</string>
+    <string name="processing_file">Fisyé ya bosali</string>
+    <string name="current_speed">Vitesse ya lelo</string>
+    <string name="smb_launch_error">Ekosenga osala kopi ya fisyé oyo na ebombelo mpo na kofungola yango</string>
+    <string name="error_file_not_found">Libunga: Fisyé ezwami te</string>
+    <string name="error_io">Libunga ya E/S</string>
+    <string name="error_file_too_large">Libunga: Fisyé monene mingi</string>
+    <string name="medium_text">Mokanda ya moyenne</string>
+    <string name="permission_read">Tanga</string>
+    <string name="permission_write">Kokoma</string>
+    <string name="permission_execute">Kosala</string>
+    <string name="permission_owner">Nkolo</string>
+    <string name="permission_group">Etuluku</string>
+    <string name="permission_other">Mosusu</string>
+    <string name="clipboard_path_copy">Nzela esalemi kopi na tableau de bord</string>
+    <string name="service_timer">Ntango eleki</string>
+    <string name="please_wait">Svp Zela</string>
+
+    <string name="cloud_connection">Bokangami ya lipata</string>
+    <string name="cloud_connection_new">Bokangami ya sika ya lipata</string>
+    
+    <string name="cloud_drive">Google DriveTM</string>
+    
+    
+    <string name="cloud_get">Zwa plugin ya Cloud</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Ba applications te</string>
+    <string name="ftp_path">Nzela ya kokabola</string>
+    <string name="ftp_path_hint">Nzela na misisa ya répertoire mpo na kokabola</string>
+    <string name="change">Bobongola</string>
+    <string name="unknown_error">Oops, eloko moko ekendeki mabe!</string>
+
+    <string name="ftp_path_change_success">Nzela ya FTP ebongwanaki malamu</string>
+    <string name="ftp_path_change_error_invalid">Nzela ya mabe</string>
+    <string name="ftp_status_no_connection">Bokangami te</string>
+    <string name="ftp_status_secure_connection">Bokangami ya bokengi</string>
+    <string name="ftp_status_title">Ezalela</string>
+    
+    <string name="ftp_login">Kokota</string>
+    <string name="field_empty">Etando ekoki kozala mpamba te</string>
+    <string name="ftp_timeout">Tango ya kosila ya pamba</string>
+    <string name="ftp_seconds">Segɔnde</string>
+    <string name="intellihide_toolbar_title">Bomba Intellihide Barre ya bisaleli</string>
+    <string name="intellihide_toolbar_summary">Bomba automatiquement barre ya bisaleli tango ozali kosala défilement</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">kopi na tableau de bord</string>
+    <string name="contributors_1_summary">Bobongoli</string>
+    <string name="contributors_2_summary">Icône mpe ba bannières</string>
+    <string name="contributors_3_summary">Moteur ya thème</string>
+    <string name="contributors_4_summary">Ombre sima ya FAB</string>
+    <string name="contributors_5_summary">Bobongwani ya couleur tango ozali ko swiper ba onglets</string>
+    <string name="contributors_6_summary">Serveur FTP</string>
+    <string name="contributors_7_summary">Kobeta coquille interactif</string>
+    <string name="connection_exists">Connexion ezali déjà</string>
+
+    <string name="crypt_encrypting">Ko chiffrer</string>
+    <string name="crypt_decrypting">Ko déchiffrer</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Chiffré</string>
+    <string name="crypt_decrypted">Ko déchiffré</string>
+    <string name="crypt_encrypt">Chiffrer</string>
+    <string name="crypt_decrypt">Ko déchiffrer</string>
+    <string name="operation_fail_following">Opération elongi te pona ba fichiers oyo elandi</string>
+    <string name="crypt_pref_master_password_title">Mot de passe ya maître</string>
+    <string name="crypt_pref_master_password_summary">Tia mot de passe ya maître pona encryption.
+        Tika pamba mpo na kolongola.</string>
+    <string name="crypt_pref_fingerprint_title">Empreinte ya misapi</string>
+    <string name="crypt_pref_fingerprint_summary">Salelá empreinte ya misapi mpo na kondimisa chiffrement</string>
+    <string name="crypt_fingerprint_no_permission">Ndingisa ya empreinte ya misapi ezali te</string>
+    <string name="crypt_fingerprint_not_enrolled">Empreinte ya misapi ekomisami te</string>
+    <string name="crypt_fingerprint_no_security">Bobateli ya écran ya blocage te found</string>
+    <string name="crypt_warning_key">Zala toli, tango okobongola motindo na yo ya bokengi uta
+        Paramètres ya système, okozala na makoki ya ko déchiffrer contenus oyo te.</string>
+    <string name="warning_never_show">Koyebisa lisusu te</string>
+    <string name="warning_confirm">Nazwi yango!</string>
+    <string name="crypt_encryption_fail">Elongi te ko chiffrer</string>
+    <string name="crypt_decryption_fail">Elongi te ko déchiffrer</string>
+    <string name="crypt_decryption_fail_password">Mot de passe ya mabe!</string>
+    <string name="crypt_fingerprint_authenticate">Centteur toucher mpo na kokoba</string>
+    <string name="authenticate_password">Kotisa mot de passe</string>
+
+    <string name="sidebar_preferences">Barre ya mopanzi</string>
+    <string name="sidebar_quick_access_title">Accès rapide ya barre latérale</string>
+    <string name="show_quick_access_pref_title">Lakisa ba accès ya mbangu</string>
+    <string name="show_quick_access_pref">Bo accès noki</string>
+    <string name="directory">Annuaire</string>
+
+    <string name="sidebar_bookmarks_title">Ba marque-pages ya barre côté</string>
+    <string name="show_bookmarks_pref_title">Lakisa ba marque-pages</string>
+    <string name="show_bookmarks_pref">Ba marque-pages</string>
+    <string name="create_bookmark">Bosala marque-pages</string>
+    <string name="edit_bookmark">Bongisa marque-pages</string>
+    <string name="question_delete_bookmark">Bolongola marque-pages?</string>
+
+    <string name="cloud_error_plugin">Plugin ya Amaze Cloud ezwami te. Svp télécharger na Play Store.</string>
+    <string name="cloud_error_failed_restart">Elongi te ko charger connexion.
+        Svp fongola Amaze Cloud mbala moko.</string>
+    <string name="cloud_remove">Olingi kolongola connexion ya cloud?</string>
+    <string name="cloud_fail_authenticate">Elongi te ko authentiquer</string>
+    <string name="cloud_share_copied">Lien ya partage copié na clipboard</string>
+    <string name="copy_low_memory">Esili mémoire, svp effacer mua RAM</string>
+    <string name="cloud_token_lost">Token ebunga, svp kota lisusu</string>
+    <string name="monofont">Font monospace</string>
+    <string name="showHeaders">Lakisa mitó</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Eloko moko te</string>
+	<string name="item">eloko</string>
+	<string name="items">biloko</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Fisyé esengeli kozala na nkombo</string>
+    <string name="add_item">Bakisa Eloko</string>
+    <string name="failed_smb_decrypt_path">Elongi te kokɔtisa Connexion SMB</string>
+    <string name="failed_cloud_new_connection">Elongi te kobakisa connexion ya sika ya Cloud</string>
+    <string name="failed_cloud_api_key">Elongi te ko authentiquer plug-in ya Cloud</string>
+
+    <string name="local_inet_addr_error">Erreur ya kozua adresse inet local</string>
+    <string name="intent_save_as">Bomba lokola...</string>
+    <string name="go">Kende</string>
+    <string name="advanced">Avancé</string>
+    <string name="typeable_paths_title">Nzela ya momesano</string>
+    <string name="typeable_paths_summary">Fina molai barre ya nzela mpo na kokoma nzela ya moto na moto</string>
+    <string name="send_email_to">Tinda e-mail na</string>
+
+    <string name="text_editor">Paramètres ya mobongisi makomi</string>
+    <string name="preference_newstack_title">Fungola ba fichiers lokola mosala ya sika</string>
+    <string name="preference_newstack_summary">Epesi yo nzela ya kofungola ba fichiers na misala ekeseni. Kokota na yango uta na écran ya ba récents ya système.</string>
+    
+    <string name="developers">Ba développeurs</string>
+    <string name="no_bitcoin_app">Svp installer appli ya Portefeuille ya Bitcoin</string>
+    <string name="channel_name_normal">Mayebisi ya kokamwa</string>
+    <string name="channel_description_normal">Mayebisi ya Mokambi ya ba fichiers ya kokamwa</string>
+    <string name="channel_name_ftp">Kokamwa Serveur FTP</string>
+    <string name="channel_description_ftp">Kamwisa Mokambi ya ba fichiers Mayebisi ya Serveur FTP</string>
+
+    
+    <string name="processing">Kosala...</string>
+    <string name="failed_no_connection">Elongi te ko charger ba fichiers. Svp tala boyokani na yo.</string>
+
+    <string name="update">KOZALA MISESO</string>
+	<string name="scp_connection">Bokangami ya SCP/SFTP</string>
+    <string name="ftp_connection">Bokangami ya FTP</string>
+    <string name="ftps_connection">Bokangami ya FTP na SSL</string>
+    
+    <string name="ssh_host_key_verification_prompt">Bosolo ya hôte \'%1$s\' ekoki kozala te.\n\n%2$s empreinte ya mosapi ya fungola ezali %3$s.\n\nSvp finá \"Ee\" mpo na kondimisa nkombo; soki te, finá \"Te\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Vérifier Hôte</string>
+    <string name="ssh_select_pem_button">SSH Fungola privée</string>
+    <string name="ssh_pem_key_parse_error">Ekoki te kotanga PEM oyo oponi: %s</string>
+    <string name="password_unchanged">(ebongwani te)</string>
+    <string name="ssh_authentication_failure_password">Ezangi ya bokɔti: Ekoki te kondimisa na nkombo ya mosaleli mpe mot ya nzela oyo epesami.</string>
+    <string name="ssh_authentication_failure_key">Ezangi ya bokɔti: Ekoki te kondimisa na nkombo ya mosaleli oyo epesami mpe fungola ya privé.</string>
+    <string name="ssh_connect_failed">Ekoki te kozala na boyokani na %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">KEBISI: IDENTIFICATION YA HOSTE NA DIstance EBONGWANI!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">EZALI POSSIBLE QUE MOTO AZALI KOSALA ELOKO YA MABE!\n\nMoto moko akoki kozala koyoka yo na nkuku kaka sikoyo (attaque ya moto na katikati)! Ekoki mpe kozala ete fungola ya hôte euti kobongwana. Empreinte ya mosapi mpo na fungola ya bato banso oyo etindi na hôte ya mosika ekokani te na oyo ebombami na Amaze.\n\nSoki olingi, benga mokambi ya système na yo to bongisá boyokani ya sika mpo na kokoba kozala na boyokani na mosaleli.</string>
+    <string name="ssh_key_prompt_passphrase">Soki olingi kotia fraze ya nzela ya fungola .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Bokeli ya ba raccourcis esungami te na lanceur na yo.</string>
+    
+    <string name="select_color_config">Pona config ya couleur</string>
+    <string name="customize">Personnaliser</string>
+    <string name="custom">Personnalisé</string>
+    <string name="preselected_configs_title">Configuras oyo eponami liboso</string>
+    
+    <string name="blue">Bleu</string>
+    <string name="green">Vert</string>
+    <string name="password_no_match">Mot ya nzela ekokani te</string>
+    <string name="deselect_all">Kolongola Nyonso</string>
+    <string name="filename">Nkombo ya fisyé</string>
+    <string name="compress_file_suggest_zip_extension">Ezali malamu kosalela \".zip\" lokola bobakisi ya fisyé.</string>
+    <string name="about_amaze">Mokambi ya fisyé ya bokeli biloko mpo na Android</string>
+    <string name="license">Licence</string>
+    <string name="libraries">Bibliothèques</string>
+    <string name="password_repeat">Zongela mot ya nzela</string>
+    <string name="create_file_suggest_txt_extension">Ezali malamu kosalela \".txt\" lokola bobakisi ya fisyé.</string>
+    <string name="ssh_select_pem">Pona fungola ya privé mpo na bondimi</string>
+    <string name="ssh_key_invalid_passphrase">Frase ya nzela ya fungola ya mabe.</string>
+    <string name="ssh_key_no_decoder_decrypt">Decodeur ya malamu te mpo na ko déchiffrer PEM.</string>
+    <string name="encryption_fail_copy">Elongi te ko mettre à jour entrée ya chiffrement na base de données</string>
+    <string name="extracted">Extrait</string>
+    <string name="compressed">Compressé</string>
+    <string name="processed">Esalemi</string>
+    <string name="no_obtainable_info">Ezali na info moko te na ntina ya fichier oyo</string>
+    <string name="reopen_from_source">Ekoki te, svp fungola lisusu depuis app ya suka</string>
+    <string name="no_file_error">Eloko moko ekendeki mabe, eloko ya kofungola ezali te</string>
+    <string name="file_too_long">The fisyé ezali molai mingi mpe ekoki kobongisama te, nzokande okoki kotanga bilembo ya liboso ya %d</string>
+    <string name="file_read_only">Fisyé oyo efungwami ezali ya botangi kaka.</string>
+    <string name="got_it">Nazwi yango!</string>
+    <string name="encrypt_file_save_as">Bomba Encrypté Fisyé Lokola...</string>
+    <string name="encrypt_folder_save_as">Bomba Dossier Chiffré Lokola...</string>
+    <string name="encrypt_option_use_aze">Salelá Format ya Chiffrement Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt ezali format ya encryption ya fichier ya source ouverte oyo esalemi na encryption ya AES. Ezali pe portable, ekoki kozala déchiffré na ba programmes AESCrypt na ba plateformes misusu.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">site internet ya AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[oyo ezali na kati
+        <p>Format ya Encryption ya Amaze\'s esalemi pe na encryption ya AES; kasi ekeseni na format AESCrypt, ekoki kozala déchiffré kaka na dispositif oyo; lisusu esengeli te olongola Amaze File Manager na dispositif oyo to obongola lolenge ya kokanga écran, soki te okozala na moyen te ya kozongisa fichier chiffré.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Ba fichiers chiffrés esengeli kosalela \".aze\" lokola extension ya fichier.</string>
+    <string name="encrypt_file_must_end_with_aes">Ba fichiers chiffrés esengeli kosalela \".aes\" lokola extension ya fichier.</string>
+    <string name="error_aescrypt_decrypt_failed">Ekoki ko déchiffrer te \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Ekoki te kokoma likolo ya fisyé.</string>
+    <string name="saved_single_file">Fisyé ebombami lokola \'%s\'.</string>
+    <string name="saved_multi_files">%d fisyé ebombami.</string>
+    <string name="create_hidden_file_warn">Fisyé oyo esalemi ekobombama na liste ya ba fichiers.</string>
+    <string name="grant_apkinstall_permission">App esengeli ndingisa pona ko installer ba apps ekoba.</string>
+    <string name="time_remaining">Ntango etikali</string>
+    <string name="transfer_rate">Taux ya transfert</string>
+    <string name="unknown">eyebani te</string>
+    <string name="multiple_invalid_archive_entries">Ba fisyé mosusu na archive ekoki kobimisama te; archive ekoki kobeba to ewutaki na source ya mabe.</string>
+    <string name="saf_otg_explanation">Okokende sikoyo na système ya ba fichiers ya Android mpo na ba raisons ya sécurité. Svp pona dispositif USB na liste oyo ezali na gauche.</string>
+    <string name="donation_thanks">Matondo mingi pona don, yango ezo garder biso motivation! (:</string>
+    <string name="enable_marquee_filename">Tia effet marquee pona ba kombo ya ba fichiers</string>
+    <string name="archive_password_prompt">Svp kotia mot de passe ya archive:</string>
+    
+    <string name="cannot_extract_archive">Ekoki kobimisa archive \"%s\" te: %s</string>
+    <string name="archive_unsupported_or_corrupt">Ekoki te fungola archive \"%s\".Soit tokoki kofungola archive te, to archive ebebaki.</string>
+    <string name="close">Kanga</string>
+    <string name="bookmark_exists">Marque-pages ezali</string>
+    <string name="hide_media">Bomba na ba navigateurs ya media</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">EZALI POSSIBLE QUE MOTO AZALI KOSALA ELOKO YA MABE!\n\nMoto moko akoki kozala koyoka yo na kobombana sikoyo (attaque ya moto na katikati)!Ekoki pe kozala ete fungola ya hôte euti kobongwana.Empreinte ya mosapi mpo fungola ya bato banso oyo etindi na hôte ya mosika ekokani te na oyo ebombami na Amaze.\n\nOkoki kokende liboso na kozongisa empreinte ya misapi ya hôte to koboya kozongisa bozongisi ya ba paramètres ya boyokani SSH.</string>
+    <string name="update_host_key">Mikolo Fungola ya moyambi</string>
+    <string name="cancel_recommended">Annuler (Recommandé)</string>
+    
+    
+    <string name="failed_install_apk">Elongi te ko installer</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Bobombi ya kati</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Carte SD</string>
+    <string name="choose_folder">Pona Dossier oyo</string>
+    
+    <string name="some_files_failed_invalid_operation">Ba fichiers mosusu elongi te mpo ezali ya mabe fonctionnement</string>
+    <string name="ftp_server_prompt_connect_to_network">Kokanga na réseau to activer AP</string>
+    <string name="ftp_server_open_settings">Fungola ba paramètres</string>
+    <string name="move">Bokende</string>
+    <string name="select_save_location">Pona esika ya kobomba</string>
+    <string name="scp_default_path">Nzela ya liboso (Optionnel)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Mawa, esengelaki kosalema te.</string>
+    
+    <string name="error_report_button_text">Koyebisa libunga oyo na nzela ya e-mail</string>
+    <string name="error_report_button_telegram">Koyebisa libunga oyo na nzela ya telegrame</string>
+    <string name="copy_for_github">Kopi ya rapport formaté</string>
+    <string name="error_report_open_issue_button_text">Lapolo na GitHub</string>
+    <string name="error_report_open_github_notice">Svp tala soki likambo oyo ezali kolobela crash na yo ezali déjà.</string>
+    <string name="error_snackbar_message">Mawa, likambo moko ekendeki mabe.</string>
+    <string name="error_snackbar_action">Lapolo</string>
+    <string name="what_device_headline">Mayebisi:</string>
+    <string name="what_happened_headline">Oyo esalemaki:</string>
+    <string name="info_labels">Nini:\\nBosengi:\\nGMT Ntango:\\nPackage:\\nVersion:\\nVersion OS:\\nEsaleli:\\nModèle:\\nProduit :</string>
+    <string name="your_comment">Commentaire na yo (na lingala):</string>
+    <string name="error_details_headline">Détails:</string>
+    <string name="app_ui_crash">App/UI epanzani</string>
+    <string name="error_report_title">Rapport ya erreur</string>
+    <string name="crash_report_copied">Lapolo ya crash ekopi na clipboard</string>
+    <string name="disableIpcSignature">Kokanga vérification ya signature ya IPC (Mpo na ba serveurs SMBv1 ya kala - UNSAFE!)</string>
+    <string name="cannot_delete_file">Ekoki te kosilisa fisyé</string>
+    <string name="cannot_delete_file_with_reason">Ekoki te kosilisa fisyé - %s</string>
+    <string name="cannot_rename_file">Ekoki te kobongola nkombo ya fisyé %s - %s</string>
+    <string name="cannot_read_directory">Ekoki te kotanga répertoire %s - %s</string>
+    <string name="just_once">Kaka Mbala moko</string>
+    <string name="always">Ntango nyonso</string>
+    <string name="choose_different_app">Pona application ekeseni</string>
+    <string name="clear_open_file">Elongola cache</string>
+    <string name="clear_open_file_summary">Elongoli ba apps ya bofungoli fisyé ya liboso oyo eponami</string>
+    <string name="ftp_readonly">Accès ya botangi kaka</string>
+    <string name="legacy_listing_title">Salelá liste ya libula mpo na misisa</string>
+    <string name="legacy_listing_summary">Soki efungolami, esalelaka lolenge ya libula mpo na kotanga ba fisyé</string>
+    <string name="error_unsupported_v5_rar">Archive ya RAR \"%s\" ezali archive RAR v5 oyo esungami te.</string>
+    <string name="ftp_prompt_restart_server">Ekosenga obandi lisusu serveur FTP mpo mbongwana esala.</string>
+    <string name="error_permission_denied">Ndingisa eboyami</string>
+    <string name="error_archive_password_incorrect">Mot ya nzela ya archive ya mabe.</string>
+    <string name="error_archive_cannot_extract">Ekoki te kobimisa bokoti ya archive \"%s\" na \"%s\".</string>
+    <string name="drag_and_drop_preference">Pona préférence ya kobenda mpe kobwaka (Expérimental)</string>
+    <string name="drag_to_move_copy">Simbá mpe benda mpo na kotambolisa to kopi ya ba fisyé</string>
+    <string name="drag_to_select">Simbá mpe benda mpo na kopona ba fisyé</string>
+    <string name="disable">Kokanga</string>
+    <string name="choose_operation">Pona mosala oyo okosala</string>
+    <string name="remember">Kobosana te mpo na mbala ya sima</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Kopesa nzela ya kokɔta na SAF mpo na mosaleli FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Lokola oyo ezali mosala na yo ya liboso ya mosaleli FTP, mpe ozali kosalela ebombelo ya kati ya aparɛyi lokola dosyé oyo ekabolami, tosɛngi yo opesa nzela na Amaze ekɔta na ebombelo na kosaleláká SAF.\n\n
+
+Esengeli kaka osala yango mbala moko, kino mbala ya sima oyo okopona esika ya sika mpo na kokabola.</string>
+    <string name="android_data_prompt_saf_access">Banda Android 10, Android etyaki bipekiseli na ba répertoires mosusu, mpe basengeli kokɔta na Storage Access Framework.\n \nSoki olingi, tika Amaze ekɔta na répertoire uta na mokambi ya fisyé ya système na kobɛtáká \"Tika nzela ya kokɔta\".</string>
+    <string name="android_data_prompt_saf_access_title">Ndeka nzela ya kokɔta na SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Salelá système ya ba fichiers ya kala</string>
+    <string name="ftp_preference_saf_filesystem">Kofungola yango mpo na lisungi mpo na kosalela bobateli ya libanda ya dispositif na ba versions ya sika ya Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Nzela ya kokabola ya serveur FTP ezongisamaki na bobateli ya kati lokola ozali kozonga na bosaleli ya système ya ba fichiers ya kala. Svp pona nzela ya sika na kosalelaka menu na likolo na loboko ya mobali soki esengeli.</string>
+    <string name="ftp_server_reset_notify">Nzela ya kokabola ya serveur FTP ezongisamaki na bobateli ya kati</string>
+    <string name="ftp_server_root_unavailable">Ozali kopona nzela oyo esengaka accès ya misisa. Svp activer root explorer na ba paramètres soki dispositif na yo ezali root.</string>
+    <string name="ftp_server_root_filesystem_warning">Ozali kopona nzela oyo esengaka accès ya root, oyo e permettre ba opérations ya kotanga/kokoma na système ya ba fichiers mobimba na dispositif na yo, mpe ezali likama - mabunga ya kozanga bokebi ekokaki brick your device!\n\nOzali na ntembe te?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Libunga na kofungola URI \"%s\" mpo na kotanga.</string>
+    <string name="error_empty_archive">\"%s\" ezali archive ya pamba.</string>
+    <string name="error_bad_archive_without_info">\"%s\" ezali archive oyo ebebi.</string>
+    <string name="error_bad_archive_with_info">\"%s\" ezali archive oyo ebebi.\nMessage from extractor: \"%s\"</string>
+    <string name="security_error">Fisyé ekokaki te ezala kofungwama na kosalelaka app oyo</string>
+    <string name="cloud_drive_tooltip">Salá boyokani ya Google DriveTM mpo na kotambwisa ba fisyé uta na kati ya Mokambi ya ba fisyé ya Amaze.</string>
+    <string name="signin_with_google_title">Kondimisa mpo na kosalela Google DriveTM</string>
+    <string name="show_system_apps">Lakisa ba applis ya système</string>
+    <string name="system_apps">Ba applis ya système</string>
+    <string name="select_inverse">Poná Inverse</string>
+    <string name="select_by_type">Pona na lolenge</string>
+    <string name="select_by_date">Pona na date</string>
+    <string name="select_similar">Pona ndenge moko</string>
+    <string name="error_fetching_google_play_product_list">Libunga ya kozwa liste ya biloko na Google Play.</string>
+    <string name="grant_all_files_permission">Banda Android 11, Google esengi na ba Gestionnaires ya ba fichiers ba senga ndingisa ya mosaleli pona ko gérer ba fichiers nionso na appareil. Makambo ya mikemike awa.
+        \n\nAmaze File Manager azali na mposa ya ndingisa oyo mpe. Sima ya kofina "Grant"awa, svp pona Tika accès pona ko gérer ba fichiers nionso option na écran oyo elandi.
+        \n\nKolongola dialogue oyo ekobima na app.</string>
+    <string name="user_apps">Ba applis ya mosaleli</string>
+    <string name="appearance">Emonaneli</string>
+    <string name="behavior">Etamboli</string>
+    <string name="appearance_summary">Kobongisa motó ya likambo, balangi mpe komonana ya mokambi ya fisyé</string>
+    <string name="ui_summary">Kokamba sango nini osengeli kolakisa, kobongola barre ya mopanzi, mpe kobongola UI ba préférences</string>
+    <string name="behavior_summary">Bobongola bizaleli lokola boluki ya likolo pe soki esengeli kofungola ba fichiers lokola mosala ya sika</string>
+    <string name="security_summary">Bongisa mot de passe na chiffrement</string>
+    <string name="backup_summary">Export/Import Ba paramètres ya Amaze</string>
+
+    <string name="pref_export">Bobimisi libanda</string>
+    <string name="pref_export_summary">Ba paramètres ya exportation</string>
+    <string name="pref_import">Ko kotisa</string>
+    <string name="pref_import_summary">Ba paramètres ya ko kotisa</string>
+
+    <string name="quick_desc">Ba fichiers oyo ezuami kala mingi te na nzela ya Amaze</string>
+    <string name="recent_desc">Ba fichiers oyo esalemi to ebongwani kala mingi te</string>
+    <string name="error_cannot_find_way_open">Ekoki kozwa nzela te ya kofungola fisyé</string>
+    <string name="error_cant_decompress_that_file">Ekoki te kosala archive oyo esengami</string>
+    <string name="analyse_storage">Kososola Bobombi</string>
+    
+    <string name="download_amaze_utils_text">Ozali kozongisama na Amaze File Utilities. Ezali app na biso ya source ouverte oyo ezali na ba telespectateurs audio/video/image/document inbuilt, epesi yo nzela ya ko analyser ba fichiers ya pamba pamba mpo na ko liberer stockage, transfert rapide en utilisant Wifi P2P et ebele.\nSvp soutenir biso na komeka yango.</string>
+    <string name="download">Télécharger</string>
+    
+    <string name="amaze_utils_installed_alias">Matondo mingi mpo na ko installer Amaze File Utilities. Ozali kozongisama na app.</string>
+    <string name="image_viewer">Kokamwa Motali ya bilili</string>
+    <string name="video_player">Kokamwa Lecteur vidéo</string>
+    <string name="amaze_audio_player">Kokamwa Lecteur ya miziki</string>
+    <string name="pdf_viewer">Kokamwa Motali ya mikanda</string>
+    <string name="docx_viewer">Kokamwa Motali ya mikanda</string>
+    <string name="share_logs">Kabola ba journal</string>
+    <string name="share_logs_summary">Kabola ba journal oyo ekangami na nzela ya email / télégramme</string>
+    <string name="open_with_amaze">Fungola na Amaze</string>
+    <string name="confirmation">Kondimisa</string>
+    <string name="open_file_confirmation">Ozali na ntembe te ete olingi kofungola fisyé oyo elandi?\n\nNkombo:\n%s\n\nEsika:\n%s\n\nBonene:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Na mibeko ya Google Play, ba apps epesami nzela te ya komisala na yango moko. Svp mise à jour app na Google Play.</string>
+    <string name="error_cannot_get_package_info">Ekoki te kozua info ya paquet na fichier \"%s\". Soki fisyé oyo elakisami ezali APK te, to fisyé ya paquet ebebi.</string>
+    <string name="preference_delete_confirmation">Bolongola bondimisi</string>
+    <string name="preference_delete_confirmation_summary">Senga bondimi liboso ya kosilisa ba fisyé. Ko désactiver oyo ezali très décourée!</string>
+    
+    
+    <string name="protocol_ftps">FTP ya sécurité</string>
+    <string name="unavailable">Ezali te</string>
+
+    <string name="exporting_failed">Exportation elongi te: ekoki kokoma fichier ya sauvegarde te</string>
+    <string name="importing_failed">Ko kotisa elongi te: ekoki kotanga sauvegarde te fichier</string>
+    <string name="importing_completed">Kokɔtisa esili</string>
+    <string name="invalid_backup_file">Fisyé ya sauvegarde ya mabe</string>
+    <string name="import_failed_for">Bokɔtisi elongi te mpo na:</string>
+    <string name="free_of">"%s\n%s ezangi %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin esimbami te na F- Version Droid.Svp salela version ya Play Store ya Amaze.</string>
+    <string name="disable_player_intent_filters">Ko désactiver ba filtres ya intention ya joueur</string>
+    <string name="disable_player_intent_filters_summary">E désactiver ba lecteurs médias inbuilts Amaze depuis choix ya fichier</string>
+    <string name="no_app_found_intent">Application moko te ezwami pona ko gérer intention oyo ozali na DocumentsUI installé?</string>
+    <string name="cloud_connection_credentials_cleared">Ba credentiels ya Connexion ya Lipata elongolami</string>
+    <string name="cloud_connection_credentials_cleared_msg">Mawa, tozalaki na makoki te ya ko migré ba credentiels na yo ya connexion cloud na schéma ya sika ya base de données, mpe tosengelaki kolongola yango na app.Svp sala boyokani ya lipata lisusu.</string>
+</resources>

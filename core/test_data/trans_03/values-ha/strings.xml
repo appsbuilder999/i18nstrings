@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Buɗe aljihun tebur na kewayawa</string>
+    <string name="drawer_close">Rufe aljihun tebur</string>
+    
+    
+    
+    <string name="setting">Saituna</string>
+    <string name="select">Zaɓi Abu</string>
+    <string name="press_again">Sake latsa don fita</string>
+    <string name="open">Buɗe</string>
+    <string name="backup">Ajiyayyen</string>
+    
+    
+    
+    <string name="copyingapks">Kwafi %d fayilolin apk zuwa %s</string>
+    <string name="delbook">Share Alamomin</string>
+    <string name="add_to_bookmarks">Ƙara zuwa Alamomin shafi</string>
+    <string name="enterpath">Shigar da Hanya</string>
+    
+    <string name="create">KIRKILI</string>
+    
+    <string name="file_empty">Fayil fanko ne</string>
+    <string name="error">Kuskure</string>
+    <string name="search_results">Sakamakon bincike na %s</string>
+    <string name="rename">Sake suna</string>
+    <string name="save">Ajiye</string>
+    <string name="bookmarks_added">An Ƙara Alamomin</string>
+    <string name="fileexist">Fayil mai suna iri ɗaya ya riga ya wanzu</string>
+    <string name="name">Sunan</string>
+    <string name="date">Kwanan Wata</string>
+    
+    <string name="size_capitalized">Girman</string>
+    <string name="size">Girman babban fayil</string>
+    <string name="enterzipname">Shigar da Sunan Zip</string>
+    <string name="no_app_found">Ba a sami wani App da zai bude wannan fayil din</string>
+    <string name="copying">Kwafi</string>
+    <string name="moving">Matsar da</string>
+    <string name="file">Motsi</string>
+    <string name="folder">Fayil</string>
+    <string name="newfolder">Jaka</string>
+    <string name="entername">Shigar da Suna</string>
+    <string name="extracting">Cire</string>
+    <string name="stopping">Tsayawa</string>
+    <string name="open_parent">Buɗe directory na iyaye</string>
+    <string name="open_with">Buɗe tare da</string>
+    
+    <string name="about">Share</string>
+    <string name="extract">Cire</string>
+    <string name="compress">Damfara</string>
+    <string name="yes">E</string>
+    <string name="no">Ee</string>
+    
+    <string name="dialog_delete_category_directories">Div18</string>
+    <string name="dialog_delete_category_files">Fayloli</string>
+    <string name="dialog_delete_disclaimer">Share abubuwan da ke ƙasa zai cire su har abada daga na\'urar ku kuma ba za a iya dawo dasu ba.</string>
+    <string name="dialog_delete_title">Share abubuwa har abada?</string>
+    <string name="deleting">Sharewa</string>
+    <string name="question_set_path_as_home">Shin kuna son saita hanyar yanzu a matsayin gida don wannan shafin?</string>
+    <string name="directorysort">Yanayin Tsare-tsaren Jagora</string>
+    <string name="sort_by">Tsarin Ta</string>
+    <string name="sort_only_this">Wannan babban fayil ne kawai</string>
+    <string name="theme">Jigo</string>
+    
+    <string name="random_summary">Saita kalar farko bazuwar a farawa</string>
+    <string name="colorize">Tsarin Gumaka</string>
+    <string name="colorize_summary">Saiti a tsaye icon launi. Ba ya soke fifikon alamar launi na directory.</string>
+    <string name="home">Gida</string>
+    <string name="paste">Manna</string>
+    <string name="history">Tarihi</string>
+    <string name="copy">Kwafi</string>
+    <string name="root_mode">Tushen Explorer</string>
+    <string name="root_mode_summary">Don na\'ura mai tushe kawai. Duba shi kawai idan kun tabbata game da shi.</string>
+    <string name="root_failure">Ba a ba da damar tushen tushen ba</string>
+    <string name="select_all">Zaɓi All</string>
+    <string name="delete">Share</string>
+    <string name="set_as_home">Saita azaman Gida</string>
+    <string name="operation_not_supported">Ba a tallafawa aikin</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Hasken Kayan aiki</string>
+    
+    <string name="daytime">Ranar</string>
+    <string name="black">Black (na OLED)</string>
+    <string name="system">Tsarin (bi jigon tsarin)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Folders A saman</string>
+    <string name="filesOnTop">Fayiloli A saman</string>
+    <string name="none_on_top">Babu ​​A saman</string>
+    <!--SortBy-->
+    <string name="sort_name">Sunan</string>
+    <string name="lastModified">An Gyara Na Karshe</string>
+    <string name="sort_size">Girman</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Zaɓi fayil</string>
+    <string name="process_viewer">Mai duba tsari</string>
+    <string name="in_safe">Rashin isashen sarari</string>
+    <string name="no_file_overwrite">Babu ​​Fayil da aka Rufewa</string>
+    <string name="skip">Tsalle</string>
+    <string name="overwrite">Sake rubutawa</string>
+    <string name="not_allowed">Ba a Ba da izini ba</string>
+    <string name="searching">Neman %s</string>
+    <string name="done">An yi</string>
+    <string name="set">Sai</string>
+    <string name="enablerootmde">A kunna Tushen Yanayin</string>
+    <string name="goback">Komawa</string>
+    <string name="newfile">Sabon Fayil</string>
+    <string name="no_files">Babu ​​Fayiloli</string>
+    <string name="used">sararin da aka yi amfani da su</string>
+    <string name="used_by_others">wasu suka yi amfani da su</string>
+    <string name="free">sarari kyauta</string>
+    
+    <string name="gridview">Grid Duba</string>
+    <string name="permission">Izini</string>
+    <string name="hide">Boye</string>
+    <string name="exit">Fita</string>
+    <string name="doforall">Yi ga duk abubuwa</string>
+    <string name="gridcolumnno">Yawan ginshiƙai a duba grid</string>
+    <string name="set_random">Canje-canje za su faru bayan kun sake kunna app ɗin</string>
+    <string name="authors">Marubuta</string>
+    
+    
+    
+    
+    <string name="thumb_summary">Nuna Hotunan ƙa\'idodin ƙa\'idodi da hotuna</string>
+    <string name="thumb">Nuna Thumbnails</string>
+    <string name="hidden">Nuna Fayilolin Boye da Jakunkuna</string>
+    <string name="lastModifiedSummary">Nuna kwanan wata da lokacin gyara na ƙarshe</string>
+    <string name="lastModifiedPref">Nuna Kwanan Watan da Aka Canjawa kuma Lokaci</string>
+    <string name="size_pref_summary">Nuna girman fayiloli da adadin abubuwa a manyan fayiloli</string>
+    <string name="size_pref">Nuna Girman girma</string>
+    <string name="miscellaneous">Mabambanta</string>
+    <string name="root_pref_summary">Nuna Izinin Fayiloli da Jakunkuna</string>
+    <string name="root_pref">Nuna Izini</string>
+    <string name="about_amaze_file_manager_label">Game da Mai sarrafa Fayil na Mamaki</string>
+    <string name="version">Sigar</string>
+    <string name="rate">Raba app</string>
+    <string name="feedback">Aika Feedback</string>
+    <string name="hiddenfiles">Boyayyen Fayilolin</string>
+    <string name="type">Rubuta</string>
+    <string name="root_directory">Tushen</string>
+    <string name="add_shortcut">Ƙara Gajerar hanya</string>
+    <string name="unsaved_changes">Canje-canjen da ba a Ajiye ba</string>
+    <string name="unsaved_changes_description">Kuna da canje-canjen da ba a ajiye ba, kuna son adana su kafin ku fita?</string>
+    <string name="saving">Ana Ajiye</string>
+    <string name="package_installer">Mai shigar da Kunshin</string>
+    <string name="view">Duba</string>
+    <string name="install">Shigar</string>
+    <string name="archive">Taskar</string>
+    <string name="archive_text">Wannan rumbun adana bayanai ne. Wane mataki kuke so ku yi?</string>
+    <string name="package_installer_text">Wannan mai saka fakiti ne. Wane mataki kuke so a yi?</string>
+    <string name="xda_title">XDA zaren</string>
+    <string name="xda_summary">Q&amp;amp;A, Taimako &amp;amp; Shirya matsala</string>
+    <string name="circular_images">Yi amfani da gumakan madauwari don hotuna da bidiyo</string>
+    <string name="circular_icons">Yi amfani da gumakan madauwari. </string>
+    <string name="back_title">Bayan kewayawa</string>
+    <string name="back_summary">Yana ba da damar kewayawa na al\'ada a saman jerin</string>
+    <string name="details">Bayani</string>
+    <string name="translators">Masu Fassarawa</string>
+    <string name="german_translation_title">Jamus</string>
+    <string name="italian_translation_title">Italiyanci</string>
+    <string name="french_translation_title">Faransa</string>
+    <string name="russian_translation_title">Rashanci</string>
+    
+    
+    <string name="chinese_translation_title">China</string>
+    
+    <string name="turkish_translation_title">6Turkish</string>
+    
+    
+    <string name="polish_translation_title">Yaren mutanen Poland</string>
+    
+    <string name="greek_translation_title">Girkanci</string>
+    <string name="dutch_translation_title">Yaren mutanen Holland</string>
+    <string name="romanian_translation_title">Romani</string>
+    
+    
+    
+
+    
+    <string name="unin_system_apk">Wannan manhaja ce ta tsarin, share shi na iya haifar da rashin kwanciyar hankali na tsarin.\n Ci gaba?</string>
+    <string name="warning">Gargadi</string>
+    <string name="donate">Ba da gudummawa</string>
+    <string name="archive_extract_folder">Jakar Cire Taskar Taskar</string>
+    <string name="archive_summary">Za a fitar da fayilolin adanawa zuwa wannan babban fayil ɗin. Default value is the directory which archive is present.</string>
+    <string name="open_as">Buɗe As</string>
+    <string name="text">18</string>
+    <string name="audio">18</string>
+    
+    <string name="other">Sauran</string>
+    <string name="image">Hoto</string>
+    <string name="contributors">Masu ba da gudummuwa</string>
+    <string name="save_paths">Tuna hanyoyi</string>
+    <string name="save_path_summary">Lokacin da farawa, babban fayil ɗin da aka duba kwanan nan don kowane shafin za a nuna</string>
+    <string name="select_intent">Zabi</string>
+    
+    <string name="colored_navigation">Masanin kewayawa mai launi</string>
+    <string name="colored_navigvation_sum">Ko tsarin kewayawa yana da launin fata da fata</string>
+
+    <string name="color_title">Launi</string>
+    <string name="color_summary">Saita launi zuwa nau\'ikan UI daban-daban</string>
+    <string name="primary_color_title">Launi na Farko (Shafin Hagu)</string>
+    <string name="primary_color_summary">Saita launi zuwa manyan abubuwan UI don shafin hagu</string>
+    <string name="accent_color_title">Launi mai lafazi</string>
+    <string name="accent_color_summary">Saita launi zuwa FAB da sauran ƙananan UI abubuwa</string>
+    <string name="icon_color_title">Launi mai launi</string>
+    <string name="icon_color_summary">Saita launi zuwa gumaka</string>
+    <string name="choose_color">Zabi launi</string>
+    
+    <string name="textreader">Mai karanta rubutu</string>
+    
+    <string name="show_dividers">Nuna Rarraba</string>
+    <string name="needs_access">Ake Bukatar Rubutun Shiga</string>
+    <string name="needs_access_summary">Da fatan za a zaɓi tushen directory na \t</string>
+    <string name="needs_access_summary1">\ don ba da damar rubuta damar shiga don aiki</string>
+    <string name="smb_connection">Haɗin SMB</string>
+    <string name="smb_server">Adreshin IP na uwar garke</string>
+    <string name="server_address">Adreshin IP na uwar garke</string>
+    <string name="username">Sunan mai amfani</string>
+    <string name="password">Password </string>
+    <string name="anonymous">Ba a sani ba</string>
+    
+    
+    <string name="folderfilecount">%1$d manyan fayiloli da %2$d fayiloli</string>
+    <string name="videos">Video</string>
+    
+    <string name="documents">Takardu</string>
+    <string name="images">Hotuna</string>
+    <string name="clear">Sharfa</string>
+    
+    <string name="total">Jimlar:</string>
+    <string name="calculating">lissafin</string>
+    <string name="sort"/>
+    <string name="ascending">Hawa</string>
+    <string name="descending">Saukowa</string>
+    <string name="default_string">Tsoffin</string>
+    <string name="doit">Shin</string>
+    <string name="want_help">Bukatar taimako?</string>
+    <string name="quick">Saurin shiga</string>
+    <string name="recent">Faylolin kwanan nan</string>
+    <string name="edit">gyara</string>
+    <string name="find">Nemi a shafi</string>
+    <string name="grant">Bada</string>
+    <string name="grantper">Ba da izini</string>
+    <string name="grantfailed">Ba a ba da izini ba</string>
+    <string name="grant_storage_permission">App yana buƙatar izinin ajiya don ci gaba. Soke wannan zance zai fita daga app.</string>
+    <string name="operation_unsuccesful">Aikin bai yi nasara ba</string>
+    <string name="creatingfile">Ƙirƙirar Fayil</string>
+    <string name="creatingfolder">Ƙirƙirar Jaka</string>
+    <string name="renaming">Sake suna</string>
+    <string name="cant_be_empty">%s ba zai iya zama fanko</string>
+    <string name="ip">Adireshin ba. </string>
+    <string name="connection_name">sunan haɗin kai</string>
+    <string name="no_device_found">Babu ​​na\'urori da aka samo</string>
+    <string name="path">Hanyar</string>
+    <string name="rename_bookmark">gyara Alamar</string>
+    <string name="cut">Yanke</string>
+    <string name="search">Bincika</string>
+    <string name="invalid_name">Sunan mara inganci</string>
+    <string name="search_hint">Nau\'in don bincika…</string>
+    <string name="advanced_search">Bincike na ci gaba</string>
+    <string name="regular_expression">Maganar yau da kullun</string>
+    <string name="regular_expression_summary">Bincika ta amfani da salon salon BASH na yau da kullun</string>
+    <string name="match_content">Match abun ciki</string>
+    <string name="match_content_summary">Idan an saita, magana ta yau da kullun za ta dace da cikakken sunan fayil,
+        zai nemi abin da ya faru in ba haka ba.</string>
+    <string name="start_ftp">Fara</string>
+    <string name="stop_ftp">Dakatar</string>
+    <string name="ftp_status_running">Gudun</string>
+    <string name="ftp_status_not_running">Ba Gudu ba</string>
+    <string name="ftp_no_wifi">Tabbatar an haɗa ku da Wi -Fi</string>
+    
+    <string name="smb_share">Raba hanya</string>
+    <string name="invalid">Ba daidai ba %s</string>
+    <string name="ftp_notif_starting">Sabar FTP tana farawa</string>
+    <string name="ftp_notif_starting_title">Sabar FTP</string>
+    <string name="ftp_notif_title">Amaze FTP Server yana gudana</string>
+    <string name="ftp_notif_text">a %s</string>
+    <string name="ftp_notif_stop_server">TSAYA</string>
+    <string name="ftp_port_edit_menu_title">FTP tashar jiragen ruwa</string>
+    <string name="ftp_port_change_success">FTP tashar jiragen ruwa ta canza cikin nasara</string>
+    <string name="ftp_port_change_error_invalid">An zaɓi lambar tashar jiragen ruwa mara inganci</string>
+    <string name="primary_two_title">Launi na Farko (Shafin Dama)</string>
+    <string name="primary_two_summary">Saita launi zuwa manyan abubuwan UI don dama shafin</string>
+    <string name="support_development">Ci gaban Tallafi</string>
+    <string name="report_bugs_title">Rahoton Bugs</string>
+    <string name="source_title">Madogararsa</string>
+    <string name="source_summary">Duba lambar tushen mu akan GitHub</string>
+    <string name="report_bugs_summary">Rahoton kwari ko neman sabon fasali</string>
+    <string name="translate_title">Fassara</string>
+    <string name="translate_summary">Fassara Amaze a cikin yaren ku</string>
+    <string name="paypal_copy_message">An kwafi ID na PayPal zuwa allon allo</string>
+    <string name="searching_devices">Neman na\'urori</string>
+    <string name="use_custom_ip">Yi amfani da IP na al\'ada</string>
+    <string name="bookmark_lost">Ba a sami alamar shafi ba, maimaituwa…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Yadda ake shiga babban fayil ɗin Windows akan Android (SMB)\n\n
+                
+                    
+                        Kunna Raba Fayil akan Windows\n
+                    
+                    
+                        Bude Control Panel, danna Zaɓi HomeGroup da Zaɓuɓɓukan Raba a ƙarƙashin hanyar sadarwa
+                        da Intanet, sannan danna "Change Advanced Sharing Settings," kunna "File and
+                        Fasali na Sharing Printer.\n\n
+                    
+
+                    
+                        Ƙarin saitunan Raba Fayil\n
+                    
+                    
+                        Hakanan kuna iya saita sauran saitunan rabawa na ci gaba anan. \n
+                        Misali, zaku iya ba da damar shiga fayilolinku ba tare da kalmar sirri ba idan kun amince da duka
+                        na\'urorin da ke kan hanyar sadarwar ku ta gida. Da zarar an kunna raba fayil da firinta, zaku iya
+                        bude Fayil Explorer ko Windows Explorer, danna-dama babban fayil da kake son rabawa, kuma
+                        zaɓi Properties. \n
+                        Danna maɓallin Share kuma sanya babban fayil ɗin samuwa akan hanyar sadarwa.\n\n
+                        
+
+                    
+                        Tabbatar cewa na\'urorin biyu suna kan Wifi ɗaya\n
+                    
+                    
+                        Wannan fasalin yana samar da fayiloli akan cibiyar sadarwar gida, don haka PC da na\'urorin hannu
+                        dole ne ya kasance a kan hanyar sadarwa na gida ɗaya. Ba za ku iya samun dama ga babban fayil ɗin Windows ba
+                        akan Intanet ko lokacin da wayarku ta haɗa da bayanan wayar hannu - shi
+                        dole ne a haɗa shi da Wi-Fi.\n\n
+                    
+
+                    
+                        Nemo Adireshin IP\n
+                    
+                    
+                        Bude Umurnin Umurni. Buga \'ipconfig\' kuma danna Shigar. Nemo Default Gateway
+                        ƙarƙashin adaftar cibiyar sadarwar ku don adireshin IP na mai ba da hanya tsakanin hanyoyin sadarwa. Nemo
+                        \"Adireshin IPv4\\" ƙarƙashin wannan sashin adaftar don nemo IP ɗin kwamfutarka
+                        adireshin.\n\n
+                    
+
+                    Shigar da cikakkun bayanai a cikin akwatin maganganu na SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Ba za a iya raba fayiloli sama da 100</string>
+    <string name="otg_access">Zaɓi tushen na\'urar OTG</string>
+    <string name="information">Bayani</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">An Shiga</string>
+    <!-- reference to file modified date -->
+    <string name="modified">An gyara</string>
+
+    
+    <string name="artist">Mawaƙi</string>
+    
+    <string name="year">Shekara</string>
+    <string name="duration">Lokaci</string>
+    
+    <!-- reference to audio/video file -->
+    
+    <string name="codec">Codec </string>
+    <string name="channels">Tashoshi</string>
+    
+    
+    
+    <string name="frame_rate">Frate Rate</string>
+    <string name="image_type">Nau\'in Hoto </string>
+    <string name="width">Nisa</string>
+    <string name="height">tsawo</string>
+    <string name="date_modified">Kwanan da aka gyara</string>
+    
+    <string name="creator">Mahalicci</string>
+    <string name="camera_brand">Salon Kamara</string>
+    <string name="camera_model">Samfurin Kamara</string>
+    <string name="date_taken">Kwanan da Aka ɗauka</string>
+    <string name="exposure_time">Lokacin Bayyana</string>
+    <string name="aperture_value">Ƙimar Budewa</string>
+    <string name="image_iso">ISO Gudun Rating</string>
+    <string name="flash_fired">Flash Harba</string>
+    <string name="focal_length">Length Focal</string>
+    <string name="subject">Batun</string>
+    <string name="author">Marubuci</string>
+    
+    <string name="producer">Mai gabatarwa</string>
+    <string name="created">An ƙirƙira</string>
+    
+    <string name="pages">Yawan Shafukan</string>
+    <!-- reference to a document file -->
+    <string name="optimized">An inganta</string>
+    <string name="security">Tsaro</string>
+    <string name="paper_size">Girman Takarda</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Wasu fayiloli ba a yi nasarar %s</string>
+    <string name="copied">kwafi</string>
+    <string name="moved"/>
+    <string name="copy_complete">Kwafi Complete</string>
+    <string name="waiting_title">Jira</string>
+    <string name="waiting_content">Jiran aiki don kammala</string>
+    <string name="extract_complete">Cikakkun cirewa</string>
+    <string name="compression_complete">Kammala matsawa</string>
+    <string name="compressing">Matsi</string>
+    <string name="cancelled">An soke</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Rubuta</string>
+    <string name="out_of">daga</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">na</string>
+    <string name="processing_file">Fayil mai sarrafa</string>
+    <string name="current_speed">Gudun Yanzu</string>
+    <string name="smb_launch_error">Kuna buƙatar kwafin wannan fayil ɗin zuwa ma\'adana don buɗe shi</string>
+    <string name="error_file_not_found">Kuskure: Ba a Samu Fayil ba</string>
+    <string name="error_io">Kuskuren I/O</string>
+    <string name="error_file_too_large">Kuskure: Fayil Yayi Girma</string>
+    <string name="medium_text">Rubutun matsakaici</string>
+    <string name="permission_read">Karanta</string>
+    <string name="permission_write">Rubuta</string>
+    <string name="permission_execute">Kashe</string>
+    <string name="permission_owner">Maigida</string>
+    
+    <string name="permission_other">Sauran</string>
+    <string name="clipboard_path_copy">An kwafi hanyar zuwa allo.</string>
+    <string name="service_timer">Lokaci ya wuce</string>
+    <string name="please_wait">Da fatan za a jira</string>
+
+    <string name="cloud_connection">Haɗin gajimare</string>
+    <string name="cloud_connection_new">Sabuwar Haɗin gajimare</string>
+    
+    
+    <string name="cloud_onedrive">OneDrive </string>
+    <string name="cloud_box">Akwati</string>
+    <string name="cloud_get">Samu Cloud plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Babu ​​aikace-aikace</string>
+    <string name="ftp_path">Hanyar Raba</string>
+    <string name="ftp_path_hint">Hanyar zuwa tushen directory don raba</string>
+    <string name="change">Canza</string>
+    <string name="unknown_error">Oop, wani abu ya faru ba daidai ba!</string>
+
+    <string name="ftp_path_change_success">Hanyar FTP ta canza cikin nasara</string>
+    <string name="ftp_path_change_error_invalid">Hanyar mara inganci</string>
+    <string name="ftp_status_no_connection">Babu ​​Haɗin kai</string>
+    <string name="ftp_status_secure_connection">Haɗin amintaccen </string>
+    <string name="ftp_status_title">Matsayi</string>
+    
+    
+    <string name="field_empty">Filin ba zai iya zama fanko ba</string>
+    <string name="ftp_timeout">Lokacin zaman banza</string>
+    <string name="ftp_seconds">Second</string>
+    
+    <string name="intellihide_toolbar_summary">Boye Toolbar ta atomatik yayin gungurawa</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">kofe zuwa allo mai kwafi</string>
+    <string name="contributors_1_summary">Fassarar</string>
+    <string name="contributors_2_summary">Icon da banners</string>
+    <string name="contributors_3_summary">Injin Jigo</string>
+    <string name="contributors_4_summary">Inuwa a bayan FAB</string>
+    <string name="contributors_5_summary">Tsarin launi lokacin shafa shafuka</string>
+    <string name="contributors_6_summary">Sabar FTP</string>
+    <string name="contributors_7_summary">Harba harsashi mai hulɗa</string>
+    <string name="connection_exists">Haɗin ya riga ya wanzu</string>
+
+    <string name="crypt_encrypting">Rufewa</string>
+    <string name="crypt_decrypting">Rufewa</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Rufewa</string>
+    <string name="crypt_decrypted">An ɓoye</string>
+    <string name="crypt_encrypt">Encrypt&gt;</string>
+    
+    <string name="operation_fail_following">Aiki ya gaza don bin fayiloli</string>
+    <string name="crypt_pref_master_password_title"/>
+    <string name="crypt_pref_master_password_summary">Saita babban kalmar sirri domin boye-boye.
+        Bar komai don cirewa.</string>
+    <string name="crypt_pref_fingerprint_title">Farin yatsa</string>
+    <string name="crypt_pref_fingerprint_summary">Yi amfani da sawun yatsa don tabbatar da boye-boye</string>
+    <string name="crypt_fingerprint_no_permission">Izinin sawun yatsa ya ɓace</string>
+    <string name="crypt_fingerprint_not_enrolled">Babu ​​sawun yatsa da aka yi rajista</string>
+    <string name="crypt_fingerprint_no_security">Ba a sami tsaro na kulle allo</string>
+    <string name="crypt_warning_key">A shawarce ku, lokacin da kuka canza tsarin tsaro daga
+        Saitunan tsarin, ba za ku iya warware wannan abun cikin ba.</string>
+    <string name="warning_never_show">Kada a sake sanar da</string>
+    <string name="warning_confirm">Samu shi!</string>
+    <string name="crypt_encryption_fail">Ba a yi nasarar rufawa ba</string>
+    <string name="crypt_decryption_fail">Ba a yi nasarar rusasa ba</string>
+    <string name="crypt_decryption_fail_password">Password mara kyau!</string>
+    <string name="crypt_fingerprint_authenticate">Taba firikwensin don ci gaba</string>
+    <string name="authenticate_password">Shigar da kalmar wucewa</string>
+
+    <string name="sidebar_preferences">Shafin gefe</string>
+    <string name="sidebar_quick_access_title">Saurin shiga cikin bar gefe</string>
+    <string name="show_quick_access_pref_title">Nuna saurin shiga</string>
+    <string name="show_quick_access_pref">Saurin shiga</string>
+    <string name="directory">Div18</string>
+
+    <string name="sidebar_bookmarks_title">Alamomin gefe</string>
+    <string name="show_bookmarks_pref_title">Nuna alamomin</string>
+    <string name="show_bookmarks_pref">Alamomin shafi</string>
+    <string name="create_bookmark">Ƙirƙiri alamar shafi</string>
+    <string name="edit_bookmark">Shirya alamar shafi</string>
+    <string name="question_delete_bookmark">Share alamar shafi?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin ba a samu ba. Da fatan za a zazzage daga Play Store.</string>
+    <string name="cloud_error_failed_restart">Ba a yi nasarar loda haɗin ba.
+        Da fatan za a buɗe Amaze Cloud sau ɗaya.</string>
+    <string name="cloud_remove">Shin kuna son cire haɗin gajimare?</string>
+    <string name="cloud_fail_authenticate">An kasa tantancewa</string>
+    <string name="cloud_share_copied">Haɗin da aka kwafi zuwa ga allo</string>
+    <string name="copy_low_memory">Gamewa daga ƙwaƙwalwar ajiya, da fatan za a share wasu RAM</string>
+    <string name="cloud_token_lost">Token ya ɓace, da fatan za a sake shiga. </string>
+    
+    <string name="showHeaders">Nuna kanun labarai</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Babu ​​abubuwa</string>
+	<string name="item">abu</string>
+	<string name="items">kayayyaki</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Fayil ya kamata yana da suna</string>
+    <string name="add_item">Ƙara Abu</string>
+    <string name="failed_smb_decrypt_path">Ba a yi nasarar loda haɗin SMB</string>
+    <string name="failed_cloud_new_connection">Ba a yi nasarar ƙara sabon haɗin gajimare ba</string>
+    <string name="failed_cloud_api_key">Ba a yi nasarar tantance toshe Cloud</string>
+
+    <string name="local_inet_addr_error">Kuskuren samun gida adireshi inet</string>
+    <string name="intent_save_as">Ajiye azaman…</string>
+    <string name="go">God</string>
+    <string name="advanced">Babba</string>
+    <string name="typeable_paths_title">Hanyoyin al\'ada</string>
+    <string name="typeable_paths_summary">Dogon latsa hanya don rubuta hanyar al\'ada</string>
+    <string name="send_email_to">Aika imel zuwa</string>
+
+    <string name="text_editor">Saitunan editan rubutu</string>
+    <string name="preference_newstack_title">Buɗe fayiloli azaman sabon ɗawainiya</string>
+    <string name="preference_newstack_summary">Yana ba ku damar buɗe fayiloli a cikin ayyuka daban-daban. Samun damar su daga allon tsarin kwanan nan.</string>
+    
+    <string name="developers">Masu haɓakawa</string>
+    <string name="no_bitcoin_app">Da fatan za a shigar da ƙa\'idar Wallet na Bitcoin</string>
+    <string name="channel_name_normal">Amaze Fadakarwa</string>
+    
+    <string name="channel_name_ftp">Amaze FTP Sabar</string>
+    <string name="channel_description_ftp">Sanarwar Fayil na FTP Server na Mamaki</string>
+
+    
+    <string name="processing">Ana aiwatarwa…</string>
+    <string name="failed_no_connection">An kasa loda fayiloli. Da fatan za a duba haɗin ku.</string>
+
+    <string name="update">KYAUTA</string>
+	<string name="scp_connection">Haɗin SCP/SFTP</string>
+    <string name="ftp_connection">Haɗin FTP</string>
+    <string name="ftps_connection">FTP akan SSL Connection</string>
+    
+    <string name="ssh_host_key_verification_prompt">Ba za a iya kafa sahihancin rundunar \'%1$s\' ba.\n\n%2$s maɓalli na yatsa shine %3$s.\n \n Da fatan za a matsa \"Ee\" don tabbatar da ainihi; in ba haka ba, da fatan za a matsa "A\'a".</string>
+    <string name="ssh_host_key_verification_prompt_title">Tabbatar Mai watsa shiri</string>
+    <string name="ssh_select_pem_button">SSH Keɓaɓɓen Maɓalli</string>
+    <string name="ssh_pem_key_parse_error">Ba a iya karanta PEM da aka zaɓa: %s</string>
+    <string name="password_unchanged">(ba canzawa)</string>
+    <string name="ssh_authentication_failure_password">Rashin shiga: Rashin iya tantancewa tare da kawo sunan mai amfani da kalmar sirri.</string>
+    <string name="ssh_authentication_failure_key">Rashin shiga: Rashin iya tantance sunan mai amfani da maɓalli na sirri.</string>
+    <string name="ssh_connect_failed">Ba a iya haɗawa zuwa %1$s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">GARGAƊI: GANO MAI NASARA YA CANZA!</string>
+    
+    <string name="ssh_key_prompt_passphrase">Da fatan za a shigar da kalmar wucewa ta maɓalli. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Ƙirƙirar gajerun hanyoyi ba ta da goyon bayan mai ƙaddamar da ku.</string>
+    
+    <string name="select_color_config">Zaɓi saitin launi</string>
+    <string name="customize">Kaddamar da</string>
+    
+    <string name="preselected_configs_title">Saitunan da aka riga aka zaɓa</string>
+    
+    
+    
+    <string name="password_no_match">Password baiyi daidai ba</string>
+    <string name="deselect_all">Ba zaba Duk</string>
+    
+    <string name="compress_file_suggest_zip_extension">An bada shawarar yin amfani da \"zip\" a matsayin tsawo na fayil.</string>
+    
+    <string name="license">Lasisi</string>
+    
+    <string name="password_repeat">Maimaita kalmar sirri</string>
+    <string name="create_file_suggest_txt_extension">An ba da shawarar yin amfani da \"txt" a matsayin tsawo na fayil.</string>
+    <string name="ssh_select_pem">Zaɓi maɓalli na sirri don tantancewa.</string>
+    <string name="ssh_key_invalid_passphrase">Maɓallin kalmar wucewa mara inganci.</string>
+    <string name="ssh_key_no_decoder_decrypt">Babu ​​ingantacciyar dikodi don warwarewa PEM.</string>
+    <string name="encryption_fail_copy">An kasa sabunta shigarwar boye-boye a cikin bayanan</string>
+    <string name="extracted">An ciro</string>
+    <string name="compressed">An matsa</string>
+    <string name="processed">An sarrafa</string>
+    <string name="no_obtainable_info">Babu ​​bayani game da wannan fayil</string>
+    <string name="reopen_from_source">Ba za a iya ba, da fatan za a sake buɗewa daga ƙa\'idar ƙarshe</string>
+    <string name="no_file_error">Wani abu ya yi kuskure, babu abin da za a buɗe</string>
+    <string name="file_too_long">Fayil ɗin ya yi tsayi da yawa kuma ba za a iya gyara shi ba, duk da haka kuna iya karanta haruffan %d na farko</string>
+    <string name="file_read_only">Fayil ɗin bude shine karantawa kawai.</string>
+    <string name="got_it">Samu shi!</string>
+    <string name="encrypt_file_save_as">Ajiye Rufaffen Fayil As…</string>
+    <string name="encrypt_folder_save_as">Ajiye Rufaffen Jaka Kamar…</string>
+    <string name="encrypt_option_use_aze">Yi amfani da Tsarin Rufewa na Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt tsari ne na buɗaɗɗen ɓoyayyen fayil bisa tushen ɓoyewar AES. Hakanan mai ɗaukar hoto ne, ana iya ɓoye shi tare da shirye-shiryen AESCrypt akan wasu dandamali.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank"> Gidan yanar gizon AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        Tsarin ɓoye na Amaze shima yana dogara ne akan ɓoyayyen AES; amma ya bambanta da tsarin AESCrypt, wannan na\'urar ne kawai za a iya ɓoye shi; Hakanan ba za ku cire Amaze File Manager daga wannan na\'urar ba ko canza hanyar da kuke kulle allo, in ba haka ba ba za ku sami hanyar dawo da fayil ɗin da aka ɓoye ba.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Dole ne fayilolin da aka rufaffen su yi amfani da "aze" a matsayin tsawo na fayil.</string>
+    <string name="encrypt_file_must_end_with_aes">Dole ne fayilolin da aka rufaffen su yi amfani da ""aes" a matsayin tsawo na fayil.</string>
+    <string name="error_aescrypt_decrypt_failed">Ba za a iya warwarewa ba. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Ba za a iya sake rubuta fayil ba.</string>
+    <string name="saved_single_file">An adana fayil azaman \'%s\'.</string>
+    <string name="saved_multi_files">%d fayiloli sun adana.</string>
+    <string name="create_hidden_file_warn">Za a ɓoye fayil ɗin da aka ƙirƙira a cikin lissafin fayil.</string>
+    <string name="grant_apkinstall_permission">App yana buƙatar izini don ci gaba da shigar da apps.</string>
+    <string name="time_remaining">Sauran lokacin</string>
+    <string name="transfer_rate">Canja wurin ƙididdigewa</string>
+    <string name="unknown">ba a sani ba</string>
+    <string name="multiple_invalid_archive_entries">Wasu fayiloli a cikin tarihin ba za a iya fitar da su ba; Za a iya lalacewa ko kuma ta fito daga malicious source.</string>
+    <string name="saf_otg_explanation">Yanzu za ku je tsarin fayilolin Android don dalilai na tsaro. Da fatan za a zaɓi na\'urar USB daga jeri na hagu.</string>
+    <string name="donation_thanks">Na gode da gudummawar, wannan yana sa mu ƙwazo! (:</string>
+    <string name="enable_marquee_filename">Kaddamar da tasirin marquee don sunayen fayil</string>
+    <string name="archive_password_prompt">Da fatan za a shigar da kalmar sirri ta rumbun adana bayanai:</string>
+    
+    <string name="cannot_extract_archive">Ba za a iya cire tarihin \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Ba za a iya bude archive \"%s\" ko dai ba za mu iya bude ma\'ajiyar ba, ko kuma ma\'ajiyar ta lalace.</string>
+    <string name="close">Rufe</string>
+    <string name="bookmark_exists">Alamta akwai</string>
+    <string name="hide_media">Boye daga masu bincike na mai jarida</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">AKWAI YIWU WANI YANA AIKATA WANI ABU MAI WUTA!\n\nWani yana iya sauraren ku a yanzu (harrin mutum-in-tsakiya)! don maɓalli na jama\'a da mai watsa shirye-shiryen nesa ya aiko bai dace da wanda aka adana a cikin Amaze ba.\n\nZa ku iya ci gaba da sabunta hoton yatsa na rundunar ko soke sabunta saitunan haɗin SSH.</string>
+    <string name="update_host_key">Sabuntawa Maɓallin Mai watsa shiri</string>
+    <string name="cancel_recommended">Soke (An shawarta)</string>
+    
+    
+    <string name="failed_install_apk">An kasa girka</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Ajiyayyen Ciki</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Katin SD</string>
+    <string name="choose_folder">Zabi Wannan Jaka</string>
+    
+    <string name="some_files_failed_invalid_operation">Wasu fayiloli sun kasa saboda rashin aiki aiki</string>
+    <string name="ftp_server_prompt_connect_to_network">Haɗa zuwa cibiyar sadarwa ko kunna AP</string>
+    <string name="ftp_server_open_settings">Buɗe saituna</string>
+    <string name="move">Matsar da</string>
+    <string name="select_save_location">Zaɓi wuri don ajiyewa</string>
+    <string name="scp_default_path">Tsoffin Hanyar (ZABI)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Yi hakuri, hakan bai kamata ya faru ba.</string>
+    
+    <string name="error_report_button_text">Ka ba da rahoton wannan kuskure ta imel</string>
+    <string name="error_report_button_telegram">Ka ba da rahoton wannan kuskure ta hanyar telegram</string>
+    <string name="copy_for_github">Kwafi da aka tsara rahoton</string>
+    <string name="error_report_open_issue_button_text">Rahoto akan GitHub</string>
+    <string name="error_report_open_github_notice">Da fatan za a duba ko an riga an sami matsala game da haɗarin ku.</string>
+    <string name="error_snackbar_message">Yi hakuri, wani abu ya faru.</string>
+    <string name="error_snackbar_action">Rahoto</string>
+    <string name="what_device_headline">Bayani:</string>
+    <string name="what_happened_headline">Abin da ya faru:</string>
+    <string name="info_labels">Me ya faru:\nNemi:\nLokaci GMT:\nPackage:\\nSigar:\nSigar OS:\nNa\'ura :\nModel:\nProduct:</string>
+    <string name="your_comment">Maganar ku (a Turanci):</string>
+    <string name="error_details_headline">Bayani:</string>
+    <string name="app_ui_crash">App/UI ya fadi</string>
+    <string name="error_report_title">Rahoton Kuskure</string>
+    <string name="crash_report_copied">Rahoton Crash da aka kwafe zuwa allo</string>
+    <string name="disableIpcSignature">A kashe rajistan shiga IPC (Don sabobin SMBv1 na gado - UNSAFE!)</string>
+    <string name="cannot_delete_file">Ba za a iya share fayil ɗin</string>
+    <string name="cannot_delete_file_with_reason">Ba za a iya share fayil ba - %s</string>
+    <string name="cannot_rename_file">Ba za a iya sake suna fayil %s - %s</string>
+    <string name="cannot_read_directory">Ba za a iya karanta directory %s - %s</string>
+    <string name="just_once">Sau ɗaya kawai</string>
+    <string name="always">Koyaushe</string>
+    <string name="choose_different_app">Zaɓi daban-daban aikace-aikace</string>
+    <string name="clear_open_file">Shafe cache</string>
+    <string name="clear_open_file_summary">Yana share tsoho da aka zaba aikace-aikacen buɗe fayil</string>
+    <string name="ftp_readonly">Harkokin karanta-kawai</string>
+    <string name="legacy_listing_title">Yi amfani da jeri na gado don tushen</string>
+    <string name="legacy_listing_summary">Idan an kunna, yana amfani da hanyar gado don jera fayiloli</string>
+    <string name="error_unsupported_v5_rar">RAR Rumbun \"%s\" RAR v5 ba shi da tallafi.</string>
+    <string name="ftp_prompt_restart_server">Kuna buƙatar sake kunna uwar garken FTP don canje-canje suyi tasiri.</string>
+    <string name="error_permission_denied">An hana izini</string>
+    <string name="error_archive_password_incorrect">Masu amfani da kalmar sirri mara kyau.</string>
+    <string name="error_archive_cannot_extract">Ba za a iya fitar da shigarwar tarihin \"%s\" zuwa \"%s\" ba.</string>
+    <string name="drag_and_drop_preference">Zaɓi ja da sauke fifiko (Gwaji)</string>
+    <string name="drag_to_move_copy">Taba kuma ja don matsar ko kwafin fayiloli</string>
+    <string name="drag_to_select">Taba da ja don zaɓar fayiloli</string>
+    <string name="disable">A kashe</string>
+    <string name="choose_operation">Zaɓi aiki don aiwatarwa</string>
+    <string name="remember">Ka tuna na gaba lokaci</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Ba da damar SAF don uwar garken FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Tunda wannan shine farkon aikin ku na sabar FTP, kuma kuna amfani da ma\'ajiyar ciki na na\'urar azaman babban fayil ɗin da aka raba, da fatan za a ba da damar Amaze don samun dama ga ajiya ta amfani da SAF.\n\n
+
+Kuna buƙatar yin wannan sau ɗaya kawai, har zuwa lokaci na gaba za ku zaɓi sabon wuri don rabawa.</string>
+    
+    <string name="android_data_prompt_saf_access_title">Ba da damar SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Yi amfani da tsarin fayil na gado</string>
+    <string name="ftp_preference_saf_filesystem">Bayar da wannan don tallafi don amfani da ma\'ajin waje na na\'ura akan sabbin nau\'ikan Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">An sake saita hanyar raba uwar garken FTP zuwa ma\'ajiyar ciki yayin da kuke komawa zuwa aiwatar da tsarin fayil na gado. Da fatan za a zaɓi sabuwar hanya ta amfani da menu a saman dama kamar yadda ya cancanta.</string>
+    <string name="ftp_server_reset_notify">An sake saita hanyar raba uwar garken FTP zuwa ma\'ajiyar ciki</string>
+    <string name="ftp_server_root_unavailable">Ana zabar hanyar da ke buƙatar samun tushen tushe. Da fatan za a ba da damar root Explorer a cikin saitunan idan na\'urarku ta yi rooting.</string>
+    <string name="ftp_server_root_filesystem_warning">Yana zabar hanyar da ke buƙatar tushen tushen, wanda ke ba da damar karantawa/rubutu aiki a cikin tsarin fayil ɗin gabaɗaya akan na\'urarka, kuma yana da haɗari - kuskuren rashin kulawa zai iya. brick your device!\n\nKa tabbata?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Kuskuren bude URI \"%s\" don karantawa.</string>
+    <string name="error_empty_archive">\"%s\" rumbun ajiya ce mara komai.</string>
+    <string name="error_bad_archive_without_info">\"%s\" ruɓaɓɓen tarihin tarihi ne.</string>
+    <string name="error_bad_archive_with_info">\"%s\" ruɓaɓɓen ma\'ajiya ce.\nSaƙon daga mai cirewa: \"%s\"</string>
+    <string name="security_error">Ba a iya buɗe fayil ta amfani da wannan app ɗin ba</string>
+    <string name="cloud_drive_tooltip">Ƙirƙiri hanyar haɗin Google Drive™ don sarrafa fayiloli daga cikin Manajan Fayil na Amaze.</string>
+    <string name="signin_with_google_title">Tabbata don amfani da Google Drive™</string>
+    <string name="show_system_apps">Nuna tsarin apps</string>
+    <string name="system_apps">Aikace-aikacen tsarin</string>
+    <string name="select_inverse">Zaɓi Inverse</string>
+    <string name="select_by_type">Zaɓi ta nau\'in</string>
+    <string name="select_by_date">Zaɓi ta kwanan wata</string>
+    <string name="select_similar">Zaɓi makamancin haka</string>
+    <string name="error_fetching_google_play_product_list">Kuskuren ɗauko lissafin samfur daga Google Play.</string>
+    <string name="grant_all_files_permission">Tun daga Android 11, Google yana buƙatar Manajan Fayil don neman izinin mai amfani don sarrafa duk fayiloli akan na\'urar. Cikakkun bayanai anan.
+        \n\nAmaze File Manager yana buƙatar wannan izini kuma. Bayan danna "Grant" anan, da fatan za a zaɓi Bada damar sarrafa duk zaɓin fayiloli akan allo na gaba.
+        \n\nSoke wannan zance zai fita daga app.</string>
+    <string name="user_apps">Apps mai amfani</string>
+    <string name="appearance">Bayanan</string>
+    <string name="behavior">Halayyar</string>
+    <string name="appearance_summary">Kwatar da jigo, launuka da bayyanar mai sarrafa fayil</string>
+    <string name="ui_summary">Sarrafa abin da bayanin zai nuna, keɓance mashin gefe, kuma kunna abubuwan zaɓin UI</string>
+    <string name="behavior_summary">Gyara ɗabi\'a kamar bincike na ci gaba da ko buɗe fayiloli azaman sabon ɗawainiya</string>
+    <string name="security_summary">Saita kalmar sirri da ɓoyewa</string>
+    <string name="backup_summary">Shigo da Saitunan Amaze</string>
+
+    <string name="pref_export">Aikawa</string>
+    <string name="pref_export_summary">Saitunan fitarwa</string>
+    <string name="pref_import">Shigo</string>
+    <string name="pref_import_summary">Shigo da saituna</string>
+
+    <string name="quick_desc">Fayilolin da aka samu kwanan nan ta hanyar Amaze</string>
+    <string name="recent_desc">Fayillolin da aka ƙirƙira ko gyara kwanan nan</string>
+    <string name="error_cannot_find_way_open">An kasa samun hanyar zuwa buɗe fayil ɗin</string>
+    <string name="error_cant_decompress_that_file">Ba za a iya aiwatar da rumbun da aka nema ba</string>
+    <string name="analyse_storage">Bincike Adana</string>
+    
+    <string name="download_amaze_utils_text">Ana tura ku zuwa Abubuwan Fayil na Amaze. Yana da buɗaɗɗen tushen app ɗin mu wanda ke da ingantacciyar sauti / bidiyo / hoto / masu kallo, yana ba ku damar bincika fayilolin takarce don \'yantar da ma\'ajiyar, saurin canja wuri ta amfani da Wifi P2P da ƙari mai yawa.\nDon Allah a tallafa mana ta gwadawa.</string>
+    <string name="download">Zazzage</string>
+    
+    <string name="amaze_utils_installed_alias">Na gode da shigar da Abubuwan Fayil na Amaze. Ana tura ku zuwa app ɗin.</string>
+    <string name="image_viewer">Mai kallon Hoto mai ban mamaki</string>
+    
+    
+    <string name="pdf_viewer">Mai Kallon Takardun Mamaki</string>
+    
+    <string name="share_logs">Raba rajistan ayyukan</string>
+    <string name="share_logs_summary">Raba rajistan ayyukan ta imel / telegram</string>
+    <string name="open_with_amaze">Buɗe da Amaze</string>
+    <string name="confirmation">Tabbatar</string>
+    <string name="open_file_confirmation">Shin kai ne tabbas kuna son bude fayil mai zuwa?\n\nSunan:\n%s\n\n Wuri:\n%s\n\n Girman:\n%s\n\nMD5:\n%s\n\nSHA256:\n n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Kowace umarni na Google Play, apps ba a yarda su sabunta kanta da kanta. Da fatan za a sabunta app daga Google Play.</string>
+    <string name="error_cannot_get_package_info">Ba a iya samun bayanin fakiti daga fayil \"%s\". Ko dai ƙayyadadden fayil ɗin ba apk ba ne, ko kuma fayil ɗin fakitin ya lalace.</string>
+    <string name="preference_delete_confirmation">Share tabbaci</string>
+    <string name="preference_delete_confirmation_summary">Nemi tabbaci kafin share fayiloli. Kashe wannan yana da sanyin gwiwa sosai!</string>
+    
+    
+    <string name="protocol_ftps">Tabbataccen FTP</string>
+    <string name="unavailable">Ba samuwa</string>
+
+    <string name="exporting_failed">Aikawa ya kasa: ba zai iya rubuta fayil ɗin ajiyar ba</string>
+    <string name="importing_failed">Shigo da kasa: kasa karanta madadin. file</string>
+    <string name="importing_completed">An gama shigo da kaya</string>
+    <string name="invalid_backup_file">Fayil madadin mara inganci</string>
+    <string name="import_failed_for">Shigo da ya kasa don:</string>
+    <string name="free_of">"%s\n%s kyauta daga %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin ba shi da tallafi tare da F- Sigar Droid. Da fatan za a yi amfani da sigar Play Store na Amaze.</string>
+    <string name="disable_player_intent_filters">Musaki masu tace niyya na mai kunnawa</string>
+    <string name="disable_player_intent_filters_summary">Yana Kashe Amaze ingantattun ƴan wasan media daga mai zaɓin fayil</string>
+    <string name="no_app_found_intent">Babu ​​wani app da aka samu da ya kula da wannan niyya. Kuna shigar da DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">An share bayanan Haɗin Haɗin girgije</string>
+    <string name="cloud_connection_credentials_cleared_msg">Abin takaici, ba mu sami damar yin ƙaura bayanan haɗin gajimare ba zuwa sabon tsarin bayanai, kuma dole ne mu cire su daga ƙa\'idar. Da fatan za a sake ƙirƙirar haɗin gajimare.</string>
+</resources>

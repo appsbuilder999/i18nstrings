@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="sidebar_preferences">Sidebar</string>
+    <string name="sidebar_quick_access_title">Sidebar quick access</string>
+    <string name="show_quick_access_pref_title">Display quick access</string>
+    <string name="show_quick_access_pref">Quick Access</string>
+    <string name="directory">Catalog</string>
+
+    <string name="sidebar_bookmarks_title">Sidebar Bookmarks</string>
+    <string name="show_bookmarks_pref_title">Show Bookmarks</string>
+    <string name="show_bookmarks_pref">Bookmarks</string>
+    <string name="create_bookmark">Create Bookmarks</string>
+    <string name="edit_bookmark">Edit Bookmarks</string>
+    <string name="question_delete_bookmark">Delete Bookmarks?</string>
+
+    <string name="cloud_error_plugin">Amaze cloud plugin not found. please download it from the play store.</string>
+    <string name="cloud_error_failed_restart">Failed to load link.
+        please open amaze cloud once.</string>
+    <string name="cloud_remove">Do you want to delete the cloud connection?</string>
+</resources>

@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Rêveberê Pelê Amaze</string>
+    <string name="drawer_open">Derkêşana navîgasyonê veke</string>
+    <string name="drawer_close">Derkêşana navîgasyonê bigire</string>
+    <string name="icon">îkon</string>
+    <string name="apps">Rêveberê sepanê</string>
+    <string name="ftp">Pêşkêşkara FTP</string>
+    <string name="setting">Mîheng</string>
+    <string name="select">Hilbijêre</string>
+    <string name="press_again">Ji bo derketinê dîsa bitikîne</string>
+    <string name="open">Vekirin</string>
+    <string name="backup">Pêşkêşî</string>
+    <string name="uninstall">Rake</string>
+    
+    <string name="properties">Taybetmendî</string>
+    <string name="copyingapks">Kopîkirina %d pelên APK li %s</string>
+    <string name="delbook">Jêbirina Nîşanê</string>
+    <string name="add_to_bookmarks">Zêde bike bo nîşanan</string>
+    <string name="enterpath">Rêya Têkeve</string>
+    <string name="cancel">BALKIRIN</string>
+    <string name="create">AFERÎNIN</string>
+    <string name="loading">Bal dike…</string>
+    <string name="file_empty">Pel vala ye</string>
+    <string name="error">Çewtî</string>
+    <string name="search_results">Encamên lêgerînê yên %s</string>
+    <string name="rename">Biguherîne</string>
+    <string name="save">hilîne</string>
+    <string name="bookmarks_added">Pêşkêşan hatin zêdekirin</string>
+    <string name="fileexist">Pelê bi heman navî jixwe heye</string>
+    <string name="name">Nav</string>
+    <string name="date">Dîroka</string>
+    <string name="location">Cîh</string>
+    <string name="size_capitalized">Mezinahî</string>
+    <string name="size">mezinahiya peldankê</string>
+    <string name="enterzipname">Navê Zip têke</string>
+    <string name="no_app_found">Ji bo vekirina vê dosyayê tu sepan nehat dîtin</string>
+    <string name="copying">Kopîkirin</string>
+    <string name="moving">Veguhastin</string>
+    <string name="file">Pel</string>
+    <string name="folder">Peldank</string>
+    <string name="newfolder">Peldanka Nû</string>
+    <string name="entername">Navê têke</string>
+    <string name="extracting">Derkirin</string>
+    <string name="stopping">Rawestandin</string>
+    <string name="open_parent">Pelrêça dêûbav veke</string>
+    <string name="open_with">bi</string>
+    <string name="share">Pirvekirin</string>
+    <string name="about">Derbarî</string>
+    <string name="extract">Derxistin</string>
+    <string name="compress">Pêvekirin</string>
+    <string name="yes">Erê</string>
+    <string name="no">Na</string>
+    
+    <string name="dialog_delete_category_directories">Perkêşan</string>
+    <string name="dialog_delete_category_files">Pel</string>
+    <string name="dialog_delete_disclaimer">Hûn jêbirina tiştên li jêr dê wan bi domdarî ji cîhaza we rake û nayên vegerandin.</string>
+    <string name="dialog_delete_title">Tiştên herdemî jê bibe?</string>
+    <string name="deleting">Jêbirin</string>
+    <string name="question_set_path_as_home">Tu dixwazî ​​rêya heyî ji bo vê tabloyê wekî malekê bikî?</string>
+    <string name="directorysort">Moda Rêzkirina Dîrektîfê</string>
+    <string name="sort_by">Rêzkirina Bi</string>
+    <string name="sort_only_this">Tenê ev peldank</string>
+    <string name="theme">Mijar</string>
+    <string name="random">Çermê Tesadûfî</string>
+    <string name="random_summary">Di destpêkê de rengê seretayî yê tesadufî destnîşan dike</string>
+    <string name="colorize">Ikonan rengîn bike</string>
+    <string name="colorize_summary">Çermê rengê îkonê statîk. Vebijêrka rengê îkona pelrêçayê derbas nake.</string>
+    <string name="home">Mal</string>
+    <string name="paste">Çêkirin</string>
+    <string name="history">Dîrok</string>
+    <string name="copy">Kopîkirin</string>
+    <string name="root_mode">Explorerê Root</string>
+    <string name="root_mode_summary">Tenê ji bo cîhaza rooted. Heger tu pê ewle yî, tenê kontrol bike.</string>
+    <string name="root_failure">Girtina Root nayê dayîn</string>
+    <string name="select_all">Hemû Hilbijêre</string>
+    <string name="delete">Jêbibe</string>
+    <string name="set_as_home">Wekî Malê Bike</string>
+    <string name="operation_not_supported">Operasyon nayê piştgirî kirin</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Ronahîya materyal</string>
+    <string name="dark">Materyal tarî</string>
+    <string name="daytime">Rojane</string>
+    <string name="black">Reş (ji bo OLED)</string>
+    <string name="system">Pergal (mijara pergalê bişopînin)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Peldankên Serê jorîn</string>
+    <string name="filesOnTop">Pelên Serê Serê</string>
+    <string name="none_on_top">Tine Li Serê</string>
+    <!--SortBy-->
+    <string name="sort_name">Nav</string>
+    <string name="lastModified">Guhertinên Dawîn</string>
+    <string name="sort_size">Mezinahî</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Pelekê hilbijêre</string>
+    <string name="process_viewer">Pêvajoyê Nêrîner</string>
+    <string name="in_safe">Cihê Kêmasî</string>
+    <string name="no_file_overwrite">Pêl nehate nivîsandin</string>
+    <string name="skip">Derbaskirin</string>
+    <string name="overwrite">Li ser binivîsîne</string>
+    <string name="not_allowed">Ne Destûr nayê dayîn</string>
+    <string name="searching">Lêgerîna %s</string>
+    <string name="done">Qede</string>
+    
+    <string name="enablerootmde">Moda Root Çalak bike</string>
+    <string name="goback">Vegere</string>
+    <string name="newfile">Dosyaya Nû</string>
+    <string name="no_files">Pel tune</string>
+    <string name="used">cihê hatiye bikaranîn</string>
+    <string name="used_by_others">ji aliyê kesên din ve hatiye bikaranîn</string>
+    <string name="free">qada azad</string>
+    <string name="listview">Nêrîna Lîsteyê</string>
+    <string name="gridview">Gird Binêre</string>
+    <string name="permission">Destûr</string>
+    <string name="hide">Veşêre</string>
+    <string name="exit">Derketin</string>
+    <string name="doforall">Ji bo hemû tiştan bike</string>
+    <string name="gridcolumnno">Hejmara stûnên di dîtina tevnekê de</string>
+    <string name="set_random">Piştî ku te sepanê ji nû ve da destpêkirin dê guhertin çêbibin</string>
+    <string name="authors">Nivîskar</string>
+    <string name="changelog">Guherandin</string>
+    
+    <string name="ui">Navbera</string>
+    <string name="general">Giştî</string>
+    <string name="thumb_summary">Piçûçikên sepanan û wêneyan nîşan bide</string>
+    <string name="thumb">Tiryakê nîşan bide</string>
+    <string name="hidden">Pel û Peldankên Veşartî Nîşan bide</string>
+    <string name="lastModifiedSummary">Dîrok û dema guherandina dawî nîşan bide</string>
+    <string name="lastModifiedPref">Dîroka Guhertina Dawîn Nîşan bide û Dem</string>
+    <string name="size_pref_summary">Mezinahiya pelan û hejmara hêmanên di peldankan de nîşan bide</string>
+    <string name="size_pref">Mezinan nîşan bide</string>
+    <string name="miscellaneous">Cûda</string>
+    <string name="root_pref_summary">Destûrên Pelan û Peldankan nîşan bide</string>
+    <string name="root_pref">Destûran nîşan bide</string>
+    <string name="about_amaze_file_manager_label">Derbarê Rêvebirê Pelê Amaze</string>
+    <string name="version">Guhertoya</string>
+    <string name="rate">Spanê binirxîne</string>
+    <string name="feedback">Bersivdanê bişîne</string>
+    <string name="hiddenfiles">Pelên Veşartî</string>
+    <string name="type">Binivîsin</string>
+    
+    <string name="add_shortcut">Kurtenivîsê lê zêde bike</string>
+    <string name="unsaved_changes">Guhertinên nehatine tomarkirin</string>
+    <string name="unsaved_changes_description">Guhertinên te yên nehatine tomarkirin hene, tu dixwazî ​​wan berî derketinê hilînî?</string>
+    <string name="saving">hilanînê</string>
+    <string name="package_installer">Sazkera pakêtê</string>
+    <string name="view">Dîtin</string>
+    <string name="install">Sazkirin</string>
+    <string name="archive">Arşîv</string>
+    <string name="archive_text">Ev arşîv e. Tu dixwazî ​​çi karî bikî?</string>
+    <string name="package_installer_text">Ev sazkerek pakêtê ye. Tu dixwazî ​​çi karî bikî?</string>
+    <string name="xda_title">Mijara XDA</string>
+    <string name="xda_summary">Pirs û bersiv, Alîkarî û Çareserkirina Pirsgirêkan</string>
+    <string name="circular_images">Ji bo wêne û vîdyoyan îkonên dorhêl bikar bînin</string>
+    <string name="circular_icons">îkonên dorhêl bikar bînin</string>
+    <string name="back_title">navîgasyon paşde</string>
+    <string name="back_summary">Navîgasyonên paşerojê yên xwerû li serê lîsteyê çalak dike</string>
+    <string name="details">Hûrgilî</string>
+    <string name="translators">Wergêr</string>
+    <string name="german_translation_title">Almanî</string>
+    <string name="italian_translation_title">Îtalî</string>
+    <string name="french_translation_title">Frensî</string>
+    <string name="russian_translation_title">Rûsî</string>
+    <string name="spanish_translation_title">Spanî</string>
+    <string name="basque_translation_title">Baskî</string>
+    <string name="chinese_translation_title">Çînî</string>
+    <string name="serbian_translation_title">Serbî</string>
+    <string name="turkish_translation_title">Tirkî</string>
+    <string name="ukrainian_translation_title">Ukranî</string>
+    <string name="portuguese_translation_title">Portekîzî</string>
+    <string name="polish_translation_title">Polonî</string>
+    <string name="korean_translation_title">Koreî</string>
+    <string name="greek_translation_title">Yewnanî</string>
+    <string name="dutch_translation_title">Hollandî</string>
+    <string name="romanian_translation_title">Romenî</string>
+    <string name="vietnamese_translation_title">Vietnamî</string>
+    <string name="japanese_translation_title">Japonî</string>
+    <string name="tamil_translation_title"/>
+
+    
+    <string name="unin_system_apk">Ev sepana pergalê ye, jêbirina wê dibe ku bibe sedema bêîstiqrara pergalê.\nBidomînin?</string>
+    <string name="warning">Hişyarî</string>
+    <string name="donate">Bexş bike</string>
+    <string name="archive_extract_folder">Peldanka Derxistina Arşîvê</string>
+    <string name="archive_summary">Dê pelên arşîvê ji vê peldankê re bên derxistin. Nirxa xwerû ew pelrêça ku tê de arşîv heye.</string>
+    <string name="open_as">Wekî veke</string>
+    <string name="text">Nivîs</string>
+    <string name="audio">Deng</string>
+    <string name="video">Vîdyo</string>
+    <string name="other">Yên din</string>
+    <string name="image">Wêne</string>
+    <string name="contributors">Beşdar</string>
+    <string name="save_paths">Rêyan bi bîr bîne</string>
+    <string name="save_path_summary">Dema dest pê dike, peldanka herî dawî ya ku ji bo her tabekê hatiye dîtin dê were nîşandan</string>
+    <string name="select_intent">Hilbijêre</string>
+    <string name="database">Danbase</string>
+    <string name="colored_navigation">Bara navîgasyonê ya rengîn</string>
+    <string name="colored_navigvation_sum">Ka barika navîgasyonê ya pergalê bi çermê rengîn e an na</string>
+
+    <string name="color_title">Reng</string>
+    <string name="color_summary">Rengê li ser pêkhateyên UI-yê yên cihêreng danîne</string>
+    <string name="primary_color_title">Rengê seretayî (Tabela çepê)</string>
+    <string name="primary_color_summary">Ji bo tabloya çepê reng li hêmanên UI-ya mezin danî</string>
+    <string name="accent_color_title">Rengê tewandî</string>
+    <string name="accent_color_summary">Reng bide FAB û UI-ya din a piçûk hêman</string>
+    <string name="icon_color_title">Rengê îkonê</string>
+    <string name="icon_color_summary">Rengê îkonan deyne</string>
+    <string name="choose_color">Reng hilbijêre</string>
+    <string name="files">Pel</string>
+    <string name="textreader">Xwendevana nivîsê</string>
+    <string name="databasereader">Xwendevanê databasê</string>
+    <string name="show_dividers">Dabeşkaran nîşan bide</string>
+    <string name="needs_access">Pêdivî ye ku binivîsîne24</string>
+    <string name="needs_access_summary">Ji kerema xwe pelrêça root ya \t</string>
+    <string name="needs_access_summary1">\t ji bo xebitandinê gihandina nivîsandinê bide</string>
+    <string name="smb_connection">Girêdana SMB</string>
+    <string name="smb_server">Navnîşana IP-ya Pêşkêşkar</string>
+    <string name="server_address">Navnîşana IP-ya Pêşkêşkar</string>
+    <string name="username">Navê bikarhêner</string>
+    <string name="password">Şîfre</string>
+    <string name="anonymous">Anonîm</string>
+    
+    <string name="folders">Peldank</string>
+    <string name="folderfilecount">%1$d peldank û %2$d pel</string>
+    <string name="videos">Vîdeo</string>
+    <string name="apks">APK</string>
+    <string name="documents">Belge</string>
+    <string name="images">Wêne</string>
+    <string name="clear">Paqij bike</string>
+    
+    <string name="total">Tevahî:</string>
+    <string name="calculating">hesabkirin </string>
+    <string name="sort">Rêzkirin</string>
+    <string name="ascending">Herketî</string>
+    <string name="descending">Daketî</string>
+    <string name="default_string">Pêşûyî</string>
+    <string name="doit">Wê bike</string>
+    <string name="want_help">Alîkarî lazim e?</string>
+    <string name="quick">Zû Gihîştin</string>
+    <string name="recent">Pelên dawî</string>
+    <string name="edit">Guherandin</string>
+    <string name="find">Li rûpelê bibînin</string>
+    <string name="grant">Destkirin</string>
+    <string name="grantper">Destûr bide</string>
+    <string name="grantfailed">Destûr nehat dayîn</string>
+    <string name="grant_storage_permission">Ji bo berdewamkirina sepanê destûra hilanînê hewce dike. Betalkirina vê diyalogê dê ji sepanê derkeve.</string>
+    <string name="operation_unsuccesful">Operasyon Biserneket</string>
+    <string name="creatingfile">Afirandina Pelê</string>
+    <string name="creatingfolder">Afirandina Peldankê</string>
+    <string name="renaming">Venavkirin</string>
+    <string name="cant_be_empty">%s vala nabe</string>
+    <string name="ip">Navnîşan</string>
+    <string name="connection_name">Navê pêwendiyê</string>
+    <string name="no_device_found">Cîhaz nehatin dîtin</string>
+    <string name="path">Rê</string>
+    <string name="rename_bookmark"/>
+    <string name="cut">Birîn</string>
+    <string name="search">Lêgerîn</string>
+    <string name="invalid_name">Navê nederbasdar</string>
+    <string name="search_hint">Ji bo lêgerînê binivîsin…</string>
+    <string name="advanced_search">Lêgerîna pêşkeftî</string>
+    <string name="regular_expression">Gotina birêkûpêk</string>
+    <string name="regular_expression_summary">Lêgerîn bi ravekek rêkûpêk şêwaza BASH</string>
+    <string name="match_content">Naveroka hev bikin</string>
+    <string name="match_content_summary">Heke were danîn, dê îfadeya birêkûpêk bi tevahiya navê pelê re were berhev kirin,
+        Wekî din dê li bûyeran bigerin.</string>
+    <string name="start_ftp">Destpêk</string>
+    <string name="stop_ftp">Raweste</string>
+    <string name="ftp_status_running">Rêvedikeve</string>
+    <string name="ftp_status_not_running">Nexebite</string>
+    <string name="ftp_no_wifi">Piştrast bike ku hûn bi Wi-yê ve girêdayî ne -Fi</string>
+    
+    <string name="smb_share">Riya parvekirinê</string>
+    <string name="invalid">%s nederbasdar</string>
+    <string name="ftp_notif_starting">Pêşkêşkara FTP dest pê dike</string>
+    <string name="ftp_notif_starting_title">Pêşkêşkara FTP</string>
+    <string name="ftp_notif_title">Pêşkêşkara FTP ya Amaze dixebite</string>
+    <string name="ftp_notif_text">li %s</string>
+    
+    <string name="ftp_port_edit_menu_title">porta FTP</string>
+    <string name="ftp_port_change_success">porta FTP bi serketî guherî</string>
+    <string name="ftp_port_change_error_invalid">Hejmara bendera nederbasdar hat hilbijartin</string>
+    <string name="primary_two_title">Rengê seretayî (Tabela rast)</string>
+    <string name="primary_two_summary">Ji bo taba rastê reng li ser hêmanên UI-yê yên mezin danîn</string>
+    <string name="support_development">Pêşveçûn piştgirî</string>
+    <string name="report_bugs_title">Bêgumanan rapor bikin</string>
+    <string name="source_title">Koda çavkaniyê</string>
+    <string name="source_summary">Koda meya çavkaniyê li ser GitHub binêre</string>
+    <string name="report_bugs_summary">Çewtiyan rapor bikin an taybetmendiya nû daxwaz bikin</string>
+    <string name="translate_title">Wergere</string>
+    <string name="translate_summary">Amaze bi zimanê xwe wergerîne</string>
+    <string name="paypal_copy_message">Nasnameya PayPal li klîpboardê hat kopîkirin</string>
+    <string name="searching_devices">Li amûran digere</string>
+    <string name="use_custom_ip">IP-ya xwerû bikar bîne</string>
+    <string name="bookmark_lost">Pêşkêş nehat dîtin, ji nû ve diafirîne…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Meriv çawa xwe bigihîne peldanka Windows-ê ya hevpar li ser Android (SMB)\n\n
+                
+                    
+                        Li Windows-ê Parvekirina Pelê çalak bike\n
+                    
+                    
+                        Panela Kontrolê vekin, bikirtînin Vebijarkên HomeGroup û Parvekirinê di binê Torê de hilbijêrin
+                        û Înternetê, û bikirtînin "Mîhengên Parvekirina Pêşkeftî Biguherînin", "Pel û
+                        Taybetmendiya Parvekirina Çapkerê.\n\n
+                    
+
+                    
+                        Mîhengên Parvekirina Pelê yên Zêdeyî\n
+                    
+                    
+                        Her weha dibe ku hûn bixwazin mîhengên din ên parvekirina pêşkeftî li vir mîheng bikin. \n
+                        Mînakî, heke hûn ji hemîyan bawer bin hûn dikarin gihandina pelên xwe bêyî şîfreyek çalak bikin
+                        cîhazên li ser tora xweya herêmî. Dema ku parvekirina pel û çaperê çalak be, hûn dikarin
+                        File Explorer an Windows Explorer vekin, peldanka ku hûn dixwazin parve bikin rast-klîk bikin, û
+                        Taybetmendiyên hilbijêre. \n
+                        Bişkojka Parvekirinê bikirtînin û peldankê li ser torê berdest bikin.\n\n
+                        
+
+                    
+                        Piştrast bike ku her du cîhaz di heman Wifi de bin\n
+                    
+                    
+                        Vê taybetmendiyê pelan li ser tora herêmî peyda dike, ji ber vê yekê PC û cîhazên mobîl we
+                        divê li ser heman tora herêmî be. Hûn nikarin xwe bigihînin peldankek Windows-ê ya hevpar
+                        li ser Înternetê an dema ku smartphone we bi daneyên xweya mobîl ve girêdayî ye - ew
+                        divê bi Wi-Fi ve were girêdan.\n\n
+                    
+
+                    
+                        Navnîşana IP-ê bibînin\n
+                    
+                    
+                        Serlêdana fermanê vekin. \'ipconfig\' binivîsin û Enter bikirtînin. Li Default Gateway bigerin
+                        di bin adapterê torê de ji bo navnîşana IP-ya routerê we. Şopandin
+                        \\\"Navnîşana IPv4\\\" di binê heman beşa adapterê de ku IP-ya komputera xwe bibînin
+                        navnîşan.\n\n
+                    
+
+                    Hûragahiyan li qutiya diyalogê ya SMB binivîse\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Nikare ji 100 pelan zêdetir parve bike</string>
+    <string name="otg_access">Roka cîhaza OTG hilbijêrin</string>
+    <string name="information">Agahdarî</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Gihîştin</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Guhertin</string>
+
+    <string name="title">Sernav</string>
+    <string name="artist">Hunermend</string>
+    
+    <string name="year">Sal</string>
+    <string name="duration">Demjimêr</string>
+    <string name="comment">Şîrove</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Konteyner</string>
+    <string name="codec">Kodek</string>
+    <string name="channels">Qanel</string>
+    <string name="sample_rate">Rêjeya Nimûneyê</string>
+    <string name="bitrate">Bîtrade</string>
+    <string name="dimensions">Pîvan</string>
+    <string name="frame_rate">Rêjeya Çarçove</string>
+    <string name="image_type">Cûreya wêne</string>
+    <string name="width">Peynî</string>
+    <string name="height">Bilindî</string>
+    <string name="date_modified">Dîroka guherandinê</string>
+    <string name="software">Nermalava</string>
+    <string name="creator">Afirînerê</string>
+    <string name="camera_brand">Marka Kamera</string>
+    <string name="camera_model">Cam Model</string>
+    <string name="date_taken">Dîroka hilgirtinê</string>
+    <string name="exposure_time">Dema xuyangkirinê</string>
+    <string name="aperture_value">Nirxa aperture</string>
+    <string name="image_iso">Nirxa Lezê ya ISO</string>
+    <string name="flash_fired">Flash Têkilî</string>
+    <string name="focal_length">Drêjahiya Focal</string>
+    <string name="subject">Mijar</string>
+    <string name="author">Nivîskar</string>
+    <string name="keywords">Peyvên sereke</string>
+    <string name="producer">çêker</string>
+    <string name="created">Afirandin</string>
+    <string name="format"/>
+    <string name="pages">Hejmara Rûpelan</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimîze kirin</string>
+    <string name="security">Ewlekarî</string>
+    <string name="paper_size">Mezinahiya kaxezê</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Hin pel bi serketî %s nehatine kopî kirin</string>
+    <string name="copied">kopî kirin</string>
+    <string name="moved">barkirin</string>
+    <string name="copy_complete">Kopîkirin Qediya</string>
+    <string name="waiting_title">Li bendê ye</string>
+    <string name="waiting_content">Li benda qedandina operasyonê ye</string>
+    <string name="extract_complete">Kêlkirin qediya</string>
+    <string name="compression_complete">Pêşkêşkirin Qediya</string>
+    <string name="compressing">Pêvekirin</string>
+    <string name="cancelled">Betal kirin</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Nivîsandin</string>
+    <string name="out_of">ji</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ji</string>
+    <string name="processing_file">Pelê pêvajokirinê</string>
+    <string name="current_speed">Lezbûna niha</string>
+    <string name="smb_launch_error">Pêdivî ye ku hûn vê pelê li hilanînê kopî bikin da ku wê vekin</string>
+    <string name="error_file_not_found">Çewtî: Pel nehat dîtin</string>
+    <string name="error_io">Çewtiya I/O</string>
+    <string name="error_file_too_large">Çewtî: Pelê Pir Mezin</string>
+    <string name="medium_text">Nivîsa Navîn</string>
+    <string name="permission_read">Xwendin</string>
+    <string name="permission_write">Nivîsîn</string>
+    <string name="permission_execute">Pêvekirin</string>
+    <string name="permission_owner">Xwedî</string>
+    <string name="permission_group">Grûp</string>
+    <string name="permission_other">Yên din</string>
+    <string name="clipboard_path_copy">Rêya li clipboard hate kopî kirin</string>
+    <string name="service_timer">Dema derbasbûyî</string>
+    <string name="please_wait">Ji kerema xwe Bisekine</string>
+
+    <string name="cloud_connection">Girêdana Cloud</string>
+    <string name="cloud_connection_new">Girêdana Cloud Nû</string>
+    
+    
+    
+    
+    <string name="cloud_get">Pêveka Cloud bistînin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Serlêdan tune</string>
+    <string name="ftp_path">Riya Hevbeş</string>
+    <string name="ftp_path_hint">Rêya berbi koka pelrêça ji bo parvekirinê</string>
+    <string name="change">Guhertin</string>
+    <string name="unknown_error">Wey, tiştek xelet bû!</string>
+
+    <string name="ftp_path_change_success">Riya FTP bi serkeftî guherî</string>
+    <string name="ftp_path_change_error_invalid">Rêya nederbasdar</string>
+    <string name="ftp_status_no_connection">Têkiliyek tune</string>
+    <string name="ftp_status_secure_connection">Pêwendiya Ewle</string>
+    <string name="ftp_status_title">Rewş</string>
+    
+    <string name="ftp_login">Têketin</string>
+    <string name="field_empty">Qadan vala nabe</string>
+    <string name="ftp_timeout">Dema neçalakiyê</string>
+    <string name="ftp_seconds">Çendî</string>
+    <string name="intellihide_toolbar_title">Herêka Amûrên Intellihide</string>
+    <string name="intellihide_toolbar_summary">Dema ku digere bi otomatîkî darê amûrê vedişêre</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">li clipboard hat kopîkirin</string>
+    <string name="contributors_1_summary">Werger</string>
+    <string name="contributors_2_summary">Ikon û pankart</string>
+    <string name="contributors_3_summary">Motora Mijarê</string>
+    <string name="contributors_4_summary">Siya li pişt FAB</string>
+    <string name="contributors_5_summary">Veguhestina rengan dema ku tabloyan dihejîne</string>
+    <string name="contributors_6_summary">Pêşkêşkara FTP</string>
+    <string name="contributors_7_summary">Şêlek înteraktîf diavêje</string>
+    <string name="connection_exists">Pêwendî jixwe heye</string>
+
+    <string name="crypt_encrypting">Şifrekirin</string>
+    <string name="crypt_decrypting">Şifrekirin</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Şifrekirî</string>
+    <string name="crypt_decrypted">Şifrekirî</string>
+    <string name="crypt_encrypt">Şifrekirin</string>
+    <string name="crypt_decrypt">Şîfrekirin</string>
+    <string name="operation_fail_following">Operasyon ji bo pelên jêrîn têk çû</string>
+    <string name="crypt_pref_master_password_title">Şîfreya sereke</string>
+    <string name="crypt_pref_master_password_summary">Ji bo şîfrekirinê şîfreyek sereke saz bike.
+        Ji bo jêbirinê vala bihêlin.</string>
+    <string name="crypt_pref_fingerprint_title">Şopa tilî</string>
+    <string name="crypt_pref_fingerprint_summary">Şopa tiliyê ji bo rastkirina şîfrekirinê bi kar bîne</string>
+    <string name="crypt_fingerprint_no_permission">Destûrên şopa tiliyê winda ne</string>
+    <string name="crypt_fingerprint_not_enrolled">Şopa tilî nehat tomarkirin</string>
+    <string name="crypt_fingerprint_no_security">Ewlekariya kilîtkirinê tune hate dîtin</string>
+    <string name="crypt_warning_key">Gava ku hûn şêwaza ewlehiya xwe ji biguherînin, şîret bikin
+        Mîhengên pergalê, hûn ê nikaribin vê naverokê deşîfre bikin.</string>
+    <string name="warning_never_show">Dîsa agahdar nekin</string>
+    <string name="warning_confirm">Fêm kir!</string>
+    <string name="crypt_encryption_fail">Şîfrekirin bi ser neket</string>
+    <string name="crypt_decryption_fail">Şîfrekirin bi ser neket</string>
+    <string name="crypt_decryption_fail_password">Şîfreya çewt!</string>
+    <string name="crypt_fingerprint_authenticate">Ji bo berdewamkirinê senzorê bi dest bixe</string>
+    <string name="authenticate_password">Şîfreyê têke</string>
+
+    <string name="sidebar_preferences">Berê kêlekê</string>
+    <string name="sidebar_quick_access_title">Girtina bilez a kêlekê</string>
+    <string name="show_quick_access_pref_title">Gihîştinên bilez nîşan bide</string>
+    <string name="show_quick_access_pref">Gehiştinên bilez</string>
+    <string name="directory">Pirrektor</string>
+
+    <string name="sidebar_bookmarks_title">Pêşandankên kêlekê</string>
+    <string name="show_bookmarks_pref_title">Pêşkêşan nîşan bide</string>
+    <string name="show_bookmarks_pref">Pirtûşan</string>
+    <string name="create_bookmark">Nîşanê biafirîne</string>
+    <string name="edit_bookmark">Biguherîne nîşanê</string>
+    <string name="question_delete_bookmark">Nîşankê jê bibe?</string>
+
+    <string name="cloud_error_plugin">Pêveka Amaze Cloud nehat dîtin. Ji kerema xwe ji Play Store dakêşin.</string>
+    <string name="cloud_error_failed_restart">Têkilî nehat barkirin.
+        Ji kerema xwe carekê Amaze Cloud veke.</string>
+    <string name="cloud_remove">Tu dixwazî ​​pêwendiya ewr jê bikî?</string>
+    <string name="cloud_fail_authenticate">Nasname bi ser neket</string>
+    <string name="cloud_share_copied">Girêdana parvekirî li clipboard hate kopî kirin</string>
+    <string name="copy_low_memory">Qediya bîra, ji kerema xwe hin RAM paqij bike</string>
+    <string name="cloud_token_lost">Token winda bû, ji kerema xwe dîsa têkevinê</string>
+    <string name="monofont">Font Monospace</string>
+    <string name="showHeaders">Sernivîsan nîşan bide</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Tiştek tune</string>
+	<string name="item">babete</string>
+	<string name="items">tişt</string>
+	
+	
+	<string name="bytes">byte</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Divê navekî pelê hebe</string>
+    <string name="add_item">Tiştê lê zêde bike</string>
+    <string name="failed_smb_decrypt_path">Barkirin bi ser neket Girêdana SMB</string>
+    <string name="failed_cloud_new_connection">Zêdekirina pêwendiya Cloud-ê ya nû bi ser neket</string>
+    <string name="failed_cloud_api_key">Pêveka Cloud-ê nehat rastrastkirin</string>
+
+    <string name="local_inet_addr_error">Çewtiyek di navnîşana net-ê ya herêmî de</string>
+    <string name="intent_save_as">Wekî tomar bike…</string>
+    <string name="go">Here</string>
+    <string name="advanced">Pêşketî</string>
+    <string name="typeable_paths_title">Rêyên xwerû</string>
+    <string name="typeable_paths_summary">Drejê pêl barika rê ji bo nivîsandina rêyeke xwerû</string>
+    <string name="send_email_to">E-nameyê bişîne</string>
+
+    <string name="text_editor">Mîhengên edîtorê nivîsê</string>
+    <string name="preference_newstack_title">Pelên wekî karekî nû veke</string>
+    <string name="preference_newstack_summary">Destûrê dide te ku hûn pelan di karên cihê de vekin. Ji ekrana nûtirîn pergalê bigihînin wan.</string>
+    
+    <string name="developers">Pêşdebiran</string>
+    <string name="no_bitcoin_app">Ji kerema xwe sepaneke Wallet-a Bitcoin saz bikin</string>
+    <string name="channel_name_normal">Agahiyên Amaze</string>
+    <string name="channel_description_normal">Agahiyên Rêvebirê Pelê Amaze</string>
+    <string name="channel_name_ftp">Pêşkêşkara FTP ya Amaze</string>
+    <string name="channel_description_ftp">Agahiyên Pêşkêşkara FTP ya Rêvebirê Pelê Amaze</string>
+
+    
+    <string name="processing">Pêvajokirin…</string>
+    <string name="failed_no_connection">Barkirina pelan bi ser neket. Ji kerema xwe pêwendiya xwe kontrol bikin.</string>
+
+    
+	<string name="scp_connection">Girêdana SCP/SFTP</string>
+    <string name="ftp_connection">Girêdana FTP</string>
+    <string name="ftps_connection">FTP ser Girêdana SSL</string>
+    
+    <string name="ssh_host_key_verification_prompt">Rastîbûna hosta \'%1$s\' nayê destnîşankirin.\n\nŞopa tiliya mifteya %2$s %3$s e.\n\nJi kerema xwe \"Erê\" bikirtînin da ku piştrast bikin nasname; wekî din, ji kerema xwe \"Na\" bikirtînin.</string>
+    <string name="ssh_host_key_verification_prompt_title">Mêvandar piştrast bike</string>
+    <string name="ssh_select_pem_button">Kîlîda taybet a SSH</string>
+    <string name="ssh_pem_key_parse_error">PEM-ya hilbijartî nayê xwendin: %s</string>
+    <string name="password_unchanged">(neguherî)</string>
+    <string name="ssh_authentication_failure_password">Têketinê têkçû: Bi navê bikarhêner û şîfreya hatî peydakirî nayê pejirandin.</string>
+    <string name="ssh_authentication_failure_key">Têketinê: Bi navê bikarhêner û mifteya taybet a hatî peyda kirin nekarî were rastkirin. .</string>
+    <string name="ssh_connect_failed">Nekare bi %1$sve were girêdan s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">HIŞYARÎ: NASNAMEYA MÊZBERIYÊ DUR GUHERIYE!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">DIBE KU KES TIŞTÎ NEŞAM DIKE!\n\nDibe ku kesek li ser we be niha (êrîşa mirov-di-navîn)! Di heman demê de gengaz e ku mifteya mêvandar nû hatî guhertin. Şopa tiliya mifteya giştî ya ku ji hêla mêvandarê dûr ve hatî şandin bi ya ku di Amaze de hatî hilanîn hev nagire.\n\nJi kerema xwe bi rêvebirê pergala xwe re têkilî daynin an pêwendiyek nû saz bikin da ku girêdana bi pêşkêşkerê re berdewam bike.</string>
+    <string name="ssh_key_prompt_passphrase">Ji kerema xwe re şîfreya mifteyê têkevin .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Afirandina kurtebiran ji hêla destpêkera we ve nayê piştgirî kirin.</string>
+    
+    <string name="select_color_config">Vesazkirina rengan hilbijêrin</string>
+    <string name="customize">Pêşengkirin</string>
+    <string name="custom">Gotarî</string>
+    <string name="preselected_configs_title">Veavakirinên pêşhilbijartî</string>
+    <string name="orange">Pirteqalî</string>
+    <string name="blue">Şîn</string>
+    <string name="green">Kesk</string>
+    <string name="password_no_match">Şîfre li hev nayê</string>
+    <string name="deselect_all">Hemû hilbijêre</string>
+    <string name="filename">Navê pelê</string>
+    <string name="compress_file_suggest_zip_extension">Tê pêşniyar kirin ku \".zip\" wekî dirêjkirina pelê bikar bînin.</string>
+    <string name="about_amaze">Rêveberê pelê sêwirana materyalê ji bo Android</string>
+    <string name="license">Lîsanse</string>
+    <string name="libraries">Pirtûkxane</string>
+    <string name="password_repeat">Şîfreyê dubare bike</string>
+    <string name="create_file_suggest_txt_extension">Tê pêşniyar kirin ku \".txt\" wekî pêveka pelê were bikar anîn.</string>
+    <string name="ssh_select_pem">Ji bo verastkirinê mifteya taybet hilbijêrin</string>
+    <string name="ssh_key_invalid_passphrase">Gotineke derbasbûnê ya nederbasdar.</string>
+    <string name="ssh_key_no_decoder_decrypt">Ji bo deşîfrekirina PEM-ê dekoderek derbasdar tune.</string>
+    <string name="encryption_fail_copy">Nûvekirina têketina şîfrekirinê ya di databasê de bi ser neket</string>
+    <string name="extracted">hatin derkirin</string>
+    <string name="compressed">Pêkvekirî</string>
+    <string name="processed">Pêvajo kirin</string>
+    <string name="no_obtainable_info">Li ser vê dosyayê agahî tune</string>
+    <string name="reopen_from_source">Nikare, ji kerema xwe ji sepana dawîn ji nû ve veke</string>
+    <string name="no_file_error">Tiştek xelet derket, tiştek tune ku were vekirin</string>
+    <string name="file_too_long">pel pir dirêj e û nayê guherandin, lê hûn dikarin %d tîpên pêşîn bixwînin</string>
+    <string name="file_read_only">Pelê vekirî tenê xwendin e.</string>
+    <string name="got_it">Fêm kir!</string>
+    <string name="encrypt_file_save_as">Şîfrekirî hilîne Pelê wekî…</string>
+    <string name="encrypt_folder_save_as">Peldanka şîfrekirî wekî…</string>
+    <string name="encrypt_option_use_aze">Forma şîfrekirinê ya Amaze bikar bîne</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt formatek şîfrekirina pelê çavkaniyek vekirî ye ku li ser bingeha şîfrekirina AES-ê ye. Ew di heman demê de portable e, dikare bi bernameyên AESCrypt li ser platformên din were deşîfrekirin.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">Malpera AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Forma Şîfrekirinê ya Amaze\'yê jî li ser şîfrekirina AES-ê ye; lê ji formata AESCrypt cuda ye, ew tenê ji hêla vê cîhazê ve dikare were deşîfrekirin; her weha divê hûn Rêvebirê Pelê Amaze ji vê cîhazê rakin û ne jî awayê kilîtkirina ekranê biguhezînin, wekî din hûn ê rê nedin ku hûn pelê şîfrekirî vegerînin.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Pelên şîfrekirî divê \".aze\" wekî dirêjkirina pelê bikar bînin.</string>
+    <string name="encrypt_file_must_end_with_aes">Pelên şîfrekirî divê \".aes\" wekî dirêjkirina pelê bikar bînin.</string>
+    <string name="error_aescrypt_decrypt_failed">Nikare şîfre bike \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Pelê nayê nivîsandin.</string>
+    <string name="saved_single_file">Pel wekî \'%s\' hat tomarkirin.</string>
+    <string name="saved_multi_files">%d pel hatin tomarkirin.</string>
+    <string name="create_hidden_file_warn">Pelê çêkirî dê di lîsteya pelan de veşêre.</string>
+    <string name="grant_apkinstall_permission">Ji bo sazkirina sepanan berdewam bike destûr lazim e.</string>
+    <string name="time_remaining">Dema mayî</string>
+    <string name="transfer_rate">Rêjeya veguheztinê</string>
+    <string name="unknown">nenas</string>
+    <string name="multiple_invalid_archive_entries">Hin pelên di arşîvê de nayên derxistin; Dibe ku arşîv xera bibe an ji çavkaniyek xerab hatibe.</string>
+    <string name="saf_otg_explanation">Niha hûn ê ji ber sedemên ewlehiyê biçin pergala pelan a Android-ê. Ji kerema xwe cîhaza USB-ê ji navnîşa li milê çepê hilbijêrin.</string>
+    <string name="donation_thanks">Spas ji bo bexşînê, ev me motîve dike! (:</string>
+    <string name="enable_marquee_filename">Ji bo navên pelan bandora marquee çalak bike</string>
+    <string name="archive_password_prompt">Ji kerema xwe şîfreya arşîvê binivîse:</string>
+    
+    <string name="cannot_extract_archive">Arşîv \"%s\" nayê derxistin: %s</string>
+    <string name="archive_unsupported_or_corrupt">Nikare arşîvê \"%s\" veke. Yan em nikarin arşîvê vekin, yan jî arşîv xera bûye.</string>
+    <string name="close">Girtî</string>
+    <string name="bookmark_exists">Pêtû nîşanek heye</string>
+    <string name="hide_media">Ji gerokên medyayê veşêre</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">DIBE KU KES TIŞTÊ NERAŞ DIKE!\n\nDibe ku kes niha guhdariya te bike (êrîşa mêr-di-navîn)! Her weha dibe ku mifteya mêvandar nû hatibe guhertin. Şopa tiliyê ji ber ku mifteya giştî ya ku ji hêla mêvandarê dûr ve hatî şandin bi ya ku di Amaze de hatî hilanîn hev nagire.\n\nHûn dikarin nûvekirina şopa tiliya mêvandar bidomînin an jî nûvekirina mîhengên girêdana SSH-ê betal bikin.</string>
+    <string name="update_host_key">Bişkojka Hostê Nûve bike</string>
+    <string name="cancel_recommended">Betal bike (Pêşniyar kirin)</string>
+    
+    
+    <string name="failed_install_apk">Sazkirin bi ser neket</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Pêvesaziya navxweyî</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Qrta SD</string>
+    <string name="choose_folder">Vê Peldankê Hilbijêre</string>
+    
+    <string name="some_files_failed_invalid_operation">Hin pel ji ber nederbasdar bûn operasyon</string>
+    <string name="ftp_server_prompt_connect_to_network">Girêdan bi torekê ve an jî AP çalak bike</string>
+    <string name="ftp_server_open_settings">Mîhengan veke</string>
+    <string name="move">Gove</string>
+    <string name="select_save_location">Cihê tomarkirinê hilbijêre</string>
+    <string name="scp_default_path">Rêya xwerû (vebijarkî)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Bibore, diviyabû wisa nebûya.</string>
+    
+    <string name="error_report_button_text">Vê xeletiyê bi e-nameyê ragihînin</string>
+    <string name="error_report_button_telegram">Vê xeletiyê bi telegramê ragihînin</string>
+    <string name="copy_for_github">Rapora formatkirî kopî bikin</string>
+    <string name="error_report_open_issue_button_text">Li ser GitHub rapor bikin</string>
+    <string name="error_report_open_github_notice">Ji kerema xwe venêrin ka pirsgirêkek ku qala têkçûna we dike jixwe heye yan na.</string>
+    <string name="error_snackbar_message">Bibore, tiştek xelet derket.</string>
+    <string name="error_snackbar_action">Rapor</string>
+    <string name="what_device_headline">Agahî:</string>
+    <string name="what_happened_headline">Çi bû:</string>
+    <string name="info_labels">Çi:\\nDaxwaz:\\nDema GMT:\\nPakêt:\\nVersiyon:\\nGuhertoya OS:\\nCîhaz:\\nModel:\\nBerhem :</string>
+    <string name="your_comment">Şîroveya te (bi Îngilîzî):</string>
+    <string name="error_details_headline">Hûragahiyan:</string>
+    <string name="app_ui_crash">App/UI têk çû</string>
+    <string name="error_report_title">Rapora çewtiyê</string>
+    <string name="crash_report_copied">Rapora qezayê hat kopîkirin clipboard</string>
+    <string name="disableIpcSignature">Kontrola îmzakirina IPC-ê neçalak bike (Ji bo pêşkêşkerên SMBv1 yên kevn - NE EWLE!)</string>
+    <string name="cannot_delete_file">Pel nayê jêbirin</string>
+    <string name="cannot_delete_file_with_reason">Pel nayê jêbirin - %s</string>
+    <string name="cannot_rename_file">Nabe navê pelê were jêbirin %s - %s</string>
+    <string name="cannot_read_directory">Nikare pelrêça %s bixwîne - %s</string>
+    <string name="just_once">Tenê carekê</string>
+    <string name="always">Her tim</string>
+    <string name="choose_different_app">Serlêdana cuda hilbijêre</string>
+    <string name="clear_open_file">Paqij bike cache</string>
+    <string name="clear_open_file_summary">Sepanên vekirina pelên xwerû yên hilbijartî paqij dike</string>
+    <string name="ftp_readonly">Gihiştina tenê-xwendin</string>
+    <string name="legacy_listing_title">Lîsteya mîrîtîyê ji bo root bikar bîne</string>
+    <string name="legacy_listing_summary">Heke çalak be, ji bo lîsteya pelan rêbaza mîras bikar tîne</string>
+    <string name="error_unsupported_v5_rar">Arşîva RAR \"%s\" Arşîva RAR v5 nayê destekkirin.</string>
+    <string name="ftp_prompt_restart_server">Ji bo ku guherandin pêk werin divê hûn servera FTP ji nû ve bidin destpêkirin.</string>
+    <string name="error_permission_denied">Destûr hat red kirin</string>
+    <string name="error_archive_password_incorrect">Şîfreya arşîvê çewt e.</string>
+    <string name="error_archive_cannot_extract">Nikare têketina arşîvê \"%s\" ji \"%s\" derxe.</string>
+    <string name="drag_and_drop_preference">Tercîha kaşkirin û avêtinê hilbijêre (Ezmûnî)</string>
+    <string name="drag_to_move_copy">Ji bo veguheztin an kopîkirina dosyayan dest bixin û kaş bikin</string>
+    <string name="drag_to_select">Ji bo bijartina pelan pê bixin û kaş bikin</string>
+    <string name="disable">Neçalak bike</string>
+    <string name="choose_operation">Operasyona ku pêk were hilbijêrin</string>
+    <string name="remember">Cara din ji bîr bike</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Ji bo pêşkêşkara FTP-ê gihandina SAF-ê bide</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Ji ber ku ev yekem xebitandina weya pêşkêşkara FTP-ê ye, û hûn hilanîna hundurê cîhazê wekî peldanka hevpar bikar tînin, ji kerema xwe rê bidin Amaze ku bi karanîna hilanînê bigihîje hilanînê. SAF.\n\n
+
+Pêdivî ye ku hûn tenê carekê vê yekê bikin, heya carek din ku hûn cîhek nû ji bo parvekirinê hilbijêrin.</string>
+    <string name="android_data_prompt_saf_access">Ji Android 10-an vir ve, Android li ser hin pelrêçan qedexe danîne, û pêdivî ye ku ew bigihîjin Çarçoveya Gihîştina Storage.\n \nJi kerema xwe rê bidin ku Amaze bi tikandina \"Destûrê bide Gihîştinê\" ji rêveberê pelê yê pergalê xwe bigihîne pelrêçayê."</string>
+    <string name="android_data_prompt_saf_access_title">Getina SAF bide</string>
+    <string name="ftp_preference_saf_filesystem_title">Pergala pelan a mîras bikar bîne</string>
+    <string name="ftp_preference_saf_filesystem">Vê yekê çalak bike ji bo piştgirîkirina bikaranîna hilanîna derve ya cîhazê li ser guhertoyên nû yên Android-ê</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Rêya hevpar a servera FTP-ê li hilanîna hundurîn hate vegerandin dema ku hûn vedigerin pêkanîna pergala pelan a mîras. Ji kerema xwe rêyek nû bi menuya li jorê rastê li gorî hewcedariyê hilbijêrin.</string>
+    <string name="ftp_server_reset_notify">Riya hevpar a pêşkêşkara FTP-ê ji bo hilanîna hundurîn hate vegerandin</string>
+    <string name="ftp_server_root_unavailable">Hûn rêyek hildibijêrin ku pêdivî bi gihandina root heye. Ji kerema xwe ger cîhaza we rûkal be di mîhengan de gerokgera root çalak bike.</string>
+    <string name="ftp_server_root_filesystem_warning">Hûn rêyek hildibijêrin ku pêdivî bi gihandina root heye, ya ku di tevahiya pergala pelan a cîhaza we de xebatên xwendin/nivîsandinê çalak dike, û ew xeternak e - dibe ku xeletiyên bêhiş amûrê xwe brûsk bikin!\n\nTu bawer î?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Çewtî vekirina URI \"%s\" ji bo xwendinê.</string>
+    <string name="error_empty_archive">\"%s\" arşîveke vala ye.</string>
+    <string name="error_bad_archive_without_info">\"%s\" arşîveke xerabûyî ye.</string>
+    <string name="error_bad_archive_with_info">\"%s\" arşîveke xerabûyî ye.\nPeyama ji derhêner: \"%s\"</string>
+    <string name="security_error">Pel nekarî bi karanîna vê sepanê were vekirin</string>
+    <string name="cloud_drive_tooltip">Pêwendiyek Google Drive™ biafirîne ji bo birêvebirina pelan ji nav Rêvebirê Pelê Amaze.</string>
+    <string name="signin_with_google_title">Rast bike ku Google Drive™ bikar bîne</string>
+    <string name="show_system_apps">Serlêdanên pergalê nîşan bide</string>
+    <string name="system_apps">Serlêdanên pergalê</string>
+    <string name="select_inverse">Berevajî Hilbijêre</string>
+    <string name="select_by_type">Li gorî cureyê Hilbijêre</string>
+    <string name="select_by_date">Li gorî tarîxê Hilbijêre</string>
+    <string name="select_similar">Hilbijartina mîna</string>
+    <string name="error_fetching_google_play_product_list">Çewtî di hilanîna lîsteya hilberan de ji Google Play.</string>
+    <string name="grant_all_files_permission">Ji Android 11-ê vir ve, Google ji Rêvebirên Pelê daxwaz dike ku ji bo birêvebirina hemî pelên li ser cîhazê destûra bikarhêner bixwaze. Details here.
+        \n\nAmaze File Manager jî vê destûrê hewce dike. Piştî pêlkirina "Grant" li vir, ji kerema xwe vebijarka Destûrê bide gihîştina birêvebirina hemî pelan li ser ekrana din hilbijêrin.
+        \n\nBetalkirina vê diyalogê dê ji sepanê derkeve.</string>
+    <string name="user_apps">Sepanên bikarhêner</string>
+    <string name="appearance">Xwedanîn</string>
+    <string name="behavior">Tevger</string>
+    <string name="appearance_summary">Mijar, reng û xuyangê birêveberê pelê xweş bikin</string>
+    <string name="ui_summary">Kîjan agahiyê nîşan bidin kontrol bikin, milê kêlekê xweş bikin, û vebijarkên UI-yê biguhezînin</string>
+    <string name="behavior_summary">Tevgerên wekî lêgerîna pêşkeftî û vekirina pelan wekî karekî nû biguherînin</string>
+    <string name="security_summary">Şîfreyê saz bikin û şîfrekirin</string>
+    <string name="backup_summary">Export/Import Mîhengên Amaze</string>
+
+    
+    <string name="pref_export_summary">Mîhengên derhanînê</string>
+    
+    <string name="pref_import_summary">Mîhengên derhanîn</string>
+
+    <string name="quick_desc">Pel vê dawîyê bi rêya Amaze hatîye gihandin</string>
+    <string name="recent_desc">Pelên ku vê dawîyê hatine çêkirin an jî hatine guherandin</string>
+    <string name="error_cannot_find_way_open">Nika vekirina dosyayê peyda bibe</string>
+    <string name="error_cant_decompress_that_file">Nikare arşîva tê xwestin pêvajoy bike</string>
+    <string name="analyse_storage">Danîngehê analîz bike</string>
+    
+    <string name="download_amaze_utils_text">Hûn ber bi Karûbarên Pelê Amaze ve têne rêve kirin. Ew sepana meya çavkanîya vekirî ye ku temaşevanên deng/vîdyo/wêne/belge bi xwe vekiriye, dihêle hûn pelên nebaş analîz bikin da ku hilanînê azad bikin, bi karanîna Wifi P2P zû veguhezînin û hêj bêtir.\nJi kerema xwe bi ceribandina wê piştgirî bidin me.</string>
+    <string name="download">Daxistin</string>
+    
+    <string name="amaze_utils_installed_alias">Spas ji bo sazkirina Karûbarên Pelê Amaze. Hûn ber bi sepanê ve têne rêve kirin.</string>
+    <string name="image_viewer">Amaze Viewer</string>
+    
+    
+    
+    
+    <string name="share_logs">Têketiyên parvekirinê</string>
+    <string name="share_logs_summary">Têketiyên hatine girtin bi rêya e-name/telegramê parve bikin</string>
+    <string name="open_with_amaze">Bi Amaze re vekin</string>
+    <string name="confirmation">Pêrastkirin</string>
+    <string name="open_file_confirmation">Ma hûn pê bawer in ku hûn dixwazin pelê jêrîn vekin?\n\nNav:\n%s\n\nCih:\n%s\n\nMezinahî:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Li gorî sîyaseta Google Play, destûr nayê dayîn ku sepan bi serê xwe xwe nûve bikin. Ji kerema xwe sepanê ji Google Play-ê nûve bike.</string>
+    <string name="error_cannot_get_package_info">Agahdariya pakêtê ji pelê \"%s\" nayê wergirtin. An pelê diyarkirî ne APK ye, an jî pelê pakêtê xera bûye.</string>
+    <string name="preference_delete_confirmation">Pêjirandina jêbirin</string>
+    <string name="preference_delete_confirmation_summary">Berî jêbirina pelan erêkirinê bipirse. Neçalakkirina vê yekê pir bêhêvî ye!</string>
+    
+    
+    <string name="protocol_ftps">FTP-ya Ewle</string>
+    <string name="unavailable">Bêberdest nîne</string>
+
+    <string name="exporting_failed">Hinardekirin bi ser neket: nekarî pelê paşvekişandinê binivîsîne</string>
+    <string name="importing_failed">Import bi ser neket: nekarî hilanînê bixwîne pel</string>
+    <string name="importing_completed">Import qediya</string>
+    <string name="invalid_backup_file">Pelê hilanînê nederbasdar</string>
+    <string name="import_failed_for">Import bi ser neket ji bo:</string>
+    <string name="free_of">"%s\n%s bê %s</string>
+    <string name="cloud_error_fdroid">Plugina Amaze Cloud bi F-yê nayê destekirin. Guhertoya Droid. Ji kerema xwe guhertoya Amaze ya Play Store-ê bikar bînin.</string>
+    <string name="disable_player_intent_filters">Fîlterên niyeta lîstikvan neçalak bike</string>
+    <string name="disable_player_intent_filters_summary">Lîstikên medyayê yên çêkirî yên Amaze ji hilbijêrê pelan neçalak bike</string>
+    <string name="no_app_found_intent">Tu sepanek ku vê mebestê bi rê ve bibe nehat dîtin. DocumentsUI te sazkirî ye?</string>
+    <string name="cloud_connection_credentials_cleared">Peymannameyên Girêdana Cloud hatin paqijkirin</string>
+    <string name="cloud_connection_credentials_cleared_msg">Mixabin, me nekarî pêbaweriyên girêdana weya ewr veguherînin şemaya databasa nû, û me neçar ma ku wan ji sepanê rakin. Ji kerema xwe biafirînin dîsa girêdana ewr.</string>
+</resources>

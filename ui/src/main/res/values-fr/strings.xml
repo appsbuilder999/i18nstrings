@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+    <string name="i18n_ui_setting">Paramètres linguistiques</string>
+
+    <string name="i18n_type_none">Appareil par défaut</string>
+    <string name="i18n_type_release">Intégré</string>
+    <string name="i18n_type_beta">Bêta</string>
+    
+    <string name="i18n_type_online_cache">Cache en ligne</string>
+    <string name="i18n_type_online">En ligne</string>
+
+    <string name="i18n_not_supported">Aucun fichier de configuration détecté. Veuillez vous assurer que le plug-in i18nStrings a été intégré à votre projet et que la tâche \"i18nStrings\" a été exécutée dans le module de l\'application.</string>
+    <string name="i18n_ui_disclaimer_title">Avis de non-responsabilité</string>
+    
+    <string name="i18n_ui_disclaimer_agree">D\'accord</string>
+    <string name="i18n_ui_disclaimer_disagree">Pas d\'accord</string>
+
+    <string name="i18n_ui_reboot_title">Le redémarrage prendra effet après le changement de langue</string>
+    <string name="i18n_ui_reboot_content">Êtes-vous sûr de changer et de redémarrer&#xa0;?</string>
+
+    <string name="i18n_ui_refresh_title">Actualiser les données de traduction</string>
+    <string name="i18n_ui_refresh_content">Êtes-vous sûr d\'actualiser les données de traduction&#xa0;?</string>
+
+    <string name="i18n_ui_realtime_translate_title">Traduction en temps réel</string>
+    <string name="i18n_ui_realtime_translate_comfirm_min">Estimation de %d&#xa0;minutes pour traduire %d&#xa0;textes. Continuer&#xa0;?</string>
+    <string name="i18n_ui_realtime_translate_comfirm_sec">Estimation de %d&#xa0;secondes pour traduire %d&#xa0;textes. Continuer&#xa0;?</string>
+    <string name="i18n_ui_realtime_translate_text">Traduction, veuillez patienter...</string>
+    <string name="i18n_ui_realtime_translate_text_with_time_sec">La traduction est estimé à %ds, s\'il vous plaît soyez patient.</string>
+    <string name="i18n_ui_realtime_translate_fails_title">Réel time translate échoue</string>
+    <string name="i18n_ui_realtime_translate_fails_content">Veuillez vérifier le journal des erreurs et assurez-vous que votre réseau peut visiter https://translate.google.com</string>
+</resources>

@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze ફાઇલ મેનેજર</string>
+    <string name="drawer_open">નેવિગેશન ડ્રોઅર ખોલો</string>
+    <string name="drawer_close">નેવિગેશન ડ્રોઅર બંધ કરો</string>
+    <string name="icon">આઇકન</string>
+    <string name="apps">એપ મેનેજર</string>
+    <string name="ftp"/>
+    <string name="setting">સેટિંગ્સ</string>
+    <string name="select">આઇટમ પસંદ કરો</string>
+    <string name="press_again">બહાર નીકળવા માટે ફરીથી દબાવો</string>
+    <string name="open">ખોલો</string>
+    <string name="backup">બેકઅપ</string>
+    <string name="uninstall">અનઇન્સ્ટોલ કરો</string>
+    <string name="play">div86&gt;Play store</string>
+    <string name="properties">પ્રોપર્ટીઝ</string>
+    <string name="copyingapks">%d APK ફાઇલોને %s પર કૉપિ કરી રહ્યાં છીએ</string>
+    <string name="delbook">બુકમાર્ક કાઢી નાખો</string>
+    <string name="add_to_bookmarks">બુકમાર્ક્સમાં ઉમેરો</string>
+    <string name="enterpath">પાથ દાખલ કરો</string>
+    <string name="cancel">રદ કરો</string>
+    
+    <string name="loading">લોડ કરી રહ્યું છે…</string>
+    <string name="file_empty">ફાઇલ ખાલી છે</string>
+    <string name="error">ભૂલ</string>
+    <string name="search_results">%s ના શોધ પરિણામો</string>
+    <string name="rename">નામ બદલો</string>
+    <string name="save">સાચવો</string>
+    <string name="bookmarks_added">બુકમાર્ક ઉમેર્યા</string>
+    <string name="fileexist">સમાન નામની ફાઇલ પહેલેથી અસ્તિત્વમાં છે</string>
+    <string name="name">નામ</string>
+    <string name="date">તારીખ</string>
+    <string name="location">સ્થાન</string>
+    
+    <string name="size">ફોલ્ડરનું કદ</string>
+    <string name="enterzipname">ઝિપ નામ દાખલ કરો</string>
+    <string name="no_app_found">આ ફાઇલ ખોલવા માટે કોઈ એપ મળી નથી</string>
+    <string name="copying">કૉપિ કરી રહ્યું છે</string>
+    <string name="moving">ખસેડો</string>
+    <string name="file">ફાઇલ</string>
+    <string name="folder">ફોલ્ડર</string>
+    <string name="newfolder">નવું ફોલ્ડર</string>
+    <string name="entername">નામ દાખલ કરો</string>
+    <string name="extracting">એક્સટ્રેક્ટ કરી રહ્યું છે</string>
+    <string name="stopping">S</string>
+    <string name="open_parent">પેરેન્ટ ડિરેક્ટરી ખોલો</string>
+    <string name="open_with">આની સાથે ખોલો</string>
+    <string name="share">શેર કરો</string>
+    <string name="about">વિશે</string>
+    <string name="extract">એક્સ્ટ્રેક્ટ</string>
+    <string name="compress">કોમ્પ્રેસ</string>
+    <string name="yes">હા</string>
+    <string name="no">ના</string>
+    
+    <string name="dialog_delete_category_directories">નિર્દેશિકાઓ</string>
+    <string name="dialog_delete_category_files">ફાઇલો</string>
+    <string name="dialog_delete_disclaimer">નીચેની આઇટમ્સ કાઢી નાખવાથી તે તમારા ઉપકરણમાંથી કાયમ માટે દૂર થઈ જશે અને તે પુનઃપ્રાપ્ત કરી શકાશે નહીં.</string>
+    <string name="dialog_delete_title">આઇટમ્સ કાયમી રૂપે કાઢી નાખો?</string>
+    <string name="deleting">ડિલીટ કરી રહ્યા છીએ</string>
+    <string name="question_set_path_as_home">શું તમે આ ટેબ માટે વર્તમાન પાથને હોમ તરીકે સેટ કરવા માંગો છો?</string>
+    <string name="directorysort">ડિરેક્ટરી સૉર્ટ મોડ</string>
+    <string name="sort_by">આના દ્વારા સૉર્ટ કરો</string>
+    <string name="sort_only_this">માત્ર આ ફોલ્ડર</string>
+    <string name="theme">થીમ</string>
+    <string name="random">રેન્ડમ સ્કીન</string>
+    <string name="random_summary">સ્ટાર્ટઅપ પર રેન્ડમ પ્રાથમિક રંગ સેટ કરે છે</string>
+    <string name="colorize">કલરાઇઝ આઇકોન્સ</string>
+    <string name="colorize_summary">સેટ્સ સ્થિર ચિહ્નનો રંગ. ડિરેક્ટરી આયકન રંગ પસંદગીને ઓવરરાઇડ કરતું નથી.</string>
+    
+    <string name="paste">પેસ્ટ કરો</string>
+    <string name="history">ઇતિહાસ</string>
+    <string name="copy">કૉપિ</string>
+    <string name="root_mode">રુટ એક્સપ્લોરર</string>
+    <string name="root_mode_summary">ફક્ત રૂટ કરેલ ઉપકરણ માટે. જો તમને તેના વિશે ખાતરી હોય તો જ તેને તપાસો.</string>
+    <string name="root_failure">રુટ એક્સેસ મંજૂર નથી</string>
+    <string name="select_all">બધાને પસંદ કરો</string>
+    <string name="delete">કાઢી નાખો</string>
+    <string name="set_as_home">Home તરીકે સેટ કરો</string>
+    <string name="operation_not_supported">ઑપરેશન સપોર્ટેડ નથી</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">મટિરિયલ લાઇટ</string>
+    <string name="dark">મટિરિયલ ડાર્ક</string>
+    <string name="daytime">દિવસનો સમય</string>
+    <string name="black">બ્લેક (OLED માટે)</string>
+    <string name="system">સિસ્ટમ (સિસ્ટમ થીમને અનુસરો)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">ટોચ પર ફોલ્ડર્સ</string>
+    <string name="filesOnTop">ફાઈલો ટોચ પર</string>
+    <string name="none_on_top">ટોપ પર કોઈ નહીં</string>
+    <!--SortBy-->
+    <string name="sort_name">નામ</string>
+    <string name="lastModified">છેલ્લે સંશોધિત</string>
+    <string name="sort_size">કદ</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">ફાઇલ પસંદ કરો</string>
+    <string name="process_viewer">પ્રોસેસ વ્યૂઅર</string>
+    <string name="in_safe">અપૂરતી જગ્યા</string>
+    <string name="no_file_overwrite">કોઈ ફાઇલ ઓવરરાઇટ નથી</string>
+    <string name="skip">છોડો</string>
+    <string name="overwrite">ઓવરરાઇટ કરો</string>
+    <string name="not_allowed">div86&gt;મંજૂરી નથી</string>
+    <string name="searching">શોધવું %s</string>
+    <string name="done">થઈ ગયું</string>
+    <string name="set">સેટ</string>
+    <string name="enablerootmde">રુટ મોડને સક્ષમ કરો</string>
+    <string name="goback">પાછા જાઓ</string>
+    <string name="newfile">નવી ફાઇલ</string>
+    <string name="no_files">કોઈ ફાઇલ નથી</string>
+    <string name="used">વપરાતી જગ્યા</string>
+    <string name="used_by_others">અન્ય દ્વારા ઉપયોગમાં લેવાયેલ</string>
+    <string name="free">ખાલી જગ્યા</string>
+    <string name="listview">સૂચિ વ્યૂ</string>
+    <string name="gridview">ગ્રીડ જુઓ</string>
+    <string name="permission">પરવાનગીઓ</string>
+    <string name="hide">છુપાવો</string>
+    <string name="exit">બહાર નીકળો</string>
+    <string name="doforall">બધી વસ્તુઓ માટે કરો</string>
+    <string name="gridcolumnno">ગ્રિડ વ્યુમાં કૉલમની સંખ્યા</string>
+    <string name="set_random">તમે એપ પુનઃપ્રારંભ કરો પછી ફેરફારો થશે</string>
+    <string name="authors">લેખકો</string>
+    <string name="changelog">ચેન્જલોગ</string>
+    
+    <string name="ui">ઇન્ટરફેસ</string>
+    <string name="general">સામાન્ય</string>
+    <string name="thumb_summary">એપ્લિકેશન્સ અને છબીઓના થંબનેલ્સ બતાવો</string>
+    <string name="thumb">થંબનેલ્સ બતાવો</string>
+    <string name="hidden">છુપાયેલી ફાઇલો અને ફોલ્ડર્સ બતાવો</string>
+    <string name="lastModifiedSummary">છેલ્લા ફેરફારની તારીખ અને સમય બતાવો</string>
+    <string name="lastModifiedPref">છેલ્લી સંશોધિત તારીખ અને બતાવો સમય</string>
+    <string name="size_pref_summary">ફોલ્ડર્સમાં ફાઇલોનું કદ અને આઇટમ્સની સંખ્યા બતાવો</string>
+    <string name="size_pref">માપ બતાવો</string>
+    <string name="miscellaneous">વિવિધ</string>
+    <string name="root_pref_summary">ફાઇલો અને ફોલ્ડર્સની પરવાનગીઓ બતાવો</string>
+    <string name="root_pref">પરવાનગીઓ બતાવો</string>
+    <string name="about_amaze_file_manager_label">Amaze ફાઇલ મેનેજર વિશે</string>
+    <string name="version">સંસ્કરણ</string>
+    <string name="rate">એપને રેટ કરો</string>
+    <string name="feedback">પ્રતિસાદ મોકલો</string>
+    <string name="hiddenfiles">છુપાયેલી ફાઇલો</string>
+    <string name="type">ટાઈપ કરો</string>
+    <string name="root_directory">Rot</string>
+    <string name="add_shortcut">શોર્ટકટ ઉમેરો</string>
+    <string name="unsaved_changes">વણસાચવેલા ફેરફારો</string>
+    <string name="unsaved_changes_description">તમારી પાસે વણસાચવેલા ફેરફારો છે, શું તમે બહાર નીકળતા પહેલા તેમને સાચવવા માંગો છો?</string>
+    <string name="saving">સાચવી રહ્યું છે</string>
+    <string name="package_installer">પેકેજ ઇન્સ્ટોલર</string>
+    <string name="view">જુઓ</string>
+    <string name="install">ઇન્સ્ટોલ કરો</string>
+    <string name="archive">આર્કાઇવ</string>
+    <string name="archive_text">આ એક આર્કાઇવ છે. તમે કઈ ક્રિયા કરવા માંગો છો?</string>
+    <string name="package_installer_text">આ એક પેકેજ ઇન્સ્ટોલર છે. તમે કઈ ક્રિયા કરવા માંગો છો?</string>
+    <string name="xda_title">XDA થ્રેડ</string>
+    <string name="xda_summary">પ્રશ્ન અને જવાબ, મદદ અને મુશ્કેલીનિવારણ</string>
+    <string name="circular_images">છબીઓ અને વિડિઓઝ માટે ગોળ ચિહ્નોનો ઉપયોગ કરો</string>
+    <string name="circular_icons">ગોળાકાર ચિહ્નોનો ઉપયોગ કરો</string>
+    <string name="back_title">બેક નેવિગેશન</string>
+    <string name="back_summary">સૂચિની ટોચ પર કસ્ટમ બેક નેવિગેશન સક્ષમ કરે છે</string>
+    <string name="details">વિગતો</string>
+    <string name="translators">અનુવાદકો</string>
+    <string name="german_translation_title">જર્મન</string>
+    <string name="italian_translation_title">I</string>
+    <string name="french_translation_title">ફ્રેન્ચ</string>
+    <string name="russian_translation_title">રશિયન</string>
+    <string name="spanish_translation_title">સ્પેનિશ</string>
+    <string name="basque_translation_title">બાસ્ક</string>
+    <string name="chinese_translation_title">ચીની</string>
+    <string name="serbian_translation_title">સર્બિયન</string>
+    <string name="turkish_translation_title">તુર્કી</string>
+    <string name="ukrainian_translation_title">યુક્રેનિયન</string>
+    <string name="portuguese_translation_title">Por </string>
+    <string name="polish_translation_title">પોલિશ</string>
+    <string name="korean_translation_title">કોરિયન</string>
+    <string name="greek_translation_title">ગ્રીક</string>
+    <string name="dutch_translation_title">ડચ</string>
+    <string name="romanian_translation_title">રોમાનિયન</string>
+    <string name="vietnamese_translation_title">વિયેતનામીસ</string>
+    <string name="japanese_translation_title">જાપાની</string>
+    <string name="tamil_translation_title">Tam </string>
+
+    <string name="zip_viewer">ઝિપ વ્યૂઅર</string>
+    <string name="unin_system_apk">આ એક સિસ્ટમ એપ્લિકેશન છે, તેને કાઢી નાખવાથી સિસ્ટમ અસ્થિરતા તરફ દોરી શકે છે.\nઆગળ વધવું?</string>
+    <string name="warning">ચેતવણી</string>
+    <string name="donate">દાન</string>
+    <string name="archive_extract_folder">div86&gt;આર્કાઇવ એક્સટ્રેક્ટ ફોલ્ડર</string>
+    <string name="archive_summary">આર્કાઇવ ફાઇલો આ ફોલ્ડરમાં કાઢવામાં આવશે. ડિફૉલ્ટ મૂલ્ય એ ડિરેક્ટરી છે જેમાં આર્કાઇવ હાજર છે.</string>
+    <string name="open_as">તરીકે ખોલો</string>
+    <string name="text">ટેક્સ્ટ</string>
+    <string name="audio">ઑડિયો</string>
+    <string name="video">વિડિયો</string>
+    <string name="other">અન્ય</string>
+    <string name="image">છબી</string>
+    <string name="contributors">કોન્ટ્રીબ્યુટર્સ</string>
+    <string name="save_paths">પાથ યાદ રાખો</string>
+    <string name="save_path_summary">શરૂઆત કરતી વખતે, સૌથી તાજેતરમાં જોવાયેલ દરેક ટેબ માટે ફોલ્ડર પ્રદર્શિત થશે</string>
+    <string name="select_intent">પસંદ કરો</string>
+    <string name="database">ડેટાબેઝ</string>
+    <string name="colored_navigation">રંગીન નેવિગેશન બાર</string>
+    <string name="colored_navigvation_sum">સિસ્ટમ નેવિગેશન બાર ત્વચા સાથે રંગીન છે કે નહીં</string>
+
+    <string name="color_title">રંગ</string>
+    <string name="color_summary">વિવિધ UI ઘટકો પર રંગ સેટ કરો</string>
+    <string name="primary_color_title">પ્રાથમિક રંગ (ડાબી ટેબ)</string>
+    <string name="primary_color_summary">ડાબી ટેબ માટે મોટા UI ઘટકો પર રંગ સેટ કરો</string>
+    <string name="accent_color_title">એક્સેન્ટ કલર</string>
+    <string name="accent_color_summary">રંગને FAB અને અન્ય નાના UI તત્વો પર સેટ કરો</string>
+    <string name="icon_color_title">આઇકનનો રંગ</string>
+    <string name="icon_color_summary">આઇકન્સ પર રંગ સેટ કરો</string>
+    <string name="choose_color">રંગ પસંદ કરો</string>
+    <string name="files">ફાઇલો</string>
+    <string name="textreader">ટેક્સ્ટ રીડર</string>
+    <string name="databasereader">ડેટાબેઝ રીડર</string>
+    <string name="show_dividers">વિભાજકો બતાવો</string>
+    <string name="needs_access">રાઇટ એક્સેસ જરૂરી છે</string>
+    <string name="needs_access_summary">કૃપા કરીને \t</string>
+    <string name="needs_access_summary1">\t ઓપરેટ કરવા માટે રાઇટ એક્સેસ આપવા માટે</string>
+    <string name="smb_connection">SMB ની રૂટ ડિરેક્ટરી પસંદ કરો કનેક્શન</string>
+    <string name="smb_server">સર્વર IP સરનામું</string>
+    <string name="server_address">સર્વર IP સરનામું</string>
+    <string name="username">વપરાશકર્તા નામ</string>
+    <string name="password">પાસવર્ડ</string>
+    <string name="anonymous">અનામી</string>
+    <string name="bluetooth">બ્લુટુથ</string>
+    <string name="folders">ફોલ્ડર્સ</string>
+    <string name="folderfilecount">%1$d ફોલ્ડર્સ અને %2$d ફાઇલો</string>
+    <string name="videos">વિડિઓ</string>
+    
+    <string name="documents">દસ્તાવેજો</string>
+    <string name="images">છબીઓ</string>
+    <string name="clear">સાફ કરો</string>
+    
+    <string name="total">કુલ:</string>
+    <string name="calculating">ગણતરી</string>
+    <string name="sort">સૉર્ટ</string>
+    <string name="ascending">ચડતા</string>
+    <string name="descending">Des </string>
+    
+    <string name="doit">તે કરો</string>
+    <string name="want_help">સહાયની જરૂર છે?</string>
+    <string name="quick">ઝડપી ઍક્સેસ</string>
+    <string name="recent">તાજેતરની ફાઇલો</string>
+    <string name="edit">સંપાદિત કરો</string>
+    <string name="find">પેજમાં શોધો</string>
+    <string name="grant">ગ્રાન્ટ</string>
+    <string name="grantper">પરવાનગી આપો</string>
+    <string name="grantfailed">પરવાનગી આપવામાં આવી નથી</string>
+    <string name="grant_storage_permission">એપને ચાલુ રાખવા માટે સ્ટોરેજ પરવાનગીની જરૂર છે. આ સંવાદ રદ કરવાથી એપ બહાર નીકળી જશે.</string>
+    <string name="operation_unsuccesful">ઓપરેશન અસફળ</string>
+    <string name="creatingfile">ફાઇલ બનાવી રહ્યું છે</string>
+    <string name="creatingfolder">ફોલ્ડર બનાવી રહ્યું છે</string>
+    <string name="renaming">નામ બદલવું</string>
+    <string name="cant_be_empty">%s ખાલી કરી શકાશે નહીં</string>
+    <string name="ip">સરનામું</string>
+    <string name="connection_name">કનેક્શન નામ</string>
+    <string name="no_device_found">કોઈ ઉપકરણો મળ્યાં નથી</string>
+    <string name="path">પાથ</string>
+    <string name="rename_bookmark">બુકમાર્કમાં ફેરફાર કરો</string>
+    <string name="cut">કટ</string>
+    <string name="search">શોધો</string>
+    <string name="invalid_name">અમાન્ય નામ</string>
+    <string name="search_hint">શોધવા માટે ટાઇપ કરો…</string>
+    <string name="advanced_search">એડવાન્સ્ડ સર્ચ</string>
+    <string name="regular_expression">રેગ્યુલર એક્સપ્રેશન</string>
+    <string name="regular_expression_summary">BASH સ્ટાઇલ રેગ્યુલર એક્સપ્રેશનનો ઉપયોગ કરીને શોધો</string>
+    <string name="match_content">સામગ્રી મેળવો</string>
+    <string name="match_content_summary">જો સેટ કરેલ હોય, તો રેગ્યુલર એક્સપ્રેશન આખા ફાઇલ નામ સાથે મેળ ખાશે,
+        અન્યથા ઘટનાની શોધ કરશે.</string>
+    <string name="start_ftp">પ્રારંભ</string>
+    <string name="stop_ftp">રોકો</string>
+    <string name="ftp_status_running">દોડવું</string>
+    <string name="ftp_status_not_running">દોડવું નથી</string>
+    <string name="ftp_no_wifi">ખાતરી કરો કે તમે Wi-Fi થી કનેક્ટેડ છો</string>
+    <string name="domain">ડોમેન</string>
+    <string name="smb_share">શેર પાથ</string>
+    <string name="invalid">અમાન્ય %s</string>
+    <string name="ftp_notif_starting">FTP સર્વર છે શરૂ કરી રહ્યું છે</string>
+    <string name="ftp_notif_starting_title">FTP સર્વર</string>
+    <string name="ftp_notif_title">Amaze FTP સર્વર ચાલી રહ્યું છે</string>
+    <string name="ftp_notif_text">%s પર</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP પોર્ટ</string>
+    <string name="ftp_port_change_success">FTP પોર્ટ સફળતાપૂર્વક બદલાયું</string>
+    <string name="ftp_port_change_error_invalid">અમાન્ય પોર્ટ નંબર પસંદ કર્યો</string>
+    <string name="primary_two_title">પ્રાથમિક રંગ (જમણી ટેબ)</string>
+    <string name="primary_two_summary">જમણી ટેબ માટે મોટા UI ઘટકો પર રંગ સેટ કરો</string>
+    <string name="support_development">સપોર્ટ ડેવલપમેન્ટ</string>
+    <string name="report_bugs_title">બગ્સની જાણ કરો</string>
+    <string name="source_title">સ્રોત કોડ</string>
+    <string name="source_summary">GitHub પર અમારો સ્રોત કોડ જુઓ</string>
+    <string name="report_bugs_summary">બગ્સની જાણ કરો અથવા નવી સુવિધાની વિનંતી કરો</string>
+    <string name="translate_title">અનુવાદ કરો</string>
+    <string name="translate_summary">અનુવાદ તમારી ભાષામાં આશ્ચર્યચકિત કરો</string>
+    <string name="paypal_copy_message">PayPal ID ક્લિપબોર્ડ પર કૉપિ કરવામાં આવ્યું</string>
+    <string name="searching_devices">ઉપકરણો શોધી રહ્યાં છે</string>
+    <string name="use_custom_ip">કસ્ટમ આઇપીનો ઉપયોગ કરો</string>
+    <string name="bookmark_lost">બુકમાર્ક મળ્યો નથી, ફરીથી બનાવી રહ્યાં છીએ…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Android (SMB) પર શેર કરેલ Windows ફોલ્ડરને કેવી રીતે ઍક્સેસ કરવું\n\n
+                
+                    
+                        Windows પર ફાઇલ શેરિંગ સક્ષમ કરો\n
+                    
+                    
+                        કંટ્રોલ પેનલ ખોલો, નેટવર્ક હેઠળ હોમગ્રુપ અને શેરિંગ વિકલ્પો પસંદ કરો પર ક્લિક કરો
+                        અને ઈન્ટરનેટ, અને "અદ્યતન શેરિંગ સેટિંગ્સ બદલો" પર ક્લિક કરો, "ફાઇલ અને
+                        પ્રિન્ટર શેરિંગ" સુવિધા.\n\n
+                    
+
+                    
+                        વધારાની ફાઇલ શેરિંગ સેટિંગ્સ\n
+                    
+                    
+                        તમે અહીં અન્ય અદ્યતન શેરિંગ સેટિંગ્સને પણ ગોઠવી શકો છો. \n
+                        ઉદાહરણ તરીકે, જો તમે બધા પર વિશ્વાસ કરો છો તો તમે પાસવર્ડ વિના તમારી ફાઇલોની ઍક્સેસ સક્ષમ કરી શકો છો
+                        તમારા સ્થાનિક નેટવર્ક પરના ઉપકરણો. એકવાર ફાઇલ અને પ્રિન્ટર શેરિંગ સક્ષમ થઈ જાય, તમે કરી શકો છો
+                        ફાઇલ એક્સ્પ્લોરર અથવા વિન્ડોઝ એક્સપ્લોરર ખોલો, તમે શેર કરવા માંગો છો તે ફોલ્ડર પર જમણું-ક્લિક કરો અને
+                        ગુણધર્મો પસંદ કરો. \n
+                        શેર બટન પર ક્લિક કરો અને ફોલ્ડરને નેટવર્ક પર ઉપલબ્ધ કરાવો.\n\n
+                        
+
+                    
+                        ખાતરી કરો કે બંને ઉપકરણો સમાન Wifi પર છે\n
+                    
+                    
+                        આ સુવિધા સ્થાનિક નેટવર્ક પર ફાઇલો ઉપલબ્ધ કરાવે છે, જેથી તમારા PC અને મોબાઇલ ઉપકરણો
+                        સમાન સ્થાનિક નેટવર્ક પર હોવું જોઈએ. તમે શેર કરેલ Windows ફોલ્ડરને ઍક્સેસ કરી શકતા નથી
+                        ઈન્ટરનેટ પર અથવા જ્યારે તમારો સ્માર્ટફોન તેના મોબાઈલ ડેટા સાથે જોડાયેલ હોય — તે
+                        Wi-Fi થી કનેક્ટ હોવું જરૂરી છે.\n\n
+                    
+
+                    
+                        IP સરનામું શોધો\n
+                    
+                    
+                        કમાન્ડ પ્રોમ્પ્ટ ખોલો. \'ipconfig\' ટાઈપ કરો અને Enter દબાવો. ડિફૉલ્ટ ગેટવે માટે જુઓ
+                        તમારા રાઉટરના IP સરનામા માટે તમારા નેટવર્ક એડેપ્ટર હેઠળ. માટે જુઓ
+                        તમારા કમ્પ્યુટરનો IP શોધવા માટે સમાન એડેપ્ટર વિભાગ હેઠળ \\\"IPv4 સરનામું\\\"
+                        સરનામું.\n\n
+                    
+
+                    SMB ડાયલોગ બોક્સમાં વિગતો દાખલ કરો\n
+                
+            
+        
+   </string>
+    <string name="share_limit">100 થી વધુ ફાઇલો શેર કરી શકાતી નથી</string>
+    <string name="otg_access">OTG ઉપકરણનું રૂટ પસંદ કરો</string>
+    <string name="information">માહિતી</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">એક્સેસ કરેલ</string>
+    <!-- reference to file modified date -->
+    <string name="modified">સંશોધિત</string>
+
+    <string name="title">શીર્ષક</string>
+    <string name="artist">કલાકાર</string>
+    <string name="album">આલ્બમ</string>
+    <string name="year">વર્ષ</string>
+    <string name="duration">સમયગાળો</string>
+    <string name="comment">ટિપ્પણી</string>
+    <!-- reference to audio/video file -->
+    <string name="container">કન્ટેનર</string>
+    
+    <string name="channels">Chann div18</string>
+    <string name="sample_rate">નમૂનો દર</string>
+    <string name="bitrate">બિટરેટ</string>
+    <string name="dimensions">પરિમાણો</string>
+    <string name="frame_rate">ફ્રેમ રેટ</string>
+    <string name="image_type">છબીનો પ્રકાર</string>
+    <string name="width">પહોળાઈ</string>
+    <string name="height">ઊંચાઈ</string>
+    <string name="date_modified">સંશોધિત તારીખ</string>
+    <string name="software">સોફ્ટવેર</string>
+    <string name="creator">સર્જક</string>
+    <string name="camera_brand">કેમેરા બ્રાન્ડ</string>
+    <string name="camera_model">કેમેરા મોડલ</string>
+    <string name="date_taken">લેવાની તારીખ</string>
+    <string name="exposure_time">એક્સપોઝર ટાઈમ</string>
+    <string name="aperture_value">એપરચર વેલ્યુ</string>
+    <string name="image_iso">ISO સ્પીડ રેટિંગ</string>
+    
+    <string name="focal_length">ફોકલ લેન્થ</string>
+    <string name="subject">વિષય</string>
+    <string name="author">લેખક</string>
+    <string name="keywords">કીવર્ડ્સ</string>
+    <string name="producer">નિર્માતા</string>
+    <string name="created">બનાવ્યું</string>
+    <string name="format">ફોર્મેટ</string>
+    <string name="pages">પૃષ્ઠોની સંખ્યા</string>
+    <!-- reference to a document file -->
+    <string name="optimized">ઓપ્ટિમાઇઝ</string>
+    <string name="security">સુરક્ષા</string>
+    <string name="paper_size">પેપર સાઈઝ</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">કેટલીક ફાઈલો સફળતાપૂર્વક %s</string>
+    <string name="copied">કોપી કરી શકાઈ ન હતી</string>
+    <string name="moved">ખસેડી</string>
+    <string name="copy_complete">કોપી પૂર્ણ કરો</string>
+    <string name="waiting_title">પ્રતીક્ષા</string>
+    <string name="waiting_content">ઓપરેશન પૂર્ણ થવાની રાહ જુએ છે</string>
+    <string name="extract_complete">એક્સ્ટ્રેક્શન પૂર્ણ</string>
+    <string name="compression_complete">કમ્પ્રેશન પૂર્ણ</string>
+    <string name="compressing">કમ્પ્રેસીંગ</string>
+    <string name="cancelled">રદ</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">લખાયેલ</string>
+    <string name="out_of"/>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">માંથી</string>
+    <string name="processing_file">ફાઇલની પ્રક્રિયા કરી રહી છે</string>
+    <string name="current_speed">વર્તમાન ગતિ</string>
+    <string name="smb_launch_error">તમારે આ ફાઇલને ખોલવા માટે સ્ટોરેજમાં કૉપિ કરવી પડશે</string>
+    <string name="error_file_not_found">ભૂલ: ફાઇલ મળી નથી</string>
+    <string name="error_io">I/O ભૂલ</string>
+    <string name="error_file_too_large">ભૂલ: ફાઇલ ખૂબ મોટી છે</string>
+    <string name="medium_text">મધ્યમ ટેક્સ્ટ</string>
+    <string name="permission_read">વાંચો</string>
+    <string name="permission_write">લખો</string>
+    <string name="permission_execute">એક્ઝિક્યુટ</string>
+    <string name="permission_owner">માલિક</string>
+    <string name="permission_group">જૂથ</string>
+    <string name="permission_other">અન્ય</string>
+    <string name="clipboard_path_copy">પાથ ક્લિપબોર્ડ પર કૉપિ કર્યો</string>
+    <string name="service_timer">સમય વીત્યો</string>
+    <string name="please_wait">કૃપા કરીને રાહ જુઓ</string>
+
+    <string name="cloud_connection">Cloud કનેક્શન</string>
+    <string name="cloud_connection_new">નવું ક્લાઉડ કનેક્શન</string>
+    
+    
+    
+    <string name="cloud_box">OneDrive &gt;બોક્સ</string>
+    <string name="cloud_get">મેઘ પ્લગઇન મેળવો</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">કોઈ એપ્લિકેશન નથી</string>
+    <string name="ftp_path">શેર કરેલ પાથ</string>
+    <string name="ftp_path_hint">શેર કરવા માટે ડિરેક્ટરીના રૂટનો પાથ</string>
+    <string name="change">બદલો</string>
+    <string name="unknown_error">અરેરે, કંઈક ખોટું થયું!</string>
+
+    <string name="ftp_path_change_success">FTP પાથ સફળતાપૂર્વક બદલાયો</string>
+    <string name="ftp_path_change_error_invalid">અમાન્ય પાથ</string>
+    <string name="ftp_status_no_connection">કોઈ કનેક્શન નથી</string>
+    <string name="ftp_status_secure_connection">સુરક્ષિત કનેક્શન</string>
+    <string name="ftp_status_title">સ્થિતિ</string>
+    <string name="ftp_port">પોર્ટ</string>
+    <string name="ftp_login">લોગિન</string>
+    <string name="field_empty">ફિલ્ડ ખાલી હોઈ શકતું નથી</string>
+    <string name="ftp_timeout">નિષ્ક્રિય સમયસમાપ્ત</string>
+    <string name="ftp_seconds">સેકન્ડ્સ</string>
+    <string name="intellihide_toolbar_title">Intellihide ટૂલબાર</string>
+    <string name="intellihide_toolbar_summary">સ્ક્રોલ કરતી વખતે ટૂલબારને આપમેળે છુપાવો</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">ક્લિપબોર્ડ પર કૉપિ કરેલ</string>
+    <string name="contributors_1_summary">અનુવાદ</string>
+    <string name="contributors_2_summary">આઇકન અને બેનર</string>
+    <string name="contributors_3_summary">થીમ એન્જીન</string>
+    <string name="contributors_4_summary">FAB પાછળ શેડ</string>
+    <string name="contributors_5_summary">ટૅબ્સ સ્વાઇપ કરતી વખતે રંગ સંક્રમણ</string>
+    <string name="contributors_6_summary">FTP સર્વર</string>
+    <string name="contributors_7_summary">એક ઇન્ટરેક્ટિવ શેલને ફાયરિંગ કરો</string>
+    <string name="connection_exists">કનેક્શન પહેલેથી જ અસ્તિત્વમાં છે</string>
+
+    <string name="crypt_encrypting">એનક્રિપ્ટીંગ</string>
+    <string name="crypt_decrypting">ડિક્રિપ્ટીંગ</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">એનક્રિપ્ટેડ</string>
+    <string name="crypt_decrypted">ડિક્રિપ્ટેડ</string>
+    <string name="crypt_encrypt">એનક્રિપ્ટ</string>
+    <string name="crypt_decrypt">ડિક્રિપ્ટ</string>
+    <string name="operation_fail_following">નીચેની ફાઇલો માટે ઓપરેશન નિષ્ફળ થયું</string>
+    <string name="crypt_pref_master_password_title">માસ્ટર પાસવર્ડ</string>
+    <string name="crypt_pref_master_password_summary">એનક્રિપ્શન માટે માસ્ટર પાસવર્ડ સેટ કરો.
+        દૂર કરવા માટે ખાલી છોડો.</string>
+    <string name="crypt_pref_fingerprint_title">ફિંગરપ્રિન્ટ</string>
+    <string name="crypt_pref_fingerprint_summary">એન્ક્રિપ્શનને પ્રમાણિત કરવા માટે ફિંગરપ્રિન્ટનો ઉપયોગ કરો</string>
+    <string name="crypt_fingerprint_no_permission">ફિંગરપ્રિન્ટની પરવાનગીઓ ખૂટે છે</string>
+    <string name="crypt_fingerprint_not_enrolled">કોઈ ફિંગરપ્રિન્ટ નોંધાયેલ નથી</string>
+    <string name="crypt_fingerprint_no_security">કોઈ લૉકસ્ક્રીન સુરક્ષા મળી નથી</string>
+    <string name="crypt_warning_key">જ્યારે તમે તમારી સુરક્ષા પેટર્ન આમાંથી બદલો છો ત્યારે સલાહ આપશો
+        સિસ્ટમ સેટિંગ્સ, તમે આ સામગ્રીને ડિક્રિપ્ટ કરવામાં સમર્થ હશો નહીં.</string>
+    <string name="warning_never_show">ફરીથી જાણ કરશો નહીં</string>
+    <string name="warning_confirm">સમજાઈ ગઈ!</string>
+    <string name="crypt_encryption_fail">એનક્રિપ્ટ કરવામાં નિષ્ફળ</string>
+    <string name="crypt_decryption_fail">ડિક્રિપ્ટ કરવામાં નિષ્ફળ</string>
+    <string name="crypt_decryption_fail_password">ખોટો પાસવર્ડ!</string>
+    <string name="crypt_fingerprint_authenticate">ચાલુ રાખવા માટે ટચ સેન્સર</string>
+    <string name="authenticate_password">પાસવર્ડ દાખલ કરો</string>
+
+    <string name="sidebar_preferences">સાઇડબાર</string>
+    <string name="sidebar_quick_access_title">સાઇડબાર ઝડપી ઍક્સેસ</string>
+    <string name="show_quick_access_pref_title">ઝડપી ઍક્સેસ બતાવો</string>
+    <string name="show_quick_access_pref">ઝડપી ઍક્સેસ</string>
+    <string name="directory">ડિરેક્ટરી</string>
+
+    <string name="sidebar_bookmarks_title">સાઇડબાર બુકમાર્ક્સ</string>
+    <string name="show_bookmarks_pref_title">બુકમાર્ક્સ બતાવો</string>
+    <string name="show_bookmarks_pref">બુકમાર્ક્સ</string>
+    <string name="create_bookmark">બુકમાર્ક બનાવો</string>
+    <string name="edit_bookmark">બુકમાર્ક સંપાદિત કરો</string>
+    <string name="question_delete_bookmark">બુકમાર્ક કાઢી નાખો?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud પ્લગઇન મળ્યું નથી. કૃપા કરીને Play Store પરથી ડાઉનલોડ કરો.</string>
+    <string name="cloud_error_failed_restart">કનેક્શન લોડ કરવામાં નિષ્ફળ.
+        કૃપા કરીને Amaze Cloud એકવાર ખોલો.</string>
+    <string name="cloud_remove">શું તમે ક્લાઉડ કનેક્શનને દૂર કરવા માંગો છો?</string>
+    <string name="cloud_fail_authenticate">પ્રમાણીકરણ કરવામાં નિષ્ફળ થયું</string>
+    <string name="cloud_share_copied">શેર કરી શકાય તેવી લિંક ક્લિપબોર્ડ પર કૉપિ કરી</string>
+    <string name="copy_low_memory">ની બહાર ચાલી રહ્યું છે મેમરી, કૃપા કરીને થોડી RAM સાફ કરો</string>
+    <string name="cloud_token_lost">ટોકન ખોવાઈ ગયા, કૃપા કરીને ફરીથી સાઇન-ઇન કરો</string>
+    <string name="monofont">મોનોસ્પેસ ફોન્ટ</string>
+    <string name="showHeaders">હેડર બતાવો</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">કોઈ આઇટમ નથી</string>
+	<string name="item">આઇટમ</string>
+	<string name="items">આઇટમ</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">ફાઇલનું નામ હોવું જોઈએ</string>
+    <string name="add_item">આઇટમ ઉમેરો</string>
+    <string name="failed_smb_decrypt_path">SMB કનેક્શન લોડ કરવામાં નિષ્ફળ</string>
+    <string name="failed_cloud_new_connection">નવું ક્લાઉડ કનેક્શન ઉમેરવામાં નિષ્ફળ</string>
+    <string name="failed_cloud_api_key">આમાં નિષ્ફળ ક્લાઉડ પ્લગ-ઇનને પ્રમાણિત કરો</string>
+
+    <string name="local_inet_addr_error">સ્થાનિક ઇનેટ સરનામું મેળવવામાં ભૂલ</string>
+    <string name="intent_save_as">આ રીતે સાચવો...</string>
+    <string name="go">જાઓ</string>
+    <string name="advanced">એડવાન્સ્ડ</string>
+    <string name="typeable_paths_title">કસ્ટમ પાથ</string>
+    <string name="typeable_paths_summary">કસ્ટમ પાથ લખવા માટે પાથ બારને લાંબો સમય દબાવો</string>
+    <string name="send_email_to">એક ઈ-મેલ મોકલો</string>
+
+    <string name="text_editor">ટેક્સ્ટ એડિટર સેટિંગ્સ</string>
+    <string name="preference_newstack_title">ફાઈલોને નવા કાર્ય તરીકે ખોલો</string>
+    <string name="preference_newstack_summary">તમને અલગ કાર્યોમાં ફાઇલો ખોલવાની મંજૂરી આપે છે. તેમને સિસ્ટમ તાજેતરની સ્ક્રીનમાંથી ઍક્સેસ કરો.</string>
+    
+    <string name="developers">વિકાસકર્તાઓ</string>
+    <string name="no_bitcoin_app">કૃપા કરીને એક Bitcoin Wallet એપ ઇન્સ્ટોલ કરો</string>
+    
+    
+    <string name="channel_name_ftp">Amaze FTP સર્વર</string>
+    <string name="channel_description_ftp">મેનેજર FTP સર્વરની સૂચનાઓ</string>
+
+    
+    <string name="processing">પ્રક્રિયા કરી રહ્યું છે...</string>
+    <string name="failed_no_connection">ફાઈલો લોડ કરવામાં નિષ્ફળ. કૃપા કરીને તમારું કનેક્શન તપાસો.</string>
+
+    <string name="update">અપડેટ</string>
+	<string name="scp_connection">SCP/SFTP કનેક્શન</string>
+    <string name="ftp_connection">FTP કનેક્શન</string>
+    <string name="ftps_connection">SSL કનેક્શન પર FTP</string>
+    <string name="scp_port">પોર્ટ</string>
+    <string name="ssh_host_key_verification_prompt">હોસ્ટ \'%1$s\' ની અધિકૃતતા સ્થાપિત કરી શકાતી નથી.\n\n%2$s કી ફિંગરપ્રિન્ટ %3$s છે.\n\nકૃપા કરીને પુષ્ટિ કરવા માટે \"હા\" પર ટેપ કરો ઓળખ નહિંતર, કૃપા કરીને \"ના\" પર ટૅપ કરો.</string>
+    
+    <string name="ssh_select_pem_button">SSH ખાનગી કી</string>
+    <string name="ssh_pem_key_parse_error">પસંદ કરેલ PEM વાંચવામાં અસમર્થ: %s</string>
+    <string name="password_unchanged">(અપરિવર્તિત)</string>
+    <string name="ssh_authentication_failure_password">લૉગૉન નિષ્ફળતા: પૂરા પાડવામાં આવેલ વપરાશકર્તાનામ અને પાસવર્ડ સાથે પ્રમાણિત કરવામાં અસમર્થ.</string>
+    <string name="ssh_authentication_failure_key">લૉગૉન નિષ્ફળતા: સપ્લાય કરેલ વપરાશકર્તાનામ અને ખાનગી કી વડે પ્રમાણીકરણ કરવામાં અસમર્થ.</string>
+    <string name="ssh_connect_failed">%1$ સાથે કનેક્ટ કરવામાં અસમર્થ s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ચેતવણી: રિમોટ હોસ્ટની ઓળખ બદલાઈ ગઈ છે!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">એવું શક્ય છે કે કોઈક કંઈક ખરાબ કરી રહ્યું છે!\n\nકોઈ વ્યક્તિ તમને ડ્રોપ કરી શકે છે અત્યારે (મેન-ઇન-ધ-મિડલ એટેક)! તે પણ શક્ય છે કે હોસ્ટ કી હમણાં જ બદલાઈ ગઈ છે. રિમોટ હોસ્ટ દ્વારા મોકલવામાં આવેલી સાર્વજનિક કી માટેની ફિંગરપ્રિન્ટ Amaze માં સ્ટોર કરેલી સાથે મેળ ખાતી નથી.\n\nકૃપા કરીને તમારા સિસ્ટમ એડમિનિસ્ટ્રેટરનો સંપર્ક કરો અથવા સર્વર સાથે કનેક્ટ કરવાનું ચાલુ રાખવા માટે નવું કનેક્શન સેટ કરો.</string>
+    <string name="ssh_key_prompt_passphrase">કૃપા કરીને કી પાસફ્રેઝ દાખલ કરો .</string>
+    <string name="add_shortcut_not_supported_by_launcher">શોર્ટકટ્સ બનાવટ તમારા લોન્ચર દ્વારા સમર્થિત નથી.</string>
+    
+    <string name="select_color_config">કલર રૂપરેખા પસંદ કરો</string>
+    <string name="customize">કસ્ટમાઇઝ કરો</string>
+    <string name="custom">કસ્ટમ</string>
+    <string name="preselected_configs_title">પહેલાથી પસંદ કરેલ રૂપરેખાઓ</string>
+    <string name="orange">ઓરેન્જ</string>
+    <string name="blue">વાદળી</string>
+    <string name="green">લીલો</string>
+    <string name="password_no_match">પાસવર્ડ મેળ ખાતો નથી</string>
+    <string name="deselect_all">બધાને નાપસંદ</string>
+    <string name="filename">ફાઇલનામ</string>
+    <string name="compress_file_suggest_zip_extension">ફાઇલ એક્સ્ટેંશન તરીકે \".zip\" નો ઉપયોગ કરવાની ભલામણ કરવામાં આવે છે.</string>
+    <string name="about_amaze">Android માટે મટિરિયલ ડિઝાઇન ફાઇલ મેનેજર</string>
+    <string name="license">લાયસન્સ</string>
+    <string name="libraries">લાઇબ્રેરીઓ</string>
+    <string name="password_repeat">પાસવર્ડ પુનરાવર્તિત કરો</string>
+    <string name="create_file_suggest_txt_extension">તેનો ઉપયોગ કરવાની ભલામણ કરવામાં આવે છે \". txt\" ફાઇલ એક્સ્ટેંશન તરીકે.</string>
+    <string name="ssh_select_pem">પ્રમાણીકરણ માટે ખાનગી કી પસંદ કરો</string>
+    <string name="ssh_key_invalid_passphrase">અમાન્ય કી પાસફ્રેઝ.</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM ડિક્રિપ્ટ કરવા માટે કોઈ માન્ય ડીકોડર નથી.</string>
+    <string name="encryption_fail_copy">આ કરવામાં નિષ્ફળ ડેટાબેઝમાં એન્ક્રિપ્શન એન્ટ્રી અપડેટ કરો</string>
+    <string name="extracted">એક્સટ્રેક્ટેડ</string>
+    <string name="compressed">સંકુચિત</string>
+    <string name="processed">પ્રોસેસ કરેલ</string>
+    <string name="no_obtainable_info">આ ફાઇલ વિશે કોઈ માહિતી નથી</string>
+    <string name="reopen_from_source">Can\' t, કૃપા કરીને છેલ્લી એપ્લિકેશનમાંથી ફરીથી ખોલો</string>
+    <string name="no_file_error">કંઈક ખોટું થયું છે, ખોલવા માટે કંઈ નથી</string>
+    <string name="file_too_long">ફાઈલ ખૂબ લાંબી છે અને તેમાં ફેરફાર કરી શકાતો નથી, જો કે તમે પહેલા %d અક્ષરો વાંચી શકો છો</string>
+    <string name="file_read_only">ખોલેલી ફાઈલ ફક્ત વાંચવા માટે છે.</string>
+    <string name="got_it">સમજાઈ ગઈ!</string>
+    <string name="encrypt_file_save_as">એન્ક્રિપ્ટેડ ફાઇલને આ રીતે સાચવો...</string>
+    <string name="encrypt_folder_save_as">એનક્રિપ્ટેડ ફોલ્ડરને આ રીતે સાચવો...</string>
+    <string name="encrypt_option_use_aze">અમેઝ એન્ક્રિપ્શન ફોર્મેટનો ઉપયોગ કરો</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt એ AES એન્ક્રિપ્શન પર આધારિત ઓપન સોર્સ ફાઇલ એન્ક્રિપ્શન ફોર્મેટ છે. તે પોર્ટેબલ પણ છે, અન્ય પ્લેટફોર્મ પર AESCrypt પ્રોગ્રામ્સ સાથે ડિક્રિપ્ટ કરી શકાય છે.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt વેબસાઇટ</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>અમેઝનું એન્ક્રિપ્શન ફોર્મેટ પણ AES એન્ક્રિપ્શન પર આધારિત છે; પરંતુ AESCrypt ફોર્મેટથી અલગ છે, તે ફક્ત આ ઉપકરણ દ્વારા જ ડિક્રિપ્ટ કરી શકાય છે; તમારે આ ઉપકરણમાંથી Amaze ફાઇલ મેનેજરને અનઇન્સ્ટોલ ન કરવું જોઈએ અથવા તમે સ્ક્રીનને લૉક કરવાની રીતમાં ફેરફાર કરશો નહીં, અન્યથા તમારી પાસે એન્ક્રિપ્ટેડ ફાઇલ પુનઃપ્રાપ્ત કરવાનો કોઈ રસ્તો રહેશે નહીં.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">એન્ક્રિપ્ટેડ ફાઇલોએ ફાઇલ એક્સ્ટેંશન તરીકે \".aze\" નો ઉપયોગ કરવો આવશ્યક છે.</string>
+    <string name="encrypt_file_must_end_with_aes">એનક્રિપ્ટેડ ફાઇલોએ ફાઇલ એક્સ્ટેંશન તરીકે \".aes\" નો ઉપયોગ કરવો આવશ્યક છે.</string>
+    <string name="error_aescrypt_decrypt_failed">ડિક્રિપ્ટ કરી શકાતું નથી \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">ફાઈલ પર ફરીથી લખી શકાતી નથી.</string>
+    <string name="saved_single_file">ફાઈલ \'%s\' તરીકે સાચવવામાં આવી છે.</string>
+    <string name="saved_multi_files">%d ફાઇલો સાચવવામાં આવી છે.</string>
+    <string name="create_hidden_file_warn">તમે બનાવેલ ફાઇલ ફાઇલ સૂચિમાં છુપાવવામાં આવશે.</string>
+    <string name="grant_apkinstall_permission">એપને ચાલુ રાખવા માટે એપ્લિકેશનને પરવાનગીની જરૂર છે.</string>
+    <string name="time_remaining">સમય બાકી</string>
+    <string name="transfer_rate">ટ્રાન્સફર રેટ</string>
+    <string name="unknown">અજ્ઞાત</string>
+    <string name="multiple_invalid_archive_entries">આર્કાઇવમાંની કેટલીક ફાઇલો કાઢી શકાતી નથી; આર્કાઇવ ક્ષતિગ્રસ્ત થઈ શકે છે અથવા દૂષિત સ્ત્રોતમાંથી આવ્યો છે.</string>
+    <string name="saf_otg_explanation">તમે સુરક્ષા કારણોસર હવે એન્ડ્રોઇડની ફાઇલસિસ્ટમ પર જશો. કૃપા કરીને ડાબી બાજુની સૂચિમાંથી USB ઉપકરણ પસંદ કરો.</string>
+    <string name="donation_thanks">દાન બદલ આભાર, આ અમને પ્રેરિત રાખે છે! (:</string>
+    <string name="enable_marquee_filename">ફાઇલ નામો માટે માર્કી ઇફેક્ટ સક્ષમ કરો</string>
+    <string name="archive_password_prompt">કૃપા કરીને આર્કાઇવ પાસવર્ડ દાખલ કરો:</string>
+    
+    <string name="cannot_extract_archive">આર્કાઇવ \"%s\" કાઢી શકતા નથી: %s</string>
+    <string name="archive_unsupported_or_corrupt">નથી આર્કાઇવ \"%s\" ખોલો. કાં તો આપણે આર્કાઇવ ખોલી શકતા નથી, અથવા આર્કાઇવ ક્ષતિગ્રસ્ત થયું હતું.</string>
+    <string name="close">બંધ કરો</string>
+    <string name="bookmark_exists">બુકમાર્ક અસ્તિત્વમાં છે</string>
+    <string name="hide_media">મીડિયા બ્રાઉઝરથી છુપાવો</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">સંભવ છે કે કોઈક કંઈક બીભત્સ કરી રહ્યું છે!\n\nઅત્યારે કોઈ તમારા વિશે છુપાઈ રહ્યું છે (મેન-ઇન-ધ-મિડલ એટેક)! તે પણ શક્ય છે કે હોસ્ટ કી હમણાં જ બદલાઈ ગઈ હોય. ફિંગરપ્રિન્ટ રીમોટ હોસ્ટ દ્વારા મોકલવામાં આવેલ સાર્વજનિક કી માટે Amaze માં સંગ્રહિત કરેલ સાથે મેળ ખાતી નથી.\n\nતમે હોસ્ટ ફિંગરપ્રિન્ટને અપડેટ કરવા અથવા SSH કનેક્શન સેટિંગ્સને અપડેટ કરવાનું રદ કરીને આગળ વધી શકો છો.</string>
+    <string name="update_host_key">અપડેટ હોસ્ટ કી</string>
+    <string name="cancel_recommended">રદ કરો (ભલામણ કરેલ)</string>
+    
+    
+    <string name="failed_install_apk">ઇન્સ્ટોલ કરવામાં નિષ્ફળ</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">ઇન્ટરનલ સ્ટોરેજ</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD કાર્ડ</string>
+    <string name="choose_folder">આ ફોલ્ડર પસંદ કરો</string>
+    
+    <string name="some_files_failed_invalid_operation">કેટલીક ફાઇલો અમાન્ય હોવાને કારણે નિષ્ફળ થઇ ઑપરેશન</string>
+    <string name="ftp_server_prompt_connect_to_network">નેટવર્ક સાથે કનેક્ટ કરો અથવા AP સક્ષમ કરો</string>
+    <string name="ftp_server_open_settings">સેટિંગ ખોલો</string>
+    <string name="move">ખસેડો</string>
+    <string name="select_save_location">સેવ કરવા માટે સ્થાન પસંદ કરો</string>
+    <string name="scp_default_path">ડિફોલ્ટ પાથ (વૈકલ્પિક)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">માફ કરશો, આવું ન થવું જોઈતું હતું.</string>
+    
+    <string name="error_report_button_text">ઈ-મેલ દ્વારા આ ભૂલની જાણ કરો</string>
+    <string name="error_report_button_telegram">ટેલિગ્રામ દ્વારા આ ભૂલની જાણ કરો</string>
+    <string name="copy_for_github">ફોર્મેટ કરેલ અહેવાલની નકલ કરો</string>
+    <string name="error_report_open_issue_button_text">GitHub પર જાણ કરો</string>
+    <string name="error_report_open_github_notice">કૃપા કરીને તમારા ક્રેશની ચર્ચા કરતી સમસ્યા પહેલેથી અસ્તિત્વમાં છે કે કેમ તે તપાસો.</string>
+    <string name="error_snackbar_message">માફ કરશો, કંઈક ખોટું થયું છે.</string>
+    <string name="error_snackbar_action">રિપોર્ટ</string>
+    <string name="what_device_headline">માહિતી:</string>
+    <string name="what_happened_headline">શું થયું:</string>
+    <string name="info_labels">શું:\\nવિનંતી:\\nGMT સમય:\\nપેકેજ:\\nસંસ્કરણ:\\nOS સંસ્કરણ:\\nઉપકરણ:\\nમોડલ:\\nઉત્પાદન :</string>
+    <string name="your_comment">તમારી ટિપ્પણી (અંગ્રેજીમાં):</string>
+    <string name="error_details_headline">વિગતો:</string>
+    <string name="app_ui_crash">એપ્લિકેશન/UI ક્રેશ થયું</string>
+    <string name="error_report_title">ભૂલ રિપોર્ટ</string>
+    <string name="crash_report_copied">ક્રેશ રિપોર્ટ કોપી કરવામાં આવ્યો ક્લિપબોર્ડ</string>
+    <string name="disableIpcSignature">IPC સાઇનિંગ ચેકને અક્ષમ કરો (લેગસી SMBv1 સર્વર્સ માટે - અસુરક્ષિત!)</string>
+    <string name="cannot_delete_file">ફાઇલ કાઢી શકાતી નથી</string>
+    <string name="cannot_delete_file_with_reason">ફાઇલ કાઢી શકાતી નથી - %s</string>
+    <string name="cannot_rename_file">ફાઇલનું નામ બદલી શકાતું નથી %s - %s</string>
+    <string name="cannot_read_directory">ડિરેક્ટરી વાંચી શકાતી નથી %s - %s</string>
+    <string name="just_once">ફક્ત એકવાર</string>
+    <string name="always">હંમેશા</string>
+    <string name="choose_different_app">જુદી એપ્લિકેશન પસંદ કરો</string>
+    <string name="clear_open_file">સાફ કરો cache</string>
+    <string name="clear_open_file_summary">પસંદ કરેલ ડિફૉલ્ટ ફાઇલ ઓપનિંગ એપ્સને સાફ કરે છે</string>
+    <string name="ftp_readonly">ઓન્લી-રીડ એક્સેસ</string>
+    <string name="legacy_listing_title">રુટ માટે લેગસી લિસ્ટિંગનો ઉપયોગ કરો</string>
+    <string name="legacy_listing_summary">જો સક્ષમ હોય, તો ફાઇલોને સૂચિબદ્ધ કરવા માટે લેગસી પદ્ધતિનો ઉપયોગ કરો</string>
+    <string name="error_unsupported_v5_rar">RAR આર્કાઇવ \"%s\" અસમર્થિત RAR v5 આર્કાઇવ છે.</string>
+    <string name="ftp_prompt_restart_server">તમારે ફેરફારોને અસરમાં લાવવા માટે FTP સર્વરને પુનઃપ્રારંભ કરવાની જરૂર પડશે.</string>
+    <string name="error_permission_denied">પરવાનગી નકારી</string>
+    <string name="error_archive_password_incorrect">ખોટો આર્કાઇવ પાસવર્ડ.</string>
+    <string name="error_archive_cannot_extract">આર્કાઇવ એન્ટ્રી \"%s\" ને \"%s\" માં કાઢી શકાતી નથી.</string>
+    <string name="drag_and_drop_preference">ડ્રેગ એન્ડ ડ્રોપ પસંદગી (પ્રાયોગિક) પસંદ કરો</string>
+    <string name="drag_to_move_copy">ફાઇલોને ખસેડવા અથવા કૉપિ કરવા માટે ટચ કરો અને ખેંચો</string>
+    <string name="drag_to_select">ફાઇલો પસંદ કરવા માટે ટચ કરો અને ખેંચો</string>
+    <string name="disable">અક્ષમ કરો</string>
+    <string name="choose_operation">પ્રદર્શન કરવા માટે ઑપરેશન પસંદ કરો</string>
+    <string name="remember">આગલી વખતે યાદ રાખો</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP સર્વર માટે SAF ઍક્સેસ આપો</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">કેમ કે આ FTP સર્વરનું તમારું પ્રથમ રન છે, અને તમે ઉપકરણના આંતરિક સ્ટોરેજનો ઉપયોગ શેર કરેલ ફોલ્ડર તરીકે કરી રહ્યાં છો, કૃપા કરીને Amaze ને આનો ઉપયોગ કરીને સ્ટોરેજને ઍક્સેસ કરવાની મંજૂરી આપો SAF.\n\n
+
+આગલી વખતે તમે શેરિંગ માટે નવું સ્થાન પસંદ ન કરો ત્યાં સુધી તમારે આ માત્ર એક જ વાર કરવાની જરૂર છે.</string>
+    <string name="android_data_prompt_saf_access">Android 10 થી, Android એ અમુક ડિરેક્ટરીઓ પર નિયંત્રણો લાદ્યા હતા અને તેમને સ્ટોરેજ એક્સેસ ફ્રેમવર્ક સાથે ઍક્સેસ કરવાની જરૂર છે.\n \nકૃપા કરીને Amaze ને \"Allow Access\" પર ટૅપ કરીને સિસ્ટમના ફાઇલ મેનેજરમાંથી નિર્દેશિકા ઍક્સેસ કરવાની મંજૂરી આપો.</string>
+    <string name="android_data_prompt_saf_access_title">SAF ઍક્સેસ આપો</string>
+    <string name="ftp_preference_saf_filesystem_title">લેગસી ફાઇલસિસ્ટમનો ઉપયોગ કરો</string>
+    <string name="ftp_preference_saf_filesystem">સક્ષમ કરો નવા એન્ડ્રોઇડ વર્ઝન પર ઉપકરણ બાહ્ય સ્ટોરેજનો ઉપયોગ કરવા માટેના સમર્થન માટે આ</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP સર્વર શેર કરેલ પાથ આંતરિક સ્ટોરેજ પર રીસેટ કરવામાં આવ્યો હતો કારણ કે તમે લેગસી ફાઇલસિસ્ટમ અમલીકરણ પર પાછા સ્વિચ કરી રહ્યાં છો. કૃપા કરીને જરૂર મુજબ ઉપર જમણી બાજુના મેનૂનો ઉપયોગ કરીને નવો પાથ પસંદ કરો.</string>
+    <string name="ftp_server_reset_notify">FTP સર્વર શેર કરેલ પાથ આંતરિક સ્ટોરેજ પર રીસેટ કરવામાં આવ્યો હતો</string>
+    <string name="ftp_server_root_unavailable">તમે એક પાથ પસંદ કરી રહ્યાં છો જેને રૂટ એક્સેસની જરૂર છે. જો તમારું ઉપકરણ રૂટ કરેલ હોય તો કૃપા કરીને સેટિંગ્સમાં રૂટ એક્સપ્લોરરને સક્ષમ કરો.</string>
+    <string name="ftp_server_root_filesystem_warning">તમે એક પાથ પસંદ કરી રહ્યાં છો જેને રૂટ એક્સેસની જરૂર છે, જે તમારા ઉપકરણ પરની સમગ્ર ફાઇલ સિસ્ટમમાં વાંચવા/લેખવાની ક્રિયાઓને સક્ષમ કરે છે, અને તે ખતરનાક છે - બેદરકારીની ભૂલો તમારા ઉપકરણને ઇંટ બનાવી શકે છે!\n\nશું તમને ખાતરી છે?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">વાંચવા માટે URI \"%s\" ખોલવામાં ભૂલ.</string>
+    <string name="error_empty_archive">\"%s\" એ ખાલી આર્કાઇવ છે.</string>
+    <string name="error_bad_archive_without_info">\"%s\" એ દૂષિત આર્કાઇવ છે .</string>
+    <string name="error_bad_archive_with_info">\"%s\" એ દૂષિત આર્કાઇવ છે.\nએક્સ્ટ્રક્ટર તરફથી સંદેશ: \"%s\"</string>
+    <string name="security_error">ફાઇલ આ એપ્લિકેશનનો ઉપયોગ કરીને ખોલી શકાતી નથી</string>
+    <string name="cloud_drive_tooltip">બનાવો Amaze ફાઇલ મેનેજરમાંથી ફાઇલો મેનેજ કરવા માટે Google ડ્રાઇવ™ કનેક્શન.</string>
+    <string name="signin_with_google_title">Google ડ્રાઇવનો ઉપયોગ કરવા માટે પ્રમાણિત કરો™</string>
+    <string name="show_system_apps">સિસ્ટમ એપ્લિકેશન્સ બતાવો</string>
+    <string name="system_apps">સિસ્ટમ એપ્લિકેશન્સ</string>
+    <string name="select_inverse">પસંદ કરો ઊલટું</string>
+    <string name="select_by_type">પ્રકાર પ્રમાણે પસંદ કરો</string>
+    <string name="select_by_date">તારીખ પ્રમાણે પસંદ કરો</string>
+    <string name="select_similar">સમાન પસંદ કરો</string>
+    <string name="error_fetching_google_play_product_list">Google Play પરથી ઉત્પાદન સૂચિ લાવવામાં ભૂલ.</string>
+    <string name="grant_all_files_permission">એન્ડ્રોઇડ 11 થી , Google એ ઉપકરણ પરની બધી ફાઇલોને મેનેજ કરવા માટે વપરાશકર્તાની પરવાનગીની વિનંતી કરવા માટે ફાઇલ મેનેજર્સને વિનંતી કરે છે. વિગતો અહીં.
+        \n\nAmaze ફાઇલ મેનેજરને પણ આ પરવાનગીની જરૂર છે. અહીં "ગ્રાન્ટ" દબાવ્યા પછી, કૃપા કરીને આગલી સ્ક્રીન પર બધી ફાઇલોને મેનેજ કરવા માટે ઍક્સેસની મંજૂરી આપો વિકલ્પ પસંદ કરો.
+        \n\nઆ સંવાદને રદ કરવાથી એપ બહાર નીકળી જશે.</string>
+    <string name="user_apps">વપરાશકર્તા એપ્લિકેશન્સ</string>
+    <string name="appearance">દેખાવ</string>
+    <string name="behavior">વર્તન</string>
+    <string name="appearance_summary">ફાઇલ મેનેજરની થીમ, રંગો અને દેખાવને કસ્ટમાઇઝ કરો</string>
+    <string name="ui_summary">કઇ માહિતી દર્શાવવી, સાઇડબારને કસ્ટમાઇઝ કરવી અને UI પસંદગીઓને ટૉગલ કરવી તે નિયંત્રિત કરો</string>
+    <string name="behavior_summary">અદ્યતન શોધ જેવી વર્તણૂકોમાં ફેરફાર કરો અને ફાઇલોને નવા કાર્ય તરીકે ખોલવી કે નહીં</string>
+    <string name="security_summary">પાસવર્ડ સેટ કરો અને એન્ક્રિપ્શન</string>
+    <string name="backup_summary">Export/Import Amaz settings</string>
+
+    
+    <string name="pref_export_summary">Export સેટિંગ્સ</string>
+    
+    <string name="pref_import_summary">ઇમ્પોર્ટ સેટિંગ્સ</string>
+
+    <string name="quick_desc">Export તાજેતરમાં અમેઝ દ્વારા એક્સેસ કરેલ</string>
+    <string name="recent_desc">તાજેતરમાં બનાવેલ અથવા સંશોધિત ફાઇલો</string>
+    <string name="error_cannot_find_way_open">ફાઇલ ખોલવાનો માર્ગ શોધી શક્યો નથી</string>
+    <string name="error_cant_decompress_that_file">વિનંતી કરેલ આર્કાઇવ પર પ્રક્રિયા કરી શકાતી નથી</string>
+    <string name="analyse_storage">સ્ટોરેજનું વિશ્લેષણ કરો</string>
+    
+    <string name="download_amaze_utils_text">તમને અમેઝ ફાઇલ યુટિલિટીઝ પર રીડાયરેક્ટ કરવામાં આવી રહ્યાં છે. તે અમારી ઓપન સોર્સ એપ્લિકેશન છે જેમાં ઑડિઓ/વિડિયો/ઇમેજ/દસ્તાવેજ દર્શકો ઇનબિલ્ટ છે, જે તમને સ્ટોરેજ ખાલી કરવા, Wifi P2P નો ઉપયોગ કરીને ઝડપી ટ્રાન્સફર અને ઘણું બધું કરવા માટે જંક ફાઇલોનું વિશ્લેષણ કરવાની મંજૂરી આપે છે.\nકૃપા કરીને તેને અજમાવીને અમને સમર્થન આપો.</string>
+    <string name="download">ડાઉનલોડ કરો</string>
+    
+    <string name="amaze_utils_installed_alias">Amaze ફાઇલ યુટિલિટીઝ ઇન્સ્ટોલ કરવા બદલ આભાર. તમને એપ પર રીડાયરેક્ટ કરવામાં આવી રહ્યાં છે.</string>
+    <string name="image_viewer">Amaze ઇમેજ વ્યૂઅર</string>
+    
+    
+    
+    
+    <string name="share_logs">શેર લોગ</string>
+    <string name="share_logs_summary">કેપ્ચર કરેલા લોગ ઈમેલ/ટેલિગ્રામ દ્વારા શેર કરો</string>
+    <string name="open_with_amaze">Amaze સાથે ખોલો</string>
+    <string name="confirmation">પુષ્ટિ</string>
+    <string name="open_file_confirmation">શું તમે ખરેખર નીચેની ફાઇલ ખોલવા માંગો છો?\n\nનામ:\n%s\n\nસ્થાન:\n%s \n\nકદ:\n%s\n\nMD5:\n%s\n\nSHA256:\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play નીતિના આદેશ મુજબ, ઍપને પોતાને અપડેટ કરવાની મંજૂરી નથી તેના પોતાના પર. કૃપા કરીને Google Play પરથી એપ અપડેટ કરો.</string>
+    <string name="error_cannot_get_package_info">ફાઇલ \"%s\"માંથી પેકેજ માહિતી મેળવવામાં અસમર્થ. કાં તો ઉલ્લેખિત ફાઇલ એપીકે નથી, અથવા પેકેજ ફાઇલ દૂષિત છે.</string>
+    <string name="preference_delete_confirmation">પુષ્ટિ કાઢી નાખો</string>
+    <string name="preference_delete_confirmation_summary">ફાઇલો કાઢી નાખતા પહેલા પુષ્ટિ માટે પૂછો. આને અક્ષમ કરવું ખૂબ જ નિરાશ છે!</string>
+    
+    
+    
+    <string name="unavailable">અનુપલબ્ધ</string>
+
+    <string name="exporting_failed">નિકાસ નિષ્ફળ: બેકઅપ ફાઇલ લખી શક્યું નહીં</string>
+    <string name="importing_failed">આયાત કરવું નિષ્ફળ થયું: બેકઅપ ફાઇલ વાંચી શક્યું નહીં</string>
+    <string name="importing_completed">આયાત કરવાનું પૂર્ણ થયું</string>
+    <string name="invalid_backup_file">અમાન્ય બેકઅપ ફાઇલ</string>
+    <string name="import_failed_for">આના માટે આયાત નિષ્ફળ:</string>
+    <string name="free_of">"%s\n%s %s માંથી મુક્ત</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin F-Droid સંસ્કરણ સાથે સમર્થિત નથી. કૃપા કરીને ઉપયોગ કરો Amaze નું Play Store વર્ઝન.</string>
+    <string name="disable_player_intent_filters">પ્લેયર ઇન્ટેન્ટ ફિલ્ટર્સને અક્ષમ કરો</string>
+    <string name="disable_player_intent_filters_summary">ફાઇલ પસંદકર્તામાંથી Amaze ઇનબિલ્ટ મીડિયા પ્લેયર્સને અક્ષમ કરે છે</string>
+    <string name="no_app_found_intent">આ ઇરાદાને હેન્ડલ કરવા માટે કોઈ એપ્લિકેશન મળી નથી. શું તમારી પાસે DocumentsUI ઇન્સ્ટોલ કરેલ છે?</string>
+    <string name="cloud_connection_credentials_cleared">ક્લાઉડ કનેક્શન ઓળખપત્રો સાફ થયાં</string>
+    <string name="cloud_connection_credentials_cleared_msg">દુર્ભાગ્યે, અમે તમારા ક્લાઉડ કનેક્શન ઓળખપત્રોને નવા ડેટાબેઝ સ્કીમમાં સ્થાનાંતરિત કરવામાં અસમર્થ હતા, અને અમારે તેમને એપ્લિકેશનમાંથી દૂર કરવા પડ્યા. કૃપા કરીને ફરીથી ક્લાઉડ કનેક્શન બનાવો.</string>
+</resources>

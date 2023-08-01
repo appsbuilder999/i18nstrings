@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Buksi ang navigation drawer</string>
+    <string name="drawer_close">Isira ang navigation drawer</string>
+    
+    
+    
+    <string name="setting">Mga Setting</string>
+    <string name="select">Pilia ang Item</string>
+    <string name="press_again">Pinduta pag-usab aron mogawas</string>
+    <string name="open">Buksi</string>
+    
+    <string name="uninstall">I-uninstall</string>
+    
+    
+    <string name="copyingapks">Pagkopya sa %d APK nga mga file ngadto sa %s</string>
+    <string name="delbook">Papason ang Bookmark</string>
+    <string name="add_to_bookmarks">Idugang sa mga Bookmark</string>
+    
+    
+    <string name="create">MAGBUHAT</string>
+    <string name="loading">Nagkarga…</string>
+    <string name="file_empty">Walay sulod ang file</string>
+    
+    <string name="search_results">Resulta sa pagpangita sa %s</string>
+    <string name="rename">Ilisan ang ngalan</string>
+    <string name="save">I-save</string>
+    <string name="bookmarks_added">Mga Bookmark nga Gidugang</string>
+    <string name="fileexist">Ang file nga adunay parehas nga ngalan anaa na</string>
+    <string name="name">Ngalan</string>
+    <string name="date">Petsa</string>
+    <string name="location">Lokasyon</string>
+    <string name="size_capitalized">Gidak-on</string>
+    <string name="size">gidak-on sa folder</string>
+    <string name="enterzipname">Isulod ang Zip Name</string>
+    <string name="no_app_found">Walay App nga nakit-an aron maablihan kini nga file</string>
+    <string name="copying">Pagkopya</string>
+    <string name="moving">Pagbalhin</string>
+    
+    
+    <string name="newfolder">Bag-ong Folder</string>
+    <string name="entername">Pagsulod sa Ngalan</string>
+    <string name="extracting">Pagkuha</string>
+    <string name="stopping">Paghunong</string>
+    <string name="open_parent">Buksi ang Direktoryo sa Ginikanan</string>
+    <string name="open_with">Buksi gamit ang</string>
+    <string name="share">Ipaambit</string>
+    <string name="about">Bahin sa</string>
+    
+    <string name="compress">I-compress</string>
+    <string name="yes">Oo</string>
+    <string name="no">Dili</string>
+    
+    <string name="dialog_delete_category_directories">Mga Direktoryo</string>
+    <string name="dialog_delete_category_files">Mga File</string>
+    <string name="dialog_delete_disclaimer">Ang pagtangtang sa mga butang sa ubos permanente nga magtangtang niini gikan sa imong device ug dili na kini mabawi.</string>
+    <string name="dialog_delete_title">Pagtangtang sa mga butang nga permanente?</string>
+    <string name="deleting">Pagtangtang</string>
+    <string name="question_set_path_as_home">Gusto ba nimong itakda ang kasamtangang agianan isip pinuy-anan niini nga tab?</string>
+    <string name="directorysort">Pagsunud sa Direktoryo Mode</string>
+    <string name="sort_by">Pagsunud-sunod pinaagi sa</string>
+    <string name="sort_only_this">Kini lang nga folder</string>
+    <string name="theme">Tema</string>
+    <string name="random">Random nga Panit</string>
+    <string name="random_summary">Nagbutang ug random nga panguna nga kolor sa pagsugod</string>
+    <string name="colorize">Kolori ang mga Icon</string>
+    <string name="colorize_summary">Mga Set static nga kolor sa icon. Dili i-override ang gusto sa kolor sa icon sa direktoryo.</string>
+    <string name="home">Balay</string>
+    <string name="paste">Idikit</string>
+    <string name="history">Kasaysayan</string>
+    <string name="copy">Kopya</string>
+    
+    <string name="root_mode_summary">Alang sa nakagamot nga aparato lamang. Susiha lang kini kung sigurado ka bahin niini.</string>
+    <string name="root_failure">Wala gihatag ang Root Access</string>
+    <string name="select_all">Pilia ang Tanan</string>
+    <string name="delete">Pagtangtang</string>
+    <string name="set_as_home">Ibutang Ingon Balay</string>
+    <string name="operation_not_supported">Dili suportado ang operasyon</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Materyal nga Kahayag</string>
+    <string name="dark">Materyal nga Dark</string>
+    
+    <string name="black">Itom (para sa OLED)</string>
+    <string name="system">System (sundan ang tema sa sistema)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Mga Folder sa Ibabaw</string>
+    <string name="filesOnTop">Mga File sa Ibabaw</string>
+    <string name="none_on_top">Wala sa Ibabaw</string>
+    <!--SortBy-->
+    <string name="sort_name">Ngalan</string>
+    <string name="lastModified">Katapusang Gibag-o</string>
+    <string name="sort_size">Gidak</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Pagpili og file</string>
+    
+    <string name="in_safe">Dili igo nga espasyo</string>
+    <string name="no_file_overwrite">Walay File Overwritten</string>
+    <string name="skip">Laktawan</string>
+    
+    <string name="not_allowed">Dili Gitugotan</string>
+    <string name="searching">Pagpangita %s</string>
+    <string name="done">Nahuman</string>
+    <string name="set">Itakda</string>
+    <string name="enablerootmde">I-enable ang Root Mode</string>
+    <string name="goback">Balik</string>
+    <string name="newfile">Bag-ong File</string>
+    <string name="no_files">Walay File</string>
+    <string name="used">gigamit nga espasyo</string>
+    <string name="used_by_others">gigamit sa uban</string>
+    <string name="free">libre nga espasyo</string>
+    <string name="listview">Listang View</string>
+    <string name="gridview">Grid Tan-awa</string>
+    <string name="permission">Mga Permiso</string>
+    <string name="hide">Itago</string>
+    <string name="exit">Paggawas</string>
+    <string name="doforall">Buhata para sa tanang butang</string>
+    <string name="gridcolumnno">Gidaghanon sa mga column sa grid view</string>
+    <string name="set_random">Ang mga pagbag-o mahitabo human nimo i-restart ang app</string>
+    <string name="authors">Mga Awtor</string>
+    
+    
+    
+    
+    <string name="thumb_summary">Ipakita ang mga Thumbnail sa mga app ug mga hulagway</string>
+    <string name="thumb">Ipakita ang mga Thumbnail</string>
+    <string name="hidden">Ipakita ang Natago nga mga File ug Folder</string>
+    <string name="lastModifiedSummary">Ipakita ang petsa ug oras sa katapusang pagbag-o</string>
+    <string name="lastModifiedPref">Ipakita ang Katapusang Gibag-o nga Petsa ug Oras</string>
+    <string name="size_pref_summary">Ipakita ang gidak-on sa mga file ug gidaghanon sa mga butang sa mga folder</string>
+    <string name="size_pref">Ipakita ang mga Gidak-on</string>
+    
+    <string name="root_pref_summary">Ipakita ang mga Permiso sa mga File ug Folder</string>
+    <string name="root_pref">Ipakita ang mga Permiso</string>
+    <string name="about_amaze_file_manager_label">Bahin sa Amaze File Manager</string>
+    <string name="version">Bersyon</string>
+    <string name="rate">I-rate ang app</string>
+    <string name="feedback">Ipadala ang Feedback</string>
+    <string name="hiddenfiles">Natago nga mga File</string>
+    <string name="type">I-type ang</string>
+    
+    <string name="add_shortcut">Idugang ang Shortcut</string>
+    <string name="unsaved_changes">Wala Gi-save nga mga Pagbag-o</string>
+    <string name="unsaved_changes_description">Aduna ka\'y ​​wala ma-save nga mga pagbag-o, gusto ba nimo i-save kini sa dili pa mogawas?</string>
+    <string name="saving">Pagtipig</string>
+    
+    <string name="view">Tan-awa</string>
+    <string name="install">I-install</string>
+    
+    <string name="archive_text">Kini usa ka archive. Unsang aksyon ang gusto nimong buhaton?</string>
+    <string name="package_installer_text">Kini usa ka package installer. Unsang aksyon ang gusto nimong buhaton?</string>
+    <string name="xda_title">XDA thread </string>
+    <string name="xda_summary">Q&amp;amp;A, Tabang &amp;amp; Troubleshooting</string>
+    <string name="circular_images">Paggamit og circular icons para sa mga hulagway ug video</string>
+    <string name="circular_icons">Gamit circular icon</string>
+    <string name="back_title">Balik nga nabigasyon</string>
+    <string name="back_summary">Nakahimo ug custom back navigation sa ibabaw sa listahan</string>
+    <string name="details">Detalye</string>
+    <string name="translators">Mga maghuhubad</string>
+    
+    <string name="italian_translation_title">Italyano</string>
+    <string name="french_translation_title">Pranses</string>
+    <string name="russian_translation_title">Ruso</string>
+    <string name="spanish_translation_title">Espanyol</string>
+    
+    <string name="chinese_translation_title">Intsik</string>
+    
+    <string name="turkish_translation_title">Turkish </string>
+    <string name="ukrainian_translation_title">Ukrainiano</string>
+    <string name="portuguese_translation_title">Portuges</string>
+    
+    
+    <string name="greek_translation_title">Griyego</string>
+    
+    <string name="romanian_translation_title">8 Romanian</string>
+    
+    <string name="japanese_translation_title"/>
+    
+
+    
+    <string name="unin_system_apk">Kini usa ka sistema nga app, ang pagtangtang niini mahimong mosangpot sa pagkadili-kalig-on sa sistema.\nPadayon?</string>
+    <string name="warning">Pahimangno</string>
+    <string name="donate">Pagdonar</string>
+    
+    <string name="archive_summary">Ang mga archive nga mga file makuha niini nga folder. Default nga bili mao ang direktoryo diin anaa ang archive.</string>
+    <string name="open_as">Buksi Ingon</string>
+    
+    
+    
+    <string name="other">Uban</string>
+    <string name="image">Hulagway</string>
+    <string name="contributors">Mga Contributor</string>
+    <string name="save_paths">Hinumdumi ang mga agianan</string>
+    <string name="save_path_summary">Sa pagsugod, ang pinakabag-o nga gitan-aw nga folder alang sa matag tab ipakita</string>
+    <string name="select_intent">Pilia</string>
+    
+    
+    <string name="colored_navigvation_sum">Kon ang system navigation bar gikoloran sa panit</string>
+
+    
+    <string name="color_summary">Ibutang ang kolor sa lain-laing mga component sa UI</string>
+    <string name="primary_color_title">Pangunahing Kolor (Left Tab)</string>
+    <string name="primary_color_summary">Ibutang ang kolor sa dagkong mga elemento sa UI para sa wala nga tab</string>
+    
+    <string name="accent_color_summary">Ibutang ang kolor sa FAB ug uban pang gagmay nga UI mga elemento</string>
+    <string name="icon_color_title">Kolor sa Icon</string>
+    <string name="icon_color_summary">Ibutang ang kolor sa mga icon</string>
+    <string name="choose_color">Pagpili og kolor</string>
+    <string name="files">Mga File</string>
+    
+    
+    <string name="show_dividers">Ipakita ang mga Divider</string>
+    <string name="needs_access">Kinahanglan nga Pag-access sa Pagsulat</string>
+    <string name="needs_access_summary">Palihug pilia ang root directory sa \t</string>
+    <string name="needs_access_summary1">\tto paghatag ug access sa pagsulat aron makalihok</string>
+    <string name="smb_connection">S Koneksyon</string>
+    
+    
+    
+    
+    
+    
+    <string name="folders">Mga Folder</string>
+    <string name="folderfilecount">%1$d folder ug %2$d file</string>
+    <string name="videos">Mga Video</string>
+    <string name="apks">APK</string>
+    <string name="documents">Mga Dokumento</string>
+    <string name="images">Mga Larawan</string>
+    <string name="clear">I-clear</string>
+    
+    <string name="total">Total :</string>
+    <string name="calculating">pagkuwenta</string>
+    <string name="sort">Pagsunud</string>
+    <string name="ascending">Pagsaka</string>
+    <string name="descending">Nanaug</string>
+    
+    <string name="doit">Buhata kini</string>
+    <string name="want_help">Nagkinahanglan og tabang?</string>
+    <string name="quick">Dali nga pag-access</string>
+    <string name="recent">Bag-ong mga file</string>
+    <string name="edit">I-edit</string>
+    <string name="find">Pangitaa sa panid</string>
+    <string name="grant">Hatag</string>
+    <string name="grantper">Hatag permiso</string>
+    <string name="grantfailed">Wala gihatag ang pagtugot</string>
+    <string name="grant_storage_permission">App nanginahanglan permiso sa pagtipig aron magpadayon. Ang pagkansela niini nga diyalogo mogawas sa app.</string>
+    <string name="operation_unsuccesful">Operasyon Dili Malampuson</string>
+    <string name="creatingfile">Paghimo og File</string>
+    <string name="creatingfolder">Paghimo og Folder</string>
+    <string name="renaming">Pag-ilis sa ngalan</string>
+    <string name="cant_be_empty">%s dili mahimong walay sulod</string>
+    <string name="ip">Adres</string>
+    <string name="connection_name">Ngalan sa koneksyon</string>
+    <string name="no_device_found">Walay mga device nga nakit-an</string>
+    
+    <string name="rename_bookmark">I-usab ang Bookmark</string>
+    <string name="cut">Guntinga</string>
+    <string name="search">Pagpangita</string>
+    <string name="invalid_name">Dili balido nga Ngalan</string>
+    <string name="search_hint">Type nga pangitaon…</string>
+    
+    <string name="regular_expression">Regular nga Ekspresyon</string>
+    <string name="regular_expression_summary">Pangita gamit ang regular nga ekspresyon sa estilo sa BASH</string>
+    <string name="match_content">Ipares ang sulod</string>
+    <string name="match_content_summary">Kon itakda, ang regular nga ekspresyon ipares sa tibuok ngalan sa file,
+        mangita sa panghitabo kung dili.</string>
+    <string name="start_ftp">Sugdi</string>
+    <string name="stop_ftp">Hunong</string>
+    <string name="ftp_status_running">Pagdagan</string>
+    <string name="ftp_status_not_running">Dili Pagdagan</string>
+    <string name="ftp_no_wifi">Siguroha nga konektado ka sa Wi -Fi</string>
+    
+    <string name="smb_share">Ipaambit nga dalan</string>
+    <string name="invalid">Dili balido nga %s</string>
+    <string name="ftp_notif_starting">FTP Server nagsugod</string>
+    
+    <string name="ftp_notif_title">Amaze FTP Server nga nagdagan</string>
+    <string name="ftp_notif_text">sa %s</string>
+    
+    
+    <string name="ftp_port_change_success">FTP port malampusong nausab</string>
+    <string name="ftp_port_change_error_invalid">Dili balido nga numero sa port ang napili</string>
+    <string name="primary_two_title">Pangunahing Kolor (Tuo nga Tab)</string>
+    <string name="primary_two_summary">Ibutang ang kolor ngadto sa dagkong mga elemento sa UI para sa tuo nga tab</string>
+    <string name="support_development">Pagpalambo sa Suporta</string>
+    <string name="report_bugs_title">Ireport ang mga Bug</string>
+    
+    <string name="source_summary">Tan-awa ang among source code sa GitHub</string>
+    <string name="report_bugs_summary">Ireport ang mga bug o paghangyo og bag-ong feature</string>
+    <string name="translate_title">Paghubad</string>
+    <string name="translate_summary">Translate Amaze sa imong pinulongan</string>
+    <string name="paypal_copy_message">PayPal ID gikopya ngadto sa clipboard</string>
+    <string name="searching_devices">Pagpangita alang sa mga device</string>
+    <string name="use_custom_ip">Paggamit ug custom IP</string>
+    <string name="bookmark_lost">Bookmark wala makita, paghimo pag-usab...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Giunsa pag-access ang gipaambit nga folder sa Windows sa Android (SMB)\n\n
+                
+                    
+                        I-enable ang File Sharing sa Windows\n
+                    
+                    
+                        Ablihi ang Control Panel, i-klik Pilia ang HomeGroup ug mga opsyon sa Pagpakigbahin ubos sa Network
+                        ug Internet, ug i-klik ang "Change Advanced Sharing Settings," i-enable ang "File and
+                        Printer Sharing" feature.\n\n
+                    
+
+                    
+                        Dugang nga mga setting sa Pagpakigbahin sa File\n
+                    
+                    
+                        Mahimo usab nimong i-configure ang uban pang mga advanced setting sa pagpaambit dinhi. \n
+                        Pananglitan, mahimo nimong ma-access ang imong mga file nga wala’y password kung gisaligan nimo ang tanan
+                        ang mga himan sa imong lokal nga network. Sa higayon nga ang pagpakigbahin sa file ug printer mahimo na, mahimo nimo
+                        ablihi ang File Explorer o Windows Explorer, i-right-click ang folder nga gusto nimong ipaambit, ug
+                        pilia ang Properties. \n
+                        I-klik ang Share button ug himoong available ang folder sa network.\n\n
+                        
+
+                    
+                        Siguroha nga ang duha ka device anaa sa samang Wifi\n
+                    
+                    
+                        Kini nga bahin naghimo sa mga file nga magamit sa lokal nga network, mao nga ang imong PC ug mobile device
+                        kinahanglan nga naa sa parehas nga lokal nga network. Dili nimo ma-access ang gipaambit nga folder sa Windows
+                        sa Internet o kung ang imong smartphone konektado sa iyang mobile data - kini
+                        kinahanglang konektado sa Wi-Fi.\n\n
+                    
+
+                    
+                        Pangitaa ang IP Address\n
+                    
+                    
+                        Ablihi ang Command Prompt. Type \'ipconfig\' ug pindota ang Enter. Pangitaa ang Default Gateway
+                        ubos sa imong network adapter para sa IP address sa imong router. Pangitaa
+                        \\\"IPv4 Address\\\" ubos sa samang seksyon sa adapter aron pangitaon ang IP sa imong computer
+                        adres.\n\n
+                    
+
+                    Pagsulod sa mga detalye sa SMB dialog box\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Dili makapaambit og labaw sa 100 ka file</string>
+    <string name="otg_access">Pilia ang gamut sa OTG device</string>
+    <string name="information">Impormasyon</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Na-access</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Gibag-o</string>
+
+    <string name="title">Titulo</string>
+    <string name="artist">Artista</string>
+    
+    <string name="year">Tuig</string>
+    
+    <string name="comment">Komento</string>
+    <!-- reference to audio/video file -->
+    
+    
+    <string name="channels">Mga Channel</string>
+    
+    
+    <string name="dimensions">Mga Dimensyon</string>
+    <string name="frame_rate">Rate sa Frame</string>
+    <string name="image_type">Type sa Hulagway</string>
+    <string name="width">Lapad</string>
+    <string name="height">Taas</string>
+    <string name="date_modified">Petsa nga Gibag-o</string>
+    
+    <string name="creator">Magbubuhat</string>
+    
+    <string name="camera_model">Modelo sa Camera</string>
+    <string name="date_taken">Petsa nga Gikuha</string>
+    <string name="exposure_time">Oras sa Exposure</string>
+    <string name="aperture_value">Bili sa Aperture</string>
+    <string name="image_iso">ISO Speed ​​Rating</string>
+    
+    
+    <string name="subject">Subject </string>
+    
+    <string name="keywords">Mga Keyword</string>
+    
+    <string name="created">Gibuhat</string>
+    
+    <string name="pages">Numero sa Mga panid</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Gi-optimize</string>
+    <string name="security">Seguridad</string>
+    <string name="paper_size">Gidak-on sa Papel</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Ang ubang mga file dili malampuson nga %s</string>
+    <string name="copied">nakopya</string>
+    <string name="moved">gibalhin</string>
+    <string name="copy_complete">Kopya nga Kumpleto</string>
+    <string name="waiting_title">Naghulat</string>
+    <string name="waiting_content">Naghulat sa operasyon nga makompleto</string>
+    <string name="extract_complete">Extraction kompleto</string>
+    <string name="compression_complete">Compression Kumpleto</string>
+    <string name="compressing">Pag-compress</string>
+    <string name="cancelled">Gikansela</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Gisulat</string>
+    <string name="out_of">gikan sa</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">sa</string>
+    <string name="processing_file">Pagproseso sa file</string>
+    <string name="current_speed">Karon nga Speed</string>
+    <string name="smb_launch_error">Kinahanglan nimo nga kopyahon kini nga file ngadto sa storage aron maablihan kini</string>
+    <string name="error_file_not_found">Error: Wala Makita ang File</string>
+    
+    <string name="error_file_too_large">Error: File Too Great</string>
+    
+    <string name="permission_read">Basaha</string>
+    <string name="permission_write">Isulat</string>
+    <string name="permission_execute">Ipatuman</string>
+    <string name="permission_owner">Tag-iya</string>
+    <string name="permission_group">Grupo</string>
+    <string name="permission_other">Uban</string>
+    <string name="clipboard_path_copy">Path nga gikopya sa clipboard</string>
+    <string name="service_timer">Oras ang milabay</string>
+    <string name="please_wait">Palihug Paghulat</string>
+
+    
+    <string name="cloud_connection_new">Bag-ong Cloud Connection</string>
+    
+    
+    
+    <string name="cloud_box">Kahon</string>
+    <string name="cloud_get">Pagkuha og Cloud plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Walay aplikasyon</string>
+    <string name="ftp_path">Gipaambit nga Dalan</string>
+    <string name="ftp_path_hint">Path ngadto sa gamut sa direktoryo nga ipaambit</string>
+    <string name="change">Usba</string>
+    <string name="unknown_error">Oops, naay nahitabo!</string>
+
+    <string name="ftp_path_change_success">FTP path malampusong nausab</string>
+    <string name="ftp_path_change_error_invalid">Invalid nga dalan</string>
+    <string name="ftp_status_no_connection">Walay Koneksyon</string>
+    <string name="ftp_status_secure_connection">Secure nga Koneksyon</string>
+    
+    
+    
+    <string name="field_empty">Ang field dili mahimong walay sulod</string>
+    
+    <string name="ftp_seconds">Segundo</string>
+    
+    <string name="intellihide_toolbar_summary">Awtomatikong itago ang toolbar samtang nag-scroll</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">gikopya sa clipboard</string>
+    <string name="contributors_1_summary">Paghubad</string>
+    <string name="contributors_2_summary">Icon ug mga banner</string>
+    <string name="contributors_3_summary">Tema Engine</string>
+    <string name="contributors_4_summary">Shade luyo sa FAB</string>
+    <string name="contributors_5_summary">Pagbalhin sa kolor kung mag-swipe sa mga tab</string>
+    
+    <string name="contributors_7_summary">Paghimo og interactive shell</string>
+    <string name="connection_exists">Ang koneksyon anaa na</string>
+
+    <string name="crypt_encrypting">Pag-encrypt</string>
+    <string name="crypt_decrypting">Pag-decrypting</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Na-encrypt</string>
+    <string name="crypt_decrypted">Na-decrypted</string>
+    <string name="crypt_encrypt">I-encrypt</string>
+    
+    <string name="operation_fail_following">Napakyas ang operasyon sa pagsunod sa mga file</string>
+    
+    <string name="crypt_pref_master_password_summary">Pagbutang og master password para sa encryption.
+        Biyai nga walay sulod aron tangtangon.</string>
+    
+    <string name="crypt_pref_fingerprint_summary">Gamita ang fingerprint para mamatud-an ang encryption</string>
+    <string name="crypt_fingerprint_no_permission">Nawala ang mga permiso sa fingerprint</string>
+    <string name="crypt_fingerprint_not_enrolled">Walay fingerprint nga na-enrol</string>
+    <string name="crypt_fingerprint_no_security">Walay lockscreen security nakit-an</string>
+    <string name="crypt_warning_key">Pahibalo, kung imong usbon ang imong sumbanan sa seguridad gikan sa
+        Mga setting sa sistema, dili nimo ma-decrypt kining sulod.</string>
+    <string name="warning_never_show">Ayaw pagpahibalo pag-usab</string>
+    <string name="warning_confirm">Nakuha na!</string>
+    <string name="crypt_encryption_fail">Napakyas sa pag-encrypt</string>
+    <string name="crypt_decryption_fail">Napakyas sa pag-decrypt</string>
+    <string name="crypt_decryption_fail_password">Sayup nga password!</string>
+    <string name="crypt_fingerprint_authenticate">Touch sensor para magpadayon</string>
+    <string name="authenticate_password">Pagsulod sa password</string>
+
+    
+    <string name="sidebar_quick_access_title">Sidebar dali nga pag-access</string>
+    <string name="show_quick_access_pref_title">Ipakita ang mga dali nga pag-access</string>
+    <string name="show_quick_access_pref">Dali nga mga pag-access</string>
+    <string name="directory">Direktoryo</string>
+
+    <string name="sidebar_bookmarks_title">Mga bookmark sa sidebar</string>
+    <string name="show_bookmarks_pref_title">Ipakita ang mga bookmark</string>
+    <string name="show_bookmarks_pref">Mga Bookmark</string>
+    <string name="create_bookmark">Paghimo og bookmark</string>
+    <string name="edit_bookmark">I-edit ang bookmark</string>
+    <string name="question_delete_bookmark">Papason ang bookmark?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin wala makit-an. Palihug i-download gikan sa Play Store.</string>
+    <string name="cloud_error_failed_restart">Napakyas sa pagkarga sa koneksyon.
+        Palihug ablihi ang Amaze Cloud kausa.</string>
+    <string name="cloud_remove">Gusto ba nimong tangtangon ang koneksyon sa panganod?</string>
+    <string name="cloud_fail_authenticate">Napakyas sa pag-authenticate</string>
+    <string name="cloud_share_copied">Sharable link nga gikopya sa clipboard</string>
+    <string name="copy_low_memory">Nahurot na ang memorya, palihog hawanan ang pipila ka RAM</string>
+    <string name="cloud_token_lost">Token nga nawala, palihug pag-sign-in pag-usab</string>
+    
+    <string name="showHeaders">Ipakita ang mga Header</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Walay mga butang</string>
+	<string name="item">aytem</string>
+	<string name="items">mga butang</string>
+	
+	
+	<string name="bytes">byte</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Ang file kinahanglan adunay ngalan</string>
+    <string name="add_item">Idugang ang Item</string>
+    <string name="failed_smb_decrypt_path">Napakyas sa pagkarga Koneksyon sa SMB</string>
+    <string name="failed_cloud_new_connection">Napakyas sa pagdugang og bag-ong Cloud connection</string>
+    <string name="failed_cloud_api_key">Napakyas sa pag-authenticate sa Cloud plug-in</string>
+
+    <string name="local_inet_addr_error">Error pagkuha sa lokal nga inet address</string>
+    <string name="intent_save_as">I-save as…</string>
+    <string name="go">Lakaw</string>
+    
+    <string name="typeable_paths_title">Custom nga mga agianan</string>
+    <string name="typeable_paths_summary">Long press path bar para mag-type og custom path</string>
+    <string name="send_email_to">Pagpadala og e-mail sa</string>
+
+    <string name="text_editor">Mga setting sa text editor</string>
+    <string name="preference_newstack_title">Buksi ang mga file isip bag-ong buluhaton</string>
+    <string name="preference_newstack_summary">Gitugotan ka sa pag-abli sa mga file sa lainlaing mga buluhaton. I-access kini gikan sa screen sa bag-ohay lang nga sistema.</string>
+    
+    <string name="developers">Mga Developer</string>
+    <string name="no_bitcoin_app">Palihug pag-install ug Bitcoin Wallet app</string>
+    
+    
+    
+    
+
+    
+    <string name="processing">Pagproseso…</string>
+    <string name="failed_no_connection">Napakyas sa pagkarga sa mga file. Palihug susiha ang imong koneksyon.</string>
+
+    
+	<string name="scp_connection">SCP/SFTP Koneksyon</string>
+    <string name="ftp_connection">Koneksyon sa FTP</string>
+    <string name="ftps_connection">FTP sa SSL Koneksyon</string>
+    
+    <string name="ssh_host_key_verification_prompt">Ang katinuod sa host \'%1$s\' dili ma-establisar.\n\n%2$s key fingerprint kay %3$s.\n \nPalihug i-tap ang \"Oo\" aron kumpirmahon ang pagkatawo; kon dili, palihog i-tap ang \"Dili\".</string>
+    <string name="ssh_host_key_verification_prompt_title">I-verify ang Host</string>
+    
+    <string name="ssh_pem_key_parse_error">Dili mabasa ang pinili nga PEM: %s</string>
+    <string name="password_unchanged">(wala mausab)</string>
+    <string name="ssh_authentication_failure_password">Logon failure: Dili ma-authenticate gamit ang gihatag nga username ug password.</string>
+    <string name="ssh_authentication_failure_key">Logon failure: Dili ma-authenticate gamit ang gihatag nga username ug private key.</string>
+    <string name="ssh_connect_failed">Dili makakonektar sa %1$s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">WARNING: ANG REMOTE HOST IDENTIFICATION NABAG-O!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">POSIBLE NGA MAY USA NAGHIMO UG MAAYONG BUTANG!\n\nMay nag-eavesdrop sa imo karon (man-in-the-middle attack)! Posible usab nga ang yawe sa host bag-o lang giusab. Ang fingerprint para sa public key nga gipadala sa remote host dili motakdo sa gitipigan sa Amaze.\n\nPalihug kontaka ang imong system administrator o setup ug bag-ong koneksyon para makapadayon sa pagkonektar sa server.</string>
+    <string name="ssh_key_prompt_passphrase">Palihug isulod ang key passphrase .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Ang paghimo sa mga shortcut dili suportado sa imong launcher.</string>
+    
+    <string name="select_color_config">Pilia ang color config</string>
+    <string name="customize">I-customize</string>
+    
+    
+    
+    <string name="blue">Asul</string>
+    <string name="green">Berde</string>
+    <string name="password_no_match">Ang password dili motakdo</string>
+    <string name="deselect_all">Deselect Tanan</string>
+    
+    <string name="compress_file_suggest_zip_extension">Girekomendar nga gamiton ang \".zip\" isip extension sa file.</string>
+    <string name="about_amaze">Materyal nga disenyo sa file manager para sa Android</string>
+    <string name="license">Lisensya</string>
+    <string name="libraries">Mga Library</string>
+    <string name="password_repeat">Balikaangpassword</string>
+    <string name="create_file_suggest_txt_extension">Girekomenda nga gamiton ang \". txt\" isip extension sa file.</string>
+    <string name="ssh_select_pem">Pilia ang pribadong yawe para sa pag-authentication</string>
+    <string name="ssh_key_invalid_passphrase">Dili balido nga key passphrase.</string>
+    <string name="ssh_key_no_decoder_decrypt">Walay balido nga decoder aron ma-decrypt ang PEM.</string>
+    <string name="encryption_fail_copy">Napakyas sa update encryption entry sa database</string>
+    <string name="extracted">Gikuha</string>
+    <string name="compressed">Na-compress</string>
+    <string name="processed">Giproseso</string>
+    <string name="no_obtainable_info">Walay impormasyon mahitungod niini nga file</string>
+    <string name="reopen_from_source">Can\' t, palihog ablihi pag-usab gikan sa kataposang app</string>
+    <string name="no_file_error">Naay nahitabo, wala nay maablihan</string>
+    <string name="file_too_long">Ang file taas kaayo ug dili ma-edit, bisan pa niana mahimo nimong basahon ang unang %d nga mga karakter</string>
+    <string name="file_read_only">Ang file nga giablihan kay read-only.</string>
+    <string name="got_it">Nakuha na!</string>
+    <string name="encrypt_file_save_as">I-save ang Naka-encrypt nga File Ingong…</string>
+    <string name="encrypt_folder_save_as">I-save ang Naka-encrypt nga Folder Ingong…</string>
+    <string name="encrypt_option_use_aze">Gamit ang Amaze Encryption Format</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>Ang AESCrypt usa ka open source file encryption format base sa AES encryption. Madaladala usab kini, mahimong ma-decrypt gamit ang mga programa sa AESCrypt sa ubang mga plataporma.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">website sa AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Ang Format sa Encryption sa Amaze gibase usab sa pag-encrypt sa AES; apan lahi sa format sa AESCrypt, mahimo ra kini ma-decrypted sa kini nga aparato; kinahanglan usab nga dili nimo i-uninstall ang Amaze File Manager gikan sa kini nga aparato o usbon ang paagi sa imong pag-lock sa screen, kung dili, wala ka’y paagi aron mabawi ang na-encrypt nga file.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Ang na-encrypt nga mga file kinahanglang mogamit og \".aze\" isip extension sa file.</string>
+    <string name="encrypt_file_must_end_with_aes">Ang mga naka-encrypt nga file kinahanglang mogamit og \".aes\" isip extension sa file.</string>
+    <string name="error_aescrypt_decrypt_failed">Dili ma-decrypt \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Dili ma-overwrite ang file .</string>
+    <string name="saved_single_file">File gitipigan isip \'%s\'.</string>
+    <string name="saved_multi_files">%d files gitipigan.</string>
+    <string name="create_hidden_file_warn">Ang gibuhat nga file itago sa lista sa file.</string>
+    <string name="grant_apkinstall_permission">Ang app nanginahanglan permiso sa pag-instalar sa mga app magpadayon.</string>
+    <string name="time_remaining">Nabilin nga oras</string>
+    
+    <string name="unknown">wala mailhi</string>
+    <string name="multiple_invalid_archive_entries">Ang ubang mga file sa archive dili makuha; Ang archive mahimong madaot o gikan sa malisyosong tinubdan.</string>
+    <string name="saf_otg_explanation">Moadto ka na sa filesystem sa Android alang sa seguridad nga mga rason. Palihog pilia ang USB device gikan sa listahan sa wala.</string>
+    <string name="donation_thanks">Salamat sa donasyon, kini makapadasig kanamo! (:</string>
+    <string name="enable_marquee_filename">Enable marquee effect para sa file name</string>
+    <string name="archive_password_prompt">Palihug isulod ang archive password:</string>
+    
+    <string name="cannot_extract_archive">Dili makuha ang archive \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Dili mahimo ablihi ang archive \"%s\". Mahimong dili namo maablihan ang archive, o ang archive nadaot.</string>
+    <string name="close">Isira</string>
+    <string name="bookmark_exists">Bookmark anaa</string>
+    <string name="hide_media">Itago gikan sa media browser</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">POSIBLE NGA MAY NAGHIMO UG MAAYONG BUTANG!\n\nMay nag-eavesdropping kanimo karon (man-in-the-middle attack)! Posible usab nga ang host key bag-o lang giusab. Ang fingerprint kay ang public key nga gipadala sa remote host dili motakdo sa gitipigan sa Amaze.\n\nMahimo nimong ipadayon ang pag-update sa fingerprint sa host o kanselahon ang pag-update sa mga setting sa koneksyon sa SSH.</string>
+    <string name="update_host_key">I-update ang Host Key</string>
+    <string name="cancel_recommended">Pagkansela (Girekomenda)</string>
+    
+    
+    <string name="failed_install_apk">Napakyas sa pag-instalar</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Internal nga Pagtipig</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    
+    <string name="choose_folder">Pilia Kini nga Folder</string>
+    
+    <string name="some_files_failed_invalid_operation">Ang ubang mga file napakyas tungod sa dili balido operasyon</string>
+    <string name="ftp_server_prompt_connect_to_network">Koneksyon sa usa ka network o i-enable ang AP</string>
+    <string name="ftp_server_open_settings">Buksi ang mga setting</string>
+    <string name="move">Ibalhin</string>
+    <string name="select_save_location">Pagpili og lokasyon aron i-save</string>
+    <string name="scp_default_path">Default nga Dalan (Opsyonal)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Pasayloa, dili unta kana mahitabo.</string>
+    
+    <string name="error_report_button_text">Ireport kini nga sayup pinaagi sa e-mail</string>
+    <string name="error_report_button_telegram">Ireport kini nga sayup pinaagi sa telegram</string>
+    <string name="copy_for_github">Kopya ang gi-format nga report</string>
+    <string name="error_report_open_issue_button_text">I-report sa GitHub</string>
+    <string name="error_report_open_github_notice">Palihug susiha kon duna na bay isyu nga naghisgot sa imong pagkahagsa.</string>
+    <string name="error_snackbar_message">Pasayloa, naay nahitabo.</string>
+    <string name="error_snackbar_action">Ireport</string>
+    <string name="what_device_headline">Impormasyon:</string>
+    <string name="what_happened_headline">Unsa ang nahitabo:</string>
+    <string name="info_labels">Unsa:\\nRequest:\\nGMT Time:\\nPackage:\\nBersyon:\\nOS version:\\nDevice:\\nModel:\\nProduct :</string>
+    <string name="your_comment">Ang imong komento (sa English):</string>
+    <string name="error_details_headline">Mga Detalye:</string>
+    <string name="app_ui_crash">App/UI nahagsa</string>
+    <string name="error_report_title">Ulat sa sayop</string>
+    <string name="crash_report_copied">Crash report gikopya ngadto sa clipboard</string>
+    <string name="disableIpcSignature">Disable IPC signing check (Alang sa legacy nga SMBv1 server - UNSAFE!)</string>
+    <string name="cannot_delete_file">Dili matangtang ang file</string>
+    <string name="cannot_delete_file_with_reason">Dili matangtang ang file - %s</string>
+    <string name="cannot_rename_file">Dili ma-rename ang file %s - %s</string>
+    <string name="cannot_read_directory">Dili makabasa sa direktoryo %s - %s</string>
+    <string name="just_once">Kausa lang</string>
+    <string name="always">Kanunay</string>
+    <string name="choose_different_app">Pagpili ug lain-laing aplikasyon</string>
+    <string name="clear_open_file">Limpyo cache</string>
+    <string name="clear_open_file_summary">Paglimpyo sa pinili nga default file opening apps</string>
+    
+    <string name="legacy_listing_title">Gamita ang legacy listing para sa gamut</string>
+    <string name="legacy_listing_summary">Kon mahimo, gamita ang legacy nga pamaagi sa paglista sa mga file</string>
+    <string name="error_unsupported_v5_rar">Ang RAR archive nga \"%s\" dili suportado nga RAR v5 archive.</string>
+    <string name="ftp_prompt_restart_server">Kinahanglan nimo nga i-restart ang FTP server aron ang mga pagbag-o mahimong epektibo.</string>
+    <string name="error_permission_denied">Ang pagtugot gibalibaran</string>
+    <string name="error_archive_password_incorrect">Sayop nga password sa archive.</string>
+    <string name="error_archive_cannot_extract">Dili makuha ang archive entry \"%s\" ngadto sa \"%s\".</string>
+    <string name="drag_and_drop_preference">Pilia ang drag and drop preference (Experimental)</string>
+    <string name="drag_to_move_copy">Paghikap ug pag-drag aron mabalhin o makopya ang mga file</string>
+    <string name="drag_to_select">Paghikap ug pag-drag aron mapili ang mga file</string>
+    
+    <string name="choose_operation">Pilia ang operasyon nga himuon</string>
+    <string name="remember">Hinumdumi sa sunod</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Hatagi og access sa SAF para sa FTP server</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Tungod kay mao kini ang imong unang pagdagan sa FTP server, ug imong gigamit ang internal storage sa device isip shared folder, palihug tugoti ang Amaze nga maka-access sa storage gamit ang SAF.\n\n
+
+Kausa ra nimo kini buhaton, hangtod sa sunod higayon nga mopili ka ug bag-ong lokasyon para sa pagpaambit.</string>
+    <string name="android_data_prompt_saf_access">Sukad sa Android 10, ang Android nagpahamtang ug mga pagdili sa pipila ka mga direktoryo, ug kinahanglan silang maka-access gamit ang Storage Access Framework.\n \nPalihug tugoti ang Amaze nga maka-access sa direktoryo gikan sa file manager sa system pinaagi sa pag-tap sa \"Allow Access\".</string>
+    <string name="android_data_prompt_saf_access_title">Hatagi ang SAF access</string>
+    <string name="ftp_preference_saf_filesystem_title">Gamita ang legacy filesystem</string>
+    <string name="ftp_preference_saf_filesystem">I-enable kini alang sa suporta sa paggamit sa device external storage sa mas bag-ong mga bersyon sa Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP server shared path kay gi-reset sa internal storage samtang ikaw mibalik sa legacy filesystem nga pagpatuman. Palihug pagpili ug bag-ong dalan gamit ang menu sa ibabaw nga tuo kung gikinahanglan.</string>
+    <string name="ftp_server_reset_notify">FTP server shared path gi-reset sa internal storage</string>
+    <string name="ftp_server_root_unavailable">Nagpili ka og dalan nga nagkinahanglan og root access. Palihug i-enable ang root explorer sa mga setting kung ang imong device naka-root.</string>
+    <string name="ftp_server_root_filesystem_warning">Nagpili ka og dalan nga nagkinahanglan og root access, nga makapahimo sa mga operasyon sa pagbasa/pagsulat sa tibuok filesystem sa imong device, ug kini delikado - ang walay pagtagad nga mga sayop mahimo brick ang imong device!\n\nSigurado ka?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Error pag-abli sa URI \"%s\" para sa pagbasa.</string>
+    <string name="error_empty_archive">\"%s\" kay walay sulod nga archive.</string>
+    <string name="error_bad_archive_without_info">\"%s\" kay dunot nga archive.</string>
+    <string name="error_bad_archive_with_info">\"%s\" kay dunot nga archive.\nMensahe gikan sa extractor: \"%s\"</string>
+    <string name="security_error">Ang file dili mahimo maablihan gamit kini nga app</string>
+    <string name="cloud_drive_tooltip">Paghimo og koneksyon sa Google Drive™ alang sa pagdumala sa mga file gikan sa sulod sa Amaze File Manager.</string>
+    <string name="signin_with_google_title">Authenticate aron magamit ang Google Drive™</string>
+    <string name="show_system_apps">Ipakita ang mga system apps</string>
+    
+    <string name="select_inverse">Pilia ang Inverse</string>
+    <string name="select_by_type">Pilia pinaagi sa tipo</string>
+    <string name="select_by_date">Pilia pinaagi sa petsa</string>
+    <string name="select_similar">Pilia ang susama</string>
+    <string name="error_fetching_google_play_product_list">Error pagkuha sa listahan sa produkto gikan sa Google Play.</string>
+    <string name="grant_all_files_permission">Sukad sa Android 11, gihangyo sa Google ang mga File Manager nga mangayo og pagtugot sa user sa pagdumala sa tanang file sa device. Mga detalye dinhi.
+        \n\nAng Amaze File Manager nagkinahanglan usab niini nga pagtugot. Human sa pagpindot sa "Grant" dinhi, palihog pilia ang Allow access to manage all files option sa sunod nga screen.
+        \n\nAng pagkansela niini nga dialog mogawas sa app.</string>
+    
+    <string name="appearance">Pagpakita</string>
+    <string name="behavior">Gawi</string>
+    <string name="appearance_summary">I-customize ang tema, kolor ug dagway sa file manager</string>
+    <string name="ui_summary">Kontrola kon unsa nga impormasyon ang ipakita, i-customize ang sidebar, ug i-toggle ang UI preferences</string>
+    <string name="behavior_summary">Ubaha ang mga kinaiya sama sa advanced search ug kung ablihan ba ang mga file isip bag-ong buluhaton</string>
+    <string name="security_summary">I-set up ang password ug encryption</string>
+    
+
+    
+    
+    
+    <string name="pref_import_summary">Mga setting sa import</string>
+
+    <string name="quick_desc">Files bag-o lang na-access pinaagi sa Amaze</string>
+    <string name="recent_desc">Bag-o lang nga gihimo o giusab nga mga file</string>
+    <string name="error_cannot_find_way_open">Dili makakita og paagi aron maablihan ang file</string>
+    <string name="error_cant_decompress_that_file">Dili maproseso ang gipangayo nga archive</string>
+    <string name="analyse_storage">I-analyze ang Storage</string>
+    
+    <string name="download_amaze_utils_text">Gi-redirect ka sa Amaze File Utilities. Kini ang among open source app nga adunay inbuilt audio/video/image/document viewers, nagtugot kanimo sa pag-analisar sa mga junk files aron mabakante ang storage, paspas nga pagbalhin gamit ang Wifi P2P ug daghan pa.\nPalihug suportahi mi pinaagi sa pagsulay niini.</string>
+    <string name="download">Pag-download</string>
+    
+    <string name="amaze_utils_installed_alias">Salamat sa pag-instalar sa Amaze File Utilities. Gi-redirect ka sa app.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">Ipaambit ang mga log</string>
+    <string name="share_logs_summary">Ipaambit ang mga nakuha nga log pinaagi sa email / telegram</string>
+    <string name="open_with_amaze">Bukas gamit ang Amaze</string>
+    <string name="confirmation">Pagkumpirma</string>
+    <string name="open_file_confirmation">Sigurado ka ba nga gusto nimong ablihan ang mosunod nga payl?\n\nNgalan:\n%s\n\nLokasyon:\n%s\n\nLaki:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Sumala sa gimando sa polisiya sa Google Play, ang mga app dili tugotan nga mag-update sa kaugalingon niini. Palihug i-update ang app gikan sa Google Play.</string>
+    <string name="error_cannot_get_package_info">Dili makakuha og impormasyon sa package gikan sa file nga \"%s\". Bisan ang gipiho nga file dili usa ka APK, o ang package file nadunot.</string>
+    <string name="preference_delete_confirmation">Papason ang kumpirmasyon</string>
+    <string name="preference_delete_confirmation_summary">Pangutan-a ang kumpirmasyon sa dili pa tangtangon ang mga file. Ang pag-disable niini dili kaayo kadasig!</string>
+    
+    
+    <string name="protocol_ftps">Secure nga FTP</string>
+    <string name="unavailable">Dili magamit</string>
+
+    <string name="exporting_failed">Napakyas ang pag-eksport: dili masulat ang backup file</string>
+    <string name="importing_failed">Napakyas ang pag-import: dili mabasa ang backup file</string>
+    <string name="importing_completed">Natapos ang import</string>
+    <string name="invalid_backup_file">Dili balido nga backup file</string>
+    <string name="import_failed_for">Napakyas ang pag-import para sa:</string>
+    <string name="free_of">"%s\n%s nga walay %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin dili suportado sa F- Bersyon sa Droid. Palihog gamita ang Play Store nga bersyon sa Amaze.</string>
+    <string name="disable_player_intent_filters">Disable player intent mga filter</string>
+    <string name="disable_player_intent_filters_summary">Disables Amaze inbuilt media players gikan sa file chooser</string>
+    <string name="no_app_found_intent">Walay app nga nakit-an nga makadumala niini nga tuyo. Buhata naa kay DocumentsUI nga na-install?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection nga mga kredensyal gitangtang</string>
+    <string name="cloud_connection_credentials_cleared_msg">Ikasubo, wala namo mabalhin ang imong cloud connection credentials ngadto sa bag-ong database schema, ug kinahanglan namong tangtangon sila sa app. Palihug paghimo ang koneksyon sa panganod pag-usab.</string>
+</resources>

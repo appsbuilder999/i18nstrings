@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Manaidsear an fhaidhle</string>
+    <string name="drawer_open">Drathair seòlaidh fosgailte</string>
+    <string name="drawer_close">Dùin drathair seòlaidh</string>
+    
+    <string name="apps">Manaidsear App</string>
+    
+    <string name="setting">Roghainnean</string>
+    <string name="select">Tagh Nì</string>
+    <string name="press_again">Brùth a-rithist gus fàgail</string>
+    <string name="open">Fosgail</string>
+    <string name="backup">Cùl-taic</string>
+    <string name="uninstall">Dì-stàlaich</string>
+    <string name="play">Cluich stòr</string>
+    <string name="properties">Togalaichean</string>
+    <string name="copyingapks">A’ dèanamh lethbhreac de %d faidhlichean APK gu %s</string>
+    <string name="delbook">Sguab às an comharra-leabhair</string>
+    <string name="add_to_bookmarks">Cuir ri comharran-lìn</string>
+    <string name="enterpath">Cuir a-steach an t-slighe</string>
+    <string name="cancel">Sguir dheth</string>
+    <string name="create">CRUTHACHADH</string>
+    <string name="loading">A’ luchdachadh…</string>
+    <string name="file_empty">Tha am faidhle falamh</string>
+    <string name="error">Mearachd</string>
+    <string name="search_results">Toraidhean rannsachaidh %s</string>
+    <string name="rename">Ath-ainmich</string>
+    <string name="save">Sàbhail</string>
+    <string name="bookmarks_added">Comharran-leabhair air a chur ris</string>
+    <string name="fileexist">Tha faidhle leis an aon ainm ann mu thràth</string>
+    <string name="name">Ainm</string>
+    <string name="date">Ceann-latha</string>
+    <string name="location">Suidheachadh</string>
+    <string name="size_capitalized">Meud</string>
+    <string name="size">meud a’ phasgain</string>
+    <string name="enterzipname">Cuir a-steach Ainm Zip</string>
+    <string name="no_app_found">Cha deach aplacaid a lorg gus am faidhle seo fhosgladh</string>
+    <string name="copying">A’ dèanamh lethbhreac</string>
+    <string name="moving">A’ gluasad</string>
+    <string name="file">Faidhle</string>
+    <string name="folder">Faidhle</string>
+    <string name="newfolder">Pasgan Ùr</string>
+    <string name="entername">Cuir a-steach ainm</string>
+    <string name="extracting">A’ toirt a-mach</string>
+    <string name="stopping">Stop</string>
+    <string name="open_parent">Fosgail eòlaire Phàrant</string>
+    <string name="open_with">Fosgailte le</string>
+    <string name="share">Roinn</string>
+    <string name="about">Mu</string>
+    <string name="extract">Earrann</string>
+    
+    <string name="yes">Tha</string>
+    <string name="no">Chan eil</string>
+    
+    <string name="dialog_delete_category_directories">Eòlairean</string>
+    <string name="dialog_delete_category_files">Faidhlichean</string>
+    <string name="dialog_delete_disclaimer">Ma sguabas tu às na nithean gu h-ìosal bheir sin air falbh iad bhon inneal agad gu buan agus chan fhaighear air ais iad.</string>
+    <string name="dialog_delete_title">Sguab às nithean gu buan?</string>
+    <string name="deleting">A’ sguabadh às</string>
+    <string name="question_set_path_as_home">A bheil thu airson an t-slighe làithreach a shuidheachadh mar dhachaigh airson an taba seo?</string>
+    <string name="directorysort">Modh Deasaich an Leabhar-seòlaidh</string>
+    <string name="sort_by">Deasaich a-rèir</string>
+    <string name="sort_only_this">A-mhàin am pasgan seo</string>
+    <string name="theme">Cuspair</string>
+    <string name="random">Craiceann air thuaiream</string>
+    <string name="random_summary">Suidhich prìomh dath air thuaiream aig toiseach tòiseachaidh</string>
+    <string name="colorize">Dathan ìomhaigheagan</string>
+    <string name="colorize_summary">Set dath ìomhaigh statach. Chan eil e a’ dol thairis air roghainn dath ìomhaigh an eòlaire.</string>
+    <string name="home">Dachaigh</string>
+    
+    <string name="history">Eachdraidh</string>
+    <string name="copy">Leth-bhreac</string>
+    
+    <string name="root_mode_summary">Airson inneal freumhaichte a-mhàin. Thoir sùil air a-mhàin ma tha thu cinnteach mu dheidhinn.</string>
+    <string name="root_failure">Cha deach ruigsinneachd freumh a thoirt seachad</string>
+    <string name="select_all">Tagh Uile</string>
+    <string name="delete">Sguab às</string>
+    <string name="set_as_home">Suidhich mar Dhachaigh</string>
+    <string name="operation_not_supported">Chan eil taic ris a’ ghnìomhachd</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Solas Stuth</string>
+    <string name="dark">Stuth Dorcha</string>
+    <string name="daytime">Rè an latha</string>
+    <string name="black">Dubh (airson OLED)</string>
+    <string name="system">Siostam (lean cuspair an t-siostaim)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Faidhlichean air a’ mhullach</string>
+    <string name="filesOnTop">Faidhlichean air a’ mhullach</string>
+    <string name="none_on_top">Chan eil gin air a’ mhullach</string>
+    <!--SortBy-->
+    <string name="sort_name">Ainm</string>
+    <string name="lastModified">Atharraichte mu dheireadh</string>
+    <string name="sort_size">Meud</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Tagh faidhle</string>
+    <string name="process_viewer">Sealladair Pròiseas</string>
+    <string name="in_safe">Gun àite</string>
+    <string name="no_file_overwrite">Gun fhaidhle air a sgrìobhadh thairis</string>
+    
+    <string name="overwrite">Air ath-sgrìobhadh</string>
+    <string name="not_allowed">Gun cheadachadh</string>
+    <string name="searching">A’ lorg %s</string>
+    <string name="done">Dèanamh</string>
+    <string name="set">Suidhich</string>
+    <string name="enablerootmde">Cuir an comas Modh Root</string>
+    <string name="goback">Rach air ais</string>
+    <string name="newfile">Faidhle ùr</string>
+    <string name="no_files">Cha robh faidhle</string>
+    <string name="used">àite a chleachdar</string>
+    <string name="used_by_others">air a chleachdadh le daoine eile</string>
+    <string name="free">àite an-asgaidh</string>
+    <string name="listview">Sealladh an Liosta</string>
+    <string name="gridview">Grid Seall</string>
+    <string name="permission">Ceadan</string>
+    <string name="hide">Falaich</string>
+    <string name="exit">Falaich</string>
+    <string name="doforall">Dèan airson a h-uile stuth</string>
+    <string name="gridcolumnno">Àireamh nan colbhan ann an sealladh clèithe</string>
+    <string name="set_random">Thèid atharrachadh às dèidh dhut an aplacaid ath-thòiseachadh</string>
+    <string name="authors">Ùghdaran</string>
+    <string name="changelog">Atharrachadh</string>
+    <string name="ok">Ceart gu leòr</string>
+    <string name="ui">Eadar-aghaidh</string>
+    <string name="general">Coitcheann</string>
+    <string name="thumb_summary">Seall Mion-dhealbhan de dh’ aplacaidean is deilbh</string>
+    <string name="thumb">Seall na h-òrdagan</string>
+    <string name="hidden">Seall Faidhlichean is pasgain falaichte</string>
+    <string name="lastModifiedSummary">Seall ceann-latha agus uair an atharrachaidh mu dheireadh</string>
+    <string name="lastModifiedPref">Seall an Ceann-latha Atharraichte mu dheireadh agus Ùine</string>
+    <string name="size_pref_summary">Seall meud fhaidhlichean agus an àireamh de nithean ann am pasganan</string>
+    <string name="size_pref">Seall Meudan</string>
+    <string name="miscellaneous">Measgaideach</string>
+    <string name="root_pref_summary">Seall ceadan fhaidhlichean agus Filltearan</string>
+    <string name="root_pref">Seall ceadan</string>
+    <string name="about_amaze_file_manager_label">Mu dheidhinn Manaidsear Faidhle Amaze</string>
+    <string name="version">Tionndadh</string>
+    <string name="rate">Dèan measadh air an aplacaid</string>
+    <string name="feedback">Cuir fios air ais</string>
+    <string name="hiddenfiles">Faidhlichean falaichte</string>
+    <string name="type">Seòrsa</string>
+    
+    <string name="add_shortcut">Cuir Ath-ghoirid</string>
+    <string name="unsaved_changes">Atharrachaidhean nach deach a shàbhaladh</string>
+    <string name="unsaved_changes_description">Tha atharraichean agad nach deach a shàbhaladh, a bheil thu airson an sàbhaladh mus fhalbh thu?</string>
+    <string name="saving">Sàbhaladh</string>
+    <string name="package_installer">Stàlaich pacaidean</string>
+    <string name="view">Seall</string>
+    <string name="install">Stàlaich</string>
+    <string name="archive">Tasglann</string>
+    <string name="archive_text">Seo tasglann. Dè an gnìomh a bu toigh leat a dhèanamh?</string>
+    <string name="package_installer_text">Seo stàlaichear pacaid. Dè an gnìomh a bhiodh tu airson a dhèanamh?</string>
+    <string name="xda_title">Snàthainn XDA</string>
+    <string name="xda_summary">Q&amp;amp;A, Cuideachadh &amp;amp; Fuasgladh dhuilgheadasan</string>
+    <string name="circular_images">Cleachd ìomhaighean cruinn airson ìomhaighean agus bhideothan</string>
+    <string name="circular_icons">Cleachd ìomhaighean cruinn</string>
+    <string name="back_title">Seòladh cùil</string>
+    <string name="back_summary">Cuir an comas seòladh cùil gnàthaichte aig mullach an liosta</string>
+    <string name="details">Mion-fhiosrachadh</string>
+    <string name="translators">Eadar-theangairean</string>
+    <string name="german_translation_title">Gearmailtis</string>
+    <string name="italian_translation_title">Eadailtis</string>
+    <string name="french_translation_title">Fraingis</string>
+    <string name="russian_translation_title">Ruisis</string>
+    <string name="spanish_translation_title">Spàinntis</string>
+    <string name="basque_translation_title">Bascais</string>
+    <string name="chinese_translation_title">Sìneach</string>
+    
+    
+    <string name="ukrainian_translation_title">Ucràinis</string>
+    
+    <string name="polish_translation_title">Pòlainn</string>
+    <string name="korean_translation_title">Coirèanais</string>
+    <string name="greek_translation_title">Greugais</string>
+    <string name="dutch_translation_title">Duitseach</string>
+    <string name="romanian_translation_title">Romàinis</string>
+    <string name="vietnamese_translation_title">Bietnam</string>
+    <string name="japanese_translation_title">Iapanach</string>
+    
+
+    <string name="zip_viewer">Sip Viewer</string>
+    <string name="unin_system_apk">Is e aplacaid siostam a tha seo, agus ma sguabas tu às dh’ fhaodadh sin leantainn gu neo-sheasmhachd an t-siostaim.\nAir adhart?</string>
+    <string name="warning">Rabhadh</string>
+    <string name="donate">Thoir seachad</string>
+    <string name="archive_extract_folder">Pasgan Earrann Tasglann</string>
+    <string name="archive_summary">Thèid faidhlichean tasglainn a thoirt a-mach dhan phasgan seo. \'S e an luach bunaiteach an t-eòlaire anns a bheil tasglann an làthair.</string>
+    <string name="open_as">Fosgail Mar</string>
+    <string name="text">Teacs</string>
+    <string name="audio">Fuaim</string>
+    <string name="video">Bhideo</string>
+    <string name="other">Eile</string>
+    <string name="image">Ìomhaigh</string>
+    <string name="contributors">Cuibhrichean</string>
+    <string name="save_paths">Cuimhnich slighean</string>
+    <string name="save_path_summary">Nuair a thòisicheas tu, thèid am pasgan a chaidh fhaicinn o chionn ghoirid airson gach taba a thaisbeanadh</string>
+    <string name="select_intent">Tagh</string>
+    <string name="database">Stòr-dàta</string>
+    <string name="colored_navigation">Bàr seòlaidh dathte</string>
+    <string name="colored_navigvation_sum">Co-dhiù a bheil bàr seòlaidh an t-siostaim air a dhath leis a’ chraiceann</string>
+
+    <string name="color_title">Dath</string>
+    <string name="color_summary">Suidhich dath gu diofar phàirtean UI</string>
+    <string name="primary_color_title">Prìomh Dhathan (Cluais Clì)</string>
+    <string name="primary_color_summary">Suidhich dath gu eileamaidean UI mòr airson an taba clì</string>
+    <string name="accent_color_title">Accent Colour</string>
+    <string name="accent_color_summary">Suidhich dath gu FAB agus UI beag eile eileamaidean</string>
+    <string name="icon_color_title">Dath an Ìomhaigh</string>
+    <string name="icon_color_summary">Suidhich dath nan ìomhaighean</string>
+    <string name="choose_color">Tagh dath</string>
+    <string name="files">Faidhlichean</string>
+    <string name="textreader">Teacsa Leughadair</string>
+    <string name="databasereader">Leughadair Stòr-dàta</string>
+    <string name="show_dividers">Seall Roinnean</string>
+    <string name="needs_access">Ruigsinneachd sgrìobhte a dhìth</string>
+    <string name="needs_access_summary">Tagh an eòlaire freumha aig \t</string>
+    <string name="needs_access_summary1">\ gus cead sgrìobhte a thoirt seachad airson obrachadh</string>
+    <string name="smb_connection">Ceangal SMB</string>
+    <string name="smb_server">Seòladh IP an fhrithealaiche</string>
+    <string name="server_address">Seòladh IP an fhrithealaiche</string>
+    <string name="username">Ainm-cleachdaidh</string>
+    <string name="password">Facal-faire</string>
+    
+    
+    <string name="folders">Filltean</string>
+    <string name="folderfilecount">%1$d pasgain agus %2$d faidhle</string>
+    <string name="videos">Bhideo</string>
+    
+    <string name="documents">Sgrìobhainnean</string>
+    <string name="images">Dealbhan</string>
+    <string name="clear">Soilleir</string>
+    
+    <string name="total">Iomlan:</string>
+    <string name="calculating">ag obrachadh a-mach</string>
+    <string name="sort">Deasaich</string>
+    <string name="ascending">Dìrich</string>
+    <string name="descending">Teàrnadh</string>
+    
+    <string name="doit">A bheil e</string>
+    <string name="want_help">Feumach air cuideachadh?</string>
+    <string name="quick">Ruigsinneachd luath</string>
+    <string name="recent">Faidhlichean o chionn ghoirid</string>
+    <string name="edit">Deasaich</string>
+    <string name="find">Lorg air an duilleag</string>
+    <string name="grant">Tabhartas</string>
+    <string name="grantper">Tabhartas cead</string>
+    <string name="grantfailed">Cha deach cead a thoirt seachad</string>
+    <string name="grant_storage_permission">Feumaidh an aplacaid cead stòraidh gus leantainn air adhart. Ma thèid an còmhradh seo a chur dheth, fàgaidh an aplacaid an aplacaid.</string>
+    <string name="operation_unsuccesful">Obrachadh neo-shoirbheachail</string>
+    <string name="creatingfile">A\' cruthachadh faidhle</string>
+    <string name="creatingfolder">A\' cruthachadh pasgan</string>
+    <string name="renaming">Ath-ainmeachadh</string>
+    <string name="cant_be_empty">Chan urrainn dha %s a bhith falamh</string>
+    <string name="ip">Seòladh</string>
+    <string name="connection_name">Ainm a’ cheangail</string>
+    <string name="no_device_found">Cha deach uidheaman a lorg</string>
+    <string name="path">Slighe</string>
+    <string name="rename_bookmark">Atharraich Comharra-leabhair</string>
+    <string name="cut">Gearr</string>
+    <string name="search">Rannsaich</string>
+    <string name="invalid_name">Ainm mì-dhligheach</string>
+    <string name="search_hint">Seòrsa airson rannsachadh…</string>
+    <string name="advanced_search">Rannsachadh Adhartach</string>
+    <string name="regular_expression">Cruthachadh Cunbhalach</string>
+    <string name="regular_expression_summary">Rannsaich a’ cleachdadh abairt àbhaisteach ann an stoidhle BASH</string>
+    <string name="match_content">Susbaint maids</string>
+    <string name="match_content_summary">Ma thèid a shuidheachadh, thèid abairt àbhaisteach a mhaidseadh le ainm an fhaidhle slàn,
+        coimheadaidh e airson tachartas eile.</string>
+    <string name="start_ftp">Tòisich</string>
+    
+    <string name="ftp_status_running">Rith</string>
+    <string name="ftp_status_not_running">Gun ruith</string>
+    <string name="ftp_no_wifi">Dèan cinnteach gu bheil thu ceangailte ri Wi -Fi</string>
+    
+    <string name="smb_share">Roinn slighe</string>
+    <string name="invalid">Mì-dhligheach %s</string>
+    <string name="ftp_notif_starting">Tha frithealaiche FTP a’ tòiseachadh</string>
+    
+    <string name="ftp_notif_title">Amaze frithealaiche FTP a\' ruith</string>
+    <string name="ftp_notif_text">aig %s</string>
+    
+    <string name="ftp_port_edit_menu_title">Puirt FTP</string>
+    <string name="ftp_port_change_success">Dh\'atharraich port FTP gu soirbheachail</string>
+    <string name="ftp_port_change_error_invalid">Àireamh port neo-dhligheach air a thaghadh</string>
+    <string name="primary_two_title">Prìomh Dhathan (Tab Deas)</string>
+    <string name="primary_two_summary">Suidhich dath gu eileamaidean UI mòr airson an taba deas</string>
+    <string name="support_development">Leasachadh Taic</string>
+    <string name="report_bugs_title">Aithisg Bugs</string>
+    <string name="source_title">Còd stòr</string>
+    <string name="source_summary">Seall ar còd tùsail air GitHub</string>
+    <string name="report_bugs_summary">Thoir cunntas air mialan no iarr feart ùr</string>
+    <string name="translate_title">Eadar-theangaich</string>
+    <string name="translate_summary">Eadar-theangaich Amaze sa chànan agad</string>
+    <string name="paypal_copy_message">Dàta PayPal air a lethbhreacadh dhan chlàr-gearraidh</string>
+    <string name="searching_devices">A’ lorg innealan</string>
+    <string name="use_custom_ip">Cleachd IP gnàthaichte</string>
+    <string name="bookmark_lost">Cha deach comharra-leabhair a lorg, ag ath-chruthachadh…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Mar a gheibh thu cothrom air pasgan Windows co-roinnte air Android (SMB)\n\n
+                
+                    
+                        Dèan comas air roinneadh fhaidhlichean air Windows\n
+                    
+                    
+                        Fosgail am Pannal Smachd, cliog Tagh HomeGroup agus Roinn roghainnean fo Lìonra
+                        agus eadar-lìn, agus cliog air “Atharraich roghainnean roinneadh adhartach,” cuir an comas “File agus
+                        Co-roinn clò-bhualadair" feart.\n\n
+                    
+
+                    
+                        Roghainnean roinneadh fhaidhlichean a bharrachd\n
+                    
+                    
+                        Is dòcha gum bi thu airson na roghainnean roinneadh adhartach eile a rèiteachadh an seo. \n
+                        Mar eisimpleir, dh’ fhaodadh tu cothrom fhaighinn air na faidhlichean agad gun fhacal-faire ma tha earbsa agad uile
+                        innealan air an lìonra ionadail agad. Aon uair ‘s gu bheil roinneadh fhaidhlichean is clò-bhualadair air a chomasachadh, faodaidh tu
+                        fosgail File Explorer no Windows Explorer, cliog deas air pasgan a tha thu airson a roinn, agus
+                        tagh Properties. \n
+                        Briog air a\' phutan Share agus cuir am pasgan ri làimh air an lìonra.\n\n
+                        
+
+                    
+                        Dèan cinnteach gu bheil an dà inneal air an aon Wifi\n
+                    
+                    
+                        Bidh am feart seo a’ toirt seachad faidhlichean air an lìonra ionadail, mar sin do PC agus innealan gluasadach
+                        feumaidh iad a bhith air an aon lìonra ionadail. Chan urrainn dhut faighinn gu pasgan Windows co-roinnte
+                        thairis air an eadar-lìn no nuair a tha am fòn cliste agad ceangailte ris an dàta gluasadach aige - e
+                        Feumaidh ceangal a dhèanamh ri Wi-Fi.\n\n
+                    
+
+                    
+                        Lorg an seòladh IP\n
+                    
+                    
+                        Fosgail Command Prompt. Seòrsa \'ipconfig\' agus brùth Enter. Coimhead airson Default Gateway
+                        fon inneal-atharrachaidh lìonra agad airson seòladh IP an router agad. Coimhead airson
+                        \\"Seòladh IPv4\" fon aon roinn inneal-atharrachaidh gus IP a\' choimpiutair agad a lorg
+                        seòladh.\n\n
+                    
+
+                    Cuir a-steach mion-fhiosrachadh ann am bogsa deasbaid SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Cha ghabh barrachd air 100 faidhle a cho-roinn</string>
+    <string name="otg_access">Tagh freumh inneal OTG</string>
+    <string name="information">Fiosrachadh</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Ruigsinneachd</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Atharraichte</string>
+
+    <string name="title">Tiotal</string>
+    <string name="artist">Neach-ealain</string>
+    <string name="album">Clàr</string>
+    <string name="year">Bliadhna</string>
+    <string name="duration">Fad</string>
+    <string name="comment">Beachd</string>
+    <!-- reference to audio/video file -->
+    
+    
+    <string name="channels">Sianalan</string>
+    <string name="sample_rate">Sampall Ìre</string>
+    
+    <string name="dimensions">Meudan</string>
+    <string name="frame_rate">Reat Frame</string>
+    <string name="image_type">Seòrsa Ìomhaigh</string>
+    <string name="width">Leud</string>
+    <string name="height">Airde</string>
+    <string name="date_modified">Ceann-latha air atharrachadh</string>
+    <string name="software">Bathar-bog</string>
+    <string name="creator">Cruthaiche</string>
+    <string name="camera_brand">Brand camara</string>
+    <string name="camera_model">Camara Modail</string>
+    <string name="date_taken">Ceann-latha air a ghabhail</string>
+    <string name="exposure_time">Ùine Taisbeanaidh</string>
+    <string name="aperture_value">Luach Fosglaidh</string>
+    <string name="image_iso">Rangachadh astar ISO</string>
+    
+    <string name="focal_length">Fad fòcas</string>
+    <string name="subject">Cuspair</string>
+    <string name="author">Ùghdar</string>
+    <string name="keywords">Prìomh fhaclan</string>
+    <string name="producer">Riochdaire</string>
+    <string name="created">Cruthaichte</string>
+    <string name="format">Cruth</string>
+    <string name="pages">Àireamh de Duilleagan</string>
+    <!-- reference to a document file -->
+    
+    <string name="security">Tèarainteachd</string>
+    <string name="paper_size">Meud Pàipear</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Cha do shoirbhich le cuid de na faidhlichean %s</string>
+    <string name="copied">copaidh</string>
+    <string name="moved">air a ghluasad</string>
+    <string name="copy_complete">Leth-bhreac coileanta</string>
+    <string name="waiting_title">A’ feitheamh</string>
+    <string name="waiting_content">A’ feitheamh ri obair gus crìoch a chur air</string>
+    <string name="extract_complete">Toirt a-mach crìochnaichte</string>
+    <string name="compression_complete">Compression Compression Complete</string>
+    
+    <string name="cancelled">Air a chur dheth</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Sgrìobhte</string>
+    <string name="out_of">a-mach à</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">de</string>
+    <string name="processing_file">Faidhle giollachd</string>
+    <string name="current_speed">Astar làithreach</string>
+    <string name="smb_launch_error">&gt; Feumaidh tu am faidhle seo a chopaigeadh airson a stòradh</string>
+    <string name="error_file_not_found">Mearachd: Cha deach am faidhle a lorg</string>
+    <string name="error_io">Mearachd I/O</string>
+    <string name="error_file_too_large">Mearachd: Tha am faidhle ro mhòr</string>
+    <string name="medium_text">&gt;Teacs meadhanach</string>
+    <string name="permission_read">Leugh</string>
+    <string name="permission_write">Sgrìobh</string>
+    <string name="permission_execute">Cuir an gnìomh</string>
+    <string name="permission_owner">Sealbhadair</string>
+    <string name="permission_group">Buidheann</string>
+    <string name="permission_other">Eile</string>
+    <string name="clipboard_path_copy">Eile &gt;Slighe air a chopaigeadh chun bhòrd bhidio</string>
+    <string name="service_timer">Chaidh ùine seachad</string>
+    <string name="please_wait">Feuch an fuirich thu</string>
+
+    <string name="cloud_connection">Ceangal Cloud</string>
+    <string name="cloud_connection_new">Ceangal Cloud Ùr</string>
+    
+    <string name="cloud_drive">&gt;Google Drive™</string>
+    
+    <string name="cloud_box">Bogsa</string>
+    <string name="cloud_get">Faigh plugan Cloud</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Cha deach tagradh a dhèanamh</string>
+    <string name="ftp_path">Slighe Co-roinnte</string>
+    <string name="ftp_path_hint">Slighe gu freumh an eòlaire gus</string>
+    <string name="change">Atharraich</string>
+    <string name="unknown_error">Oops, chaidh rudeigin ceàrr!</string>
+
+    <string name="ftp_path_change_success">Dh’atharraich slighe FTP gu soirbheachail</string>
+    <string name="ftp_path_change_error_invalid">Slighe neo-dhligheach</string>
+    <string name="ftp_status_no_connection">Gun cheangal</string>
+    <string name="ftp_status_secure_connection">Ceangal tèarainte</string>
+    <string name="ftp_status_title">Inbhe</string>
+    
+    <string name="ftp_login">Log a-steach</string>
+    <string name="field_empty">Chan urrainn don raon a bhith falamh</string>
+    <string name="ftp_timeout">Ùine leisg</string>
+    <string name="ftp_seconds">Diog</string>
+    <string name="intellihide_toolbar_title">Crann-Inneal Intellihide</string>
+    <string name="intellihide_toolbar_summary">Falaich am bàr-inneal gu fèin-obrachail fhad ‘s a sgrìobhas tu</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">air a chopaigeadh chun a’ bhòrd bhidio</string>
+    <string name="contributors_1_summary">Eadar-theangachadh</string>
+    <string name="contributors_2_summary">Icon agus brataichean</string>
+    <string name="contributors_3_summary">Inneal Cuspair</string>
+    <string name="contributors_4_summary">Sgàil air cùl FAB</string>
+    <string name="contributors_5_summary">Gluasad dath nuair a bhios tu a’ sleamhnachadh tabaichean</string>
+    <string name="contributors_6_summary">Frithealaiche FTP </string>
+    <string name="contributors_7_summary">A’ losgadh slige eadar-ghnìomhach</string>
+    <string name="connection_exists">Tha ceangal ann mu thràth</string>
+
+    <string name="crypt_encrypting">Crioptachadh</string>
+    <string name="crypt_decrypting">A’ dì-chrioptachadh</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Crioptaichte</string>
+    <string name="crypt_decrypted">Air a dhì-chrioptachadh</string>
+    <string name="crypt_encrypt">Crioptachadh</string>
+    <string name="crypt_decrypt">Dì-chrioptachadh</string>
+    <string name="operation_fail_following">Dh’fhàillig an gnìomh airson na faidhlichean a leanas</string>
+    <string name="crypt_pref_master_password_title">Prìomh fhacal-faire</string>
+    <string name="crypt_pref_master_password_summary">Suidhich prìomh fhacal-faire airson a chrioptachadh.
+        Fàg falamh airson a thoirt air falbh.</string>
+    <string name="crypt_pref_fingerprint_title">Meòir-lorg</string>
+    <string name="crypt_pref_fingerprint_summary">Cleachd lorgan-meòir gus crioptachadh a dhearbhadh</string>
+    <string name="crypt_fingerprint_no_permission">Ceadan lorgan-meòir a dhìth</string>
+    <string name="crypt_fingerprint_not_enrolled">Chan eil lorgan-meòir clàraichte</string>
+    <string name="crypt_fingerprint_no_security">Cha deach tèarainteachd glas-sgrion a lorg</string>
+    <string name="crypt_warning_key">Thoir comhairle dhut, nuair a dh\'atharraicheas tu am pàtran tèarainteachd agad o
+        Roghainnean an t-siostaim, chan urrainn dhut an t-susbaint seo a dhì-chrioptachadh.</string>
+    <string name="warning_never_show">Na cuir fios a-rithist</string>
+    <string name="warning_confirm">Fhuair mi e!</string>
+    <string name="crypt_encryption_fail">Dh’fhàillig an crioptachadh</string>
+    <string name="crypt_decryption_fail">Dh’fhàillig an dì-chrioptachadh</string>
+    <string name="crypt_decryption_fail_password">Facal-faire ceàrr!</string>
+    <string name="crypt_fingerprint_authenticate">Sealladair suathaidh gus leantainn air adhart</string>
+    <string name="authenticate_password">Cuir a-steach facal-faire</string>
+
+    <string name="sidebar_preferences">Barra-taoibh</string>
+    <string name="sidebar_quick_access_title">Inntrigeadh sgiobalta bàr-taoibh</string>
+    <string name="show_quick_access_pref_title">Seall slighean-inntrigidh luath</string>
+    <string name="show_quick_access_pref">Seallaidhean sgiobalta</string>
+    <string name="directory">Eòlaire</string>
+
+    <string name="sidebar_bookmarks_title">Comharran leabhraichean bàr-taoibh</string>
+    <string name="show_bookmarks_pref_title">Seall comharran-leabhair</string>
+    <string name="show_bookmarks_pref">Comharran-leabhair</string>
+    <string name="create_bookmark">Cruthaich comharra-leabhair</string>
+    <string name="edit_bookmark">Deasaich comharra-leabhair</string>
+    <string name="question_delete_bookmark">Sguab às comharra-leabhair?</string>
+
+    <string name="cloud_error_plugin">Cha deach plugan Amaze Cloud a lorg. Feuch an luchdaich thu a-nuas o Play Store.</string>
+    <string name="cloud_error_failed_restart">Dh\'fhàillig luchdachadh a\' cheangail.
+        Fosgail Amaze Cloud aon turas.</string>
+    <string name="cloud_remove">A bheil thu airson an ceangal neòil a thoirt air falbh?</string>
+    <string name="cloud_fail_authenticate">Dh’fhàillig an dearbhadh</string>
+    <string name="cloud_share_copied">Ceangal co-roinnte air a lethbhreacadh dhan chlàr-gearraidh</string>
+    <string name="copy_low_memory">A\' ruith a-mach à cuimhne, feuch an glan thu cuid de RAM</string>
+    <string name="cloud_token_lost">Token air chall, feuch an clàraich a-steach a-rithist</string>
+    <string name="monofont">Cruth-clò Monospace</string>
+    <string name="showHeaders">Seall Cinn-cinn</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Gun nithean</string>
+	<string name="item">nì</string>
+	<string name="items">rudan</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Bu chòir ainm a bhith air an fhaidhle</string>
+    <string name="add_item">Cuir Nì</string>
+    <string name="failed_smb_decrypt_path">Dh\'fhàillig a luchdadh Ceangal SMB</string>
+    <string name="failed_cloud_new_connection">Dh’ fhàillig an ceangal Cloud ùr a chur ris</string>
+    <string name="failed_cloud_api_key">Dh’fhàillig leis dearbhaich plug-in Cloud</string>
+
+    <string name="local_inet_addr_error">Mearachd a’ faighinn seòladh inet ionadail</string>
+    <string name="intent_save_as">Sàbhail mar…</string>
+    
+    <string name="advanced">Adhartach</string>
+    <string name="typeable_paths_title">Slighean gnàthaichte</string>
+    <string name="typeable_paths_summary">Bàr slighe brùth fada gus slighe àbhaisteach a thaipeadh</string>
+    <string name="send_email_to">Cuir post-d gu</string>
+
+    <string name="text_editor">Roghainnean deasaiche teacsa</string>
+    <string name="preference_newstack_title">Fosgail faidhlichean mar ghnìomh ùr</string>
+    <string name="preference_newstack_summary">A’ leigeil leat faidhlichean fhosgladh ann an gnìomhan fa leth. Faigh thuca bho sgrion o chionn ghoirid an t-siostaim.</string>
+    
+    <string name="developers">Leasaichean</string>
+    <string name="no_bitcoin_app">Feuch an stàlaich thu app Bitcoin Wallet</string>
+    <string name="channel_name_normal">Fios Amaze</string>
+    <string name="channel_description_normal">Fios am Manaidsear Faidhle Amaze</string>
+    
+    <string name="channel_description_ftp">Amaze File Manager FTP Server\s Notices</string>
+
+    
+    <string name="processing">Giullachd…</string>
+    <string name="failed_no_connection">Dh’fhàillig luchdadh faidhlichean. Feuch an toir thu sùil air a’ cheangal agad.</string>
+
+    <string name="update">ÙRACHADH</string>
+	<string name="scp_connection">Ceangal SCP/SFTP</string>
+    <string name="ftp_connection">Ceangal FTP</string>
+    <string name="ftps_connection">FTP thairis air Ceangal SSL</string>
+    
+    <string name="ssh_host_key_verification_prompt">Cha ghabh dearbht an òstair \'%1$s\' a stèidheachadh.\n\n\'S e %2$s lorgan-meòir na h-iuchrach %3$s.\n\nBriog air \"Tha\" gus a dhearbhadh dearbh-aithne; air neo, thoir gnogag air \"Chan eil\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Dearbhaich an t-òstair</string>
+    <string name="ssh_select_pem_button">Iuchrach Prìobhaideach SSH</string>
+    <string name="ssh_pem_key_parse_error">Cha ghabh PEM taghte a leughadh: %s</string>
+    <string name="password_unchanged">(gun atharrachadh)</string>
+    <string name="ssh_authentication_failure_password">Dh\'fhàillig an logadh a-steach: Cha ghabh an t-ainm-cleachdaiche \'s am facal-faire a chaidh a sholar a dhearbhadh.</string>
+    <string name="ssh_authentication_failure_key">Dh\'fhàillig an logadh a-steach: Cha ghabh dearbhadh leis an ainm-chleachdaiche \'s an iuchair phrìobhaideach a chaidh a sholarachadh.</string>
+    <string name="ssh_connect_failed">Cha ghabh ceangal ri %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">Rabhadh: THA AIREAMH AITHNEACHADH TAIC AIR ATHARRACHADH!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">THA FEUMAIDH GU RAIBH RIAMH ORAN A DHÈANAMH!\n\nDh\'fhaodadh cuideigin a bhith a\' cluais ort! an-dràsta (ionnsaigh fear-sa-meadhan)! Tha e comasach cuideachd gu bheil an iuchair aoigheachd dìreach air atharrachadh. Chan eil lorgan-meòir na h-iuchrach phoblach a chuir an t-òstair iomallach a\' freagairt ris an fhear a tha air a stòradh ann an Amaze.\n\nCuir fios gu rianadair an t-siostaim agad no suidhich ceangal ùr gus leantainn air adhart a\' ceangal ris an fhrithealaiche.</string>
+    <string name="ssh_key_prompt_passphrase">Cuir a-steach abairt-fhaire na h-iuchrach .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Chan eil an lannsair agad a’ toirt taic do chruthachadh ath-ghoiridean.</string>
+    
+    <string name="select_color_config">Tagh config dath</string>
+    <string name="customize">Gnàthaich</string>
+    
+    <string name="preselected_configs_title">Roghainnean ro-roghnaichte</string>
+    
+    <string name="blue">Gorm</string>
+    <string name="green">Uaine</string>
+    <string name="password_no_match">Chan eil am facal-faire a’ freagairt ri</string>
+    <string name="deselect_all">Dì-thaghadh na h-uile</string>
+    <string name="filename">Ainm faidhle</string>
+    <string name="compress_file_suggest_zip_extension">&gt;Thathas a’ moladh \".zip\" a chleachdadh mar leudachadh an fhaidhle.</string>
+    <string name="about_amaze">Manaidsear faidhle dealbhadh stuth airson Android</string>
+    <string name="license">Ceadachas</string>
+    <string name="libraries">Leabharlannan</string>
+    <string name="password_repeat">&gt;Tagh am facal-faire a-rithist</string>
+    <string name="create_file_suggest_txt_extension">Thathar a’ moladh \".txt\" a chleachdadh mar leudachadh an fhaidhle.</string>
+    <string name="ssh_select_pem">Tagh iuchair phrìobhaideach airson dearbhadh</string>
+    <string name="ssh_key_invalid_passphrase">Facal-faire na h-iuchrach mì-dhligheach.</string>
+    <string name="ssh_key_no_decoder_decrypt">Chan eil dì-chòdachadh dligheach ann gus PEM a dhì-chrioptachadh.</string>
+    <string name="encryption_fail_copy">Dh\'fhàillig ùrachadh inntrig crioptachaidh san stòr-dàta</string>
+    <string name="extracted">Air a thoirt a-mach</string>
+    
+    <string name="processed">Pròiseased</string>
+    <string name="no_obtainable_info">&gt;Chan eil fiosrachadh sam bith mun fhaidhle seo</string>
+    <string name="reopen_from_source">Cha ghabh, fosgail a-rithist on aplacaid mu dheireadh</string>
+    <string name="no_file_error">Chaidh rudeigin ceàrr, chan eil dad ri fhosgladh</string>
+    <string name="file_too_long">The tha am faidhle ro fhada \'s cha ghabh a dheasachadh, ach \'s urrainn dhut a\' chiad %d caractar a leughadh</string>
+    <string name="file_read_only">Tha am faidhle a chaidh fhosgladh \'na leughadh a-mhàin.</string>
+    <string name="got_it">Fhuair e!</string>
+    <string name="encrypt_file_save_as">Sàbhail crioptaichte Faidhle Mar…</string>
+    <string name="encrypt_folder_save_as">Sàbhail am pasgan crioptaichte Mar…</string>
+    <string name="encrypt_option_use_aze">Cleachd cruth crioptachaidh Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>’S e cruth crioptachaidh faidhle le còd fosgailte a th’ ann an AESCrypt a tha stèidhichte air crioptachadh AES. Tha e cuideachd so-ghiùlain, faodar a dhì-chrioptachadh le prògraman AESCrypt air àrd-ùrlaran eile.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">làrach-lìn AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Tha cruth crioptachaidh Amaze stèidhichte air crioptachadh AES cuideachd; ach eadar-dhealaichte bho chruth AESCrypt, chan urrainnear a dhì-chrioptachadh ach leis an inneal seo; cuideachd chan fhaod thu Amaze File Manager a dhì-stàladh on inneal seo no an dòigh anns a ghlasas tu an scrion atharrachadh, air neo cha bhith dòigh agad air am faidhle crioptaichte fhaighinn air ais.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Feumaidh faidhlichean crioptaichte \".aze\" a chleachdadh mar leudachadh an fhaidhle.</string>
+    <string name="encrypt_file_must_end_with_aes">Feumaidh faidhlichean crioptaichte \".aes\" a chleachdadh mar leudachan an fhaidhle.</string>
+    <string name="error_aescrypt_decrypt_failed">Cha ghabh a dhì-chrioptachadh \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Cha ghabh sgrìobhadh thairis air an fhaidhle.</string>
+    <string name="saved_single_file">Sàbhail am faidhle mar \'%s\'.</string>
+    <string name="saved_multi_files">%d faidhle air a shàbhaladh.</string>
+    <string name="create_hidden_file_warn">Bidh am faidhle a chaidh a chruthachadh am falach air liosta nam faidhle.</string>
+    <string name="grant_apkinstall_permission">Feumaidh an aplacaid cead gus na h-aplacaidean a stàladh gus leantainn air adhart.</string>
+    <string name="time_remaining">An ùine air fhàgail</string>
+    <string name="transfer_rate">Ìre tar-chuir</string>
+    <string name="unknown">neo-aithnichte</string>
+    <string name="multiple_invalid_archive_entries">Cha ghabh cuid de na faidhlichean san tasglann a thoirt a-mach; dh\'fhaoidte gun deach an tasglann a mhilleadh no gun tàinig e o thùs droch-rùnach.</string>
+    <string name="saf_otg_explanation">Rudaidh tu a-nis gu siostam fhaidhlichean Android airson adhbharan tèarainteachd. Tagh an inneal USB on liosta air an taobh chlì.</string>
+    <string name="donation_thanks">Tapadh leat airson an tabhartas, tha seo gar cumail brosnachail! (:</string>
+    <string name="enable_marquee_filename">Cuir an comas buaidh pàillean airson ainmean faidhle</string>
+    <string name="archive_password_prompt">Cuir a-steach facal-faire an tasglann:</string>
+    
+    <string name="cannot_extract_archive">Chan urrainn dhuinn an tasglann \"%s\" a tharraing a-mach: %s</string>
+    <string name="archive_unsupported_or_corrupt">Cha ghabh an tasglann \"%s\" fhosgladh. Chan urrainn dhuinn an dàrna cuid an tasglann fhosgladh, neo chaidh an tasglann a mhilleadh.</string>
+    <string name="close">Dùin</string>
+    <string name="bookmark_exists">Tha an comharra-leabhair ann</string>
+    <string name="hide_media">Falaich o bhrobhsairean mheadhanan</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">THA FEUMAIDH THA ANN. A\' DÈANAMH rudeigin olc!\n\nDh\'fhaodadh cuideigin a bhith a\' cluais ort an-dràsta (ionnsaigh fear-sa-meadhan)! Tha e comasach cuideachd gu bheil an iuchair aoigheachd dìreach air atharrachadh. Chan eil lorgan-meòir na h-iuchrach phoblach a chuir an t-òstair iomallach a\' freagairt ris an fhear a tha air a stòradh ann an Amaze.\n\nFaodaidh tu leantainn air adhart le bhith ag ùrachadh lorgan-meòir an òstair no ùrachadh roghainnean ceangail SSH a chur dheth.</string>
+    <string name="update_host_key">Ùraich an t-òstair key</string>
+    <string name="cancel_recommended">Sguir dheth (Air a mholadh)</string>
+    
+    
+    <string name="failed_install_apk">Dh\'fhàillig stàladh</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Stòradh a-staigh</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Cairt SD</string>
+    <string name="choose_folder">Tagh am pasgan seo</string>
+    
+    <string name="some_files_failed_invalid_operation">Dh’fhàillig cuid de na faidhlichean ri linn gus obrachadh neo-dhligheach</string>
+    <string name="ftp_server_prompt_connect_to_network">Ceangail ri lìonra no cuir an comas AP</string>
+    <string name="ftp_server_open_settings">Roghainnean fosgailte</string>
+    <string name="move">Gluais</string>
+    <string name="select_save_location">Tagh àite airson a shàbhaladh</string>
+    <string name="scp_default_path">Slighe bunaiteach (Roghainneil)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Duilich, cha bu chòir sin a bhith air tachairt.</string>
+    
+    <string name="error_report_button_text">Thoir cunntas air a\' mhearachd seo tro phost-d</string>
+    <string name="error_report_button_telegram">Thoir cunntas air a\' mhearachd seo tro thelegram</string>
+    <string name="copy_for_github">Leth-bhreac den aithisg cruthaichte</string>
+    <string name="error_report_open_issue_button_text">Aithisg air GitHub</string>
+    <string name="error_report_open_github_notice">Feuch an dèan thu cinnteach a bheil cùis a’ bruidhinn mun tubaist agad ann mu thràth.</string>
+    <string name="error_snackbar_message">Duilich, chaidh rudeigin ceàrr.</string>
+    <string name="error_snackbar_action">Aithisg</string>
+    
+    <string name="what_happened_headline">Dè thachair:</string>
+    <string name="info_labels">Dè: \nIarrtas: \nGMT Ùine: \nPasgan: \n Tionndadh: \nOS dreach: \nInneal: \nModel: \nProduct:</string>
+    <string name="your_comment">Do bheachd (ann am Beurla):</string>
+    <string name="error_details_headline">Mion-fhiosrachadh:</string>
+    <string name="app_ui_crash">Chaidh App/UI a thuisleadh</string>
+    <string name="error_report_title">Mearachd aithisg</string>
+    <string name="crash_report_copied">Aithisg tuisle air a lethbhreacadh dhan chlàr-gearraidh</string>
+    <string name="disableIpcSignature">Cuir à comas seic soidhnidh IPC (Airson frithealaichean dìleab SMBv1 - UNSAFE!)</string>
+    <string name="cannot_delete_file">Cha ghabh am faidhle a sguabadh às</string>
+    <string name="cannot_delete_file_with_reason">Cha ghabh am faidhle a sguabadh às - %s</string>
+    <string name="cannot_rename_file">Chan urrainn dhuinn am faidhle %s ath-ainmeachadh - %s</string>
+    <string name="cannot_read_directory">Cha ghabh am pasgan a leughadh %s - %s</string>
+    <string name="just_once">Dìreach Aon uair</string>
+    <string name="always">An-còmhnaidh</string>
+    <string name="choose_different_app">&gt;Tagh aplacaid eadar-dhealaichte</string>
+    <string name="clear_open_file">Cleachd an tasgadan</string>
+    <string name="clear_open_file_summary">Glan na h-aplacaidean fosglaidh faidhle bunaiteach taghte</string>
+    <string name="ftp_readonly">Ruigsinneachd ri leughadh a-mhàin</string>
+    <string name="legacy_listing_title">Cleachd liosta dìleab airson root</string>
+    <string name="legacy_listing_summary">Ma tha e air a chomasachadh, cleachdaidh sinn an dòigh dìleab gus faidhlichean a liostadh</string>
+    <string name="error_unsupported_v5_rar">Chan eil taic ri tasglann RAR \"%s\" mar thasglann RAR v5.</string>
+    <string name="ftp_prompt_restart_server">Feumaidh tu am frithealaiche FTP ath-thòiseachadh gus na h-atharraichean a chur an gnìomh.</string>
+    <string name="error_permission_denied">Cead air a dhiùltadh</string>
+    <string name="error_archive_password_incorrect">Facal-faire tasglann ceàrr.</string>
+    <string name="error_archive_cannot_extract">Chan urrainn dhuinn inntrigeadh tasglainn \"%s\" a thoirt a-mach gu \"%s\".</string>
+    <string name="drag_and_drop_preference">Tagh slaod agus leig às roghainn (Deuchainneach)</string>
+    <string name="drag_to_move_copy">Dèan suathadh is slaod gus faidhlichean a ghluasad no lethbhreac a dhèanamh dhiubh</string>
+    <string name="drag_to_select">Cuir suath is slaod gus faidhlichean a thaghadh</string>
+    <string name="disable">Dì-chomasach</string>
+    <string name="choose_operation">Tagh gnìomh a nì thu</string>
+    <string name="remember">Cuimhnich airson an ath thuras</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Thoir cothrom SAF don fhrithealaiche FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Leis gur e seo a’ chiad ruith agad den fhrithealaiche FTP, agus gu bheil thu a’ cleachdadh stòradh a-staigh an inneil mar phasgan co-roinnte, feuch an leig thu le Amaze gus faighinn chun stòradh le SAF.\n\n
+
+Cha leig thu leas seo a dhèanamh ach aon turas, gus an ath thuras a thaghas tu àite ùr airson a cho-roinneadh.</string>
+    <string name="android_data_prompt_saf_access">Bho Android 10, bha Android air bacadh a chuir air clàran sònraichte, agus feumaidh iad faighinn thuige le Storage Access Framework.\n \nFeuch an leig thu le Amaze cothrom fhaighinn air an eòlaire o mhanaidsear fhaidhlichean an t-siostaim le bhith a’ cnagadh air \"Ceadaich inntrigeadh\".</string>
+    <string name="android_data_prompt_saf_access_title">Thoir seachad ruigsinneachd SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Cleachd siostam fhaidhlichean dìleab</string>
+    <string name="ftp_preference_saf_filesystem">Cuir seo an comas airson taic airson stòradh inneal taobh a-muigh a chleachdadh air dreachan Android nas ùire</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Chaidh slighe co-roinnte frithealaiche FTP ath-shuidheachadh gu stòradh a-staigh fhad ‘s a tha thu a’ tionndadh air ais gu buileachadh siostam faidhle dìleab. Feuch an tagh thu slighe ùr leis a\' chlàr gu h-àrd air an làimh dheis mar a dh\'fheumar.</string>
+    <string name="ftp_server_reset_notify">Chaidh slighe co-roinnte an fhrithealaiche FTP ath-shuidheachadh gu stòradh a-staigh</string>
+    <string name="ftp_server_root_unavailable">Tha thu a\' taghadh frith-rathad a dh\'fheumas ruigsinneachd freumhaich. Feuch an cuir thu an comas root explorer ann an roghainnean ma tha an inneal agad freumhaichte.</string>
+    <string name="ftp_server_root_filesystem_warning">Tha thu a’ taghadh slighe a dh’ fheumas ruigsinneachd fhreumh, a bheir comas do ghnìomhan leughaidh/sgrìobhaidh san t-siostam fhaidhlichean air fad air an inneal agad, agus tha e cunnartach - dh’ fhaodadh mearachdan gun chùram briogadh air an inneal agad!\n\nA bheil thu cinnteach?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Mearachd a\' fosgladh URI \"%s\" airson a leughadh.</string>
+    <string name="error_empty_archive">\"%s\" \'S e tasglann falamh a tha ann.</string>
+    <string name="error_bad_archive_without_info">\'S e tasglann truaillidh a tha ann an \"%s\".</string>
+    <string name="error_bad_archive_with_info">Tha \"%s\" na thasglann truaillidh.\nTeachdaireachd bhon neach-tarraing: \"%s\"</string>
+    <string name="security_error">Cha b\' urrainn dhuinn am faidhle fhosgladh leis an aplacaid seo</string>
+    <string name="cloud_drive_tooltip">Cruthaich ceangal Google Drive™ airson faidhlichean a stiùireadh bho taobh a-staigh Amaze File Manager.</string>
+    <string name="signin_with_google_title">Dearbhaich gun cleachd thu Google Drive™</string>
+    <string name="show_system_apps">Seall aplacaidean an t-siostaim</string>
+    <string name="system_apps">Aplacaidean siostam</string>
+    <string name="select_inverse">Tagh Inverse</string>
+    <string name="select_by_type">Tagh a-rèir seòrsa</string>
+    <string name="select_by_date">Tagh a-rèir ceann-latha</string>
+    <string name="select_similar">Tagh a leithid</string>
+    <string name="error_fetching_google_play_product_list">Mearachd a’ faighinn liosta toraidh o Google Play.</string>
+    <string name="grant_all_files_permission">Bho Android 11, tha Google ag iarraidh air manaidsearan faidhle cead neach-cleachdaidh iarraidh airson a h-uile faidhle air an inneal a riaghladh. Mion-fhiosrachadh an seo.
+        \n\nTha feum aig Manaidsear Faidhle Amaze air a\' chead seo cuideachd. Às deidh dhut “Grant” a bhrùthadh an seo, feuch an tagh thu Ceadaich ruigsinneachd gus a h-uile faidhle a riaghladh roghainn air an ath scrion.
+        \n\nMa thèid an còmhradh seo a chur dheth, fàgaidh e an aplacaid.</string>
+    <string name="user_apps">Aplacaidean cleachdaiche</string>
+    <string name="appearance">Coltas</string>
+    <string name="behavior">Giùlan</string>
+    <string name="appearance_summary">Gnàthaich cuspair, dathan agus coltas manaidsear an fhaidhle</string>
+    <string name="ui_summary">Smachd dè am fiosrachadh a sheallas tu, gnàthaich am bàr-taoibh, agus tog roghainnean an UI</string>
+    <string name="behavior_summary">Atharraich giùlan leithid rannsachadh adhartach agus am bu chòir dhut faidhlichean fhosgladh mar ghnìomh ùr</string>
+    <string name="security_summary">Suidhich am facal-faire agus crioptachadh</string>
+    <string name="backup_summary">Roghainnean Export/Import Amaze</string>
+
+    <string name="pref_export">às-mhalairt</string>
+    <string name="pref_export_summary">Roghainnean às-mhalairt</string>
+    <string name="pref_import">Iom-phort</string>
+    <string name="pref_import_summary">Roghainnean ion-phortadh</string>
+
+    <string name="quick_desc">Faidhlichean air inntrigeadh o chionn ghoirid tro Amaze</string>
+    <string name="recent_desc">Faidhlichean a chaidh a chruthachadh no atharrachadh o chionn ghoirid</string>
+    <string name="error_cannot_find_way_open">Cha b\' urrainn dhuinn dòigh a lorg gus am faidhle fhosgladh</string>
+    <string name="error_cant_decompress_that_file">Cha ghabh an tasglann a chaidh iarraidh a phròiseasadh</string>
+    <string name="analyse_storage">Sgrùdaich Stòradh</string>
+    
+    <string name="download_amaze_utils_text">Tha thu gad ath-stiùireadh gu Amaze File Utilities. Is e an aplacaid le còd fosgailte againn a tha air luchd-amhairc claisneachd/bhideo/ìomhaigh/sgrìobhainnean a thogail a-steach, a leigeas leat faidhlichean sgudail a mhion-sgrùdadh gus stòradh a shaoradh, gluasad luath le bhith a’ cleachdadh Wifi P2P agus mòran a bharrachd.\nFeuch an toir thu taic dhuinn le bhith feuchainn air.</string>
+    <string name="download">Luchdaich a-nuas</string>
+    
+    <string name="amaze_utils_installed_alias">Tapadh leibh airson Amaze File Utilities a stàladh. Tha thu gad ath-stiùireadh chun na h-aplacaid.</string>
+    <string name="image_viewer">Sealladair Ìomhaigh iongantach</string>
+    
+    
+    
+    <string name="docx_viewer">Amaze Sealladair Sgrìobhainnean</string>
+    <string name="share_logs">Co-roinn logaichean</string>
+    <string name="share_logs_summary">Co-roinn logaichean a chaidh an glacadh tro phost-d / teileagram</string>
+    <string name="open_with_amaze">Fosgail le Amaze</string>
+    <string name="confirmation">Dearbhadh</string>
+    <string name="open_file_confirmation">A bheil thu cinnteach gu bheil thu airson am faidhle a leanas fhosgladh?\n\nAinm:\n%s\n\nSuidheachadh:\n%s\n\nMeud:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">A rèir òrdughan poileasaidh Google Play, chan eil cead aig aplacaidean ùrachadh leotha fhèin. Feuch an ùraich thu an aplacaid o Google Play.</string>
+    <string name="error_cannot_get_package_info">Cha ghabh fiosrachadh pacaid fhaighinn on fhaidhle \"%s\". An dara cuid chan e APK a tha san fhaidhle ainmichte, no tha am faidhle pacaid truaillidh.</string>
+    <string name="preference_delete_confirmation">Sguab às dearbhadh</string>
+    <string name="preference_delete_confirmation_summary">Faighnich dearbhadh mus sguab thu às na faidhlichean. Tha seo air a mhì-mhisneachadh gu mòr!</string>
+    
+    
+    <string name="protocol_ftps">FTP tèarainte</string>
+    <string name="unavailable">Cha robh e ri fhaighinn</string>
+
+    <string name="exporting_failed">Dh\'fhàillig às-phortadh: cha b\' urrainn dhuinn am faidhle cùl-taice a sgrìobhadh</string>
+    <string name="importing_failed">Dh\'fhàillig an ion-phortadh: cha b\' urrainn dhuinn an lethbhreac-glèidhidh a leughadh faidhle</string>
+    <string name="importing_completed">In-mhalairt crìochnaichte</string>
+    <string name="invalid_backup_file">Faidhle cùl-taice mì-dhligheach</string>
+    <string name="import_failed_for">Dh\'fhàillig an ion-phortadh airson:</string>
+    <string name="free_of">"%s\n%s saor bho %s</string>
+    <string name="cloud_error_fdroid">Chan eil taic aig Amaze Cloud Plugin le F- An tionndadh Droid. Cleachd dreach Play Store de Amaze.</string>
+    <string name="disable_player_intent_filters">Cuir dheth sìoltachain rùn cluicheadair</string>
+    <string name="disable_player_intent_filters_summary">A’ cuir à comas cluicheadairean meadhanan inbuilt Amaze o roghnaichear faidhle</string>
+    <string name="no_app_found_intent">Cha deach aplacaid a lorg gus an rùn seo a làimhseachadh. a bheil DocumentsUI agad air a chuir a-steach?</string>
+    <string name="cloud_connection_credentials_cleared">Teisteanasan Cloud Connection air am fuadach</string>
+    <string name="cloud_connection_credentials_cleared_msg">Gu mì-fhortanach, cha b’ urrainn dhuinn na teisteanasan ceangail sgòthan agad a ghluasad gu sgeama an stòr-dàta ùr, agus b’ fheudar dhuinn an toirt às an aplacaid. Feuch an cruthaich thu an ceangal neòil a-rithist.</string>
+</resources>

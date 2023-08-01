@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="dialog_delete_title">Supprimer définitivement l\'élément&#xa0;?</string>
+    <string name="deleting">Supprimer</string>
+    <string name="question_set_path_as_home">Voulez-vous définir le chemin actuel comme page d\'accueil pour cette tab&#xa0;?</string>
+    <string name="directorysort">Mode de tri du répertoire</string>
+    <string name="sort_by">Méthode de tri</string>
+    <string name="sort_only_this">Ce dossier uniquement</string>
+    <string name="theme">Thème</string>
+    <string name="random">Aspect aléatoire</string>
+    <string name="random_summary">Définir une couleur primaire aléatoire au démarrage</string>
+    <string name="colorize">Colorer l\'icône</string>
+    <string name="colorize_summary">Définir la couleur de l\'icône statique. ne remplace pas les préférences de couleur des icônes de répertoire.</string>
+    <string name="smb_instructions"><![CDATA[Comment accéder au dossier Windows partagé sur Android (SMB)\n\n  Activer le partage de fichiers sous Windows\n Ouvrez le Panneau de configuration, cliquez sur Choisir les options de groupe résidentiel et de partage sous Réseau et Internet, puis cliquez sur "Modifier les paramètres de partage avancés", activez l\'option "Fichier et fonctionnalité "Partage d\'imprimante".\n\n Paramètres de partage de fichiers supplémentaires\n Vous pouvez également configurer les autres paramètres de partage avancés ici. \n Par exemple, vous pouvez autoriser l\'accès à vos fichiers sans mot de passe si vous faites confiance à tous les appareils de votre réseau local. Une fois le partage de fichiers et d\'imprimantes activé, vous pouvez ouvrez l\'explorateur de fichiers ou l\'explorateur Windows, cliquez avec le bouton droit sur un dossier que vous souhaitez partager, et sélectionnez Propriétés. \n Cliquez sur le bouton Partager et rendez le dossier disponible sur le réseau.\n\n Assurez-vous que les deux appareils sont sur le même réseau Wi-Fi\n Cette fonctionnalité rend les fichiers disponibles sur le réseau local, afin que votre PC et vos appareils mobiles doivent être sur le même réseau local. Vous ne pouvez pas accéder à un dossier Windows partagé sur Internet ou lorsque votre smartphone est connecté à ses données mobiles — il doit être connecté au Wi-Fi.\n\n Rechercher l\'adresse&nbsp;IP\n Ouvrez l\'invite de commande. Tapez \'ipconfig\' et appuyez sur Entrée. Rechercher la passerelle par défaut sous votre adaptateur réseau pour l\'adresse IP de votre routeur. Chercher \\\"Adresse IPv4\\\" sous la même section d\'adaptateur pour trouver l\'IP de votre ordinateur adresse.\n\nEntrez les détails dans la boîte de dialogue SMB\n]]></string>
+</resources>

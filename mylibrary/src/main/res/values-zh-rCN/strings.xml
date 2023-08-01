@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="properties_copied_clipboard">已复制到剪贴板</string>
+    <string name="contributors_1_summary">翻译</string>
+    <string name="contributors_2_summary">图标和横幅</string>
+    <string name="contributors_3_summary">主题引擎</string>
+    <string name="contributors_4_summary">背后的阴影工厂</string>
+    <string name="contributors_5_summary">滑动选项卡时的颜色过渡</string>
+    <string name="contributors_6_summary">Ftp服务器</string>
+    <string name="contributors_7_summary">启动交互式shell</string>
+    <string name="connection_exists">连接已存在</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="sidebar_preferences">侧边栏</string>
+    <string name="sidebar_quick_access_title">侧边栏快速访问</string>
+    <string name="show_quick_access_pref_title">显示快速访问</string>
+    <string name="show_quick_access_pref">快速访问</string>
+    <string name="directory">目录</string>
+
+    <string name="sidebar_bookmarks_title">侧边栏书签</string>
+    <string name="show_bookmarks_pref_title">显示书签</string>
+    <string name="show_bookmarks_pref">书签</string>
+    <string name="create_bookmark">创建书签</string>
+    <string name="edit_bookmark">编辑书签</string>
+    <string name="question_delete_bookmark">删除书签？</string>
+
+    <string name="cloud_error_plugin">未找到 Amaze 云插件。请从 Play 商店下载。</string>
+    <string name="cloud_error_failed_restart">无法加载链接。
+        请打开amaze cloud一次。</string>
+    <string name="cloud_remove">您要删除云连接吗？</string>
+</resources>

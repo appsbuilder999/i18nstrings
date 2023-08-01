@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">አስደናቂ ፋይል አቀናባሪ</string>
+    <string name="drawer_open">የዳሰሳ መሳቢያን ክፈት</string>
+    <string name="drawer_close">የዳሰሳ መሳቢያን ዝጋ</string>
+    <string name="icon">አዶ</string>
+    <string name="apps">የመተግበሪያ አስተዳዳሪ</string>
+    <string name="ftp">ኤፍቲፒ አገልጋይ</string>
+    <string name="setting">ቅንብሮች</string>
+    <string name="select">ንጥሉን ይምረጡ</string>
+    <string name="press_again">ለመውጣት እንደገና ይጫኑ</string>
+    <string name="open">ክፈት</string>
+    <string name="backup">ምትኬ</string>
+    <string name="uninstall">አራግፍ</string>
+    <string name="play">Play መደብር</string>
+    
+    <string name="copyingapks">%d ኤፒኬ ፋይሎችን ወደ %s በመቅዳት</string>
+    <string name="delbook">ዕልባት ሰርዝ</string>
+    <string name="add_to_bookmarks">ወደ እልባቶች አክል</string>
+    <string name="enterpath">ዱካ አስገባ</string>
+    <string name="cancel">ሰርዝ</string>
+    <string name="create">ፍጠር</string>
+    <string name="loading">በመጫን ላይ…</string>
+    <string name="file_empty">ፋይሉ ባዶ ነው</string>
+    <string name="error">ስህተት</string>
+    <string name="search_results">የ%s ፍለጋ</string>
+    <string name="rename">እንደገና ይሰይሙ</string>
+    <string name="save">አስቀምጥ</string>
+    <string name="bookmarks_added">ዕልባቶች ታክለዋል</string>
+    <string name="fileexist">ተመሳሳይ ስም ያለው ፋይል አስቀድሞ አለ</string>
+    <string name="name">ስም</string>
+    <string name="date">ቀን</string>
+    <string name="location">አካባቢ</string>
+    <string name="size_capitalized">መጠን</string>
+    <string name="size">የአቃፊ መጠን</string>
+    <string name="enterzipname">ዚፕ ስም ያስገቡ</string>
+    <string name="no_app_found">ይህን ፋይል የሚከፍት ምንም መተግበሪያ አልተገኘም</string>
+    <string name="copying">መቅዳት</string>
+    <string name="moving">ማንቀሳቀስ</string>
+    <string name="file">ፋይል</string>
+    <string name="folder">አቃፊ</string>
+    <string name="newfolder">አዲስ አቃፊ</string>
+    <string name="entername">ስም ያስገቡ</string>
+    <string name="extracting">ማውጣት</string>
+    <string name="stopping">ማቆም</string>
+    <string name="open_parent">የወላጅ ማውጫን ክፈት</string>
+    <string name="open_with">በ</string>
+    <string name="share">ክፍት</string>
+    <string name="about">ስለ</string>
+    <string name="extract">ማውጣት</string>
+    
+    <string name="yes">አዎ</string>
+    <string name="no">አይ</string>
+    
+    <string name="dialog_delete_category_directories">ዳይሬክቶሪዎች</string>
+    <string name="dialog_delete_category_files">ፋይሎች</string>
+    <string name="dialog_delete_disclaimer">ከታች ያሉትን ንጥሎች መሰረዝ ከመሣሪያዎ ላይ እስከመጨረሻው ያስወግዳቸዋል እና ሊመለሱ አይችሉም።</string>
+    <string name="dialog_delete_title">ንጥሎቹን እስከመጨረሻው ይሰርዙ?</string>
+    <string name="deleting">በመሰረዝ ላይ</string>
+    <string name="question_set_path_as_home">ለዚህ ትር የአሁኑን መንገድ እንደ ቤት ማቀናበር ይፈልጋሉ?</string>
+    <string name="directorysort">የመምሪያ ደርድር ሁነታ</string>
+    <string name="sort_by">መደርደር በ</string>
+    <string name="sort_only_this">ይህ አቃፊ ብቻ</string>
+    <string name="theme">ገጽታ</string>
+    <string name="random">የዘፈቀደ ቆዳ</string>
+    <string name="random_summary">በጅምር ላይ የዘፈቀደ ዋና ቀለም ያዘጋጃል</string>
+    <string name="colorize">አዶዎችን ቀለም ይስሩ</string>
+    <string name="colorize_summary">አዘጋጅ የማይንቀሳቀስ አዶ ቀለም። የማውጫ አዶ ቀለም ምርጫን አይሽርም።</string>
+    <string name="home">ቤት</string>
+    <string name="paste">ለጥፍ</string>
+    <string name="history">ታሪክ</string>
+    <string name="copy">ቅዳ</string>
+    
+    <string name="root_mode_summary">ለ root መሣሪያ ብቻ። ስለእሱ እርግጠኛ ከሆኑ ብቻ ያረጋግጡ።</string>
+    <string name="root_failure">Root Access አልተሰጠም</string>
+    <string name="select_all">ሁሉንም ምረጥ</string>
+    <string name="delete">ሰርዝ</string>
+    <string name="set_as_home">እንደ ቤት አዘጋጅ</string>
+    <string name="operation_not_supported">ክዋኔው አይደገፍም</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">ቁሳቁስ ብርሃን</string>
+    <string name="dark">ቁሳቁስ ጨለማ</string>
+    <string name="daytime">ቀን</string>
+    <string name="black">ጥቁር (ለ OLED)</string>
+    <string name="system">ስርዓት (የስርዓት ጭብጡን ተከተል)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">አቃፊዎች ከላይ</string>
+    <string name="filesOnTop">ከላይ ያሉ ፋይሎች</string>
+    <string name="none_on_top">ምንም ከላይ</string>
+    <!--SortBy-->
+    <string name="sort_name">ስም</string>
+    <string name="lastModified">ለመጨረሻ ጊዜ የተሻሻለው</string>
+    <string name="sort_size">መጠን</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">ፋይል ምረጥ</string>
+    <string name="process_viewer">ሂደት መመልከቻ</string>
+    <string name="in_safe">በቂ ያልሆነ ቦታ</string>
+    <string name="no_file_overwrite">ፋይል አልተገለበጠም</string>
+    <string name="skip">ዝለል</string>
+    <string name="overwrite">ይተካ</string>
+    <string name="not_allowed">አልተፈቀደም</string>
+    <string name="searching">%s መፈለግ</string>
+    <string name="done">ተከናውኗል</string>
+    <string name="set">አዋቅር</string>
+    <string name="enablerootmde">Root Mode ን አንቃ</string>
+    <string name="goback">ተመለስ</string>
+    <string name="newfile">አዲስ ፋይል</string>
+    <string name="no_files">ምንም ፋይሎች</string>
+    <string name="used">ያገለገለ ባዶ ቦታ</string>
+    <string name="used_by_others">ሌሎች ጥቅም ላይ የዋለ</string>
+    <string name="free">ነጻ ቦታ</string>
+    <string name="listview">የዝርዝር እይታ</string>
+    <string name="gridview">ግሪድ ይመልከቱ</string>
+    <string name="permission">ፍቃዶች</string>
+    <string name="hide">ደብቅ</string>
+    <string name="exit">ውጣ</string>
+    <string name="doforall">ለሁሉም ነገሮች አድርግ</string>
+    <string name="gridcolumnno">በፍርግርግ እይታ ውስጥ ያሉ የአምዶች ብዛት</string>
+    <string name="set_random">መተግበሪያውን ዳግም ካስጀመሩት በኋላ ለውጦች ይከሰታሉ</string>
+    <string name="authors">ደራሲዎች</string>
+    
+    <string name="ok">እሺ</string>
+    <string name="ui">በይነገጽ</string>
+    <string name="general">አጠቃላይ</string>
+    <string name="thumb_summary">የመተግበሪያዎች እና ምስሎች ጥፍር አከሎችን አሳይ</string>
+    <string name="thumb">ድንክዬዎችን አሳይ</string>
+    <string name="hidden">የተደበቁ ፋይሎችን እና አቃፊዎችን አሳይ</string>
+    <string name="lastModifiedSummary">የመጨረሻውን ማሻሻያ ቀን እና ሰዓት አሳይ</string>
+    <string name="lastModifiedPref">የተሻሻለው የመጨረሻ ቀን እና ቀን አሳይ ጊዜ</string>
+    <string name="size_pref_summary">በአቃፊዎች ውስጥ የፋይሎች መጠን እና የንጥሎች ብዛት አሳይ</string>
+    <string name="size_pref">መጠን አሳይ</string>
+    <string name="miscellaneous">የተለያዩ</string>
+    <string name="root_pref_summary">የፋይሎች እና አቃፊዎች ፍቃዶችን አሳይ</string>
+    <string name="root_pref">ፈቃዶችን አሳይ</string>
+    <string name="about_amaze_file_manager_label">ስለአስገራሚ ፋይል አቀናባሪ</string>
+    <string name="version">ስሪት</string>
+    <string name="rate">መተግበሪያውን ደረጃ ይስጡት</string>
+    <string name="feedback">ግብረመልስ ላክ</string>
+    <string name="hiddenfiles">የተደበቁ ፋይሎች</string>
+    <string name="type">ይተይቡ</string>
+    <string name="root_directory">ስር</string>
+    <string name="add_shortcut">አቋራጭ አክል</string>
+    <string name="unsaved_changes">ያልተቀመጡ ለውጦች</string>
+    <string name="unsaved_changes_description">ያልተቀመጡ ለውጦች አሉህ ከመውጣትህ በፊት እነሱን ማስቀመጥ ትፈልጋለህ?</string>
+    <string name="saving">በማስቀመጥ ላይ</string>
+    <string name="package_installer">ጥቅል ጫኝ</string>
+    <string name="view">እይታ</string>
+    <string name="install">ጫን</string>
+    <string name="archive">ማህደር</string>
+    <string name="archive_text">ይህ ማህደር ነው። ምን አይነት ተግባር ማከናወን ይፈልጋሉ?</string>
+    <string name="package_installer_text">ይህ የጥቅል ጫኚ ነው። ምን አይነት ተግባር ማከናወን ይፈልጋሉ?</string>
+    <string name="xda_title">XDA ክር</string>
+    <string name="xda_summary">ጥያቄ እና መልስ፣እገዛ እና መላ መፈለግ</string>
+    <string name="circular_images">ለምስሎች እና ቪዲዮዎች ክብ አዶዎችን ተጠቀም</string>
+    <string name="circular_icons">ክብ አዶዎችን ተጠቀም</string>
+    <string name="back_title">የኋላ ዳሰሳ</string>
+    <string name="back_summary">በዝርዝሩ አናት ላይ ብጁ የኋላ ዳሰሳን ያስችላል</string>
+    <string name="details">ዝርዝሮች</string>
+    <string name="translators">ተርጓሚዎች</string>
+    <string name="german_translation_title">ጀርመንኛ</string>
+    <string name="italian_translation_title">I</string>
+    <string name="french_translation_title">ፈረንሳይኛ</string>
+    <string name="russian_translation_title">ሩሲያኛ</string>
+    <string name="spanish_translation_title">ስፓኒሽ</string>
+    <string name="basque_translation_title">ባስክ</string>
+    <string name="chinese_translation_title">ቻይንኛ</string>
+    <string name="serbian_translation_title">ሰርቢያን</string>
+    <string name="turkish_translation_title">ቱርክኛ</string>
+    <string name="ukrainian_translation_title">ዩክሬንኛ</string>
+    <string name="portuguese_translation_title">Port </string>
+    <string name="polish_translation_title">ፖላንድኛ</string>
+    <string name="korean_translation_title">ኮሪያኛ</string>
+    <string name="greek_translation_title">ግሪክ</string>
+    <string name="dutch_translation_title">ደች</string>
+    <string name="romanian_translation_title">ሮማኒያኛ</string>
+    <string name="vietnamese_translation_title">ቬትናምኛ</string>
+    <string name="japanese_translation_title">ጃፓንኛ</string>
+    <string name="tamil_translation_title">ታም </string>
+
+    <string name="zip_viewer">ዚፕ መመልከቻ</string>
+    <string name="unin_system_apk">ይህ የሥርዓት መተግበሪያ ነው፣ መሰረዝ ወደ ሥርዓት አለመረጋጋት ሊያመራ ይችላል።\nቀጥል?</string>
+    <string name="warning">ማስጠንቀቂያ</string>
+    <string name="donate">ልገሳ</string>
+    <string name="archive_extract_folder">ማህደር Extract አቃፊ</string>
+    <string name="archive_summary">የማህደር ፋይሎች ወደዚህ አቃፊ ይወጣሉ። ነባሪ እሴት ማህደሩ የሚገኝበት ማውጫ ነው።</string>
+    <string name="open_as">እንደ ክፈት</string>
+    <string name="text">ጽሑፍ</string>
+    <string name="audio">ድምጽ</string>
+    <string name="video">ቪዲዮ</string>
+    <string name="other">ሌላ</string>
+    <string name="image">ምስል</string>
+    <string name="contributors">አስተዋጽዖ አበርካቾች</string>
+    <string name="save_paths">ዱካዎችን አስታውስ</string>
+    <string name="save_path_summary">ሲጀመር በጣም በቅርብ ጊዜ የታዩ አቃፊ ለእያንዳንዱ ትር ይታያል</string>
+    <string name="select_intent">ይምረጡ</string>
+    <string name="database">መረጃ ቋት</string>
+    <string name="colored_navigation">ባለቀለም ዳሰሳ አሞሌ</string>
+    <string name="colored_navigvation_sum">የስርዓት ዳሰሳ አሞሌው በቆዳው የተቀባም ይሁን አይሁን</string>
+
+    <string name="color_title">ቀለም</string>
+    <string name="color_summary">ቀለምን ወደተለያዩ የUI ክፍሎች ያቀናብሩ</string>
+    <string name="primary_color_title">ዋናው ቀለም (የግራ ትር)</string>
+    <string name="primary_color_summary">ለግራ ትር ቀለምን ወደ ትልቅ UI አካላት ያቀናብሩ</string>
+    <string name="accent_color_title">የድምፅ ቀለም</string>
+    <string name="accent_color_summary">ቀለምን ወደ FAB እና ሌሎች ትናንሽ የዩአይ አባለ ነገሮች ያቀናብሩ</string>
+    <string name="icon_color_title">የአዶ ቀለም</string>
+    <string name="icon_color_summary">ቀለም ወደ አዶዎች ያቀናብሩ</string>
+    <string name="choose_color">ቀለም ይምረጡ</string>
+    <string name="files">ፋይሎች</string>
+    <string name="textreader">ጽሑፍ አንባቢ</string>
+    <string name="databasereader">ዳታቤዝ አንባቢ</string>
+    <string name="show_dividers">አከፋፋዮችን አሳይ</string>
+    <string name="needs_access">መዳረሻ ጻፍ ያስፈልጋል</string>
+    <string name="needs_access_summary">እባክዎ የ \t</string>
+    <string name="needs_access_summary1">ን ስርወ ማውጫ ምረጥ</string>
+    <string name="smb_connection">ለመፃፍ እንዲሰራ</string>
+    <string name="smb_server">SMB ግንኙነት</string>
+    <string name="server_address">የአገልጋይ አይ ፒ አድራሻ</string>
+    <string name="username">የአገልጋይ አይ ፒ አድራሻ</string>
+    <string name="password">የተጠቃሚ ስም</string>
+    <string name="anonymous">የይለፍ ቃል</string>
+    <string name="bluetooth">ስም የለሽ</string>
+    <string name="folders">ብሉቱዝ</string>
+    <string name="folderfilecount">%1$d አቃፊዎች እና %2$d ፋይሎች</string>
+    <string name="videos">ቪዲዮዎች</string>
+    <string name="apks">ቪዲዮዎች</string>
+    <string name="documents">APKs</string>
+    <string name="images">ሰነዶች</string>
+    <string name="clear">ምስሎች</string>
+    <string name="md5">አጽዳ</string>
+    <string name="total">MD5</string>
+    <string name="calculating">ጠቅላላ፡</string>
+    <string name="sort">በማስላት</string>
+    <string name="ascending">መደርደር</string>
+    <string name="descending">ወደ ላይ  6መውረድ</string>
+    <string name="default_string">ነባሪ</string>
+    <string name="doit">አድርገው</string>
+    <string name="want_help">እገዛ ይፈልጋሉ?</string>
+    <string name="quick">ፈጣን መዳረሻ</string>
+    <string name="recent">የቅርብ ጊዜ ፋይሎች</string>
+    <string name="edit">አርትዕ</string>
+    <string name="find">ገጽ ላይ ያግኙ</string>
+    <string name="grant">ስጦታ</string>
+    <string name="grantper">ፍቃድ ይስጡ</string>
+    <string name="grantfailed">ፍቃድ አልተሰጠም</string>
+    <string name="grant_storage_permission">መተግበሪያ ለመቀጠል የማከማቻ ፍቃድ ያስፈልገዋል። ይህን ንግግር መሰረዝ ከመተግበሪያው ይወጣል።</string>
+    <string name="operation_unsuccesful">ክዋኔው አልተሳካም</string>
+    <string name="creatingfile">ፋይል መፍጠር</string>
+    <string name="creatingfolder">አቃፊን መፍጠር</string>
+    <string name="renaming">መሰየም</string>
+    <string name="cant_be_empty">%s ባዶ ሊሆን አይችልም።</string>
+    <string name="ip">አድራሻ</string>
+    <string name="connection_name">የግንኙነት ስም</string>
+    <string name="no_device_found">ምንም መሳሪያዎች አልተገኙም</string>
+    <string name="path">ዱካ</string>
+    <string name="rename_bookmark">ዕልባት ቀይር</string>
+    <string name="cut">ቁረጥ</string>
+    <string name="search">ፈልግ</string>
+    <string name="invalid_name">ልክ ያልሆነ ስም</string>
+    <string name="search_hint">ለመፈለግ ይተይቡ…</string>
+    <string name="advanced_search">የላቀ ፍለጋ</string>
+    <string name="regular_expression">መደበኛ አገላለጽ</string>
+    <string name="regular_expression_summary">የBASH ቅጥ መደበኛ አገላለጽ በመጠቀም ፈልግ</string>
+    <string name="match_content">ይዘት አዛምድ</string>
+    <string name="match_content_summary">ከተዋቀረ መደበኛ አገላለጽ ከሙሉ የፋይል ስም ጋር ይዛመዳል፣
+        አለበለዚያ መከሰትን ይፈልጋል።</string>
+    <string name="start_ftp">ጀምር</string>
+    <string name="stop_ftp">አቁም</string>
+    <string name="ftp_status_running">መሮጥ</string>
+    <string name="ftp_status_not_running">የማይሄድ</string>
+    <string name="ftp_no_wifi">ከWi ጋር መገናኘትህን አረጋግጥ -Fi</string>
+    <string name="domain">ጎራ</string>
+    <string name="smb_share">ዱካ አጋራ</string>
+    <string name="invalid">ልክ ያልሆነ %s</string>
+    <string name="ftp_notif_starting">ኤፍቲፒ አገልጋይ</string>
+    <string name="ftp_notif_starting_title">ኤፍቲፒ አገልጋይ</string>
+    <string name="ftp_notif_title">እየጀመረ ነው። አስገራሚ የኤፍቲፒ አገልጋይ</string>
+    <string name="ftp_notif_text">በ%s</string>
+    <string name="ftp_notif_stop_server">አቁም</string>
+    <string name="ftp_port_edit_menu_title">ኤፍቲፒ ወደብ</string>
+    <string name="ftp_port_change_success">ኤፍቲፒ ወደብ በተሳካ ሁኔታ ተቀይሯል</string>
+    <string name="ftp_port_change_error_invalid">ልክ ያልሆነ የወደብ ቁጥር ተመርጧል</string>
+    <string name="primary_two_title">ዋናው ቀለም (የቀኝ ትር)</string>
+    <string name="primary_two_summary">ለትክክለኛው ትር ቀለምን ወደ ትላልቅ UI ክፍሎች ያቀናብሩ</string>
+    <string name="support_development">ልማትን ይደግፉ</string>
+    <string name="report_bugs_title">ሳንካዎችን ሪፖርት አድርግ</string>
+    <string name="source_title">ምንጭ ኮድ</string>
+    <string name="source_summary">የእኛን ምንጭ ኮድ በ GitHub ላይ ይመልከቱ</string>
+    <string name="report_bugs_summary">ሳንካዎችን ሪፖርት ያድርጉ ወይም አዲስ ባህሪ ይጠይቁ</string>
+    <string name="translate_title">መተርጎም</string>
+    <string name="translate_summary">መተርጎም በቋንቋዎ ይገርሙ</string>
+    <string name="paypal_copy_message">የPayPal መታወቂያ ወደ ቅንጥብ ሰሌዳ ተቀድቷል</string>
+    <string name="searching_devices">መሣሪያዎችን በመፈለግ ላይ</string>
+    <string name="use_custom_ip">ብጁ IP ይጠቀሙ</string>
+    <string name="bookmark_lost">ዕልባት አልተገኘም፣እንደገና በመፈጠር ላይ…</string>
+
+    <string name="smb_instructions">
+        
+            
+                በአንድሮይድ (SMB) ላይ የተጋራውን የዊንዶውስ ፎልደር እንዴት ማግኘት እንደሚቻል\n\n
+                
+                    
+                        በWindows ላይ ፋይል ማጋራትን አንቃ\n
+                    
+                    
+                        የቁጥጥር ፓነልን ይክፈቱ፣ በአውታረ መረብ ስር HomeGroup እና ማጋሪያ አማራጮችን ምረጥ የሚለውን ጠቅ ያድርጉ
+                        እና በይነመረብ፣ እና "የላቁ የማጋሪያ ቅንብሮችን ቀይር" የሚለውን ጠቅ ያድርጉ "ፋይል እና
+                        አታሚ ማጋራት" ባህሪ።\n\n
+                    
+
+                    
+                        ተጨማሪ የፋይል ማጋሪያ ቅንብሮች\n
+                    
+                    
+                        ሌሎች የላቁ የማጋሪያ ቅንብሮችን እዚህ ማዋቀር ሊፈልጉ ይችላሉ። \n
+                        ለምሳሌ፣ ሁሉንም የሚያምኑ ከሆነ የፋይሎችዎን ያለይለፍ ቃል መዳረሻ ማንቃት ይችላሉ።
+                        በአካባቢዎ አውታረ መረብ ላይ ያሉ መሳሪያዎች. አንዴ ፋይል እና አታሚ ማጋራት ከነቃ ማድረግ ይችላሉ።
+                        ፋይል ኤክስፕሎረር ወይም ዊንዶውስ ኤክስፕሎረር ይክፈቱ፣ ለማጋራት የሚፈልጉትን አቃፊ በቀኝ ጠቅ ያድርጉ እና
+                        ንብረቶችን ይምረጡ። \n
+                        የማጋራት ቁልፍን ጠቅ ያድርጉ እና ማህደሩን በአውታረ መረቡ ላይ እንዲገኝ ያድርጉት።\n\n
+                        
+
+                    
+                        ሁለቱም መሳሪያዎች በአንድ Wifi ላይ መሆናቸውን ያረጋግጡ\n
+                    
+                    
+                        ይህ ባህሪ ፋይሎችን በአካባቢያዊ አውታረ መረብ ላይ እንዲገኙ ያደርጋል፣ ስለዚህ የእርስዎ ፒሲ እና ተንቀሳቃሽ መሳሪያዎች
+                        በተመሳሳይ የአካባቢ አውታረ መረብ ላይ መሆን አለበት። የተጋራውን የዊንዶውስ አቃፊ መድረስ አይችሉም
+                        በይነመረብ ላይ ወይም ስማርትፎንዎ ከተንቀሳቃሽ ስልክ ውሂቡ ጋር ሲገናኝ - እሱ
+                        ከWi-Fi ጋር መገናኘት አለበት።\n\n
+                    
+
+                    
+                        አይፒ አድራሻን ያግኙ\n
+                    
+                    
+                        የትእዛዝ ጥያቄን ክፈት። \'ipconfig\' ብለው ይተይቡ እና አስገባን ይጫኑ። ነባሪ ጌትዌይን ይፈልጉ
+                        ለራውተርዎ አይፒ አድራሻ በኔትወርክ አስማሚ ስር። መፈለግ
+                        የኮምፒተርዎን አይፒ ለማግኘት በተመሳሳይ አስማሚ ክፍል ስር \\"IPv4 አድራሻ\\"
+                        አድራሻ።\n\n
+                    
+
+                    ዝርዝሮችን በSMB የንግግር ሳጥን ውስጥ ያስገቡ\n
+                
+            
+        
+   </string>
+    <string name="share_limit">ከ100 በላይ ፋይሎችን ማጋራት አይቻልም</string>
+    <string name="otg_access">የOTG መሳሪያ ስር ምረጥ</string>
+    <string name="information">መረጃ</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">የደረሰ</string>
+    <!-- reference to file modified date -->
+    <string name="modified">የተሻሻለ</string>
+
+    <string name="title">ርዕስ</string>
+    <string name="artist">አርቲስት</string>
+    <string name="album">አልበም</string>
+    <string name="year">ዓመት</string>
+    <string name="duration">ቆይታ</string>
+    <string name="comment">አስተያየት</string>
+    <!-- reference to audio/video file -->
+    <string name="container">መያዣ</string>
+    <string name="codec">ኮዴክ</string>
+    <string name="channels">ቻናሎች</string>
+    <string name="sample_rate">የናሙና ተመን</string>
+    <string name="bitrate">ቢትሬት</string>
+    <string name="dimensions">ልኬቶች</string>
+    <string name="frame_rate">የፍሬም ደረጃ</string>
+    <string name="image_type">የምስል አይነት</string>
+    <string name="width">ወርድ</string>
+    <string name="height">ቁመት</string>
+    <string name="date_modified">የተሻሻለበት ቀን</string>
+    <string name="software">ሶፍትዌር</string>
+    <string name="creator">ፈጣሪ</string>
+    <string name="camera_brand">የካሜራ ብራንድ</string>
+    <string name="camera_model">ካሜራ ሞዴል</string>
+    <string name="date_taken">የተወሰደበት ቀን</string>
+    <string name="exposure_time">የተጋላጭነት ጊዜ</string>
+    <string name="aperture_value">Aperture እሴት</string>
+    <string name="image_iso">ISO የፍጥነት ደረጃ</string>
+    <string name="flash_fired">ፍላሽ ተቃጠለ</string>
+    <string name="focal_length">ፎካል ርዝመት</string>
+    <string name="subject">ርዕሰ ጉዳይ</string>
+    <string name="author">ደራሲ</string>
+    <string name="keywords">ቁልፍ ቃላት</string>
+    <string name="producer">አዘጋጅ</string>
+    <string name="created">የተፈጠረ</string>
+    <string name="format">ቅርጸት</string>
+    <string name="pages">ኑምብር ገጾች</string>
+    <!-- reference to a document file -->
+    <string name="optimized">የተመቻቸ</string>
+    <string name="security">ደህንነት</string>
+    <string name="paper_size">የወረቀት መጠን</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">አንዳንድ ፋይሎች በተሳካ ሁኔታ %s አልነበሩም</string>
+    <string name="copied">የተገለበጡ</string>
+    <string name="moved">ተንቀሳቅሷል</string>
+    <string name="copy_complete">ቅዳ ተጠናቋል</string>
+    <string name="waiting_title">መጠበቅ</string>
+    <string name="waiting_content">ክዋኔው እስኪጠናቀቅ ድረስ በመጠበቅ ላይ</string>
+    <string name="extract_complete">ማውጣቱ ተጠናቋል</string>
+    <string name="compression_complete">መጭመቂያው ተጠናቋል</string>
+    <string name="compressing">መጭመቅ</string>
+    <string name="cancelled">ተሰርዟል</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">የተጻፈ</string>
+    <string name="out_of">ከ</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">የ</string>
+    <string name="processing_file">ፋይል በመስራት ላይ</string>
+    <string name="current_speed">የአሁኑ ፍጥነት</string>
+    <string name="smb_launch_error">ይህን ፋይል ለመክፈት ወደ ማከማቻ መቅዳት ያስፈልግዎታል</string>
+    <string name="error_file_not_found">ስህተት፡ ፋይል አልተገኘም</string>
+    <string name="error_io">የI/O ስህተት</string>
+    <string name="error_file_too_large">ስህተት፡ ፋይል በጣም ትልቅ</string>
+    <string name="medium_text">መካከለኛ ጽሑፍ</string>
+    <string name="permission_read">አንብብ</string>
+    <string name="permission_write">ጻፍ</string>
+    <string name="permission_execute">አስፈጽም</string>
+    <string name="permission_owner">ባለቤት</string>
+    <string name="permission_group">ቡድን</string>
+    <string name="permission_other">ሌላ</string>
+    <string name="clipboard_path_copy">ዱካ ወደ ቅንጥብ ሰሌዳ ተቀድቷል</string>
+    <string name="service_timer">ጊዜ አልፏል</string>
+    <string name="please_wait">እባክዎ ይጠብቁ</string>
+
+    <string name="cloud_connection">የክላውድ ግንኙነት</string>
+    <string name="cloud_connection_new">አዲስ የደመና ግንኙነት</string>
+    
+    
+    
+    
+    <string name="cloud_get">የክላውድ ፕለጊን አግኝ</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">ምንም መተግበሪያዎች</string>
+    <string name="ftp_path">የተጋራ ዱካ</string>
+    <string name="ftp_path_hint">ለመጋራት ወደ ማውጫው ስር የሚወስድ መንገድ</string>
+    <string name="change">ለውጥ</string>
+    <string name="unknown_error">ውይ፣ የሆነ ችግር ተፈጥሯል!</string>
+
+    <string name="ftp_path_change_success">ኤፍቲፒ መንገድ በተሳካ ሁኔታ ተቀይሯል</string>
+    <string name="ftp_path_change_error_invalid">ልክ ያልሆነ መንገድ</string>
+    <string name="ftp_status_no_connection">ምንም ግንኙነት የለም</string>
+    <string name="ftp_status_secure_connection">አስተማማኝ ግንኙነት</string>
+    <string name="ftp_status_title">ሁኔታ</string>
+    <string name="ftp_port">ወደብ</string>
+    <string name="ftp_login">መግባት</string>
+    <string name="field_empty">መስክ ባዶ ሊሆን አይችልም</string>
+    <string name="ftp_timeout">ስራ ፈት ጊዜ አልቋል</string>
+    <string name="ftp_seconds">ሰከንዶች</string>
+    <string name="intellihide_toolbar_title">Intellihide የመሳሪያ አሞሌ</string>
+    <string name="intellihide_toolbar_summary">በማሸብለል ላይ እያለ የመሳሪያ አሞሌን በራስ-ሰር ደብቅ</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">ወደ ቅንጥብ ሰሌዳ ተቀድቷል</string>
+    <string name="contributors_1_summary">ትርጉም</string>
+    <string name="contributors_2_summary">አዶ እና ባነሮች</string>
+    <string name="contributors_3_summary">ገጽታ ሞተር</string>
+    <string name="contributors_4_summary">ከ FAB በስተጀርባ ጥላ</string>
+    <string name="contributors_5_summary">ትሮችን ሲያንሸራትቱ የቀለም ሽግግር</string>
+    <string name="contributors_6_summary">ኤፍቲፒ አገልጋይ</string>
+    <string name="contributors_7_summary">በይነተገናኝ ሼል በማንሳት ላይ</string>
+    <string name="connection_exists">ግንኙነት አስቀድሞ አለ</string>
+
+    <string name="crypt_encrypting">ማመስጠር</string>
+    <string name="crypt_decrypting">መመስጠር</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">የተመሰጠረ</string>
+    <string name="crypt_decrypted">ዲክሪፕት የተደረገ</string>
+    <string name="crypt_encrypt">መመስጠር</string>
+    <string name="crypt_decrypt">ዲክሪፕት</string>
+    <string name="operation_fail_following">ፋይሎችን ለመከተል ክዋኔው አልተሳካም</string>
+    <string name="crypt_pref_master_password_title">ማስተር የይለፍ ቃል</string>
+    <string name="crypt_pref_master_password_summary">ለመመስጠር ዋና የይለፍ ቃል ያዘጋጁ።
+        ለማስወገድ ባዶ ይተዉት።</string>
+    <string name="crypt_pref_fingerprint_title">የጣት አሻራ</string>
+    <string name="crypt_pref_fingerprint_summary">ምስጠራን ለማረጋገጥ የጣት አሻራ ይጠቀሙ</string>
+    <string name="crypt_fingerprint_no_permission">የጣት አሻራ ፈቃዶች ይጎድላሉ</string>
+    <string name="crypt_fingerprint_not_enrolled">ምንም የጣት አሻራ አልተመዘገበም</string>
+    <string name="crypt_fingerprint_no_security">የማይቆለፍ ስክሪን ደህንነት የለም ተገኝቷል</string>
+    <string name="crypt_warning_key">የደህንነት ጥለትዎን ሲቀይሩ ይመከራሉ።
+        የስርዓት ቅንጅቶች፣ ይህን ይዘት ዲክሪፕት ማድረግ አይችሉም።</string>
+    <string name="warning_never_show">እንደገና አታሳውቁ</string>
+    <string name="warning_confirm">ገባኝ!</string>
+    <string name="crypt_encryption_fail">ማመስጠር አልተሳካም</string>
+    <string name="crypt_decryption_fail">ማመስጠር አልተሳካም</string>
+    <string name="crypt_decryption_fail_password">ስህተት የይለፍ ቃል!</string>
+    <string name="crypt_fingerprint_authenticate">ለመቀጠል ዳሳሽ ይንኩ</string>
+    <string name="authenticate_password">የይለፍ ቃል ያስገቡ</string>
+
+    <string name="sidebar_preferences">የጎን አሞሌ</string>
+    <string name="sidebar_quick_access_title">የጎን አሞሌ ፈጣን መዳረሻ</string>
+    <string name="show_quick_access_pref_title">ፈጣን መዳረሻዎችን አሳይ</string>
+    <string name="show_quick_access_pref">ፈጣን መዳረሻዎች</string>
+    <string name="directory">ዳይሬክቶሪ</string>
+
+    <string name="sidebar_bookmarks_title">የጎን አሞሌ ዕልባቶች</string>
+    <string name="show_bookmarks_pref_title">አሳይ bookmarks</string>
+    <string name="show_bookmarks_pref">ዕልባቶች</string>
+    <string name="create_bookmark">ዕልባት ፍጠር</string>
+    <string name="edit_bookmark">ዕልባት አርትዕ</string>
+    <string name="question_delete_bookmark">ዕልባት ይሰረዝ?</string>
+
+    <string name="cloud_error_plugin">አስደናቂ የደመና ተሰኪ አልተገኘም። እባክዎ ከፕሌይ ስቶር ያውርዱ።</string>
+    <string name="cloud_error_failed_restart">ግንኙነቱን መጫን አልተሳካም።
+        እባክህ Amaze Cloudን አንዴ ክፈት።</string>
+    <string name="cloud_remove">የደመና ግንኙነቱን ማስወገድ ትፈልጋለህ?</string>
+    <string name="cloud_fail_authenticate">ማረጋገጥ አልተሳካም</string>
+    <string name="cloud_share_copied">የሚጋራ አገናኝ ወደ ቅንጥብ ሰሌዳ ተቀድቷል</string>
+    <string name="copy_low_memory">በማጠናቀቅ ላይ ማህደረ ትውስታ፣ እባክዎ የተወሰነ RAM ያጽዱ</string>
+    <string name="cloud_token_lost">ቶከን ጠፍቷል፣እባክዎ እንደገና ይግቡ</string>
+    
+    <string name="showHeaders">ራስጌዎችን አሳይ</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">ምንም ንጥሎች የሉም</string>
+	<string name="item">ንጥል</string>
+	<string name="items">ዕቃዎች</string>
+	
+	<string name="byte_singular">ባይት</string>
+	<string name="bytes">ባይት</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">ፋይሉ ስም ሊኖረው ይገባል</string>
+    <string name="add_item">ንጥል አክል</string>
+    <string name="failed_smb_decrypt_path">የኤስኤምቢ ግንኙነትን መጫን አልተሳካም</string>
+    <string name="failed_cloud_new_connection">አዲስ የደመና ግንኙነት ማከል አልተሳካም</string>
+    <string name="failed_cloud_api_key">አልተሳካም የክላውድ plug-in አረጋግጥ</string>
+
+    <string name="local_inet_addr_error">አካባቢያዊ inet አድራሻ ማግኘት ላይ ስህተት</string>
+    <string name="intent_save_as">አስቀምጥ እንደ…</string>
+    <string name="go">ሂድ</string>
+    <string name="advanced">የላቁ</string>
+    <string name="typeable_paths_title">ብጁ ዱካዎች</string>
+    <string name="typeable_paths_summary">ብጁ ዱካ ለመተየብ የዱካ አሞሌን በረጅሙ ተጫን</string>
+    <string name="send_email_to">ኢሜል ወደ</string>
+
+    <string name="text_editor">የጽሑፍ አርታዒ ቅንብሮች</string>
+    <string name="preference_newstack_title">ፋይሎችን እንደ አዲስ ተግባር ክፈት</string>
+    <string name="preference_newstack_summary">በተለየ ተግባራት ውስጥ ፋይሎችን ለመክፈት ይፈቅድልዎታል. ከስርዓት የቅርብ ጊዜዎች ስክሪን ይድረሱባቸው።</string>
+    
+    <string name="developers">ገንቢዎች</string>
+    <string name="no_bitcoin_app">እባክዎ የBitcoin Wallet መተግበሪያን ይጫኑ</string>
+    <string name="channel_name_normal">አስደናቂ ማሳወቂያዎች</string>
+    <string name="channel_description_normal">አስደናቂ ፋይል አስተዳዳሪ ማሳወቂያዎች</string>
+    <string name="channel_name_ftp">አስደናቂ የኤፍቲፒ አገልጋይ</string>
+    <string name="channel_description_ftp">ፋይል ያስደንቃል አስተዳዳሪ የኤፍቲፒ አገልጋይ ማሳወቂያዎች</string>
+
+    
+    <string name="processing">በማስኬድ ላይ…</string>
+    <string name="failed_no_connection">ፋይሎችን መጫን አልተሳካም። እባክህ ግንኙነትህን አረጋግጥ።</string>
+
+    <string name="update">አዘምን</string>
+	<string name="scp_connection">SCP/SFTP ግንኙነት</string>
+    <string name="ftp_connection">ኤፍቲፒ ግንኙነት</string>
+    <string name="ftps_connection">ኤፍቲፒ በኤስኤስኤል ግንኙነት ላይ</string>
+    <string name="scp_port">ወደብ</string>
+    <string name="ssh_host_key_verification_prompt">የአስተናጋጁ \'%1$s\' ትክክለኛነት ሊመሰረት አይችልም።\n\n%2$s ቁልፍ የጣት አሻራ %3$s ነው።\n\nእባክዎ \"አዎ\"ን መታ ያድርጉ። " ማንነትን ለማረጋገጥ; ካልሆነ እባክዎን \"አይ\" የሚለውን ይንኩ።</string>
+    <string name="ssh_host_key_verification_prompt_title">አስተናጋጁን ያረጋግጡ</string>
+    <string name="ssh_select_pem_button">SSH የግል ቁልፍ</string>
+    <string name="ssh_pem_key_parse_error">የተመረጠውን PEM ማንበብ አልተቻለም፡ %s</string>
+    <string name="password_unchanged">(ያልተለወጠ)</string>
+    <string name="ssh_authentication_failure_password">መግባት አለመሳካት፡ በቀረበ የተጠቃሚ ስም እና የይለፍ ቃል ማረጋገጥ አልተቻለም።</string>
+    <string name="ssh_authentication_failure_key">የመግባት አለመሳካት፡በቀረበው የተጠቃሚ ስም እና የግል ቁልፍ ማረጋገጥ አልተቻለም።</string>
+    <string name="ssh_connect_failed">ከ%1$s፡%2$d፡%3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ማስጠንቀቂያ ጋር መገናኘት አልተቻለም። የርቀት አስተናጋጅ መታወቂያ ተቀይሯል!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">አንድ ሰው አስጸያፊ ነገር እያደረገ ነው ማለት ይቻላል!\n\nአንድ ሰው አሁን እርስዎን (በመካከለኛው ጥቃት ላይ ያለ ሰው) እየደማጭዎት ሊሆን ይችላል! የአስተናጋጁ ቁልፍ አሁን ተቀይሮ ሊሆን ይችላል። በርቀት አስተናጋጁ የተላከው የህዝብ ቁልፍ የጣት አሻራ በአማዝ ውስጥ ከተከማቸ ጋር አይዛመድም።\n\nእባክዎ የስርዓት አስተዳዳሪዎን ያግኙ ወይም ከአገልጋዩ ጋር መገናኘቱን ለመቀጠል አዲስ ግንኙነት ያዋቅሩ።</string>
+    <string name="ssh_key_prompt_passphrase">እባክዎ ቁልፍ የይለፍ ሐረግ ያስገቡ። .</string>
+    <string name="add_shortcut_not_supported_by_launcher">አቋራጮችን መፍጠር በአስጀማሪዎ አይደገፍም።</string>
+    
+    <string name="select_color_config">የቀለም ማዋቀርን ይምረጡ</string>
+    <string name="customize">ያብጁ</string>
+    <string name="custom">ብጁ</string>
+    <string name="preselected_configs_title">የተመረጡ ውቅሮች</string>
+    <string name="orange">ብርቱካንማ</string>
+    <string name="blue">ሰማያዊ</string>
+    <string name="green">አረንጓዴ</string>
+    <string name="password_no_match">የይለፍ ቃል አይዛመድም</string>
+    <string name="deselect_all">ሁሉንም አይምረጡ</string>
+    <string name="filename">የፋይል ስም</string>
+    <string name="compress_file_suggest_zip_extension">\"ዚፕ"ን እንደ ፋይል ቅጥያ ለመጠቀም ይመከራል።</string>
+    <string name="about_amaze">የቁሳቁስ ንድፍ ፋይል አቀናባሪ ለ Android</string>
+    <string name="license">ፍቃድ</string>
+    <string name="libraries">ላይብረሪዎች</string>
+    <string name="password_repeat">ይለፍ ቃል ይድገሙ</string>
+    <string name="create_file_suggest_txt_extension">\"txt"ን እንደ ፋይል ቅጥያ ለመጠቀም ይመከራል።</string>
+    <string name="ssh_select_pem">ለማረጋገጫ የግል ቁልፍ ምረጥ</string>
+    <string name="ssh_key_invalid_passphrase">ልክ ያልሆነ ቁልፍ የይለፍ ሐረግ።</string>
+    <string name="ssh_key_no_decoder_decrypt">PEMን የሚፈታ ምንም የሚሰራ ዲኮደር የለም።</string>
+    <string name="encryption_fail_copy">በመረጃ ቋት ውስጥ የምስጠራ ግቤትን ማዘመን አልተሳካም</string>
+    <string name="extracted">የተወጣ</string>
+    <string name="compressed">የተጨመቀ</string>
+    <string name="processed">ተሰራ</string>
+    <string name="no_obtainable_info">ስለዚህ ፋይል ምንም መረጃ የለም</string>
+    <string name="reopen_from_source">አይቻልም፣ እባክህ ካለፈው መተግበሪያ እንደገና ክፈት</string>
+    <string name="no_file_error">የሆነ ችግር ተፈጥሯል፣ የሚከፈት ምንም ነገር የለም</string>
+    <string name="file_too_long">ፋይሉ በጣም ረጅም ነው እና ሊስተካከል አይችልም ነገር ግን የመጀመሪያዎቹን %d ቁምፊዎች ማንበብ ይችላሉ</string>
+    <string name="file_read_only">የተከፈተው ፋይል ተነባቢ-ብቻ ነው።</string>
+    <string name="got_it">ገባኝ!</string>
+    <string name="encrypt_file_save_as">ኢንክሪፕት የተደረገ ፋይልን እንደ…</string>
+    <string name="encrypt_folder_save_as">የተመሰጠረ አቃፊን እንደ…</string>
+    <string name="encrypt_option_use_aze">አስደናቂ ምስጠራን ይጠቀሙ</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt በAES ምስጠራ ላይ የተመሰረተ የክፍት ምንጭ ፋይል ምስጠራ ቅርጸት ነው። እንዲሁም ተንቀሳቃሽ ነው፣ በሌሎች መድረኮች በ AESCrypt ፕሮግራሞች ሊፈታ ይችላል።</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt ድር ጣቢያ</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        የ<p>Amaze\'s ምስጠራ ፎርማት በAES ምስጠራ ላይ የተመሰረተ ነው። ነገር ግን ከ AESCrypt ቅርጸት የተለየ, በዚህ መሳሪያ ብቻ ዲክሪፕት ማድረግ ይቻላል; እንዲሁም Amaze File Manager ን ከዚህ መሳሪያ ማራገፍ ወይም ስክሪን የሚቆልፍበትን መንገድ መቀየር የለብህም፤ ያለበለዚያ የተመሰጠረውን ፋይል መልሶ ለማግኘት ምንም መንገድ አይኖርህም።</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">የተመሰጠሩ ፋይሎች \".aze\"ን እንደ የፋይል ቅጥያ መጠቀም አለባቸው።</string>
+    <string name="encrypt_file_must_end_with_aes">የተመሰጠሩ ፋይሎች \".aes\"ን እንደ የፋይል ቅጥያ መጠቀም አለባቸው።</string>
+    <string name="error_aescrypt_decrypt_failed">ዲክሪፕት ማድረግ አይቻልም። \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">ፋይሉን እንደገና መፃፍ አይቻልም።</string>
+    <string name="saved_single_file">ፋይል እንደ \'%s\' ተቀምጧል።</string>
+    <string name="saved_multi_files">%d ፋይሎች ተቀምጠዋል።</string>
+    <string name="create_hidden_file_warn">የተፈጠረ ፋይል በፋይል ዝርዝሩ ውስጥ ይደበቃል።</string>
+    <string name="grant_apkinstall_permission">መተግበሪያ መተግበሪያዎችን ለመጫን ፍቃድ ይፈልጋል።</string>
+    <string name="time_remaining">ቀሪው ጊዜ</string>
+    <string name="transfer_rate">የዝውውር መጠን</string>
+    <string name="unknown">ያልታወቀ</string>
+    <string name="multiple_invalid_archive_entries">በማህደር ውስጥ ያሉ አንዳንድ ፋይሎች ሊወጡ አይችሉም። ማህደሩ የተበላሸ ወይም ከተንኮል አዘል ምንጭ የመጣ ሊሆን ይችላል።</string>
+    <string name="saf_otg_explanation">አሁን ለደህንነት ሲባል ወደ አንድሮይድ ፋይል ስርዓት ትሄዳለህ። እባክህ የዩኤስቢ መሳሪያውን በግራ በኩል ካለው ዝርዝር ውስጥ ምረጥ።</string>
+    <string name="donation_thanks">ስለለገሱት እናመሰግናለን፣ ይህ እንድንነሳሳ ያደርገናል! (:</string>
+    <string name="enable_marquee_filename">ለፋይል ስሞች የማርኬ ኢፌክትን አንቃ</string>
+    <string name="archive_password_prompt">እባክዎ የማህደር ይለፍ ቃል ያስገቡ፡</string>
+    
+    <string name="cannot_extract_archive">ማህደር ማውጣት አልተቻለም \"%s\"፡ %s</string>
+    <string name="archive_unsupported_or_corrupt">አይቻልም ክፈት ማህደር \"%s\"። ወይ ማህደሩን መክፈት አንችልም ወይም ማህደሩ ተጎድቷል።</string>
+    <string name="close">ዝጋ</string>
+    <string name="bookmark_exists">ዕልባት አለ</string>
+    <string name="hide_media">ከሚዲያ አሳሾች ደብቅ</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">አንድ ሰው አስጸያፊ ነገር እያደረገ ነው ማለት ይቻላል!\n\nአንድ ሰው አሁን እርስዎን እየሰማህ ሊሆን ይችላል (ሰው-በመሃል ላይ ጥቃት)! የአስተናጋጁ ቁልፉ አሁን ተቀይሮ ሊሆን ይችላል። የጣት አሻራ በርቀት አስተናጋጁ የተላከው የህዝብ ቁልፍ በአማዝ ውስጥ ከተከማቸ ጋር አይዛመድም።\n\nየአስተናጋጅ አሻራን በማዘመን መቀጠል ወይም የኤስኤስኤች ግንኙነት ቅንብሮችን መሰረዝ ትችላለህ።</string>
+    <string name="update_host_key">የአስተናጋጅ ቁልፍ አዘምን</string>
+    <string name="cancel_recommended">ሰርዝ (የሚመከር)</string>
+    
+    
+    <string name="failed_install_apk">መጫን አልተሳካም</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">የውስጥ ማከማቻ</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD ካርድ</string>
+    <string name="choose_folder">ይህን አቃፊ ምረጥ</string>
+    
+    <string name="some_files_failed_invalid_operation">አንዳንድ ፋይሎች ልክ ባለመሆናቸው ምክንያት ወድቀዋል ክወና</string>
+    <string name="ftp_server_prompt_connect_to_network">ከአውታረ መረብ ጋር ይገናኙ ወይም AP ን አንቃ</string>
+    <string name="ftp_server_open_settings">ቅንብሮችን ክፈት</string>
+    <string name="move">አንቀሳቅስ</string>
+    <string name="select_save_location">ለመቆጠብ አካባቢን ይምረጡ</string>
+    <string name="scp_default_path">ነባሪ ዱካ (አማራጭ)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">ይቅርታ፣ ያ መሆን አልነበረበትም።</string>
+    
+    <string name="error_report_button_text">ይህንን ስህተት በኢሜል ሪፖርት አድርግ</string>
+    <string name="error_report_button_telegram">ይህንን ስህተት በቴሌግራም ሪፖርት አድርግ</string>
+    <string name="copy_for_github">የተቀረጸ ዘገባን ቅዳ</string>
+    <string name="error_report_open_issue_button_text">በ GitHub ላይ ሪፖርት አድርግ</string>
+    <string name="error_report_open_github_notice">እባክዎ ስለብልሽትዎ የሚወያይ ችግር ካለ ያረጋግጡ።</string>
+    <string name="error_snackbar_message">ይቅርታ፣ የሆነ ችግር ተፈጥሯል።</string>
+    <string name="error_snackbar_action">ሪፖርት</string>
+    <string name="what_device_headline">መረጃ፡</string>
+    <string name="what_happened_headline">ምን ሆነ፡</string>
+    <string name="info_labels">ምን፡\\nጥያቄ፡\\nGMT ሰዓት፡\\nጥቅል፡\\nስሪት፡\\nየስርዓተ ክወናው ስሪት፡\\nመሣሪያ፡\\nሞዴል፡\\nምርት :</string>
+    <string name="your_comment">የእርስዎ አስተያየት (በእንግሊዘኛ):</string>
+    <string name="error_details_headline">ዝርዝር፡</string>
+    <string name="app_ui_crash">መተግበሪያ/UI ተበላሽቷል</string>
+    <string name="error_report_title">የስህተት ሪፖርት</string>
+    <string name="crash_report_copied">የብልሽት ሪፖርት ወደ ቅንጥብ ሰሌዳ ተቀድቷል</string>
+    <string name="disableIpcSignature">የአይፒሲ ፊርማ ቼክ አሰናክል (ለቀድሞው SMBv1 አገልጋዮች - UNSAFE!)</string>
+    <string name="cannot_delete_file">ፋይሉን መሰረዝ አልተቻለም</string>
+    <string name="cannot_delete_file_with_reason">ፋይሉን መሰረዝ አይቻልም - %s</string>
+    <string name="cannot_rename_file">ፋይሉን እንደገና መሰየም አይቻልም %s - %s</string>
+    <string name="cannot_read_directory">ማህደርን ማንበብ አይቻልም %s - %s</string>
+    <string name="just_once">አንድ ጊዜ ብቻ</string>
+    <string name="always">ሁልጊዜ</string>
+    <string name="choose_different_app">የተለየ መተግበሪያ ምረጥ</string>
+    <string name="clear_open_file">መሸጎጫ አጽዳ</string>
+    <string name="clear_open_file_summary">የተመረጡትን ነባሪ የፋይል መክፈቻ መተግበሪያዎችን ያጸዳል</string>
+    <string name="ftp_readonly">ተነባቢ-ብቻ መዳረሻ</string>
+    <string name="legacy_listing_title">የቆየ ዝርዝር ተጠቀም ለ root</string>
+    <string name="legacy_listing_summary">ከነቃ ፋይሎችን ለመዘርዘር የቆየ ዘዴ ይጠቀማል</string>
+    <string name="error_unsupported_v5_rar">RAR ማህደር \"%s\" የማይደገፍ RAR v5 መዝገብ ነው።</string>
+    <string name="ftp_prompt_restart_server">ኤፍቲፒን እንደገና ማስጀመር ያስፈልግዎታል። ለውጦች እንዲተገበሩ አገልጋይ።</string>
+    <string name="error_permission_denied">ፍቃድ ተከልክሏል</string>
+    <string name="error_archive_password_incorrect">የተሳሳተ የማህደር ይለፍ ቃል።</string>
+    <string name="error_archive_cannot_extract">የማህደር ግቤት \"%s\" ወደ \"%s\" ማውጣት አልተቻለም።</string>
+    <string name="drag_and_drop_preference">መጎተትን ምረጥ እና ምርጫን ጣል (ሙከራ)</string>
+    <string name="drag_to_move_copy">ፋይሎችን ለማንቀሳቀስ ወይም ለመቅዳት ንካ እና ጎትት</string>
+    <string name="drag_to_select">ፋይሎችን ለመምረጥ ንካ እና ጎትት</string>
+    <string name="disable">አሰናክል</string>
+    <string name="choose_operation">ለማከናወን ክወና ይምረጡ</string>
+    <string name="remember">ለሚቀጥለው ጊዜ አስታውስ</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">ለኤፍቲፒ አገልጋይ የSAF መዳረሻ ስጡ</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">ይህ የኤፍቲፒ አገልጋይ የመጀመሪያ ስራህ ስለሆነ እና የመሳሪያውን የውስጥ ማከማቻ እየተጠቀምክ ነው። እንደ የተጋራ አቃፊ፣ እባክዎን Amaze SAFን በመጠቀም ማከማቻውን እንዲደርስ ይፍቀዱለት።\n\n
+
+አዲስ ቦታ ለመጋራት እስከሚቀጥለው ጊዜ ድረስ አንድ ጊዜ ብቻ ማድረግ ያስፈልግዎታል።</string>
+    <string name="android_data_prompt_saf_access">ከአንድሮይድ 10 ጀምሮ አንድሮይድ በተወሰኑ ማውጫዎች ላይ ገደቦችን ጥሏል እና በማከማቻ መዳረሻ ማዕቀፍ መድረስ አለባቸው።\n \nእባክዎ Amaze \"መዳረሻ ፍቀድ\" የሚለውን መታ በማድረግ ማውጫውን ከስርዓቱ ፋይል አቀናባሪ እንዲደርስ ይፍቀዱለት።</string>
+    <string name="android_data_prompt_saf_access_title">የSAF መዳረሻ ይስጡ</string>
+    <string name="ftp_preference_saf_filesystem_title">የቆየ የፋይል ስርዓት ተጠቀም</string>
+    <string name="ftp_preference_saf_filesystem">ለመሣሪያ ውጫዊ ማከማቻ በአዲስ አንድሮይድ ስሪቶች ላይ ለመጠቀም ይህንን ያንቁት</string>
+    <string name="ftp_server_fallback_path_reset_prompt">የኤፍቲፒ አገልጋይ የተጋራው መንገድ ዳግም ተጀምሯል። ወደ ቀድሞው የፋይል ስርዓት ትግበራ ሲቀይሩ ወደ ውስጣዊ ማከማቻ። እባክዎ እንደ አስፈላጊነቱ ከላይ በቀኝ በኩል ያለውን ምናሌ በመጠቀም አዲስ ዱካ ይምረጡ።</string>
+    <string name="ftp_server_reset_notify">ኤፍቲፒ አገልጋይ የተጋራ ዱካ ወደ ውስጣዊ ማከማቻ ዳግም ተጀምሯል</string>
+    <string name="ftp_server_root_unavailable">ስር መዳረሻ የሚፈልግ ዱካ እየመረጡ ነው። እባክህ መሳሪያህ ስር ሰዶ ከሆነ root Explorerን ያንቁ።</string>
+    <string name="ftp_server_root_filesystem_warning">በመሣሪያዎ ላይ ባለው አጠቃላይ የፋይል ሲስተም ውስጥ ማንበብ/መፃፍ የሚያስችል ስርወ መዳረሻ የሚፈልግ ዱካ እየመረጡ ነው፣ እና አደገኛ ነው - ጥንቃቄ የጎደላቸው ስህተቶች መሳሪያዎን ሊያደናቅፉት ይችላሉ።\n\nእርግጠኛ ነዎት?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">ለማንበብ ዩአርአይ \"%s\" መክፈት ላይ ስህተት።</string>
+    <string name="error_empty_archive">\"%s\" ባዶ ማህደር ነው።</string>
+    <string name="error_bad_archive_without_info">\"%s\" የተበላሸ ማህደር ነው። .</string>
+    <string name="error_bad_archive_with_info">\"%s\"የተበላሸ ማህደር ነው።\nከማውጫው የተላከ መልእክት፡ \"%s\"</string>
+    <string name="security_error">ፋይል ይህን መተግበሪያ በመጠቀም ሊከፈት አልቻለም</string>
+    <string name="cloud_drive_tooltip">ፍጠር ከ Amaze ፋይል አቀናባሪ ውስጥ ያሉ ፋይሎችን ለማስተዳደር የGoogle Drive™ ግንኙነት።</string>
+    <string name="signin_with_google_title">Google Drive™ ለመጠቀም አረጋግጥ</string>
+    <string name="show_system_apps">የስርዓት መተግበሪያዎችን አሳይ</string>
+    <string name="system_apps">የስርዓት መተግበሪያዎች</string>
+    <string name="select_inverse">ምረጥ ተገላቢጦሽ</string>
+    <string name="select_by_type">በአይነት ምረጥ</string>
+    <string name="select_by_date">በቀን ምረጥ</string>
+    <string name="select_similar">ተመሳሳይን ይምረጡ</string>
+    <string name="error_fetching_google_play_product_list">ከGoogle Play የምርት ዝርዝር ማምጣት ላይ ስህተት።</string>
+    <string name="grant_all_files_permission">ከአንድሮይድ 11 ጀምሮ , Google በመሣሪያው ላይ ያሉትን ሁሉንም ፋይሎች ለማስተዳደር የተጠቃሚ ፍቃድ እንዲጠይቁ የፋይል አስተዳዳሪዎችን ይጠይቃል። ዝርዝሮች እዚህ.
+        \n\nአስደናቂው የፋይል አስተዳዳሪም ይህን ፈቃድ ያስፈልገዋል። እዚህ "ስጠን" ከተጫኑ በኋላ በሚቀጥለው ማያ ገጽ ላይ ሁሉንም ፋይሎች ለማስተዳደር ፍቀድ የሚለውን ይምረጡ።
+        \n\nይህን ንግግር መሰረዝ ከመተግበሪያው ይወጣል።</string>
+    <string name="user_apps">የተጠቃሚ መተግበሪያዎች</string>
+    <string name="appearance">መልክ</string>
+    <string name="behavior">ባህሪ</string>
+    <string name="appearance_summary">የፋይል አቀናባሪውን ጭብጥ፣ ቀለም እና ገጽታ ያብጁ</string>
+    <string name="ui_summary">ምን አይነት መረጃ እንደሚታይ ይቆጣጠሩ ፣ የጎን አሞሌውን ያብጁ እና የUI ምርጫዎችን ይቀይሩ</string>
+    <string name="behavior_summary">እንደ የላቀ ፍለጋ እና ፋይሎችን እንደ አዲስ ተግባር ለመክፈት ያሉ ባህሪዎችን ይቀይሩ</string>
+    <string name="security_summary">የይለፍ ቃል እና ምስጠራን ያዋቅሩ</string>
+    <string name="backup_summary">ወደ ውጪ ላክ/አስመጣ አስገራሚ ቅንብሮች</string>
+
+    <string name="pref_export">ላክ</string>
+    <string name="pref_export_summary">ቅንጅቶችን ወደ ውጪ ላክ</string>
+    <string name="pref_import">አስመጣ</string>
+    <string name="pref_import_summary">ማስመጣት ቅንብሮች</string>
+
+    <string name="quick_desc">በአማዜ በኩል በቅርብ ጊዜ የደረሱ ፋይሎች</string>
+    <string name="recent_desc">በቅርብ ጊዜ የተፈጠሩ ወይም የተሻሻሉ ፋይሎች</string>
+    <string name="error_cannot_find_way_open">ፋይሉን የሚከፍትበትን መንገድ ማግኘት አልተቻለም</string>
+    <string name="error_cant_decompress_that_file">የተጠየቀውን ማህደር ማስኬድ አይቻልም</string>
+    <string name="analyse_storage">ማከማቻን ይተንትኑ</string>
+    
+    <string name="download_amaze_utils_text">ወደ Amaze File Utilities እየተመሩ ነው። አብሮ የተሰራ ኦዲዮ/ቪዲዮ/ምስል/ሰነድ ተመልካቾች ያለው፣ ማከማቻ ለማስለቀቅ፣ ፈጣን ማስተላለፍን በWifi P2P እና ሌሎችንም እንዲተነትኑ የሚያስችልዎ የእኛ ክፍት ምንጭ መተግበሪያ ነው።\nእባክዎ በመሞከር ይደግፉን።</string>
+    <string name="download">አውርድ</string>
+    
+    <string name="amaze_utils_installed_alias">Amaze File Utilities ስለጫኑ እናመሰግናለን። ወደ መተግበሪያው እየተዘዋወሩ ነው።</string>
+    <string name="image_viewer">አስደናቂ ምስል መመልከቻ</string>
+    <string name="video_player">አስደናቂ ቪዲዮ ማጫወቻ</string>
+    <string name="amaze_audio_player">አስደናቂ ሙዚቃ ማጫወቻ</string>
+    <string name="pdf_viewer">አስደናቂ ሰነድ መመልከቻ</string>
+    <string name="docx_viewer">አስደናቂ ሰነድ መመልከቻ</string>
+    <string name="share_logs">ምዝግብ ማስታወሻዎችን ያጋሩ</string>
+    <string name="share_logs_summary">የተያዙ መዝገቦችን በኢሜል / ቴሌግራም ያካፍሉ</string>
+    <string name="open_with_amaze">በአስደናቂ ክፈት</string>
+    <string name="confirmation">ማረጋገጫ</string>
+    
+    <string name="error_google_play_cannot_update_myself">በGoogle Play መመሪያ ትእዛዝ፣ መተግበሪያዎች በራሱ ማዘመን አይፈቀድላቸውም። እባክዎ መተግበሪያን ከGoogle Play ያዘምኑት።</string>
+    <string name="error_cannot_get_package_info">ከፋይል \"%s\" የጥቅል መረጃ ማግኘት አልተቻለም። ወይ የተገለጸው ፋይል ኤፒኬ አይደለም፣ ወይም የጥቅል ፋይሉ ተበላሽቷል።</string>
+    <string name="preference_delete_confirmation">ማረጋገጫ ሰርዝ</string>
+    <string name="preference_delete_confirmation_summary">ፋይሎችን ከመሰረዝዎ በፊት ማረጋገጫ ይጠይቁ። ይህንን ማሰናከል በጣም ተስፋ አስቆራጭ ነው!</string>
+    
+    
+    <string name="protocol_ftps">ደህንነቱ የተጠበቀ ኤፍቲፒ</string>
+    <string name="unavailable">የማይገኝ</string>
+
+    <string name="exporting_failed">ወደ ውጭ መላክ አልተሳካም፡ የመጠባበቂያ ፋይሉን መፃፍ አልተቻለም</string>
+    <string name="importing_failed">ማስመጣቱ አልተሳካም፡ ምትኬውን ማንበብ አልቻለም ፋይል</string>
+    <string name="importing_completed">ማስመጣቱ አልቋል</string>
+    <string name="invalid_backup_file">ልክ ያልሆነ ምትኬ ፋይል</string>
+    <string name="import_failed_for">ማስመጣት አልተሳካም ለ፡</string>
+    <string name="free_of">"%s\n%s ከ%s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin በF-Droid ስሪት አይደገፍም።እባክዎ የአማዜን የPlay መደብር ስሪት ይጠቀሙ።</string>
+    <string name="disable_player_intent_filters">የተጫዋች ሐሳብ ማጣሪያዎችን ያሰናክሉ</string>
+    <string name="disable_player_intent_filters_summary">ከፋይል መራጭ አብሮ የተሰሩ የሚዲያ ተጫዋቾችን ያሰናክላል</string>
+    <string name="no_app_found_intent">ይህንን ሐሳብ የሚይዝ ምንም መተግበሪያ አልተገኘም። DocumentsUI አልዎት?</string>
+    <string name="cloud_connection_credentials_cleared">የክላውድ ግንኙነት ምስክርነቶች ጸድተዋል</string>
+    <string name="cloud_connection_credentials_cleared_msg">እንደ እድል ሆኖ፣ የደመና ግንኙነት ምስክርነቶችን ወደ አዲሱ የውሂብ ጎታ ንድፍ ማዛወር አልቻልንም፣ እና አጋጥሞናል። ከመተግበሪያው ላይ ለማስወገድ። እባክዎ የደመና ግንኙነቱን እንደገና ይፍጠሩ።</string>
+</resources>

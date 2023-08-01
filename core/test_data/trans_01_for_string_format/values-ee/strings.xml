@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Faɛl Dzikpɔla</string>
+    <string name="drawer_open">Ʋu mɔfianu ƒe agbalẽdzraɖoƒe</string>
+    <string name="drawer_close">Do mɔfianu ƒe agbalẽdzraɖoƒe</string>
+    <string name="icon">dzesi</string>
+    <string name="apps">Dɔwɔɖoɖowo Dzikpɔla</string>
+    <string name="ftp">FTP Dɔdzikpɔla</string>
+    <string name="setting">Dɔwɔɖoɖowo</string>
+    <string name="select">Tia Nu</string>
+    <string name="press_again">Zi edzi ake be nàdo le eme</string>
+    <string name="open">Ʋu</string>
+    <string name="backup">Kpɔɖeŋu</string>
+    <string name="uninstall">Ðe</string>
+    <string name="play">Fefedzraƒe</string>
+    <string name="properties">Nɔnɔmewo</string>
+    <string name="copyingapks">%d APK faɛlwo ƒe kɔpiwɔwɔ ɖe %s</string>
+    <string name="delbook">Tutu Dzesi</string>
+    <string name="add_to_bookmarks">Tsɔ kpe ɖe Dzesiwo ŋu</string>
+    <string name="enterpath">Ŋlɔ Mɔ</string>
+    <string name="cancel">TE TE</string>
+    <string name="create">WƆ</string>
+    <string name="loading">Wole etsɔm...</string>
+    <string name="file_empty">Faɛl le ƒuƒlu</string>
+    <string name="error">Vodada</string>
+    <string name="search_results">Didi ƒe emetsonuwo le %s</string>
+    <string name="rename">Trɔ ŋkɔ</string>
+    <string name="save">Dzra ɖo</string>
+    <string name="bookmarks_added">Dzesidede Siwo Wotsɔ Kpe Ðe Eŋu</string>
+    <string name="fileexist">Faɛl si ƒe ŋkɔ sɔ la li xoxo</string>
+    <string name="name">Ŋkɔ</string>
+    <string name="date">Ŋkeke</string>
+    <string name="location">Teƒe</string>
+    <string name="size_capitalized">Agbɔsɔsɔme</string>
+    <string name="size">agbalẽdzraɖoƒe ƒe lolome</string>
+    <string name="enterzipname">Ŋlɔ Zip Ŋkɔ</string>
+    <string name="no_app_found">Womekpɔ App aɖeke si aʋu faɛl sia o</string>
+    <string name="copying">Kɔpiwɔwɔ</string>
+    <string name="moving">Ʋu</string>
+    <string name="file">Faɛl</string>
+    <string name="folder">Agbalẽdzraɖoƒe</string>
+    <string name="newfolder">Agbalẽdzraɖoƒe Yeye</string>
+    <string name="entername">Ŋlɔ Ŋkɔ</string>
+    <string name="extracting">Eɖeɖe</string>
+    <string name="stopping">Dzudzɔ</string>
+    <string name="open_parent">Ʋu Dzilawo ƒe Nyatakakadzraɖoƒe</string>
+    <string name="open_with">Ʋu kple</string>
+    <string name="share">Mamã</string>
+    <string name="about">Ku ɖe</string>
+    <string name="extract">Eɖee</string>
+    <string name="compress">Tsi</string>
+    <string name="yes">Ẽ</string>
+    <string name="no">Ao</string>
+    
+    <string name="dialog_delete_category_directories">Aɖaŋuɖogbalẽwo</string>
+    <string name="dialog_delete_category_files">Faɛlwo</string>
+    <string name="dialog_delete_disclaimer">Ne ètutu nusiwo le ete la ɖa tegbee le wò mɔ̃a dzi eye womateŋu agbugbɔ wo axɔ o.</string>
+    <string name="dialog_delete_title">Tutu nuwo ɖa tegbee?</string>
+    <string name="deleting">Etutu</string>
+    <string name="question_set_path_as_home">Èdi be yeaɖo mɔ si li fifia abe aƒe ene na tab sia?</string>
+    <string name="directorysort">Nudzraɖoƒe ƒe Ðoɖowɔɖi ƒe Nɔnɔme</string>
+    <string name="sort_by">Ðo Ðo Ðe</string>
+    <string name="sort_only_this">Agbalẽdzraɖoƒe sia koe</string>
+    <string name="theme">Tanya</string>
+    <string name="random">Ŋutilã si wowɔ le vome</string>
+    <string name="random_summary">Ðo amadede gbãtɔ le vome le gɔmedzedzea me</string>
+    <string name="colorize">Amadede Dzesiwo</string>
+    <string name="colorize_summary">Ðoɖowo static icon ƒe amadede. Meɖe asi le agbalẽdzraɖoƒe ƒe dzesi ƒe amadede ƒe didi ŋu o.</string>
+    <string name="home">Aƒe</string>
+    <string name="paste">Kpe</string>
+    <string name="history">Ŋutinya</string>
+    <string name="copy">Kɔpi</string>
+    <string name="root_mode">Ke Dzraɖoƒe</string>
+    <string name="root_mode_summary">Na mɔ̃ si ŋu ke le ɖeɖeko. Ne èka ɖe edzi ko hafi kpɔe ɖa.</string>
+    <string name="root_failure">Womeɖe mɔ na Ke ƒe Mɔɖeɖe o</string>
+    <string name="select_all">Tia Wo Katã</string>
+    <string name="delete">Tutu</string>
+    <string name="set_as_home">Ðoe Abe Aƒeme</string>
+    <string name="operation_not_supported">Womedo alɔ dɔwɔwɔ o</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Nuwo ƒe Kekeli</string>
+    <string name="dark">Nuwo ƒe Kekeli</string>
+    <string name="daytime">Ŋkeke</string>
+    <string name="black">Yevu (na OLED)</string>
+    <string name="system">Nuɖoɖo (kplɔ ɖoɖoa ƒe tanya yome)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Agbalẽdzraɖoƒewo Le Tame</string>
+    <string name="filesOnTop">Files Le Tame</string>
+    <string name="none_on_top">Ðeke Mele Etame o</string>
+    <!--SortBy-->
+    <string name="sort_name">Ŋkɔ</string>
+    <string name="lastModified">Wotrɔ asi le eŋu zi mamlɛtɔ</string>
+    <string name="sort_size">Agbɔsɔsɔme</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Tia faɛl</string>
+    <string name="process_viewer">Dɔwɔwɔ ƒe Nukpɔla</string>
+    <string name="in_safe">Teƒe si mesɔ gbɔ o</string>
+    <string name="no_file_overwrite">Womeŋlɔ Faɛl aɖeke ɖe edzi o</string>
+    <string name="skip">Tsi</string>
+    <string name="overwrite">Tsɔ Ŋlɔ ɖe edzi</string>
+    <string name="not_allowed">Womeɖe mɔ ɖe eŋu o</string>
+    <string name="searching">Didi %s</string>
+    <string name="done">Wowɔ</string>
+    <string name="set">Ðo</string>
+    <string name="enablerootmde">Na Ke ƒe Nɔnɔme nawɔ dɔ</string>
+    <string name="goback">Trɔ yi megbe</string>
+    <string name="newfile">Faɛl Yeye</string>
+    <string name="no_files">Fail aɖeke meli o</string>
+    <string name="used">teƒe si wozã</string>
+    <string name="used_by_others">si ame bubuwo zã</string>
+    <string name="free">teƒe si woɖe le</string>
+    <string name="listview">Ŋkɔwo ƒe Ŋkɔkpɔkpɔ</string>
+    <string name="gridview">Grid Kpɔ</string>
+    <string name="permission">Mɔɖeɖewo</string>
+    <string name="hide">Ɣla</string>
+    <string name="exit">Do go</string>
+    <string name="doforall">Wɔ na nuawo katã</string>
+    <string name="gridcolumnno">Sɔtiwo ƒe xexlẽme le grid kpɔkpɔ me</string>
+    <string name="set_random">Tɔtrɔwo ava ne ègbugbɔ dze dɔwɔnua gɔme</string>
+    <string name="authors">Ŋlɔlawo</string>
+    <string name="changelog">Tɔtrɔ ƒe nuŋlɔɖi</string>
+    <string name="ok">Enyo</string>
+    <string name="ui">Dɔwɔƒe</string>
+    <string name="general">Amegã</string>
+    <string name="thumb_summary">Fia Dɔwɔɖoɖowo kple nɔnɔmetatawo ƒe Nɔnɔmetata Suewo</string>
+    <string name="thumb">Fia Nɔnɔmetata Suewo</string>
+    <string name="hidden">Fia Faɛlwo Kple Agbalẽdzraɖoƒe Siwo Woɣla</string>
+    <string name="lastModifiedSummary">Fia ŋkeke kple gaƒoƒo si wowɔ tɔtrɔ mamlɛtɔ</string>
+    <string name="lastModifiedPref">Fia Ɣletiŋkeke Si Wotrɔ Asi Le Mlɔetɔ Kple... Ɣeyiɣi</string>
+    <string name="size_pref_summary">Fia faɛlwo ƒe lolome kple nusiwo le agbalẽdzraɖoƒewo ƒe xexlẽme</string>
+    <string name="size_pref">Fia Agbɔsɔsɔme</string>
+    <string name="miscellaneous">Nu vovovowo</string>
+    <string name="root_pref_summary">Fia Mɔɖeɖewo na Faɛlwo kple Agbalẽdzraɖoƒewo</string>
+    <string name="root_pref">Fia Mɔɖeɖewo</string>
+    <string name="about_amaze_file_manager_label">Ku ɖe Amaze Faɛl Dɔdzikpɔla ŋu</string>
+    <string name="version">Tɔtrɔ</string>
+    <string name="rate">Dzidzedze na dɔwɔnua</string>
+    <string name="feedback">Ðo Nyaŋuɖoɖo ɖa</string>
+    <string name="hiddenfiles">Faɛl Ɣla</string>
+    <string name="type">Ŋlɔ</string>
+    <string name="root_directory">Ke</string>
+    <string name="add_shortcut">Tsɔ Mɔ Kpuie kpee</string>
+    <string name="unsaved_changes">Tɔtrɔ siwo womedzra ɖo o</string>
+    <string name="unsaved_changes_description">Tɔtrɔ siwo womedzra ɖo o le asiwò, èdi be yeadzra wo ɖo hafi ado le emea?</string>
+    <string name="saving">Dzraɖo</string>
+    <string name="package_installer">Akpawo ƒe Ðoɖowɔla</string>
+    <string name="view">Kpɔ</string>
+    <string name="install">De</string>
+    <string name="archive">Nudzraɖoƒe</string>
+    <string name="archive_text">Esia nye nudzraɖoƒe. Nuwɔna kae nàdi be yeawɔ?</string>
+    <string name="package_installer_text">Esia nye package installer. Nuwɔna kae nàdi be yeawɔ?</string>
+    <string name="xda_title">XDA ka</string>
+    <string name="xda_summary">Nyabiase kple Ŋuɖoɖo, Kpekpeɖeŋu &amp;amp; Kuxiwo Gbɔkpɔkpɔ</string>
+    <string name="circular_images">Zã dzesi siwo le gota na nɔnɔmetatawo kple videowo</string>
+    <string name="circular_icons">Zã dzesi siwo le gota</string>
+    <string name="back_title">Megbemɔzɔzɔ</string>
+    <string name="back_summary">Enaa megbemɔzɔzɔ si wowɔ ɖe ɖoɖo nu le xexlẽdzesiawo tame</string>
+    <string name="details">Tsitotsito</string>
+    <string name="translators">Gbegɔmeɖelawo</string>
+    <string name="german_translation_title">Germangbe</string>
+    <string name="italian_translation_title">Italiangbe</string>
+    <string name="french_translation_title">Fransegbe</string>
+    <string name="russian_translation_title">Russiagbe</string>
+    <string name="spanish_translation_title">Spaingbe</string>
+    <string name="basque_translation_title">Basquegbe</string>
+    <string name="chinese_translation_title">Chinagbe</string>
+    <string name="serbian_translation_title">Serbiagbe</string>
+    <string name="turkish_translation_title">Turkeygbe</string>
+    <string name="ukrainian_translation_title">Ukrainegbe</string>
+    <string name="portuguese_translation_title">Portugalgbe</string>
+    <string name="polish_translation_title">Polandgbe</string>
+    <string name="korean_translation_title">Koreagbe</string>
+    <string name="greek_translation_title">Helagbe</string>
+    <string name="dutch_translation_title">Holandgbe</string>
+    <string name="romanian_translation_title">Romaniagbe</string>
+    <string name="vietnamese_translation_title">Vietnamgbe</string>
+    <string name="japanese_translation_title">Japangbe</string>
+    
+
+    <string name="zip_viewer">Zip Kpɔla</string>
+    <string name="unin_system_apk">Esia nye ɖoɖowɔɖi ƒe dɔwɔɖoɖo, etutu ate ŋu ahe ɖoɖoa ƒe malikenyenye vɛ.\ nYi edzi?</string>
+    <string name="warning">Nuxlɔ̃ame</string>
+    <string name="donate">Na</string>
+    <string name="archive_extract_folder">Nudzraɖoƒe ƒe Nudzraɖoƒe ƒe Agbalẽdzraɖoƒe</string>
+    <string name="archive_summary">Woaɖe nudzraɖoƒe ƒe faɛlwo ayi agbalẽdzraɖoƒe sia. Asixɔxɔ gbãtɔ enye agbalẽdzraɖoƒe si me nudzraɖoƒe le.</string>
+    <string name="open_as">Ʋu Abe</string>
+    <string name="text">Nuŋɔŋlɔ</string>
+    <string name="audio">Odio</string>
+    
+    <string name="other">Bubu</string>
+    <string name="image">Nɔnɔmetata</string>
+    <string name="contributors">Nudzɔlawo</string>
+    <string name="save_paths">Ðo ŋku mɔwo dzi</string>
+    <string name="save_path_summary">Ne èle egɔme dzem la, woaɖe agbalẽdzraɖoƒe si wokpɔ nyitsɔ laa na tab ɖesiaɖe la afia</string>
+    <string name="select_intent">Tia</string>
+    <string name="database">Nyatakakadzraɖoƒe</string>
+    <string name="colored_navigation">Amadede ƒe Mɔfiame ƒe ʋuƒo</string>
+    <string name="colored_navigvation_sum">Ne wotsɔ ŋutigbalẽa de ama ɖoɖowɔɖi ƒe mɔfiame ƒe ʋuƒoa alo wometsɔe de amae o</string>
+
+    <string name="color_title">Amadede</string>
+    <string name="color_summary">Ðo amadede ɖe UI ƒe akpa vovovowo ŋu</string>
+    <string name="primary_color_title">Amadede Gbãtɔ (Miame Tab)</string>
+    <string name="primary_color_summary">Ðo amadede ɖe UI ƒe akpa gãwo na miame tab</string>
+    <string name="accent_color_title">Gbeɖiɖi ƒe Amadede</string>
+    <string name="accent_color_summary">Ðo amadede ɖe FAB kple UI sue bubuwo dzi elements</string>
+    <string name="icon_color_title">Dzesi ƒe Amadede</string>
+    <string name="icon_color_summary">Ðo amadede ɖe dzesiwo dzi</string>
+    <string name="choose_color">Tia amadede</string>
+    <string name="files">Faɛlwo</string>
+    <string name="textreader">Nuŋɔŋlɔ Xlẽla</string>
+    <string name="databasereader">Nyatakakadzraɖoƒe Xlẽla</string>
+    <string name="show_dividers">Fia Mamãwo</string>
+    <string name="needs_access">Ŋɔŋlɔ ƒe Mɔɖeɖe Hiã</string>
+    <string name="needs_access_summary">Taflatse tia \t</string>
+    <string name="needs_access_summary1">\t ƒe ke ƒe nyatakakadzraɖoƒe si nàna nuŋɔŋlɔ ƒe mɔɖeɖe be wòawɔ dɔ</string>
+    <string name="smb_connection">SMB Kadodo</string>
+    <string name="smb_server">Server IP Adrɛs</string>
+    <string name="server_address">Server IP Adrɛs</string>
+    <string name="username">Zãla ƒe Ŋkɔ</string>
+    <string name="password">Nyagbe</string>
+    <string name="anonymous">Ŋkɔmaɖemaɖe</string>
+    
+    <string name="folders">Agbalẽdzraɖoƒewo</string>
+    <string name="folderfilecount">%1$d agbalẽdzraɖoƒewo kple %2$d faɛlwo</string>
+    <string name="videos">Videowo</string>
+    <string name="apks">APKwo</string>
+    <string name="documents">Nuŋlɔɖiwo</string>
+    <string name="images">Nɔnɔmetatawo</string>
+    <string name="clear">Klɔ</string>
+    
+    <string name="total">Kakaɖedzi:</string>
+    <string name="calculating">akɔntabubu</string>
+    <string name="sort">Ðo Ðo</string>
+    <string name="ascending">Dzidzi</string>
+    <string name="descending">Dziɖiɖi</string>
+    <string name="default_string">Nu gbãtɔ</string>
+    <string name="doit">Ðe wòle</string>
+    <string name="want_help">Èhiã kpekpeɖeŋua?</string>
+    <string name="quick">Kpɔɖeŋu kaba</string>
+    <string name="recent">Fail siwo wowɔ nyitsɔ laa</string>
+    <string name="edit">Trɔ asi le</string>
+    <string name="find">Di le axa</string>
+    <string name="grant">Na mɔɖeɖe</string>
+    <string name="grantper">Na mɔɖeɖe</string>
+    <string name="grantfailed">Womeɖe mɔ ɖe eŋu o</string>
+    <string name="grant_storage_permission">App hiã na nudzraɖoƒe ƒe mɔɖeɖe hafi wòayi edzi. Ne ète fli ɖe dzeɖonya sia me la, ado le dɔwɔnua me.</string>
+    <string name="operation_unsuccesful">Dɔwɔwɔ medze edzi o</string>
+    <string name="creatingfile">Faɛl wɔwɔ</string>
+    <string name="creatingfolder">Agbalẽdzraɖoƒe wɔwɔ</string>
+    <string name="renaming">Ŋkɔ yeye tɔtrɔ</string>
+    <string name="cant_be_empty">%s mateŋu anye ƒuƒlu o</string>
+    <string name="ip">Adrɛs</string>
+    <string name="connection_name">Kadodo ƒe ŋkɔ</string>
+    <string name="no_device_found">Womekpɔ mɔ̃ aɖeke o</string>
+    <string name="path">Mɔ</string>
+    <string name="rename_bookmark">Trɔ asi le Dzesi</string>
+    <string name="cut">Lã</string>
+    <string name="search">Di</string>
+    <string name="invalid_name">Ŋkɔ si mesɔ o</string>
+    <string name="search_hint">Ŋlɔ Ŋlɔ be nàdi...</string>
+    <string name="advanced_search">Didi Deŋgɔ</string>
+    <string name="regular_expression">Nyagbɔgblɔ Edziedzi</string>
+    <string name="regular_expression_summary">Di to BASH ƒe atsyã ƒe nyagbɔgblɔ edziedzi zazã me</string>
+    <string name="match_content">Tsɔ emenyawo sɔ</string>
+    <string name="match_content_summary">Ne woɖoe la, woatsɔ nyagbɔgblɔ si wozãna edziedzi asɔ kple faɛl ŋkɔ bliboa, .
+        adi dzɔdzɔ ne menye nenema o.</string>
+    <string name="start_ftp">Dze egɔme</string>
+    <string name="stop_ftp">Dzudzɔ</string>
+    <string name="ftp_status_running">Duƒuƒu</string>
+    <string name="ftp_status_not_running">Mele Duƒuƒu o</string>
+    <string name="ftp_no_wifi">Kpɔ egbɔ be yedo ƒome kple Wi -Fi</string>
+    <string name="domain">Domenyi</string>
+    <string name="smb_share">Mamã mɔ</string>
+    <string name="invalid">%s si mesɔ o</string>
+    <string name="ftp_notif_starting">FTP Dɔwɔla le gɔmedzedze</string>
+    <string name="ftp_notif_starting_title">FTP Dɔwɔla</string>
+    <string name="ftp_notif_title">Amaze FTP Server si le dɔ wɔm</string>
+    <string name="ftp_notif_text">le %s</string>
+    <string name="ftp_notif_stop_server">DZƆDZƆ</string>
+    <string name="ftp_port_edit_menu_title">FTP ʋɔtru</string>
+    <string name="ftp_port_change_success">FTP ʋɔtru trɔ dzidzedzetɔe</string>
+    <string name="ftp_port_change_error_invalid">Wotia ʋudzeƒe ƒe xexlẽdzesi si mesɔ o</string>
+    <string name="primary_two_title">Amadede Gbãtɔ (Nuɖusi Tab)</string>
+    <string name="primary_two_summary">Ðo amadede ɖe UI ƒe akpa gãwo na tab ɖusime</string>
+    <string name="support_development">Kpekpeɖeŋunana ƒe ŋgɔyiyi</string>
+    <string name="report_bugs_title">Gblɔ vodadawo</string>
+    <string name="source_title">Dzɔtsoƒe ƒe dzesi</string>
+    <string name="source_summary">Kpɔ míaƒe dzɔtsoƒe ƒe kɔpi le GitHub</string>
+    <string name="report_bugs_summary">Gblɔ vodadawo alo bia nɔnɔme yeye</string>
+    <string name="translate_title">Gɔmeɖeɖe</string>
+    <string name="translate_summary">Gɔmeɖeɖe Amaze le wò gbe me</string>
+    <string name="paypal_copy_message">PayPal ID si wogbugbɔ ŋlɔ ɖe clipboard dzi</string>
+    <string name="searching_devices">Mɔ̃wo didi</string>
+    <string name="use_custom_ip">Zã IP tɔxɛ</string>
+    <string name="bookmark_lost">Womekpɔ dzesidegbalẽvi o, gbugbɔ wɔ...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Alesi woawɔ akpɔ Windows ƒe agbalẽdzraɖoƒe si woama le Android (SMB) dzi\n\n
+                
+                    
+                        Na Faɛl Mamã nawɔ dɔ le Windows\n
+                    
+                    
+                        Ʋu Control Panel la, zi Choose HomeGroup kple Sharing ƒe tiatia siwo le Network te dzi
+                        kple Internet dzi, eye nàzi "Trɔ Mamã ƒe Ðoɖo Deŋgɔwo," na "File kple...
+                        Agbalẽtamɔ̃ ƒe Mamã" ƒe nɔnɔme.\n\n
+                    
+
+                    
+                        Fail Mamã ƒe ɖoɖo bubuwo\n
+                    
+                    
+                        Àte ŋu awɔ ɖoɖo ɖe mama ƒe ɖoɖo deŋgɔ bubuawo hã ŋu le afisia. \n
+                        Le kpɔɖeŋu me, àte ŋu ana woate ŋu akpɔ wò faɛlwo nyagbe ɣaɣla manɔmee ne èka ɖe wo katã dzi
+                        mɔ̃ siwo le miaƒe nutoa me network dzi. Ne wonya wɔ faɛl kple agbalẽtamɔ̃ mama ŋudɔ ko la, àte ŋui
+                        ʋu File Explorer alo Windows Explorer, zi agbalẽdzraɖoƒe aɖe si nèdi be yeama la dzi kple ɖusi, eye
+                        tia Nɔnɔmewo. \n
+                        Zi Mamã ƒe dzesi dzi eye nàna agbalẽdzraɖoƒea nanɔ network la dzi.\n\n
+                        
+
+                    
+                        Kpɔ egbɔ be mɔ̃ eveawo siaa le Wifi ɖeka dzi\n
+                    
+                    
+                        Nɔnɔme sia nana be faɛlwo nɔa teƒea ƒe network dzi, eyata wò PC kple asitelefonwo
+                        ele be wòanɔ nutoa me ƒe nyatakakadzraɖoƒe ɖeka ma ke dzi. Màte ŋu age ɖe Windows ƒe agbalẽdzraɖoƒe si woama o
+                        to Internet dzi alo ne wò smartphone do ka kple eƒe asitelefon dzi nyatakakawo — eya
+                        ele be woatsɔe aƒo ka na Wi-Fi.\n\n
+                    
+
+                    
+                        Di IP Adrɛs\n
+                    
+                    
+                        Ʋu Sedede ƒe Nyatakaka. Ŋlɔ \'ipconfig\' eye nàzi Enter dzi. Di Default Gateway (Agbo si Woɖo Ðe Ðoɖo Nu
+                        le wò network adapter te na wò router\'s IP adrɛs. Di
+                        \\\"IPv4 Adrɛs\\\" le adapter ƒe akpa ma ke te be nàdi wò kɔmpiuta\'s IP
+                        adrɛs.\n\n
+                    
+
+                    Ŋlɔ nyatakakawo ɖe SMB ƒe nyatakakaɖaka me\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Mateŋu ama faɛl siwo wu 100 o</string>
+    <string name="otg_access">Tia OTG dɔwɔnu ƒe ke</string>
+    <string name="information">Nyatakaka</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Wokpɔe</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Wotrɔ asi le eŋu</string>
+
+    <string name="title">Tanya</string>
+    <string name="artist">Nutala</string>
+    
+    <string name="year">Ƒe</string>
+    <string name="duration">Ɣeyiɣi didi</string>
+    <string name="comment">Nyaŋuɖoɖo</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Nugoe</string>
+    <string name="codec">Kɔda</string>
+    <string name="channels">Mɔwo</string>
+    <string name="sample_rate">Kpɔɖeŋu ƒe Agbɔsɔsɔ</string>
+    
+    <string name="dimensions">Agbɔsɔsɔmewo</string>
+    <string name="frame_rate">Frame ƒe agbɔsɔsɔme</string>
+    <string name="image_type">Nɔnɔmetata Ƒomevi</string>
+    <string name="width">Kekeme</string>
+    <string name="height">Kɔkɔme</string>
+    <string name="date_modified">Ŋkeke si dzi wotrɔ asi le eŋu</string>
+    <string name="software">Kɔmpiutadziɖoɖo</string>
+    <string name="creator">Wɔla</string>
+    <string name="camera_brand">Fotoɖemɔ̃ ƒe Ŋkɔ</string>
+    <string name="camera_model">Fotoɖemɔ̃ Model</string>
+    <string name="date_taken">Ŋkeke si Woxɔ</string>
+    <string name="exposure_time">Ɣeyiɣi si Woɖee Ðe Go</string>
+    <string name="aperture_value">Aperture ƒe Asixɔxɔ</string>
+    <string name="image_iso">ISO ƒe Duƒuƒu ƒe Dzidzedzekpɔkpɔ</string>
+    <string name="flash_fired">Flash Dzo</string>
+    <string name="focal_length">Focal Dingth</string>
+    <string name="subject">Nyati</string>
+    <string name="author">Agbalẽŋlɔla</string>
+    <string name="keywords">Nya veviwo</string>
+    <string name="producer">Nuwɔla</string>
+    <string name="created">Wowɔ</string>
+    <string name="format">Nɔnɔme</string>
+    <string name="pages">Xexlẽme si Axa</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Wowɔe wònyo wu</string>
+    <string name="security">Dedienɔnɔ</string>
+    <string name="paper_size">Pepa ƒe lolome</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Womewɔ %s</string>
+    <string name="copied">kɔpi na faɛl aɖewo dzidzedzetɔe</string>
+    <string name="moved">ʋuʋu</string>
+    <string name="copy_complete">Kɔpi Wòwu</string>
+    <string name="waiting_title">Lala</string>
+    <string name="waiting_content">Ele lalam be dɔwɔwɔ nawu enu</string>
+    <string name="extract_complete">Eɖee wu enu</string>
+    <string name="compression_complete">Wowu nutete nu</string>
+    <string name="compressing">Woɖee ɖa</string>
+    <string name="cancelled">Wote fli ɖe eme</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Woŋlɔe</string>
+    <string name="out_of">tso</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">le</string>
+    <string name="processing_file">Dɔwɔwɔ ƒe faɛl</string>
+    <string name="current_speed">Fifi Duƒuƒu</string>
+    <string name="smb_launch_error">Ahiã be nàwɔ faɛl sia ƒe kɔpi ɖe nudzraɖoƒe be nàʋui</string>
+    <string name="error_file_not_found">Vodada: Womekpɔ Faɛl o</string>
+    <string name="error_io">I/O Vodada</string>
+    <string name="error_file_too_large">Vodada: Faɛl Lolo akpa</string>
+    <string name="medium_text">Nuŋɔŋlɔ si le titina</string>
+    <string name="permission_read">Xlẽ</string>
+    <string name="permission_write">Ŋlɔ</string>
+    <string name="permission_execute">Wɔ</string>
+    <string name="permission_owner">Aƒetɔ</string>
+    <string name="permission_group">Ƒuƒoƒo</string>
+    <string name="permission_other">Bubu</string>
+    <string name="clipboard_path_copy">Mɔ si wogbugbɔ ŋlɔ ɖe clipboard</string>
+    <string name="service_timer">Ɣeyiɣi si va yi</string>
+    <string name="please_wait">Taflatse Lala</string>
+
+    <string name="cloud_connection">Alilikpo ƒe Kadodo</string>
+    <string name="cloud_connection_new">Alilikpo ƒe Kadodo Yeye</string>
+    
+    <string name="cloud_drive">Google DriveTM</string>
+    
+    <string name="cloud_box">Aɖaka</string>
+    <string name="cloud_get">Xɔ Alilikpo me kpeɖeŋutɔ</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Dɔwɔwɔ aɖeke meli o</string>
+    <string name="ftp_path">Mɔ si woama</string>
+    <string name="ftp_path_hint">Mɔ si yi ɖe nyatakakadzraɖoƒe ƒe ke si woama</string>
+    <string name="change">Trɔ</string>
+    <string name="unknown_error">Oops, nane gblẽ!</string>
+
+    <string name="ftp_path_change_success">FTP mɔ trɔ dzidzedzetɔe</string>
+    <string name="ftp_path_change_error_invalid">Mɔ si mesɔ o</string>
+    <string name="ftp_status_no_connection">Kadodo aɖeke meli o</string>
+    <string name="ftp_status_secure_connection">Kadodo Dedie</string>
+    <string name="ftp_status_title">Nɔnɔme</string>
+    <string name="ftp_port">Melidzeƒe</string>
+    <string name="ftp_login">Geɖe</string>
+    <string name="field_empty">Agble mateŋu anye ƒuƒlu o</string>
+    <string name="ftp_timeout">Ɣeyiɣi si mewɔa dɔ o</string>
+    <string name="ftp_seconds">Sɛkɛnd</string>
+    <string name="intellihide_toolbar_title">Intellihide Dɔwɔnu ƒe akpa</string>
+    <string name="intellihide_toolbar_summary">Ɣla dɔwɔnu ƒe akpaa le ɖokuiwò si ne èle ʋuʋum</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">wogbugbɔ kɔpi ɖe clipboard dzi</string>
+    <string name="contributors_1_summary">Gbegɔmeɖeɖe</string>
+    <string name="contributors_2_summary">Dzesi kple aflagawo</string>
+    <string name="contributors_3_summary">Tanya ƒe Mɔ̃</string>
+    <string name="contributors_4_summary">Vɔvɔli le megbe na FAB</string>
+    <string name="contributors_5_summary">Amadede ƒe tɔtrɔ ne èle tabwo ƒom</string>
+    <string name="contributors_6_summary">FTP Dɔdzikpɔla</string>
+    <string name="contributors_7_summary">Dɔdada ɖe interactive shell</string>
+    <string name="connection_exists">Kadodo dzi li xoxo</string>
+
+    <string name="crypt_encrypting">Nya ɣaɣla</string>
+    <string name="crypt_decrypting">Nyatakaka</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Nya ɣaɣla</string>
+    <string name="crypt_decrypted">Woɖe nya ɣaɣla ɖa</string>
+    <string name="crypt_encrypt">Nya ɣla</string>
+    <string name="crypt_decrypt">Nya ɣaɣla</string>
+    <string name="operation_fail_following">Dɔwɔwɔ do kpo nu na faɛl siwo gbɔna</string>
+    <string name="crypt_pref_master_password_title">Nyagbegbɔgblɔ Gã</string>
+    <string name="crypt_pref_master_password_summary">Ðo nyagbe ɣaɣla na nya ɣaɣla.
+        Gblẽe ƒuƒlu be nàɖee ɖa.</string>
+    <string name="crypt_pref_fingerprint_title">Asibidɛ ƒe dzesi</string>
+    <string name="crypt_pref_fingerprint_summary">Zã asibidɛ ƒe dzesi nàtsɔ aɖo kpe nya ɣaɣla dzi</string>
+    <string name="crypt_fingerprint_no_permission">Asibidɛ ƒe mɔɖeɖewo bu</string>
+    <string name="crypt_fingerprint_not_enrolled">Asibidɛ ƒe dzesi aɖeke meŋlɔ ŋkɔ o</string>
+    <string name="crypt_fingerprint_no_security">Dedienɔnɔ aɖeke meli le lockscreen me o found</string>
+    <string name="crypt_warning_key">Woɖo aɖaŋu na wò, ne ètrɔ wò dedienɔnɔ ƒe ɖoɖo tso
+        System ƒe ɖoɖowo, màteŋu aɖe nya sia gɔme o.</string>
+    <string name="warning_never_show">Mègagblɔe ake o</string>
+    <string name="warning_confirm">Mekpɔe!</string>
+    <string name="crypt_encryption_fail">Do kpo nya ɣaɣla</string>
+    <string name="crypt_decryption_fail">Medo kpo nyagbe ɣaɣla aɖe ɖeɖeɖa</string>
+    <string name="crypt_decryption_fail_password">Nyagbe ɣaɣla si mesɔ o!</string>
+    <string name="crypt_fingerprint_authenticate">Ka asi sensor ŋu be wòayi edzi</string>
+    <string name="authenticate_password">Ŋlɔ nyagbe</string>
+
+    <string name="sidebar_preferences">Axadzi</string>
+    <string name="sidebar_quick_access_title">Axadzinuŋɔŋlɔ kabakaba</string>
+    <string name="show_quick_access_pref_title">Fia mɔɖeɖe kabakabawo</string>
+    <string name="show_quick_access_pref">Nukpɔkpɔ kabakaba</string>
+    <string name="directory">Nudzraɖoƒe</string>
+
+    <string name="sidebar_bookmarks_title">Axadzi dzesiwo</string>
+    <string name="show_bookmarks_pref_title">Fia dzesiwo</string>
+    <string name="show_bookmarks_pref">Agbalẽdzesiwo</string>
+    <string name="create_bookmark">Wɔ dzesi</string>
+    <string name="edit_bookmark">Trɔ asi le dzeside ŋu</string>
+    <string name="question_delete_bookmark">Tutu dzesi?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud ƒe kpeɖeŋutɔ si womekpɔ o. Taflatse wɔ kɔpi tso Play Store.</string>
+    <string name="cloud_error_failed_restart">Medo kpo kadodoa ƒe agbatsɔtsɔ o.
+        Taflatse ʋu Amaze Cloud zi ɖeka.</string>
+    <string name="cloud_remove">Èdi be yeaɖe alilikpo ƒe kadodoa ɖaa?</string>
+    <string name="cloud_fail_authenticate">Do kpo kpeɖodzinana</string>
+    <string name="cloud_share_copied">Woɖe kadodo si woate ŋu ama ɖe clipboard me</string>
+    <string name="copy_low_memory">Ewu enu ŋkuɖodzinu, taflatse kɔ RAM aɖewo ɖa</string>
+    <string name="cloud_token_lost">Dzesi si bu, taflatse gage ɖe eme ake</string>
+    <string name="monofont">Monospace Ŋɔŋlɔdzesi</string>
+    <string name="showHeaders">Fia Tanyawo</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Nu aɖeke meli o</string>
+	<string name="item">nu</string>
+	<string name="items">nu</string>
+	
+	
+	<string name="bytes">byte</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Ele be ŋkɔ nanɔ faɛl ŋu</string>
+    <string name="add_item">Tsɔ Nu kpee</string>
+    <string name="failed_smb_decrypt_path">Wodo kpo agba SMB kadodo</string>
+    <string name="failed_cloud_new_connection">Do kpo Alilikpo kadodo yeye tsɔtsɔ kpee</string>
+    <string name="failed_cloud_api_key">Do kpo Alilikpo ƒe kpeɖeŋutɔ ƒe kpeɖodzi</string>
+
+    <string name="local_inet_addr_error">Vodada le teƒea ƒe inet adrɛs xɔxɔ</string>
+    <string name="intent_save_as">Dzra ɖo abe...</string>
+    <string name="go">Yi</string>
+    <string name="advanced">Deŋgɔ</string>
+    <string name="typeable_paths_title">Mɔ siwo wowɔ ɖe ɖoɖo nu</string>
+    <string name="typeable_paths_summary">Zi mɔ ƒe ʋuƒo dzi didi be nàŋlɔ mɔ tɔxɛ aɖe</string>
+    <string name="send_email_to">Ðo e-mail ɖe</string>
+
+    <string name="text_editor">Nuŋɔŋlɔ ɖɔlila ƒe ɖoɖowo</string>
+    <string name="preference_newstack_title">Ʋu faɛlwo abe dɔ yeye ene</string>
+    <string name="preference_newstack_summary">Enaa mɔnukpɔkpɔ wò be nàʋu faɛlwo le dɔ vovovowo me. Kpɔ wo tso system recents screen.</string>
+    
+    <string name="developers">Dɔwɔlawo</string>
+    <string name="no_bitcoin_app">Taflatse de Bitcoin Wallet dɔwɔnu aɖe</string>
+    <string name="channel_name_normal">Amaze Nyatakakawo</string>
+    <string name="channel_description_normal">Amaze File Manager\'s Nyatakakawo</string>
+    <string name="channel_name_ftp">Amaze FTP Dɔdzikpɔla</string>
+    <string name="channel_description_ftp">Amaze File Manager FTP Dɔwɔla\ \'s Nyatakakawo</string>
+
+    
+    <string name="processing">Dɔwɔwɔ...</string>
+    <string name="failed_no_connection">Do kpo faɛlwo tsɔtsɔ de eme. Taflatse kpɔ wò kadodoa ɖa.</string>
+
+    
+	<string name="scp_connection">SCP/SFTP Kadodo</string>
+    <string name="ftp_connection">FTP Kadodo</string>
+    <string name="ftps_connection">FTP to SSL Kadodo dzi</string>
+    <string name="scp_port">Melidzeƒe</string>
+    <string name="ssh_host_key_verification_prompt">Womateŋu aɖo host \'%1$s\' ƒe nyateƒenyenye anyi o.\n\n%2$s safui ƒe asibidɛ ƒe dzesi nye %3$s.\n\nTaflatse zi \"Ẽ\" dzi be nàɖo kpe edzi dzeside; ne menye nenema o la, taflatse zi \"Ao\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Ðo kpe Host dzi</string>
+    <string name="ssh_select_pem_button">SSH Ame ŋutɔ ƒe Safui</string>
+    <string name="ssh_pem_key_parse_error">Meteŋu xlẽ PEM tiatia o: %s</string>
+    <string name="password_unchanged">(metrɔe o)</string>
+    <string name="ssh_authentication_failure_password">Ŋgɔyiyi ƒe kpododonu: Meteŋu ɖo kpe edzi kple zãla ƒe ŋkɔ kple nyagbe si wona o.</string>
+    <string name="ssh_authentication_failure_key">Ge ɖe eme ƒe kpododonu: Meteŋu ɖo kpe edzi kple zãla ƒe ŋkɔ kple ame ŋutɔ ƒe safui si wona o.</string>
+    <string name="ssh_connect_failed">Meteŋu do ka kple %1$ o s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">Nuxlɔ̃ame: REMOTE HOST IDENTIFICATION TƆTƆ!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">ATEŊU BE AME AÐE LE NU GBƆGBƆ WƆM!\n\nAme aɖe ate ŋu anɔ to ɖom wò le adzame fifia (amegbetɔ si le titina ƒe amedzidzedze)! Ate ŋu adzɔ hã be ɖeko wotrɔ host key la teti koe nye ema. Asibidɛ ƒe dzesi na dutoƒo safui si adzɔge amedzroxɔla ɖo ɖa la mesɔ kple esi wodzra ɖo ɖe Amaze me o.\n\nTaflatse te ɖe wò dɔwɔɖoɖo dzikpɔla ŋu alo ɖo kadodo yeye be wòayi edzi aɖo kadodo kple dɔdzikpɔla.</string>
+    <string name="ssh_key_prompt_passphrase">Taflatse ŋlɔ safui ƒe nyagbegbɔgblɔ .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Mɔ kpuiwo wɔwɔ medoa alɔ wò gɔmedzedze o.</string>
+    
+    <string name="select_color_config">Tia amadede ƒe ɖoɖo</string>
+    <string name="customize">Trɔ asi le eŋu</string>
+    <string name="custom">Tɔtrɔ</string>
+    <string name="preselected_configs_title">Ðoɖo siwo nètia do ŋgɔ</string>
+    <string name="orange">Aŋutiɖiɖi</string>
+    <string name="blue">Blu</string>
+    
+    <string name="password_no_match">Nyagbe mesɔ o</string>
+    <string name="deselect_all">Tsi Wo katã</string>
+    <string name="filename">Fail ŋkɔ</string>
+    <string name="compress_file_suggest_zip_extension">Eɖo aɖaŋu be nàzã \".zip\" abe faɛl ƒe kpeɖeŋutɔ ene.</string>
+    <string name="about_amaze">Nuwo ƒe ɖoɖowɔwɔ ƒe faɛl dzikpɔla na Android</string>
+    <string name="license">Mɔɖegbalẽ</string>
+    <string name="libraries">Agbalẽdzraɖoƒewo</string>
+    <string name="password_repeat">Gbugbɔ gblɔ nyagbe</string>
+    <string name="create_file_suggest_txt_extension">Eɖo aɖaŋu be nàzã \". txt\" abe faɛl ƒe kpeɖeŋutɔ ene.</string>
+    <string name="ssh_select_pem">Tia ame ŋutɔ ƒe safui hena ɖaseɖiɖi</string>
+    <string name="ssh_key_invalid_passphrase">Safui ƒe nyagbe si mesɔ o.</string>
+    <string name="ssh_key_no_decoder_decrypt">Decoder si sɔ aɖeke meli si woatsɔ aɖe PEM gɔme o.</string>
+    <string name="encryption_fail_copy">Do kpo update encryption entry in database</string>
+    <string name="extracted">Woɖee ɖa</string>
+    <string name="compressed">Woƒoe ɖe enu</string>
+    <string name="processed">Wowɔ dɔ tso eŋu</string>
+    <string name="no_obtainable_info">Nyatakaka aɖeke mele faɛl sia ŋu o</string>
+    <string name="reopen_from_source">Can\'. t, taflatse gbugbɔ ʋu tso app mamlɛtɔ me</string>
+    <string name="no_file_error">Nane gblẽ, naneke meli woaʋu o</string>
+    <string name="file_too_long">Faɛl la didi akpa eye womateŋu atrɔ asi le eŋu o, ke hã àteŋu axlẽ %d ŋɔŋlɔdzesi gbãtɔwo</string>
+    <string name="file_read_only">Fail si woʋu la nye nuxexlẽ ɖeɖeko.</string>
+    <string name="got_it">Mekpɔe!</string>
+    <string name="encrypt_file_save_as">Dzra Faɛl Si Wotsɔ Nya Ɣla Ðo Ðo Abe...</string>
+    <string name="encrypt_folder_save_as">Dzra Agbalẽdzraɖoƒe si Woɣla Ðe Eme Abe...</string>
+    <string name="encrypt_option_use_aze">Zã Amaze Encryption Format</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[<mamã72><mamã86>
+        <p>AESCrypt nye faɛl ƒe nya ɣaɣla ƒe ɖoɖo si le ʋuʋu ɖi si wotu ɖe AES nya ɣaɣla dzi. Woateŋu atsɔe hã, ateŋu aɖe nya ɣaɣlawo gɔme kple AESCrypt dɔwɔɖoɖowo le mɔ̃ bubuwo dzi.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt ƒe nyatakakadzraɖoƒe</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[<mamã72><mamã86>
+        <p>Amaze\'s Encryption Format hã nɔ te ɖe AES nya ɣaɣla dzi; gake to vovo na AESCrypt ƒe nɔnɔme la, mɔ̃ sia koe ate ŋu aɖe eƒe nya ɣaɣlawo gɔme; hã mele be nàɖe Amaze File Manager ɖa le mɔ̃ sia dzi alo atrɔ alesi nètu screen la o, ne menye nenema o la, mɔ aɖeke manɔ asiwò si dzi nàto agbugbɔ faɛl si wotsɔ nya ɣaɣlawo ŋlɔ la axɔ o.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Ele be faɛl siwo wotsɔ nya ɣaɣlawo ŋlɔ la nazã \".aze\" abe faɛl ƒe kpeɖeŋutɔ ene.</string>
+    <string name="encrypt_file_must_end_with_aes">Ele be faɛl siwo wotsɔ nya ɣaɣlawo ŋlɔ la nazã \".aes\" abe faɛl ƒe kpeɖeŋutɔ ene.</string>
+    <string name="error_aescrypt_decrypt_failed">Mateŋu aɖe \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Mateŋu aŋlɔ ɖe edzi o file.</string>
+    <string name="saved_single_file">File si wodzra ɖo abe \'%s\' ene.</string>
+    <string name="saved_multi_files">%d faɛlwo dzra ɖo.</string>
+    <string name="create_hidden_file_warn">Woaɣla faɛl si wowɔ la ɖe faɛl ƒe xexlẽdzesi me.</string>
+    <string name="grant_apkinstall_permission">App hiã mɔɖeɖe be wòaɖo dɔwɔɖoɖowo ɖe edzi.</string>
+    <string name="time_remaining">Ɣeyiɣi si susɔ</string>
+    <string name="transfer_rate">Tsiɖoɖo ƒe agbɔsɔsɔme</string>
+    <string name="unknown">womenya o</string>
+    <string name="multiple_invalid_archive_entries">Womateŋu aɖe faɛl aɖewo le nudzraɖoƒea o; archive ateŋu agblẽ alo etso dzɔtsoƒe vɔ̃ɖi gbɔ.</string>
+    <string name="saf_otg_explanation">Àyi Android\'s filesystem azɔ le dedienɔnɔ ta. Taflatse tia USB-mɔ̃a tso xexlẽdzesi siwo le miame.</string>
+    <string name="donation_thanks">Akpe na mi ɖe nudzɔdzɔa ta, esia nana míenɔa dzo dam! (:</string>
+    <string name="enable_marquee_filename">Na marquee effect nawɔ dɔ na faɛl ŋkɔwo</string>
+    <string name="archive_password_prompt">Taflatse ŋlɔ nudzraɖoƒe ƒe nyagbegbɔgblɔ:</string>
+    
+    <string name="cannot_extract_archive">Mateŋu aɖe nudzraɖoƒe \"%s\" o: %s</string>
+    <string name="archive_unsupported_or_corrupt">Meteŋu o open archive \"%s\".Míateŋu aʋu nudzraɖoƒea o, alo nudzraɖoƒea gblẽ.</string>
+    <string name="close">Tsɔ</string>
+    <string name="bookmark_exists">Agbalẽdzesi li</string>
+    <string name="hide_media">Ɣla ɖe nyadzɔdzɔwo ƒe nyatakakadzraɖoƒewo</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ATEŊU BE AME AÐE LE NU GBƆGBƆ WƆM!\n\nAme aɖe ateŋu anɔ to ɖom wò fifia (ame-in-the-middle attack)!Ateŋu adzɔ hã be ɖeko wotrɔ host key la teti koe nye ema.Asibidɛ ƒe dzesi elabena dutoƒo safui si adzɔge amedzroxɔla ɖo ɖa la mesɔ kple esi wodzra ɖo ɖe Amaze me o.\n\nÀteŋu ayi edzi kple amedzroxɔla ƒe asibidɛ ƒe dzesi ɖɔɖɔɖo alo ate fli ɖe SSH kadodo ƒe ɖoɖowo ɖɔɖɔɖo me.</string>
+    <string name="update_host_key">Tɔtrɔ Host Safui</string>
+    <string name="cancel_recommended">Te fli ɖe eme (Wokafui)</string>
+    
+    
+    <string name="failed_install_apk">Do kpo eɖoɖo</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Ememe Nudzraɖoƒe</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD kaɖi</string>
+    <string name="choose_folder">Tia Agbalẽdzraɖoƒe Sia</string>
+    
+    <string name="some_files_failed_invalid_operation">Fail aɖewo do kpo nu le esi womewɔ dɔ o ta dɔwɔwɔ</string>
+    <string name="ftp_server_prompt_connect_to_network">Do ka kple network alo na AP nawɔ dɔ</string>
+    <string name="ftp_server_open_settings">Ʋu ɖoɖowo</string>
+    <string name="move">Ʋu</string>
+    <string name="select_save_location">Tia teƒe si nàdzra ɖo</string>
+    <string name="scp_default_path">Mɔ Gbãtɔ (Ne èdi)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Taflatse, mele be wòadzɔ nenema hafi o.</string>
+    
+    <string name="error_report_button_text">Gblɔ vodada sia to e-mail dzi</string>
+    <string name="error_report_button_telegram">Gblɔ vodada sia to telegram dzi</string>
+    <string name="copy_for_github">Kɔpi nyatakaka si woɖo ɖe ɖoɖo nu</string>
+    <string name="error_report_open_issue_button_text">Ka nya ta le GitHub</string>
+    <string name="error_report_open_github_notice">Taflatse kpɔe ɖa be nya aɖe si le nu ƒom tso wò gbagbã ŋu la li xoxo hã.</string>
+    <string name="error_snackbar_message">Taflatse, nane gblẽ.</string>
+    <string name="error_snackbar_action">Nyatae</string>
+    <string name="what_device_headline">Nyatakaka:</string>
+    <string name="what_happened_headline">Nusi dzɔ:</string>
+    <string name="info_labels">Nusi:\\nBibia:\\nGMT Ɣeyiɣi:\\nPackage:\\nVersion:\\nOS version:\\nDevice:\\nModel:\\nProduct :</string>
+    <string name="your_comment">Wò nyaŋuɖoɖo (le Eŋlisigbe me):</string>
+    <string name="error_details_headline">Tsitotsito:</string>
+    <string name="app_ui_crash">App/UI gblẽ</string>
+    <string name="error_report_title">Vodada ƒe nyatakaka</string>
+    <string name="crash_report_copied">Wowɔ kɔpi na afɔku ŋuti nyatakaka clipboard</string>
+    <string name="disableIpcSignature">Tɔ asi le IPC ƒe asidede agbalẽ te ƒe dodokpɔ ŋu (Na SMBv1 dɔdzikpɔla xoxowo - UNSAFE!)</string>
+    <string name="cannot_delete_file">Mateŋu atutu faɛl</string>
+    <string name="cannot_delete_file_with_reason">Mateŋu atutu faɛl o - %s</string>
+    <string name="cannot_rename_file">Mateŋu atrɔ ŋkɔ na faɛl o %s - %s</string>
+    <string name="cannot_read_directory">Mateŋu axlẽ nudzraɖoƒe %s - %s</string>
+    <string name="just_once">Zi ɖeka ko</string>
+    <string name="always">Ɣesiaɣi</string>
+    <string name="choose_different_app">Tia dɔwɔwɔ bubu</string>
+    <string name="clear_open_file">Klɔe cache</string>
+    <string name="clear_open_file_summary">Klɔa faɛl ʋuʋu ƒe dɔwɔɖoɖo siwo wotia ɖa</string>
+    <string name="ftp_readonly">Nuxexlẽ ɖeɖeko ƒe mɔɖeɖe</string>
+    <string name="legacy_listing_title">Zã domenyinu ƒe xexlẽdzesi na root</string>
+    <string name="legacy_listing_summary">Ne wowɔe la, zãa domenyinu mɔnu tsɔ ŋlɔa faɛlwo</string>
+    <string name="error_unsupported_v5_rar">RAR nudzraɖoƒe \"%s\" nye RAR v5 nudzraɖoƒe si womedo alɔe o.</string>
+    <string name="ftp_prompt_restart_server">Ahiã be nàgbugbɔ adze FTP dɔdzikpɔla gɔme hafi tɔtrɔwo nawɔ dɔ.</string>
+    <string name="error_permission_denied">Wogbe mɔɖeɖe</string>
+    <string name="error_archive_password_incorrect">Nudzraɖoƒe ƒe nyagbe si mesɔ o.</string>
+    <string name="error_archive_cannot_extract">Meteŋu ɖe nudzraɖoƒe ƒe nuŋɔŋlɔ \"%s\" ɖe \"%s\" me o.</string>
+    <string name="drag_and_drop_preference">Tia hehe kple tsɔtsrɔ̃ ƒe didi (Dodokpɔ)</string>
+    <string name="drag_to_move_copy">Ka asi eŋu eye nàhee be nàʋu alo awɔ kɔpi na faɛlwo</string>
+    <string name="drag_to_select">Ka asi eŋu eye nàhee be nàtia faɛlwo</string>
+    <string name="disable">Tɔwɔ</string>
+    <string name="choose_operation">Tia dɔwɔwɔ be nàwɔ</string>
+    <string name="remember">Ðo ŋku edzi na ɣebubuɣi</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Na SAF ƒe mɔɖeɖe na FTP dɔdzikpɔla</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Esi wònye be esiae nye wò FTP dɔdzikpɔla ƒe duƒuƒu gbãtɔ, eye nèle mɔ̃a ƒe ememe nudzraɖoƒe zãm abe agbalẽdzraɖoƒe si woama ene ta la, taflatse ɖe mɔ na Amaze be wòakpɔ nudzraɖoƒea to zazã me SAF.\n\n
+
+Zi ɖeka koe wòle be nàwɔ esia, vaseɖe ɣebubuɣi si nàtia teƒe yeye si nàma.</string>
+    <string name="android_data_prompt_saf_access">Tso esime Android 10 la, Android de mɔxexe ɖe nyatakakadzraɖoƒe aɖewo nu, eye ele be woatsɔ Storage Access Framework age ɖe eme.\n \nTaflatse ɖe mɔ na Amaze be wòage ɖe agbalẽdzraɖoƒea tso system\'s file manager to asiƒoƒo ɖe \"Allow Access\".</string>
+    <string name="android_data_prompt_saf_access_title">Na SAF access</string>
+    <string name="ftp_preference_saf_filesystem_title">Zã legacy filesystem</string>
+    <string name="ftp_preference_saf_filesystem">Nawɔe esia hena kpekpeɖeŋu na mɔ̃a ƒe gotagome nudzraɖoƒe zazã le Android ƒe tɔtrɔ yeyewo dzi</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Wogbugbɔ ɖo FTP dɔdzikpɔla ƒe mɔ si woama la ɖe ememe nudzraɖoƒe esi nèle tɔtrɔm ɖe domenyinu ƒe faɛlɖoɖo ƒe dɔwɔwɔ ŋu. Taflatse tia mɔ yeye to menu si le ɖusime le etame la zazã me ne ehiã.</string>
+    <string name="ftp_server_reset_notify">Wogbugbɔ ɖo FTP dɔdzikpɔla ƒe mɔ si woama la ɖe ememe nudzraɖoƒe</string>
+    <string name="ftp_server_root_unavailable">Èle mɔ si hiã ke ƒe mɔɖeɖe tiam. Taflatse na root explorer nawɔ dɔ le ɖoɖowo me nenye be wò mɔ̃a nye root.</string>
+    <string name="ftp_server_root_filesystem_warning">Èle mɔ si hiã ke ƒe mɔɖeɖe, si naa nuxexlẽ/ŋɔŋlɔ ƒe dɔwɔwɔwo le faɛlɖoɖo bliboa me le wò mɔ̃a dzi tiam, eye afɔku le eme - vodada siwo me ŋumaɖɔɖo mele o ateŋu agbã wò mɔ̃a!\n\nÈka ɖe edzia?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Vodada le URI \"%s\" ʋuʋu me hena nuxexlẽ.</string>
+    <string name="error_empty_archive">\"%s\" nye nudzraɖoƒe ƒuƒlu.</string>
+    <string name="error_bad_archive_without_info">\"%s\" nye nudzraɖoƒe si gblẽ .</string>
+    <string name="error_bad_archive_with_info">\"%s\" nye nudzraɖoƒe si gblẽ.\nGbedasi tso extractor gbɔ: \"%s\"</string>
+    <string name="security_error">Wometeŋu ʋu faɛl to dɔwɔnu sia zazã me o</string>
+    <string name="cloud_drive_tooltip">Wɔ Google DriveTM kadodo aɖe hena faɛlwo dzikpɔkpɔ tso Amaze File Manager me.</string>
+    <string name="signin_with_google_title">Ðo kpe edzi be yeazã Google DriveTM</string>
+    <string name="show_system_apps">Fia ɖoɖowɔɖi ƒe dɔwɔɖoɖowo</string>
+    <string name="system_apps">Dɔwɔɖoɖo ƒe dɔwɔɖoɖowo</string>
+    <string name="select_inverse">Tia Inverse</string>
+    <string name="select_by_type">Tia le ƒomevi nu</string>
+    <string name="select_by_date">Tia le ŋkeke nu</string>
+    <string name="select_similar">Tia esiawo tɔgbe</string>
+    <string name="error_fetching_google_play_product_list">Vodada le adzɔnuwo ƒe xexlẽdzesiwo xɔm tso Google Play.</string>
+    <string name="grant_all_files_permission">Tso esime Android 11 , Google bia tso File Managers si be woabia mɔ tso zãla si be woakpɔ faɛl siwo katã le mɔ̃a dzi la dzi. Nyatakakawo tsitotsito le afisia.
+        \n\nAmaze File Manager hã hiã mɔɖeɖe sia. Ne èzi "Grant" dzi le afisia vɔ la, taflatse tia Allow access to manage all files option le screen si kplɔe ɖo dzi.
+        \n\nNe ète fli ɖe dzeɖonya sia me la, ado le dɔwɔnua me.</string>
+    <string name="user_apps">Zãla ƒe dɔwɔɖoɖowo</string>
+    <string name="appearance">Dzedzeme</string>
+    <string name="behavior">Nuwɔna</string>
+    <string name="appearance_summary">Trɔ asi le faɛl dzikpɔla ƒe tanya, amadedewo kple dzedzeme ŋu</string>
+    <string name="ui_summary">Dzra nyatakaka siwo woaɖe afia dzi, trɔ asi le axadzinuŋɔŋlɔa ŋu, eye nàtrɔ asi le UI ƒe didiwo ŋu</string>
+    <string name="behavior_summary">Trɔ asi le nuwɔnawo abe didi deŋgɔ kple nenye be woaʋu faɛlwo abe dɔ yeye ene</string>
+    <string name="security_summary">Ðo nyagbe ɣaɣla kple nya ɣaɣlawo tsɔtsɔ yi duta</string>
+    <string name="backup_summary">Dɔda ɖe duta/tsɔ yi duta Amaze ƒe ɖoɖowo</string>
+
+    <string name="pref_export">Dɔ yi duta</string>
+    <string name="pref_export_summary">Dɔda ɖe duta ƒe ɖoɖowo</string>
+    <string name="pref_import">Tsɔ yi duta</string>
+    <string name="pref_import_summary">Dɔ yi duta ƒe ɖoɖowo</string>
+
+    <string name="quick_desc">Files nyitsɔ laa la, wokpɔe to Amaze dzi</string>
+    <string name="recent_desc">Faɛl siwo wowɔ alo trɔ asi le wo ŋu nyitsɔ laa</string>
+    <string name="error_cannot_find_way_open">Mekpɔ mɔ si dzi woato aʋu faɛl la o</string>
+    <string name="error_cant_decompress_that_file">Meteŋu wɔ dɔ tso nudzraɖoƒe si wobia ŋu o</string>
+    <string name="analyse_storage">Dzro Nudzraɖoƒe</string>
+    
+    <string name="download_amaze_utils_text">Wo le mɔ trɔm na wò yi Amaze File Utilities gbɔ. Enye míaƒe mɔnu si le ʋuʋu ɖi si me odio/video/nɔnɔmetata/nuŋlɔɖi kpɔlawo le, si na be nàte ŋu adzro faɛl gbegblẽwo me be nàna nudzraɖoƒe navo, atsɔ wo ayi kabakaba to Wifi P2P zazã me kple bubu geɖe.\nTaflatse do alɔ mí to edodokpɔ me.</string>
+    <string name="download">Kɔpi</string>
+    
+    <string name="amaze_utils_installed_alias">Akpe na wò be nèɖo Amaze File Utilities ɖe wò kɔmpiuta dzi. Wole mɔ fiam wò yi dɔwɔnua dzi.</string>
+    <string name="image_viewer">Amaze Nɔnɔmetata Kpɔla</string>
+    <string name="video_player">Ame Video Player wɔ nuku</string>
+    <string name="amaze_audio_player">Amaze Hadzidzi ƒola</string>
+    <string name="pdf_viewer">Amaze Document Kpɔla</string>
+    <string name="docx_viewer">Amaze Nuŋlɔɖi Kpɔla</string>
+    <string name="share_logs">Ma nuŋlɔɖiwo</string>
+    <string name="share_logs_summary">Ma nuŋlɔɖi siwo wolé to email / telegram dzi</string>
+    <string name="open_with_amaze">Ʋu kple Amaze</string>
+    <string name="confirmation">Kpeɖodzi</string>
+    <string name="open_file_confirmation">Wòe kakaɖedzitɔe la, èdi be yeaʋu faɛl si gbɔna?\n\nŊkɔ:\n%s\n\nTeƒe:\n%s\n\nAgbɔsɔsɔme:\n%s\n\nMD5:\n%s\n\nSHA256:\ n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Le Google Play ƒe ɖoɖo ƒe sedede nu la, womeɖe mɔ na dɔwɔɖoɖowo be woawɔ yeye le wo ɖokui si o. Taflatse trɔ asi le dɔwɔnua ŋu tso Google Play.</string>
+    <string name="error_cannot_get_package_info">Mete ŋu xɔ agbalẽvi ŋuti nyatakakawo tso faɛl \"%s\" me o. Fail si woɖo la menye APK o, alo package faɛl la gblẽ.</string>
+    <string name="preference_delete_confirmation">Tutu kpeɖodzi</string>
+    <string name="preference_delete_confirmation_summary">Bia kpeɖodzi hafi nàtutu faɛlwo. Esia nuwɔametɔ nye dziɖeleameƒo ŋutɔ!</string>
+    
+    
+    <string name="protocol_ftps">FTP Dedienɔnɔ</string>
+    <string name="unavailable">Meli o</string>
+
+    <string name="exporting_failed">Eɖoɖo ɖe duta do kpo nu: meteŋu ŋlɔ kɔpi faɛl o</string>
+    <string name="importing_failed">Etsɔtsɔ va do kpo nu: meteŋu xlẽ megbenya o file</string>
+    <string name="importing_completed">Wowu etsɔtsɔ vɛ nu</string>
+    <string name="invalid_backup_file">Fail si mesɔ o si wodzra ɖo ɖe megbe</string>
+    <string name="import_failed_for">Etsɔtsɔ va do kpo nu na:</string>
+    <string name="free_of">"%s\n%s si me %s</string>
+    <string name="cloud_error_fdroid">meleo&gt;Amaze Cloud Plugin mewɔa dɔ kple F-Droid tɔ o. Taflatse zã Play Store tɔ si nye Amaze.</string>
+    <string name="disable_player_intent_filters">Tsi fefewɔla ƒe tameɖoɖo ƒe ʋuʋudediwo ɖa</string>
+    <string name="disable_player_intent_filters_summary">Tsi Amaze inbuilt media players nu tso faɛl tiatia me</string>
+    <string name="no_app_found_intent">Womekpɔ dɔwɔnu aɖeke si akpɔ tameɖoɖo sia gbɔ o. Ðe DocumentsUI le asiwòa?</string>
+    <string name="cloud_connection_credentials_cleared">Woɖe Alilikpo me Kadodo ƒe ɖaseɖigbalẽwo ɖa</string>
+    <string name="cloud_connection_credentials_cleared_msg">Nublanuitɔe la, míete ŋu trɔ wò alilikpo me kadodo ƒe ɖaseɖigbalẽwo yi nyatakakadzraɖoƒe ƒe ɖoɖo yeyea me o, eye míewɔe be nàɖe wo ɖa le dɔwɔnua me.Taflatse gawɔ alilikpo ƒe kadodoa ake.</string>
+</resources>

@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Avaa navigointipaneeli</string>
+    <string name="drawer_close">Sulje navigointipaneeli</string>
+    <string name="icon">kuvake</string>
+    
+    <string name="ftp">FTP-palvelin</string>
+    <string name="setting">Asetukset</string>
+    <string name="select">Valitse kohde</string>
+    <string name="press_again">Paina uudelleen poistuaksesi</string>
+    <string name="open">Avaa</string>
+    <string name="backup">Varmuuskopioi</string>
+    <string name="uninstall">Poista</string>
+    <string name="play">Play-kauppa</string>
+    <string name="properties">Ominaisuudet</string>
+    <string name="copyingapks">Kopioidaan %d APK-tiedostoa kohteeseen %s</string>
+    <string name="delbook">Poista kirjanmerkki</string>
+    <string name="add_to_bookmarks">Lisää kirjanmerkkeihin</string>
+    <string name="enterpath">Anna polku</string>
+    <string name="cancel">PERUUTA</string>
+    <string name="create">LUO</string>
+    <string name="loading">Ladataan…</string>
+    <string name="file_empty">Tiedosto on tyhjä</string>
+    <string name="error">Virhe</string>
+    <string name="search_results">%s:n hakutulokset</string>
+    <string name="rename">Nimeä uudelleen</string>
+    <string name="save">Tallenna</string>
+    <string name="bookmarks_added">Kirjanmerkit lisätty</string>
+    <string name="fileexist">Samanniminen tiedosto on jo olemassa</string>
+    <string name="name">Nimi</string>
+    <string name="date">Päiväys</string>
+    <string name="location">Sijainti</string>
+    <string name="size_capitalized">Koko</string>
+    <string name="size">kansion koko</string>
+    <string name="enterzipname">Anna postinumero</string>
+    <string name="no_app_found">Ei sovellusta tämän tiedoston avaamiseen</string>
+    <string name="copying">Kopioidaan</string>
+    <string name="moving">Siirretään</string>
+    <string name="file">Tiedosto</string>
+    <string name="folder">Kansio</string>
+    <string name="newfolder">Uusi kansio</string>
+    <string name="entername">Anna nimi</string>
+    <string name="extracting">Poimitaan</string>
+    <string name="stopping">Pysäytys</string>
+    <string name="open_parent">Avaa ylätason hakemisto</string>
+    <string name="open_with">Avaa</string>
+    <string name="share">Jaa</string>
+    <string name="about">Tietoja</string>
+    <string name="extract">Poimi</string>
+    <string name="compress">Pakkaa</string>
+    <string name="yes">Kyllä</string>
+    <string name="no">Ei</string>
+    
+    <string name="dialog_delete_category_directories">Hakemistot</string>
+    <string name="dialog_delete_category_files">Tiedostot</string>
+    <string name="dialog_delete_disclaimer">Alla olevien kohteiden poistaminen poistaa ne pysyvästi laitteeltasi, eivätkä ne voi palautetaan.</string>
+    <string name="dialog_delete_title">Poistetaanko kohteet pysyvästi?</string>
+    <string name="deleting">Poistetaan</string>
+    <string name="question_set_path_as_home">Haluatko asettaa nykyisen polun tämän välilehden kotipaikaksi?</string>
+    <string name="directorysort">Hakemiston lajittelutila</string>
+    <string name="sort_by">Lajitteluperuste</string>
+    <string name="sort_only_this">Vain tämä kansio</string>
+    <string name="theme">Teema</string>
+    <string name="random">Satunnainen ulkoasu</string>
+    <string name="random_summary">Asettaa satunnaisen päävärin käynnistettäessä</string>
+    <string name="colorize">Väritä kuvakkeet</string>
+    <string name="colorize_summary">Asettaa staattisen kuvakkeen värin. Ei ohita hakemistokuvakkeen väriasetusta.</string>
+    <string name="home">Etusivu</string>
+    <string name="paste">Liitä</string>
+    <string name="history">Historia</string>
+    <string name="copy">Kopioi</string>
+    
+    <string name="root_mode_summary">Vain juurtuneille laitteille. Tarkista se vain, jos olet varma siitä.</string>
+    <string name="root_failure">Pääpääsyoikeutta ei myönnetty</string>
+    <string name="select_all">Valitse kaikki</string>
+    <string name="delete">Poista</string>
+    <string name="set_as_home">Aseta etusivuksi</string>
+    <string name="operation_not_supported">Toimintoa ei tueta</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Materiaali Vaalea</string>
+    <string name="dark">Materiaali Tumma</string>
+    <string name="daytime">Päivä</string>
+    <string name="black">Musta (OLED)</string>
+    <string name="system">Järjestelmä (seuraa järjestelmän teemaa)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Kansiot ylhäällä</string>
+    <string name="filesOnTop">Tiedostot ylhäällä</string>
+    <string name="none_on_top">Ei yhtään ylhäällä</string>
+    <!--SortBy-->
+    <string name="sort_name">Nimi</string>
+    <string name="lastModified">Muokattu viimeksi</string>
+    <string name="sort_size">Koko</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Valitse tiedosto</string>
+    <string name="process_viewer">Prosessin katseluohjelma</string>
+    <string name="in_safe">Ei tarpeeksi tilaa</string>
+    <string name="no_file_overwrite">Ei tiedostoa päällekirjoitettu</string>
+    <string name="skip">Ohita</string>
+    <string name="overwrite">Korvaa</string>
+    <string name="not_allowed">Ei sallittu</string>
+    <string name="searching">Haku %s</string>
+    <string name="done">Valmis</string>
+    <string name="set">Aseta</string>
+    <string name="enablerootmde">Ota juuritila käyttöön</string>
+    <string name="goback">Palaa takaisin</string>
+    <string name="newfile">Uusi tiedosto</string>
+    <string name="no_files">Ei tiedostoja</string>
+    <string name="used">käytetty tila</string>
+    <string name="used_by_others">muiden käyttämä</string>
+    <string name="free">vapaa tila</string>
+    <string name="listview">Luettelonäkymä</string>
+    <string name="gridview">Ruudukkonäkymä</string>
+    <string name="permission">Luvat</string>
+    <string name="hide">Piilota</string>
+    <string name="exit">Poistu</string>
+    <string name="doforall">Tee kaikille kohteille</string>
+    <string name="gridcolumnno">Sarakkeiden määrä ruudukkonäkymässä</string>
+    <string name="set_random">Muutokset tapahtuu, kun käynnistät sovelluksen uudelleen</string>
+    <string name="authors">Tekijät</string>
+    <string name="changelog">Muutosloki</string>
+    
+    <string name="ui">Liitäntä</string>
+    <string name="general">Yleiset</string>
+    <string name="thumb_summary">Näytä sovellusten ja kuvien pikkukuvat</string>
+    <string name="thumb">Näytä pikkukuvat</string>
+    <string name="hidden">Näytä piilotetut tiedostot ja kansiot</string>
+    <string name="lastModifiedSummary">Näytä viimeisimmän muokkauksen päivämäärä ja aika</string>
+    <string name="lastModifiedPref">Näytä viimeksi muokattu päivämäärä ja aika</string>
+    <string name="size_pref_summary">Näytä tiedostojen koko ja kansioissa olevien kohteiden määrä</string>
+    <string name="size_pref">Näytä koot</string>
+    <string name="miscellaneous">Sekalaiset</string>
+    <string name="root_pref_summary">Näytä tiedostojen käyttöoikeudet ja kansiot</string>
+    <string name="root_pref">Näytä Käyttöoikeudet</string>
+    <string name="about_amaze_file_manager_label">Tietoja Amaze File Managerista</string>
+    <string name="version">Versio</string>
+    <string name="rate">Arvioi sovellus</string>
+    <string name="feedback">Lähetä palautetta</string>
+    <string name="hiddenfiles">Piilotetut tiedostot</string>
+    
+    <string name="root_directory">Juuri</string>
+    <string name="add_shortcut">Lisää pikakuvake</string>
+    <string name="unsaved_changes">Tallennamattomat muutokset</string>
+    <string name="unsaved_changes_description">Sinulla on tallentamattomia muutoksia. Haluatko tallentaa ne ennen poistumista?</string>
+    <string name="saving">Tallenna</string>
+    <string name="package_installer">Paketin asennusohjelma</string>
+    <string name="view">Näytä</string>
+    <string name="install">Asenna</string>
+    <string name="archive">Arkisto</string>
+    <string name="archive_text">Tämä on arkisto. Mitä toimintoa haluat tehdä?</string>
+    <string name="package_installer_text">Tämä on paketin asennusohjelma. Mitä haluat tehdä?</string>
+    <string name="xda_title">XDA-säie</string>
+    <string name="xda_summary">K&amp;amp;A, Ohje ja vianetsintä</string>
+    <string name="circular_images">Käytä pyöreitä kuvakkeita kuvissa ja videoissa</string>
+    <string name="circular_icons">Käytä pyöreitä kuvakkeita</string>
+    <string name="back_title">Taksepäin navigointi</string>
+    <string name="back_summary">Ottaa käyttöön mukautetun taaksepäin navigoinnin luettelon yläosassa</string>
+    <string name="details">Tiedot</string>
+    <string name="translators">Kääntäjät</string>
+    <string name="german_translation_title">saksa</string>
+    <string name="italian_translation_title">italia</string>
+    <string name="french_translation_title">ranska</string>
+    <string name="russian_translation_title">venäjä</string>
+    <string name="spanish_translation_title">espanja</string>
+    <string name="basque_translation_title">baski</string>
+    <string name="chinese_translation_title">kiina</string>
+    <string name="serbian_translation_title">serbia</string>
+    <string name="turkish_translation_title">turkki</string>
+    <string name="ukrainian_translation_title">ukraina</string>
+    <string name="portuguese_translation_title">portugali</string>
+    <string name="polish_translation_title">puola</string>
+    <string name="korean_translation_title">korea</string>
+    <string name="greek_translation_title">kreikka</string>
+    <string name="dutch_translation_title">hollanti</string>
+    <string name="romanian_translation_title">romania</string>
+    <string name="vietnamese_translation_title">vietnami</string>
+    <string name="japanese_translation_title">japani</string>
+    <string name="tamil_translation_title">tamili</string>
+
+    
+    <string name="unin_system_apk">Tämä on järjestelmäsovellus, jonka poistaminen saattaa johtaa järjestelmän epävakauteen.\nJatketaanko?</string>
+    <string name="warning">Varoitus</string>
+    <string name="donate">Lahjoita</string>
+    <string name="archive_extract_folder">Arkiston purkukansio</string>
+    <string name="archive_summary">Arkistotiedostot puretaan tähän kansioon. Oletusarvo on hakemisto, jossa arkisto on.</string>
+    <string name="open_as">Avaa nimellä</string>
+    <string name="text">Teksti</string>
+    <string name="audio">Ääni</string>
+    
+    <string name="other">Muu</string>
+    <string name="image">Kuva</string>
+    <string name="contributors">avustajat</string>
+    <string name="save_paths">Muista polut</string>
+    <string name="save_path_summary">Käynnistämisen yhteydessä kunkin välilehden viimeksi katsottu kansio näytetään</string>
+    <string name="select_intent">Valitse</string>
+    <string name="database">Tietokanta</string>
+    <string name="colored_navigation">Värillinen navigointipalkki</string>
+    <string name="colored_navigvation_sum">Onko järjestelmän navigointipalkki värillinen ihon kanssa vai ei</string>
+
+    <string name="color_title">Väri</string>
+    <string name="color_summary">Aseta käyttöliittymän eri osien värit</string>
+    <string name="primary_color_title">Pääväri (vasen välilehti)</string>
+    <string name="primary_color_summary">Aseta väri suuret käyttöliittymäelementit vasemmalle välilehdelle</string>
+    <string name="accent_color_title">Aksenttiväri</string>
+    <string name="accent_color_summary">Aseta väriksi FAB ja muut pienet käyttöliittymäelementit</string>
+    <string name="icon_color_title">Kuvakkeen väri</string>
+    <string name="icon_color_summary">Aseta väri kuvakkeille</string>
+    <string name="choose_color">Valitse väri</string>
+    <string name="files">Tiedostot</string>
+    <string name="textreader">Tekstinlukija</string>
+    <string name="databasereader">Tietokannanlukija</string>
+    <string name="show_dividers">Näytä jakajat</string>
+    <string name="needs_access">Kirjoitusoikeus vaaditaan</string>
+    <string name="needs_access_summary">Valitse juurihakemisto \t</string>
+    <string name="needs_access_summary1">\\ antaaksesi kirjoitusoikeudet käyttääksesi</string>
+    <string name="smb_connection">SMB-yhteyttä</string>
+    <string name="smb_server">Palvelimen IP-osoite</string>
+    <string name="server_address">Palvelimen IP-osoite Osoite</string>
+    <string name="username">Käyttäjänimi</string>
+    <string name="password">Salasana</string>
+    <string name="anonymous">Anonyymi</string>
+    
+    <string name="folders">Kansiot</string>
+    <string name="folderfilecount">%1$d kansiota ja %2$d tiedostoa</string>
+    <string name="videos">Videot</string>
+    <string name="apks">APK:t</string>
+    <string name="documents">Asiakirjat</string>
+    <string name="images">Kuvat</string>
+    <string name="clear">Tyhjennä</string>
+    
+    <string name="total">&gt;Yhteensä:</string>
+    <string name="calculating">lasketaan</string>
+    <string name="sort">Lajittele</string>
+    <string name="ascending">Nouseva</string>
+    <string name="descending">laskeva</string>
+    <string name="default_string">Oletus</string>
+    <string name="doit">Tee se</string>
+    <string name="want_help">Tarvitsetko apua?</string>
+    <string name="quick">Pikakäyttö</string>
+    <string name="recent">Viimeaikaiset tiedostot</string>
+    <string name="edit">Muokkaa</string>
+    <string name="find">Etsi sivulta</string>
+    <string name="grant">Anna</string>
+    <string name="grantper">Myönnä käyttöoikeus</string>
+    <string name="grantfailed">Lupaa ei myönnetty</string>
+    <string name="grant_storage_permission">Sovellus tarvitsee tallennusluvan jatkaakseen. Tämän valintaikkunan peruuttaminen sulkee sovelluksen.</string>
+    <string name="operation_unsuccesful">Toiminto epäonnistui</string>
+    <string name="creatingfile">Tiedoston luominen</string>
+    <string name="creatingfolder">Kansion luominen</string>
+    <string name="renaming">Uudelleennimeäminen</string>
+    <string name="cant_be_empty">%s ei voi olla tyhjä</string>
+    <string name="ip">Osoite</string>
+    <string name="connection_name">Yhteyden nimi</string>
+    <string name="no_device_found">Laitteita ei löytynyt</string>
+    <string name="path">Polku</string>
+    <string name="rename_bookmark">Muokkaa kirjanmerkkiä</string>
+    <string name="cut">Leikkaa</string>
+    <string name="search">Hae</string>
+    <string name="invalid_name">Virheellinen nimi</string>
+    <string name="search_hint">Kirjoita haku…</string>
+    <string name="advanced_search">Tarkennettu haku</string>
+    <string name="regular_expression">Säännöllinen lauseke</string>
+    <string name="regular_expression_summary">Hae käyttämällä BASH-tyylistä säännöllistä lauseketta</string>
+    <string name="match_content">Osoita sisältöä</string>
+    <string name="match_content_summary">Jos asetettu, säännöllinen lauseke yhdistetään koko tiedoston nimellä,
+        etsii esiintymää muuten.</string>
+    <string name="start_ftp">Käynnistä</string>
+    <string name="stop_ftp">Lopeta</string>
+    <string name="ftp_status_running">Käynnissä</string>
+    <string name="ftp_status_not_running">Ei käynnissä</string>
+    <string name="ftp_no_wifi">Varmista, että olet yhteydessä Wi-Fi-verkkoon -Fi</string>
+    
+    <string name="smb_share">Jaa polku</string>
+    <string name="invalid">Virheellinen %s</string>
+    <string name="ftp_notif_starting">FTP-palvelin käynnistyy</string>
+    <string name="ftp_notif_starting_title">FTP-palvelin</string>
+    <string name="ftp_notif_title">Amaze FTP-palvelin käynnissä</string>
+    <string name="ftp_notif_text">pisteessä %s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP-portti</string>
+    <string name="ftp_port_change_success">FTP-portti vaihdettu onnistuneesti</string>
+    <string name="ftp_port_change_error_invalid">Valittu virheellinen portin numero</string>
+    <string name="primary_two_title">Ensisijainen väri (oikea välilehti)</string>
+    <string name="primary_two_summary">Aseta oikean välilehden suurille käyttöliittymäelementeille väri</string>
+    <string name="support_development">Tuki kehitystä</string>
+    <string name="report_bugs_title">Ilmoita virheistä</string>
+    <string name="source_title">Lähdekoodi</string>
+    <string name="source_summary">Katso lähdekoodimme GitHubissa</string>
+    <string name="report_bugs_summary">Ilmoita virheistä tai pyydä uutta ominaisuutta</string>
+    <string name="translate_title">Käännä</string>
+    <string name="translate_summary">Käännä Amaze kielelläsi</string>
+    <string name="paypal_copy_message">PayPal-tunnus kopioitu leikepöydälle</string>
+    <string name="searching_devices">Laitteiden etsiminen</string>
+    <string name="use_custom_ip">Käytä mukautettua IP-osoitetta</string>
+    <string name="bookmark_lost">Kirjanmerkkiä ei löydy, luodaan uudelleen…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Jaetun Windows-kansion käyttäminen Androidissa (SMB)\n\n
+                
+                    
+                        Ota tiedostojen jakaminen käyttöön Windowsissa\n
+                    
+                    
+                        Avaa Ohjauspaneeli, napsauta Verkko-kohdasta Valitse kotiryhmä- ja jakamisasetukset
+                        ja Internet ja napsauta "Muuta jakamisen lisäasetuksia", ota käyttöön "Tiedosto ja
+                        Tulostimen jakaminen" -ominaisuus.\n\n
+                    
+
+                    
+                        Tiedostojen jakamisen lisäasetukset\n
+                    
+                    
+                        Voit myös haluta määrittää muut jakamisen lisäasetukset täällä. \n
+                        Voit esimerkiksi sallia tiedostojesi käytön ilman salasanaa, jos luotat kaikkiin
+                        paikallisverkon laitteet. Kun tiedostojen ja tulostimen jakaminen on otettu käyttöön, voit tehdä sen
+                        avaa Resurssienhallinta tai Windowsin Resurssienhallinta, napsauta hiiren kakkospainikkeella kansiota, jonka haluat jakaa, ja
+                        valitse Ominaisuudet. \n
+                        Napsauta Jaa-painiketta ja aseta kansio saataville verkossa.\n\n
+                        
+
+                    
+                        Varmista, että molemmilla laitteilla on sama Wi-Fi\n
+                    
+                    
+                        Tämä ominaisuus mahdollistaa tiedostojen saatavuuden paikallisessa verkossa, joten tietokoneesi ja mobiililaitteesi
+                        on oltava samassa paikallisessa verkossa. Et voi käyttää jaettua Windows-kansiota
+                        Internetin kautta tai kun älypuhelimesi on yhteydessä mobiilidataan – se
+                        on yhdistettävä Wi-Fi-verkkoon.\n\n
+                    
+
+                    
+                        Etsi IP-osoite\n
+                    
+                    
+                        Avaa komentokehote. Kirjoita \'ipconfig\' ja paina Enter. Etsi Default Gateway
+                        verkkosovittimen alla reitittimesi IP-osoitetta varten. Etsiä
+                        \\\"IPv4-osoite\\\" samassa sovitinosassa löytääksesi tietokoneesi IP-osoitteen
+                        osoite.\n\n
+                    
+
+                    Anna tiedot SMB-valintaikkunassa\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Ei voi jakaa enempää kuin 100 tiedostoa</string>
+    <string name="otg_access">Valitse OTG-laitteen juurinimi</string>
+    <string name="information">Tiedot</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Käytetty</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Muokattu</string>
+
+    <string name="title">Nimike</string>
+    <string name="artist">Artisti</string>
+    <string name="album">Albumi</string>
+    <string name="year">Vuosi</string>
+    <string name="duration">Kesto</string>
+    <string name="comment">Kommentti</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Säilö</string>
+    <string name="codec">Koodekki</string>
+    <string name="channels">Kanavat</string>
+    <string name="sample_rate">Näytetaajuus</string>
+    <string name="bitrate">Bittinopeus</string>
+    <string name="dimensions">Mitat</string>
+    <string name="frame_rate">Kuvataajuus</string>
+    <string name="image_type">Kuvatyyppi</string>
+    <string name="width">Leveys</string>
+    <string name="height">Korkeus</string>
+    <string name="date_modified">Muokkauspäivä</string>
+    <string name="software">Ohjelmisto</string>
+    <string name="creator">Tekijä</string>
+    <string name="camera_brand">Kameran merkki</string>
+    <string name="camera_model">Kamera Malli</string>
+    <string name="date_taken">Otettu päivämäärä</string>
+    <string name="exposure_time">Valotusaika</string>
+    <string name="aperture_value">Aukon arvo</string>
+    <string name="image_iso">ISO-nopeusluokitus</string>
+    <string name="flash_fired">Salamalaukaisu</string>
+    <string name="focal_length">Polttoväli</string>
+    <string name="subject">Aihe</string>
+    <string name="author">Tekijä</string>
+    <string name="keywords">Avainsanat</string>
+    <string name="producer">Tuottaja</string>
+    <string name="created">Luotu</string>
+    <string name="format">Muoto</string>
+    <string name="pages">Nu Sivut</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimoitu</string>
+    <string name="security">Turvallisuus</string>
+    <string name="paper_size">Paperin koko</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Joitakin tiedostoja ei onnistunut %s</string>
+    <string name="copied">kopioida</string>
+    <string name="moved">siirretty</string>
+    <string name="copy_complete">Kopioi valmis</string>
+    <string name="waiting_title">Odotetaan</string>
+    <string name="waiting_content">Odotetaan toimenpiteen valmistumista</string>
+    <string name="extract_complete">Puutto valmis</string>
+    <string name="compression_complete">Pakkaaminen valmis</string>
+    <string name="compressing">Pakkaaminen</string>
+    <string name="cancelled">Peruutettu</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Kirjoitettu</string>
+    <string name="out_of">/</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">/</string>
+    <string name="processing_file">Käsittelyn tiedosto</string>
+    <string name="current_speed">Nykyinen nopeus</string>
+    <string name="smb_launch_error">Sinun on kopioitava tämä tiedosto tallennustilaan avataksesi sen</string>
+    <string name="error_file_not_found">Virhe: Tiedostoa ei löydy</string>
+    <string name="error_io">I/O-virhe</string>
+    <string name="error_file_too_large">Virhe: Tiedosto liian suuri</string>
+    <string name="medium_text">Keskikokoinen teksti</string>
+    <string name="permission_read">Lue</string>
+    <string name="permission_write">Kirjoita</string>
+    <string name="permission_execute">Suorita</string>
+    <string name="permission_owner">Omistaja</string>
+    <string name="permission_group">Ryhmä</string>
+    <string name="permission_other">Muu</string>
+    <string name="clipboard_path_copy">Polku kopioitu leikepöydälle</string>
+    <string name="service_timer">Kulunut aika</string>
+    <string name="please_wait">Odota</string>
+
+    <string name="cloud_connection">Pilviyhteys</string>
+    <string name="cloud_connection_new">Uusi pilviyhteys</string>
+    
+    
+    
+    
+    <string name="cloud_get">Hanki Cloud-laajennus</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Ei sovelluksia</string>
+    <string name="ftp_path">Jaettu polku</string>
+    <string name="ftp_path_hint">Path jaettavan hakemiston juureen</string>
+    <string name="change">Muuta</string>
+    <string name="unknown_error">Hups, jotain meni pieleen!</string>
+
+    <string name="ftp_path_change_success">FTP-polku muutettu onnistuneesti</string>
+    <string name="ftp_path_change_error_invalid">Virheellinen polku</string>
+    <string name="ftp_status_no_connection">Ei yhteyttä</string>
+    <string name="ftp_status_secure_connection">Suojattu yhteys</string>
+    <string name="ftp_status_title">Tila</string>
+    <string name="ftp_port">Portti</string>
+    <string name="ftp_login">Kirjautuminen</string>
+    <string name="field_empty">Kenttä ei voi olla tyhjä</string>
+    
+    <string name="ftp_seconds">Sekuntia</string>
+    
+    <string name="intellihide_toolbar_summary">Piilota työkalupalkki automaattisesti vierityksen aikana</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">kopioi leikepöydälle</string>
+    <string name="contributors_1_summary">Käännös</string>
+    <string name="contributors_2_summary">Kuvake ja bannerit</string>
+    <string name="contributors_3_summary">Teemamoottori</string>
+    <string name="contributors_4_summary">Varjo FAB:n takana</string>
+    <string name="contributors_5_summary">Värien muutos välilehtiä pyyhkäisemällä</string>
+    <string name="contributors_6_summary">FTP-palvelin</string>
+    <string name="contributors_7_summary">Vuorovaikutteisen komentotulkin käynnistäminen</string>
+    <string name="connection_exists">Yhteys on jo olemassa</string>
+
+    <string name="crypt_encrypting">Salaus</string>
+    <string name="crypt_decrypting">Salauksen purku</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Salattu</string>
+    <string name="crypt_decrypted">Salaus purettu</string>
+    <string name="crypt_encrypt">Salaus</string>
+    <string name="crypt_decrypt">Pura</string>
+    <string name="operation_fail_following">Toiminta epäonnistui seuraaville tiedostoille</string>
+    <string name="crypt_pref_master_password_title">Pääsalasana</string>
+    <string name="crypt_pref_master_password_summary">Aseta pääsalasana salaukselle.
+        Jätä tyhjäksi poistaaksesi.</string>
+    <string name="crypt_pref_fingerprint_title">Sormenjälki</string>
+    <string name="crypt_pref_fingerprint_summary">Käytä sormenjälkeä salauksen todentamiseen</string>
+    <string name="crypt_fingerprint_no_permission">Sormenjälkiluvat puuttuvat</string>
+    <string name="crypt_fingerprint_not_enrolled">Sormenjälkeä ei ole rekisteröity</string>
+    <string name="crypt_fingerprint_no_security">Ei lukitusnäytön suojausta löytyi</string>
+    <string name="crypt_warning_key">Huomioi, kun muutat suojausmalliasi
+        Järjestelmäasetukset, et voi purkaa tämän sisällön salausta.</string>
+    <string name="warning_never_show">Älä ilmoita uudelleen</string>
+    <string name="warning_confirm">Selvä!</string>
+    <string name="crypt_encryption_fail">Salaus epäonnistui</string>
+    <string name="crypt_decryption_fail">Salauksen purkaminen epäonnistui</string>
+    <string name="crypt_decryption_fail_password">Väärä salasana!</string>
+    <string name="crypt_fingerprint_authenticate">Jatka koskettamalla anturia</string>
+    <string name="authenticate_password">Anna salasana</string>
+
+    <string name="sidebar_preferences">Sivupalkki</string>
+    <string name="sidebar_quick_access_title">Sivupalkin pikakäyttö</string>
+    <string name="show_quick_access_pref_title">Näytä pikakäytöt</string>
+    <string name="show_quick_access_pref">Pikakäytöt</string>
+    <string name="directory">Hakemisto</string>
+
+    <string name="sidebar_bookmarks_title">Sivupalkin kirjanmerkit</string>
+    <string name="show_bookmarks_pref_title">Näytä kirjanmerkit</string>
+    <string name="show_bookmarks_pref">Kirjanmerkit</string>
+    <string name="create_bookmark">Luo kirjanmerkki</string>
+    <string name="edit_bookmark">Muokkaa kirjanmerkkiä</string>
+    <string name="question_delete_bookmark">Poistetaanko kirjanmerkki?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud -laajennusta ei löydy. Lataa Play Kaupasta.</string>
+    <string name="cloud_error_failed_restart">Yhteyden lataaminen epäonnistui.
+        Avaa Amaze Cloud kerran.</string>
+    <string name="cloud_remove">Haluatko poistaa pilviyhteyden?</string>
+    <string name="cloud_fail_authenticate">Todennus epäonnistui</string>
+    <string name="cloud_share_copied">Jaettava linkki kopioitu leikepöydälle</string>
+    <string name="copy_low_memory">Tiedot loppumassa muistia, tyhjennä RAM-muistia</string>
+    <string name="cloud_token_lost">Token kadonnut, kirjaudu sisään uudelleen</string>
+    
+    <string name="showHeaders">Näytä otsikot</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Ei kohteita</string>
+	
+	<string name="items">kohteet</string>
+	
+	<string name="byte_singular">tavu</string>
+	<string name="bytes">tavua</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Tiedostolla tulee olla nimi</string>
+    <string name="add_item">Lisää kohde</string>
+    <string name="failed_smb_decrypt_path">Lataaminen epäonnistui SMB-yhteys</string>
+    <string name="failed_cloud_new_connection">Uuden pilviyhteyden lisääminen epäonnistui</string>
+    <string name="failed_cloud_api_key">Pilvilaajennuksen todennus epäonnistui</string>
+
+    <string name="local_inet_addr_error">Virhe paikallista inet-osoitetta haettaessa</string>
+    <string name="intent_save_as">Tallenna nimellä…</string>
+    <string name="go">Siirry</string>
+    <string name="advanced">Lisäasetukset</string>
+    <string name="typeable_paths_title">Muokatut polut</string>
+    <string name="typeable_paths_summary">Paina polkupalkkia pitkään kirjoittaaksesi mukautetun polun</string>
+    <string name="send_email_to">Lähetä sähköposti osoitteeseen</string>
+
+    <string name="text_editor">Tekstieditorin asetukset</string>
+    <string name="preference_newstack_title">Avaa tiedostot uutena tehtävänä</string>
+    <string name="preference_newstack_summary">Voit avata tiedostoja erillisissä tehtävissä. Käytä niitä järjestelmän viimeisimmät tiedot -näytöstä.</string>
+    
+    <string name="developers">Kehittäjät</string>
+    <string name="no_bitcoin_app">Asenna Bitcoin Wallet -sovellus</string>
+    
+    <string name="channel_description_normal">Amaze File Managerin ilmoitukset</string>
+    
+    <string name="channel_description_ftp">Amaze File Manager FTP-palvelimen ilmoitukset</string>
+
+    
+    <string name="processing">Käsittely…</string>
+    <string name="failed_no_connection">Tiedostojen lataaminen epäonnistui. Tarkista yhteys.</string>
+
+    <string name="update">PÄIVITYS</string>
+	<string name="scp_connection">SCP/SFTP-yhteys</string>
+    <string name="ftp_connection">FTP-yhteys</string>
+    <string name="ftps_connection">FTP SSL-yhteyden kautta</string>
+    <string name="scp_port">Portti</string>
+    <string name="ssh_host_key_verification_prompt">Isännän \'%1$s\' aitoutta ei voida vahvistaa.\n\n%2$s-avaimen sormenjälki on %3$s.\n\nVahvista napauttamalla \"Kyllä\". identiteetti; muussa tapauksessa napauta \"Ei\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Vahvista isäntä</string>
+    <string name="ssh_select_pem_button">Yksityinen SSH-avain</string>
+    <string name="ssh_pem_key_parse_error">Ei voida lukea valittua PEM:ää: %s</string>
+    <string name="password_unchanged">(muutamaton)</string>
+    <string name="ssh_authentication_failure_password">Kirjautumisvirhe: Ei voida todentaa annetulla käyttäjänimellä ja salasanalla.</string>
+    <string name="ssh_authentication_failure_key">Kirjautumisvirhe: Ei voida todentaa toimitetulla käyttäjänimellä ja yksityisellä avaimella.</string>
+    <string name="ssh_connect_failed">Ei voida muodostaa yhteyttä kohteeseen %1$s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">VAROITUS: ETÄISÄNTÄ-TUNNISTUS ON MUUTTUNUT!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">ON MAHDOLLINEN, ETTÄ JOKU TEKEE JOtain ILMAA!\n\nJoku voi salakuunnella sinua juuri nyt (mies-in-the-middle-hyökkäys)! On myös mahdollista, että isäntäavain on juuri vaihdettu. Etäisännän lähettämän julkisen avaimen sormenjälki ei vastaa Amazeen tallennettua sormenjälkeä.\n\nOta yhteyttä järjestelmänvalvojaan tai määritä uusi yhteys jatkaaksesi yhteyden muodostamista palvelimeen.</string>
+    <string name="ssh_key_prompt_passphrase">Anna avaimen salasana .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Käynnistysohjelmasi ei tue pikanäppäinten luomista.</string>
+    
+    <string name="select_color_config">Valitse värimääritys</string>
+    <string name="customize">Muokkaa</string>
+    <string name="custom">Mukautettu</string>
+    <string name="preselected_configs_title">Esivalitut asetukset</string>
+    <string name="orange">Oranssi</string>
+    <string name="blue">Sininen</string>
+    <string name="green">Vihreä</string>
+    <string name="password_no_match">Salasana ei täsmää</string>
+    <string name="deselect_all">Poista kaikki valinnat</string>
+    <string name="filename">Tiedostonimi</string>
+    <string name="compress_file_suggest_zip_extension">On suositeltavaa käyttää tiedostopäätteenä \".zip\".</string>
+    <string name="about_amaze">Materiaalisuunnittelun tiedostonhallinta Androidille</string>
+    <string name="license">Lisenssi</string>
+    <string name="libraries">Kirjastot</string>
+    <string name="password_repeat">Toista salasana</string>
+    <string name="create_file_suggest_txt_extension">On suositeltavaa käyttää tiedostopäätteenä \".txt\".</string>
+    <string name="ssh_select_pem">Valitse todennusta varten yksityinen avain</string>
+    <string name="ssh_key_invalid_passphrase">Virheellinen avaimen tunnuslause.</string>
+    <string name="ssh_key_no_decoder_decrypt">Ei kelvollista dekooderia PEM-salauksen purkamiseen.</string>
+    <string name="encryption_fail_copy">Salausmerkinnän päivittäminen tietokannassa epäonnistui</string>
+    <string name="extracted">Puettu</string>
+    <string name="compressed">Pakattu</string>
+    <string name="processed">Käsitelty</string>
+    <string name="no_obtainable_info">Tästä tiedostosta ei ole tietoa</string>
+    <string name="reopen_from_source">Ei voi, avaa uudelleen edellisestä sovelluksesta</string>
+    <string name="no_file_error">Jotain meni pieleen, ei ole mitään avattavaa</string>
+    <string name="file_too_long">tiedosto on liian pitkä eikä sitä voi muokata, mutta voit lukea ensimmäiset %d merkkiä</string>
+    <string name="file_read_only">Avattu tiedosto on vain luku -muotoinen.</string>
+    <string name="got_it">Selvä!</string>
+    <string name="encrypt_file_save_as">Tallenna salattu Tiedosto nimellä…</string>
+    <string name="encrypt_folder_save_as">Tallenna salattu kansio nimellä…</string>
+    <string name="encrypt_option_use_aze">Käytä Amaze-salausmuotoa</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt on avoimen lähdekoodin tiedostojen salausmuoto, joka perustuu AES-salaukseen. Se on myös kannettava, sen salaus voidaan purkaa muilla alustoilla olevilla AESCrypt-ohjelmilla.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt-verkkosivusto</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'s Encryption Format perustuu myös AES-salaukseen; mutta eroaa AESCrypt-muodosta, vain tämä laite voi purkaa sen salauksen; Älä myöskään saa poistaa Amaze File Managerin asennusta tältä laitteelta tai muuttaa näytön lukitustapaa, muuten et voi palauttaa salattua tiedostoa.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Salattujen tiedostojen on käytettävä tiedostona \.aze\"</string>
+    <string name="encrypt_file_must_end_with_aes">Salattujen tiedostojen tiedostopäätteenä on käytettävä \".aes\".</string>
+    <string name="error_aescrypt_decrypt_failed">Salausta ei voi purkaa \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Tiedostoa ei voi korvata.</string>
+    <string name="saved_single_file">Tiedosto tallennettu nimellä \'%s\'.</string>
+    <string name="saved_multi_files">%d tiedostoa tallennettu.</string>
+    <string name="create_hidden_file_warn">Luotu tiedosto piilotetaan tiedostoluettelossa.</string>
+    <string name="grant_apkinstall_permission">Sovellus tarvitsee luvan jatkaakseen sovellusten asentamista.</string>
+    <string name="time_remaining">Jäljellä oleva aika</string>
+    <string name="transfer_rate">Siirtonopeus</string>
+    <string name="unknown">tuntematon</string>
+    <string name="multiple_invalid_archive_entries">Joitakin arkiston tiedostoja ei voi purkaa; arkisto saattaa olla vioittunut tai tulla haitallisesta lähteestä.</string>
+    <string name="saf_otg_explanation">Siirryt nyt Androidin tiedostojärjestelmään turvallisuussyistä. Valitse USB-laite vasemmalla olevasta luettelosta.</string>
+    <string name="donation_thanks">Kiitos lahjoituksesta, tämä pitää meidät motivoituneena! (:</string>
+    <string name="enable_marquee_filename">Ota valintaikkuna käyttöön tiedostonimille</string>
+    <string name="archive_password_prompt">Anna arkiston salasana:</string>
+    
+    <string name="cannot_extract_archive">Arkistoa \"%s\" ei voi purkaa: %s</string>
+    <string name="archive_unsupported_or_corrupt">Ei voi avaa arkisto \"%s\". Joko emme voi avata arkistoa tai arkisto on vaurioitunut.</string>
+    <string name="close">Sulje</string>
+    <string name="bookmark_exists">Kirjanmerkki on olemassa</string>
+    <string name="hide_media">Piilota mediaselaimista</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ON MAHDOLLINEN, ETTÄ JOKU TEKEE JOTAkin IHANAA!\n\nJoku saattaa salakuunnella sinua juuri nyt (mies-in-the-middle-hyökkäys)! On myös mahdollista, että isäntäavain on juuri vaihdettu. Sormenjälki koska etäisännän lähettämä julkinen avain ei vastaa Amazeen tallennettua.\n\nVoit päivittää isännän sormenjäljen tai peruuttaa SSH-yhteysasetusten päivittämisen.</string>
+    <string name="update_host_key">Päivitä isäntäavain</string>
+    <string name="cancel_recommended">Peruuta (suositus)</string>
+    
+    
+    <string name="failed_install_apk">Asennus epäonnistui</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Sisäinen tallennustila</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD-kortti</string>
+    <string name="choose_folder">Valitse tämä kansio</string>
+    
+    <string name="some_files_failed_invalid_operation">Jotkin tiedostot epäonnistuivat virheellisen virheen vuoksi toiminta</string>
+    <string name="ftp_server_prompt_connect_to_network">Yhdistä verkkoon tai ota tukiasema käyttöön</string>
+    <string name="ftp_server_open_settings">Avaa asetukset</string>
+    <string name="move">Siirrä</string>
+    <string name="select_save_location">Valitse sijainti tallentaaksesi</string>
+    <string name="scp_default_path">Oletuspolku (valinnainen)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Anteeksi, sen ei olisi pitänyt tapahtua.</string>
+    
+    <string name="error_report_button_text">Ilmoita tästä virheestä sähköpostitse</string>
+    <string name="error_report_button_telegram">Ilmoita tästä virheestä sähkeenä</string>
+    <string name="copy_for_github">Kopioi muotoiltu raportti</string>
+    <string name="error_report_open_issue_button_text">Raportti GitHubissa</string>
+    <string name="error_report_open_github_notice">Tarkista, onko kaatumaasi koskeva ongelma jo olemassa.</string>
+    <string name="error_snackbar_message">Pahoittelen, jotain meni pieleen.</string>
+    <string name="error_snackbar_action">Raportoi</string>
+    <string name="what_device_headline">Tiedot:</string>
+    <string name="what_happened_headline">Mitä tapahtui:</string>
+    <string name="info_labels">Mitä:\\nPyyntö:\\nGMT-aika:\\nPaketti:\\nVersio:\\nKäyttöjärjestelmäversio:\\nLaite:\\nMalli:\\nTuote :</string>
+    <string name="your_comment">Kommenttisi (englanniksi):</string>
+    <string name="error_details_headline">Tiedot:</string>
+    <string name="app_ui_crash">Sovellus/käyttöliittymä kaatui</string>
+    <string name="error_report_title">Virheraportti</string>
+    <string name="crash_report_copied">Virheraportti kopioitiin kohteeseen leikepöytä</string>
+    <string name="disableIpcSignature">Poista IPC-allekirjoituksen tarkistus käytöstä (vanhoille SMBv1-palvelimille - EI TURVALLISUA!)</string>
+    <string name="cannot_delete_file">Tiedostoa ei voi poistaa</string>
+    <string name="cannot_delete_file_with_reason">Tiedostoa ei voi poistaa - %s</string>
+    <string name="cannot_rename_file">Tiedostoa ei voi nimetä uudelleen %s - %s</string>
+    <string name="cannot_read_directory">Hakemistoa %s ei voi lukea - %s</string>
+    <string name="just_once">Vain kerran</string>
+    <string name="always">Aina</string>
+    <string name="choose_different_app">Valitse eri sovellus</string>
+    <string name="clear_open_file">Tyhjennä välimuisti</string>
+    <string name="clear_open_file_summary">Tyhjentää valitut oletustiedostojen avaussovellukset</string>
+    <string name="ftp_readonly">Vain lukuoikeus</string>
+    <string name="legacy_listing_title">Käytä vanhoja luetteloita pääkäyttäjälle</string>
+    <string name="legacy_listing_summary">Jos käytössä, käyttää tiedostojen luetteloimiseen vanhaa menetelmää</string>
+    <string name="error_unsupported_v5_rar">RAR-arkisto \"%s\" ei ole tuettu RAR v5 -arkistoa.</string>
+    <string name="ftp_prompt_restart_server">Sinun on käynnistettävä FTP-palvelin uudelleen, jotta muutokset tulevat voimaan.</string>
+    <string name="error_permission_denied">Lupa estetty</string>
+    <string name="error_archive_password_incorrect">Väärä arkiston salasana.</string>
+    <string name="error_archive_cannot_extract">Arkistomerkintää \"%s\" ei voi purkaa kohteeseen \"%s\".</string>
+    <string name="drag_and_drop_preference">Valitse vedä ja pudota -asetus (kokeellinen)</string>
+    <string name="drag_to_move_copy">Siirrä tai kopioi tiedostoja koskettamalla ja vetämällä</string>
+    <string name="drag_to_select">Valitse tiedostot koskettamalla ja vetämällä.</string>
+    <string name="disable">Poista käytöstä</string>
+    <string name="choose_operation">Valitse suoritettava toiminto</string>
+    <string name="remember">Muista seuraavaa kertaa varten</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Anna SAF-käyttöoikeus FTP-palvelimelle</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Koska tämä on ensimmäinen FTP-palvelimen käyttökerta ja käytät laitteen sisäistä tallennustilaa jaettuna kansiona, salli Amazen käyttää tallennustilaa käyttämällä LAK.\n\n
+
+Sinun tarvitsee tehdä tämä vain kerran, kunnes seuraavan kerran valitset uuden sijainnin jakamista varten.</string>
+    <string name="android_data_prompt_saf_access">Android 10:stä lähtien Android on asettanut rajoituksia tietyille hakemistoille, ja niitä on käytettävä Storage Access Frameworkin avulla.\n \nSalli Amazen käyttää hakemistoa järjestelmän tiedostonhallinnasta napauttamalla \"Salli käyttö\".</string>
+    <string name="android_data_prompt_saf_access_title">Anna SAF-käyttöoikeus</string>
+    <string name="ftp_preference_saf_filesystem_title">Käytä vanhaa tiedostojärjestelmää</string>
+    <string name="ftp_preference_saf_filesystem">Ota tämä käyttöön tukeaksesi laitteen ulkoisen tallennustilan käyttöä uudemmissa Android-versioissa</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP-palvelimen jaettu polku on palautettu sisäiseen tallennustilaan, kun olet vaihtamassa takaisin vanha tiedostojärjestelmän toteutus. Valitse uusi polku oikean yläkulman valikosta.</string>
+    <string name="ftp_server_reset_notify">FTP-palvelimen jaettu polku on palautettu sisäiseen tallennustilaan</string>
+    <string name="ftp_server_root_unavailable">Valitset polun, joka vaatii pääkäyttäjän oikeudet. Ota root explorer käyttöön asetuksista, jos laitteesi on juurtunut.</string>
+    <string name="ftp_server_root_filesystem_warning">Valitset polun, joka vaatii pääkäyttäjän oikeudet, mikä mahdollistaa luku-/kirjoitustoiminnot koko laitteesi tiedostojärjestelmässä, ja se on vaarallista - huolimattomat virheet voivat suojaa laitteesi!\n\nOletko varma?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Virhe avattaessa URI:ta \"%s\" lukemista varten.</string>
+    <string name="error_empty_archive">\"%s\" on tyhjä arkisto.</string>
+    <string name="error_bad_archive_without_info">\"%s\" on vioittunut arkisto.</string>
+    <string name="error_bad_archive_with_info">\"%s\" on vioittunut arkisto.\nViesti purkuohjelmasta: \"%s\"</string>
+    <string name="security_error">Tiedostoa ei voitu avataan tällä sovelluksella</string>
+    <string name="cloud_drive_tooltip">Luo Google Drive™ -yhteys tiedostojen hallintaa varten Amaze File Managerissa.</string>
+    <string name="signin_with_google_title">Todenna Google Drive™:n käyttöä varten</string>
+    <string name="show_system_apps">Näytä järjestelmäsovellukset</string>
+    <string name="system_apps">Järjestelmäsovellukset</string>
+    <string name="select_inverse">Valitse Käänteinen</string>
+    <string name="select_by_type">Valitse tyypin mukaan</string>
+    <string name="select_by_date">Valitse päivämäärän mukaan</string>
+    <string name="select_similar">Valitse samanlainen</string>
+    <string name="error_fetching_google_play_product_list">Virhe haettaessa tuoteluetteloa kohteesta Google Play.</string>
+    <string name="grant_all_files_permission">Android 11:stä lähtien Google on pyytänyt tiedostonhallintaa pyytämään käyttäjältä lupaa kaikkien laitteen tiedostojen hallintaan. Yksityiskohdat täältä.
+        \n\nAmaze File Manager tarvitsee myös tämän luvan. Kun olet painanut "Grant"-painiketta, valitse seuraavassa näytössä Salli pääsy kaikkien tiedostojen hallintaan.
+        \n\nTämän valintaikkunan peruuttaminen sulkee sovelluksen.</string>
+    <string name="user_apps">Käyttäjäsovellukset</string>
+    <string name="appearance">Ulkonäkö</string>
+    <string name="behavior">Käyttäytyminen</string>
+    <string name="appearance_summary">Muokkaa tiedostonhallinnan teemaa, värejä ja ulkoasua</string>
+    <string name="ui_summary">Valitse näytettävät tiedot, muokkaa sivupalkkia ja vaihda käyttöliittymän asetuksia</string>
+    <string name="behavior_summary">Muokkaa toimintaa, kuten tarkennettua hakua ja tiedostojen avaamista uutena tehtävänä</string>
+    <string name="security_summary">Määritä salasana ja salaus</string>
+    <string name="backup_summary">Vie/tuo Amaze-asetukset</string>
+
+    <string name="pref_export">Vie</string>
+    <string name="pref_export_summary">Vientiasetukset</string>
+    <string name="pref_import">Tuo</string>
+    <string name="pref_import_summary">Tuontiasetukset</string>
+
+    <string name="quick_desc">Amazen kautta äskettäin käytetyt tiedostot</string>
+    <string name="recent_desc">Äskettäin luodut tai muokatut tiedostot</string>
+    <string name="error_cannot_find_way_open">Ei löytynyt tapaa avata tiedostoa</string>
+    <string name="error_cant_decompress_that_file">Pyydettyä arkistoa ei voi käsitellä</string>
+    <string name="analyse_storage">Analysoi tallennustila</string>
+    
+    <string name="download_amaze_utils_text">Sinut uudelleenohjataan Amaze File Utilities -sovellukseen. Se on avoimen lähdekoodin sovelluksemme, jossa on sisäänrakennetut äänen/videon/kuvan/asiakirjan katseluohjelmat. Sen avulla voit analysoida roskatiedostoja tallennustilan vapauttamiseksi, nopean siirron Wifi P2P:n avulla ja paljon muuta.\nTue meitä kokeilemalla sitä.</string>
+    <string name="download">Lataa</string>
+    
+    <string name="amaze_utils_installed_alias">Kiitos, että asensit Amaze File Utilities. Sinut uudelleenohjataan sovellukseen.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">Jaa lokit</string>
+    <string name="share_logs_summary">Jaa kaapattuja lokeja sähköpostitse / sähkeenä</string>
+    <string name="open_with_amaze">Avaa hämmästyllä</string>
+    <string name="confirmation">Vahvistus</string>
+    <string name="open_file_confirmation">Haluatko varmasti avata seuraavan tiedoston?\n\nNimi:\n%s\n\nSijainti:\n%s\n\nKoko:\n%s\n \nMD5:\n%s\n\nSHA256:\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Playn käytäntöjen mukaan sovellukset eivät saa päivittää itseään. Päivitä sovellus Google Playsta.</string>
+    <string name="error_cannot_get_package_info">Pakettitietoja tiedostosta \"%s\" ei voi hakea. Määritetty tiedosto ei ole APK tai pakettitiedosto on vioittunut.</string>
+    <string name="preference_delete_confirmation">Poista vahvistus</string>
+    <string name="preference_delete_confirmation_summary">Pyydä vahvistusta ennen tiedostojen poistamista. Tämän poistaminen käytöstä ei ole suositeltavaa!</string>
+    
+    
+    <string name="protocol_ftps">Suojattu FTP</string>
+    <string name="unavailable">Ei käytettävissä</string>
+
+    <string name="exporting_failed">Vienti epäonnistui: varmuuskopiotiedostoa ei voitu kirjoittaa</string>
+    <string name="importing_failed">Tuonti epäonnistui: varmuuskopiota ei voitu lukea tiedosto</string>
+    <string name="importing_completed">Tuonti valmis</string>
+    <string name="invalid_backup_file">Virheellinen varmuuskopiotiedosto</string>
+    <string name="import_failed_for">Tuonti epäonnistui kohteelle:</string>
+    <string name="free_of">"%s\n%s vapaa %s:sta</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin ei tue F- Droid-versio. Käytä Amazen Play Kaupan versiota.</string>
+    <string name="disable_player_intent_filters">Poista soittimen tarkoitussuodattimet käytöstä</string>
+    <string name="disable_player_intent_filters_summary">poistaa Amazen sisäänrakennetut mediasoittimet käytöstä tiedostovalitsimesta</string>
+    <string name="no_app_found_intent">Tätä tarkoitusta käsittelevää sovellusta ei löytynyt. onko sinulla DocumentsUI asennettuna?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection -tunnistetiedot tyhjennetty</string>
+    <string name="cloud_connection_credentials_cleared_msg">Valitettavasti emme pystyneet siirtämään pilviyhteyden tunnistetietojasi uuteen tietokantaskeemaan, ja meidän oli poistettava ne sovelluksesta. Luo pilviyhteys uudelleen.</string>
+</resources>

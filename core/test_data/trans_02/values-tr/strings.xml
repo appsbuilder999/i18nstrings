@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Dosya Yöneticisi</string>
+    <string name="drawer_open">Gezinme çekmecesini aç</string>
+    <string name="drawer_close">Gezinme çekmecesini kapat</string>
+    <string name="icon">simge</string>
+    <string name="apps">Uygulama Yöneticisi</string>
+    <string name="ftp">FTP Sunucusu</string>
+    <string name="setting">Ayarlar</string>
+    <string name="select">Öğe Seç</string>
+    <string name="press_again">Çıkmak için tekrar basın</string>
+    <string name="open">Aç</string>
+    <string name="backup">Yedekleme</string>
+    <string name="uninstall">Kaldır</string>
+    
+    <string name="properties">Özellikler</string>
+    <string name="copyingapks">%d APK dosyası %s konumuna kopyalanıyor</string>
+    <string name="delbook">Yer İmini Sil</string>
+    <string name="add_to_bookmarks">Yer İmlerine Ekle</string>
+    <string name="enterpath">Yol Girin</string>
+    <string name="cancel">İPTAL</string>
+    <string name="create">OLUŞTUR</string>
+    <string name="loading">Yükleniyor…</string>
+    <string name="file_empty">Dosya boş</string>
+    <string name="error">Hata</string>
+    <string name="search_results">%s için arama sonuçları</string>
+    <string name="rename">Yeniden Adlandır</string>
+    <string name="save">Kaydet</string>
+    <string name="bookmarks_added">Yer İmleri Eklendi</string>
+    <string name="fileexist">Aynı ada sahip dosya zaten var</string>
+    <string name="name">Ad</string>
+    <string name="date">Tarih</string>
+    <string name="location">Konum</string>
+    <string name="size_capitalized">Boyut</string>
+    <string name="size">klasörün boyutu</string>
+    <string name="enterzipname">Zip Adını Girin</string>
+    <string name="no_app_found">Bu dosyayı açacak Uygulama bulunamadı</string>
+    <string name="copying">Kopyalanıyor</string>
+    <string name="moving">Taşınıyor</string>
+    <string name="file">Dosya</string>
+    <string name="folder">Klasör</string>
+    <string name="newfolder">Yeni Klasör</string>
+    <string name="entername">Ad Girin</string>
+    <string name="extracting">Ayıklanıyor</string>
+    <string name="stopping">Durduruluyor</string>
+    <string name="open_parent">Ana Dizini Aç</string>
+    <string name="open_with">Birlikte Aç</string>
+    <string name="share">Paylaş</string>
+    <string name="about">Hakkında</string>
+    <string name="extract">Ayıkla</string>
+    <string name="compress">Sıkıştır</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    
+    <string name="dialog_delete_category_directories">Dizinler</string>
+    <string name="dialog_delete_category_files">Dosyalar</string>
+    <string name="dialog_delete_disclaimer">Aşağıdaki öğeleri silmek, onları cihazınızdan kalıcı olarak kaldırır ve kurtarılamazlar.</string>
+    <string name="dialog_delete_title">Öğeler kalıcı olarak silinsin mi?</string>
+    <string name="deleting">Siliniyor</string>
+    <string name="question_set_path_as_home">Geçerli yolu bu sekme için ana sayfa olarak ayarlamak istiyor musunuz?</string>
+    <string name="directorysort">Dizin Sıralama Modu</string>
+    <string name="sort_by">Sıralama Ölçütü</string>
+    <string name="sort_only_this">Yalnızca bu klasör</string>
+    <string name="theme">Tema</string>
+    <string name="random">Rastgele Dış Görünüm</string>
+    <string name="random_summary">Başlangıçta rastgele birincil renk ayarlar</string>
+    <string name="colorize">Simgeleri Renklendir</string>
+    <string name="colorize_summary">Ayarlar statik simge rengi. Dizin simgesi renk tercihini geçersiz kılmaz.</string>
+    <string name="home">Ana Sayfa</string>
+    <string name="paste">Yapıştır</string>
+    <string name="history">Geçmiş</string>
+    <string name="copy">Kopyala</string>
+    <string name="root_mode">Kök Gezgini</string>
+    <string name="root_mode_summary">Yalnızca köklü aygıtlar için. Yalnızca eminseniz kontrol edin.</string>
+    <string name="root_failure">Kök Erişimi verilmedi</string>
+    <string name="select_all">Tümünü Seç</string>
+    <string name="delete">Sil</string>
+    <string name="set_as_home">Ana Sayfa Olarak Ayarla</string>
+    <string name="operation_not_supported">İşlem desteklenmiyor</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Malzeme Açık</string>
+    <string name="dark">Malzeme Koyu</string>
+    <string name="daytime">Gündüz</string>
+    <string name="black">Siyah (OLED için)</string>
+    <string name="system">Sistem (sistem temasını izleyin)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Üstteki Klasörler</string>
+    <string name="filesOnTop">Dosyalar Üstte</string>
+    <string name="none_on_top">Yok Üstte</string>
+    <!--SortBy-->
+    <string name="sort_name">Ad</string>
+    <string name="lastModified">Son Değiştirme Tarihi</string>
+    <string name="sort_size">Boyut</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Bir dosya seçin</string>
+    <string name="process_viewer">İşlem Görüntüleyici</string>
+    <string name="in_safe">Yetersiz alan</string>
+    <string name="no_file_overwrite">Üzerine Dosya Yazılmamış</string>
+    <string name="skip">Atla</string>
+    <string name="overwrite">Üzerine Yaz</string>
+    <string name="not_allowed">İzin Verilmiyor</string>
+    <string name="searching">%s aranıyor</string>
+    <string name="done">Bitti</string>
+    <string name="set">Ayarla</string>
+    <string name="enablerootmde">Kök Modunu Etkinleştir</string>
+    <string name="goback">Geri Dön</string>
+    <string name="newfile">Yeni Dosya</string>
+    <string name="no_files">Dosya Yok</string>
+    <string name="used">kullanılan alan</string>
+    <string name="used_by_others">başkaları tarafından kullanılan</string>
+    <string name="free">boş alan</string>
+    <string name="listview">Liste Görünümü</string>
+    <string name="gridview">Kılavuz Görüntüle</string>
+    <string name="permission">İzinler</string>
+    <string name="hide">Gizle</string>
+    <string name="exit">Çıkış</string>
+    <string name="doforall">Tüm öğeler için yap</string>
+    <string name="gridcolumnno">Kılavuz görünümündeki sütun sayısı</string>
+    <string name="set_random">Değişiklikler uygulamayı yeniden başlattıktan sonra gerçekleşecektir</string>
+    <string name="authors">Yazarlar</string>
+    
+    <string name="ok">Tamam</string>
+    <string name="ui">Arayüz</string>
+    <string name="general">Genel</string>
+    <string name="thumb_summary">Uygulamaların ve resimlerin Küçük Resimlerini Göster</string>
+    <string name="thumb">Küçük Resimleri Göster</string>
+    <string name="hidden">Gizli Dosyaları ve Klasörleri Göster</string>
+    <string name="lastModifiedSummary">Son değişikliğin tarih ve saatini göster</string>
+    <string name="lastModifiedPref">Son Değiştirme Tarihini ve Zaman</string>
+    <string name="size_pref_summary">Klasörlerdeki dosya boyutunu ve öğe sayısını göster</string>
+    <string name="size_pref">Boyutları Göster</string>
+    <string name="miscellaneous">Çeşitli</string>
+    <string name="root_pref_summary">Dosya ve Klasörlerin İzinlerini Göster</string>
+    <string name="root_pref">İzinleri Göster</string>
+    <string name="about_amaze_file_manager_label">Amaze Dosya Yöneticisi Hakkında</string>
+    <string name="version">Sürüm</string>
+    <string name="rate">Uygulamayı Derecelendir</string>
+    <string name="feedback">Geri Bildirim Gönder</string>
+    <string name="hiddenfiles">Gizli Dosyalar</string>
+    <string name="type"/>
+    <string name="root_directory">Kök</string>
+    <string name="add_shortcut">Kısayol Ekle</string>
+    <string name="unsaved_changes">Kaydedilmemiş Değişiklikler</string>
+    <string name="unsaved_changes_description">Kaydedilmemiş değişiklikleriniz var, çıkmadan önce bunları kaydetmek istiyor musunuz?</string>
+    <string name="saving">Kaydediliyor</string>
+    <string name="package_installer">Paket Yükleyici</string>
+    <string name="view">Görüntüle</string>
+    <string name="install">Yükle</string>
+    <string name="archive">Arşivle</string>
+    <string name="archive_text">Bu bir arşivdir. Hangi eylemi gerçekleştirmek istersiniz?</string>
+    <string name="package_installer_text">Bu bir paket yükleyicidir. Hangi eylemi gerçekleştirmek istiyorsunuz?</string>
+    <string name="xda_title">XDA dizisi</string>
+    <string name="xda_summary">Soru-Cevap, Yardım ve Sorun Giderme</string>
+    <string name="circular_images">Resimler ve videolar için dairesel simgeler kullanın</string>
+    <string name="circular_icons">Dairesel simgeler kullanın</string>
+    <string name="back_title">Geri gezinme</string>
+    <string name="back_summary">Listenin başında özel geri gezinmeyi etkinleştirir</string>
+    <string name="details">Ayrıntılar</string>
+    <string name="translators">Çevirmenler</string>
+    <string name="german_translation_title">Almanca</string>
+    <string name="italian_translation_title">İtalyanca</string>
+    <string name="french_translation_title">Fransızca</string>
+    <string name="russian_translation_title">Rusça</string>
+    <string name="spanish_translation_title">İspanyolca</string>
+    <string name="basque_translation_title">Bask</string>
+    <string name="chinese_translation_title">Çince</string>
+    <string name="serbian_translation_title">Sırpça</string>
+    <string name="turkish_translation_title">Türkçe</string>
+    <string name="ukrainian_translation_title">Ukraynaca</string>
+    <string name="portuguese_translation_title">Portekizce</string>
+    <string name="polish_translation_title">Lehçe</string>
+    <string name="korean_translation_title">Korece</string>
+    <string name="greek_translation_title">Yunanca</string>
+    <string name="dutch_translation_title">Hollandaca</string>
+    <string name="romanian_translation_title">Romence</string>
+    <string name="vietnamese_translation_title">Vietnamca</string>
+    <string name="japanese_translation_title">Japonca</string>
+    <string name="tamil_translation_title">Tamilce</string>
+
+    
+    <string name="unin_system_apk">Bu bir sistem uygulamasıdır, silinmesi sistemin kararsız hale gelmesine neden olabilir.\nDevam edilsin mi?</string>
+    <string name="warning">Uyarı</string>
+    <string name="donate">Bağış yap</string>
+    <string name="archive_extract_folder">Arşiv Klasörünü Çıkart</string>
+    <string name="archive_summary">Arşiv dosyaları bu klasöre çıkarılacaktır. Varsayılan değer, arşivin bulunduğu dizindir.</string>
+    <string name="open_as">Farklı Aç</string>
+    <string name="text">Metin</string>
+    <string name="audio">Ses</string>
+    
+    <string name="other">Diğer</string>
+    <string name="image">Resim</string>
+    <string name="contributors">Katkıda bulunanlar</string>
+    <string name="save_paths">Yolları hatırla</string>
+    <string name="save_path_summary">Başlangıçta, her sekme için en son görüntülenen klasör görüntülenecektir</string>
+    <string name="select_intent">Seç</string>
+    <string name="database">Veritabanı</string>
+    <string name="colored_navigation">Renkli Gezinme çubuğu</string>
+    <string name="colored_navigvation_sum">Sistem gezinme çubuğunun dış görünümle renkli olup olmadığı</string>
+
+    <string name="color_title">Renk</string>
+    <string name="color_summary">Çeşitli UI bileşenlerine renk ayarla</string>
+    <string name="primary_color_title">Birincil Renk (Sol Sekme)</string>
+    <string name="primary_color_summary">Sol sekme için büyük UI öğelerine renk ayarla</string>
+    <string name="accent_color_title">Vurgu Rengi</string>
+    <string name="accent_color_summary">Rengi FAB ve diğer küçük UI öğelerine ayarla elements</string>
+    <string name="icon_color_title">Simge Rengi</string>
+    <string name="icon_color_summary">Simgelere renk ayarla</string>
+    <string name="choose_color">Renk seç</string>
+    <string name="files">Dosyalar</string>
+    <string name="textreader">Metin Okuyucu</string>
+    <string name="databasereader">Veritabanı Okuyucu</string>
+    <string name="show_dividers">Bölücüleri Göster</string>
+    <string name="needs_access">Yazma Erişimi Gerekli</string>
+    <string name="needs_access_summary">Lütfen</string>
+    <string name="needs_access_summary1">\'yı çalıştırmak üzere yazma erişimi vermek için \t</string>
+    <string name="smb_connection">\tkök dizinini seçin SMB Bağlantısı</string>
+    <string name="smb_server">Sunucu IP Adresi</string>
+    <string name="server_address">Sunucu IP Adresi</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="password">Parola</string>
+    <string name="anonymous">Anonim</string>
+    
+    <string name="folders">Klasörler</string>
+    <string name="folderfilecount">%1$d klasör ve %2$d dosya</string>
+    <string name="videos">Videolar</string>
+    <string name="apks">APK\'ler</string>
+    <string name="documents">Belgeler</string>
+    <string name="images">Resimler</string>
+    <string name="clear">Temizle</string>
+    
+    <string name="total">Toplam:</string>
+    <string name="calculating">hesaplama</string>
+    <string name="sort">Sırala</string>
+    <string name="ascending">Artan</string>
+    <string name="descending">Azalan</string>
+    <string name="default_string">Varsayılan</string>
+    <string name="doit">Yapın</string>
+    <string name="want_help">Yardıma mı ihtiyacınız var?</string>
+    <string name="quick">Hızlı erişim</string>
+    <string name="recent">Son dosyalar</string>
+    <string name="edit">Düzenle</string>
+    <string name="find">Sayfada bul</string>
+    <string name="grant">İzin ver</string>
+    <string name="grantper">İzin ver</string>
+    <string name="grantfailed">İzin verilmedi</string>
+    <string name="grant_storage_permission">Uygulamanın devam etmesi için depolama iznine ihtiyacı var. Bu iletişim kutusu iptal edildiğinde uygulamadan çıkılır.</string>
+    <string name="operation_unsuccesful">İşlem Başarısız</string>
+    <string name="creatingfile">Dosya Oluşturuluyor</string>
+    <string name="creatingfolder">Klasör Oluşturuluyor</string>
+    <string name="renaming">Yeniden Adlandırılıyor</string>
+    <string name="cant_be_empty">%s boş olamaz</string>
+    <string name="ip">Adres</string>
+    <string name="connection_name">Bağlantı adı</string>
+    <string name="no_device_found">Cihaz bulunamadı</string>
+    <string name="path">Yol</string>
+    <string name="rename_bookmark">Yer İşaretini Değiştir</string>
+    <string name="cut">Kes</string>
+    <string name="search">Arama</string>
+    <string name="invalid_name">Geçersiz Ad</string>
+    <string name="search_hint">Aramak için yazın…</string>
+    <string name="advanced_search">Gelişmiş Arama</string>
+    <string name="regular_expression">Normal İfade</string>
+    <string name="regular_expression_summary">BASH stili normal ifade kullanarak arama</string>
+    <string name="match_content">İçeriği eşleştir</string>
+    <string name="match_content_summary">Ayarlanırsa, normal ifade tüm dosya adıyla eşleştirilir,
+        aksi halde durumu arayacaktır.</string>
+    <string name="start_ftp">Başlat</string>
+    <string name="stop_ftp">Durdur</string>
+    <string name="ftp_status_running">Çalışıyor</string>
+    <string name="ftp_status_not_running">Çalışmıyor</string>
+    <string name="ftp_no_wifi">Wi\'ye bağlı olduğunuzdan emin olun -Fi</string>
+    <string name="domain">Etki Alanı</string>
+    <string name="smb_share">Paylaşım yolu</string>
+    <string name="invalid">Geçersiz %s</string>
+    <string name="ftp_notif_starting">FTP Sunucusu başlıyor</string>
+    <string name="ftp_notif_starting_title">FTP Sunucusu</string>
+    <string name="ftp_notif_title">Amaze FTP Sunucusu çalışıyor</string>
+    <string name="ftp_notif_text">%s</string>
+    <string name="ftp_notif_stop_server">DUR</string>
+    <string name="ftp_port_edit_menu_title">FTP bağlantı noktası</string>
+    <string name="ftp_port_change_success">FTP bağlantı noktası başarıyla değiştirildi</string>
+    <string name="ftp_port_change_error_invalid">Geçersiz bağlantı noktası numarası seçildi</string>
+    <string name="primary_two_title">Birincil Renk (Sağ Sekme)</string>
+    <string name="primary_two_summary">Sağ sekme için büyük UI öğelerine renk ayarla</string>
+    <string name="support_development">Geliştirme Desteği</string>
+    <string name="report_bugs_title">Hataları Bildirin</string>
+    <string name="source_title">Kaynak kodu</string>
+    <string name="source_summary">GitHub\'da kaynak kodumuzu görüntüleyin</string>
+    <string name="report_bugs_summary">Hataları bildirin veya yeni özellik isteyin</string>
+    <string name="translate_title">Çevir</string>
+    <string name="translate_summary">Çevir Dilinizde hayranlık uyandırın</string>
+    <string name="paypal_copy_message">PayPal Kimliği panoya kopyalandı</string>
+    <string name="searching_devices">Cihazlar aranıyor</string>
+    <string name="use_custom_ip">Özel IP kullan</string>
+    <string name="bookmark_lost">Yer imi bulunamadı, yeniden oluşturuluyor...</string>
+
+    
+    <string name="share_limit">100\'den fazla dosya paylaşılamaz</string>
+    <string name="otg_access">OTG cihazının kökünü seçin</string>
+    <string name="information">Bilgi</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Erişildi</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Değiştirildi</string>
+
+    <string name="title">Başlık</string>
+    <string name="artist">Sanatçı</string>
+    <string name="album">Albüm</string>
+    <string name="year">Yıl</string>
+    <string name="duration">Süre</string>
+    <string name="comment">Yorum</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Kapsayıcı</string>
+    <string name="codec">Kodek</string>
+    <string name="channels">Kanallar</string>
+    <string name="sample_rate">Örnek Hızı</string>
+    <string name="bitrate">Bit Hızı</string>
+    <string name="dimensions">Boyutlar</string>
+    <string name="frame_rate">Kare Hızı</string>
+    <string name="image_type">Görüntü Türü</string>
+    <string name="width">Genişlik</string>
+    <string name="height">Yükseklik</string>
+    <string name="date_modified">Değiştirme Tarihi</string>
+    <string name="software">Yazılım</string>
+    <string name="creator">Yaratıcı</string>
+    <string name="camera_brand">Kamera Markası</string>
+    <string name="camera_model">Kamera Model</string>
+    <string name="date_taken">Çekilme Tarihi</string>
+    <string name="exposure_time">Pozlama Süresi</string>
+    <string name="aperture_value">Açıklık Değeri</string>
+    <string name="image_iso">ISO Hız Derecelendirmesi</string>
+    <string name="flash_fired">Flaş Patlaması</string>
+    <string name="focal_length">Odak Uzaklığı</string>
+    <string name="subject">Konu</string>
+    <string name="author">Yazar</string>
+    <string name="keywords">Anahtar Kelimeler</string>
+    <string name="producer">Yapımcı</string>
+    <string name="created">Oluşturulan</string>
+    <string name="format">Biçim</string>
+    <string name="pages">Sayı Sayfalar</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimize Edildi</string>
+    <string name="security">Güvenlik</string>
+    <string name="paper_size">Kağıt Boyutu</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Bazı dosyalar başarıyla %s</string>
+    <string name="copied">kopyalandı</string>
+    <string name="moved">taşındı</string>
+    <string name="copy_complete">Kopyalama Tamamlandı</string>
+    <string name="waiting_title">Bekliyor</string>
+    <string name="waiting_content">İşlemin tamamlanması bekleniyor</string>
+    <string name="extract_complete">Çıkartma tamamlandı</string>
+    <string name="compression_complete">Sıkıştırma Tamamlandı</string>
+    <string name="compressing">Sıkıştırılıyor</string>
+    <string name="cancelled">İptal edildi</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Yazıldı</string>
+    <string name="out_of"/>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    
+    <string name="processing_file">Dosya işleniyor</string>
+    <string name="current_speed">Geçerli Hız</string>
+    <string name="smb_launch_error">Açmak için bu dosyayı depolamaya kopyalamanız gerekecek</string>
+    <string name="error_file_not_found">Hata: Dosya Bulunamadı</string>
+    <string name="error_io">G/Ç Hatası</string>
+    <string name="error_file_too_large">Hata: Dosya Çok Büyük</string>
+    <string name="medium_text">Orta Metin</string>
+    <string name="permission_read">Oku</string>
+    <string name="permission_write">Yaz</string>
+    <string name="permission_execute">Yürüt</string>
+    <string name="permission_owner">Sahip</string>
+    <string name="permission_group">Grup</string>
+    <string name="permission_other">Diğer</string>
+    <string name="clipboard_path_copy">Yol panoya kopyalandı</string>
+    <string name="service_timer">Geçen süre</string>
+    <string name="please_wait">Lütfen Bekleyin</string>
+
+    <string name="cloud_connection">Bulut Bağlantısı</string>
+    <string name="cloud_connection_new">Yeni Bulut Bağlantısı</string>
+    
+    
+    
+    <string name="cloud_box">Kutu</string>
+    <string name="cloud_get">Bulut eklentisini al</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Uygulama yok</string>
+    <string name="ftp_path">Paylaşılan Yol</string>
+    <string name="ftp_path_hint">Paylaşılacak dizinin köküne giden yol</string>
+    <string name="change">Değiştir</string>
+    <string name="unknown_error">Hata, bir şeyler ters gitti!</string>
+
+    <string name="ftp_path_change_success">FTP yolu başarıyla değiştirildi</string>
+    <string name="ftp_path_change_error_invalid">Geçersiz yol</string>
+    <string name="ftp_status_no_connection">Bağlantı Yok</string>
+    <string name="ftp_status_secure_connection">Güvenli Bağlantı</string>
+    <string name="ftp_status_title">Durum</string>
+    <string name="ftp_port">Bağlantı Noktası</string>
+    <string name="ftp_login">Giriş</string>
+    <string name="field_empty">Alan boş olamaz</string>
+    <string name="ftp_timeout">Boşta kalma zaman aşımı</string>
+    <string name="ftp_seconds">Saniye</string>
+    <string name="intellihide_toolbar_title">Intellihide Araç çubuğu</string>
+    <string name="intellihide_toolbar_summary">Kaydırma sırasında araç çubuğunu otomatik olarak gizle</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">panoya kopyalandı</string>
+    <string name="contributors_1_summary">Çeviri</string>
+    <string name="contributors_2_summary">Simge ve başlıklar</string>
+    <string name="contributors_3_summary">Tema Motoru</string>
+    <string name="contributors_4_summary">FAB\'ın arkasındaki gölge</string>
+    <string name="contributors_5_summary">Sekmeleri kaydırırken renk geçişi</string>
+    <string name="contributors_6_summary">FTP Sunucusu</string>
+    <string name="contributors_7_summary">Etkileşimli bir kabuk çalıştırma</string>
+    <string name="connection_exists">Bağlantı zaten var</string>
+
+    <string name="crypt_encrypting">Şifreleme</string>
+    <string name="crypt_decrypting">Şifre çözme</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Şifreleme</string>
+    <string name="crypt_decrypted">Şifreleme</string>
+    <string name="crypt_encrypt">Şifreleme</string>
+    <string name="crypt_decrypt">Şifreleme</string>
+    <string name="operation_fail_following">Aşağıdaki dosyalar için işlem başarısız oldu</string>
+    <string name="crypt_pref_master_password_title">Ana Parola</string>
+    <string name="crypt_pref_master_password_summary">Şifreleme için bir ana parola belirleyin.
+        Kaldırmak için boş bırakın.</string>
+    <string name="crypt_pref_fingerprint_title">Parmak izi</string>
+    <string name="crypt_pref_fingerprint_summary">Şifrelemeyi doğrulamak için parmak izi kullanın</string>
+    <string name="crypt_fingerprint_no_permission">Parmak izi izinleri eksik</string>
+    <string name="crypt_fingerprint_not_enrolled">Kayıtlı parmak izi yok</string>
+    <string name="crypt_fingerprint_no_security">Kilit ekranı güvenliği yok found</string>
+    <string name="crypt_warning_key">Güvenlik düzeninizi değiştirdiğinizde uyarı alın
+        Sistem ayarları, bu içeriğin şifresini çözemeyeceksiniz.</string>
+    <string name="warning_never_show">Tekrar bilgilendirme</string>
+    <string name="warning_confirm">Anladım!</string>
+    <string name="crypt_encryption_fail">Şifreleme başarısız</string>
+    <string name="crypt_decryption_fail">Şifre çözülemedi</string>
+    <string name="crypt_decryption_fail_password">Yanlış şifre!</string>
+    <string name="crypt_fingerprint_authenticate">Devam etmek için sensöre dokunun</string>
+    <string name="authenticate_password">Şifreyi girin</string>
+
+    <string name="sidebar_preferences">Kenar çubuğu</string>
+    <string name="sidebar_quick_access_title">Kenar çubuğuna hızlı erişim</string>
+    <string name="show_quick_access_pref_title">Hızlı erişimleri göster</string>
+    <string name="show_quick_access_pref">Hızlı erişimler</string>
+    <string name="directory">Dizin</string>
+
+    <string name="sidebar_bookmarks_title">Kenar çubuğu yer imleri</string>
+    <string name="show_bookmarks_pref_title">Yer imlerini göster</string>
+    <string name="show_bookmarks_pref">Yer imleri</string>
+    <string name="create_bookmark">Yer imi oluştur</string>
+    <string name="edit_bookmark">Yer işaretini düzenle</string>
+    <string name="question_delete_bookmark">Yer işaretini sil?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud eklentisi bulunamadı. Lütfen Play Store\'dan indirin.</string>
+    <string name="cloud_error_failed_restart">Bağlantı yüklenemedi.
+        Lütfen Amaze Cloud\'u bir kez açın.</string>
+    <string name="cloud_remove">Bulut bağlantısını kaldırmak istiyor musunuz?</string>
+    <string name="cloud_fail_authenticate">Kimlik doğrulanamadı</string>
+    <string name="cloud_share_copied">Paylaşılabilir bağlantı panoya kopyalandı</string>
+    <string name="copy_low_memory">Bitiyor bellek, lütfen RAM\'in bir kısmını temizleyin</string>
+    <string name="cloud_token_lost">Belirteç kayboldu, lütfen tekrar oturum açın</string>
+    <string name="monofont">Monospace Yazı Tipi</string>
+    <string name="showHeaders">Başlıkları Göster</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Öğe yok</string>
+	<string name="item">öğe</string>
+	<string name="items">öğeler</string>
+	
+	<string name="byte_singular">bayt</string>
+	<string name="bytes">bayt</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Dosyanın bir adı olmalıdır</string>
+    <string name="add_item">Öğe Ekle</string>
+    <string name="failed_smb_decrypt_path">Yüklenemedi SMB bağlantısı</string>
+    <string name="failed_cloud_new_connection">Yeni Bulut bağlantısı eklenemedi</string>
+    <string name="failed_cloud_api_key">Bulut eklentisinin kimliği doğrulanamadı</string>
+
+    <string name="local_inet_addr_error">Yerel giriş adresi alınırken hata</string>
+    <string name="intent_save_as">Farklı kaydet…</string>
+    <string name="go">Git</string>
+    <string name="advanced">Gelişmiş</string>
+    <string name="typeable_paths_title">Özel yollar</string>
+    <string name="typeable_paths_summary">Özel bir yol yazmak için yol çubuğuna uzun basın</string>
+    <string name="send_email_to">Şuraya e-posta gönder</string>
+
+    <string name="text_editor">Metin düzenleyici ayarları</string>
+    <string name="preference_newstack_title">Dosyaları yeni görev olarak aç</string>
+    <string name="preference_newstack_summary">Dosyaları ayrı görevlerde açmanıza izin verir. Bunlara sistem son kullanılanlar ekranından erişin.</string>
+    
+    <string name="developers">Geliştiriciler</string>
+    <string name="no_bitcoin_app">Lütfen bir Bitcoin Cüzdan uygulaması kurun</string>
+    <string name="channel_name_normal">Amaze Bildirimleri</string>
+    <string name="channel_description_normal">Amaze Dosya Yöneticisi\'nin Bildirimleri</string>
+    <string name="channel_name_ftp">Amaze FTP Sunucusu</string>
+    <string name="channel_description_ftp">Amaze Dosyası Yönetici FTP Sunucusu\'nun Bildirimleri</string>
+
+    
+    <string name="processing">İşleniyor…</string>
+    <string name="failed_no_connection">Dosyalar yüklenemedi. Lütfen bağlantınızı kontrol edin.</string>
+
+    <string name="update">GÜNCELLEME</string>
+	<string name="scp_connection">SCP/SFTP Bağlantısı</string>
+    <string name="ftp_connection">FTP Bağlantısı</string>
+    <string name="ftps_connection">SSL Bağlantısı Üzerinden FTP</string>
+    <string name="scp_port">Bağlantı Noktası</string>
+    <string name="ssh_host_key_verification_prompt">\'%1$s\' ana bilgisayarının orijinalliği belirlenemiyor.\n\n%2$s anahtar parmak izi %3$s.\n\nLütfen onaylamak için \"Evet\" seçeneğine dokunun kimlik; aksi takdirde lütfen \"Hayır\"a dokunun.</string>
+    <string name="ssh_host_key_verification_prompt_title">Ana Bilgisayarı Doğrula</string>
+    <string name="ssh_select_pem_button">SSH Özel Anahtarı</string>
+    <string name="ssh_pem_key_parse_error">Seçilen PEM okunamıyor: %s</string>
+    <string name="password_unchanged">(değişmedi)</string>
+    <string name="ssh_authentication_failure_password">Oturum açma hatası: Sağlanan kullanıcı adı ve parola ile kimlik doğrulanamıyor.</string>
+    <string name="ssh_authentication_failure_key">Oturum açma hatası: Sağlanan kullanıcı adı ve özel anahtarla kimlik doğrulanamıyor.</string>
+    <string name="ssh_connect_failed">%1$s:%2$d: %3$s ile bağlantı kurulamıyor</string>
+    <string name="ssh_connect_failed_host_key_changed_title">UYARI: UZAKTAN ANA BİLGİSAYAR TANIMLAMASI DEĞİŞTİ!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">BİRİSİNİN KÖTÜ BİR ŞEYLER YAPMASI MUHTEMELEN!\n\nBirisi sizi dinliyor olabilir şimdi (ortadaki adam saldırısı)! Ana bilgisayar anahtarının yeni değiştirilmiş olması da mümkündür. Uzak ana bilgisayar tarafından gönderilen ortak anahtarın parmak izi, Amaze\'de depolananla eşleşmiyor.\n\nSunucuya bağlanmaya devam etmek için lütfen sistem yöneticinizle iletişime geçin veya yeni bir bağlantı kurun.</string>
+    <string name="ssh_key_prompt_passphrase">Lütfen anahtar parolasını girin .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Kısayol oluşturma, başlatıcınız tarafından desteklenmiyor.</string>
+    
+    <string name="select_color_config">Renk yapılandırmasını seçin</string>
+    <string name="customize">Özelleştir</string>
+    <string name="custom">Özel</string>
+    <string name="preselected_configs_title">Önceden seçilmiş yapılandırmalar</string>
+    <string name="orange">Turuncu</string>
+    <string name="blue">Mavi</string>
+    <string name="green">Yeşil</string>
+    <string name="password_no_match">Parola eşleşmiyor</string>
+    <string name="deselect_all">Tüm Seçimleri Kaldır</string>
+    <string name="filename">Dosya adı</string>
+    <string name="compress_file_suggest_zip_extension">Dosya uzantısı olarak \".zip\" kullanılması önerilir.</string>
+    <string name="about_amaze">Android için malzeme tasarımı dosya yöneticisi</string>
+    <string name="license">Lisans</string>
+    <string name="libraries">Kütüphaneler</string>
+    <string name="password_repeat">Şifreyi tekrarla</string>
+    <string name="create_file_suggest_txt_extension">Dosya uzantısı olarak \".txt\" kullanılması önerilir.</string>
+    <string name="ssh_select_pem">Kimlik doğrulama için özel anahtar seçin</string>
+    <string name="ssh_key_invalid_passphrase">Geçersiz anahtar parolası.</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM\'in şifresini çözmek için geçerli bir kod çözücü yok.</string>
+    <string name="encryption_fail_copy">Veritabanındaki şifreleme girişi güncellenemedi</string>
+    <string name="extracted">Çıkartıldı</string>
+    <string name="compressed">Sıkıştırıldı</string>
+    <string name="processed">İşlendi</string>
+    <string name="no_obtainable_info">Bu dosya hakkında bilgi yok</string>
+    <string name="reopen_from_source">Yapılamıyor, lütfen son uygulamadan tekrar açın</string>
+    <string name="no_file_error">Bir şeyler ters gitti, açılacak bir şey yok</string>
+    <string name="file_too_long">dosya çok uzun ve düzenlenemez, ancak ilk %d karakteri okuyabilirsiniz</string>
+    <string name="file_read_only">Açılan dosya salt okunurdur.</string>
+    <string name="got_it">Anladım!</string>
+    <string name="encrypt_file_save_as">Şifreli Kaydet Farklı Dosyala…</string>
+    <string name="encrypt_folder_save_as">Şifrelenmiş Klasörü Farklı Kaydet…</string>
+    <string name="encrypt_option_use_aze">Amaze Şifreleme Biçimini Kullanın</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt, AES şifrelemesine dayalı açık kaynaklı bir dosya şifreleme biçimidir. Ayrıca taşınabilirdir, diğer platformlardaki AESCrypt programlarıyla deşifre edilebilir.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt web sitesi</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'nin Şifreleme Formatı da AES şifrelemesine dayalıdır; ancak AESCrypt formatından farklı olarak şifresi yalnızca bu cihaz tarafından çözülebilir; ayrıca Amaze Dosya Yöneticisini bu cihazdan kaldırmamalı veya ekranı kilitleme şeklinizi değiştirmemelisiniz, aksi halde şifrelenmiş dosyayı kurtarmanız mümkün olmayacaktır.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Şifrelenmiş dosyalar, dosya uzantısı olarak \".aze\" kullanmalıdır.</string>
+    <string name="encrypt_file_must_end_with_aes">Şifrelenmiş dosyalar, dosya uzantısı olarak \".aes\" kullanmalıdır.</string>
+    <string name="error_aescrypt_decrypt_failed">Şifre çözülemez \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Dosyanın üzerine yazılamıyor.</string>
+    <string name="saved_single_file">Dosya \'%s\' olarak kaydedildi.</string>
+    <string name="saved_multi_files">%d dosya kaydedildi.</string>
+    <string name="create_hidden_file_warn">Oluşturulan dosya, dosya listesinde gizlenecek.</string>
+    <string name="grant_apkinstall_permission">Uygulamanın, uygulamaları yüklemek için izne ihtiyacı var devam edin.</string>
+    <string name="time_remaining">Kalan süre</string>
+    <string name="transfer_rate">Aktarım hızı</string>
+    <string name="unknown">bilinmiyor</string>
+    <string name="multiple_invalid_archive_entries">Arşivdeki bazı dosyalar çıkarılamıyor; arşiv zarar görmüş veya kötü amaçlı bir kaynaktan gelmiş olabilir.</string>
+    <string name="saf_otg_explanation">Güvenlik nedeniyle artık Android\'in dosya sistemine gideceksiniz. Lütfen soldaki listeden USB cihazını seçin.</string>
+    <string name="donation_thanks">Bağış için teşekkürler, bu bizi motive ediyor! (:</string>
+    <string name="enable_marquee_filename">Dosya adları için kayan yazı efektini etkinleştir</string>
+    <string name="archive_password_prompt">Lütfen arşiv şifresini girin:</string>
+    
+    <string name="cannot_extract_archive">\"%s\" arşivi çıkarılamıyor: %s</string>
+    <string name="archive_unsupported_or_corrupt">Yapılamıyor \"%s\" arşivini açın. Ya arşivi açamıyoruz ya da arşiv zarar görmüş.</string>
+    <string name="close">Kapat</string>
+    <string name="bookmark_exists">Yer imi var</string>
+    <string name="hide_media">Medya tarayıcılarından gizle</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">BİRİSİ KÖTÜ BİR ŞEYLER YAPAR OLABİLİR!\n\nŞu anda biri sizi dinliyor olabilir (ortadaki adam saldırısı)! Ana bilgisayar anahtarı yeni değiştirilmiş olabilir. Parmak izi çünkü uzak ana bilgisayar tarafından gönderilen genel anahtar, Amaze\'de depolananla eşleşmiyor.\n\nAna bilgisayar parmak izini güncellemeye devam edebilir veya SSH bağlantı ayarlarını güncellemeyi iptal edebilirsiniz.</string>
+    <string name="update_host_key">Ana Bilgisayar Anahtarını Güncelle</string>
+    <string name="cancel_recommended">İptal (Önerilen)</string>
+    
+    
+    <string name="failed_install_apk">Kurulamadı</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Dahili Depolama</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD kart</string>
+    <string name="choose_folder">Bu Klasörü Seç</string>
+    
+    <string name="some_files_failed_invalid_operation">Bazı dosyalar geçersiz olduğundan başarısız oldu işlem</string>
+    <string name="ftp_server_prompt_connect_to_network">Bir ağa bağlanın veya AP\'yi etkinleştirin</string>
+    <string name="ftp_server_open_settings">Ayarları açın</string>
+    <string name="move">Taşı</string>
+    <string name="select_save_location">Kaydedilecek konumu seçin</string>
+    <string name="scp_default_path">Varsayılan Yol (İsteğe bağlı)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Üzgünüm, böyle bir şey olmamalıydı.</string>
+    
+    <string name="error_report_button_text">Bu hatayı e-posta ile bildir</string>
+    <string name="error_report_button_telegram">Bu hatayı telegram ile bildir</string>
+    <string name="copy_for_github">Biçimlendirilmiş raporu kopyala</string>
+    <string name="error_report_open_issue_button_text">GitHub\'da Raporla</string>
+    <string name="error_report_open_github_notice">Lütfen kilitlenmenizle ilgili bir sorunun mevcut olup olmadığını kontrol edin.</string>
+    <string name="error_snackbar_message">Üzgünüz, bir şeyler ters gitti.</string>
+    <string name="error_snackbar_action">Raporla</string>
+    <string name="what_device_headline">Bilgi:</string>
+    <string name="what_happened_headline">Ne oldu:</string>
+    <string name="info_labels">Ne:\\nTalep:\\nGMT Saati:\\nPaket:\\nSürüm:\\nOS sürümü:\\nCihaz:\\nModel:\\nÜrün :</string>
+    <string name="your_comment">Yorumunuz (İngilizce):</string>
+    <string name="error_details_headline">Ayrıntılar:</string>
+    <string name="app_ui_crash">Uygulama/UI kilitlendi</string>
+    <string name="error_report_title">Hata raporu</string>
+    <string name="crash_report_copied">Çökme raporu şuraya kopyalandı: pano</string>
+    <string name="disableIpcSignature">IPC imzalama kontrolünü devre dışı bırak (Eski SMBv1 sunucuları için - GÜVENLİ DEĞİL!)</string>
+    <string name="cannot_delete_file">Dosya silinemiyor</string>
+    <string name="cannot_delete_file_with_reason">Dosya silinemiyor - %s</string>
+    <string name="cannot_rename_file">Dosya yeniden adlandırılamıyor %s - %s</string>
+    <string name="cannot_read_directory">%s - %s dizini okunamıyor</string>
+    <string name="just_once">Sadece Bir Kez</string>
+    <string name="always">Her Zaman</string>
+    <string name="choose_different_app">Farklı bir uygulama seç</string>
+    <string name="clear_open_file">Temizle önbellek</string>
+    <string name="clear_open_file_summary">Seçili varsayılan dosya açma uygulamalarını temizler</string>
+    <string name="ftp_readonly">Salt okunur erişim</string>
+    <string name="legacy_listing_title">Kök için eski listelemeyi kullan</string>
+    <string name="legacy_listing_summary">Etkinse, dosyaları listelemek için eski yöntemi kullanır</string>
+    <string name="error_unsupported_v5_rar">RAR arşivi \"%s\" desteklenmeyen RAR v5 arşividir.</string>
+    <string name="ftp_prompt_restart_server">Değişikliklerin etkili olması için FTP sunucusunu yeniden başlatmanız gerekecek.</string>
+    <string name="error_permission_denied">İzin reddedildi</string>
+    <string name="error_archive_password_incorrect">Yanlış arşiv şifresi.</string>
+    <string name="error_archive_cannot_extract">\"%s\" arşiv girişi \"%s\" konumuna çıkarılamıyor.</string>
+    <string name="drag_and_drop_preference">Sürükle ve bırak tercihini seçin (Deneysel)</string>
+    <string name="drag_to_move_copy">Dosyaları taşımak veya kopyalamak için dokunun ve sürükleyin</string>
+    <string name="drag_to_select">Dosyaları seçmek için dokunun ve sürükleyin</string>
+    <string name="disable">Devre Dışı Bırak</string>
+    <string name="choose_operation">Uygulanacak işlemi seçin</string>
+    <string name="remember">Bir dahaki sefere hatırla</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP sunucusu için SAF erişimi verin</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Bu, FTP sunucusunu ilk çalıştırmanız olduğundan ve paylaşılan klasör olarak cihazın dahili depolamasını kullandığınızdan, lütfen Amaze\'in şunu kullanarak depolamaya erişmesine izin verin: SAF.\n\n
+
+Bunu, bir sonraki paylaşım için yeni bir konum seçene kadar yalnızca bir kez yapmanız yeterlidir.</string>
+    <string name="android_data_prompt_saf_access">Android 10\'dan beri, Android belirli dizinlere kısıtlamalar getirmiştir ve bu dizinlerin Depolama Erişim Çerçevesi ile erişmeleri gerekir.\n \nLütfen \"Erişime İzin Ver\" seçeneğine dokunarak Amaze\'in sistemin dosya yöneticisinden dizine erişmesine izin verin.</string>
+    <string name="android_data_prompt_saf_access_title">SAF erişimi verin</string>
+    <string name="ftp_preference_saf_filesystem_title">Eski dosya sistemini kullan</string>
+    <string name="ftp_preference_saf_filesystem">Etkinleştir bu, daha yeni Android sürümlerinde cihazın harici depolamasını kullanma desteği içindir</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP sunucusu paylaşılan yolu, siz eski dosya sistemi uygulamasına geri dönerken dahili depolamaya sıfırlandı. Lütfen sağ üstteki menüyü kullanarak gerektiği gibi yeni bir yol seçin.</string>
+    <string name="ftp_server_reset_notify">FTP sunucusu paylaşılan yolu dahili depolamaya sıfırlandı</string>
+    <string name="ftp_server_root_unavailable">Kök erişimi gerektiren bir yol seçiyorsunuz. Cihazınız rootlu ise lütfen ayarlardan root explorer\'ı etkinleştirin.</string>
+    <string name="ftp_server_root_filesystem_warning">Kök erişimi gerektiren, cihazınızdaki tüm dosya sisteminde okuma/yazma işlemlerine olanak tanıyan bir yol seçiyorsunuz ve bu tehlikelidir - dikkatsiz hatalar cihazınızın duvarlarını kaplayabilir!\n\nEmin misiniz?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">URI \"%s\" okuma için açılırken hata oluştu.</string>
+    <string name="error_empty_archive">\"%s\" boş bir arşiv.</string>
+    <string name="error_bad_archive_without_info">\"%s\" bozuk bir arşiv .</string>
+    <string name="error_bad_archive_with_info">\"%s\" bozuk bir arşivdir.\nAyıklayıcıdan gelen mesaj: \"%s\"</string>
+    <string name="security_error">Bu uygulama kullanılarak dosya açılamadı</string>
+    <string name="cloud_drive_tooltip">Oluştur Amaze Dosya Yöneticisi içinden dosyaları yönetmek için bir Google Drive™ bağlantısı.</string>
+    <string name="signin_with_google_title">Google Drive™ kullanmak için kimlik doğrulaması yapın</string>
+    <string name="show_system_apps">Sistem uygulamalarını göster</string>
+    <string name="system_apps">Sistem uygulamaları</string>
+    <string name="select_inverse">Seç Ters</string>
+    <string name="select_by_type">Türe göre seç</string>
+    <string name="select_by_date">Tarihe göre seç</string>
+    <string name="select_similar">Benzerini seç</string>
+    <string name="error_fetching_google_play_product_list">Google Play\'den ürün listesi getirilirken hata oluştu.</string>
+    <string name="grant_all_files_permission">Android 11\'den beri , Google, Dosya Yöneticilerinden cihazdaki tüm dosyaları yönetmek için kullanıcı izni istemesini ister. Ayrıntılar burada.
+        \n\nAmaze Dosya Yöneticisinin de bu izne ihtiyacı var. Burada "Grant" düğmesine bastıktan sonra, lütfen bir sonraki ekranda Tüm dosyaları yönetmek için erişime izin ver seçeneğini seçin.
+        \n\nBu iletişim kutusu iptal edildiğinde uygulamadan çıkılır.</string>
+    <string name="user_apps">Kullanıcı uygulamaları</string>
+    <string name="appearance">Görünüm</string>
+    <string name="behavior">Davranış</string>
+    <string name="appearance_summary">Dosya yöneticisinin temasını, renklerini ve görünümünü özelleştirin</string>
+    <string name="ui_summary">Hangi bilgilerin gösterileceğini kontrol edin, kenar çubuğunu özelleştirin ve kullanıcı arabirimi tercihlerini değiştirin</string>
+    <string name="behavior_summary">Gelişmiş arama ve dosyaların yeni bir görev olarak açılıp açılmayacağı gibi davranışları değiştirin</string>
+    <string name="security_summary">Parolayı ayarlayın ve şifreleme</string>
+    <string name="backup_summary">Amaze ayarlarını Dışa Aktar/İçe Aktar</string>
+
+    <string name="pref_export">Dışa Aktar</string>
+    <string name="pref_export_summary">Ayarları Dışa Aktar</string>
+    <string name="pref_import">İçe Aktar</string>
+    <string name="pref_import_summary">Ayarları içe aktar</string>
+
+    <string name="quick_desc">Dosyalar Amaze aracılığıyla yakın zamanda erişildi</string>
+    <string name="recent_desc">Son oluşturulan veya değiştirilen dosyalar</string>
+    <string name="error_cannot_find_way_open">Dosyayı açmanın yolu bulunamadı</string>
+    <string name="error_cant_decompress_that_file">İstenen arşiv işlenemiyor</string>
+    <string name="analyse_storage">Depolamayı İncele</string>
+    
+    <string name="download_amaze_utils_text">Amaze File Utilities\'e yönlendiriliyorsunuz. Bu, dahili ses/video/görüntü/belge görüntüleyicilere sahip, gereksiz dosyaları analiz ederek depolamada yer açmanıza, Wifi P2P kullanarak hızlı aktarıma ve çok daha fazlasına olanak tanıyan açık kaynaklı uygulamamızdır.\nLütfen deneyerek bize destek olun.</string>
+    <string name="download">İndir</string>
+    
+    <string name="amaze_utils_installed_alias">Amaze File Utilities\'i kurduğunuz için teşekkür ederiz. Uygulamaya yönlendiriliyorsunuz.</string>
+    <string name="image_viewer">Amaze Resim Görüntüleyici</string>
+    <string name="video_player">Aze Video Oynatıcı</string>
+    <string name="amaze_audio_player">Amaze Müzik Çalar</string>
+    <string name="pdf_viewer">Amaze Belge Görüntüleyici</string>
+    
+    <string name="share_logs">Günlükleri paylaş</string>
+    <string name="share_logs_summary">Yakalanan günlükleri e-posta / telegram yoluyla paylaş</string>
+    <string name="open_with_amaze">Amaze ile aç</string>
+    <string name="confirmation">Onay</string>
+    <string name="open_file_confirmation">Aşağıdaki dosyayı açmak istediğinizden emin misiniz?\n\nAd:\n%s\n\nKonum:\n%s\n\nBoyut:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play politikası gereğince, uygulamaların kendi kendine güncellenmesine izin verilmez. Lütfen uygulamayı Google Play\'den güncelleyin.</string>
+    <string name="error_cannot_get_package_info">\"%s\" dosyasından paket bilgisi alınamıyor. Ya belirtilen dosya APK değil ya da paket dosyası bozuk.</string>
+    <string name="preference_delete_confirmation">Sil onayı</string>
+    <string name="preference_delete_confirmation_summary">Dosyaları silmeden önce onay isteyin. Bunu devre dışı bırakmak kesinlikle önerilmez!</string>
+    
+    
+    <string name="protocol_ftps">Güvenli FTP</string>
+    <string name="unavailable">Kullanılamıyor</string>
+
+    <string name="exporting_failed">Dışa aktarma başarısız: yedekleme dosyası yazılamadı</string>
+    <string name="importing_failed">İçe aktarma başarısız: yedekleme okunamadı dosya</string>
+    <string name="importing_completed">İçe aktarma tamamlandı</string>
+    <string name="invalid_backup_file">Geçersiz yedekleme dosyası</string>
+    <string name="import_failed_for">İçe aktarma başarısız oldu:</string>
+    <string name="free_of">"%s\n%s %s içeriyor</string>
+    <string name="cloud_error_fdroid">Amaze Bulut Eklentisi, F-Droid sürümüyle desteklenmez. Lütfen Amaze\'nin Play Store sürümünü kullanın.</string>
+    <string name="disable_player_intent_filters">Oynatıcı amaç filtrelerini devre dışı bırak</string>
+    <string name="disable_player_intent_filters_summary">Amaze dahili medya oynatıcılarını dosya seçiciden devre dışı bırakır</string>
+    <string name="no_app_found_intent">Bu amacı gerçekleştirecek uygulama bulunamadı. DocumentsUI yüklü mü?</string>
+    <string name="cloud_connection_credentials_cleared">Bulut Bağlantısı kimlik bilgileri temizlendi</string>
+    <string name="cloud_connection_credentials_cleared_msg">Maalesef bulut bağlantısı kimlik bilgilerinizi yeni veritabanı şemasına geçiremedik ve onları uygulamadan kaldırmak için. Lütfen bulut bağlantısını yeniden oluşturun.</string>
+</resources>

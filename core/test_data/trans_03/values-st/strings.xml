@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Bula lai ya ho tsamaya</string>
+    <string name="drawer_close">Koala kalara ya ho tsamaya</string>
+    
+    <string name="apps">Motsamaisi wa Diapp</string>
+    <string name="ftp">Seva ya FTP</string>
+    <string name="setting">Litlhophiso</string>
+    <string name="select">Khetha Ntho</string>
+    <string name="press_again">Tobetsa hape ho tsoa</string>
+    <string name="open">Bula</string>
+    <string name="backup">Bekapo</string>
+    <string name="uninstall">Tlosa</string>
+    
+    
+    <string name="copyingapks">Kopitsa %d difaele tsa APK ho %s</string>
+    <string name="delbook">Hlakola Bookmark</string>
+    <string name="add_to_bookmarks">Eketsa ho Likhopotso</string>
+    <string name="enterpath">Kena Tsela</string>
+    <string name="cancel">HALA</string>
+    <string name="create">ETSA</string>
+    <string name="loading">Ea kenya…</string>
+    <string name="file_empty">Faele ha e na letho</string>
+    <string name="error">Phoso</string>
+    <string name="search_results">Liphetho tsa ho batla %s</string>
+    <string name="rename">Renaha bocha</string>
+    <string name="save">Boloka</string>
+    <string name="bookmarks_added">Li-bookmark li kentsoe</string>
+    <string name="fileexist">Faele e nang le lebitso le tšoanang e se e le teng</string>
+    <string name="name">Lebitso</string>
+    <string name="date">Letsatsi</string>
+    <string name="location">Sebaka</string>
+    <string name="size_capitalized">Boholo</string>
+    <string name="size">boholo ba sephutheli</string>
+    <string name="enterzipname">Kenya Lebitso la Zip</string>
+    <string name="no_app_found">Ha ho App e fumanoeng ho bula faele ena</string>
+    <string name="copying">Ho Kopitsa</string>
+    <string name="moving">Ho Tsamaisa</string>
+    <string name="file">Faele</string>
+    <string name="folder">Sephutheli</string>
+    <string name="newfolder">Sephutheli se Secha</string>
+    <string name="entername">div18 Kena Lebitso</string>
+    <string name="extracting">E ntšitsoeng</string>
+    <string name="stopping">Emisa</string>
+    <string name="open_parent">Bula Bukana ya Batsoali</string>
+    <string name="open_with">Bula ka</string>
+    <string name="share">Arolelana</string>
+    <string name="about">Ka</string>
+    <string name="extract">Ntša</string>
+    
+    <string name="yes">E</string>
+    <string name="no">Che</string>
+    
+    <string name="dialog_delete_category_directories">Libuka</string>
+    <string name="dialog_delete_category_files">Lifaele</string>
+    <string name="dialog_delete_disclaimer">Ho hlakola lintho tse ka tlase ho tla li tlosa ka ho sa feleng sesebelisoa sa hau \'me li ke ke tsa hlola li fumanoa.</string>
+    <string name="dialog_delete_title">Tlosa lintho ruri?</string>
+    
+    <string name="question_set_path_as_home">Na u batla ho seta tsela ea hajoale e le lehae la hao tab e?</string>
+    <string name="directorysort">Mokhoa oa ho Hlopha Directory</string>
+    <string name="sort_by">Hlophisa ka</string>
+    <string name="sort_only_this">Feela foldara ena</string>
+    
+    
+    <string name="random_summary">E beha mebala ea mantlha e sa reroang qalong</string>
+    <string name="colorize">Kenya Mebala Litšoantšo</string>
+    <string name="colorize_summary">Eseta aekhone ea mebala e sa fetoheng. Ha e tlole khetho ea \'mala oa lets\'oao la directory.</string>
+    <string name="home">Lehae</string>
+    <string name="paste">Beha</string>
+    <string name="history">Nalane</string>
+    <string name="copy">Kopitsa</string>
+    
+    <string name="root_mode_summary">Bakeng sa sesebelisoa se metse ka metso feela. E hlahlobe ha feela o na le bonnete ka yona.</string>
+    <string name="root_failure">Root Access ha e fanoe</string>
+    <string name="select_all">Khetha Tsohle</string>
+    
+    <string name="set_as_home">Beha Joalo Lehae</string>
+    <string name="operation_not_supported">Ts\'ebetso ha e tšehetsoe</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    
+    
+    <string name="daytime">Motšehare</string>
+    <string name="black">Mnyama (bakeng sa OLED)</string>
+    <string name="system">Sistimi (latela theme ea sistimi)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Liphutheloana Tse Ka Holimo</string>
+    <string name="filesOnTop">Lifaele Ka Holimo</string>
+    <string name="none_on_top">Ha ho Tsona ka Holimo</string>
+    <!--SortBy-->
+    <string name="sort_name">Lebitso</string>
+    <string name="lastModified">E Fetotse ho Fetisisa</string>
+    <string name="sort_size">Boholo</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Khetha faele</string>
+    <string name="process_viewer">Sebohi sa Tshebetso</string>
+    <string name="in_safe">Sebaka se sa lekaneng</string>
+    <string name="no_file_overwrite">Ha ho Sefaele se Ngotsoeng ka holimo</string>
+    <string name="skip">Tloha</string>
+    <string name="overwrite">Ngola</string>
+    <string name="not_allowed">Ha e lumelloe</string>
+    <string name="searching">Ho Batla %s</string>
+    <string name="done">E entsoe</string>
+    <string name="set">Seta</string>
+    <string name="enablerootmde">Nemella Mokhoa oa Motso</string>
+    <string name="goback">Khutlela Morao</string>
+    <string name="newfile">Faele e Ncha</string>
+    <string name="no_files">Ha ho Lifaele</string>
+    <string name="used">sebaka se sebelitseng</string>
+    <string name="used_by_others">e sebelisoang ke ba bang</string>
+    <string name="free">sebaka sa mahala</string>
+    <string name="listview">Lethathamo </string>
+    <string name="gridview">Grid View </string>
+    <string name="permission">Litumello</string>
+    <string name="hide">Pata</string>
+    <string name="exit">Tsoa</string>
+    <string name="doforall">Etsa lintho tsohle</string>
+    <string name="gridcolumnno">Palo ea likholomo ho ponahalo ea grid</string>
+    <string name="set_random">Liphetoho li tla etsahala ka mor\'a hore u qale app bocha</string>
+    <string name="authors">Bangoli</string>
+    <string name="changelog">Changelo</string>
+    <string name="ok">Ho lokile</string>
+    <string name="ui">Seboka</string>
+    <string name="general">Kakaretso</string>
+    <string name="thumb_summary">Bontša Manane a liapp le litšoantšo</string>
+    <string name="thumb">Bontša Lits’oants’o</string>
+    <string name="hidden">Bontša Lifaele le Lifoldara tse Patehileng</string>
+    <string name="lastModifiedSummary">Bontša letsatsi le nako ea ho qetela</string>
+    <string name="lastModifiedPref">Bontša Letsatsi le Nako ea ho Qetela e Fetotsoeng</string>
+    <string name="size_pref_summary">Bontša boholo ba lifaele le palo ea lintho tse ka har’a lifoldara </string>
+    <string name="size_pref">Bontša Boholo</string>
+    <string name="miscellaneous">Mescellaneous</string>
+    <string name="root_pref_summary">Bontša Tumello ea Lifaele le Lifoldara</string>
+    <string name="root_pref">Bontša Litumello</string>
+    <string name="about_amaze_file_manager_label">Mabapi le Amaze File Manager</string>
+    
+    <string name="rate">Reita sesebelisoa</string>
+    <string name="feedback">Romela Maikutlo</string>
+    <string name="hiddenfiles">Lifaele Tse Patiloeng</string>
+    <string name="type">Mofuta</string>
+    <string name="root_directory">Motso</string>
+    <string name="add_shortcut">Eketsa Shortcut</string>
+    <string name="unsaved_changes">Liphetoho tse sa bolokoang</string>
+    <string name="unsaved_changes_description">O na le liphetoho tse sa bolokoang, na u batla ho li boloka pele u tsoa?</string>
+    <string name="saving">Ho Boloka</string>
+    <string name="package_installer">Sesebelisi sa Liphuthelo</string>
+    <string name="view">Sheba</string>
+    <string name="install">Kenya</string>
+    <string name="archive">Boloka</string>
+    <string name="archive_text">Ena ke polokelo ea litaba. Ke ketso efe eo u ka ratang ho e etsa?</string>
+    <string name="package_installer_text">Sena ke sesebelisoa sa liphutheloana. Ke ketso efe eo u ka ratang ho e etsa?</string>
+    
+    <string name="xda_summary">Q&amp;amp;A, Thuso &amp;amp; Tharollo ea Mathata</string>
+    <string name="circular_images">Sebelisa matšoao a selikalikoe bakeng sa litšoantšo le lifitio</string>
+    <string name="circular_icons">Sebelisa matšoao a selikalikoe </string>
+    <string name="back_title">Ho batla ka morao</string>
+    <string name="back_summary">E nolofalletsa ho tsamaea ka mokhoa o ikhethileng kaholimo ho lenane</string>
+    <string name="details">Lintlha</string>
+    <string name="translators">Bafetoleli</string>
+    <string name="german_translation_title">Sejeremane</string>
+    <string name="italian_translation_title">Setaliana</string>
+    <string name="french_translation_title">Sefora</string>
+    <string name="russian_translation_title">Serussia</string>
+    <string name="spanish_translation_title">Sepanish</string>
+    
+    <string name="chinese_translation_title">Sechaena</string>
+    <string name="serbian_translation_title">Seserbia</string>
+    <string name="turkish_translation_title">Seturkey</string>
+    <string name="ukrainian_translation_title">Seukraine</string>
+    <string name="portuguese_translation_title">Sepotoketsi</string>
+    <string name="polish_translation_title">Sepolishe</string>
+    <string name="korean_translation_title">Sekorea</string>
+    <string name="greek_translation_title">Segerike</string>
+    <string name="dutch_translation_title">Sedache</string>
+    <string name="romanian_translation_title">Seromania </string>
+    
+    <string name="japanese_translation_title">Sejapane</string>
+    
+
+    
+    <string name="unin_system_apk">Ena ke sesebelisoa sa sistimi, ho e hlakola ho ka bakang ho hloka botsitso ha sistimi.\nTswella pele?</string>
+    <string name="warning">Tlhokomeliso</string>
+    <string name="donate">Nehela</string>
+    <string name="archive_extract_folder">Tlhaloso ea Phatlalatso ea Phatlalatso</string>
+    <string name="archive_summary">Lifaele tse bolokoang li tla ntšoa sephutheling sena. Boleng ba kamehla ke bukana eo polokelo ea litaba e leng ho eona.</string>
+    <string name="open_as">Bula joalo ka</string>
+    <string name="text">Mongolo</string>
+    
+    
+    <string name="other">Tse ling</string>
+    <string name="image">Setshwantsho</string>
+    <string name="contributors">Bathusi</string>
+    <string name="save_paths">Hopola ditsela</string>
+    <string name="save_path_summary">Ha o qala, sephutheli se sa tswang ho bonwa bakeng sa thebo ka nngwe se tla hlaha</string>
+    <string name="select_intent">Khetha</string>
+    <string name="database">Boitsebiso</string>
+    <string name="colored_navigation">Bara ea ho Navigation e Mebala</string>
+    <string name="colored_navigvation_sum">Hore na sesebelisoa sa navigation bar se mebala kapa che ka letlalo</string>
+
+    <string name="color_title">Mmala</string>
+    <string name="color_summary">Beha mmala ho likarolo tse fapaneng tsa UI</string>
+    <string name="primary_color_title">Mmala oa mantlha (Tab e ka ho le letšehali)</string>
+    <string name="primary_color_summary">Seta mmala ho likarolo tse kholo tsa UI bakeng sa thebo e ka ho le letšehali</string>
+    <string name="accent_color_title">Mmala oa Accent</string>
+    <string name="accent_color_summary">Beha mmala ho FAB le likarolo tse ling tse nyane tsa UI</string>
+    <string name="icon_color_title">Mmala oa Letšoao</string>
+    <string name="icon_color_summary">Beha mmala ho litšoantšo</string>
+    <string name="choose_color">Khetha mebala</string>
+    <string name="files">Lifaele</string>
+    <string name="textreader">Sebali sa Temana</string>
+    <string name="databasereader">Sebali sa Boitsebiso</string>
+    <string name="show_dividers">Bontša Likharohano</string>
+    <string name="needs_access">Ho Hlokahala Phihlello ea ho Ngola</string>
+    <string name="needs_access_summary">Ka kopo, khetha buka ea motso ea \t</string>
+    <string name="needs_access_summary1">\ho fana ka monyetla oa ho ngola ho sebetsa</string>
+    <string name="smb_connection">Khokelo ya SMB</string>
+    <string name="smb_server">Aterese ea IP ea Seva</string>
+    <string name="server_address">Seva ea IP Aterese</string>
+    <string name="username">Lebitso la mosebelisi</string>
+    <string name="password">Lekunutu</string>
+    <string name="anonymous">E sa tsejoe E sa tsejoe  Kakaretso:</string>
+    
+    <string name="folders">Lifoldara</string>
+    <string name="folderfilecount">%1$d lifoldara le %2$d lifaele</string>
+    <string name="videos">Lifitio</string>
+    
+    <string name="documents">Litokomane</string>
+    <string name="images">Litšoantšo</string>
+    <string name="clear">Hlakile</string>
+    
+    <string name="total">ho bala</string>
+    <string name="calculating">Fana ka tumello</string>
+    <string name="sort">Hlopha</string>
+    <string name="ascending">Ho nyoloha</string>
+    <string name="descending">Ho theoha</string>
+    
+    <string name="doit">Na</string>
+    <string name="want_help">U hloka thuso?</string>
+    <string name="quick">Fihlello ka potlako</string>
+    <string name="recent">Difaele tsa moraorao</string>
+    <string name="edit">Fetola</string>
+    <string name="find">Fumana leqepheng la</string>
+    <string name="grant">Fana ka</string>
+    <string name="grantper">Ho Renaha</string>
+    <string name="grantfailed">Tumelo ha e fanoe</string>
+    <string name="grant_storage_permission">App e hloka tumello ea polokelo hore e tsoele pele. Ho phumula puisano ena ho tla tsoa ts\'ebelisong.</string>
+    <string name="operation_unsuccesful">Ts\'ebetso ha e Atlehe</string>
+    <string name="creatingfile">Ho Etsa Faele</string>
+    <string name="creatingfolder">Ho Etsa Sephutheli</string>
+    <string name="renaming">Tlhaloso e Tloaelehileng</string>
+    <string name="cant_be_empty">%s e ke ke ea hloka letho</string>
+    <string name="ip">Aterese</string>
+    <string name="connection_name">Lebitso la khokahanyo</string>
+    <string name="no_device_found">Ha ho lisebelisoa tse fumanoeng</string>
+    
+    <string name="rename_bookmark">Fetola Bookmark</string>
+    <string name="cut">Seha</string>
+    <string name="search">Batla</string>
+    <string name="invalid_name">Lebitso le Fosahetseng</string>
+    <string name="search_hint">Mofuta oo u batlang ho o batla…</string>
+    <string name="advanced_search">Patlisiso e Tsoetseng Pele</string>
+    <string name="regular_expression">Batla o sebelisa mokhoa oa BASH oa ho bua ka mehla</string>
+    <string name="regular_expression_summary">Fetolela</string>
+    
+    <string name="match_content_summary">Ha e setilwe, polelo e tlwaelehileng e tla tsamaiswa le lebitso la faele kaofela,
+        e tla batla ketsahalo ho seng joalo.</string>
+    <string name="start_ftp">Qala</string>
+    <string name="stop_ftp">Emisa</string>
+    <string name="ftp_status_running">Ho Matha</string>
+    <string name="ftp_status_not_running">Ha U Mathe</string>
+    <string name="ftp_no_wifi">Etsa bonnete ba hore u hoketsoe ho Wi-Fi -Fi</string>
+    
+    <string name="smb_share">Arolelana tsela</string>
+    <string name="invalid">E sa sebetseng %s</string>
+    <string name="ftp_notif_starting">Seva ea FTP ea qala</string>
+    <string name="ftp_notif_starting_title">Seva ea FTP</string>
+    <string name="ftp_notif_title">Imakatsa Seva ea FTP e sebetsang</string>
+    <string name="ftp_notif_text">ho %s</string>
+    <string name="ftp_notif_stop_server">ETSA </string>
+    <string name="ftp_port_edit_menu_title">boema-kepe ba FTP</string>
+    <string name="ftp_port_change_success">boema-kepe ba FTP bo fetotsoe ka katleho</string>
+    <string name="ftp_port_change_error_invalid">Nomoro ea boema-kepe e sa sebetseng e khethiloe</string>
+    <string name="primary_two_title">Mmala oa mantlha (Tab e ka ho le letona)</string>
+    <string name="primary_two_summary">Beha mmala ho likarolo tse kholo tsa UI bakeng sa thebo e nepahetseng</string>
+    <string name="support_development">Tlhaloso ea Tšehetso</string>
+    <string name="report_bugs_title">Tlaleha Litšitšili</string>
+    <string name="source_title">Khouto ya mohlodi</string>
+    <string name="source_summary">Sheba khouto ya rona ya mohlodi ho GitHub</string>
+    <string name="report_bugs_summary">Tlaleha mathata kapa o kope karolo e ntjha</string>
+    <string name="translate_title">Fetotse</string>
+    <string name="translate_summary">Fetolela Amaze ka puo ya hao</string>
+    <string name="paypal_copy_message">ID ea PayPal e kopitsitsoe ho clipboard</string>
+    <string name="searching_devices">Batla lisebelisoa</string>
+    <string name="use_custom_ip">Sebelisa IP ea tloaelo</string>
+    <string name="bookmark_lost">Bookmark ha e fumanehe, e etsa hape…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Mokhoa oa ho fihlella foldara ea Windows e arolelanoang ho Android (SMB)\n\n
+                
+                    
+                        Lumella ho Abelana Lifaele ho Windows\n
+                    
+                    
+                        Bula Paneli ea Taolo, tobetsa Khetha Sehlopha sa Lehae le likhetho tsa Ho arolelana tlas\'a Network
+                        le Marang-rang, ebe o tobetsa "Fetola Litlhophiso tse Tsoetseng Pele tsa Kabelo," etsa hore "File le
+                        Karolo ea "Printer Share".\n\n
+                    
+
+                    
+                        Litlhophiso tse ling tsa ho arolelana lifaele\n
+                    
+                    
+                        U kanna ua batla ho lokisa litlhophiso tse ling tse tsoetseng pele tsa ho arolelana mona. \n
+                        Ka mohlala, u ka etsa hore ho khonehe ho fihlella lifaele tsa hau ntle le password haeba u tšepa bohle
+                        lisebelisoa tsa marang-rang a lehae la hau. Hang ha ho arolelanoa ha faele le printa ho se ho lumelletsoe, u ka khona
+                        bula File Explorer kapa Windows Explorer, tobetsa ka ho le letona foldareng eo u batlang ho e arolelana, le
+                        khetha Properties. \n
+                        Tobetsa konopo ea Share \'me u etse hore sephutheli se fumanehe marang-rang.\n\n
+                        
+
+                    
+                        Netefatsa hore lisebelisoa ka bobeli li ho Wifi e le \'ngoe\n
+                    
+                    
+                        Karolo ena e etsa hore lifaele li fumanehe marang-rang a lehae, kahoo PC ea hau le lisebelisoa tsa mohala
+                        e tlameha ho ba marang-rang a tšoanang a lehae. Ha o khone ho fihlella foldara e arolelanoang ea Windows
+                        Marang-rang kapa ha smartphone ea hau e hokahantsoe le data ea eona ea selefouno — it
+                        e tlameha ho hokeloa ho Wi-Fi.\n\n
+                    
+
+                    
+                        Fumana Aterese ea IP\n
+                    
+                    
+                        Bula Command Prompt. Tlanya \'ipconfig\' ebe o tobetsa Enter. Batla Default Gateway
+                        tlas\'a adaptara ea marang-rang bakeng sa aterese ea IP ea router ea hau. Batla
+                        \\\"IPv4 Address\\\" tlas\'a karolo e tšoanang ea adaptara ho fumana IP ea komporo ea hau
+                        aterese.\n\n
+                    
+
+                    Kenya lintlha ka har\'a lebokose la puisano la SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Ha e khone ho arolelana lifaele tse fetang 100</string>
+    <string name="otg_access">Khetha motso oa sesebelisoa sa OTG</string>
+    <string name="information">Boitsebiso</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Accessed </string>
+    <!-- reference to file modified date -->
+    <string name="modified">Moetsi</string>
+
+    <string name="title">Sehlooho</string>
+    <string name="artist">Nako</string>
+    
+    <string name="year">Selemo</string>
+    <string name="duration">Bolemo</string>
+    <string name="comment">Maikutlo</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Setshelo</string>
+    
+    <string name="channels">Dikanale</string>
+    
+    
+    
+    <string name="frame_rate">Sekhahla sa Frame</string>
+    <string name="image_type">Mofuta oa Sets’oants’o </string>
+    <string name="width">Bophara</string>
+    <string name="height">Mopi</string>
+    <string name="date_modified">Letsatsi le Fetotsweng</string>
+    <string name="software">Software </string>
+    <string name="creator">Boleng ba Sebaka</string>
+    <string name="camera_brand">Moetso oa Khamera</string>
+    <string name="camera_model">Khamera Mohlala</string>
+    <string name="date_taken">Letsatsi le Nkiloeng</string>
+    <string name="exposure_time">Nako ea Ponahalo</string>
+    <string name="aperture_value">Sehlooho</string>
+    <string name="image_iso">ISO Speed ​​Rating</string>
+    <string name="flash_fired">Flash Fid</string>
+    <string name="focal_length">Bolelele ba Maikutlo</string>
+    <string name="subject">Moetsi</string>
+    <string name="author">Sengoli</string>
+    <string name="keywords">Mantsoe a bohlokoa</string>
+    <string name="producer">Palo ea Maqephe</string>
+    <string name="created">E entsoe</string>
+    <string name="format">Sebopeho</string>
+    <string name="pages">E ntlafalitsoeng</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Ho hatella</string>
+    <string name="security">Tshireletso</string>
+    <string name="paper_size">Boemo ba Pampiri</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Lifaele tse ling ha lia atleha %s</string>
+    <string name="copied">ho kopitsoa</string>
+    <string name="moved">e fallisitsoe</string>
+    <string name="copy_complete">Kopi e Felletse</string>
+    <string name="waiting_title">E Emetse</string>
+    <string name="waiting_content">E emetse hore ts\'ebetso e phethe</string>
+    <string name="extract_complete">Moputso o felile</string>
+    <string name="compression_complete">Ho Tlatsa ho Felletse</string>
+    <string name="compressing">Nako e fetile</string>
+    <string name="cancelled">E hlakotsoe</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">E ngotsoe</string>
+    <string name="out_of">ho tsoa</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ea</string>
+    <string name="processing_file">E ntse e sebetsa faele</string>
+    <string name="current_speed">Lebelo la Hona Joale</string>
+    <string name="smb_launch_error">O tla hloka ho kopitsa faele ena polokelong ho e bula</string>
+    <string name="error_file_not_found">Phoso: Faele Ha e Fumane</string>
+    <string name="error_io">I/O Phoso</string>
+    <string name="error_file_too_large">Phoso: File Too Large</string>
+    <string name="medium_text">Mongolo o Mahareng</string>
+    <string name="permission_read">Bala</string>
+    <string name="permission_write">Ngola</string>
+    <string name="permission_execute">Phetha</string>
+    <string name="permission_owner">Mong’a</string>
+    <string name="permission_group">Sehlopha</string>
+    <string name="permission_other">Se seng</string>
+    <string name="clipboard_path_copy">Tsela e kopitsitswe ho clipboard</string>
+    <string name="service_timer">Nako ea ho se sebetse</string>
+    <string name="please_wait">Ke kopa U eme</string>
+
+    <string name="cloud_connection">Khokahano ea Cloud</string>
+    <string name="cloud_connection_new">Khokelo ea Leru le Lecha</string>
+    
+    <string name="cloud_drive">Google Drive ™</string>
+    
+    <string name="cloud_box">Lebokose</string>
+    <string name="cloud_get">Fumana plugin ea Cloud</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Ha ho lisebelisoa</string>
+    <string name="ftp_path">Tsela e Abelaneng</string>
+    <string name="ftp_path_hint">Tsela ho ea motsong oa buka ea ho arolelana</string>
+    <string name="change">Fetola</string>
+    <string name="unknown_error">Oops, ho bile le phoso!</string>
+
+    <string name="ftp_path_change_success">Tsela ea FTP e fetohile ka katleho</string>
+    <string name="ftp_path_change_error_invalid">Tsela e fosahetseng</string>
+    <string name="ftp_status_no_connection">Ha ho Khokahano</string>
+    <string name="ftp_status_secure_connection">Khokelo e Sireletsehileng</string>
+    <string name="ftp_status_title">Boemo</string>
+    
+    <string name="ftp_login">Kena</string>
+    <string name="field_empty">Sebaka se ka se hloke letho</string>
+    <string name="ftp_timeout"/>
+    <string name="ftp_seconds">Metsotsoana</string>
+    
+    <string name="intellihide_toolbar_summary">Pata ka bohona thipa ea lithulusi ha u ntse u bala</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">kopitsoa ho clipboard</string>
+    <string name="contributors_1_summary">Phetolelo</string>
+    <string name="contributors_2_summary">Letshwao le dibanner</string>
+    
+    <string name="contributors_4_summary">Moriti ka morao ho FAB</string>
+    <string name="contributors_5_summary">Phetoho ya mebala ha o swiping thebo</string>
+    
+    <string name="contributors_7_summary">Ho kenya khetla e sebetsanang le eona</string>
+    <string name="connection_exists">Khokelo e se e ntse e le teng</string>
+
+    <string name="crypt_encrypting">E Encrypting</string>
+    <string name="crypt_decrypting">Ho hlakola</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">E Encrypted</string>
+    <string name="crypt_decrypted">E hlakotsoe</string>
+    <string name="crypt_encrypt">Suthela</string>
+    
+    <string name="operation_fail_following">Ts\'ebetso e hlolehile ho latela lifaele</string>
+    
+    <string name="crypt_pref_master_password_summary">Seta password ea sehlooho bakeng sa encryption.
+        Tloha ho se na letho.</string>
+    <string name="crypt_pref_fingerprint_title">Monwana</string>
+    <string name="crypt_pref_fingerprint_summary">Sebedisa monwana ho netefatsa encryption</string>
+    <string name="crypt_fingerprint_no_permission">Ditumello tsa monwana ha di teng</string>
+    <string name="crypt_fingerprint_not_enrolled">Ha ho monoana o ngolisitsoeng</string>
+    <string name="crypt_fingerprint_no_security">Ha ho tšireletso ea senotlolo sa senotlolo. fumanoa</string>
+    <string name="crypt_warning_key">Ela hloko, ha u fetola mokhoa oa hau oa tšireletso ho tloha
+        Litlhophiso tsa sistimi, u ke ke ua khona ho hlakola litaba tsena.</string>
+    <string name="warning_never_show">Se ke oa tsebisa hape</string>
+    <string name="warning_confirm">Kea e utloisisa!</string>
+    <string name="crypt_encryption_fail">E hlolehile ho ngola ka mokhoa o patehileng</string>
+    <string name="crypt_decryption_fail">E hlolehile ho hlakola</string>
+    <string name="crypt_decryption_fail_password">Lekunutu le fosahetse!</string>
+    <string name="crypt_fingerprint_authenticate">Thetsa sensara ho tswelapele</string>
+    <string name="authenticate_password">Kena phasewete</string>
+
+    
+    <string name="sidebar_quick_access_title">Sidebar kena ka potlako</string>
+    <string name="show_quick_access_pref_title">Bontša likenyelletso tsa kapele</string>
+    <string name="show_quick_access_pref">Menyetla ea kapele</string>
+    
+
+    <string name="sidebar_bookmarks_title">Li-bookmark tsa Sidebar</string>
+    <string name="show_bookmarks_pref_title">Bontša li-bookmark</string>
+    <string name="show_bookmarks_pref">Li-bookmark</string>
+    <string name="create_bookmark">Etsa bookmark</string>
+    <string name="edit_bookmark">Fetosa bookmark</string>
+    <string name="question_delete_bookmark">Phumula bookmark?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin ha e fumanehe. Ka kopo, khoasolla ho Play Store.</string>
+    <string name="cloud_error_failed_restart">E hlolehile ho kenya khokahano.
+        Ka kopo bula Amaze Cloud hang.</string>
+    <string name="cloud_remove">Na u batla ho tlosa khokahanyo ea leru?</string>
+    <string name="cloud_fail_authenticate">E hlolehile ho netefatsa</string>
+    <string name="cloud_share_copied">Sehokelo se ka shapuoang se kopitsoe ho clipboard</string>
+    <string name="copy_low_memory">E feletsoe ke matla memori, ka kopo hlakola RAM</string>
+    <string name="cloud_token_lost">Letšoao le lahlehileng, ka kopo kena hape</string>
+    
+    <string name="showHeaders">Bontša Lihlooho</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Ha ho lintho</string>
+	<string name="item">ntho</string>
+	<string name="items">lintho</string>
+	
+	
+	<string name="bytes">byte</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Faele e tlameha ho ba le lebitso</string>
+    <string name="add_item">Eketsa Ntho</string>
+    <string name="failed_smb_decrypt_path">E hlolehile ho kenya Khokahano ea SMB</string>
+    <string name="failed_cloud_new_connection">E hlolehile ho kenya khokahano e ncha ea Cloud</string>
+    <string name="failed_cloud_api_key">E hlolehile ho netefatsa plug-in ea Cloud</string>
+
+    <string name="local_inet_addr_error">Phoso ea ho fumana aterese ea innet ea lehae</string>
+    <string name="intent_save_as">Boloka e le…</string>
+    <string name="go">Eya</string>
+    <string name="advanced">E tsoetseng pele</string>
+    <string name="typeable_paths_title">Litsela tsa tloaelo</string>
+    <string name="typeable_paths_summary">Tobetsa tsela e telele ho thaepa tsela e kgethehileng</string>
+    <string name="send_email_to">Romela lengolo-tsoibila ho</string>
+
+    <string name="text_editor">Litlhophiso tsa mohlophisi oa mongolo</string>
+    <string name="preference_newstack_title">Bula lifaele joalo ka mosebetsi o mocha</string>
+    <string name="preference_newstack_summary">E u lumella ho bula lifaele ka mesebetsi e fapaneng. Li fihlelle ho tsoa skrineng sa morao-rao sa sistimi.</string>
+    
+    <string name="developers">Baetsi</string>
+    <string name="no_bitcoin_app">Ka kopo kenya sesebelisoa sa Bitcoin Wallet</string>
+    <string name="channel_name_normal">Litemoso tsa Amaze</string>
+    <string name="channel_description_normal">Amaze File Manager\' s Litsebiso</string>
+    <string name="channel_name_ftp">Makatsa Seva ea FTP</string>
+    <string name="channel_description_ftp">Litemoso tsa Taolo ea Lifaele ea Amaze\'s FTP Server</string>
+
+    
+    <string name="processing">E ntse e sebetsa…</string>
+    <string name="failed_no_connection">E hlolehile ho kenya lifaele. Ka kopo, sheba khokahanyo ea hau.</string>
+
+    <string name="update">KAFATSA</string>
+	
+    <string name="ftp_connection">Khokelo ea FTP</string>
+    <string name="ftps_connection">FTP holim\'a SSL Connection</string>
+    
+    <string name="ssh_host_key_verification_prompt">Bonnete ba moamoheli \'%1$s\' bo ke ke ba netefatsoa.\n\n%2$s monoana oa senotlolo ke %3$s.\n\nKa kopo, tlanya \"Ee\" ho netefatsa boitsebiso; ho seng joalo, ka kopo, tlanya \"Che\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Netefatsa Moamoheli</string>
+    <string name="ssh_select_pem_button">SSH Senotlolo sa Poraefete</string>
+    <string name="ssh_pem_key_parse_error">Ha e khone ho bala PEM e khethiloeng: %s</string>
+    <string name="password_unchanged">(ha ea fetoha)</string>
+    <string name="ssh_authentication_failure_password">Ho hloleha ha logon: Ha re khone ho netefatsa lebitso la mosebelisi le phasewete tse fanoeng.</string>
+    <string name="ssh_authentication_failure_key">Ho hloleha ha logon: Ha re khone ho netefatsa ka lebitso la mosebelisi le femetsoeng le senotlolo sa lekunutu.</string>
+    <string name="ssh_connect_failed">Ha re khone ho hokela ho %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">TEMOSO: BOITSEBISO BA REMOTE HO FETOTSE!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">HO KA KHONA HORE MOTHO E MONG O ETSA NTHO E MAHLOLE!\n\nHo ka etsahala hore ebe motho e mong oa u mamela! hona joale (tlhaselo ea motho ea bohareng)! Hape ho ka etsahala hore ebe senotlolo sa moamoheli se sa tsoa fetoloa. Mehato ea menoana bakeng sa senotlolo sa batho bohle e rometsoeng ke motho ea hole le eena ha e tšoane le e bolokiloeng ho Amaze.\n\nKa kopo, ikopanye le molaoli oa sistimi ea hau kapa u ise khokahanyo e ncha ho tsoela pele ho hokela sebara.</string>
+    <string name="ssh_key_prompt_passphrase">Ka kopo, kenya poleloana ea senotlolo. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Ts\'ebetso ea li-shortcuts ha e tšehetsoe ke sebui sa hau.</string>
+    
+    <string name="select_color_config">Khetha tlhophiso ea mebala</string>
+    <string name="customize">Iketsetse</string>
+    <string name="custom">Tlhahiso</string>
+    <string name="preselected_configs_title">Ditlhophiso tse kgethilweng esale pele</string>
+    
+    <string name="blue">Putsoa</string>
+    <string name="green">Tala</string>
+    <string name="password_no_match">Lentsoe la lekunutu ha le nyallane</string>
+    <string name="deselect_all">Tlosa Khetha Tsohle</string>
+    <string name="filename">Lebitso la faele</string>
+    <string name="compress_file_suggest_zip_extension">E khothaletsoa ho sebelisa \".zip\" joalo ka katoloso ea faele.</string>
+    <string name="about_amaze">Taolo ea faele ea moralo oa Material bakeng sa Android</string>
+    <string name="license">Laesense</string>
+    <string name="libraries">Laeborari</string>
+    <string name="password_repeat">Pheta phasewete</string>
+    <string name="create_file_suggest_txt_extension">Ho kgothaletswa ho sebedisa \".txt\" joalo ka katoloso ea faele.</string>
+    <string name="ssh_select_pem">Khetha senotlolo sa lekunutu bakeng sa netefatso</string>
+    <string name="ssh_key_invalid_passphrase">Lentsoe la lekunutu le fosahetseng.</string>
+    <string name="ssh_key_no_decoder_decrypt">Ha ho sekhoutara se sebetsang se ka hlakollang PEM.</string>
+    <string name="encryption_fail_copy">E hlolehile ho nchafatsa mokhoa oa ho ngolla mokhoa oa ho boloka boitsebiso ka mokhoa o sireletsehileng</string>
+    <string name="extracted">E ntšitsoeng</string>
+    <string name="compressed">E petelitsoe</string>
+    <string name="processed">E sebelitsoe</string>
+    <string name="no_obtainable_info">Ha ho lintlha mabapi le faele ena</string>
+    <string name="reopen_from_source">Ha e khone, ka kopo bula sesebelisoa sa ho qetela</string>
+    <string name="no_file_error">Ho bile le phoso, ha ho letho le ka buloang </string>
+    <string name="file_too_long">The faele e telele haholo \'me ha e khone ho hlophisoa, leha ho le joalo u ka bala litlhaku tsa pele %d</string>
+    <string name="file_read_only">Faele e butsoeng ke ea ho bala feela.</string>
+    <string name="got_it">Ke e fumane!</string>
+    <string name="encrypt_file_save_as">Save Encrypted Faele Joalo ka…</string>
+    <string name="encrypt_folder_save_as">Boloka Sephutheli se Kotiloeng Joalo…</string>
+    <string name="encrypt_option_use_aze">Sebelisa Sebopeho sa Mokhoa o Fetisitsoeng oa Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p> AESCrypt ke mokhoa o bulehileng oa ho kenyelletsa faele ea mohloli o thehiloeng ho encryption ea AES. E boetse ea nkeha, e ka hlakoloa ka li-program tsa AESCrypt ho li-platform tse ling.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">webosaete ea AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p> Sebopeho sa Encryption sa Amaze se boetse se thehiloe ho encryption ea AES; empa e fapane le sebopeho sa AESCrypt, e ka hlakoloa feela ke sesebelisoa sena; hape ha oa tlameha ho ntša Amaze File Manager sesebelisoa sena kapa ho fetola tsela eo o notlelang skrini ka eona, ho seng joalo u ke ke ua ba le mokhoa oa ho fumana faele e patiloeng.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Lifaele tse kentsoeng li tlameha ho sebelisa \".aze\" joalo ka katoloso ea faele.</string>
+    <string name="encrypt_file_must_end_with_aes">Lifaele tse patiloeng li tlameha ho sebelisa \".aes\" joalo ka katoloso ea faele.</string>
+    <string name="error_aescrypt_decrypt_failed">Ha e khone ho hlakola mongolo. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Ha e khone ho hlakola faele.</string>
+    <string name="saved_single_file">Faele e bolokiloe e le \'%s\'.</string>
+    <string name="saved_multi_files">%d lifaele li bolokiloe.</string>
+    <string name="create_hidden_file_warn">Faele e entsoeng e tla patoa lenaneng la lifaele.</string>
+    <string name="grant_apkinstall_permission">App e hloka tumello ea ho kenya lits\'ebetso.</string>
+    <string name="time_remaining">Nako e setseng</string>
+    <string name="transfer_rate">Sekhahla sa phetisetso</string>
+    <string name="unknown">tse sa tsejoeng</string>
+    <string name="multiple_invalid_archive_entries">Lifaele tse ling tse polokelong ea litaba ha li khone ho ntšoa; polokelo e kanna ea senyeha kapa e tsoa mohloling o kotsi.</string>
+    <string name="saf_otg_explanation">U tla ea ho sistimi ea lifaele tsa Android ka mabaka a ts\'ireletso. Ka kopo, khetha sesebelisoa sa USB lenaneng le ka letsohong le letšehali.</string>
+    <string name="donation_thanks">Rea leboha ka monehelo, sena se re boloka re khothaletse! (:</string>
+    <string name="enable_marquee_filename">Lumella tšebetso ea marquee bakeng sa mabitso a lifaele</string>
+    <string name="archive_password_prompt">Ka kopo, kenya phasewete ea polokelo ea litaba:</string>
+    
+    <string name="cannot_extract_archive">Ha e khone ho ntša lipolokelo \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Ha e khonehe bula polokelo \"%s\". Mohlomong ha re khone ho bula polokelo, kapa polokelo e senyehile.</string>
+    <string name="close">Koala</string>
+    <string name="bookmark_exists">Bookmark e teng</string>
+    <string name="hide_media">Ipate ho libatli tsa litaba</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">Ho ka etsahala hore ebe MOTHO E MONG O ETSA NTHO E MAHLOLE!\n\nHo ka etsahala hore motho e mong a u mamele hona joale (man-in-the-middle attack)! Hape ho ka etsahala hore senotlolo sa moemeli se sa tsoa fetoloa. hobane senotlolo sa batho bohle se rometsoeng ke motho ea u rerang ha se tšoane le se bolokiloeng ho Amaze.\n\nU ka tsoela pele ka ho kaonefatsa monoana oa moamoheli kapa ua hlakola litlhophiso tsa khokahanyo ea SSH.</string>
+    <string name="update_host_key">Ntlafatsa Senotlolo sa Moamoheli</string>
+    <string name="cancel_recommended">Hlakola (E khothaletsoa)</string>
+    
+    
+    <string name="failed_install_apk">E hlolehile ho kenya</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Bobolokelo ba ka Hare</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">karete ea SD</string>
+    <string name="choose_folder">Khetha Sephutheli Sena</string>
+    
+    <string name="some_files_failed_invalid_operation">Lifaele tse ling li hlotsoe ka lebaka la ho se sebetse ts\'ebetso</string>
+    <string name="ftp_server_prompt_connect_to_network">Hokela ho netweke kapa u lumelle AP</string>
+    <string name="ftp_server_open_settings">Bula litlhophiso</string>
+    <string name="move">Sutha</string>
+    <string name="select_save_location">Khetha sebaka seo u ka se bolokang</string>
+    <string name="scp_default_path">Tsela ea kamehla (Boikhethelo)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Tšoarelo, seo se ne se sa lokela ho etsahala.</string>
+    
+    <string name="error_report_button_text">Tlaleha phoso ena ka lengolo-tsoibila</string>
+    <string name="error_report_button_telegram">Tlaleha phoso ena ka thelekramo</string>
+    <string name="copy_for_github">Kopitsa tlaleho e hlophisitsoeng</string>
+    <string name="error_report_open_issue_button_text">Tlaleha ka GitHub</string>
+    <string name="error_report_open_github_notice">Ka kopo, sheba hore na bothata bo buang ka ho senyeha ha hao bo se bo ntse bo le teng.</string>
+    <string name="error_snackbar_message">Tšoarelo, ho bile le phoso.</string>
+    <string name="error_snackbar_action">Tlaleha</string>
+    
+    <string name="what_happened_headline">Ho etsahetseng:</string>
+    <string name="info_labels">Seo:\\nKopo:\\nGMT Nako:\\nPackage:\\nVersion:\\nOS version:\\nSesebediswa :\\nMohlala:\\nSehlahisoa:</string>
+    <string name="your_comment">Tlhaloso ea hau (ka Senyesemane):</string>
+    <string name="error_details_headline">Lintlha:</string>
+    <string name="app_ui_crash">App/UI e senyehile</string>
+    <string name="error_report_title">Tlaleho ya phoso</string>
+    <string name="crash_report_copied">Tlaleho ea ho soahlamana e kopitsitsoe ho clipboard</string>
+    <string name="disableIpcSignature">Thibela tlhahlobo ea ho saena ea IPC (Bakeng sa li-server tsa SMBv1 tsa lefa - UNSAFE!)</string>
+    <string name="cannot_delete_file">Ha e khone ho hlakola faele</string>
+    <string name="cannot_delete_file_with_reason">Ha e khone ho hlakola faele - %s</string>
+    <string name="cannot_rename_file">Ha e khone ho reha faele %s - %s</string>
+    <string name="cannot_read_directory">Ha e khone ho bala bukana %s - %s</string>
+    <string name="just_once">Hang feela</string>
+    <string name="always">Kamehla</string>
+    <string name="choose_different_app">Khetha tse fapaneng tshebediso</string>
+    <string name="clear_open_file">Hlakola cache</string>
+    <string name="clear_open_file_summary">E hlakole diapp tse kgethilweng tsa ho bula difaele tsa kamehla</string>
+    <string name="ftp_readonly">phihlello ya ho bala feela</string>
+    <string name="legacy_listing_title">Sebedisa lethathamo la lefa bakeng sa motso</string>
+    <string name="legacy_listing_summary">Haeba e dumetswe , e sebelisa mokhoa oa khale ho thathamisa lifaele</string>
+    <string name="error_unsupported_v5_rar">RAR archive \"%s\" ha e tšehetsoe ke RAR v5 archive.</string>
+    <string name="ftp_prompt_restart_server">O tla hloka ho qala seva sa FTP bocha hore liphetoho li tle li sebetse.</string>
+    <string name="error_permission_denied">Tumello e hanetsoe</string>
+    <string name="error_archive_password_incorrect">Lekunutu le fosahetseng la polokelo.</string>
+    <string name="error_archive_cannot_extract">Ha re khone ho ntša litaba tsa polokelo \"%s\" ho \"%s\".</string>
+    <string name="drag_and_drop_preference">Khetha ho hula le ho lihela khetho ea hau. (Teko)</string>
+    <string name="drag_to_move_copy">Thetsa le ho hula ho tsamaisa kapa ho kopitsa lifaele</string>
+    <string name="drag_to_select">Thetsa le ho hulela ho khetha lifaele</string>
+    <string name="disable">Tibe</string>
+    <string name="choose_operation">Khetha tšebetso eo u tla e etsa</string>
+    <string name="remember">Hopola bakeng sa nako e tlang</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Fana ka phihlello ea SAF bakeng sa seva sa FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Kaha lena ke lekhetlo la pele la ho sebelisa seva sa FTP,\' me u sebelisa polokelo ea ka hare ea sesebelisoa joalo ka foldara e arolelanoang, ka kopo lumella Amaze ho fumana polokelo e sebelisa SAF.\n\n
+
+U hloka ho etsa sena hang feela, ho fihlela nakong e tlang ha u khetha sebaka se secha seo u ka se arolelanang.</string>
+    <string name="android_data_prompt_saf_access">Kaha Android 10, Android e behile lithibelo ho li-directory tse itseng, \'me li hloka ho kena ka Storage Access Framework.\n \nKa kopo lumella Amaze ho fumana bukana ho tsoa ho molaoli oa lifaele tsa sistimi ka ho tlanya \"Lumella ho Kena\".</string>
+    <string name="android_data_prompt_saf_access_title">Fana ka phihlello ya SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Sebelisa tsamaiso ea lifaele tsa lefa</string>
+    <string name="ftp_preference_saf_filesystem">Lumella sena bakeng sa ts\'ehetso ea ho sebelisa polokelo ea kantle ea sesebelisoa liphetolelong tse ncha tsa Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Seva ea FTP e arolelanoang tsela e khutliselitsoeng polokelong ea ka hare ha u ntse u khutlela ho phethahatso ea tsamaiso ea lefa. Ka kopo, khetha tsela e ncha u sebelisa menu e ka holimo ka ho le letona ha ho hlokahala.</string>
+    <string name="ftp_server_reset_notify">Tsela e arolelanoang ea seva sa FTP e ne e setisitsoe ho polokelo ea ka hare</string>
+    <string name="ftp_server_root_unavailable">U khetha tsela e hlokang ho kena metsong. Ka kopo, lumella "root explorer" ho li-setting haeba sesebelisoa sa hau se metse ka metso.</string>
+    <string name="ftp_server_root_filesystem_warning">U khetha tsela e hlokang ho kena ka metso, e nolofalletsang ho bala le ho ngola tsamaisong eohle ea lifaele mochine oa hau, \'me ho kotsi - liphoso tse sa tsotelleng li ka etsahala. setene sesebediswa sa hao!\n\nNa o tiile?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Ho bile le phoso ha ho buletswe URI \"%s\" hore o bale.</string>
+    <string name="error_empty_archive">\"%s\" ke polokelo e se nang letho.</string>
+    <string name="error_bad_archive_without_info">\"%s\" ke polokelo e senyehileng.</string>
+    <string name="error_bad_archive_with_info">\"%s\" ke polokelo ea litaba e senyehileng.\nMolaetsa o tsoang ho extractor: \"%s\"</string>
+    <string name="security_error">Faele ha e khonehe. buloa ka sesebelisoa sena</string>
+    <string name="cloud_drive_tooltip">Etsa khokahanyo ea Google Drive™ bakeng sa ho laola lifaele ho tsoa ka har\'a Amaze File Manager.</string>
+    <string name="signin_with_google_title">Tiisa hore u sebelise Google Drive™</string>
+    <string name="show_system_apps">Bontša lisebelisoa tsa tsamaiso</string>
+    <string name="system_apps">Lisebelisoa tsa sistimi</string>
+    <string name="select_inverse">Kgetha Inverse</string>
+    <string name="select_by_type">Khetha ka mofuta</string>
+    <string name="select_by_date">Khetha ka letsatsi</string>
+    <string name="select_similar">Khetha tse tšoanang</string>
+    <string name="error_fetching_google_play_product_list">Phoso ea ho lata lethathamo la lihlahisoa ho tsoa ho Google Play.</string>
+    <string name="grant_all_files_permission">Ho tloha ka Android 11, Google e kopa Batsamaisi ba Lifaele ho kopa tumello ea mosebelisi bakeng sa ho laola lifaele tsohle tse sesebelisoa. Lintlha mona.
+        \n\nAmaze File Manager le eona e hloka tumello ena. Kamora ho tobetsa "Grant"mona, ka kopo khetha Lumella phihlello ho laola khetho ea lifaele tsohle skrineng se latelang.
+        \n\nHo phumula puisano ena ho tla tswa ho app.</string>
+    <string name="user_apps">Lisebelisoa tsa mosebelisi</string>
+    <string name="appearance">Ponahalo</string>
+    <string name="behavior">Boitšoaro</string>
+    <string name="appearance_summary">Ikemisetse theme, mebala le chebahalo ea molaoli oa faele.</string>
+    <string name="ui_summary">Laola hore na u bonts\'a lintlha life, iketsetse sebaka sa mahlakoreng, \'me u fetole likhetho tsa UI</string>
+    <string name="behavior_summary">Fetosa boitšoaro bo kang ho batla ka mokhoa o tsoetseng pele le hore na u bule lifaele e le mosebetsi o mocha</string>
+    <string name="security_summary">Seta password le encryption</string>
+    <string name="backup_summary">Export/ Fumana Litlhophiso tsa Amaze</string>
+
+    
+    <string name="pref_export_summary">Export setting</string>
+    <string name="pref_import">Ho Romela</string>
+    <string name="pref_import_summary">Lisetting tsa ho kenya</string>
+
+    <string name="quick_desc">Lifaele e sa tsoa fihleloa ka Amaze</string>
+    <string name="recent_desc">Lifaele tse sa tsoa etsoa kapa tse fetotsoeng</string>
+    <string name="error_cannot_find_way_open">Ha e khone ho fumana tsela ea ho bula faele</string>
+    <string name="error_cant_decompress_that_file">Ha e khone ho sebetsana le polokelo e kopiloeng</string>
+    <string name="analyse_storage">Hlahloba Bobolokelo</string>
+    
+    <string name="download_amaze_utils_text">U ntse u fetisetsoa ho Amaze File Utilities. Ke sesebelisoa sa rona se bulehileng se nang le bashebelli ba li-audio/video/lits\'oants\'o/litokomane, tse u lumellang ho sekaseka lifaele tse sa sebetseng ho lokolla polokelo, ho li fetisetsa ka potlako u sebelisa Wifi P2P le tse ling tse ngata.\nKa kopo, re tšehetse ka ho e leka.</string>
+    <string name="download">Khoasolla</string>
+    
+    <string name="amaze_utils_installed_alias">Kea leboha ha u kentse Amaze File Utilities. U ntse u fetisetsoa ho app.</string>
+    <string name="image_viewer">Sebohi se Hlollang sa Litšoantšo</string>
+    <string name="video_player">Sebapali sa Lividio se Hlollang</string>
+    <string name="amaze_audio_player">Sebapali se Hlollang sa Mmino</string>
+    
+    
+    <string name="share_logs">Arolelana likutu</string>
+    <string name="share_logs_summary">Arolelana litlaleho tse hapiloeng ka lengolo-tsoibila / thelekramo</string>
+    <string name="open_with_amaze">Bula ka Amaze</string>
+    <string name="confirmation">Tiiso</string>
+    <string name="open_file_confirmation">Na ehlile u batla ho bula faele e latelang?\n\nLebitso:\n%s\n\nSebaka:\n%s\n\nSize:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Ho ea ka taelo ea leano la Google Play, lisebelisoa ha lia lumelloa ho inkafatsa ka botsona. Ka kopo nchafatsa sesebelisoa ho tsoa ho Google Play.</string>
+    <string name="error_cannot_get_package_info">Ha re khone ho fumana lintlha tsa sephutheloana faeleng ea \"%s\". Ekaba faele e boletsoeng ha se APK, kapa faele ea sephutheloana e senyehile.</string>
+    <string name="preference_delete_confirmation">Phumula netefatso</string>
+    <string name="preference_delete_confirmation_summary">Kōpa netefatso pele u hlakola lifaele. Ho thibela sena ha ho khothaletsoe haholo!</string>
+    
+    
+    <string name="protocol_ftps">Sireletsehile FTP</string>
+    <string name="unavailable">Ha e fumanehe</string>
+
+    <string name="exporting_failed">Ho romela kantle ho hlolehile: ha e khone ho ngola faele ea bekapo</string>
+    <string name="importing_failed">Ho lata ho hlotsoe: ha e khone ho bala bekapo e hlolehileng. faele</string>
+    <string name="importing_completed">Ho kenya ho phethiloe</string>
+    <string name="invalid_backup_file">Faele e sa sebetseng ya bekapo</string>
+    <string name="import_failed_for">Ho lata e hlotswe bakeng sa:</string>
+    <string name="free_of">"%s\n%s mahala %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin ha e sebetse ka F- Mofuta oa Droid. Ka kopo, sebelisa mofuta oa Play Store oa Amaze.</string>
+    <string name="disable_player_intent_filters">Thibela li-filters tsa sepheo sa sebapali</string>
+    <string name="disable_player_intent_filters_summary">E tima libapali tsa Amaze tse inbuilt tsa media ho tsoa ho khetho ea lifaele</string>
+    <string name="no_app_found_intent">Ha ho sesebelisoa se fumanehang ho sebetsana le sepheo sena. u na le DocumentsUI e kentsoeng?</string>
+    <string name="cloud_connection_credentials_cleared">Boitsebiso ba Cloud Connection bo hlakotsoe</string>
+    <string name="cloud_connection_credentials_cleared_msg">Ka bomalimabe, ha rea ​​atleha ho fetisetsa mangolo-tsoifo a khokahanyo ea leru ho ea ho schema se secha sa polokelongtlo, \'me re ile ra tlameha ho li tlosa ho app. Ka kopo, etsa khokahano ea leru hape.</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="app_name">I18nStrings 演示</string>
+    
+    <string name="content">I18nstrings 是一个即插即用的 Android 项目 gradle 插件，可为您的项目提供完整的国际化和多语言支持。通过集成这个简单易用的插件，您可以立即在您的项目中启用多种语言本地化，使其更容易被世界各地的用户接受。</string>
+    <string name="functions_title">功能介绍</string>
+    <string name="functions">-多语言翻译：i18nstrings支持将项目的文本翻译成多种语言，并支持增量翻译。
+\n- 翻译质量保证：i18nstrings通过多种措施保证翻译质量，并输出翻译质量报告，帮助您监控和改进本地化过程。
+\n- 语言切换：i18nstrings 提供了在应用内切换语言的解决方案，改善国际用户的体验。
+\n- beta 语言支持：i18nstrings 支持 beta 语言翻译，并包含免责声明，让您可以更灵活地本地化应用程序。</string>
+    <string name="guide">单击下面的微调器尝试在不同语言之间切换：</string>
+
+
+    <string name="action_settings">设置</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">第一个片段</string>
+    <string name="second_fragment_label">第二个片段</string>
+    <string name="next">下一个</string>
+    <string name="previous">上一个</string>
+
+    <string name="match_content_summary">如果设置，正则表达式将
+        匹配整个文件名，
+        否则查找出现的情况。</string>
+</resources>

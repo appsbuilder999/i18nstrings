@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Mahaze File Manager</string>
+    <string name="drawer_open">Sokafy ny navigation drawer</string>
+    <string name="drawer_close">Akatona ny navigation drawer</string>
+    <string name="icon">kisary</string>
+    <string name="apps">Manager App</string>
+    
+    <string name="setting">Setting</string>
+    <string name="select">Misafidiana singa</string>
+    <string name="press_again">Tsindrio indray raha hivoaka</string>
+    <string name="open">Sokafy</string>
+    
+    <string name="uninstall">Esory</string>
+    
+    
+    <string name="copyingapks">Mandika ny rakitra %d APK amin\'ny %s</string>
+    <string name="delbook">Esory Bookmark</string>
+    <string name="add_to_bookmarks">Ampio amin\'ny Bookmarks</string>
+    <string name="enterpath">Ampidiro lalana</string>
+    <string name="cancel">FANONO</string>
+    <string name="create">MAMORONA</string>
+    <string name="loading">Mampiditra…</string>
+    <string name="file_empty">Ny rakitra dia foana</string>
+    
+    <string name="search_results">Valin\'ny karoka amin\'ny %s</string>
+    <string name="rename">Anova anarana</string>
+    <string name="save">Tehirizo</string>
+    <string name="bookmarks_added">marika nampiana</string>
+    <string name="fileexist">Ny rakitra mitovy anarana dia efa misy</string>
+    <string name="name">Anarana</string>
+    <string name="date">Daty</string>
+    <string name="location">Toerana</string>
+    <string name="size_capitalized">Habe</string>
+    <string name="size">haben\'ny lahatahiry</string>
+    <string name="enterzipname">Ampidiro anarana Zip</string>
+    <string name="no_app_found">Tsy misy App hita hanokafana ity rakitra ity</string>
+    <string name="copying">Mandika</string>
+    <string name="moving">Mamindra</string>
+    <string name="file">rakitra</string>
+    
+    <string name="newfolder">rakitra vaovao</string>
+    <string name="entername">Ampidiro anarana</string>
+    <string name="extracting">Esorina</string>
+    <string name="stopping">Mijanona</string>
+    <string name="open_parent">Sokafy ny lahatahirin\'ny ray aman-dreny</string>
+    <string name="open_with">Misokatra amin\'ny</string>
+    <string name="share">Mizara</string>
+    <string name="about">momba ny</string>
+    <string name="extract">Esory</string>
+    
+    <string name="yes">Eny</string>
+    <string name="no">Tsia</string>
+    
+    
+    <string name="dialog_delete_category_files">rakitra</string>
+    <string name="dialog_delete_disclaimer">Ny famafana ireo singa etsy ambany dia hanala azy ireo amin\'ny fitaovanao ary tsy ho tafarina intsony.</string>
+    <string name="dialog_delete_title">Fafao foana ny singa?</string>
+    <string name="deleting">Famafana</string>
+    <string name="question_set_path_as_home">Te-hametraka lalana amin\'izao fotoana izao ho an\'ity kiheba ity ve ianao?</string>
+    <string name="directorysort">Mode Sort Directory</string>
+    <string name="sort_by">Asivana araka</string>
+    <string name="sort_only_this">Ity lahatahiry ity ihany</string>
+    <string name="theme">Lohahevitra</string>
+    <string name="random">Hoditra kisendrasendra</string>
+    <string name="random_summary">Mametraka loko voalohany kisendrasendra amin\'ny fanombohana</string>
+    <string name="colorize">Mandoko kisary</string>
+    <string name="colorize_summary">Sets loko kisary static. Tsy manafoana ny safidin\'ny loko kisary lahatahiry.</string>
+    
+    <string name="paste">Apetaho</string>
+    <string name="history">Tantara</string>
+    
+    
+    <string name="root_mode_summary">Ho an\'ny fitaovana miorim-paka ihany. Hamarino fotsiny raha azonao antoka ny momba izany.</string>
+    <string name="root_failure">Tsy nomena ny Root Access</string>
+    <string name="select_all">Safidio ny Rehetra</string>
+    <string name="delete">Fafao</string>
+    <string name="set_as_home">Atao ho Home</string>
+    <string name="operation_not_supported">Operation tsy tohanana</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    
+    <string name="dark">Material Maizina</string>
+    <string name="daytime">Antoandro</string>
+    <string name="black">mainty (ho an\'ny OLED)</string>
+    <string name="system">System (manaraka ny lohahevitry ny rafitra)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Folder eo ambony</string>
+    <string name="filesOnTop">rakitra eny ambony</string>
+    <string name="none_on_top">Tsy misy eny ambony</string>
+    <!--SortBy-->
+    <string name="sort_name">Anarana</string>
+    <string name="lastModified">Novana farany</string>
+    <string name="sort_size">Habe</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Misafidiana rakitra</string>
+    
+    <string name="in_safe">Tsy ampy ny habaka</string>
+    <string name="no_file_overwrite">Tsy misy rakitra overwrited</string>
+    
+    
+    <string name="not_allowed">Tsy azo atao</string>
+    <string name="searching">Fikarohana %s</string>
+    <string name="done">Vita</string>
+    <string name="set">Mametraka</string>
+    <string name="enablerootmde">Alefaso ny fomba fakany</string>
+    <string name="goback">Miverena</string>
+    <string name="newfile">File vaovao</string>
+    <string name="no_files">Tsy misy rakitra</string>
+    <string name="used">espace ampiasaina</string>
+    <string name="used_by_others">fampiasain\'ny hafa</string>
+    <string name="free">efa malalaka</string>
+    <string name="listview">Lisitra View</string>
+    <string name="gridview">Grid Jereo</string>
+    <string name="permission">Fahazoan-dalana</string>
+    <string name="hide">Afeno</string>
+    <string name="exit">Mivoaha</string>
+    <string name="doforall">Ataovy ho an\'ny zavatra rehetra</string>
+    <string name="gridcolumnno">Isan\'ny tsanganana amin\'ny fijerena grid</string>
+    <string name="set_random">Hisy ny fiovana rehefa atombokao indray ny app</string>
+    <string name="authors">Mpanoratra</string>
+    
+    
+    
+    
+    <string name="thumb_summary">Asehoy ny Thumbnails amin\'ny fampiharana sy sary</string>
+    <string name="thumb">Asehoy ny Thumbnails</string>
+    <string name="hidden">Asehoy ireo rakitra sy lahatahiry miafina</string>
+    <string name="lastModifiedSummary">Asehoy ny daty sy ora nanaovana ny fanovana farany</string>
+    <string name="lastModifiedPref">Asehoy ny Daty novaina farany sy Fotoana</string>
+    <string name="size_pref_summary">Asehoy ny haben\'ny rakitra sy ny isan\'ny entana ao anaty lahatahiry</string>
+    <string name="size_pref">Asehoy ny habe</string>
+    
+    <string name="root_pref_summary">Asehoy ny fahazoan-dàlana amin\'ny rakitra sy lahatahiry</string>
+    <string name="root_pref">Asehoy ny Fahazoan-dalana</string>
+    <string name="about_amaze_file_manager_label">Momba ny Amaze File Manager</string>
+    <string name="version">Versi</string>
+    <string name="rate">Omeo naoty ny app</string>
+    <string name="feedback">Mandefa tamberina</string>
+    <string name="hiddenfiles">rakitra miafina</string>
+    <string name="type">Type </string>
+    <string name="root_directory">Root </string>
+    <string name="add_shortcut">Ampio Shortcut</string>
+    <string name="unsaved_changes">Fiovana tsy voatahiry</string>
+    <string name="unsaved_changes_description">Manana fanovana tsy voatahiry ianao, te-hitahiry azy ireo ve alohan\'ny hivoahana?</string>
+    <string name="saving">Mitahiry</string>
+    <string name="package_installer">Mpametraka fonosana</string>
+    <string name="view">Jereo</string>
+    <string name="install">Apetraho</string>
+    <string name="archive">Archive </string>
+    <string name="archive_text">Arsiva ity. Inona no hetsika tianao hatao?</string>
+    <string name="package_installer_text">Fametrahana fonosana ity. Inona no hetsika tianao hatao?</string>
+    <string name="xda_title">XDA</string>
+    <string name="xda_summary">F&amp;amp;F, Fanampiana &amp;amp; Famahana olana</string>
+    <string name="circular_images">Mampiasà kisary boribory ho an\'ny sary sy horonan-tsary</string>
+    <string name="circular_icons">Mampiasà kisary boribory</string>
+    <string name="back_title">Miverina navigation</string>
+    <string name="back_summary">Mampandeha ny fitetezam-paritra any an-tampon\'ny lisitra</string>
+    <string name="details">Detail</string>
+    <string name="translators">Mpandika</string>
+    <string name="german_translation_title">Alemana</string>
+    <string name="italian_translation_title">Italiana</string>
+    <string name="french_translation_title">Frantsay</string>
+    <string name="russian_translation_title">Rosiana</string>
+    <string name="spanish_translation_title">Espaniola</string>
+    
+    <string name="chinese_translation_title">Sinoa</string>
+    <string name="serbian_translation_title">Serbiana</string>
+    <string name="turkish_translation_title">Tiorka </string>
+    <string name="ukrainian_translation_title">Okrainiana</string>
+    <string name="portuguese_translation_title">Portogey</string>
+    <string name="polish_translation_title">polosy</string>
+    <string name="korean_translation_title">Koreana</string>
+    <string name="greek_translation_title">Grika</string>
+    <string name="dutch_translation_title">Holandey</string>
+    <string name="romanian_translation_title">8 Romania</string>
+    <string name="vietnamese_translation_title">Vietnami</string>
+    <string name="japanese_translation_title">Japoney</string>
+    
+
+    
+    <string name="unin_system_apk">Fampiharana rafitra ity, mety hitarika ho amin\'ny tsy fitoniana ny rafitra ny famafana azy.\n Tohizo?</string>
+    <string name="warning">Fampitandremana</string>
+    <string name="donate">Manomeza</string>
+    
+    <string name="archive_summary">Halaina amin\'ity lahatahiry ity ny rakitra arsiva. Ny sandan\'ny default dia ny lahatahiry misy arisiva.</string>
+    <string name="open_as">Misokatra toy ny</string>
+    <string name="text">Lasan-tsoratra</string>
+    <string name="audio">Feo</string>
+    
+    <string name="other">Hafa</string>
+    <string name="image">Sary</string>
+    <string name="contributors">Mpandray anjara</string>
+    <string name="save_paths">Tsarovy ny lalana</string>
+    <string name="save_path_summary">Rehefa manomboka dia haseho ny lahatahiry vao haingana indrindra ho an\'ny tabilao tsirairay</string>
+    <string name="select_intent">Fidio</string>
+    
+    <string name="colored_navigation">Bare Fikarohana miloko</string>
+    <string name="colored_navigvation_sum">Na miloko amin\'ny hoditra na tsia ny bar navigation system</string>
+
+    <string name="color_title">Loko</string>
+    <string name="color_summary">Mametraha loko amin\'ny singa UI isan-karazany</string>
+    <string name="primary_color_title">Loko Kilonga (Tabilao havia)</string>
+    <string name="primary_color_summary">Mametraha loko amin\'ireo singa UI lehibe ho an\'ny tabilao ankavia</string>
+    <string name="accent_color_title">Loko accent</string>
+    <string name="accent_color_summary">Apetraho amin\'ny FAB sy UI kely hafa ny loko singa</string>
+    <string name="icon_color_title">Lokon\'ny kisary</string>
+    <string name="icon_color_summary">Mametraha loko ho an\'ny kisary</string>
+    <string name="choose_color">Misafidiana loko</string>
+    <string name="files">rakitra</string>
+    <string name="textreader">Mpamaky lahatsoratra</string>
+    <string name="databasereader">Mpamaky rakitra</string>
+    <string name="show_dividers">Asehoy ny mpizara</string>
+    <string name="needs_access">Ilaina ny fidirana amin\'ny fanoratana</string>
+    <string name="needs_access_summary">Mba safidio ny lahatahiry fakan\'ny \t</string>
+    <string name="needs_access_summary1">\tto omeo fahafahana manoratra mba hiasa</string>
+    <string name="smb_connection">Fifandraisana SMB</string>
+    <string name="smb_server">Adiresy IP mpizara</string>
+    <string name="server_address">Adiresy IP mpizara</string>
+    <string name="username">Anarana mpampiasa</string>
+    <string name="password">Tenimiafina</string>
+    <string name="anonymous">Tsy fantatra anarana</string>
+    
+    <string name="folders">Folder</string>
+    <string name="folderfilecount">%1$d lahatahiry sy %2$d rakitra</string>
+    <string name="videos">Horonantsary</string>
+    <string name="apks">APK</string>
+    <string name="documents">Dokotra</string>
+    <string name="images">Sary</string>
+    <string name="clear">Fafao</string>
+    
+    
+    <string name="calculating">kajy</string>
+    <string name="sort">Sisany</string>
+    <string name="ascending">Miakatra</string>
+    <string name="descending">Midina</string>
+    
+    <string name="doit">Manao izany</string>
+    <string name="want_help">Mila fanampiana?</string>
+    <string name="quick">Fidirana haingana</string>
+    <string name="recent">rakitra vao haingana</string>
+    <string name="edit">Hanova</string>
+    <string name="find">Tadiavo ao amin\'ny pejy</string>
+    <string name="grant">Omeo</string>
+    <string name="grantper">Manomeza alalana</string>
+    <string name="grantfailed">Tsy nomena alalana</string>
+    <string name="grant_storage_permission">Ny fampiharana dia mila alalana fitahirizana mba hanohizana. Ny fanafoanana ity fifanakalozan-dresaka ity dia hiala amin\'ny fampiharana.</string>
+    <string name="operation_unsuccesful">Tsy nahomby ny asa</string>
+    <string name="creatingfile">Famoronana rakitra</string>
+    <string name="creatingfolder">Famoronana lahatahiry</string>
+    <string name="renaming">Ny fanovana anarana</string>
+    <string name="cant_be_empty">%s dia tsy azo foanana</string>
+    <string name="ip">Adiresy</string>
+    <string name="connection_name">Anaran\'ny fifandraisana</string>
+    <string name="no_device_found">Tsy misy fitaovana hita</string>
+    <string name="path">Lalana</string>
+    <string name="rename_bookmark">Ovay ny maripejy</string>
+    <string name="cut">Tapaka</string>
+    <string name="search">Karoka</string>
+    <string name="invalid_name">Anarana tsy mety</string>
+    <string name="search_hint">karazana hikaroka…</string>
+    <string name="advanced_search">Fikarohana mandroso</string>
+    <string name="regular_expression">Fiteny tsy tapaka</string>
+    <string name="regular_expression_summary">Karoka mampiasa fomba fiteny mahazatra BASH</string>
+    <string name="match_content">Ampifandraiso amin\'ny atiny</string>
+    <string name="match_content_summary">Raha apetraka, ny fiteny mahazatra dia hifanaraka amin\'ny anaran-drakitra manontolo,
+        hitady ny fisehoan-javatra raha tsy izany.</string>
+    <string name="start_ftp">Atombohy</string>
+    <string name="stop_ftp">Ajanony</string>
+    <string name="ftp_status_running">Mihazakazaka</string>
+    <string name="ftp_status_not_running">Tsy mandeha</string>
+    <string name="ftp_no_wifi">Ataovy azo antoka fa mifandray amin\'ny Wi-Fi ianao -Fi</string>
+    
+    <string name="smb_share">Mizara lalana</string>
+    <string name="invalid">Tsy mety %s</string>
+    <string name="ftp_notif_starting">FTP Server dia manomboka</string>
+    
+    <string name="ftp_notif_title">Amaze FTP Server mandeha</string>
+    <string name="ftp_notif_text">amin\'ny %s</string>
+    
+    <string name="ftp_port_edit_menu_title">Serana FTP</string>
+    <string name="ftp_port_change_success">Niova soa aman-tsara ny seranan-tsambo FTP</string>
+    <string name="ftp_port_change_error_invalid">Nofantenana laharan-tseranana tsy mety</string>
+    <string name="primary_two_title">Loko voalohany (Tabilao havanana)</string>
+    <string name="primary_two_summary">Mametraha loko amin\'ny singa UI lehibe ho an\'ny tabilao havanana</string>
+    <string name="support_development">Fampandrosoana fanohanana</string>
+    <string name="report_bugs_title">Ampahafantaro ny lesoka</string>
+    <string name="source_title">Kaody loharano</string>
+    <string name="source_summary">Jereo ny kaody loharanonay ao amin\'ny GitHub</string>
+    <string name="report_bugs_summary">Manaova bug na mangataha endri-javatra vaovao</string>
+    <string name="translate_title">Dikanteny</string>
+    <string name="translate_summary">Dikanteny Amaze amin\'ny fiteninao</string>
+    <string name="paypal_copy_message">PayPal ID voadika amin\'ny clipboard</string>
+    <string name="searching_devices">Mitadiava fitaovana</string>
+    <string name="use_custom_ip">Mampiasà IP manokana</string>
+    <string name="bookmark_lost">Tsiikety tsy hita, mamerina...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Ahoana ny fidirana amin\'ny lahatahiry Windows zaraina amin\'ny Android (SMB)\n\n
+                
+                    
+                        Alefaso ny fizarana rakitra amin\'ny Windows\n
+                    
+                    
+                        Sokafy ny Control Panel, tsindrio Select HomeGroup and Sharing options under Network
+                        ary Internet, ary tsindrio ny "Change Advanced Sharing Settings", avelao ny "File and
+                        Fizarana mpanonta" endri-javatra.\n\n
+                    
+
+                    
+                        Fikirana Fizarana rakitra fanampiny\n
+                    
+                    
+                        Azonao atao koa ny manitsy ny firafitry ny fizarana mandroso hafa eto. \n
+                        Ohatra, azonao atao ny mamela ny fidirana amin\'ny rakitrao tsy misy tenimiafina raha matoky ny rehetra ianao
+                        ireo fitaovana ao amin\'ny tambajotra eo an-toerana. Rehefa afaka ny fizarana rakitra sy mpanonta dia azonao atao
+                        Sokafy ny File Explorer na Windows Explorer, tsindrio havanana amin\'ny lahatahiry tianao hozaraina, ary
+                        mifidy Properties. \n
+                        Kitiho ny bokotra Zarao ary ataovy azo alaina amin\'ny tambajotra ny lahatahiry.\n\n
+                        
+
+                    
+                        Ataovy azo antoka fa ao amin\'ny Wifi mitovy ny fitaovana roa\n
+                    
+                    
+                        Ity endri-javatra ity dia mahatonga ny rakitra ho hita ao amin\'ny tambajotra eo an-toerana, noho izany ny PC sy ny findainao
+                        tsy maintsy ao amin\'ny tambajotra eo an-toerana ihany. Tsy afaka miditra amina lahatahiry Windows iombonana ianao
+                        amin\'ny Internet na rehefa mifandray amin\'ny angon-drakitra finday ny findainao - izany
+                        tsy maintsy mifandray amin\'ny Wi-Fi.\n\n
+                    
+
+                    
+                        Mitadiava adiresy IP\n
+                    
+                    
+                        Sokafy ny Command Prompt. Soraty ny \'ipconfig\' ary tsindrio ny Enter. Tadiavo ny Default Gateway
+                        eo ambanin\'ny adaptatera tambajotra ho an\'ny adiresy IP an\'ny router-nao. Mitady
+                        \\\"Adresse IPv4\\\" eo ambanin\'ny fizarana adaptatera iray ihany mba hahitana ny IP an\'ny solosainao
+                        adiresy.\n\n
+                    
+
+                    Ampidiro ao anaty boaty fifampiresahana SMB ny antsipiriany\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Tsy afaka mizara rakitra mihoatra ny 100</string>
+    <string name="otg_access">Fidio ny fakan\'ny fitaovana OTG</string>
+    <string name="information">Fampahalalana</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Niditra</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Novana</string>
+
+    <string name="title">Lohateny</string>
+    <string name="artist">Mpanakanto</string>
+    
+    <string name="year">Taona</string>
+    <string name="duration">Ny faharetan\'ny</string>
+    <string name="comment">Fanehoan-kevitra</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Kaontenera</string>
+    
+    <string name="channels">Fantsona</string>
+    <string name="sample_rate">Tamin\'ny santionany</string>
+    
+    <string name="dimensions">Dimention</string>
+    <string name="frame_rate">Tamin\'ny frame</string>
+    <string name="image_type">karazana sary</string>
+    <string name="width">Sakany</string>
+    <string name="height">Haavo</string>
+    <string name="date_modified">Daty novaina</string>
+    <string name="software">Lozisialy</string>
+    <string name="creator">Mpamorona</string>
+    <string name="camera_brand">Marika fakan-tsary</string>
+    <string name="camera_model">Fakan-tsary Modely</string>
+    <string name="date_taken">Daty nalaina</string>
+    <string name="exposure_time">Fotoam-pahazavana</string>
+    <string name="aperture_value">Sanda fakan-drivotra</string>
+    <string name="image_iso">Naoty hafainganam-pandeha ISO</string>
+    <string name="flash_fired">Flash Alefa</string>
+    <string name="focal_length">Hala mifantoka</string>
+    <string name="subject">Sujet</string>
+    <string name="author">Mpanoratra</string>
+    <string name="keywords">Teny fototra</string>
+    <string name="producer">Mpamokatra</string>
+    <string name="created">Noforonina</string>
+    <string name="format">Endrika</string>
+    <string name="pages">Isan\'ny Pejy</string>
+    <!-- reference to a document file -->
+    
+    
+    <string name="paper_size">Habe taratasy</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Ny rakitra sasany dia tsy nahomby %s</string>
+    <string name="copied">voadika</string>
+    <string name="moved">nifindra</string>
+    <string name="copy_complete">Kopika feno</string>
+    <string name="waiting_title">Miandry</string>
+    <string name="waiting_content">Miandry ny fandidiana ho vita</string>
+    <string name="extract_complete">Extraction vita</string>
+    <string name="compression_complete">Vita tanteraka</string>
+    <string name="compressing">Famoretana</string>
+    <string name="cancelled">Nofoanana</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Nosoratana</string>
+    <string name="out_of">amin\'ny</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">amin\'ny</string>
+    <string name="processing_file">rakitra fanodinana</string>
+    <string name="current_speed">Hafaingana ankehitriny</string>
+    <string name="smb_launch_error">Mila mandika ity rakitra ity ianao amin\'ny fitahirizana mba hanokafana azy</string>
+    <string name="error_file_not_found">Error: File tsy hita</string>
+    
+    <string name="error_file_too_large">Error: File Large</string>
+    <string name="medium_text">Teny antonony</string>
+    <string name="permission_read">Vakio</string>
+    <string name="permission_write">Soraty</string>
+    <string name="permission_execute">Afeno</string>
+    <string name="permission_owner">tompony</string>
+    <string name="permission_group">vondrona</string>
+    <string name="permission_other">hafa</string>
+    <string name="clipboard_path_copy">Lalan-dalana voadika amin\'ny clipboard</string>
+    <string name="service_timer">Fotoana nandeha</string>
+    <string name="please_wait">Andraso azafady</string>
+
+    <string name="cloud_connection">Fifandraisana rahona</string>
+    <string name="cloud_connection_new">Fifandraisana rahona vaovao</string>
+    
+    
+    
+    <string name="cloud_box">Boaty</string>
+    <string name="cloud_get">Mahazoa Cloud plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Tsy misy fampiharana</string>
+    <string name="ftp_path">Lalana iombonana</string>
+    <string name="ftp_path_hint">Path mankany amin\'ny fakan\'ny lahatahiry hizarana</string>
+    <string name="change">Hanova</string>
+    <string name="unknown_error">Oay, nisy tsy nety!</string>
+
+    <string name="ftp_path_change_success">FTP niova soa aman-tsara</string>
+    <string name="ftp_path_change_error_invalid">Lalana tsy mety</string>
+    <string name="ftp_status_no_connection">Tsy misy fifandraisana</string>
+    <string name="ftp_status_secure_connection">Fifandraisana azo antoka</string>
+    <string name="ftp_status_title">Sata</string>
+    
+    <string name="ftp_login">Midira</string>
+    <string name="field_empty">Tsy afaka foana ny saha</string>
+    <string name="ftp_timeout">Ny fe-potoana tsy miasa</string>
+    <string name="ftp_seconds">Segondra</string>
+    
+    <string name="intellihide_toolbar_summary">Afeno ho azy ny barazy rehefa mi-scroll</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">voadika amin\'ny clipboard</string>
+    <string name="contributors_1_summary">Dikanteny</string>
+    <string name="contributors_2_summary">Kisary sy sora-baventy</string>
+    <string name="contributors_3_summary">Motera Lohahevitra</string>
+    <string name="contributors_4_summary">Aloka ao ambadiky ny FAB</string>
+    <string name="contributors_5_summary">Fiovana loko rehefa mikisaka tabilao</string>
+    
+    <string name="contributors_7_summary">Mamoaka akorandriaka interactive</string>
+    <string name="connection_exists">Efa misy ny fifandraisana</string>
+
+    <string name="crypt_encrypting">Fanaovana encryption</string>
+    <string name="crypt_decrypting">Famoahana</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Nasiana encryption</string>
+    <string name="crypt_decrypted">Nofafany</string>
+    
+    <string name="crypt_decrypt">Decrypted</string>
+    <string name="operation_fail_following">Tsy nahomby ny fandidiana tamin\'ny fanarahana rakitra</string>
+    <string name="crypt_pref_master_password_title">Tenimiafina Master</string>
+    <string name="crypt_pref_master_password_summary">Mametraka tenimiafina master ho an\'ny encryption.
+        Avelao ho foana ny hanala.</string>
+    
+    <string name="crypt_pref_fingerprint_summary">Mampias fingerprint hanamarina ny encryption</string>
+    <string name="crypt_fingerprint_no_permission">Tsy misy fahazoan-dàlana amin\'ny fingerprint</string>
+    <string name="crypt_fingerprint_not_enrolled">Tsy misy tondro nisoratra anarana</string>
+    <string name="crypt_fingerprint_no_security">Tsy misy fiarovana hidin-trano</string>
+    <string name="crypt_warning_key">Manomeza torohevitra, rehefa manova ny fomba fiarovana anao amin\'ny
+        Fikirana rafitra, tsy ho vitanao ny mamadika an\'ity atiny ity.</string>
+    <string name="warning_never_show">Aza mampahafantatra indray</string>
+    <string name="warning_confirm">Efa azo!</string>
+    <string name="crypt_encryption_fail">Tsy nahomby ny encryption</string>
+    <string name="crypt_decryption_fail">Tsy nahomby ny famaha</string>
+    <string name="crypt_decryption_fail_password">Tenimiafina diso!</string>
+    <string name="crypt_fingerprint_authenticate">Touch sensor mba hitohy</string>
+    <string name="authenticate_password">Ampidiro ny tenimiafina</string>
+
+    
+    <string name="sidebar_quick_access_title">Sidebar fidirana haingana</string>
+    <string name="show_quick_access_pref_title">Asehoy ny fidirana haingana</string>
+    <string name="show_quick_access_pref">Fidirana haingana</string>
+    
+
+    <string name="sidebar_bookmarks_title">marika sisiny</string>
+    <string name="show_bookmarks_pref_title">Asehoy bookmarks</string>
+    <string name="show_bookmarks_pref">marika</string>
+    <string name="create_bookmark">Mamorona tsoratadidy</string>
+    <string name="edit_bookmark">Hanova tsoratadidy</string>
+    <string name="question_delete_bookmark">Fafao ny maripejy?</string>
+
+    <string name="cloud_error_plugin">Tsy hita ny plugin Amaze Cloud. Alefaso azafady ao amin\'ny Play Store.</string>
+    <string name="cloud_error_failed_restart">Tsy nety nampiditra ny fifandraisana.
+        Sokafy indray mandeha ny Amaze Cloud azafady.</string>
+    <string name="cloud_remove">Te hanaisotra ny fifandraisana rahona ve ianao?</string>
+    <string name="cloud_fail_authenticate">Tsy nahavita nanamarina</string>
+    <string name="cloud_share_copied">Rohy azo zaraina voadika amin\'ny takelaka</string>
+    <string name="copy_low_memory">Lany ny fitadidiana, azafady fafao ny RAM sasany</string>
+    <string name="cloud_token_lost">Token very, midira indray azafady</string>
+    
+    <string name="showHeaders">Asehoy ny lohapejy</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Tsy misy singa</string>
+	<string name="item">singa</string>
+	<string name="items">item</string>
+	
+	
+	<string name="bytes">byte</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Ny rakitra dia tokony hanana anarana</string>
+    <string name="add_item">Ampio Item</string>
+    <string name="failed_smb_decrypt_path">Tsy nety nampidirina Fifandraisana SMB</string>
+    <string name="failed_cloud_new_connection">Tsy nety nanampy fifandraisana Cloud vaovao</string>
+    <string name="failed_cloud_api_key">Tsy nahavita nanamarina Cloud plug-in</string>
+
+    <string name="local_inet_addr_error">Error nahazo adiresy inet eo an-toerana</string>
+    <string name="intent_save_as">Tehirizo ho…</string>
+    <string name="go">Mandehana</string>
+    
+    <string name="typeable_paths_title">Lalanana mahazatra</string>
+    <string name="typeable_paths_summary">Tsindrina ela ny lalan\'ny lalana raha hitendry lalana mahazatra</string>
+    <string name="send_email_to">Mandefa mailaka amin\'ny</string>
+
+    <string name="text_editor">Fikirana mpamoaka lahatsoratra</string>
+    <string name="preference_newstack_title">Manokatra rakitra ho asa vaovao</string>
+    <string name="preference_newstack_summary">Mamela anao hanokatra rakitra amin\'ny asa samihafa. Midira ao amin\'ny efijerin\'ny rafitra vao haingana.</string>
+    
+    <string name="developers">Developer</string>
+    <string name="no_bitcoin_app">Afafao azafady ny app Bitcoin Wallet</string>
+    <string name="channel_name_normal">Fampandrenesana Amaze</string>
+    
+    
+    
+
+    
+    <string name="processing">Fikarakarana...</string>
+    <string name="failed_no_connection">Tsy nahomby ny fampidirana rakitra. Azafady, jereo ny fifandraisanao.</string>
+
+    <string name="update">FANAOVANA</string>
+	<string name="scp_connection">Fifandraisana SCP/SFTP</string>
+    <string name="ftp_connection">Fifandraisana FTP</string>
+    <string name="ftps_connection">FTP amin\'ny SSL Connection</string>
+    
+    
+    <string name="ssh_host_key_verification_prompt_title">Hamarino ny mpampiantrano</string>
+    
+    <string name="ssh_pem_key_parse_error">Tsy afaka mamaky PEM voafantina: %s</string>
+    <string name="password_unchanged">(tsy miova)</string>
+    <string name="ssh_authentication_failure_password">Tsy nahomby ny fidirana: Tsy afaka nanamarina tamin\'ny solonanarana sy tenimiafina nomena.</string>
+    <string name="ssh_authentication_failure_key">Tsy nahomby ny fidirana: Tsy afaka nanamarina tamin\'ny solon\'anarana nomena sy fanalahidy manokana.</string>
+    <string name="ssh_connect_failed">Tsy afaka mifandray amin\'ny %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">FAMPITANDREMANA: NIOVA ny famantarana ny HOST lavitr\'ezaka!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">METY MISY MANAO RATSY!\n\nMety misy mihaino anao amin\'izao fotoana izao (man-in-the-middle attack)! Azo atao ihany koa fa vao novana ny fanalahidin\'ny mpampiantrano. Ny fanondro ho an\'ny fanalahidin\'ny daholobe nalefan\'ny mpampiantrano lavitra dia tsy mifanaraka amin\'ilay voatahiry ao amin\'ny Amaze.\n\nMifandraisa amin\'ny mpitantana ny rafitrao na manangana fifandraisana vaovao hanohizana ny fifandraisana amin\'ny mpizara.</string>
+    <string name="ssh_key_prompt_passphrase">Ampidiro azafady ny fehezanteny fanalahidy. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Tsy tohanan\'ny mpandefa anao ny famoronana hitsin-dàlana.</string>
+    
+    <string name="select_color_config">Safidio ny config loko</string>
+    <string name="customize">Amboary</string>
+    <string name="custom">div86&gt;Natao</string>
+    <string name="preselected_configs_title">Fifantenana mialoha</string>
+    <string name="orange">Vamboasary</string>
+    <string name="blue">Manga</string>
+    <string name="green">maitso</string>
+    <string name="password_no_match">Tsy mifanaraka ny tenimiafina</string>
+    <string name="deselect_all">Esory ny Rehetra</string>
+    <string name="filename">Anarana fisie</string>
+    <string name="compress_file_suggest_zip_extension">Aroso ny hampiasana ny \".zip\" ho fanitarana ny rakitra.</string>
+    <string name="about_amaze">Mpitantana fisie famolavolana fitaovana ho an\'ny Android</string>
+    <string name="license">Licence</string>
+    
+    <string name="password_repeat">Avereno ny tenimiafina</string>
+    <string name="create_file_suggest_txt_extension">Aroso ny hampiasa ny \".txt\" ho fanitarana ny rakitra.</string>
+    <string name="ssh_select_pem">Misafidiana fanalahidy manokana ho an\'ny fanamarinana</string>
+    <string name="ssh_key_invalid_passphrase">Teny fanalahidy tsy mety.</string>
+    <string name="ssh_key_no_decoder_decrypt">Tsy misy décoder manan-kery hamadika ny PEM.</string>
+    <string name="encryption_fail_copy">Tsy nahomby ny fanavaozana ny fidirana amin\'ny encryption ao amin\'ny angon-drakitra</string>
+    <string name="extracted">Esorina</string>
+    <string name="compressed">Voritra</string>
+    <string name="processed">Novolavolaina</string>
+    <string name="no_obtainable_info">Tsy misy fampahalalana momba ity rakitra ity</string>
+    <string name="reopen_from_source">Tsy afaka, azafady, sokafy indray avy amin\'ny app farany</string>
+    <string name="no_file_error">Nisy zavatra tsy nety, tsy misy na inona na inona hanokatra</string>
+    <string name="file_too_long">Ny lava loatra ny rakitra ary tsy azo ovaina, na izany aza dia azonao atao ny mamaky ireo tarehintsoratra %d voalohany</string>
+    <string name="file_read_only">Ny rakitra misokatra dia vakiana fotsiny.</string>
+    <string name="got_it">Afaka!</string>
+    <string name="encrypt_file_save_as">Tehirizo ho toy ny rakitra voarakitra. …</string>
+    <string name="encrypt_folder_save_as">Tehirizo ny lahatahiry voatahiry ho…</string>
+    <string name="encrypt_option_use_aze">Ampiasao endrika Amaze Encryption</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt dia endrika fanafenana rakitra open source mifototra amin\'ny fanafenana AES. Izy io koa dia azo entina, azo vakiana amin\'ny programa AESCrypt amin\'ny sehatra hafa.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">tranonkala AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Ny endrika Encryption an\'ny Amaze dia mifototra amin\'ny encryption AES ihany koa; fa tsy mitovy amin\'ny endrika AESCrypt, io fitaovana io ihany no afaka mamadika azy; koa tsy tokony hanesoranao ny Amaze File Manager amin\'ity fitaovana ity na hanova ny fomba hanidianao ny efijery, raha tsy izany dia tsy hanana fomba hamerenana ilay rakitra voafefy ianao.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Tsy maintsy mampiasa \".aze\" ho fanitarana ny rakitra ny rakitra voasivana.</string>
+    <string name="encrypt_file_must_end_with_aes">Tsy maintsy mampiasa \".aes\" ho fanitarana rakitra ny rakitra voasivana.</string>
+    <string name="error_aescrypt_decrypt_failed">Tsy afaka mamadika \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Tsy afaka mandika rakitra.</string>
+    <string name="saved_single_file">rakitra voatahiry ho \'%s\'.</string>
+    <string name="saved_multi_files">%d rakitra voatahiry.</string>
+    <string name="create_hidden_file_warn">Ny rakitra noforonina dia hafenina ao amin\'ny lisitry ny rakitra.</string>
+    <string name="grant_apkinstall_permission">Mila fahazoan-dàlana ny fampiharana hanohizana ny fampiharana.</string>
+    <string name="time_remaining">Fotoana sisa</string>
+    <string name="transfer_rate">Taham-pamindrana</string>
+    <string name="unknown">tsy fantatra</string>
+    <string name="multiple_invalid_archive_entries">Tsy azo alaina ny rakitra sasany ao amin\'ny arisiva; Mety ho simba na avy amin\'ny loharano ratsy ny arisiva.</string>
+    <string name="saf_otg_explanation">Handeha any amin\'ny rafi-rakitra Android ianao izao noho ny antony fiarovana. Fidio azafady ny fitaovana USB avy amin\'ny lisitra eo amin\'ny ankavia.</string>
+    <string name="donation_thanks">Misaotra anao tamin\'ny fanomezana, izany dia mampirisika anay! (:</string>
+    <string name="enable_marquee_filename">Alefaso ny effet marquee ho an\'ny anaran\'ny rakitra</string>
+    <string name="archive_password_prompt">Ampidiro azafady ny tenimiafina arsiva:</string>
+    
+    <string name="cannot_extract_archive">Tsy afaka maka ny archive \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Tsy afaka sokafy ny arisiva \"%s\". Na tsy afaka manokatra ny arisiva izahay, na simba ny arisiva.</string>
+    <string name="close">Akatona</string>
+    <string name="bookmark_exists">Misy ny maripejy</string>
+    <string name="hide_media">Afeno amin\'ny navigateur media</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">mety misy manao zavatra RATSY!\n\nMety misy mihaino anao amin\'izao fotoana izao (man-in-the-middle attack)! Mety ho novaina ihany koa ny fanalahidin\'ny mpampiantrano. satria ny fanalahidin\'ny daholobe nalefan\'ny mpampiantrano lavitra dia tsy mifanandrify amin\'ilay voatahiry ao amin\'ny Amaze.\n\nAzonao atao ny manohy ny fanavaozana ny fanondron\'ny mpampiantrano na ny fanafoanana ny fanavaozana ny fampifandraisana SSH.</string>
+    <string name="update_host_key">Havaozy ny lakilen\'ny mpampiantrano</string>
+    <string name="cancel_recommended">Manafoana (Recommended)</string>
+    
+    
+    <string name="failed_install_apk">Tsy nety nametraka</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Fitehirizana anatiny</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Karatra SD</string>
+    <string name="choose_folder">Fidio ity lahatahiry ity</string>
+    
+    <string name="some_files_failed_invalid_operation">Tsy mety ny rakitra sasany noho ny tsy mety. fampandehanana</string>
+    <string name="ftp_server_prompt_connect_to_network">Mifandray amin\'ny tamba-jotra na avelao ny AP</string>
+    <string name="ftp_server_open_settings">Sokafy ny fika</string>
+    <string name="move">Afindrao</string>
+    <string name="select_save_location">Misafidiana toerana hotehirizina</string>
+    <string name="scp_default_path">Lalan-dalana (tsy voatery)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Miala tsiny fa tsy tokony ho nitranga izany.</string>
+    
+    <string name="error_report_button_text">Ampahafantaro amin\'ny alàlan\'ny mailaka io hadisoana io</string>
+    <string name="error_report_button_telegram">Ampahafantaro amin\'ny telegrama io hadisoana io</string>
+    <string name="copy_for_github">Mandika ny tatitra voarakitra</string>
+    <string name="error_report_open_issue_button_text">Tatitra ao amin\'ny GitHub</string>
+    <string name="error_report_open_github_notice">Hamarino azafady raha efa misy ny olana miresaka momba ny fianjeranao.</string>
+    <string name="error_snackbar_message">Miala tsiny fa nisy zavatra tsy nety.</string>
+    <string name="error_snackbar_action">Tatitra</string>
+    <string name="what_device_headline">Fampahafantarana:</string>
+    <string name="what_happened_headline">Inona no nitranga:</string>
+    <string name="info_labels">Inona:\\nFangatahana:\\nGMT Time:\\nPackage:\\nVersion:\\nOS version:\\nDevice:\\nModel:\\nProduct :</string>
+    <string name="your_comment">Ny fanehoan-kevitrao (amin\'ny teny anglisy):</string>
+    <string name="error_details_headline">Antsipirihany:</string>
+    <string name="app_ui_crash">Nidona ny App/UI</string>
+    <string name="error_report_title">Tatitry ny hadisoana</string>
+    <string name="crash_report_copied">Tatitry ny lozam-pifamoivoizana nadika amin\'ny clipboard</string>
+    <string name="disableIpcSignature">Atsaharo ny fanamarinana sonia IPC (Ho an\'ny mpizara SMBv1 lova - UNSAFE!)</string>
+    <string name="cannot_delete_file">Tsy afaka mamafa rakitra</string>
+    <string name="cannot_delete_file_with_reason">Tsy afaka mamafa rakitra - %s</string>
+    <string name="cannot_rename_file">Tsy afaka manova anarana ny rakitra %s - %s</string>
+    <string name="cannot_read_directory">Tsy afaka mamaky lahatahiry %s - %s</string>
+    <string name="just_once">Indray mandeha ihany</string>
+    <string name="always">Fanalana</string>
+    <string name="choose_different_app">Misafidiana fampiharana hafa</string>
+    <string name="clear_open_file">Fafao cache</string>
+    <string name="clear_open_file_summary">Fafao ny apps fanokafana rakitra default voafantina</string>
+    <string name="ftp_readonly">Fidirana vakiana fotsiny</string>
+    <string name="legacy_listing_title">Mampiasà lisitra lova ho an\'ny fakany</string>
+    <string name="legacy_listing_summary">Raha alefa dia ampiasao ny fomba lova hitanisana rakitra</string>
+    <string name="error_unsupported_v5_rar">Rar archive \"%s\" dia tsy tohanana RAR v5 archive.</string>
+    <string name="ftp_prompt_restart_server">Mila averinao indray ny server FTP raha te hanan-kery ny fanovana.</string>
+    <string name="error_permission_denied">Tsy mahazo alalana</string>
+    <string name="error_archive_password_incorrect">Diso ny tenimiafina arsiva.</string>
+    <string name="error_archive_cannot_extract">Tsy afaka manala ny arisiva \"%s\" mankany amin\'ny \"%s\".</string>
+    <string name="drag_and_drop_preference">Safidio ny safidin\'ny drag and drop (Experimental)</string>
+    <string name="drag_to_move_copy">Tsindrio ary kitiho raha hamindra na mandika rakitra</string>
+    <string name="drag_to_select">Tohizo ary kitiho mba hisafidianana rakitra</string>
+    <string name="disable">Atsaharo</string>
+    <string name="choose_operation">Safidio ny asa hatao</string>
+    <string name="remember">Tsarovy amin\'ny manaraka</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Omeo fahafahana miditra SAF ho an\'ny mpizara FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Satria ity no fandehananao voalohany amin\'ny mpizara FTP, ary mampiasa ny fitahirizana anatiny ho toy ny lahatahiry iombonana ianao, azafady avelao ny Amaze hiditra amin\'ny fitahirizana mampiasa SAF.\n\n
+
+Indray mandeha ihany ianao no mila manao izany, mandra-pahatongan\'ny fotoana hisafidiananao toerana vaovao hizarana.</string>
+    <string name="android_data_prompt_saf_access">Hatramin\'ny Android 10, Android dia nametraka fameperana tamin\'ny lahatahiry sasany, ary mila miditra amin\'ny Storage Access Framework izy ireo.\n \nAvelao i Amaze hiditra ao amin\'ny lahatahiry avy amin\'ny mpitantana ny rakitra amin\'ny fipihana ny \"Allow Access\".</string>
+    <string name="android_data_prompt_saf_access_title">Omeo ny fidirana SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Mampiasà rafitra fisie lova</string>
+    <string name="ftp_preference_saf_filesystem">Avelao ity ho fanohanana amin\'ny fampiasana fitahirizana ivelany ny fitaovana amin\'ny dikan-teny Android vaovao kokoa</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Naverina amin\'ny fitahirizana anatiny ny mpizara FTP rehefa miverina amin\'ny fampiharana ny rafitra fichier lova. Misafidiana lalana vaovao amin\'ny alalan\'ny sakafo eo amin\'ny farany havanana raha ilaina.</string>
+    <string name="ftp_server_reset_notify">Naverina amin\'ny fitehirizana anatiny ny mpizara FTP</string>
+    <string name="ftp_server_root_unavailable">Misafidy lalana mila fidirana amin\'ny fakany ianao. Azafady, avelao ny root explorer amin\'ny fandrindrana raha miorim-paka ny fitaovanao.</string>
+    <string name="ftp_server_root_filesystem_warning">Misafidy lalana mila fidirana amin\'ny fakany ianao, izay ahafahana mamaky/manoratra ao amin\'ny rafi-drakitra manontolo amin\'ny fitaovanao, ary mampidi-doza izany - mety ho diso ny tsy fitandremana. biriky ny fitaovanao!\n\nAzonao antoka ve?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Esorina ny fanokafana ny URI \"%s\" tamin\'ny famakiana.</string>
+    <string name="error_empty_archive">\"%s\" dia arisiva foana.</string>
+    <string name="error_bad_archive_without_info">\"%s\" dia arisiva simba.</string>
+    <string name="error_bad_archive_with_info">\"%s\" dia arisiva simba.\nHafatra avy amin\'ny mpangalatra: \"%s\"</string>
+    <string name="security_error">Tsy azo sokafana amin\'ny alalan\'ity app ity ny rakitra</string>
+    <string name="cloud_drive_tooltip">Mamorona fifandraisana Google Drive™ hitantana rakitra avy ao anatin\'ny Amaze File Manager.</string>
+    <string name="signin_with_google_title">Hamarino raha hampiasa Google Drive™</string>
+    <string name="show_system_apps">Asehoy ny rindranasa rafitra</string>
+    <string name="system_apps">Fampiharana rafitra</string>
+    <string name="select_inverse">Safidio ny Inverse</string>
+    <string name="select_by_type">Fifantenana araka ny karazana</string>
+    <string name="select_by_date">Fifantenana araka ny daty</string>
+    <string name="select_similar">Fifidianana mitovitovy</string>
+    <string name="error_fetching_google_play_product_list">Diso amin\'ny fakana ny lisitry ny vokatra avy amin\'ny Google Play.</string>
+    <string name="grant_all_files_permission">Hatramin\'ny Android 11, Google dia mangataka File Managers mba hangataka alalana amin\'ny mpampiasa hitantana ny rakitra rehetra amin\'ny fitaovana. Ny antsipiriany eto.
+        \n\nIlain\'i Amaze File Manager io alalana io koa. Rehefa avy manindry ny "Grant" eto dia safidio azafady Avelao ny fidirana hitantana ny rakitra rehetra amin\'ny efijery manaraka.
+        \n\nNy fanafoanana ity fifanakalozan-kevitra ity dia hiala amin\'ny fampiharana.</string>
+    <string name="user_apps">Fampiharana mpampiasa</string>
+    <string name="appearance">Fisehoana</string>
+    <string name="behavior">Fitondratena</string>
+    <string name="appearance_summary">Amboary ny lohahevitra, loko ary ny endriky ny mpitantana ny rakitra</string>
+    <string name="ui_summary">Hifehy izay fampahafantarana haseho, amboary ny sisiny, ary ampifandraiso ny safidin\'ny UI</string>
+    <string name="behavior_summary">Ovay ny fitondrantena toy ny fikarohana mandroso sy ny hanokatra rakitra ho asa vaovao</string>
+    <string name="security_summary">Amboary ny tenimiafina ary encryption</string>
+    <string name="backup_summary">Fikirana Export/Import Amaze</string>
+
+    <string name="pref_export">Maondrana</string>
+    <string name="pref_export_summary">Fikirana fanondranana</string>
+    <string name="pref_import">Manafatra</string>
+    <string name="pref_import_summary">Fikirana Import</string>
+
+    <string name="quick_desc">rakitra vao haingana no nidirana tamin\'ny alalan\'ny Amaze</string>
+    <string name="recent_desc">rakitra noforonina na novaina vao haingana</string>
+    <string name="error_cannot_find_way_open">Tsy nahita fomba hanokafana ilay rakitra</string>
+    <string name="error_cant_decompress_that_file">Tsy afaka manodina ny arisiva nangatahana</string>
+    <string name="analyse_storage">Mamakafaka ny fitahirizana</string>
+    
+    
+    <string name="download">Misintona</string>
+    
+    <string name="amaze_utils_installed_alias">Misaotra anao nametraka Amaze File Utilities. Ampitaina any amin\'ny fampiharana ianao.</string>
+    <string name="image_viewer">Mpijery sary mahatsikaiky</string>
+    <string name="video_player">Player Vidéo Amaze</string>
+    <string name="amaze_audio_player">Mpilalao Mozika Amaze</string>
+    <string name="pdf_viewer">Mpijery Document Amaze</string>
+    
+    <string name="share_logs">Mizara log</string>
+    <string name="share_logs_summary">Mizarà log voasambotra amin\'ny alàlan\'ny mailaka / telegrama</string>
+    <string name="open_with_amaze">Misokatra amin\'ny Amaze</string>
+    <string name="confirmation">Fanamarihana</string>
+    <string name="open_file_confirmation">Tena te hanokatra rakitra manaraka ve ianao?\n\nAnarana:\n%s\n\nToerana:\n%s\n\nHabe:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Araka ny fepetra takian\'ny politika Google Play dia tsy mahazo manavao samirery ny fampiharana. Havaozy azafady ny fampiharana avy amin\'ny Google Play.</string>
+    <string name="error_cannot_get_package_info">Tsy afaka mahazo fampahalalana momba ny fonosana avy amin\'ny rakitra \"%s\". Na tsy APK ilay rakitra voatondro, na simba ilay rakitra fonosana.</string>
+    <string name="preference_delete_confirmation">Fafao ny fanamafisana</string>
+    <string name="preference_delete_confirmation_summary">Angataho ny fanamafisana alohan\'ny famafana rakitra. Tena kivy ny fanalana azy!</string>
+    
+    
+    <string name="protocol_ftps">FTP azo antoka</string>
+    <string name="unavailable">Tsy azo</string>
+
+    <string name="exporting_failed">Tsy nahomby ny fanondranana: tsy afaka nanoratra ny rakitra backup</string>
+    <string name="importing_failed">Tsy nahomby ny fanafarana: tsy afaka namaky ny backup rakitra</string>
+    <string name="importing_completed">Vita ny fanafarana</string>
+    <string name="invalid_backup_file">rakitra backup tsy mety</string>
+    <string name="import_failed_for">Tsy nahomby ny fampidirana:</string>
+    <string name="free_of">"%s\n%s tsy misy %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin tsy tohana amin\'ny F- Dikan-droid. Ampiasao azafady ny dikan-tenin\'ny Amaze ao amin\'ny Play Store.</string>
+    <string name="disable_player_intent_filters">Esory ny sivana ny fikasan\'ny mpilalao</string>
+    <string name="disable_player_intent_filters_summary">Esory ny mpilalao haino aman-jery anatiny Amaze amin\'ny mpifidy rakitra</string>
+    <string name="no_app_found_intent">Tsy misy fampiharana hita amin\'ity tanjona ity. efa nametraka DocumentsUI ve ianao?</string>
+    <string name="cloud_connection_credentials_cleared">Nofafana ny fanomezan-dalan\'ny Cloud Connection</string>
+    <string name="cloud_connection_credentials_cleared_msg">Indrisy fa tsy afaka namindra ny fanomezan-dalan\'ny fifandraisanao rahona ho any amin\'ny schema database vaovao izahay, ary tsy maintsy nesorinay tao amin\'ny fampiharana. ny fifandraisana rahona indray.</string>
+</resources>

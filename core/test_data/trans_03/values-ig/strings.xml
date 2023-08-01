@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Mepee drawer nsoroụzọ</string>
+    <string name="drawer_close">Mechie drawer nsoroụzọ</string>
+    <string name="icon">akara</string>
+    
+    
+    <string name="setting">Ntọala</string>
+    <string name="select">Họrọ ihe</string>
+    <string name="press_again">Pịa ọzọ ka ịpụọ</string>
+    <string name="open">Mepee</string>
+    <string name="backup">Ndabere</string>
+    
+    
+    <string name="properties">Njirimara</string>
+    <string name="copyingapks">Na-eṅomi %d faịlụ APK na %s</string>
+    <string name="delbook">Hichapụ ibe edokọbara</string>
+    <string name="add_to_bookmarks">Tinye na ibe edokọbara</string>
+    <string name="enterpath">Tinye ụzọ</string>
+    
+    <string name="create">Mepụta</string>
+    <string name="loading">Na-ebu…</string>
+    <string name="file_empty">Faịlụ efu</string>
+    
+    <string name="search_results">Chọọ nsonaazụ %s</string>
+    <string name="rename">Kpọgharia aha</string>
+    <string name="save">Chekwa</string>
+    <string name="bookmarks_added">Agbakwunyere ibe edokọbara</string>
+    <string name="fileexist">Faịlụ nwere otu aha adịlarị</string>
+    <string name="name">Aha</string>
+    <string name="date">Ụbọchị</string>
+    <string name="location">Ebe</string>
+    <string name="size_capitalized">Nha</string>
+    <string name="size">nha folda</string>
+    <string name="enterzipname">Tinye aha zip</string>
+    <string name="no_app_found">Ọnweghị ngwa achọtara imepe faịlụ a</string>
+    <string name="copying">Na-edegharị</string>
+    <string name="moving">Nkwaga</string>
+    <string name="file">Faịlụ</string>
+    <string name="folder">Mpempe akwụkwọ</string>
+    <string name="newfolder">Nchekwa ọhụrụ</string>
+    <string name="entername">Tinye Aha</string>
+    <string name="extracting">Na-ewepụta</string>
+    <string name="stopping">Ịkwụsị</string>
+    <string name="open_parent">Mepee ndekọ ndị nne na nna</string>
+    <string name="open_with">Mepee ya na</string>
+    <string name="share">Kekọrịta</string>
+    <string name="about">Banyere</string>
+    <string name="extract">wepụta</string>
+    
+    <string name="yes">Ee</string>
+    <string name="no">Mba</string>
+    
+    <string name="dialog_delete_category_directories">Nhazi</string>
+    <string name="dialog_delete_category_files">Faịlụ</string>
+    <string name="dialog_delete_disclaimer">Ihichapụ ihe ndị dị n\'okpuru ga-ewepụ ha kpamkpam na ngwaọrụ gị ma enweghị ike ị nwetaghachi ha.</string>
+    <string name="dialog_delete_title">Hichapụ ihe na-adịgide adịgide?</string>
+    <string name="deleting">Ihichapụ</string>
+    <string name="question_set_path_as_home">Ịchọrọ ịtọ ụzọ ugbu a dị ka ebe obibi maka taabụ a?</string>
+    <string name="directorysort">Ụdị Ụdị Ntuziaka</string>
+    <string name="sort_by">Hazie site na</string>
+    <string name="sort_only_this">Naanị nchekwa a</string>
+    <string name="theme">Okwu</string>
+    
+    <string name="random_summary">Na-edobe isi agba na mmalite</string>
+    <string name="colorize">Akara ngosi18</string>
+    <string name="colorize_summary">Ntọala agba akara ngosi static. Anaghị ewepụ mmasị akwụkwọ ndekọ aha akara ngosi.</string>
+    <string name="home">Ụlọ</string>
+    <string name="paste">Tapawa</string>
+    
+    <string name="copy">Detuo</string>
+    
+    <string name="root_mode_summary">Maka naanị ngwaọrụ gbanyere mkpọrọgwụ. Lelee ya naanị ma ọ bụrụ na ị ji n\'aka na ya.</string>
+    <string name="root_failure">Enyeghị mgbọrọgwụ Access</string>
+    <string name="select_all">Họrọ niile</string>
+    <string name="delete">Hichapụ</string>
+    <string name="set_as_home">Tụgharịa ka Ụlọ</string>
+    <string name="operation_not_supported">A naghị akwado ọrụ</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Ìhè ihe</string>
+    <string name="dark">Ihe gbara ọchịchịrị</string>
+    <string name="daytime">Ụbọchị</string>
+    <string name="black">Black (maka OLED)</string>
+    <string name="system">System (soro usoro isiokwu)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Nkwadebe dị n\'elu</string>
+    <string name="filesOnTop">Faịlụ dị n\'elu</string>
+    <string name="none_on_top">Ọ dịghị nke dị n\'elu</string>
+    <!--SortBy-->
+    <string name="sort_name">Aha</string>
+    <string name="lastModified">Emegharịrị ikpeazụ</string>
+    <string name="sort_size">Nha</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Họrọ faịlụ</string>
+    <string name="process_viewer">Nlele usoro</string>
+    <string name="in_safe">Oghere ezughi oke</string>
+    <string name="no_file_overwrite">Enweghị faịlụ edegharịrị</string>
+    <string name="skip">Gafee</string>
+    <string name="overwrite">Degharịa</string>
+    <string name="not_allowed">Achọghị</string>
+    <string name="searching">Ịchọ %s</string>
+    <string name="done">Emere</string>
+    <string name="set">Tọọ</string>
+    <string name="enablerootmde">Kwado ọnọdụ mgbọrọgwụ</string>
+    <string name="goback">Gaghachi</string>
+    <string name="newfile">Faịlụ ọhụrụ</string>
+    <string name="no_files">Onweghị faịlụ</string>
+    <string name="used">ejiri oghere</string>
+    <string name="used_by_others">ndị ọzọ ji mee ihe</string>
+    <string name="free">ohere efu</string>
+    <string name="listview">Nlele ndepụta</string>
+    <string name="gridview">Grid Lelee</string>
+    <string name="permission">Ikikere</string>
+    <string name="hide">Zobe</string>
+    <string name="exit">Wepụ</string>
+    <string name="doforall">Mee maka ihe niile</string>
+    <string name="gridcolumnno">Ọgụgụ kọlụm dị na nlele grid</string>
+    <string name="set_random">Mgbanwe ga-ewere ọnọdụ mgbe ịmalitegharịrị ngwa ahụ</string>
+    <string name="authors">Ndị ode akwụkwọ</string>
+    
+    
+    
+    
+    <string name="thumb_summary">Gosi mkpirisi ngwa na onyonyo</string>
+    <string name="thumb">Gosi mkpisiaka</string>
+    <string name="hidden">Gosi faịlụ na nchekwa ezoro ezo</string>
+    <string name="lastModifiedSummary">Gosi ụbọchị na oge mgbanwe ikpeazụ</string>
+    <string name="lastModifiedPref">Gosi ụbọchị gbanwechara ikpeazụ na Oge</string>
+    <string name="size_pref_summary">Gosi nha faịlụ na ọnụọgụ ihe dị na nchekwa</string>
+    <string name="size_pref">Gosi nha</string>
+    <string name="miscellaneous">Ọdịiche</string>
+    <string name="root_pref_summary">Gosi ikike nke faịlụ na nchekwa</string>
+    <string name="root_pref">Gosi ikike</string>
+    <string name="about_amaze_file_manager_label">Banyere Amaze Njikwa faili</string>
+    
+    <string name="rate">Nye ngwa</string>
+    <string name="feedback">Zipu nzaghachi</string>
+    <string name="hiddenfiles">Faịlụ zoro ezo</string>
+    <string name="type">Ụdị</string>
+    <string name="root_directory">Mkpọrọgwụ</string>
+    <string name="add_shortcut">Tinye Ụzọ mkpirisi</string>
+    <string name="unsaved_changes">Mgbanwe a na-echekwaghị</string>
+    <string name="unsaved_changes_description">You nwere mgbanwe echekwara, ị chọrọ ịchekwa ha tupu ịpụ?</string>
+    <string name="saving">Nchekwa</string>
+    <string name="package_installer">Nwụnye ngwugwu</string>
+    <string name="view">Lelee</string>
+    <string name="install">Wụnye</string>
+    
+    <string name="archive_text">Nke a bụ ebe nchekwa. Kedu ihe ị ga-achọ ime?</string>
+    <string name="package_installer_text">Nke a bụ nrụnye ngwugwu. Kedu ihe omume ga-amasị gị ịme?</string>
+    <string name="xda_title">XDA eri</string>
+    <string name="xda_summary">Q&amp;amp;A, Enyemaka &amp;amp; Nchọpụta nsogbu</string>
+    <string name="circular_images">Jiri akara ngosi okirikiri maka onyonyo na vidiyo</string>
+    <string name="circular_icons">Jiri akara ngosi okirikiri </string>
+    
+    <string name="back_summary">Na-eme ka igodo azụ omenala dị n\'elu ndepụta</string>
+    <string name="details">Nkọwa</string>
+    <string name="translators">Ndị ntụgharị</string>
+    
+    
+    
+    
+    <string name="spanish_translation_title">18Spanish</string>
+    
+    
+    <string name="serbian_translation_title">Serbian </string>
+    
+    
+    <string name="portuguese_translation_title">Port </string>
+    
+    
+    <string name="greek_translation_title">Grik</string>
+    
+    
+    <string name="vietnamese_translation_title">Vietname</string>
+    
+    
+
+    <string name="zip_viewer">Zip View</string>
+    <string name="unin_system_apk">Nke a bụ ngwa sistemụ, ihichapụ ya nwere ike iduga. to system un-stability.\nGaa n\'ihu?</string>
+    <string name="warning">Ịdọ aka ná ntị</string>
+    <string name="donate">Nye</string>
+    <string name="archive_extract_folder">Nchekwa wepụ nchekwa</string>
+    <string name="archive_summary">A ga-ewepụta faịlụ nchekwa na nchekwa a. Uru ndabara bụ akwụkwọ ndekọ aha nke ebe nchekwa dị.</string>
+    <string name="open_as">Mepee dị ka</string>
+    <string name="text">Ede ederede</string>
+    
+    
+    <string name="other">Ndị ọzọ</string>
+    <string name="image">Onyonyo</string>
+    <string name="contributors">Ndị ntinye aka</string>
+    <string name="save_paths">Cheta ụzọ</string>
+    <string name="save_path_summary">Mgbe ị na-amalite, a ga-egosipụta folda elele kacha nso nso a maka taabụ ọ bụla</string>
+    <string name="select_intent">Họrọ</string>
+    <string name="database">Ebe nchekwa data</string>
+    <string name="colored_navigation">Ogwe igodo ngagharị</string>
+    <string name="colored_navigvation_sum">Ma ọ bụrụ ma ọ bụ na usoro igodo igodo nwere agba na akpụkpọ ahụ</string>
+
+    <string name="color_title">Agba</string>
+    <string name="color_summary">Tụgharịa agba na mpaghara UI dị iche iche</string>
+    <string name="primary_color_title">Agba isi (Taabụ aka ekpe)</string>
+    <string name="primary_color_summary">Tọọ agba ka nnukwu UI ọcha maka taabụ aka ekpe</string>
+    <string name="accent_color_title">Accent Agba</string>
+    <string name="accent_color_summary">Tụgharịa agba na FAB na ihe ndị ọzọ obere UI</string>
+    <string name="icon_color_title">Icon Agba</string>
+    <string name="icon_color_summary">Tụgharịa agba na akara ngosi.</string>
+    <string name="choose_color">Họrọ agba</string>
+    <string name="files">Faịlụ</string>
+    <string name="textreader">Onye na-agụ ederede</string>
+    <string name="databasereader">Onye na-agụ nchekwa data</string>
+    <string name="show_dividers">Gosi ndị nkesa</string>
+    <string name="needs_access">Dee nweta chọrọ</string>
+    <string name="needs_access_summary">Biko họrọ mgbọrọgwụ ndekọ nke \t</string>
+    <string name="needs_access_summary1">\ inye ikike dee ohere iji rụọ ọrụ</string>
+    <string name="smb_connection">SMB Njikọ</string>
+    <string name="smb_server">Adreesị IP nkesa</string>
+    <string name="server_address">Serva IP Adreesị</string>
+    <string name="username">Aha njirimara</string>
+    <string name="password">Paswọọdụ</string>
+    <string name="anonymous">Anaghị aha</string>
+    <string name="bluetooth">Blueto </string>
+    <string name="folders">Nkwakọba</string>
+    <string name="folderfilecount">%1$d nchekwa na %2$d faịlụ</string>
+    <string name="videos">Video</string>
+    <string name="apks">APK </string>
+    <string name="documents">Akwụkwọ</string>
+    <string name="images">Onyonyo</string>
+    <string name="clear">Kpochapụ</string>
+    
+    <string name="total">Mkpokọta:</string>
+    <string name="calculating">na-agbakọ</string>
+    <string name="sort">Ụdị</string>
+    <string name="ascending">Na-agbago</string>
+    <string name="descending">Na-agbadata</string>
+    <string name="default_string">Ded</string>
+    <string name="doit">Mee ya</string>
+    <string name="want_help">Achọrọ enyemaka?</string>
+    <string name="quick">Nnweta ngwa ngwa</string>
+    <string name="recent">Faịlụ ndị na-adịbeghị anya</string>
+    <string name="edit">Dezie</string>
+    <string name="find">Chọta na ibe</string>
+    <string name="grant">Nye</string>
+    <string name="grantper">Nye ikike</string>
+    <string name="grantfailed">Enyeghị ikike</string>
+    <string name="grant_storage_permission">Ngwa chọrọ ikike nchekwa ka ọ gaa n\'ihu. Ịkagbu mkparịta ụka a ga-apụ na ngwa ahụ.</string>
+    <string name="operation_unsuccesful">Arụmọrụ agaghị aga nke ọma</string>
+    <string name="creatingfile">Ịmepụta faịlụ</string>
+    <string name="creatingfolder">Ịmepụta nchekwa</string>
+    <string name="renaming">Ịgbanwe aha</string>
+    <string name="cant_be_empty">%s enweghị ike ịbụ ihe efu.</string>
+    <string name="ip">Adreesị</string>
+    <string name="connection_name">Aha njikọ</string>
+    <string name="no_device_found">Ọnweghị ngwaọrụ achọtara</string>
+    
+    <string name="rename_bookmark">gbanwee ibe edokọbara</string>
+    <string name="cut">Bechapụ</string>
+    <string name="search">Chọọ</string>
+    <string name="invalid_name">Aha ezighi ezi</string>
+    <string name="search_hint">Pịnye ka ịchọọ…</string>
+    <string name="advanced_search">Ọchụchọ dị elu</string>
+    <string name="regular_expression">Nkwupụta oge niile</string>
+    <string name="regular_expression_summary">Chọọ site na iji ụdị okwu BASH mgbe niile</string>
+    <string name="match_content">Ọdịnaya dakọtara</string>
+    <string name="match_content_summary">Ọ bụrụ na edobere, okwu oge niile ga-adakọ na aha faịlụ niile,
+        ga-achọ ihe ga-eme ma ọ bụghị.</string>
+    <string name="start_ftp">Malite</string>
+    <string name="stop_ftp">Kwụsị</string>
+    <string name="ftp_status_running">Na-agba ọsọ</string>
+    <string name="ftp_status_not_running">Ọ naghị agba ọsọ</string>
+    <string name="ftp_no_wifi">Jide n\'aka na ị jikọọ na Wi -Fi</string>
+    <string name="domain">Ngalaba</string>
+    <string name="smb_share">Ekekọrịta ụzọ</string>
+    <string name="invalid">%s adịghị mma</string>
+    <string name="ftp_notif_starting">FTP Server na-amalite</string>
+    
+    <string name="ftp_notif_title">Amaze FTP Server na-agba ọsọ</string>
+    <string name="ftp_notif_text">na %s</string>
+    <string name="ftp_notif_stop_server">Kwụsị</string>
+    <string name="ftp_port_edit_menu_title">FTP ọdụ ụgbọ mmiri</string>
+    <string name="ftp_port_change_success">FTP ọdụ ụgbọ mmiri gbanwere nke ọma</string>
+    <string name="ftp_port_change_error_invalid">Nọmba ọdụ ụgbọ mmiri na-ezighi ezi ahọpụtara</string>
+    <string name="primary_two_title">Agba izizi (taabụ aka nri)</string>
+    <string name="primary_two_summary">Tọọ agba ka ọ bụrụ nnukwu ihe UI maka taabụ aka nri</string>
+    <string name="support_development">Nkwado Mmepe</string>
+    <string name="report_bugs_title">Kọọ ahụhụ</string>
+    <string name="source_title">Code isi mmalite</string>
+    <string name="source_summary">Lee koodu isi mmalite anyị na GitHub</string>
+    <string name="report_bugs_summary">Kpesa ahụhụ ma ọ bụ rịọ atụmatụ ọhụrụ</string>
+    <string name="translate_title">Tụgharịa</string>
+    <string name="translate_summary">Tụgharịa asụsụ Amaze n\'asụsụ gị</string>
+    <string name="paypal_copy_message">Eṅomiri NJ PayPal na klipbọọdụ</string>
+    <string name="searching_devices">Ịchọ ngwaọrụ</string>
+    <string name="use_custom_ip">Jiri IP omenala</string>
+    <string name="bookmark_lost">Ahụghị ibe edokọbara, na-emegharị…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Otu esi enweta folda Windows ekekọrịtara na gam akporo (SMB)\n\n
+                
+                    
+                        Kwado ikesa faịlụ na Windows\n
+                    
+                    
+                        Mepee Ogwe njikwa, pịa Họrọ HomeGroup na nhọrọ nkekọrịta n\'okpuru Network
+                        na Ịntanetị, wee pịa "Change Advanced Sharing Settings," mee ka "File and
+                        Njirimara nke nbipute.\n\n
+                    
+
+                    
+                        Ntọala nkekọrịta faịlụ agbakwunyere\n
+                    
+                    
+                        Ị nwekwara ike ịhazi ntọala nkekọrịta ndị ọzọ dị elu ebe a. \n
+                        Dịka ọmụmaatụ, ịnwere ike ime ka ịnweta faịlụ gị na-enweghị paswọọdụ ma ọ bụrụ na ị tụkwasịrị ha niile obi
+                        ngwaọrụ ndị dị na netwọkụ mpaghara gị. Ozugbo agbanyere ikekọrịta faịlụ na ngwa nbipute, ị nwere ike
+                        mepee File Explorer ma ọ bụ Windows Explorer, pịa aka nri folda ịchọrọ ikesa, yana
+                        họrọ Njirimara. \n
+                        Pịa bọtịnụ Ekekọrịta wee mee ka folda ahụ dị na netwọkụ.\n\n
+                        
+
+                    
+                        Gbaa mbọ hụ na ngwaọrụ abụọ a nọ n\'otu Wifi\n
+                    
+                    
+                        Njirimara a na-eme ka faịlụ dị na netwọkụ mpaghara, yabụ PC na ngwaọrụ mkpanaka gị
+                        ga-adị n\'otu netwọkụ mpaghara. Ị nweghị ike ịnweta folda Windows nkekọrịta
+                        na ịntanetị ma ọ bụ mgbe ekwentị gị jikọọ na data mkpanaka ya - ya
+                        ekwesịrị ijikọ na Wi-Fi.\n\n
+                    
+
+                    
+                        Chọta adreesị IP\n
+                    
+                    
+                        Mepee ngwa ngwa Command. Pịnye \'ipconfig\' wee pịa Tinye. Chọọ ọnụ ụzọ ámá ndabara
+                        n\'okpuru nkwụnye netwọk gị maka adreesị IP nke rawụta gị. Lebe anya
+                        \" Adreesị IPv4 \" n\'okpuru otu ihe nkwụnye ngalaba iji chọta IP kọmputa gị
+                        adreesị.\n\n
+                    
+
+                    Tinye nkọwa n\'ime igbe okwu SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Enweghị ike ịkekọrịta ihe karịrị 100 faịlụ</string>
+    <string name="otg_access">Họrọ mgbọrọgwụ ngwaọrụ OTG</string>
+    <string name="information">Ozi</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Nwetara</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Egbanwere</string>
+
+    
+    <string name="artist">Onye na-ese ihe</string>
+    
+    <string name="year">Afọ</string>
+    <string name="duration">Oge oge</string>
+    <string name="comment">Nkwupụta</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Container. </string>
+    
+    <string name="channels">Chanels</string>
+    <string name="sample_rate">Nlere ọnụ ọgụgụ</string>
+    
+    <string name="dimensions">Akụkụ</string>
+    <string name="frame_rate">Ọnụego Frame</string>
+    <string name="image_type">Ụdị onyonyo</string>
+    <string name="width">obosara</string>
+    <string name="height">Elu</string>
+    <string name="date_modified">Ụbọchị gbanwetụrụ</string>
+    
+    <string name="creator">Onye Okike</string>
+    <string name="camera_brand">Akara Igwefoto</string>
+    <string name="camera_model">Kamera Model</string>
+    <string name="date_taken">Ụbọchị ewepụtara</string>
+    <string name="exposure_time">Oge ngosi</string>
+    <string name="aperture_value">Uru Aperture</string>
+    <string name="image_iso">ISO Speed ​​Rating</string>
+    <string name="flash_fired">Flash ọkụ</string>
+    <string name="focal_length">Ogologo Ogologo</string>
+    <string name="subject">Isiokwu</string>
+    <string name="author">Onye edemede</string>
+    <string name="keywords">Keyokwu</string>
+    <string name="producer">Onye nrụpụta</string>
+    <string name="created">Ekere</string>
+    
+    <string name="pages">Ọnụ ọgụgụ nke ibe</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Ebupụrụ</string>
+    
+    <string name="paper_size">Nha akwụkwọ</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Enweghị faịlụ ụfọdụ nke ọma %s</string>
+    <string name="copied">depụtaghachiri</string>
+    <string name="moved">kpaliri</string>
+    <string name="copy_complete">Detuo zuru oke</string>
+    <string name="waiting_title">Na-eche</string>
+    <string name="waiting_content">Na-eche ọrụ iji wuchaa</string>
+    <string name="extract_complete">Mmepụta zuru oke</string>
+    <string name="compression_complete">Mkpakọ zuru oke</string>
+    <string name="compressing">Mkpakọ</string>
+    <string name="cancelled">Kagbuo</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Edere</string>
+    <string name="out_of">site na</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">nke</string>
+    <string name="processing_file">faịlụ nhazi</string>
+    <string name="current_speed">Ọsọ dị ugbu a</string>
+    <string name="smb_launch_error">Ị ga-achọkwa idetu faịlụ a na nchekwa ka imepe ya</string>
+    <string name="error_file_not_found">Error: Achọtaghị faịlụ</string>
+    
+    <string name="error_file_too_large">Error: Faịlụ buru ibu</string>
+    <string name="medium_text">Ọkara Ederede</string>
+    <string name="permission_read">Gụọ</string>
+    <string name="permission_write">Dee</string>
+    <string name="permission_execute">Mee</string>
+    <string name="permission_owner">Onye nwe</string>
+    <string name="permission_group">Otu</string>
+    <string name="permission_other">Ndị ọzọ</string>
+    <string name="clipboard_path_copy">Ụzọ eṅomiri na klipbọọdụ</string>
+    <string name="service_timer">Oge agafeela</string>
+    <string name="please_wait">Biko chere</string>
+
+    <string name="cloud_connection">njikọ igwe ojii</string>
+    <string name="cloud_connection_new">njikọ igwe ojii ọhụrụ</string>
+    
+    
+    
+    <string name="cloud_box">Igbe</string>
+    <string name="cloud_get">Nweta ngwa mgbakwunye igwe ojii</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Onweghi ngwa</string>
+    <string name="ftp_path">Ozọ Ekekọrịtara</string>
+    <string name="ftp_path_hint">ụzọ na mgbọrọgwụ ndekọ iji kesaa</string>
+    <string name="change">Gbanwee</string>
+    <string name="unknown_error">Ee, ọ dị ihe na-aga nke ọma!</string>
+
+    <string name="ftp_path_change_success">FTP ụzọ gbanwere nke ọma</string>
+    <string name="ftp_path_change_error_invalid">Ụzọ na-ezighi ezi</string>
+    <string name="ftp_status_no_connection">Ọ dịghị njikọ</string>
+    <string name="ftp_status_secure_connection">njikọ echekwara</string>
+    <string name="ftp_status_title">Ọnọdụ</string>
+    
+    <string name="ftp_login">Nbanye</string>
+    <string name="field_empty">Ubi enweghị ike ịbụ ihe efu</string>
+    <string name="ftp_timeout">Akwụsịla oge</string>
+    <string name="ftp_seconds">Sekọnd</string>
+    <string name="intellihide_toolbar_title">Intellihide</string>
+    <string name="intellihide_toolbar_summary">Zobe ngwaọrụ na-akpaghị aka mgbe ị na-atụgharị </string>
+    <string name="hash_sha256">SHA- 256</string>
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">depụtaghachiri na klipbọọdụ</string>
+    <string name="contributors_1_summary">Nsụgharị</string>
+    <string name="contributors_2_summary">Akara ngosi na ọkọlọtọ</string>
+    <string name="contributors_3_summary">Njin isiokwu</string>
+    <string name="contributors_4_summary">Ndò n\'azụ FAB</string>
+    <string name="contributors_5_summary">Agba mgbanwe mgbe swiping taabụ</string>
+    <string name="contributors_6_summary">Ihe nkesa FTP</string>
+    <string name="contributors_7_summary">Ịmelite shei mmekọrịta</string>
+    <string name="connection_exists">Njikọ adịlarị</string>
+
+    <string name="crypt_encrypting">Enyocha</string>
+    <string name="crypt_decrypting">Na-akọwapụta</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Ezochiri</string>
+    <string name="crypt_decrypted">Ezochiri</string>
+    
+    
+    <string name="operation_fail_following">Ọrụ dara maka iso faịlụ</string>
+    <string name="crypt_pref_master_password_title">Master Paswọdu</string>
+    <string name="crypt_pref_master_password_summary">Set a nna ukwu paswọọdụ maka izo ya ezo.
+        Hapụ ihe efu iji wepụ.</string>
+    <string name="crypt_pref_fingerprint_title">Mkpịsị aka mkpisiaka</string>
+    <string name="crypt_pref_fingerprint_summary">Jiri akara mkpisiaka iji chọpụta izo ya ezo</string>
+    <string name="crypt_fingerprint_no_permission">Ikike akara mkpịsị aka na-efu</string>
+    <string name="crypt_fingerprint_not_enrolled">Ọ nweghị akara mkpisiaka edebanyere aha</string>
+    <string name="crypt_fingerprint_no_security">Ọnweghị nchekwa mkpuchi mkpọchi ahụrụ</string>
+    <string name="crypt_warning_key">Dọ ọdụ, mgbe ị na-agbanwe ụkpụrụ nchekwa gị site na
+        Ntọala sistemụ, ị gaghị enwe ike imebi ọdịnaya a.</string>
+    <string name="warning_never_show">Agwakwala ọzọ</string>
+    <string name="warning_confirm">Nwetara ya!</string>
+    <string name="crypt_encryption_fail">Emebeghị ezoro ezo</string>
+    <string name="crypt_decryption_fail">iji decrypt</string>
+    <string name="crypt_decryption_fail_password">Passwọọdụ ezighi ezi! </string>
+    <string name="crypt_fingerprint_authenticate">Metụ ihe mmetụta ka ọ gaa n\'ihu</string>
+    <string name="authenticate_password">Tinye okwuntughe</string>
+
+    
+    <string name="sidebar_quick_access_title">Gosi nweta ngwa ngwa</string>
+    <string name="show_quick_access_pref_title">nweta ngwa ngwa</string>
+    <string name="show_quick_access_pref">Nnweta ngwa ngwa</string>
+    <string name="directory">Ntuziaka</string>
+
+    <string name="sidebar_bookmarks_title">Ibe edokọbara sidebar</string>
+    <string name="show_bookmarks_pref_title">Gosi ibe edokọbara</string>
+    <string name="show_bookmarks_pref">Ibe edokwubara</string>
+    <string name="create_bookmark">Mepụta ibe edokọbara</string>
+    <string name="edit_bookmark">Dezie ibe edokọbara</string>
+    <string name="question_delete_bookmark">Hichapụ ibe edokọbara?</string>
+
+    <string name="cloud_error_plugin">Ahụghị ngwa mgbakwunye Amaze Cloud. Biko budata na Ụlọ Ahịa Play.</string>
+    <string name="cloud_error_failed_restart">Enweghị njikọ ahụ.
+        Biko mepee Amaze Cloud otu ugboro.</string>
+    <string name="cloud_remove">Ịchọrọ iwepụ njikọ ígwé ojii?</string>
+    <string name="cloud_fail_authenticate">Emezughị nyocha</string>
+    <string name="cloud_share_copied">Njikọ nwere ike depụtaghachiri na clipboard</string>
+    <string name="copy_low_memory">Na-agwụcha ebe nchekwa, biko kpochapụ ụfọdụ RAM</string>
+    <string name="cloud_token_lost">Token furu efu, biko banye ọzọ</string>
+    
+    <string name="showHeaders">Gosi nkụnye eji isi mee</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Onweghị ihe</string>
+	<string name="item">ihe</string>
+	<string name="items">ihe</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Faịlụ kwesịrị inwe aha</string>
+    <string name="add_item">Tinye ihe</string>
+    <string name="failed_smb_decrypt_path">Ebughị Njikọ SMB</string>
+    <string name="failed_cloud_new_connection">Enweghị ihe ọ bụla ịgbakwunye njikọ igwe ojii</string>
+    <string name="failed_cloud_api_key">Enweghị ịchọpụta nkwụnye igwe ojii</string>
+
+    <string name="local_inet_addr_error">Eriri nweta adreesị inet mpaghara</string>
+    <string name="intent_save_as">Chekwa ka…</string>
+    <string name="go">Gaa</string>
+    <string name="advanced">Emere </string>
+    <string name="typeable_paths_title">Uzo omenala</string>
+    <string name="typeable_paths_summary">Ogwe ụzọ pịa ogologo iji pịnye ụzọ omenala</string>
+    <string name="send_email_to">Zipu ozi-e na</string>
+
+    <string name="text_editor">Ntọala edezi ederede</string>
+    <string name="preference_newstack_title">Mepee faịlụ dị ka ọrụ ọhụrụ</string>
+    <string name="preference_newstack_summary">Na-enye gị ohere imepe faịlụ na ọrụ dị iche iche. Nweta ha site na ihuenyo sistemu nso nso a.</string>
+    
+    <string name="developers">Ndị mmepe</string>
+    <string name="no_bitcoin_app">Biko tinye ngwa Bitcoin Wallet</string>
+    <string name="channel_name_normal">Amaze Ịma Ọkwa</string>
+    
+    
+    
+
+    
+    <string name="processing">Nhazi…</string>
+    <string name="failed_no_connection">Enweghị ike ibu faịlụ. Biko lelee njikọ gị.</string>
+
+    <string name="update">Mmelite</string>
+	<string name="scp_connection">SCP/SFTP Njikọ</string>
+    <string name="ftp_connection">njikọ FTP</string>
+    <string name="ftps_connection">FTP n\'elu SSL Njikọ</string>
+    
+    <string name="ssh_host_key_verification_prompt">Enweghi ike ikwado izi ezi nke onye ọbịa \'%1$s\'.\n\n%2$s mkpịsị mkpisi aka bụ %3$s.\n \n Biko pịa \"Ee\" iji kwado njirimara; ma ọ bụghị ya, biko kpatụ \"Mba."</string>
+    <string name="ssh_host_key_verification_prompt_title">Chekwaa onye ọbịa</string>
+    
+    <string name="ssh_pem_key_parse_error">Enweghị ike ịgụ PEM ahọpụtara: %s</string>
+    <string name="password_unchanged">(agbanweghi agbanwe)</string>
+    <string name="ssh_authentication_failure_password">Logon ọdịda: Enweghị ike iji aha njirimara na okwuntughe wepụta.</string>
+    <string name="ssh_authentication_failure_key">Enweghị ike ime nyocha na aha njirimara na igodo nzuzo.</string>
+    <string name="ssh_connect_failed">Enweghị ike ijikọ na %1$s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ỊDỌ AKA NA NTỊ: MMADỤ NKE MMADỤ REMOTE AGABANYE!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">Onwere ike na mmadụ na-eme ihe jọgburu onwe ya!\n\nOnwere ike na-ege gị ntị ugbu a (mwakpo mmadụ na etiti)! O nwekwara ike ịbụ na agbanweela igodo nnabata. Akara mkpisiaka maka igodo ọha nke onye nnabata remote zitere adabaghị na nke echekwara na Amaze.\n\nBiko kpọtụrụ onye na-ahụ maka sistemụ gị ma ọ bụ hazie njikọ ọhụrụ ka ị gaa n\'ihu na-ejikọ na sava ahụ.</string>
+    <string name="ssh_key_prompt_passphrase">Biko tinye passphrase isi. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Mkpirisi ụzọ adịghị akwado site na onye mbido gị.</string>
+    
+    <string name="select_color_config">Họrọ nhazi agba</string>
+    <string name="customize">Hazie</string>
+    <string name="custom">Omenala</string>
+    <string name="preselected_configs_title">Nhazi nke ahọpụtara</string>
+    
+    
+    
+    <string name="password_no_match">Paswọdu anaghị eme. dakọtara</string>
+    <string name="deselect_all">Ehọrọ All</string>
+    
+    <string name="compress_file_suggest_zip_extension">A na-atụ aro ka iji \"zip\" dị ka ndọtị faịlụ.</string>
+    <string name="about_amaze">Onye njikwa faili imewe ihe maka gam akporo</string>
+    <string name="license">Ikikere</string>
+    
+    <string name="password_repeat">Tigharịa okwuntughe</string>
+    <string name="create_file_suggest_txt_extension">A na-atụ aro ka iji \"txt" dị ka ndọtị faịlụ.</string>
+    <string name="ssh_select_pem">Họrọ igodo nzuzo maka nyocha.</string>
+    <string name="ssh_key_invalid_passphrase">Passphrase igodo na-ezighi ezi.</string>
+    <string name="ssh_key_no_decoder_decrypt">Onweghị ihe ngbanwe ziri ezi iji mebie PEM.</string>
+    <string name="encryption_fail_copy">Enweghị imelite ntinye ezoro ezo na nchekwa data</string>
+    <string name="extracted">Ewepụtara</string>
+    <string name="compressed">Mkpakọ</string>
+    <string name="processed">Emechara</string>
+    <string name="no_obtainable_info">Enweghị ozi gbasara faịlụ a</string>
+    <string name="reopen_from_source">Enweghị ike, biko mepegharịa site na ngwa ikpeazụ</string>
+    <string name="no_file_error">Ihe na-aga nke ọma, ọ nweghị ihe imeghe</string>
+    <string name="file_too_long">Faịlụ ahụ toro ogologo ma enweghị ike idezi ya, mana ị nwere ike ịgụ mkpụrụedemede %d mbụ</string>
+    <string name="file_read_only">Faịlụ meghere bụ naanị ọgụgụ.</string>
+    <string name="got_it">nwetara ya!</string>
+    <string name="encrypt_file_save_as">Chekwa faịlụ ezoro ezo dị ka…</string>
+    <string name="encrypt_folder_save_as">Chekwa ezoro ezo nchekwa dị ka…</string>
+    <string name="encrypt_option_use_aze">Jiri Amaze Encryption Format</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt bụ usoro ezoro ezo faịlụ mepere emepe dabere na nzuzo AES. Ọ dịkwa obere, enwere ike mebie ya site na mmemme AESCrypt na nyiwe ndị ọzọ.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">Webụsaịtị AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        Usoro nzuzo nke Amaze dabere na izo ya ezo AES; ma dị iche na usoro AESCrypt, ọ bụ naanị ngwaọrụ a nwere ike imebi ya; Ọzọkwa, ị gaghị ewepụ Amaze File Manager na ngwaọrụ a ma ọ bụ gbanwee ụzọ isi kpọchie ihuenyo, ma ọ bụghị na ị gaghị enwe ụzọ isi nwetaghachi faịlụ ezoro ezo.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Faịlụ ezoro ezo ga-ejiri \".aze\" dị ka ndọtị faịlụ.</string>
+    <string name="encrypt_file_must_end_with_aes">Faịlụ ezoro ezo ga-eji \".aes\" dị ka ndọtị faịlụ.</string>
+    <string name="error_aescrypt_decrypt_failed">Enweghị ike iwepụ \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Enweghị ike idegharị faịlụ.</string>
+    <string name="saved_single_file">Faịlụ echekwara ka \'%s\'.</string>
+    <string name="saved_multi_files">%d faịlụ echekwara.</string>
+    <string name="create_hidden_file_warn">A ga-ezobe faịlụ emepụtara na ndepụta faịlụ.</string>
+    <string name="grant_apkinstall_permission">Ngwa chọrọ ikike iji wụnye ngwa gaa n\'ihu.</string>
+    <string name="time_remaining">Oge fọdụrụ</string>
+    <string name="transfer_rate">Nfefe ọnụego</string>
+    <string name="unknown">amaghị</string>
+    <string name="multiple_invalid_archive_entries">Enweghị ike iwepụta ụfọdụ faịlụ dị na ebe nchekwa; Archive nwere ike mebie ma ọ bụ sitere na isi iyi ọjọọ.</string>
+    <string name="saf_otg_explanation">Ị ga-aga ugbu a na sistemụ faịlụ Android maka nchekwa. Biko họrọ ngwaọrụ USB site na listi dị n\'aka ekpe.</string>
+    <string name="donation_thanks">Daalụ maka onyinye ahụ, nke a na-eme ka anyị nwee mkpali! (:</string>
+    <string name="enable_marquee_filename">Kwado mmetụta marquee maka aha faịlụ</string>
+    <string name="archive_password_prompt">Biko tinye paswọọdụ ebe nchekwa:</string>
+    
+    <string name="cannot_extract_archive">Enweghị ike wepụ ebe nchekwa \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">enweghị ike open Archive \"%s\" ma ọ bụ na anyị enweghị ike imepe ebe nchekwa ahụ, ma ọ bụ na ebe nchekwa ahụ mebiri emebi.</string>
+    <string name="close">Mechie</string>
+    <string name="bookmark_exists">Bookmark dị</string>
+    <string name="hide_media">Zoo na ihe nchọgharị mgbasa ozi</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">Onwere ike na mmadụ na-eme ihe jọgburu onwe ya!\n\nOnwere ike na-ege gị ntị ugbu a (mwakpo nwoke-n\'etiti)! n\'ihi na igodo ọha nke ndị ọbịa remote zitere adabaghị na nke echekwara na Amaze.\n\nỊ nwere ike ịga n\'ihu na-emelite akara mkpisiaka onye ọbịa ma ọ bụ kagbuo imelite njikọ njikọ SSH.</string>
+    <string name="update_host_key">Melite igodo ọbịa</string>
+    <string name="cancel_recommended">Kagbuo (akwadoro)</string>
+    
+    
+    <string name="failed_install_apk">Enweghị ike ịwụnye</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Nchekwa ime</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Kaadị SD</string>
+    <string name="choose_folder">Họrọ nchekwa a</string>
+    
+    <string name="some_files_failed_invalid_operation">Fịlụ ụfọdụ dara n\'ihi adịghị mma arụ ọrụ</string>
+    <string name="ftp_server_prompt_connect_to_network">Jikọọ na netwọk ma ọ bụ mee ka AP mee ihe</string>
+    <string name="ftp_server_open_settings">Mepee ntọala</string>
+    <string name="move">Bugharịa</string>
+    <string name="select_save_location">Họrọ ebe iji chekwaa</string>
+    <string name="scp_default_path">Dụzọ ndabara (Nhọrọ)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Ndo, nke ahụ ekwesịghị ime.</string>
+    
+    <string name="error_report_button_text">Kwuo njehie a site na e-mail</string>
+    <string name="error_report_button_telegram">Kwuo njehie a site na telegram</string>
+    <string name="copy_for_github">Detuo akụkọ a haziri</string>
+    <string name="error_report_open_issue_button_text">Kpọọ na GitHub</string>
+    <string name="error_report_open_github_notice">Biko lelee ma nsogbu na-akparịta maka mkpọka gị adịlarị.</string>
+    <string name="error_snackbar_message">Ndo, ọ nwere ihe na-aga nke ọma.</string>
+    <string name="error_snackbar_action">Kọọ</string>
+    <string name="what_device_headline">Ama:</string>
+    <string name="what_happened_headline">Kedu ihe mere:</string>
+    <string name="info_labels">Gịnị:\nArịrịọ:\nGMT Oge:\nNgwugwu:\\nVersion:\nOS ụdị:\nNgwaọrụ :\nModel:\n Ngwaahịa:</string>
+    <string name="your_comment">Okwu gị (na bekee):</string>
+    <string name="error_details_headline">Nkọwa:</string>
+    <string name="app_ui_crash">App/UI dara</string>
+    <string name="error_report_title">Error mkpesa</string>
+    <string name="crash_report_copied">Eṅomiri akụkọ ihe mberede na klipbọọdụ</string>
+    <string name="disableIpcSignature">Gbanyụọ nlele ntinye aka IPC (Maka sava SMBv1 nke ketara - UNSAFE!)</string>
+    <string name="cannot_delete_file">Enweghị ike ihichapụ faịlụ</string>
+    <string name="cannot_delete_file_with_reason">Enweghị ike ihichapụ faịlụ - %s</string>
+    <string name="cannot_rename_file">Enweghị ike ịnyegharị faịlụ %s - %s</string>
+    <string name="cannot_read_directory">Enweghị ike ịgụ akwụkwọ ndekọ aha %s - %s</string>
+    <string name="just_once">Naanị otu ugboro</string>
+    <string name="always">Mgbe niile</string>
+    <string name="choose_different_app">Họrọ dị iche ngwa</string>
+    <string name="clear_open_file">Kpochapụ cache</string>
+    <string name="clear_open_file_summary">Na-ekpochapụ ngwa mmeghe faịlụ ndabara ahọpụtara</string>
+    <string name="ftp_readonly">Nweta naanị ịgụ</string>
+    <string name="legacy_listing_title">Jiri ndepụta ihe nketa maka mgbọrọgwụ</string>
+    <string name="legacy_listing_summary">Ọ bụrụ na agbanyere ya. , na-eji usoro legacy depụta faịlụ</string>
+    <string name="error_unsupported_v5_rar">RAR Archive \"%s\" bụ akwadoghị RAR v5 Archive.</string>
+    <string name="ftp_prompt_restart_server">Ị ga-achọkwa ịmalitegharị ihe nkesa FTP maka mgbanwe iji mee ihe.</string>
+    <string name="error_permission_denied">Agọnarị ikike</string>
+    <string name="error_archive_password_incorrect">Passwọọdụ ebe nchekwa na-ezighi ezi.</string>
+    <string name="error_archive_cannot_extract">Enweghị ike wepụ ntinye Archive \"%s\" ka \"%s\" .</string>
+    <string name="drag_and_drop_preference">Họrọ dọrọ na dobe mmasị. (Nnwale)</string>
+    <string name="drag_to_move_copy">Metụ na dọrọ ka ịkwaga ma ọ bụ detuo faịlụ</string>
+    <string name="drag_to_select">Metụ na dọrọ ka ịhọrọ faịlụ</string>
+    <string name="disable">Gbanyụọ</string>
+    <string name="choose_operation">Họrọ ọrụ iji rụọ</string>
+    <string name="remember">Cheta maka oge ọzọ</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Nye ohere SAF maka sava FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Ebe ọ bụ na nke a bụ ọsọ mbụ gị na sava FTP, ma ị na-eji nchekwa n\'ime ngwaọrụ dị ka folda ekekọrịtara, biko hapụ Amaze ka o nweta nchekwa ahụ site na iji SAF.\n\n
+
+Naanị otu ugboro ka ị ga-eme nke a, ruo oge ọzọ ị ga-ahọrọ ebe ọhụrụ maka ikesa.</string>
+    <string name="android_data_prompt_saf_access">Kemgbe gam akporo 10, Android amachibidoro ụfọdụ akwụkwọ ndekọ aha, na ha kwesịrị iji ohere nchekwa nchekwa nweta.\n \n Biko hapụ Amaze ka ọ nweta ndekọ aha site na njikwa faịlụ sistemụ site na ịpị \"Hapụ ohere."</string>
+    <string name="android_data_prompt_saf_access_title">Nye ohere SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Jiri legacy filesystem</string>
+    <string name="ftp_preference_saf_filesystem">Kwado nke a maka nkwado maka iji nchekwa mpụga ngwaọrụ na ụdị gam akporo ọhụrụ</string>
+    <string name="ftp_server_fallback_path_reset_prompt">E tọgharịala ụzọ nkesa sava FTP na nchekwa dị n\'ime ka ị na-atụgharị azụ na Mmebi nke sistemụ faịlụ. Biko họrọ ụzọ ọhụrụ site na iji menu dị n\'elu aka nri ka ọ dị mkpa.</string>
+    <string name="ftp_server_reset_notify">FTP nkesa nkesa ụzọ e tọgharịala na esịtidem nchekwa</string>
+    <string name="ftp_server_root_unavailable">Ị na-ahọrọ ụzọ nke chọrọ mgbọrọgwụ mgbọrọgwụ. Biko mee ka root explorer na ntọala ma ọ bụrụ na ngwaọrụ gị gbanyere mkpọrọgwụ.</string>
+    <string name="ftp_server_root_filesystem_warning">Ị na-ahọrọ ụzọ nke chọrọ ịnweta mgbọrọgwụ, nke na-enyere gị aka ịgụ / dee ọrụ na faịlụ faịlụ niile na ngwaọrụ gị, ọ dịkwa ize ndụ - njehie enweghị nchekasị nwere ike. brik ngwaọrụ gị!\n\nỊ ji n\'aka?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Error imepe URI \"%s\" maka ịgụ.</string>
+    <string name="error_empty_archive">\"%s\" bụ ebe nchekwa efu.</string>
+    <string name="error_bad_archive_without_info">\"%s\" bụ ebe nchekwa mebiri emebi.</string>
+    <string name="error_bad_archive_with_info">\"%s\" bụ ebe nchekwa mebiri emebi.\nOzi sitere na onye ntọpụta: \"%s\"</string>
+    <string name="security_error">Faịlụ enweghị ike. Meghee site na iji ngwa a</string>
+    <string name="cloud_drive_tooltip">Mepụta njikọ Google Drive™ maka ijikwa faịlụ sitere na njikwa faili Amaze.</string>
+    <string name="signin_with_google_title">Chekwaa iji Google Drive™</string>
+    <string name="show_system_apps">Gosi ngwa sistemu</string>
+    <string name="system_apps">Ngwa sistemu</string>
+    <string name="select_inverse">Họrọ Inverse</string>
+    <string name="select_by_type">Họrọ site n\'ụdị</string>
+    <string name="select_by_date">Họrọ site na ụbọchị</string>
+    <string name="select_similar">Họrọ yiri</string>
+    <string name="error_fetching_google_play_product_list">Emehie ị nweta ndepụta ngwaahịa site na Google Play.</string>
+    <string name="grant_all_files_permission">Kemgbe gam akporo 11, Google na-arịọ ndị njikwa faili ka ha rịọ ikike onye ọrụ maka ijikwa faịlụ niile dị na ngwaọrụ ahụ. Nkọwa ebe a.
+        \n\nAmaze File Manager chọkwara ikike a. Mgbe ịpịrị "Nye" ebe a, biko họrọ Nye ohere ijikwa faịlụ niile nhọrọ na ihuenyo ọzọ.
+        \n\nỊkagbu mkparịta ụka a ga-apụ na ngwa ahụ.</string>
+    <string name="user_apps">Ngwa ndị ọrụ</string>
+    <string name="appearance">Mpụta</string>
+    <string name="behavior">Omume</string>
+    <string name="appearance_summary">Hazie isiokwu, agba na ọdịdị onye njikwa faili.</string>
+    <string name="ui_summary">Jikwaa ozi ị ga-egosi, hazie akụkụ ahụ, wee gbanwee mmasị UI</string>
+    <string name="behavior_summary">Gbagharịa omume dịka ọchụchọ dị elu yana ma ịmepe faịlụ dị ka ọrụ ọhụrụ</string>
+    <string name="security_summary">Tụlite paswọọdụ. na izo ya ezo</string>
+    <string name="backup_summary">Mbupụ/Bubata Ntọala Amaze</string>
+
+    <string name="pref_export">Mbupụ</string>
+    <string name="pref_export_summary">Ntọala mbupu</string>
+    <string name="pref_import">Mbubata</string>
+    <string name="pref_import_summary">Ntọala mbubata</string>
+
+    <string name="quick_desc">Faịlụ na nso nso a enweta site Amaze</string>
+    <string name="recent_desc">Faịlụ emepụtara ma ọ bụ gbanwee n\'oge na-adịbeghị anya</string>
+    <string name="error_cannot_find_way_open">Enweghị ike ịchọta ụzọ isi mepee faịlụ</string>
+    <string name="error_cant_decompress_that_file">Enweghị ike hazie ebe nchekwa achọrọ</string>
+    <string name="analyse_storage">Nchọpụta Nchekwa</string>
+    
+    <string name="download_amaze_utils_text">A na-atụgharị gị gaa na Utilities Faịlụ Amaze. Ọ bụ ngwa anyị mepere emepe nwere ndị na-ekiri ihe ọdịyo / vidiyo / onyonyo / akwụkwọ, na-enye gị ohere inyocha faịlụ junk iji wepụta ebe nchekwa, mbufe ngwa ngwa site na iji Wifi P2P na ọtụtụ ndị ọzọ.\nBiko kwado anyị site na ịnwale ya.</string>
+    <string name="download">Budata</string>
+    
+    <string name="amaze_utils_installed_alias">Daalụ maka ịwụnye Amaze File Utilities. A na-atụgharị gị gaa na ngwa ahụ.</string>
+    <string name="image_viewer">Onye na-ekiri ihe onyonyo tụrụ n\'anya</string>
+    <string name="video_player">Ihe egwu vidiyo na-ama jijiji</string>
+    <string name="amaze_audio_player">Egwu Egwu Player</string>
+    <string name="pdf_viewer">Onye na-ekiri ihe nkiri na-atụ egwu</string>
+    <string name="docx_viewer">Onye na-ekiri ihe nkiri na-atụ egwu</string>
+    <string name="share_logs">Kekọrịta ndekọ</string>
+    <string name="share_logs_summary">Kekọrịta ndekọ ewepụtara site na email / telegram</string>
+    <string name="open_with_amaze">Mepee ya na Amaze</string>
+    <string name="confirmation">Nkwenye</string>
+    <string name="open_file_confirmation">Ị nọ O doro anya na ị chọrọ imepe faịlụ na-esonụ?\n\nAha:\n%s\n\nEbe:\n%s\n\nSize:\n%s\n\nMD5:\n%s\n\nSHA256:\n n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Dịv18 Site na iwu Google Play, anaghị anabata ngwa ịmelite onwe ya n\'onwe ya. Biko melite ngwa sitere na Google Play.</string>
+    <string name="error_cannot_get_package_info">Enweghị ike ịnweta ozi ngwugwu na faịlụ \"%s\". Ma faịlụ a kapịrị ọnụ abụghị APK, ma ọ bụ faịlụ ngwungwu mebiri emebi.</string>
+    <string name="preference_delete_confirmation">Hichapụ nkwenye</string>
+    <string name="preference_delete_confirmation_summary">Rịọ maka nkwenye tupu ihichapụ faịlụ. Ịkwụsị nke a bụ nnukwu nkụda mmụọ!</string>
+    
+    
+    <string name="protocol_ftps">FTP echekwara</string>
+    <string name="unavailable">Enweghị ya</string>
+
+    <string name="exporting_failed">Mbupụ dara: enweghị ike ide faịlụ ndabere</string>
+    <string name="importing_failed">Mbubata dara: enweghị ike ịgụ nkwado ndabere na mpaghara. faịlụ</string>
+    <string name="importing_completed">Mbubata emechara</string>
+    <string name="invalid_backup_file">Faịlụ ndabere na ezighi ezi</string>
+    <string name="import_failed_for">Mbubata adaghị maka:</string>
+    <string name="free_of">"%s\n%s enweghị %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin akwadoghị na F- Ụdị Droid. Biko jiri ụdị Amaze nke Play Store.</string>
+    <string name="disable_player_intent_filters">Gbanyụọ ihe nzacha ihe ọkpụkpọ</string>
+    <string name="disable_player_intent_filters_summary">Na-ewepụ Amaze inbuilt media Player from file selectr</string>
+    <string name="no_app_found_intent">Ọ nweghị ngwa ahụrụ na-ejikwa ebumnuche a. you have DocumentsUI installed?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection credentials kpochapụrụ</string>
+    <string name="cloud_connection_credentials_cleared_msg">Ọ dị nwute, anyị enweghị ike ịkwaga nzere njikọ ígwé ojii gị gaa na atụmatụ nchekwa data ọhụrụ, anyị ga-ewepụ ha na ngwa ahụ. Biko mepụta njikọ igwe ojii ọzọ.</string>
+</resources>

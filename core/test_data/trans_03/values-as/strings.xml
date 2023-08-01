@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze ফাইল ব্যৱস্থাপক</string>
+    <string name="drawer_open">নেভিগেচন ড্ৰয়াৰ খোলক</string>
+    <string name="drawer_close">নেভিগেচন ড্ৰয়াৰ বন্ধ কৰক</string>
+    <string name="icon">আইকন</string>
+    <string name="apps">এপ ব্যৱস্থাপক</string>
+    <string name="ftp">FTP চাৰ্ভাৰ</string>
+    <string name="setting">সংহতিসমূহ</string>
+    <string name="select">বস্তু নিৰ্ব্বাচন কৰক</string>
+    <string name="press_again">প্ৰস্থান কৰিবলে পুনৰ টিপক</string>
+    <string name="open">খোলক</string>
+    <string name="backup">বেকআপ</string>
+    <string name="uninstall">আনইনষ্টল</string>
+    <string name="play">প্লে ষ্ট\'ৰ</string>
+    <string name="properties">বৈশিষ্ট্যসমূহ</string>
+    <string name="copyingapks">%d APK ফাইলসমূহ %s লৈ কপি কৰা হৈছে</string>
+    <string name="delbook">বুকমাৰ্ক মচি পেলাওক</string>
+    <string name="add_to_bookmarks">বুকমাৰ্কসমূহত যোগ কৰক</string>
+    <string name="enterpath">পথ সুমুৱাওক</string>
+    <string name="cancel">বাতিল কৰক</string>
+    <string name="create">সৃষ্টি কৰক</string>
+    <string name="loading">লোড কৰা হৈছে...</string>
+    <string name="file_empty">ফাইল খালী</string>
+    <string name="error">ত্ৰুটি</string>
+    <string name="search_results">%s ৰ সন্ধান ফলাফল</string>
+    <string name="rename">পুনৰনামকৰণ</string>
+    <string name="save">সংৰক্ষণ কৰক</string>
+    <string name="bookmarks_added">বুকমাৰ্ক যোগ কৰা হৈছে</string>
+    <string name="fileexist">একে নামৰ ফাইল ইতিমধ্যে আছে</string>
+    <string name="name">নাম</string>
+    <string name="date">তাৰিখ</string>
+    <string name="location">অৱস্থান</string>
+    <string name="size_capitalized">ফোল্ডাৰৰ আকাৰ</string>
+    <string name="size">আকাৰ</string>
+    <string name="enterzipname">জিপৰ নাম দিয়ক</string>
+    <string name="no_app_found">এই ফাইলটো খোলিবলৈ কোনো এপ পোৱা নগ\'ল</string>
+    <string name="copying">কপি কৰা</string>
+    <string name="moving">স্থানান্তৰ কৰা</string>
+    <string name="file">ফাইল</string>
+    <string name="folder">ফোল্ডাৰ</string>
+    <string name="newfolder">নতুন ফোল্ডাৰ</string>
+    <string name="entername">নাম সুমুৱাওক</string>
+    <string name="extracting">এক্সট্ৰেক্ট কৰা</string>
+    <string name="stopping">বন্ধ কৰা হৈছে</string>
+    <string name="open_parent">পিতৃ পঞ্জিকা খোলক</string>
+    <string name="open_with"/>
+    <string name="share">শ্বেয়াৰ</string>
+    <string name="about"/>
+    <string name="extract">এক্সট্ৰেক্ট</string>
+    <string name="compress">সংকোচন</string>
+    <string name="yes">হয়</string>
+    <string name="no">নাই</string>
+    
+    <string name="dialog_delete_category_directories">ডাইৰেকটৰীসমূহ</string>
+    <string name="dialog_delete_category_files">ফাইলসমূহ</string>
+    <string name="dialog_delete_disclaimer">তলৰ বস্তুসমূহ মচি পেলালে আপোনাৰ ডিভাইচৰ পৰা সিহতক স্থায়ীভাৱে আঁতৰাই পেলাব আৰু সিহতক পুনৰুদ্ধাৰ কৰিব নোৱাৰিব।</string>
+    <string name="dialog_delete_title">ৰসৈতেখোলক&gt;স্থায়ীভাৱে বস্তুসমূহ মচি পেলাওক?</string>
+    <string name="deleting">মচি পেলোৱা হৈছে</string>
+    <string name="question_set_path_as_home">আপুনি এই টেবৰ বাবে বৰ্তমান পথক ঘৰ হিচাপে সংহতি কৰিব বিচাৰেনে?</string>
+    <string name="directorysort">ডাইৰেকটৰী সজাই ধৰণ ধৰণ</string>
+    <string name="sort_by">সমঞ্জস্য কৰক</string>
+    <string name="sort_only_this">কেৱল এই ফোল্ডাৰ</string>
+    <string name="theme">থিম</string>
+    <string name="random">ৰেণ্ডম স্কিন</string>
+    <string name="random_summary">আৰম্ভণিতে ৰেণ্ডম প্ৰাথমিক ৰং নিৰ্ধাৰণ কৰে</string>
+    <string name="colorize">আইকনসমূহ ৰং কৰক</string>
+    <string name="colorize_summary">ছেটসমূহ ষ্টেটিক আইকন ৰং। ডাইৰেকটৰি আইকন ৰঙৰ পছন্দ অভাৰৰাইড নকৰে।</string>
+    <string name="home">ঘৰ</string>
+    <string name="paste">পেষ্ট কৰক</string>
+    <string name="history">ইতিহাস</string>
+    <string name="copy">কপি কৰক</string>
+    <string name="root_mode">ৰূট এক্সপ্লোৰাৰ</string>
+    <string name="root_mode_summary">কেৱল ৰুট কৰা ডিভাইচৰ বাবে। আপুনি ইয়াৰ বিষয়ে নিশ্চিত হ\'লেহে ইয়াক পৰীক্ষা কৰক।</string>
+    <string name="root_failure">ৰূট অভিগম অনুমোদিত নহয়</string>
+    <string name="select_all">সকলো নিৰ্ব্বাচন কৰক</string>
+    <string name="delete">মচি পেলাওক</string>
+    <string name="set_as_home">ঘৰ হিচাপে নিৰ্ধাৰণ কৰক</string>
+    <string name="operation_not_supported">কাৰ্য্য সমৰ্থিত নহয়</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">উপাদান পোহৰ</string>
+    <string name="dark">উপাদান অন্ধকাৰ</string>
+    <string name="daytime">দিনৰ সময়</string>
+    <string name="black">ক\'লা (OLED ৰ বাবে)</string>
+    <string name="system">চিস্টেম (চিস্টেম থিম অনুসৰণ কৰক)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">শীৰ্ষত ফোল্ডাৰসমূহ</string>
+    <string name="filesOnTop">শীৰ্ষত ফাইলসমূহ</string>
+    <string name="none_on_top">ওপৰত কোনো নাই</string>
+    <!--SortBy-->
+    <string name="sort_name">নাম</string>
+    <string name="lastModified">শেষ পৰিৱৰ্তিত</string>
+    <string name="sort_size">আকাৰ</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">এটা ফাইল বাছক</string>
+    <string name="process_viewer">প্ৰক্ৰিয়া দৰ্শক</string>
+    <string name="in_safe">অপৰ্যাপ্ত স্থান</string>
+    <string name="no_file_overwrite">কোনো ফাইল অভাৰৰাইট কৰা হোৱা নাই</string>
+    <string name="skip">এৰক</string>
+    <string name="overwrite">অভাৰৰাইট</string>
+    <string name="not_allowed">অনুমোদিত নহয়</string>
+    <string name="searching">%s</string>
+    <string name="done">সম্পন্ন</string>
+    <string name="set">সংহতি কৰক</string>
+    <string name="enablerootmde">ৰূট ধৰণ সামৰ্থবান কৰক</string>
+    <string name="goback">পিছলৈ যাওক</string>
+    <string name="newfile">নতুন ফাইল</string>
+    <string name="no_files">কোনো ফাইল নাই</string>
+    <string name="used">ব্যৱহৃত স্থান</string>
+    <string name="used_by_others">অন্যই ব্যৱহাৰ কৰা</string>
+    <string name="free">মুক্ত স্থান</string>
+    <string name="listview">তালিকা দৰ্শন</string>
+    <string name="gridview">গ্ৰিড দৰ্শন</string>
+    <string name="permission">অনুমতিসমূহ</string>
+    <string name="hide">লুকুৱাওক</string>
+    <string name="exit">প্ৰস্থান</string>
+    <string name="doforall">সকলো বস্তুৰ বাবে কৰক</string>
+    <string name="gridcolumnno">গ্ৰিড দৰ্শনত স্তম্ভৰ সংখ্যা</string>
+    <string name="set_random">আপুনি এপটো পুনৰাৰম্ভ কৰাৰ পিছত পৰিবৰ্তনসমূহ হ\'ব</string>
+    <string name="authors">লেখক</string>
+    <string name="changelog">পৰিৱৰ্তনৰ তালিকা</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="ui">আন্তঃপৃষ্ঠ</string>
+    <string name="general">সাধাৰণ</string>
+    <string name="thumb_summary">এপ আৰু ছবিৰ থাম্বনেইল দেখুৱাওক</string>
+    <string name="thumb">থাম্বনেইল দেখুৱাওক</string>
+    <string name="hidden">লুকাই থকা ফাইল আৰু ফোল্ডাৰ দেখুৱাওক</string>
+    <string name="lastModifiedSummary">শেষ পৰিবৰ্তনৰ তাৰিখ আৰু সময় দেখুৱাওক</string>
+    <string name="lastModifiedPref">শেষ পৰিৱৰ্তিত তাৰিখ দেখুৱাওক আৰু... সময়</string>
+    <string name="size_pref_summary">ফাইলসমূহৰ আকাৰ আৰু ফোল্ডাৰসমূহত বস্তুসমূহৰ সংখ্যা দেখুৱাওক</string>
+    <string name="size_pref">আকাৰসমূহ দেখুৱাওক</string>
+    <string name="miscellaneous">বিবিধ</string>
+    <string name="root_pref_summary">ফাইলসমূহ আৰু ফোল্ডাৰসমূহৰ অনুমতিসমূহ দেখুৱাওক</string>
+    <string name="root_pref">অনুমতিসমূহ দেখুৱাওক</string>
+    <string name="about_amaze_file_manager_label">Amaze ফাইল ব্যৱস্থাপকৰ বিষয়ে</string>
+    <string name="version">সংস্কৰণ</string>
+    <string name="rate">এপটোক ৰেটিং কৰক</string>
+    <string name="feedback">মতামত প্ৰেৰণ কৰক</string>
+    <string name="hiddenfiles">লুকাই থকা ফাইলসমূহ</string>
+    <string name="type">টাইপ কৰক</string>
+    <string name="root_directory">ৰূট</string>
+    <string name="add_shortcut">চৰ্টকাট যোগ কৰক</string>
+    <string name="unsaved_changes">অসংৰক্ষিত পৰিবৰ্তনসমূহ</string>
+    <string name="unsaved_changes_description">আপোনাৰ অসংৰক্ষিত পৰিবৰ্তন আছে, আপুনি প্ৰস্থান কৰাৰ আগতে সিহতক সংৰক্ষণ কৰিব বিচাৰেনে?</string>
+    <string name="saving">সংৰক্ষণ কৰা</string>
+    <string name="package_installer">পেকেজ সংস্থাপক</string>
+    <string name="view">দৰ্শন</string>
+    <string name="install">সংস্থাপন</string>
+    <string name="archive">আৰ্কাইভ</string>
+    <string name="archive_text">এইটো এটা আৰ্কাইভ। আপুনি কি কাৰ্য্য সম্পাদন কৰিব বিচাৰে?</string>
+    <string name="package_installer_text">এইটো এটা সৰঞ্জাম সংস্থাপক । আপুনি কি কাৰ্য্য সম্পাদন কৰিব বিচাৰে?</string>
+    <string name="xda_title">XDA থ্ৰেড</string>
+    <string name="xda_summary">প্ৰশ্ন আৰু উত্তৰ, সহায় আৰু সমস্যা সমাধান</string>
+    <string name="circular_images">চিত্ৰ আৰু ভিডিঅ\'ৰ বাবে বৃত্তাকাৰ আইকন ব্যৱহাৰ কৰক</string>
+    <string name="circular_icons">বৃত্তাকাৰ আইকন ব্যৱহাৰ কৰক</string>
+    <string name="back_title">বেক নেভিগেচন</string>
+    <string name="back_summary">তালিকাৰ ওপৰত স্বনিৰ্বাচিত বেক নেভিগেচন সামৰ্থবান কৰে</string>
+    <string name="details">বিৱৰণ</string>
+    <string name="translators">অনুবাদক</string>
+    <string name="german_translation_title">জাৰ্মান</string>
+    <string name="italian_translation_title">ইটালীয়</string>
+    <string name="french_translation_title">ফৰাচী</string>
+    <string name="russian_translation_title">ৰাছিয়ান</string>
+    <string name="spanish_translation_title">স্পেনিছ</string>
+    <string name="basque_translation_title">বাস্ক</string>
+    <string name="chinese_translation_title">চীনা</string>
+    <string name="serbian_translation_title">ছাৰ্বিয়ান</string>
+    <string name="turkish_translation_title">তুৰ্কী</string>
+    <string name="ukrainian_translation_title">ইউক্ৰেইনীয়</string>
+    <string name="portuguese_translation_title">পৰ্তুগীজ</string>
+    <string name="polish_translation_title">পোলিছ</string>
+    <string name="korean_translation_title">কোৰিয়ান</string>
+    <string name="greek_translation_title">গ্ৰীক</string>
+    <string name="dutch_translation_title">ডাচ</string>
+    <string name="romanian_translation_title">ৰোমানিয়ান</string>
+    <string name="vietnamese_translation_title">ভিয়েটনামী</string>
+    <string name="japanese_translation_title">জাপানী</string>
+    <string name="tamil_translation_title">তামিল</string>
+
+    <string name="zip_viewer">জিপ ভিউয়াৰ</string>
+    <string name="unin_system_apk">এইটো এটা চিস্টেম এপ, ইয়াক মচি পেলালে চিস্টেম অস্থিৰতা হ\'ব পাৰে।\nআগবাঢ়ক?</string>
+    <string name="warning">সতৰ্কবাণী</string>
+    <string name="donate">দান কৰক</string>
+    <string name="archive_extract_folder">আৰ্কাইভ এক্সট্ৰেক্ট ফোল্ডাৰ</string>
+    <string name="archive_summary">আৰ্কাইভ ফাইলসমূহ এই ফোল্ডাৰলৈ এক্সট্ৰেক্ট কৰা হ\'ব। অবিকল্পিত মান হৈছে সেই পঞ্জিকা য\'ত আৰ্কাইভ উপস্থিত থাকে।</string>
+    <string name="open_as">As</string>
+    <string name="text">পাঠ</string>
+    <string name="audio">অডিঅ\'</string>
+    <string name="video">ভিডিঅ\'</string>
+    <string name="other">অন্য</string>
+    <string name="image">চিত্ৰ</string>
+    <string name="contributors">অৱদানকাৰীসমূহ</string>
+    <string name="save_paths">পথসমূহ মনত ৰাখক</string>
+    <string name="save_path_summary">আৰম্ভ কৰাৰ সময়ত, প্ৰতিটো টেবৰ বাবে আটাইতকৈ শেহতীয়াকৈ দৰ্শন কৰা ফোল্ডাৰ প্ৰদৰ্শিত হ\'ব</string>
+    <string name="select_intent">নিৰ্বাচন কৰক</string>
+    <string name="database">ডাটাবেইচ</string>
+    <string name="colored_navigation">ৰঙীন নেভিগেচন বাৰ</string>
+    <string name="colored_navigvation_sum">চিস্টেম নেভিগেচন বাৰ ছালৰ সৈতে ৰং কৰা হয় নে নহয়</string>
+
+    <string name="color_title">ৰং</string>
+    <string name="color_summary">ৰং বিভিন্ন UI উপাদানসমূহলে সংহতি কৰক</string>
+    <string name="primary_color_title">প্ৰাথমিক ৰং (বাওঁ টেব)</string>
+    <string name="primary_color_summary">বাওঁ টেবৰ বাবে ডাঙৰ UI উপাদানসমূহলে ৰং সংহতি কৰক</string>
+    <string name="accent_color_title">উচ্চাৰ ৰং</string>
+    <string name="accent_color_summary">ৰঙক FAB আৰু অন্য সৰু UI লে সংহতি কৰক উপাদানসমূহ</string>
+    <string name="icon_color_title">আইকন ৰং</string>
+    <string name="icon_color_summary">আইকনসমূহলে ৰং নিৰ্ধাৰণ কৰক</string>
+    <string name="choose_color">ৰং নিৰ্ব্বাচন কৰক</string>
+    <string name="files">ফাইলসমূহ</string>
+    <string name="textreader">পাঠ্য পাঠক</string>
+    <string name="databasereader">ডাটাবেছ পাঠক</string>
+    <string name="show_dividers">বিভাজক দেখুৱাওক</string>
+    <string name="needs_access">লিখা অভিগমৰ প্ৰয়োজন</string>
+    <string name="needs_access_summary">অনুগ্ৰহ কৰি \t</string>
+    <string name="needs_access_summary1">\অপাৰেট কৰিবলৈ লিখাৰ অভিগম প্ৰদান কৰিবলৈ</string>
+    <string name="smb_connection">SMB সংযোগ</string>
+    <string name="smb_server">চাৰ্ভাৰ আইপি ঠিকনা</string>
+    <string name="server_address">চাৰ্ভাৰ আইপি ঠিকনা</string>
+    <string name="username">ব্যৱহাৰকাৰীৰ নাম</string>
+    <string name="password">পাছৱৰ্ড</string>
+    <string name="anonymous">বেনামী</string>
+    <string name="bluetooth">ব্লুটুথ</string>
+    <string name="folders">ফোল্ডাৰসমূহ</string>
+    <string name="folderfilecount">%1$d ফোল্ডাৰসমূহ আৰু %2$d ফাইলসমূহ</string>
+    <string name="videos">ভিডিঅ\'সমূহ</string>
+    
+    <string name="documents">দস্তাবেজসমূহ</string>
+    <string name="images">চিত্ৰসমূহ</string>
+    <string name="clear">স্পষ্ট কৰক</string>
+    
+    <string name="total">মুঠ:</string>
+    <string name="calculating">গণনা কৰি আছে</string>
+    <string name="sort">সজাই</string>
+    <string name="ascending">আৰোহী</string>
+    <string name="descending">অৱতম</string>
+    <string name="default_string">অবিকল্পিত</string>
+    <string name="doit">ই নেকি</string>
+    <string name="want_help">সহায়ৰ প্ৰয়োজন?</string>
+    <string name="quick">দ্ৰুত অভিগম</string>
+    <string name="recent">শেহতীয়া ফাইলসমূহ</string>
+    <string name="edit">সম্পাদনা কৰক</string>
+    <string name="find">পৃষ্ঠাত বিচাৰি পাওক</string>
+    <string name="grant">প্ৰদান</string>
+    <string name="grantper">অনুমতি প্ৰদান</string>
+    <string name="grantfailed">অনুমতি প্ৰদান কৰা হোৱা নাই</string>
+    <string name="grant_storage_permission">এপক আগবাঢ়ি যাবলৈ সংৰক্ষণ অনুমতিৰ প্ৰয়োজন। এই সংলাপ বাতিল কৰিলে এপটোৰ পৰা ওলাই যাব।</string>
+    <string name="operation_unsuccesful">অপাৰেচন সফল</string>
+    <string name="creatingfile">ফাইল সৃষ্টি কৰা</string>
+    <string name="creatingfolder">ফোল্ডাৰ সৃষ্টি কৰা</string>
+    <string name="renaming">পুনৰনামকৰণ</string>
+    <string name="cant_be_empty">%s খালী হ\'ব নোৱাৰে</string>
+    <string name="ip">ঠিকনা</string>
+    <string name="connection_name">সংযোগৰ নাম</string>
+    <string name="no_device_found">কোনো ডিভাইচ পোৱা নগ\'ল</string>
+    <string name="path">পথ</string>
+    <string name="rename_bookmark">বুকমাৰ্ক পৰিবৰ্তন কৰক</string>
+    <string name="cut">কাট কৰক</string>
+    <string name="search">অনুসন্ধান</string>
+    <string name="invalid_name">অবৈধ নাম</string>
+    <string name="search_hint">অন্বেষণ কৰিবলৈ ধৰণ...</string>
+    <string name="advanced_search">উন্নত সন্ধান</string>
+    <string name="regular_expression">নিয়মিত অভিব্যক্তি</string>
+    <string name="regular_expression_summary">এটা BASH শৈলী নিয়মীয়া অভিব্যক্তি ব্যৱহাৰ কৰি সন্ধান কৰক</string>
+    <string name="match_content">সামগ্ৰী মিলাওক</string>
+    <string name="match_content_summary">যদি সংহতি কৰা হয়, নিয়মিত অভিব্যক্তি সম্পূৰ্ণ নথিপত্ৰৰ নামৰ সৈতে মিলাব,
+        অন্যথা সংঘটন বিচাৰিব।</string>
+    <string name="start_ftp">আৰম্ভ</string>
+    <string name="stop_ftp">বন্ধ কৰক</string>
+    <string name="ftp_status_running">চল আছে</string>
+    <string name="ftp_status_not_running">চলি থকা নাই</string>
+    <string name="ftp_no_wifi">নিশ্চিত কৰক যে আপুনি Wi ৰ সৈতে সংযুক্ত -Fi</string>
+    <string name="domain">ডমেইন</string>
+    <string name="smb_share">অংশীদাৰ পথ</string>
+    <string name="invalid">অবৈধ %s</string>
+    <string name="ftp_notif_starting">FTP চাৰ্ভাৰ আৰম্ভ হৈছে</string>
+    <string name="ftp_notif_starting_title">FTP চাৰ্ভাৰ</string>
+    <string name="ftp_notif_title">FTP চাৰ্ভাৰ চলি থকাক আচৰিত কৰক</string>
+    <string name="ftp_notif_text">%s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP পৰ্ট</string>
+    <string name="ftp_port_change_success">FTP পৰ্টে সফলভাৱে সলনি হৈছে</string>
+    <string name="ftp_port_change_error_invalid">অবৈধ পৰ্ট সংখ্যা নিৰ্বাচিত</string>
+    <string name="primary_two_title">প্ৰাথমিক ৰং (সোঁ টেব)</string>
+    <string name="primary_two_summary">সোঁ টেবৰ বাবে ডাঙৰ UI উপাদানসমূহলে ৰং সংহতি কৰক</string>
+    <string name="support_development">সহায় বিকাশ</string>
+    <string name="report_bugs_title">বাগসমূহ প্ৰতিবেদন কৰক</string>
+    <string name="source_title">উৎস ক\'ড</string>
+    <string name="source_summary">GitHub ত আমাৰ উৎস ক\'ড চাওক</string>
+    <string name="report_bugs_summary">বাগসমূহ প্ৰতিবেদন কৰক বা নতুন বৈশিষ্ট্যৰ অনুৰোধ কৰক</string>
+    <string name="translate_title">অনুবাদ কৰক</string>
+    <string name="translate_summary">আপোনাৰ ভাষাত Amaze অনুবাদ কৰক</string>
+    <string name="paypal_copy_message">PayPal ID ক্লিপবোৰ্ডলৈ কপি কৰা হৈছে</string>
+    <string name="searching_devices">ডিভাইচসমূহৰ বাবে সন্ধান কৰা হৈছে</string>
+    <string name="use_custom_ip">স্বনিৰ্বাচিত IP ব্যৱহাৰ কৰক</string>
+    <string name="bookmark_lost">বুকমাৰ্ক পোৱা নগ\'ল, পুনৰ সৃষ্টি কৰা হৈছে...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Android (SMB) ত shared Windows ফোল্ডাৰ কেনেকৈ প্ৰৱেশ কৰিব\n\n
+                
+                    
+                        Windows ত ফাইল অংশীদাৰী সামৰ্থবান কৰক\n
+                    
+                    
+                        নিয়ন্ত্ৰণ পেনেল খোলক, নে\'টৱৰ্কৰ অন্তৰ্গত HomeGroup আৰু অংশীদাৰী বিকল্পসমূহ নিৰ্ব্বাচন কৰক ক্লিক কৰক
+                        আৰু ইন্টাৰনেট, আৰু "উন্নত অংশীদাৰী সংহতিসমূহ পৰিবৰ্তন কৰক" ক্লিক কৰক, "ফাইল আৰু...
+                        প্ৰিন্টাৰ অংশীদাৰী" বৈশিষ্ট্য।\n\n
+                    
+
+                    
+                        অতিৰিক্ত ফাইল অংশীদাৰী সংহতিসমূহ\n
+                    
+                    
+                        আপুনি ইয়াত অন্য উন্নত অংশীদাৰী সংহতিসমূহ বিন্যাস কৰিব বিচাৰিব পাৰে। \n
+                        উদাহৰণস্বৰূপ, আপুনি আপোনাৰ নথিপত্ৰসমূহলে এটা গুপ্তশব্দ অবিহনে অভিগম সামৰ্থবান কৰিব পাৰে যদি আপুনি সকলো বিশ্বাস কৰে
+                        আপোনাৰ স্থানীয় নে\'টৱৰ্কত থকা ডিভাইচসমূহ। এবাৰ নথিপত্ৰ আৰু প্ৰিন্টাৰ অংশীদাৰী সামৰ্থবান হ\'লে, আপুনি পাৰিব
+                        ফাইল এক্সপ্লোৰাৰ বা উইণ্ড\'জ এক্সপ্ল\'ৰাৰ খোলক, আপুনি অংশীদাৰী কৰিব বিচৰা এটা ফোল্ডাৰত ৰাইট-ক্লিক কৰক, আৰু...
+                        বৈশিষ্ট্যসমূহ নিৰ্ব্বাচন কৰক। \n
+                        অংশীদাৰী বুটাম ক্লিক কৰক আৰু ফোল্ডাৰটো নে\'টৱৰ্কত উপলব্ধ কৰক।\n\n
+                        
+
+                    
+                        দুয়োটা ডিভাইচ একেটা ৱাইফাইত থকাটো নিশ্চিত কৰক\n
+                    
+                    
+                        এই বৈশিষ্ট্যই স্থানীয় নেটৱৰ্কত ফাইলসমূহ উপলব্ধ কৰে, গতিকে আপোনাৰ পিচি আৰু মোবাইল ডিভাইচসমূহ
+                        একেটা স্থানীয় নেটৱৰ্কত থাকিব লাগিব। আপুনি এটা অংশীদাৰী Windows ফোল্ডাৰত প্ৰৱেশ কৰিব নোৱাৰে৷
+                        ইণ্টাৰনেটৰ জৰিয়তে বা যেতিয়া আপোনাৰ স্মাৰ্টফোন ইয়াৰ মোবাইল ডাটাৰ সৈতে সংযুক্ত হয় — ই
+                        ৱাই-ফাইৰ সৈতে সংযোগ কৰিব লাগিব।\n\n
+                    
+
+                    
+                        IP ঠিকনা বিচাৰি উলিয়াওক\n
+                    
+                    
+                        আদেশ প্ৰমপ্ট খোলক। \'ipconfig\' লিখক আৰু Enter টিপক। অবিকল্পিত গেটৱে বিচাৰক
+                        আপোনাৰ ৰাউটাৰৰ IP ঠিকনাৰ বাবে আপোনাৰ নে\'টৱৰ্ক এডাপ্টাৰৰ অন্তৰ্গত । বিছাৰ
+                        আপোনাৰ কমপিউটাৰৰ IP বিচাৰিবলৈ একেটা এডাপ্টাৰ অংশৰ অন্তৰ্গত \\\"IPv4 ঠিকনা\\\"
+                        ঠিকনা।\n\n
+                    
+
+                    SMB সংলাপ বাকচত বিৱৰণ সুমুৱাওক\n
+                
+            
+        
+   </string>
+    <string name="share_limit">100 তকৈ অধিক ফাইল অংশীদাৰী কৰিব নোৱাৰি</string>
+    <string name="otg_access">OTG ডিভাইচৰ ৰূট নিৰ্ব্বাচন কৰক</string>
+    <string name="information">তথ্য</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">অধিগ্ৰহণ কৰা হৈছে</string>
+    <!-- reference to file modified date -->
+    <string name="modified">পৰিৱৰ্তিত</string>
+
+    <string name="title">শিৰোনাম</string>
+    <string name="artist">শিল্পী</string>
+    <string name="album">এলবাম</string>
+    <string name="year">বছৰ</string>
+    <string name="duration">কাল</string>
+    <string name="comment">মন্তব্য</string>
+    <!-- reference to audio/video file -->
+    <string name="container">পাত্ৰ</string>
+    <string name="codec">কোডেক</string>
+    <string name="channels">চেনেলসমূহ</string>
+    <string name="sample_rate">নমুনা হাৰ</string>
+    <string name="bitrate">বিট্ৰেট</string>
+    <string name="dimensions">মাত্ৰা</string>
+    <string name="frame_rate">ফ্ৰেম হাৰ</string>
+    <string name="image_type">চিত্ৰৰ ধৰণ</string>
+    <string name="width">প্ৰস্থ</string>
+    <string name="height">উচ্চতা</string>
+    <string name="date_modified">তাৰিখ পৰিবৰ্তন</string>
+    <string name="software">চফ্টৱেৰ</string>
+    <string name="creator">সৃষ্টিকৰ্তা</string>
+    <string name="camera_brand">কেমেৰা ব্ৰেণ্ড</string>
+    <string name="camera_model">কেমেৰা মডেল</string>
+    <string name="date_taken">লোৱা তাৰিখ</string>
+    <string name="exposure_time">এক্সপোজাৰ সময়</string>
+    <string name="aperture_value">এপাৰচাৰ মান</string>
+    <string name="image_iso">ISO গতি ৰেটিং</string>
+    <string name="flash_fired">ফ্লেচ ফায়াৰ কৰা</string>
+    <string name="focal_length">ফ\'কেল দৈৰ্ঘ্য</string>
+    <string name="subject">বিষয়</string>
+    <string name="author">লেখক</string>
+    <string name="keywords">মূল শব্দ</string>
+    <string name="producer">উৎপাদক</string>
+    <string name="created">সৃষ্টি কৰা হৈছে</string>
+    <string name="format">বিন্যাস</string>
+    <string name="pages">ৰ সংখ্যা পৃষ্ঠাসমূহ</string>
+    <!-- reference to a document file -->
+    <string name="optimized">অনুকূলিত</string>
+    <string name="security">সুৰক্ষা</string>
+    <string name="paper_size">কাগজৰ আকাৰ</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">কিছুমান ফাইল সফলভাৱে %s</string>
+    <string name="copied">কপি কৰা হোৱা নাছিল</string>
+    <string name="moved">স্থানান্তৰ কৰা হৈছে</string>
+    <string name="copy_complete">কপি সম্পূৰ্ণ কৰা হৈছে</string>
+    <string name="waiting_title">অপেক্ষা কৰি আছে</string>
+    <string name="waiting_content">অপাৰেচন সম্পূৰ্ণ হোৱাৰ বাবে অপেক্ষা কৰি আছে</string>
+    <string name="extract_complete">এক্সট্ৰেকচন সম্পূৰ্ণ হৈছে</string>
+    <string name="compression_complete">সংকোচন সম্পূৰ্ণ হৈছে</string>
+    <string name="compressing">সংকোচন কৰা হৈছে</string>
+    <string name="cancelled">বাতিল কৰা হৈছে</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">লিখিত</string>
+    <string name="out_of">ৰ</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ৰ বাহিৰত</string>
+    <string name="processing_file">প্ৰচেছিং ফাইল</string>
+    <string name="current_speed">বৰ্তমান গতি</string>
+    <string name="smb_launch_error">আপুনি এই ফাইলটো খোলিবলৈ সংৰক্ষণলৈ কপি কৰিব লাগিব</string>
+    <string name="error_file_not_found">ত্ৰুটি: ফাইল পোৱা নগ\'ল</string>
+    <string name="error_io">I/O ত্ৰুটি</string>
+    <string name="error_file_too_large">ত্ৰুটি: ফাইলটো অতি ডাঙৰ</string>
+    <string name="medium_text">মধ্যমীয়া লিখনী</string>
+    <string name="permission_read">পঢ়ক</string>
+    <string name="permission_write">লিখা</string>
+    <string name="permission_execute">এক্সেকিউট কৰক</string>
+    <string name="permission_owner">মালিক</string>
+    <string name="permission_group">গোট</string>
+    <string name="permission_other">অন্য</string>
+    <string name="clipboard_path_copy">ক্লিপবৰ্ডলৈ কপি কৰা পথ</string>
+    <string name="service_timer">সময় অতিবাহিত</string>
+    <string name="please_wait">অনুগ্ৰহ কৰি অপেক্ষা কৰক</string>
+
+    <string name="cloud_connection">ক্লাউড সংযোগ</string>
+    <string name="cloud_connection_new">নতুন ক্লাউড সংযোগ</string>
+    <string name="cloud_dropbox">ড্ৰপবক্স</string>
+    <string name="cloud_drive">গুগল ড্ৰাইভTM</string>
+    <string name="cloud_onedrive">ৱানড্ৰাইভ</string>
+    <string name="cloud_box">বাকচ</string>
+    <string name="cloud_get">ক্লাউড প্লাগইন পাওক</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">কোনো এপ্লিকেচন নাই</string>
+    <string name="ftp_path">অংশীদাৰী পথ</string>
+    <string name="ftp_path_hint">অংশীদাৰী কৰিবলে পঞ্জিকাৰ ৰূটলৈ পথ</string>
+    <string name="change">পৰিৱৰ্তন</string>
+    <string name="unknown_error">উফ, কিবা এটা ভুল হ\'ল!</string>
+
+    <string name="ftp_path_change_success">FTP পথ সফলভাৱে সলনি হ\'ল</string>
+    <string name="ftp_path_change_error_invalid">অবৈধ পথ</string>
+    <string name="ftp_status_no_connection">কোনো সংযোগ নাই</string>
+    <string name="ftp_status_secure_connection">সুৰক্ষিত সংযোগ</string>
+    <string name="ftp_status_title">অৱস্থা</string>
+    <string name="ftp_port">পৰ্ট</string>
+    <string name="ftp_login">লগইন</string>
+    <string name="field_empty">ক্ষেত্ৰ খালী হ\'ব নোৱাৰে</string>
+    <string name="ftp_timeout">অচল সময়সীমা</string>
+    <string name="ftp_seconds">ছেকেণ্ড</string>
+    <string name="intellihide_toolbar_title">Intellihide সঁজুলিদণ্ডিকা</string>
+    <string name="intellihide_toolbar_summary">স্ক্ৰল কৰাৰ সময়ত স্বয়ংক্ৰিয়ভাৱে সঁজুলিদণ্ডিকা লুকুৱাওক</string>
+    <string name="hash_sha256">SHA- ২৫৬</string>
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">ক্লিপবৰ্ড</string>
+    <string name="contributors_1_summary">অনুবাদ</string>
+    <string name="contributors_2_summary">আইকন আৰু বেনাৰ</string>
+    <string name="contributors_3_summary">থিম ইঞ্জিন</string>
+    <string name="contributors_4_summary">FAB ৰ পিছফালে ছাঁ</string>
+    <string name="contributors_5_summary">টেবসমূহ চুইপ কৰাৰ সময়ত ৰঙৰ পৰিৱৰ্তন</string>
+    <string name="contributors_6_summary">FTP চাৰ্ভাৰ</string>
+    <string name="contributors_7_summary">এটা পাৰস্পৰিক শ্বেল ফায়াৰ আপ কৰা</string>
+    <string name="connection_exists">সংযোগ ইতিমধ্যে আছে</string>
+
+    <string name="crypt_encrypting">এনক্ৰিপটিং</string>
+    <string name="crypt_decrypting">ডিক্ৰিপ্ট কৰা</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">এনক্ৰিপ্ট কৰা</string>
+    <string name="crypt_decrypted">ডিক্ৰিপ্ট কৰা</string>
+    <string name="crypt_encrypt">এনক্ৰিপ্ট কৰা</string>
+    <string name="crypt_decrypt">ডিক্ৰিপ্ট কৰা</string>
+    <string name="operation_fail_following">নিৰ্বাচিত ফাইলসমূহৰ বাবে কাৰ্য্য ব্যৰ্থ</string>
+    <string name="crypt_pref_master_password_title">মাষ্টাৰ গুপ্তশব্দ</string>
+    <string name="crypt_pref_master_password_summary">এনক্ৰিপচনৰ বাবে এটা মাষ্টাৰ গুপ্তশব্দ সংহতি কৰক।
+        আঁতৰাবলৈ খালী ৰাখক।</string>
+    <string name="crypt_pref_fingerprint_title">ফিংগাৰপ্ৰিণ্ট</string>
+    <string name="crypt_pref_fingerprint_summary">এনক্ৰিপষণ প্ৰমাণীকৰণ কৰিবলে ফিংগাৰপ্ৰিণ্ট ব্যৱহাৰ কৰক</string>
+    <string name="crypt_fingerprint_no_permission">ফিংগাৰপ্ৰিণ্ট অনুমতি অনুপস্থিত</string>
+    <string name="crypt_fingerprint_not_enrolled">কোনো আঙুলিৰ ছাপ নামভৰ্তি কৰা হোৱা নাই</string>
+    <string name="crypt_fingerprint_no_security">কোনো লকস্ক্ৰীণ সুৰক্ষা নাই found</string>
+    <string name="crypt_warning_key">উপদেশ দিয়ক, যেতিয়া আপুনি আপোনাৰ সুৰক্ষা আৰ্হি সলনি কৰে
+        চিস্টেম সংহতিসমূহ, আপুনি এই বিষয়বস্তু ডিক্ৰিপ্ট কৰিব নোৱাৰিব।</string>
+    <string name="warning_never_show">আকৌ জনাই নিদিব</string>
+    <string name="warning_confirm">পালোঁ!</string>
+    <string name="crypt_encryption_fail">এনক্ৰিপ্ট কৰাত ব্যৰ্থ</string>
+    <string name="crypt_decryption_fail">ডিক্ৰিপ্ট কৰাত ব্যৰ্থ</string>
+    <string name="crypt_decryption_fail_password">ভুল পাছৱৰ্ড!</string>
+    <string name="crypt_fingerprint_authenticate">অব্যাহত ৰাখিবলৈ চেন্সৰ স্পৰ্শ কৰক</string>
+    <string name="authenticate_password">পাছৱৰ্ড সুমুৱাওক</string>
+
+    <string name="sidebar_preferences">চাইডবাৰ</string>
+    <string name="sidebar_quick_access_title">চাইডবাৰ দ্ৰুত অভিগম</string>
+    <string name="show_quick_access_pref_title">দ্ৰুত অভিগমসমূহ দেখুৱাওক</string>
+    <string name="show_quick_access_pref">দ্ৰুত অভিগমসমূহ</string>
+    <string name="directory">ডাইৰেকটৰী</string>
+
+    <string name="sidebar_bookmarks_title">চাইডবাৰ বুকমাৰ্কসমূহ</string>
+    <string name="show_bookmarks_pref_title">বুকমাৰ্কসমূহ দেখুৱাওক</string>
+    <string name="show_bookmarks_pref">বুকমাৰ্কসমূহ</string>
+    <string name="create_bookmark">বুকমাৰ্ক সৃষ্টি কৰক</string>
+    <string name="edit_bookmark">বুকমাৰ্ক সম্পাদনা কৰক</string>
+    <string name="question_delete_bookmark">বুকমাৰ্ক মচি পেলাওক?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud প্লাগইন পোৱা নগ\'ল। অনুগ্ৰহ কৰি প্লে ষ্ট\'ৰৰ পৰা ডাউনলোড কৰক।</string>
+    <string name="cloud_error_failed_restart">সংযোগ লোড কৰাত ব্যৰ্থ।
+        অনুগ্ৰহ কৰি Amaze Cloud এবাৰ খোলক।</string>
+    <string name="cloud_remove">আপুনি ক্লাউড সংযোগ আঁতৰাব বিচাৰেনে?</string>
+    <string name="cloud_fail_authenticate">প্ৰমাণীকৰণ কৰাত ব্যৰ্থ</string>
+    <string name="cloud_share_copied">অংশীদাৰী সংযোগ ক্লিপবোৰ্ডলৈ কপি কৰা হৈছে</string>
+    <string name="copy_low_memory">মেমৰি, অনুগ্ৰহ কৰি কিছুমান RAM আঁতৰাওক</string>
+    <string name="cloud_token_lost">টোকেন হেৰুৱাইছে, অনুগ্ৰহ কৰি পুনৰ চাইন-ইন কৰক</string>
+    <string name="monofont">একস্থান ফন্ট</string>
+    <string name="showHeaders">হেডাৰ দেখুৱাওক</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">কোনো বস্তু নাই</string>
+	<string name="item">বস্তু</string>
+	<string name="items">বস্তু</string>
+	
+	<string name="byte_singular">বাইট</string>
+	<string name="bytes">বাইট</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">ফাইলৰ এটা নাম থাকিব লাগে</string>
+    <string name="add_item">বস্তু যোগ কৰক</string>
+    <string name="failed_smb_decrypt_path">SMB সংযোগ লোড কৰাত ব্যৰ্থ</string>
+    <string name="failed_cloud_new_connection">নতুন ক্লাউড সংযোগ যোগ কৰাত ব্যৰ্থ</string>
+    <string name="failed_cloud_api_key">ক্লাউড প্লাগ-ইন প্ৰমাণীকৰণ কৰাত ব্যৰ্থ</string>
+
+    <string name="local_inet_addr_error">স্থানীয় inet ঠিকনা</string>
+    <string name="intent_save_as">এইদৰে সংৰক্ষণ কৰক ...</string>
+    <string name="go">গ\'</string>
+    <string name="advanced">উন্নত</string>
+    <string name="typeable_paths_title">স্বনিৰ্বাচিত পথ</string>
+    <string name="typeable_paths_summary">এটা স্বনিৰ্বাচিত পথ টাইপ কৰিবলৈ পথ বাৰ দীঘলীয়া টিপক</string>
+    <string name="send_email_to">এটা ই-মেইল পঠাওক</string>
+
+    <string name="text_editor">পাঠ সম্পাদক সংহতিসমূহ</string>
+    <string name="preference_newstack_title">নতুন কাম হিচাপে ফাইলসমূহ খোলক</string>
+    <string name="preference_newstack_summary">আপুনি পৃথক কাৰ্য্যসমূহত ফাইলসমূহ খোলাৰ অনুমতি দিয়ে। চিস্টেম শেহতীয়া পৰ্দাৰ পৰা সিহতক অভিগম কৰক।</string>
+    
+    <string name="developers">ডেভেলপাৰ</string>
+    <string name="no_bitcoin_app">অনুগ্ৰহ কৰি এটা বিটকইন ৱালেট এপ ইনষ্টল কৰক</string>
+    <string name="channel_name_normal">বিস্ময় কৰক জাননীসমূহ</string>
+    <string name="channel_description_normal">আমেজ ফাইল মেনেজাৰ\'s জাননীসমূহ</string>
+    <string name="channel_name_ftp">Amaze FTP চাৰ্ভাৰ</string>
+    <string name="channel_description_ftp">Amaze ফাইল ব্যৱস্থাপক FTP চাৰ্ভাৰ\'s জাননীসমূহ</string>
+
+    
+    <string name="processing">প্ৰচেছিং...</string>
+    <string name="failed_no_connection">ফাইলসমূহ লোড কৰাত ব্যৰ্থ। অনুগ্ৰহ কৰি আপোনাৰ সংযোগ পৰীক্ষা কৰক।</string>
+
+    
+	<string name="scp_connection">SCP/SFTP সংযোগ</string>
+    <string name="ftp_connection">FTP সংযোগ</string>
+    <string name="ftps_connection">SSL সংযোগৰ ওপৰত FTP</string>
+    <string name="scp_port">পৰ্ট</string>
+    <string name="ssh_host_key_verification_prompt">হ\'ষ্ট \'%1$s\' ৰ প্ৰামাণ্যতা প্ৰতিষ্ঠা কৰিব নোৱাৰি।\n\n%2$s চাবি আঙুলিৰ ছাপ %3$s।\n\nনিশ্চিত কৰিবলে \"হয়\" টেপ কৰক পৰিচয়; অন্যথা, অনুগ্ৰহ কৰি \"নাই\" টেপ কৰক।</string>
+    <string name="ssh_host_key_verification_prompt_title">হ\'ষ্ট পৰীক্ষা কৰক</string>
+    <string name="ssh_select_pem_button">SSH ব্যক্তিগত কি\'</string>
+    <string name="ssh_pem_key_parse_error">নিৰ্বাচিত PEM পঢ়িবলৈ অক্ষম: %s</string>
+    <string name="password_unchanged">(অপৰিৱৰ্তিত)</string>
+    <string name="ssh_authentication_failure_password">লগন বিফলতা: যোগান ধৰা ব্যৱহাৰকাৰীনাম আৰু গুপ্তশব্দৰ সৈতে প্ৰমাণীকৰণ কৰিব নোৱাৰি।</string>
+    <string name="ssh_authentication_failure_key">লগন ব্যৰ্থ: যোগান ধৰা ব্যৱহাৰকাৰীনাম আৰু ব্যক্তিগত চাবিৰ সৈতে প্ৰমাণীকৰণ কৰিব নোৱাৰি।</string>
+    <string name="ssh_connect_failed">%1$sৰ সৈতে সংযোগ কৰিবলে অক্ষম s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">সতৰ্কবাণী: দূৰৱৰ্তী হ\'ষ্ট চিনাক্তকৰণ সলনি হৈছে!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">এয়া সম্ভৱ যে কোনোবাই কিবা এটা বেয়া কাম কৰিছে!\n\nকোনোবাই আপোনাৰ কথা শুনিব পাৰে এতিয়াই (মেন-ইন-দ্য-মিডল আক্ৰমণ)! ইয়াৰ উপৰিও সম্ভৱ যে হস্ট কি\' মাত্ৰ সলনি কৰা হৈছে। দূৰৱৰ্তী গৃহস্থই প্ৰেৰণ কৰা ৰাজহুৱা চাবিৰ বাবে আঙুলিৰ ছাপ Amaze ত সংৰক্ষণ কৰা সৈতে মিল নাথাকে।\n\nঅনুগ্ৰহ কৰি আপোনাৰ ব্যৱস্থাপ্ৰণালী প্ৰশাসকৰ সৈতে যোগাযোগ কৰক বা চাৰ্ভাৰৰ সৈতে সংযোগ অব্যাহত ৰাখিবলৈ এটা নতুন সংযোগ সংস্থাপন কৰক।</string>
+    <string name="ssh_key_prompt_passphrase">অনুগ্ৰহ কৰি চাবিৰ পাছফ্ৰেজ দিয়ক .</string>
+    <string name="add_shortcut_not_supported_by_launcher">চৰ্টকাট সৃষ্টি আপোনাৰ লঞ্চাৰৰ দ্বাৰা সমৰ্থিত নহয়।</string>
+    
+    <string name="select_color_config">ৰঙ বিন্যাস নিৰ্ব্বাচন কৰক</string>
+    <string name="customize">স্বনিৰ্বাচিত কৰক</string>
+    <string name="custom">স্বনিৰ্বাচিত</string>
+    <string name="preselected_configs_title">পূৰ্বনিৰ্বাচিত বিন্যাসসমূহ</string>
+    <string name="orange">কমলা</string>
+    <string name="blue">নীলা</string>
+    <string name="green">সেউজীয়া</string>
+    <string name="password_no_match">পাছৱৰ্ড মিল নাই</string>
+    <string name="deselect_all">সকলো নিৰ্বাচন নকৰিব</string>
+    <string name="filename">ফাইলৰ নাম</string>
+    <string name="compress_file_suggest_zip_extension">ফাইল সম্প্ৰসাৰণ হিচাপে \".zip\" ব্যৱহাৰ কৰাটো উপদেশিত।</string>
+    <string name="about_amaze">এণ্ড্ৰইডৰ বাবে সামগ্ৰী ডিজাইন ফাইল ব্যৱস্থাপক</string>
+    <string name="license">অনুজ্ঞাপত্ৰ</string>
+    <string name="libraries">লাইব্ৰেৰীসমূহ</string>
+    <string name="password_repeat">পাছৱৰ্ড পুনৰাবৃত্তি কৰক</string>
+    <string name="create_file_suggest_txt_extension">\".txt\" নথিপত্ৰ সম্প্ৰসাৰণ হিচাপে ব্যৱহাৰ কৰাটো উপদেশিত।</string>
+    <string name="ssh_select_pem">প্ৰমাণীকৰণৰ বাবে ব্যক্তিগত চাবি নিৰ্ব্বাচন কৰক</string>
+    <string name="ssh_key_invalid_passphrase">অবৈধ কি\' পাছফ্ৰেজ।</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM ডিক্ৰিপ্ট কৰিবলে কোনো বৈধ ডিকোডাৰ নাই।</string>
+    <string name="encryption_fail_copy">ডাটাবেছত এনক্ৰিপচন প্ৰবিষ্ট আপডেইট কৰাত ব্যৰ্থ</string>
+    <string name="extracted">এক্সট্ৰেক্ট কৰা হৈছে</string>
+    <string name="compressed">সংকোচিত</string>
+    <string name="processed">প্ৰক্ৰিয়া কৰা হৈছে</string>
+    <string name="no_obtainable_info">এই ফাইলটোৰ বিষয়ে কোনো তথ্য নাই</string>
+    <string name="reopen_from_source">নোৱাৰো, অনুগ্ৰহ কৰি শেষৰ এপটোৰ পৰা পুনৰ খোলক</string>
+    <string name="no_file_error">কিবা এটা ভুল হৈছিল, খোলিবলৈ একো নাই</string>
+    <string name="file_too_long">The... ফাইলটো অতি দীঘল আৰু সম্পাদনা কৰিব নোৱাৰি, অৱশ্যে আপুনি প্ৰথম %d আখৰ পঢ়িব পাৰে</string>
+    <string name="file_read_only">খোলা ফাইলটো কেৱল পঢ়িব পৰা।</string>
+    <string name="got_it">পালোঁ!</string>
+    <string name="encrypt_file_save_as">এনক্ৰিপ্ট কৰা সংৰক্ষণ কৰক ফাইল হিচাপে...</string>
+    <string name="encrypt_folder_save_as">এনক্ৰিপ্ট কৰা ফোল্ডাৰক হিচাপে সংৰক্ষণ কৰক...</string>
+    <string name="encrypt_option_use_aze">Amaze এনক্ৰিপচন বিন্যাস ব্যৱহাৰ কৰক</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt এটা মুক্ত উৎস নথিপত্ৰ ইনক্ৰিপষণ বিন্যাস AES ইনক্ৰিপষণৰ ওপৰত ভিত্তি কৰি। ই পৰ্টেবলও, অন্য প্লেটফৰ্মত AESCrypt প্ৰগ্ৰামৰ সৈতে ডিক্ৰিপ্ট কৰিব পাৰি।</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">এইএছক্ৰিপ্ট ৱেবছাইট</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'s এনক্ৰিপচন বিন্যাস AES এনক্ৰিপচনৰ ওপৰতো ভিত্তি কৰি তৈয়াৰ কৰা হৈছে; কিন্তু AESCrypt বিন্যাসৰ পৰা পৃথক, ইয়াক কেৱল এই ডিভাইচৰ দ্বাৰা ডিক্ৰিপ্ট কৰিব পাৰি; আপুনি এই ডিভাইচৰ পৰা Amaze ফাইল ব্যৱস্থাপক আনইনষ্টল কৰিব নালাগে বা আপুনি পৰ্দা লক কৰাৰ ধৰণ সলনি কৰিব নালাগে, অন্যথা আপোনাৰ ইনক্ৰিপ্ট কৰা ফাইলটো পুনৰুদ্ধাৰ কৰাৰ কোনো উপায় নাথাকিব।</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">এনক্ৰিপ্ট কৰা নথিপত্ৰসমূহে নথিপত্ৰ সম্প্ৰসাৰণ হিচাপে \".aze\" ব্যৱহাৰ কৰিব লাগিব।</string>
+    <string name="encrypt_file_must_end_with_aes">এনক্ৰিপ্ট কৰা নথিপত্ৰসমূহে নথিপত্ৰ সম্প্ৰসাৰণ হিচাপে \".aes\" ব্যৱহাৰ কৰিব লাগিব।</string>
+    <string name="error_aescrypt_decrypt_failed">ডিক্ৰিপ্ট কৰিব নোৱাৰি \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">ফাইল অভাৰৰাইট কৰিব নোৱাৰি।</string>
+    <string name="saved_single_file">ফাইল \'%s\' হিচাপে সংৰক্ষণ কৰা হৈছে।</string>
+    <string name="saved_multi_files">%d ফাইলসমূহ সংৰক্ষণ কৰা হৈছে।</string>
+    <string name="create_hidden_file_warn">সৃষ্টি কৰা ফাইলটো ফাইল তালিকাত লুকুৱাই ৰখা হ\'ব।</string>
+    <string name="grant_apkinstall_permission">এপসমূহ ইনষ্টল কৰিবলে অনুমতিৰ প্ৰয়োজন চলি থাকিব।</string>
+    <string name="time_remaining">সময় বাকী</string>
+    <string name="transfer_rate">স্থানান্তৰ হাৰ</string>
+    <string name="unknown">অজ্ঞাত</string>
+    <string name="multiple_invalid_archive_entries">আৰ্কাইভৰ কিছুমান ফাইল এক্সট্ৰেক্ট কৰিব নোৱাৰি; আৰ্কাইভ ক্ষতিগ্ৰস্ত হ\'ব পাৰে বা ক্ষতিকাৰক উৎসৰ পৰা আহিব পাৰে।</string>
+    <string name="saf_otg_explanation">আপুনি এতিয়া সুৰক্ষাৰ কাৰণে Android\'s ফাইলচিস্টেমলৈ যাব। অনুগ্ৰহ কৰি বাওঁফালে থকা তালিকাৰ পৰা USB ডিভাইচটো নিৰ্বাচন কৰক।</string>
+    <string name="donation_thanks">দানৰ বাবে ধন্যবাদ, ই আমাক অনুপ্ৰাণিত কৰি ৰাখে! (:</string>
+    <string name="enable_marquee_filename">ফাইল নামৰ বাবে মাৰ্কি ইফেক্ট সামৰ্থবান কৰক</string>
+    <string name="archive_password_prompt">অনুগ্ৰহ কৰি আৰ্কাইভ পাছৱৰ্ড দিয়ক:</string>
+    
+    <string name="cannot_extract_archive">আৰ্কাইভ উলিয়াব নোৱাৰি \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">আৰ্কাইভ \"%s\" খোলিব নোৱাৰি। হয় আমি আৰ্কাইভটো খুলিব নোৱাৰো, নহয় আৰ্কাইভটো ক্ষতিগ্ৰস্ত হৈছিল।</string>
+    <string name="close">বন্ধ কৰক</string>
+    <string name="bookmark_exists">বুকমাৰ্ক আছে</string>
+    <string name="hide_media">মিডিয়া ব্ৰাউজাৰৰ পৰা লুকুৱাওক</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">এয়া সম্ভৱ যে কোনোবাই বেয়া কাম কৰিছে!\n\nকোনোবাই এতিয়াই আপোনাৰ কথা শুনিব পাৰে (মানুহ-মধ্যম আক্ৰমণ)!এয়াও সম্ভৱ যে হস্ট কি\' মাত্ৰ সলনি কৰা হৈছে কাৰণ দূৰৱৰ্তী হস্টে পঠোৱা ৰাজহুৱা চাবি Amaze ত সংৰক্ষণ কৰা কি\'ৰ সৈতে মিল নাথাকে।\n\nআপুনি হস্ট ফিংগাৰপ্ৰিন্ট আপডেইট কৰাৰ সৈতে আগবাঢ়িব পাৰে বা SSH সংযোগ সংহতিসমূহ আপডেইট কৰা বাতিল কৰিব পাৰে।</string>
+    <string name="update_host_key">হস্ট চাবি আপডেইট কৰক</string>
+    <string name="cancel_recommended">বাতিল কৰক (পৰামৰ্শ দিয়া হৈছে)</string>
+    
+    
+    <string name="failed_install_apk">ইনষ্টল কৰাত ব্যৰ্থ</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">অভ্যন্তৰীণ সংৰক্ষণ</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD কাৰ্ড</string>
+    <string name="choose_folder">এই ফোল্ডাৰ বাছক</string>
+    
+    <string name="some_files_failed_invalid_operation">অবৈধ হোৱাৰ বাবে কিছুমান ফাইল বিফল কাৰ্য্য</string>
+    <string name="ftp_server_prompt_connect_to_network">এটা নেটৱাৰ্কৰ সৈতে সংযোগ কৰক বা AP সামৰ্থবান কৰক</string>
+    <string name="ftp_server_open_settings">খোলক সংহতিসমূহ</string>
+    <string name="move">লৰচৰ কৰক</string>
+    <string name="select_save_location">সংৰক্ষণ কৰিবলৈ অৱস্থান নিৰ্ব্বাচন কৰক</string>
+    <string name="scp_default_path">অবিকল্পিত পথ (ঐচ্ছিক)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">ক্ষমা কৰিব, সেয়া হ\'ব নালাগিছিল।</string>
+    
+    <string name="error_report_button_text">এই ভুলটো ই-মেইলৰ যোগেদি ৰিপৰ্ট কৰক</string>
+    <string name="error_report_button_telegram">এই ভুলটো টেলিগ্ৰামৰ যোগেদি ৰিপৰ্ট কৰক</string>
+    <string name="copy_for_github">ফৰ্মেট কৰা প্ৰতিবেদন কপি কৰক</string>
+    <string name="error_report_open_issue_button_text">GitHub ত প্ৰতিবেদন কৰক</string>
+    <string name="error_report_open_github_notice">অনুগ্ৰহ কৰি আপোনাৰ বিপৰ্যয়ৰ বিষয়ে আলোচনা কৰা এটা সমস্যা ইতিমধ্যে আছে নে নাই পৰীক্ষা কৰক।</string>
+    <string name="error_snackbar_message">ক্ষমা কৰিব, কিবা এটা ভুল হৈছে।</string>
+    <string name="error_snackbar_action">ৰিপ\'ৰ্ট কৰক</string>
+    <string name="what_device_headline">তথ্য:</string>
+    <string name="what_happened_headline">কি হ\'ল:</string>
+    <string name="info_labels">কি:\\nঅনুৰোধ:\\nGMT সময়:\\nপেকেজ:\\nসংস্কৰণ:\\nOS সংস্কৰণ:\\nডিভাইচ:\\nমডেল:\\nউৎপাদন :</string>
+    <string name="your_comment">আপোনাৰ মন্তব্য (ইংৰাজীত):</string>
+    <string name="error_details_headline">বিৱৰণ:</string>
+    <string name="app_ui_crash">এপ/UI বিকল</string>
+    <string name="error_report_title">ত্ৰুটিৰ প্ৰতিবেদন</string>
+    <string name="crash_report_copied">ক্ৰেচ প্ৰতিবেদন কপি কৰা হৈছে ক্লিপবোৰ্ড</string>
+    <string name="disableIpcSignature">IPC স্বাক্ষৰ পৰীক্ষা নিষ্ক্ৰিয় কৰক (লিগেচি SMBv1 চাৰ্ভাৰসমূহৰ বাবে - UNSAFE!)</string>
+    <string name="cannot_delete_file">ফাইল মচি পেলাব নোৱাৰি</string>
+    <string name="cannot_delete_file_with_reason">ফাইল মচি পেলাব নোৱাৰি - %s</string>
+    <string name="cannot_rename_file">ফাইলৰ নাম সলনি কৰিব নোৱাৰি %s - %s</string>
+    <string name="cannot_read_directory">পৰিচালক %s পঢ়িব নোৱাৰি - %s</string>
+    <string name="just_once">মাত্ৰ এবাৰ</string>
+    <string name="always">সদায়</string>
+    <string name="choose_different_app">বিভিন্ন এপ্লিকেচন বাছক</string>
+    <string name="clear_open_file">পৰিষ্কাৰ কৰক cache</string>
+    <string name="clear_open_file_summary">নিৰ্বাচিত অবিকল্পিত নথিপত্ৰ খোলাৰ এপসমূহ পৰিষ্কাৰ কৰে</string>
+    <string name="ftp_readonly">কেৱল পঢ়িব পৰা অভিগম</string>
+    <string name="legacy_listing_title">ৰুটৰ বাবে লিগেচি তালিকা ব্যৱহাৰ কৰক</string>
+    <string name="legacy_listing_summary">যদি সামৰ্থবান কৰা হয়, ফাইলসমূহ তালিকাভুক্ত কৰিবলে লিগেচি পদ্ধতি ব্যৱহাৰ কৰে</string>
+    <string name="error_unsupported_v5_rar">RAR আৰ্কাইভ \"%s\" সমৰ্থিত RAR v5 আৰ্কাইভ।</string>
+    <string name="ftp_prompt_restart_server">আপুনি পৰিবৰ্তনসমূহ কাৰ্যকৰী হ\'বলৈ FTP চাৰ্ভাৰ পুনৰাৰম্ভ কৰিব লাগিব।</string>
+    <string name="error_permission_denied">অনুমতি অস্বীকাৰ কৰা হৈছে</string>
+    <string name="error_archive_password_incorrect">ভুল আৰ্কাইভ গুপ্তশব্দ।</string>
+    <string name="error_archive_cannot_extract">আৰ্কাইভ প্ৰৱেশ \"%s\" ৰ পৰা \"%s\" লৈ এক্সট্ৰেক্ট কৰিব নোৱাৰি।</string>
+    <string name="drag_and_drop_preference">ড্ৰেগ আৰু ড্ৰপ পছন্দ নিৰ্ব্বাচন কৰক (পৰীক্ষামূলক)</string>
+    <string name="drag_to_move_copy">ফাইলসমূহ স্থানান্তৰ বা কপি কৰিবলে স্পৰ্শ কৰক আৰু টানি নিয়ক</string>
+    <string name="drag_to_select">ফাইলসমূহ নিৰ্ব্বাচন কৰিবলে স্পৰ্শ আৰু টানি নিয়ক</string>
+    <string name="disable">অক্ষম</string>
+    <string name="choose_operation">সঞ্চালন কৰিবলে কাৰ্য্য নিৰ্ব্বাচন কৰক</string>
+    <string name="remember">পৰৱৰ্তী সময়ৰ বাবে মনত ৰাখক</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP চাৰ্ভাৰৰ বাবে SAF অভিগম প্ৰদান কৰক</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">যিহেতু এইটো আপোনাৰ FTP চাৰ্ভাৰৰ প্ৰথম চলোৱা, আৰু আপুনি ডিভাইচৰ অভ্যন্তৰীণ সংৰক্ষণ অংশীদাৰী ফোল্ডাৰ হিচাপে ব্যৱহাৰ কৰিছে, অনুগ্ৰহ কৰি Amaze ক সংৰক্ষণ অভিগম কৰাৰ অনুমতি দিয়ক ব্যৱহাৰ কৰি SAF.\n\n
+
+আপুনি এইটো কেৱল এবাৰহে কৰিব লাগিব, পৰৱৰ্তী সময়ত আপুনি অংশীদাৰী কৰাৰ বাবে এটা নতুন অৱস্থান নিৰ্ব্বাচন নকৰালৈকে।</string>
+    <string name="android_data_prompt_saf_access">এণ্ড্ৰইড ১০ৰ পৰা, এণ্ড্ৰইডে কিছুমান বিশেষ ডাইৰেকটৰীত নিষেধাজ্ঞা আৰোপ কৰিছিল, আৰু সিহঁতে সংৰক্ষণ অভিগম কাঠামোৰ সৈতে অভিগম কৰিব লাগিব।\n \nঅনুগ্ৰহ কৰি Amaze-ক চিস্টেমৰ নথিপত্ৰ ব্যৱস্থাপকৰ পৰা পঞ্জিকা অভিগম কৰাৰ অনুমতি দিয়ক \"অভিগমৰ অনুমতি দিয়ক\" টেপ কৰি।</string>
+    <string name="android_data_prompt_saf_access_title">SAF অভিগম অনুমোদন কৰক</string>
+    <string name="ftp_preference_saf_filesystem_title">লিগেচি ফাইলচিস্টেম ব্যৱহাৰ কৰক</string>
+    <string name="ftp_preference_saf_filesystem">নতুন Android সংস্কৰণসমূহত ডিভাইচ বাহ্যিক সংৰক্ষণ ব্যৱহাৰ কৰাৰ বাবে সমৰ্থনৰ বাবে ইয়াক সামৰ্থবান কৰক</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP চাৰ্ভাৰ অংশীদাৰী পথ আপুনি ঘূৰি যোৱাৰ সময়ত আভ্যন্তৰীণ সংৰক্ষণলৈ পুনৰায় সেট কৰা হৈছিল লিগেচি নথিপত্ৰপ্ৰণালী প্ৰণয়ন । অনুগ্ৰহ কৰি প্ৰয়োজন অনুসৰি ওপৰৰ সোঁফালে থকা মেনু ব্যৱহাৰ কৰি এটা নতুন পথ নিৰ্ব্বাচন কৰক ।</string>
+    <string name="ftp_server_reset_notify">FTP চাৰ্ভাৰ অংশীদাৰী পথক আভ্যন্তৰীণ সংৰক্ষণলৈ পুনৰায় সেট কৰা হৈছিল</string>
+    <string name="ftp_server_root_unavailable">আপুনি এটা পথ নিৰ্ব্বাচন কৰিছে যাৰ ৰূট অভিগমৰ প্ৰয়োজন । অনুগ্ৰহ কৰি সংহতিসমূহত ৰূট এক্সপ্লোৰাৰ সামৰ্থবান কৰক যদি আপোনাৰ ডিভাইচ ৰূট কৰা হৈছে।</string>
+    <string name="ftp_server_root_filesystem_warning">আপুনি এটা পথ নিৰ্ব্বাচন কৰিছে যাৰ ৰূট অভিগমৰ প্ৰয়োজন, যি আপোনাৰ ডিভাইচত গোটেই নথিপত্ৰপ্ৰণালীত পঢ়া/লিখা কাৰ্য্যসমূহ সামৰ্থবান কৰে, আৰু ই বিপজ্জনক - অসাৱধান ভুলসমূহ হ\'ব পাৰে আপোনাৰ ডিভাইচটো ব্ৰক কৰক!\n\nআপুনি নিশ্চিত নেকি?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">পঢ়াৰ বাবে URI \"%s\" খোলাৰ ত্ৰুটি।</string>
+    <string name="error_empty_archive">\"%s\" এটা খালী আৰ্কাইভ।</string>
+    <string name="error_bad_archive_without_info">\"%s\" এটা নষ্ট আৰ্কাইভ।</string>
+    <string name="error_bad_archive_with_info">\"%s\" এটা নষ্ট আৰ্কাইভ।\nএক্সট্ৰেক্টৰৰ পৰা বাৰ্তা: \"%s\"</string>
+    <string name="security_error">ফাইল কৰিব পৰা নগ\'ল এই এপ ব্যৱহাৰ কৰি খোলা হব</string>
+    <string name="cloud_drive_tooltip">Amaze ফাইল ব্যৱস্থাপকৰ ভিতৰৰ পৰা ফাইলসমূহ পৰিচালনা কৰাৰ বাবে এটা Google ড্ৰাইভTM সংযোগ সৃষ্টি কৰক।</string>
+    <string name="signin_with_google_title">Google DriveTM ব্যৱহাৰ কৰিবলে প্ৰমাণীকৰণ কৰক</string>
+    <string name="show_system_apps">চিস্টেম এপসমূহ দেখুৱাওক</string>
+    <string name="system_apps">চিস্টেম এপসমূহ</string>
+    <string name="select_inverse">উলটি নিৰ্ব্বাচন কৰক</string>
+    <string name="select_by_type">ধৰণৰ দ্বাৰা নিৰ্ব্বাচন কৰক</string>
+    <string name="select_by_date">তাৰিখ অনুসৰি নিৰ্ব্বাচন কৰক</string>
+    <string name="select_similar">অনুৰূপ নিৰ্ব্বাচন কৰক</string>
+    <string name="error_fetching_google_play_product_list">ৰ পৰা পণ্য তালিকা আনিবলৈ ত্ৰুটি Google Play.</string>
+    <string name="grant_all_files_permission">এণ্ড্ৰইড ১১ৰ পৰা গুগলে ফাইল মেনেজাৰসকলক ডিভাইচৰ সকলো ফাইল পৰিচালনাৰ বাবে ব্যৱহাৰকাৰীৰ অনুমতি বিচাৰিবলৈ অনুৰোধ কৰে। বিতংভাৱে ইয়াত।
+        \n\nAmaze ফাইল ব্যৱস্থাপকৰ বাবেও এই অনুমতিৰ প্ৰয়োজন। ইয়াত "Grant" টিপোৱাৰ পিছত, অনুগ্ৰহ কৰি পৰৱৰ্তী পৰ্দাত সকলো ফাইল পৰিচালনা কৰিবলে অভিগমৰ অনুমতি দিয়ক বিকল্প নিৰ্ব্বাচন কৰক।
+        \n\nএই সংলাপ বাতিল কৰিলে এপটোৰ পৰা ওলাই যাব।</string>
+    <string name="user_apps">ব্যৱহাৰকাৰী এপসমূহ</string>
+    <string name="appearance">ৰূপ</string>
+    <string name="behavior">আচৰণ</string>
+    <string name="appearance_summary">ফাইল ব্যৱস্থাপকৰ থিম, ৰং আৰু ৰূপ স্বনিৰ্বাচিত কৰক</string>
+    <string name="ui_summary">কি তথ্য দেখুৱাব লাগে নিয়ন্ত্ৰণ কৰক, কাষৰ বাৰ স্বনিৰ্বাচিত কৰক, আৰু UI পছন্দসমূহ টগল কৰক</string>
+    <string name="behavior_summary">উন্নত সন্ধানৰ দৰে আচৰণ পৰিবৰ্তন কৰক আৰু নথিপত্ৰসমূহ নতুন কাম হিচাপে খোলিব নে নহয়</string>
+    <string name="security_summary">পাছৱৰ্ড সংস্থাপন কৰক আৰু এনক্ৰিপচন</string>
+    <string name="backup_summary">ৰপ্তানি/আমদানি Amaze সংহতিসমূহ</string>
+
+    <string name="pref_export">ৰপ্তানি</string>
+    <string name="pref_export_summary">ৰপ্তানি সংহতিসমূহ</string>
+    <string name="pref_import">আমদানি</string>
+    <string name="pref_import_summary">আমদানি সংহতিসমূহ</string>
+
+    <string name="quick_desc">ফাইলসমূহ শেহতীয়াকৈ Amaze</string>
+    <string name="recent_desc">শেহতীয়াকৈ সৃষ্টি কৰা বা পৰিবৰ্তন কৰা ফাইলসমূহৰ যোগেদি অভিগম কৰা হৈছে</string>
+    <string name="error_cannot_find_way_open">ফাইল খোলাৰ উপায় বিচাৰি পোৱা হোৱা নাই</string>
+    <string name="error_cant_decompress_that_file">অনুৰোধ কৰা আৰ্কাইভ প্ৰক্ৰিয়া কৰিব পৰা হোৱা নাই</string>
+    <string name="analyse_storage">সংৰক্ষণ বিশ্লেষণ কৰক</string>
+    
+    <string name="download_amaze_utils_text">আপুনি Amaze ফাইল সঁজুলিসমূহলৈ পুনৰনিৰ্দেশিত কৰা হৈছে। ই আমাৰ মুক্ত উৎস এপ যিয়ে অডিঅ\'/ভিডিঅ\'/চিত্ৰ/নথিপত্ৰ দৰ্শক ইনবিল্ট কৰিছে, আপোনাক সংৰক্ষণ মুক্ত কৰিবলৈ জাংক ফাইল বিশ্লেষণ কৰাৰ অনুমতি দিয়ে, ৱাইফাই পি টু পি ব্যৱহাৰ কৰি দ্ৰুত স্থানান্তৰ আৰু বহুতো।\nঅনুগ্ৰহ কৰি ইয়াক চেষ্টা কৰি আমাক সমৰ্থন কৰক।</string>
+    <string name="download">ডাউনলোড</string>
+    <string name="wifip2p">ৱাই-ফাই P2P</string>
+    <string name="amaze_utils_installed_alias">Amaze ফাইল সঁজুলিসমূহ ইনষ্টল কৰাৰ বাবে ধন্যবাদ। আপুনি এপটোলৈ পুনৰনিৰ্দেশিত কৰা হৈছে।</string>
+    <string name="image_viewer">বিস্ময় কৰক ছবি দৰ্শক</string>
+    <string name="video_player">বিস্ময় কৰক ভিডিঅ\' প্লেয়াৰ</string>
+    <string name="amaze_audio_player">বিস্ময় কৰক সংগীত প্লেয়াৰ</string>
+    <string name="pdf_viewer">বিস্ময় কৰক নথিপত্ৰ দৰ্শক</string>
+    <string name="docx_viewer">Amaze দস্তাবেজ দৰ্শক</string>
+    <string name="share_logs">লগসমূহ অংশীদাৰী কৰক</string>
+    <string name="share_logs_summary">ইমেইল / টেলিগ্ৰামৰ জৰিয়তে ধৰা পৰা লগসমূহ অংশীদাৰী কৰক</string>
+    <string name="open_with_amaze">Amaze</string>
+    <string name="confirmation">নিশ্চিতকৰণৰ সৈতে খোলক</string>
+    <string name="open_file_confirmation">আপুনি নিশ্চিত নেকি যে আপুনি নিম্নলিখিত নথিপত্ৰ খোলিব বিচাৰে?\n\nনাম:\n%s\n\nঅৱস্থান:\n%s\n\nআকাৰ:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play নীতিৰ নিৰ্দেশ অনুসৰি, এপসমূহক নিজাববীয়াকৈ আপডেট কৰাৰ অনুমতি দিয়া হোৱা নাই। অনুগ্ৰহ কৰি Google Play ৰ পৰা এপটো আপডেইট কৰক।</string>
+    <string name="error_cannot_get_package_info">\"%s\" ফাইলৰ পৰা পেকেইজৰ তথ্য পাবলৈ অক্ষম। হয় ধাৰ্য্য কৰা নথিপত্ৰ এটা APK নহয়, বা সৰঞ্জাম নথিপত্ৰ নষ্ট।</string>
+    <string name="preference_delete_confirmation">নিশ্চিতকৰণ মচি পেলাওক</string>
+    <string name="preference_delete_confirmation_summary">নথিপত্ৰসমূহ মচি পেলোৱাৰ আগতে নিশ্চিতকৰণৰ বাবে সুধিব। এইটো নিষ্ক্ৰিয় কৰাটো অতি নিৰুৎসাহিত!</string>
+    
+    
+    <string name="protocol_ftps">সুৰক্ষিত FTP</string>
+    <string name="unavailable">অপ্ৰাপ্য</string>
+
+    <string name="exporting_failed">ৰপ্তানি কৰা ব্যৰ্থ: বেকআপ নথিপত্ৰ লিখিব পৰা নগ\'ল</string>
+    <string name="importing_failed">আমদানি ব্যৰ্থ: বেকআপ পঢ়িব পৰা নগ\'ল ফাইল</string>
+    <string name="importing_completed">আমদানি সম্পূৰ্ণ</string>
+    <string name="invalid_backup_file">অবৈধ বেকআপ ফাইল</string>
+    <string name="import_failed_for">আমদানি ব্যৰ্থ:</string>
+    <string name="free_of">"%s\n%s %s ৰ পৰা মুক্ত</string>
+    <string name="cloud_error_fdroid">Amaze ক্লাউড প্লাগইন F- ৰ সৈতে সমৰ্থিত নহয়। অনুগ্ৰহ কৰি Amaze.</string>
+    <string name="disable_player_intent_filters">প্লেয়াৰৰ উদ্দেশ্য ফিল্টাৰসমূহ নিষ্ক্ৰিয় কৰক</string>
+    <string name="disable_player_intent_filters_summary">ফাইল নিৰ্বাচকৰ পৰা Amaze ইনবিল্ট মিডিয়া প্লেয়াৰসমূহ নিষ্ক্ৰিয় কৰক</string>
+    <string name="no_app_found_intent">এই উদ্দেশ্য নিয়ন্ত্ৰণ কৰিবলৈ কোনো এপ পোৱা নগ\'ল। আপোনাৰ DocumentsUI ইনষ্টল কৰা হৈছেনে?</string>
+    <string name="cloud_connection_credentials_cleared">ক্লাউড সংযোগ প্ৰমাণপত্ৰসমূহ পৰিষ্কাৰ কৰা হৈছে</string>
+    <string name="cloud_connection_credentials_cleared_msg">দুৰ্ভাগ্যজনকভাৱে, আমি আপোনাৰ ক্লাউড সংযোগ প্ৰমাণপত্ৰসমূহ নতুন ডাটাবেছ আঁচনিলৈ প্ৰব্ৰজন কৰিব পৰা নাছিলো, আৰু আমি সেইবোৰ এপৰ পৰা আঁতৰাবলগীয়া হৈছিল। অনুগ্ৰহ কৰি ক্লাউড সংযোগ পুনৰ সৃষ্টি কৰক।</string>
+</resources>

@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Навигациялык суурманы ачуу</string>
+    <string name="drawer_close">Навигациялык суурманы жабуу</string>
+    <string name="icon">сөлөкөт</string>
+    <string name="apps">Колдонмо менеджери</string>
+    <string name="ftp">FTP сервери</string>
+    <string name="setting">Орнотуулар</string>
+    <string name="select">Нерсени тандаңыз</string>
+    <string name="press_again">Чыгуу үчүн кайра басыңыз</string>
+    <string name="open">Ачуу</string>
+    <string name="backup">Камдык көчүрмөнү</string>
+    <string name="uninstall">Орнотуу</string>
+    <string name="play">Play дүкөнү</string>
+    <string name="properties">Касиеттери</string>
+    <string name="copyingapks">%d APK файлын %sге көчүрүү</string>
+    <string name="delbook">Кыстармаларды жок кылуу</string>
+    <string name="add_to_bookmarks">Кыстармаларга кошуу</string>
+    <string name="enterpath">Жолду киргизиңиз</string>
+    <string name="cancel">CANCE</string>
+    
+    <string name="loading">Жүктөө…</string>
+    <string name="file_empty">Файл бош</string>
+    <string name="error">Ката</string>
+    <string name="search_results">%s издөө натыйжалары</string>
+    <string name="rename">Атын өзгөртүү</string>
+    <string name="save">Сактоо</string>
+    <string name="bookmarks_added">Кыстармалар Кошулган</string>
+    <string name="fileexist">Ошол аттагы файл мурунтан эле бар</string>
+    <string name="name">Аты</string>
+    <string name="date">Датасы</string>
+    <string name="location">Жайгашкан жер</string>
+    <string name="size_capitalized">Өлчөмү</string>
+    <string name="size">папканын өлчөмү</string>
+    <string name="enterzipname">Zip атын киргизиңиз</string>
+    <string name="no_app_found">Бул файлды ача турган колдонмо табылган жок</string>
+    <string name="copying">Көчүрүү</string>
+    <string name="moving">Жылдуу</string>
+    <string name="file">Файл</string>
+    <string name="folder">Папка</string>
+    <string name="newfolder">Жаңы папка</string>
+    <string name="entername">Атын киргизиңиз</string>
+    <string name="extracting">Чыгып алуу</string>
+    <string name="stopping">Токтотуу</string>
+    <string name="open_parent">Ата-эне каталогун ачуу</string>
+    <string name="open_with">менен ачуу</string>
+    <string name="share">Бөлүшүү</string>
+    <string name="about">Туура</string>
+    <string name="extract">Чыгаруу</string>
+    <string name="compress">Кысуу</string>
+    <string name="yes">Ооба</string>
+    <string name="no">Жок</string>
+    
+    <string name="dialog_delete_category_directories">Каталогдор</string>
+    <string name="dialog_delete_category_files">Файлдар</string>
+    <string name="dialog_delete_disclaimer">Төмөндөгү нерселерди жок кылуу аларды түзмөгүңүздөн биротоло өчүрөт жана аларды калыбына келтирүүгө болбойт.</string>
+    <string name="dialog_delete_title">Нерселерди биротоло өчүрөсүзбү?</string>
+    <string name="deleting">Жок кылынууда</string>
+    <string name="question_set_path_as_home">Учурдагы жолду бул өтмөк үчүн үй катары орноткуңуз келеби?</string>
+    <string name="directorysort">Каталогду иреттөө режими</string>
+    <string name="sort_by">Иртиптөө</string>
+    <string name="sort_only_this">Ушул папка гана</string>
+    <string name="theme">Тема</string>
+    <string name="random">Кокус тери</string>
+    <string name="random_summary">Ишке киргенде туш келди негизги түстү орнотот</string>
+    <string name="colorize">Сөлөкөттөрдү түстүү</string>
+    <string name="colorize_summary">Орнотуулар статикалык сөлөкөтүн түсү. Каталогдун сүрөтчөсүнүн түс тандоосун жокко чыгарбайт.</string>
+    <string name="home">Башкы бет</string>
+    <string name="paste">Чаптоо</string>
+    <string name="history">Тарых</string>
+    <string name="copy">Көчүрүү</string>
+    <string name="root_mode">Тамыр изилдөөчү</string>
+    <string name="root_mode_summary">Төмөнкү түзмөк үчүн гана. Эгер сиз ишенсеңиз гана текшериңиз.</string>
+    <string name="root_failure">Тамырга кирүү мүмкүнчүлүгү берилген жок</string>
+    <string name="select_all">Баарын тандаңыз</string>
+    <string name="delete">Жок кылуу</string>
+    <string name="set_as_home">Үй катары коюу</string>
+    <string name="operation_not_supported">Операция колдоого алынбайт</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Материалдык жарык</string>
+    <string name="dark">Материалдык жарык</string>
+    <string name="daytime">Күндүзгү</string>
+    <string name="black">Кара (OLED үчүн)</string>
+    <string name="system">Систем (тутум темасын аткарыңыз)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Үстүндөгү папкалар</string>
+    <string name="filesOnTop">Үстүндөгү файлдар</string>
+    <string name="none_on_top">Эч бири жок</string>
+    <!--SortBy-->
+    <string name="sort_name">Аты</string>
+    <string name="lastModified">Акыркы өзгөртүлгөн</string>
+    <string name="sort_size">Өлчөмү</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Файлды тандоо</string>
+    <string name="process_viewer">Процессти көрүү</string>
+    <string name="in_safe">Бош орун жетишсиз</string>
+    <string name="no_file_overwrite">Файлдын үстүнө жазылган жок</string>
+    <string name="skip">Өткөрүп жиберүү</string>
+    <string name="overwrite">Үстүнө жазуу</string>
+    <string name="not_allowed">Уруксат берилбейт</string>
+    <string name="searching">Издөө %s</string>
+    <string name="done">Бүттү</string>
+    <string name="set">Орнотуу</string>
+    <string name="enablerootmde">Тамыр режимин иштетүү</string>
+    <string name="goback">Артка кайтуу</string>
+    <string name="newfile">Жаңы файл</string>
+    <string name="no_files">Файлдар жок</string>
+    <string name="used">колдонулган мейкиндик</string>
+    <string name="used_by_others">башкалар тарабынан колдонулган</string>
+    <string name="free">бош орун</string>
+    <string name="listview">Тизме көрүнүшү</string>
+    <string name="gridview">Терчек Көрүү</string>
+    <string name="permission">Уруксаттарды</string>
+    <string name="hide">Жашыруу</string>
+    <string name="exit">Чыгуу</string>
+    <string name="doforall">Бардык элементтер үчүн аткаруу</string>
+    <string name="gridcolumnno">Торчо көрүнүшүндөгү мамычалардын саны</string>
+    <string name="set_random">Өзгөртүүлөр колдонмону өчүрүп күйгүзгөндөн кийин ишке ашат</string>
+    <string name="authors">Авторлор</string>
+    
+    
+    <string name="ui">Интерфейс</string>
+    <string name="general">Жалпы</string>
+    <string name="thumb_summary">Колдонмолордун жана сүрөттөрдүн эскиздерин көрсөтүү</string>
+    <string name="thumb">Эскиздерди көрсөтүү</string>
+    <string name="hidden">Жашыруун файлдарды жана папкаларды көрсөтүү</string>
+    <string name="lastModifiedSummary">Акыркы өзгөртүүнүн датасын жана убактысын көрсөтүү</string>
+    <string name="lastModifiedPref">Акыркы өзгөртүлгөн күндү көрсөтүү жана Убакыт</string>
+    <string name="size_pref_summary">Файлдардын өлчөмүн жана папкалардагы элементтердин санын көрсөтүү</string>
+    <string name="size_pref">Өлчөмдөрдү көрсөтүү</string>
+    <string name="miscellaneous">Ар кандай</string>
+    <string name="root_pref_summary">Файлдардын жана папкалардын уруксаттарын көрсөтүү</string>
+    <string name="root_pref">Уруксаттарды көрсөтүү</string>
+    <string name="about_amaze_file_manager_label">Amaze File Manager жөнүндө</string>
+    
+    <string name="rate">Колдонмого баа берүү</string>
+    <string name="feedback">Пикир жөнөтүү</string>
+    <string name="hiddenfiles">Жашыруун файлдар</string>
+    <string name="type">Териңиз</string>
+    <string name="root_directory">Тамыр</string>
+    <string name="add_shortcut">Кыска жолду кошуу</string>
+    <string name="unsaved_changes">Сакталбаган өзгөртүүлөр</string>
+    <string name="unsaved_changes_description">Сизде сакталбаган өзгөртүүлөр бар, аларды чыгуудан мурун сактагыңыз келеби?</string>
+    <string name="saving">Сактоо</string>
+    <string name="package_installer">Пакет орнотуучу</string>
+    <string name="view">Көрүү</string>
+    <string name="install">Орнотуу</string>
+    <string name="archive">Архив</string>
+    <string name="archive_text">Бул архив. Кандай аракетти аткаргыңыз келет?</string>
+    <string name="package_installer_text">Бул топтомду орнотуучу. Кандай аракетти аткаргыңыз келет?</string>
+    <string name="xda_title">XDA жип</string>
+    <string name="xda_summary">С&amp;amp;Ж, Жардам жана Көйгөйлөрдү чечүү</string>
+    <string name="circular_images">Сүрөттөр жана видеолор үчүн тегерек сүрөтчөлөрдү колдонуңуз</string>
+    <string name="circular_icons">Тегерек сүрөтчөлөрдү колдонуңуз</string>
+    <string name="back_title">Артка навигация</string>
+    <string name="back_summary">Тизменин башында ыңгайлаштырылган артка навигацияны иштетет</string>
+    <string name="details">Чоо-жайы</string>
+    <string name="translators">Котормочулар</string>
+    <string name="german_translation_title">Германча</string>
+    <string name="italian_translation_title">Италия</string>
+    <string name="french_translation_title">Французча</string>
+    <string name="russian_translation_title">Орусча</string>
+    <string name="spanish_translation_title">Испанча</string>
+    <string name="basque_translation_title">Баскча</string>
+    <string name="chinese_translation_title">Кытайча</string>
+    <string name="serbian_translation_title">Сербча</string>
+    <string name="turkish_translation_title">Түрк</string>
+    <string name="ukrainian_translation_title">Украинча</string>
+    <string name="portuguese_translation_title">Португалча</string>
+    <string name="polish_translation_title">Польша</string>
+    <string name="korean_translation_title">Корейче</string>
+    <string name="greek_translation_title">Грекче</string>
+    <string name="dutch_translation_title">Голландча</string>
+    <string name="romanian_translation_title">Румынча</string>
+    <string name="vietnamese_translation_title">Вьетнамча</string>
+    <string name="japanese_translation_title">Япончо</string>
+    <string name="tamil_translation_title">Tamil </string>
+
+    
+    <string name="unin_system_apk">Бул тутумдук колдонмо, аны жок кылуу системанын туруксуздугуна алып келиши мүмкүн.\nУлантасызбы?</string>
+    <string name="warning">Эскертүү</string>
+    <string name="donate">Кайрылуу</string>
+    <string name="archive_extract_folder">Архивдин көчүрмө папкасы</string>
+    <string name="archive_summary">Архивдик файлдар бул папкага чыгарылат. Демейки маани - архив бар каталог.</string>
+    <string name="open_as">Ачык катары</string>
+    <string name="text">Текст</string>
+    <string name="audio">Аудио</string>
+    <string name="video">Видео</string>
+    <string name="other">Башка</string>
+    <string name="image">Сүрөт</string>
+    <string name="contributors">Салым кошуучулар</string>
+    <string name="save_paths">Жолдорду эстеп калуу</string>
+    <string name="save_path_summary">Иштеп баштаганда, ар бир өтмөк үчүн эң акыркы көргөн папка көрсөтүлөт</string>
+    <string name="select_intent">Тандоо</string>
+    <string name="database">Маалымат базасы</string>
+    <string name="colored_navigation">Түстүү Чабыттоо тилкеси</string>
+    <string name="colored_navigvation_sum">Тутумдун навигация тилкеси тери менен боёлгонбу же түспөгөнү</string>
+
+    <string name="color_title">Түс</string>
+    <string name="color_summary">Ар кандай UI компоненттерине түс коюу</string>
+    <string name="primary_color_title">Негизги түс (Сол өтмөк)</string>
+    <string name="primary_color_summary">Түстү сол өтмөк үчүн чоң UI элементтерине коюу</string>
+    
+    <string name="accent_color_summary">FAB жана башка кичинекей UI элементтерине түс коюу</string>
+    <string name="icon_color_title">Сөлөкөттүн түсү</string>
+    <string name="icon_color_summary">Сөлөкөттөрдүн түсүн коюңуз</string>
+    <string name="choose_color">Түстү тандаңыз</string>
+    <string name="files">Файлдар</string>
+    <string name="textreader">Текст окугуч</string>
+    <string name="databasereader">Маалымат базасын окугуч</string>
+    <string name="show_dividers">Бөлүнүүчүлөрдү көрсөтүү</string>
+    <string name="needs_access">Жазуу мүмкүнчүлүгү талап кылынат</string>
+    <string name="needs_access_summary">Сураныч, \t</string>
+    <string name="needs_access_summary1">\t негизги каталогун тандаңыз</string>
+    
+    <string name="smb_server">Сервердин IP дареги</string>
+    <string name="server_address">иштетүү үчүн жазууга уруксат берүү Сервердин IP дареги</string>
+    <string name="username">Колдонуучунун аты</string>
+    <string name="password">Сырсөз</string>
+    <string name="anonymous">Анонимдүү</string>
+    
+    <string name="folders">Папкалар</string>
+    <string name="folderfilecount">%1$d папкалар жана %2$d файл</string>
+    <string name="videos">Видеолор</string>
+    
+    <string name="documents">Документтер</string>
+    <string name="images">Сүрөттөр</string>
+    <string name="clear">Тазалоо</string>
+    
+    <string name="total">Бардыгы:</string>
+    <string name="calculating">эсептөө</string>
+    <string name="sort">Иртиптетүү</string>
+    <string name="ascending">Өсүү боюнча</string>
+    <string name="descending">Төмөндөө боюнча</string>
+    <string name="default_string">Демейки</string>
+    <string name="doit">8 кылуу</string>
+    <string name="want_help">8  Жардам керекпи?</string>
+    <string name="quick">Тез жетүү</string>
+    <string name="recent">Акыркы файлдар</string>
+    <string name="edit">Түзөтүү</string>
+    <string name="find">Беттен табуу</string>
+    <string name="grant">Грант</string>
+    <string name="grantper">Уруксат берүү</string>
+    <string name="grantfailed">Уруксат берилген жок</string>
+    <string name="grant_storage_permission">Улантуу үчүн колдонмо сактагычка уруксат алышы керек. Бул диалогду жокко чыгаруу колдонмодон чыгат.</string>
+    <string name="operation_unsuccesful">Операция Ийгиликсиз</string>
+    <string name="creatingfile">Файл түзүү</string>
+    <string name="creatingfolder">Папканы түзүү</string>
+    <string name="renaming">Атын өзгөртүү</string>
+    <string name="cant_be_empty">%s бош болушу мүмкүн эмес</string>
+    <string name="ip">Дарек</string>
+    <string name="connection_name">Туташуу аталышы</string>
+    <string name="no_device_found">Түзмөктөр табылган жок</string>
+    <string name="path">Жол</string>
+    <string name="rename_bookmark">Белгилерди өзгөртүү</string>
+    
+    <string name="search">Издөө</string>
+    <string name="invalid_name">Жараксыз ысым</string>
+    <string name="search_hint">Издөө үчүн териңиз…</string>
+    <string name="advanced_search">Өркүндөтүлгөн издөө</string>
+    <string name="regular_expression">Кадимки туюнтма</string>
+    <string name="regular_expression_summary">BASH стилиндеги кадимки туюнтманы колдонуп издөө</string>
+    <string name="match_content">Мазмунду дал келүү</string>
+    <string name="match_content_summary">Эгер коюлган болсо, кадимки туюнтма файлдын бүт аты менен дал келет,
+        башка жагдайды издейт.</string>
+    <string name="start_ftp">Старт</string>
+    <string name="stop_ftp">Токто</string>
+    <string name="ftp_status_running">Чуркоо</string>
+    <string name="ftp_status_not_running">Ишпейт</string>
+    <string name="ftp_no_wifi">Wi тармагына туташып турганыңызды текшериңиз -Fi</string>
+    <string name="domain">Домен</string>
+    <string name="smb_share">Бөлүшүү жолу</string>
+    <string name="invalid">Жараксыз %s</string>
+    <string name="ftp_notif_starting">FTP сервери иштетилип жатат</string>
+    <string name="ftp_notif_starting_title">FTP сервери</string>
+    <string name="ftp_notif_title">Amaze FTP сервери иштейт</string>
+    <string name="ftp_notif_text">%s</string>
+    <string name="ftp_notif_stop_server">ТОКТОТУУ</string>
+    <string name="ftp_port_edit_menu_title">FTP порту</string>
+    <string name="ftp_port_change_success">FTP порт ийгиликтүү өзгөртүлдү</string>
+    <string name="ftp_port_change_error_invalid">Порт номери жараксыз тандалды</string>
+    <string name="primary_two_title">Негизги түс (оң өтмөк)</string>
+    <string name="primary_two_summary">Түстү туура өтмөк үчүн чоң UI элементтерине коюу</string>
+    <string name="support_development">Өнүктүрүүнү колдоо</string>
+    <string name="report_bugs_title">Каталарды кабарлоо</string>
+    <string name="source_title">Булак коду</string>
+    <string name="source_summary">GitHub\'да биздин баштапкы кодду көрүү</string>
+    <string name="report_bugs_summary">Каталар жөнүндө кабарлоо же жаңы функцияны сураңыз</string>
+    <string name="translate_title">Которуу</string>
+    <string name="translate_summary">Которуу Өз тилиңизде таң калтырыңыз</string>
+    <string name="paypal_copy_message">PayPal ID алмашуу буферине көчүрүлдү</string>
+    <string name="searching_devices">Түзмөктөрдү издөө</string>
+    <string name="use_custom_ip">Ыңгайлаштырылган IP колдонуңуз</string>
+    <string name="bookmark_lost">Кыстарма табылган жок, кайра түзүлүүдө...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Android\'де (SMB) жалпы Windows папкасына кантип кирүүгө болот\n\n
+                
+                    
+                        Windows\'до файл бөлүшүүнү иштетүү\n
+                    
+                    
+                        Башкаруу панелин ачып, Тармак астындагы Үй тобун жана Бөлүшүү параметрлерин тандаңыз
+                        жана Интернетке өтүп, "Өркүндөтүлгөн бөлүшүү жөндөөлөрүн өзгөртүү" баскычын чыкылдатып, "Файл жана
+                        Принтерди бөлүшүү" өзгөчөлүгү.\n\n
+                    
+
+                    
+                        Файлды бөлүшүүнүн кошумча жөндөөлөрү\n
+                    
+                    
+                        Бул жерден башка өркүндөтүлгөн бөлүшүү жөндөөлөрүн конфигурацияласаңыз болот. \n
+                        Мисалы, бардыгына ишенсеңиз, файлдарыңызга сырсөзсүз кирүү мүмкүнчүлүгүн иштетсеңиз болот
+                        жергиликтүү тармагыңыздагы түзмөктөр. Файлды жана принтерди бөлүшүү иштетилгенден кийин, сиз жасай аласыз
+                        File Explorer же Windows Explorer ачыңыз, бөлүшкүңүз келген папканы оң баскыч менен чыкылдатыңыз жана
+                        Properties тандаңыз. \n
+                        Бөлүшүү баскычын чыкылдатып, папканы тармакта жеткиликтүү кылыңыз.\n\n
+                        
+
+                    
+                        Эки түзмөк тең бир Wifi туташып турганын текшериңиз\n
+                    
+                    
+                        Бул функция файлдарды жергиликтүү тармакта жеткиликтүү кылат, ошондуктан сиздин компьютериңиз жана мобилдик түзмөктөрүңүз
+                        ошол эле жергиликтүү тармакта болушу керек. Сиз жалпы Windows папкасына кире албайсыз
+                        Интернет аркылуу же смартфонуңуз өзүнүн мобилдик маалыматтарына туташып турганда — бул
+                        Wi-Fi тармагына туташуу керек.\n\n
+                    
+
+                    
+                        IP дарегин табыңыз\n
+                    
+                    
+                        Буйрук сунушун ачуу. \'ipconfig\' терип, Enter басыңыз. Демейки шлюзду издеңиз
+                        роутериңиздин IP дареги үчүн тармак адаптериңиздин астында. Издөө
+                        Компьютериңиздин IP дарегин табуу үчүн ошол эле адаптер бөлүмүнүн астындагы \\\"IPv4 дареги\\\"
+                        дареги.\n\n
+                    
+
+                    SMB диалог кутусуна чоо-жайын киргизиңиз\n
+                
+            
+        
+   </string>
+    <string name="share_limit">100дөн ашык файлды бөлүшө албайт</string>
+    <string name="otg_access">OTG түзмөгүнүн тамырын тандаңыз</string>
+    <string name="information">Маалымат</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Кетилген</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Өзгөртүлгөн</string>
+
+    <string name="title">Аталышы</string>
+    <string name="artist">Сүрөтчү</string>
+    <string name="album">Альбом</string>
+    <string name="year">Жыл</string>
+    <string name="duration">Узактыгы</string>
+    <string name="comment">Комментарий</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Контейнер</string>
+    <string name="codec">Кодек</string>
+    <string name="channels">Каналдар</string>
+    <string name="sample_rate">Үлгү ылдамдыгы</string>
+    <string name="bitrate">Битрейт</string>
+    <string name="dimensions">Өлчөмдөр</string>
+    <string name="frame_rate">Кадрдын ылдамдыгы</string>
+    <string name="image_type">Im </string>
+    <string name="width">Энин</string>
+    <string name="height">Бийиктиги</string>
+    <string name="date_modified">Өзгөртүлгөн күнү</string>
+    <string name="software">Программалык камсыздоо</string>
+    <string name="creator">Жаратуучу</string>
+    <string name="camera_brand">Камера бренди</string>
+    <string name="camera_model">Cam Модель</string>
+    <string name="date_taken">Алынган датасы</string>
+    <string name="exposure_time">Экспозиция убактысы</string>
+    <string name="aperture_value">Апертуранын мааниси</string>
+    <string name="image_iso">ISO ылдамдык рейтинги</string>
+    <string name="flash_fired">Жарк эткен</string>
+    <string name="focal_length">Фокалдык узундук</string>
+    <string name="subject">Тема</string>
+    <string name="author">Автор</string>
+    <string name="keywords">Ачкыч сөздөр</string>
+    <string name="producer">Продюсер</string>
+    <string name="created">Жазылган</string>
+    <string name="format">Формат</string>
+    <string name="pages">Nummber Барактар</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Оптималдаштырылган</string>
+    <string name="security">Коопсуздук</string>
+    <string name="paper_size">Кагаздын өлчөмү</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Кээ бир файлдар ийгиликтүү болгон жок %s</string>
+    <string name="copied">көчүрүлдү</string>
+    <string name="moved">жылдырылды</string>
+    <string name="copy_complete">Көчүрүү аяктады</string>
+    <string name="waiting_title">Күтүүдө</string>
+    <string name="waiting_content">Операциянын аягына чыгышын күтүүдө</string>
+    <string name="extract_complete">Чыгып алуу аяктады</string>
+    <string name="compression_complete">Кысуу аяктады</string>
+    <string name="compressing">Кысуу</string>
+    <string name="cancelled">Жокко чыгарылды</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Жазылган</string>
+    <string name="out_of">ден</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">дын</string>
+    <string name="processing_file">Файлды иштетүү</string>
+    <string name="current_speed">Учурдагы ылдамдык</string>
+    <string name="smb_launch_error">Бул файлды ачуу үчүн сактагычка көчүрүшүңүз керек болот</string>
+    <string name="error_file_not_found">Ката: Файл табылган жок</string>
+    <string name="error_io">I/O Ката</string>
+    <string name="error_file_too_large">Ката: Файл өтө чоң</string>
+    <string name="medium_text">Орто текст</string>
+    <string name="permission_read">Оку</string>
+    <string name="permission_write">Жазуу</string>
+    <string name="permission_execute">Аткаруу</string>
+    <string name="permission_owner">Ээси</string>
+    <string name="permission_group">Топ</string>
+    <string name="permission_other">Башка</string>
+    <string name="clipboard_path_copy">Жол алмашуу буферине көчүрүлдү</string>
+    <string name="service_timer">Убакыт өттү</string>
+    <string name="please_wait">Күтө туруңуз</string>
+
+    <string name="cloud_connection">Булуттагы туташуу</string>
+    <string name="cloud_connection_new">Жаңы Cloud Connection</string>
+    
+    
+    
+    <string name="cloud_box">Куту</string>
+    <string name="cloud_get">Булуттун плагинин алуу</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Эч кандай тиркемелер</string>
+    <string name="ftp_path">Бөлүшүлгөн жол</string>
+    <string name="ftp_path_hint">Бөлүшүү үчүн каталогдун тамырына жол</string>
+    <string name="change">Өзгөртүү</string>
+    <string name="unknown_error">Ой, бир жерден ката кетти!</string>
+
+    <string name="ftp_path_change_success">FTP жолу ийгиликтүү өзгөртүлдү</string>
+    <string name="ftp_path_change_error_invalid">Жарамсыз жол</string>
+    <string name="ftp_status_no_connection">Туташуу жок</string>
+    <string name="ftp_status_secure_connection">Коопсуз туташуу</string>
+    <string name="ftp_status_title">Статус</string>
+    <string name="ftp_port">Порт</string>
+    <string name="ftp_login">Кирүү</string>
+    <string name="field_empty">Талаа бош болушу мүмкүн эмес</string>
+    <string name="ftp_timeout">Бош туруу күтүү убакыты</string>
+    <string name="ftp_seconds">Секунддар</string>
+    <string name="intellihide_toolbar_title">Intellihide Куралдар тактасы</string>
+    <string name="intellihide_toolbar_summary">Сыдыруу учурунда куралдар тилкесин автоматтык түрдө жашыруу</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">буферге көчүрүлдү</string>
+    <string name="contributors_1_summary">Которуу</string>
+    <string name="contributors_2_summary">Сөлөкөт жана баннерлер</string>
+    <string name="contributors_3_summary">Тема кыймылдаткычы</string>
+    <string name="contributors_4_summary">FAB артына көлөкө</string>
+    <string name="contributors_5_summary">Өтмөктөрдү сүрүп жатканда түскө өтүү</string>
+    <string name="contributors_6_summary">FTP сервери</string>
+    <string name="contributors_7_summary">Интерактивдүү кабыкчаны иштетүү</string>
+    <string name="connection_exists">Туташуу мурунтан эле бар</string>
+
+    <string name="crypt_encrypting">Шифрлөө</string>
+    <string name="crypt_decrypting">Шифрлөө</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Шифрленген</string>
+    <string name="crypt_decrypted">Шифрленген</string>
+    <string name="crypt_encrypt">Шифрленген</string>
+    <string name="crypt_decrypt">Шифрленген</string>
+    <string name="operation_fail_following">Төмөнкү файлдар үчүн операция ишке ашкан жок</string>
+    <string name="crypt_pref_master_password_title">Негизги сырсөз</string>
+    <string name="crypt_pref_master_password_summary">Шифрлөө үчүн башкы сырсөздү коюңуз.
+        Өчүрүү үчүн бош калтырыңыз.</string>
+    <string name="crypt_pref_fingerprint_title">Манжа изи</string>
+    <string name="crypt_pref_fingerprint_summary">Шифрлөөнүн аныктыгын текшерүү үчүн манжа изин колдонуңуз</string>
+    <string name="crypt_fingerprint_no_permission">Манжа изи уруксаттары жок</string>
+    <string name="crypt_fingerprint_not_enrolled">Манжа изи катталган жок</string>
+    <string name="crypt_fingerprint_no_security">Блоктолгон экран жок табылган</string>
+    <string name="crypt_warning_key">Коопсуздук үлгүсүн өзгөрткөндө, кеңеш бериңиз
+        Тутум жөндөөлөрү, бул мазмундун шифрин чече албайсыз.</string>
+    <string name="warning_never_show">Кайра билдирбеңиз</string>
+    <string name="warning_confirm">Түшүнүк!</string>
+    <string name="crypt_encryption_fail">Шифрленген жок</string>
+    <string name="crypt_decryption_fail">Шифрленген жок</string>
+    <string name="crypt_decryption_fail_password">Туура сырсөз!</string>
+    <string name="crypt_fingerprint_authenticate">Улантуу үчүн сенсорду басыңыз</string>
+    <string name="authenticate_password">Сырсөздү киргизиңиз</string>
+
+    <string name="sidebar_preferences">Каптал тилкеси</string>
+    <string name="sidebar_quick_access_title">Каптал тилкеси тез жетүү</string>
+    <string name="show_quick_access_pref_title">Ыкчам жетүүлөрдү көрсөтүү</string>
+    <string name="show_quick_access_pref">Ыкчам кирүүлөр</string>
+    <string name="directory">Каталог</string>
+
+    <string name="sidebar_bookmarks_title">Капталдагы кыстармалар</string>
+    <string name="show_bookmarks_pref_title">Show кыстармалар</string>
+    <string name="show_bookmarks_pref">Кыстармалар</string>
+    <string name="create_bookmark">Кыстарма түзүү</string>
+    <string name="edit_bookmark">Кыстармаларды түзөтүү</string>
+    <string name="question_delete_bookmark">Кыстарма жок кылынсынбы?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud плагини табылган жок. Сураныч, Play Дүкөндөн жүктөп алыңыз.</string>
+    <string name="cloud_error_failed_restart">Туташуу жүктөлбөй калды.
+        Сураныч, Amaze Cloud\'ту бир жолу ачыңыз.</string>
+    <string name="cloud_remove">Булуттук туташууну алып салгыңыз келеби?</string>
+    <string name="cloud_fail_authenticate">Аныктыгы текшерилбей калды</string>
+    <string name="cloud_share_copied">Бөлүшүүчү шилтеме алмашуу буферине көчүрүлдү</string>
+    <string name="copy_low_memory">Төө эс тутум, сураныч, бир аз оперативдүү эстутумду тазалаңыз</string>
+    <string name="cloud_token_lost">Токен жоголду, кайра кириңиз</string>
+    <string name="monofont">Monospace шрифт</string>
+    <string name="showHeaders">Баштарды көрсөтүү</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Эч нерсе жок</string>
+	<string name="item">пункт</string>
+	<string name="items">заттар</string>
+	
+	<string name="byte_singular">байт</string>
+	<string name="bytes">байт</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Файлдын аталышы болушу керек</string>
+    <string name="add_item">Нерсени кошуу</string>
+    <string name="failed_smb_decrypt_path">SMB туташуусун жүктөө ишке ашкан жок</string>
+    <string name="failed_cloud_new_connection">Жаңы Cloud туташуу кошулбай калды</string>
+    <string name="failed_cloud_api_key">Булут плагининин аныктыгы текшерилбей калды</string>
+
+    <string name="local_inet_addr_error">Жергиликтүү инет дарегин алууда ката кетти</string>
+    <string name="intent_save_as">Төмөнкү катары сактоо...</string>
+    <string name="go">Өт</string>
+    <string name="advanced">Өркүндөтүлгөн</string>
+    <string name="typeable_paths_title">Ыңгайлаштырылган жолдор</string>
+    <string name="typeable_paths_summary">Ыңгайлаштырууну терүү үчүн жол тилкесин көпкө басыңыз path</string>
+    <string name="send_email_to">Электрондук кат жөнөтүү</string>
+
+    <string name="text_editor">Текст редакторунун жөндөөлөрү</string>
+    <string name="preference_newstack_title">Файлдарды жаңы тапшырма катары ачуу</string>
+    <string name="preference_newstack_summary">Файлдарды өзүнчө тапшырмаларда ачууга мүмкүндүк берет. Аларга системанын акыркылар экранынан кириңиз.</string>
+    
+    <string name="developers">Иштеп чыгуучулар</string>
+    <string name="no_bitcoin_app">Сураныч, Bitcoin Wallet колдонмосун орнотуңуз</string>
+    <string name="channel_name_normal">Таң калтырган билдирмелер</string>
+    <string name="channel_description_normal">File менеджеринин эскертмелерин таң калтырыңыз</string>
+    <string name="channel_name_ftp">FTP серверин таң калтырыңыз</string>
+    <string name="channel_description_ftp">Amaze File Менеджер FTP серверинин эскертмелери</string>
+
+    
+    <string name="processing">Иштелип жатат...</string>
+    <string name="failed_no_connection">Файлдар жүктөлбөй калды. Сураныч, туташууңузду текшериңиз.</string>
+
+    <string name="update">ЖАҢЫРТУУ</string>
+	<string name="scp_connection">SCP/SFTP туташуусу</string>
+    <string name="ftp_connection">FTP туташуусу</string>
+    <string name="ftps_connection">FTP аркылуу SSL туташуусу</string>
+    <string name="scp_port">Порт</string>
+    <string name="ssh_host_key_verification_prompt">\'%1$s\' хостунун аныктыгын аныктоо мүмкүн эмес.\n\n%2$s ачкыч манжа изи — %3$s.\n\nЫрастоо үчүн \"Ооба\" баскычын таптаңыз. өздүк; болбосо, \"Жок\" ​​таптаңыз.</string>
+    <string name="ssh_host_key_verification_prompt_title">Текшерүү Хост</string>
+    <string name="ssh_select_pem_button">SSH Жеке Ачкыч</string>
+    <string name="ssh_pem_key_parse_error">Тандалган PEM окуу мүмкүн эмес: %s</string>
+    <string name="password_unchanged">(өзгөрүлгөн)</string>
+    <string name="ssh_authentication_failure_password">Кирүү катасы: Берилген колдонуучу аты жана сырсөз менен аныктыгын текшерүү мүмкүн эмес.</string>
+    <string name="ssh_authentication_failure_key">Кирүү катасы: Берилген колдонуучу аты жана купуя ачкыч менен аныктыгын текшерүү мүмкүн эмес.</string>
+    <string name="ssh_connect_failed">%1$ менен туташуу мүмкүн эмес. s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ЭСКЕРТҮҮ: АЛЫСКЫ ХОСТ ИДЕНТИФИКАЦИЯСЫ ӨЗГӨРГӨНДҮ!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">КИМдир бирөө ЖАМАН НЕРСЕ ЖАСАП ЖАТАТ ЭКЕН!\n\nКимдир бирөө сизди каптап кетиши мүмкүн. азыр (адам-ортодогу чабуул)! Ошондой эле хост ачкычы жаңы эле өзгөртүлгөн болушу мүмкүн. Алыскы хост тарабынан жөнөтүлгөн ачык ачкычтын манжа изи Amaze\'де сакталган манжа изи менен дал келбейт.\n\nСерверге туташууну улантуу үчүн тутум администраторуңузга кайрылыңыз же жаңы туташууну орнотуңуз.</string>
+    <string name="ssh_key_prompt_passphrase">Ачкычтын купуя сөз айкашын киргизиңиз. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Кыска жолдорду түзүүнү ишке киргизгичиңиз колдобойт.</string>
+    
+    <string name="select_color_config">Түс конфигурациясын тандаңыз</string>
+    <string name="customize">Ыңгайлаштырыңыз</string>
+    <string name="custom">Ыңгайлаштырыңыз</string>
+    <string name="preselected_configs_title">Алдын ала тандалган конфигурациялар</string>
+    <string name="orange">Кызгылт сары</string>
+    <string name="blue">Көк</string>
+    <string name="green">Жашыл</string>
+    <string name="password_no_match">Сырсөз дал келбейт</string>
+    <string name="deselect_all">Баарын тандоодон чыгар</string>
+    <string name="filename">Файлдын аталышы</string>
+    <string name="compress_file_suggest_zip_extension">Файл кеңейтүүсү катары \".zip\" колдонуу сунушталат.</string>
+    <string name="about_amaze">Android үчүн материалдык дизайн файл менеджери</string>
+    <string name="license">Лицензия</string>
+    <string name="libraries">Китепканалар</string>
+    <string name="password_repeat">Сырсөздү кайталоо</string>
+    <string name="create_file_suggest_txt_extension">Файлдын кеңейтүүсү катары \".txt\" колдонуу сунушталат.</string>
+    <string name="ssh_select_pem">Аутентификация үчүн купуя ачкычты тандаңыз</string>
+    <string name="ssh_key_invalid_passphrase">Жараксыз ачкыч купуя сөз айкашы.</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM шифрин чече турган жарактуу декодер жок.</string>
+    <string name="encryption_fail_copy">Дайындар базасындагы шифрлөө жазуусу жаңыртылган жок</string>
+    <string name="extracted">Чыгылган</string>
+    <string name="compressed">Кысылган</string>
+    <string name="processed">Иштелген</string>
+    <string name="no_obtainable_info">Бул файл тууралуу маалымат жок</string>
+    <string name="reopen_from_source">Мүмкүн эмес, акыркы колдонмодон кайра ачыңыз</string>
+    <string name="no_file_error">Бир жерден ката кетти, ача турган эч нерсе жок</string>
+    <string name="file_too_long">файл өтө узун жана аны түзөтүү мүмкүн эмес, бирок сиз биринчи %d символду окуй аласыз</string>
+    <string name="file_read_only">Ачылган файл окуу үчүн гана.</string>
+    <string name="got_it">Түшүнүк!</string>
+    <string name="encrypt_file_save_as">Шифрленген сактоо Файл…</string>
+    <string name="encrypt_folder_save_as">Шифрленген папканы төмөнкүдөй сактоо…</string>
+    <string name="encrypt_option_use_aze">Amaze шифрлөө форматын колдонуңуз</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt - бул AES шифрлөөсүнө негизделген ачык булак файл шифрлөө форматы. Ал ошондой эле көчмө, башка платформалардагы AESCrypt программалары менен чечмелөөгө болот.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt вебсайты</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'дин шифрлөө форматы да AES шифрлөөсүнө негизделген; бирок AESCrypt форматынан айырмаланып, аны ушул аппарат гана чечмелей алат; ошондой эле Amaze File Manager программасын бул түзмөктөн чыгарып салбаңыз жана экранды кулпулоо ыкмасын өзгөртпөшүңүз керек, антпесе шифрленген файлды калыбына келтирүүгө эч кандай мүмкүнчүлүк болбойт.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Шифрленген файлдар файл кеңейтүүсү катары \".aze\" колдонушу керек.</string>
+    <string name="encrypt_file_must_end_with_aes">Шифрленген файлдар файл кеңейтүүсү катары \".aes\" колдонушу керек.</string>
+    <string name="error_aescrypt_decrypt_failed">Шифрди чечүүгө болбойт \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Файлды кайра жазуу мүмкүн эмес.</string>
+    <string name="saved_single_file">Файл \'%s\' катары сакталды.</string>
+    <string name="saved_multi_files">%d файл сакталды.</string>
+    <string name="create_hidden_file_warn">Түзүлгөн файл файлдар тизмесинде жашырылат.</string>
+    <string name="grant_apkinstall_permission">Колдонмого колдонмолорду орнотуу үчүн уруксат керек.</string>
+    <string name="time_remaining">Калган убакыт</string>
+    <string name="transfer_rate">Өткөрүү ылдамдыгы</string>
+    <string name="unknown">белгисиз</string>
+    <string name="multiple_invalid_archive_entries">Архивдеги кээ бир файлдарды чыгаруу мүмкүн эмес; архив бузулган же зыяндуу булактан келген болушу мүмкүн.</string>
+    <string name="saf_otg_explanation">Эми коопсуздук максатында Android\'дин файл тутумуна өтөсүз. Сураныч, сол жактагы тизмеден USB түзмөгүн тандаңыз.</string>
+    <string name="donation_thanks">Кайрымдуулугуңуз үчүн рахмат, бул бизге түрткү берет! (:</string>
+    <string name="enable_marquee_filename">Файл аталыштары үчүн марке эффектин иштетүү</string>
+    <string name="archive_password_prompt">Архив сырсөзүн киргизиңиз:</string>
+    
+    <string name="cannot_extract_archive">\"%s\" архивин чыгаруу мүмкүн эмес: %s</string>
+    <string name="archive_unsupported_or_corrupt">Мүмкүн эмес \"%s\" архивин ачуу. Же биз архивди ача албайбыз, же архив бузулган.</string>
+    <string name="close">Жабуу</string>
+    <string name="bookmark_exists">Кыстарма бар</string>
+    <string name="hide_media">Медиа браузерлерден жашыруу</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">КИМдир бирөө ЖАМАНДУУ НЕРСЕ ЖАСАП ЖАТАТ!\n\nКимдир бирөө сизди тыңшап жаткан болушу мүмкүн (ортодогу адам чабуулу)! Ошондой эле хосттун ачкычы жаңы эле өзгөртүлгөн болушу мүмкүн. Манжа изи анткени алыскы хост тарабынан жөнөтүлгөн ачык ачкыч Amaze\'де сакталган ачкычка дал келбейт.\n\nСиз хосттун манжа изин жаңыртууну улантсаңыз же SSH туташуу жөндөөлөрүн жаңыртуудан баш тартсаңыз болот.</string>
+    <string name="update_host_key">Хост ачкычын жаңыртуу</string>
+    <string name="cancel_recommended">Жокко чыгаруу (сунуш кылынат)</string>
+    
+    
+    <string name="failed_install_apk">Орнотулбай калды</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Ички сактагыч</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD карта</string>
+    <string name="choose_folder">Бул папканы тандаңыз</string>
+    
+    <string name="some_files_failed_invalid_operation">Кээ бир файлдар жараксыздыктан ишке ашкан жок операция</string>
+    <string name="ftp_server_prompt_connect_to_network">Тармакка туташуу же AP иштетүү</string>
+    <string name="ftp_server_open_settings">Жөндөөлөрдү ачуу</string>
+    <string name="move">Жылдыруу</string>
+    <string name="select_save_location">Сактоо үчүн жерди тандоо</string>
+    <string name="scp_default_path">Демейки жол (Милдеттүү эмес)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Кечиресиз, андай болбошу керек болчу.</string>
+    
+    <string name="error_report_button_text">Бул катаны электрондук почта аркылуу билдириңиз</string>
+    <string name="error_report_button_telegram">Бул катаны телеграмма аркылуу кабарлаңыз</string>
+    <string name="copy_for_github">Форматталган отчетту көчүрүү</string>
+    <string name="error_report_open_issue_button_text">GitHub боюнча отчет</string>
+    <string name="error_report_open_github_notice">Сиздин кыйрооңуз талкууланып жаткан маселе мурунтан эле бар же жок экенин текшериңиз.</string>
+    <string name="error_snackbar_message">Кечиресиз, бир жерден ката кетти.</string>
+    <string name="error_snackbar_action">Кабарлоо</string>
+    <string name="what_device_headline">Маалымат:</string>
+    <string name="what_happened_headline">Эмне болду:</string>
+    <string name="info_labels">Эмне:\\nТалап:\\nGMT убактысы:\\nПакет:\\nВерсия:\\nOS версиясы:\\nТүзмөк:\\nМодель:\\nПродукт :</string>
+    <string name="your_comment">Сиздин жорумуңуз (англис тилинде):</string>
+    <string name="error_details_headline">Чоо-жайы:</string>
+    <string name="app_ui_crash">Колдонмо/UI бузулду</string>
+    <string name="error_report_title">Ката кабары</string>
+    <string name="crash_report_copied">Бузуу жөнүндө отчет көчүрүлдү алмашуу буфери</string>
+    <string name="disableIpcSignature">IPC кол коюу текшерүүсүн өчүрүү (Мурунку SMBv1 серверлери үчүн - UNSAFE!)</string>
+    <string name="cannot_delete_file">Файлды жок кылуу мүмкүн эмес</string>
+    <string name="cannot_delete_file_with_reason">Файлды жок кылуу мүмкүн эмес - %s</string>
+    <string name="cannot_rename_file">Файлдын атын өзгөртүү мүмкүн эмес %s - %s</string>
+    <string name="cannot_read_directory">%s каталогун окуу мүмкүн эмес - %s</string>
+    <string name="just_once">Бир эле жолу</string>
+    <string name="always">Дайыма</string>
+    <string name="choose_different_app">Башка тиркемени тандаңыз</string>
+    <string name="clear_open_file">Тазалоо кэш</string>
+    <string name="clear_open_file_summary">Тандалган демейки файл ачуу колдонмолорун тазалайт</string>
+    <string name="ftp_readonly">Окуу үчүн гана мүмкүнчүлүк</string>
+    <string name="legacy_listing_title">Root үчүн эски тизмени колдонуңуз</string>
+    <string name="legacy_listing_summary">Эгер иштетилсе, файлдарды тизмелөө үчүн эски ыкманы колдонот</string>
+    <string name="error_unsupported_v5_rar">RAR архиви \"%s\" колдоого алынбайт RAR v5 архиви.</string>
+    <string name="ftp_prompt_restart_server">Өзгөртүүлөр күчүнө кириши үчүн FTP серверин өчүрүп күйгүзүшүңүз керек болот.</string>
+    <string name="error_permission_denied">Уруксат берилген жок</string>
+    <string name="error_archive_password_incorrect">Архивдин сырсөзү туура эмес.</string>
+    <string name="error_archive_cannot_extract">Архив жазуусун \"%s\" - \"%s\" чыгара албай жатат.</string>
+    <string name="drag_and_drop_preference">Сүрөп жана таштоо параметрин тандаңыз (Эксперименталдык)</string>
+    <string name="drag_to_move_copy">Файлдарды жылдыруу же көчүрүү үчүн тийип жана сүйрөңүз</string>
+    <string name="drag_to_select">Файлдарды тандоо үчүн тийип жана сүйрөңүз</string>
+    <string name="disable">Өчүрүү</string>
+    <string name="choose_operation">Аткаруу үчүн операцияны тандаңыз</string>
+    <string name="remember">Кийинки жолу эстеп калыңыз</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP серверине SAF кирүүсүнө уруксат бериңиз</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Бул FTP серверин биринчи иштетип жатканыңыздан жана сиз түзмөктүн ички сактагычын жалпы папка катары колдонуп жаткандыктан, Amaze\'ге сактагычка кирүү мүмкүнчүлүгүн бериңиз. SAF.\n\n
+
+Кийинки жолу бөлүшүү үчүн жаңы жерди тандамайынча муну бир гана жолу жасашыңыз керек.</string>
+    <string name="android_data_prompt_saf_access">Android 10 чыккандан бери Android белгилүү каталогдорго чектөөлөрдү киргизген жана алар Сактагычка кирүү алкактары менен кирүүлөрү керек.\n \nСураныч, Amaze\'ге \"Кирүү мүмкүнчүлүгүн берүү\" баскычын басып, системанын файл башкаргычынан каталогго кирүүгө уруксат бериңиз.</string>
+    <string name="android_data_prompt_saf_access_title">SAF мүмкүнчүлүгүн бериңиз</string>
+    <string name="ftp_preference_saf_filesystem_title">Эски файл тутумун колдонуу</string>
+    <string name="ftp_preference_saf_filesystem">Иштетүү бул жаңыраак Android версияларында түзмөктүн тышкы сактагычын колдонууну колдоо үчүн</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP серверинин бөлүшүлгөн жолу эски файл тутумунун ишке ашырылышына кайра өтүп жатканыңызда ички сактагычка баштапкы абалга келтирилген. Зарылчылыкка жараша үстүнкү оң жактагы менюну колдонуп жаңы жолду тандаңыз.</string>
+    <string name="ftp_server_reset_notify">FTP серверинин бөлүшүлгөн жолу ички сактагычка баштапкы абалга келтирилди</string>
+    <string name="ftp_server_root_unavailable">Сиз тамырга кирүү мүмкүнчүлүгүн талап кылган жолду тандап жатасыз. Эгер түзмөгүңүз тамырлуу болсо, жөндөөлөрдөн тамыр изилдөөчүсүн иштетиңиз.</string>
+    <string name="ftp_server_root_filesystem_warning">Сиз түзмөгүңүздөгү бүтүндөй файл тутумунда окуу/жазуу операцияларын иштеткен тамырга кирүү мүмкүнчүлүгүн талап кылган жолду тандап жатасыз жана бул кооптуу – этиятсыз каталар түзмөгүңүздү бузуп коюшу мүмкүн!\n\nИшенип жатасызбы?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">\"%s\" окуу үчүн URI ачууда ката кетти.</string>
+    <string name="error_empty_archive">\"%s\" бош архив.</string>
+    <string name="error_bad_archive_without_info">\"%s\" бузулган архив .</string>
+    <string name="error_bad_archive_with_info">\"%s\" бузулган архив.\nЧыгуучудан билдирүү: \"%s\"</string>
+    <string name="security_error">Файлды бул колдонмо менен ачуу мүмкүн эмес</string>
+    <string name="cloud_drive_tooltip">Түзүү Amaze File Manager ичиндеги файлдарды башкаруу үчүн Google Drive™ туташуусу.</string>
+    <string name="signin_with_google_title">Google Drive™ колдонуу үчүн аныктыгын текшериңиз</string>
+    <string name="show_system_apps">Тутум колдонмолорун көрсөтүү</string>
+    <string name="system_apps">Тутум колдонмолорун</string>
+    <string name="select_inverse">Тандоо Тескерисинче</string>
+    <string name="select_by_type">Түрү боюнча тандоо</string>
+    <string name="select_by_date">Күн боюнча тандоо</string>
+    <string name="select_similar">Окшошту тандаңыз</string>
+    <string name="error_fetching_google_play_product_list">Google Play\'ден өнүмдөрдүн тизмесин алууда ката кетти.</string>
+    <string name="grant_all_files_permission">Android 11ден бери , Google Файл менеджерлеринен түзмөктөгү бардык файлдарды башкаруу үчүн колдонуучунун уруксатын талап кылуусун суранат. Чоо-жайы бул жерде.
+        \n\nAmaze File Manager үчүн да бул уруксат керек. Бул жерде "Грант" баскычын баскандан кийин, кийинки экранда "Бардык файлдарды башкарууга уруксат берүү" опциясын тандаңыз.
+        \n\nБул диалогду жокко чыгаруу колдонмодон чыгат.</string>
+    <string name="user_apps">Колдонуучу колдонмолору</string>
+    <string name="appearance">Көрүнүшү</string>
+    <string name="behavior">Жүрүм-туруму</string>
+    <string name="appearance_summary">Файл башкаргычтын темасын, түстөрүн жана көрүнүшүн ыңгайлаштырыңыз</string>
+    <string name="ui_summary">Кайсы маалыматты көрсөтүүнү көзөмөлдөңүз, каптал тилкесин ыңгайлаштырыңыз жана UI тандоолорун которуңуз</string>
+    <string name="behavior_summary">Өркүндөтүлгөн издөө жана файлдарды жаңы тапшырма катары ачуу сыяктуу аракеттерди өзгөртүү</string>
+    <string name="security_summary">Сырсөздү орнотуу жана шифрлөө</string>
+    <string name="backup_summary">Экспорттоо/импорттоо Amaze орнотуулары</string>
+
+    <string name="pref_export">Экспорттоо</string>
+    <string name="pref_export_summary">Экспорттоо жөндөөлөрү</string>
+    <string name="pref_import">Импорттоо</string>
+    <string name="pref_import_summary">Импорттоо орнотуулары</string>
+
+    <string name="quick_desc">Файлдар жакында Amaze аркылуу кирди</string>
+    <string name="recent_desc">Жакында түзүлгөн же өзгөртүлгөн файлдар</string>
+    <string name="error_cannot_find_way_open">Файлды ачуунун жолун таба алган жок</string>
+    <string name="error_cant_decompress_that_file">Талап кылынган архивди иштетүү мүмкүн эмес</string>
+    <string name="analyse_storage">Сактагычты анализдөө</string>
+    
+    <string name="download_amaze_utils_text">Сиз Amaze File Utilities программасына багытталып жатасыз. Бул биздин ачык булак колдонмобуз, анын ичинде аудио/видео/сүрөт/документти көрүүчүлөрү бар, сактагычты бошотуу үчүн керексиз файлдарды талдоо, Wifi P2P аркылуу тез өткөрүп берүү жана башка көптөгөн нерселерге мүмкүнчүлүк берет.\nАны сынап көрүү аркылуу бизге колдоо көрсөтүңүз.</string>
+    <string name="download">Жүктөп алуу</string>
+    
+    <string name="amaze_utils_installed_alias">Amaze File Utilities орнотуу үчүн рахмат. Сиз колдонмого багытталып жатасыз.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">Журналдарды бөлүшүү</string>
+    <string name="share_logs_summary">Жазылган журналдарды электрондук почта / телеграмма аркылуу бөлүшүү</string>
+    <string name="open_with_amaze">Amaze менен ачуу</string>
+    <string name="confirmation">Ырастоо</string>
+    <string name="open_file_confirmation">Are чын эле төмөнкү файлды ачкыңыз келеби?\n\nАты:\n%s\n\nЖайгашкан жер:\n%s\n\nӨлчөмү:\n%s\n\nMD5:\n%s\n\nSHA256:\ n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play саясатынын мандаттарына ылайык, колдонмолор өз алдынча жаңыртылышына жол берилбейт. Колдонмону Google Play\'ден жаңыртыңыз.</string>
+    <string name="error_cannot_get_package_info">\"%s\" файлынан топтом маалыматын алуу мүмкүн эмес. Же көрсөтүлгөн файл APK эмес, же топтом файлы бузулган.</string>
+    <string name="preference_delete_confirmation">Жок кылуу ырастоо</string>
+    <string name="preference_delete_confirmation_summary">Файлдарды жок кылуудан мурун ырастоо сураңыз. Муну өчүрүү абдан туура эмес!</string>
+    
+    
+    <string name="protocol_ftps">Коопсуз FTP</string>
+    <string name="unavailable">Жеткиликсиз</string>
+
+    <string name="exporting_failed">Экспорттоо ишке ашкан жок: камдык файлды жазуу мүмкүн эмес</string>
+    <string name="importing_failed">Импорттоо ишке ашкан жок: камдык көчүрмөнү окуу мүмкүн эмес файл</string>
+    <string name="importing_completed">Импорттоо аяктады</string>
+    <string name="invalid_backup_file">Жараксыз камдык файл</string>
+    <string name="import_failed_for">Импорттоо ишке ашкан жок:</string>
+    <string name="free_of">"%s\n%s %s</string>
+    <string name="cloud_error_fdroid">данбош&gt;Amaze Cloud Plugin F-Droid версиясында колдоого алынбайт. Сураныч, Amaze Play Store версиясын колдонуңуз.</string>
+    <string name="disable_player_intent_filters">Оюнчу ниет чыпкаларын өчүрүү</string>
+    <string name="disable_player_intent_filters_summary">Файл тандагычтан Amaze камтылган медиа ойноткучтарын өчүрөт</string>
+    <string name="no_app_found_intent">Бул максатты ишке ашыруу үчүн эч кандай колдонмо табылган жок. Сизде DocumentsUI орнотулганбы?</string>
+    <string name="cloud_connection_credentials_cleared">Булут туташуу эсептик дайындары тазаланды</string>
+    <string name="cloud_connection_credentials_cleared_msg">Тилекке каршы, булут туташууңуздун далдаштырма дайындарын жаңы маалымат базасынын схемасына көчүрө алган жокпуз. аларды колдонмодон алып салуу үчүн. Сураныч, булут байланышын кайра түзүңүз.</string>
+</resources>

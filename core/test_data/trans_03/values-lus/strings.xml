@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">File Manager chu mak ti takin a awm</string>
+    <string name="drawer_open">Navigation drawer hawng rawh</string>
+    <string name="drawer_close">Navigation drawer chu khar rawh</string>
+    <string name="icon">icon a ni</string>
+    <string name="apps">App Manager a ni</string>
+    <string name="ftp">FTP Server a ni</string>
+    <string name="setting">Settings te pawh a awm</string>
+    <string name="select">Item tih kha thlang rawh</string>
+    <string name="press_again">Exit turin press leh rawh</string>
+    <string name="open">Hawng</string>
+    <string name="backup">Backup a ni</string>
+    <string name="uninstall">Uninstall rawh</string>
+    <string name="play">Play store ah a awm</string>
+    <string name="properties">Thil neih</string>
+    <string name="copyingapks">%d APK files chu %s ah copy a ni</string>
+    <string name="delbook">Bookmark tih hi delete rawh</string>
+    <string name="add_to_bookmarks">Bookmarks ah te dah belh rawh</string>
+    <string name="enterpath">Path ah lut rawh</string>
+    <string name="cancel">TITAWP</string>
+    <string name="create">SIAM</string>
+    <string name="loading">Loading a ni tawh...</string>
+    <string name="file_empty">File a khar vek tawh</string>
+    <string name="error">Dik lo</string>
+    <string name="search_results">%s tih zawn chhuah result</string>
+    <string name="rename">A hming thlak leh rawh</string>
+    <string name="save">Humhim</string>
+    <string name="bookmarks_added">Bookmarks te pawh dah tel a ni</string>
+    <string name="fileexist">File hming inang a awm tawh</string>
+    <string name="name">Hming</string>
+    <string name="date">Tarikh</string>
+    <string name="location">Hmun</string>
+    <string name="size_capitalized">Lenzawng tehna</string>
+    <string name="size">folder lian tham tak a ni</string>
+    <string name="enterzipname">Zip Name tih kha ziak lut rawh</string>
+    <string name="no_app_found">He file hawn tur hian App hmuh tur a awm lo</string>
+    <string name="copying">Copy a ni</string>
+    <string name="moving">Moving a ni</string>
+    <string name="file">Lehkha pawimawh</string>
+    <string name="folder">Folder ah dah a ni</string>
+    <string name="newfolder">Folder thar a ni</string>
+    <string name="entername">Hming ziak rawh</string>
+    <string name="extracting">Extracting a ni</string>
+    <string name="stopping">A tawp ta</string>
+    <string name="open_parent">Nu leh Pa Directory hawng rawh</string>
+    
+    <string name="share">Intawm</string>
+    <string name="about">Lam</string>
+    <string name="extract">Lachhuak</string>
+    <string name="compress">Compress rawh</string>
+    <string name="yes">Awle</string>
+    <string name="no">Aih</string>
+    
+    <string name="dialog_delete_category_directories">Directory hrang hrang te</string>
+    <string name="dialog_delete_category_files">File hrang hrang</string>
+    <string name="dialog_delete_disclaimer">A hnuaia thil te hi i delete chuan i device atang hian a chhuak vek ang a, i recover thei tawh lo ang.</string>
+    <string name="dialog_delete_title">Item te chu delete vek tur em ni?</string>
+    <string name="deleting">Delete a ni</string>
+    <string name="question_set_path_as_home">He tab atan hian current path hi home atan set i duh em?</string>
+    <string name="directorysort">Directory Sort Mode a ni</string>
+    <string name="sort_by">Sort By tih a ni</string>
+    <string name="sort_only_this">He folder chauh hi</string>
+    <string name="theme">Thupui</string>
+    <string name="random">Random Skin a ni</string>
+    <string name="random_summary">Startup laiin random primary color a set thin</string>
+    <string name="colorize">Icons te chu rawng hrang hranga siam rawh</string>
+    <string name="colorize_summary">Static icon rawng a set thin. Directory icon rawng duhzawng a override lo.</string>
+    <string name="home">In</string>
+    <string name="paste">Paste rawh</string>
+    <string name="history">Hmanlai hun zirna</string>
+    <string name="copy">Copy rawh</string>
+    <string name="root_mode">Root Explorer a ni</string>
+    <string name="root_mode_summary">Rooted device tan chauh. I chiang a nih chauhvin check rawh.</string>
+    <string name="root_failure">Root Access pek a ni lo</string>
+    <string name="select_all">All tih kha thlang rawh</string>
+    <string name="delete">Ti reh</string>
+    <string name="set_as_home">Home atan Set rawh</string>
+    <string name="operation_not_supported">Operation a support lo</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Material Eng</string>
+    <string name="dark">Material Thim tak a ni</string>
+    <string name="daytime">Nilengin</string>
+    <string name="black">Black (OLED tan) 1.1.</string>
+    <string name="system">System (system thupui zawm) 1.1.</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Folders A chungah a awm</string>
+    <string name="filesOnTop">Files On Top ah a awm</string>
+    
+    <!--SortBy-->
+    <string name="sort_name">Hming</string>
+    <string name="lastModified">A hnuhnun ber chu Modified a ni</string>
+    <string name="sort_size">Lenzawng tehna</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">File pakhat thlang rawh</string>
+    <string name="process_viewer">Process Viewer a ni</string>
+    <string name="in_safe">Hmun tling lo</string>
+    <string name="no_file_overwrite">File Overwrit a awm lo</string>
+    <string name="skip">Bawhkan</string>
+    <string name="overwrite">Overwrite a ni</string>
+    <string name="not_allowed">A phal loh</string>
+    <string name="searching">%s zawn a ni</string>
+    <string name="done">Ti zo</string>
+    <string name="set">Ruahman</string>
+    <string name="enablerootmde">Root Mode tih kha enable rawh</string>
+    <string name="goback">Hmuh leh rawh</string>
+    <string name="newfile">File thar a awm</string>
+    <string name="no_files">Files a awm lo</string>
+    <string name="used">hmun hman tawh</string>
+    <string name="used_by_others">mi dangte hman thin</string>
+    <string name="free">hmun zalen tak a ni</string>
+    <string name="listview">List en dan</string>
+    <string name="gridview">Grid View a ni</string>
+    <string name="permission">Phalna pek a ni</string>
+    <string name="hide">Biru</string>
+    <string name="exit">Chhuak</string>
+    <string name="doforall">Item zawng zawng tan ti rawh</string>
+    <string name="gridcolumnno">Grid view-a column awm zat</string>
+    <string name="set_random">App i restart hnuah changes a awm ang</string>
+    <string name="authors">Lehkhabu ziaktute</string>
+    <string name="changelog">Changelog tih a ni</string>
+    <string name="ok">A THA E</string>
+    <string name="ui">Interface a ni</string>
+    <string name="general">Tlanglawn</string>
+    <string name="thumb_summary">Apps leh images te Thumbnail te entir rawh</string>
+    <string name="thumb">Thumbnail te chu entir rawh</string>
+    <string name="hidden">File leh Folder thup te entir rawh</string>
+    <string name="lastModifiedSummary">Modification hnuhnung ber ni leh hun entir rawh</string>
+    <string name="lastModifiedPref">Last Modified Date leh Hun entir rawh</string>
+    <string name="size_pref_summary">File size leh folder chhunga thil awm zat entir</string>
+    <string name="size_pref">Size hrang hrang entir rawh</string>
+    <string name="miscellaneous">Thildang</string>
+    <string name="root_pref_summary">File leh Folder te phalna lantir</string>
+    <string name="root_pref">Phalnate entir rawh</string>
+    <string name="about_amaze_file_manager_label">Amaze File Manager chungchang</string>
+    <string name="version">Lehlin dan</string>
+    <string name="rate">App chu rate rawh</string>
+    <string name="feedback">Feedback thawn rawh</string>
+    <string name="hiddenfiles">Files thup (hidden Files) te</string>
+    <string name="type">Lampang</string>
+    <string name="root_directory">Zung</string>
+    <string name="add_shortcut">Shortcut tih a ni</string>
+    <string name="unsaved_changes">Save loh inthlak danglamna</string>
+    <string name="unsaved_changes_description">Unsaved changes i nei a, i chhuah hmain save i duh em?</string>
+    <string name="saving">Saving tih hi a ni</string>
+    <string name="package_installer">Package Installer a ni</string>
+    <string name="view">Thlir</string>
+    <string name="install">Bun</string>
+    <string name="archive">Dahthatna</string>
+    <string name="archive_text">Hei hi archive a ni. Eng action nge tih i duh ang?</string>
+    <string name="package_installer_text">Hei hi package installer a ni. Eng action nge tih i duh ang?</string>
+    <string name="xda_title">XDA thread a ni</string>
+    <string name="xda_summary">Q&amp;amp;A, Ṭanpuina &amp;amp; Buaina chinfel dan</string>
+    <string name="circular_images">Thlalak leh video atan circular icon hmang rawh</string>
+    <string name="circular_icons">Icon circular hmang rawh</string>
+    <string name="back_title">Back navigation a ni</string>
+    <string name="back_summary">List chung berah custom back navigation a tichak</string>
+    <string name="details">Kimchang</string>
+    <string name="translators">Lehlin thiamte</string>
+    <string name="german_translation_title">German tawng a ni</string>
+    <string name="italian_translation_title">Italian tawng a ni</string>
+    <string name="french_translation_title">French tawng a ni</string>
+    <string name="russian_translation_title">Russian tawng a ni</string>
+    
+    <string name="basque_translation_title">Basque tawng a ni</string>
+    <string name="chinese_translation_title">Chinese tawng a ni</string>
+    <string name="serbian_translation_title">Serbian tawng a ni</string>
+    <string name="turkish_translation_title">Turkish tawng a ni</string>
+    <string name="ukrainian_translation_title">Ukraine tawng a ni</string>
+    <string name="portuguese_translation_title">Portuguese tawng a ni</string>
+    <string name="polish_translation_title">Polish tawng a ni</string>
+    <string name="korean_translation_title">Korean tawng a ni</string>
+    <string name="greek_translation_title">Greek tawng a ni</string>
+    <string name="dutch_translation_title">Dutch tawng a ni</string>
+    <string name="romanian_translation_title">Romanian tawng a ni</string>
+    <string name="vietnamese_translation_title">Vietnamese tawng a ni</string>
+    <string name="japanese_translation_title">Japanese tawng a ni</string>
+    <string name="tamil_translation_title">Tamil tawng a ni</string>
+
+    <string name="zip_viewer">Zip Viewer a ni</string>
+    <string name="unin_system_apk">Hei hi system app a ni a, delete chuan system un-stability a thlen thei.\nProceed?</string>
+    <string name="warning">Vaulawkna</string>
+    <string name="donate">Pe</string>
+    <string name="archive_extract_folder">Archive Extract Folder ah hian a awm a</string>
+    <string name="archive_summary">Archive files te chu he folder ah hian extract a ni ang. Default value chu archive awmna directory a ni.</string>
+    <string name="open_as">As hawng rawh</string>
+    <string name="text">Thumal</string>
+    <string name="audio">Audio hmanga siam a ni</string>
+    
+    <string name="other">Thildang</string>
+    <string name="image">Thlalak</string>
+    <string name="contributors">Thawhlawm thawhtute</string>
+    <string name="save_paths">Kawngte hre reng ang che</string>
+    <string name="save_path_summary">Start up hunah chuan tab tin tan folder en hnuhnung ber a rawn lang ang</string>
+    <string name="select_intent">Thlang</string>
+    <string name="database">Database ah hian a awm</string>
+    <string name="colored_navigation">Navigation bar rawng hrang hrang a awm</string>
+    <string name="colored_navigvation_sum">System navigation bar chu vun nena rawng a nih leh nih loh</string>
+
+    <string name="color_title">Rawng</string>
+    <string name="color_summary">UI component hrang hrangah color set rawh</string>
+    <string name="primary_color_title">Primary Color (Left Tab) a ni.</string>
+    <string name="primary_color_summary">Left tab atan UI element lian tak takah color set rawh</string>
+    <string name="accent_color_title">Accent Color a ni</string>
+    <string name="accent_color_summary">FAB leh UI element tenau dangte ah color set rawh</string>
+    <string name="icon_color_title">Icon Color rawng</string>
+    <string name="icon_color_summary">Icons ah color set rawh</string>
+    <string name="choose_color">Color thlang rawh</string>
+    <string name="files">File hrang hrang</string>
+    <string name="textreader">Text Reader a ni</string>
+    <string name="databasereader">Database chhiartu a ni</string>
+    <string name="show_dividers">Divider te entir rawh</string>
+    <string name="needs_access">Write Access a ngai a ni</string>
+    <string name="needs_access_summary">Khawngaihin \t root directory kha thlang rawh</string>
+    <string name="needs_access_summary1">\tto hnathawh theihna tur write access pek</string>
+    <string name="smb_connection">SMB Connection a ni</string>
+    <string name="smb_server">Server IP Address a awm bawk</string>
+    <string name="server_address">Server IP Address a awm bawk</string>
+    <string name="username">Username tih hi a ni</string>
+    <string name="password">Tawngkam ruk</string>
+    <string name="anonymous">Hriat loh</string>
+    <string name="bluetooth">Bluetooth hmanga siam a ni</string>
+    <string name="folders">Folder hrang hrang a awm</string>
+    <string name="folderfilecount">%1$d folder leh %2$d file te a awm bawk</string>
+    <string name="videos">Video hrang hrang</string>
+    <string name="apks">APKs te chu</string>
+    <string name="documents">Document hrang hrang</string>
+    <string name="images">Hmanlai thlalak</string>
+    <string name="clear">Fiah</string>
+    <string name="md5">MD5 a ni</string>
+    <string name="total">Belhkhawm:</string>
+    <string name="calculating">chhut chhuah</string>
+    <string name="sort">Thliar</string>
+    <string name="ascending">Ascending a ni</string>
+    <string name="descending">A chhuk thla ta</string>
+    <string name="default_string">Hlawhchhamna</string>
+    <string name="doit">Ti rawh</string>
+    <string name="want_help">Ṭanpuina i mamawh em?</string>
+    
+    <string name="recent">Tun hnaia file awmte</string>
+    <string name="edit">Siamtha</string>
+    <string name="find">Page ah zawng rawh</string>
+    <string name="grant">Phalsak</string>
+    <string name="grantper">Phalna pe rawh</string>
+    <string name="grantfailed">Phalna pek a ni lo</string>
+    <string name="grant_storage_permission">App hian chhunzawm tur chuan storage permission a mamawh a ni. He dialog hi cancel chuan app atang hian a chhuak ang.</string>
+    <string name="operation_unsuccesful">Operation a hlawhtling lo</string>
+    <string name="creatingfile">File siam dan</string>
+    <string name="creatingfolder">Folder siam dan tur</string>
+    <string name="renaming">Hming thlak danglam a ni</string>
+    <string name="cant_be_empty">%s chu a khar thei lo</string>
+    <string name="ip">Chenna hmun</string>
+    <string name="connection_name">Connection hming</string>
+    <string name="no_device_found">Device hmuh tur a awm lo</string>
+    <string name="path">Kawng</string>
+    <string name="rename_bookmark">Bookmark tihdanglam rawh</string>
+    <string name="cut">Zai</string>
+    <string name="search">Zawng</string>
+    <string name="invalid_name">Hming dik lo</string>
+    <string name="search_hint">Search tur chuan type rawh...</string>
+    
+    <string name="regular_expression">Regular Expression tih hi a ni</string>
+    <string name="regular_expression_summary">BASH style regular expression hmangin zawng rawh</string>
+    <string name="match_content">Content inmil rawh</string>
+    <string name="match_content_summary">Set a nih chuan regular expression chu file hming pum pui nen a inmil ang, .
+        a nih loh chuan occurrence a zawng ang.</string>
+    <string name="start_ftp">Tan</string>
+    <string name="stop_ftp">Tawp</string>
+    <string name="ftp_status_running">Tlan</string>
+    <string name="ftp_status_not_running">Running ni lo</string>
+    <string name="ftp_no_wifi">Wi-Fi i connect em tih enfiah rawh</string>
+    <string name="domain">Huap chhung</string>
+    
+    <string name="invalid">%s dik lo</string>
+    <string name="ftp_notif_starting">FTP Server a tan ta</string>
+    <string name="ftp_notif_starting_title">FTP Server a ni</string>
+    <string name="ftp_notif_title">FTP Server kal lai chu mak ti takin</string>
+    
+    <string name="ftp_notif_stop_server">TAWP</string>
+    <string name="ftp_port_edit_menu_title">FTP port a ni</string>
+    <string name="ftp_port_change_success">FTP port chu hlawhtling takin a inthlak</string>
+    <string name="ftp_port_change_error_invalid">Port number dik lo thlan a ni</string>
+    <string name="primary_two_title">Primary Color (Right Tab) a ni.</string>
+    <string name="primary_two_summary">Tab dik tak atan UI element lian tak takah color set rawh</string>
+    <string name="support_development">Hmasawnna kawngah tanpuina</string>
+    <string name="report_bugs_title">Bugs report rawh</string>
+    <string name="source_title">Source code a ni</string>
+    <string name="source_summary">Kan source code hi GitHub ah en rawh</string>
+    <string name="report_bugs_summary">Bugs report emaw feature thar dil emaw</string>
+    <string name="translate_title">Letling</string>
+    <string name="translate_summary">Amaze hi i tawngin lehlin rawh</string>
+    <string name="paypal_copy_message">PayPal ID chu clipboard ah copy a ni</string>
+    <string name="searching_devices">Device zawng chhuak</string>
+    <string name="use_custom_ip">Custom IP hmang rawh</string>
+    <string name="bookmark_lost">Bookmark hmuh tur a awm lo, siam thar leh mek...</string>
+
+    <string name="smb_instructions">Android (SMB) a shared Windows folder a lut dan\n\n
+                
+                    
+                        Windows ah File Sharing enable rawh\n
+                    
+                    
+                        Control Panel hawng la, Network hnuaia HomeGroup leh Sharing options kha click rawh
+                        leh Internet-ah te, "Change Advanced Sharing Settings" tih kha click la, "File leh
+                        Printer Sharing" tih a ni.\n\n
+                    
+
+                    
+                        File Sharing setting dangte\n
+                    
+                    
+                        Hetah hian advanced sharing setting dangte pawh i configure duh mai thei bawk. \n
+                        Entirnan, i file-te chu i rin vek chuan password tel lovin i enable thei ang
+                        i local network-a device awmte chu. File leh printer sharing enable a nih chuan i ti thei tawh ang
+                        File Explorer emaw Windows Explorer emaw hawng la, i share duh folder chu right click la,
+                        Properties tih kha thlang rawh. \n
+                        Share button kha click la, network-ah folder awm thei turin siam rawh.\n\n
+                        
+
+                    
+                        Device pahnih hi Wifi khatah a awm ngei ngei tur a ni\n
+                    
+                    
+                        He feature hian local network-ah file a siam a, chuvangin i PC leh mobile device-ah te
+                        local network khata awm a ngai a ni. Shared Windows folder ah i lut thei lo
+                        Internet kaltlangin emaw, i smartphone chu a mobile data-ah a connect a nih chuan — it
+                        Wi-Fi nena inzawm a ngai a ni.\n\n
+                    
+
+                    
+                        IP Address zawng rawh\n
+                    
+                    
+                        Command Prompt chu hawng rawh. \'ipconfig\' tih type la, Enter kha hmet rawh. Default Gateway zawng rawh
+                        i network adapter hnuaiah i router\'s IP address dah rawh. zawng rawh
+                        \\\"IPv4 Address\\\" tih chu adapter section ang chiah hnuaiah i computer\'s IP zawng turin
+                        address.\n\n
+                    
+
+                    SMB dialog box-ah details ziak rawh\n</string>
+    <string name="share_limit">File 100 aia tam share theih loh</string>
+    <string name="otg_access">OTG device root kha thlang rawh</string>
+    <string name="information">Hriattirna</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Access a ni tawh</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Modified a ni</string>
+
+    <string name="title">Nihna</string>
+    <string name="artist">Mi themthiam</string>
+    <string name="album">Album a ni</string>
+    <string name="year">Kum</string>
+    <string name="duration">Rei zawng</string>
+    <string name="comment">Sawizui</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Container a ni</string>
+    <string name="codec">Codec hmanga siam a ni</string>
+    <string name="channels">Channel hrang hrangah</string>
+    <string name="sample_rate">Sample Rate a ni</string>
+    <string name="bitrate">Bitrate a ni</string>
+    <string name="dimensions">Dimension hrang hrang</string>
+    <string name="frame_rate">Frame Rate a ni</string>
+    <string name="image_type">Hmanlai thlalak chi hrang hrang</string>
+    <string name="width">Vang</string>
+    <string name="height">Sanzawng</string>
+    <string name="date_modified">Date siamthat a ni</string>
+    
+    <string name="creator">Siamtu</string>
+    <string name="camera_brand">Camera Brand a ni</string>
+    <string name="camera_model">Camera Model hmanga siam a ni</string>
+    <string name="date_taken">Date Taken a ni</string>
+    <string name="exposure_time">Exposure Hun a ni</string>
+    <string name="aperture_value">Aperture Value a ni</string>
+    <string name="image_iso">ISO Speed ​​Rating a ni</string>
+    <string name="flash_fired">Flash Fired a ni</string>
+    <string name="focal_length">Focal Length a ni</string>
+    <string name="subject">Thupui</string>
+    <string name="author">Ziaktu</string>
+    <string name="keywords">Thupui pawimawh tak tak</string>
+    <string name="producer">A siamtu a ni</string>
+    <string name="created">Siam a ni</string>
+    <string name="format">Format a ni</string>
+    <string name="pages">Phek awm zat</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimized a ni</string>
+    <string name="security">Himna</string>
+    <string name="paper_size">Paper Size a ni</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">File thenkhat chu hlawhtling takin %s a ni lo</string>
+    <string name="copied">copy a ni</string>
+    <string name="moved">a insawn a</string>
+    <string name="copy_complete">Copy zawh tawh</string>
+    <string name="waiting_title">Nghak</string>
+    <string name="waiting_content">Operation zawh hun nghah mek</string>
+    <string name="extract_complete">Extraction zawh tawh a ni</string>
+    <string name="compression_complete">Compression zawh tawh</string>
+    <string name="compressing">Compressing a ni</string>
+    <string name="cancelled">Cancel a ni</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Ziak</string>
+    
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">tan</string>
+    <string name="processing_file">File processing a ni</string>
+    <string name="current_speed">Tuna Speed ​​awm mek</string>
+    <string name="smb_launch_error">He file hi i hawn theih nan storage ah i copy a ngai dawn a ni</string>
+    <string name="error_file_not_found">Error: File hmuh tur a awm lo</string>
+    <string name="error_io">I/O Error a awm</string>
+    <string name="error_file_too_large">Error: File a lian lutuk</string>
+    <string name="medium_text">Thuziak (Medium Text) a ni</string>
+    <string name="permission_read">Chhiar</string>
+    <string name="permission_write">Ziak</string>
+    <string name="permission_execute">Tihlawhtling</string>
+    <string name="permission_owner">Neitu</string>
+    <string name="permission_group">Pawl</string>
+    <string name="permission_other">Thildang</string>
+    <string name="clipboard_path_copy">Path chu clipboard ah copy a ni</string>
+    <string name="service_timer">Hun a liam ta</string>
+    <string name="please_wait">Khawngaihin lo nghak rawh</string>
+
+    <string name="cloud_connection">Cloud Connection hmanga inzawmna</string>
+    <string name="cloud_connection_new">Cloud Connection thar a awm</string>
+    <string name="cloud_dropbox">Dropbox a ni</string>
+    <string name="cloud_drive">Google DriveTM hmanga tih a ni</string>
+    <string name="cloud_onedrive">OneDrive a ni</string>
+    <string name="cloud_box">Bawm</string>
+    <string name="cloud_get">Cloud plugin chu la rawh</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Dilna a awm lo</string>
+    <string name="ftp_path">Shared Path a ni</string>
+    <string name="ftp_path_hint">Share tur directory root panna kawng</string>
+    <string name="change">Thlak</string>
+    <string name="unknown_error">Oops, thil engemaw a kal sual ta!</string>
+
+    <string name="ftp_path_change_success">FTP path chu hlawhtling takin a inthlak</string>
+    <string name="ftp_path_change_error_invalid">Kawng dik lo</string>
+    <string name="ftp_status_no_connection">Connection a awm lo</string>
+    <string name="ftp_status_secure_connection">Connection him tak a awm</string>
+    <string name="ftp_status_title">Nihna</string>
+    <string name="ftp_port">Lawngchawlhna</string>
+    <string name="ftp_login">Login rawh</string>
+    <string name="field_empty">Field chu a khar thei lo</string>
+    <string name="ftp_timeout">Idle timeout a ni</string>
+    <string name="ftp_seconds">Second tlemte chhung</string>
+    <string name="intellihide_toolbar_title">Toolbar chu Intellihide rawh</string>
+    <string name="intellihide_toolbar_summary">Scroll laiin toolbar chu automatic in hide rawh</string>
+    <string name="hash_sha256">SHA-256 a ni</string>
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">clipboard-ah copy a ni</string>
+    <string name="contributors_1_summary">Lehlin a ni</string>
+    <string name="contributors_2_summary">Icon leh banner te a awm bawk</string>
+    <string name="contributors_3_summary">Thupui Engine a ni</string>
+    <string name="contributors_4_summary">FAB hnung lamah shade a awm</string>
+    <string name="contributors_5_summary">Tabs swipe hian color transition a awm thin</string>
+    <string name="contributors_6_summary">FTP Server a ni</string>
+    <string name="contributors_7_summary">Interactive shell hmanga kah chhuah</string>
+    <string name="connection_exists">Connection a awm tawh</string>
+
+    <string name="crypt_encrypting">Encrypting tih a ni</string>
+    <string name="crypt_decrypting">Decrypting tih a ni</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Encrypted a ni</string>
+    <string name="crypt_decrypted">Decrypted a ni</string>
+    <string name="crypt_encrypt">Encrypt rawh</string>
+    <string name="crypt_decrypt">Decrypt rawh</string>
+    <string name="operation_fail_following">A hnuaia file te tan hian operation a hlawhchham</string>
+    <string name="crypt_pref_master_password_title">Master Password hmanga tih a ni</string>
+    <string name="crypt_pref_master_password_summary">Encryption atan master password set rawh.
+        A chhuah theih nan empty-in dah rawh.</string>
+    <string name="crypt_pref_fingerprint_title">Fingerprint tih a ni</string>
+    <string name="crypt_pref_fingerprint_summary">Encryption tihdik nan fingerprint hmang rawh</string>
+    <string name="crypt_fingerprint_no_permission">Fingerprint phalna a awm lo</string>
+    <string name="crypt_fingerprint_not_enrolled">Fingerprint enroll a awm lo</string>
+    <string name="crypt_fingerprint_no_security">Lockscreen security hmuh tur a awm lo</string>
+    <string name="crypt_warning_key">Be advised, i security pattern i thlak hunah
+        System settings, he content hi i decrypt thei dawn lo.</string>
+    <string name="warning_never_show">In hriattir leh tawh suh</string>
+    <string name="warning_confirm">Hrethiam e!</string>
+    <string name="crypt_encryption_fail">Encrypt theih a ni lo</string>
+    <string name="crypt_decryption_fail">Decrypt theih a ni lo</string>
+    <string name="crypt_decryption_fail_password">Password dik lo a ni!</string>
+    <string name="crypt_fingerprint_authenticate">Sensor kha khawih la, chhunzawm rawh</string>
+    <string name="authenticate_password">Password tih kha ziak lut rawh</string>
+
+    <string name="sidebar_preferences">Sidebar ah a awm</string>
+    <string name="sidebar_quick_access_title">Sidebar ah a lut nghal vat</string>
+    <string name="show_quick_access_pref_title">Quick accesses te chu entir rawh</string>
+    <string name="show_quick_access_pref">Quick accesses te pawh a awm</string>
+    <string name="directory">Directory a awm bawk</string>
+
+    <string name="sidebar_bookmarks_title">Sidebar ah hian bookmark a awm</string>
+    <string name="show_bookmarks_pref_title">Bookmarks te chu entir rawh</string>
+    <string name="show_bookmarks_pref">Bookmarks te pawh a awm</string>
+    <string name="create_bookmark">Bookmark siam rawh</string>
+    <string name="edit_bookmark">Bookmark chu edit rawh</string>
+    <string name="question_delete_bookmark">Bookmark tih hi delete rawh?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin a awm lo. Play Store atangin download theih a ni e.</string>
+    <string name="cloud_error_failed_restart">Connection a load thei lo.
+        Amaze Cloud hi vawi khat tal hawng la.</string>
+    <string name="cloud_remove">Cloud connection kha i paih duh em?</string>
+    <string name="cloud_fail_authenticate">Authenticate theih loh</string>
+    <string name="cloud_share_copied">Sharable link chu clipboard ah copy a ni</string>
+    <string name="copy_low_memory">Memory a tlakchham avangin RAM engemaw zat clear rawh</string>
+    <string name="cloud_token_lost">Token a bo tawh a, sign-in leh rawh</string>
+    <string name="monofont">Monospace Font hmanga siam a ni</string>
+    <string name="showHeaders">Headers te entir rawh</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Items a awm lo</string>
+	<string name="item">thil</string>
+	<string name="items">thil</string>
+	
+	<string name="byte_singular">byte a ni</string>
+	<string name="bytes">byte a ni</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">File hian hming a nei tur a ni</string>
+    <string name="add_item">Item chu add rawh</string>
+    <string name="failed_smb_decrypt_path">SMB connection a load thei lo</string>
+    <string name="failed_cloud_new_connection">Cloud connection thar a dah theih loh</string>
+    <string name="failed_cloud_api_key">Cloud plug-in chu a authenticate thei lo</string>
+
+    <string name="local_inet_addr_error">Local inet address hmuhnaah error a awm</string>
+    <string name="intent_save_as">Save as...</string>
+    <string name="go">Kal</string>
+    <string name="advanced">Pek lawk</string>
+    <string name="typeable_paths_title">Custom kawng hrang hrang</string>
+    <string name="typeable_paths_summary">Custom path type tur chuan path bar chu rei tak hmet la</string>
+    <string name="send_email_to">E-mail thawn tur a ni</string>
+
+    <string name="text_editor">Text editor settings a awm bawk</string>
+    <string name="preference_newstack_title">File te chu hna thar angin hawng rawh</string>
+    <string name="preference_newstack_summary">Task hrang hranga file hawn theihna a ni. System recents screen atang hian access theih a ni.</string>
+    
+    <string name="developers">Developer te an ni</string>
+    <string name="no_bitcoin_app">Bitcoin Wallet app hi install la</string>
+    <string name="channel_name_normal">Notifications mak tak mai</string>
+    <string name="channel_description_normal">File Manager\'s hriattirna mak tak mai</string>
+    <string name="channel_name_ftp">FTP Server chu mak ti takin a awm</string>
+    <string name="channel_description_ftp">File Manager FTP Server\'s hriattirna mak tak mai</string>
+
+    
+    <string name="processing">Processing a awm mek...</string>
+    <string name="failed_no_connection">File a load thei lo. Khawngaihin i connection kha lo en ve teh.</string>
+
+    <string name="update">THARLAM</string>
+	<string name="scp_connection">SCP/SFTP Inzawmna a ni</string>
+    <string name="ftp_connection">FTP Connection a awm thei</string>
+    <string name="ftps_connection">SSL Connection hmanga FTP hman a ni</string>
+    <string name="scp_port">Lawngchawlhna</string>
+    <string name="ssh_host_key_verification_prompt">Host \'%1$s\' dikna chu a awm thei lo.\n\n%2$s key fingerprint chu %3$s a ni.\n\nIdentity confirm turin \"Yes\" kha tap la; a nih loh chuan \"No\" tih kha tap la.</string>
+    <string name="ssh_host_key_verification_prompt_title">Host chu verify rawh</string>
+    <string name="ssh_select_pem_button">SSH Private Key a ni</string>
+    <string name="ssh_pem_key_parse_error">PEM thlan chhuah chhiar theih loh: %s</string>
+    <string name="password_unchanged">(a danglam lo) .</string>
+    <string name="ssh_authentication_failure_password">Logon failure: Username leh password pek tawh hmanga authenticate theih loh.</string>
+    <string name="ssh_authentication_failure_key">Logon failure: Username leh private key pek hmanga authenticate theih loh.</string>
+    <string name="ssh_connect_failed">%1$s:%2$d: %3$s ah connect theih a ni lo</string>
+    <string name="ssh_connect_failed_host_key_changed_title">WARNING: REMOTE HOST IDENTIFICATION A DAN LO TAK TAK TAK!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">MI TEMAW CHU THIL THAWH LO TAK A TI VE ANG!\n\nTun dinhmunah hian mi pakhatin a lo ngaithla che a ni thei (man-in-the-middle attack)! Host key pawh a thlak danglam chauh pawh a ni thei. Remote host-in public key a thawn fingerprint chu Amaze-a dah nen a inmil lo.\n\nKhawngaihin i system administrator biak emaw, server nena inzawm chhunzawm turin connection thar setup emaw la.</string>
+    <string name="ssh_key_prompt_passphrase">Key passphrase kha ziak la.</string>
+    <string name="add_shortcut_not_supported_by_launcher">Shortcuts siam hi i launcher hian a support lo.</string>
+    
+    <string name="select_color_config">Color config tih kha thlang rawh</string>
+    <string name="customize">Customize rawh</string>
+    <string name="custom">Chindan</string>
+    <string name="preselected_configs_title">Config thlan lawk tawh te</string>
+    <string name="orange">Serthlum</string>
+    <string name="blue">Pawl</string>
+    <string name="green">Hring</string>
+    <string name="password_no_match">Password a inmil lo</string>
+    <string name="deselect_all">Deselect vek rawh</string>
+    <string name="filename">File hming a ni</string>
+    <string name="compress_file_suggest_zip_extension">File extension atan \".zip\" hman a tha.</string>
+    <string name="about_amaze">Android tan material design file enkawltu tur a ni</string>
+    <string name="license">License pek a ni</string>
+    <string name="libraries">Library hrang hrangah te</string>
+    <string name="password_repeat">Password tih leh rawh</string>
+    <string name="create_file_suggest_txt_extension">File extension atan \".txt\" hman a tha.</string>
+    <string name="ssh_select_pem">Authentication atan private key thlang rawh</string>
+    <string name="ssh_key_invalid_passphrase">Key passphrase dik lo.</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM decrypt tur decoder dik tak a awm lo.</string>
+    <string name="encryption_fail_copy">Database-a encryption entry update theih loh</string>
+    <string name="extracted">Extract a ni</string>
+    <string name="compressed">Compress a ni</string>
+    <string name="processed">Processed a ni</string>
+    <string name="no_obtainable_info">He file chungchangah hian info a awm lo</string>
+    <string name="reopen_from_source">Can\'t, app hnuhnung ber atang khan hawng leh rawh</string>
+    <string name="no_file_error">Thil engemaw a kal sual a, hawn tur a awm lo</string>
+    <string name="file_too_long">File hi a sei lutuk a, edit theih a ni lo a, chutih rualin %d character hmasa berte chu i chhiar thei ang</string>
+    <string name="file_read_only">File hawn chu chhiar theih chauh a ni.</string>
+    <string name="got_it">Hrethiam e!</string>
+    <string name="encrypt_file_save_as">Encrypted File chu hetiang hian save rawh...</string>
+    <string name="encrypt_folder_save_as">Encrypted Folder chu hetiang hian save rawh...</string>
+    <string name="encrypt_option_use_aze">Amaze Encryption Format hmang rawh</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[<p>AESCrypt hi AES encryption hmanga siam open source file encryption format a ni. Portable a ni bawk a, platform dang a AESCrypt program hmangin decrypt theih a ni bawk.</p>
+        A rilru a hah lutuk chuan a rilru a buai em em a, a rilru a hah lutuk chuan a rilru a buai em em bawk a. target="_blank">AESCrypt website</a></p>]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[<p>Amaze\'s Encryption Format pawh hi AES encryption hmanga siam a ni a; mahse AESCrypt format nen a danglam a, he device hmang chauh hian a decrypt thei a; tin, he device atang hian Amaze File Manager hi uninstall tur a ni lo va, screen lock dan pawh i thlak tur a ni lo, chuti lo chuan encrypted file chu recover theihna tur kawng i nei tawh lovang.</p>]]></string>
+    <string name="encrypt_file_must_end_with_aze">Encrypted file te hian file extension atan \".aze\" an hmang tur a ni.</string>
+    <string name="encrypt_file_must_end_with_aes">Encrypted file te hian file extension atan \".aes\" an hmang tur a ni.</string>
+    <string name="error_aescrypt_decrypt_failed">\'%s\': \'%s\' decrypt theih a ni lo.</string>
+    <string name="cannot_overwrite">File a overwrite thei lo.</string>
+    <string name="saved_single_file">File chu \'%s\' tiin save a ni.</string>
+    <string name="saved_multi_files">%d files te chu save a ni.</string>
+    <string name="create_hidden_file_warn">File siam chu file list ah a thup ang.</string>
+    <string name="grant_apkinstall_permission">App hian apps install chhunzawm zel turin phalna a mamawh.</string>
+    <string name="time_remaining">Hun a la awm</string>
+    <string name="transfer_rate">Transfer rate a ni</string>
+    <string name="unknown">hriat loh</string>
+    <string name="multiple_invalid_archive_entries">Archive chhunga file thenkhat chu lakchhuah theih a ni lo; archive a chhiat emaw, malicious source atanga lo chhuak emaw a ni thei.</string>
+    <string name="saf_otg_explanation">Tunah chuan security vangin Android\'s filesystem ah i kal ang. Khawngaihin veilam a list atang hian USB device kha thlang la.</string>
+    <string name="donation_thanks">Thilpek min pek avangin lawmthu kan sawi e, hei hian min tichak reng a ni! (:</string>
+    <string name="enable_marquee_filename">File hming atan marquee effect enable rawh</string>
+    <string name="archive_password_prompt">Archive password kha ziak la:</string>
+    
+    <string name="cannot_extract_archive">Archive \"%s\": %s lakchhuah theih a ni lo</string>
+    <string name="archive_unsupported_or_corrupt">Archive \"%s\" a hawng thei lo. Archive kan hawng thei lo emaw, archive a chhiat emaw pawh nise.</string>
+    <string name="close">Khar</string>
+    <string name="bookmark_exists">Bookmark a awm</string>
+    <string name="hide_media">Media browser atang hian thup rawh</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">MI TEMAW CHU THIL THAWH LO TAK A TI VE ANG!\n\nTun dinhmunah hian mi pakhatin a lo ngaithla che a ni thei (man-in-the-middle attack)! Host key pawh a thlak danglam chauh pawh a ni thei. Remote host-in public key a thawn fingerprint chu Amaze-a dah nen a inmil lo.\n\nHost fingerprint update chu i kalpui thei a, SSH connection settings update chu i cancel thei bawk.</string>
+    <string name="update_host_key">Host Key chu update rawh</string>
+    <string name="cancel_recommended">Cancel (A tha ber) .</string>
+    
+    
+    <string name="failed_install_apk">Install a hlawhchham</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Internal Storage a ni</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD card hmanga siam a ni</string>
+    <string name="choose_folder">He Folder hi thlang rawh</string>
+    
+    <string name="some_files_failed_invalid_operation">File thenkhat chu operation dik lo vangin a fail</string>
+    <string name="ftp_server_prompt_connect_to_network">Network ah connect emaw AP enable emaw rawh</string>
+    <string name="ftp_server_open_settings">Settings hawng rawh</string>
+    <string name="move">Che</string>
+    <string name="select_save_location">Save tur hmun thlang rawh</string>
+    <string name="scp_default_path">Default Path (A duh duh) 1.1.</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Ngaidam rawh, chutiang chu a thleng tur a ni lo.</string>
+    
+    <string name="error_report_button_text">He error hi e-mail hmangin report rawh</string>
+    <string name="error_report_button_telegram">He tihsual hi telegram hmangin report rawh</string>
+    <string name="copy_for_github">Report format hmanga copy rawh</string>
+    <string name="error_report_open_issue_button_text">GitHub ah report rawh</string>
+    <string name="error_report_open_github_notice">I crash chungchang sawihona issue a awm tawh em tih enfiah rawh.</string>
+    <string name="error_snackbar_message">Ngaidam rawh, thil a kal dik lo.</string>
+    <string name="error_snackbar_action">Hek</string>
+    
+    <string name="what_happened_headline">Engnge thleng:</string>
+    <string name="info_labels">Eng nge:\\nDilna:\\nGMT Hun:\\nPackage:\\nVersion:\\nOS version:\\nDevice:\\nModel:\\nProduct:</string>
+    <string name="your_comment">I comment (Mizo tawngin):</string>
+    <string name="error_details_headline">Kimchang:</string>
+    <string name="app_ui_crash">App/UI a crash ta a ni</string>
+    <string name="error_report_title">Error report a awm</string>
+    <string name="crash_report_copied">Crash report chu clipboard ah copy a ni</string>
+    <string name="disableIpcSignature">IPC signing check kha titawp rawh (Legacy SMBv1 server tan - UNSAFE!)</string>
+    <string name="cannot_delete_file">File a delete thei lo</string>
+    <string name="cannot_delete_file_with_reason">File delete theih loh - %s</string>
+    <string name="cannot_rename_file">File hming thlak theih loh %s - %s</string>
+    <string name="cannot_read_directory">Directory %s - %s chhiar theih a ni lo</string>
+    <string name="just_once">Vawikhat chauh</string>
+    <string name="always">Englaipawhin</string>
+    <string name="choose_different_app">Application hrang hrang thlang rawh</string>
+    <string name="clear_open_file">Cache tihfai rawh</string>
+    <string name="clear_open_file_summary">Default file hawnna apps thlan tawhte a tifai</string>
+    <string name="ftp_readonly">Chhiar theih chauh a ni</string>
+    <string name="legacy_listing_title">Root atan legacy listing hmang rawh</string>
+    <string name="legacy_listing_summary">Enable a nih chuan file list nan legacy method a hmang thin</string>
+    <string name="error_unsupported_v5_rar">RAR archive \"%s\" hi RAR v5 archive thlawp loh a ni.</string>
+    <string name="ftp_prompt_restart_server">Hrilhfiahna a awm theih nan FTP server chu i restart a ngai ang.</string>
+    <string name="error_permission_denied">Phalna pek a ni lo</string>
+    <string name="error_archive_password_incorrect">Archive password dik lo.</string>
+    <string name="error_archive_cannot_extract">Archive entry \"%s\" chu \"%s\" ah a extract thei lo.</string>
+    <string name="drag_and_drop_preference">Drag leh drop duh zawng thlang rawh (Experimental) .</string>
+    <string name="drag_to_move_copy">File sawn emaw copy emaw tur chuan touch leh drag rawh</string>
+    <string name="drag_to_select">File thlan nan touch leh drag rawh</string>
+    <string name="disable">Ramtuileilo</string>
+    <string name="choose_operation">Operation tih tur thlang rawh</string>
+    <string name="remember">A dawt leh atan hre reng ang che</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP server tan SAF access pek theih a ni</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Hei hi FTP server i run hmasak ber a nih avangin, device\'s internal storage chu shared folder anga i hman avangin, khawngaihin Amaze chu SAF hmangin storage chu a lut thei ang.\n\n
+
+Hei hi vawi khat chauh i tih a ngai a, a dawt leha insemna tur hmun thar i thlan hma loh chuan.</string>
+    <string name="android_data_prompt_saf_access">Android 10 atang khan Android hian directory thenkhatah khapna a siam tawh a, Storage Access Framework hmanga an lut a ngai a ni.\n\nKhawngaihin Amaze chu system\'s file manager atanga directory chu \"Allow Access\" tapping hmangin phalsak rawh.</string>
+    <string name="android_data_prompt_saf_access_title">SAF hman theihna tur pek</string>
+    <string name="ftp_preference_saf_filesystem_title">Legacy filesystem hmang rawh</string>
+    <string name="ftp_preference_saf_filesystem">Android version thar zawka device external storage hman theihna tur support atan hei hi enable rawh</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP server shared path chu legacy filesystem implementation-a i inthlak leh dawn avangin internal storage-ah reset a ni tawh. Khawngaihin a tul angin a chunglam dinglama menu hmangin path thar thlang rawh.</string>
+    <string name="ftp_server_reset_notify">FTP server shared path chu internal storage ah reset a ni tawh</string>
+    <string name="ftp_server_root_unavailable">Root access ngai path i thlang a ni. I device root a nih chuan settings ah root explorer kha enable rawh.</string>
+    <string name="ftp_server_root_filesystem_warning">Root access ngai path i thlang a, chu chuan i device-a filesystem pumpuiah read/write operation a ti thei a, a hlauhawm hle - fimkhur loh taka tihsual chuan i device a brick thei!\n\nI chiang em?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Chhiar tur URI \"%s\" hawn a dik lo.</string>
+    <string name="error_empty_archive">\"%s\" hi archive khar a ni.</string>
+    <string name="error_bad_archive_without_info">\"%s\" hi archive chhia a ni.</string>
+    <string name="error_bad_archive_with_info">\"%s\" hi archive chhia a ni.\nExtractor atanga thuchah: \"%s\"</string>
+    <string name="security_error">He app hmang hian file a hawng thei lo</string>
+    <string name="cloud_drive_tooltip">Amaze File Manager chhung atanga file enkawl dan tur Google DriveTM connection siam rawh.</string>
+    <string name="signin_with_google_title">Google DriveTM hmang turin authenticate rawh</string>
+    <string name="show_system_apps">System apps te chu entir rawh</string>
+    <string name="system_apps">System apps te a awm bawk</string>
+    <string name="select_inverse">Inverse tih kha thlang rawh</string>
+    <string name="select_by_type">Type hmangin thlang rawh</string>
+    <string name="select_by_date">Date hmangin thlang rawh</string>
+    <string name="select_similar">Chutiang bawk chu thlang rawh</string>
+    <string name="error_fetching_google_play_product_list">Google Play atanga product list lakchhuahnaah error a awm.</string>
+    <string name="grant_all_files_permission">Android 11 atang khan Google hian File Manager te hnenah device chhunga file zawng zawng enkawl dan tur user permission dil turin a ngen a ni. A chipchiar zawk chu hetah hian a awm.
+        \n\nAmaze File Manager pawhin he phalna hi a mamawh a ni. Hetah hian "Grant" i hmet hnuah a hnuaia screen-ah hian Allow access to manage all files option kha thlang la.
+        \n\nHe dialog hi cancel chuan app atang hian a chhuak ang.</string>
+    <string name="user_apps">User apps te pawh a awm</string>
+    <string name="appearance">Landan</string>
+    <string name="behavior">Nungchang</string>
+    <string name="appearance_summary">File manager theme, rawng leh a lan dan tur chu a duh angin i siam thei ang</string>
+    <string name="ui_summary">Eng information nge entir tur tih control la, sidebar chu customize la, UI preferences toggle bawk</string>
+    <string name="behavior_summary">Advanced search leh file hawn leh hawn loh ang chi behavior te chu hna thar anga siam danglam</string>
+    <string name="security_summary">Password leh encryption siam rawh</string>
+    <string name="backup_summary">Export/Import Amaze tih a ni</string>
+
+    <string name="pref_export">Thawnchhuak</string>
+    <string name="pref_export_summary">Export settings a awm bawk</string>
+    <string name="pref_import">Lakluh</string>
+    <string name="pref_import_summary">Settings te chu import rawh</string>
+
+    <string name="quick_desc">Tun hnaia Amaze kaltlangin files accessed te</string>
+    <string name="recent_desc">Tun hnaia file siam emaw siam danglam emaw</string>
+    <string name="error_cannot_find_way_open">File hawn dan tur a hmu thei lo</string>
+    <string name="error_cant_decompress_that_file">Archive dil chu a process thei lo</string>
+    <string name="analyse_storage">Storage chu thlirlet rawh</string>
+    
+    <string name="download_amaze_utils_text">Amaze File Utilities ah i redirect a ni. Kan open source app a ni a, audio/video/image/document viewers inbuilt a ni a, junk files te chu storage free turin a analyze thei a, Wifi P2P hmangin fast transfer leh thil dang tam tak a awm bawk.\nKhawngaihin min lo en ve teh u.</string>
+    <string name="download">Internet atanga thil lachhawng</string>
+    <string name="wifip2p">Wi-Fi P2P hmanga siam a ni</string>
+    <string name="amaze_utils_installed_alias">Amaze File Utilities i install avangin lawmthu kan sawi e. App ah i redirect a ni.</string>
+    <string name="image_viewer">Amaze Image Viewer chu a ni</string>
+    <string name="video_player">Video Player mak tak mai</string>
+    <string name="amaze_audio_player">Amaze Music Player a ni</string>
+    <string name="pdf_viewer">Document entu chu mak ti takin a awm</string>
+    <string name="docx_viewer">Document entu chu mak ti takin a awm</string>
+    <string name="share_logs">Logs te chu share rawh</string>
+    <string name="share_logs_summary">Log captured te chu email / telegram hmangin share thin ang che</string>
+    <string name="open_with_amaze">Amaze nen hawng rawh</string>
+    <string name="confirmation">Confirmation a ni</string>
+    <string name="open_file_confirmation">A hnuaia file hi i hawng duh em?\n\nHming:\n%s\n\nHmun:\n%s\n\nSize:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play policy mandate angin apps te hi a mah chauhin update phal a ni lo. Google Play atang hian app update tur a ni.</string>
+    <string name="error_cannot_get_package_info">File \"%s\" atanga package info hmuh theih loh. File tarlan chu APK a ni lo emaw, package file a chhiat emaw pawh nise.</string>
+    <string name="preference_delete_confirmation">Confirmation chu delete rawh</string>
+    <string name="preference_delete_confirmation_summary">File i delete hmain confirmation zawt hmasa phawt ang che. Hei hi disabling hi a beidawng hle!</string>
+    
+    
+    <string name="protocol_ftps">FTP him tak a ni</string>
+    <string name="unavailable">A awm lo</string>
+
+    <string name="exporting_failed">Exporting a hlawhchham: backup file a ziak thei lo</string>
+    <string name="importing_failed">Importing a hlawhchham: backup file chu a chhiar thei lo</string>
+    <string name="importing_completed">Importing tihfel a ni tawh</string>
+    <string name="invalid_backup_file">Backup file dik lo a awm</string>
+    <string name="import_failed_for">Import a hlawhchham a, hei hi:</string>
+    <string name="free_of">"%s\n%s free of %s."</string>
+    <string name="cloud_error_fdroid">F-Droid version nen chuan Amaze Cloud Plugin hi a support lo. Amaze Play Store version hmang turin kan ngen a che u.</string>
+    <string name="disable_player_intent_filters">Player intent filter te kha disable rawh</string>
+    <string name="disable_player_intent_filters_summary">File chooser atang hian Amaze inbuilt media player te a titawp thin</string>
+    <string name="no_app_found_intent">He thil tum hi handle thei tur app hmuh tur a awm lo. DocumentsUI i install tawh em?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection credentials te chu a clear vek tawh</string>
+    <string name="cloud_connection_credentials_cleared_msg">Vanduaithlak takin i cloud connection credentials te chu database schema thar ah kan migrate thei lo va, app atang hian kan paih chhuak a ngai ta a ni. Khawngaihin cloud connection hi siam leh rawh.</string>
+</resources>

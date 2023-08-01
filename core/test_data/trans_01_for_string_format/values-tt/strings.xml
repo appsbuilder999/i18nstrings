@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Ачык навигация тартмасы</string>
+    <string name="drawer_close">Навигация тартмасын ябу</string>
+    <string name="icon">иконасы</string>
+    <string name="apps">кушымта менеджеры</string>
+    <string name="ftp">FTP Серверы</string>
+    <string name="setting">көйләүләр</string>
+    <string name="select">пунктны сайлагыз</string>
+    <string name="press_again"/>
+    <string name="open">чыгу өчен кабат басыгыз</string>
+    <string name="backup">резервлау</string>
+    <string name="uninstall">бетерү</string>
+    <string name="play">Уйнау кибете</string>
+    <string name="properties">Сыйфатлар</string>
+    <string name="copyingapks">% d APK файлларын% s</string>
+    <string name="delbook">Кыстарманы бетерү</string>
+    <string name="add_to_bookmarks">Кыстармаларга өстәгез</string>
+    <string name="enterpath">Enterлга керегез</string>
+    <string name="cancel">БАРЫК</string>
+    <string name="create">ЯРАТЫ</string>
+    <string name="loading">Йөкләү ...</string>
+    <string name="file_empty">Файл буш</string>
+    <string name="error">Хата</string>
+    <string name="search_results">% s</string>
+    <string name="rename">эзләү нәтиҗәләре</string>
+    <string name="save">Саклагыз</string>
+    <string name="bookmarks_added">Кыстармалар өстәлде</string>
+    <string name="fileexist">Шул ук исемдәге файл инде бар</string>
+    <string name="name">Исем</string>
+    <string name="date">Дата</string>
+    <string name="location">Урын</string>
+    <string name="size_capitalized">Размер</string>
+    <string name="size">папка зурлыгы</string>
+    <string name="enterzipname">Зип исемен кертегез</string>
+    <string name="no_app_found">Бу файлны ачу өчен бернинди кушымта табылмады</string>
+    <string name="copying">Күчерү</string>
+    <string name="moving">Күчерү</string>
+    <string name="file">Файл</string>
+    <string name="folder">Папка</string>
+    <string name="newfolder">Яңа Папка</string>
+    <string name="entername">Исемне кертегез</string>
+    <string name="extracting">Чыгару</string>
+    <string name="stopping">Туктату</string>
+    <string name="open_parent">Ата-аналар каталогын ачу</string>
+    <string name="open_with"/>
+    <string name="share">бүлешү</string>
+    <string name="about"/>
+    <string name="extract">турында</string>
+    <string name="compress">кысу</string>
+    <string name="yes">Әйе</string>
+    <string name="no">к</string>
+    
+    <string name="dialog_delete_category_directories">белешмәләр</string>
+    <string name="dialog_delete_category_files">Файллар</string>
+    <string name="dialog_delete_disclaimer">Түбәндәге әйберләрне бетерү сезнең җайланмадан мәңгегә чыгарылачак һәм аларны кире кайтарып булмый.</string>
+    <string name="dialog_delete_title">әйберләрне мәңгегә бетерергә?</string>
+    <string name="deleting">бетерү</string>
+    <string name="question_set_path_as_home">Сез хәзерге юлны бу кыстыргыч өчен өй итеп куярга телисезме?</string>
+    <string name="directorysort">каталог сортлау режимы</string>
+    <string name="sort_by"/>
+    <string name="sort_only_this">Бу папка гына</string>
+    <string name="theme">Тема</string>
+    <string name="random">очраклы тире</string>
+    <string name="random_summary">башланганда очраклы төп төс куя</string>
+    <string name="colorize">Иконаларны төсле итегез</string>
+    <string name="colorize_summary">Статик иконаның төсен куя. Каталог иконасы төс өстенлеген кире кагмый.</string>
+    <string name="home">Өй</string>
+    <string name="paste"/>
+    <string name="history">Тарих</string>
+    <string name="copy">Күчерү</string>
+    <string name="root_mode">Тамыр эзләүче</string>
+    <string name="root_mode_summary">Тамырланган җайланма өчен генә. Әгәр дә сез моңа ышансагыз гына тикшерегез.</string>
+    <string name="root_failure">Тамырга керү рөхсәт ителмәгән</string>
+    <string name="select_all">Барысын да сайлагыз</string>
+    <string name="delete">Бетерү</string>
+    <string name="set_as_home">Өй итеп урнаштыру</string>
+    <string name="operation_not_supported">Операция ярдәм итми</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Материаль яктылык</string>
+    <string name="dark">Материаль караңгы</string>
+    <string name="daytime">Көндез</string>
+    <string name="black">Кара (OLED өчен)</string>
+    <string name="system">система (система темасына иярегез)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">onгарыдагы папкалар</string>
+    <string name="filesOnTop">onгарыдагы файллар</string>
+    <string name="none_on_top">onгарыда юк</string>
+    <!--SortBy-->
+    <string name="sort_name">Исем</string>
+    <string name="lastModified">Соңгы үзгәртелгән</string>
+    <string name="sort_size">Размер</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Файлны сайлагыз</string>
+    <string name="process_viewer">Процесс тамашачысы</string>
+    <string name="in_safe">spaceитәрлек урын юк</string>
+    <string name="no_file_overwrite">Файл өстендә язылмаган</string>
+    <string name="skip">Сикерү</string>
+    <string name="overwrite"/>
+    <string name="not_allowed">рөхсәт ителмәгән</string>
+    <string name="searching">% s эзләү</string>
+    <string name="done">эшләнде</string>
+    <string name="set"/>
+    <string name="enablerootmde">Тамыр режимын эшләгез</string>
+    <string name="goback">Кайтыгыз</string>
+    <string name="newfile">Яңа Файл</string>
+    <string name="no_files">Файллар юк</string>
+    <string name="used">башкалар кулланган урын</string>
+    <string name="used_by_others"/>
+    <string name="free">буш урын</string>
+    <string name="listview">исемлек күренеше</string>
+    <string name="gridview">Челтәр күренеше</string>
+    <string name="permission">Рөхсәтләр</string>
+    <string name="hide">Яшерү</string>
+    <string name="exit">Чыгыш</string>
+    <string name="doforall">Барлык әйберләр өчен дә эшләгез</string>
+    <string name="gridcolumnno">Челтәр күренешендәге баганалар саны</string>
+    <string name="set_random">кушымтаны яңадан эшләтеп җибәргәннән соң үзгәрешләр булачак</string>
+    <string name="authors">Авторлар</string>
+    <string name="changelog">Чангелог</string>
+    <string name="ok">Ярар</string>
+    <string name="ui">Интерфейс</string>
+    <string name="general">Генераль</string>
+    <string name="thumb_summary">Кушымталарның һәм рәсемнәрнең эскизларын күрсәтегез</string>
+    <string name="thumb">Эскизларны күрсәтегез</string>
+    <string name="hidden">Яшерен файлларны һәм папкаларны күрсәтегез</string>
+    <string name="lastModifiedSummary">Соңгы үзгәртү көнен һәм вакытын күрсәтегез</string>
+    <string name="lastModifiedPref">Соңгы үзгәртелгән датаны һәм вакытны күрсәтегез</string>
+    <string name="size_pref_summary">Файлларның зурлыгын һәм папкалардагы әйберләр санын күрсәтегез</string>
+    <string name="size_pref">Размерларны күрсәтегез</string>
+    <string name="miscellaneous">Төрле</string>
+    <string name="root_pref_summary">Файллар һәм папкалар рөхсәтен күрсәтегез</string>
+    <string name="root_pref">Рөхсәтләрне күрсәтү</string>
+    <string name="about_amaze_file_manager_label">Amaze Файл Менеджеры турында</string>
+    <string name="version">Вариант</string>
+    <string name="rate">Кушымтаны бәяләгез</string>
+    <string name="feedback">Фикер алышу</string>
+    <string name="hiddenfiles">Яшерен файллар</string>
+    <string name="type"/>
+    <string name="root_directory">Тамыр</string>
+    <string name="add_shortcut">Кыска юлны өстәгез</string>
+    <string name="unsaved_changes">Сакланмаган үзгәрешләр</string>
+    <string name="unsaved_changes_description">Сездә сакланмаган үзгәрешләр бар, чыгу алдыннан аларны сакларга телисезме?</string>
+    <string name="saving">Саклау</string>
+    <string name="package_installer">Пакет урнаштыручы</string>
+    <string name="view">карау</string>
+    <string name="install"/>
+    <string name="archive">урнаштырыгыз</string>
+    <string name="archive_text">Бу архив. Сез нинди чара башкарырга теләр идегез?</string>
+    <string name="package_installer_text">Бу пакет урнаштыручы. Сез нинди чара башкарырга теләр идегез?</string>
+    <string name="xda_title">XDA җеп</string>
+    <string name="xda_summary">Сораулар, Ярдәм һәм проблемаларны чишү</string>
+    <string name="circular_images">Рәсемнәр һәм видеолар өчен түгәрәк иконалар кулланыгыз</string>
+    <string name="circular_icons">Түгәрәк иконаларны кулланыгыз</string>
+    <string name="back_title">Арткы навигация</string>
+    <string name="back_summary">исемлек өстендә махсус навигацияне эшли</string>
+    <string name="details">Детальләр</string>
+    <string name="translators">Тәрҗемәчеләр</string>
+    <string name="german_translation_title">немец</string>
+    <string name="italian_translation_title">итальян</string>
+    <string name="french_translation_title">француз</string>
+    <string name="russian_translation_title">русча</string>
+    <string name="spanish_translation_title">Испан</string>
+    <string name="basque_translation_title">Баск</string>
+    <string name="chinese_translation_title">Кытай</string>
+    <string name="serbian_translation_title">Сербия</string>
+    <string name="turkish_translation_title">Төрек</string>
+    <string name="ukrainian_translation_title">Украина</string>
+    <string name="portuguese_translation_title">Португалия</string>
+    <string name="polish_translation_title">поляк</string>
+    <string name="korean_translation_title">Корея</string>
+    <string name="greek_translation_title">Грек</string>
+    <string name="dutch_translation_title">Голландия</string>
+    <string name="romanian_translation_title">Румыния</string>
+    <string name="vietnamese_translation_title">Вьетнам</string>
+    <string name="japanese_translation_title">Япон</string>
+    <string name="tamil_translation_title">Тамил</string>
+
+    
+    <string name="unin_system_apk">Бу система кушымтасы, аны бетерү системаның тотрыксызлыгына китерергә мөмкин. \ n Алга таба?</string>
+    <string name="warning">Кисәтү</string>
+    <string name="donate">Бүләк итегез</string>
+    <string name="archive_extract_folder">Архив экстракт папкасы</string>
+    <string name="archive_summary">Бу папкага архив файллары чыгарылачак. Килешенгән кыйммәт - архив булган каталог.</string>
+    <string name="open_as">Ачык</string>
+    <string name="text">Текст</string>
+    <string name="audio">Аудио</string>
+    <string name="video">Видео</string>
+    <string name="other">Башка</string>
+    <string name="image">Рәсем</string>
+    <string name="contributors">Идарә итүчеләр</string>
+    <string name="save_paths">pathлларны исегездә тотыгыз</string>
+    <string name="save_path_summary">Эшләтеп җибәргәндә, һәр кыстыргыч өчен иң соңгы папка күрсәтеләчәк</string>
+    <string name="select_intent"/>
+    <string name="database">Мәгълүматлар базасы</string>
+    <string name="colored_navigation">Төсле Навигация сызыгы</string>
+    <string name="colored_navigvation_sum">Система навигациясе тактасы тире белән төслеме, юкмы</string>
+
+    <string name="color_title">Төс</string>
+    <string name="color_summary">Төрле UI компонентларына төс куегыз</string>
+    <string name="primary_color_title">Беренчел төс (Сул кыстыргыч)</string>
+    <string name="primary_color_summary">Сул кыстыргыч өчен зур UI элементларына төс куегыз</string>
+    <string name="accent_color_title">Акцент төсе</string>
+    <string name="accent_color_summary">FAB һәм башка кечкенә UI элементларына төс куегыз</string>
+    <string name="icon_color_title">Икона төсе</string>
+    <string name="icon_color_summary">иконаларга төс куегыз</string>
+    <string name="choose_color">Төсне сайлагыз</string>
+    <string name="files">Файллар</string>
+    <string name="textreader">Текст укучы</string>
+    <string name="databasereader">Мәгълүматлар базасы укучысы</string>
+    <string name="show_dividers">Аеручыларны күрсәтегез</string>
+    <string name="needs_access">Рөхсәтне языгыз</string>
+    <string name="needs_access_summary">Зинһар, \ t</string>
+    <string name="needs_access_summary1">\ каталогын сайлагыз,</string>
+    <string name="smb_connection">SMB тоташуы</string>
+    <string name="smb_server">Сервер IP адресы</string>
+    <string name="server_address">Серверның IP адресы</string>
+    <string name="username">Кулланучының исеме</string>
+    <string name="password">Серсүз</string>
+    <string name="anonymous">Аноним</string>
+    
+    <string name="folders">Папкалар</string>
+    <string name="folderfilecount">% 1 $ d папкалар һәм% 2 $ d файллар</string>
+    <string name="videos">Видеолар</string>
+    
+    <string name="documents">Документлар</string>
+    <string name="images">Рәсемнәр</string>
+    <string name="clear">Чистарту</string>
+    
+    <string name="total">Барлыгы:</string>
+    <string name="calculating">исәпләү</string>
+    <string name="sort"/>
+    <string name="ascending">күтәрелү</string>
+    <string name="descending">төшү</string>
+    <string name="default_string">Килешү</string>
+    <string name="doit">Моны эшлисезме</string>
+    <string name="want_help">Ярдәм кирәкме?</string>
+    <string name="quick">Тиз керү</string>
+    <string name="recent">Соңгы файллар</string>
+    <string name="edit">үзгәртү</string>
+    <string name="find"/>
+    <string name="grant">Грант</string>
+    <string name="grantper">Грант рөхсәте</string>
+    <string name="grantfailed">Рөхсәт бирелмәгән</string>
+    <string name="grant_storage_permission">кушымтаны дәвам итү өчен саклау рөхсәте кирәк. Бу диалогны кире кагу кушымтадан чыгачак.</string>
+    <string name="operation_unsuccesful">Операция уңышсыз</string>
+    <string name="creatingfile">Файл ясау</string>
+    <string name="creatingfolder">Папка ясау</string>
+    <string name="renaming"/>
+    <string name="cant_be_empty">% s исемен үзгәртү буш була алмый</string>
+    <string name="ip">Адрес</string>
+    <string name="connection_name">тоташу исеме</string>
+    <string name="no_device_found"/>
+    <string name="path">юл</string>
+    <string name="rename_bookmark">Кыстарманы үзгәртегез</string>
+    <string name="cut">Кисегез</string>
+    <string name="search">Эзләү</string>
+    <string name="invalid_name">Исемнең дөрес булмаганы</string>
+    <string name="search_hint">Эзләү өчен языгыз ...</string>
+    <string name="advanced_search">Алга киткән эзләү</string>
+    <string name="regular_expression">Регуляр белдерү</string>
+    <string name="regular_expression_summary">BASH стилендәге регуляр экспресс ярдәмендә эзләү</string>
+    <string name="match_content">Эчтәлек эчтәлеге</string>
+    <string name="match_content_summary">куелса, регуляр экспресс бөтен файл исеме белән туры киләчәк,
+        башка очракны эзләячәк.</string>
+    <string name="start_ftp">Старт</string>
+    <string name="stop_ftp">Тукта</string>
+    <string name="ftp_status_running">Йөгерү</string>
+    <string name="ftp_status_not_running">Эшләмәү</string>
+    <string name="ftp_no_wifi">Wi-Fi</string>
+    <string name="domain">домены</string>
+    <string name="smb_share">бүлешү юлы</string>
+    <string name="invalid">яраксыз% s</string>
+    <string name="ftp_notif_starting">FTP серверы</string>
+    <string name="ftp_notif_starting_title">FTP серверы</string>
+    <string name="ftp_notif_title">Amaze FTP серверы</string>
+    <string name="ftp_notif_text">% s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP порты</string>
+    <string name="ftp_port_change_success">FTP порты уңышлы үзгәрде</string>
+    <string name="ftp_port_change_error_invalid">Яраксыз порт номеры сайланган</string>
+    <string name="primary_two_title">Беренчел төс (уң кыстыргыч)</string>
+    <string name="primary_two_summary">уң таблицага зур UI элементларына төс куегыз</string>
+    <string name="support_development">Ярдәмне үстерү</string>
+    <string name="report_bugs_title">Хаталар турында хәбәр итү</string>
+    <string name="source_title">Чыганак коды</string>
+    <string name="source_summary">GitHub\'та безнең чыганак кодны карагыз</string>
+    <string name="report_bugs_summary">Хаталар турында хәбәр итегез яки яңа функцияне сорагыз</string>
+    <string name="translate_title"/>
+    <string name="translate_summary">Amaze телен тәрҗемә итегез</string>
+    <string name="paypal_copy_message">PayPal ID буфер тактасына күчерелгән</string>
+    <string name="searching_devices">җайланмалар эзләү</string>
+    <string name="use_custom_ip">IP куллану</string>
+    <string name="bookmark_lost">Кыстарма табылмады, ял итү ...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Android (SMB) уртак Windows папкасына ничек керергә \ n \ n
+                
+                    
+                        Windows\'та файл бүлешүне рөхсәт итегез \ n
+                    
+                    
+                        Контроль панельне ачыгыз, челтәр астындагы HomeGroup һәм бүлешү параметрларын сайлагыз
+                        һәм Интернет, һәм "Алга киткән бүлешү көйләүләрен үзгәртү" төймәсенә басыгыз, "Файл һәм
+                        Принтер бүлешү "үзенчәлеге. \ N \ n
+                    
+
+                    
+                        Өстәмә файл бүлешү көйләүләре \ n
+                    
+                    
+                        Сез шулай ук ​​бүтән алдынгы бүлешү көйләүләрен монда конфигурацияләргә теләрсез. \ n
+                        Мәсәлән, сез барыгызга да ышансагыз, файлларыгызга серсүзсез керә аласыз
+                        сезнең җирле челтәрдәге җайланмалар. Файл һәм принтер бүлешү кушылганнан соң, сез булдыра аласыз
+                        File Explorer яки Windows Explorer ачыгыз, бүлешергә теләгән папкага уң төймә белән басыгыз, һәм
+                        Сыйфатларны сайлагыз. \ n
+                        Бүлешү төймәсенә басыгыз һәм папканы челтәрдә кулланыгыз. \ N \ n
+                        
+
+                    
+                        Ике җайланманың да бер үк Wifi \ n булуына инаныгыз
+                    
+                    
+                        Бу үзенчәлек файлларны җирле челтәрдә куллана, шуңа күрә сезнең компьютер һәм мобиль җайланмалар
+                        бер үк җирле челтәрдә булырга тиеш. Сез уртак Windows папкасына керә алмыйсыз
+                        Интернет аша яки смартфоныгыз мобиль мәгълүматка тоташканда - ул
+                        Wi-Fi белән тоташырга тиеш. \ n \ n
+                    
+
+                    
+                        IP адресын табыгыз \ n
+                    
+                    
+                        Ачык боерык. \ \'Ipconfig \' языгыз һәм Enter төймәсенә басыгыз. Килешү шлюзын эзләгез
+                        роутерның IP адресы өчен челтәр адаптеры астында. Эзләргә
+                        \\\ "IPv4 Адрес \\\" шул ук адаптер бүлеге астында сезнең санакның IP-ны табу
+                        адрес. \ n \ n
+                    
+
+                    SMB диалог рамкасына детальләр кертегез \ n
+                
+            
+        
+   </string>
+    <string name="share_limit">100 дән артык файлны бүлешә алмыйбыз</string>
+    <string name="otg_access">OTG җайланмасының тамырын сайлагыз</string>
+    <string name="information">Мәгълүмат</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Рөхсәт ителгән</string>
+    <!-- reference to file modified date -->
+    <string name="modified">үзгәртелгән</string>
+
+    <string name="title">Титул</string>
+    <string name="artist">Рәссам</string>
+    <string name="album">Альбом</string>
+    <string name="year">Ел</string>
+    <string name="duration">Озынлык</string>
+    <string name="comment">Аңлатма</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Контейнер</string>
+    <string name="codec">Кодек</string>
+    <string name="channels">Каналлар</string>
+    <string name="sample_rate">ampleрнәк ставкасы</string>
+    <string name="bitrate">Битрат</string>
+    <string name="dimensions">ensionsлчәмнәр</string>
+    <string name="frame_rate">Кадр ставкасы</string>
+    <string name="image_type">Рәсем тибы</string>
+    <string name="width">киңлек</string>
+    <string name="height">Биеклек</string>
+    <string name="date_modified">үзгәртелгән дата</string>
+    <string name="software">Программа тәэминаты</string>
+    <string name="creator">Барлыкка Китерүче</string>
+    <string name="camera_brand">Камера маркасы</string>
+    <string name="camera_model">Камера моделе</string>
+    <string name="date_taken">Алынган дата</string>
+    <string name="exposure_time">Экспозиция вакыты</string>
+    <string name="aperture_value">аппертура бәясе</string>
+    <string name="image_iso">ISO тизлек рейтингы</string>
+    <string name="flash_fired">Флеш утлы</string>
+    <string name="focal_length">Фокаль озынлык</string>
+    <string name="subject">Тема</string>
+    <string name="author">Автор</string>
+    <string name="keywords">Ачкыч сүзләр</string>
+    <string name="producer">Продюсер</string>
+    <string name="created"/>
+    <string name="format">формат</string>
+    <string name="pages">битләр саны</string>
+    <!-- reference to a document file -->
+    <string name="optimized">оптимальләштерелгән</string>
+    <string name="security">Куркынычсызлык</string>
+    <string name="paper_size">Кәгазь размеры</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Кайбер файллар уңышлы булмады% s</string>
+    <string name="copied"/>
+    <string name="moved">күчерелде</string>
+    <string name="copy_complete">Күчереп алу</string>
+    <string name="waiting_title">Көтү</string>
+    <string name="waiting_content"/>
+    <string name="extract_complete">чыгару тәмамлану көтә</string>
+    <string name="compression_complete">кысу тулы</string>
+    <string name="compressing">кысу</string>
+    <string name="cancelled"/>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Язылган</string>
+    <string name="out_of"/>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">дан</string>
+    <string name="processing_file">эшкәртү файллары</string>
+    <string name="current_speed">Хәзерге тизлек</string>
+    <string name="smb_launch_error">Сезгә бу файлны саклау өчен күчерергә кирәк</string>
+    <string name="error_file_not_found">Хата: Файл табылмады</string>
+    <string name="error_io">I / O Хата</string>
+    <string name="error_file_too_large">Хата: Файл бик зур</string>
+    <string name="medium_text">Урта текст</string>
+    <string name="permission_read">укыгыз</string>
+    <string name="permission_write">Языгыз</string>
+    <string name="permission_execute"/>
+    <string name="permission_owner">хуҗасы</string>
+    <string name="permission_group">төркем</string>
+    <string name="permission_other">бүтән</string>
+    <string name="clipboard_path_copy">юл буфер тактасына күчерелде</string>
+    <string name="service_timer">Вакыт үтте</string>
+    <string name="please_wait">Зинһар, көтегез</string>
+
+    <string name="cloud_connection">Болыт тоташуы</string>
+    <string name="cloud_connection_new">Яңа болыт тоташуы</string>
+    <string name="cloud_dropbox">Тамчы тартмасы</string>
+    <string name="cloud_drive">Google Drive ™</string>
+    
+    <string name="cloud_box">тартма</string>
+    <string name="cloud_get">Болыт плагинын алыгыз</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">кушымталар юк</string>
+    <string name="ftp_path">Уртак юл</string>
+    <string name="ftp_path_hint"/>
+    <string name="change">үзгәртү</string>
+    <string name="unknown_error">Ой, нәрсәдер дөрес булмаган!</string>
+
+    <string name="ftp_path_change_success">FTP юлы уңышлы үзгәрде</string>
+    <string name="ftp_path_change_error_invalid">Яраксыз юл</string>
+    <string name="ftp_status_no_connection">тоташу юк</string>
+    <string name="ftp_status_secure_connection">Куркынычсыз тоташу</string>
+    <string name="ftp_status_title">Статус</string>
+    <string name="ftp_port">Порт</string>
+    <string name="ftp_login">Керү</string>
+    <string name="field_empty">Кыр буш була алмый</string>
+    <string name="ftp_timeout">Эш вакыты</string>
+    <string name="ftp_seconds">Секундлар</string>
+    
+    <string name="intellihide_toolbar_summary"/>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">буфер тактасына күчерелде</string>
+    <string name="contributors_1_summary">Тәрҗемә</string>
+    <string name="contributors_2_summary">Икона һәм баннерлар</string>
+    <string name="contributors_3_summary">Тема двигателе</string>
+    <string name="contributors_4_summary">FAB артында күләгә</string>
+    <string name="contributors_5_summary">Таблицаларны сөрткәндә төс күчү</string>
+    <string name="contributors_6_summary">FTP серверы</string>
+    <string name="contributors_7_summary">Интерактив кабыкны кабызу</string>
+    <string name="connection_exists">тоташу инде бар</string>
+
+    <string name="crypt_encrypting">шифрлау</string>
+    <string name="crypt_decrypting">шифрлау</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">шифрланган</string>
+    <string name="crypt_decrypted">шифрланган</string>
+    <string name="crypt_encrypt">шифрлау</string>
+    <string name="crypt_decrypt">Шифрлау</string>
+    <string name="operation_fail_following">Файлларны карау өчен операция уңышсыз булды</string>
+    <string name="crypt_pref_master_password_title">Мастер серсүз</string>
+    <string name="crypt_pref_master_password_summary">Шифрлау өчен төп серсүз куегыз.
+        Чыгар өчен буш калдырыгыз.</string>
+    <string name="crypt_pref_fingerprint_title">Бармак эзе</string>
+    <string name="crypt_pref_fingerprint_summary">шифрлауны раслау өчен бармак эзен кулланыгыз</string>
+    <string name="crypt_fingerprint_no_permission">Бармак эзе рөхсәте юкка чыга</string>
+    <string name="crypt_fingerprint_not_enrolled">Бармак эзе дә язылмады</string>
+    <string name="crypt_fingerprint_no_security">Саклагычның куркынычсызлыгы табылмады</string>
+    <string name="crypt_warning_key">Куркынычсызлык үрнәген үзгәрткәндә киңәш итегез.
+        Система көйләнмәләре, сез бу эчтәлекне шифрлый алмассыз.</string>
+    <string name="warning_never_show"/>
+    <string name="warning_confirm">аңладым!</string>
+    <string name="crypt_encryption_fail"/>
+    <string name="crypt_decryption_fail">шифрлый алмады</string>
+    <string name="crypt_decryption_fail_password">Серсүз ялгыш!</string>
+    <string name="crypt_fingerprint_authenticate">дәвам итү өчен сенсор сенсоры</string>
+    <string name="authenticate_password">Серсүзне кертегез</string>
+
+    <string name="sidebar_preferences">Капка тактасы</string>
+    <string name="sidebar_quick_access_title">Капка тактасына тиз керү</string>
+    <string name="show_quick_access_pref_title">Тиз керү мөмкинлеген күрсәтү</string>
+    <string name="show_quick_access_pref">Тиз керү</string>
+    <string name="directory">каталог</string>
+
+    <string name="sidebar_bookmarks_title">Капка тактасы кыстыргычлары</string>
+    <string name="show_bookmarks_pref_title">кыстыргычларны күрсәтегез</string>
+    <string name="show_bookmarks_pref">кыстыргычлар</string>
+    <string name="create_bookmark">кыстыргыч ясау</string>
+    <string name="edit_bookmark">кыстыргычны үзгәртү</string>
+    <string name="question_delete_bookmark">кыстыргычны бетерү?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud плагины табылмады. Зинһар, Play Store-тан йөкләгез.</string>
+    <string name="cloud_error_failed_restart">тоташуны йөкли алмады.
+        Зинһар, Amaze Cloudны бер тапкыр ачыгыз.</string>
+    <string name="cloud_remove">Сез болыт элемтәсен бетерергә телисезме?</string>
+    <string name="cloud_fail_authenticate"/>
+    <string name="cloud_share_copied">Уртак сылтама буфер тактасына күчерелде</string>
+    <string name="copy_low_memory">Хәтер бетте, зинһар, бераз RAMны чистартыгыз</string>
+    <string name="cloud_token_lost">Токен югалды, зинһар, кабат керегез</string>
+    <string name="monofont">Моноспос шрифты</string>
+    <string name="showHeaders">Башламнарны күрсәтегез</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Беркем дә юк</string>
+	<string name="item">пункт</string>
+	<string name="items">әйберләр</string>
+	
+	<string name="byte_singular">байт</string>
+	<string name="bytes">байт</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Файлның исеме булырга тиеш</string>
+    <string name="add_item"/>
+    <string name="failed_smb_decrypt_path">SMB тоташуы йөкләнмәде</string>
+    <string name="failed_cloud_new_connection">Яңа болыт бәйләнешен кертә алмады</string>
+    <string name="failed_cloud_api_key">Болыт плагинын раслый алмады</string>
+
+    <string name="local_inet_addr_error">localирле инет адресын алуда хата</string>
+    <string name="intent_save_as">Саклагыз ...</string>
+    <string name="go">Барыгыз</string>
+    <string name="advanced">Алга киткән</string>
+    <string name="typeable_paths_title">Заказлы юллар</string>
+    <string name="typeable_paths_summary">Заказлы юлны язу өчен озын баскыч юл сызыгы</string>
+    <string name="send_email_to">Электрон почта җибәрегез</string>
+
+    <string name="text_editor">Текст редакторы көйләүләре</string>
+    <string name="preference_newstack_title">Файлларны яңа эш итеп ачу</string>
+    <string name="preference_newstack_summary">Сезгә аерым биремнәрдә файллар ачарга мөмкинлек бирә. Аларга система кире кайту экраныннан керегез.</string>
+    
+    <string name="developers">Төзүчеләр</string>
+    <string name="no_bitcoin_app">Зинһар, Bitcoin Wallet кушымтасын урнаштырыгыз</string>
+    <string name="channel_name_normal">Гаҗәп хәбәрләр</string>
+    <string name="channel_description_normal">Amaze Файл Менеджеры хәбәрләре</string>
+    <string name="channel_name_ftp">Amaze FTP Серверы</string>
+    <string name="channel_description_ftp">Amaze Файл Менеджеры FTP Серверы хәбәрләре</string>
+
+    
+    <string name="processing">Эшкәртү ...</string>
+    <string name="failed_no_connection">Файлларны йөкли алмады. Зинһар, тоташуыгызны тикшерегез.</string>
+
+    <string name="update">ЯDАДА</string>
+	<string name="scp_connection">SCP / SFTP тоташуы</string>
+    <string name="ftp_connection">FTP тоташуы</string>
+    <string name="ftps_connection">SSL тоташуы өстендә FTP</string>
+    <string name="scp_port">порт</string>
+    <string name="ssh_host_key_verification_prompt">Хостның чынлыгы \ \'% 1 $ s \' билгеләнә алмый. \ n \ n% 2 $ s төп бармак эзе% 3 $ s. \ n \ n Зинһар өчен тап "\ Әйе \ "шәхесне раслау; югыйсә, зинһар өчен \ "\ к \" басыгыз.</string>
+    <string name="ssh_host_key_verification_prompt_title">Хостны тикшерегез</string>
+    <string name="ssh_select_pem_button">SSH шәхси ачкыч</string>
+    <string name="ssh_pem_key_parse_error">Сайланган PEMны укып булмый:% s</string>
+    <string name="password_unchanged">(үзгәртелмәгән)</string>
+    <string name="ssh_authentication_failure_password">Керү уңышсызлыгы: Бирелгән кулланучы исеме һәм серсүз белән раслана алмый.</string>
+    <string name="ssh_authentication_failure_key">Логон уңышсызлыгы: Бирелгән кулланучы исеме һәм шәхси ачкыч белән раслана алмый.</string>
+    <string name="ssh_connect_failed">% 1 $ s белән тоташып булмый:% 2 $ d:% 3 $ s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">error end</string>
+    <string name="ssh_connect_failed_host_key_changed_message">КЕШЕ НАСТИЯ ЭШЛӘР МӨМКИН! Хост ачкычы яңа гына үзгәртелгән булырга мөмкин. Ерактагы хуҗа җибәргән ачык ачкыч өчен бармак эзе Амазада сакланганга туры килми. \ N \ n Зинһар өчен, система администраторына мөрәҗәгать итегез яки серверга тоташуны дәвам итәр өчен яңа тоташу урнаштырыгыз.</string>
+    <string name="ssh_key_prompt_passphrase">Зинһар, ачкыч парфразны кертегез. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Кыска юллар ясау сезнең эшләтеп җибәрүче ярдәмендә булмый.</string>
+    
+    <string name="select_color_config">Төс конфигурациясен сайлагыз</string>
+    <string name="customize"/>
+    <string name="custom">Customize</string>
+    <string name="preselected_configs_title">Алдан сайланган конфигурацияләр</string>
+    <string name="orange">Алсу</string>
+    <string name="blue">Зәңгәр</string>
+    <string name="green">Яшел</string>
+    <string name="password_no_match">Серсүз туры килми</string>
+    <string name="deselect_all">Барысын да сайлап алыгыз</string>
+    <string name="filename">Файлның исеме</string>
+    <string name="compress_file_suggest_zip_extension">Файлны киңәйтү буларак \ ". zip \" кулланырга киңәш ителә. .</string>
+    <string name="about_amaze">Android өчен материал дизайны менеджеры</string>
+    <string name="license">лицензия</string>
+    <string name="libraries">Китапханәләр</string>
+    <string name="password_repeat">Серсүзне кабатлау</string>
+    <string name="create_file_suggest_txt_extension">\ ". txt \" файлны киңәйтү буларак кулланырга киңәш ителә.</string>
+    <string name="ssh_select_pem">Аутентификация өчен шәхси ачкычны сайлагыз</string>
+    <string name="ssh_key_invalid_passphrase">ачкыч парфразы дөрес түгел.</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM шифрлау өчен дөрес декодер юк.</string>
+    <string name="encryption_fail_copy">мәгълүмат базасында шифрлау язмасын яңартып булмады</string>
+    <string name="extracted">Чыгарылган</string>
+    <string name="compressed">кысылган</string>
+    <string name="processed">эшкәртелгән</string>
+    <string name="no_obtainable_info">Бу файл турында мәгълүмат юк</string>
+    <string name="reopen_from_source">Булмый, зинһар, соңгы кушымтадан</string>
+    <string name="no_file_error">Нәрсәдер дөрес булмаган, ачылырлык бернәрсә дә юк</string>
+    <string name="file_too_long">Файл бик озын һәм аны редакцияләп булмый, ләкин сез беренче% d символларын укый аласыз</string>
+    <string name="file_read_only">Файл ачылды - бары тик уку өчен генә.</string>
+    <string name="got_it">Аңладым!</string>
+    <string name="encrypt_file_save_as">Шифрланган файлны саклагыз ...</string>
+    <string name="encrypt_folder_save_as">Шифрланган папканы саклагыз ...</string>
+    <string name="encrypt_option_use_aze">Amaze шифрлау форматын кулланыгыз</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p> AESCrypt - AES шифрлау нигезендә ачык чыганак файл шифрлау форматы. Ул шулай ук ​​портатив, бүтән платформалардагы AESCrypt программалары белән шифрланырга мөмкин. </p>
+        <p> <a href="https://www.aescrypt.com" target="_blank"> AESCrypt сайты </a> </p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p> Amaze \ шифрлау форматы шулай ук ​​AES шифрлау нигезендә; ләкин AESCrypt форматыннан аерылып тора, аны бу җайланма шифрлау гына мөмкин; шулай ук ​​сез Amaze File Manager-ны бу җайланмадан бетерергә һәм экранны ябу ысулын үзгәртергә тиеш түгел, югыйсә сезнең шифрланган файлны торгызу мөмкинлеге булмас. </p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Шифрланган файллар файлны киңәйтү өчен \ ". aze \" кулланырга тиеш.</string>
+    <string name="encrypt_file_must_end_with_aes">Шифрланган файллар файлны киңәйтү өчен \ ". aes \" кулланырга тиеш.</string>
+    <string name="error_aescrypt_decrypt_failed">\ \'% s \' шифрлау мөмкин түгел: \ \'% s \'</string>
+    <string name="cannot_overwrite">Файлны яңадан язып булмый.</string>
+    <string name="saved_single_file">Файл \ \'% s \' итеп сакланган.</string>
+    <string name="saved_multi_files">% d файллары сакланган.</string>
+    <string name="create_hidden_file_warn">Ясалган файл файллар исемлегендә яшереләчәк.</string>
+    <string name="grant_apkinstall_permission">кушымталар урнаштыру өчен рөхсәт кирәк.</string>
+    <string name="time_remaining">Калган вакыт</string>
+    <string name="transfer_rate">Күчерү ставкасы</string>
+    <string name="unknown">билгесез</string>
+    <string name="multiple_invalid_archive_entries">Архивтагы кайбер файлларны чыгарып булмый; архив бозылырга яки зарарлы чыганактан булырга мөмкин.</string>
+    <string name="saf_otg_explanation">Сез хәзер куркынычсызлык сәбәпләре аркасында Android файл системасына керәчәксез. Зинһар, сул яктагы исемлектән USB җайланмасын сайлагыз.</string>
+    <string name="donation_thanks">Иганә өчен рәхмәт, бу безне дәртләндерә! (:</string>
+    <string name="enable_marquee_filename">Файл исемнәре өчен марк эффектын эшләгез</string>
+    <string name="archive_password_prompt">Зинһар, архив серсүзен кертегез:</string>
+    
+    <string name="cannot_extract_archive">Архивны чыгарып булмый \ "% s \":% s</string>
+    <string name="archive_unsupported_or_corrupt">Архивны ачып булмый \ "% s \". Я без архивны ача алмыйбыз, яисә архив бозылган.</string>
+    <string name="close">Ябу</string>
+    <string name="bookmark_exists">Кыстарма бар</string>
+    <string name="hide_media">Медиа браузерларыннан яшерегез</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">КЕШЕ НАСТИЯ ЭШЛӘР МӨМКИН! Хост ачкычы яңа гына үзгәртелгән булырга мөмкин. Ерактагы хуҗа җибәргән ачык ачкыч өчен бармак эзе Амазада сакланганга туры килми. \ N \ n Сез хуҗаның бармак эзен яңартуны дәвам итә аласыз яки SSH тоташу көйләнмәләрен яңартуны туктата аласыз.</string>
+    <string name="update_host_key">Хост ачкычын яңарту</string>
+    <string name="cancel_recommended">Бетерү (тәкъдим ителә)</string>
+    
+    
+    <string name="failed_install_apk"/>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Эчке Саклагыч</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD-карта</string>
+    <string name="choose_folder">Бу Папканы сайлагыз</string>
+    
+    <string name="some_files_failed_invalid_operation">Кайбер файллар дөрес булмаган операция аркасында уңышсыз калды</string>
+    <string name="ftp_server_prompt_connect_to_network">Челтәргә тоташыгыз яки AP</string>
+    <string name="ftp_server_open_settings">көйләгез</string>
+    <string name="move">Күчерегез</string>
+    <string name="select_save_location"/>
+    <string name="scp_default_path">Килешү юл (Ихтимал)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Гафу итегез, бу булырга тиеш түгел.</string>
+    
+    <string name="error_report_button_text">Бу хатаны электрон почта аша хәбәр итегез</string>
+    <string name="error_report_button_telegram">Бу хатаны телеграмма аша хәбәр итегез</string>
+    <string name="copy_for_github">Форматланган отчетны күчерегез</string>
+    <string name="error_report_open_issue_button_text">GitHub\'та отчет</string>
+    <string name="error_report_open_github_notice">Зинһар өчен, сезнең авария турында сөйләшү бармы-юкмы икәнлеген тикшерегез.</string>
+    <string name="error_snackbar_message">Гафу итегез, нәрсәдер дөрес булмаган.</string>
+    <string name="error_snackbar_action">Доклад</string>
+    <string name="what_device_headline">Мәгълүмат:</string>
+    <string name="what_happened_headline">Ни булды:</string>
+    <string name="info_labels">Нәрсә: \ nOS версиясе: \\ n Киңәш: \\ nМодель: \\ n Продукт:</string>
+    <string name="your_comment">Сезнең аңлатма (инглизчә):</string>
+    <string name="error_details_headline">Детальләр:</string>
+    <string name="app_ui_crash">кушымта / UI җимерелде</string>
+    <string name="error_report_title">Хата турында хәбәр</string>
+    <string name="crash_report_copied">Бозлау отчеты буфер тактасына күчерелде</string>
+    <string name="disableIpcSignature">IPC имзалауны сүндерегез (SMBv1 мирасы өчен - UNSAFE!)</string>
+    <string name="cannot_delete_file"/>
+    <string name="cannot_delete_file_with_reason">Файлны бетерә алмый -% s</string>
+    <string name="cannot_rename_file">Файлның исемен% s -% s</string>
+    <string name="cannot_read_directory">% s -% s</string>
+    <string name="just_once">каталогны укып булмый</string>
+    <string name="always">waysәрвакыт</string>
+    <string name="choose_different_app">Төрле кушымтаны сайлагыз</string>
+    <string name="clear_open_file">Кэшны чистарту</string>
+    <string name="clear_open_file_summary">Сайланган файл ачу кушымталарын чистарта</string>
+    <string name="ftp_readonly">Уку өчен генә</string>
+    <string name="legacy_listing_title">Тамыр өчен мирас исемлеген кулланыгыз</string>
+    <string name="legacy_listing_summary">Эшләтелгән булса, файлларны исемлеккә кертү өчен мирас ысулын кулланыгыз</string>
+    <string name="error_unsupported_v5_rar">RAR архивы \ "% s \" RAR v5 архивы булмый.</string>
+    <string name="ftp_prompt_restart_server">changesзгәрешләр кертү өчен сезгә FTP серверын яңадан эшләтеп җибәрергә кирәк.</string>
+    <string name="error_permission_denied">Рөхсәт кире кагылды</string>
+    <string name="error_archive_password_incorrect">Архив серсүзе.</string>
+    <string name="error_archive_cannot_extract">Архив язмасын чыгарып булмый \ % s \ "to \"% s \ ".</string>
+    <string name="drag_and_drop_preference">Сөйләү һәм ташлау өстенлеген сайлагыз (Эксперименталь)</string>
+    <string name="drag_to_move_copy">Файлларны күчерү яки күчерү өчен кагылыгыз һәм сузыгыз</string>
+    <string name="drag_to_select">Файлларны сайлау өчен кагылыгыз һәм сузыгыз</string>
+    <string name="disable"/>
+    <string name="choose_operation"/>
+    <string name="remember">башкару өчен операцияне сайлагыз</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP серверы өчен SAF рөхсәтен бирегез</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Бу сезнең FTP серверның беренче эшләве, һәм сез җайланманың эчке саклагычын уртак папка итеп кулланасыз, зинһар, Amaze саклауга SAF ярдәмендә рөхсәт итегез. \ n \ n
+
+Сезгә моны бер генә тапкыр эшләргә кирәк, киләсе тапкыр бүлешү өчен яңа урын сайлаганчы.</string>
+    <string name="android_data_prompt_saf_access">Android 10 елдан башлап, Android кайбер каталогларга чикләүләр кертте, һәм аларга Саклауга керү мөмкинлеге белән керергә кирәк. \ n \ n Зинһар өчен, Amaze системасына файл менеджерыннан каталогка керергә рөхсәт итегез. " Рөхсәт \ ".</string>
+    <string name="android_data_prompt_saf_access_title">SAF рөхсәтен бирегез</string>
+    <string name="ftp_preference_saf_filesystem_title">Мирас файл системасын кулланыгыз</string>
+    <string name="ftp_preference_saf_filesystem">Моны яңа Android версияләрендә җайланманың тышкы саклагычын куллану өчен рөхсәт итегез</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP серверның уртак юлы эчке саклауга кире кайтарылган иде. мирас файл системасын кертү. Зинһар, кирәк булганда өске уңдагы менюны кулланып яңа юл сайлагыз.</string>
+    <string name="ftp_server_reset_notify">FTP серверның уртак юлы эчке саклауга кайтарылды</string>
+    <string name="ftp_server_root_unavailable">Сез тамыр керүне таләп итә торган юл сайлыйсыз. Deviceайланмагыз тамырланган булса, зинһар, тамыр эзләүчене эшләгез.</string>
+    <string name="ftp_server_root_filesystem_warning">Сез җайланмага бөтен файл системасында укырга / язарга мөмкинлек бирә торган тамыр керүне таләп итә торган юл сайлыйсыз, һәм бу куркыныч - игътибарсыз хаталар җайланмагызны кирпечләргә мөмкин! \ n \ n Сез ышанасызмы?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">УРИ ачуда хата \ "% s \".</string>
+    <string name="error_empty_archive">\ "% s \" - буш архив.</string>
+    <string name="error_bad_archive_without_info">\ "% s \" - бозылган архив. .</string>
+    <string name="error_bad_archive_with_info">\ "% s \" - бозылган архив. \ n Экстрактордан хәбәр: \ "% s \"</string>
+    <string name="security_error">Файлны бу кушымта ярдәмендә ачып булмый</string>
+    <string name="cloud_drive_tooltip">a Amaze File Manager эчендәге файллар белән идарә итү өчен Google Drive ™ тоташуы.</string>
+    <string name="signin_with_google_title">Google Drive ™</string>
+    <string name="show_system_apps">Система кушымталарын күрсәтегез</string>
+    <string name="system_apps">Система кушымталары</string>
+    <string name="select_inverse">Кире</string>
+    <string name="select_by_type"/>
+    <string name="select_by_date">датаны сайлап алыгыз</string>
+    <string name="select_similar">Охшаш</string>
+    <string name="error_fetching_google_play_product_list">Google Play\'тан продуктлар исемлеген алуда хата.</string>
+    <string name="grant_all_files_permission">Android 11 елдан башлап, Google Файл Менеджерларыннан җайланмадагы барлык файллар белән идарә итү өчен кулланучы рөхсәтен сорый. Монда детальләр.
+        \ n \ nAmaze File Manager да бу рөхсәткә мохтаҗ. Монда "Грант" басыгыз, зинһар, киләсе экрандагы барлык файллар белән идарә итү рөхсәтен сайлагыз.
+        \ n \ n Бу диалогны кире кагу кушымтадан чыгачак.</string>
+    <string name="user_apps">Кулланучы кушымталары</string>
+    <string name="appearance">Күренеш</string>
+    <string name="behavior">Тәртип</string>
+    <string name="appearance_summary">Файл менеджерының темасын, төсләрен һәм тышкы кыяфәтен көйләгез</string>
+    <string name="ui_summary">Нинди мәгълүматны күрсәтергә, ян ягын көйләргә, UI өстенлекләрен алыштырырга</string>
+    <string name="behavior_summary">Алга киткән эзләү кебек тәртипне үзгәртегез һәм файлларны яңа эш итеп ачу</string>
+    <string name="security_summary">Серсүз һәм шифрлау</string>
+    <string name="backup_summary">Amaze көйләүләрен экспорт / импортлау</string>
+
+    <string name="pref_export">Экспорт</string>
+    <string name="pref_export_summary">Экспорт көйләүләре</string>
+    <string name="pref_import">Импорт</string>
+    <string name="pref_import_summary">Импорт көйләүләре</string>
+
+    <string name="quick_desc">Күптән түгел Amaze аша кертелгән файллар</string>
+    <string name="recent_desc">Күптән түгел ясалган яки үзгәртелгән файллар</string>
+    <string name="error_cannot_find_way_open">Ачылу юлын таба алмады файл</string>
+    <string name="error_cant_decompress_that_file">Соралган архивны эшкәртеп булмый</string>
+    <string name="analyse_storage">Саклауны анализлагыз</string>
+    
+    <string name="download_amaze_utils_text">Сез Amaze File Utilities\'ка юнәлтеләсез. Бу безнең ачык чыганак кушымтасы, аудио / видео / рәсем / документ тамашачыларын урнаштырган, кирәк булмаган файлларны анализларга мөмкинлек бирә, саклауны бушату, Wifi P2P ярдәмендә тиз күчерү һәм башкалар. \ N Зинһар өчен, аны сынап карагыз.</string>
+    <string name="download">Йөкләү</string>
+    
+    <string name="amaze_utils_installed_alias">Amaze File Utilities урнаштырган өчен рәхмәт. Сез кушымтага юнәлтеләсез.</string>
+    
+    
+    <string name="amaze_audio_player">Amaze музыка плееры</string>
+    <string name="pdf_viewer">Документацияне гаҗәпләндерүче</string>
+    <string name="docx_viewer">Документны караучы</string>
+    <string name="share_logs">Бүрәнәләрне бүлешү</string>
+    <string name="share_logs_summary">Кулга алынган бүрәнәләрне электрон почта / телеграмма аша бүлешегез</string>
+    <string name="open_with_amaze">Amaze белән ачыгыз</string>
+    <string name="confirmation">раслау</string>
+    <string name="open_file_confirmation">Сез түбәндәге файлны ачарга телисезме? \ n \ n Исем: \ n% s \ n \ n Урын: \ n% s \ n \ n Размер: \ n% s \ n \ nMD5: \ n% s \ n \ nSHA256: \ n% s \ n \ n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play политикасы буенча, кушымталарга үзен яңартырга рөхсәт ителми. Зинһар, Google Play\'тан кушымтаны яңартыгыз.</string>
+    <string name="error_cannot_get_package_info">\ "% s \" файлыннан пакет турында мәгълүмат ала алмый. Күрсәтелгән файл APK түгел, яисә пакет файл бозылган.</string>
+    <string name="preference_delete_confirmation">раслауны бетерү</string>
+    <string name="preference_delete_confirmation_summary">Файлларны бетергәнче раслауны сорагыз. Моны сүндерү бик боек!</string>
+    
+    
+    <string name="protocol_ftps">Куркынычсыз FTP</string>
+    <string name="unavailable">мөмкин түгел</string>
+
+    <string name="exporting_failed">Экспорт уңышсыз булды: резерв файлны яза алмады</string>
+    <string name="importing_failed">Импорт кертү уңышсыз: резерв файлны укый алмады</string>
+    <string name="importing_completed">Тәмамланган</string>
+    <string name="invalid_backup_file">Резерв файл яраксыз</string>
+    <string name="import_failed_for">Импорт уңышсыз булды:</string>
+    <string name="free_of">"% s \ n% s% s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin F-Droid версиясе белән булышмый. Зинһар, Amaze\'ның Play Store версиясен кулланыгыз.</string>
+    <string name="disable_player_intent_filters">Плеерның ният фильтрларын сүндерегез</string>
+    <string name="disable_player_intent_filters_summary">Amaze корылган медиа-плейерларны файл сайлаучыдан</string>
+    <string name="no_app_found_intent">сүндерә. Сездә DocumentsUI урнаштырылганмы?</string>
+    <string name="cloud_connection_credentials_cleared">Болытка тоташу таныклыклары чистартылды</string>
+    <string name="cloud_connection_credentials_cleared_msg">Кызганычка каршы, без сезнең болытка тоташу таныклыкларыгызны яңа база схемасына күчерә алмадык, һәм без аларны кушымтадан чыгарырга тиеш идек. Зинһар, болыт бәйләнешен яңадан булдырыгыз.</string>
+</resources>

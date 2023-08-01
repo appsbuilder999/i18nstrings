@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Willayta kamachiq</string>
+    <string name="drawer_open">Kay puriy cajón</string>
+    <string name="drawer_close">Wichqay purina cajón</string>
+    
+    <string name="apps">App kamachiq</string>
+    <string name="ftp">FTP Servidor</string>
+    <string name="setting">Ajustes</string>
+    <string name="select">Item akllay</string>
+    <string name="press_again">Lloqsinaykipaq wakmanta ñit\'iy</string>
+    <string name="open">Kichay</string>
+    <string name="backup">Copia de seguridad</string>
+    <string name="uninstall">Mana churay</string>
+    <string name="play">Pukllana tienda</string>
+    <string name="properties">Propiedades</string>
+    <string name="copyingapks">%d APK willañiqikunata %s nisqaman copiaspa</string>
+    <string name="delbook">Marcadorta qulluy</string>
+    <string name="add_to_bookmarks">Marcadorkunaman yapay</string>
+    <string name="enterpath">Ñanman yaykuy</string>
+    
+    <string name="create">RUWAY</string>
+    <string name="loading">Cargachkan...</string>
+    <string name="file_empty">Willakuyqa ch\'usaqmi</string>
+    <string name="error">Pantasqa</string>
+    <string name="search_results">%s nisqamanta maskay</string>
+    <string name="rename">Suti tikray</string>
+    <string name="save">Waqaychay</string>
+    <string name="bookmarks_added">Marcadores Yapachisqa</string>
+    <string name="fileexist">Kikin sutiyuq willañiqiqa kachkanñam</string>
+    <string name="name">Suti</string>
+    <string name="date">P\'unchaw</string>
+    <string name="location">Maypi tarikusqan</string>
+    <string name="size_capitalized">Tamaño</string>
+    <string name="size">carpetapa sayaynin</string>
+    <string name="enterzipname">Zip sutita qillqay</string>
+    <string name="no_app_found">Mana App tarisqachu kay willañiqita kichananpaq</string>
+    <string name="copying">Copia</string>
+    <string name="moving">Kuyuchiy</string>
+    <string name="file">Willañiqi</string>
+    <string name="folder">Mana qillqana mayt\'u</string>
+    <string name="newfolder">Musuq qillqana mayt\'u</string>
+    <string name="entername">Suti qillqay</string>
+    <string name="extracting">Hurquy</string>
+    <string name="stopping">Sayachiy</string>
+    <string name="open_parent">Tayta-mama Directorio kichay</string>
+    <string name="open_with">Kichay</string>
+    <string name="share">Rantinakuy</string>
+    <string name="about"/>
+    <string name="extract">Hurquy</string>
+    <string name="compress">Llamk\'ay</string>
+    <string name="yes">Arí</string>
+    <string name="no">Mana</string>
+    
+    <string name="dialog_delete_category_directories">Directoriokuna</string>
+    <string name="dialog_delete_category_files">Willakuykunata</string>
+    <string name="dialog_delete_disclaimer">Uraypi kaqkunata qulluyqa wiñaypaq dispositivoykimanta hurqunqa chaymanta mana kutichiyta atikunmanchu.</string>
+    <string name="dialog_delete_title">Wiñaypaq imakunatapas qulluy?</string>
+    <string name="deleting">Qullpuy</string>
+    <string name="question_set_path_as_home">¿Kunan ñanta kay tablapaq wasi hina churayta munankichu?</string>
+    <string name="directorysort">Directorio Ordenar Modo</string>
+    <string name="sort_by">Ordenar By</string>
+    <string name="sort_only_this">Kay qillqana mayt\'ulla</string>
+    <string name="theme">Tema</string>
+    <string name="random">Qara random</string>
+    <string name="random_summary">Qallariypi random primaria colorta churan</string>
+    <string name="colorize">Iconos colorear</string>
+    <string name="colorize_summary">Huñusqa icono estático nisqa llimp’i. Mana directorio icono color munasqamanta llallinchu.</string>
+    <string name="home">Wasi</string>
+    <string name="paste">K\'askachiy</string>
+    <string name="history">Historia</string>
+    <string name="copy">Copia</string>
+    <string name="root_mode">Saphi maskaq</string>
+    <string name="root_mode_summary">Saphichasqa dispositivollapaq. Chayta qhaway sichus chaymanta seguro kanki.</string>
+    <string name="root_failure">Saphi Yaykuna mana qusqachu</string>
+    <string name="select_all">Llapa akllay</string>
+    <string name="delete">Qurquy</string>
+    <string name="set_as_home">Wasi hina churay</string>
+    <string name="operation_not_supported">Ruway mana yanapasqachu</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Material K\'anchay</string>
+    <string name="dark">Material Tutay</string>
+    <string name="daytime">P\'unchaw</string>
+    <string name="black">Yana (OLED kaqpaq)</string>
+    <string name="system">Llika (llamk\'amanta tema qatiy)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Pachaypi qillqana mayt\'ukuna</string>
+    <string name="filesOnTop">Hanapi willañiqikuna</string>
+    <string name="none_on_top">Mana imapas Patapi</string>
+    <!--SortBy-->
+    <string name="sort_name">Suti</string>
+    <string name="lastModified">Qhipaman tikrasqa</string>
+    <string name="sort_size">Hatun</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Huk willañiqita akllay</string>
+    <string name="process_viewer">Proceso Qhawaq</string>
+    <string name="in_safe">Mana suficiente espacio</string>
+    <string name="no_file_overwrite">Mana Willayta hawa qillqasqachu</string>
+    <string name="skip">Saltay</string>
+    <string name="overwrite">Qillqay</string>
+    <string name="not_allowed">Mana saqisqachu</string>
+    <string name="searching">Maskay %s</string>
+    <string name="done">Rurasqa</string>
+    <string name="set">T\'inkisqa</string>
+    <string name="enablerootmde">Saphi ñanta atichiy</string>
+    <string name="goback">Qhipaman kutiy</string>
+    <string name="newfile">Musuq Willañiqi</string>
+    <string name="no_files">Mana Willañiqikuna</string>
+    <string name="used">llamk\'achisqa espacio</string>
+    <string name="used_by_others">hukkunap llamk\'achisqan</string>
+    <string name="free">mana kacharisqa espacio</string>
+    <string name="listview">Lista qhaway</string>
+    <string name="gridview">Rejilla Qhaway</string>
+    <string name="permission">Atichiykuna</string>
+    <string name="hide">Pakakuy</string>
+    <string name="exit">Lluqsiy</string>
+    <string name="doforall">Llapa imakunapaq ruway</string>
+    <string name="gridcolumnno">Qillqa qhawaypi yupay sapaqchasqakuna</string>
+    <string name="set_random">Tikraykunaqa ruwakunqa app</string>
+    <string name="authors">Qillqaqkuna</string>
+    <string name="changelog">Tikray qillqa</string>
+    <string name="ok">Allinmi</string>
+    <string name="ui">Interfaz</string>
+    
+    <string name="thumb_summary">Appkuna chaymanta siq\'ikuna huch\'uy siq\'ikunata rikuchiy</string>
+    <string name="thumb">Huch\'uy siq\'ikunata rikuchiy</string>
+    <string name="hidden">Pakasqa willañiqikunata chaymanta Carpetakunata rikuchiy</string>
+    <string name="lastModifiedSummary">Qhipa tikray p\'unchawta chaymanta pachata rikuchiy</string>
+    <string name="lastModifiedPref">Qhipa tikrasqa p\'unchawta chaymanta... Tiempo</string>
+    <string name="size_pref_summary">Willañiqikunap hatun kayninta, qillqa mayt\'ukunapi hayk\'a imakuna kasqanmanta rikuchiy</string>
+    <string name="size_pref">Hatun kayninkunata rikuchiy</string>
+    <string name="miscellaneous">Imaymana</string>
+    <string name="root_pref_summary">Willañiqikunap, qillqana mayt\'ukunap atiyninta rikuchiy</string>
+    <string name="root_pref">Permisokunata rikuchiy</string>
+    <string name="about_amaze_file_manager_label">Amaze Willayta kamachiqmanta</string>
+    <string name="version">Versión</string>
+    <string name="rate">Aplicacionta chaninchay</string>
+    <string name="feedback">Yatiy kutichiyta apachiy</string>
+    <string name="hiddenfiles">Pakasqa willañiqikuna</string>
+    <string name="type">Tipo</string>
+    <string name="root_directory">Saphi</string>
+    <string name="add_shortcut">Pisi ñanta yapay</string>
+    <string name="unsaved_changes">Mana waqaychasqa tikray</string>
+    <string name="unsaved_changes_description">Mana waqaychasqa tikrayniyuq kanki, manaraq lluqsichkaspa waqaychayta munankichu?</string>
+    <string name="saving">Waqaychasqa</string>
+    <string name="package_installer">Paquete churaq</string>
+    <string name="view">Qhaway</string>
+    <string name="install">Instalar</string>
+    <string name="archive">Waqaychasqa</string>
+    <string name="archive_text">Kayqa waqaychasqam. ¿Ima ruwaytataq ruwayta munanki?</string>
+    <string name="package_installer_text">Kayqa paquete churaqmi. ¿Ima ruwaytataq ruwayta munanki?</string>
+    <string name="xda_title">XDA q\'aytu</string>
+    <string name="xda_summary">Tapuy &amp;amp; kutichiy, Yanapakuy &amp;amp; Sasachakuy allichay</string>
+    <string name="circular_images">Siqipaq chaymanta videokunapaq muyu iconokunata llamk\'achiy</string>
+    <string name="circular_icons">Muyu iconokunata llamk\'achiy</string>
+    <string name="back_title">Qhipaman puriy</string>
+    <string name="back_summary">Listapa hawanpi sapanchasqa qhipaman puriyta atichin</string>
+    <string name="details">Detalles</string>
+    <string name="translators">T\'ikraqkuna</string>
+    <string name="german_translation_title">Alemán</string>
+    <string name="italian_translation_title">Italiano</string>
+    <string name="french_translation_title">Francés</string>
+    <string name="russian_translation_title">Rusia</string>
+    <string name="spanish_translation_title">Kastilla simi</string>
+    <string name="basque_translation_title">vasco</string>
+    <string name="chinese_translation_title">China</string>
+    <string name="serbian_translation_title">Serbia</string>
+    <string name="turkish_translation_title">Turku</string>
+    <string name="ukrainian_translation_title">Ukranya</string>
+    <string name="portuguese_translation_title">Portugués</string>
+    <string name="polish_translation_title">Polaco</string>
+    <string name="korean_translation_title">Corea</string>
+    <string name="greek_translation_title">griego</string>
+    <string name="dutch_translation_title">Holandés</string>
+    <string name="romanian_translation_title">Romanu</string>
+    <string name="vietnamese_translation_title">Vietname</string>
+    <string name="japanese_translation_title">Japon</string>
+    
+
+    <string name="zip_viewer">Zip qhawaq</string>
+    <string name="unin_system_apk">Kayqa llamkanapaq llamkanam, qulluspaqa llamkana mana takyasqa kananpaqmi apakunman.\nAtiy?</string>
+    <string name="warning">Willakuy</string>
+    <string name="donate">Qullqiy</string>
+    <string name="archive_extract_folder">Willakuy hurquy qillqana mayt\'u</string>
+    <string name="archive_summary">Willakuy willañiqikuna kay qillqana mayt\'umanmi hurqusqa kanqa. Ñawpaqmanta churasqa chaniqa maypi waqaychasqa kasqan willañiqim.</string>
+    <string name="open_as">Kaychay Imayna</string>
+    <string name="text">Qillqa</string>
+    <string name="audio">Uyariy</string>
+    
+    <string name="other">Huk</string>
+    <string name="image">Imayna</string>
+    <string name="contributors">Yanapakuqkuna</string>
+    <string name="save_paths">Ñankunata yuyariy</string>
+    <string name="save_path_summary">Qallariypi, sapa tablapaq aswan qhipa qhawasqa qillqana mayt\'u rikuchikunqa</string>
+    <string name="select_intent">Akllay</string>
+    <string name="database">Willakuypa waqaychana</string>
+    <string name="colored_navigation">Llimpiyuq purina barra</string>
+    <string name="colored_navigvation_sum">Llika purina barra qarawan llimpisqa kaptinpas mana</string>
+
+    <string name="color_title">Llimpi</string>
+    <string name="color_summary">Llimpita imaymana UI componentekunaman churay</string>
+    <string name="primary_color_title">Ñawpaq llimp\'i (Lluq\'i ñiqi)</string>
+    <string name="primary_color_summary">Llimpita hatun UI elementokunaman churay lluq\'i ñiqipaq</string>
+    <string name="accent_color_title">Acento llimp\'i</string>
+    <string name="accent_color_summary">Llimpita FAB kaqman chaymanta wak uchuy UI kaqman churay elementokuna</string>
+    
+    <string name="icon_color_summary">Llimpita iconokunaman churay</string>
+    <string name="choose_color">Llimpi akllay</string>
+    <string name="files">Archivokuna</string>
+    <string name="textreader">Qillqa ñawiriq</string>
+    <string name="databasereader">Willakuykunata waqaychaq</string>
+    <string name="show_dividers">Rakiqkunata rikuchiy</string>
+    <string name="needs_access">Qillqanapaq yaykuy munasqa</string>
+    <string name="needs_access_summary">Ama hina kaspa, \t</string>
+    <string name="needs_access_summary1">\tto qillqay yaykuyta quy llamk\'achinapaq</string>
+    <string name="smb_connection">SMB T\'inkisqa</string>
+    <string name="smb_server">Servidorpa IP tiyaynin</string>
+    <string name="server_address">Servidorpa IP tiyaynin</string>
+    <string name="username">Ruwaqpa sutin</string>
+    <string name="password">Contraseña</string>
+    <string name="anonymous">Mana sutiyuq</string>
+    
+    <string name="folders">Carpetakuna</string>
+    <string name="folderfilecount">%1$d qillqana mayt\'ukuna chaymanta %2$d willañiqikuna</string>
+    
+    
+    <string name="documents">Qillqakuna</string>
+    <string name="images">Siqikuna</string>
+    <string name="clear">Ch\'uya</string>
+    
+    <string name="total">Tukuy:</string>
+    <string name="calculating">yupay</string>
+    <string name="sort">T\'aqay</string>
+    <string name="ascending">Wichariq</string>
+    <string name="descending">Uray</string>
+    <string name="default_string">Ñawpaqmanta</string>
+    <string name="doit">¿Chaychu</string>
+    <string name="want_help">Yanapayta munanki?</string>
+    <string name="quick">Utqaylla yaykuy</string>
+    <string name="recent">Qhipa willañiqikuna</string>
+    <string name="edit">Llamk\'achiy</string>
+    <string name="find">P\'anqapi tariy</string>
+    <string name="grant">Quy</string>
+    <string name="grantper">Atichayta quy</string>
+    <string name="grantfailed">Permiso mana qusqachu</string>
+    <string name="grant_storage_permission">App waqaychay atiyta necesitan hinalla purinanpaq. Kay rimanakuna chinkachiyqa ruwanamanta lluqsinqa.</string>
+    <string name="operation_unsuccesful">Llamkana mana allinchu</string>
+    <string name="creatingfile">Willañiqita paqarichiy</string>
+    <string name="creatingfolder">Carpeta paqarichiy</string>
+    <string name="renaming">Hukmanta sutichay</string>
+    <string name="cant_be_empty">%s mana ch\'usaq kayta atinchu</string>
+    <string name="ip">Dirección</string>
+    <string name="connection_name">T\'inkisqa suti</string>
+    <string name="no_device_found">Mana dispositivokuna tarisqachu</string>
+    <string name="path">Ñan</string>
+    <string name="rename_bookmark">Marcadorta tikray</string>
+    <string name="cut">Kuchuy</string>
+    <string name="search">Maskay</string>
+    <string name="invalid_name">Mana allin Suti</string>
+    <string name="search_hint">Mask\'anapaq qillqa...</string>
+    <string name="advanced_search">Ñawpaq maskay</string>
+    <string name="regular_expression">Sapa kuti rimay</string>
+    <string name="regular_expression_summary">Maskay BASH estilo regular expresionwan</string>
+    <string name="match_content">Contenido tupachiy</string>
+    <string name="match_content_summary">Hukchasqa kaptinqa, expresión regular nisqa llapan willañiqi sutiwan tupachisqa kanqa,
+        maskanqa rikurimuyta mana hina kaqtin.</string>
+    <string name="start_ftp">Qallariy</string>
+    <string name="stop_ftp">Say</string>
+    <string name="ftp_status_running">Ruqy</string>
+    <string name="ftp_status_not_running">Mana purichkanchu</string>
+    <string name="ftp_no_wifi">Aseguray Wi kaqwan tinkisqa kasqaykita -Fi</string>
+    <string name="domain">Dominio</string>
+    <string name="smb_share">Ranakuy ñan</string>
+    <string name="invalid">Mana allin %s</string>
+    <string name="ftp_notif_starting">FTP Servidor qallarichkan</string>
+    <string name="ftp_notif_starting_title">FTP Servidor</string>
+    <string name="ftp_notif_title">FTP Servidor purichkaqta musphay</string>
+    <string name="ftp_notif_text">%s</string>
+    <string name="ftp_notif_stop_server">SARRAY</string>
+    <string name="ftp_port_edit_menu_title">FTP puerto</string>
+    <string name="ftp_port_change_success">FTP puerto allinta tikrasqa</string>
+    <string name="ftp_port_change_error_invalid">Mana allin puerto yupay akllasqa</string>
+    <string name="primary_two_title">Ñawpaq llimp\'i (Paña Tab)</string>
+    <string name="primary_two_summary">Llimpita hatun UI elementokunaman churay paña tablapaq</string>
+    <string name="support_development">Yanapakuy wiñachiy</string>
+    <string name="report_bugs_title">Willakuy pantasqakuna</string>
+    <string name="source_title">Pukyu codigo</string>
+    <string name="source_summary">Pukyu codigoykuta qhaway GitHub kaqpi</string>
+    <string name="report_bugs_summary">Pantasqakunamanta willay utaq musuq ruwayta mañakuy</string>
+    <string name="translate_title">T\'ikray</string>
+    <string name="translate_summary">T\'ikray Amaze simiykipi</string>
+    <string name="paypal_copy_message">PayPal ID portapapeles kaqman copiasqa</string>
+    <string name="searching_devices">Dispositivokuna maskay</string>
+    <string name="use_custom_ip">Sapachasqa IP</string>
+    <string name="bookmark_lost">Marcador mana tarisqachu, musuqmanta ruwachkan...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Imaynata Android (SMB) kaqpi Windows rakisqa qillqana mayt\'uman yaykuyta\n\n
+                
+                    
+                        Windows kaqpi Willayta rakiyta atichiy\n
+                    
+                    
+                        Panel de control kichay, ñit\'iy Akllay HomeGroup chaymanta Compartido akllanakuna Llika kaqpi
+                        chaymanta Internet kaqpi, chaymanta ñit\'iy "Ñawpaq rakinakuna churaykunata tikray", "Archivo chaymanta...
+                        Impresora rakinakuy" nisqa ruway.\n\n
+                    
+
+                    
+                        Willayta rakinapaq yapasqa churanakuna\n
+                    
+                    
+                        Huk ñawpaqchasqa rakinakuna churanakunatapas kaypi ruwayta munankiman. \n
+                        Ejemplopaq, mana contraseñayuq archivoykikunaman yaykuyta atiwaq, llapanpi hapipakuspaykiqa
+                        llaqta llikaykipi kaq aparatokuna. Huk kuti willañiqi chaymanta impresora rakinakuy atichisqa kaptin, atikunki
+                        kichay Archivo Explorador utaq Windows Explorer, paña ñit\'iy huk carpeta rakiyta munanki, chaymanta
+                        Propiedades nisqapi akllay. \n
+                        Rakinakuy ñit\'iy hinaspa qillqana mayt\'uta llikapi kananpaq ruway.\n\n
+                        
+
+                    
+                        Iskaynin apaykachanakuna kikin Wifi\n kaqpi kasqanmanta qhaway
+                    
+                    
+                        Kay ruwana willakuykunata llaqta llikapi ruwan, chayrayku PC kaqniyki chaymanta apaykachanakunayki
+                        kikin llaqta llikapi kanan tiyan. Mana huk rakisqa Windows qillqana mayt’uman yaykuyta atikunkichu
+                        Internet kaqninta utaq mayk\'aq smartphone kaqniyki movil datonwan tinkisqa kachkan — chayta
+                        Wi-Fi nisqawan tinkisqa kanan tiyan.\n\n
+                    
+
+                    
+                        IP Dirección nisqa maskay\n
+                    
+                    
+                        Kamachiy Tapuyta kichay. \'ipconfig\' nispa qillqay hinaspa Enter ñit\'iy. Ñawpaqmanta Punkuta maskay
+                        llika adaptadorniykipa urayninpi router\'s IP tiyaypaq. Maskay
+                        \\\"IPv4 Dirección\\\" kikin adaptador t\'aqapi computadorayki\'s IP tarinapaq
+                        dirección.\n\n
+                    
+
+                    SMB rimanakuna qutupi sut\'inchaykunata qillqay\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Mana 100 aswan willañiqikunata rakiyta atinchu</string>
+    <string name="otg_access">OTG dispositivopa saphinta akllay</string>
+    <string name="information">Willakuy</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">llamk\'achiy&gt;Yaykuy</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Modificado</string>
+
+    <string name="title">Titulo</string>
+    <string name="artist">Artista</string>
+    <string name="album">Álbum</string>
+    <string name="year">Wata</string>
+    <string name="duration">Unayniyuq</string>
+    <string name="comment">Comentario</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Contenedor</string>
+    
+    <string name="channels">Canales</string>
+    <string name="sample_rate">Tasa de muestra</string>
+    <string name="bitrate">Bitrato</string>
+    <string name="dimensions">Dimensiones</string>
+    <string name="frame_rate">Tasa de cuadro</string>
+    <string name="image_type">Imahina rikch\'aq</string>
+    <string name="width">Ancho</string>
+    <string name="height">Altura</string>
+    <string name="date_modified">P\'unchaw tikrasqa</string>
+    
+    <string name="creator">Ruraq</string>
+    <string name="camera_brand">Cámara Marka</string>
+    <string name="camera_model">Cámara Modelo</string>
+    <string name="date_taken">P\'unchaw hap\'isqa</string>
+    <string name="exposure_time">Exposición Tiempo</string>
+    <string name="aperture_value">Apertura Chanin</string>
+    <string name="image_iso">ISO Utqaylla chaninchaynin</string>
+    <string name="flash_fired">Llampu Ruphachisqa</string>
+    <string name="focal_length">Focal Largo</string>
+    <string name="subject">Materia</string>
+    <string name="author">Qillqaq</string>
+    <string name="keywords">Llave simikuna</string>
+    <string name="producer">Rurachiq</string>
+    <string name="created">Kamasqa</string>
+    <string name="format">Formato</string>
+    <string name="pages">Yupay P\'anqakuna</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Allinchasqa</string>
+    <string name="security">Waqaychasqa</string>
+    <string name="paper_size">Papelpa sayaynin</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Wakin willañiqikunaqa manam allintachu %s</string>
+    <string name="copied">copiasqa</string>
+    <string name="moved">kuyuchisqa</string>
+    <string name="copy_complete">Copia Tukuchisqa</string>
+    <string name="waiting_title">Suyachkan</string>
+    <string name="waiting_content">Llamkana tukunanta suyachkan</string>
+    <string name="extract_complete">Hurquy tukusqa</string>
+    <string name="compression_complete">T\'inkisqa hunt\'asqa</string>
+    <string name="compressing">T\'inkisqa</string>
+    <string name="cancelled">Cancelado</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Qillqasqa</string>
+    <string name="out_of">manta</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">manta</string>
+    <string name="processing_file">Proceso willañiqimanta</string>
+    <string name="current_speed">Kunan Utqaylla</string>
+    <string name="smb_launch_error">Kay willañiqita waqaychanaman copianayki tiyan kichanaykipaq</string>
+    <string name="error_file_not_found">Pantasqa: Willayta mana tarisqachu</string>
+    <string name="error_io">I/O pantasqa</string>
+    <string name="error_file_too_large">Pantasqa: Willayta ancha hatun</string>
+    <string name="medium_text">Chawpi Qillqa</string>
+    <string name="permission_read">Ñawiriy</string>
+    <string name="permission_write">Qillqay</string>
+    <string name="permission_execute">Ruway</string>
+    <string name="permission_owner">Dueño</string>
+    <string name="permission_group">Huñu</string>
+    <string name="permission_other">Huk</string>
+    <string name="clipboard_path_copy">Planta de portapapeles nisqaman copiasqa ñan</string>
+    <string name="service_timer">Tiempo pasasqa</string>
+    <string name="please_wait">Ama hina kaspa Suyay</string>
+
+    <string name="cloud_connection">Puyu T\'inkisqa</string>
+    <string name="cloud_connection_new">Mosoq Puyu T\'inkisqa</string>
+    
+    <string name="cloud_drive">Google DriveTM</string>
+    
+    <string name="cloud_box">Quecha</string>
+    <string name="cloud_get">Puyu pluginta tariy</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Mana ruwanakuna</string>
+    <string name="ftp_path">Rantisqa ñan</string>
+    <string name="ftp_path_hint">Ñan directorio saphiman rakinapaq</string>
+    <string name="change">Tikray</string>
+    <string name="unknown_error">Ay, imapas pantasqa!</string>
+
+    <string name="ftp_path_change_success">FTP ñan allinta tikrasqa</string>
+    <string name="ftp_path_change_error_invalid">Mana allin ñan</string>
+    <string name="ftp_status_no_connection">Mana T\'inkisqa</string>
+    <string name="ftp_status_secure_connection">Waqaychasqa T\'inki</string>
+    <string name="ftp_status_title">Estado</string>
+    <string name="ftp_port">Puerto</string>
+    <string name="ftp_login">Yaykuy</string>
+    <string name="field_empty">Chakra mana ch\'usaq kayta atinmanchu</string>
+    <string name="ftp_timeout">Mana llamk\'aq pacha tukukuy</string>
+    <string name="ftp_seconds">Iskay kaq</string>
+    <string name="intellihide_toolbar_title">Intellihide Yanapakuypa barra</string>
+    <string name="intellihide_toolbar_summary">Kikinmanta pakay llamkanakuna barrata kuyuchichkaspa</string>
+    <string name="hash_sha256">SHA -256</string>
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">copiasqa portapapeles</string>
+    <string name="contributors_1_summary">T\'ikray</string>
+    <string name="contributors_2_summary">Icono chaymanta pankartakuna</string>
+    <string name="contributors_3_summary">Tema Motor</string>
+    <string name="contributors_4_summary">FAB qhipanpi llantuy</string>
+    <string name="contributors_5_summary">Llimp\'i tikray mayk\'aq tablakunata siq\'ichkanki</string>
+    <string name="contributors_6_summary">FTP Servidor</string>
+    <string name="contributors_7_summary">Huk interactivo shell</string>
+    <string name="connection_exists">T\'inkinakuyqa kachkanña</string>
+
+    <string name="crypt_encrypting">Chifray</string>
+    <string name="crypt_decrypting">Descifrado</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Chifrasqa</string>
+    <string name="crypt_decrypted">Descifrado</string>
+    <string name="crypt_encrypt">Chifray</string>
+    <string name="crypt_decrypt">Descifrar</string>
+    <string name="operation_fail_following">Qatiq willañiqikunapaq llamk\'ayqa manam atirqanchu</string>
+    <string name="crypt_pref_master_password_title">Master contraseña</string>
+    <string name="crypt_pref_master_password_summary">Chifrasqa kananpaq umalliq yaykuna rimata churay.
+        Ch\'usaq saqiy hurqunapaq.</string>
+    <string name="crypt_pref_fingerprint_title">Dedo huella</string>
+    <string name="crypt_pref_fingerprint_summary">Dedo huella llamk\'achiy chifrasqa chiqaqchaypaq</string>
+    <string name="crypt_fingerprint_no_permission">Dedo huella permisokuna faltan</string>
+    <string name="crypt_fingerprint_not_enrolled">Mana dedo huella registrado</string>
+    <string name="crypt_fingerprint_no_security">Mana pantalla bloqueo waqaychasqa tarisqa</string>
+    <string name="crypt_warning_key">Yuyachasqa kay, mayk\'aqmanta hark\'ay ruwayniyki tikranki
+        Llamkana churanakuna, mana kay willayta chifrayta atikunkichu.</string>
+    <string name="warning_never_show">Ama wakmanta willaychu</string>
+    <string name="warning_confirm">Chayta tarirqani!</string>
+    <string name="crypt_encryption_fail">Mana chifrayta atirqanichu</string>
+    <string name="crypt_decryption_fail">Mana descifrar</string>
+    <string name="crypt_decryption_fail_password">Pantasqa contraseña!</string>
+    <string name="crypt_fingerprint_authenticate">Llachpay sensor a qatiy</string>
+    <string name="authenticate_password">Contraseña yaykuchiy</string>
+
+    <string name="sidebar_preferences">Lado bar</string>
+    <string name="sidebar_quick_access_title">Lado barra usqhaylla yaykuy</string>
+    <string name="show_quick_access_pref_title">Utqaylla yaykuykunata rikuchiy</string>
+    <string name="show_quick_access_pref">Utqaylla yaykuykunata</string>
+    <string name="directory">Directorio</string>
+
+    <string name="sidebar_bookmarks_title">Lado barrapi marcadores</string>
+    <string name="show_bookmarks_pref_title">Marcadores rikuchiy</string>
+    <string name="show_bookmarks_pref">Marcadores</string>
+    <string name="create_bookmark">Marcadorta ruway</string>
+    <string name="edit_bookmark">Marcadorta llamk\'achiy</string>
+    <string name="question_delete_bookmark">Marcadorta qulluy?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin mana tarisqachu. Ama hina kaspa, Play Store nisqamanta uraykachiy.</string>
+    <string name="cloud_error_failed_restart">T\'inkiyta mana kargayta atirqanichu.
+        Ama hina kaspa, Amaze Cloud huk kutita kichay.</string>
+    <string name="cloud_remove">Puyu tinkiyta hurquyta munankichu?</string>
+    <string name="cloud_fail_authenticate">Mana chiqaqchayta atirqanchu</string>
+    <string name="cloud_share_copied">Rantinapaq t\'inki portapapelesman copiasqa</string>
+    <string name="copy_low_memory">Tukuchkan yuyarina, ama hina kaspa wakin RAM</string>
+    <string name="cloud_token_lost">Token chinkasqa, ama hina kaspa hukmanta yaykuy</string>
+    <string name="monofont">Monoespacio Fuente</string>
+    <string name="showHeaders">Umakunata rikuchiy</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Mana imapas</string>
+	
+	<string name="items">item</string>
+	
+	
+	<string name="bytes">byte</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Willakuyqa huk sutiyuqmi kanan</string>
+    <string name="add_item">Imaymana yapay</string>
+    <string name="failed_smb_decrypt_path">Mana kargayta atirqanchu SMB tinki</string>
+    <string name="failed_cloud_new_connection">Mana musuq Puyu tinkiyta yapayta atirqanchu</string>
+    <string name="failed_cloud_api_key">Mana chiqaqchayta atirqanchu Puyu plugin</string>
+
+    <string name="local_inet_addr_error">Pantasqa kiti inet tiyayta</string>
+    <string name="intent_save_as">Waqaychay kayhina...</string>
+    <string name="go">Riy</string>
+    <string name="advanced">Ñawpaq</string>
+    <string name="typeable_paths_title">Sapachasqa ñankuna</string>
+    <string name="typeable_paths_summary">Unayta ñit\'iy ñan barrata huk sapanchasqa ñanta qillqanaykipaq</string>
+    <string name="send_email_to">Huk correo electrónicota apachiy</string>
+
+    <string name="text_editor">Qillqa allichaqpa churanakuna</string>
+    <string name="preference_newstack_title">Willañiqikunata musuq llamk\'ay hina kichay</string>
+    <string name="preference_newstack_summary">Sapaq llamkanakunapi willañiqikunata kichayta saqin. Chaykunaman yaykuy sistema recentes pantallamanta.</string>
+    
+    <string name="developers">Paqarichiqkuna</string>
+    <string name="no_bitcoin_app">Ama hina kaspa huk Bitcoin Wallet ruwana churay</string>
+    <string name="channel_name_normal">Amaze Willakuykuna</string>
+    <string name="channel_description_normal">Amaze Willayta kamachiq\'s Willakuykuna</string>
+    <string name="channel_name_ftp">FTP Servidor</string>
+    <string name="channel_description_ftp">Amaze Willayta kamachiq FTP Servidor\'s Willakuykuna</string>
+
+    
+    <string name="processing">Rurachkan...</string>
+    <string name="failed_no_connection">Willakuykunata mana kargayta atirqanchu. Ama hina kaspa, tinkisqaykita qhaway.</string>
+
+    <string name="update">KUNACHIY</string>
+	<string name="scp_connection">SCP/SFTP T\'inki</string>
+    <string name="ftp_connection">FTP T\'inki</string>
+    <string name="ftps_connection">FTP SSL T\'inkisqa</string>
+    <string name="scp_port">Puerto</string>
+    <string name="ssh_host_key_verification_prompt">Host \'%1$s\' chiqap kayninqa manam takyachisqachu kanman.\n\n%2$s llave dedo huella %3$s.\n\nAma hina kaspa \"Arí\" ñit\'iy takyachinaykipaq riqsichiq; mana hina kaqtinqa, ama hina kaspa \"Mana\" ñit\'iy.</string>
+    <string name="ssh_host_key_verification_prompt_title">Chiqaqchay Host</string>
+    <string name="ssh_select_pem_button">SSH Sapaq Llave</string>
+    <string name="ssh_pem_key_parse_error">Mana akllasqa PEM ñawiriyta atiychu: %s</string>
+    <string name="password_unchanged">(mana tikrasqa)</string>
+    <string name="ssh_authentication_failure_password">Yaykuy pantasqa: Mana chiqaqchayta atikunchu qusqa usernamewan chaymanta contraseñawan.</string>
+    <string name="ssh_authentication_failure_key">Yaykuy pantasqa: Mana chiqaqchayta atikunchu qusqa usernamewan chaymanta sapalla llavewan.</string>
+    <string name="ssh_connect_failed">Mana %1$skaqwan tinkiyta atikunchu s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">YAYCHAY: KARU HUSQA IDENTIFICACIÓN TIKRAQA!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">ATIKUNMI PIPAS IMATAPAS MILLQA RUWAQ!\n\nPipas uyarisunkiman kunanpacha (runa-chawpi ataque)! Hinallataqmi atikunman chaylla host llave cambiasqa kasqan. Karu quqpa kachasqa llapapaq llavepaq dedo huellaqa manam tupanchu Amaze nisqapi waqaychasqa kaqwan.\n\nAma hina kaspa, llamkana kamachiqniykiwan rimanakuy utaq musuq tinkiyta churay sirwiqwan tinkiyta hinalla.</string>
+    <string name="ssh_key_prompt_passphrase">Ama hina kaspa llavepa yaykuna rimayninta qillqay .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Pisi ñankuna ruwayqa manam qallarichiqniykiwan yanapasqachu.</string>
+    
+    <string name="select_color_config">Llimpi wakichiyta akllay</string>
+    <string name="customize">Sapamanta ruway</string>
+    <string name="custom">Sapachasqa</string>
+    <string name="preselected_configs_title">Ñawpaq akllasqa wakichiykuna</string>
+    <string name="orange">Naranja</string>
+    <string name="blue">Azul</string>
+    <string name="green">Q\'umir</string>
+    <string name="password_no_match">Contraseña mana tupanchu</string>
+    <string name="deselect_all">Llapamanta mana akllay</string>
+    <string name="filename">Willakuypa sutin</string>
+    <string name="compress_file_suggest_zip_extension">\".zip\" nisqa willañiqi mast\'ariy hina llamk\'achiyta yuyaychakun.</string>
+    <string name="about_amaze">Androidpaq material diseño willañiqi kamachiq</string>
+    <string name="license">Licencia</string>
+    <string name="libraries">Bibliotecakuna</string>
+    <string name="password_repeat">Yapamanta yaykuna rimay</string>
+    <string name="create_file_suggest_txt_extension">\'s allinmi \".txt\" llamk\'achiyta willañiqi mast\'ariy hina.</string>
+    <string name="ssh_select_pem">Chiqaqchaypaq sapalla llaveta akllay</string>
+    <string name="ssh_key_invalid_passphrase">Mana allin llave yaykuna rimay.</string>
+    <string name="ssh_key_no_decoder_decrypt">Mana allin decodificador PEM descifrarpaq.</string>
+    <string name="encryption_fail_copy">Mana atinichu willaypa tiyapuyninpi chifrasqa yaykuyta musuqyachiyta</string>
+    <string name="extracted">Hurqusqa</string>
+    <string name="compressed">T\'inkisqa</string>
+    <string name="processed">Rurasqa</string>
+    <string name="no_obtainable_info">Manam kay willañiqimanta info kanchu</string>
+    <string name="reopen_from_source">Mana, ama hina kaspa qhipa appmanta wakmanta kichay</string>
+    <string name="no_file_error">Imapas mana allintachu rirqa, mana imapas kichanapaq kanchu</string>
+    <string name="file_too_long">The willañiqiqa ancha hatunmi, manam llamk\'achiyta atikunmanchu, chaywanpas ñawpaq %d qillqakunata ñawiriyta atinki</string>
+    <string name="file_read_only">Kichasqa willañiqiqa ñawirinapaqlla.</string>
+    <string name="got_it">Chayta tarirqani!</string>
+    <string name="encrypt_file_save_as">Chifrasqa willañiqita waqaychay kayhinata...</string>
+    <string name="encrypt_folder_save_as">Chifrasqa qillqana mayt\'uta kayhinata waqaychay...</string>
+    <string name="encrypt_option_use_aze">Amaze Chifray Formato</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[llamk\'achiy
+        <p>AESCrypt nisqaqa huk kichasqa qullqisapa willañiqi chifrasqa rikch\'aqmi, AES chifraypi sayasqa. Hinallataqmi apaykachanapaq, huk plataformakunapi AESCrypt programakunawan descifrasqa kanman.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt nisqap web kitin</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[nisqa
+        <p>Amaze\'s Chifray Formato kaqpas AES chifrasqa kaqpi sayasqa kachkan; ichaqa hukniray AESCrypt formatomanta, kay dispositivowanlla descifrasqa kanman; chaymanta mana Amaze Willayta Kamachiq kay dispositivomanta urqhunaykichu tiyan nitaq pantalla wichq\'asqaykita tikranaykichu tiyan, mana chayqa mana imayna chifrasqa willañiqita kutichipunaykipaq kanqachu.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Chiqachasqa willañiqikunaqa \".aze\" nisqatam willañiqi mast\'ariy hina llamk\'achinan.</string>
+    <string name="encrypt_file_must_end_with_aes">Chiqachasqa willañiqikunaqa \".aes\" nisqatam willañiqi mast\'ariy hina llamk\'achinan.</string>
+    <string name="error_aescrypt_decrypt_failed">Manam ch\'usaqchayta atinchu \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Mana willañiqita qillqayta atikunchu.</string>
+    <string name="saved_single_file">Willakuyqa \'%s\' hina waqaychasqa.</string>
+    <string name="saved_multi_files">%d willañiqikuna waqaychasqa.</string>
+    <string name="create_hidden_file_warn">Rurasqa willañiqiqa willañiqi lista nisqapi pakasqa kanqa.</string>
+    <string name="grant_apkinstall_permission">App nisqa ruwanakuna churanapaq permisota necesitan hinalla.</string>
+    <string name="time_remaining">Tiempo puchuq</string>
+    <string name="transfer_rate">musphay&gt;Transferencia tasa</string>
+    <string name="unknown">mana riqsisqa</string>
+    <string name="multiple_invalid_archive_entries">Willakuypi wakin willañiqikunataqa manam hurquyta atikunmanchu; waqaychasqa waqllichisqa kanman utaq mana allin pukyuta hamun.</string>
+    <string name="saf_otg_explanation">Kunanqa Android\'s willañiqi llamkanaman rinki harkasqa razonkunarayku. Ama hina kaspa, paña ladopi kaq listamanta USB aparatota akllay.</string>
+    <string name="donation_thanks">Gracias donacionmanta, kayqa kallpanchawanchikmi! (:</string>
+    <string name="enable_marquee_filename">Willañiqi sutikunapaq marquee efectota atichiy</string>
+    <string name="archive_password_prompt">Ama hina kaspa, waqaychasqa yaykuna rimata qillqay:</string>
+    
+    <string name="cannot_extract_archive">Mana waqaychasqa \"%s\" hurquyta atinchu: %s</string>
+    <string name="archive_unsupported_or_corrupt">Manam kichay waqaychasqa \"%s\". Icha mana waqaychayta kichayta atiykuchu, icha waqaychasqa waqllichisqa.</string>
+    <string name="close">Wisq\'ay</string>
+    <string name="bookmark_exists">Marcador kachkan</string>
+    <string name="hide_media">Medio maskaqkunamanta pakay</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ATIKUNMI PIPAS IMATAPAS MILLQA RUWAYPAQ!\n\nPipas kunanpacha uyarisunkiman (runa-chawpi ataque)!Atikunmi chayllaraq host llave cambiasqa kasqan.Dedopa huella imaraykuchus karu quqpa kachasqa llapa runap llavenqa manam Amaze kaqpi waqaychasqa kaqwan tupanchu.\n\nQutupa dedo huella musuqchaywan purinkiman utaq SSH tinkinakuy churanakunata musuqchayta qullunkiman.</string>
+    <string name="update_host_key">Qusina llave musuqchay</string>
+    <string name="cancel_recommended">Qulluy (Yuyachisqa)</string>
+    
+    
+    <string name="failed_install_apk">Mana churasqachu</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Ukhupi waqaychasqa</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD tarjeta</string>
+    <string name="choose_folder">Kay qillqana mayt\'uta akllay</string>
+    
+    <string name="some_files_failed_invalid_operation">Wakin willañiqikunaqa manam allinchu karqan llamk\'ay</string>
+    <string name="ftp_server_prompt_connect_to_network">Huk llikawan tinkiy utaq AP atichiy</string>
+    <string name="ftp_server_open_settings">Kichay churanakuna</string>
+    <string name="move">Kuyuy</string>
+    <string name="select_save_location">Maypi kaqta akllay waqaychaypaq</string>
+    <string name="scp_default_path">Ñawpaqmanta ñan (Akllasqa)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Pampachaykuway, chayqa manan kananchu karqan.</string>
+    
+    <string name="error_report_button_text">Kay pantayta willay correo electrónico nisqawan</string>
+    <string name="error_report_button_telegram">Kay pantayta telegrama nisqawan willay</string>
+    <string name="copy_for_github">Formato nisqa willayta copiay</string>
+    <string name="error_report_open_issue_button_text">GitHub kaqpi willakuy</string>
+    <string name="error_report_open_github_notice">Ama hina kaspa, qhaway sichus huk sasachakuymanta rimaq urmayniykimanta kachkanña.</string>
+    <string name="error_snackbar_message">Pampachaykuway, imapas pantasqa.</string>
+    <string name="error_snackbar_action">Willakuy</string>
+    <string name="what_device_headline">Willakuy:</string>
+    <string name="what_happened_headline">Imataq pasarqa:</string>
+    <string name="info_labels">Ima:\\nMañakuy:\\nGMT Pacha:\\nPaquete:\\nVersión:\\nOS laya:\\nDispositivo:\\nModelo:\\nProducto :</string>
+    <string name="your_comment">Qanpa rimasqayki (inglés simipi):</string>
+    <string name="error_details_headline">Detalles:</string>
+    <string name="app_ui_crash">App/UI urmarqan</string>
+    <string name="error_report_title">Pantasqa willakuy</string>
+    <string name="crash_report_copied">T\'uqyaymanta willakuy copiasqa clipboard</string>
+    <string name="disableIpcSignature">IPC firma qhawayta mana llamk\'achiy (SMBv1 herencia sirwiqkunapaq - UNSAFE!)</string>
+    <string name="cannot_delete_file">Mana willañiqita qulluyta atikunchu</string>
+    <string name="cannot_delete_file_with_reason">Mana willañiqita qulluyta atikunchu - %s</string>
+    <string name="cannot_rename_file">Mana willañiqip sutinta tikrayta atinchu %s - %s</string>
+    <string name="cannot_read_directory">Mana willañiqita ñawiriyta atinchu %s - %s</string>
+    <string name="just_once">Huk kutilla</string>
+    <string name="always">Sapa kuti</string>
+    <string name="choose_different_app">Huk ruwana akllay</string>
+    <string name="clear_open_file">Ch\'uyanchana cache</string>
+    <string name="clear_open_file_summary">Akllasqa ñawpaqmanta willañiqi kichanapaq ruwanakunata chuyanchan</string>
+    <string name="ftp_readonly">Ñawiriylla yaykuy</string>
+    <string name="legacy_listing_title">Saphipaq herencia lista llamk\'achiy</string>
+    <string name="legacy_listing_summary">Atichisqa kaptinqa, willañiqikunata listananpaq herencia ruwayta llamk\'achin</string>
+    <string name="error_unsupported_v5_rar">RAR waqaychasqa \"%s\" mana yanapasqachu RAR v5 waqaychasqa.</string>
+    <string name="ftp_prompt_restart_server">FTP sirwiqta musuqmanta qallarinayki tiyan tikraykuna ruwakunanpaq.</string>
+    <string name="error_permission_denied">Permiso mana qusqachu</string>
+    <string name="error_archive_password_incorrect">Pantasqa waqaychasqa yaykuna rima.</string>
+    <string name="error_archive_cannot_extract">Mana waqaychasqa yaykuyta \"%s\" \"%s\" nisqaman hurquyta atinchu.</string>
+    <string name="drag_and_drop_preference">Aysay hinaspa urquy munasqa akllay (Experimental)</string>
+    <string name="drag_to_move_copy">Llachpay hinaspa aysay willañiqikunata kuyuchinaykipaq utaq copianaykipaq</string>
+    <string name="drag_to_select">Llachpay hinaspa aysay willañiqikunata akllanaykipaq</string>
+    <string name="disable">Mana llamk\'achiy</string>
+    <string name="choose_operation">Ruranapaq llamk\'ayta akllay</string>
+    <string name="remember">Qhipa kutipaq yuyariy</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP sirwiqpaq SAF yaykuyta quy</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Kayqa FTP sirwiqpa ñawpaq purichisqayki kasqanrayku, chaymanta dispositivopa ukhu waqaychayninta rakisqa qillqana mayt\'u hina llamk\'achkanki, ama hina kaspa Amaze waqaychayman yaykuyta saqiy llamk\'achispa SAF.\n\n
+
+Kayta huk kutilla ruwanayki tiyan, qhipa kuti musuq kitita akllanaykikama rakinapaq.</string>
+    <string name="android_data_prompt_saf_access">Android 10 kaqmanta, Android wakin directoriokunaman hark\'aykunata churasqa karqa, chaymanta Storage Access Framework kaqwan yaykuyta munanku.\n \nAma hina kaspa, Amaze llamk\'anap willañiqi kamachiqninmanta willañiqiman yaykuyta saqiy \"Yaykuna saqiy\" ñit\'ispa.</string>
+    <string name="android_data_prompt_saf_access_title">SAF yaykuyta quy</string>
+    <string name="ftp_preference_saf_filesystem_title">Herencia willakuy sistemata llamk\'achiy</string>
+    <string name="ftp_preference_saf_filesystem">Kayta atichiy yanapakuypaq dispositivo hawa waqaychayta aswan musuq Android layakunapi llamk\'achinapaq</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP servidor rakisqa ñanqa ukhu waqaychayman kutichisqa karqa imaynachus kutimuchkanki herencia willañiqi sistema ruway. Ama hina kaspa, huk musuq ñanta akllay paña patapi kaq menú nisqawan necesario kasqanman hina.</string>
+    <string name="ftp_server_reset_notify">FTP sirwiq rakisqa ñanqa ukhu waqaychayman kutichisqa karqan</string>
+    <string name="ftp_server_root_unavailable">Huk ñanta akllachkanki mayqinchus saphi yaykuyta munan. Ama hina kaspa, sapsi maskaq atichiy churaykunapi sichus dispositivoyki saphichasqa kachkan.</string>
+    <string name="ftp_server_root_filesystem_warning">Huk ñanta akllachkanki mayqinchus sapsi yaykuyta munan, mayqinchus dispositivoykipi tukuy willañiqi llamkanakunapi ñawiriy/qillqay llamkanakunata atichin, chaymanta peligroso - mana cuidadowan pantaykunaqa atikunman dispositivoykita ladrillo!\n\nSegurochu kanki?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">URI \"%s\" kichaypi pantasqa ñawirinapaq.</string>
+    <string name="error_empty_archive">\"%s\" ch\'usaq waqaychasqa.</string>
+    <string name="error_bad_archive_without_info">\"%s\" nisqaqa waqllisqa waqaychasqam.</string>
+    <string name="error_bad_archive_with_info">\"%s\" nisqaqa waqllisqa waqaychasqam.\nHuk\'uqmanta willakuy: \"%s\"</string>
+    <string name="security_error">Willakuyqa manam atirqanchu kay ruwanawan kichasqa kay</string>
+    <string name="cloud_drive_tooltip">Google DriveTM tinkiyta ruway Amaze Willayta kamachiq ukhumanta willakuykunata kamachinapaq.</string>
+    <string name="signin_with_google_title">Google DriveTM llamk\'achinapaq chiqaqchay</string>
+    <string name="show_system_apps">Llika ruwanakunata rikuchiy</string>
+    <string name="system_apps">Llika ruwanakuna</string>
+    <string name="select_inverse">Inverso akllay</string>
+    <string name="select_by_type">Tiyamanhina akllay</string>
+    <string name="select_by_date">P\'unchawmanhina akllay</string>
+    <string name="select_similar">Huk rikch\'aq akllay</string>
+    <string name="error_fetching_google_play_product_list">Pantasqa ruru listamanta apamuspa Google Play.</string>
+    <string name="grant_all_files_permission">Android 11 kaqmanta, Google Willayta Kamachiqkunata mañan llapa willañiqikunata dispositivopi kamachinapaq ruwaqpa atiyninta mañanankupaq. Detalles kaypi.
+        \n\nAmaze Willañiqi kamachiqpas kay atiyta necesitan. "Grant"kaypi ñit\'ispa, ama hina kaspa akllay Saqiy yaykuy llapa willañiqikunata kamachinapaq akllanata qatiq pantallapi.
+        \n\nKay rimanakunata chinkachispaqa ruwanamanta lluqsinqa.</string>
+    <string name="user_apps">Ruwaqpa ruwanakuna</string>
+    <string name="appearance">Rikuynin</string>
+    <string name="behavior">Ruway</string>
+    <string name="appearance_summary">Willañiqi kamachiqpa temanta, llimp\'inkunata, rikch\'aynintapas allinchay</string>
+    <string name="ui_summary">Ima willayta rikuchinapaq kamachiy, lado barrata ruway, chaymanta UI munasqakunata tikray</string>
+    <string name="behavior_summary">Ñawpaq maskana hina ruwaykunata tikray chaymanta willañiqikunata musuq ruwana hina kichaypaq</string>
+    <string name="security_summary">Yaykuna rimayta churay chaymanta chifray</string>
+    <string name="backup_summary">Hawaman apachiy/yaykuchiy Amaze churanakuna</string>
+
+    <string name="pref_export">Hawaman apachiy</string>
+    <string name="pref_export_summary">Hawaman apachiy churanakuna</string>
+    <string name="pref_import">Hawaykuchiy</string>
+    <string name="pref_import_summary">Hawaykuchiy churanakuna</string>
+
+    <string name="quick_desc">Archivokuna chayllaraq Amaze nisqawan yaykusqa</string>
+    <string name="recent_desc">Qhallaraq kamasqa icha tikrasqa willañiqikuna</string>
+    <string name="error_cannot_find_way_open">Mana tariyta atirqanichu willañiqita kichanapaq ñanta</string>
+    <string name="error_cant_decompress_that_file">Mana mañasqa waqaychasqa ruwayta atikunchu</string>
+    <string name="analyse_storage">Waqaychasqata t\'aqwiy</string>
+    
+    <string name="download_amaze_utils_text">Amaze Archivo Utilities nisqaman kutichisqa kanki. Chayqa kichasqa qullqiyuq ruwanayku kachkan chaymanta uyarina/video/imayna/qillqa qhawaqkuna ruwasqa, ch\'usaq willañiqikunata t\'aqwiyta atikun waqaychayta kacharichinaykipaq, utqaylla apachiyta Wifi P2P llamk\'achispa chaymanta aswan achka.\nAma hina kaspa yanapawayku pruebaspa.</string>
+    <string name="download">Uraykachiy</string>
+    
+    <string name="amaze_utils_installed_alias">Amaze Archivo Utilities nisqa churasqaykimanta gracias. Appman kutichisqa kanki.</string>
+    <string name="image_viewer">Siqi qhawaq musphay</string>
+    <string name="video_player">Video pukllaqta musphay</string>
+    <string name="amaze_audio_player">Musiku pukllaqta musphay</string>
+    <string name="pdf_viewer">Qillqa qhawaq musphay</string>
+    <string name="docx_viewer">Amaze Qillqa qhawaq</string>
+    <string name="share_logs">Qillqasqakunata rakiy</string>
+    <string name="share_logs_summary">Hap\'isqa qillqakunata correo electrónico / telegrama nisqawan rakiy</string>
+    <string name="open_with_amaze">Amaze</string>
+    <string name="confirmation">Chiqaqchaywan kichay</string>
+    <string name="open_file_confirmation">¿Chiqaptachu qatiq willañiqita kichayta munanki?\n\nSuti:\n%s\n\nMaypi:\n%s\n\nHatun:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play kamachiy kamachiykunamanhina, ruwanakuna mana sapallamanta musuqyachiyta atikunkuchu. Ama hina kaspa, Google Play kaqmanta app musuqchay.</string>
+    <string name="error_cannot_get_package_info">Mana atiychu \"%s\" willañiqimanta paquete willayta jap\'iyta. Ichapas nisqa willañiqiqa manam APKchu, icha paquete willañiqiqa waqllisqam.</string>
+    <string name="preference_delete_confirmation">Chiqapchayta qulluy</string>
+    <string name="preference_delete_confirmation_summary">Manaraq willañiqikunata qulluchkaspa chiqapchayta mañakuy. Kayta mana llamk\'achiyqa ancha hukmanyasqam!</string>
+    
+    
+    <string name="protocol_ftps">Waqaychasqa FTP</string>
+    <string name="unavailable">Mana tarikuq</string>
+
+    <string name="exporting_failed">Hawaman apachiyqa manam atirqanchu: manam waqaychasqa willañiqita qillqayta atirqanchu</string>
+    <string name="importing_failed">Yaykuchiyqa manam atirqanchu: manam waqaychasqa willañiqita ñawiriyta atirqanchu willañiqi</string>
+    <string name="importing_completed">Hukmanta apamuy tukusqa</string>
+    <string name="invalid_backup_file">Mana allin waqaychasqa willañiqi</string>
+    <string name="import_failed_for">Yaykuchiyqa manam atirqanchu:</string>
+    <string name="free_of">"%s\n%s mana %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin mana F- nisqawan yanapasqachu. Droid laya.Ama hina kaspa, Amaze kaqpa Play Store kaqninta llamk\'achiy.</string>
+    <string name="disable_player_intent_filters">Pukllaqpa munaynin filtrokunata mana llamk\'achiy</string>
+    <string name="disable_player_intent_filters_summary">Amaze ukhupi ruwasqa willay mast\'ariqkunata willañiqi akllanamanta mana llamk\'achiy</string>
+    <string name="no_app_found_intent">Mana ima ruwana tarisqachu kay yuyayta llamk\'achinapaq.Ruway DocumentsUI churasqachu kanki?</string>
+    <string name="cloud_connection_credentials_cleared">Puyu T\'inkisqa riqsichiykuna ch\'uyanchasqa</string>
+    <string name="cloud_connection_credentials_cleared_msg">Llakikuypaq, mana puyu tinkiynin riqsichiyniykikunata musuq willaypa tiyapuynin esquemaman astayta atirqaykuchu, chaymanta ruwanamanta hurqunayku karqa.Ama hina kaspa ruway puyu tinkiyta yapamanta.</string>
+</resources>

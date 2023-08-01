@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze File Procurator</string>
+    <string name="drawer_open">Aperta navigationem conportans</string>
+    <string name="drawer_close">Proxima navigationis perscriptorem</string>
+    
+    <string name="apps">App Procurator</string>
+    
+    <string name="setting">Optiones</string>
+    
+    <string name="press_again">Conor iterum ad exitus</string>
+    <string name="open">Aperi</string>
+    
+    
+    
+    
+    <string name="copyingapks">Copying%d APK files to %s</string>
+    <string name="delbook">Delere Bookmark</string>
+    <string name="add_to_bookmarks">Addere ad Bookmarks</string>
+    <string name="enterpath">Path</string>
+    
+    
+    
+    <string name="file_empty">Tabula inanis est</string>
+    
+    <string name="search_results">Quaestio eventus de %s</string>
+    
+    
+    <string name="bookmarks_added">Libra Added</string>
+    <string name="fileexist">Tabularii eiusdem nominis iam exstat</string>
+    <string name="name">Nomen</string>
+    
+    
+    
+    <string name="size">magnitudo folder</string>
+    <string name="enterzipname">Intra Nomen Zip</string>
+    <string name="no_app_found">Nullum App inventum est ut fasciculum aperiat</string>
+    
+    
+    
+    
+    <string name="newfolder">Novum Folder</string>
+    <string name="entername">Enter Nomen</string>
+    
+    <string name="stopping">Resistens</string>
+    <string name="open_parent">Open parens Directory</string>
+    <string name="open_with">Aperi cum</string>
+    
+    <string name="about">De</string>
+    
+    
+    <string name="yes">Immo</string>
+    <string name="no">Nemo</string>
+    
+    <string name="dialog_delete_category_directories">Directoria</string>
+    <string name="dialog_delete_category_files">Limae</string>
+    <string name="dialog_delete_disclaimer">Suppositae infra deletae eas a tuo artificio perpetuo removebunt et recuperari non possunt.</string>
+    <string name="dialog_delete_title">Delere res in perpetuum?</string>
+    <string name="deleting">Delere</string>
+    <string name="question_set_path_as_home">Visne viam currentem domum huius tab ponere?</string>
+    <string name="directorysort">Directory Sort Modus</string>
+    <string name="sort_by">Sorte By</string>
+    <string name="sort_only_this">Tantum hoc folder</string>
+    
+    
+    <string name="random_summary">Satus coloratum ponit temere primarium</string>
+    
+    <string name="colorize_summary">Icon color stat static. Doesn\'t override directory icon color preference.</string>
+    <string name="home">Domus</string>
+    
+    <string name="history">Historia</string>
+    <string name="copy">Exemplar</string>
+    
+    <string name="root_mode_summary">Nam radicatas fabrica. Reprehendo solum si certus es de illo.</string>
+    <string name="root_failure">Radix Obvius non datur</string>
+    
+    
+    <string name="set_as_home">Site Ut Home</string>
+    <string name="operation_not_supported">Operatio non subnixa</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Lum materiale</string>
+    
+    <string name="daytime">Interdiu</string>
+    <string name="black">Nigrum (pro OLED)</string>
+    <string name="system">System (sequuntur systema thema)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    
+    <string name="filesOnTop">Limae In Top</string>
+    <string name="none_on_top">Nonae In Top</string>
+    <!--SortBy-->
+    
+    <string name="lastModified">Size</string>
+    
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Delige fasciculum</string>
+    <string name="process_viewer">Processus Visum</string>
+    <string name="in_safe">Spatium insufficiens</string>
+    <string name="no_file_overwrite">Nullum Tabularium Overwritten</string>
+    
+    <string name="overwrite">Rescribe</string>
+    <string name="not_allowed">Non licet</string>
+    <string name="searching">Quaerere %s</string>
+    <string name="done">Fio</string>
+    <string name="set">Site</string>
+    <string name="enablerootmde">Admitte Root Mode</string>
+    <string name="goback">Vade Back</string>
+    <string name="newfile">Novus fasciculus</string>
+    <string name="no_files">Nulla tabularia</string>
+    <string name="used">spatii adhibita</string>
+    <string name="used_by_others">ab aliis adhibita</string>
+    <string name="free">spatium liberum</string>
+    
+    
+    <string name="permission">Permissiones</string>
+    <string name="hide">Abde</string>
+    
+    <string name="doforall">Fac pro omnibus elementis</string>
+    <string name="gridcolumnno">Numeratio columnarum in velit view</string>
+    <string name="set_random">Mutationes fient post te sileo app</string>
+    <string name="authors">Autores</string>
+    <string name="changelog">Cangelog</string>
+    
+    
+    <string name="general">Generalis</string>
+    <string name="thumb_summary">Show Thumbnails apps et imagines</string>
+    
+    <string name="hidden">Ostende tabulas occultas et schedas</string>
+    <string name="lastModifiedSummary">Show the date and time ultime modification</string>
+    
+    <string name="size_pref_summary">Ostende magnitudinem files et numerum res in folders</string>
+    
+    
+    <string name="root_pref_summary">Permissiones tabularum monstrare ac folder</string>
+    <string name="root_pref">Permissiones monstrare</string>
+    <string name="about_amaze_file_manager_label">De Amaze File Procurator</string>
+    
+    <string name="rate">Rate app</string>
+    <string name="feedback">Recipes videre</string>
+    <string name="hiddenfiles">Lima occultata</string>
+    
+    
+    <string name="add_shortcut">Addere Brevis</string>
+    <string name="unsaved_changes">Unsaved Mutationes</string>
+    <string name="unsaved_changes_description">Mutationes unsaved, visne salvare ante exitum?</string>
+    <string name="saving">salutaris</string>
+    
+    
+    <string name="install">Instrue</string>
+    
+    <string name="archive_text">Hoc archivum est. Quid agere vis facere?</string>
+    <string name="package_installer_text">Haec est involucrum instrumentum. Quid agere vis ut facias?</string>
+    
+    <string name="xda_summary">Q&amp;amp;A, Auxilio &amp;amp; Troubleshooting</string>
+    <string name="circular_images"> Utere iconibus circularibus imaginum ac videos</string>
+    <string name="circular_icons">Utere iconibus circularibus</string>
+    <string name="back_title">Retro navigationem</string>
+    <string name="back_summary">Responsorum consuetudinem navigandi fac in summitate elenchi</string>
+    
+    <string name="translators">Translatores</string>
+    
+    <string name="italian_translation_title">Italiae</string>
+    
+    
+    <string name="spanish_translation_title">Hispanice</string>
+    <string name="basque_translation_title">Batava</string>
+    <string name="chinese_translation_title">Seres</string>
+    <string name="serbian_translation_title">Serbia</string>
+    <string name="turkish_translation_title">Turca</string>
+    <string name="ukrainian_translation_title">Ucraina</string>
+    <string name="portuguese_translation_title">Lusitania</string>
+    
+    
+    
+    <string name="dutch_translation_title">Romanian</string>
+    
+    
+    <string name="japanese_translation_title">Iaponica</string>
+    
+
+    <string name="zip_viewer">Zip Visum</string>
+    <string name="unin_system_apk">Haec est ratio app, delendo ut systema un-stabilitatis ducat.\nProceed?</string>
+    <string name="warning">Admonitio</string>
+    
+    
+    <string name="archive_summary">Fasciculi Archive huic folder extrahentur. Valor defectus est directorium in quo archivum adest.</string>
+    <string name="open_as">Aperi As</string>
+    
+    
+    
+    <string name="other">Alia</string>
+    <string name="image">Imago</string>
+    
+    <string name="save_paths">Recordare semitas</string>
+    <string name="save_path_summary">Cum exstiterint, recentissimi folder inspecti pro unaquaque tab exhibebuntur</string>
+    
+    
+    <string name="colored_navigation">Navigatio colorata talea</string>
+    <string name="colored_navigvation_sum">Utrum navigandi ratio cum cute coloratur</string>
+
+    
+    <string name="color_summary">Variis UI components Colorem pone</string>
+    <string name="primary_color_title">Color primarius (Left Tab)</string>
+    <string name="primary_color_summary">Pone colorem elementorum magnum UI ad tabem sinistram</string>
+    <string name="accent_color_title">Accent Colorem</string>
+    <string name="accent_color_summary">Colorem pone FAB et alia parva UI elementorum</string>
+    
+    <string name="icon_color_summary">Color iconibus</string>
+    <string name="choose_color">Collecta color</string>
+    
+    <string name="textreader">Text Lector</string>
+    <string name="databasereader">Database Lector</string>
+    <string name="show_dividers">Password</string>
+    <string name="needs_access">Scribe Access required</string>
+    <string name="needs_access_summary">Inscriptio radicem elige \t</string>
+    <string name="needs_access_summary1">\tto da aditum scribere ad operandum</string>
+    
+    <string name="smb_server">Servo IP Address</string>
+    <string name="server_address">Servo IP Address</string>
+    
+    
+    
+    
+    
+    <string name="folderfilecount">%1$d folder et %2$d files</string>
+    
+    
+    <string name="documents">Documenta</string>
+    <string name="images">Imagines</string>
+    
+    
+    
+    <string name="calculating">callidum</string>
+    
+    
+    
+    
+    <string name="doit">Do illud</string>
+    <string name="want_help">Opus auxilium?</string>
+    <string name="quick">Citus accessus</string>
+    <string name="recent">Recens files</string>
+    
+    <string name="find">Invenire in pagina</string>
+    <string name="grant">Praesta</string>
+    <string name="grantper">Da veniam</string>
+    <string name="grantfailed">Permissio non data</string>
+    <string name="grant_storage_permission">App permissio Repono ut pergo. Rescindens hunc dialogum exitum app.</string>
+    <string name="operation_unsuccesful">Operatio Infelicis</string>
+    <string name="creatingfile">Tabularium creans</string>
+    <string name="creatingfolder">Creans Pellentesque</string>
+    
+    <string name="cant_be_empty">%s vacua esse non potest</string>
+    <string name="ip">Oratio</string>
+    <string name="connection_name">Connexio name</string>
+    <string name="no_device_found">Nulla inventa inventa</string>
+    
+    
+    
+    
+    <string name="invalid_name">Invalidum Name</string>
+    <string name="search_hint">Type ad quaerendum…</string>
+    <string name="advanced_search">Advanced Quaerere</string>
+    <string name="regular_expression">Regulare elocutio</string>
+    <string name="regular_expression_summary">Quaerere utens BASH stilo regulari expressione</string>
+    <string name="match_content">Contentatio par</string>
+    <string name="match_content_summary">Si certa, expressio regularis cum nomine fasciculi tota aequabitur;
+        eventum aliter exspectabo.</string>
+    
+    <string name="stop_ftp">Siste</string>
+    <string name="ftp_status_running">Cursus</string>
+    <string name="ftp_status_not_running">Non Cursor</string>
+    <string name="ftp_no_wifi">Fac tibi connexum Wi -Fi</string>
+    
+    <string name="smb_share">Vita Share</string>
+    <string name="invalid">Invalid%s</string>
+    <string name="ftp_notif_starting">FTP Servo incipiens</string>
+    <string name="ftp_notif_starting_title">FTP Servo</string>
+    <string name="ftp_notif_title">Amaze FTP Servo currens</string>
+    <string name="ftp_notif_text">at%s</string>
+    <string name="ftp_notif_stop_server">STO</string>
+    
+    <string name="ftp_port_change_success">FTP portus feliciter mutatus</string>
+    <string name="ftp_port_change_error_invalid">Aliquam portum numerus lectus</string>
+    <string name="primary_two_title">Color primarius (Right Tab)</string>
+    <string name="primary_two_summary">Pone colorem ad magna UI elementa pro tab</string>
+    
+    
+    
+    <string name="source_summary">Inspice nostrum source code on GitHub</string>
+    <string name="report_bugs_summary">Refer cimices seu petitionem novam pluma</string>
+    
+    <string name="translate_summary">Translate Stupet in lingua tua</string>
+    <string name="paypal_copy_message">PayPal ID exscriptus ad clipboard</string>
+    <string name="searching_devices">Quaestio adinventiones</string>
+    <string name="use_custom_ip">Usus consuetudinis IP</string>
+    <string name="bookmark_lost">Bookmark not found, recreans…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Quomodo accedere participatur Fenestra folder in Android (SMB)\n\n
+                
+                    
+                        Admitte File Socius in Fenestra \ n *
+                    
+                    
+                        Imperium Panel aperi, preme elige HomeGroup et optiones Socius sub Network
+                        and Internet, and click "Mutare Provectus Socius Occasus" enable "File and
+                        Printer Socius" pluma.\n\n
+                    
+
+                    
+                        Additional File Socius occasus \ n *
+                    
+                    
+                        Etiam in aliis positis provectis configurare vis potes hic. \n
+                        Exempli gratia, accessum ad Documenta tua sine tessera potes, si omnia credis
+                        adinventiones in vestri locus network. Cum lima et impressor communicatio est enabled, potes
+                        aperta File Explorer or Windows Explorer, right-click a folder you want to share, and
+                        select Properties. \n
+                        Click in Share button ut folder available in retiaculis. \n\n
+                        
+
+                    
+                        Fac utrasque cogitationes in eodem Wifi \n
+                    
+                    
+                        Haec factura lima available in retis localis facit, ut PC et cogitationes tuas mobiles
+                        esse eiusdem loci network. Adire potes participem Fenestram folder
+                        per Internet vel cum Mauris quis felis eius mobile notitia coniungitur - it
+                        habet esse coniunctam Wi-FI. \ N \ n *
+                    
+
+                    
+                        Reperio IP Address \ n
+                    
+                    
+                        Open To order Promptus. Type \'ipconfig\' and press Enter. Quaerite Default Praesent
+                        sub retiacula tua adaptor ad iter tuum IP oratio. Quarere
+                        \\\"IPv4 Oratio \\\" sub eadem sectione nibh invenire computatrum tuum IP
+                        oratio. \ n \ n *
+                    
+
+                    Intra singula in SMB alternis buxum\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Num plus quam 100 files communicare</string>
+    <string name="otg_access">Radix OTG fabrica</string>
+    <string name="information">Informatio</string>
+    <!-- reference to file accessed date -->
+    
+    <!-- reference to file modified date -->
+    
+
+    
+    
+    
+    <string name="year">Annum</string>
+    
+    
+    <!-- reference to audio/video file -->
+    <string name="container">Continens</string>
+    
+    <string name="channels">Canales</string>
+    
+    
+    <string name="dimensions">Dimensiones</string>
+    
+    <string name="image_type">Imago Type</string>
+    <string name="width">Latitudo</string>
+    
+    
+    
+    
+    
+    <string name="camera_model">Camera Exemplar</string>
+    <string name="date_taken">Date Sumpta</string>
+    <string name="exposure_time">Expositio Tempus</string>
+    <string name="aperture_value">Apertura Value</string>
+    <string name="image_iso">ISO Speed ​​Rating</string>
+    <string name="flash_fired">Flash Accensus</string>
+    <string name="focal_length">Focal Longitudo</string>
+    
+    <string name="author">Auctor</string>
+    
+    <string name="producer">Productor</string>
+    <string name="created">Creatus</string>
+    <string name="format">Forma</string>
+    <string name="pages">Number paginarum</string>
+    <!-- reference to a document file -->
+    
+    <string name="security">Securitas</string>
+    <string name="paper_size">Paper Amplitudo</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Quaedam files erant\'t feliciter %s</string>
+    <string name="copied">expressi</string>
+    <string name="moved">motus</string>
+    <string name="copy_complete">Copy Perficere</string>
+    <string name="waiting_title">Exspecto</string>
+    <string name="waiting_content">Exspectans operationem ad perficiendam</string>
+    <string name="extract_complete">Extractio completiva</string>
+    <string name="compression_complete">Compressio Completa</string>
+    <string name="compressing">compressio</string>
+    
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Scriptum</string>
+    <string name="out_of">e de</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">de</string>
+    <string name="processing_file">Fasciculi Processus</string>
+    <string name="current_speed">Currens Speed</string>
+    <string name="smb_launch_error">Oportet te hanc limam exscribere ut eam aperias</string>
+    <string name="error_file_not_found">Error: Fasciculus Non Inventus</string>
+    
+    <string name="error_file_too_large">Error: File Nimis Large</string>
+    
+    
+    <string name="permission_write">Scribe</string>
+    <string name="permission_execute">Executio</string>
+    <string name="permission_owner">Dominus</string>
+    
+    <string name="permission_other">Alia</string>
+    <string name="clipboard_path_copy">Path copied ad clipboard</string>
+    <string name="service_timer">Tempus elapsum</string>
+    <string name="please_wait">Cloud Connection</string>
+
+    
+    
+    
+    <string name="cloud_drive">Google Drive ™</string>
+    
+    
+    <string name="cloud_get">Cloud plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Nulla applicationes</string>
+    <string name="ftp_path">Path Shared</string>
+    <string name="ftp_path_hint">Semita ad radicem directorium ad communicandum</string>
+    <string name="change">Mutare</string>
+    <string name="unknown_error">Oops, aliquid erravit!</string>
+
+    <string name="ftp_path_change_success">FTP iter feliciter mutatum</string>
+    <string name="ftp_path_change_error_invalid">invalidum iter</string>
+    <string name="ftp_status_no_connection">Nulla Connection</string>
+    
+    
+    <string name="ftp_port">Portus</string>
+    
+    <string name="field_empty">Agri potest\'t vacua</string>
+    <string name="ftp_timeout">Otiosum timeout</string>
+    
+    
+    <string name="intellihide_toolbar_summary">Automatarie celare toolbar dum scrolling</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">exscriptum ad clipboard</string>
+    
+    <string name="contributors_2_summary">Icon et vexilla</string>
+    
+    <string name="contributors_4_summary">Umbra post FAB</string>
+    <string name="contributors_5_summary">Color transitus cum scidit tabs</string>
+    
+    <string name="contributors_7_summary">Testam interactivam accendere</string>
+    <string name="connection_exists">Connexio iam exstat</string>
+
+    <string name="crypt_encrypting">Decrypting</string>
+    
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Decrypted</string>
+    
+    <string name="crypt_encrypt">Decrypt</string>
+    
+    <string name="operation_fail_following">Operatio defecit in sequentibus files</string>
+    <string name="crypt_pref_master_password_title">Magistri Password</string>
+    <string name="crypt_pref_master_password_summary">Tesseram magistralem encryption pone.
+        Vacuum relinquere ad tollendum.</string>
+    
+    <string name="crypt_pref_fingerprint_summary">Fingerprinter usus signo authenticitatis encryption</string>
+    <string name="crypt_fingerprint_no_permission">Fingerprint permissionum absentis</string>
+    <string name="crypt_fingerprint_not_enrolled">Nullus fingerprints conscripti</string>
+    <string name="crypt_fingerprint_no_security">Nullum lockscreen securitatem inveni</string>
+    <string name="crypt_warning_key">Monendum, cum securitatem tuam mutaveris exemplum e
+        Ratio uncinis, hoc contentum minui posse\'t.</string>
+    <string name="warning_never_show">Don\'t certiorem rursus</string>
+    <string name="warning_confirm">Perge!</string>
+    <string name="crypt_encryption_fail">Deficio ad encrypt</string>
+    <string name="crypt_decryption_fail">Deficio ad decrypt</string>
+    <string name="crypt_decryption_fail_password">Tesseram Nefas!</string>
+    <string name="crypt_fingerprint_authenticate">Tange sensorem pergere</string>
+    <string name="authenticate_password">Intra password</string>
+
+    
+    <string name="sidebar_quick_access_title">Sidebar velox accessus</string>
+    <string name="show_quick_access_pref_title">Citus accessus monstrare</string>
+    <string name="show_quick_access_pref">Cito accessus</string>
+    
+
+    <string name="sidebar_bookmarks_title">Sidebars bookmarks</string>
+    
+    
+    
+    <string name="edit_bookmark">Edere bookmark</string>
+    <string name="question_delete_bookmark">Delere bookmark?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin not found. Quaeso de Play Store depone.</string>
+    <string name="cloud_error_failed_restart">Conexionem onerare Deficio.
+        Obsecro semel aperi Amaze Cloud.</string>
+    <string name="cloud_remove">Visne nexum nubem tollere?</string>
+    <string name="cloud_fail_authenticate">Deficio authenticitatis</string>
+    <string name="cloud_share_copied">Sharable ligamen expressum ad clipboard</string>
+    <string name="copy_low_memory">Currens e memoria, quaeso, clarum aliquod RAM</string>
+    <string name="cloud_token_lost">Amissum signum, quaeso signum-in iterum</string>
+    
+    <string name="showHeaders">Infendo Headers</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	
+	
+	
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Tabula nomen debet habere</string>
+    <string name="add_item">Addere Item</string>
+    <string name="failed_smb_decrypt_path">Deficio ad onus ALICUI nexum</string>
+    <string name="failed_cloud_new_connection">Nubem nexum novum addere neglexit</string>
+    <string name="failed_cloud_api_key">Nubem obturaculum-in</string>
+
+    <string name="local_inet_addr_error">Error questus est locus inet oratio</string>
+    <string name="intent_save_as">Serva ut…</string>
+    
+    
+    <string name="typeable_paths_title">Consuetudines calles</string>
+    <string name="typeable_paths_summary">Longum torcular iter talea ut morem tramitem</string>
+    <string name="send_email_to">mitte electronicam ad</string>
+
+    <string name="text_editor">Textus editor occasus</string>
+    <string name="preference_newstack_title">Aperire tabellas ut novum negotium</string>
+    <string name="preference_newstack_summary">permittit te ut tabellas apertas in singulis operibus praebeas. Obvius eas ex recentium rationum velamento.</string>
+    
+    
+    <string name="no_bitcoin_app">Amaze FTP Servo</string>
+    <string name="channel_name_normal">Ave notificationes</string>
+    <string name="channel_description_normal">Amaze File Procurator\'Notificationes</string>
+    <string name="channel_name_ftp">Amaze FTP Servo</string>
+    <string name="channel_description_ftp">Amaze Tabularium Procurator FTP Servo\'s Notificaciones</string>
+
+    
+    <string name="processing">Processus…</string>
+    <string name="failed_no_connection">Deficio files onus. Quaeso connexionem tuam reprehendo.</string>
+
+    
+	
+    
+    <string name="ftps_connection">FTP super SSL Connection</string>
+    <string name="scp_port">Portus</string>
+    <string name="ssh_host_key_verification_prompt">authenticitas hospitii \'%1$s\' stabiliri potest.\n\n%2$s clavis fingerprints est %3$s.\n\nQuaeso sonum \"Ita\" ad confirmandum exprimit; secus, quaeso, sonum \"Non\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Verificare Hostiam</string>
+    <string name="ssh_select_pem_button">SSH Secretum Key</string>
+    <string name="ssh_pem_key_parse_error">Non potes legere electum PEM: %s</string>
+    <string name="password_unchanged">(immutatum)</string>
+    <string name="ssh_authentication_failure_password">Logon defect: Usoris et tesserae authenticas dare nequitur.</string>
+    <string name="ssh_authentication_failure_key">Logon deficiendi: authenticum usoris privatimque clavem suppeditatam nequit.</string>
+    <string name="ssh_connect_failed">Non coniungere ad %1$ s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">MONITUM: REMOTUS HOSPITALIS IDENTIFICATIO mutatur!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">POTEST UT QUIS FOEDUS FACIET!\n\nAliquis in te auscultare possit. nunc (homo-in-medium impetum)! Fieri etiam potest ut clavis exercitus modo mutata sit. Digitum clavem publici ab hospite remota missum non congruit unum in Amaze repositum.\n\nQuaeso administratorem systema tuum contactum aut novam connexionem ut servo iungo pergo.</string>
+    <string name="ssh_key_prompt_passphrase">Ingredere clavem passphrase .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Brevis creatio a tuo launcher non sustinetur.</string>
+    
+    
+    <string name="customize">Mos</string>
+    <string name="custom">Consuetudinem</string>
+    <string name="preselected_configs_title">Praeselected configs</string>
+    
+    
+    
+    
+    
+    
+    <string name="compress_file_suggest_zip_extension">Sumdetur uti \".zip\" ut extensio tabella.</string>
+    <string name="about_amaze">Materia designatio lima procurator Android</string>
+    
+    <string name="libraries">Librariarum</string>
+    <string name="password_repeat">Repetere password</string>
+    <string name="create_file_suggest_txt_extension">Est commendare uti \".txt\" ut extensio tabella.</string>
+    <string name="ssh_select_pem">Select privatis clavis ad authenticas</string>
+    <string name="ssh_key_invalid_passphrase">Invalida key passphrase.</string>
+    <string name="ssh_key_no_decoder_decrypt">Non valet decoder ad decrypt PEM.</string>
+    <string name="encryption_fail_copy">Deficio ad encryption encryption ingressum in database</string>
+    <string name="extracted">Extractum</string>
+    <string name="compressed">Cogo</string>
+    
+    <string name="no_obtainable_info">Nihil info de hoc documento</string>
+    <string name="reopen_from_source">Num\'t, quaeso, ab ultimo app</string>
+    <string name="no_file_error"> Recludere aliquid errasse, nihil est aperire</string>
+    <string name="file_too_long">Quod Scapus nimis longum est et non editum, tamen legere potes primum %d characteres</string>
+    <string name="file_read_only">Tabella aperta solum lecta est.</string>
+    <string name="got_it">Habit!</string>
+    <string name="encrypt_file_save_as">Save Encrypted Tabella Ut…</string>
+    <string name="encrypt_folder_save_as">Save Encrypted Folder Sicut…</string>
+    <string name="encrypt_option_use_aze">Usus Amaze Encryption Format</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt fons aperta fasciculi encryption formatur secundum encryption AES. Etiam portatile est, cum programmatibus AESCryptis in aliis tabulatis decrypti potest.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt website</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        Forma encryption Amaze\ AES encryption innititur; sed differt ab AESCrypt forma, tantum ab hac arte decrypta potest; Procurator Lima Amaze ne amoveas etiam ab hoc artificio neve modum claudas velum mutes, aliter tabulam encryptatam nullo modo habebis.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Fasciculi Encrypted utendum est \".aze\" ut extensio tabella.</string>
+    <string name="encrypt_file_must_end_with_aes">Fasciculi Encrypted uti debent \".aes\" ut extensio tabella.</string>
+    <string name="error_aescrypt_decrypt_failed">Minutum esse non potest. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Fasciculi rescribere non possunt.</string>
+    <string name="saved_single_file">Tabellae servatae sunt ut \'%s\'.</string>
+    <string name="saved_multi_files">%d fasciculi servatae sunt.</string>
+    <string name="create_hidden_file_warn">Tabula creata in tabula electronica occultabitur.</string>
+    <string name="grant_apkinstall_permission">App licentia eget ut apps instituendi continue.</string>
+    <string name="time_remaining">Tempus reliquum</string>
+    <string name="transfer_rate">Translatio rate</string>
+    <string name="unknown">ignotum</string>
+    <string name="multiple_invalid_archive_entries">Quaedam tabulae in archivo extrahi non possunt; archivum laedi potest vel ex fonte maligno factum est.</string>
+    <string name="saf_otg_explanation">Tu nunc ad Android filesystem rationes securitatis. Placere eligere USB fabrica e indice sinistro.</string>
+    <string name="donation_thanks">Gratias tibi ago pro donatione, haec motos nos tenet! (:</string>
+    <string name="enable_marquee_filename">Admitte marqueum effectum pro nominibus file</string>
+    <string name="archive_password_prompt">Quaeso intrant archivum tesseram:</string>
+    
+    <string name="cannot_extract_archive">Archivum extrahi non possunt \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Cannot archivum apertum \"%s\". Aut archivum aperire non possumus, aut archivum laesum est.</string>
+    <string name="close">Processed</string>
+    <string name="bookmark_exists">Proscriptio notae exstat</string>
+    <string name="hide_media">Cede a instrumentis navigatri</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">POTEST UT QUIS FOEDUS FACERE!\n\nAquispiam auscultare in te nunc (homo-in-medium impetum) potest! Etiam possibile est ut clavis exercitus modo mutatus sit. Fingerprint clavis enim publici a remotis hospitis missis non congruit unum in Amaze repositum.\n\nPotes adaequationis digitum imprimere vel adaequationis nexum occasus delere.</string>
+    <string name="update_host_key">Renova Hostia Key</string>
+    <string name="cancel_recommended">Cancel (commendatur)</string>
+    
+    
+    <string name="failed_install_apk">Deficio ad install</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Internum PRAECLUSIO</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    
+    <string name="choose_folder">Elige hoc Pellentesque</string>
+    
+    <string name="some_files_failed_invalid_operation">Quaedam files defecit propter irritum Operatio</string>
+    <string name="ftp_server_prompt_connect_to_network">Coniunge reti vel enable AP</string>
+    <string name="ftp_server_open_settings">Apertus occasus</string>
+    <string name="move">Refer</string>
+    <string name="select_save_location">Select locum servare</string>
+    <string name="scp_default_path">Default Path (Libitum)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Paenitet, quod factum non est.</string>
+    
+    <string name="error_report_button_text">Referte hunc errorem per e-mail</string>
+    <string name="error_report_button_telegram">Errorem hunc per telegraphum</string>
+    <string name="copy_for_github">Copy formatae fama</string>
+    <string name="error_report_open_issue_button_text">Refer in GitHub</string>
+    <string name="error_report_open_github_notice">Quaeso reprehendo num lis de tuo fragore iam existat.</string>
+    <string name="error_snackbar_message">Paenitet, quid erravit.</string>
+    
+    
+    <string name="what_happened_headline">Quod factum est:</string>
+    <string name="info_labels">Quod:\\nRequest:\\nGMT Time:\\nPackage:\\nVersion:\\nOS version:\\nDevice:\\nModel:\\nProduct :</string>
+    <string name="your_comment">Commentarium tuum (in English):</string>
+    
+    <string name="app_ui_crash">App/UI ingruat</string>
+    <string name="error_report_title">Error fama</string>
+    <string name="crash_report_copied">Cash report copied to clipboard</string>
+    <string name="disableIpcSignature">Inactivare IPC signandi perscriptio (Nam legatum SMBv1 servers - PERICULOSUS!)</string>
+    <string name="cannot_delete_file">Fasciculus delere non potest</string>
+    <string name="cannot_delete_file_with_reason">Fasciculum delere - %s</string>
+    <string name="cannot_rename_file">renominare non potest fasciculus %s - %s</string>
+    <string name="cannot_read_directory">Non potest legere directorium %s - %s</string>
+    <string name="just_once">Solum Semel</string>
+    <string name="always">Semper</string>
+    <string name="choose_different_app">Elige applicationem diversam</string>
+    <string name="clear_open_file">Caeterum</string>
+    <string name="clear_open_file_summary">Clears delectus default file foramen apps</string>
+    <string name="ftp_readonly">Read-tantum accessum</string>
+    <string name="legacy_listing_title">Usum legatum enumeratis nam radix</string>
+    <string name="legacy_listing_summary">Si enabled, legata methodo utitur ad fasciculos recensendos</string>
+    <string name="error_unsupported_v5_rar">archivum RAR \"%s\", sine RAR v5 archivum.</string>
+    <string name="ftp_prompt_restart_server">FTP ut sileo. Servo pro mutationibus ad effectum deducendi.</string>
+    <string name="error_permission_denied">Permissio negavit</string>
+    <string name="error_archive_password_incorrect">Iniquum archivum tesseram.</string>
+    <string name="error_archive_cannot_extract">Initium archivum extrahi non potest \"%s\" ad \"%s\".</string>
+    <string name="drag_and_drop_preference">Select trahere et decidere prae (experimentalis)</string>
+    <string name="drag_to_move_copy">Tactus et trahe ad movendum vel effingendum lima</string>
+    <string name="drag_to_select">Tange et trahunt lima selecta</string>
+    <string name="disable">inactivare</string>
+    <string name="choose_operation">Operationem elige ad faciendam</string>
+    <string name="remember">Memento temporis futuri</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Da SAF accessum pro servo FTP servo</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Cum hoc primum tuum est decurso servo FTP, et tu utere internus repono fabrica ut folder participatur, obsecro, amaze ut accedere ad repono per SAF.\n\n
+
+Hoc tantum semel facere debes, donec iterum novum locum communicandi eligas.</string>
+    <string name="android_data_prompt_saf_access">Quia Android 10, restrictiones Android imposuit certis directoriis, et opus est accedere cum Repono Access Framework.\n. \nQuaeso, permitte Amaze accessum indicem e instrumenti \"accedentem permitte \".</string>
+    <string name="android_data_prompt_saf_access_title">Da accessum SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Admitte utere legatum filesystem</string>
+    <string name="ftp_preference_saf_filesystem">Admitte hoc pro subsidio ad usuram machinam externam in recentioribus MAS versionibus</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP servo itinerarium communicatum fuerat reset ad repono interna sicut tu mutans ad exsecutionem legatorum filesystem. Placere eligere novam viam in summo iure utens menu necessaria.</string>
+    <string name="ftp_server_reset_notify">FTP servo semita communicata fuerat reset ad repono internum</string>
+    <string name="ftp_server_root_unavailable">Viam eliges quae radix aditum requirit. Quaeso da radicem exploratorem in fundis si ratio tua exstirpat.</string>
+    <string name="ftp_server_root_filesystem_warning">Viam eliges quae aditum radicem requirit, quae operationes in toto tabulario tuo fabricae sinit, et periculosum est - neglegenter errata fabricam tuam latere posse!\n\ Certus es?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Error aperiens URI \"%s\" pro lectione.</string>
+    <string name="error_empty_archive">\"%s\" archivum vacuum est.</string>
+    <string name="error_bad_archive_without_info">\"%s\" archivum corruptum est. .</string>
+    <string name="error_bad_archive_with_info">\"%s\" archivum corruptum est.\nMessage ex extractore: \"%s\"</string>
+    <string name="security_error">File aperiri non potuit hoc app</string>
+    <string name="cloud_drive_tooltip">Create a Google Coegi connexionem ad files procurandis ab intus Amaze File Procurator.</string>
+    <string name="signin_with_google_title">Authenticas utendi Google Drive™</string>
+    <string name="show_system_apps">Show systema apps</string>
+    
+    <string name="select_inverse">Select Inversa</string>
+    <string name="select_by_type">Select per genus</string>
+    <string name="select_by_date">Select ad tempus</string>
+    <string name="select_similar">Select similia</string>
+    <string name="error_fetching_google_play_product_list">Error trahens productum album ex Google Play.</string>
+    <string name="grant_all_files_permission">Cum Android 11 , Google File Procuratores petit ut licentiam usoris petant omnia lima in fabrica administrandi. Singula hic.
+        \n\nAmaze Procurator File hac quoque permissione indiget. Postquam premens "Dona" hic, quaeso, eligere Sinite accessum ad omnia optionis tabulariorum administrandi in proximo velo.
+        \n\nCanceling hunc dialogum app.</string>
+    <string name="user_apps">Usoris apps</string>
+    <string name="appearance">Aspectus</string>
+    <string name="behavior">Moribus</string>
+    <string name="appearance_summary">Mos thema, colores et species tabellae procurator</string>
+    <string name="ui_summary">Imperium quid informationes ostendere, mos sidebar, ac toggle UI optiones</string>
+    <string name="behavior_summary">Modificare mores ut inquisitionem provectam et an documenta aperias tamquam novum negotium</string>
+    <string name="security_summary">Tesseram erigas et encryption</string>
+    <string name="backup_summary">Export/Import Occasus Amaze</string>
+
+    <string name="pref_export">Infernum</string>
+    <string name="pref_export_summary">Export occasus</string>
+    
+    <string name="pref_import_summary">Import occasus</string>
+
+    <string name="quick_desc">Limae Nuper accessum per Amaze</string>
+    <string name="recent_desc">Nuper creatum vel mutatum imaginum</string>
+    <string name="error_cannot_find_way_open">Non potui invenire viam ad aperiendam tabellam</string>
+    <string name="error_cant_decompress_that_file">Non possunt processus petitum archivum</string>
+    
+    
+    <string name="download_amaze_utils_text">Vestis redirected ad Utilitas tabellae Amaze. Nostrum apertum principium app quod ingenitum audio/video/image/documenti visores, sinit te imaginum junk analyse ad liberandum reposita, celeriter transferendo Wifi P2P utendo et multo magis.\nPlaus nos adiuva tentando excidere.</string>
+    
+    
+    <string name="amaze_utils_installed_alias">Tibi gratias ago pro Utilitas Tabularii Amaze installandi. Ad app.</string>
+    <string name="image_viewer">Amaze Image Visum</string>
+    
+    <string name="amaze_audio_player">Amaze Music Ludio</string>
+    <string name="pdf_viewer">Amaze Document Visum</string>
+    <string name="docx_viewer">Amaze Document Visum</string>
+    <string name="share_logs">Tabulas divide</string>
+    <string name="share_logs_summary">Tabulas captas per inscriptio / telegraphum</string>
+    <string name="open_with_amaze">Aperi cum Amaze</string>
+    <string name="confirmation">Confirmationem</string>
+    <string name="open_file_confirmation">Visne aperire sequens fasciculus?\n\nName:\n%s\n\nLocation:\n%s\n\nSize:\n%s\n\nMD5:\n%s\n\nSHA256:\n%s\n \n</string>
+    <string name="error_google_play_cannot_update_myself">Per Google Ludere mandata consiliorum, apps se sponte renovare non licet. Quaeso update app ex Google Play.</string>
+    <string name="error_cannot_get_package_info">Involucrum info ex fasciculo \"%s\" non potest accipere. Aut fasciculus definitus APK non est, aut fasciculus sarcina corruptus est.</string>
+    <string name="preference_delete_confirmation">Confirmationem dele</string>
+    <string name="preference_delete_confirmation_summary">Confirmationem petite antequam imagini delendo. Inactivare hoc est valde dissolutum!</string>
+    
+    
+    
+    <string name="unavailable">Uavailable</string>
+
+    <string name="exporting_failed">Exportatio defecit: non potuit scribere tergum lima</string>
+    <string name="importing_failed">Importatio defecit: tergum legere non potuit file</string>
+    <string name="importing_completed">Importatio peracta</string>
+    <string name="invalid_backup_file">Aliquam tergum lima</string>
+    <string name="import_failed_for">Importatio defecit pro:</string>
+    <string name="free_of">"%s\n%s gratis%s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin non praebetur cum versione F-Droid. Quaeso utere Play Store versionem amaze.</string>
+    <string name="disable_player_intent_filters">Disable ludio ludius intentus filtras</string>
+    <string name="disable_player_intent_filters_summary">Disables Amaze ingenita media histriones ex file eligentis</string>
+    <string name="no_app_found_intent">Nulla app ad hanc intentionem tractandam inventa est. Habesne DocumentaUI inauguratus?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection documentorum purgata</string>
+    <string name="cloud_connection_credentials_cleared_msg">Infeliciter, nubem tuam nexum documentorum ad novum schema datorum migrare non potuimus et habuimus ut eas ex app. Quaeso nubem nexum iterum crea.</string>
+</resources>

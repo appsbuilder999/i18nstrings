@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="crypt_encrypted">已加密</string>
+    <string name="crypt_decrypted">已解密</string>
+    <string name="crypt_encrypt">加密</string>
+    <string name="crypt_decrypt">解密</string>
+    <string name="operation_fail_following">以下文件操作失败</string>
+    <string name="crypt_pref_master_password_title">主密码</string>
+    <string name="crypt_pref_master_password_summary">设置加密主密码。
+       </string>
+    <string name="crypt_pref_fingerprint_title">指纹</string>
+    <string name="crypt_pref_fingerprint_summary">使用指纹认证加密</string>
+    <string name="crypt_fingerprint_no_permission">缺少指纹权限</string>
+    <string name="crypt_fingerprint_not_enrolled">未注册指纹</string>
+    <string name="crypt_fingerprint_no_security">无锁屏安全发现</string>
+    <string name="crypt_warning_key">更改安全模式时请小心
+        系统设置，您将无法解密此内容。</string>
+</resources>

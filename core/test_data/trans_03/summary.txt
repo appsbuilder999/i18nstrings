@@ -1,0 +1,142 @@
+lang summary: af Afrikaans cost time: 30475 ms, percent: 0.95151514, srcItems size: 660 dstItems size: 628
+lang summary: sq Albanian cost time: 42427 ms, percent: 0.9439394, srcItems size: 660 dstItems size: 623
+lang summary: am Amharic cost time: 107273 ms, percent: 0.9757576, srcItems size: 660 dstItems size: 644
+lang summary: ar Arabic cost time: 83599 ms, percent: 0.91515154, srcItems size: 660 dstItems size: 604
+lang summary: hy Armenian cost time: 48526 ms, percent: 0.96060604, srcItems size: 660 dstItems size: 634
+lang summary: as Assamese cost time: 57070 ms, percent: 0.9939394, srcItems size: 660 dstItems size: 656
+lang summary: ay Aymara cost time: 36769 ms, percent: 0.97121215, srcItems size: 660 dstItems size: 641
+lang summary: az Azerbaijani cost time: 56616 ms, percent: 0.95, srcItems size: 660 dstItems size: 627
+lang summary: bm Bambara cost time: 38123 ms, percent: 0.91515154, srcItems size: 660 dstItems size: 604
+lang summary: eu Basque cost time: 47781 ms, percent: 0.96060604, srcItems size: 660 dstItems size: 634
+lang summary: be Belarusian cost time: 37905 ms, percent: 0.9787879, srcItems size: 660 dstItems size: 646
+lang summary: bn Bengali cost time: 64204 ms, percent: 0.9681818, srcItems size: 660 dstItems size: 639
+lang summary: bho Bhojpuri cost time: 36931 ms, percent: 0.99242425, srcItems size: 660 dstItems size: 655
+lang summary: bs Bosnian cost time: 43623 ms, percent: 0.92121214, srcItems size: 660 dstItems size: 608
+lang summary: bg Bulgarian cost time: 31930 ms, percent: 0.9530303, srcItems size: 660 dstItems size: 629
+lang summary: ca Catalan cost time: 32670 ms, percent: 0.95151514, srcItems size: 660 dstItems size: 628
+lang summary: ceb Cebuano cost time: 64313 ms, percent: 0.81969696, srcItems size: 660 dstItems size: 541
+lang summary: zh-CN Chinese (Simplified) cost time: 50362 ms, percent: 0.98030305, srcItems size: 660 dstItems size: 647
+lang summary: zh-TW Chinese (Traditional) cost time: 37511 ms, percent: 0.98333335, srcItems size: 660 dstItems size: 649
+lang summary: co Corsican cost time: 83558 ms, percent: 0.84090906, srcItems size: 660 dstItems size: 555
+lang summary: hr Croatian cost time: 29502 ms, percent: 0.9530303, srcItems size: 660 dstItems size: 629
+lang summary: cs Czech cost time: 32769 ms, percent: 0.9560606, srcItems size: 660 dstItems size: 631
+lang summary: da Danish cost time: 32375 ms, percent: 0.91515154, srcItems size: 660 dstItems size: 604
+lang summary: dv Dhivehi cost time: 62908 ms, percent: 0.9969697, srcItems size: 660 dstItems size: 658
+lang summary: doi Dogri cost time: 62102 ms, percent: 0.9939394, srcItems size: 660 dstItems size: 656
+lang summary: nl Dutch cost time: 31722 ms, percent: 0.9257576, srcItems size: 660 dstItems size: 611
+lang summary: eo Esperanto cost time: 41124 ms, percent: 0.969697, srcItems size: 660 dstItems size: 640
+lang summary: et Estonian cost time: 62376 ms, percent: 0.9621212, srcItems size: 660 dstItems size: 635
+lang summary: ee Ewe cost time: 54377 ms, percent: 0.9818182, srcItems size: 660 dstItems size: 648
+lang summary: fil Filipino (Tagalog) cost time: 51077 ms, percent: 0.84090906, srcItems size: 660 dstItems size: 555
+lang summary: fi Finnish cost time: 60385 ms, percent: 0.95757574, srcItems size: 660 dstItems size: 632
+lang summary: fr French cost time: 35508 ms, percent: 0.9530303, srcItems size: 660 dstItems size: 629
+lang summary: fy Frisian cost time: 32693 ms, percent: 0.9075758, srcItems size: 660 dstItems size: 599
+lang summary: gl Galician cost time: 39247 ms, percent: 0.94545454, srcItems size: 660 dstItems size: 624
+lang summary: ka Georgian cost time: 108391 ms, percent: 0.9621212, srcItems size: 660 dstItems size: 635
+lang summary: de German cost time: 36904 ms, percent: 0.9106061, srcItems size: 660 dstItems size: 601
+lang summary: el Greek cost time: 40770 ms, percent: 0.9621212, srcItems size: 660 dstItems size: 635
+lang summary: gn Guarani cost time: 61924 ms, percent: 0.969697, srcItems size: 660 dstItems size: 640
+lang summary: gu Gujarati cost time: 85689 ms, percent: 0.9651515, srcItems size: 660 dstItems size: 637
+lang summary: ht Haitian Creole cost time: 36777 ms, percent: 0.94242424, srcItems size: 660 dstItems size: 622
+lang summary: ha Hausa cost time: 291560 ms, percent: 0.8893939, srcItems size: 660 dstItems size: 587
+lang summary: haw Hawaiian cost time: 62644 ms, percent: 0.93939394, srcItems size: 660 dstItems size: 620
+lang summary: he Hebrew cost time: 33012 ms, percent: 0.9590909, srcItems size: 660 dstItems size: 633
+lang summary: hi Hindi cost time: 106162 ms, percent: 0.9878788, srcItems size: 660 dstItems size: 652
+lang summary: hmn Hmong cost time: 755872 ms, percent: 0.8636364, srcItems size: 660 dstItems size: 570
+lang summary: hu Hungarian cost time: 33733 ms, percent: 0.9560606, srcItems size: 660 dstItems size: 631
+lang summary: is Icelandic cost time: 33898 ms, percent: 0.9560606, srcItems size: 660 dstItems size: 631
+lang summary: ig Igbo cost time: 271981 ms, percent: 0.9, srcItems size: 660 dstItems size: 594
+lang summary: ilo Ilocano cost time: 39370 ms, percent: 0.95151514, srcItems size: 660 dstItems size: 628
+lang summary: id Indonesian cost time: 32416 ms, percent: 0.9348485, srcItems size: 660 dstItems size: 617
+lang summary: ga Irish cost time: 90110 ms, percent: 0.96363634, srcItems size: 660 dstItems size: 636
+lang summary: it Italian cost time: 40886 ms, percent: 0.93030304, srcItems size: 660 dstItems size: 614
+lang summary: ja Japanese cost time: 59270 ms, percent: 0.98333335, srcItems size: 660 dstItems size: 649
+lang summary: jv Javanese cost time: 43219 ms, percent: 0.919697, srcItems size: 660 dstItems size: 607
+lang summary: kn Kannada cost time: 121082 ms, percent: 0.969697, srcItems size: 660 dstItems size: 640
+lang summary: kk Kazakh cost time: 45236 ms, percent: 0.9727273, srcItems size: 660 dstItems size: 642
+lang summary: km Khmer cost time: 137183 ms, percent: 0.95757574, srcItems size: 660 dstItems size: 632
+lang summary: rw Kinyarwanda cost time: 1118985 ms, percent: 0.94545454, srcItems size: 660 dstItems size: 624
+lang summary: gom Konkani cost time: 35226 ms, percent: 0.9969697, srcItems size: 660 dstItems size: 658
+lang summary: ko Korean cost time: 50051 ms, percent: 0.9818182, srcItems size: 660 dstItems size: 648
+lang summary: kri Krio cost time: 33345 ms, percent: 0.9560606, srcItems size: 660 dstItems size: 631
+lang summary: ku Kurdish cost time: 64798 ms, percent: 0.96060604, srcItems size: 660 dstItems size: 634
+lang summary: ckb Kurdish (Sorani) cost time: 43371 ms, percent: 0.9878788, srcItems size: 660 dstItems size: 652
+lang summary: ky Kyrgyz cost time: 60332 ms, percent: 0.96060604, srcItems size: 660 dstItems size: 634
+lang summary: lo Lao cost time: 34286 ms, percent: 0.94242424, srcItems size: 660 dstItems size: 622
+lang summary: rw Kinyarwanda cost time: 766956 ms, percent: 0.94545454, srcItems size: 660 dstItems size: 624
+lang summary: la Latin cost time: 530171 ms, percent: 0.70151514, srcItems size: 660 dstItems size: 463
+lang summary: lv Latvian cost time: 42611 ms, percent: 0.969697, srcItems size: 660 dstItems size: 640
+lang summary: ln Lingala cost time: 45976 ms, percent: 0.96060604, srcItems size: 660 dstItems size: 634
+lang summary: lt Lithuanian cost time: 78445 ms, percent: 0.9681818, srcItems size: 660 dstItems size: 639
+lang summary: lg Luganda cost time: 77874 ms, percent: 0.9787879, srcItems size: 660 dstItems size: 646
+lang summary: la Latin cost time: 462574 ms, percent: 0.70151514, srcItems size: 660 dstItems size: 463
+lang summary: lb Luxembourgish cost time: 70593 ms, percent: 0.8621212, srcItems size: 660 dstItems size: 569
+lang summary: lb Luxembourgish cost time: 48235 ms, percent: 0.8621212, srcItems size: 660 dstItems size: 569
+lang summary: mk Macedonian cost time: 53252 ms, percent: 0.969697, srcItems size: 660 dstItems size: 640
+lang summary: mk Macedonian cost time: 38193 ms, percent: 0.969697, srcItems size: 660 dstItems size: 640
+lang summary: mai Maithili cost time: 299707 ms, percent: 0.99242425, srcItems size: 660 dstItems size: 655
+lang summary: mai Maithili cost time: 276291 ms, percent: 0.99242425, srcItems size: 660 dstItems size: 655
+lang summary: mg Malagasy cost time: 72055 ms, percent: 0.9045454, srcItems size: 660 dstItems size: 597
+lang summary: mg Malagasy cost time: 83360 ms, percent: 0.9045454, srcItems size: 660 dstItems size: 597
+lang summary: ms Malay cost time: 34050 ms, percent: 0.95454544, srcItems size: 660 dstItems size: 630
+lang summary: ms Malay cost time: 39529 ms, percent: 0.95454544, srcItems size: 660 dstItems size: 630
+lang summary: ml Malayalam cost time: 118015 ms, percent: 0.97121215, srcItems size: 660 dstItems size: 641
+lang summary: ml Malayalam cost time: 131208 ms, percent: 0.97121215, srcItems size: 660 dstItems size: 641
+lang summary: mt Maltese cost time: 52424 ms, percent: 0.8939394, srcItems size: 660 dstItems size: 590
+lang summary: mt Maltese cost time: 59629 ms, percent: 0.8939394, srcItems size: 660 dstItems size: 590
+lang summary: mi Maori cost time: 52890 ms, percent: 0.9757576, srcItems size: 660 dstItems size: 644
+lang summary: mi Maori cost time: 65261 ms, percent: 0.9757576, srcItems size: 660 dstItems size: 644
+lang summary: mr Marathi cost time: 84062 ms, percent: 0.9651515, srcItems size: 660 dstItems size: 637
+lang summary: mni-Mtei Meiteilon (Manipuri) cost time: 63023 ms, percent: 0.9909091, srcItems size: 660 dstItems size: 654
+lang summary: lus Mizo cost time: 835548 ms, percent: 0.98333335, srcItems size: 660 dstItems size: 649
+lang summary: mn Mongolian cost time: 54246 ms, percent: 0.97121215, srcItems size: 660 dstItems size: 641
+lang summary: my Myanmar (Burmese) cost time: 74502 ms, percent: 0.9030303, srcItems size: 660 dstItems size: 596
+lang summary: ne Nepali cost time: 90427 ms, percent: 0.9439394, srcItems size: 660 dstItems size: 623
+lang summary: no Norwegian cost time: 34242 ms, percent: 0.9348485, srcItems size: 660 dstItems size: 617
+lang summary: ny Nyanja (Chichewa) cost time: 88420 ms, percent: 0.9106061, srcItems size: 660 dstItems size: 601
+lang summary: or Odia (Oriya) cost time: 583930 ms, percent: 0.9787879, srcItems size: 660 dstItems size: 646
+lang summary: om Oromo cost time: 73098 ms, percent: 0.97727275, srcItems size: 660 dstItems size: 645
+lang summary: ps Pashto cost time: 141084 ms, percent: 0.94242424, srcItems size: 660 dstItems size: 622
+lang summary: fa Persian cost time: 89002 ms, percent: 0.95, srcItems size: 660 dstItems size: 627
+lang summary: pl Polish cost time: 52847 ms, percent: 0.9621212, srcItems size: 660 dstItems size: 635
+lang summary: pt Portuguese (Portugal, Brazil) cost time: 33833 ms, percent: 0.9409091, srcItems size: 660 dstItems size: 621
+lang summary: pa Punjabi cost time: 76842 ms, percent: 0.96363634, srcItems size: 660 dstItems size: 636
+lang summary: qu Quechua cost time: 49451 ms, percent: 0.97424245, srcItems size: 660 dstItems size: 643
+lang summary: ro Romanian cost time: 36172 ms, percent: 0.9318182, srcItems size: 660 dstItems size: 615
+lang summary: ru Russian cost time: 47498 ms, percent: 0.96060604, srcItems size: 660 dstItems size: 634
+lang summary: sm Samoan cost time: 91597 ms, percent: 0.9348485, srcItems size: 660 dstItems size: 617
+lang summary: sa Sanskrit cost time: 113264 ms, percent: 0.98030305, srcItems size: 660 dstItems size: 647
+lang summary: gd Scots Gaelic cost time: 73649 ms, percent: 0.9348485, srcItems size: 660 dstItems size: 617
+lang summary: nso Sepedi cost time: 44482 ms, percent: 0.98030305, srcItems size: 660 dstItems size: 647
+lang summary: st Sesotho cost time: 67829 ms, percent: 0.919697, srcItems size: 660 dstItems size: 607
+lang summary: sn Shona cost time: 256393 ms, percent: 0.8560606, srcItems size: 660 dstItems size: 565
+lang summary: sd Sindhi cost time: 327620 ms, percent: 0.8954545, srcItems size: 660 dstItems size: 591
+lang summary: si Sinhala (Sinhalese) cost time: 213492 ms, percent: 0.92424244, srcItems size: 660 dstItems size: 610
+lang summary: sk Slovak cost time: 39544 ms, percent: 0.9530303, srcItems size: 660 dstItems size: 629
+lang summary: sl Slovenian cost time: 34140 ms, percent: 0.96363634, srcItems size: 660 dstItems size: 636
+lang summary: so Somali cost time: 412762 ms, percent: 0.8818182, srcItems size: 660 dstItems size: 582
+lang summary: es Spanish cost time: 41442 ms, percent: 0.95757574, srcItems size: 660 dstItems size: 632
+lang summary: su Sundanese cost time: 34833 ms, percent: 0.93333334, srcItems size: 660 dstItems size: 616
+lang summary: sw Swahili cost time: 44267 ms, percent: 0.969697, srcItems size: 660 dstItems size: 640
+lang summary: sv Swedish cost time: 32752 ms, percent: 0.9287879, srcItems size: 660 dstItems size: 613
+lang summary: tl Tagalog (Filipino) cost time: 53488 ms, percent: 0.84090906, srcItems size: 660 dstItems size: 555
+lang summary: tg Tajik cost time: 61043 ms, percent: 0.97727275, srcItems size: 660 dstItems size: 645
+lang summary: ta Tamil cost time: 139776 ms, percent: 0.95, srcItems size: 660 dstItems size: 627
+lang summary: tt Tatar cost time: 467488 ms, percent: 0.9651515, srcItems size: 660 dstItems size: 637
+lang summary: te Telugu cost time: 62089 ms, percent: 0.97727275, srcItems size: 660 dstItems size: 645
+lang summary: th Thai cost time: 65569 ms, percent: 0.97121215, srcItems size: 660 dstItems size: 641
+lang summary: ti Tigrinya cost time: 50809 ms, percent: 0.98636365, srcItems size: 660 dstItems size: 651
+lang summary: ts Tsonga cost time: 35284 ms, percent: 0.97727275, srcItems size: 660 dstItems size: 645
+lang summary: tr Turkish cost time: 42544 ms, percent: 0.9757576, srcItems size: 660 dstItems size: 644
+lang summary: tk Turkmen cost time: 606506 ms, percent: 0.9590909, srcItems size: 660 dstItems size: 633
+lang summary: ak Twi (Akan) cost time: 54416 ms, percent: 0.93030304, srcItems size: 660 dstItems size: 614
+lang summary: uk Ukrainian cost time: 46000 ms, percent: 0.96666664, srcItems size: 660 dstItems size: 638
+lang summary: ur Urdu cost time: 118772 ms, percent: 0.9227273, srcItems size: 660 dstItems size: 609
+lang summary: ug Uyghur cost time: 777212 ms, percent: 0.8863636, srcItems size: 660 dstItems size: 585
+lang summary: uz Uzbek cost time: 67920 ms, percent: 0.95454544, srcItems size: 660 dstItems size: 630
+lang summary: vi Vietnamese cost time: 31763 ms, percent: 0.96060604, srcItems size: 660 dstItems size: 634
+lang summary: cy Welsh cost time: 64234 ms, percent: 0.97121215, srcItems size: 660 dstItems size: 641
+lang summary: xh Xhosa cost time: 267257 ms, percent: 0.9409091, srcItems size: 660 dstItems size: 621
+lang summary: yi Yiddish cost time: 75058 ms, percent: 0.9651515, srcItems size: 660 dstItems size: 637
+lang summary: yo Yoruba cost time: 94472 ms, percent: 0.9287879, srcItems size: 660 dstItems size: 613
+lang summary: zu Zulu cost time: 58811 ms, percent: 0.9560606, srcItems size: 660 dstItems size: 631

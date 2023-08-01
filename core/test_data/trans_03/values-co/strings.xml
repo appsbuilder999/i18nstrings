@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amazine File Manager</string>
+    <string name="drawer_open">Apri u cassetto di navigazione</string>
+    <string name="drawer_close">Chiudi u cassetto di navigazione</string>
+    <string name="icon">icona</string>
+    <string name="apps">Gestione app</string>
+    <string name="ftp">Server FTP</string>
+    <string name="setting">Impostazioni</string>
+    <string name="select">Selezziunà l\'elementu</string>
+    <string name="press_again">Preme torna per esce</string>
+    <string name="open">Apri</string>
+    
+    <string name="uninstall">Disinstalla</string>
+    
+    <string name="properties">Proprietà</string>
+    <string name="copyingapks">Copia %d file APK à %s</string>
+    <string name="delbook">Eliminate Bookmark</string>
+    <string name="add_to_bookmarks">Aggiungi à Bookmarks</string>
+    
+    
+    
+    <string name="loading">Caricamento...</string>
+    <string name="file_empty">U schedariu hè viotu</string>
+    <string name="error">Errore</string>
+    <string name="search_results">Risultati di ricerca di %s</string>
+    <string name="rename">Rinomina</string>
+    <string name="save">Salvà</string>
+    <string name="bookmarks_added">Segnalibri Aggiunti</string>
+    <string name="fileexist">U schedariu cù u listessu nome esiste digià</string>
+    <string name="name">Nome</string>
+    <string name="date">Data</string>
+    <string name="location">Locu</string>
+    <string name="size_capitalized">Dimensione</string>
+    <string name="size">dimensione di u cartulare</string>
+    <string name="enterzipname">Inserite Zip Name</string>
+    <string name="no_app_found">Nessuna app trovata per apre stu schedariu</string>
+    
+    <string name="moving">Sposta</string>
+    
+    <string name="folder">Cartella</string>
+    <string name="newfolder">Nova cartella</string>
+    <string name="entername">Inserite u nome</string>
+    <string name="extracting">Estrazione</string>
+    <string name="stopping">Arrestu</string>
+    <string name="open_parent">Apri Directory Parent</string>
+    <string name="open_with">Apri cù</string>
+    
+    
+    
+    
+    <string name="yes">Iè</string>
+    
+    
+    
+    
+    <string name="dialog_delete_disclaimer">Eliminà l\'articuli quì sottu li eliminerà permanentemente da u vostru dispositivu è ùn ponu micca esse recuperati.</string>
+    <string name="dialog_delete_title">Eliminate l\'articuli in permanenza?</string>
+    <string name="deleting">Eliminà</string>
+    <string name="question_set_path_as_home">Vulete stabilisce u percorsu attuale cum\'è casa per questa tabulazione ?</string>
+    <string name="directorysort">Modu di ordinamentu di u repertoriu</string>
+    <string name="sort_by">Ordinà per</string>
+    <string name="sort_only_this">Solu stu cartulare</string>
+    <string name="theme">Tema</string>
+    <string name="random">Pelle casuale</string>
+    <string name="random_summary">Set u culore primariu casuale à l\'iniziu</string>
+    
+    <string name="colorize_summary">Sets culore di l\'icona statica. Ùn annulla micca a preferenza di culore di l\'icona di u cartulare.</string>
+    
+    <string name="paste">Incolla</string>
+    <string name="history">Storia</string>
+    <string name="copy">Copia</string>
+    
+    <string name="root_mode_summary">Solu per u dispositivu arradicatu. Verificate solu s\'è vo site sicuru.</string>
+    <string name="root_failure">Access Root micca cuncessu</string>
+    
+    <string name="delete">Sguassà</string>
+    
+    <string name="operation_not_supported">L\'operazione ùn hè micca supportata</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    
+    <string name="dark">Materiale scuru</string>
+    
+    <string name="black">Negru (per OLED)</string>
+    <string name="system">Sistema (seguite u tema di u sistema)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Cartulelle in cima</string>
+    <string name="filesOnTop">File in cima</string>
+    <string name="none_on_top">Nisunu in cima</string>
+    <!--SortBy-->
+    <string name="sort_name">Nome</string>
+    <string name="lastModified">Ultime mudificate</string>
+    <string name="sort_size">Taglia</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Scegli un file</string>
+    <string name="process_viewer">Visualizzatore di processu</string>
+    <string name="in_safe">Spaziu insufficiente</string>
+    <string name="no_file_overwrite">Nisun file sovrascrittu</string>
+    <string name="skip">Salta</string>
+    <string name="overwrite">Sovrascrittu</string>
+    <string name="not_allowed">Micca permessu</string>
+    <string name="searching">Ricerca %s</string>
+    <string name="done">Fine</string>
+    
+    <string name="enablerootmde">Attivà u Modu Root</string>
+    <string name="goback">Vai indietro</string>
+    
+    <string name="no_files">Nisun File</string>
+    <string name="used">spaziu utilizatu</string>
+    <string name="used_by_others">usatu da altri</string>
+    <string name="free">spaziu liberu</string>
+    <string name="listview">Vista Lista</string>
+    <string name="gridview">Grid Visualizza</string>
+    
+    <string name="hide">Nascondi</string>
+    
+    <string name="doforall">Fà per tutti l\'articuli</string>
+    
+    <string name="set_random">I cambiamenti saranu dopu à riavvia l\'app</string>
+    <string name="authors">Autori</string>
+    
+    
+    <string name="ui">Interfaccia</string>
+    <string name="general">Generale</string>
+    <string name="thumb_summary">Mostra miniature di app è imagine</string>
+    <string name="thumb">Mostra i miniatures</string>
+    <string name="hidden">Mostra i fugliali è e cartelle nascosti</string>
+    <string name="lastModifiedSummary">Mostra a data è l\'ora di l\'ultima mudificazione</string>
+    <string name="lastModifiedPref">Mostra l\'ultima data mudificata è Tempu</string>
+    <string name="size_pref_summary">Mostra a dimensione di i fugliali è u numeru di l\'articuli in i cartulare</string>
+    <string name="size_pref">Mostra dimensioni</string>
+    
+    <string name="root_pref_summary">Mostra i permessi di i fugliali è e cartelle</string>
+    <string name="root_pref">Mostra i permessi</string>
+    <string name="about_amaze_file_manager_label">A propositu di Amaze File Manager</string>
+    <string name="version">Versione</string>
+    <string name="rate">Valuta l\'app</string>
+    <string name="feedback">Invia Feedback</string>
+    <string name="hiddenfiles">File nascosti</string>
+    
+    
+    
+    <string name="unsaved_changes">Cambiamenti micca salvati</string>
+    <string name="unsaved_changes_description">Avete cambiamenti micca salvati, vulete salvà prima di esce ?</string>
+    <string name="saving">Salvà</string>
+    
+    <string name="view">Vede</string>
+    <string name="install">Installa</string>
+    
+    <string name="archive_text">Questu hè un archiviu. Chì azzione vulete fà ?</string>
+    <string name="package_installer_text">Questu hè un installatore di pacchettu. Chì azzione ti piacerebbe fà ?</string>
+    <string name="xda_title">Fissu XDA</string>
+    <string name="xda_summary">Q&amp;amp;A, Help &amp;amp; Troubleshooting</string>
+    <string name="circular_images">Utilizà icone circulari per l\'imaghjini è i video</string>
+    <string name="circular_icons">Utilizà icone circulari</string>
+    <string name="back_title">Navigazione in daretu</string>
+    <string name="back_summary">Permette a navigazione posteriore persunalizata in cima di a lista</string>
+    <string name="details">Dettagli</string>
+    <string name="translators">Traduttori</string>
+    <string name="german_translation_title">Tedesco</string>
+    <string name="italian_translation_title">Italianu</string>
+    <string name="french_translation_title">Francese</string>
+    <string name="russian_translation_title">Russu</string>
+    <string name="spanish_translation_title">Spagnolo</string>
+    <string name="basque_translation_title">Bascu</string>
+    <string name="chinese_translation_title">Cinese</string>
+    <string name="serbian_translation_title">Serbo</string>
+    <string name="turkish_translation_title">Turco </string>
+    <string name="ukrainian_translation_title">Ucraino</string>
+    <string name="portuguese_translation_title">Portughese</string>
+    <string name="polish_translation_title">Polacco</string>
+    <string name="korean_translation_title">Coreanu</string>
+    <string name="greek_translation_title">Greco</string>
+    <string name="dutch_translation_title">Olandese</string>
+    <string name="romanian_translation_title">Rumeno</string>
+    <string name="vietnamese_translation_title">Vietnamita</string>
+    <string name="japanese_translation_title">Giapponese</string>
+    
+
+    
+    <string name="unin_system_apk">Questa hè una app di sistema, l\'eliminazione pò purtà à l\'instabilità di u sistema.\nProcedi?</string>
+    <string name="warning">Avvertenza</string>
+    
+    <string name="archive_extract_folder">Cartella di estrazione di l\'archiviu</string>
+    <string name="archive_summary">I schedarii d\'archivi seranu estratti in stu cartulare. U valore predeterminatu hè u cartulare in quale l\'archiviu hè presente.</string>
+    
+    
+    
+    
+    <string name="other">Altri</string>
+    
+    
+    <string name="save_paths">Ricordate i percorsi</string>
+    <string name="save_path_summary">Quandu u principiu, l\'ultimu cartulare vistutu per ogni tabulazione serà visualizatu</string>
+    <string name="select_intent">Selezziunà</string>
+    
+    <string name="colored_navigation">Colored Barra di navigazione</string>
+    <string name="colored_navigvation_sum">Se a barra di navigazione di u sistema hè culurita o micca cù a pelle</string>
+
+    <string name="color_title">Colore</string>
+    <string name="color_summary">Set u culore à diversi cumpunenti UI</string>
+    <string name="primary_color_title">Colore primariu (Tabulatura sinistra )</string>
+    <string name="primary_color_summary">Set u culore à grandi elementi UI per a tabulazione di manca</string>
+    <string name="accent_color_title">Colore d\'accentu</string>
+    <string name="accent_color_summary">Set u culore à FAB è altri picculi elementi UI</string>
+    
+    <string name="icon_color_summary">Set u culore à l\'icone</string>
+    <string name="choose_color">Sceglite u culore</string>
+    <string name="files">File</string>
+    <string name="textreader">Lettore di testu</string>
+    <string name="databasereader">Lettore di basa di dati</string>
+    <string name="show_dividers">Mostra i divisori</string>
+    <string name="needs_access">Access in scrittura necessaria</string>
+    <string name="needs_access_summary">Per piacè sceglite u cartulare radice di \t</string>
+    <string name="needs_access_summary1">\pà cuncede l\'accessu di scrittura per operare</string>
+    <string name="smb_connection">Connessione SMB</string>
+    <string name="smb_server">Indirizzu IP di u servitore</string>
+    <string name="server_address">Indirizzu IP di u servitore</string>
+    <string name="username">Nome d\'utilizatore</string>
+    
+    <string name="anonymous">Anonimo</string>
+    
+    <string name="folders">Cartulelle</string>
+    <string name="folderfilecount">%1$d cartulare è %2$d file</string>
+    <string name="videos">Video</string>
+    <string name="apks">APK</string>
+    <string name="documents">Documenti</string>
+    <string name="images">Immagini</string>
+    
+    
+    <string name="total">Totale:</string>
+    <string name="calculating">calculà</string>
+    
+    <string name="ascending">Ascendente</string>
+    <string name="descending">Descendente</string>
+    
+    <string name="doit">Fà</string>
+    <string name="want_help">Avete bisognu d\'aiutu ?</string>
+    <string name="quick">Accessiu rapidu</string>
+    <string name="recent">Fichieri recenti</string>
+    
+    <string name="find">Truvate in a pagina</string>
+    
+    <string name="grantper">Concede permessu</string>
+    <string name="grantfailed">Permissione micca cuncessa</string>
+    <string name="grant_storage_permission">L\'app necessita un permessu di almacenamiento per cuntinuà. L\'annullamentu di stu dialogu esce da l\'app.</string>
+    <string name="operation_unsuccesful">Operazione Unsuccessless</string>
+    <string name="creatingfile">Creazione di u schedariu</string>
+    <string name="creatingfolder">Creazione di u cartulare</string>
+    <string name="renaming">Rinominazione</string>
+    <string name="cant_be_empty">%s ùn pò micca esse viotu.</string>
+    <string name="ip">Indirizzu</string>
+    <string name="connection_name">Nome di cunnessione</string>
+    <string name="no_device_found">Nisun dispositivu trovu</string>
+    
+    <string name="rename_bookmark">Modificà Bookmark</string>
+    
+    <string name="search">Ricerca</string>
+    <string name="invalid_name">Nome invalidu</string>
+    <string name="search_hint">Tippu per circà…</string>
+    <string name="advanced_search">Ricerca Avanzata</string>
+    <string name="regular_expression">Espressione Regular</string>
+    <string name="regular_expression_summary">Ricerca cù una espressione regulare in stile BASH</string>
+    
+    <string name="match_content_summary">Se stabilitu, l\'espressione regulare serà assuciata cù u nome di u schedariu sanu,
+        cercherà l\'occurrence altrimenti.</string>
+    
+    
+    <string name="ftp_status_running">Esecuzione</string>
+    <string name="ftp_status_not_running">Non in esecuzione</string>
+    <string name="ftp_no_wifi">Assicuratevi chì site cunnessu à Wi -Fi</string>
+    
+    
+    <string name="invalid">%s invalidu</string>
+    <string name="ftp_notif_starting">Servitore FTP hè iniziatu</string>
+    <string name="ftp_notif_starting_title">Server FTP</string>
+    <string name="ftp_notif_title">Amaze FTP Server in esecuzione</string>
+    <string name="ftp_notif_text">à %s</string>
+    
+    <string name="ftp_port_edit_menu_title">Portu FTP</string>
+    <string name="ftp_port_change_success">Portu FTP cambiatu bè</string>
+    <string name="ftp_port_change_error_invalid">Numeru di portu invalidu sceltu</string>
+    <string name="primary_two_title">Colore primariu (Tabulatura Destra)</string>
+    <string name="primary_two_summary">Set u culore à grandi elementi UI per a tabulazione diritta</string>
+    <string name="support_development">Supportu di sviluppu</string>
+    <string name="report_bugs_title">Raporta Bugs</string>
+    <string name="source_title">Codice surgente</string>
+    <string name="source_summary">Vedi u nostru codice surghjente in GitHub</string>
+    <string name="report_bugs_summary">Raporta bugs o dumandate una nova funzione</string>
+    <string name="translate_title">Traduci</string>
+    <string name="translate_summary">Traduci Amaze in a vostra lingua</string>
+    <string name="paypal_copy_message">ID PayPal copiatu in u clipboard</string>
+    <string name="searching_devices">Ricerca di i dispositi</string>
+    <string name="use_custom_ip">Usà l\'IP persunalizata</string>
+    <string name="bookmark_lost">Marcatore micca truvatu, ricreendu...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Cumu accede à u cartulare spartutu di Windows in Android (SMB)\n\n
+                
+                    
+                        Abilita a spartera di file in Windows\n
+                    
+                    
+                        Aprite u Pannellu di cuntrollu, cliccate Sceglite l\'opzioni di HomeGroup è spartera sottu Rete
+                        è Internet, è cliccate "Change Advanced Sharing Settings", attivà u "File è
+                        Funzione di spartera stampante".\n\n
+                    
+
+                    
+                        Configurazioni supplementari di spartera di file\n
+                    
+                    
+                        Pudete ancu vulete cunfigurà l\'altri paràmetri avanzati di spartera quì. \n
+                        Per esempiu, pudete attivà l\'accessu à i vostri fugliali senza una password se avete fiducia in tutti
+                        i dispusitivi nantu à a vostra reta lucale. Una volta chì a spartera di i schedari è di l\'impresora hè attivata, pudete
+                        apre File Explorer o Windows Explorer, cliccate right-click un cartulare chì vulete sparte, è
+                        selezziunà Pruprietà. \n
+                        Cliccate u buttone Share è rende u cartulare dispunibule nantu à a reta.\n\n
+                        
+
+                    
+                        Assicuratevi chì i dui dispositi sò in u stessu Wifi\n
+                    
+                    
+                        Questa funzione rende i schedari dispunibili nantu à a reta lucale, cusì u vostru PC è i dispositi mobili
+                        deve esse nantu à a stessa rete locale. Ùn pudete micca accede à un cartulare Windows spartutu
+                        nantu à Internet o quandu u vostru smartphone hè cunnessu à i so dati mobili - it
+                        deve esse cunnessu à Wi-Fi.\n\n
+                    
+
+                    
+                        Truvà l\'indirizzu IP\n
+                    
+                    
+                        Open Command Prompt. Type \'ipconfig\' è appughjà Enter. Cercate u Gateway Default
+                        sottu u vostru adattatore di rete per l\'indirizzu IP di u vostru router. Fighjà
+                        \\\"Indirizzo IPv4\\\" sottu a listessa sezione adattatore per truvà l\'IP di u vostru urdinatore
+                        indirizzu.\n\n
+                    
+
+                    Inserite i dettagli in a finestra di dialogu SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Ùn pò micca sparte più di 100 fugliali</string>
+    <string name="otg_access">Selezziunate a radica di u dispositivu OTG</string>
+    <string name="information">Informazioni</string>
+    <!-- reference to file accessed date -->
+    
+    <!-- reference to file modified date -->
+    <string name="modified">Modificatu</string>
+
+    <string name="title">Titulu</string>
+    <string name="artist">Artista</string>
+    
+    <string name="year">Annu</string>
+    <string name="duration">Durata</string>
+    <string name="comment">Cumentu</string>
+    <!-- reference to audio/video file -->
+    
+    
+    <string name="channels">Canali</string>
+    <string name="sample_rate">Frequenza di campionamentu</string>
+    
+    <string name="dimensions">Dimensioni</string>
+    
+    <string name="image_type">Tipu d\'Image</string>
+    <string name="width">Larghezza</string>
+    <string name="height">Altezza</string>
+    <string name="date_modified">Data di mudificazione</string>
+    
+    <string name="creator">Creatore</string>
+    <string name="camera_brand">Marca Camera</string>
+    <string name="camera_model">Camera Mudellu</string>
+    <string name="date_taken">Data presa</string>
+    <string name="exposure_time">Tempo d\'esposizione</string>
+    <string name="aperture_value">Valore di apertura</string>
+    <string name="image_iso">Valutazione di velocità ISO</string>
+    <string name="flash_fired">Flash sparatu</string>
+    <string name="focal_length">Lunghezza focale</string>
+    <string name="subject">Suggettu</string>
+    <string name="author">Autore</string>
+    <string name="keywords">Parole chiave</string>
+    <string name="producer">Produttore</string>
+    <string name="created">Creatu</string>
+    
+    <string name="pages">Number of Pagine</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Ottimizatu</string>
+    <string name="security">Sicurezza</string>
+    <string name="paper_size">Dimensione di carta</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Alcuni fugliali ùn sò micca stati copiati bè %s</string>
+    <string name="copied">copiate</string>
+    <string name="moved">sposta</string>
+    <string name="copy_complete">Copia cumpleta</string>
+    <string name="waiting_title">Aspettate</string>
+    <string name="waiting_content">Aspettate l\'operazione per compie</string>
+    
+    <string name="compression_complete">Cumpressione cumpleta</string>
+    
+    <string name="cancelled">Annullatu</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Scrittu</string>
+    <string name="out_of">fora di</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">di</string>
+    <string name="processing_file">File di trasfurmazioni</string>
+    <string name="current_speed">Velocità attuale</string>
+    <string name="smb_launch_error">Avete bisognu di cupià stu schedariu in u almacenamentu per apre u</string>
+    <string name="error_file_not_found">Errore: File Not Found</string>
+    <string name="error_io">Errore I/O</string>
+    <string name="error_file_too_large">Errore: File Too Large</string>
+    
+    <string name="permission_read">Leggi</string>
+    <string name="permission_write">Scrivi</string>
+    <string name="permission_execute">Esegui</string>
+    <string name="permission_owner">Proprietari</string>
+    <string name="permission_group">Gruppu</string>
+    <string name="permission_other">Altru</string>
+    <string name="clipboard_path_copy">Path copiatu à u clipboard</string>
+    <string name="service_timer">Tempu trascorsu</string>
+    <string name="please_wait">Aspettate per piacè</string>
+
+    
+    <string name="cloud_connection_new">Nova Cloud Connection</string>
+    
+    
+    
+    
+    
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Nisuna applicazione</string>
+    
+    <string name="ftp_path_hint">Path à a radica di u cartulare per sparte</string>
+    <string name="change">Cambia</string>
+    <string name="unknown_error">Oops, qualcosa hè andatu male!</string>
+
+    <string name="ftp_path_change_success">U percorsu FTP hè cambiatu bè</string>
+    <string name="ftp_path_change_error_invalid">Percorsu invalidu</string>
+    <string name="ftp_status_no_connection">Nisuna cunnessione</string>
+    <string name="ftp_status_secure_connection">Connessione sicura</string>
+    
+    <string name="ftp_port">Portu</string>
+    
+    <string name="field_empty">U campu ùn pò micca esse viotu</string>
+    <string name="ftp_timeout">Timeout inattivu</string>
+    <string name="ftp_seconds">Secondi</string>
+    
+    <string name="intellihide_toolbar_summary">Oculta automaticamente a barra di strumenti mentre scorri</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">86cupiatu in appunti</string>
+    <string name="contributors_1_summary">Traduzzione</string>
+    <string name="contributors_2_summary">Icone è banners</string>
+    <string name="contributors_3_summary">Motore di tema</string>
+    <string name="contributors_4_summary">Ombra daretu à FAB</string>
+    <string name="contributors_5_summary">Transizione di culore quandu scorri tabulazioni</string>
+    <string name="contributors_6_summary">Servitore FTP</string>
+    <string name="contributors_7_summary">Accentà una shell interattiva</string>
+    <string name="connection_exists">A cunnessione esiste digià</string>
+
+    <string name="crypt_encrypting">Cittografia</string>
+    <string name="crypt_decrypting">Decifratura</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Criptata</string>
+    <string name="crypt_decrypted">Decifrata</string>
+    <string name="crypt_encrypt">Citptura</string>
+    <string name="crypt_decrypt">Decifratura</string>
+    <string name="operation_fail_following">Operazione falluta per i seguenti files</string>
+    <string name="crypt_pref_master_password_title">Password Master</string>
+    <string name="crypt_pref_master_password_summary">Stabilisci una password maestra per a criptografia.
+        Lasciate viotu per sguassà.</string>
+    <string name="crypt_pref_fingerprint_title">Impronta digitale</string>
+    <string name="crypt_pref_fingerprint_summary">Usate l\'impronta digitale per autentificà a crittografia</string>
+    <string name="crypt_fingerprint_no_permission">Permissioni di impronte digitali mancanti</string>
+    <string name="crypt_fingerprint_not_enrolled">Nisuna impronta digitale registrata</string>
+    <string name="crypt_fingerprint_no_security">Nisuna sicurezza trovu</string>
+    <string name="crypt_warning_key">Siate cunsigliatu, quandu cambiate u vostru mudellu di sicurità da
+        Paràmetri di u sistema, ùn puderete micca decifrare stu cuntenutu.</string>
+    <string name="warning_never_show">Ùn informà più</string>
+    <string name="warning_confirm">Attu!</string>
+    <string name="crypt_encryption_fail">Fiascatu à a criptografia</string>
+    <string name="crypt_decryption_fail">Fiascatu à a decifratura</string>
+    <string name="crypt_decryption_fail_password">Password sbagliata!</string>
+    <string name="crypt_fingerprint_authenticate">Toccate u sensoru per cuntinuà</string>
+    <string name="authenticate_password">Inserisci password</string>
+
+    
+    <string name="sidebar_quick_access_title">Accessu rapidu à a barra laterale</string>
+    <string name="show_quick_access_pref_title">Mostra l\'accessi rapidi</string>
+    <string name="show_quick_access_pref">Accessori rapidi</string>
+    
+
+    <string name="sidebar_bookmarks_title">Segnalibri laterali</string>
+    <string name="show_bookmarks_pref_title">Mostra i segnalibri</string>
+    <string name="show_bookmarks_pref">Segnalibri</string>
+    <string name="create_bookmark">86Crea un segnalibro</string>
+    <string name="edit_bookmark">Edità u marcatu</string>
+    <string name="question_delete_bookmark">Eliminate u marcatu?</string>
+
+    <string name="cloud_error_plugin">U plugin Amaze Cloud ùn hè micca truvatu. Per piacè scaricate da Play Store.</string>
+    <string name="cloud_error_failed_restart">Fiascatu à carica a cunnessione.
+        Per piacè apre Amaze Cloud una volta.</string>
+    <string name="cloud_remove">Vulete caccià a cunnessione di u nuvulu ?</string>
+    <string name="cloud_fail_authenticate">Fallita à l\'autenticazione</string>
+    <string name="cloud_share_copied">Ligame spartutu copiatu à u clipboard</string>
+    <string name="copy_low_memory">Esclusa memoria, per piacè sguassate un pocu di RAM</string>
+    <string name="cloud_token_lost">Token persu, per piacè accede di novu</string>
+    <string name="monofont">Font monospaziale</string>
+    <string name="showHeaders">Mostra Headers</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Nisun articulu</string>
+	
+	
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">U schedariu deve avè un nome</string>
+    <string name="add_item">Aggiungi elemento</string>
+    <string name="failed_smb_decrypt_path">Fiail to load Cunnessione SMB</string>
+    <string name="failed_cloud_new_connection">Fiascatu à aghjunghje una nova cunnessione Cloud</string>
+    <string name="failed_cloud_api_key">Filita di autentificà u plug-in Cloud</string>
+
+    <string name="local_inet_addr_error">Errore ottene l\'indirizzu inet locale</string>
+    <string name="intent_save_as">Salvà cum\'è...</string>
+    <string name="go">Vai</string>
+    <string name="advanced">Avanzatu</string>
+    <string name="typeable_paths_title">Percorsi persunalizati</string>
+    <string name="typeable_paths_summary">Premete longu a barra di strada per scrive un percorsu persunalizatu</string>
+    <string name="send_email_to">Mandate un e-mail à</string>
+
+    <string name="text_editor">Configurazione di l\'editore di testu</string>
+    <string name="preference_newstack_title">Apri i fugliali cum\'è novu compitu</string>
+    <string name="preference_newstack_summary">Permette di apre i fugliali in compiti separati. Accedi à elli da u screnu recenti di u sistema.</string>
+    
+    <string name="developers">Sviluppatori</string>
+    <string name="no_bitcoin_app">Per piacè installate una app Bitcoin Wallet</string>
+    
+    
+    
+    <string name="channel_description_ftp">Amaze File Manager Notificazioni di u Servitore FTP di Amaze</string>
+
+    
+    <string name="processing">Trattamentu...</string>
+    <string name="failed_no_connection">Fiascatu à carica i fugliali. Verificate a vostra cunnessione.</string>
+
+    
+	<string name="scp_connection">Connessione SCP/SFTP</string>
+    <string name="ftp_connection">Connessione FTP</string>
+    <string name="ftps_connection">Connessione FTP sopra SSL</string>
+    <string name="scp_port">Portu</string>
+    <string name="ssh_host_key_verification_prompt">L\'autenticità di l\'ospite \'%1$s\' ùn pò esse stabilitu.\n\n%2$s impronta digitale chjave hè %3$s.\n \nPer piacè toccu \"Sì\" per cunfirmà l\'identità; altrimenti, toccate \"No\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Verificate l\'Host</string>
+    <string name="ssh_select_pem_button">Chiave Privata SSH</string>
+    <string name="ssh_pem_key_parse_error">Impossibile di leghje PEM selezziunatu: %s</string>
+    <string name="password_unchanged">(immubiliatu)</string>
+    <string name="ssh_authentication_failure_password">Errore di login: Impossibilità di autentificà cù u nome d\'utilizatore è a password furniti.</string>
+    <string name="ssh_authentication_failure_key">Escassa di login: Impossibile autentificà cù u nome d\'utilizatore è a chjave privata furniti.</string>
+    <string name="ssh_connect_failed">Impussibule di cunnette à %1$s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ATTENZIONE: L\'IDENTIFICAZIONE DI L\'HOST REMOTE HA CAMBIAT!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">HÈ PUSSIBILE QUALCH\'ADDI FATTA QUALCOSA DI NASTY !\n\nQualchissia vi pò spiegà avà (attaccu di l\'omu in u mezu) ! Hè ancu pussibule chì a chjave di l\'ospitu hè stata appena cambiata. L\'impronta digitale per a chjave publica mandata da l\'ospitu remota ùn currisponde micca à quella guardata in Amaze.\n\nPer piacè cuntattate u vostru amministratore di u sistema o stallate una nova cunnessione per cuntinuà a cunnessione à u servitore.</string>
+    <string name="ssh_key_prompt_passphrase">Per piacè inserite a frase di chjave.</string>
+    <string name="add_shortcut_not_supported_by_launcher">A creazione di shortcuts ùn hè micca supportata da u vostru lanciatore.</string>
+    
+    <string name="select_color_config">Selezziunate a cunfigurazione di u culore</string>
+    <string name="customize">Persunalizate</string>
+    
+    <string name="preselected_configs_title">Configurazioni preselezionate</string>
+    <string name="orange">Arancione</string>
+    <string name="blue">Blu</string>
+    <string name="green">Verde</string>
+    <string name="password_no_match">A password ùn coincide micca</string>
+    <string name="deselect_all">Deselezzione tutte</string>
+    <string name="filename">Nome di u schedariu</string>
+    <string name="compress_file_suggest_zip_extension">Hè cunsigliatu d\'utilizà \".zip\" cum\'è l\'estensione di u schedariu.</string>
+    <string name="about_amaze">Gestione di schedarii di cuncepimentu di materiale per Android</string>
+    <string name="license">Licenza</string>
+    <string name="libraries">Biblioteche</string>
+    <string name="password_repeat">Repetite a password</string>
+    <string name="create_file_suggest_txt_extension">Si hè cunsigliatu di utilizà \".txt\" cum\'è l\'estensione di u schedariu.</string>
+    <string name="ssh_select_pem">Selezziunate a chjave privata per l\'autenticazione</string>
+    <string name="ssh_key_invalid_passphrase">Passphrase di chjave invalida.</string>
+    <string name="ssh_key_no_decoder_decrypt">Nisun decodificatore validu per decifrare PEM.</string>
+    <string name="encryption_fail_copy">Fiascatu à aghjurnà l\'entrata di crittografia in a basa di dati</string>
+    <string name="extracted">Estrattu</string>
+    
+    <string name="processed">Elaboratu</string>
+    <string name="no_obtainable_info">Ùn ci hè micca infurmazione nantu à stu schedariu</string>
+    <string name="reopen_from_source">Ùn si pò micca, per piacè riapertura da l\'ultima app</string>
+    <string name="no_file_error">Qualcosa hè andatu male, ùn ci hè nunda da apre</string>
+    <string name="file_too_long">U schedariu hè troppu longu è ùn pò esse editatu, ma pudete leghje i primi %d caratteri</string>
+    <string name="file_read_only">U schedariu apertu hè una lettura- solu.</string>
+    <string name="got_it">Capitu!</string>
+    <string name="encrypt_file_save_as">Salvà u schedariu criptatu cum\'è...</string>
+    <string name="encrypt_folder_save_as">Salvà u cartulare criptatu cum\'è...</string>
+    <string name="encrypt_option_use_aze">Usà u Formatu di criptografia Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt hè un furmatu di crittografia di file open source basatu annantu à a crittografia AES. Hè ancu portable, pò esse decrypted cù prugrammi AESCrypt in altre plataforme.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">Site Web AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>U Formatu di Encryption di Amaze hè ancu basatu annantu à a criptografia AES; ma sfarente da u furmatu AESCrypt, pò esse decriptatu solu da stu dispusitivu; Inoltre, ùn deve micca disinstallare Amaze File Manager da stu dispusitivu nè cambià a manera di chjude u screnu, altrimenti ùn avete micca manera di ricuperà u schedariu criptatu.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">I fugliali criptati anu da utilizà \".aze\" cum\'è l\'estensione di u schedariu.</string>
+    <string name="encrypt_file_must_end_with_aes">I schedarii criptati anu da utilizà \".aes\" cum\'è l\'estensione di u schedariu.</string>
+    <string name="error_aescrypt_decrypt_failed">Ùn si pò micca decifrare \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Ùn si pò micca sovrascrive u fugliale.</string>
+    <string name="saved_single_file">File salvatu cum\'è \'%s\'.</string>
+    <string name="saved_multi_files">%d fugliali salvati.</string>
+    <string name="create_hidden_file_warn">U schedariu creatu serà oculatu in a lista di i schedari.</string>
+    <string name="grant_apkinstall_permission">L\'app hà bisognu di permessu per installà l\'applicazioni cuntinueghja.</string>
+    <string name="time_remaining">Tempu restante</string>
+    <string name="transfer_rate">Tassa di trasferimentu</string>
+    <string name="unknown">sconnu</string>
+    <string name="multiple_invalid_archive_entries">Alcuni schedari in l\'archiviu ùn ponu esse estratti; L\'archiviu pò esse dannatu o vene da una fonte maliziosa.</string>
+    <string name="saf_otg_explanation">Avà vai à u sistema di fugliale di Android per ragioni di sicurezza. Per piacè selezziunate u dispositivu USB da a lista di a manca.</string>
+    <string name="donation_thanks">Grazie per a donazione, questu ci mantene motivati! (:</string>
+    <string name="enable_marquee_filename">Abilita l\'effettu di marcatura per i nomi di file</string>
+    <string name="archive_password_prompt">Per piacè inserite a password di l\'archiviu:</string>
+    
+    <string name="cannot_extract_archive">Ùn si pò micca estrarre l\'archiviu \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Ùn pò micca apre l\'archiviu \"%s\". O ùn pudemu micca apre l\'archiviu, o l\'archiviu hè statu dannatu.</string>
+    
+    <string name="bookmark_exists">Segnalibro esiste</string>
+    <string name="hide_media">Oculta da i navigatori media</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">HÈ PUSSIBILE QUALCH\'ADDI FATTA QUALCOSA DI NASTY!\n\nQualchissia vi pò spiegà avà (attaccu man-in-the-middle)! Hè ancu pussibule chì a chjave di l\'ospiti hè stata appena cambiata. L\'impronta digitale. per a chjave publica mandata da l\'ospitu remota ùn currisponde micca à quella guardata in Amaze.\n\nPudete cuntinuà à aghjurnà l\'impronta digitale di l\'ospite o annullà l\'aghjurnamentu di i paràmetri di cunnessione SSH.</string>
+    <string name="update_host_key">Aggiorna Chjave di l\'ospite</string>
+    <string name="cancel_recommended">Annulla (Consigliatu)</string>
+    
+    
+    <string name="failed_install_apk">Fiascatu à installà</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Storage internu</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Carta SD</string>
+    <string name="choose_folder">Sceglite questa cartella</string>
+    
+    <string name="some_files_failed_invalid_operation">Alcuni fugliali fiascatu per via di invalidu operazione</string>
+    <string name="ftp_server_prompt_connect_to_network">Connettate à una reta o attivate l\'AP</string>
+    <string name="ftp_server_open_settings">Apri paràmetri</string>
+    
+    <string name="select_save_location">Selezziunà u locu per salvà</string>
+    <string name="scp_default_path">Path predefinitu (Opcional)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Scusate, ùn deveria micca accadutu.</string>
+    
+    <string name="error_report_button_text">Raporta stu errore via e-mail</string>
+    <string name="error_report_button_telegram">Raporta stu errore via telegramma</string>
+    <string name="copy_for_github">Copia u rapportu furmatu</string>
+    <string name="error_report_open_issue_button_text">Rapportu nantu à GitHub</string>
+    <string name="error_report_open_github_notice">Per piacè verificate s\'ellu ci hè digià un prublema chì discute u vostru crash.</string>
+    <string name="error_snackbar_message">Scusate, qualcosa ùn hè andatu male.</string>
+    <string name="error_snackbar_action">Raportate</string>
+    
+    <string name="what_happened_headline">Chì hè accadutu:</string>
+    <string name="info_labels">Cosa:\\nRequest:\\nGMT Time:\\nPackage:\\nVersion:\\nOS Version:\\nDispositivo:\\nModel:\\nProduct :</string>
+    <string name="your_comment">U vostru cumentu (in inglese):</string>
+    <string name="error_details_headline">Dettagli:</string>
+    <string name="app_ui_crash">App/UI crash</string>
+    <string name="error_report_title">Rapportu d\'errore</string>
+    <string name="crash_report_copied">Crash Report copiatu à clipboard</string>
+    <string name="disableIpcSignature">Disattivate u cuntrollu di firma IPC (Per i servitori SMBv1 legacy - UNSAFE!)</string>
+    <string name="cannot_delete_file">Ùn si pò micca sguassà u schedariu</string>
+    <string name="cannot_delete_file_with_reason">Ùn si pò micca sguassà u schedariu - %s</string>
+    <string name="cannot_rename_file">Ùn si pò micca rinominate u schedariu %s - %s</string>
+    <string name="cannot_read_directory">Ùn si pò leghje u cartulare %s - %s</string>
+    <string name="just_once">Una volta</string>
+    <string name="always">Sempre</string>
+    <string name="choose_different_app">Sceglite una applicazione differente</string>
+    <string name="clear_open_file">Svuota cache</string>
+    <string name="clear_open_file_summary">Clears selected file opening apps</string>
+    <string name="ftp_readonly">Access in sola lettura</string>
+    <string name="legacy_listing_title">Usà u listinu legacy per root</string>
+    <string name="legacy_listing_summary">Se attivatu, usa u metudu legacy per listinu i fugliali</string>
+    <string name="error_unsupported_v5_rar">L\'archiviu RAR \"%s\" ùn hè micca supportatu per l\'archiviu RAR v5.</string>
+    <string name="ftp_prompt_restart_server">Avete bisognu di riavvià u servitore FTP per chì i cambiamenti effettuenu.</string>
+    <string name="error_permission_denied">Permissione denegata</string>
+    <string name="error_archive_password_incorrect">Password d\'archiviu sbagliata.</string>
+    <string name="error_archive_cannot_extract">Impossibile estrarre l\'entrata di l\'archiviu \"%s\" à \"%s\".</string>
+    <string name="drag_and_drop_preference">Selezziunà a preferenza di trascinamentu è drop (Sperimentale)</string>
+    <string name="drag_to_move_copy">Toccate è trascinate per spustà o cupià i fugliali</string>
+    <string name="drag_to_select">Toccate è trascinate per selezziunà i fugliali</string>
+    <string name="disable">Disattivate</string>
+    <string name="choose_operation">Sceglite l\'operazione da fà</string>
+    <string name="remember">Ricordate per a prossima volta</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Concede l\'accessu SAF per u servitore FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Siccomu questu hè a vostra prima esecuzione di u servitore FTP, è utilizate l\'almacenamiento internu di u dispositivu cum\'è cartulare spartutu, permette à Amaze di accede à l\'almacenamiento utilizendu SAF.\n\n
+
+Avete bisognu di fà questu solu una volta, finu à a prossima volta chì selezziunate un novu locu per spartera.</string>
+    <string name="android_data_prompt_saf_access">Dapoi Android 10, Android hà impostu restrizioni à certi cartulari, è anu bisognu di accede cù Storage Access Framework.\n \nPer piacè permette à Amaze di accede à u cartulare da u gestore di schedari di u sistema toccu "Permette l\'accessu".</string>
+    <string name="android_data_prompt_saf_access_title">Concede l\'accessu SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Usà u sistema di file legacy</string>
+    <string name="ftp_preference_saf_filesystem">Attivà questu per u supportu per l\'usu di l\'almacenamiento esternu di u dispositivu nantu à e versioni Android più recenti</string>
+    <string name="ftp_server_fallback_path_reset_prompt">U percorsu spartutu di u servitore FTP hè statu resettatu à l\'almacenamiento internu mentre turnate torna à implementazione di u sistema di file legacy. Per piacè selezziunate un novu percorsu utilizendu u menù in cima à a diritta quant\'è necessariu.</string>
+    <string name="ftp_server_reset_notify">U percorsu spartutu di u servitore FTP hè statu resettatu à u almacenamentu internu</string>
+    <string name="ftp_server_root_unavailable">Stai scegliendu un percorsu chì richiede l\'accessu root. Per piacè, attivate l\'esploratore di root in i paràmetri se u vostru dispositivu hè arradicatu.</string>
+    <string name="ftp_server_root_filesystem_warning">Stai scegliendu un percorsu chì richiede l\'accessu di root, chì permette operazioni di lettura/scrittura in tuttu u sistema di filesystem di u vostru dispositivu, è hè periculosu - errori trascurati puderanu. brick your device!\n\nSì sicuru ?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Errore apre l\'URI \"%s\" per a lettura.</string>
+    <string name="error_empty_archive">\"%s\" hè un archiviu viotu.</string>
+    <string name="error_bad_archive_without_info">\"%s\" hè un archiviu currutti.</string>
+    <string name="error_bad_archive_with_info">\"%s\" hè un archiviu currutti.\nMissaghju da l\'estrattore: \"%s\"</string>
+    <string name="security_error">U schedariu ùn pudia micca esse apertu cù sta app</string>
+    <string name="cloud_drive_tooltip">Crea una cunnessione Google Drive™ per gestisce i fugliali da Amaze File Manager.</string>
+    <string name="signin_with_google_title">Autentificate per utilizà Google Drive™</string>
+    <string name="show_system_apps">Mostra l\'applicazioni di u sistema</string>
+    <string name="system_apps">Applicazioni di sistema</string>
+    
+    <string name="select_by_type">Selezziunà per tipu</string>
+    <string name="select_by_date">Selezziunà per data</string>
+    <string name="select_similar">Selezziunà simili</string>
+    <string name="error_fetching_google_play_product_list">Errore durante l\'acquisizione di a lista di i prudutti da Google Play.</string>
+    <string name="grant_all_files_permission">Dapoi Android 11, Google dumanda à i File Managers per dumandà u permessu di l\'utilizatori per gestisce tutti i schedari nantu à u dispusitivu. Dettagli quì.
+        \n\nAmaze File Manager hà ancu bisognu di stu permessu. Dopu appughjà "Grant" quì, sceglite Permette l\'accessu per gestisce tutti i fugliali opzione nantu à a pantalla successiva.
+        \n\nL\'annullamentu di sta finestra di dialogu esce da l\'app.</string>
+    <string name="user_apps">Applicazioni d\'utilizatore</string>
+    <string name="appearance">Apparenza</string>
+    <string name="behavior">Comportamentu</string>
+    <string name="appearance_summary">Persunalizate u tema, i culori è l\'aspettu di u gestore di file</string>
+    <string name="ui_summary">Controlla quale infurmazione mustrà, persunalizà a barra laterale, è cambia e preferenze UI</string>
+    <string name="behavior_summary">Modificà i cumpurtamenti cum\'è a ricerca avanzata è se apre i fugliali cum\'è una nova attività</string>
+    <string name="security_summary">Configurate password è criptografia</string>
+    <string name="backup_summary">Esportu/Importà i paràmetri di Amaze</string>
+
+    <string name="pref_export">Esportu</string>
+    <string name="pref_export_summary">Importà i paràmetri</string>
+    <string name="pref_import">Importà</string>
+    <string name="pref_import_summary">Importa i paràmetri</string>
+
+    <string name="quick_desc">Files Accessed recently through Amaze</string>
+    <string name="recent_desc">Fichieri creati o mudificati di pocu tempu</string>
+    <string name="error_cannot_find_way_open">Ùn si pudia truvà manera di apre u schedariu</string>
+    <string name="error_cant_decompress_that_file">Ùn si pò micca processà l\'archiviu dumandatu</string>
+    <string name="analyse_storage">Analise Storage</string>
+    
+    <string name="download_amaze_utils_text">Vi sò rediretti à Amaze File Utilities. Hè a nostra applicazione open source chì hà integratu visori audio/video/imaghjini/documenti, vi permette di analizà i fugliali spazzatura per liberà u almacenamentu, trasferimentu veloce cù Wifi P2P è assai di più.\nPer piacè susteneci pruvendu.</string>
+    <string name="download">Scaricate</string>
+    
+    <string name="amaze_utils_installed_alias">Grazie per installà Amaze File Utilities. Vi sò rediretti à l\'app.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">Sparte i logs</string>
+    <string name="share_logs_summary">Share logs catturati via email / telegram</string>
+    <string name="open_with_amaze">Apre cù Amaze</string>
+    <string name="confirmation">Conferma</string>
+    <string name="open_file_confirmation">Sicuru chì vulete apre u seguente schedariu?\n\nNome:\n%s\n\nLocu:\n%s\n\nTaglia:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Per i mandati di pulitica di Google Play, l\'applicazioni ùn sò micca permesse di aghjurnà da sè stessu. Per piacè aghjurnà l\'app da Google Play.</string>
+    <string name="error_cannot_get_package_info">Impossibile uttene l\'infurmazioni di u pacchettu da u schedariu \"%s\". O u schedariu specificatu ùn hè micca un APK, o u schedariu di u pacchettu hè currutti.</string>
+    <string name="preference_delete_confirmation">Eliminate a cunferma</string>
+    <string name="preference_delete_confirmation_summary">Dedite a cunferma prima di sguassà i schedari. A disattivazione di questu hè assai sconsigliatu!</string>
+    
+    
+    <string name="protocol_ftps">FTP Secure</string>
+    <string name="unavailable">Indisponibile</string>
+
+    <string name="exporting_failed">Esportazione falluta : ùn pudia micca scrive u schedariu di salvezza</string>
+    <string name="importing_failed">Importazione falluta : ùn pudia leghje a copia di salvezza file</string>
+    <string name="importing_completed">Importazione finita</string>
+    <string name="invalid_backup_file">File di salvezza invalidu</string>
+    <string name="import_failed_for">Importazione falluta per:</string>
+    <string name="free_of">"%s\n%s senza %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin ùn hè micca supportatu cù F- Versione Droid. Per piacè aduprate a versione Play Store di Amaze.</string>
+    <string name="disable_player_intent_filters">Disabilita i filtri di l\'intenzione di u ghjucatore</string>
+    <string name="disable_player_intent_filters_summary">Disabilita i lettori multimediali integrati di Amaze da u selettore di fugliali</string>
+    <string name="no_app_found_intent">Nisuna app trovata per trattà questu intentu. avete DocumentsUI installatu?</string>
+    <string name="cloud_connection_credentials_cleared">Credentiali di cunnessione di nuvola sguassate</string>
+    <string name="cloud_connection_credentials_cleared_msg">Sfurtunatamente, ùn pudemu micca migrà e vostre credenziali di cunnessione di nuvola à u novu schema di basa di dati, è avemu avutu da sguassà da l\'app. a cunnessione di nuvola di novu.</string>
+</resources>

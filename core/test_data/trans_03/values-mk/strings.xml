@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Управник со датотеки Amaze</string>
+    <string name="drawer_open">Отвори ја фиоката за навигација</string>
+    <string name="drawer_close">Затвори ја фиоката за навигација</string>
+    <string name="icon">икона</string>
+    <string name="apps">Управник со апликации</string>
+    <string name="ftp">FTP-сервер</string>
+    <string name="setting">Поставки</string>
+    <string name="select">Изберете ставка</string>
+    <string name="press_again">Притиснете повторно за да излезете</string>
+    <string name="open">Отвори</string>
+    <string name="backup">Резервна копија</string>
+    <string name="uninstall">Деинсталирај</string>
+    
+    <string name="properties">Својства</string>
+    <string name="copyingapks">Копирање %d APK-датотеки на %s</string>
+    <string name="delbook">Избриши обележувач</string>
+    <string name="add_to_bookmarks">Додај во обележувачи</string>
+    <string name="enterpath">Внеси патека</string>
+    <string name="cancel">ОТКАЖИ</string>
+    <string name="create">КРЕИРАЈ</string>
+    <string name="loading">Се вчитува…</string>
+    <string name="file_empty">Датотеката е празна</string>
+    <string name="error">Грешка</string>
+    <string name="search_results">Резултати од пребарувањето на %s</string>
+    <string name="rename">Преименувај</string>
+    <string name="save">Зачувај</string>
+    <string name="bookmarks_added">Обележувачите се додадени</string>
+    <string name="fileexist">Датотеката со исто име веќе постои</string>
+    <string name="name">Име</string>
+    <string name="date">Датум</string>
+    <string name="location">Локација</string>
+    <string name="size_capitalized">Големина</string>
+    <string name="size">големина на папката</string>
+    <string name="enterzipname">Внесете поштенско име</string>
+    <string name="no_app_found">Не е пронајдена апликација за отворање на оваа датотека</string>
+    <string name="copying">Копирање</string>
+    <string name="moving">Преместување</string>
+    <string name="file">Датотека</string>
+    <string name="folder">Папка</string>
+    <string name="newfolder">Нова папка</string>
+    <string name="entername">Внесете име</string>
+    <string name="extracting">Се вади</string>
+    <string name="stopping">Запира</string>
+    <string name="open_parent">Отвори го родителскиот директориум</string>
+    <string name="open_with">Отвори со</string>
+    <string name="share">Сподели</string>
+    <string name="about">За</string>
+    
+    <string name="compress">Компресирај</string>
+    <string name="yes">Да</string>
+    <string name="no">Не</string>
+    
+    <string name="dialog_delete_category_directories">Директориуми</string>
+    <string name="dialog_delete_category_files">Датотеки</string>
+    <string name="dialog_delete_disclaimer">Бришењето на ставките подолу трајно ќе ги отстрани од вашиот уред и не може да се повратат.</string>
+    <string name="dialog_delete_title">Трајно да се избришат ставките?</string>
+    <string name="deleting">Се брише</string>
+    <string name="question_set_path_as_home">Дали сакате да ја поставите тековната патека како домашна за оваа картичка?</string>
+    <string name="directorysort">Режим за сортирање во директориумот</string>
+    <string name="sort_by">Подреди според</string>
+    <string name="sort_only_this">Само оваа папка</string>
+    <string name="theme">Тема</string>
+    <string name="random">Случајна кожа</string>
+    <string name="random_summary">Поставува случајна основна боја при стартување</string>
+    <string name="colorize">Колоризирај икони</string>
+    <string name="colorize_summary">Sets статична боја на иконата. Не ги поништува преференциите за боја на иконата на директориумот.</string>
+    <string name="home">Почетна</string>
+    <string name="paste">Залепете</string>
+    <string name="history">Историја</string>
+    <string name="copy">Копирај</string>
+    
+    <string name="root_mode_summary">Само за вкоренети уреди. Проверете го само ако сте сигурни за тоа.</string>
+    <string name="root_failure">Рот пристап не е доделен</string>
+    <string name="select_all">Изберете ги сите</string>
+    <string name="delete">Избриши</string>
+    <string name="set_as_home">Постави како почеток</string>
+    <string name="operation_not_supported">Операцијата не е поддржана</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    
+    
+    
+    <string name="black">Црно (за OLED)</string>
+    <string name="system">Систем (следете ја системската тема)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Папки на врвот</string>
+    <string name="filesOnTop">Датотеки на врвот</string>
+    <string name="none_on_top">Никој на врвот</string>
+    <!--SortBy-->
+    <string name="sort_name">Име</string>
+    <string name="lastModified">Последно изменета</string>
+    <string name="sort_size">Големина</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Изберете датотека</string>
+    <string name="process_viewer">Прегледувач на процеси</string>
+    <string name="in_safe">Недоволно простор</string>
+    <string name="no_file_overwrite">Нема препишана датотека</string>
+    <string name="skip">Прескокни</string>
+    <string name="overwrite">Презапише</string>
+    <string name="not_allowed">Не е дозволено</string>
+    <string name="searching">Пребарување %s</string>
+    <string name="done">Готово</string>
+    <string name="set">Постави</string>
+    <string name="enablerootmde">Овозможи коренски режим</string>
+    <string name="goback">Оди назад</string>
+    <string name="newfile">Нова датотека</string>
+    <string name="no_files">Нема датотеки</string>
+    <string name="used">искористен простор</string>
+    <string name="used_by_others">користен од други</string>
+    <string name="free">слободен простор</string>
+    <string name="listview">Приказ на список</string>
+    <string name="gridview">Мрежа Прикажи</string>
+    <string name="permission">Дозволи</string>
+    <string name="hide">Скриј</string>
+    <string name="exit">Излези</string>
+    <string name="doforall">Направи за сите ставки</string>
+    <string name="gridcolumnno">Број на колони во мрежниот приказ</string>
+    <string name="set_random">Промените ќе се случат откако ќе ја рестартирате апликацијата</string>
+    <string name="authors">Автори</string>
+    <string name="changelog">Дневник за промени</string>
+    
+    <string name="ui">Интерфејс</string>
+    <string name="general">Општо</string>
+    <string name="thumb_summary">Прикажи сликички на апликации и слики</string>
+    <string name="thumb">Прикажи сликички</string>
+    <string name="hidden">Прикажи скриени датотеки и папки</string>
+    <string name="lastModifiedSummary">Покажи го датумот и времето на последната измена</string>
+    <string name="lastModifiedPref">Прикажи го датумот на последната измена и Време</string>
+    <string name="size_pref_summary">Прикажи ја големината на датотеките и бројот на ставки во папките</string>
+    <string name="size_pref">Прикажи големини</string>
+    <string name="miscellaneous">Разно</string>
+    <string name="root_pref_summary">Прикажи дозволи на датотеки и папки</string>
+    <string name="root_pref">Прикажи дозволи</string>
+    <string name="about_amaze_file_manager_label">За Amaze File Manager</string>
+    <string name="version">Верзија</string>
+    <string name="rate">Оцени ја апликацијата</string>
+    <string name="feedback">Испрати повратни информации</string>
+    <string name="hiddenfiles">Скриени датотеки</string>
+    <string name="type">Напишете</string>
+    
+    <string name="add_shortcut">Додај кратенка</string>
+    <string name="unsaved_changes">Незачувани промени</string>
+    <string name="unsaved_changes_description">Имате незачувани промени, дали сакате да ги зачувате пред да излезете?</string>
+    <string name="saving">Се зачувува</string>
+    <string name="package_installer">Инсталатор на пакети</string>
+    <string name="view">Прикажи</string>
+    <string name="install">Инсталирај</string>
+    <string name="archive">Архива</string>
+    <string name="archive_text">Ова е архива. Какво дејство би сакале да извршите?</string>
+    <string name="package_installer_text">Ова е инсталатор на пакети. Какво дејство би сакале да извршите?</string>
+    <string name="xda_title">XDA нишка</string>
+    <string name="xda_summary">Прашања и одговори, помош и решавање проблеми</string>
+    <string name="circular_images">Користете кружни икони за слики и видеа</string>
+    <string name="circular_icons">Користете кружни икони</string>
+    <string name="back_title">Назад навигација</string>
+    <string name="back_summary">Овозможува приспособена задна навигација на врвот на листата</string>
+    <string name="details">Детали</string>
+    <string name="translators">Преведувачи</string>
+    <string name="german_translation_title">германски</string>
+    <string name="italian_translation_title">италијански</string>
+    <string name="french_translation_title">француски</string>
+    <string name="russian_translation_title">руски</string>
+    <string name="spanish_translation_title">шпански</string>
+    <string name="basque_translation_title">баскиски</string>
+    <string name="chinese_translation_title">кинески</string>
+    <string name="serbian_translation_title">српски</string>
+    <string name="turkish_translation_title">турски</string>
+    <string name="ukrainian_translation_title">украински</string>
+    <string name="portuguese_translation_title">португалски</string>
+    <string name="polish_translation_title">полски</string>
+    <string name="korean_translation_title">корејски</string>
+    <string name="greek_translation_title">грчки</string>
+    <string name="dutch_translation_title">холандски</string>
+    <string name="romanian_translation_title">Романски</string>
+    <string name="vietnamese_translation_title">Виетнамски</string>
+    <string name="japanese_translation_title">јапонски</string>
+    <string name="tamil_translation_title">тамилски</string>
+
+    
+    <string name="unin_system_apk">Ова е системска апликација, бришењето може да доведе до нестабилност на системот.\nПродолжи?</string>
+    <string name="warning">Предупредување</string>
+    <string name="donate">Донирај</string>
+    <string name="archive_extract_folder">Папка за екстракт од архива</string>
+    <string name="archive_summary">Датотеките од архивата ќе се извлечат во оваа папка. Стандардна вредност е директориумот во кој е присутна архивата.</string>
+    <string name="open_as">Отвори како</string>
+    <string name="text">Текст</string>
+    <string name="audio">Аудио</string>
+    <string name="video">Видео</string>
+    <string name="other">Друго</string>
+    <string name="image">Слика</string>
+    <string name="contributors">Соработници</string>
+    <string name="save_paths">Запомни патеки</string>
+    <string name="save_path_summary">Кога ќе се стартува, ќе се прикаже неодамна прегледаната папка за секое јазиче</string>
+    <string name="select_intent">Изберете</string>
+    <string name="database">База на податоци</string>
+    <string name="colored_navigation">База за навигација во боја</string>
+    <string name="colored_navigvation_sum">Без разлика дали лентата за навигација на системот е обоена со кожата</string>
+
+    <string name="color_title">Боја</string>
+    <string name="color_summary">Поставете боја на различни компоненти на интерфејсот</string>
+    <string name="primary_color_title">Примарна боја (лево ливче)</string>
+    <string name="primary_color_summary">Поставете боја на големи елементи на интерфејсот за левата картичка</string>
+    <string name="accent_color_title">Боја на акцент</string>
+    <string name="accent_color_summary">Поставете боја на FAB и други мали елементи на интерфејсот</string>
+    <string name="icon_color_title">Боја на иконата</string>
+    <string name="icon_color_summary">Поставете боја на икони</string>
+    <string name="choose_color">Изберете боја</string>
+    <string name="files">Датотеки</string>
+    <string name="textreader">Читач на текст</string>
+    <string name="databasereader">Читач на бази на податоци</string>
+    <string name="show_dividers">Прикажи разделувачи</string>
+    <string name="needs_access">Потребен е пристап за пишување1</string>
+    <string name="needs_access_summary">Ве молиме изберете го root директориумот на \t</string>
+    <string name="needs_access_summary1">\tза да дозволите пристап за пишување за работа</string>
+    <string name="smb_connection">SMB-врска</string>
+    <string name="smb_server">ИП-адреса на серверот</string>
+    <string name="server_address">ИП на серверот Адреса</string>
+    <string name="username">Корисничко име</string>
+    <string name="password">Лозинка</string>
+    <string name="anonymous">Анонимна</string>
+    
+    <string name="folders">Папки</string>
+    <string name="folderfilecount">%1$d папки и %2$d датотеки</string>
+    <string name="videos">Видеа</string>
+    <string name="apks">АПК</string>
+    <string name="documents">Документи</string>
+    <string name="images">Слики</string>
+    <string name="clear">Исчисти</string>
+    
+    <string name="total">Вкупно:</string>
+    <string name="calculating">пресметување</string>
+    <string name="sort">Подреди</string>
+    <string name="ascending">растечки</string>
+    <string name="descending">Опаѓачки</string>
+    <string name="default_string">Стандардно</string>
+    <string name="doit">Направи го</string>
+    <string name="want_help">Ви треба помош?</string>
+    <string name="quick">Брз пристап</string>
+    <string name="recent">Неодамнешни датотеки</string>
+    <string name="edit">Уреди</string>
+    <string name="find">Најди на страница</string>
+    <string name="grant">Грантирај</string>
+    <string name="grantper">Доделете дозвола</string>
+    <string name="grantfailed">Дозволата не е дадена</string>
+    <string name="grant_storage_permission">На апликацијата и треба дозвола за складирање за да продолжи. Откажувањето на овој дијалог ќе излезе од апликацијата.</string>
+    <string name="operation_unsuccesful">Операцијата неуспешна</string>
+    <string name="creatingfile">Создавање датотека</string>
+    <string name="creatingfolder">Создавање папка</string>
+    <string name="renaming">Преименување</string>
+    <string name="cant_be_empty">%s не може да биде празна</string>
+    <string name="ip">Адреса</string>
+    <string name="connection_name">Име на врската</string>
+    <string name="no_device_found">Не се најдени уреди</string>
+    <string name="path">Патека</string>
+    <string name="rename_bookmark">Измени обележувач</string>
+    <string name="cut">Исечи</string>
+    <string name="search">Пребарај</string>
+    <string name="invalid_name">Неважечко име</string>
+    <string name="search_hint">Впишете за пребарување…</string>
+    <string name="advanced_search">Напредно пребарување</string>
+    <string name="regular_expression">Регуларен израз</string>
+    <string name="regular_expression_summary">Барајте користејќи регуларен израз во стилот BASH</string>
+    <string name="match_content">Содржината се совпаѓа</string>
+    <string name="match_content_summary">Ако е поставено, регуларниот израз ќе се совпадне со целото име на датотеката,
+        ќе бара појава во спротивно.</string>
+    
+    <string name="stop_ftp">Стоп</string>
+    <string name="ftp_status_running">Работи</string>
+    <string name="ftp_status_not_running">Не работи</string>
+    <string name="ftp_no_wifi">Проверете дали сте поврзани на Wi -Fi</string>
+    <string name="domain">Домен</string>
+    <string name="smb_share">Патека за споделување</string>
+    <string name="invalid">Почнува неважечки %s</string>
+    <string name="ftp_notif_starting">FTP-серверот</string>
+    <string name="ftp_notif_starting_title">FTP-сервер</string>
+    <string name="ftp_notif_title">Amaze FTP-серверот работи</string>
+    <string name="ftp_notif_text">на %s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP-портата</string>
+    <string name="ftp_port_change_success">FTP-портата е успешно променета</string>
+    <string name="ftp_port_change_error_invalid">Избран е неважечки број на порта</string>
+    <string name="primary_two_title">Примарна боја (десно јазиче)</string>
+    <string name="primary_two_summary">Поставете боја на големи елементи на интерфејсот за десната картичка</string>
+    <string name="support_development">Развој на поддршка</string>
+    <string name="report_bugs_title">Пријави грешки</string>
+    <string name="source_title">Изворен код</string>
+    <string name="source_summary">Прегледајте го нашиот изворен код на GitHub</string>
+    <string name="report_bugs_summary">Пријавете грешки или побарајте нова функција</string>
+    <string name="translate_title">Преведи</string>
+    <string name="translate_summary">Преведи Amaze на вашиот јазик</string>
+    <string name="paypal_copy_message">PayPal ID е копиран во таблата со исечоци</string>
+    <string name="searching_devices">Пребарување уреди</string>
+    <string name="use_custom_ip">Користете приспособена IP адреса</string>
+    <string name="bookmark_lost">Обележувачот не е пронајден, повторно се создава…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Како да пристапите до споделената папка на Windows на Android (SMB)\n\n
+                
+                    
+                        Овозможете споделување датотеки на Windows\n
+                    
+                    
+                        Отворете ја контролната табла, кликнете Избери домашна група и опции за споделување под Мрежа
+                        и Интернет, и кликнете на „Промени напредни поставки за споделување“, овозможете „Датотека и
+                        Функција за споделување печатач.\n\n
+                    
+
+                    
+                        Дополнителни поставки за споделување датотеки\n
+                    
+                    
+                        Можеби ќе сакате да ги конфигурирате и другите напредни поставки за споделување овде. \n
+                        На пример, можете да овозможите пристап до вашите датотеки без лозинка ако им верувате на сите
+                        уредите на вашата локална мрежа. Откако ќе се овозможи споделување датотеки и печатачи, можете
+                        отворете File Explorer или Windows Explorer, кликнете со десното копче на папката што сакате да ја споделите и
+                        изберете Својства. \n
+                        Кликнете на копчето Сподели и направете ја папката достапна на мрежата.\n\n
+                        
+
+                    
+                        Проверете дали двата уреди се на исто Wi-Fi\n
+                    
+                    
+                        Оваа функција ги прави датотеките достапни на локалната мрежа, така што вашиот компјутер и мобилните уреди
+                        мора да бидат на истата локална мрежа. Не можете да пристапите до споделена папка на Windows
+                        преку Интернет или кога вашиот паметен телефон е поврзан со неговите мобилни податоци — тоа
+                        мора да се поврзе на Wi-Fi.\n\n
+                    
+
+                    
+                        Најдете IP адреса\n
+                    
+                    
+                        Отворете ја командната линија. Внесете \'ipconfig\' и притиснете Enter. Побарајте го стандардниот портал
+                        под вашиот мрежен адаптер за IP адресата на вашиот рутер. Бара
+                        \\\"IPv4 адреса\\\" под истиот дел за адаптер за да ја пронајдете IP-а на вашиот компјутер
+                        адреса.\n\n
+                    
+
+                    Внесете детали во полето за дијалог SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Не можам да споделам повеќе од 100 датотеки</string>
+    <string name="otg_access">Изберете го коренот на OTG уредот</string>
+    <string name="information">Информации</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Пристапено</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Изменети</string>
+
+    <string name="title">Наслов</string>
+    <string name="artist">Уметник</string>
+    <string name="album">Албум</string>
+    <string name="year">Година</string>
+    <string name="duration">Времетраење</string>
+    <string name="comment">Коментар</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Контејнер</string>
+    <string name="codec">Кодек</string>
+    <string name="channels">Канали</string>
+    <string name="sample_rate">Стапка на примерок</string>
+    <string name="bitrate">Брита на битови</string>
+    <string name="dimensions">Димензии</string>
+    <string name="frame_rate">Реста на рамка</string>
+    <string name="image_type">Тип слика</string>
+    <string name="width">Ширина</string>
+    <string name="height">Висина</string>
+    <string name="date_modified">Датум на измена</string>
+    <string name="software">Софтвер</string>
+    <string name="creator">Создавач</string>
+    <string name="camera_brand">Марка на камера</string>
+    <string name="camera_model">Cam Модел</string>
+    <string name="date_taken">Датум на преземање</string>
+    <string name="exposure_time">Време на експозиција</string>
+    <string name="aperture_value">Вредност на решетката</string>
+    <string name="image_iso">Оцена на брзина ISO</string>
+    <string name="flash_fired">исклучен блиц</string>
+    <string name="focal_length">Фокална должина</string>
+    <string name="subject">Предмет</string>
+    <string name="author">Автор</string>
+    <string name="keywords">Клучни зборови</string>
+    <string name="producer">продуцент</string>
+    <string name="created">Создаден</string>
+    <string name="format">Формат</string>
+    <string name="pages">Num Страници</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Оптимизирана</string>
+    <string name="security">Безбедност</string>
+    <string name="paper_size">Големина на хартија</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Некои датотеки не беа успешно %s</string>
+    <string name="copied">копирани</string>
+    <string name="moved">преместено</string>
+    <string name="copy_complete">Копирањето е завршено</string>
+    <string name="waiting_title">Се чека</string>
+    <string name="waiting_content">Се чека да заврши операцијата</string>
+    <string name="extract_complete">Екстракцијата е завршена</string>
+    <string name="compression_complete">Компресијата е завршена</string>
+    <string name="compressing">Компресија</string>
+    <string name="cancelled">Откажано</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Напишано</string>
+    <string name="out_of">од</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">од</string>
+    <string name="processing_file">Датотека за обработка</string>
+    <string name="current_speed">Тековна брзина</string>
+    <string name="smb_launch_error">Ќе треба да ја копирате оваа датотека во складиште за да ја отворите</string>
+    <string name="error_file_not_found">Грешка: Датотеката не е пронајдена</string>
+    <string name="error_io">Грешка во I/O</string>
+    <string name="error_file_too_large">Грешка: датотеката е премногу голема</string>
+    <string name="medium_text">Среден текст</string>
+    <string name="permission_read">Читање</string>
+    <string name="permission_write">Запишување</string>
+    <string name="permission_execute">Изврши</string>
+    <string name="permission_owner">Сопственик</string>
+    <string name="permission_group">Група</string>
+    <string name="permission_other">Друго</string>
+    <string name="clipboard_path_copy">Патот е копиран во таблата со исечоци</string>
+    <string name="service_timer">Поминато време</string>
+    <string name="please_wait">Почекајте</string>
+
+    <string name="cloud_connection">Поврзување со облак</string>
+    <string name="cloud_connection_new">Нова врска со облак</string>
+    
+    
+    
+    
+    <string name="cloud_get">Преземи го приклучокот за Cloud</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Нема апликации</string>
+    <string name="ftp_path">Заедничка патека</string>
+    <string name="ftp_path_hint">Патека до коренот на директориумот за споделување</string>
+    <string name="change">Промени</string>
+    <string name="unknown_error">Упс, нешто тргна наопаку!</string>
+
+    <string name="ftp_path_change_success">FTP патеката е успешно променета</string>
+    <string name="ftp_path_change_error_invalid">Неважечка патека</string>
+    <string name="ftp_status_no_connection">Нема врска</string>
+    <string name="ftp_status_secure_connection">Безбедна врска</string>
+    <string name="ftp_status_title">Статус</string>
+    <string name="ftp_port">Порта</string>
+    <string name="ftp_login">Најава</string>
+    <string name="field_empty">Полето не може да биде празно</string>
+    <string name="ftp_timeout">Време на мирување</string>
+    <string name="ftp_seconds">Секунди</string>
+    
+    <string name="intellihide_toolbar_summary">Автоматско сокриј ја лентата со алатки додека се лизга</string>
+    <string name="hash_sha256">SHA-</string>
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">копирана на c </string>
+    <string name="contributors_1_summary">Преводот</string>
+    <string name="contributors_2_summary">Икона и банери</string>
+    <string name="contributors_3_summary">Темски мотор</string>
+    <string name="contributors_4_summary">Сенка зад FAB</string>
+    <string name="contributors_5_summary">Премин на бои при лизгање картички</string>
+    <string name="contributors_6_summary">FTP сервер</string>
+    <string name="contributors_7_summary">Пуштање интерактивна школка</string>
+    <string name="connection_exists">Веќе постои врска</string>
+
+    <string name="crypt_encrypting">Шифрира</string>
+    <string name="crypt_decrypting">Декриптира</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Шифрирана</string>
+    <string name="crypt_decrypted">Декриптирана</string>
+    <string name="crypt_encrypt">Шифрирај</string>
+    <string name="crypt_decrypt">Декриптира</string>
+    <string name="operation_fail_following">Операцијата не успеа за следните датотеки</string>
+    <string name="crypt_pref_master_password_title">Главна лозинка</string>
+    <string name="crypt_pref_master_password_summary">Поставете главна лозинка за шифрирање.
+        Оставете празно за да го отстраните.</string>
+    <string name="crypt_pref_fingerprint_title">Отпечаток од прст</string>
+    <string name="crypt_pref_fingerprint_summary">Користете отпечаток за автентикација на шифрирањето</string>
+    <string name="crypt_fingerprint_no_permission">Недостасуваат дозволи за отпечатоци</string>
+    <string name="crypt_fingerprint_not_enrolled">Не е регистриран отпечаток</string>
+    <string name="crypt_fingerprint_no_security">Нема безбедност на заклучен екран најдено</string>
+    <string name="crypt_warning_key">Имајте совети кога ќе ја промените вашата безбедносна шема од
+        Системски поставки, нема да можете да ја дешифрирате оваа содржина.</string>
+    <string name="warning_never_show">Не информирајте повторно</string>
+    <string name="warning_confirm">Разбрав!</string>
+    <string name="crypt_encryption_fail">Не успеа да се шифрира</string>
+    <string name="crypt_decryption_fail">Не успеа да се дешифрира</string>
+    <string name="crypt_decryption_fail_password">Погрешна лозинка!</string>
+    <string name="crypt_fingerprint_authenticate">Допрете го сензорот за да продолжите</string>
+    <string name="authenticate_password">Внесете лозинка</string>
+
+    <string name="sidebar_preferences">странична лента</string>
+    <string name="sidebar_quick_access_title">Брз пристап на страничната лента</string>
+    <string name="show_quick_access_pref_title">Прикажи брзи пристапи</string>
+    <string name="show_quick_access_pref">Брзи пристапи</string>
+    <string name="directory">Директориум</string>
+
+    <string name="sidebar_bookmarks_title">Обележувачи на страничната лента</string>
+    <string name="show_bookmarks_pref_title">Прикажи обележувачи</string>
+    <string name="show_bookmarks_pref">Обележувачи</string>
+    <string name="create_bookmark">Создадете обележувач</string>
+    <string name="edit_bookmark">Уреди го обележувачот</string>
+    <string name="question_delete_bookmark">Да се ​​избрише обележувачот?</string>
+
+    <string name="cloud_error_plugin">Приклучокот Amaze Cloud не е пронајден. Преземете од Play Store.</string>
+    <string name="cloud_error_failed_restart">Не успеа да се вчита врската.
+        Отворете го Amaze Cloud еднаш.</string>
+    <string name="cloud_remove">Дали сакате да ја отстраните врската во облакот?</string>
+    <string name="cloud_fail_authenticate">Не успеа да се автентицира</string>
+    <string name="cloud_share_copied">Споделлива врска е копирана на таблата со исечоци</string>
+    <string name="copy_low_memory">Истекува меморија, ве молиме исчистете малку RAM</string>
+    <string name="cloud_token_lost">Изгубен токен, пријавете се повторно</string>
+    <string name="monofont">Monospace фонт</string>
+    <string name="showHeaders">Покажи заглавија</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Нема ставки</string>
+	<string name="item">ставка</string>
+	<string name="items">ставки</string>
+	
+	<string name="byte_singular">бајти</string>
+	<string name="bytes">бајти</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Датотеката треба да има име</string>
+    <string name="add_item">Додај ставка</string>
+    <string name="failed_smb_decrypt_path">Не успеа да се вчита SMB-поврзување</string>
+    <string name="failed_cloud_new_connection">Не успеа да се додаде нова врска со Cloud</string>
+    <string name="failed_cloud_api_key">Не успеа да се автентицира приклучокот за Cloud</string>
+
+    <string name="local_inet_addr_error">Грешка при добивање локална инет адреса</string>
+    <string name="intent_save_as">Зачувај како…</string>
+    <string name="go">Оди</string>
+    <string name="advanced">Напредно</string>
+    <string name="typeable_paths_title">Прилагодени патеки</string>
+    <string name="typeable_paths_summary">Долго притиснете ја лентата за да напишете приспособена патека</string>
+    <string name="send_email_to">Испратете е-пошта до</string>
+
+    <string name="text_editor">Поставки за уредувач на текст</string>
+    <string name="preference_newstack_title">Отворете датотеки како нова задача</string>
+    <string name="preference_newstack_summary">Ви овозможува да отворате датотеки во посебни задачи. Пристапете до нив од екранот со најновите информации.</string>
+    
+    <string name="developers">Програмери</string>
+    <string name="no_bitcoin_app">Ве молиме инсталирајте апликација Bitcoin Wallet</string>
+    <string name="channel_name_normal">Известувања Amaze</string>
+    <string name="channel_description_normal">Известувања на Amaze File Manager</string>
+    <string name="channel_name_ftp">Amaze FTP-сервер</string>
+    <string name="channel_description_ftp">Amaze File Manager Известувања на FTP серверот</string>
+
+    
+    <string name="processing">Се обработува…</string>
+    <string name="failed_no_connection">Не успеа да се вчитаат датотеките. Ве молиме проверете ја вашата врска.</string>
+
+    <string name="update">АЖУРИРАЈ</string>
+	<string name="scp_connection">SCP/SFTP-врска</string>
+    <string name="ftp_connection">FTP-врска</string>
+    <string name="ftps_connection">FTP преку SSL-врска</string>
+    <string name="scp_port">Порта</string>
+    <string name="ssh_host_key_verification_prompt">Автентичноста на домаќинот \'%1$s\' не може да се утврди.\n\nотпечатокот од клучот %2$s е %3$s.\n\nВе молиме допрете \"Да\" за да потврдите идентитет; инаку, ве молиме допрете \"Не\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Потврдете го домаќинот</string>
+    <string name="ssh_select_pem_button">SSH приватен клуч</string>
+    <string name="ssh_pem_key_parse_error">Не може да се прочита избраниот PEM: %s</string>
+    <string name="password_unchanged">(непроменет)</string>
+    <string name="ssh_authentication_failure_password">Неуспех на најавување: не може да се автентицира со доставените корисничко име и лозинка.</string>
+    <string name="ssh_authentication_failure_key">Неуспех на најавувањето: Не може да се автентицира со испорачаното корисничко име и приватен клуч.</string>
+    <string name="ssh_connect_failed">Не може да се поврзе со %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ПРЕДУПРЕДУВАЊЕ: ИДЕНТИФИКАЦИЈАТА НА ДАЛЕЧИНСКИОТ ДОМАЌИН СЕ СМЕНЕ!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">МОЖНО Е НЕКОЈ ДА ПРАВИ НЕШТО ГОДНО!\n\nНекој може да ве натера токму сега (напад man-in-the-middle)! Исто така, можно е клучот за домаќин штотуку да е сменет. Отпечатокот од прст за јавниот клуч испратен од далечинскиот домаќин не се совпаѓа со оној што е зачуван во Amaze.\n\nВе молиме контактирајте со вашиот системски администратор или поставете нова врска за да продолжите да се поврзувате со серверот.</string>
+    <string name="ssh_key_prompt_passphrase">Внесете лозинка за клучот .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Креирањето кратенки не е поддржано од вашиот стартер.</string>
+    
+    <string name="select_color_config">Изберете конфигурација на боја</string>
+    <string name="customize">Прилагоди</string>
+    <string name="custom">Прилагоди</string>
+    <string name="preselected_configs_title">Претходно избрани конфигурации</string>
+    <string name="orange">Портокалова</string>
+    <string name="blue">Сино</string>
+    <string name="green">Зелена</string>
+    <string name="password_no_match">Лозинката не се совпаѓа</string>
+    <string name="deselect_all">Деселектирај сè</string>
+    <string name="filename">Име на датотека</string>
+    <string name="compress_file_suggest_zip_extension">Препорачливо е да се користи \".zip\" како наставка на датотеката.</string>
+    <string name="about_amaze">Управувач со датотеки за дизајн на материјал за Android</string>
+    <string name="license">Лиценца</string>
+    <string name="libraries">Библиотеки</string>
+    <string name="password_repeat">Повторете ја лозинката</string>
+    <string name="create_file_suggest_txt_extension">Се препорачува да се користи \".txt\" како екстензија на датотеката.</string>
+    <string name="ssh_select_pem">Изберете приватен клуч за автентикација</string>
+    <string name="ssh_key_invalid_passphrase">Неважечка лозинка за клучот.</string>
+    <string name="ssh_key_no_decoder_decrypt">Нема валиден декодер за дешифрирање PEM.</string>
+    <string name="encryption_fail_copy">Не успеа да се ажурира записот за шифрирање во базата</string>
+    <string name="extracted">Извлечен</string>
+    <string name="compressed">Компресиран</string>
+    <string name="processed">Обработено</string>
+    <string name="no_obtainable_info">Нема информации за оваа датотека</string>
+    <string name="reopen_from_source">Не може, ве молиме отворете повторно од последната апликација</string>
+    <string name="no_file_error">Нешто тргна наопаку, нема што да се отвори</string>
+    <string name="file_too_long">датотеката е предолга и не може да се уредува, но можете да ги прочитате првите %d знаци</string>
+    <string name="file_read_only">Отворената датотека е само за читање.</string>
+    <string name="got_it">Разбрав!</string>
+    <string name="encrypt_file_save_as">Зачувај шифрирана Датотека како…</string>
+    <string name="encrypt_folder_save_as">Зачувај шифрирана папка како…</string>
+    <string name="encrypt_option_use_aze">Користете го форматот за шифрирање Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt е формат за шифрирање на датотеки со отворен код базиран на шифрирање AES. Исто така е пренослив, може да се дешифрира со AESCrypt програми на други платформи.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">веблокација AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Форматот за шифрирање на Amaze е исто така базиран на шифрирање AES; но различен од форматот AESCrypt, може да се дешифрира само од овој уред; исто така, не смеете да го деинсталирате Amaze File Manager од овој уред ниту да го менувате начинот на заклучување на екранот, инаку нема да имате начин да ја вратите шифрираната датотека.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Шифрираните датотеки мора да користат \".aze\" како наставка на датотеката.</string>
+    <string name="encrypt_file_must_end_with_aes">Шифрираните датотеки мора да користат \".aes\" како наставка на датотеката.</string>
+    <string name="error_aescrypt_decrypt_failed">Не може да се дешифрира \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Не може да се презапише датотеката.</string>
+    <string name="saved_single_file">Датотеката е зачувана како \'%s\'.</string>
+    <string name="saved_multi_files">Зачувани се %d датотеки.</string>
+    <string name="create_hidden_file_warn">Создадената датотека ќе биде скриена во списокот со датотеки.</string>
+    <string name="grant_apkinstall_permission">Апликацијата бара дозвола за инсталирање апликации да продолжи.</string>
+    <string name="time_remaining">Преостанатото време</string>
+    <string name="transfer_rate">Стапка на пренос</string>
+    <string name="unknown">непознат</string>
+    <string name="multiple_invalid_archive_entries">Некои датотеки во архивата не може да се извлечат; архивата може да е оштетена или доаѓа од злонамерен извор.</string>
+    <string name="saf_otg_explanation">Сега ќе одите во датотечниот систем на Android од безбедносни причини. Ве молиме изберете го USB-уредот од списокот лево.</string>
+    <string name="donation_thanks">Ви благодариме за донацијата, ова не одржува мотивирани! (:</string>
+    <string name="enable_marquee_filename">Овозможете ефект на марка за имиња на датотеки</string>
+    <string name="archive_password_prompt">Внесете лозинка за архивата:</string>
+    
+    <string name="cannot_extract_archive">Не може да се извади архивата \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Не може отворете ја архивата \"%s\". Или не можеме да ја отвориме архивата или архивата е оштетена.</string>
+    <string name="close">Затвори</string>
+    <string name="bookmark_exists">Обележувачот постои</string>
+    <string name="hide_media">Скриј од медиумски прелистувачи</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">МОЖНО Е НЕКОЈ ДА ПРАВИ НЕШТО ЃАБО!\n\nНекој би можел да ве прислушува во моментов (напад човек во средината)! Исто така, можно е клучот на домаќинот да е тукушто променет. Отпечатокот затоа што јавниот клуч испратен од оддалечениот домаќин не се совпаѓа со оној што е зачуван во Amaze.\n\nМожете да продолжите со ажурирање на отпечатокот на домаќинот или да го откажете ажурирањето на поставките за поврзување SSH.</string>
+    <string name="update_host_key">Ажурирај го клучот на домаќинот</string>
+    <string name="cancel_recommended">Откажи (препорачано)</string>
+    
+    
+    <string name="failed_install_apk">Не успеа да се инсталира</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Внатрешна меморија</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD-картичка</string>
+    <string name="choose_folder">Изберете ја оваа папка</string>
+    
+    <string name="some_files_failed_invalid_operation">Некои датотеки не успеаја поради неважечки операција</string>
+    <string name="ftp_server_prompt_connect_to_network">Поврзете се на мрежа или овозможете AP</string>
+    <string name="ftp_server_open_settings">Отворете ги поставките</string>
+    <string name="move">Премести</string>
+    <string name="select_save_location">Изберете локација за зачувување</string>
+    <string name="scp_default_path">Стандардна патека (изборно)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Извинете, тоа не требаше да се случи.</string>
+    
+    <string name="error_report_button_text">Пријавете ја оваа грешка преку е-пошта</string>
+    <string name="error_report_button_telegram">Пријавете ја оваа грешка преку телеграма</string>
+    <string name="copy_for_github">Копирај форматиран извештај</string>
+    <string name="error_report_open_issue_button_text">Пријавете на GitHub</string>
+    <string name="error_report_open_github_notice">Проверете дали веќе постои проблем со кој се дискутира за вашиот пад.</string>
+    <string name="error_snackbar_message">Извинете, нешто тргна наопаку.</string>
+    <string name="error_snackbar_action">Извештај</string>
+    <string name="what_device_headline">Информации:</string>
+    <string name="what_happened_headline">Што се случи:</string>
+    <string name="info_labels">Што:\\nБарање:\\nGMT Време:\\nПакет:\\nВерзија:\\nВерзија на ОС:\\nУред:\\nМодел:\\nпроизвод :</string>
+    <string name="your_comment">Вашиот коментар (на англиски):</string>
+    <string name="error_details_headline">Детали:</string>
+    <string name="app_ui_crash">Апликацијата/UI падна</string>
+    <string name="error_report_title">Извештај за грешка</string>
+    <string name="crash_report_copied">Извештајот за пад е копиран на таблата со исечоци</string>
+    <string name="disableIpcSignature">Оневозможи проверка на потпишување IPC (За стари сервери SMBv1 - НЕБЕЗБЕДНО!)</string>
+    <string name="cannot_delete_file">Не можам да ја избришам датотеката</string>
+    <string name="cannot_delete_file_with_reason">Не можам да ја избришам датотеката - %s</string>
+    <string name="cannot_rename_file">Не можам да ја преименувам датотеката %s - %s</string>
+    <string name="cannot_read_directory">Не можам да го прочитам директориумот %s - %s</string>
+    <string name="just_once">Само еднаш</string>
+    <string name="always">Секогаш</string>
+    <string name="choose_different_app">Изберете друга апликација</string>
+    <string name="clear_open_file">Исчисти кеш</string>
+    <string name="clear_open_file_summary">Ги брише избраните стандардни апликации за отворање датотеки</string>
+    <string name="ftp_readonly">Пристап само за читање</string>
+    <string name="legacy_listing_title">Користете го наследниот список за root</string>
+    <string name="legacy_listing_summary">Ако е овозможено, користи застарен метод за список на датотеки</string>
+    <string name="error_unsupported_v5_rar">РАР архивата \"%s\" не е поддржана архива RAR v5.</string>
+    <string name="ftp_prompt_restart_server">Ќе треба да го рестартирате серверот FTP за да стапат на сила промените.</string>
+    <string name="error_permission_denied">Дозволата е одбиена</string>
+    <string name="error_archive_password_incorrect">Погрешна лозинка за архива.</string>
+    <string name="error_archive_cannot_extract">Не може да се извади записот од архивата \"%s\" во \"%s\".</string>
+    <string name="drag_and_drop_preference">Изберете поставка за влечење и спуштање (Експериментално)</string>
+    <string name="drag_to_move_copy">Допрете и влечете за преместување или копирање датотеки</string>
+    <string name="drag_to_select">Допрете и влечете за да изберете датотеки</string>
+    <string name="disable">Оневозможи</string>
+    <string name="choose_operation">Изберете операција за извршување</string>
+    <string name="remember">Запомнете за следниот пат</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Дајте пристап до SAF за FTP сервер</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Бидејќи ова е вашето прво вклучување на FTP серверот и ја користите внатрешната меморија на уредот како споделена папка, ве молиме дозволете Amaze да пристапи до меморијата користејќи SAF.\n\n
+
+Треба да го направите ова само еднаш, до следниот пат кога ќе изберете нова локација за споделување.</string>
+    <string name="android_data_prompt_saf_access">Од Android 10, Android наметна ограничувања на одредени директориуми и тие треба да пристапат со Рамка за пристап до складирање.\n \nВе молиме дозволете Amaze да пристапи до директориумот од менаџерот на датотеки на системот со допирање на \"Дозволи пристап\".</string>
+    <string name="android_data_prompt_saf_access_title">Дајте пристап до SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Користете го наследниот датотечен систем</string>
+    <string name="ftp_preference_saf_filesystem">Овозможете го ова за поддршка за користење надворешно складирање на уредот на поновите верзии на Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Заедничката патека на серверот FTP беше ресетирана на внатрешна меморија додека се враќате на имплементација на наследен датотечен систем. Изберете нова патека користејќи го менито горе десно по потреба.</string>
+    <string name="ftp_server_reset_notify">Заедничката патека на FTP серверот беше ресетирана на внатрешна меморија</string>
+    <string name="ftp_server_root_unavailable">Избирате патека која бара пристап до root. Овозможете root explorer во поставките ако вашиот уред е вкоренет.</string>
+    <string name="ftp_server_root_filesystem_warning">Избирате патека што бара root пристап, која овозможува операции за читање/запишување во целиот датотечен систем на вашиот уред, а тоа е опасно - невнимателни грешки може да заградете го вашиот уред!\n\nДали сте сигурни?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Грешка при отворањето на URI \"%s\" за читање.</string>
+    <string name="error_empty_archive">\"%s\" е празна архива.</string>
+    <string name="error_bad_archive_without_info">\"%s\" е оштетена архива.</string>
+    <string name="error_bad_archive_with_info">\"%s\" е оштетена архива.\nПораката од екстракторот: \"%s\"</string>
+    <string name="security_error">Датотеката не можеше да се отвори со помош на оваа апликација</string>
+    <string name="cloud_drive_tooltip">Создадете врска на Google Drive™ за управување со датотеки од Amaze File Manager.</string>
+    <string name="signin_with_google_title">Автентикација за користење на Google Drive™</string>
+    <string name="show_system_apps">Прикажи системски апликации</string>
+    <string name="system_apps">Системски апликации</string>
+    <string name="select_inverse">Изберете инверзна</string>
+    <string name="select_by_type">Изберете по тип</string>
+    <string name="select_by_date">Изберете по датум</string>
+    <string name="select_similar">Изберете слично</string>
+    <string name="error_fetching_google_play_product_list">Грешка при преземање на списокот на производи од Google Play.</string>
+    <string name="grant_all_files_permission">Од Android 11, Google бара од Управувачите со датотеки да побараат корисничка дозвола за управување со сите датотеки на уредот. Детали овде.
+        \n\nНа Amaze File Manager му треба и оваа дозвола. Откако ќе притиснете „Додели“ овде, ве молиме изберете Дозволи пристап за управување со сите датотеки опцијата на следниот екран.
+        \n\nСо откажување на овој дијалог ќе излезете од апликацијата.</string>
+    <string name="user_apps">Кориснички апликации</string>
+    <string name="appearance">Изглед</string>
+    <string name="behavior">Однесување</string>
+    <string name="appearance_summary">Прилагодете ја темата, боите и изгледот на менаџерот на датотеки</string>
+    <string name="ui_summary">Контролирајте кои информации да се прикажуваат, приспособете ја страничната лента и префрлете ги преференциите на интерфејсот</string>
+    <string name="behavior_summary">Променете ги однесувањата како што се напредното пребарување и дали да се отвораат датотеките како нова задача</string>
+    <string name="security_summary">Поставете лозинка и шифрирање</string>
+    <string name="backup_summary">Извези/увези поставки Amaze</string>
+
+    <string name="pref_export">Извези</string>
+    <string name="pref_export_summary">Извези поставки</string>
+    <string name="pref_import">Увези</string>
+    <string name="pref_import_summary">Увези поставки</string>
+
+    <string name="quick_desc">Files неодамна пристапено преку Amaze</string>
+    <string name="recent_desc">Неодамна креирани или изменети датотеки</string>
+    <string name="error_cannot_find_way_open">Не можам да најдам начин да ја отворам датотеката</string>
+    <string name="error_cant_decompress_that_file">Не можам да ја обработам бараната архива</string>
+    <string name="analyse_storage">Анализирај го складиштето</string>
+    
+    <string name="download_amaze_utils_text">Ве пренасочуваат на Amaze File Utilities. Тоа е нашата апликација со отворен код која има вградени гледачи на аудио/видео/слики/документи, ви овозможува да анализирате непотребни датотеки за да ослободите простор, брзо пренесување со помош на Wifi P2P и многу повеќе.\nВе молиме поддржете нѐ пробувајќи ја.</string>
+    <string name="download">Преземи</string>
+    
+    <string name="amaze_utils_installed_alias">Ви благодариме што инсталиравте Amaze File Utilities. Ве пренасочуваат на апликацијата.</string>
+    <string name="image_viewer">Amaze прегледувач на слики</string>
+    <string name="video_player">Amaze Видео плеер</string>
+    
+    <string name="pdf_viewer">Amaze Прегледувач на документи</string>
+    <string name="docx_viewer">Amaze Прегледувач на документи</string>
+    <string name="share_logs">Сподели дневници</string>
+    <string name="share_logs_summary">Сподели снимени дневници преку е-пошта / телеграма</string>
+    <string name="open_with_amaze">Отвори со Amaze</string>
+    <string name="confirmation">Потврда</string>
+    <string name="open_file_confirmation">Дали сте сигурни дека сакате да ја отворите следната датотека?\n\nИме:\n%s\n\nЛокација:\n%s\n\nГолемина:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Според овластувањата од политиката на Google Play, апликациите не смеат сами да се ажурираат. Ажурирајте ја апликацијата од Google Play.</string>
+    <string name="error_cannot_get_package_info">Не може да се добијат информации за пакетот од датотеката \"%s\". Или наведената датотека не е APK или датотеката на пакетот е оштетена.</string>
+    <string name="preference_delete_confirmation">Избришете ја потврдата</string>
+    <string name="preference_delete_confirmation_summary">Побарајте потврда пред да ги избришете датотеките. Оневозможувањето на ова е многу обесхрабрено!</string>
+    
+    
+    <string name="protocol_ftps">Безбеден FTP</string>
+    <string name="unavailable">Недостапен</string>
+
+    <string name="exporting_failed">Извозот не успеа: не можеше да се напише резервната датотека</string>
+    <string name="importing_failed">Увозот не успеа: не можеше да се прочита резервната копија датотека</string>
+    <string name="importing_completed">Увозот е завршен</string>
+    <string name="invalid_backup_file">Неважечка резервна датотека</string>
+    <string name="import_failed_for">Увозот не успеа за:</string>
+    <string name="free_of">„%s\n%s без %s</string>
+    <string name="cloud_error_fdroid">Приклучокот Amaze Cloud не е поддржан со F- Верзија на Droid. Користете ја верзијата на Amaze во Play Store.</string>
+    <string name="disable_player_intent_filters">Оневозможи филтри за намери на играчот</string>
+    <string name="disable_player_intent_filters_summary">Оневозможува вградени медиа плеери Amaze од избирачот на датотеки</string>
+    <string name="no_app_found_intent">Не е пронајдена апликација за справување со оваа намера. имате инсталирано DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Исчистени акредитациите за Cloud Connection</string>
+    <string name="cloud_connection_credentials_cleared_msg">За жал, не можевме да ги префрлиме вашите акредитации за поврзување во облак во новата шема на базата на податоци и моравме да ги отстраниме од апликацијата. облакот повторно.</string>
+</resources>

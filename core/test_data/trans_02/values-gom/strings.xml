@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">फायल वेवस्थापक अजापीत करात</string>
+    <string name="drawer_open">नेव्हिगेशन ड्रॉअर उगडात</string>
+    <string name="drawer_close">नेव्हिगेशन ड्रॉअर बंद करात</string>
+    <string name="icon">चिन्न</string>
+    <string name="apps">ऍप्लिकेशन वेवस्थापक</string>
+    <string name="ftp">FTP सर्वर</string>
+    <string name="setting">सेटिंग्ज</string>
+    <string name="select">आयटम निवडात</string>
+    <string name="press_again">बाह्यपाक परतून दामचें</string>
+    <string name="open">उगडचें</string>
+    <string name="backup">बॅकअप</string>
+    <string name="uninstall">अनइन्स्टॉल</string>
+    <string name="play">प्ले स्टोर</string>
+    <string name="properties">गुणधर्म</string>
+    <string name="copyingapks">%d APK फायली %s कडेन कॉपी करप</string>
+    <string name="delbook">बुकमार्क काडून उडोवप</string>
+    <string name="add_to_bookmarks">बुकमार्कांत जोडचें</string>
+    <string name="enterpath">मार्ग दाखयात</string>
+    <string name="cancel">रद्द करचें</string>
+    <string name="create">निर्मित करचें</string>
+    <string name="loading">लोड करता...</string>
+    <string name="file_empty">फायल रिती आसा</string>
+    <string name="error">त्रुटी</string>
+    <string name="search_results">%s च्या सोद परिणाम</string>
+    <string name="rename">नांव बदलचें</string>
+    <string name="save">सावचें</string>
+    <string name="bookmarks_added">बुकमार्क जोडले</string>
+    <string name="fileexist">तेच नांवाची फायल पयलींच अस्तित्वांत आसा</string>
+    <string name="name">नांव</string>
+    <string name="date">तारीक</string>
+    <string name="location">स्थान</string>
+    <string name="size_capitalized">फोल्डराचो आकार</string>
+    <string name="size">आकार</string>
+    <string name="enterzipname">झिप नांव दाखयात</string>
+    <string name="no_app_found">ही फायल उगडपाक खंयचोच अॅप मेळूंक ना</string>
+    <string name="copying">कॉपी करप</string>
+    <string name="moving">हालप</string>
+    <string name="file">फायल</string>
+    <string name="folder">फोल्डर</string>
+    <string name="newfolder">नवें फोल्डर</string>
+    <string name="entername">नांव दाखयात</string>
+    <string name="extracting">काडून घेवप</string>
+    <string name="stopping">थांबवप</string>
+    <string name="open_parent">पालक निर्देशिका उगडात</string>
+    <string name="open_with"/>
+    <string name="share">वांटून घेयात</string>
+    <string name="about"/>
+    <string name="extract">काडून</string>
+    <string name="compress">संकुचीत करात</string>
+    <string name="yes">विशींउगडात&gt;होय</string>
+    <string name="no">ना</string>
+    
+    <string name="dialog_delete_category_directories">निर्देशिका</string>
+    <string name="dialog_delete_category_files">फायली</string>
+    <string name="dialog_delete_disclaimer">खाला दिल्ल्यो वस्तू काडून उडोवप तुमच्या डिव्हायसा वयल्यान कायमचे काडून उडयतले आनी त्यो परत मेळोवंक मेळच्यो नात.</string>
+    <string name="dialog_delete_title">आयटम कायमचे काडून उडोवप?</string>
+    <string name="deleting">काडून उडोवप</string>
+    <string name="question_set_path_as_home">तुमकां ह्या टॅबा खातीर सद्याचो मार्ग घर म्हणून सेट करपाचो आसा?</string>
+    <string name="directorysort">निर्देशिका क्रमवारी मोड</string>
+    <string name="sort_by">क्रमवारी प्रमाण</string>
+    <string name="sort_only_this">फकत हें फोल्डर</string>
+    <string name="theme">थीम</string>
+    <string name="random">रॅंडम स्किन</string>
+    <string name="random_summary">स्टार्टअप करतना यादस्तिक प्राथमीक रंग सेट करता</string>
+    <string name="colorize">चिन्न रंगीत करप</string>
+    <string name="colorize_summary">सेट करता स्थिर चिन्न रंग. निर्देशिका चिन्न रंग पसंतीचेर अधिलिखित करीना.</string>
+    <string name="home">मुखेल</string>
+    <string name="paste">पेस्ट</string>
+    <string name="history">इतिहास</string>
+    <string name="copy">कॉपी</string>
+    <string name="root_mode">मूळ एक्सप्लोरर</string>
+    <string name="root_mode_summary">फकत रूट केल्ल्या डिव्हायसा खातीर. तुमकां ताचे विशीं खात्री आसल्यारच ती तपासात.</string>
+    <string name="root_failure">मूळ प्रवेश मंजूर ना</string>
+    <string name="select_all">सगले निवडात</string>
+    <string name="delete">काडून उडोवप</string>
+    <string name="set_as_home">घर म्हणून सेट करात</string>
+    <string name="operation_not_supported">ऑपरेशन समर्थीत ना</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">सामग्री उजवाड</string>
+    <string name="dark">सामग्री काळो</string>
+    <string name="daytime">दिसाचो वेळ</string>
+    <string name="black">काळो (OLED खातीर)</string>
+    <string name="system">प्रणाली (प्रणाली थीम पाळचो)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">वयल्यान फोल्डर</string>
+    <string name="filesOnTop">वयल्यान फायली</string>
+    <string name="none_on_top">वयल्यान कोणूच ना</string>
+    <!--SortBy-->
+    <string name="sort_name">नांव</string>
+    <string name="lastModified">निमाणें सुदारीत</string>
+    <string name="sort_size">आकार</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">फायल वेंचून काडात</string>
+    <string name="process_viewer">प्रक्रिया पळोवपी</string>
+    <string name="in_safe">अपुरे जागो</string>
+    <string name="no_file_overwrite">फायल ओव्हररायट ना</string>
+    <string name="skip">वगडावचें</string>
+    <string name="overwrite">ओव्हररायट</string>
+    <string name="not_allowed">परवानगी ना</string>
+    <string name="searching">%s</string>
+    <string name="done">सोदप&gt;पूर्ण</string>
+    <string name="set">सेट</string>
+    <string name="enablerootmde">मूळ मोड सक्षम</string>
+    <string name="goback">फाटीं वच</string>
+    <string name="newfile">नवी फायल</string>
+    <string name="no_files">फायली ना</string>
+    <string name="used">वापरल्ली सुवात</string>
+    <string name="used_by_others">हेरांनी वापरिल्ली</string>
+    <string name="free">मुक्त सुवात</string>
+    <string name="listview">सूची पळोवप</string>
+    <string name="gridview">जाळी पळोवप</string>
+    <string name="permission">परवानग्यो</string>
+    <string name="hide">लिपोवप</string>
+    <string name="exit">बाह्य</string>
+    <string name="doforall">सगल्या वस्तूं खातीर करात</string>
+    <string name="gridcolumnno">जाळी दृश्यांतल्या स्तंभांची संख्या</string>
+    <string name="set_random">तुमी ऍप्लिकेशन परतून सुरू केल्या उपरांत बदल जातले</string>
+    <string name="authors">लेखक</string>
+    <string name="changelog">बदलाचो लॉग</string>
+    <string name="ok">ठीक</string>
+    <string name="ui">संवाद</string>
+    <string name="general">सामान्य</string>
+    <string name="thumb_summary">ऍप्लिकेशनां आनी प्रतिमांचे लघुप्रतिमा दाखोवचे</string>
+    <string name="thumb">लघुप्रतिमा दाखोवचे</string>
+    <string name="hidden">लिपल्ले फायली आनी फोल्डर दाखोवचे</string>
+    <string name="lastModifiedSummary">निमाणे बदलाची तारीख आनी वेळ दाखोवचो</string>
+    <string name="lastModifiedPref">निमाणी सुदारीत तारीक दाखोवची आनी वेळ</string>
+    <string name="size_pref_summary">फायलांचे आकार आनी फोल्डरांतल्या वस्तूंची संख्या दाखोवची</string>
+    <string name="size_pref">आकार दाखोवची</string>
+    <string name="miscellaneous">विविध</string>
+    <string name="root_pref_summary">फायल आनी फोल्डरांची परवानगी दाखोवची</string>
+    <string name="root_pref">परवानगी दाखोवची</string>
+    <string name="about_amaze_file_manager_label">Amaze फायल वेवस्थापक</string>
+    <string name="version">आवृत्ती</string>
+    <string name="rate">ऍप्लिकेशनाक रेट करात</string>
+    <string name="feedback">प्रतिसाद धाडात</string>
+    <string name="hiddenfiles">लिपिल्लीं फायली</string>
+    <string name="type">टाइप करात</string>
+    <string name="root_directory">मूळ</string>
+    <string name="add_shortcut">शॉर्टकट जोडात</string>
+    <string name="unsaved_changes">संचयल्ले बदल</string>
+    <string name="unsaved_changes_description">तुमचे कडेन जतनाय नाशिल्ले बदल आसात, तुमकां भायर सरचे पयलीं ते जतनाय घेवपाचे आसात?</string>
+    <string name="saving">जतनाय</string>
+    <string name="package_installer">पॅकेज इंस्टॉलर</string>
+    <string name="view">पळोवप</string>
+    <string name="install">स्थापीत करात</string>
+    <string name="archive">संग्रह</string>
+    <string name="archive_text">हें एक संग्रह आसा. तुमकां खंयची कृती करपाक आवडटली?</string>
+    <string name="package_installer_text">हो एक पॅकेज प्रतिष्ठापक आसा. तुमकां खंयची कृती करपाक आवडटली?</string>
+    <string name="xda_title">XDA धागो</string>
+    <string name="xda_summary">प्रस्न आनी जाप, मदत आनी समस्या निवारण</string>
+    <string name="circular_images">प्रतिमा आनी व्हिडियो खातीर वर्तुळाकार चिन्नां वापरात</string>
+    <string name="circular_icons">वर्तुळाकार चिन्न वापरात</string>
+    <string name="back_title">फाटीं नेव्हिगेशन</string>
+    <string name="back_summary">वळेरेच्या वयल्या भागांत सानुकूल बॅक नेव्हिगेशन सक्षम करता</string>
+    <string name="details">तपशील</string>
+    <string name="translators">अणकारपी</string>
+    <string name="german_translation_title">जर्मन</string>
+    <string name="italian_translation_title">इटालियन</string>
+    <string name="french_translation_title">फ्रेंच</string>
+    <string name="russian_translation_title">रशियन</string>
+    <string name="spanish_translation_title">स्पेनिश</string>
+    <string name="basque_translation_title">बास्क</string>
+    <string name="chinese_translation_title">चीनी</string>
+    <string name="serbian_translation_title">सर्बियन</string>
+    <string name="turkish_translation_title">तुर्की</string>
+    <string name="ukrainian_translation_title">युक्रेनियन</string>
+    <string name="portuguese_translation_title">पोर्तुगेज</string>
+    <string name="polish_translation_title">पोलिश</string>
+    <string name="korean_translation_title">कोरियन</string>
+    <string name="greek_translation_title">ग्रीक</string>
+    <string name="dutch_translation_title">डच</string>
+    <string name="romanian_translation_title">रोमनियन</string>
+    <string name="vietnamese_translation_title">व्हिएतनामी</string>
+    <string name="japanese_translation_title">जपानी</string>
+    <string name="tamil_translation_title">तमिळ</string>
+
+    <string name="zip_viewer">झिप व्ह्यूअर</string>
+    <string name="unin_system_apk">हो एक प्रणाली ऍप्लिकेशन आसा, तो काडून उडयल्यार प्रणाली अस्थिरताय येवंक शकता.\nफुडें वचचें?</string>
+    <string name="warning">शिटकावणी</string>
+    <string name="donate">दान करचें</string>
+    <string name="archive_extract_folder">संग्रह काडचें फोल्डर</string>
+    <string name="archive_summary">संग्रह फायली ह्या फोल्डरांत काडटले. मुलभूत मोल म्हळ्यार संग्रह हाजीर आशिल्ली निर्देशिका.</string>
+    <string name="open_as">अशें उगडात</string>
+    <string name="text">मजकूर</string>
+    <string name="audio">ऑडियो</string>
+    <string name="video">व्हिडियो</string>
+    <string name="other">हेर</string>
+    <string name="image">प्रतिमा</string>
+    <string name="contributors">योगदानदार</string>
+    <string name="save_paths">मार्ग याद दवरात</string>
+    <string name="save_path_summary">सुरवात करतना, दरेक टॅबा खातीर सगळ्यांत हालीं पळयल्लें फोल्डर दाखयतले</string>
+    <string name="select_intent">निवडात</string>
+    <string name="database">डेटाबेस</string>
+    <string name="colored_navigation">रंगीत नेव्हिगेशन पट्टी</string>
+    <string name="colored_navigvation_sum">सिस्टम नेव्हिगेशन पट्टी कातीन रंगीत आसा काय ना</string>
+
+    <string name="color_title">रंग</string>
+    <string name="color_summary">रंग वेगवेगळ्या UI घटकांक सेट करचो</string>
+    <string name="primary_color_title">प्राथमिक रंग (डावो टॅब)</string>
+    <string name="primary_color_summary">डाव्या टॅबा खातीर व्हडल्या UI घटकांक रंग सेट करचो</string>
+    <string name="accent_color_title">उच्चार रंग</string>
+    <string name="accent_color_summary">रंग FAB आनी हेर ल्हान UI चेर सेट करचो घटक</string>
+    <string name="icon_color_title">चिन्न रंग</string>
+    <string name="icon_color_summary">चिन्नांचेर रंग सेट करात</string>
+    <string name="choose_color">रंग निवडात</string>
+    <string name="files">फायली</string>
+    <string name="textreader">मजकूर वाचक</string>
+    <string name="databasereader">डेटाबेस वाचक</string>
+    <string name="show_dividers">विभाजक दाखोवचे</string>
+    <string name="needs_access">बरोवपाचो प्रवेश गरजेचो</string>
+    <string name="needs_access_summary">उपकार करून \t</string>
+    <string name="needs_access_summary1">\t ची मुळावी निर्देशिका निवडात</string>
+    <string name="smb_connection">चालीक लावपाक बरोवपाचो प्रवेश दिवचो एसएमबी जोडणी</string>
+    <string name="smb_server">सर्व्हर आयपी पत्तो</string>
+    <string name="server_address">सर्व्हर आयपी पत्तो</string>
+    <string name="username">वापरप्याचें नांव</string>
+    <string name="password">गुप्तशब्द</string>
+    <string name="anonymous">अनामिक</string>
+    <string name="bluetooth">ब्लूटूथ</string>
+    <string name="folders">फोल्डर</string>
+    <string name="folderfilecount">%1$d फोल्डर आनी %2$d फायली</string>
+    <string name="videos">व्हिडियो</string>
+    
+    <string name="documents">दस्तावेज</string>
+    <string name="images">प्रतिमा</string>
+    <string name="clear">साफ</string>
+    
+    <string name="total">एकूण:</string>
+    <string name="calculating">गणना करप</string>
+    <string name="sort">क्रमवारी</string>
+    <string name="ascending">चडपी</string>
+    <string name="descending">उतरपी</string>
+    <string name="default_string">मुळावें</string>
+    <string name="doit">तें काय</string>
+    <string name="want_help">मदत जाय?</string>
+    <string name="quick">बेगीन प्रवेश</string>
+    <string name="recent">हालींच्या फायली</string>
+    <string name="edit">संपादन</string>
+    <string name="find">पानांत सोदून काडात</string>
+    <string name="grant">अनुदान दिवप</string>
+    <string name="grantper">परवानगी दिवप</string>
+    <string name="grantfailed">परवानगी दिवंक ना</string>
+    <string name="grant_storage_permission">अॅप चालू दवरपाक साठवण परवानगी जाय. हो संवाद रद्द केल्यार ऍप्लिकेशनांतल्यान भायर सरतले.</string>
+    <string name="operation_unsuccesful">ऑपरेशन अयशस्वी</string>
+    <string name="creatingfile">फायल तयार करप</string>
+    <string name="creatingfolder">फोल्डर तयार करप</string>
+    <string name="renaming">नांव बदलप</string>
+    <string name="cant_be_empty">%s रितें जावंक शकना</string>
+    <string name="ip">पत्तो</string>
+    <string name="connection_name">जोडणी नांव</string>
+    <string name="no_device_found">डिव्हायस मेळूंक नात</string>
+    <string name="path">मार्ग</string>
+    <string name="rename_bookmark">बुकमार्क बदलचो</string>
+    <string name="cut">काप</string>
+    <string name="search">सोद</string>
+    <string name="invalid_name">अवैध नांव</string>
+    <string name="search_hint">सोदपाक प्रकार...</string>
+    <string name="advanced_search">प्रगत सोद</string>
+    <string name="regular_expression">नियमित अभिव्यक्ती</string>
+    <string name="regular_expression_summary">BASH शैलीची नियमित अभिव्यक्ती वापरून सोद</string>
+    <string name="match_content">सामुग्री जुळोवप</string>
+    <string name="match_content_summary">सेट केल्यार, नियमित अभिव्यक्ती पुराय फायल नावाकडेन जुळयतले,
+        हेर तरेन घडणूक सोदतले.</string>
+    <string name="start_ftp">सुरू करात</string>
+    <string name="stop_ftp">थांब</string>
+    <string name="ftp_status_running">चालू आसा</string>
+    <string name="ftp_status_not_running">चालू ना</string>
+    <string name="ftp_no_wifi">तुमी Wi कडेन जोडिल्ले आसात हाची खात्री करात -Fi</string>
+    <string name="domain">डोमेन</string>
+    <string name="smb_share">शेअर मार्ग</string>
+    <string name="invalid">अवैध %s</string>
+    <string name="ftp_notif_starting">FTP सर्वर सुरू जाता</string>
+    <string name="ftp_notif_starting_title">FTP सर्वर</string>
+    <string name="ftp_notif_title">FTP सर्वर चलता तें अजापीत करचें</string>
+    <string name="ftp_notif_text">%s हांगा</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP पोर्ट</string>
+    <string name="ftp_port_change_success">FTP पोर्ट यशस्वीपणान बदलला</string>
+    <string name="ftp_port_change_error_invalid">अवैध पोर्ट क्रमांक निवडला</string>
+    <string name="primary_two_title">प्राथमिक रंग (उजवो टॅब)</string>
+    <string name="primary_two_summary">उजव्या टॅबाखातीर व्हड UI घटकांक रंग सेट करचो</string>
+    <string name="support_development">आदार विकास</string>
+    <string name="report_bugs_title">बग अहवाल</string>
+    <string name="source_title">स्त्रोत कोड</string>
+    <string name="source_summary">GitHub चेर आमचो स्त्रोत कोड पळयात</string>
+    <string name="report_bugs_summary">बग अहवाल दिवचो वा नव्या खाशेलपणाची विनंती करची</string>
+    <string name="translate_title">अणकार करचो</string>
+    <string name="translate_summary">अणकार करचो तुमच्या भाशेंत अजापीत करात</string>
+    <string name="paypal_copy_message">पेपॅल आयडी क्लिपबोर्डाचेर कॉपी केल्या</string>
+    <string name="searching_devices">डिव्हायस सोदता</string>
+    <string name="use_custom_ip">सानुकूल IP वापरात</string>
+    <string name="bookmark_lost">बुकमार्क मेळूंक ना, परतून तयार करतात...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Android (SMB) चेर शेअर केल्ल्या Windows फोल्डरांत कसो प्रवेश करचो\n\n
+                
+                    
+                        Windows चेर फायल वांटणी सक्षम करात\n
+                    
+                    
+                        नियंत्रण पॅनल उगडात, नेटवर्का खाला HomeGroup आनी शेअरिंग पर्याय निवडात क्लिक करात
+                        आनी इंटरनॅट, आनी "प्रगत वांटणी मांडावळी बदलात" क्लिक करात, "फायल आनी...
+                        मुद्रक वांटणी" वैशिश्ट्य.\n\n
+                    
+
+                    
+                        अतिरिक्त फायल वांटणी मांडावळी\n
+                    
+                    
+                        तुमकां हांगा हेर प्रगत वांटणी मांडावळीय संरचीत करपाक जाय आसतली. \n
+                        देखीक, तुमी सगळ्यांचेर विस्वास दवरल्यार पासवर्ड नासतना तुमच्या फायलींनी प्रवेश सक्षम करूंक शकतले
+                        तुमच्या थळाव्या नेटवर्काचेर आशिल्लीं साधनां. एकदां फायल आनी मुद्रक वांटणी सक्षम केल्या उपरांत, तुमी करूंक शकतात
+                        फायल एक्सप्लोरर वा Windows एक्सप्लोरर उगडात, तुमकां वांटपाक जाय आशिल्ल्या फोल्डराचेर उजवें-क्लिक करात, आनी
+                        गुणधर्म निवडात. \n
+                        वांटणी बटण क्लिक करात आनी फोल्डर नेटवर्काचेर उपलब्ध करात.\n\n
+                        
+
+                    
+                        दोनूय डिव्हायस एकाच Wifi चेर आसात हाची खात्री करात\n
+                    
+                    
+                        हे वैशिश्ट्य थळाव्या नेटवर्काचेर फायली उपलब्ध करता, देखून तुमचे PC आनी मोबायल डिव्हायस
+                        त्याच थळाव्या नेटवर्काचेर आसपाक जाय. तुमी वांटून घेतिल्ल्या Windows फोल्डरांत प्रवेश करूंक शकना
+                        इंटरनॅटाचेर वा तुमचो स्मार्टफोन ताच्या मोबायल डेटा कडेन जोडिल्लो आसतना — तो
+                        वाय-फाय कडेन जोडपाक जाय.\n\n
+                    
+
+                    
+                        IP पत्तो सोदून काडात\n
+                    
+                    
+                        आदेश प्रॉम्प्ट उगडात. \'ipconfig\' टाइप करात आनी Enter दामयात. डिफॉल्ट गेटवे सोदचो
+                        तुमच्या राऊटराच्या IP पत्त्या खातीर तुमच्या नेटवर्क अडॅप्टरा खाला. सोदचें
+                        तुमच्या संगणकाचो IP सोदपाखातीर त्याच अडॅप्टर विभागाखाला \\\"IPv4 पत्तो\\\"
+                        पत्तो.\n\n
+                    
+
+                    SMB संवाद बॉक्सांत तपशील दाखयात\n
+                
+            
+        
+   </string>
+    <string name="share_limit">100 परस चड फायली वांटून घेवंक मेळना</string>
+    <string name="otg_access">OTG डिव्हायसाचें मूळ निवडात</string>
+    <string name="information">माहिती</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">ऍक्सॅस</string>
+    <!-- reference to file modified date -->
+    <string name="modified">सुदारीत</string>
+
+    <string name="title">शीर्षक</string>
+    <string name="artist">कलाकार</string>
+    <string name="album">आल्बम</string>
+    <string name="year">वर्स</string>
+    <string name="duration">काळ</string>
+    <string name="comment">टिप्पणी</string>
+    <!-- reference to audio/video file -->
+    <string name="container">कंटेनर</string>
+    <string name="codec">कोडेक</string>
+    <string name="channels">चॅनल</string>
+    <string name="sample_rate">नमुनो दर</string>
+    <string name="bitrate">बिटरेट</string>
+    <string name="dimensions">आयाम</string>
+    <string name="frame_rate">फ्रेम दर</string>
+    <string name="image_type">प्रतिमा प्रकार</string>
+    <string name="width">रुंदी</string>
+    <string name="height">उंचाय</string>
+    <string name="date_modified">तारीक सुदारीत</string>
+    <string name="software">सॉफ्टवेअर</string>
+    <string name="creator">निर्मातो</string>
+    <string name="camera_brand">कॅमेरा ब्रँड</string>
+    <string name="camera_model">कॅमेरा मॉडेल</string>
+    <string name="date_taken">घेतिल्ली तारीख</string>
+    <string name="exposure_time">एक्सपोझर वेळ</string>
+    <string name="aperture_value">एपर्चर मोल</string>
+    <string name="image_iso">ISO गती रेटिंग</string>
+    <string name="flash_fired">फ्लॅश फायर केल्ली</string>
+    <string name="focal_length">फोकल लांबाय</string>
+    <string name="subject">विशय</string>
+    <string name="author">लेखक</string>
+    <string name="keywords">मुखेल शब्द</string>
+    <string name="producer">निर्मातो</string>
+    <string name="created">निर्मित</string>
+    <string name="format">स्वरूप</string>
+    <string name="pages">ची संख्या पान</string>
+    <!-- reference to a document file -->
+    <string name="optimized">अनुकूल</string>
+    <string name="security">सुरक्षीतताय</string>
+    <string name="paper_size">कागदाचो आकार</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">कांय फायली %s</string>
+    <string name="copied">प्रतिलिपी</string>
+    <string name="moved">यशस्वीपणानजावंकना&gt;हाडलो</string>
+    <string name="copy_complete">प्रत पुराय</string>
+    <string name="waiting_title">राखून</string>
+    <string name="waiting_content">ऑपरेशन पुराय जावपाची वाट पळयता</string>
+    <string name="extract_complete">काडप पुराय</string>
+    <string name="compression_complete">संपीडन पुराय</string>
+    <string name="compressing">संपीडन</string>
+    <string name="cancelled">रद्द केलां</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">बरयलां</string>
+    <string name="out_of">च्या</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">भायर</string>
+    <string name="processing_file">प्रक्रिया फायल</string>
+    <string name="current_speed">सद्याची गती</string>
+    <string name="smb_launch_error">तुमकां ही फायल उगडपाक साठवणेंत कॉपी करची पडटली</string>
+    <string name="error_file_not_found">त्रुटी: फायल मेळूंक ना</string>
+    <string name="error_io">I/O त्रुटी</string>
+    <string name="error_file_too_large">त्रुटी: फायल चड व्हड</string>
+    <string name="medium_text">मध्यम मजकूर</string>
+    <string name="permission_read">वाचात</string>
+    <string name="permission_write">बरयात</string>
+    <string name="permission_execute">कार्यान्वीत करात</string>
+    <string name="permission_owner">मालकीदार</string>
+    <string name="permission_group">गट</string>
+    <string name="permission_other">हेर</string>
+    <string name="clipboard_path_copy">क्लिपबोर्डाचेर कॉपी केल्लो मार्ग</string>
+    <string name="service_timer">वेळ गेलो</string>
+    <string name="please_wait">कृपया वाट पळयात</string>
+
+    <string name="cloud_connection">मेघ जोडणी</string>
+    <string name="cloud_connection_new">नवी मेघ जोडणी</string>
+    <string name="cloud_dropbox">ड्रॉपबॉक्स</string>
+    <string name="cloud_drive">Google ड्रायव्हTM</string>
+    <string name="cloud_onedrive">वनड्रायव्ह</string>
+    <string name="cloud_box">बॉक्स</string>
+    <string name="cloud_get">मेघ प्लगइन मेळोवचो</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">ना ऍप्लिकेशनां</string>
+    <string name="ftp_path">वांटणी केल्लो मार्ग</string>
+    <string name="ftp_path_hint">वांटणी करपाक निर्देशिकेच्या मुळाक मार्ग</string>
+    <string name="change">बदलात</string>
+    <string name="unknown_error">उफ, कितें तरी चुकलें!</string>
+
+    <string name="ftp_path_change_success">FTP मार्ग यशस्वीपणान बदलला</string>
+    <string name="ftp_path_change_error_invalid">अवैध मार्ग</string>
+    <string name="ftp_status_no_connection">जोडणी ना</string>
+    <string name="ftp_status_secure_connection">सुरक्षीत जोडणी</string>
+    <string name="ftp_status_title">स्थिती</string>
+    <string name="ftp_port">पोर्ट</string>
+    <string name="ftp_login">लॉगिन</string>
+    <string name="field_empty">क्षेत्र रितें आसूंक शकना</string>
+    <string name="ftp_timeout">निश्क्रीय कालबाह्य</string>
+    <string name="ftp_seconds">सेकंद</string>
+    <string name="intellihide_toolbar_title">इंटेलीहिड साधनपट्टी</string>
+    <string name="intellihide_toolbar_summary">स्क्रॉल करतना साधनपट्टी आपोआप लिपोवची</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">क्लिपबोर्डाचेर कॉपी केल्या</string>
+    <string name="contributors_1_summary">अणकार</string>
+    <string name="contributors_2_summary">चिन्न आनी बॅनर</string>
+    <string name="contributors_3_summary">थीम इंजिन</string>
+    <string name="contributors_4_summary">FAB फाटल्यान सावळी</string>
+    <string name="contributors_5_summary">टॅब स्वाइप करतना रंग संक्रमण</string>
+    <string name="contributors_6_summary">FTP सर्वर</string>
+    <string name="contributors_7_summary">परस्पर संवादात्मक शेल फायर करप</string>
+    <string name="connection_exists">जोडणी पयलींच अस्तित्वांत आसा</string>
+
+    <string name="crypt_encrypting">एनक्रिप्ट करप</string>
+    <string name="crypt_decrypting">डिक्रिप्ट करप</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">एनक्रिप्टेड</string>
+    <string name="crypt_decrypted">डिक्रिप्टेड</string>
+    <string name="crypt_encrypt">एनक्रिप्ट</string>
+    <string name="crypt_decrypt">डिक्रिप्ट</string>
+    <string name="operation_fail_following">फुडल्या फायलींखातीर ऑपरेशन अपयशी</string>
+    <string name="crypt_pref_master_password_title">मास्टर पासवर्ड</string>
+    <string name="crypt_pref_master_password_summary">एनक्रिप्शनाक मास्टर पासवर्ड सेट करचो.
+        काडपाक रितें सोडचें.</string>
+    <string name="crypt_pref_fingerprint_title">बोटांचो छाप</string>
+    <string name="crypt_pref_fingerprint_summary">एनक्रिप्शन प्रमाणीत करपाक बोटांचो छाप वापरात</string>
+    <string name="crypt_fingerprint_no_permission">बोटांचो छाप परवानगी गळून पडल्या</string>
+    <string name="crypt_fingerprint_not_enrolled">बोटांचो छाप नोंदणी ना</string>
+    <string name="crypt_fingerprint_no_security">लॉकस्क्रीन सुरक्षा ना found</string>
+    <string name="crypt_warning_key">सल्लो दिवचो, जेन्ना तुमी तुमचो सुरक्षा नमुनो बदलतात
+        प्रणाली मांडावळी, तुमकां ही सामुग्री डिक्रिप्ट करूंक मेळची ना.</string>
+    <string name="warning_never_show">परत म्हायती दिवंक नाकात</string>
+    <string name="warning_confirm">सगल्यांत!</string>
+    <string name="crypt_encryption_fail">एनक्रिप्ट करपाक अपेस</string>
+    <string name="crypt_decryption_fail">डिक्रिप्ट करपाक अपेस</string>
+    <string name="crypt_decryption_fail_password">चुकीचो पासवर्ड!</string>
+    <string name="crypt_fingerprint_authenticate">चालू करपाक स्पर्श संवेदक</string>
+    <string name="authenticate_password">गुप्तशब्द दाखयात</string>
+
+    <string name="sidebar_preferences">साइडबार</string>
+    <string name="sidebar_quick_access_title">साइडबार बेगीन प्रवेश</string>
+    <string name="show_quick_access_pref_title">जलद प्रवेश दाखोवचो</string>
+    <string name="show_quick_access_pref">बेगीन प्रवेश</string>
+    <string name="directory">निर्देशिका</string>
+
+    <string name="sidebar_bookmarks_title">साइडबार बुकमार्क</string>
+    <string name="show_bookmarks_pref_title">बुकमार्क दाखोवचो</string>
+    <string name="show_bookmarks_pref">बुकमार्क</string>
+    <string name="create_bookmark">बुकमार्क तयार करात</string>
+    <string name="edit_bookmark">बुकमार्क संपादीत करात</string>
+    <string name="question_delete_bookmark">बुकमार्क काडून उडोवचो?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud प्लगइन मेळूंक ना. उपकार करून प्ले स्टोरांतल्यान डाउनलोड करात.</string>
+    <string name="cloud_error_failed_restart">जोडणी लोड करपाक अपेस.
+        उपकार करून Amaze Cloud एकदां उगडात.</string>
+    <string name="cloud_remove">तुमकां मेघ जोडणी काडून उडोवपाची आसा?</string>
+    <string name="cloud_fail_authenticate">प्रमाणीत करपाक अपेस</string>
+    <string name="cloud_share_copied">वांटणी करपाक येवपी दुवो क्लिपबोर्डाचेर कॉपी केला</string>
+    <string name="copy_low_memory">सोंपता मेमरी, उपकार करून कांय रॅम निवळ करात</string>
+    <string name="cloud_token_lost">टोकन गमावलां, उपकार करून परतून सायन-इन करात</string>
+    <string name="monofont">मोनोस्पेस फॉन्ट</string>
+    <string name="showHeaders">शीर्षक दाखोवचे</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">आयटम ना</string>
+	<string name="item">आयटम</string>
+	<string name="items">आयटम</string>
+	
+	<string name="byte_singular">बाइट</string>
+	<string name="bytes">बाइट</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">फायलीचें नांव आसूंक जाय</string>
+    <string name="add_item">वस्तू जोडचें</string>
+    <string name="failed_smb_decrypt_path">SMB जोडणी लोड करपाक अपेस</string>
+    <string name="failed_cloud_new_connection">नवें मेघ जोडणी जोडपाक अपेस</string>
+    <string name="failed_cloud_api_key">अपयशी मेघ प्लग-इन प्रमाणीत करचें</string>
+
+    <string name="local_inet_addr_error">थळावो inet पत्तो मेळपाक त्रुटी</string>
+    <string name="intent_save_as">अशें जतनाय घेयात...</string>
+    <string name="go">गो</string>
+    <string name="advanced">प्रगत</string>
+    <string name="typeable_paths_title">सानुकूल मार्ग</string>
+    <string name="typeable_paths_summary">सानुकूल मार्ग टाइप करपाक मार्ग पट्टी लांब दामचो</string>
+    <string name="send_email_to"/>
+
+    <string name="text_editor">मजकूर संपादक मांडावळी</string>
+    <string name="preference_newstack_title">नव्या काम म्हणून फायली उगडात</string>
+    <string name="preference_newstack_summary">हाचेर ई-मेल धाडात तुमकां वेगवेगळ्या कार्यांनी फायली उगडपाक परवानगी दिता. सिस्टम रिसेंट स्क्रीन वयल्यान तांकां ऍक्सॅस करचो.</string>
+    
+    <string name="developers">विकासक</string>
+    <string name="no_bitcoin_app">कृपया बिटकॉइन वॉलेट ऍप्लिकेशन स्थापीत करचें</string>
+    <string name="channel_name_normal">अचर्चित अधिसुचोवण्यो</string>
+    <string name="channel_description_normal">फायल वेवस्थापकाची अधिसुचोवण्यो अजापीत करात</string>
+    <string name="channel_name_ftp">Amaze FTP सर्वर</string>
+    <string name="channel_description_ftp">Amaze फायल वेवस्थापक FTP सर्वर\'चीं अधिसुचोवण्यो</string>
+
+    
+    <string name="processing">प्रक्रिया करप...</string>
+    <string name="failed_no_connection">फायल लोड करपाक अपेस. उपकार करून तुमचें जोडणी तपासात.</string>
+
+    
+	<string name="scp_connection">SCP/SFTP जोडणी</string>
+    <string name="ftp_connection">FTP जोडणी</string>
+    <string name="ftps_connection">SSL जोडणीचेर FTP</string>
+    <string name="scp_port">पोर्ट</string>
+    <string name="ssh_host_key_verification_prompt">यजमान \'%1$s\' ची प्रामाणीकता स्थापन करूंक शकना.\n\n%2$s की बोटांचो छाप %3$s आसा.\n\nपुष्टी करपाक उपकार करून \"होय\" टॅप करात वळख; नाजाल्यार, उपकार करून \"ना\" टॅप करात.</string>
+    <string name="ssh_host_key_verification_prompt_title">यजमान सत्यापीत करात</string>
+    <string name="ssh_select_pem_button">SSH खाजगी की</string>
+    <string name="ssh_pem_key_parse_error">निवडिल्लें PEM वाचपाक शकना: %s</string>
+    <string name="password_unchanged">(बदलूंक ना)</string>
+    <string name="ssh_authentication_failure_password">लॉगऑन अपयशी: पुरवण केल्ल्या वापरप्याच्या नांवान आनी गुप्तशब्दान प्रमाणीत करूंक शकना.</string>
+    <string name="ssh_authentication_failure_key">लॉगऑन अपयशी: पुरवण केल्ल्या वापरप्याचें नांव आनी खाजगी की वरवीं प्रमाणीत करूंक शकना.</string>
+    <string name="ssh_connect_failed">%1$sकडेन जोडणी करूंक शकना s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">शिटकावणी: रिमोट यजमान वळख बदलल्या!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">कोण तरी कितें तरी वायट करता अशें शक्य आसा!\n\nकोण तरी तुमचें आयकून घेवंक शकता सध्या (मदलो मनीस हल्लो)! यजमान की नुस्तें बदलल्या अशेंय शक्य आसा. रिमोट यजमानान धाडिल्ले भौशीक की खातीर बोटांचो छाप Amaze त सांठयल्ल्या कडेन जुळना.\n\nउपकार करून तुमच्या प्रणाली प्रशासकाक ​​संपर्क सादचो वा सर्वराक जोडणी चालू दवरपाखातीर नवी जोडणी सेटअप करात.</string>
+    <string name="ssh_key_prompt_passphrase">उपकार करून की पासवाक्यांश दाखयात .</string>
+    <string name="add_shortcut_not_supported_by_launcher">शॉर्टकट तयार करपाक तुमच्या लाँचराक तेंको ना.</string>
+    
+    <string name="select_color_config">रंग संरचना निवडात</string>
+    <string name="customize">पसंतीचें</string>
+    <string name="custom">पसंतीचें</string>
+    <string name="preselected_configs_title">पूर्वनिवड केल्लीं संरचनां</string>
+    <string name="orange">नारिंगी</string>
+    <string name="blue">निळें</string>
+    <string name="green">पाचवें</string>
+    <string name="password_no_match">पासवर्ड जुळना</string>
+    <string name="deselect_all">सगलें निवडून काडचें</string>
+    <string name="filename">फायलनाव</string>
+    <string name="compress_file_suggest_zip_extension">फायल विस्तार म्हणून \".zip\" वापरपाची शिफारस केल्या.</string>
+    <string name="about_amaze">Android खातीर सामग्री डिझायन फायल वेवस्थापक</string>
+    <string name="license">परवानो</string>
+    <string name="libraries">लायब्ररी</string>
+    <string name="password_repeat">गुप्तशब्द परतून करचो</string>
+    <string name="create_file_suggest_txt_extension">फायल विस्तार म्हणून \".txt\" वापरपाची शिफारस केल्या.</string>
+    <string name="ssh_select_pem">प्रमाणीकरणाखातीर खाजगी की निवडात</string>
+    <string name="ssh_key_invalid_passphrase">अवैध की पासवाक्यांश.</string>
+    <string name="ssh_key_no_decoder_decrypt">पीईएम डिक्रिप्ट करपाक वैध डिकोडर ना.</string>
+    <string name="encryption_fail_copy">डेटाबेसांत एनक्रिप्शन नोंद अद्ययावत करपाक अपेस</string>
+    <string name="extracted">काडलां</string>
+    <string name="compressed">संकुचीत</string>
+    <string name="processed">प्रक्रिया केल्या</string>
+    <string name="no_obtainable_info">ह्या फायलीक माहिती ना</string>
+    <string name="reopen_from_source">Can\'t, उपकार करून निमाण्या अॅपा वयल्यान परतून उगडात</string>
+    <string name="no_file_error">कांय तरी चुकलें, उगडपाक कांयच ना</string>
+    <string name="file_too_long">The फायल चड लांब आसा आनी संपादीत करूंक मेळना, तरीपूण तुमी पयले %d अक्षर वाचूंक शकतात</string>
+    <string name="file_read_only">उगडिल्ली फायल फकत वाचपाखातीर आसा.</string>
+    <string name="got_it">मेळ्ळां!</string>
+    <string name="encrypt_file_save_as">एनक्रिप्टेड जतनाय घेयात फायल म्हणून...</string>
+    <string name="encrypt_folder_save_as">एनक्रिप्टेड फोल्डर म्हणून जतनाय घेयात...</string>
+    <string name="encrypt_option_use_aze">Amaze एनक्रिप्शन स्वरूप वापरात</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt हें AES एनक्रिप्शनाचेर आदारीत मुक्त स्रोत फायल एनक्रिप्शन स्वरूप आसा. तशेंच पोर्टेबल आसा, हेर प्लॅटफॉर्मांचेर AESCrypt कार्यावळींनी डिक्रिप्ट करूं येता.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">एईएसक्रिप्ट संकेतथळ</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[हें नांव
+        <p>Amaze\ चें एनक्रिप्शन स्वरूपूय AES एनक्रिप्शनाचेर आदारीत आसा; पूण AESCrypt स्वरूपा परस वेगळो, तो फकत ह्या डिव्हायसा वरवीं डिक्रिप्ट करूंक शकता; तशेंच तुमी ह्या डिव्हायसा वयल्यान Amaze फायल वेवस्थापक अनइन्स्टॉल करूंक फावना वा तुमी स्क्रीन लॉक करपाची पद्दत बदलूंक फावना, नाजाल्यार तुमकां एनक्रिप्टेड फायल परत मेळोवपाक मार्ग ना.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">एनक्रिप्टेड फायलींनी फायल विस्तार म्हणून \".aze\" वापरपाक जाय.</string>
+    <string name="encrypt_file_must_end_with_aes">एनक्रिप्टेड फायलींनी फायल विस्तार म्हणून \".aes\" वापरपाक जाय.</string>
+    <string name="error_aescrypt_decrypt_failed">डिक्रिप्ट करूंक मेळना \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">फायल परत बरोवंक मेळना.</string>
+    <string name="saved_single_file">फायल \'%s\' म्हणून जतनाय घेतल्या.</string>
+    <string name="saved_multi_files">%d फायली जतनाय घेतल्या.</string>
+    <string name="create_hidden_file_warn">निर्मित फायल फायल वळेरेंत लिपतली.</string>
+    <string name="grant_apkinstall_permission">ऍप्लिकेशनां स्थापीत करपाक ऍप्लिकेशनां चालू दवरपाक परवानगी जाय.</string>
+    <string name="time_remaining">उरिल्लो वेळ</string>
+    <string name="transfer_rate">हस्तांतरण दर</string>
+    <string name="unknown">अज्ञात</string>
+    <string name="multiple_invalid_archive_entries">संग्रहांतल्यो कांय फायली काडपाक मेळनात; संग्रह इबाडला वा दुर्भावनायुक्त स्त्रोता कडल्यान आयला आसूं येता.</string>
+    <string name="saf_otg_explanation">तुमी आतां सुरक्षेच्या कारणांक लागून Android\'s फायल प्रणालींत वचतले. उपकार करून डावी वटेनच्या वळेरेंतल्यान USB डिव्हायस निवडात.</string>
+    <string name="donation_thanks">दान दिल्ल्या खातीर तुमचे उपकार, हाका लागून आमकां प्रेरणा मेळटा! (:</string>
+    <string name="enable_marquee_filename">फायल नांवांखातीर मार्की प्रभाव सक्षम करात</string>
+    <string name="archive_password_prompt">उपकार करून संग्रह गुप्तशब्द दाखयात:</string>
+    
+    <string name="cannot_extract_archive">संग्रह काडपाक मेळना \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">सकयल ना संग्रह उगडात \"%s\".एक तर आमी संग्रह उगडूंक शकनात, वा संग्रह इबाडला.</string>
+    <string name="close">बंद करात</string>
+    <string name="bookmark_exists">बुकमार्क अस्तित्वांत आसा</string>
+    <string name="hide_media">मीडिया ब्राउझरां कडल्यान लिपोवचें</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">कोण तरी वायट काम करता हें शक्य आसा!\n\nसध्या कोण तरी तुमचेर कानून घेवंक शकता (मदलो मनीस हल्लो)!यजमान की नुस्तें बदलल्या अशेंय शक्य आसा.बोटांचो छाप कारण रिमोट यजमानान धाडिल्ली भौशीक की Amaze त सांठयल्ले कडेन जुळना.\n\nतुमी यजमान बोटांचो छाप अद्ययावत करपाक फुडें वचूं येता वा SSH जोडणी मांडावळी अद्ययावत करपाक रद्द करूंक शकतात.</string>
+    <string name="update_host_key">यजमान की अद्ययावत करात</string>
+    <string name="cancel_recommended">रद्द करचें (शिफारशी)</string>
+    
+    
+    <string name="failed_install_apk">स्थापीत करपाक अपेस</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">अंतर्गत साठवण</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD कार्ड</string>
+    <string name="choose_folder">हें फोल्डर निवडात</string>
+    
+    <string name="some_files_failed_invalid_operation">कांय फायली अवैध आशिल्ल्यान अपयशी थारल्यात ऑपरेशन</string>
+    <string name="ftp_server_prompt_connect_to_network">नेटवर्काक जोडणी करात वा AP सक्षम करात</string>
+    <string name="ftp_server_open_settings">उगडी मांडावळी</string>
+    <string name="move">हालचें</string>
+    <string name="select_save_location">सेव्ह करपाक थळ निवडात</string>
+    <string name="scp_default_path">मुळावी मार्ग (पर्यायी)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">माफ करात, तशें जावंक फावनाशिल्लें.</string>
+    
+    <string name="error_report_button_text">ई त्रुटी ई-मेल वरवीं कळयात</string>
+    <string name="error_report_button_telegram">ही त्रुटी तार वरवीं कळयात</string>
+    <string name="copy_for_github">स्वरूपीत अहवाल प्रत करात</string>
+    <string name="error_report_open_issue_button_text">GitHub चेर अहवाल दिवचो</string>
+    <string name="error_report_open_github_notice">उपकार करून तुमच्या क्रॅशाचेर चर्चा करपी समस्या पयलींच अस्तित्वांत आसा काय ना तें तपासात.</string>
+    <string name="error_snackbar_message">माफ करात, कितें तरी चुकीचें जालें.</string>
+    <string name="error_snackbar_action">अहवाल</string>
+    <string name="what_device_headline">माहिती:</string>
+    <string name="what_happened_headline">कितें जालें:</string>
+    <string name="info_labels">काय:\\nविनंती:\\nGMT वेळ:\\nपॅकेज:\\nआवृत्ती:\\nOS आवृत्ती:\\nडिव्हायस:\\nमॉडेल:\\nउत्पादन :</string>
+    <string name="your_comment">तुमची टिप्पणी (इंग्लीशींत):</string>
+    <string name="error_details_headline">तपशील:</string>
+    <string name="app_ui_crash">App/UI क्रॅश जालो</string>
+    <string name="error_report_title">त्रुटी अहवाल</string>
+    <string name="crash_report_copied">क्रॅश अहवालाक कॉपी केला क्लिपबोर्ड</string>
+    <string name="disableIpcSignature">IPC स्वाक्षरी तपासणी अक्षम करात (दायजी SMBv1 सर्वरांखातीर - UNSAFE!)</string>
+    <string name="cannot_delete_file">फायल काडून उडोवंक शकना</string>
+    <string name="cannot_delete_file_with_reason">फायल काडून उडोवंक शकना - %s</string>
+    <string name="cannot_rename_file">फायलीचें नांव बदलूंक शकना %s - %s</string>
+    <string name="cannot_read_directory">निर्देशिका वाचूंक मेळना %s - %s</string>
+    <string name="just_once">फक्त एकदां</string>
+    <string name="always">सदांच</string>
+    <string name="choose_different_app">वेगळो ऍप्लिकेशन निवडात</string>
+    <string name="clear_open_file">साफ करात cache</string>
+    <string name="clear_open_file_summary">निवडिल्ले मुलभूत फायल उगडपाचे ऍप्लिकेशनां निवळ करता</string>
+    <string name="ftp_readonly">फकत वाचपाखातीर प्रवेश</string>
+    <string name="legacy_listing_title">मूळा खातीर दायजी वळेरी वापरात</string>
+    <string name="legacy_listing_summary">सक्षम केल्यार, फायलींची वळेरी करपाक दायजी पद्दत वापरता</string>
+    <string name="error_unsupported_v5_rar">RAR संग्रह \"%s\" समर्थीत ना RAR v5 संग्रह.</string>
+    <string name="ftp_prompt_restart_server">बदल प्रभावी जावपाखातीर तुमकां FTP सर्वर परतून सुरू करचो पडटलो.</string>
+    <string name="error_permission_denied">परवानगी नाका</string>
+    <string name="error_archive_password_incorrect">चुकीचो संग्रह गुप्तशब्द.</string>
+    <string name="error_archive_cannot_extract">संग्रह नोंद \"%s\" \"%s\" करपाक काडूंक मेळना.</string>
+    <string name="drag_and_drop_preference">ओडून सोडप प्राधान्य निवडात (प्रायोगिक)</string>
+    <string name="drag_to_move_copy">फायली हालयपाक वा कॉपी करपाक स्पर्श करचो आनी ओडचो</string>
+    <string name="drag_to_select">फायली निवडपाक स्पर्श करचो आनी ओडचो</string>
+    <string name="disable">अक्षम</string>
+    <string name="choose_operation">करपाक ऑपरेशन निवडात</string>
+    <string name="remember">फुडल्या वेळा खातीर उगडास दवरात</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP सर्वरा खातीर SAF प्रवेश दिवचो</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">FTP सर्वराचो हो तुमचो पयलो चाल आशिल्ल्यान, आनी तुमी डिव्हायसाचो अंतर्गत साठवण वांटून घेतिल्लो फोल्डर म्हणून वापरतात, उपकार करून Amaze कडेन वापरून साठवण ऍक्सॅस करपाक परवानगी दिवची एसएएफ.\n\n
+
+तुमकां फकत एकदांच हें करपाची गरज आसा, फुडले खेपे तुमी वांटणी खातीर नवी सुवात निवडचे मेरेन.</string>
+    <string name="android_data_prompt_saf_access">Android 10 सावन, Android हांणी कांय निर्देशिकांचेर निर्बंध घाल्ले, आनी तांकां साठवण प्रवेश चौकटी वरवीं प्रवेश करपाची गरज आसा.\n \nकृपा करून \"प्रवेश परवानगी\" टॅप करून Amaze\'s फायल वेवस्थापकांतल्यान निर्देशिकेंत प्रवेश करपाक परवानगी दिवची.</string>
+    <string name="android_data_prompt_saf_access_title">SAF प्रवेश दिवचो</string>
+    <string name="ftp_preference_saf_filesystem_title">दायजी फायलप्रणाली वापरात</string>
+    <string name="ftp_preference_saf_filesystem">सक्षम करात नव्या Android आवृत्त्यांचेर डिव्हायस भायलो साठवण वापरपाच्या आदाराक हें</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP सर्वर वांटून घेतिल्लो मार्ग तुमी परतून दायजी फायल प्रणाली कार्यान्वयनाचेर वचत आसतना अंतर्गत साठवणेक रीसेट केल्लो. उपकार करून गरज पडल्यार वयल्या उजव्यान मेनू वापरून नवो मार्ग निवडात.</string>
+    <string name="ftp_server_reset_notify">FTP सर्वर वांटून घेतिल्लो मार्ग अंतर्गत साठवणेक रीसेट केल्लो</string>
+    <string name="ftp_server_root_unavailable">तुमी एक मार्ग निवडटात जाका मुळाव्या प्रवेशाची गरज आसा. उपकार करून तुमचें डिव्हायस रूट केल्यार सेटिंग्जांत रूट एक्सप्लोरर सक्षम करात.</string>
+    <string name="ftp_server_root_filesystem_warning">तुमी एक मार्ग निवडटात जाका मुळाव्या प्रवेशाची गरज आसा, जो तुमच्या डिव्हायसाचेर पुराय फायल प्रणालींत वाचप/बरोवपाचीं कार्यां सक्षम करता, आनी तो धोक्याची आसा - बेपर्वा चुको तुमच्या डिव्हायसाक विटो घालूंक शकतात!\n\nतुमकां खात्री आसा?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">वाचपाखातीर URI \"%s\" उगडपाक त्रुटी.</string>
+    <string name="error_empty_archive">\"%s\" हें रितें संग्रह आसा.</string>
+    <string name="error_bad_archive_without_info">\"%s\" हें एक भ्रश्ट संग्रह आसा .</string>
+    <string name="error_bad_archive_with_info">\"%s\" एक भ्रश्ट संग्रह आसा.\nनिष्कासक कडल्यान संदेश: \"%s\"</string>
+    <string name="security_error">हो ऍप्लिकेशन वापरून फायल उगडूंक शकली ना</string>
+    <string name="cloud_drive_tooltip">रचात Amaze फायल वेवस्थापकांतल्यान फायली वेवस्थापन करपाखातीर Google DriveTM जोडणी.</string>
+    <string name="signin_with_google_title">Google DriveTM वापरपाक प्रमाणीत करात</string>
+    <string name="show_system_apps">प्रणाली ऍप्लिकेशनां दाखोवचीं</string>
+    <string name="system_apps">प्रणाली ऍप्लिकेशनां</string>
+    <string name="select_inverse">निवडात उलट</string>
+    <string name="select_by_type">प्रकारान निवडात</string>
+    <string name="select_by_date">तारखे प्रमाण निवडात</string>
+    <string name="select_similar">असारकें निवडात</string>
+    <string name="error_fetching_google_play_product_list">Google Play वयल्यान उत्पादन वळेरी हाडपाक त्रुटी.</string>
+    <string name="grant_all_files_permission">Android 11 सावन , Google फायल वेवस्थापकांक डिव्हायसाचेर सगळ्यो फायली वेवस्थापन करपा खातीर वापरप्याची परवानगी मागपाची विनंती करता. तपशील हांगा.
+        \n\nAmaze फायल वेवस्थापकाकय ही परवानगी जाय. हांगा "Grant" दामल्या उपरांत, उपकार करून फुडल्या पडद्याचेर सगळ्यो फायली वेवस्थापन करपाक प्रवेश परवानगी दिवचो पर्याय निवडात.
+        \n\nहो संवाद रद्द केल्यार ऍप्लिकेशनांतल्यान भायर सरतले.</string>
+    <string name="user_apps">वापरपी ऍप्लिकेशनां</string>
+    <string name="appearance">दृश्य</string>
+    <string name="behavior">वर्तन</string>
+    <string name="appearance_summary">फायल वेवस्थापकाची थीम, रंग आनी दिसप पसंतीचें करचें</string>
+    <string name="ui_summary">खंयची म्हायती दाखोवची हाचेर नियंत्रण दवरात, बाजूची पट्टी पसंतीची करात, आनी UI पसंती टॉगल करात</string>
+    <string name="behavior_summary">प्रगत सोद आनी फायली नवे काम म्हणून उगडपाचे काय ना अशीं वर्तनां सुदारात</string>
+    <string name="security_summary">गुप्तशब्द सेट करात आनी एनक्रिप्शन</string>
+    <string name="backup_summary">निर्यात/आयात Amaze मांडावळी</string>
+
+    <string name="pref_export">निर्यात</string>
+    <string name="pref_export_summary">निर्यात मांडावळी</string>
+    <string name="pref_import">आयात</string>
+    <string name="pref_import_summary">आयात मांडावळी</string>
+
+    <string name="quick_desc">फायली हालीं Amaze वरवीं ऍक्सॅस केला</string>
+    <string name="recent_desc">हालीं तयार केल्लीं वा सुदारीत केल्लीं फायली</string>
+    <string name="error_cannot_find_way_open">फायल उगडपाक मार्ग मेळूंक ना</string>
+    <string name="error_cant_decompress_that_file">विनंती केल्ल्या संग्रहाचेर प्रक्रिया करूंक शकना</string>
+    <string name="analyse_storage">साठवण विश्लेशण करचें</string>
+    
+    <string name="download_amaze_utils_text">तुमकां Amaze फायल उपयुक्तताय कडेन पुनर्निर्देशित जातात. तो आमचो मुक्त स्रोत ऍप्लिकेशन जातूंत ऑडियो/व्हिडियो/प्रतिमा/दस्तावेज प्रेक्षक अंतर्निहित आसात, तुमकां साठवण मुक्त करपाक जंक फायलींचें विश्लेशण करपाक परवानगी दिता, Wifi P2P वापरून जलद हस्तांतरण आनी हेर जायतें.\nकृपया तें वापरून आमकां आदार दिवचो.</string>
+    <string name="download">डावनलोड करचें</string>
+    <string name="wifip2p">वाय-फाय पी 2 पी</string>
+    <string name="amaze_utils_installed_alias">Amaze फायल उपयुक्तताय स्थापन केल्ल्या खातीर तुमचे उपकार. तुमकां ऍप्लिकेशनाचेर पुनर्निर्देशित जातात.</string>
+    <string name="image_viewer">प्रतिमा प्रेक्षक अजापीत करात</string>
+    <string name="video_player">व्हिडियो प्लेयर अजापीत करात</string>
+    <string name="amaze_audio_player">संगीत प्लेयर अजापीत करात</string>
+    <string name="pdf_viewer">दस्तावेज प्रेक्षक अजापीत करात</string>
+    <string name="docx_viewer">Amaze दस्तावेज प्रेक्षक</string>
+    <string name="share_logs">लॉग वांटप</string>
+    <string name="share_logs_summary">ईमेल / तार वरवीं कॅप्चर केल्ले लॉग वांटप</string>
+    <string name="open_with_amaze">Amaze</string>
+    <string name="confirmation">पुष्टीकरण</string>
+    <string name="open_file_confirmation">तुमकां सकयल दिल्ले फायल उगडपाची खात्री आसा?\n\nनांव:\n%s\n\nस्थान:\n%s\n\nआकार:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play धोरणाच्या आज्ञा प्रमाणें, ऍप्लिकेशनांक स्वताच्या हातान स्वताक अद्ययावत करपाक मेळना. उपकार करून Google Play कडल्यान ऍप्लिकेशन अद्ययावत करात.</string>
+    <string name="error_cannot_get_package_info">\"%s\" फायलीन पॅकेज म्हायती मेळोवंक शकना. एक तर निर्दिश्ट केल्ली फायल APK न्हय, वा पॅकेज फायल भ्रश्ट आसा.</string>
+    <string name="preference_delete_confirmation">पुष्टीकरण काडून उडोवचें</string>
+    <string name="preference_delete_confirmation_summary">फायल काडून उडोवचे पयलीं पुष्टी मागची. हें अक्षम करप खूब निरुत्साहीत केलां!</string>
+    
+    
+    <string name="protocol_ftps">सुरक्षीत FTP</string>
+    <string name="unavailable">उपलब्ध</string>
+
+    <string name="exporting_failed">निर्यात अपयशी: बॅकअप फायल बरोवंक शकली ना</string>
+    <string name="importing_failed">आयात अपयशी: बॅकअप वाचूंक शकलो ना फायल</string>
+    <string name="importing_completed">आयात पुराय जाला</string>
+    <string name="invalid_backup_file">अवैध बॅकअप फायल</string>
+    <string name="import_failed_for">आयात अपयशी:</string>
+    <string name="free_of">"%s\n%s %s</string>
+    <string name="cloud_error_fdroid">पासूनमुक्त&gt;Amaze Cloud प्लगइन F-Droid आवृत्ती वांगडा समर्थीत ना.उपकार करून Amaze ची Play Store आवृत्ती वापरात.</string>
+    <string name="disable_player_intent_filters">प्लेयर हेतू फिल्टर अक्षम करात</string>
+    <string name="disable_player_intent_filters_summary">फायल निवडपी कडल्यान Amaze इनबिल्ट मिडिया प्लेयर अक्षम करता</string>
+    <string name="no_app_found_intent">हो हेतू हाताळपाक खंयचोच ऍप्लिकेशन मेळूंक ना.तुमचे कडेन DocumentsUI स्थापीत आसा?</string>
+    <string name="cloud_connection_credentials_cleared">मेघ जोडणी प्रमाणपत्रां निवळ केल्यांत</string>
+    <string name="cloud_connection_credentials_cleared_msg">दुर्दैवान, आमी तुमचीं मेघ जोडणी प्रमाणपत्रां नव्या डेटाबेस येवजणेंत स्थलांतरीत करूंक शकले नात, आनी आमी केल्लें तांकां ऍप्लिकेशनांतल्यान काडून उडोवपाक उपकार करून परतून मेघ जोडणी तयार करात.</string>
+</resources>

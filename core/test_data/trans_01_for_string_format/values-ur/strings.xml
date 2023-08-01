@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze فائل مینیجر</string>
+    <string name="drawer_open">نیویگیشن دراز کھولیں</string>
+    <string name="drawer_close">نیویگیشن دراز بند کریں</string>
+    <string name="icon">آئیکن</string>
+    <string name="apps">ایپ مینیجر</string>
+    <string name="ftp"/>
+    <string name="setting">ترتیبات</string>
+    <string name="select">آئٹم کو منتخب کریں</string>
+    <string name="press_again">باہر نکلنے کے لیے دوبارہ دبائیں</string>
+    <string name="open">کھولیں</string>
+    <string name="backup">بیک اپ</string>
+    <string name="uninstall">ان انسٹال کریں</string>
+    <string name="play">div86&gt;Play store</string>
+    <string name="properties">پراپرٹیز</string>
+    <string name="copyingapks">%d APK فائلوں کو %s میں کاپی کرنا</string>
+    <string name="delbook">بک مارک حذف کریں</string>
+    <string name="add_to_bookmarks">بک مارکس میں شامل کریں</string>
+    <string name="enterpath">پاتھ درج کریں</string>
+    <string name="cancel">منسوخ کریں</string>
+    
+    <string name="loading">لوڈ ہو رہا ہے…</string>
+    <string name="file_empty">فائل خالی ہے</string>
+    <string name="error">خرابی</string>
+    <string name="search_results">%s کے تلاش کے نتائج</string>
+    <string name="rename">نام تبدیل کریں</string>
+    <string name="save">محفوظ کریں</string>
+    <string name="bookmarks_added">بک مارکس شامل کیے گئے</string>
+    <string name="fileexist">اسی نام کی فائل پہلے سے موجود ہے</string>
+    <string name="name">نام</string>
+    <string name="date">تاریخ</string>
+    <string name="location">مقام</string>
+    <string name="size_capitalized">سائز</string>
+    <string name="size">فولڈر کا سائز</string>
+    <string name="enterzipname">زپ کا نام درج کریں</string>
+    <string name="no_app_found">اس فائل کو کھولنے کے لیے کوئی ایپ نہیں ملی</string>
+    <string name="copying">کاپی کی جارہی ہے</string>
+    <string name="moving">منتقل</string>
+    <string name="file">فائل</string>
+    <string name="folder">فولڈر</string>
+    <string name="newfolder">نیا فولڈر</string>
+    <string name="entername">نام درج کریں</string>
+    <string name="extracting">نکال رہا ہے</string>
+    <string name="stopping"/>
+    <string name="open_parent">اوپن پیرنٹ ڈائرکٹری</string>
+    <string name="open_with">کے ساتھ کھولیں</string>
+    
+    
+    
+    <string name="compress">کمپریس</string>
+    <string name="yes">ہاں</string>
+    <string name="no">نہیں</string>
+    
+    <string name="dialog_delete_category_directories">ڈائریکٹریز</string>
+    <string name="dialog_delete_category_files">فائلز</string>
+    <string name="dialog_delete_disclaimer">ذیل میں موجود آئٹمز کو حذف کرنے سے وہ آپ کے آلے سے مستقل طور پر ہٹ جائیں گے اور انہیں بازیافت نہیں کیا جا سکے گا۔</string>
+    <string name="dialog_delete_title">آئٹمز کو مستقل طور پر حذف کریں؟</string>
+    <string name="deleting">حذف کیا جا رہا ہے</string>
+    <string name="question_set_path_as_home">کیا آپ موجودہ راستے کو اس ٹیب کے لیے گھر کے طور پر سیٹ کرنا چاہتے ہیں؟</string>
+    <string name="directorysort">ڈائریکٹری ترتیب دینے کا موڈ</string>
+    <string name="sort_by">اس طرح ترتیب دیں</string>
+    <string name="sort_only_this">صرف یہ فولڈر</string>
+    <string name="theme">تھیم</string>
+    <string name="random">Random</string>
+    <string name="random_summary">Startup پر بے ترتیب بنیادی رنگ سیٹ کرتا ہے</string>
+    <string name="colorize">کلرائز آئیکنز</string>
+    <string name="colorize_summary">Sets جامد آئیکن کا رنگ۔ ڈائرکٹری آئیکن کے رنگ کی ترجیح کو اوور رائیڈ نہیں کرتا۔</string>
+    
+    <string name="paste">پیسٹ کریں</string>
+    <string name="history">ہسٹری</string>
+    <string name="copy">کاپی</string>
+    <string name="root_mode">روٹ ایکسپلورر</string>
+    <string name="root_mode_summary">صرف روٹڈ ڈیوائس کے لیے۔ اسے صرف اس صورت میں چیک کریں جب آپ کو اس کے بارے میں یقین ہو۔</string>
+    <string name="root_failure">روٹ رسائی کی اجازت نہیں دی گئی</string>
+    <string name="select_all">سب کو منتخب کریں</string>
+    
+    <string name="set_as_home">کے طور پر سیٹ کریں ہوم</string>
+    <string name="operation_not_supported">آپریشن تعاون یافتہ نہیں ہے</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">مٹیریل لائٹ</string>
+    <string name="dark">مٹیریل ڈارک</string>
+    <string name="daytime">دن کا وقت</string>
+    <string name="black">سیاہ (OLED کے لیے)</string>
+    <string name="system">سسٹم (سسٹم تھیم کی پیروی کریں)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">فولڈرز اوپر</string>
+    <string name="filesOnTop">فائلیں اوپر</string>
+    <string name="none_on_top">کوئی نہیں اوپر</string>
+    <!--SortBy-->
+    <string name="sort_name">نام</string>
+    <string name="lastModified">آخری ترمیم</string>
+    <string name="sort_size">سائز</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">ایک فائل منتخب کریں</string>
+    <string name="process_viewer">Process</string>
+    <string name="in_safe">ناکافی جگہ</string>
+    <string name="no_file_overwrite">کوئی فائل اوور رائٹ نہیں ہے</string>
+    <string name="skip">چھوڑیں</string>
+    <string name="overwrite">اوور رائٹ کریں</string>
+    <string name="not_allowed">div86&gt;اجازت نہیں ہے</string>
+    <string name="searching">تلاش %s</string>
+    <string name="done">ہو گیا</string>
+    
+    <string name="enablerootmde">روٹ موڈ کو فعال کریں</string>
+    <string name="goback">واپس جائیں</string>
+    <string name="newfile">نئی فائل</string>
+    <string name="no_files">کوئی فائل نہیں</string>
+    <string name="used">استعمال شدہ جگہ</string>
+    <string name="used_by_others">دوسروں کے ذریعہ استعمال کی گئی</string>
+    <string name="free">خالی جگہ</string>
+    <string name="listview">لسٹ ویو</string>
+    <string name="gridview">گرڈ دیکھیں</string>
+    <string name="permission">اجازتیں</string>
+    <string name="hide">چھپائیں</string>
+    <string name="exit">باہر نکلیں</string>
+    <string name="doforall">تمام آئٹمز کے لیے کریں</string>
+    <string name="gridcolumnno">گرڈ ویو میں کالموں کی تعداد</string>
+    <string name="set_random">آپ کے ایپ کو دوبارہ شروع کرنے کے بعد تبدیلیاں ہوں گی</string>
+    <string name="authors">مصنفین</string>
+    
+    
+    <string name="ui">انٹرفیس</string>
+    <string name="general">جنرل</string>
+    <string name="thumb_summary">ایپس اور امیجز کے تھمب نیلز دکھائیں</string>
+    <string name="thumb">تھمب نیلز دکھائیں</string>
+    <string name="hidden">چھپی ہوئی فائلیں اور فولڈرز دکھائیں</string>
+    <string name="lastModifiedSummary">آخری ترمیم کی تاریخ اور وقت دکھائیں</string>
+    <string name="lastModifiedPref">آخری ترمیم کی تاریخ اور دکھائیں وقت</string>
+    <string name="size_pref_summary">فائلوں کا سائز اور فولڈرز میں آئٹمز کی تعداد دکھائیں</string>
+    <string name="size_pref">سائز دکھائیں</string>
+    <string name="miscellaneous">متفرق</string>
+    <string name="root_pref_summary">فائلوں اور فولڈرز کی اجازتیں دکھائیں</string>
+    <string name="root_pref">اجازتیں دکھائیں</string>
+    <string name="about_amaze_file_manager_label">Amaze فائل مینیجر کے بارے میں</string>
+    <string name="version">ورژن</string>
+    <string name="rate">ایپ کی درجہ بندی کریں</string>
+    <string name="feedback">فیڈ بیک بھیجیں</string>
+    <string name="hiddenfiles">چھپی ہوئی فائلیں</string>
+    <string name="type">ٹائپ کریں</string>
+    <string name="root_directory">Rot</string>
+    <string name="add_shortcut">شارٹ کٹ شامل کریں</string>
+    <string name="unsaved_changes">غیر محفوظ شدہ تبدیلیاں</string>
+    <string name="unsaved_changes_description">آپ کے پاس غیر محفوظ شدہ تبدیلیاں ہیں، کیا آپ باہر نکلنے سے پہلے انہیں محفوظ کرنا چاہتے ہیں؟</string>
+    <string name="saving">محفوظ کرنا</string>
+    <string name="package_installer">پیکیج انسٹالر</string>
+    <string name="view">دیکھیں</string>
+    <string name="install">انسٹال کریں</string>
+    
+    <string name="archive_text">یہ ایک آرکائیو ہے۔ آپ کون سا عمل کرنا چاہیں گے؟</string>
+    <string name="package_installer_text">یہ ایک پیکیج انسٹالر ہے۔ آپ کون سا عمل کرنا چاہیں گے؟</string>
+    <string name="xda_title">XDA تھریڈ</string>
+    <string name="xda_summary">سوال و جواب، مدد اور ٹربل شوٹنگ</string>
+    <string name="circular_images">تصاویر اور ویڈیوز کے لیے سرکلر آئیکنز استعمال کریں</string>
+    <string name="circular_icons">سرکلر آئیکنز استعمال کریں</string>
+    <string name="back_title">بیک نیویگیشن</string>
+    <string name="back_summary">فہرست کے اوپر حسب ضرورت بیک نیویگیشن کو فعال کرتا ہے</string>
+    <string name="details">تفصیلات</string>
+    <string name="translators">مترجم</string>
+    <string name="german_translation_title">جرمن</string>
+    <string name="italian_translation_title">I</string>
+    <string name="french_translation_title">فرانسیسی</string>
+    <string name="russian_translation_title">روسی</string>
+    <string name="spanish_translation_title">ہسپانوی</string>
+    <string name="basque_translation_title">باسکی</string>
+    <string name="chinese_translation_title">چینی</string>
+    <string name="serbian_translation_title">سربیائی</string>
+    <string name="turkish_translation_title">ترکی</string>
+    <string name="ukrainian_translation_title">یوکرینی</string>
+    <string name="portuguese_translation_title">Por </string>
+    <string name="polish_translation_title">پولش</string>
+    <string name="korean_translation_title">کورین</string>
+    <string name="greek_translation_title">یونانی</string>
+    <string name="dutch_translation_title">ڈچ</string>
+    <string name="romanian_translation_title">رومانی</string>
+    <string name="vietnamese_translation_title">ویتنامی</string>
+    <string name="japanese_translation_title">جاپانی</string>
+    <string name="tamil_translation_title">جاپان  Tamil</string>
+
+    
+    <string name="unin_system_apk">یہ ایک سسٹم ایپ ہے، اسے حذف کرنے سے سسٹم غیر مستحکم ہو سکتا ہے۔\nآگے بڑھیں؟</string>
+    <string name="warning">انتباہ</string>
+    
+    <string name="archive_extract_folder">Archive فولڈر</string>
+    <string name="archive_summary">آرکائیو فائلز کو اس فولڈر میں نکالا جائے گا۔ ڈیفالٹ ویلیو وہ ڈائریکٹری ہے جس میں آرکائیو موجود ہے۔</string>
+    <string name="open_as">&gt;اس طرح کھولیں</string>
+    
+    <string name="audio">آڈیو</string>
+    <string name="video">ویڈیو</string>
+    <string name="other">دیگر</string>
+    <string name="image">تصویر</string>
+    
+    <string name="save_paths">راستہ یاد رکھیں</string>
+    <string name="save_path_summary">شروع کرتے وقت، ہر ٹیب کے لیے حال ہی میں دیکھا جانے والا فولڈر ظاہر ہوگا</string>
+    <string name="select_intent">منتخب کریں</string>
+    <string name="database">ڈیٹا بیس</string>
+    <string name="colored_navigation">رنگین نیویگیشن بار</string>
+    <string name="colored_navigvation_sum">چاہے سسٹم نیویگیشن بار جلد کے ساتھ رنگین ہو یا نہ ہو</string>
+
+    <string name="color_title">رنگ</string>
+    <string name="color_summary">مختلف UI اجزاء پر رنگ سیٹ کریں</string>
+    <string name="primary_color_title">div86&gt;پرائمری کلر (بائیں ٹیب)</string>
+    <string name="primary_color_summary">بائیں ٹیب کے لیے بڑے UI عناصر پر رنگ سیٹ کریں</string>
+    
+    <string name="accent_color_summary">رنگ FAB اور دیگر چھوٹے UI عناصر پر سیٹ کریں</string>
+    <string name="icon_color_title">آئیکن کا رنگ</string>
+    <string name="icon_color_summary">رنگ کو شبیہیں پر سیٹ کریں</string>
+    <string name="choose_color">رنگ کا انتخاب کریں</string>
+    <string name="files">فائلیں</string>
+    <string name="textreader">ٹیکسٹ ریڈر</string>
+    <string name="databasereader">ڈیٹا بیس ریڈر</string>
+    <string name="show_dividers">ڈیوائیڈرز دکھائیں</string>
+    <string name="needs_access">لکھنے تک رسائی درکار ہے</string>
+    <string name="needs_access_summary">براہ کرم \t</string>
+    <string name="needs_access_summary1">\t کام کرنے کے لیے تحریری رسائی فراہم کرنے کے لیے روٹ ڈائرکٹری کا انتخاب کریں</string>
+    <string name="smb_connection">SMB کنکشن</string>
+    <string name="smb_server">سرور IP ایڈریس</string>
+    <string name="server_address">سرور IP ایڈریس</string>
+    <string name="username">صارف کا نام</string>
+    <string name="password">پاس ورڈ</string>
+    <string name="anonymous">گمنام</string>
+    <string name="bluetooth">بلوٹوتھ</string>
+    <string name="folders">بلوٹوتھ فولڈرز</string>
+    <string name="folderfilecount">%1$d فولڈرز اور %2$d فائلز</string>
+    <string name="videos">ویڈیوز</string>
+    
+    <string name="documents">دستاویزات</string>
+    <string name="images">تصاویر</string>
+    <string name="clear">صاف کریں</string>
+    <string name="md5">&gt;MD5</string>
+    <string name="total">کل:</string>
+    <string name="calculating">کا حساب لگانا</string>
+    <string name="sort">چھانٹیں</string>
+    <string name="ascending">صعودی</string>
+    <string name="descending">نزولی</string>
+    <string name="default_string">div86&gt;Default</string>
+    <string name="doit">یہ کریں</string>
+    <string name="want_help">مدد درکار ہے؟</string>
+    <string name="quick">فوری رسائی</string>
+    <string name="recent">حالیہ فائلیں</string>
+    <string name="edit">ترمیم کریں</string>
+    <string name="find">تلاش کریں صفحہ میں</string>
+    <string name="grant">گرانٹ</string>
+    <string name="grantper">اجازت دیں</string>
+    <string name="grantfailed">اجازت نہیں دی گئی</string>
+    <string name="grant_storage_permission">ایپ کو جاری رکھنے کے لیے اسٹوریج کی اجازت درکار ہے۔ اس ڈائیلاگ کو منسوخ کرنا ایپ سے باہر ہو جائے گا۔</string>
+    <string name="operation_unsuccesful">آپریشن ناکام</string>
+    <string name="creatingfile">فائل بنانا</string>
+    <string name="creatingfolder">فولڈر بنانا</string>
+    <string name="renaming">نام تبدیل کرنا</string>
+    <string name="cant_be_empty">%s خالی نہیں ہوسکتا</string>
+    <string name="ip">ایڈریس</string>
+    <string name="connection_name">کنکشن کا نام</string>
+    <string name="no_device_found">کوئی ڈیوائس نہیں ملی</string>
+    <string name="path">پاتھ</string>
+    <string name="rename_bookmark">بک مارک میں ترمیم کریں</string>
+    <string name="cut">کٹ</string>
+    <string name="search">تلاش</string>
+    <string name="invalid_name">غلط نام</string>
+    <string name="search_hint">تلاش کرنے کے لیے ٹائپ کریں…</string>
+    
+    <string name="regular_expression">ریگولر ایکسپریشن</string>
+    <string name="regular_expression_summary">BASH اسٹائل ریگولر ایکسپریشن کا استعمال کرتے ہوئے تلاش کریں</string>
+    <string name="match_content">Meach content</string>
+    <string name="match_content_summary">اگر سیٹ کیا جائے تو ریگولر ایکسپریشن پورے فائل کے نام کے ساتھ مل جائے گا،
+        دوسری صورت میں وقوع پذیر ہونے کی تلاش کرے گا۔</string>
+    
+    
+    <string name="ftp_status_running">چل رہا ہے</string>
+    <string name="ftp_status_not_running">نہیں چل رہا ہے</string>
+    <string name="ftp_no_wifi">یقینی بنائیں کہ آپ Wi سے منسلک ہیں۔ -Fi</string>
+    <string name="domain">ڈومین</string>
+    <string name="smb_share">شیئر کا راستہ</string>
+    <string name="invalid">غلط %s</string>
+    <string name="ftp_notif_starting">FTP سرور شروع ہو رہا ہے</string>
+    <string name="ftp_notif_starting_title">FTP سرور</string>
+    <string name="ftp_notif_title">Amaze FTP سرور چل رہا ہے</string>
+    <string name="ftp_notif_text">%s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP پورٹ</string>
+    <string name="ftp_port_change_success">FTP پورٹ کامیابی سے بدل گیا</string>
+    <string name="ftp_port_change_error_invalid">غلط پورٹ نمبر منتخب کیا گیا</string>
+    <string name="primary_two_title">پرائمری کلر (دائیں ٹیب)</string>
+    <string name="primary_two_summary">دائیں ٹیب کے لیے بڑے UI عناصر پر رنگ سیٹ کریں</string>
+    <string name="support_development">سپورٹ ڈویلپمنٹ</string>
+    <string name="report_bugs_title">بگز کی اطلاع دیں</string>
+    <string name="source_title">ماخذ کوڈ</string>
+    <string name="source_summary">GitHub پر ہمارا سورس کوڈ دیکھیں</string>
+    <string name="report_bugs_summary">بگز کی اطلاع دیں یا نئی خصوصیت کی درخواست کریں</string>
+    <string name="translate_title">ترجمہ کریں</string>
+    <string name="translate_summary">ترجمہ کریں اپنی زبان میں حیران رہو</string>
+    <string name="paypal_copy_message">PayPal ID کو کلپ بورڈ پر کاپی کیا گیا</string>
+    <string name="searching_devices">آلات کی تلاش</string>
+    <string name="use_custom_ip">حسب ضرورت IP استعمال کریں</string>
+    <string name="bookmark_lost">بک مارک نہیں ملا، دوبارہ بنا رہا ہے…</string>
+
+    <string name="smb_instructions">
+        
+            
+                اینڈرائیڈ (SMB) پر مشترکہ ونڈوز فولڈر تک رسائی کا طریقہ\n\n
+                
+                    
+                        ونڈوز پر فائل شیئرنگ کو فعال کریں\n
+                    
+                    
+                        کنٹرول پینل کھولیں، نیٹ ورک کے تحت ہوم گروپ اور شیئرنگ کے اختیارات کا انتخاب کریں پر کلک کریں۔
+                        اور انٹرنیٹ، اور "ایڈوانسڈ شیئرنگ سیٹنگز کو تبدیل کریں" پر کلک کریں، "فائل اور
+                        پرنٹر شیئرنگ" کی خصوصیت۔\n\n
+                    
+
+                    
+                        فائل شیئرنگ کی اضافی ترتیبات\n
+                    
+                    
+                        آپ یہاں اشتراک کی دیگر اعلیٰ ترتیبات کو بھی ترتیب دینا چاہتے ہیں۔ \n
+                        مثال کے طور پر، اگر آپ سب پر بھروسہ کرتے ہیں تو آپ بغیر پاس ورڈ کے اپنی فائلوں تک رسائی کو فعال کر سکتے ہیں۔
+                        آپ کے مقامی نیٹ ورک پر موجود آلات۔ فائل اور پرنٹر کا اشتراک فعال ہونے کے بعد، آپ کر سکتے ہیں۔
+                        فائل ایکسپلورر یا ونڈوز ایکسپلورر کھولیں، اس فولڈر پر دائیں کلک کریں جسے آپ شیئر کرنا چاہتے ہیں، اور
+                        پراپرٹیز کو منتخب کریں۔ \n
+                        شیئر بٹن پر کلک کریں اور فولڈر کو نیٹ ورک پر دستیاب کرائیں۔\n\n
+                        
+
+                    
+                        یقینی بنائیں کہ دونوں آلات ایک ہی Wifi پر ہیں\n
+                    
+                    
+                        یہ خصوصیت فائلوں کو مقامی نیٹ ورک پر دستیاب کرتی ہے، لہذا آپ کے کمپیوٹر اور موبائل آلات
+                        ایک ہی مقامی نیٹ ورک پر ہونا ضروری ہے۔ آپ مشترکہ ونڈوز فولڈر تک رسائی حاصل نہیں کر سکتے
+                        انٹرنیٹ پر یا جب آپ کا سمارٹ فون اس کے موبائل ڈیٹا سے منسلک ہوتا ہے۔
+                        Wi-Fi سے منسلک ہونا ضروری ہے۔\n\n
+                    
+
+                    
+                        IP پتہ تلاش کریں\n
+                    
+                    
+                        کمانڈ پرامپٹ کھولیں۔ \'ipconfig\' ٹائپ کریں اور انٹر دبائیں۔ ڈیفالٹ گیٹ وے تلاش کریں۔
+                        آپ کے روٹر کے IP ایڈریس کے لیے آپ کے نیٹ ورک اڈاپٹر کے نیچے۔ تلاش کریں۔
+                        اپنے کمپیوٹر کا IP تلاش کرنے کے لیے اسی اڈاپٹر سیکشن کے تحت \\\"IPv4 ایڈریس\\\"
+                        پتہ۔\n\n
+                    
+
+                    SMB ڈائیلاگ باکس میں تفصیلات درج کریں\n
+                
+            
+        
+   </string>
+    <string name="share_limit">100 سے زیادہ فائلوں کا اشتراک نہیں کر سکتے ہیں</string>
+    <string name="otg_access">OTG ڈیوائس کا روٹ منتخب کریں</string>
+    <string name="information">معلومات</string>
+    <!-- reference to file accessed date -->
+    
+    <!-- reference to file modified date -->
+    <string name="modified">تبدیل شدہ</string>
+
+    <string name="title"> عنوان</string>
+    <string name="artist">آرٹسٹ</string>
+    <string name="album">البم</string>
+    <string name="year">سال</string>
+    <string name="duration">دورانیہ</string>
+    <string name="comment">تبصرہ</string>
+    <!-- reference to audio/video file -->
+    <string name="container">کنٹینر</string>
+    <string name="codec">&gt;Codec</string>
+    <string name="channels">چینلز</string>
+    <string name="sample_rate">Sleamp</string>
+    
+    
+    <string name="frame_rate">فریم کی شرح</string>
+    <string name="image_type">Image </string>
+    <string name="width">چوڑائی</string>
+    <string name="height">Hight</string>
+    <string name="date_modified">تاریخ میں ترمیم کی</string>
+    <string name="software">سافٹ ویئر</string>
+    
+    <string name="camera_brand">کیمرہ برانڈ</string>
+    <string name="camera_model"> ماڈل</string>
+    <string name="date_taken">لینے کی تاریخ</string>
+    <string name="exposure_time">ایکسپوزر ٹائم</string>
+    <string name="aperture_value">ایپرچر ویلیو</string>
+    <string name="image_iso">ISO اسپیڈ ریٹنگ</string>
+    
+    <string name="focal_length">Focal Leng</string>
+    <string name="subject">موضوع</string>
+    <string name="author">مصنف</string>
+    <string name="keywords">مطلوبہ الفاظ</string>
+    
+    <string name="created">تخلیق کردہ</string>
+    <string name="format">فارمیٹ</string>
+    <string name="pages">Number صفحات</string>
+    <!-- reference to a document file -->
+    <string name="optimized">آپٹمائزڈ</string>
+    <string name="security">سیکیورٹی</string>
+    <string name="paper_size">کاغذ کا سائز</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">کچھ فائلیں کامیابی کے ساتھ %s</string>
+    <string name="copied">کاپی نہیں کی گئیں</string>
+    <string name="moved"/>
+    <string name="copy_complete">کاپی مکمل</string>
+    <string name="waiting_title">انتظار</string>
+    <string name="waiting_content">آپریشن مکمل ہونے کا انتظار ہے</string>
+    <string name="extract_complete">نکالنا مکمل</string>
+    <string name="compression_complete">کمپریشن مکمل</string>
+    <string name="compressing">کمپریشن</string>
+    <string name="cancelled">منسوخ</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">تحریری</string>
+    <string name="out_of">Out</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    
+    <string name="processing_file">فائل کی پروسیسنگ</string>
+    <string name="current_speed">موجودہ رفتار</string>
+    <string name="smb_launch_error">آپ کو اس فائل کو کھولنے کے لیے اسے اسٹوریج میں کاپی کرنا ہوگا</string>
+    <string name="error_file_not_found">خرابی: فائل نہیں ملی</string>
+    <string name="error_io">I/O ایرر</string>
+    <string name="error_file_too_large">خرابی: فائل بہت بڑی ہے</string>
+    <string name="medium_text">میڈیم ٹیکسٹ</string>
+    <string name="permission_read">پڑھیں</string>
+    <string name="permission_write">لکھیں</string>
+    <string name="permission_execute">E</string>
+    <string name="permission_owner">مالک</string>
+    <string name="permission_group">Gro</string>
+    <string name="permission_other">&gt;دیگر</string>
+    <string name="clipboard_path_copy">پاتھ کو کلپ بورڈ پر کاپی کیا گیا</string>
+    <string name="service_timer">وقت گزر گیا</string>
+    <string name="please_wait">براہ کرم انتظار کریں</string>
+
+    <string name="cloud_connection">کلاؤڈ کنکشن</string>
+    <string name="cloud_connection_new">نیا کلاؤڈ کنکشن</string>
+    
+    
+    <string name="cloud_onedrive">&gt;OneDrive</string>
+    <string name="cloud_box">OneDrive &gt;باکس</string>
+    <string name="cloud_get">کلاؤڈ پلگ ان حاصل کریں</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">کوئی ایپلیکیشنز نہیں ہیں</string>
+    <string name="ftp_path">مشترکہ راستہ</string>
+    <string name="ftp_path_hint">شیئر کرنے کے لیے ڈائریکٹری کے روٹ کا راستہ</string>
+    <string name="change">تبدیل کریں</string>
+    <string name="unknown_error">افوہ، کچھ غلط ہو گیا!</string>
+
+    <string name="ftp_path_change_success">FTP پاتھ کامیابی سے بدل گیا</string>
+    <string name="ftp_path_change_error_invalid">غلط راستہ</string>
+    <string name="ftp_status_no_connection">کوئی کنکشن نہیں</string>
+    <string name="ftp_status_secure_connection">محفوظ کنکشن</string>
+    <string name="ftp_status_title">اسٹیٹس</string>
+    <string name="ftp_port">پورٹ</string>
+    <string name="ftp_login">لاگ ان</string>
+    <string name="field_empty">فیلڈ خالی نہیں ہوسکتا</string>
+    <string name="ftp_timeout">بیکار ٹائم آؤٹ</string>
+    <string name="ftp_seconds">سیکنڈز</string>
+    <string name="intellihide_toolbar_title">Intellihide ٹول بار</string>
+    <string name="intellihide_toolbar_summary">اسکرولنگ کے دوران ٹول بار کو خود بخود چھپائیں</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">کلپ بورڈ میں کاپی کیا گیا</string>
+    <string name="contributors_1_summary">ترجمہ</string>
+    <string name="contributors_2_summary">آئیکن اور بینرز</string>
+    <string name="contributors_3_summary">تھیم انجن</string>
+    <string name="contributors_4_summary">FAB کے پیچھے سایہ</string>
+    <string name="contributors_5_summary">ٹیبز کو سوائپ کرتے وقت رنگ کی منتقلی</string>
+    <string name="contributors_6_summary">FTP سرور</string>
+    <string name="contributors_7_summary">ایک انٹرایکٹو شیل کو فائر کرنا</string>
+    <string name="connection_exists">کنکشن پہلے سے موجود ہے</string>
+
+    <string name="crypt_encrypting">انکرپٹنگ</string>
+    <string name="crypt_decrypting">Div18</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">انکرپٹڈ</string>
+    <string name="crypt_decrypted">ڈیکرپٹڈ</string>
+    <string name="crypt_encrypt">انکرپٹ</string>
+    <string name="crypt_decrypt">ڈیکرپٹ</string>
+    <string name="operation_fail_following">مندرجہ ذیل فائلوں کے لیے آپریشن ناکام ہو گیا</string>
+    <string name="crypt_pref_master_password_title">ماسٹر پاس ورڈ</string>
+    <string name="crypt_pref_master_password_summary">انکرپشن کے لیے ایک ماسٹر پاس ورڈ سیٹ کریں۔
+        ہٹانے کے لیے خالی چھوڑ دیں۔</string>
+    <string name="crypt_pref_fingerprint_title">فنگر پرنٹ</string>
+    <string name="crypt_pref_fingerprint_summary">انکرپشن کی توثیق کرنے کے لیے فنگر پرنٹ کا استعمال کریں</string>
+    <string name="crypt_fingerprint_no_permission">فنگر پرنٹ کی اجازتیں غائب ہیں</string>
+    <string name="crypt_fingerprint_not_enrolled">کوئی فنگر پرنٹ درج نہیں ہے</string>
+    <string name="crypt_fingerprint_no_security">کوئی لاک اسکرین سیکیورٹی نہیں ملی</string>
+    <string name="crypt_warning_key">جب آپ اپنا سیکیورٹی پیٹرن تبدیل کرتے ہیں
+        سسٹم کی ترتیبات، آپ اس مواد کو ڈکرپٹ نہیں کر پائیں گے۔</string>
+    <string name="warning_never_show">دوبارہ مطلع نہ کریں</string>
+    <string name="warning_confirm">سمجھ گیا!</string>
+    <string name="crypt_encryption_fail">انکرپٹ کرنے میں ناکام</string>
+    <string name="crypt_decryption_fail">ڈیکرپٹکرنےمیںناکام</string>
+    <string name="crypt_decryption_fail_password">غلط پاس ورڈ!</string>
+    <string name="crypt_fingerprint_authenticate">جاری رکھنے کے لیے ٹچ سینسر</string>
+    <string name="authenticate_password">پاس ورڈ درج کریں</string>
+
+    <string name="sidebar_preferences">سائیڈ بار</string>
+    <string name="sidebar_quick_access_title">سائیڈ بار فوری رسائی</string>
+    <string name="show_quick_access_pref_title">فوری رسائی دکھائیں</string>
+    <string name="show_quick_access_pref">فوری رسائی</string>
+    <string name="directory">ڈائریکٹری</string>
+
+    <string name="sidebar_bookmarks_title">سائیڈ بار بک مارکس</string>
+    <string name="show_bookmarks_pref_title">بک مارکس دکھائیں</string>
+    <string name="show_bookmarks_pref">بک مارکس</string>
+    <string name="create_bookmark">بک مارک بنائیں</string>
+    <string name="edit_bookmark">بک مارک میں ترمیم کریں</string>
+    <string name="question_delete_bookmark">بک مارک کو حذف کریں؟</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud پلگ ان نہیں ملا۔ براہ کرم Play Store سے ڈاؤن لوڈ کریں۔</string>
+    <string name="cloud_error_failed_restart">کنکشن لوڈ کرنے میں ناکام۔
+        براہ کرم ایک بار Amaze Cloud کھولیں۔</string>
+    <string name="cloud_remove">کیا آپ کلاؤڈ کنکشن کو ہٹانا چاہتے ہیں؟</string>
+    <string name="cloud_fail_authenticate">تصدیق کرنے میں ناکام</string>
+    <string name="cloud_share_copied">قابل اشتراک لنک کلپ بورڈ پر کاپی ہو گیا</string>
+    <string name="copy_low_memory">کا ختم ہو رہا ہے میموری، براہ کرم کچھ RAM صاف کریں</string>
+    <string name="cloud_token_lost">ٹوکن کھو گیا ہے، براہ کرم دوبارہ سائن ان کریں</string>
+    <string name="monofont">Fo86 byte</string>
+    <string name="showHeaders">ہیڈر دکھائیں</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">کوئی آئٹم نہیں</string>
+	<string name="item">آئٹم</string>
+	<string name="items">آئٹمز</string>
+	
+	<string name="byte_singular">bytes</string>
+	<string name="bytes">Save as…</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">فائل کا ایک نام ہونا چاہئے</string>
+    <string name="add_item">آئٹم شامل کریں</string>
+    <string name="failed_smb_decrypt_path">SMB کنکشن لوڈ کرنے میں ناکام</string>
+    <string name="failed_cloud_new_connection">نیا کلاؤڈ کنکشن شامل کرنے میں ناکام</string>
+    <string name="failed_cloud_api_key">اس میں ناکام کلاؤڈ پلگ ان کی توثیق کریں</string>
+
+    <string name="local_inet_addr_error">مقامی انیٹ ایڈریس حاصل کرنے میں خرابی</string>
+    <string name="intent_save_as">Go</string>
+    <string name="go">Advanced</string>
+    <string name="advanced">Developers</string>
+    <string name="typeable_paths_title">اپنی مرضی کے راستے</string>
+    <string name="typeable_paths_summary">اپنی مرضی کے مطابق پاتھ ٹائپ کرنے کے لیے پاتھ بار کو دیر تک دبائیں</string>
+    <string name="send_email_to">اس پر ای میل بھیجیں</string>
+
+    <string name="text_editor">ٹیکسٹ ایڈیٹر کی ترتیبات</string>
+    <string name="preference_newstack_title">فائلوں کو نئے کام کے طور پر کھولیں</string>
+    <string name="preference_newstack_summary">آپ کو الگ الگ کاموں میں فائلیں کھولنے کی اجازت دیتا ہے۔ سسٹم کی حالیہ اسکرین سے ان تک رسائی حاصل کریں۔</string>
+    
+    <string name="developers">Amaze Notification</string>
+    <string name="no_bitcoin_app">براہ کرم بٹ کوائن والیٹ ایپ انسٹال کریں</string>
+    <string name="channel_name_normal">Verify Host</string>
+    <string name="channel_description_normal">Amaze فائل مینیجر کی اطلاعات</string>
+    <string name="channel_name_ftp">Amaze FTP سرور</string>
+    <string name="channel_description_ftp">مینیجر FTP سرور کی اطلاعات</string>
+
+    
+    <string name="processing">پروسیسنگ…</string>
+    <string name="failed_no_connection">فائلیں لوڈ کرنے میں ناکام۔ براہ کرم اپنا کنکشن چیک کریں۔</string>
+
+    <string name="update">اپ ڈیٹ کریں</string>
+	<string name="scp_connection">SCP/SFTP کنکشن</string>
+    <string name="ftp_connection">FTP کنکشن</string>
+    <string name="ftps_connection">FTP اوور SSL کنکشن</string>
+    <string name="scp_port">پورٹ</string>
+    <string name="ssh_host_key_verification_prompt">میزبان \'%1$s\' کی صداقت قائم نہیں کی جا سکتی۔\n\n%2$s کلیدی فنگر پرنٹ %3$s ہے۔\n\nبراہ کرم تصدیق کرنے کے لیے \"ہاں\" کو تھپتھپائیں۔ شناخت؛ بصورت دیگر، براہ کرم \"نہیں\" کو تھپتھپائیں۔</string>
+    <string name="ssh_host_key_verification_prompt_title">Extracted</string>
+    <string name="ssh_select_pem_button">SSH پرائیویٹ کی</string>
+    <string name="ssh_pem_key_parse_error">منتخب کردہ PEM کو پڑھنے سے قاصر: %s</string>
+    <string name="password_unchanged">(بغیر تبدیل شدہ)</string>
+    <string name="ssh_authentication_failure_password">لاگ ان کی ناکامی: فراہم کردہ صارف نام اور پاس ورڈ کے ساتھ تصدیق کرنے سے قاصر۔</string>
+    <string name="ssh_authentication_failure_key">لاگ ان کی ناکامی: فراہم کردہ صارف نام اور نجی کلید کے ساتھ تصدیق کرنے سے قاصر۔</string>
+    <string name="ssh_connect_failed">%1$ سے رابطہ قائم کرنے سے قاصر s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">انتباہ: ریموٹ ہوسٹ کی شناخت بدل گئی ہے!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">یہ ممکن ہے کہ کوئی کچھ ناگوار کام کر رہا ہو!\n\nکوئی آپ کو خوش کر رہا ہو ابھی (درمیانی حملہ آور)! یہ بھی ممکن ہے کہ میزبان کلید کو ابھی تبدیل کیا گیا ہو۔ ریموٹ ہوسٹ کی طرف سے بھیجی گئی عوامی کلید کا فنگر پرنٹ Amaze میں محفوظ کردہ سے مماثل نہیں ہے۔\n\nسرور سے جڑنا جاری رکھنے کے لیے براہ کرم اپنے سسٹم ایڈمنسٹریٹر سے رابطہ کریں یا نیا کنکشن سیٹ کریں۔</string>
+    <string name="ssh_key_prompt_passphrase">براہ کرم کلیدی پاسفریز درج کریں۔ .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Shortcuts کی تخلیق آپ کے لانچر سے تعاون یافتہ نہیں ہے۔</string>
+    
+    <string name="select_color_config">منتخب رنگ کی تشکیل</string>
+    <string name="customize">حسب ضرورت بنائیں</string>
+    <string name="custom">اپنی مرضی کے مطابق</string>
+    <string name="preselected_configs_title">پہلے سے منتخب کردہ تشکیلات</string>
+    <string name="orange">اورنج</string>
+    <string name="blue">نیلا</string>
+    <string name="green">سبز</string>
+    <string name="password_no_match">پاس ورڈ مماثل نہیں ہے</string>
+    <string name="deselect_all">سب کو غیر منتخب کریں</string>
+    <string name="filename">فائل کا نام</string>
+    <string name="compress_file_suggest_zip_extension">اس کی سفارش کی جاتی ہے کہ \".zip\" کو فائل ایکسٹینشن کے طور پر استعمال کریں۔</string>
+    <string name="about_amaze">Android کے لیے مٹیریل ڈیزائن فائل مینیجر</string>
+    <string name="license">لائسنس</string>
+    <string name="libraries">لائبریریاں</string>
+    <string name="password_repeat">دوہرائیں پاس ورڈ</string>
+    <string name="create_file_suggest_txt_extension">اسے استعمال کرنے کی سفارش کی جاتی ہے \"۔ txt\" فائل کی توسیع کے طور پر۔</string>
+    <string name="ssh_select_pem">تصدیق کے لیے نجی کلید منتخب کریں</string>
+    <string name="ssh_key_invalid_passphrase">غلط کلیدی پاسفریز۔</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM کو ڈکرپٹ کرنے کے لیے کوئی درست ڈیکوڈر نہیں ہے۔</string>
+    <string name="encryption_fail_copy">میں ناکام ڈیٹا بیس میں انکرپشن انٹری کو اپ ڈیٹ کریں</string>
+    <string name="extracted">Compressed</string>
+    <string name="compressed">Processed</string>
+    <string name="processed">Export</string>
+    <string name="no_obtainable_info">اس فائل کے بارے میں کوئی معلومات نہیں ہے</string>
+    <string name="reopen_from_source">Can\' t، براہ کرم آخری ایپ سے دوبارہ کھولیں</string>
+    <string name="no_file_error">کچھ غلط ہو گیا، کھولنے کے لیے کچھ نہیں ہے</string>
+    <string name="file_too_long">فائل بہت لمبی ہے اور اس میں ترمیم نہیں کی جا سکتی، تاہم آپ پہلے %d حروف پڑھ سکتے ہیں</string>
+    <string name="file_read_only">کھلی گئی فائل صرف پڑھنے کے لیے ہے۔</string>
+    <string name="got_it">سمجھ گیا!</string>
+    <string name="encrypt_file_save_as">انکرپٹڈ فائل کو اس طرح محفوظ کریں…</string>
+    <string name="encrypt_folder_save_as">انکرپٹڈ فولڈر کو اس طرح محفوظ کریں…</string>
+    <string name="encrypt_option_use_aze">امیزانکرپشنفارمیٹکااستعمالکریں</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt ایک اوپن سورس فائل انکرپشن فارمیٹ ہے جو AES انکرپشن پر مبنی ہے۔ یہ پورٹیبل بھی ہے، دوسرے پلیٹ فارمز پر AESCrypt پروگراموں کے ساتھ ڈکرپٹ کیا جا سکتا ہے۔</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt ویب سائٹ</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze کا انکرپشن فارمیٹ بھی AES انکرپشن پر مبنی ہے۔ لیکن AESCrypt فارمیٹ سے مختلف، اسے صرف اس ڈیوائس کے ذریعے ہی ڈکرپٹ کیا جا سکتا ہے۔ نیز آپ کو اس ڈیوائس سے Amaze فائل مینیجر کو ان انسٹال نہیں کرنا چاہیے اور نہ ہی اپنی اسکرین کو لاک کرنے کے طریقے کو تبدیل کرنا چاہیے، بصورت دیگر آپ کے پاس انکرپٹڈ فائل کو بازیافت کرنے کا کوئی طریقہ نہیں ہوگا۔</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">انکرپٹڈ فائلز کو \".aze\" کو فائل ایکسٹینشن کے طور پر استعمال کرنا چاہیے۔</string>
+    <string name="encrypt_file_must_end_with_aes">انکرپٹڈ فائلز کو فائل ایکسٹینشن کے طور پر \".aes\" کا استعمال کرنا چاہیے۔</string>
+    <string name="error_aescrypt_decrypt_failed">ڈیکرپٹ نہیں کیا جا سکتا \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">فائل کو اوور رائٹ نہیں کیا جا سکتا۔</string>
+    <string name="saved_single_file">فائل کو \'%s\' کے بطور محفوظ کیا گیا۔</string>
+    <string name="saved_multi_files">%d فائلیں محفوظ ہو گئیں۔</string>
+    <string name="create_hidden_file_warn">تخلیق کردہ فائل فائل کی فہرست میں چھپ جائے گی۔</string>
+    <string name="grant_apkinstall_permission">ایپ کو انسٹال کرنے کے لیے اجازت کی ضرورت ہے۔</string>
+    <string name="time_remaining">وقت باقی ہے</string>
+    <string name="transfer_rate">ٹرانسفر ریٹ</string>
+    <string name="unknown">نامعلوم</string>
+    <string name="multiple_invalid_archive_entries">آرکائیو میں کچھ فائلیں نکالی نہیں جا سکتیں۔ محفوظ شدہ دستاویزات کو نقصان پہنچا یا نقصان دہ ذریعہ سے آیا ہے۔</string>
+    <string name="saf_otg_explanation">اب آپ سیکیورٹی وجوہات کی بنا پر اینڈرائیڈ کے فائل سسٹم پر جائیں گے۔ براہ کرم بائیں طرف کی فہرست سے USB آلہ منتخب کریں۔</string>
+    <string name="donation_thanks">عطیہ کے لیے آپ کا شکریہ، اس سے ہمیں حوصلہ ملتا ہے! (:</string>
+    <string name="enable_marquee_filename">فائل کے ناموں کے لیے مارکی اثر کو فعال کریں</string>
+    <string name="archive_password_prompt">براہ کرم آرکائیو کا پاس ورڈ درج کریں:</string>
+    
+    <string name="cannot_extract_archive">آرکائیو \"%s\" نکال نہیں سکتا: %s</string>
+    <string name="archive_unsupported_or_corrupt">نہیں کر سکتے آرکائیو \"%s\" کھولیں۔ یا تو ہم آرکائیو کو نہیں کھول سکتے، یا آرکائیو کو نقصان پہنچا ہے۔</string>
+    <string name="close">بند کریں</string>
+    <string name="bookmark_exists">بک مارک موجود ہے</string>
+    <string name="hide_media">میڈیا براؤزرز سے چھپائیں</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">یہ ممکن ہے کہ کوئی کچھ ناگوار کام کر رہا ہو!\n\nاس وقت کوئی آپ کے بارے میں باتیں کر رہا ہو (مین-ان-دی-درمیان حملہ)! یہ بھی ممکن ہے کہ میزبان کلید کو ابھی تبدیل کیا گیا ہو۔ فنگر پرنٹ ریموٹ ہوسٹ کی طرف سے بھیجی گئی عوامی کلید Amaze میں محفوظ کردہ سے مماثل نہیں ہے۔\n\nآپ میزبان فنگر پرنٹ کو اپ ڈیٹ کرنے کے ساتھ آگے بڑھ سکتے ہیں یا SSH کنکشن کی ترتیبات کو اپ ڈیٹ کرنا منسوخ کر سکتے ہیں۔</string>
+    <string name="update_host_key">میزبان کلید کو اپ ڈیٹ کریں</string>
+    <string name="cancel_recommended">منسوخ کریں (تجویز کردہ)</string>
+    
+    
+    <string name="failed_install_apk">انسٹال کرنے میں ناکام</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">انٹرنل اسٹوریج</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD کارڈ</string>
+    <string name="choose_folder">اس فولڈر کو منتخب کریں</string>
+    
+    <string name="some_files_failed_invalid_operation">کچھ فائلیں غلط ہونے کی وجہ سے ناکام ہوگئیں آپریشن</string>
+    <string name="ftp_server_prompt_connect_to_network">ایک نیٹ ورک سے جڑیں یا AP کو فعال کریں</string>
+    <string name="ftp_server_open_settings">کھولیں ترتیبات</string>
+    <string name="move">منتقل کریں</string>
+    <string name="select_save_location">محفوظ کرنے کے لیے مقام کا انتخاب کریں</string>
+    <string name="scp_default_path">ڈیفالٹ پاتھ (اختیاری)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">معذرت، ایسا نہیں ہونا چاہیے تھا۔</string>
+    
+    <string name="error_report_button_text">اس غلطی کی ای میل کے ذریعے رپورٹ کریں</string>
+    <string name="error_report_button_telegram">ٹیلیگرام کے ذریعے اس غلطی کی اطلاع دیں</string>
+    <string name="copy_for_github">فارمیٹ شدہ رپورٹ کاپی کریں</string>
+    <string name="error_report_open_issue_button_text">GitHub پر رپورٹ</string>
+    <string name="error_report_open_github_notice">براہ کرم چیک کریں آیا آپ کے کریش پر بحث کرنے والا کوئی مسئلہ پہلے سے موجود ہے۔</string>
+    <string name="error_snackbar_message">معذرت، کچھ غلط ہوگیا۔</string>
+    <string name="error_snackbar_action">رپورٹ</string>
+    <string name="what_device_headline">معلومات:</string>
+    <string name="what_happened_headline">کیا ہوا:</string>
+    <string name="info_labels">کیا:\\nدرخواست:\\nGMT وقت:\\nPackage:\\nVersion:\\nOS ورژن:\\nDevice:\\nModel:\\nProduct:</string>
+    <string name="your_comment">آپ کا تبصرہ (انگریزی میں):</string>
+    <string name="error_details_headline">تفصیلات:</string>
+    <string name="app_ui_crash">ایپ/UI کریش ہو گیا</string>
+    <string name="error_report_title">خرابی کی رپورٹ</string>
+    <string name="crash_report_copied">کریش رپورٹ کلپ بورڈ پر کاپی کی گئی</string>
+    <string name="disableIpcSignature">IPC سائننگ چیک کو غیر فعال کریں (وراثت کے لیے SMBv1 سرورز - UNSAFE!)</string>
+    <string name="cannot_delete_file">فائل کو حذف نہیں کیا جاسکتا</string>
+    <string name="cannot_delete_file_with_reason">فائل کو حذف نہیں کیا جاسکتا - %s</string>
+    <string name="cannot_rename_file">فائل کا نام تبدیل نہیں کیا جاسکتا %s - %s</string>
+    <string name="cannot_read_directory">ڈائریکٹری نہیں پڑھ سکتا %s - %s</string>
+    <string name="just_once">صرف ایک بار</string>
+    <string name="always">ہمیشہ</string>
+    <string name="choose_different_app">مختلف ایپلیکیشن کا انتخاب کریں</string>
+    <string name="clear_open_file">کیچ صاف کریں</string>
+    <string name="clear_open_file_summary">منتخب ڈیفالٹ فائل کھولنے والی ایپس کو صاف کریں</string>
+    <string name="ftp_readonly">صرف پڑھنے کے لیے رسائی</string>
+    <string name="legacy_listing_title">روٹ کے لیے لیگیسی لسٹنگ کا استعمال کریں</string>
+    <string name="legacy_listing_summary">اگر فعال ہے تو فائلوں کی فہرست بنانے کے لیے میراثی طریقہ استعمال کریں</string>
+    <string name="error_unsupported_v5_rar">RAR آرکائیو \"%s\" ہے غیر تعاون یافتہ RAR v5 آرکائیو۔</string>
+    <string name="ftp_prompt_restart_server">تبدیلیوں کو نافذ کرنے کے لیے آپ کو FTP سرور کو دوبارہ شروع کرنے کی ضرورت ہوگی۔</string>
+    <string name="error_permission_denied">اجازت مسترد کر دی گئی</string>
+    <string name="error_archive_password_incorrect">غلط آرکائیو پاس ورڈ۔</string>
+    <string name="error_archive_cannot_extract">آرکائیو کا اندراج نہیں نکالا جا سکتا \" %s\" سے \"%s\"۔</string>
+    <string name="drag_and_drop_preference">منتخب کریں ڈریگ اینڈ ڈراپ ترجیح (تجرباتی)</string>
+    <string name="drag_to_move_copy">فائلز کو منتقل یا کاپی کرنے کے لیے ٹچ اور ڈریگ کریں</string>
+    <string name="drag_to_select">ٹچ اور ڈریگ فائلوں کو منتخب کریں</string>
+    <string name="disable">غیر فعال کریں</string>
+    <string name="choose_operation">کرنے کے لیے آپریشن کا انتخاب کریں</string>
+    <string name="remember">اگلی بار کے لیے یاد رکھیں</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP سرور کے لیے SAF رسائی فراہم کریں</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">چونکہ یہ آپ کا FTP سرور کا پہلا رن ہے، اور آپ ڈیوائس کی اندرونی اسٹوریج کو مشترکہ فولڈر کے طور پر استعمال کر رہے ہیں، براہ کرم Amaze کو SAF کا استعمال کرتے ہوئے اسٹوریج تک رسائی کی اجازت دیں۔\n\n
+
+آپ کو یہ صرف ایک بار کرنے کی ضرورت ہے، جب تک کہ آپ اگلی بار اشتراک کے لیے کوئی نیا مقام منتخب نہ کر لیں۔</string>
+    <string name="android_data_prompt_saf_access">Android 10 کے بعد سے، Android نے کچھ ڈائریکٹریز پر پابندیاں عائد کر دی تھیں، اور انہیں اسٹوریج تک رسائی کے فریم ورک کے ساتھ رسائی کی ضرورت ہے۔\n \nبراہ کرم \"Allow Access\" کو تھپتھپا کر Amaze کو سسٹم کے فائل مینیجر سے ڈائریکٹری تک رسائی کی اجازت دیں۔</string>
+    <string name="android_data_prompt_saf_access_title">SAF رسائی فراہم کریں</string>
+    <string name="ftp_preference_saf_filesystem_title">میراثی فائل سسٹم استعمال کریں</string>
+    <string name="ftp_preference_saf_filesystem">فعال کریں یہ نئے اینڈرائیڈ ورژنز</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP سرور کا مشترکہ راستہ اندرونی سٹوریج پر دوبارہ ترتیب دیا گیا تھا کیونکہ آپ لیگیسی فائل سسٹم کے نفاذ پر واپس جا رہے ہیں۔ براہ کرم ضرورت کے مطابق اوپر دائیں جانب مینو کا استعمال کرتے ہوئے ایک نیا راستہ منتخب کریں۔</string>
+    <string name="ftp_server_reset_notify">FTP سرور کا مشترکہ راستہ اندرونی اسٹوریج پر دوبارہ ترتیب دیا گیا تھا</string>
+    <string name="ftp_server_root_unavailable">آپ ایک ایسا راستہ منتخب کر رہے ہیں جس کے لیے روٹ تک رسائی کی ضرورت ہے۔ اگر آپ کا آلہ روٹ ہے تو براہ کرم ترتیبات میں روٹ ایکسپلورر کو فعال کریں۔</string>
+    <string name="ftp_server_root_filesystem_warning">آپ ایک ایسا راستہ منتخب کر رہے ہیں جس کے لیے روٹ تک رسائی کی ضرورت ہے، جو آپ کے آلے کے پورے فائل سسٹم میں پڑھنے/لکھنے کے عمل کو قابل بناتا ہے، اور یہ خطرناک ہے - لاپرواہی کی غلطیاں آپ کے آلے کو اینٹ کر سکتی ہیں!\n\nکیا آپ کو یقین ہے؟</string>
+    <string name="compressed_explorer_fragment_error_open_uri">پڑھنے کے لیے URI \"%s\" کھولنے میں خرابی۔</string>
+    <string name="error_empty_archive">\"%s\" ایک خالی آرکائیو ہے۔</string>
+    <string name="error_bad_archive_without_info">\"%s\" ایک خراب شدہ آرکائیو ہے۔ .</string>
+    <string name="error_bad_archive_with_info">\"%s\" ایک خراب شدہ آرکائیو ہے۔\nایکسٹریکٹر کی جانب سے پیغام: \"%s\"</string>
+    <string name="security_error">اس ایپ کو استعمال کرکے فائل نہیں کھولی جا سکی</string>
+    <string name="cloud_drive_tooltip">تخلیق کریں Amaze فائل مینیجر سے فائلوں کو منظم کرنے کے لیے ایک Google Drive™ کنکشن۔</string>
+    <string name="signin_with_google_title">Google Drive استعمال کرنے کے لیے تصدیق کریں™</string>
+    <string name="show_system_apps">سسٹم ایپس دکھائیں</string>
+    <string name="system_apps">سسٹم ایپس</string>
+    <string name="select_inverse">منتخب کریں الٹا</string>
+    <string name="select_by_type">قسم کے لحاظ سے منتخب کریں</string>
+    <string name="select_by_date">تاریخ کے لحاظ سے منتخب کریں</string>
+    <string name="select_similar">اسی طرح کا انتخاب کریں</string>
+    <string name="error_fetching_google_play_product_list">Google Play سے مصنوعات کی فہرست حاصل کرنے میں خرابی۔</string>
+    <string name="grant_all_files_permission">چونکہ Android 11 , Google فائل مینیجرز سے درخواست کرتا ہے کہ وہ ڈیوائس پر موجود تمام فائلوں کے انتظام کے لیے صارف کی اجازت طلب کریں۔ تفصیلات یہاں۔
+        \n\nAmaze فائل مینیجر کو بھی اس اجازت کی ضرورت ہے۔ یہاں "گرانٹ" کو دبانے کے بعد، براہ کرم اگلی اسکرین پر تمام فائلوں کو منظم کرنے کے لیے رسائی کی اجازت دیں کو منتخب کریں۔
+        \n\nاس ڈائیلاگ کو منسوخ کرنا ایپ سے باہر ہو جائے گا۔</string>
+    <string name="user_apps">صارف ایپس</string>
+    <string name="appearance">ظاہر</string>
+    <string name="behavior">رویہ</string>
+    <string name="appearance_summary">فائل مینیجر کی تھیم، رنگ اور ظاہری شکل کو حسب ضرورت بنائیں</string>
+    <string name="ui_summary">کنٹرول کریں کہ کون سی معلومات دکھائیں، سائڈبار کو اپنی مرضی کے مطابق بنائیں، اور UI ترجیحات کو ٹوگل کریں</string>
+    <string name="behavior_summary">طرز عمل میں ترمیم کریں جیسے کہ اعلی درجے کی تلاش اور کیا فائلوں کو نئے کام کے طور پر کھولنا ہے</string>
+    <string name="security_summary">پاس ورڈ سیٹ اپ کریں اور انکرپشن</string>
+    <string name="backup_summary">Export/import Amaze ترتیبات</string>
+
+    <string name="pref_export">Amaze Document Viewer</string>
+    <string name="pref_export_summary">Export ترتیبات</string>
+    <string name="pref_import">درآمد</string>
+    <string name="pref_import_summary">درآمد کی ترتیبات 86درآمد کی ترتیبات حال ہی میں Amaze کے ذریعے رسائی حاصل کی گئی</string>
+
+    <string name="quick_desc">حال ہی میں بنائی گئی یا ترمیم شدہ فائلیں</string>
+    <string name="recent_desc">فائل کو کھولنے کا راستہ نہیں مل سکا</string>
+    <string name="error_cannot_find_way_open">درخواست شدہ آرکائیو پر کارروائی نہیں کی جا سکتی</string>
+    <string name="error_cant_decompress_that_file">اسٹوریج کا تجزیہ کریں</string>
+    <string name="analyse_storage">آپ کو امیز فائل یوٹیلیٹیز پر ری ڈائریکٹ کیا جا رہا ہے۔ یہ ہماری اوپن سورس ایپ ہے جس میں ان بلٹ آڈیو/ویڈیو/امیج/دستاویزی ناظرین ہیں، آپ کو اسٹوریج خالی کرنے، وائی فائی P2P کا استعمال کرتے ہوئے تیزی سے منتقلی اور بہت کچھ کرنے کے لیے جنک فائلوں کا تجزیہ کرنے کی اجازت دیتا ہے۔\nبراہ کرم اسے آزما کر ہماری مدد کریں۔</string>
+    
+    <string name="download_amaze_utils_text">ڈاؤن لوڈ کریں</string>
+    <string name="download">Wi-Fi P2P</string>
+    <string name="wifip2p">Amaze فائل یوٹیلیٹیز انسٹال کرنے کے لیے آپ کا شکریہ۔ آپ کو ایپ پر ری ڈائریکٹ کیا جا رہا ہے۔</string>
+    <string name="amaze_utils_installed_alias">Amaze Image Viewer</string>
+    <string name="image_viewer">Amaze Video Player</string>
+    <string name="video_player">Amaze Music Player</string>
+    <string name="amaze_audio_player">Amaze Document Viewer</string>
+    <string name="pdf_viewer"/>
+    <string name="docx_viewer">لاگز کا اشتراک کریں</string>
+    <string name="share_logs">کیپچر شدہ لاگز کو بذریعہ ای میل/ٹیلیگرام شیئر کریں</string>
+    <string name="share_logs_summary">Amaze کے ساتھ کھولیں</string>
+    <string name="open_with_amaze">تصدیق</string>
+    <string name="confirmation">تصدیق</string>
+    <string name="open_file_confirmation">واقعی آپ درج ذیل فائل کو کھولنا چاہتے ہیں؟\n\nنام:\n%s\n\nمقام:\n%s\n\nسائز:\n%s\n\nMD5:\n%s\n\nSHA256:\ n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play پالیسی مینڈیٹ کے مطابق، ایپس کو خود کو اپ ڈیٹ کرنے کی اجازت نہیں ہے۔ براہ کرم Google Play سے ایپ کو اپ ڈیٹ کریں۔</string>
+    <string name="error_cannot_get_package_info">فائل \"%s\" سے پیکیج کی معلومات حاصل کرنے سے قاصر۔ یا تو مخصوص فائل APK نہیں ہے، یا پیکیج فائل کرپٹ ہے۔</string>
+    <string name="preference_delete_confirmation">تصدیق کو حذف کریں</string>
+    <string name="preference_delete_confirmation_summary">فائلوں کو حذف کرنے سے پہلے تصدیق کے لیے پوچھیں۔ اسے غیر فعال کرنا انتہائی حوصلہ شکنی ہے!</string>
+    
+    
+    
+    <string name="unavailable">غیر دستیاب</string>
+
+    <string name="exporting_failed">برآمد کرنا ناکام: بیک اپ فائل لکھ نہیں سکا</string>
+    <string name="importing_failed">درآمد کرنا ناکام: بیک اپ پڑھ نہیں سکا فائل</string>
+    <string name="importing_completed">درآمد کرنا مکمل ہو گیا</string>
+    <string name="invalid_backup_file">غلط بیک اپ فائل</string>
+    <string name="import_failed_for">درآمد ناکام ہو گیا برائے:</string>
+    <string name="free_of">"%s\n%s سے %s مفت</string>
+    <string name="cloud_error_fdroid">Amaze Cloud پلگ ان F-Droid ورژن کے ساتھ تعاون یافتہ نہیں ہے۔ براہ کرم Amaze کا Play Store ورژن استعمال کریں۔</string>
+    <string name="disable_player_intent_filters">پلیئر انٹینٹ فلٹرز کو غیر فعال کریں</string>
+    <string name="disable_player_intent_filters_summary">فائل منتخب کنندہ سے ایمیز ان بلٹ میڈیا پلیئرز کو غیر فعال کرتا ہے</string>
+    <string name="no_app_found_intent">اس ارادے کو سنبھالنے کے لیے کوئی ایپ نہیں ملی۔ کیا آپ کے پاس DocumentsUI انسٹال ہے؟</string>
+    <string name="cloud_connection_credentials_cleared">کلاؤڈ کنکشن کی اسناد صاف ہوگئیں</string>
+    <string name="cloud_connection_credentials_cleared_msg">بدقسمتی سے، ہم آپ کے کلاؤڈ کنکشن کی اسناد کو نئے ڈیٹا بیس اسکیما میں منتقل کرنے سے قاصر تھے، اور ہمارے پاس تھا انہیں ایپ سے ہٹانے کے لیے۔ براہ کرم دوبارہ کلاؤڈ کنکشن بنائیں۔</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="sidebar_preferences">Barra lateral</string>
+    <string name="sidebar_quick_access_title">Acceso rápido a la barra lateral</string>
+    <string name="show_quick_access_pref_title">Mostrar acceso rápido</string>
+    <string name="show_quick_access_pref">Acceso rápido</string>
+    <string name="directory">Catálogo</string>
+
+    <string name="sidebar_bookmarks_title">Marcadores de la barra lateral</string>
+    <string name="show_bookmarks_pref_title">Mostrar marcadores</string>
+    <string name="show_bookmarks_pref">Marcadores</string>
+    <string name="create_bookmark">Crear marcadores</string>
+    <string name="edit_bookmark">Editar marcadores</string>
+    <string name="question_delete_bookmark">¿Eliminar marcadores?</string>
+
+    <string name="cloud_error_plugin">No se encontró el complemento de nube de Amaze. descárguelo de Play Store.</string>
+    <string name="cloud_error_failed_restart">Error al cargar el enlace.
+        abre amaze cloud una vez.</string>
+    <string name="cloud_remove">¿Quieres eliminar la conexión a la nube?</string>
+</resources>

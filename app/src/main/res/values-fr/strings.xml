@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="app_name">Démo I18nStrings</string>
+    
+    <string name="content">I18nstrings est un plug-in plug-and-play android project gradle qui fournit une internationalisation complète et une prise en charge multilingue de vos projets. en intégrant ce plug-in facile à utiliser, vous pouvez activer instantanément la localisation de différentes langues dans votre projet, ce qui le rend plus acceptable pour les utilisateurs du monde entier.</string>
+    <string name="functions_title">Introduction de la fonction</string>
+    <string name="functions">- traduction multilingue&#xa0;: i18nstrings prend en charge la traduction du texte du projet en plusieurs langues et prend en charge la traduction incrémentielle.
+\n- Assurance qualité de la traduction&#xa0;: i18nstrings garantit la qualité de la traduction par le biais de diverses mesures et génère des rapports sur la qualité de la traduction pour vous aider à surveiller et à améliorer le processus de localisation.
+\n- changement de langue&#xa0;: i18nstrings fournit une solution pour changer de langue dans l\'application, améliorant ainsi l\'expérience des utilisateurs internationaux.
+\n- Prise en charge de la langue bêta&#xa0;: i18nstrings prend en charge les traductions en langue bêta et inclut une clause de non-responsabilité pour vous donner plus de flexibilité dans la localisation de votre application.</string>
+    <string name="guide">Cliquez sur le spinner ci-dessous pour essayer de basculer entre différentes langues&#xa0;:</string>
+
+
+    <string name="action_settings">Définir</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Premier fragment</string>
+    <string name="second_fragment_label">Deuxième fragment</string>
+    <string name="next">Suivant</string>
+    <string name="previous">Précédent</string>
+
+    <string name="match_content_summary">Si défini, l\'expression régulière sera
+        correspond au nom de fichier entier,
+        sinon, recherchez les occurrences.</string>
+</resources>

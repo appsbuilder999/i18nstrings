@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">I-Amaze File Manager</string>
+    <string name="drawer_open">Vula ikhabethe lokuzula</string>
+    <string name="drawer_close">Vala ikhabethe lokuzula</string>
+    
+    <string name="apps">Isiphathi Sohlelo</string>
+    <string name="ftp">Iseva ye-FTP</string>
+    <string name="setting">Izilungiselelo</string>
+    <string name="select">Khetha Into</string>
+    <string name="press_again">Cindezela futhi ukuze uphume</string>
+    <string name="open">Vula</string>
+    <string name="backup">Isipele</string>
+    <string name="uninstall">Khipha</string>
+    
+    <string name="properties">Izakhiwo</string>
+    <string name="copyingapks">Ikopisha %d amafayela e-APK ku-%s</string>
+    <string name="delbook">Susa Ibhukhimakhi</string>
+    <string name="add_to_bookmarks">Engeza Kumabhukhimakhi</string>
+    <string name="enterpath">Faka Indlela</string>
+    <string name="cancel">KHANSELA</string>
+    <string name="create">DALA</string>
+    <string name="loading">Iyalayisha…</string>
+    <string name="file_empty">Ifayela alinalutho</string>
+    <string name="error">Iphutha</string>
+    <string name="search_results">Imiphumela yosesho ye-%s</string>
+    <string name="rename">Qamba kabusha</string>
+    <string name="save">Londoloza</string>
+    <string name="bookmarks_added">Amabhukumaka Kwengeziwe</string>
+    <string name="fileexist">Ifayela elinegama elifanayo selivele likhona</string>
+    <string name="name">Igama</string>
+    <string name="date">Idethi</string>
+    <string name="location">Indawo</string>
+    <string name="size_capitalized">Usayizi</string>
+    <string name="size">usayizi wefolda</string>
+    <string name="enterzipname">Faka Igama Le-Zip</string>
+    <string name="no_app_found">Alukho Uhlelo Lokusebenza olutholakele lokuvula leli fayela</string>
+    <string name="copying">Ukukopisha</string>
+    <string name="moving">Ukuhambisa</string>
+    <string name="file">Ifayela</string>
+    <string name="folder">Ifolda</string>
+    <string name="newfolder">Ifolda Entsha</string>
+    <string name="entername">Faka Igama</string>
+    <string name="extracting">Ikhipha</string>
+    <string name="stopping">Ukumisa</string>
+    <string name="open_parent">Vula Uhla Lwemibhalo Lomzali</string>
+    <string name="open_with">Vula ngokuthi</string>
+    <string name="share">Yabelana</string>
+    <string name="about">Mayelana</string>
+    <string name="extract">Khipha</string>
+    <string name="compress">Cindezela</string>
+    <string name="yes">Yebo</string>
+    <string name="no">Cha</string>
+    
+    <string name="dialog_delete_category_directories">Iziqondiso</string>
+    <string name="dialog_delete_category_files">Amafayela</string>
+    <string name="dialog_delete_disclaimer">Ukususa izinto ezingezansi kuzozisusa ngunaphakade kusukela kudivayisi yakho futhi ayikwazi ukutholwa.</string>
+    <string name="dialog_delete_title">Susa izinto unomphela?</string>
+    <string name="deleting">Isusa</string>
+    <string name="question_set_path_as_home">Ingabe ufuna ukusetha indlela yamanje njengekhaya lale thebhu?</string>
+    <string name="directorysort">Indlela Yokuhlunga Kwemibhalo </string>
+    <string name="sort_by">Hlunga Nge</string>
+    <string name="sort_only_this">Le folda kuphela</string>
+    <string name="theme">Itimu</string>
+    <string name="random">Isikhumba Esingahleliwe</string>
+    <string name="random_summary">Isetha umbala oyinhloko ongahleliwe ekuqaleni</string>
+    <string name="colorize">Faka umbala Izithonjana</string>
+    <string name="colorize_summary">Isetha umbala wesithonjana omile. Ayikhiphi okuthandwayo kombala wesithonjana sohla lwemibhalo.</string>
+    <string name="home">Ekhaya</string>
+    <string name="paste">Namathisela</string>
+    <string name="history">Umlando</string>
+    <string name="copy">Kopisha</string>
+    <string name="root_mode">I-Root Explorer</string>
+    <string name="root_mode_summary">Okwedivayisi enezimpande kuphela. Kuhlole kuphela uma uqinisekile ngakho.</string>
+    <string name="root_failure">Ukufinyelela Kwezimpande akunikiwe</string>
+    <string name="select_all">Khetha Konke</string>
+    <string name="delete">Susa</string>
+    <string name="set_as_home">Setha Njengekhaya</string>
+    <string name="operation_not_supported">Umsebenzi awusekelwe</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Ukukhanya Okubalulekile</string>
+    <string name="dark">Into Emnyama</string>
+    <string name="daytime">Isikhathi Sasemini</string>
+    <string name="black">Mnyama (ye-OLED)</string>
+    <string name="system">Isistimu (landela itimu yesistimu)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Amafolda Phezulu</string>
+    <string name="filesOnTop">Amafayela Phezulu</string>
+    <string name="none_on_top">Awekho Phezulu</string>
+    <!--SortBy-->
+    <string name="sort_name">Igama</string>
+    <string name="lastModified">Agcine Ukushintshwa</string>
+    <string name="sort_size">Usayizi</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Khetha ifayela</string>
+    <string name="process_viewer">Isibukeli Senqubo</string>
+    <string name="in_safe">Isikhala esinganele</string>
+    <string name="no_file_overwrite">Alikho Ifayela Elibhalwe Ngaphezulu</string>
+    <string name="skip">Yeqa</string>
+    <string name="overwrite">Bhala ngaphezulu</string>
+    <string name="not_allowed">Akuvunyelwe</string>
+    <string name="searching">Isesha %s</string>
+    <string name="done">Kwenziwe</string>
+    <string name="set">Setha</string>
+    <string name="enablerootmde">Vumela Imodi Yezimpande</string>
+    <string name="goback">Buyela Emuva</string>
+    <string name="newfile">Ifayela Elisha</string>
+    <string name="no_files">Awekho Amafayela</string>
+    <string name="used">isikhala esisetshenzisiwe</string>
+    <string name="used_by_others">esisetshenziswa abanye</string>
+    <string name="free">isikhala esikhululekile</string>
+    <string name="listview">Ukubuka Uhlu</string>
+    <string name="gridview">Ukubuka Kwegridi</string>
+    <string name="permission">Izimvume</string>
+    <string name="hide">Fihla</string>
+    <string name="exit">Phuma</string>
+    <string name="doforall">Yenza zonke izinto</string>
+    <string name="gridcolumnno">Inombolo yamakholomu kugridi buka</string>
+    <string name="set_random">Izinguquko zizokwenzeka ngemva kokuthi uqale kabusha uhlelo lokusebenza</string>
+    <string name="authors">Ababhali</string>
+    
+    <string name="ok">KULUNGILE</string>
+    <string name="ui">Isixhumi esibonakalayo</string>
+    <string name="general">Okujwayelekile</string>
+    <string name="thumb_summary">Bonisa Izithonjana zezinhlelo zokusebenza nezithombe</string>
+    <string name="thumb">Bonisa Izithonjana</string>
+    <string name="hidden">Bonisa Amafayela Afihliwe Namafolda</string>
+    <string name="lastModifiedSummary">Bonisa idethi nesikhathi sokulungiswa kokugcina</string>
+    <string name="lastModifiedPref">Bonisa Idethi Yokugcina Ukulungiswa Nesikhathi</string>
+    <string name="size_pref_summary">Bonisa usayizi wamafayela nenani lezinto kumafolda</string>
+    <string name="size_pref">Bonisa Osayizi</string>
+    <string name="miscellaneous">Okuxubile</string>
+    <string name="root_pref_summary">Bonisa Izimvume Zamafayela kanye Amafolda</string>
+    <string name="root_pref">Bonisa Izimvume</string>
+    <string name="about_amaze_file_manager_label">Mayelana Nesiphathi Sefayela Se-Amaze</string>
+    <string name="version">Inguqulo</string>
+    <string name="rate">Linganisela uhlelo lokusebenza</string>
+    <string name="feedback">Thumela Impendulo</string>
+    <string name="hiddenfiles">Kufihliwe Amafayela</string>
+    <string name="type">Uhlobo</string>
+    <string name="root_directory">Umsuka</string>
+    <string name="add_shortcut">Engeza Isinqamuleli</string>
+    <string name="unsaved_changes">Izinguquko Ezingalondoloziwe</string>
+    <string name="unsaved_changes_description">Unezinguquko ezingalondoloziwe, ingabe ufuna ukuzilondoloza ngaphambi kokuphuma ?</string>
+    <string name="saving">Ukulondoloza</string>
+    <string name="package_installer">Isifaki Sephakheji</string>
+    <string name="view">Buka</string>
+    <string name="install">Faka</string>
+    <string name="archive">Faka kungobo yomlando</string>
+    <string name="archive_text">Lena ingobo yomlando. Isiphi isenzo ongathanda ukusenza?</string>
+    <string name="package_installer_text">Lesi isifaki sephakheji. Isiphi isenzo ongathanda ukusenza?</string>
+    <string name="xda_title">Uchungechunge lwe-XDA</string>
+    <string name="xda_summary">Q&amp;amp;A, Usizo Nokuxazulula Izinkinga</string>
+    <string name="circular_images">Sebenzisa izithonjana eziyindilinga ukuze uthole izithombe namavidiyo</string>
+    <string name="circular_icons">Sebenzisa izithonjana eziyindilinga</string>
+    <string name="back_title">Ukuzulazula emuva</string>
+    <string name="back_summary">Inika amandla ukuzulazula emuva ngokwezifiso phezulu kohlu</string>
+    <string name="details">Imininingwane</string>
+    <string name="translators">Abahumushi</string>
+    <string name="german_translation_title">isiJalimane</string>
+    <string name="italian_translation_title">isi-Italian</string>
+    
+    
+    
+    
+    
+    
+    <string name="turkish_translation_title">Turkish </string>
+    
+    <string name="portuguese_translation_title">isiPutukezi</string>
+    
+    
+    
+    
+    <string name="romanian_translation_title">isi-Romanian</string>
+    
+    
+    
+
+    
+    <string name="unin_system_apk">Lolu uhlelo lokusebenza lwesistimu, ukulisusa kungase kuholele ekungazinzini kwesistimu.\ nQhubeka?</string>
+    <string name="warning">Isexwayiso</string>
+    <string name="donate">Nikela</string>
+    <string name="archive_extract_folder">Ifolda Yesizinda Sesizindalwazi</string>
+    <string name="archive_summary">Amafayela angobo yomlando azokhishelwa kule folda. Inani elizenzakalelayo uhla lwemibhalo okulondolozwe kulo ingobo yomlando.</string>
+    <string name="open_as">Vula Njenge</string>
+    <string name="text">Umbhalo</string>
+    <string name="audio">Umsindo</string>
+    <string name="video">Ividiyo</string>
+    <string name="other">Okunye</string>
+    <string name="image">Isithombe</string>
+    <string name="contributors">Abanikeli</string>
+    <string name="save_paths">Khumbula izindlela</string>
+    <string name="save_path_summary">Lapho uqalisa, ifolda esanda kubukwa yethebhu ngayinye izoboniswa</string>
+    <string name="select_intent">Khetha</string>
+    <string name="database">Isizindalwazi</string>
+    <string name="colored_navigation">Ibha yokuzulazula enombala</string>
+    <string name="colored_navigvation_sum">Ukuthi ibha yokuzulazula yesistimu ifakwe umbala ngesikhumba noma cha</string>
+
+    <string name="color_title">Umbala</string>
+    <string name="color_summary">Setha umbala ezingxenyeni ezahlukahlukene ze-UI</string>
+    <string name="primary_color_title">Umbala Oyinhloko (Ithebhu Yesokunxele)</string>
+    <string name="primary_color_summary">Setha umbala kuzinto ezinkulu ze-UI kuthebhu engakwesokunxele</string>
+    <string name="accent_color_title">Umbala Wezwi</string>
+    <string name="accent_color_summary">Setha umbala ku-FAB nenye i-UI encane izici</string>
+    <string name="icon_color_title">Umbala Wesithonjana</string>
+    <string name="icon_color_summary">Setha umbala kuzithonjana</string>
+    <string name="choose_color">Khetha umbala</string>
+    <string name="files">Amafayela</string>
+    <string name="textreader">Isifundi Sombhalo</string>
+    <string name="databasereader">I-Database Reader</string>
+    <string name="show_dividers">Bonisa Abahlukanisi</string>
+    <string name="needs_access">Kudingeka Ukufinyelela Kokubhala</string>
+    <string name="needs_access_summary">Sicela ukhethe umsuka wemibhalo \t</string>
+    <string name="needs_access_summary1">\ukunikeza ukufinyelela kokubhala ukuze usebenzise</string>
+    <string name="smb_connection">Uxhumano lwe-SMB</string>
+    <string name="smb_server">Ikheli Leseva Leseva</string>
+    <string name="server_address">Ikheli Leseva Leseva</string>
+    <string name="username">Igama Lomsebenzisi</string>
+    <string name="password">Iphasiwedi</string>
+    <string name="anonymous">Okungaziwa</string>
+    
+    <string name="folders">Amafolda</string>
+    <string name="folderfilecount">%1$d amafolda namafayela angu-%2$d</string>
+    <string name="videos">Amavidiyo</string>
+    <string name="apks">APK </string>
+    <string name="documents">Amadokhumenti</string>
+    <string name="images">Izithombe</string>
+    <string name="clear">Sula</string>
+    
+    <string name="total">Ingqikithi:</string>
+    <string name="calculating">ibala</string>
+    <string name="sort">Hlunga</string>
+    <string name="ascending">Ukwenyuka</string>
+    <string name="descending">Ukwehla</string>
+    <string name="default_string">Okuzenzakalelayo</string>
+    <string name="doit">Ingabe</string>
+    <string name="want_help">Udinga usizo?</string>
+    <string name="quick">Shesha finyelela</string>
+    <string name="recent">Amafayela akamuva</string>
+    <string name="edit">Hlela</string>
+    <string name="find">Thola ekhasini</string>
+    <string name="grant">Nikeza</string>
+    <string name="grantper">Imvume yokunikeza</string>
+    <string name="grantfailed">Imvume ayinikiwe </string>
+    <string name="grant_storage_permission">Uhlelo lokusebenza ludinga imvume yesitoreji ukuze luqhubeke. Ukukhansela le ngxoxo kuzophuma ohlelweni lokusebenza.</string>
+    <string name="operation_unsuccesful">Ukusebenza Akuphumelelanga</string>
+    <string name="creatingfile">Ukudala Ifayela</string>
+    <string name="creatingfolder">Ukudala Ifolda</string>
+    <string name="renaming">Ukuqamba Kabusha</string>
+    <string name="cant_be_empty">%s ayikwazi ukungabi nalutho</string>
+    <string name="ip">Ikheli</string>
+    <string name="connection_name">Igama lokuxhumana</string>
+    <string name="no_device_found">Awekho amadivayisi atholakele</string>
+    <string name="path">Indlela</string>
+    <string name="rename_bookmark">Lungisa Ibhukhimakhi</string>
+    <string name="cut">Sika</string>
+    <string name="search">Sesha</string>
+    <string name="invalid_name">Igama Elingalungile</string>
+    <string name="search_hint">Thayipha ongaseshwa…</string>
+    <string name="advanced_search">Usesho Oluthuthukisiwe</string>
+    <string name="regular_expression">Ukuveza Okuvamile</string>
+    <string name="regular_expression_summary">Sesha usebenzisa inkulumo evamile yesitayela se-BASH</string>
+    <string name="match_content">Fanisa okuqukethwe</string>
+    <string name="match_content_summary">Uma kusethiwe, izengezo ezijwayelekile zizofaniswa nalo lonke igama lefayela,
+        izobheka ukwenzeka ngenye indlela.</string>
+    <string name="start_ftp">Qala</string>
+    <string name="stop_ftp">Misa</string>
+    <string name="ftp_status_running">Ukugijima</string>
+    <string name="ftp_status_not_running">Ayisebenzi</string>
+    <string name="ftp_no_wifi">Qinisekisa ukuthi uxhumeke ku-Wi -Fi</string>
+    <string name="domain">Isizinda</string>
+    <string name="smb_share">Yabelana ngendlela</string>
+    <string name="invalid">Engavumelekile %s</string>
+    <string name="ftp_notif_starting">Iseva ye-FTP iyaqala</string>
+    <string name="ftp_notif_starting_title">Iseva ye-FTP</string>
+    <string name="ftp_notif_title">Iseva ye-FTP emangalisa iyasebenza</string>
+    <string name="ftp_notif_text">ku-%s</string>
+    <string name="ftp_notif_stop_server">YIMA</string>
+    <string name="ftp_port_edit_menu_title">Imbobo ye-FTP</string>
+    <string name="ftp_port_change_success">Imbobo ye-FTP ishintshwe ngempumelelo</string>
+    <string name="ftp_port_change_error_invalid">Kukhethwe inombolo yembobo engavumelekile</string>
+    <string name="primary_two_title">Umbala Oyinhloko (Ithebhu Yesokudla)</string>
+    <string name="primary_two_summary">Setha umbala kuzinto ezinkulu ze-UI kuthebhu elungile</string>
+    <string name="support_development">Ukuthuthukiswa Kosekelo</string>
+    <string name="report_bugs_title">Bika iziphazamisi</string>
+    <string name="source_title">Ikhodi yomthombo</string>
+    <string name="source_summary">Buka ikhodi yethu yomthombo ku-GitHub</string>
+    <string name="report_bugs_summary">Bika iziphazamisi noma ucele isici esisha</string>
+    <string name="translate_title">Humusha</string>
+    <string name="translate_summary">Humusha Mangaza ngolimi lwakho</string>
+    <string name="paypal_copy_message">I-ID ye-PayPal ikopishwe ebhodini lokunamathisela</string>
+    <string name="searching_devices">Isesha amadivayisi</string>
+    <string name="use_custom_ip">Sebenzisa i-IP yangokwezifiso</string>
+    <string name="bookmark_lost">Ibhukhimakhi ayitholakali, iyakha kabusha…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Ungafinyelela kanjani ifolda ye-Windows eyabelwe ku-Android (SMB)\n\n
+                
+                    
+                        Nika amandla ukwabelana kwefayela ku-Windows\n
+                    
+                    
+                        Vula Iphaneli Yokulawula, chofoza Khetha Iqembu Lasekhaya kanye nezinketho Zokwabelana ngaphansi Kwenethiwekhi
+                        ne-Inthanethi, bese uchofoza okuthi "Shintsha Izilungiselelo Zokwabelana Ezithuthukile," nika amandla "Ifayela kanye
+                        Isici Sokwabelana Ngephrinta".\n\n
+                    
+
+                    
+                        Izilungiselelo ezengeziwe Zokwabelana Ngefayela\n
+                    
+                    
+                        Ungase futhi ufune ukumisa ezinye izilungiselelo zokwabelana ezithuthukile lapha. \n
+                        Isibonelo, ungavumela ukufinyelela kumafayela akho ngaphandle kwephasiwedi uma uwethemba wonke
+                        amadivayisi kunethiwekhi yakho yasendaweni. Uma ifayela nephrinta ukwabelana sekunikwe amandla, ungakwazi
+                        vula i-File Explorer noma i-Windows Explorer, chofoza kwesokudla ifolda ofuna ukwabelana ngayo, futhi
+                        khetha Izakhiwo. \n
+                        Chofoza inkinobho ethi Yabelana futhi wenze ifolda itholakale kunethiwekhi.\n\n
+                        
+
+                    
+                        Qiniseka ukuthi womabili amadivayisi aku-Wifi eyodwa\n
+                    
+                    
+                        Lesi sici senza amafayela atholakale kunethiwekhi yendawo, ukuze i-PC yakho namadivayisi eselula
+                        kufanele ibe kunethiwekhi yendawo efanayo. Awukwazi ukufinyelela ifolda ye-Windows eyabelwe
+                        nge-inthanethi noma uma i-smartphone yakho ixhunywe kudatha yayo yeselula — it
+                        kufanele ixhumeke ku-Wi-Fi.\n\n
+                    
+
+                    
+                        Thola Ikheli Le-IP\n
+                    
+                    
+                        Vula i-Command Prompt. Thayipha okuthi \'ipconfig\' bese ucindezela u-Enter. Bheka Isango Elizenzakalelayo
+                        ngaphansi kwe-adaptha yakho yenethiwekhi yekheli le-IP lerutha yakho. Funa i
+                        \\\"IPv4 Ikheli\\\" ngaphansi kwengxenye ye-adaptha efanayo ukuze uthole i-IP yekhompyutha yakho
+                        ikheli.\n\n
+                    
+
+                    Faka imininingwane ebhokisini lengxoxo le-SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Ayikwazi ukwabelana ngamafayela angaphezu kwe-100</string>
+    <string name="otg_access">Khetha umsuka wedivayisi ye-OTG</string>
+    <string name="information">Ulwazi</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Okufinyelelwe</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Kulungisiwe</string>
+
+    <string name="title">Isihloko</string>
+    <string name="artist">Umculi</string>
+    <string name="album">I-albhamu</string>
+    <string name="year">Unyaka</string>
+    <string name="duration">Ubude</string>
+    <string name="comment">Amazwana</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Isitsha</string>
+    
+    <string name="channels">Iziteshi</string>
+    <string name="sample_rate">Isilinganiso Sesampula</string>
+    
+    <string name="dimensions">Ubukhulu</string>
+    <string name="frame_rate">Isilinganiso Sozimele</string>
+    <string name="image_type">Uhlobo Lwesithombe </string>
+    <string name="width">Ububanzi</string>
+    <string name="height">Ubude</string>
+    <string name="date_modified">Idethi Elungiswe Ngayo</string>
+    <string name="software">Isoftware</string>
+    <string name="creator">Umdali</string>
+    <string name="camera_brand">Umkhiqizo Wekhamera</string>
+    <string name="camera_model">Ikhamera Imodeli</string>
+    <string name="date_taken">Idethi Ethathiwe</string>
+    <string name="exposure_time">Isikhathi Sokuvezwa</string>
+    <string name="aperture_value">Ivelu Yokuvula</string>
+    <string name="image_iso">ISO Isilinganiselwa Sesivinini</string>
+    <string name="flash_fired">I-Flash Fired</string>
+    <string name="focal_length">Ubude Bendawo</string>
+    <string name="subject">Isihloko</string>
+    <string name="author">Umbhali</string>
+    <string name="keywords">Amagama angukhiye</string>
+    <string name="producer">Umdidiyeli</string>
+    <string name="created">Kudaliwe</string>
+    <string name="format">Ifomethi</string>
+    <string name="pages">Amakhasi</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Alungiselelwe</string>
+    <string name="security">Ukuvikela</string>
+    <string name="paper_size">Usayizi Wephepha</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Amanye amafayela awazange akopishwe ngempumelelo %s</string>
+    <string name="copied">akopishwe</string>
+    <string name="moved">kuhanjisiwe</string>
+    <string name="copy_complete">Kopisha Kuqediwe</string>
+    <string name="waiting_title">Ilindile</string>
+    <string name="waiting_content">Ilinde ukuthi ukusebenza kuqedwe</string>
+    <string name="extract_complete">Ukukhipha kuqediwe</string>
+    <string name="compression_complete">Ukucindezela Kuqediwe</string>
+    <string name="compressing">Ukucindezela</string>
+    <string name="cancelled">Kukhanseliwe</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Kubhaliwe</string>
+    <string name="out_of">ku-</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ye</string>
+    <string name="processing_file">Ukucubungula ifayela</string>
+    <string name="current_speed">Isivinini Samanje</string>
+    <string name="smb_launch_error">Uzodinga ukukopishela leli fayela endaweni yokubeka ukuze ulivule</string>
+    <string name="error_file_not_found">Iphutha: Ifayela Ayitholakali</string>
+    <string name="error_io">I/O Iphutha</string>
+    <string name="error_file_too_large">Iphutha: Ifayela likhulu Kakhulu</string>
+    <string name="medium_text">Umbhalo Omaphakathi</string>
+    <string name="permission_read">Funda</string>
+    <string name="permission_write">Bhala</string>
+    <string name="permission_execute">Qalisa</string>
+    <string name="permission_owner">Umnikazi</string>
+    <string name="permission_group">Iqembu</string>
+    <string name="permission_other">Okunye</string>
+    <string name="clipboard_path_copy">Indlela ekopishwe ebhodini lokunamathisela</string>
+    <string name="service_timer">Isikhathi esidlule</string>
+    <string name="please_wait">Sicela ulinde</string>
+
+    
+    <string name="cloud_connection_new">Uxhumano Lwefu Olusha</string>
+    <string name="cloud_dropbox">I-Dropbox</string>
+    <string name="cloud_drive">Google Drayivu™</string>
+    <string name="cloud_onedrive">I-OneDrive</string>
+    <string name="cloud_box">Ibhokisi</string>
+    <string name="cloud_get">Thola i-plugin Yefu</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Azikho izinhlelo zokusebenza</string>
+    <string name="ftp_path">Indlela eyabiwe</string>
+    <string name="ftp_path_hint">Indlela eya kumsuka wohla lwemibhalo ukuze wabelane</string>
+    <string name="change">Shintsha</string>
+    <string name="unknown_error">Eshu, kukhona okungahambanga kahle!</string>
+
+    <string name="ftp_path_change_success">Indlela ye-FTP ishintshwe ngempumelelo</string>
+    <string name="ftp_path_change_error_invalid">Indlela engavumelekile</string>
+    <string name="ftp_status_no_connection">Alukho Uxhumo</string>
+    <string name="ftp_status_secure_connection">Uxhumano Oluvikelekile</string>
+    <string name="ftp_status_title">Isimo</string>
+    <string name="ftp_port">Imbobo</string>
+    <string name="ftp_login">Ngena ngemvume</string>
+    <string name="field_empty">Inkundla ayikwazi ukungabi nalutho</string>
+    <string name="ftp_timeout">Isikhathi sokungenzi lutho</string>
+    <string name="ftp_seconds">Amasekhondi</string>
+    <string name="intellihide_toolbar_title">I-Intellihide Ibha yamathuluzi</string>
+    <string name="intellihide_toolbar_summary">Fihla ngokuzenzakalela ibha yamathuluzi ngenkathi uskrola</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">ikopishwe ebhodini lokunamathisela</string>
+    <string name="contributors_1_summary">Ukuhumusha</string>
+    <string name="contributors_2_summary">Isithonjana nezibhengezo</string>
+    <string name="contributors_3_summary">Injini Yetimu</string>
+    <string name="contributors_4_summary">Umthunzi ngemva kwe-FAB</string>
+    <string name="contributors_5_summary">Ukushintshwa kombala lapho uswayipha amathebhu</string>
+    <string name="contributors_6_summary">Iseva ye-FTP</string>
+    <string name="contributors_7_summary">Ivula igobolondo elisebenzisanayo</string>
+    <string name="connection_exists">Ukuxhumana isivele ikhona</string>
+
+    <string name="crypt_encrypting">Ukubhala ngemfihlo</string>
+    <string name="crypt_decrypting">Ukususa ukubethela</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Kubethelwe</string>
+    <string name="crypt_decrypted">Kususwe Ukubethela</string>
+    <string name="crypt_encrypt">Bethela</string>
+    <string name="crypt_decrypt">Khipha</string>
+    <string name="operation_fail_following">Ukusebenza kuhlulekile kumafayela alandelayo</string>
+    <string name="crypt_pref_master_password_title">Iphasiwedi Eyinhloko</string>
+    <string name="crypt_pref_master_password_summary">Setha iphasiwedi eyinhloko ukuze ubethelwe.
+        Shiya kungenalutho ukuze ususwe.</string>
+    <string name="crypt_pref_fingerprint_title">Izigxivizo zeminwe</string>
+    <string name="crypt_pref_fingerprint_summary">Sebenzisa izigxivizo zeminwe ukuze uqinisekise ukubethela</string>
+    <string name="crypt_fingerprint_no_permission">Izimvume zezigxivizo zeminwe azikho</string>
+    <string name="crypt_fingerprint_not_enrolled">Azikho izigxivizo zeminwe ezibhalisiwe</string>
+    <string name="crypt_fingerprint_no_security">Akukho ukuvikeleka kwesikrini sokukhiya kutholiwe</string>
+    <string name="crypt_warning_key">Yaziswa, lapho ushintsha iphethini yakho yokuvikela kusuka
+        Izilungiselelo zesistimu, ngeke ukwazi ukususa ukubethela lokhu okuqukethwe.</string>
+    <string name="warning_never_show">Ungaphinde ukwazise</string>
+    <string name="warning_confirm">Ngiyezwa!</string>
+    <string name="crypt_encryption_fail">Yehlulekile ukubethela</string>
+    <string name="crypt_decryption_fail">Yehlulekile ukususa ukubethela</string>
+    <string name="crypt_decryption_fail_password">Iphasiwedi engalungile!</string>
+    <string name="crypt_fingerprint_authenticate">Inzwa yokuthinta ukuze uqhubeke</string>
+    <string name="authenticate_password">Faka iphasiwedi</string>
+
+    <string name="sidebar_preferences">Ibha eseceleni</string>
+    <string name="sidebar_quick_access_title">Ukufinyelela okusheshayo kwebha eseceleni</string>
+    <string name="show_quick_access_pref_title">Bonisa ukufinyelela okusheshayo</string>
+    <string name="show_quick_access_pref">Ukufinyelela okusheshayo</string>
+    <string name="directory">Inkomba</string>
+
+    <string name="sidebar_bookmarks_title">Amabhukhimakhi ebha eseceleni</string>
+    <string name="show_bookmarks_pref_title">Bonisa amabhukumaka</string>
+    <string name="show_bookmarks_pref">Amabhukumaka</string>
+    <string name="create_bookmark">Dala ibhukhimakhi</string>
+    <string name="edit_bookmark">Hlela ibhukhimakhi</string>
+    <string name="question_delete_bookmark">Susa ibhukhimakhi?</string>
+
+    <string name="cloud_error_plugin">I-plugin ye-Amaze Cloud ayitholakali. Sicela ulande ku-Google Play Isitolo.</string>
+    <string name="cloud_error_failed_restart">Yehlulekile ukulayisha uxhumano.
+        Sicela uvule i-Amaze Cloud kanye.</string>
+    <string name="cloud_remove">Ingabe uyafuna ukususa uxhumo lwamafu?</string>
+    <string name="cloud_fail_authenticate">Yehlulekile ukugunyaza</string>
+    <string name="cloud_share_copied">Isixhumanisi esabelayo sikopishwe ebhodini lokunamathisela</string>
+    <string name="copy_low_memory">Iphelelwa inkumbulo, sicela usule enye i-RAM</string>
+    <string name="cloud_token_lost">Ithokheni elahlekile, sicela ungene ngemvume futhi</string>
+    <string name="monofont">Ifonti Ye-Monospace</string>
+    <string name="showHeaders">Bonisa Izihloko</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Azikho izinto</string>
+	<string name="item">into</string>
+	<string name="items">izinto</string>
+	
+	
+	<string name="bytes">bhayithi</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Ifayela kufanele libe negama</string>
+    <string name="add_item">Engeza Into</string>
+    <string name="failed_smb_decrypt_path">Yehlulekile ukulayisha uxhumano lwe-SMB</string>
+    <string name="failed_cloud_new_connection">Yehlulekile ukwengeza uxhumo olusha Lwefu</string>
+    <string name="failed_cloud_api_key">Yehlulekile qinisekisa i-plug-in yamafu</string>
+
+    <string name="local_inet_addr_error">Iphutha lokuthola ikheli le-inet lendawo</string>
+    <string name="intent_save_as">Londoloza njenge…</string>
+    <string name="go">Hamba</string>
+    <string name="advanced">Ethuthukisiwe</string>
+    <string name="typeable_paths_title">Izindlela zangokwezifiso</string>
+    <string name="typeable_paths_summary">Ibha yendlela yokucindezela isikhathi eside ukuze uthayiphe indlela yangokwezifiso</string>
+    <string name="send_email_to">Thumela i-imeyili ku</string>
+
+    <string name="text_editor">Izilungiselelo zomhleli wombhalo</string>
+    <string name="preference_newstack_title">Vula amafayela njengomsebenzi omusha</string>
+    <string name="preference_newstack_summary">Ikuvumela ukuthi uvule amafayela emisebenzini ehlukene. Finyelela kuwo kusukela kusikrini sakamuva sesistimu.</string>
+    
+    <string name="developers">Onjiniyela</string>
+    <string name="no_bitcoin_app">Sicela ufake uhlelo lokusebenza lwe-Bitcoin Wallet</string>
+    <string name="channel_name_normal">Izaziso Ezimangazayo</string>
+    <string name="channel_description_normal">Izaziso Zomphathi Wefayela</string>
+    <string name="channel_name_ftp">Iseva Ye-FTP Ye-Amaze</string>
+    <string name="channel_description_ftp">Ifayela Elimangalisayo Izaziso Zesiphakeli se-FTP</string>
+
+    
+    <string name="processing">Iyacubungula…</string>
+    <string name="failed_no_connection">Yehlulekile ukulayisha amafayela. Sicela uhlole uxhumo lwakho.</string>
+
+    <string name="update">BUYEKEZA</string>
+	
+    
+    <string name="ftps_connection">FTP ngaphezulu I-SSL Connection</string>
+    
+    <string name="ssh_host_key_verification_prompt">Ubuqiniso bosokhaya \'%1$s\' abukwazi ukusungulwa.\n\n%2$s izigxivizo zeminwe zokhiye ngu-%3$s.\n\nSicela uthephe okuthi \"Yebo\" ukuze uqinisekise ubunikazi; uma kungenjalo, sicela uthephe okuthi \"Cha\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Qinisekisa Umsingathi</string>
+    <string name="ssh_select_pem_button">Ukhiye Oyimfihlo we-SSH</string>
+    <string name="ssh_pem_key_parse_error">Ayikwazi ukufunda i-PEM ekhethiwe: %s</string>
+    <string name="password_unchanged">(ayishintshile)</string>
+    <string name="ssh_authentication_failure_password">Ukwehluleka kwelogo: Ayikwazi ukuqinisekisa ngegama lomsebenzisi nephasiwedi enikeziwe.</string>
+    <string name="ssh_authentication_failure_key">Ukwehluleka kwelogo: Ayikwazi ukugunyaza ngegama lomsebenzisi elinikeziwe nokhiye oyimfihlo.</string>
+    <string name="ssh_connect_failed">Ayikwazi ukuxhuma ku-%1$ s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ISEXWAYISO: ISIKHOMBI SOKUTHI SISIDE ESISHINTSHILE!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">KUKWENZEKA UKUTHI UMUNTU WENZA OKUTHILE!\n\nKungenzeka ukuthi kukhona ongakulalela. njengamanje (ukuhlasela kwendoda ephakathi)! Kungenzeka futhi ukuthi ukhiye womsingathi usanda kushintshwa. Izigxivizo zeminwe zokhiye osesidlangalaleni othunyelwe umsingathi wesilawulikude azifani nalesi esigcinwe ku-Amaze.\n\nSicela uxhumane nomlawuli wesistimu yakho noma usethe uxhumo olusha ukuze uqhubeke uxhumeke kuseva.</string>
+    <string name="ssh_key_prompt_passphrase">Sicela ufake umushwana wokungena wokhiye. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Ukudalwa kwezinqamuleli akusekelwe isiqalisi sakho.</string>
+    
+    <string name="select_color_config">Khetha ukulungiselelwa kombala</string>
+    <string name="customize">Enza ngendlela oyifisayo</string>
+    <string name="custom">ngokwezifiso</string>
+    <string name="preselected_configs_title">Izilungiselelo ezikhethiwe</string>
+    <string name="orange">Owolintshi</string>
+    <string name="blue">Oluhlaza</string>
+    <string name="green">Okuhlaza</string>
+    <string name="password_no_match">Iphasiwedi ayifani</string>
+    <string name="deselect_all">Yeka Ukukhetha Konke</string>
+    <string name="filename">Igama lefayela</string>
+    <string name="compress_file_suggest_zip_extension">Kunconyiwe ukusebenzisa \".zip\" njengesandiso sefayela.</string>
+    <string name="about_amaze">Isiphathi sefayela ledizayini ebalulekile ye-Android</string>
+    
+    
+    <string name="password_repeat">Phinda iphasiwedi</string>
+    <string name="create_file_suggest_txt_extension">Kunconyiwe ukusebenzisa \".txt\" njengesandiso sefayela.</string>
+    <string name="ssh_select_pem">Khetha ukhiye oyimfihlo ukuze uqinisekise</string>
+    <string name="ssh_key_invalid_passphrase">Umushwana wokungena wokhiye ongavumelekile.</string>
+    <string name="ssh_key_no_decoder_decrypt">Ayikho idekhoda evumelekile yokususa ukubethela kwe-PEM.</string>
+    <string name="encryption_fail_copy">Yehlulekile ukubuyekeza ukufakwa kokubethela kusizindalwazi</string>
+    <string name="extracted">Okukhishiwe</string>
+    <string name="compressed">Kucindezelwe</string>
+    <string name="processed">Kucutshungulwe</string>
+    <string name="no_obtainable_info">Alukho ulwazi mayelana naleli fayela</string>
+    <string name="reopen_from_source">Ayikwazi, sicela uvule kabusha kuhlelo lokusebenza lokugcina</string>
+    <string name="no_file_error">Kukhona okungahambanga kahle, akukho okuzovuleka</string>
+    <string name="file_too_long">I ifayela lide kakhulu futhi alikwazi ukuhlelwa, nokho ungafunda izinhlamvu zokuqala ezingu-%d</string>
+    <string name="file_read_only">Ifayela elivuliwe elokufunda kuphela.</string>
+    <string name="got_it">Ngiyezwa!</string>
+    <string name="encrypt_file_save_as">Londoloza Okubethelwe Ifayela Njenge…</string>
+    <string name="encrypt_folder_save_as">Londoloza Ifolda Ebethelwe Njenge…</string>
+    <string name="encrypt_option_use_aze">Sebenzisa Ifomethi Yokubhala Nge-Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>I-AESCrypt ifomethi yomthombo ovulekile yokubethela ifayela esekelwe ekubetheleni kwe-AES. Futhi iyaphatheka, ingasuswa ukubethela ngezinhlelo ze-AESCrypt kwezinye izinkundla.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">Iwebhusayithi ye-AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Ifomethi Yokubhala Ye-Amaze nayo isekelwe ekubetheleni kwe-AES; kodwa ihlukile kufomethi ye-AESCrypt, ingasuswa kuphela ukubethela ngale divayisi; futhi akumele ukhiphe i-Amaze File Manager kule divayisi noma ushintshe indlela ovala ngayo isikrini, ngaphandle kwalokho ngeke ube nayo indlela yokuphinda uthole ifayela elibethelwe.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Amafayela abethelwe kufanele asebenzise \".aze\" njengesandiso sefayela.</string>
+    <string name="encrypt_file_must_end_with_aes">Amafayela abethelwe kufanele asebenzise \".aes\" njengesandiso sefayela.</string>
+    <string name="error_aescrypt_decrypt_failed">Ayikwazi ukususa ukubethela. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Ayikwazi ukubhala phezu kwefayela.</string>
+    <string name="saved_single_file">Ifayela lilondolozwe njenge-\'%s\'.</string>
+    <string name="saved_multi_files">%d amafayela alondoloziwe.</string>
+    <string name="create_hidden_file_warn">Ifayela elidaliwe lizofihlwa ohlwini lwamafayela.</string>
+    <string name="grant_apkinstall_permission">Uhlelo lokusebenza ludinga imvume ukuze lufake izinhlelo zokusebenza.</string>
+    <string name="time_remaining">Isikhathi esisele</string>
+    <string name="transfer_rate">Izinga lokudlulisela</string>
+    <string name="unknown">akwaziwa</string>
+    <string name="multiple_invalid_archive_entries">Amanye amafayela kungobo yomlando awakwazi ukukhishwa; ingobo yomlando ingase yonakaliswe noma ivele emthonjeni ongalungile.</string>
+    <string name="saf_otg_explanation">Manje uzoya kusistimu yefayela ye-Android ngenxa yezizathu zokuphepha. Sicela ukhethe idivayisi ye-USB ohlwini olungakwesokunxele.</string>
+    <string name="donation_thanks">Siyabonga ngomnikelo, lokhu kusigcina sikhuthazekile! (:</string>
+    <string name="enable_marquee_filename">Nika amandla umphumela we-marquee wamagama wefayela</string>
+    <string name="archive_password_prompt">Sicela ufake iphasiwedi yengobo yomlando:</string>
+    
+    <string name="cannot_extract_archive">Ayikwazi ukukhipha ingobo yomlando \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Ayikwazi vula ingobo yomlando \"%s\". Asikwazi ukuvula ingobo yomlando, noma ingobo yomlando yonakalisiwe.</string>
+    <string name="close">Vala</string>
+    <string name="bookmark_exists">Ibhukhimakhi likhona</string>
+    <string name="hide_media">Fihla kuziphequluli zemidiya</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">KUKWENZEKA UKUTHI UMUNTU WENZA OKUHLUPHEKA!\n\nKungenzeka ukuthi othile ukulalele khona manje (ukuhlasela kwendoda emaphakathi)! Kungenzeka futhi ukuthi ukhiye womsingathi usanda kushintshwa. Izigxivizo zeminwe ngoba ukhiye osesidlangalaleni othunyelwe umsingathi wesilawuli kude awufani nalowo ogcinwe ku-Amaze.\n\nUngaqhubeka nokubuyekeza izigxivizo zeminwe zomsingathi noma ukhansele ukubuyekeza izilungiselelo zokuxhuma kwe-SSH.</string>
+    <string name="update_host_key">Buyekeza ukhiye wokuba usokhaya</string>
+    <string name="cancel_recommended">Khansela (Kunconyiwe)</string>
+    
+    
+    <string name="failed_install_apk">Yehlulekile ukufaka</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Isitoreji Sangaphakathi</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Ikhadi Le-SD</string>
+    <string name="choose_folder">Khetha Le Folda</string>
+    
+    <string name="some_files_failed_invalid_operation">Amanye amafayela ahlulekile ngenxa yokungavumelekile operation</string>
+    <string name="ftp_server_prompt_connect_to_network">Xhuma kunethiwekhi noma uvule i-AP</string>
+    <string name="ftp_server_open_settings">Vula izilungiselelo</string>
+    <string name="move">Hambisa</string>
+    <string name="select_save_location">Khetha indawo ozoyilondoloza</string>
+    <string name="scp_default_path">Umzila Ozenzakalelayo (Ongakukhetha)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Uxolo, lokho bekungafanele kwenzeke.</string>
+    
+    <string name="error_report_button_text">Bika leli phutha nge-imeyili</string>
+    <string name="error_report_button_telegram">Bika leli phutha ngocingo</string>
+    <string name="copy_for_github">Kopisha umbiko ofomethiwe</string>
+    <string name="error_report_open_issue_button_text">Bika ku-GitHub</string>
+    <string name="error_report_open_github_notice">Sicela uhlole noma ngabe inkinga edingida ukuphahlazeka kwakho isivele ikhona.</string>
+    <string name="error_snackbar_message">Uxolo, kukhona okungahambanga kahle.</string>
+    <string name="error_snackbar_action">Bika</string>
+    <string name="what_device_headline">Ulwazi:</string>
+    <string name="what_happened_headline">Okwenzekile:</string>
+    <string name="info_labels">Yini:\\nCela:\\nIsikhathi Se-GMT:\\nIphakheji:\\nInguqulo:\\nInguqulo ye-OS:\\nIdivayisi:\\nImodeli:\\nUmkhiqizo:</string>
+    <string name="your_comment">Amazwana akho (ngesiNgisi):</string>
+    <string name="error_details_headline">Imininingwane:</string>
+    <string name="app_ui_crash">Uhlelo lokusebenza/I-UI iphahlazekile</string>
+    <string name="error_report_title">Umbiko wephutha</string>
+    <string name="crash_report_copied">Umbiko wokusaphazeka ukopishwe ebhodini lokunamathisela</string>
+    <string name="disableIpcSignature">Khubaza ukuhlola kokusayina kwe-IPC (Ukuze uthole ifa Amaseva e-SMBv1 - AKUPHEPHILE!)</string>
+    <string name="cannot_delete_file">Ayikwazi ukususa ifayela</string>
+    <string name="cannot_delete_file_with_reason">Ayikwazi ukususa ifayela - %s</string>
+    <string name="cannot_rename_file">Ayikwazi ukuqamba kabusha ifayela %s - %s</string>
+    <string name="cannot_read_directory">Ayikwazi ukufunda uhla lwemibhalo %s - %s</string>
+    <string name="just_once">Kanye Nje</string>
+    <string name="always">Njalo</string>
+    <string name="choose_different_app">Khetha uhlelo lokusebenza oluhlukile</string>
+    <string name="clear_open_file">Sula inqolobane</string>
+    <string name="clear_open_file_summary">Isula izinhlelo zokusebenza zokuvula ifayela ezizenzakalelayo </string>
+    <string name="ftp_readonly">Ukufinyelela kokufunda kuphela</string>
+    <string name="legacy_listing_title">Sebenzisa ukufakwa kuhlu kwefa kumpande</string>
+    <string name="legacy_listing_summary">Uma kunikwe amandla, isebenzisa indlela yefa ukuze kuhlu lwamafayela</string>
+    <string name="error_unsupported_v5_rar">ingobo yomlando ye-RAR \"%s\" ingobo yomlando ye-RAR v5 engasekelwe.</string>
+    <string name="ftp_prompt_restart_server">Uzodinga ukuqala kabusha iseva ye-FTP ukuze izinguquko zisebenze.</string>
+    <string name="error_permission_denied">Imvume inqatshiwe</string>
+    <string name="error_archive_password_incorrect">Iphasiwedi yengobo yomlando engalungile.</string>
+    <string name="error_archive_cannot_extract">Ayikwazi ukukhipha okufakiwe kungobo yomlando \" %s\" kuya ku-\"%s\".</string>
+    <string name="drag_and_drop_preference">Khetha okuthandayo ukuhudula bese udedela (Okokuhlola)</string>
+    <string name="drag_to_move_copy">Thinta futhi uhudule ukuze uhambise noma ukopishe amafayela</string>
+    <string name="drag_to_select">Thinta bese uhudulela ku- khetha amafayela</string>
+    <string name="disable">Khubaza</string>
+    <string name="choose_operation">Khetha umsebenzi ozowenza</string>
+    <string name="remember">Khumbula ngesikhathi esizayo</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Nikeza i-SAF ukufinyelela kweseva ye-FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Njengoba lokhu ukuqalisa kwakho kweseva ye-FTP, futhi usebenzisa isitoreji sangaphakathi sedivayisi njengefolda eyabelwe, sicela uvumele i-Amaze ukuthi ifinyelele isitoreji isebenzisa i-SAF.\n\n
+
+Udinga ukwenza lokhu kanye kuphela, kuze kube yisikhathi esilandelayo lapho ukhetha indawo entsha ozokwabelana ngayo.</string>
+    <string name="android_data_prompt_saf_access">Njengoba i-Android 10, i-Android yayibeke imikhawulo kuzinhla zemibhalo ezithile, futhi idinga ukufinyelela ngohlaka Lokufinyelela Isitoreji.\n \nSicela uvumele i-Amaze ukuthi ifinyelele uhla lwemibhalo olusuka kusiphathi sefayela lesistimu ngokuthepha okuthi \"Vumela Ukufinyelela\".</string>
+    <string name="android_data_prompt_saf_access_title">Nikeza i-SAF ukufinyelela</string>
+    <string name="ftp_preference_saf_filesystem_title">Sebenzisa isistimu yefayela yefa</string>
+    <string name="ftp_preference_saf_filesystem">Vumela lokhu ukuze uthole usekelo lokusebenzisa isitoreji sangaphandle sedivayisi ezinguqulweni ezintsha ze-Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Indlela eyabelwe yeseva ye-FTP isethwe kabusha kusitoreji sangaphakathi njengoba ushintshela emuva ekusetshenzisweni kwesistimu yefayela eyifa. Sicela ukhethe indlela entsha usebenzisa imenyu engaphezulu kwesokudla njengoba kudingeka.</string>
+    <string name="ftp_server_reset_notify">Indlela eyabelwe yeseva ye-FTP isethwe kabusha kusitoreji sangaphakathi</string>
+    <string name="ftp_server_root_unavailable">Ukhetha indlela edinga ukufinyelela kwezimpande. Sicela unike amandla isihloli sezimpande kuzilungiselelo uma idivayisi yakho inezimpande.</string>
+    <string name="ftp_server_root_filesystem_warning">Ukhetha indlela edinga ukufinyelela okuyimpande, enika amandla imisebenzi yokufunda/ukubhala kulo lonke uhlelo lwefayela kudivayisi yakho, futhi iyingozi - amaphutha anganaki angayivimba idivayisi yakho!\n\nUqinisekile?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Iphutha lokuvula i-URI \"%s\" ukuze ifundwe.</string>
+    <string name="error_empty_archive">\"%s\" iyingobo yomlando engenalutho.</string>
+    <string name="error_bad_archive_without_info">\"%s\" ingobo yomlando eyonakele .</string>
+    <string name="error_bad_archive_with_info">\"%s\" iyingobo yomlando eyonakele.\nUmlayezo ovela kusikhiphi: \"%s\"</string>
+    <string name="security_error">Ifayela alikwazanga ukuvulwa kusetshenziswa lolu hlelo lokusebenza</string>
+    <string name="cloud_drive_tooltip">Dala uxhumano lwe-Google Drayivu™ lokuphatha amafayela ngaphakathi kwe-Amaze File Manager.</string>
+    <string name="signin_with_google_title">Qinisekisa ukusebenzisa i-Google Drayivu™</string>
+    <string name="show_system_apps">Bonisa izinhlelo zokusebenza zesistimu</string>
+    <string name="system_apps">Izinhlelo zokusebenza zesistimu</string>
+    <string name="select_inverse">Khetha Okuphambene</string>
+    <string name="select_by_type">Khetha ngohlobo</string>
+    <string name="select_by_date">Khetha ngedethi</string>
+    <string name="select_similar">Khetha okufanayo</string>
+    <string name="error_fetching_google_play_product_list">Iphutha lokulanda uhlu lomkhiqizo ku-Google Play.</string>
+    <string name="grant_all_files_permission">Kusukela ku-Android 11 , I-Google icela Abaphathi Befayela ukuthi bacele imvume yomsebenzisi yokuphatha wonke amafayela kudivayisi. Imininingwane lapha.
+        \n\nIsiphathi Sefayela se-Amaze sidinga le mvume nayo. Ngemva kokucindezela okuthi "Nikeza"lapha, sicela ukhethe okuthi Vumela ukufinyelela ukuze ulawule wonke amafayela esikrinini esilandelayo.
+        \n\nUkukhansela le ngxoxo kuzophuma ohlelweni lokusebenza.</string>
+    <string name="user_apps">Izinhlelo zokusebenza zomsebenzisi</string>
+    <string name="appearance">Ukubukeka</string>
+    <string name="behavior">Ukuziphatha</string>
+    <string name="appearance_summary">Yenza ngendlela oyifisayo itimu, imibala nokubukeka komphathi wefayela</string>
+    <string name="ui_summary">Lawula ukuthi yiluphi ulwazi oluzoboniswa, yenza ngendlela oyifisayo ibha eseceleni, futhi uguqule okuncamelayo kwe-UI</string>
+    <string name="behavior_summary">Shintsha ukuziphatha okufana nokusesha okuthuthukisiwe nokuthi uyawavula yini amafayela njengomsebenzi omusha</string>
+    <string name="security_summary">Setha iphasiwedi kanye nokubethela</string>
+    <string name="backup_summary">Khipha/Ngenisa izilungiselelo ze-Amaze</string>
+
+    <string name="pref_export">Khipha</string>
+    <string name="pref_export_summary">Khipha izilungiselelo</string>
+    <string name="pref_import">Ngenisa</string>
+    <string name="pref_import_summary">Ngenisa izilungiselelo</string>
+
+    <string name="quick_desc">Amafayela okufinyelelwe kamuva nge-Amaze</string>
+    <string name="recent_desc">Amafayela adalwe kamuva noma alungisiwe</string>
+    <string name="error_cannot_find_way_open">Ayikwazanga ukuthola indlela yokuvula ifayela</string>
+    <string name="error_cant_decompress_that_file">Ayikwazi ukucubungula ingobo yomlando eceliwe</string>
+    <string name="analyse_storage">Hlaziya Isitoreji</string>
+    
+    <string name="download_amaze_utils_text">Uqondiswa kabusha ku-Amaze File Utilities. Iwuhlelo lwethu lokusebenza lomthombo ovulekile olunezibukeli zomsindo/ividiyo/isithombe/amadokhumenti, elikuvumela ukuthi uhlaziye amafayela angenalutho ukuze ukhulule isitoreji, udlulise ngokushesha usebenzisa i-Wifi P2P nokunye okwengeziwe.\nSicela usisekele ngokuzama.</string>
+    <string name="download">Landa</string>
+    
+    <string name="amaze_utils_installed_alias">Siyabonga ngokufaka i-Amaze File Utilities. Uqondiswa kabusha ohlelweni lokusebenza.</string>
+    
+    <string name="video_player">Amaze Video Umdlali</string>
+    <string name="amaze_audio_player">Isidlali Somculo Esimangalisayo</string>
+    <string name="pdf_viewer">Isibukeli Sedokhumenti Esimangalisayo</string>
+    <string name="docx_viewer">I-Amaze Document Viewer</string>
+    <string name="share_logs">Yabelana ngamalogi</string>
+    <string name="share_logs_summary">Yabelana ngamalogi athathiwe nge-imeyili / ngocingo</string>
+    <string name="open_with_amaze">Vula nge-Amaze</string>
+    <string name="confirmation">Isiqinisekiso</string>
+    <string name="open_file_confirmation">Ingabe ukhona uqinisekile ukuthi ufuna ukuvula ifayela elilandelayo?\n\nIgama:\n%s\n\nIndawo:\n%s\n\nUsayizi:\n%s\n\nMD5:\n%s\n\nSHA256:\ n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Ngokwegunya lenqubomgomo ye-Google Play, izinhlelo zokusebenza azivunyelwe ukuzibuyekeza ngokwazo. Sicela ubuyekeze uhlelo lokusebenza ku-Google Play.</string>
+    <string name="error_cannot_get_package_info">Ayikwazi ukuthola ulwazi lwephakheji kufayela \"%s\". Kungenzeka ukuthi ifayela elishiwo aliyona i-APK, noma ifayela lephakheji lonakele.</string>
+    <string name="preference_delete_confirmation">Susa isiqinisekiso</string>
+    <string name="preference_delete_confirmation_summary">Cela ukuqinisekiswa ngaphambi kokususa amafayela. Ukukhubaza lokhu akukhuthazwa kakhulu!</string>
+    
+    
+    <string name="protocol_ftps">Vikela i-FTP</string>
+    <string name="unavailable">Ayitholakali</string>
+
+    <string name="exporting_failed">Ukukhipha kuhlulekile: ayikwazanga ukubhala ifayela eliyisipele</string>
+    <string name="importing_failed">Ukungenisa kuhlulekile: ayikwazanga ukufunda isipele ifayela</string>
+    <string name="importing_completed">Ukungenisa kuqediwe</string>
+    <string name="invalid_backup_file">Ifayela eliyisipele elingavumelekile</string>
+    <string name="import_failed_for">Ukungenisa kwehlulekile kokuthi:</string>
+    <string name="free_of">"%s\n%s mahhala kwe-%s</string>
+    <string name="cloud_error_fdroid">I-Amaze Cloud Plugin ayisekelwe ngenguqulo ye-F-Droid. Sicela usebenzise inguqulo ye-Google Play Isitolo ye-Amaze.</string>
+    <string name="disable_player_intent_filters">Khubaza izihlungi zenhloso yomdlali</string>
+    <string name="disable_player_intent_filters_summary">Ikhubaza izidlali zemidiya ezakhiwe ze-Amaze kusikhethi sefayela</string>
+    <string name="no_app_found_intent">Alukho uhlelo lokusebenza olutholakele lokusingatha le nhloso. Ingabe unayo i-DocumentsUI efakiwe?</string>
+    <string name="cloud_connection_credentials_cleared">Iziqinisekiso Zokuxhunywa Kwamafu kusuliwe</string>
+    <string name="cloud_connection_credentials_cleared_msg">Ngeshwa, asikwazanga ukuthuthela iziqinisekiso zakho zokuxhumanisa ifu ku-schema sesizindalwazi esisha, futhi sibe ukuze uzisuse ohlelweni lokusebenza. Sicela udale uxhumano lwamafu futhi.</string>
+</resources>

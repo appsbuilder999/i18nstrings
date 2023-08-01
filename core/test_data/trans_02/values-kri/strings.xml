@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Fayl Maneja</string>
+    <string name="drawer_open">Opin nevigishɔn drɔwa</string>
+    <string name="drawer_close">Klos nevigishɔn drɔwa</string>
+    <string name="icon">aykɔn</string>
+    <string name="apps">Ap Maneja</string>
+    <string name="ftp">FTP Sava</string>
+    <string name="setting">Sɛtin</string>
+    <string name="select">Sɛlekt Aytem</string>
+    <string name="press_again">Pres bak fɔ kɔmɔt</string>
+    <string name="open">Opin</string>
+    <string name="backup">Bak-ap</string>
+    <string name="uninstall">Ɔninstɔl</string>
+    <string name="play">Play stoa</string>
+    <string name="properties">Prɔpati</string>
+    <string name="copyingapks">Kɔpi %d APK fayl dɛn to %s</string>
+    <string name="delbook">Dilit Bukmak</string>
+    <string name="add_to_bookmarks">Add to Bukmak</string>
+    <string name="enterpath">Ɛnta Path</string>
+    <string name="cancel">KƐNSƐL</string>
+    <string name="create">KRIƐT</string>
+    <string name="loading">Dɛn de lod...</string>
+    <string name="file_empty">Fayla ɛmti</string>
+    <string name="error">Erɔd</string>
+    <string name="search_results">Sɔch rizɔlt fɔ %s</string>
+    <string name="rename">Rinem</string>
+    <string name="save">Sev</string>
+    <string name="bookmarks_added">Bukmak Ad</string>
+    <string name="fileexist">Fayl wit di sem nem dɔn ɔlrɛdi de</string>
+    <string name="name">Nem</string>
+    <string name="date">Dɛt</string>
+    <string name="location">Lɔkeshɔn</string>
+    <string name="size_capitalized">Sayz</string>
+    <string name="size">sayz fɔ fɔlda</string>
+    <string name="enterzipname">Ɛnta Zip Nem</string>
+    <string name="no_app_found">No Ap nɔ de fɔ opin dis fayl</string>
+    <string name="copying">Kɔpi</string>
+    <string name="moving">Muv</string>
+    <string name="file">Fayla</string>
+    <string name="folder">Fɔlda</string>
+    <string name="newfolder">Nyu Fɔlda</string>
+    <string name="entername">Ɛnta Nem</string>
+    <string name="extracting">Fɔ pul</string>
+    <string name="stopping">Stɔp</string>
+    <string name="open_parent">Opin Mama ɛn Papa Dayrɛktɔri</string>
+    <string name="open_with">Opin wit</string>
+    <string name="share">Shɛri</string>
+    <string name="about">Bɔt</string>
+    <string name="extract">Ɛkstrakt</string>
+    <string name="compress">Kɔmrɛs</string>
+    <string name="yes">Yɛs</string>
+    <string name="no">Nɔ</string>
+    
+    <string name="dialog_delete_category_directories">Dayrɛktɔri</string>
+    <string name="dialog_delete_category_files">Fayl dɛn</string>
+    <string name="dialog_delete_disclaimer">We yu dilit di tin dɛn we de dɔŋ ya, i go pul dɛn na yu divays fɔ ɔltɛm ɛn dɛn nɔ go ebul fɔ gɛt dɛn bak.</string>
+    <string name="dialog_delete_title">Dilit tin dɛn fɔ ɔltɛm?</string>
+    <string name="deleting">Dilit</string>
+    <string name="question_set_path_as_home">Yu want fɔ sɛt kɔrɛnt pat as os fɔ dis tab?</string>
+    <string name="directorysort">Dayrɛktɔri Sɔt Mɔd</string>
+    <string name="sort_by">Sɔt Bay</string>
+    <string name="sort_only_this">Na dis fɔlda nɔmɔ</string>
+    <string name="theme">Tim</string>
+    
+    <string name="random_summary">Sɛt random praymari kɔlɔ we i stat</string>
+    <string name="colorize">Kɔlɔriz Aykɔn</string>
+    <string name="colorize_summary">Sɛt statik aykɔn kɔlɔ. Nɔ de ɔvalayz dairektrɔ aykɔn kɔlɔ prɛferɛns.</string>
+    <string name="home">Om</string>
+    
+    <string name="history">Istri</string>
+    <string name="copy">Kɔpi</string>
+    <string name="root_mode">Rut Ɛksplɔrɔ</string>
+    <string name="root_mode_summary">Fɔ rut divays nɔmɔ. Chek am onli if yu shɔ bɔt am.</string>
+    <string name="root_failure">Dɛn nɔ gi Rut Akses</string>
+    <string name="select_all">Sɛlekt Ɔl</string>
+    <string name="delete">Dilit</string>
+    <string name="set_as_home">Sɛt As Ɔm</string>
+    <string name="operation_not_supported">Opareshɔn nɔ sɔpɔt</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Matirial Layt</string>
+    <string name="dark">Matirial Dak</string>
+    <string name="daytime">De tɛm</string>
+    <string name="black">Blak (fɔ OLED)</string>
+    <string name="system">Sistem (fɔ fala di tim tim)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Fɔlda dɛn we de ɔp</string>
+    <string name="filesOnTop">Fayl dɛn we de ɔp</string>
+    <string name="none_on_top">Nɔn nɔ de na di tap</string>
+    <!--SortBy-->
+    <string name="sort_name">Nem</string>
+    <string name="lastModified">Last Modify</string>
+    <string name="sort_size">Sayz</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Pik wan fayl</string>
+    <string name="process_viewer">Prɔses Viua</string>
+    <string name="in_safe">I nɔ gɛt bɛtɛ ples</string>
+    <string name="no_file_overwrite">Nɔ Fayl Ɔvarayt</string>
+    
+    <string name="overwrite">Ovarayt</string>
+    <string name="not_allowed">Nɔ Alaw</string>
+    <string name="searching">Fɔ Sɔch %s</string>
+    <string name="done">Dɔn</string>
+    <string name="set">Sɛt</string>
+    <string name="enablerootmde">Ɛnibul Rut Mɔd</string>
+    <string name="goback">Go Bak</string>
+    <string name="newfile">Nyu Fayl</string>
+    <string name="no_files">Nɔ Fayl</string>
+    <string name="used">yuz spɛs</string>
+    <string name="used_by_others">we ɔda pipul dɛn yuz</string>
+    <string name="free">fri ples</string>
+    
+    
+    <string name="permission">Permishɔn</string>
+    <string name="hide">Ayd</string>
+    <string name="exit">Kɔzit</string>
+    <string name="doforall">Du fɔ ɔl di tin dɛn</string>
+    <string name="gridcolumnno">Nɔmba fɔ di kɔlɔn dɛn we de na grid we yu de si</string>
+    <string name="set_random">Chenj dɛn go apin afta yu dɔn stat di ap bak</string>
+    <string name="authors">Ɔda pipul dɛn</string>
+    <string name="changelog">Chenjlɔg</string>
+    
+    <string name="ui">Intafɛs</string>
+    <string name="general">Jɛnɛral</string>
+    <string name="thumb_summary">Sho Thumbnails fɔ di ap ɛn pikchɔ dɛn</string>
+    <string name="thumb">Sho Thumbnails</string>
+    <string name="hidden">Sho Hidden Files and Folders</string>
+    <string name="lastModifiedSummary">Sho di de ɛn tɛm we dɛn chenj di las tɛm</string>
+    <string name="lastModifiedPref">Show Last Modified Dete ɛn Taym</string>
+    <string name="size_pref_summary">Sho saiz fɔ fayl ɛn nɔmba fɔ di tin dɛn we de na fɔlda</string>
+    <string name="size_pref">Sho Sayz</string>
+    <string name="miscellaneous">Difrɛn tin dɛn</string>
+    <string name="root_pref_summary">Sho Pɛmishɔn fɔ Fayl ɛn Fɔlda dɛn</string>
+    <string name="root_pref">Sho Pɛmishɔn dɛn</string>
+    <string name="about_amaze_file_manager_label">Bɔt Amaze Fayl Maneja</string>
+    <string name="version">Vɛshɔn</string>
+    <string name="rate">Rɛt di ap</string>
+    <string name="feedback">Sɛnd Fidbak</string>
+    <string name="hiddenfiles">Fayla dɛn we dɛn Ayd</string>
+    <string name="type">Tayp</string>
+    <string name="root_directory">Rut</string>
+    <string name="add_shortcut">Add Sɔtkat</string>
+    <string name="unsaved_changes">Chenj dɛn we yu nɔ sev</string>
+    <string name="unsaved_changes_description">Yu gɛt chenj dɛn we yu nɔ sev, yu want fɔ sev dɛn bifo yu kɔmɔt?</string>
+    <string name="saving">Sev</string>
+    <string name="package_installer">Pakɛj Instɔla</string>
+    <string name="view">Si</string>
+    <string name="install">Instɔl</string>
+    <string name="archive">Akiv</string>
+    <string name="archive_text">Dis na arkiv. Us akshɔn yu go lɛk fɔ du?</string>
+    <string name="package_installer_text">Dis na pakej instɔla. Us akshɔn yu go lɛk fɔ du?</string>
+    <string name="xda_title">XDA trɛd</string>
+    <string name="xda_summary">Q&amp;amp;A, Ɛp &amp;amp; Trobul Sɔlv</string>
+    <string name="circular_images">Yuz sɛkɔral aykɔn fɔ pikchɔ ɛn vidio</string>
+    <string name="circular_icons">Yuz sɛkɔral aykɔn</string>
+    <string name="back_title">Bak nevigishɔn</string>
+    <string name="back_summary">I de mek kɔstɔm bak nevigishɔn de ɔp di list</string>
+    <string name="details">Ditiɛl</string>
+    <string name="translators">Transletɔ dɛn</string>
+    <string name="german_translation_title">Jaman</string>
+    
+    
+    <string name="russian_translation_title">Rɔshian</string>
+    
+    <string name="basque_translation_title">Bask</string>
+    <string name="chinese_translation_title">Chaini</string>
+    <string name="serbian_translation_title">Sɛbian</string>
+    <string name="turkish_translation_title">Tɔki</string>
+    <string name="ukrainian_translation_title">Yukren</string>
+    <string name="portuguese_translation_title">Pɔtyugis</string>
+    
+    <string name="korean_translation_title">Korian</string>
+    <string name="greek_translation_title">Grik</string>
+    <string name="dutch_translation_title">Dɔch</string>
+    
+    <string name="vietnamese_translation_title">Vietnam</string>
+    <string name="japanese_translation_title">Japan</string>
+    
+
+    
+    <string name="unin_system_apk">Dis na sistem ap, if yu dilit am, i kin mek di sistem nɔ stebul.\nProsied?</string>
+    <string name="warning">Wɔnin</string>
+    <string name="donate">Dɔnat</string>
+    <string name="archive_extract_folder">Akiv Ɛkstrakt Fɔlda</string>
+    <string name="archive_summary">Akiv fayl dɛn go kɔmɔt na dis fɔlda. Difɔlt valyu na di dairektrɔ we arkiv de insay.</string>
+    <string name="open_as">Opin As</string>
+    <string name="text">Tɛks</string>
+    <string name="audio">Odio</string>
+    <string name="video">Vidio</string>
+    <string name="other">Ɔda</string>
+    <string name="image">Imej</string>
+    <string name="contributors">Kɔntribyushɔn</string>
+    <string name="save_paths">Mɛmba di rod dɛn</string>
+    <string name="save_path_summary">We yu de stat, di fɔlda we yu jɔs si fɔ ɛni tab go sho</string>
+    <string name="select_intent">Sɛlekt</string>
+    
+    <string name="colored_navigation">Kɔlɔ Navigayshɔn bar</string>
+    <string name="colored_navigvation_sum">If di sistɛm nevigishɔn bar gɛt kɔlɔ wit di skin ɔ nɔ gɛt</string>
+
+    <string name="color_title">Kɔlɔ</string>
+    <string name="color_summary">Sɛt kɔlɔ to difrɛn UI kɔmpɔnɛnt dɛn</string>
+    <string name="primary_color_title">Praymari Kɔlɔ (Lɛft Tab)</string>
+    <string name="primary_color_summary">Sɛt kɔlɔ to big UI ɛlimɛnt fɔ di lɛft tab</string>
+    <string name="accent_color_title">Aksɛn Kɔlɔ</string>
+    <string name="accent_color_summary">Sɛt kɔlɔ to FAB ɛn ɔda smɔl UI ɛlimɛnt dɛn</string>
+    <string name="icon_color_title">Aykɔn Kɔlɔ</string>
+    <string name="icon_color_summary">Sɛt kɔlɔ to aykɔn dɛn</string>
+    <string name="choose_color">Pik kɔlɔ</string>
+    <string name="files">Fayyl dɛn</string>
+    <string name="textreader">Tɛks Rida</string>
+    <string name="databasereader">Database Rida</string>
+    <string name="show_dividers">Sho Divayda dɛn</string>
+    <string name="needs_access">Rayt Akses Rikwayd</string>
+    <string name="needs_access_summary">Duya pik di rut dairektrɔ fɔ \t</string>
+    <string name="needs_access_summary1">\to gi rayt akses fɔ ɔpreshɔn</string>
+    <string name="smb_connection">SMB Kɔnɛkshɔn</string>
+    <string name="smb_server">Sava IP Adrɛs</string>
+    <string name="server_address">Sava IP Adrɛs</string>
+    <string name="username">Yuz nem</string>
+    <string name="password">Paswɔd</string>
+    <string name="anonymous">Anɔynmɛnt</string>
+    <string name="bluetooth">Blutooth</string>
+    <string name="folders">Fɔlda dɛn</string>
+    <string name="folderfilecount">%1$d fɔlda dɛn ɛn %2$d fayl dɛn</string>
+    <string name="videos">Vidio dɛn</string>
+    <string name="apks">APK dɛn</string>
+    <string name="documents">Dokumɛnt dɛn</string>
+    <string name="images">Imej dɛn</string>
+    <string name="clear">Kli</string>
+    
+    <string name="total">Tɔtal:</string>
+    <string name="calculating">kɔlkyul</string>
+    <string name="sort">Sɔt</string>
+    <string name="ascending">Asɛnd</string>
+    <string name="descending">Dɛsɛnd</string>
+    <string name="default_string">Difɔlt</string>
+    <string name="doit">Du am</string>
+    <string name="want_help">Nid ɛp?</string>
+    <string name="quick">Kwik akses</string>
+    <string name="recent">Fayla dɛn we dɛn jɔs dɔn mek</string>
+    <string name="edit">Ɛdit</string>
+    <string name="find">Fin insay pej</string>
+    
+    <string name="grantper">Grant permishɔn</string>
+    <string name="grantfailed">Pɔmishɔn nɔ gi am</string>
+    <string name="grant_storage_permission">Ap nid stɔrɔj ​​pɔmishɔn fɔ kɔntinyu. We yu kansel dis dayalɔg, i go kɔmɔt na di ap.</string>
+    <string name="operation_unsuccesful">Opreshɔn Nɔ Saksesful</string>
+    <string name="creatingfile">Kriet Fayl</string>
+    <string name="creatingfolder">Kriet Fɔlda</string>
+    <string name="renaming">Rinem</string>
+    <string name="cant_be_empty">%s nɔ kin ɛmti</string>
+    <string name="ip">Adrɛs</string>
+    <string name="connection_name">Kɔnɛkshɔn nem</string>
+    <string name="no_device_found">No divays nɔ de</string>
+    
+    <string name="rename_bookmark">Modify Bukmak</string>
+    <string name="cut">Kɔt</string>
+    <string name="search">Sɔch</string>
+    <string name="invalid_name">Nem we nɔ valid</string>
+    <string name="search_hint">Tayp fɔ fɛn...</string>
+    <string name="advanced_search">Advans Sɔch</string>
+    <string name="regular_expression">Rɛgyula Ɛksprɛshɔn</string>
+    <string name="regular_expression_summary">Sɔch yuz BASH stayl rɛgyula ɛksprɛshɔn</string>
+    <string name="match_content">Match kɔntinyu</string>
+    <string name="match_content_summary">If sɛt, rɛgyula ɛksprɛshɔn go mach wit ɔl fayl nem,
+        go luk fɔ apin ɔda we.</string>
+    
+    <string name="stop_ftp">Stɔp</string>
+    <string name="ftp_status_running">Rɔn</string>
+    <string name="ftp_status_not_running">Nɔ Rɔn</string>
+    <string name="ftp_no_wifi">Mek shɔ se yu kɔnɛkt to Wi -Fi</string>
+    <string name="domain">Domɛyn</string>
+    <string name="smb_share">Shɛri pat</string>
+    
+    <string name="ftp_notif_starting">FTP Sava de stat</string>
+    <string name="ftp_notif_starting_title">FTP Sava</string>
+    <string name="ftp_notif_title">Amaze FTP Sava we de rɔn</string>
+    <string name="ftp_notif_text">na %s</string>
+    <string name="ftp_notif_stop_server">STƆP</string>
+    <string name="ftp_port_edit_menu_title">FTP pɔt</string>
+    <string name="ftp_port_change_success">FTP pɔt chenj fayn fayn wan</string>
+    <string name="ftp_port_change_error_invalid">I nɔ valid pɔt nɔmba we dɛn pik</string>
+    <string name="primary_two_title">Praymari Kɔlɔ (Rayt Tab)</string>
+    <string name="primary_two_summary">Sɛt kɔlɔ to big UI ɛlimɛnt fɔ di rayt tab</string>
+    <string name="support_development">Sɔpɔt Divɛlɔpmɛnt</string>
+    <string name="report_bugs_title">Ripɔt Bɔg</string>
+    <string name="source_title">Sɔs kɔd</string>
+    <string name="source_summary">Luk wi sɔs kɔd na GitHub</string>
+    <string name="report_bugs_summary">Ripɔt bɔg ɔ aks fɔ nyu ficha</string>
+    <string name="translate_title">Translet</string>
+    <string name="translate_summary">Translet Amaze in yu langwej</string>
+    <string name="paypal_copy_message">PayPal ID we dɛn kɔpi to klipbɔd</string>
+    <string name="searching_devices">Sach fɔ divays</string>
+    <string name="use_custom_ip">Yuz kɔstɔm IP</string>
+    <string name="bookmark_lost">Bukmak nɔ fɛn, rikriet...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Aw fɔ akses shered Windows fɔlda na Andrɔyd (SMB)\n\n
+                
+                    
+                        Enable Fayl Shering na Windows\n
+                    
+                    
+                        Opin di Kɔntrol Panɛl, klik Pik ƆmGrup ɛn Sherin opshɔn dɛn ɔnda Nɛtwɔk
+                        ɛn Intanɛt, ɛn klik "Change Advanced Sharing Settings," ɛnabul di "File ɛn
+                        Printer Sharing" ficha.\n\n
+                    
+
+                    
+                        Atikul Fayl Sherin sɛtin dɛn\n
+                    
+                    
+                        Yu kin want bak fɔ kɔnfigyut di ɔda advans sherin sɛtin dɛn we de ya. \n
+                        Fɔ ɛgzampul, yu kin mek yu ebul fɔ yuz yu fayl dɛn we yu nɔ gɛt paswɔd if yu abop pan ɔl
+                        di divays dɛn we de na yu lokal nɛtwɔk. We dɛn dɔn ɛnabul fɔ sheb fayl ɛn printa, yu kin ebul
+                        opin File Explorer ɔ Windows Explorer, rayt-klik wan fɔlda we yu want fɔ sheb, ɛn
+                        pik Prɔpati dɛn. \n
+                        Klik di Sheb bɔtin ɛn mek di fɔlda de na di nɛtwɔk.\n\n
+                        
+
+                    
+                        Mek shɔ se ɔl tu di divays dɛn de pan di sem Wifi\n
+                    
+                    
+                        Dis ficha de mek fayl dɛn de na di lokal nɛtwɔk, so yu PC ɛn mobayl divays dɛn
+                        gɛt fɔ de na di sem lokal nɛtwɔk. Yu nɔ go ebul fɔ akses wan shered Windows fɔlda
+                        ova di intanɛt ɔ we yu smart fon kɔnɛkt to in mobayl data — i
+                        gɛt fɔ kɔnɛkt to Wi-Fi.\n\n
+                    
+
+                    
+                        Fɛn IP Adrɛs\n
+                    
+                    
+                        Opin Kɔmand Prɔmpt. Tayp \'ipconfig\' ɛn prɛs Ɛnta. Luk fɔ Difɔlt Getway
+                        ɔnda yu nɛtwɔk adapt fɔ yu router\'s IP adrɛs. Luk fɔ
+                        \\\"IPv4 Adrɛs\\\" ɔnda di sem adapt sɛkshɔn fɔ fɛn yu kɔmpyuta\ in IP
+                        adrɛs.\n\n
+                    
+
+                    Ɛntay di ditel dɛn na SMB dayalɔg bɔks\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Nɔ kin sheb pas 100 fayl dɛn</string>
+    <string name="otg_access">Sɛlekt di rut fɔ OTG divays</string>
+    <string name="information">Infɔmeshɔn</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Akses</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Modify</string>
+
+    <string name="title">Taytul</string>
+    <string name="artist">Atis</string>
+    <string name="album">Albam</string>
+    <string name="year">Ia</string>
+    
+    <string name="comment">Kɔmɛnt</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Kɔntena</string>
+    <string name="codec">Kɔdɛk</string>
+    <string name="channels">Chanɛl dɛn</string>
+    <string name="sample_rate">Sampɛl Rɛt</string>
+    <string name="bitrate">Bitrɛt</string>
+    <string name="dimensions">Dimɛnshɔn</string>
+    <string name="frame_rate">Frɛm Rɛt</string>
+    <string name="image_type">Imej Tayp</string>
+    
+    <string name="height">Ayt</string>
+    <string name="date_modified">Dɛt we dɛn chenj</string>
+    <string name="software">Sɔftwɛ</string>
+    <string name="creator">Krieta</string>
+    <string name="camera_brand">Kamɛra Brand</string>
+    <string name="camera_model">Kamɛra Mɔdal</string>
+    <string name="date_taken">Dɛt we dɛn tek</string>
+    <string name="exposure_time">Ɛksplɔshɔn Tɛm</string>
+    <string name="aperture_value">Apchɔ Valyu</string>
+    <string name="image_iso">ISO Spid Rɛt</string>
+    <string name="flash_fired">Flash Faya</string>
+    <string name="focal_length">Fɔkal Lɛngth</string>
+    <string name="subject">Sɔbjɛkt</string>
+    <string name="author">Awta</string>
+    <string name="keywords">Kiwɔd</string>
+    <string name="producer">Prodyusa</string>
+    <string name="created">Kriet</string>
+    <string name="format">Fɔmat</string>
+    <string name="pages">Nɔmba fɔ Pej dɛn</string>
+    <!-- reference to a document file -->
+    
+    <string name="security">Sikyuriti</string>
+    <string name="paper_size">Pepa Sayz</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Sɔm fayl dɛn nɔ bin kɔpi fayn fayn wan %s</string>
+    <string name="copied">kɔpi</string>
+    <string name="moved">muv</string>
+    <string name="copy_complete">Kɔpi Kɔmplit</string>
+    <string name="waiting_title">Wetin</string>
+    <string name="waiting_content">Wetin fɔ mek di opareshɔn dɔn</string>
+    <string name="extract_complete">Ekstrakshɔn dɔn</string>
+    <string name="compression_complete">Kɔmpreshɔn Kɔmplit</string>
+    <string name="compressing">Kɔmrɛs</string>
+    <string name="cancelled">Kansel</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Rayt</string>
+    <string name="out_of">ɔt ɔf</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ɔf</string>
+    <string name="processing_file">Prɔsɛsin fayl</string>
+    <string name="current_speed">Kɔrɛnt Spid</string>
+    <string name="smb_launch_error">Yu go nid fɔ kɔpi dis fayl na stɔrɔj ​​fɔ opin am</string>
+    <string name="error_file_not_found">Erɔ: Fayl Nɔ Fayn</string>
+    <string name="error_io">I/O Mistek</string>
+    <string name="error_file_too_large">Erɔ: Fayl Tu Big</string>
+    <string name="medium_text">Mɛdiɔm Tɛks</string>
+    <string name="permission_read">Rid</string>
+    <string name="permission_write">Rayt</string>
+    <string name="permission_execute">Ɛksɛkyut</string>
+    <string name="permission_owner">Ɔna</string>
+    <string name="permission_group">Grup</string>
+    <string name="permission_other">Ɔda</string>
+    <string name="clipboard_path_copy">Path we dɛn kɔpi to klipbɔd</string>
+    <string name="service_timer">Tɛm we dɔn pas</string>
+    <string name="please_wait">Duya Wet</string>
+
+    <string name="cloud_connection">Klaud Kɔnɛkshɔn</string>
+    <string name="cloud_connection_new">Nyu Klayd Kɔnɛkshɔn</string>
+    <string name="cloud_dropbox">Drɔpbɔks</string>
+    <string name="cloud_drive">Google DrayvTM</string>
+    <string name="cloud_onedrive">WanDrayv</string>
+    <string name="cloud_box">Bɔks</string>
+    <string name="cloud_get">Gɛt Klayd plɔgin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">No aplikeshɔn</string>
+    
+    <string name="ftp_path_hint">Path to di rut fɔ dairektrɔ fɔ sheb</string>
+    <string name="change">Chenj</string>
+    <string name="unknown_error">Oops, sɔntin bin rɔng!</string>
+
+    <string name="ftp_path_change_success">FTP pat chenj fayn fayn wan</string>
+    
+    <string name="ftp_status_no_connection">Nɔ Kɔnɛkshɔn</string>
+    <string name="ftp_status_secure_connection">Sikyu Kɔnɛkshɔn</string>
+    
+    <string name="ftp_port">Pɔt</string>
+    <string name="ftp_login">Lɔgin</string>
+    <string name="field_empty">Fild nɔ kin ɛmti</string>
+    <string name="ftp_timeout">Idle tɛmaut</string>
+    <string name="ftp_seconds">Sɛkɛnd</string>
+    <string name="intellihide_toolbar_title">Intellihide Tulba</string>
+    <string name="intellihide_toolbar_summary">Ayd tulba ɔtomɛtik wan we yu de skrol</string>
+    <string name="hash_sha256">SHA- 256</string>
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">kɔpi to klipbɔd</string>
+    <string name="contributors_1_summary">Transleshɔn</string>
+    <string name="contributors_2_summary">Aykɔn ɛn baner</string>
+    <string name="contributors_3_summary">Tim Injin</string>
+    <string name="contributors_4_summary">Shed bihayn FAB</string>
+    <string name="contributors_5_summary">Kɔlɔ transishɔn we yu de swip tab</string>
+    <string name="contributors_6_summary">FTP Sava</string>
+    <string name="contributors_7_summary">Fayrin ɔp wan intaraktiv shel</string>
+    <string name="connection_exists">Kɔnɛkshɔn dɔn ɔlrɛdi de</string>
+
+    <string name="crypt_encrypting">Ɛnkript</string>
+    <string name="crypt_decrypting">Dɛkript</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Ɛnkript</string>
+    <string name="crypt_decrypted">Dɛkript</string>
+    <string name="crypt_encrypt">Ɛnkript</string>
+    <string name="crypt_decrypt">Dɛkript</string>
+    <string name="operation_fail_following">Opareshɔn nɔ wok fɔ di fayl dɛn we de dɔŋ ya</string>
+    <string name="crypt_pref_master_password_title">Masta Paswɔd</string>
+    <string name="crypt_pref_master_password_summary">Sɛt wan masta paswɔd fɔ ɛnkripshɔn.
+        Lɛf ɛmti fɔ pul.</string>
+    <string name="crypt_pref_fingerprint_title">Finga prɛnt</string>
+    <string name="crypt_pref_fingerprint_summary">Yuz finga prɛnt fɔ ɔthɛntikayt ɛnkripshɔn</string>
+    <string name="crypt_fingerprint_no_permission">Finga prɛnt pɔmishɔn nɔ de</string>
+    <string name="crypt_fingerprint_not_enrolled">Nɔ finga prɛnt inrɔl</string>
+    <string name="crypt_fingerprint_no_security">Nɔ lɔkskrin sikyɔriti found</string>
+    <string name="crypt_warning_key">Bi advays, we yu chenj yu sikyɔriti patɛn frɔm
+        Sistem sɛtin, yu nɔ go ebul fɔ dɛkript dis kɔntinyu.</string>
+    <string name="warning_never_show">Nɔ infɔm igen</string>
+    <string name="warning_confirm">Gɛt am!</string>
+    <string name="crypt_encryption_fail">Fɛl fɔ ɛnkript</string>
+    <string name="crypt_decryption_fail">Fɛl fɔ dikript</string>
+    <string name="crypt_decryption_fail_password">Rɔng paswɔd!</string>
+    <string name="crypt_fingerprint_authenticate">Tɔch sɛns fɔ kɔntinyu</string>
+    <string name="authenticate_password">Ɛnta paswɔd</string>
+
+    <string name="sidebar_preferences">Saydba</string>
+    <string name="sidebar_quick_access_title">Saydba kwik akses</string>
+    <string name="show_quick_access_pref_title">Sho kwik akses</string>
+    <string name="show_quick_access_pref">Kwik akses</string>
+    <string name="directory">Dayrɛktɔri</string>
+
+    <string name="sidebar_bookmarks_title">Saydba bukmak</string>
+    <string name="show_bookmarks_pref_title">Sho bukmak</string>
+    <string name="show_bookmarks_pref">Bukmak</string>
+    <string name="create_bookmark">Krio bukmak</string>
+    <string name="edit_bookmark">Ɛdit bukmak</string>
+    <string name="question_delete_bookmark">Dilit bukmak?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plɔgin nɔ fɛn. Duya dawnlod frɔm Ple Stɔ.</string>
+    <string name="cloud_error_failed_restart">Fil fɔ lod di kɔnɛkshɔn.
+        Duya opin Amaze Cloud wan tɛm.</string>
+    <string name="cloud_remove">Yu want fɔ pul di klawd kɔnɛkshɔn?</string>
+    <string name="cloud_fail_authenticate">Fil fɔ ɔthɛntiket</string>
+    <string name="cloud_share_copied">Sharable link kɔpi to klipbɔd</string>
+    <string name="copy_low_memory">Running out of mɛmori, duya klia sɔm RAM</string>
+    <string name="cloud_token_lost">Token dɔn lɔs, duya sayn-in bak</string>
+    <string name="monofont">Monospace Fɔnt</string>
+    <string name="showHeaders">Sho Hɛda</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Nɔ tin</string>
+	<string name="item">aytem</string>
+	<string name="items">aytem</string>
+	
+	<string name="byte_singular">bayt</string>
+	<string name="bytes">bayt</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Fayla fɔ gɛt nem</string>
+    <string name="add_item">Add Aytem</string>
+    <string name="failed_smb_decrypt_path">Fil fɔ lod SMB kɔnɛkshɔn</string>
+    <string name="failed_cloud_new_connection">Fil fɔ ad nyu Klayd kɔnɛkshɔn</string>
+    <string name="failed_cloud_api_key">Fɛl fɔ ɔthɛntiket Klayd plɔg-in</string>
+
+    <string name="local_inet_addr_error">Erɔd fɔ gɛt lokal inet adrɛs</string>
+    <string name="intent_save_as">Sev as...</string>
+    
+    <string name="advanced">Advans</string>
+    <string name="typeable_paths_title">Kɔstɔm pat dɛn</string>
+    <string name="typeable_paths_summary">Lɔng prɛs pat bar fɔ tayp kɔstɔm pat</string>
+    <string name="send_email_to">Sɛnd imel to</string>
+
+    <string name="text_editor">Tɛks ɛditɔ sɛtin</string>
+    <string name="preference_newstack_title">Opin fayl dɛn as nyu wok</string>
+    <string name="preference_newstack_summary">Alaw yu fɔ opin fayl dɛn na difrɛn wok dɛn. Akses dɛn frɔm sistɛm rɛsɛnt skrin.</string>
+    
+    <string name="developers">Divɛlɔpa dɛn</string>
+    <string name="no_bitcoin_app">Duya instɔl wan Bitcoin Wallet ap</string>
+    <string name="channel_name_normal">Amaze Notis</string>
+    <string name="channel_description_normal">Amaze Fayl Maneja\ in Notis</string>
+    <string name="channel_name_ftp">Amaze FTP Sava</string>
+    <string name="channel_description_ftp">Amaze Fayl Maneja FTP Sava\'s Notis</string>
+
+    
+    <string name="processing">Prosesin...</string>
+    <string name="failed_no_connection">Fɛl fɔ lod fayl dɛn. Duya chɛk yu kɔnɛkshɔn.</string>
+
+    <string name="update">ƆPDƐT</string>
+	<string name="scp_connection">SCP/SFTP Kɔnɛkshɔn</string>
+    <string name="ftp_connection">FTP Kɔnɛkshɔn</string>
+    <string name="ftps_connection">FTP ova SSL Kɔnɛkshɔn</string>
+    <string name="scp_port">Pɔt</string>
+    <string name="ssh_host_key_verification_prompt">Di ɔthɛntiti fɔ ɔs \'%1$s\' nɔ kin establish.\n\n%2$s ki finga prɛnt na %3$s.\n\nDuya tap \"Yes\" fɔ kɔnfɔm udat; if nɔto dat, duya tap \"No\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Vɛrifay Ɔs</string>
+    <string name="ssh_select_pem_button">SSH Prayvet Ki</string>
+    <string name="ssh_pem_key_parse_error">Nɔ ebul fɔ rid di PEM we yu dɔn pik: %s</string>
+    <string name="password_unchanged">(nɔ chenj)</string>
+    <string name="ssh_authentication_failure_password">Logon failure: Nɔ ebul fɔ ɔthɛnɛtik wit yuzɛn nem ɛn paswɔd we dɛn gi.</string>
+    <string name="ssh_authentication_failure_key">Logon failure: Nɔ ebul fɔ ɔthɛntiket wit yuzɛn nem ɛn prayvet ki we dɛn gi.</string>
+    <string name="ssh_connect_failed">Nɔ ebul fɔ kɔnɛkt to %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">WƆNIN: RIMƆT HƆST IDƐNTIFIKƐSHƆN DƆN CHEJ!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">I PƆSIBUL SE SƆMƆDI DE DU SƆMTIN DƐN NƐST!\n\nSɔmbɔdi kin de lisin to yu rayt naw (man-in-di-midul atak)! I pɔsibul bak se dɛn jɔs chenj di ɔs ki. Di finga prɛnt fɔ di pɔblik ki we di rimot ɔs sɛn nɔ mach di wan we dɛn dɔn kip na Amaze.\n\nDuya kɔntak yu sistɛm administreta ɔ sɛtup nyu kɔnɛkshɔn fɔ kɔntinyu fɔ kɔnɛkt to di sava.</string>
+    <string name="ssh_key_prompt_passphrase">Duya ɛnta ki pasfrɛz .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Sɔtkat krieshɔn nɔ de sɔpɔt yu lanch.</string>
+    
+    <string name="select_color_config">Sɛlekt kɔlɔ kɔnfig</string>
+    <string name="customize">Kɔstɔmayz</string>
+    <string name="custom">Kɔstɔm</string>
+    <string name="preselected_configs_title">Kɔnfig dɛn we yu dɔn pik</string>
+    <string name="orange">Ɔrɛnj</string>
+    <string name="blue">Blu</string>
+    <string name="green">Grin</string>
+    <string name="password_no_match">Paswɔd nɔ de mach</string>
+    <string name="deselect_all">Dɛsɛlekt Ɔl</string>
+    <string name="filename">Faylanem</string>
+    <string name="compress_file_suggest_zip_extension">I fayn fɔ yuz \".zip\" as di fayl ɛkstenshɔn.</string>
+    <string name="about_amaze">Matirial dizayn fayl manija fɔ Andrɔyd</string>
+    <string name="license">Laysens</string>
+    <string name="libraries">Laybri dɛn</string>
+    <string name="password_repeat">Ripɛt paswɔd</string>
+    <string name="create_file_suggest_txt_extension">I fayn fɔ yuz \".txt\" as di fayl ɛkstenshɔn.</string>
+    <string name="ssh_select_pem">Sɛlekt prayvet ki fɔ ɔthɛntishɔn</string>
+    <string name="ssh_key_invalid_passphrase">Invalid ki pasfrɛz.</string>
+    <string name="ssh_key_no_decoder_decrypt">Nɔ valid dikɔda fɔ dikript PEM.</string>
+    <string name="encryption_fail_copy">Fil fɔ ɔpdet ɛnkripshɔn ɛntri na database</string>
+    <string name="extracted">Ɛkstrakt</string>
+    <string name="compressed">Kɔmrɛs</string>
+    <string name="processed">Prosɛs</string>
+    <string name="no_obtainable_info">No info de bɔt dis fayl</string>
+    <string name="reopen_from_source">Nɔ kin, duya opin bak frɔm las ap</string>
+    <string name="no_file_error">Sɔmtin nɔ bin rɔng, natin nɔ de fɔ opin</string>
+    <string name="file_too_long">Di fayl tu lɔng ɛn dɛn nɔ kin ɛdit am, bɔt yu kin rid di fɔs %d karakta dɛn</string>
+    <string name="file_read_only">Di fayl we dɛn opin na rid-onli.</string>
+    <string name="got_it">Gɛt am!</string>
+    <string name="encrypt_file_save_as">Save Encrypted Fayl As...</string>
+    <string name="encrypt_folder_save_as">Sev Ɛnkript Fɔlda As...</string>
+    <string name="encrypt_option_use_aze">Yuz Amaze Ɛnkripshɔn Fɔmat</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt na wan opin sos fayl ɛnkripshɔn fɔmat we dɛn bayz pan AES ɛnkripshɔn. I pɔtabl bak, yu kin dikript am wit AESCrypt program dɛn na ɔda pletfɔm dɛn.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt wɛbsayt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[we de na di wɔl
+        <p>Amaze\'s Enkripshɔn Fɔmat de bays bak pan AES ɛnkripshɔn; bɔt difrɛn frɔm AESCrypt fɔmat, na dis divays nɔmɔ kin dikript am; bak yu nɔ fɔ ɔninstɔl Amaze File Manager frɔm dis divays ɔ chenj di we aw yu de lɔk skrin, ɔdasay yu nɔ go gɛt ɛni we fɔ gɛt bak di fayl we dɛn dɔn ɛnkript.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Enkript fayl dɛn fɔ yuz \".aze\" as di fayl ɛkstenshɔn.</string>
+    <string name="encrypt_file_must_end_with_aes">Enkript fayl dɛn fɔ yuz \".aes\" as di fayl ɛkstenshɔn.</string>
+    <string name="error_aescrypt_decrypt_failed">Nɔ kin dikript \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Nɔ ebul fɔ ɔvarayt fayl.</string>
+    <string name="saved_single_file">Fayla sev as \'%s\'.</string>
+    <string name="saved_multi_files">%d fayl dɛn sev.</string>
+    <string name="create_hidden_file_warn">Di fayl we dɛn mek go ayd na di fayl list.</string>
+    <string name="grant_apkinstall_permission">Ap nid pɔmishɔn fɔ instɔl ap dɛn kɔntinyu.</string>
+    <string name="time_remaining">Taym we lɛf</string>
+    <string name="transfer_rate">Transfer ret</string>
+    <string name="unknown">nɔ no</string>
+    <string name="multiple_invalid_archive_entries">Sɔm fayl dɛn we de na di arkiv nɔ kin ebul fɔ pul; arkiv kin pwɛl ɔ i kɔmɔt frɔm bad bad sɔs.</string>
+    <string name="saf_otg_explanation">Yu go go naw na Andrɔyd in faylsistim fɔ sikyɔriti rizin. Duya pik di USB divays frɔm di list we de na di lɛft.</string>
+    <string name="donation_thanks">Tɛnki fɔ di doneshɔn, dis de mek wi gɛt maynd! (:</string>
+    <string name="enable_marquee_filename">Enable marquee effect fɔ fayl nem dɛn</string>
+    <string name="archive_password_prompt">Duya ɛnta arkiv paswɔd:</string>
+    
+    <string name="cannot_extract_archive">Nɔ ebul fɔ pul arkiv \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Nɔ ebul opin arkiv \"%s\". Ɔ wi nɔ ebul fɔ opin di arkiv, ɔ di arkiv bin pwɛl.</string>
+    <string name="close">Klos</string>
+    <string name="bookmark_exists">Bukmak de</string>
+    <string name="hide_media">Ayd frɔm midia brawza</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">I POSIBLE SE SƆMƆDI DE DU SƆMTIN NASTY!\n\nSɔmbɔdi kin de lisin to yu rayt naw (man-in-the-middle attack)!I pɔsibul bak se dɛn jɔs chenj di ɔs ki.Di finga prɛnt fɔ di pɔblik ki we di rimot ɔs sɛn nɔ mach di wan we dɛn dɔn kip na Amaze.\n\nYu kin go bifo wit fɔ ɔpdet ɔs finga prɛnt ɔ kansel fɔ ɔpdet SSH kɔnɛkshɔn sɛtin.</string>
+    <string name="update_host_key">Ɔpdet Ɔs Ki</string>
+    <string name="cancel_recommended">Kansel (Rɛkɔmɛnd)</string>
+    
+    
+    <string name="failed_install_apk">Dɛn nɔ ebul fɔ instɔl</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Intanɛnt Stɔrej</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD kad</string>
+    <string name="choose_folder">Pik Dis Fɔlda</string>
+    
+    <string name="some_files_failed_invalid_operation">Sɔm fayl dɛn nɔ wok bikɔs dɛn nɔ wok opareshɔn</string>
+    <string name="ftp_server_prompt_connect_to_network">Kɔnɛkt to nɛtwɔk ɔ ɛnabul AP</string>
+    <string name="ftp_server_open_settings">Opin sɛtin</string>
+    <string name="move">Muv</string>
+    <string name="select_save_location">Sɛlekt ples fɔ sev</string>
+    <string name="scp_default_path">Difɔlt Path (Opshɔnal)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Sɔri, dat nɔ fɔ dɔn apin.</string>
+    
+    <string name="error_report_button_text">Ripɔt dis mistek tru imel</string>
+    <string name="error_report_button_telegram">Ripɔt dis mistek tru tɛligram</string>
+    <string name="copy_for_github">Kɔpi fɔmat ripɔt</string>
+    <string name="error_report_open_issue_button_text">Ripɔt na GitHub</string>
+    <string name="error_report_open_github_notice">Duya chɛk if wan prɔblɛm we de tɔk bɔt yu krash dɔn ɔlrɛdi de.</string>
+    <string name="error_snackbar_message">Sɔri, sɔntin nɔ bin rɔng.</string>
+    <string name="error_snackbar_action">Ripɔt</string>
+    <string name="what_device_headline">Infɔmeshɔn:</string>
+    <string name="what_happened_headline">Wetin apin:</string>
+    <string name="info_labels">Wetin:\\nRikwɛst:\\nGMT Taym:\\nPakɛj:\\nVɛshɔn:\\nOS vɛshɔn:\\nDivays:\\nMɔdel:\\nProdakt :</string>
+    <string name="your_comment">Yu kɔmɛnt (insay Inglish):</string>
+    <string name="error_details_headline">Ditiɛl:</string>
+    <string name="app_ui_crash">Ap/UI krash</string>
+    <string name="error_report_title">Erɔ ripɔt</string>
+    <string name="crash_report_copied">Krash ripɔt kɔpi to klipbɔd</string>
+    <string name="disableIpcSignature">Disabl IPC sayn chɛk (Fɔ lɛgsi SMBv1 sava dɛn - UNSAFE!)</string>
+    <string name="cannot_delete_file">Nɔ kin dilit fayl</string>
+    <string name="cannot_delete_file_with_reason">Nɔ kin dilit fayl - %s</string>
+    <string name="cannot_rename_file">Nɔ kin chenj di nem fɔ fayl %s - %s</string>
+    <string name="cannot_read_directory">Nɔ kin rid dairektrɔ %s - %s</string>
+    <string name="just_once">Jɔs Wan tɛm</string>
+    <string name="always">Ɔltɛm</string>
+    <string name="choose_different_app">Pik difrɛn aplikeshɔn</string>
+    <string name="clear_open_file">Klia cache</string>
+    <string name="clear_open_file_summary">Klia di difɔlt fayl opin ap dɛn we dɛn dɔn pik</string>
+    <string name="ftp_readonly">Rid-onli akses</string>
+    <string name="legacy_listing_title">Yuz lɛgsi list fɔ rut</string>
+    <string name="legacy_listing_summary">If i ɛnabul, yuz lɛgsi we fɔ list fayl dɛn</string>
+    <string name="error_unsupported_v5_rar">RAR arkiv \"%s\" na RAR v5 arkiv we nɔ sɔpɔt.</string>
+    <string name="ftp_prompt_restart_server">Yu go nid fɔ ristart di FTP sava fɔ mek chenj dɛn tek ɛfɛkt.</string>
+    <string name="error_permission_denied">Dɛn nɔ gri fɔ alaw am</string>
+    <string name="error_archive_password_incorrect">Rɔng arkiv paswɔd.</string>
+    <string name="error_archive_cannot_extract">Nɔ ebul fɔ pul arkiv ɛntri \"%s\" to \"%s\".</string>
+    <string name="drag_and_drop_preference">Sɛlekt drɛg ɛn drɔp prɛferɛns (Ɛkspirimɛnt)</string>
+    <string name="drag_to_move_copy">Tɔch ɛn drɛg fɔ muv ɔ kɔpi fayl dɛn</string>
+    <string name="drag_to_select">Tɔch ɛn drɛg fɔ pik fayl dɛn</string>
+    <string name="disable">Disabl</string>
+    <string name="choose_operation">Pik ɔpreshɔn fɔ du</string>
+    <string name="remember">Mɛmba fɔ nɛks tɛm</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Grant SAF akses fɔ FTP sava</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Bikɔs dis na yu fɔs rɔn fɔ di FTP sava, ɛn yu de yuz di divays in intanɛnt stɔrɔj ​​as shered fɔlda, duya alaw Amaze fɔ akses di stɔrɔj ​​yuz SAF.\n\n
+
+Yu jɔs nid fɔ du dis wan tɛm, te di nɛks tɛm we yu pik nyu ples fɔ sheb.</string>
+    <string name="android_data_prompt_saf_access">Frɔm Andrɔyd 10, Andrɔyd bin dɔn put lɔ pan sɔm dairektrɔ dɛn, ɛn dɛn nid fɔ akses wit Stɔrej Akses Framwɔk.\n \nDuya alaw Amaze fɔ akses di dairektrɔ frɔm di sistɛm\ in fayl manija bay we yu tap \"Alaw Akses\".</string>
+    <string name="android_data_prompt_saf_access_title">Grant SAF akses</string>
+    <string name="ftp_preference_saf_filesystem_title">Yuz lɛgsi faylsistim</string>
+    <string name="ftp_preference_saf_filesystem">Enable dis fɔ sɔpɔt fɔ yuz divays ɛksternal stɔrɔj ​​pan nyu Andrɔyd vɛshɔn dɛn</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP sava shered pat bin dɔn riset to intanɛnt stɔrɔj ​​as yu de swich bak to lɛgsi faylsistim implimɛnt. Duya pik wan nyu rod yuz di mɛnyu we de ɔp rayt as nid de.</string>
+    <string name="ftp_server_reset_notify">FTP sava shered pat bin dɔn riset to intanɛnt stɔrɔj</string>
+    <string name="ftp_server_root_unavailable">Yu de pik wan rod we nid rut akses. Duya ɛnabul rut ɛksplɔrɔ insay sɛtin if yu divays rut.</string>
+    <string name="ftp_server_root_filesystem_warning">Yu de pik wan rod we nid rut akses, we de mek yu ebul fɔ rid/rayt ɔpreshɔn na di wan ol faylsistim na yu divays, ɛn i denja - mistek we yu nɔ tek tɛm mek kin brik yu divays!\n\nYu shɔ?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Erɔd we yu opin URI \"%s\" fɔ rid.</string>
+    <string name="error_empty_archive">\"%s\" na ɛmti arkiv.</string>
+    <string name="error_bad_archive_without_info">\"%s\" na arkiv we dɔn pwɛl .</string>
+    <string name="error_bad_archive_with_info">\"%s\" na kɔrapt arkiv.\nMɛsej frɔm ɛkstrakta: \"%s\"</string>
+    <string name="security_error">Dɛn nɔ bin ebul fɔ opin fayl yuz dis ap</string>
+    <string name="cloud_drive_tooltip">Kriet wan Google DriveTM kɔnɛkshɔn fɔ manej fayl dɛn frɔm insay Amaze File Manager.</string>
+    <string name="signin_with_google_title">Authenticate fɔ yuz Google DriveTM</string>
+    <string name="show_system_apps">Sho sistɛm ap dɛn</string>
+    <string name="system_apps">Sistem ap dɛn</string>
+    <string name="select_inverse">Sɛlekt Invas</string>
+    <string name="select_by_type">Sɛlekt bay tayp</string>
+    <string name="select_by_date">Sɛlekt bay di de</string>
+    <string name="select_similar">Sɛlekt di sem kayn</string>
+    <string name="error_fetching_google_play_product_list">Erɔd fɔ fetch prodak list frɔm Google Play.</string>
+    <string name="grant_all_files_permission">Since Andrɔyd 11 , Google de aks di Fayl Maneja dɛn fɔ aks fɔ yuz pɔmishɔn fɔ manej ɔl di fayl dɛn we de na di divays. Ditiɛl dɛn de ya.
+        \n\nAmaze Fayl Maneja nid dis permishɔn bak. Afta yu prɛs "Grant"ya, duya pik Alaw akses fɔ manej ɔl fayl dɛn opshɔn na di nɛks skrin.
+        \n\nWe yu kansel dis dayalɔg, i go kɔmɔt na di ap.</string>
+    <string name="user_apps">Yuz ap dɛn</string>
+    <string name="appearance">Apɛndiks</string>
+    <string name="behavior">Bihayv</string>
+    <string name="appearance_summary">Kɔstɔm di tim, di kɔlɔ ɛn di we aw di fayl manija de luk</string>
+    <string name="ui_summary">Kɔntrol us infɔmeshɔn fɔ sho, kɔstɔmayz di saydba, ɛn togl UI prɛferɛns</string>
+    <string name="behavior_summary">Mɔdify bihayvya lɛk advans sɔch ɛn if fɔ opin fayl dɛn as nyu wok</string>
+    <string name="security_summary">Sɛt ap paswɔd ɛn ɛnkripshɔn</string>
+    <string name="backup_summary">Ɛkspɔt/Impɔt Amaze sɛtin</string>
+
+    <string name="pref_export">Ɛkspɔt</string>
+    <string name="pref_export_summary">Ɛkspɔt sɛtin</string>
+    <string name="pref_import">Impɔt</string>
+    <string name="pref_import_summary">Impɔt sɛtin</string>
+
+    <string name="quick_desc">Fayyl dɛn we dɛn jɔs akses tru Amaze</string>
+    <string name="recent_desc">Fayla dɛn we dɛn jɔs mek ɔ we dɛn dɔn chenj</string>
+    <string name="error_cannot_find_way_open">Nɔ ebul fɔ fɛn we fɔ opin di fayl</string>
+    <string name="error_cant_decompress_that_file">Nɔ ebul fɔ prosɛs di arkiv we dɛn aks fɔ</string>
+    <string name="analyse_storage">Analayz Stɔrej</string>
+    
+    <string name="download_amaze_utils_text">Dɛn de ridayrɛkt yu to Amaze Fayl Yutiliti. Na wi opin sos ap we gɛt inbuilt ɔdio/vidio/imej/dɔkyumɛnt viua, we de alaw yu fɔ analayz junk fayl dɛn fɔ fri stɔrɔj, fast transfa yuz Wifi P2P ɛn bɔku ɔda tin dɛn.\nDuya sɔpɔt wi bay we yu tray am.</string>
+    <string name="download">Dɔnlod</string>
+    
+    <string name="amaze_utils_installed_alias">Tɛnki fɔ instɔl Amaze Fayl Yutiliti. Dɛn de ridayrɛkt yu to di ap.</string>
+    <string name="image_viewer">Amaze Imej Viua</string>
+    <string name="video_player">Amaze Vidio Plɛya</string>
+    <string name="amaze_audio_player">Amaze Myuzik Plɛya</string>
+    <string name="pdf_viewer">Amaze Dokumɛnt Viua</string>
+    <string name="docx_viewer">Amaze Dokumɛnt Viua</string>
+    <string name="share_logs">Shɛri lɔg dɛn</string>
+    <string name="share_logs_summary">Shɛri kapchɔ lɔg dɛn bay imel / tɛligram</string>
+    <string name="open_with_amaze">Opin wit Amaze</string>
+    <string name="confirmation">Kɔnfɔmeshɔn</string>
+    <string name="open_file_confirmation">Yu shɔ se yu want fɔ opin fayl we de dɔŋ ya?\n\nNem:\n%s\n\nLɔkeshɔn:\n%s\n\nSayz:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Pɔr Google Play polisi mandat, ap dɛn nɔ alaw fɔ ɔpdet insɛf fɔ dɛnsɛf. Duya ɔpdet ap frɔm Google Play.</string>
+    <string name="error_cannot_get_package_info">Nɔ ebul fɔ gɛt pakej info frɔm fayl \"%s\". Either di fayl we yu spɛsifa nɔto APK, ɔ di paket fayl dɔn kɔrɔpt.</string>
+    <string name="preference_delete_confirmation">Dilit kɔnfɔmeshɔn</string>
+    <string name="preference_delete_confirmation_summary">Ask fɔ kɔnfɔmeshɔn bifo yu dilit fayl dɛn. Fɔ disable dis na tin we nɔ fayn!</string>
+    
+    
+    <string name="protocol_ftps">Sikyu FTP</string>
+    <string name="unavailable">Nɔ de</string>
+
+    <string name="exporting_failed">Ekspɔt nɔ wok: nɔ ebul fɔ rayt di bak-ap fayl</string>
+    <string name="importing_failed">Importing failed: nɔ bin ebul fɔ rid di bak-ap fayl</string>
+    <string name="importing_completed">Impɔt dɔn dɔn</string>
+    <string name="invalid_backup_file">I nɔ valid bak-ap fayl</string>
+    <string name="import_failed_for">Impɔt nɔ wok fɔ:</string>
+    <string name="free_of">"%s\n%s fri frɔm %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin nɔ sɔpɔt wit F-Droid vɛshɔn.Duya yuz Ple Stɔ vɛshɔn fɔ Amaze.</string>
+    <string name="disable_player_intent_filters">Disable pleya intent filta dɛn</string>
+    <string name="disable_player_intent_filters_summary">Disabl Amaze inbuilt midia pleya dɛn frɔm fayl chuz</string>
+    <string name="no_app_found_intent">No ap nɔ de we dɛn fɛn fɔ handle dis intent.Yu gɛt DocumentsUI we dɛn dɔn instɔl?</string>
+    <string name="cloud_connection_credentials_cleared">Klaud Kɔnɛkshɔn kredibiliti klia</string>
+    <string name="cloud_connection_credentials_cleared_msg">I sɔri fɔ no se, wi nɔ bin ebul fɔ mayk yu klawd kɔnɛkshɔn kredɛns to di nyu database skima, ɛn wi bin dɔn gɛt fɔ pul dɛn na di ap.Duya mek di klawd kɔnɛkshɔn bak.</string>
+</resources>

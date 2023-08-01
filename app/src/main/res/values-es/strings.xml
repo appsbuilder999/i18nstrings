@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="app_name">Demostración de I18nStrings</string>
+    
+    <string name="content">I18nstrings es un complemento de Gradle para proyectos de Android plug-and-play que brinda internacionalización completa y soporte multilingüe para sus proyectos. al integrar este complemento fácil de usar, puede habilitar instantáneamente la localización de varios idiomas en su proyecto, haciéndolo más aceptable para los usuarios de todo el mundo.</string>
+    <string name="functions_title">Introducción a la función</string>
+    <string name="functions">- traducción multilingüe: i18nstrings admite la traducción del texto del proyecto a varios idiomas y admite la traducción incremental.
+\n- Garantía de calidad de la traducción: i18nstrings garantiza la calidad de la traducción a través de varias medidas y genera informes de calidad de la traducción para ayudarlo a monitorear y mejorar el proceso de localización.
+\n- Cambio de idioma: i18nstrings proporciona una solución para cambiar de idioma dentro de la aplicación, mejorando la experiencia para los usuarios internacionales.
+\n- Compatibilidad con idiomas beta: i18nstrings admite traducciones de idiomas beta e incluye un descargo de responsabilidad para brindarle más flexibilidad en la localización de su aplicación.</string>
+    <string name="guide">Haga clic en el botón giratorio a continuación para intentar cambiar entre diferentes idiomas:</string>
+
+
+    <string name="action_settings">Establecer</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Primer fragmento</string>
+    <string name="second_fragment_label">Segundo fragmento</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+
+    <string name="match_content_summary">Si se establece, la expresión regular
+        coincide con el nombre de archivo completo,
+        de lo contrario, busque ocurrencias.</string>
+</resources>

@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">வழிசெலுத்தல் டிராயரைத் திற</string>
+    <string name="drawer_close">வழிசெலுத்தல் டிராயரை மூடு</string>
+    
+    
+    <string name="ftp">FTP</string>
+    <string name="setting">அமைப்புகள்</string>
+    <string name="select">உருப்படியைத் தேர்ந்தெடு</string>
+    <string name="press_again">வெளியேற மீண்டும் அழுத்தவும்</string>
+    <string name="open">திற</string>
+    <string name="backup">காப்புப்பிரதி</string>
+    <string name="uninstall">நிறுவல்நீக்கு</string>
+    
+    
+    <string name="copyingapks">%d APK கோப்புகளை %sக்கு நகலெடுக்கிறது</string>
+    <string name="delbook">புக்மார்க்கை நீக்கு</string>
+    <string name="add_to_bookmarks">புக்மார்க்குகளில் சேர்</string>
+    <string name="enterpath">பாதை உள்ளிடவும்</string>
+    <string name="cancel">ரத்துசெய்</string>
+    <string name="create">உருவாக்கு</string>
+    <string name="loading">ஏற்றுகிறது…</string>
+    <string name="file_empty">கோப்பு காலியாக உள்ளது</string>
+    <string name="error">பிழை</string>
+    <string name="search_results">%s இன் தேடல் முடிவுகள்</string>
+    <string name="rename">மறுபெயரிடு</string>
+    <string name="save">சேமி</string>
+    <string name="bookmarks_added">புக்மார்க்குகள் சேர்க்கப்பட்டது</string>
+    <string name="fileexist">அதே பெயரில் கோப்பு ஏற்கனவே உள்ளது</string>
+    <string name="name">பெயர்</string>
+    <string name="date">தேதி</string>
+    <string name="location">இடம்</string>
+    <string name="size_capitalized">அளவு</string>
+    <string name="size">கோப்புறையின் அளவு</string>
+    <string name="enterzipname">ஜிப் பெயரை உள்ளிடவும்</string>
+    <string name="no_app_found">இந்த கோப்பை திறக்க ஆப்ஸ் எதுவும் இல்லை</string>
+    <string name="copying">நகலெடுக்கிறது</string>
+    <string name="moving">நகர்த்துகிறது</string>
+    <string name="file">கோப்பு</string>
+    <string name="folder">கோப்பு</string>
+    <string name="newfolder">புதிய கோப்புறை</string>
+    <string name="entername">பெயரை உள்ளிடவும்</string>
+    <string name="extracting">பிரித்தெடுத்தல்</string>
+    <string name="stopping">நிறுத்துதல்</string>
+    <string name="open_parent">பெற்றோர் கோப்பகத்தைத் திற</string>
+    <string name="open_with"/>
+    <string name="share">பகிர்</string>
+    
+    
+    
+    <string name="yes">ஆம்</string>
+    <string name="no">இல்லை</string>
+    
+    <string name="dialog_delete_category_directories">டைரக்டரிகள்</string>
+    <string name="dialog_delete_category_files">கோப்புகள்</string>
+    <string name="dialog_delete_disclaimer">கீழே உள்ள உருப்படிகளை நீக்கினால், அவை உங்கள் சாதனத்திலிருந்து நிரந்தரமாக அகற்றப்படும், மேலும் அவற்றை மீட்டெடுக்க முடியாது .</string>
+    <string name="dialog_delete_title">உருப்படிகளை நிரந்தரமாக நீக்கவா?</string>
+    <string name="deleting">நீக்குகிறதா</string>
+    <string name="question_set_path_as_home">இந்த தாவலின் தற்போதைய பாதையை முகப்பாக அமைக்க வேண்டுமா?</string>
+    <string name="directorysort">டைரக்டரி வரிசை முறை</string>
+    <string name="sort_by">இதன்படி வரிசைப்படுத்து</string>
+    <string name="sort_only_this">இந்த கோப்புறை மட்டும்</string>
+    <string name="theme">தீம்</string>
+    <string name="random">ரேண்டம் ஸ்கின்</string>
+    <string name="random_summary">தொடக்கத்தில் சீரற்ற முதன்மை நிறத்தை அமைக்கிறது</string>
+    <string name="colorize">கலரைஸ் ஐகான்கள்</string>
+    <string name="colorize_summary">நிலையான ஐகான் நிறத்தை அமைக்கிறது. கோப்பக ஐகான் வண்ண விருப்பத்தை மீறாது.</string>
+    <string name="home">முகப்பு</string>
+    <string name="paste">ஒட்டு</string>
+    <string name="history">வரலாறு</string>
+    <string name="copy">நகல்</string>
+    <string name="root_mode">ரூட் எக்ஸ்ப்ளோரர்</string>
+    <string name="root_mode_summary">ரூட் செய்யப்பட்ட சாதனத்திற்கு மட்டும். நீங்கள் உறுதியாக இருந்தால் மட்டுமே சரிபார்க்கவும்.</string>
+    <string name="root_failure">ரூட் அணுகல் வழங்கப்படவில்லை</string>
+    <string name="select_all">அனைத்தையும் தேர்ந்தெடு</string>
+    <string name="delete">நீக்கு</string>
+    <string name="set_as_home">வீட்டாக அமை</string>
+    <string name="operation_not_supported">செயல்பாடு ஆதரிக்கப்படவில்லை</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">மெட்டீரியல் லைட்</string>
+    <string name="dark">மெட்டீரியல் டார்க்</string>
+    <string name="daytime">பகல்நேரம்</string>
+    <string name="black">கருப்பு (OLEDக்கு)</string>
+    <string name="system">சிஸ்டம் (சிஸ்டம் தீமைப் பின்பற்றவும்)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">மேலே உள்ள கோப்புறைகள்</string>
+    <string name="filesOnTop">மேல் கோப்புகள்</string>
+    <string name="none_on_top">மேல் எதுவுமில்லை</string>
+    <!--SortBy-->
+    <string name="sort_name">பெயர்</string>
+    <string name="lastModified">கடைசியாக மாற்றப்பட்டது</string>
+    <string name="sort_size">அளவு</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">கோப்பைத் தேர்ந்தெடு</string>
+    <string name="process_viewer">செயல்முறை பார்வையாளன்</string>
+    <string name="in_safe">போதுமான இடம் இல்லை</string>
+    <string name="no_file_overwrite">கோப்பு மேலெழுதப்படவில்லை</string>
+    <string name="skip">தவிர்</string>
+    <string name="overwrite">மேலெழுத</string>
+    <string name="not_allowed">அனுமதிக்கப்படவில்லை</string>
+    <string name="searching">தேடுதல் %s</string>
+    <string name="done">முடிந்தது</string>
+    <string name="set">செட்</string>
+    <string name="enablerootmde">ரூட் பயன்முறையை இயக்கு</string>
+    <string name="goback">திரும்பச் செல்</string>
+    <string name="newfile">புதிய கோப்பு</string>
+    <string name="no_files">கோப்புகள் இல்லை</string>
+    <string name="used">பயன்படுத்திய இடம்</string>
+    <string name="used_by_others">பிறரால் பயன்படுத்தப்பட்டது</string>
+    <string name="free">இலவச இடம்</string>
+    <string name="listview">பட்டியல் காட்சி</string>
+    <string name="gridview">கிரிட் காட்சி</string>
+    <string name="permission">அனுமதிகள்</string>
+    <string name="hide">மறை</string>
+    <string name="exit">வெளியேறு</string>
+    <string name="doforall">அனைத்து உருப்படிகளுக்கும் செய்</string>
+    <string name="gridcolumnno">கட்டம் பார்வையில் உள்ள நெடுவரிசைகளின் எண்ணிக்கை</string>
+    <string name="set_random">நீங்கள் ஆப்ஸை மறுதொடக்கம் செய்த பிறகு மாற்றங்கள் ஏற்படும்</string>
+    <string name="authors">ஆசிரியர்கள்</string>
+    
+    <string name="ok">சரி</string>
+    <string name="ui">இடைமுகம்</string>
+    <string name="general">பொது</string>
+    <string name="thumb_summary">பயன்பாடுகள் மற்றும் படங்களின் சிறுபடங்களைக் காண்பி</string>
+    <string name="thumb">எப்படி</string>
+    <string name="hidden">show div18 மறைக்கப்பட்ட கோப்புகள் மற்றும் கோப்புறைகளைக் காட்டு</string>
+    <string name="lastModifiedSummary">கடைசி மாற்றத்தின் தேதி மற்றும் நேரத்தைக் காட்டு</string>
+    <string name="lastModifiedPref">கடைசியாக மாற்றியமைக்கப்பட்ட தேதி மற்றும் நேரத்தைக் காட்டு</string>
+    <string name="size_pref_summary">கோப்புகளின் அளவு மற்றும் கோப்புறைகளில் உள்ள உருப்படிகளின் எண்ணிக்கையைக் காட்டு</string>
+    <string name="size_pref">அளவுகளைக் காட்டு</string>
+    <string name="miscellaneous">இதர</string>
+    <string name="root_pref_summary">காண் கோப்புகள் மற்றும் கோப்புறைகளின் அனுமதிகள்</string>
+    <string name="root_pref">அனுமதிகளைக் காட்டு</string>
+    <string name="about_amaze_file_manager_label">Amaze File Manager பற்றி</string>
+    <string name="version">பதிப்பு</string>
+    <string name="rate">ஆப்ஸை மதிப்பிடு</string>
+    <string name="feedback">கருத்தை அனுப்பு</string>
+    <string name="hiddenfiles">மறைக்கப்பட்ட கோப்புகள்</string>
+    <string name="type">வகை</string>
+    <string name="root_directory">ரூட்</string>
+    <string name="add_shortcut">குறுக்குவழியைச் சேர்</string>
+    <string name="unsaved_changes">சேமிக்கப்படாத மாற்றங்கள்</string>
+    <string name="unsaved_changes_description">உங்களிடம் சேமிக்கப்படாத மாற்றங்கள் உள்ளன, நீங்கள் விரும்புகிறீர்களா? வெளியேறும் முன் அவர்களைக் காப்பாற்றவா?</string>
+    <string name="saving">சேமித்தல்</string>
+    <string name="package_installer">பேக்கேஜ் நிறுவி</string>
+    <string name="view">பார்</string>
+    <string name="install">நிறுவு</string>
+    <string name="archive">காப்பகம்</string>
+    <string name="archive_text">இது ஒரு காப்பகம். நீங்கள் என்ன செயலைச் செய்ய விரும்புகிறீர்கள்?</string>
+    <string name="package_installer_text">இது ஒரு தொகுப்பு நிறுவி. நீங்கள் என்ன செயலைச் செய்ய விரும்புகிறீர்கள்?</string>
+    <string name="xda_title">XDA நூல்</string>
+    <string name="xda_summary">Q&amp;amp;A, உதவி &amp;amp; பிழையறிந்து</string>
+    <string name="circular_images">படங்கள் மற்றும் வீடியோக்களுக்கு வட்ட ஐகான்களைப் பயன்படுத்தவும்</string>
+    <string name="circular_icons">வட்ட ஐகான்களைப் பயன்படுத்தவும்</string>
+    
+    <string name="back_summary">பட்டியலின் மேலே உள்ள தனிப்பயன் பின் வழிசெலுத்தலை இயக்குகிறது</string>
+    <string name="details">விவரங்கள்</string>
+    <string name="translators">மொழிபெயர்ப்பாளர்கள்</string>
+    <string name="german_translation_title">ஜெர்மன்</string>
+    <string name="italian_translation_title"/>
+    <string name="french_translation_title">பிரெஞ்சு</string>
+    <string name="russian_translation_title">ரஷியன்</string>
+    <string name="spanish_translation_title">ஸ்பானிஷ்</string>
+    <string name="basque_translation_title">பாஸ்க்</string>
+    <string name="chinese_translation_title">சீன</string>
+    <string name="serbian_translation_title">செர்பிய</string>
+    <string name="turkish_translation_title">துருக்கிய</string>
+    <string name="ukrainian_translation_title">உக்ரேனிய</string>
+    <string name="portuguese_translation_title">போர்த்துகீசியம் </string>
+    <string name="polish_translation_title">போலந்து</string>
+    <string name="korean_translation_title">கொரியன்</string>
+    <string name="greek_translation_title">கிரேக்கம்</string>
+    <string name="dutch_translation_title">டச்சு</string>
+    <string name="romanian_translation_title">ரோமேனியன்</string>
+    <string name="vietnamese_translation_title">வியட்நாமிய</string>
+    <string name="japanese_translation_title">ஜப்பனீஸ்</string>
+    <string name="tamil_translation_title">தமிழ்</string>
+
+    <string name="zip_viewer">ஜிப் வியூவர்</string>
+    <string name="unin_system_apk">இது ஒரு சிஸ்டம் ஆப், இதை நீக்குவது சிஸ்டம் நிலையற்ற நிலைக்கு வழிவகுக்கும் .\nதொடரவா?</string>
+    <string name="warning">எச்சரிக்கை</string>
+    <string name="donate">தானம்</string>
+    <string name="archive_extract_folder">காப்பகப் பிரித்தெடுத்தல் கோப்புறை</string>
+    <string name="archive_summary">காப்பகக் கோப்புகள் இந்தக் கோப்புறையில் பிரித்தெடுக்கப்படும். இயல்புநிலை மதிப்பு என்பது காப்பகம் இருக்கும் கோப்பகமாகும்.</string>
+    <string name="open_as">இவ்வாறு திற</string>
+    <string name="text">உரை</string>
+    <string name="audio">ஆடியோ</string>
+    <string name="video">வீடியோ</string>
+    <string name="other">மற்ற</string>
+    <string name="image">படம்</string>
+    <string name="contributors">பங்களிப்பாளர்கள்</string>
+    <string name="save_paths">பாதைகளை நினைவில் கொள்ளுங்கள்</string>
+    <string name="save_path_summary">தொடக்கும்போது, ​​ஒவ்வொரு தாவலுக்கும் மிக சமீபத்தில் பார்க்கப்பட்ட கோப்புறை காட்டப்படும்</string>
+    <string name="select_intent">தேர்ந்தெடு</string>
+    <string name="database">டேட்டாபேஸ்</string>
+    <string name="colored_navigation">வண்ணம் வழிசெலுத்தல் பட்டி</string>
+    <string name="colored_navigvation_sum">கணினி வழிசெலுத்தல் பட்டி தோலுடன் நிறமாக இருந்தாலும் இல்லாவிட்டாலும்,</string>
+
+    <string name="color_title">நிறம்</string>
+    <string name="color_summary">பல்வேறு UI கூறுகளுக்கு வண்ணத்தை அமைக்கவும்</string>
+    <string name="primary_color_title">முதன்மை நிறம் (இடது தாவல்)</string>
+    <string name="primary_color_summary">இடது தாவலுக்கு நிறத்தை பெரிய UI உறுப்புகளுக்கு அமைக்கவும்</string>
+    <string name="accent_color_title">உச்சரிப்பு நிறம்</string>
+    <string name="accent_color_summary">FAB மற்றும் பிற சிறிய UIக்கு வண்ணத்தை அமைக்கவும் உறுப்புகள்</string>
+    <string name="icon_color_title">ஐகான் நிறம்</string>
+    <string name="icon_color_summary">ஐகான்களுக்கு வண்ணத்தை அமைக்கவும்</string>
+    <string name="choose_color">வண்ணத்தைத் தேர்ந்தெடு</string>
+    <string name="files">கோப்புகள்</string>
+    <string name="textreader">உரை ரீடர்</string>
+    <string name="databasereader">டேட்டாபேஸ் ரீடர்</string>
+    <string name="show_dividers">டிவைடர்களைக் காட்டு</string>
+    <string name="needs_access">எழுதுவதற்கான அணுகல் தேவை</string>
+    <string name="needs_access_summary">தயவுசெய்து \t</string>
+    <string name="needs_access_summary1">\tஇன் ரூட் கோப்பகத்தைத் தேர்வுசெய்து</string>
+    <string name="smb_connection">SMB இணைப்பை இயக்க எழுத்து அணுகலை வழங்கவும்</string>
+    <string name="smb_server">சர்வர் ஐபி முகவரி</string>
+    <string name="server_address">சேவையக ஐபி முகவரி</string>
+    <string name="username">பயனர்பெயர்</string>
+    <string name="password">கடவுச்சொல்</string>
+    <string name="anonymous">அநாமதேய</string>
+    
+    <string name="folders">கோப்புறைகள்</string>
+    <string name="folderfilecount">%1$d கோப்புறைகள் மற்றும் %2$d கோப்புகள்</string>
+    <string name="videos">வீடியோக்கள்</string>
+    <string name="apks">APKகள்</string>
+    <string name="documents">ஆவணங்கள்</string>
+    <string name="images">படங்கள்</string>
+    <string name="clear">தெளிவு</string>
+    <string name="md5">div188 div86MD5</string>
+    <string name="total">மொத்தம்:</string>
+    <string name="calculating">கணக்கிடுதல்</string>
+    <string name="sort">வரிசை</string>
+    <string name="ascending">&gt;ஏறும்</string>
+    <string name="descending">இறங்கும்</string>
+    <string name="default_string">இயல்பு</string>
+    <string name="doit">இதைச் செய்</string>
+    <string name="want_help">உதவி வேண்டுமா?</string>
+    <string name="quick">விரைவான அணுகல்</string>
+    <string name="recent">சமீபத்திய கோப்புகள்</string>
+    <string name="edit">திருத்து</string>
+    <string name="find">பக்கத்தில் கண்டுபிடி</string>
+    <string name="grant">மானியம்</string>
+    <string name="grantper">அனுமதி வழங்கு</string>
+    <string name="grantfailed">அனுமதி வழங்கப்படவில்லை</string>
+    <string name="grant_storage_permission">ஆப்ஸ் தொடர சேமிப்பக அனுமதி தேவை. இந்த உரையாடலை ரத்துசெய்வது பயன்பாட்டிலிருந்து வெளியேறும்.</string>
+    <string name="operation_unsuccesful">செயல்பாடு தோல்வி</string>
+    <string name="creatingfile">கோப்பை உருவாக்குகிறது</string>
+    <string name="creatingfolder">கோப்புறையை உருவாக்குகிறது</string>
+    <string name="renaming">மறுபெயரிடுதல்</string>
+    <string name="cant_be_empty">%s காலியாக இருக்க முடியாது</string>
+    <string name="ip">முகவரி</string>
+    <string name="connection_name">இணைப்பு பெயர்</string>
+    <string name="no_device_found">சாதனங்கள் எதுவும் இல்லை</string>
+    <string name="path">பாதை</string>
+    <string name="rename_bookmark">புக்மார்க்கை மாற்றவும்</string>
+    <string name="cut">கட்</string>
+    <string name="search">தேடல்</string>
+    <string name="invalid_name">தவறான பெயர்</string>
+    <string name="search_hint">தேட தட்டச்சு செய்யவும்…</string>
+    <string name="advanced_search">மேம்பட்ட தேடல்</string>
+    <string name="regular_expression">வழக்கமான வெளிப்பாடு</string>
+    <string name="regular_expression_summary">ஒரு பயன்படுத்தி தேடவும் BASH பாணி வழக்கமான வெளிப்பாடு</string>
+    <string name="match_content">உள்ளடக்கத்தை பொருத்து</string>
+    <string name="match_content_summary">அமைத்தால், வழக்கமான வெளிப்பாடு முழு கோப்பு பெயருடனும் பொருந்தும்,
+        இல்லையெனில் நிகழ்வை தேடும்.</string>
+    <string name="start_ftp">தொடங்கு</string>
+    <string name="stop_ftp">நிறுத்து</string>
+    <string name="ftp_status_running">ஓடுதல்</string>
+    <string name="ftp_status_not_running">ஓடவில்லை</string>
+    <string name="ftp_no_wifi">நீங்கள் Wi-Fi உடன் இணைக்கப்பட்டுள்ளதை உறுதிசெய்யவும்</string>
+    <string name="domain">டொமைன்</string>
+    
+    <string name="invalid">தவறான %s</string>
+    <string name="ftp_notif_starting">FTP சேவையகம் தொடங்கி</string>
+    
+    <string name="ftp_notif_title">Amaze FTP Server</string>
+    <string name="ftp_notif_text">%s இல்</string>
+    <string name="ftp_notif_stop_server">நிறுத்து</string>
+    <string name="ftp_port_edit_menu_title">FTP போர்ட்</string>
+    <string name="ftp_port_change_success">FTP போர்ட் வெற்றிகரமாக மாற்றப்பட்டது</string>
+    <string name="ftp_port_change_error_invalid">தவறான போர்ட் எண் தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="primary_two_title">முதன்மை நிறம் (வலது தாவல்)</string>
+    <string name="primary_two_summary">வலது தாவலுக்கு பெரிய UI உறுப்புகளுக்கு வண்ணத்தை அமைக்கவும்</string>
+    <string name="support_development">ஆதரவு மேம்பாடு</string>
+    <string name="report_bugs_title">பிழைகளைப் புகாரளி</string>
+    <string name="source_title">மூலக் குறியீடு</string>
+    <string name="source_summary">GitHub இல் எங்கள் மூலக் குறியீட்டைப் பார்க்கவும்</string>
+    <string name="report_bugs_summary">பிழைகளைப் புகாரளிக்கவும் அல்லது புதிய அம்சத்தைக் கோரவும்</string>
+    <string name="translate_title">மொழிபெயர்ப்பு</string>
+    <string name="translate_summary">Translate உங்கள் மொழியில் ஆச்சரியப்படுத்துங்கள்</string>
+    <string name="paypal_copy_message">PayPal ஐடி கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது</string>
+    <string name="searching_devices">சாதனங்களைத் தேடுகிறது</string>
+    <string name="use_custom_ip">தனிப்பயன் ஐபியைப் பயன்படுத்து</string>
+    <string name="bookmark_lost">புக்மார்க் கிடைக்கவில்லை, மீண்டும் உருவாக்குகிறது…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Android இல் பகிரப்பட்ட Windows கோப்புறையை எவ்வாறு அணுகுவது (SMB)\n\n
+                
+                    
+                        Windows\n இல் கோப்பு பகிர்வை இயக்கவும்
+                    
+                    
+                        கண்ட்ரோல் பேனலைத் திறந்து, நெட்வொர்க்கின் கீழ் ஹோம்குரூப் மற்றும் பகிர்வு விருப்பங்களைத் தேர்ந்தெடு என்பதைக் கிளிக் செய்யவும்
+                        மற்றும் இணையம், மற்றும் "மேம்பட்ட பகிர்வு அமைப்புகளை மாற்று" என்பதைக் கிளிக் செய்து, "கோப்பு மற்றும்" என்பதை இயக்கவும்
+                        அச்சுப்பொறி பகிர்வு" அம்சம்.\n\n
+                    
+
+                    
+                        கூடுதல் கோப்பு பகிர்வு அமைப்புகள்\n
+                    
+                    
+                        நீங்கள் மற்ற மேம்பட்ட பகிர்வு அமைப்புகளையும் இங்கே உள்ளமைக்க விரும்பலாம். \n
+                        எடுத்துக்காட்டாக, நீங்கள் அனைத்தையும் நம்பினால், கடவுச்சொல் இல்லாமல் உங்கள் கோப்புகளுக்கான அணுகலை இயக்கலாம்
+                        உங்கள் உள்ளூர் நெட்வொர்க்கில் உள்ள சாதனங்கள். கோப்பு மற்றும் பிரிண்டர் பகிர்வு இயக்கப்பட்டதும், உங்களால் முடியும்
+                        கோப்பு எக்ஸ்ப்ளோரர் அல்லது விண்டோஸ் எக்ஸ்ப்ளோரரைத் திறந்து, நீங்கள் பகிர விரும்பும் கோப்புறையில் வலது கிளிக் செய்யவும்
+                        பண்புகள் தேர்ந்தெடுக்கவும். \n
+                        பகிர் பொத்தானைக் கிளிக் செய்து கோப்புறையை பிணையத்தில் கிடைக்கச் செய்யவும்.\n\n
+                        
+
+                    
+                        இரண்டு சாதனங்களும் ஒரே வைஃபையில் இருப்பதை உறுதிசெய்யவும்\n
+                    
+                    
+                        இந்த அம்சம் உள்ளூர் நெட்வொர்க்கில் கோப்புகளை கிடைக்கச் செய்கிறது, எனவே உங்கள் பிசி மற்றும் மொபைல் சாதனங்கள்
+                        அதே உள்ளூர் நெட்வொர்க்கில் இருக்க வேண்டும். பகிரப்பட்ட Windows கோப்புறையை உங்களால் அணுக முடியாது
+                        இணையத்தில் அல்லது உங்கள் ஸ்மார்ட்போன் அதன் மொபைல் டேட்டாவுடன் இணைக்கப்பட்டிருக்கும் போது - அது
+                        Wi-Fi உடன் இணைக்கப்பட வேண்டும்.\n\n
+                    
+
+                    
+                        ஐபி முகவரியைக் கண்டறியவும்\n
+                    
+                    
+                        கட்டளை வரியில் திறக்கவும். \'ipconfig\' என தட்டச்சு செய்து Enter ஐ அழுத்தவும். இயல்புநிலை நுழைவாயிலைத் தேடுங்கள்
+                        உங்கள் திசைவியின் IP முகவரிக்கான உங்கள் பிணைய அடாப்டரின் கீழ். தேடு
+                        \\\"IPv4 முகவரி\\\" உங்கள் கணினியின் ஐபியைக் கண்டறிய அதே அடாப்டர் பிரிவின் கீழ்
+                        முகவரி.\n\n
+                    
+
+                    SMB உரையாடல் பெட்டியில் விவரங்களை உள்ளிடவும்\n
+                
+            
+        
+   </string>
+    <string name="share_limit">100 க்கும் மேற்பட்ட கோப்புகளைப் பகிர முடியாது</string>
+    <string name="otg_access">OTG சாதனத்தின் மூலத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="information">தகவல்</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">அணுகப்பட்டது</string>
+    <!-- reference to file modified date -->
+    <string name="modified">மாற்றப்பட்டது</string>
+
+    <string name="title">தலைப்பு</string>
+    <string name="artist">கலைஞர்</string>
+    <string name="album">ஆல்பம்</string>
+    <string name="year">ஆண்டு</string>
+    <string name="duration">காலம்</string>
+    <string name="comment">கருத்து</string>
+    <!-- reference to audio/video file -->
+    <string name="container">கான்டெய்னர்</string>
+    <string name="codec"/>
+    <string name="channels">Codec</string>
+    <string name="sample_rate">சேனல்கள்</string>
+    <string name="bitrate">மாதிரி வீதம்</string>
+    <string name="dimensions">பிட்ரேட்</string>
+    <string name="frame_rate">பரிமாணங்கள்</string>
+    <string name="image_type">பிரேம் வீதம்</string>
+    <string name="width">Image </string>
+    <string name="height">அகலம்</string>
+    <string name="date_modified">உயரம்</string>
+    <string name="software">தேதி மாற்றப்பட்டது</string>
+    <string name="creator">மென்பொருள்</string>
+    <string name="camera_brand">கிரியேட்டர்</string>
+    <string name="camera_model">கேமரா பிராண்ட் Cam  மாடல்</string>
+    <string name="date_taken">எடுத்த தேதி</string>
+    <string name="exposure_time">வெளிப்பாடு நேரம்</string>
+    <string name="aperture_value">துளை மதிப்பு</string>
+    <string name="image_iso">ISO வேக மதிப்பீடு</string>
+    
+    <string name="focal_length">FocalLength</string>
+    <string name="subject">தலைப்பு</string>
+    <string name="author">ஆசிரியர்</string>
+    <string name="keywords">முக்கிய வார்த்தைகள்</string>
+    <string name="producer">தயாரிப்பாளர்</string>
+    <string name="created">உருவாக்கப்பட்டது</string>
+    <string name="format">வடிவம்</string>
+    <string name="pages">பக்கங்கள்</string>
+    <!-- reference to a document file -->
+    
+    <string name="security">பாதுகாப்பு</string>
+    <string name="paper_size">காகித அளவு</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">சில கோப்புகள் வெற்றிகரமாக %s</string>
+    <string name="copied">நகல் செய்யப்படவில்லை</string>
+    <string name="moved">நகர்த்தப்பட்டது</string>
+    <string name="copy_complete">நகல் முடிந்தது</string>
+    <string name="waiting_title">காத்திருக்கிறது</string>
+    <string name="waiting_content">ஆபரேஷன் முடிவடைவதற்காகக் காத்திருக்கிறது</string>
+    <string name="extract_complete">பிரித்தல் முடிந்தது</string>
+    <string name="compression_complete">அமுக்கம் முடிந்தது</string>
+    <string name="compressing">அமுக்கி</string>
+    <string name="cancelled">ரத்துசெய்யப்பட்டது</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">எழுதப்பட்டது</string>
+    <string name="out_of">இல்</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    
+    <string name="processing_file">செயலாக்கக் கோப்பை</string>
+    <string name="current_speed">தற்போதைய வேகம்</string>
+    <string name="smb_launch_error">இதைத் திறக்க, இந்தக் கோப்பை சேமிப்பகத்திற்கு நகலெடுக்க வேண்டும்</string>
+    <string name="error_file_not_found">பிழை: கோப்பு கிடைக்கவில்லை</string>
+    <string name="error_io">I/O பிழை</string>
+    <string name="error_file_too_large">பிழை: கோப்பு மிகவும் பெரியது</string>
+    <string name="medium_text">நடுத்தர உரை</string>
+    <string name="permission_read">படிக்க</string>
+    <string name="permission_write">எழுது</string>
+    <string name="permission_execute">செயல்படுத்து</string>
+    <string name="permission_owner">உரிமையாளர்</string>
+    <string name="permission_group">குழு</string>
+    <string name="permission_other">மற்ற</string>
+    <string name="clipboard_path_copy">பாதை கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது</string>
+    <string name="service_timer">நேரம் கடந்துவிட்டது</string>
+    <string name="please_wait">தயவுசெய்து காத்திருக்கவும்</string>
+
+    <string name="cloud_connection">கிளவுட் இணைப்பு</string>
+    <string name="cloud_connection_new">புதிய கிளவுட் இணைப்பு</string>
+    <string name="cloud_dropbox">Div18</string>
+    
+    
+    
+    <string name="cloud_get">கிளவுட் செருகுநிரலைப் பெறுங்கள்</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">பயன்பாடுகள் இல்லை</string>
+    <string name="ftp_path">பகிரப்பட்ட பாதை</string>
+    <string name="ftp_path_hint">பகிர்வதற்கான கோப்பகத்தின் மூலத்திற்கான பாதை</string>
+    <string name="change">மாற்று</string>
+    <string name="unknown_error">அச்சச்சோ, ஏதோ தவறாகிவிட்டது!</string>
+
+    <string name="ftp_path_change_success">FTP பாதை வெற்றிகரமாக மாற்றப்பட்டது</string>
+    <string name="ftp_path_change_error_invalid">தவறானது path</string>
+    <string name="ftp_status_no_connection">இணைப்பு இல்லை</string>
+    <string name="ftp_status_secure_connection">பாதுகாப்பான இணைப்பு</string>
+    <string name="ftp_status_title">நிலை</string>
+    <string name="ftp_port">போர்ட்</string>
+    <string name="ftp_login">உள்நுழை</string>
+    <string name="field_empty">புலம் இருக்க முடியாது\' காலி</string>
+    <string name="ftp_timeout">சும்மா நேரம் முடிந்தது</string>
+    <string name="ftp_seconds">வினாடிகள்</string>
+    
+    <string name="intellihide_toolbar_summary">ஸ்க்ரோலிங் செய்யும் போது கருவிப்பட்டியை தானாக மறை</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது</string>
+    <string name="contributors_1_summary">மொழிபெயர்ப்பு</string>
+    <string name="contributors_2_summary">ஐகான் மற்றும் பேனர்கள்</string>
+    <string name="contributors_3_summary">தீம் எஞ்சின்</string>
+    <string name="contributors_4_summary">Shade FAB</string>
+    <string name="contributors_5_summary">தாவல்களை ஸ்வைப் செய்யும் போது வண்ண மாற்றம்</string>
+    <string name="contributors_6_summary">FTP சேவையகம்</string>
+    <string name="contributors_7_summary">இன்டராக்டிவ் ஷெல்லைச் சுடுதல்</string>
+    <string name="connection_exists">இணைப்பு ஏற்கனவே உள்ளது</string>
+
+    
+    <string name="crypt_decrypting">டிக்ரிப்டிங்</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">என்க்ரிப்ட்</string>
+    <string name="crypt_decrypted">டிக்ரிப்ட்</string>
+    <string name="crypt_encrypt">என்க்ரிப்ட்</string>
+    <string name="crypt_decrypt">Div18</string>
+    <string name="operation_fail_following">பின்வரும் கோப்புகளுக்கான செயல்பாடு தோல்வியடைந்தது</string>
+    <string name="crypt_pref_master_password_title">முதன்மை கடவுச்சொல்</string>
+    <string name="crypt_pref_master_password_summary">குறியாக்கத்திற்கான முதன்மை கடவுச்சொல்லை அமைக்கவும்.
+        அகற்ற காலியாக விடவும்.</string>
+    <string name="crypt_pref_fingerprint_title">கைரேகை</string>
+    <string name="crypt_pref_fingerprint_summary">குறியாக்கத்தை அங்கீகரிக்க கைரேகையைப் பயன்படுத்தவும்</string>
+    <string name="crypt_fingerprint_no_permission">கைரேகை அனுமதிகள் இல்லை</string>
+    <string name="crypt_fingerprint_not_enrolled">கைரேகை பதிவுசெய்யப்படவில்லை</string>
+    <string name="crypt_fingerprint_no_security">பூட்டுத் திரை பாதுகாப்பு இல்லை</string>
+    <string name="crypt_warning_key">உங்கள் பாதுகாப்பு முறையை மாற்றும்போது அறிவுறுத்தப்படவும்
+        சிஸ்டம் அமைப்புகளில், இந்த உள்ளடக்கத்தை உங்களால் டிக்ரிப்ட் செய்ய முடியாது.</string>
+    <string name="warning_never_show">மீண்டும் தெரிவிக்க வேண்டாம்</string>
+    <string name="warning_confirm">புரிந்தது!</string>
+    <string name="crypt_encryption_fail">என்கிரிப்ட் செய்வதில் தோல்வி</string>
+    <string name="crypt_decryption_fail">டிகிரிப்ட் செய்ய முடியவில்லை</string>
+    <string name="crypt_decryption_fail_password">தவறான கடவுச்சொல்!</string>
+    <string name="crypt_fingerprint_authenticate">தொடருவதற்கு சென்சார் தொடவும்</string>
+    <string name="authenticate_password">கடவுச்சொல்லை உள்ளிடவும்</string>
+
+    <string name="sidebar_preferences">பக்கப்பட்டி</string>
+    <string name="sidebar_quick_access_title">பக்கப்பட்டி விரைவு அணுகல்</string>
+    <string name="show_quick_access_pref_title">விரைவான அணுகல்களைக் காட்டு</string>
+    <string name="show_quick_access_pref">விரைவு அணுகல்கள்</string>
+    <string name="directory">அடைவு</string>
+
+    <string name="sidebar_bookmarks_title">பக்கப்பட்டி புக்மார்க்குகள்</string>
+    <string name="show_bookmarks_pref_title">புக்மார்க்குகளைக் காட்டு</string>
+    <string name="show_bookmarks_pref">புக்மார்க்குகள்</string>
+    <string name="create_bookmark">புக்மார்க்கை உருவாக்கு</string>
+    <string name="edit_bookmark">புக்மார்க்கைத் திருத்து</string>
+    <string name="question_delete_bookmark">புக்மார்க்கை நீக்கவா&gt;?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud செருகுநிரல் கிடைக்கவில்லை. Play Store இலிருந்து பதிவிறக்கவும்.</string>
+    <string name="cloud_error_failed_restart">இணைப்பை ஏற்றுவதில் தோல்வி.
+        தயவு செய்து Amaze Cloud ஐ ஒருமுறை திறக்கவும்.</string>
+    <string name="cloud_remove">கிளவுட் இணைப்பை அகற்ற விரும்புகிறீர்களா?</string>
+    <string name="cloud_fail_authenticate">அங்கீகரிப்பதில் தோல்வி</string>
+    <string name="cloud_share_copied">பகிரக்கூடிய இணைப்பு கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது</string>
+    <string name="copy_low_memory">நினைவகம் தீர்ந்துவிட்டது, கொஞ்சம் RAM ஐ அழிக்கவும்</string>
+    <string name="cloud_token_lost">டோக்கன் தொலைந்துவிட்டது, மீண்டும் உள்நுழையவும்</string>
+    <string name="monofont">Monospace எழுத்துரு</string>
+    <string name="showHeaders">தலைப்புகளைக் காட்டு</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">உருப்படிகள் இல்லை</string>
+	<string name="item">உருப்படி</string>
+	<string name="items">உருப்படிகள்</string>
+	
+	<string name="byte_singular">பைட்</string>
+	<string name="bytes">பைட்டுகள்</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">கோப்பு இருக்க வேண்டும் பெயர் உள்ளது</string>
+    <string name="add_item">உருப்படியைச் சேர்</string>
+    <string name="failed_smb_decrypt_path">SMB இணைப்பை ஏற்றுவதில் தோல்வி</string>
+    <string name="failed_cloud_new_connection">புதிய கிளவுட் இணைப்பைச் சேர்க்க முடியவில்லை</string>
+    <string name="failed_cloud_api_key">கிளவுட் செருகுநிரலை அங்கீகரிப்பதில் தோல்வி</string>
+
+    <string name="local_inet_addr_error">உள்ளூர் inet முகவரியைப் பெறுவதில் பிழை</string>
+    <string name="intent_save_as">இவ்வாறு சேமி...</string>
+    
+    <string name="advanced">மேம்பட்ட</string>
+    <string name="typeable_paths_title">தனிப்பயன் பாதைகள்</string>
+    <string name="typeable_paths_summary">தனிப்பயன் பாதையை தட்டச்சு செய்ய பாதை பட்டியை நீண்ட நேரம் அழுத்தவும்</string>
+    <string name="send_email_to"/>
+
+    <string name="text_editor">உரை திருத்தி அமைப்புகளுக்கு மின்னஞ்சல் அனுப்பு</string>
+    <string name="preference_newstack_title">கோப்புகளை புதிய பணியாக திற</string>
+    <string name="preference_newstack_summary">தனியான பணிகளில் கோப்புகளைத் திறக்க உங்களை அனுமதிக்கிறது. கணினியின் சமீபத்திய திரையில் இருந்து அவற்றை அணுகவும்.</string>
+    
+    <string name="developers">டெவலப்பர்கள்</string>
+    <string name="no_bitcoin_app">தயவுசெய்து பிட்காயின் வாலட் பயன்பாட்டை நிறுவவும்</string>
+    <string name="channel_name_normal">அறிவிப்புகளை ஆச்சரியப்படுத்து</string>
+    
+    
+    <string name="channel_description_ftp">Amaze File மேலாளர் FTP சேவையகத்தின் அறிவிப்புகள்</string>
+
+    
+    <string name="processing">செயலாக்குகிறது…</string>
+    <string name="failed_no_connection">கோப்புகளை ஏற்றுவதில் தோல்வி. உங்கள் இணைப்பைச் சரிபார்க்கவும்.</string>
+
+    
+	<string name="scp_connection">SCP/SFTP இணைப்பு</string>
+    <string name="ftp_connection">FTP இணைப்பு</string>
+    <string name="ftps_connection">SSL இணைப்பு வழியாக FTP</string>
+    <string name="scp_port">போர்ட்</string>
+    <string name="ssh_host_key_verification_prompt">புரவலன் \'%1$s\' இன் நம்பகத்தன்மையை நிறுவ முடியவில்லை.\n\n%2$s முக்கிய கைரேகை %3$s ஆகும்.\n\nஉறுதிப்படுத்த \"ஆம்\" என்பதைத் தட்டவும் அடையாளம்; இல்லையெனில், தயவுசெய்து \"இல்லை\" என்பதைத் தட்டவும்.</string>
+    <string name="ssh_host_key_verification_prompt_title">ஹோஸ்ட்டைச் சரிபார்க்கவும்</string>
+    <string name="ssh_select_pem_button">SSH தனிப்பட்ட விசை</string>
+    <string name="ssh_pem_key_parse_error">தேர்ந்தெடுத்த PEM: %s</string>
+    <string name="password_unchanged">(மாற்றமில்லை)</string>
+    <string name="ssh_authentication_failure_password">உள்நுழைவு தோல்வி: வழங்கப்பட்ட பயனர்பெயர் மற்றும் கடவுச்சொல் மூலம் அங்கீகரிக்க முடியவில்லை.</string>
+    <string name="ssh_authentication_failure_key">உள்நுழைவு தோல்வி: வழங்கப்பட்ட பயனர்பெயர் மற்றும் தனிப்பட்ட விசையுடன் அங்கீகரிக்க முடியவில்லை.</string>
+    <string name="ssh_connect_failed">%1$sஉடன் இணைக்க முடியவில்லை s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">எச்சரிக்கை: ரிமோட் ஹோஸ்ட் அடையாளம் மாறிவிட்டது!</string>
+    
+    <string name="ssh_key_prompt_passphrase">தயவுசெய்து முக்கிய கடவுச்சொற்றொடரை உள்ளிடவும். .</string>
+    <string name="add_shortcut_not_supported_by_launcher">குறுக்குவழிகளை உருவாக்க உங்கள் துவக்கி ஆதரிக்கவில்லை.</string>
+    
+    <string name="select_color_config">வண்ண கட்டமைப்பைத் தேர்ந்தெடு</string>
+    <string name="customize">தனிப்பயனாக்கு</string>
+    <string name="custom">தனிப்பயன்</string>
+    <string name="preselected_configs_title">முன்தேர்ந்தெடுக்கப்பட்ட கட்டமைப்புகள்</string>
+    <string name="orange">ஆரஞ்சு</string>
+    <string name="blue">நீலம்</string>
+    <string name="green">பச்சை</string>
+    <string name="password_no_match">கடவுச்சொல் பொருந்தவில்லை</string>
+    <string name="deselect_all">அனைத்தையும் தேர்வுநீக்கு</string>
+    <string name="filename">கோப்பின் பெயரை</string>
+    <string name="compress_file_suggest_zip_extension">கோப்பு நீட்டிப்பாக \".zip\" ஐப் பயன்படுத்த பரிந்துரைக்கப்படுகிறது.</string>
+    <string name="about_amaze">Android க்கான மெட்டீரியல் வடிவமைப்பு கோப்பு மேலாளர்</string>
+    <string name="license">உரிமம்</string>
+    <string name="libraries">நூலகங்கள்</string>
+    <string name="password_repeat">கடவுச்சொல்லை மீண்டும் செய்யவும்</string>
+    <string name="create_file_suggest_txt_extension">இது \" பயன்படுத்த பரிந்துரைக்கப்படுகிறது. txt\" கோப்பு நீட்டிப்பாக உள்ளது.</string>
+    <string name="ssh_select_pem">அங்கீகரிப்புக்கான தனிப்பட்ட விசையைத் தேர்ந்தெடு</string>
+    <string name="ssh_key_invalid_passphrase">தவறான விசை கடவுச்சொற்றொடர்.</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM ஐ மறைகுறியாக்க சரியான குறிவிலக்கி இல்லை.</string>
+    <string name="encryption_fail_copy">தோல்வியடைந்தது. தரவுத்தளத்தில் குறியாக்க உள்ளீட்டைப் புதுப்பிக்கவும்</string>
+    <string name="extracted">பிரித்தெடுக்கப்பட்டது</string>
+    <string name="compressed">சுருக்கப்பட்டது</string>
+    <string name="processed">செயல்படுத்தப்பட்டது</string>
+    <string name="no_obtainable_info">இந்தக் கோப்பைப் பற்றி எந்த தகவலும் இல்லை</string>
+    <string name="reopen_from_source">Can\' t, தயவு செய்து கடைசி பயன்பாட்டிலிருந்து மீண்டும் திறக்கவும்</string>
+    <string name="no_file_error">ஏதோ தவறாகிவிட்டது, திறக்க எதுவும் இல்லை</string>
+    <string name="file_too_long">கோப்பு மிக நீளமாக உள்ளது மற்றும் திருத்த முடியாது, இருப்பினும் நீங்கள் முதல் %d எழுத்துக்களைப் படிக்கலாம்</string>
+    <string name="file_read_only">திறந்த கோப்பு படிக்க மட்டுமே.</string>
+    <string name="got_it">புரிந்தது!</string>
+    <string name="encrypt_file_save_as">என்கிரிப்ட் செய்யப்பட்ட கோப்பை இவ்வாறு சேமி...</string>
+    <string name="encrypt_folder_save_as">என்க்ரிப்ட் செய்யப்பட்ட கோப்புறையை இவ்வாறு சேமி...</string>
+    <string name="encrypt_option_use_aze">Amaze Encryption Format</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[ஐப் பயன்படுத்தவும்
+        <p>AESCrypt என்பது AES குறியாக்கத்தின் அடிப்படையில் ஒரு திறந்த மூல கோப்பு குறியாக்க வடிவமாகும். இது கையடக்கமானது, மற்ற தளங்களில் AESCrypt நிரல்களுடன் மறைகுறியாக்கப்படலாம்.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt இணையதளம்</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze இன் குறியாக்க வடிவமும் AES குறியாக்கத்தை அடிப்படையாகக் கொண்டது; ஆனால் AESCrypt வடிவமைப்பிலிருந்து வேறுபட்டது, இந்தச் சாதனத்தால் மட்டுமே அதை மறைகுறியாக்க முடியும்; மேலும், இந்தச் சாதனத்திலிருந்து Amaze File Managerஐ நிறுவல் நீக்கவோ அல்லது திரையைப் பூட்டும் விதத்தை மாற்றவோ கூடாது, இல்லையெனில் மறைகுறியாக்கப்பட்ட கோப்பை மீட்டெடுக்க உங்களுக்கு வழி இருக்காது.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">மறைகுறியாக்கப்பட்ட கோப்புகள் கோப்பு நீட்டிப்பாக \".aze\" ஐப் பயன்படுத்த வேண்டும்.</string>
+    <string name="encrypt_file_must_end_with_aes">மறைகுறியாக்கப்பட்ட கோப்புகள் \".aes\"ஐ கோப்பு நீட்டிப்பாகப் பயன்படுத்த வேண்டும்.</string>
+    <string name="error_aescrypt_decrypt_failed">டிக்ரிப்ட் செய்ய முடியாது. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">கோப்பை மேலெழுத முடியவில்லை.</string>
+    <string name="saved_single_file">கோப்பு \'%s\' ஆக சேமிக்கப்பட்டது.</string>
+    <string name="saved_multi_files">%d கோப்புகள் சேமிக்கப்பட்டன.</string>
+    <string name="create_hidden_file_warn">உருவாக்கப்பட்ட கோப்பு கோப்பு பட்டியலில் மறைக்கப்படும்.</string>
+    <string name="grant_apkinstall_permission">ஆப்ஸை நிறுவ, ஆப்ஸுக்கு அனுமதி தேவை.</string>
+    <string name="time_remaining">மீதமுள்ள நேரம்</string>
+    <string name="transfer_rate">பரிமாற்ற விகிதம்</string>
+    <string name="unknown">தெரியாது</string>
+    <string name="multiple_invalid_archive_entries">காப்பகத்தில் உள்ள சில கோப்புகளை பிரித்தெடுக்க முடியாது; காப்பகம் சேதமடைந்திருக்கலாம் அல்லது தீங்கிழைக்கும் மூலத்திலிருந்து வந்திருக்கலாம்.</string>
+    <string name="saf_otg_explanation">நீங்கள் இப்போது பாதுகாப்பு காரணங்களுக்காக Android கோப்பு முறைமைக்குச் செல்வீர்கள். இடதுபுறத்தில் உள்ள பட்டியலில் இருந்து USB சாதனத்தைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="donation_thanks">நன்கொடைக்கு நன்றி, இது எங்களை ஊக்கப்படுத்துகிறது! (:</string>
+    <string name="enable_marquee_filename">கோப்பு பெயர்களுக்கு மார்க்யூ எஃபெக்டை இயக்கு</string>
+    <string name="archive_password_prompt">தயவுசெய்து காப்பக கடவுச்சொல்லை உள்ளிடவும்:</string>
+    
+    <string name="cannot_extract_archive">காப்பகத்தை பிரித்தெடுக்க முடியாது \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">முடியவில்லை காப்பகத்தைத் திறக்கவும் \"%s\". காப்பகத்தைத் திறக்க முடியாது, அல்லது காப்பகம் சேதமடைந்துவிட்டது.</string>
+    <string name="close">மூடு</string>
+    <string name="bookmark_exists">புக்மார்க் உள்ளது</string>
+    <string name="hide_media">மீடியா உலாவிகளில் இருந்து மறை</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">யாரோ மோசமான செயலைச் செய்வது சாத்தியம்!\n\nஇப்போது யாரேனும் உங்களைக் காது கொடுத்துக் கேட்கலாம் (நடுத்தர தாக்குதல்)! புரவலன் விசை இப்போது மாற்றப்பட்டிருக்கலாம். கைரேகை ரிமோட் ஹோஸ்ட் அனுப்பிய பொது விசை Amaze இல் சேமிக்கப்பட்ட விசையுடன் பொருந்தவில்லை.\n\nநீங்கள் ஹோஸ்ட் கைரேகையைப் புதுப்பிக்கலாம் அல்லது SSH இணைப்பு அமைப்புகளைப் புதுப்பிப்பதை ரத்து செய்யலாம்.</string>
+    <string name="update_host_key">ஹோஸ்ட் கீயைப் புதுப்பிக்கவும்</string>
+    <string name="cancel_recommended">ரத்து செய் (பரிந்துரைக்கப்பட்டது)</string>
+    
+    
+    <string name="failed_install_apk">நிறுவுவதில் தோல்வி</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">உள் சேமிப்பகம்</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD கார்டு</string>
+    <string name="choose_folder">இந்தக் கோப்புறையைத் தேர்ந்தெடு</string>
+    
+    <string name="some_files_failed_invalid_operation">செல்லாததால் சில கோப்புகள் தோல்வியடைந்தன. செயல்பாடு</string>
+    <string name="ftp_server_prompt_connect_to_network">நெட்வொர்க்குடன் இணைக்கவும் அல்லது AP ஐ இயக்கவும்</string>
+    <string name="ftp_server_open_settings">அமைப்புகளைத் திற</string>
+    <string name="move">நகர்த்து</string>
+    <string name="select_save_location">சேமிப்பதற்கு இருப்பிடத்தைத் தேர்ந்தெடு</string>
+    <string name="scp_default_path">இயல்புநிலை பாதை (விரும்பினால்)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">மன்னிக்கவும், அது நடந்திருக்கக்கூடாது.</string>
+    
+    <string name="error_report_button_text">இந்தப் பிழையை மின்னஞ்சல் வழியாகப் புகாரளிக்கவும்</string>
+    <string name="error_report_button_telegram">தந்தி மூலம் இந்தப் பிழையைப் புகாரளிக்கவும்</string>
+    <string name="copy_for_github">வடிவமைக்கப்பட்ட அறிக்கையை நகலெடு</string>
+    <string name="error_report_open_issue_button_text">GitHub இல் புகாரளிக்கவும்</string>
+    <string name="error_report_open_github_notice">உங்கள் செயலிழப்பைப் பற்றி விவாதிப்பதில் ஏதேனும் சிக்கல் ஏற்கனவே உள்ளதா என்பதைச் சரிபார்க்கவும்.</string>
+    <string name="error_snackbar_message">மன்னிக்கவும், ஏதோ தவறாகிவிட்டது.</string>
+    <string name="error_snackbar_action">அறிக்கை</string>
+    <string name="what_device_headline">தகவல்:</string>
+    <string name="what_happened_headline">என்ன நடந்தது:</string>
+    <string name="info_labels">என்ன:\\nகோரிக்கை:\\nGMT நேரம்:\\nதொகுப்பு:\\nபதிப்பு:\\nOS பதிப்பு:\\nசாதனம்:\\nமாடல்:\\nதயாரிப்பு :</string>
+    <string name="your_comment">உங்கள் கருத்து (ஆங்கிலத்தில்):</string>
+    <string name="error_details_headline">விவரங்கள்:</string>
+    <string name="app_ui_crash">App/UI செயலிழந்தது</string>
+    <string name="error_report_title">பிழை அறிக்கை</string>
+    <string name="crash_report_copied">சிதைவு அறிக்கை நகலெடுக்கப்பட்டது கிளிப்போர்டு</string>
+    <string name="disableIpcSignature">IPC கையொப்பச் சரிபார்ப்பை முடக்கு (மரபு SMBv1 சேவையகங்களுக்கு - பாதுகாப்பற்றது!)</string>
+    <string name="cannot_delete_file">கோப்பை நீக்க முடியாது</string>
+    <string name="cannot_delete_file_with_reason">கோப்பை நீக்க முடியாது - %s</string>
+    <string name="cannot_rename_file">கோப்பை மறுபெயரிட முடியாது %s - %s</string>
+    <string name="cannot_read_directory">கோப்பகத்தைப் படிக்க முடியவில்லை %s - %s</string>
+    <string name="just_once">ஒருமுறை</string>
+    <string name="always">எப்போதும்</string>
+    <string name="choose_different_app">வேறு பயன்பாட்டைத் தேர்ந்தெடு</string>
+    <string name="clear_open_file">அழி கேச்</string>
+    <string name="clear_open_file_summary">தேர்ந்தெடுக்கப்பட்ட இயல்புநிலை கோப்பு திறக்கும் பயன்பாடுகளை அழிக்கிறது</string>
+    <string name="ftp_readonly">படிக்க மட்டும் அணுகல்</string>
+    <string name="legacy_listing_title">ரூட்டிற்கான மரபு பட்டியலைப் பயன்படுத்தவும்</string>
+    <string name="legacy_listing_summary">இயக்கப்பட்டிருந்தால், கோப்புகளை பட்டியலிட மரபு முறையைப் பயன்படுத்துகிறது</string>
+    <string name="error_unsupported_v5_rar">RAR காப்பகம் \"%s\" RAR v5 காப்பகம் ஆதரிக்கப்படவில்லை.</string>
+    <string name="ftp_prompt_restart_server">மாற்றங்கள் நடைமுறைக்கு வர FTP சேவையகத்தை மறுதொடக்கம் செய்ய வேண்டும்.</string>
+    <string name="error_permission_denied">அனுமதி மறுக்கப்பட்டது</string>
+    <string name="error_archive_password_incorrect">தவறான காப்பக கடவுச்சொல்.</string>
+    <string name="error_archive_cannot_extract">\"%s\" இலிருந்து \"%s\" வரையிலான காப்பக உள்ளீட்டைப் பிரித்தெடுக்க முடியாது.</string>
+    <string name="drag_and_drop_preference">இழுத்து விடவும் விருப்பத்தேர்வைத் தேர்ந்தெடுக்கவும் (பரிசோதனை)</string>
+    <string name="drag_to_move_copy">கோப்புகளை நகர்த்த அல்லது நகலெடுக்க தொட்டு இழுக்கவும்</string>
+    <string name="drag_to_select">கோப்புகளைத் தேர்ந்தெடுக்க தொட்டு இழுக்கவும்</string>
+    <string name="disable">முடக்கவும்</string>
+    <string name="choose_operation">செயல்படுத்துவதற்கான செயல்பாட்டைத் தேர்வுசெய்யவும்</string>
+    <string name="remember">அடுத்த முறை நினைவில் கொள்ளவும்</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP சேவையகத்திற்கான SAF அணுகலை வழங்கு</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">இது FTP சேவையகத்தின் முதல் இயக்கம் என்பதாலும், சாதனத்தின் உள் சேமிப்பகத்தைப் பகிரப்பட்ட கோப்புறையாகப் பயன்படுத்துவதாலும், Amazeஐப் பயன்படுத்தி சேமிப்பகத்தை அணுக அனுமதிக்கவும் SAF.\n\n
+
+அடுத்த முறை பகிர்வதற்காக புதிய இடத்தைத் தேர்ந்தெடுக்கும் வரை, இதை ஒருமுறை மட்டுமே செய்ய வேண்டும்.</string>
+    <string name="android_data_prompt_saf_access">Android 10 முதல், Android சில கோப்பகங்களுக்கு கட்டுப்பாடுகளை விதித்துள்ளது, மேலும் அவை சேமிப்பக அணுகல் கட்டமைப்புடன் அணுக வேண்டும்.\n \n\"அணுகலை அனுமதி\" என்பதைத் தட்டுவதன் மூலம் சிஸ்டத்தின் கோப்பு மேலாளரிடமிருந்து கோப்பகத்தை அணுக Amaze ஐ அனுமதிக்கவும்.</string>
+    <string name="android_data_prompt_saf_access_title">SAF அணுகலை வழங்கு</string>
+    <string name="ftp_preference_saf_filesystem_title">லெகஸி கோப்பு முறைமையைப் பயன்படுத்து</string>
+    <string name="ftp_preference_saf_filesystem">இயக்கு புதிய ஆண்ட்ராய்டு பதிப்புகளில் சாதனத்தின் வெளிப்புற சேமிப்பிடத்தைப் பயன்படுத்துவதற்கான ஆதரவிற்காக இது</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP சேவையகப் பகிர்ந்த பாதையானது, நீங்கள் மரபுக் கோப்பு முறைமைச் செயலாக்கத்திற்கு மீண்டும் மாறுவதால் அகச் சேமிப்பகத்திற்கு மீட்டமைக்கப்பட்டது. தேவைக்கேற்ப மேல் வலதுபுறத்தில் உள்ள மெனுவைப் பயன்படுத்தி புதிய பாதையைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="ftp_server_reset_notify">FTP சர்வர் பகிரப்பட்ட பாதை உள் சேமிப்பகத்திற்கு மீட்டமைக்கப்பட்டது</string>
+    <string name="ftp_server_root_unavailable">நீங்கள் ரூட் அணுகல் தேவைப்படும் பாதையைத் தேர்ந்தெடுக்கிறீர்கள். உங்கள் சாதனம் ரூட் செய்யப்பட்டிருந்தால், ரூட் எக்ஸ்ப்ளோரரை அமைப்புகளில் இயக்கவும்.</string>
+    <string name="ftp_server_root_filesystem_warning">உங்கள் சாதனத்தில் உள்ள முழு கோப்பு முறைமையிலும் படிக்க/எழுதுவதற்கான செயல்பாடுகளை செயல்படுத்தும் ரூட் அணுகல் தேவைப்படும் பாதையை நீங்கள் தேர்வு செய்கிறீர்கள், மேலும் இது ஆபத்தானது - கவனக்குறைவான தவறுகள் உங்கள் சாதனத்தைச் சிதைக்கும்!\n\nநிச்சயமா?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">படிப்பதற்கு URI \"%s\" ஐ திறப்பதில் பிழை.</string>
+    <string name="error_empty_archive">\"%s\" என்பது வெற்று காப்பகம்.</string>
+    <string name="error_bad_archive_without_info">\"%s\" என்பது சிதைந்த காப்பகம் .</string>
+    <string name="error_bad_archive_with_info">\"%s\" என்பது சிதைந்த காப்பகம்.\nஎக்ஸ்ட்ராக்டரின் செய்தி: \"%s\"</string>
+    <string name="security_error">இந்தப் பயன்பாட்டைப் பயன்படுத்தி கோப்பைத் திறக்க முடியவில்லை</string>
+    <string name="cloud_drive_tooltip">உருவாக்கு Amaze File Manager இல் இருந்து கோப்புகளை நிர்வகிப்பதற்கான Google Drive™ இணைப்பு.</string>
+    <string name="signin_with_google_title">Google Driveவைப் பயன்படுத்த அங்கீகரித்தல்™</string>
+    <string name="show_system_apps">கணினி பயன்பாடுகளைக் காண்பி</string>
+    <string name="system_apps">கணினி பயன்பாடுகள்</string>
+    <string name="select_inverse">தலைகீழ் தேர்ந்தெடு</string>
+    <string name="select_by_type">வகையின்படி தேர்ந்தெடு</string>
+    <string name="select_by_date">தேதியின்படி தேர்ந்தெடு</string>
+    <string name="select_similar">தேர்ந்தெடு ஒத்த</string>
+    <string name="error_fetching_google_play_product_list">Google Play இலிருந்து தயாரிப்புப் பட்டியலைப் பெறுவதில் பிழை.</string>
+    <string name="grant_all_files_permission">Android 11 முதல், சாதனத்தில் உள்ள அனைத்து கோப்புகளையும் நிர்வகிப்பதற்கான பயனர் அனுமதியைக் கோருமாறு Google கோப்பு மேலாளர்களைக் கோருகிறது. விவரங்கள் இங்கே.
+        \n\nAmaze File Managerக்கும் இந்த அனுமதி தேவை. இங்கே "கிராண்ட்" என்பதை அழுத்திய பிறகு, அடுத்த திரையில் அனைத்து கோப்புகளையும் நிர்வகிக்க அணுகலை அனுமதி என்பதைத் தேர்ந்தெடுக்கவும்.
+        \n\nஇந்த உரையாடலை ரத்துசெய்வது பயன்பாட்டிலிருந்து வெளியேறும்.</string>
+    <string name="user_apps">பயனர் பயன்பாடுகள்</string>
+    <string name="appearance">தோற்றம்</string>
+    <string name="behavior">நடத்தை</string>
+    <string name="appearance_summary">கோப்பு மேலாளரின் தீம், வண்ணங்கள் மற்றும் தோற்றத்தைத் தனிப்பயனாக்கவும்</string>
+    <string name="ui_summary">எந்தத் தகவலைக் காட்ட வேண்டும் என்பதைக் கட்டுப்படுத்தவும் , பக்கப்பட்டியைத் தனிப்பயனாக்கி, UI விருப்பத்தேர்வுகளை நிலைமாற்றவும்</string>
+    <string name="behavior_summary">மேம்பட்ட தேடல் மற்றும் கோப்புகளை புதிய பணியாகத் திறக்க வேண்டுமா போன்ற நடத்தைகளை மாற்றவும்</string>
+    <string name="security_summary">கடவுச்சொல் மற்றும் குறியாக்கத்தை அமைக்கவும்</string>
+    <string name="backup_summary">ஏற்றுமதி/இறக்குமதி Amaze அமைப்புகள்</string>
+
+    <string name="pref_export">ஏற்றுமதி</string>
+    <string name="pref_export_summary">ஏற்றுமதி அமைப்புகள்</string>
+    <string name="pref_import">இறக்குமதி</string>
+    <string name="pref_import_summary">இறக்குமதி அமைப்புகள்</string>
+
+    <string name="quick_desc">சமீபத்தில் Amaze மூலம் அணுகப்பட்ட கோப்புகள்</string>
+    <string name="recent_desc">Recently உருவாக்கப்பட்ட அல்லது மாற்றியமைக்கப்பட்ட கோப்புகள்</string>
+    <string name="error_cannot_find_way_open">கோப்பைத் திறப்பதற்கான வழியைக் கண்டுபிடிக்க முடியவில்லை</string>
+    <string name="error_cant_decompress_that_file">கோரிய காப்பகத்தைச் செயல்படுத்த முடியவில்லை</string>
+    <string name="analyse_storage">சேமிப்பகத்தை பகுப்பாய்வு செய்யுங்கள்</string>
+    
+    <string name="download_amaze_utils_text">நீங்கள் அமேஸ் கோப்பு பயன்பாடுகளுக்குத் திருப்பி விடப்படுகிறீர்கள். இது ஆடியோ/வீடியோ/படம்/ஆவணம் பார்வையாளர்களை உள்ளமைக்கப்பட்ட எங்களின் திறந்த மூலப் பயன்பாடாகும், சேமிப்பகத்தைக் காலியாக்க, வைஃபை பி2பியைப் பயன்படுத்தி விரைவான பரிமாற்றம் மற்றும் பலவற்றைச் செய்ய குப்பைக் கோப்புகளை பகுப்பாய்வு செய்ய உங்களை அனுமதிக்கிறது.\nதயவுசெய்து முயற்சி செய்து எங்களுக்கு ஆதரவளிக்கவும்.</string>
+    <string name="download">பதிவிறக்கு</string>
+    
+    <string name="amaze_utils_installed_alias">Amaze File Utilities ஐ நிறுவியதற்கு நன்றி. நீங்கள் பயன்பாட்டிற்குத் திருப்பி விடப்படுகிறீர்கள்.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">பதிவுகளைப் பகிரவும்</string>
+    <string name="share_logs_summary">பிடித்த பதிவுகளை மின்னஞ்சல் / தந்தி வழியாகப் பகிரவும்</string>
+    <string name="open_with_amaze">Amaze உடன் திற</string>
+    <string name="confirmation">உறுதிப்படுத்தல்</string>
+    <string name="open_file_confirmation">பின்வரும் கோப்பைத் திறக்க விரும்புகிறீர்களா?\n\nபெயர்:\n%s\n\nஇடம்:\n%s\n\nஅளவு:\n%s \n\nMD5:\n%s\n\nSHA256:\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play கொள்கை ஆணைகளின்படி, பயன்பாடுகள் தானாகவே புதுப்பிக்க அனுமதிக்கப்படாது. Google Play இலிருந்து பயன்பாட்டைப் புதுப்பிக்கவும்.</string>
+    <string name="error_cannot_get_package_info">\"%s\" கோப்பிலிருந்து தொகுப்புத் தகவலைப் பெற முடியவில்லை. குறிப்பிட்ட கோப்பு APK அல்ல, அல்லது தொகுப்பு கோப்பு சிதைந்துள்ளது.</string>
+    <string name="preference_delete_confirmation">உறுதிப்படுத்தலை நீக்கு</string>
+    <string name="preference_delete_confirmation_summary">கோப்புகளை நீக்கும் முன் உறுதிப்படுத்தலைக் கேட்கவும். இதை முடக்குவது மிகவும் ஊக்கமளிக்கவில்லை!</string>
+    
+    
+    <string name="protocol_ftps">பாதுகாப்பான FTP</string>
+    <string name="unavailable">கிடைக்கவில்லை</string>
+
+    <string name="exporting_failed">ஏற்றுமதி தோல்வி: காப்பு கோப்பை எழுத முடியவில்லை</string>
+    <string name="importing_failed">இறக்குமதி தோல்வி: காப்பு கோப்பை படிக்க முடியவில்லை</string>
+    <string name="importing_completed">இறக்குமதி முடிந்தது</string>
+    <string name="invalid_backup_file">தவறான காப்பு கோப்பு</string>
+    <string name="import_failed_for">இறக்குமதி தோல்வியடைந்தது:</string>
+    <string name="free_of">"%s\n%s இலவசம் %s</string>
+    <string name="cloud_error_fdroid">F-Droid பதிப்பில் Amaze Cloud Plugin ஆதரிக்கப்படவில்லை. Amaze இன் Play Store பதிப்பைப் பயன்படுத்தவும்.</string>
+    <string name="disable_player_intent_filters">பிளேயர் இன்டென்ட் ஃபில்டர்களை முடக்கு</string>
+    <string name="disable_player_intent_filters_summary">கோப்புத் தேர்வாளரிடமிருந்து Amaze உள்ளமைக்கப்பட்ட மீடியா பிளேயர்களை முடக்குகிறது</string>
+    <string name="no_app_found_intent">இந்த நோக்கத்தைக் கையாள எந்தப் பயன்பாடும் இல்லை. DocumentsUI நிறுவப்பட்டுள்ளதா?</string>
+    <string name="cloud_connection_credentials_cleared">கிளவுட் இணைப்பு நற்சான்றிதழ்கள் அழிக்கப்பட்டன</string>
+    <string name="cloud_connection_credentials_cleared_msg">துரதிர்ஷ்டவசமாக, உங்கள் கிளவுட் இணைப்புச் சான்றுகளை புதிய தரவுத்தள திட்டத்திற்கு மாற்ற முடியவில்லை, மேலும் அவற்றை பயன்பாட்டிலிருந்து அகற்ற வேண்டியிருந்தது. கிளவுட் இணைப்பை மீண்டும் உருவாக்கவும்.</string>
+</resources>

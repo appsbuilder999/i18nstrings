@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">עפענען נאַוויגאַציע שופלאָד</string>
+    <string name="drawer_close">נאָענט נאַוויגאַציע שופלאָד</string>
+    <string name="icon">ייקאַן</string>
+    <string name="apps">אַפּ פאַרוואַלטער</string>
+    <string name="ftp">פטפּ סערווירער</string>
+    <string name="setting">סעטטינגס</string>
+    <string name="select">סעלעקט יטעם</string>
+    <string name="press_again">דריקן ווידער צו אַרויסגאַנג</string>
+    <string name="open">עפֿן</string>
+    <string name="backup">באַקקופּ</string>
+    <string name="uninstall">נעם אַוועק</string>
+    <string name="play">שפּיל קראָם</string>
+    <string name="properties">פּראָפּערטיעס</string>
+    <string name="copyingapks">קאָפּי %d APK טעקעס צו %s</string>
+    <string name="delbook">ויסמעקן לייענ - צייכן</string>
+    <string name="add_to_bookmarks">לייג צו בוקמאַרקס</string>
+    <string name="enterpath">אַרייַן דרך</string>
+    <string name="cancel">באָטל מאַכן</string>
+    <string name="create">שאַפֿן</string>
+    <string name="loading">לאָודינג...</string>
+    <string name="file_empty">טעקע איז ליידיק</string>
+    <string name="error">טעות</string>
+    <string name="search_results">זוכן רעזולטאַטן פון %s</string>
+    <string name="rename">רענאַמע</string>
+    <string name="save">היט</string>
+    <string name="bookmarks_added">בוקמאַרקס צוגעגעבן</string>
+    <string name="fileexist">טעקע מיט זעלבן נאָמען עקזיסטירט שוין</string>
+    <string name="name">נאָמען</string>
+    <string name="date">דאַטע</string>
+    <string name="location">אָרט</string>
+    <string name="size_capitalized">גרייס</string>
+    <string name="size">גרייס פון טעקע</string>
+    <string name="enterzipname">אַרייַן פאַרשלעסלען נאָמען</string>
+    <string name="no_app_found">קיין אַפּ געפונען צו עפֿענען דעם טעקע</string>
+    <string name="copying">קאָפּיינג</string>
+    <string name="moving">מאָווינג</string>
+    <string name="file">טעקע</string>
+    <string name="folder">פאָלדער</string>
+    <string name="newfolder">נייַע טעקע</string>
+    <string name="entername">אַרייַן נאָמען</string>
+    <string name="extracting">עקסטראַקטירן</string>
+    <string name="stopping">סטאָפּפּינג</string>
+    <string name="open_parent">עפֿן פאָטער Directory</string>
+    <string name="open_with">עפֿן מיט</string>
+    <string name="share">ייַנטיילן</string>
+    <string name="about">וועגן</string>
+    <string name="extract">עקסטראַקט</string>
+    <string name="compress">קאָמפּרעסס</string>
+    <string name="yes">יא</string>
+    <string name="no">ניין</string>
+    
+    <string name="dialog_delete_category_directories">דירעקטאריעס</string>
+    <string name="dialog_delete_category_files">פילעס</string>
+    <string name="dialog_delete_disclaimer">דיליטינג די ייטאַמז אונטן וועט פּערמאַנאַנטלי באַזייַטיקן זיי פון דיין מיטל און זיי קענען נישט זיין ריקאַווערד.</string>
+    <string name="dialog_delete_title">מעקן ייטאַמז פּערמאַנאַנטלי?</string>
+    <string name="deleting">אויסמעקן</string>
+    <string name="question_set_path_as_home">צי איר ווילן צו שטעלן דעם קראַנט וועג ווי היים פֿאַר דעם קוויטל?</string>
+    <string name="directorysort">דירעקטאָרי סאָרט מאָדע</string>
+    <string name="sort_by">סאָרט לויט</string>
+    <string name="sort_only_this">בלויז דעם טעקע</string>
+    <string name="theme">טעמע</string>
+    <string name="random">ראַנדאָם הויט</string>
+    <string name="random_summary">סעטט טראַפ - ערשטיק קאָליר ביי סטאַרטאַפּ</string>
+    <string name="colorize">קאָלאָריזירן יקאָנס</string>
+    <string name="colorize_summary">סעץ סטאַטיק בילדל קאָליר. טוט נישט אָווועררייד וועגווייַזער בילדל קאָליר ייבערהאַנט.</string>
+    <string name="home">היים</string>
+    <string name="paste">פּאַסטע</string>
+    <string name="history">געשיכטע</string>
+    <string name="copy">קאָפּי</string>
+    <string name="root_mode">וואָרצל Explorer</string>
+    <string name="root_mode_summary">בלויז פֿאַר איינגעווארצלט מיטל. קוק עס בלויז אויב איר זענט זיכער וועגן אים.</string>
+    <string name="root_failure">וואָרצל אַקסעס ניט געגעבן</string>
+    <string name="select_all">סעלעקטירן אַלע</string>
+    <string name="delete">מעקן</string>
+    <string name="set_as_home">שטעלן ווי היים</string>
+    <string name="operation_not_supported">אָפּעראַציע ניט געשטיצט</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">מאַטעריאַל ליכט</string>
+    <string name="dark">מאַטעריאַל דאַרק</string>
+    <string name="daytime">דייטיים</string>
+    <string name="black">שווארצע (פֿאַר OLED)</string>
+    <string name="system">סיסטעם (נאָכפאָלגן סיסטעם טעמע)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">פאָלדערס אויף שפּיץ</string>
+    <string name="filesOnTop">פילעס אויף שפּיץ</string>
+    <string name="none_on_top">קיין אויף שפּיץ</string>
+    <!--SortBy-->
+    <string name="sort_name">נאָמען</string>
+    <string name="lastModified">לעצטע מאָדיפיצירט</string>
+    <string name="sort_size">גרייס</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">קלייַבן אַ טעקע</string>
+    <string name="process_viewer">פּראָסעס וויוער</string>
+    <string name="in_safe">ניט גענוגיק פּלאַץ</string>
+    <string name="no_file_overwrite">קיין טעקע אָוווערריטאַן</string>
+    <string name="skip">האָפּקען</string>
+    <string name="overwrite">איבערשרייבן</string>
+    <string name="not_allowed">ניט דערלויבט</string>
+    <string name="searching">זוכן %s</string>
+    <string name="done">געטאן</string>
+    <string name="set">שטעלן</string>
+    <string name="enablerootmde">געבן וואָרצל מאָדע</string>
+    <string name="goback">גיין צוריק</string>
+    <string name="newfile">נייַ טעקע</string>
+    <string name="no_files">קיין פילעס</string>
+    <string name="used">געניצט פּלאַץ</string>
+    <string name="used_by_others">געניצט דורך אנדערע</string>
+    <string name="free">פריי פּלאַץ</string>
+    <string name="listview">ליסטע View</string>
+    <string name="gridview">גריד View</string>
+    <string name="permission">דערלויבענישן</string>
+    <string name="hide">באַהאַלטן</string>
+    <string name="exit">אַרויסגאַנג</string>
+    <string name="doforall">טאָן פֿאַר אַלע זאכן</string>
+    <string name="gridcolumnno">נומער פון שפאלטן אין גריד מיינונג</string>
+    <string name="set_random">ענדערונגען וועלן פּאַסירן נאָך איר ריסטאַרט די אַפּ</string>
+    <string name="authors">מחברים</string>
+    <string name="changelog">טשאַנגעלאָג</string>
+    
+    
+    <string name="general">אַלגעמיינע</string>
+    <string name="thumb_summary">ווייַז טהומבנאַילס פון אַפּפּס און בילדער</string>
+    <string name="thumb">ווייַז טהומבנאַילס</string>
+    <string name="hidden">ווייַז פאַרבאָרגן טעקעס און פאָלדערס</string>
+    <string name="lastModifiedSummary">ווייַז די דאַטע און צייט פון לעצטע מאָדיפיקאַטיאָן</string>
+    <string name="lastModifiedPref">ווייַז לעצטע מאָדיפיעד טאָג און צייט</string>
+    <string name="size_pref_summary">ווייַזן גרייס פון טעקעס און נומער פון ייטאַמז אין פאָלדערס</string>
+    <string name="size_pref">ווייַזן סיזעס</string>
+    <string name="miscellaneous">פאַרשיידענע</string>
+    <string name="root_pref_summary">ווייַז פּערמישאַנז פון פילעס און פאָלדערס</string>
+    <string name="root_pref">ווייַזן פּערמישאַנז</string>
+    <string name="about_amaze_file_manager_label">וועגן Amaze File Manager</string>
+    <string name="version">ווערסיע</string>
+    <string name="rate">באַשאַצן די אַפּ</string>
+    <string name="feedback">שיקן באַמערקונגען</string>
+    <string name="hiddenfiles">פאַרבאָרגן טעקעס</string>
+    <string name="type">טיפּ</string>
+    <string name="root_directory">וואָרצל</string>
+    <string name="add_shortcut">לייג דורכוועג</string>
+    <string name="unsaved_changes">אַנסעוועד ענדערונגען</string>
+    <string name="unsaved_changes_description">איר האָט נישט געראטעוועט ענדערונגען, צי איר ווילן צו ראַטעווען זיי איידער איר אַרויסגיין?</string>
+    <string name="saving">שפּאָרן</string>
+    <string name="package_installer">פּאַקקע ינסטאַללער</string>
+    
+    <string name="install">ינסטאַלירן</string>
+    <string name="archive">אַרטשיווע</string>
+    <string name="archive_text">דאָס איז אַן אַרקייוו. וואָס קאַמף וואָלט איר ווי צו דורכפירן?</string>
+    <string name="package_installer_text">דאס איז אַ פּעקל ינסטאַללער. וואָס קאַמף וואָלט איר ווי צו דורכפירן?</string>
+    <string name="xda_title">XDA פאָדעם</string>
+    <string name="xda_summary">ק&amp;amp;א, הילף און טראָובלעשאָאָטינג</string>
+    <string name="circular_images">ניצן קייַלעכיק ייקאַנז פֿאַר בילדער און ווידיאס</string>
+    <string name="circular_icons">נוצן קייַלעכיק ייקאַנז</string>
+    <string name="back_title">צוריק נאַוויגאַציע</string>
+    <string name="back_summary">ענייבאַלז מנהג צוריק נאַוויגאַציע אין שפּיץ פון דער רשימה</string>
+    <string name="details">דעטאַילס</string>
+    <string name="translators">טראַנסלייטערז</string>
+    <string name="german_translation_title">דייטשיש</string>
+    <string name="italian_translation_title">איטאַליעניש</string>
+    <string name="french_translation_title">פראנצויזיש</string>
+    <string name="russian_translation_title">רוסיש</string>
+    <string name="spanish_translation_title">שפאניש</string>
+    <string name="basque_translation_title">באסקש</string>
+    <string name="chinese_translation_title">כינעזיש</string>
+    <string name="serbian_translation_title">סערביש</string>
+    <string name="turkish_translation_title">טערקיש</string>
+    <string name="ukrainian_translation_title">אוקרייניש</string>
+    <string name="portuguese_translation_title">פּאָרטוגעזיש</string>
+    <string name="polish_translation_title">פויליש</string>
+    <string name="korean_translation_title">קאָרעיניש</string>
+    <string name="greek_translation_title">גריכיש</string>
+    <string name="dutch_translation_title">האָלענדיש</string>
+    <string name="romanian_translation_title">רומעניש</string>
+    <string name="vietnamese_translation_title">וויעטנאַמעזיש</string>
+    <string name="japanese_translation_title">יאַפּאַניש</string>
+    <string name="tamil_translation_title">טאַמיל</string>
+
+    <string name="zip_viewer">זיפּ וויוער</string>
+    <string name="unin_system_apk">דאָס איז אַ סיסטעם אַפּ, ויסמעקן עס קען פירן צו סיסטעם אַנ-סטאַביליטי.\n גיינ ווייַטער?</string>
+    <string name="warning">ווארענונג</string>
+    <string name="donate">שענקען</string>
+    <string name="archive_extract_folder">ארקייוו עקסטראַקט פאָלדער</string>
+    <string name="archive_summary">אַרטשיווע טעקעס וועט זיין יקסטראַקטיד צו דעם טעקע. פעליקייַט ווערט איז דער וועגווייַזער אין וואָס אַרקייוו איז פאָרשטעלן.</string>
+    <string name="open_as">עפֿן ווי</string>
+    <string name="text">טעקסט</string>
+    
+    <string name="video">ווידעא</string>
+    <string name="other">אנדערע</string>
+    <string name="image">בילד</string>
+    <string name="contributors">מיטארבעטערס</string>
+    <string name="save_paths">געדענק פּאַטס</string>
+    <string name="save_path_summary">ווען איר אָנהייבן, די מערסט לעצטנס וויוד טעקע פֿאַר יעדער קוויטל וועט זיין געוויזן</string>
+    <string name="select_intent">סעלעקטירן</string>
+    <string name="database">דאַטאַבאַסע</string>
+    <string name="colored_navigation">בונט נאַוויגאַציע באַר</string>
+    <string name="colored_navigvation_sum">צי דער סיסטעם נאַוויגאַציע באַר איז קאָלירט מיט די הויט אָדער נישט</string>
+
+    <string name="color_title">קאָליר</string>
+    <string name="color_summary">שטעלן קאָליר צו פאַרשידן וי קאַמפּאָונאַנץ</string>
+    <string name="primary_color_title">ערשטיק קאָליר (לינקס טאַב)</string>
+    <string name="primary_color_summary">באַשטעטיק קאָליר צו גרויס וי עלעמענטן פֿאַר די לינקס קוויטל</string>
+    <string name="accent_color_title">אַקצענט קאָליר</string>
+    <string name="accent_color_summary">שטעלן קאָליר צו FAB און אנדערע קליין וי עלעמענטן</string>
+    <string name="icon_color_title">יקאָן קאָליר</string>
+    <string name="icon_color_summary">שטעלן קאָליר צו ייקאַנז</string>
+    <string name="choose_color">קלייַבן קאָליר</string>
+    <string name="files">פילעס</string>
+    <string name="textreader">טעקסט לייענער</string>
+    <string name="databasereader">דאַטאַבאַסע לייענער</string>
+    <string name="show_dividers">ווייַזן דיווידערס</string>
+    <string name="needs_access">שרייב אַקסעס פארלאנגט</string>
+    <string name="needs_access_summary">ביטע קלייַבן די וואָרצל וועגווייַזער פון \t</string>
+    <string name="needs_access_summary1">\tto שענקען שרייַבן אַקסעס צו אַרבעטן</string>
+    <string name="smb_connection">SMB קאַנעקשאַן</string>
+    <string name="smb_server">סערווירער IP אַדרעס</string>
+    <string name="server_address">סערווירער IP אַדרעס</string>
+    <string name="username">באַניצער נאָמען</string>
+    <string name="password">שפּריכוואָרט</string>
+    <string name="anonymous">אנאָנימאָוס</string>
+    <string name="bluetooth">בלועטאָאָטה</string>
+    <string name="folders">פאָלדערס</string>
+    <string name="folderfilecount">%1$d פאָלדערס און %2$d טעקעס</string>
+    <string name="videos">ווידעאעס</string>
+    <string name="apks">אַפּקס</string>
+    <string name="documents">דאָקומענטן</string>
+    <string name="images">בילדער</string>
+    <string name="clear">קלאָר</string>
+    
+    <string name="total">טאָטאַל:</string>
+    <string name="calculating">קאַלקיאַלייטינג</string>
+    <string name="sort">סאָרט</string>
+    <string name="ascending">שטייענדיק</string>
+    <string name="descending">אַראָפּגאַנג</string>
+    <string name="default_string">פעליקייַט</string>
+    <string name="doit">צי עס</string>
+    <string name="want_help">דאַרף הילף?</string>
+    <string name="quick">שנעל אַקסעס</string>
+    <string name="recent">לעצטע טעקעס</string>
+    <string name="edit">רעדאַגירן</string>
+    <string name="find">געפֿינען אין בלאַט</string>
+    <string name="grant">שענקען</string>
+    <string name="grantper">שענקן דערלויבעניש</string>
+    <string name="grantfailed">דערלויבעניש איז ניט געגעבן</string>
+    <string name="grant_storage_permission">אַפּ דאַרף סטאָרידזש דערלויבעניש צו פאָרזעצן. קאַנסאַלינג דעם דיאַלאָג וועט אַרויסגאַנג די אַפּ.</string>
+    <string name="operation_unsuccesful">אָפּעראַציע ניט געראָטן</string>
+    <string name="creatingfile">שאַפֿן טעקע</string>
+    <string name="creatingfolder">שאַפֿן טעקע</string>
+    <string name="renaming">רענאַמע</string>
+    <string name="cant_be_empty">%s קען נישט זיין ליידיק</string>
+    <string name="ip">אַדרעס</string>
+    <string name="connection_name">פאַרבינדונג נאָמען</string>
+    <string name="no_device_found">קיין דעוויסעס געפונען</string>
+    <string name="path">דרך</string>
+    <string name="rename_bookmark">מאָדיפיצירן לייענ - צייכן</string>
+    
+    <string name="search">זוכן</string>
+    <string name="invalid_name">אומגילטיק נאָמען</string>
+    <string name="search_hint">טיפּ צו זוכן...</string>
+    <string name="advanced_search">אַוואַנסירטע זוך</string>
+    <string name="regular_expression">רעגולער אויסדרוק</string>
+    <string name="regular_expression_summary">זוכן מיט אַ BASH נוסח רעגולער אויסדרוק</string>
+    <string name="match_content">צופּאַסן אינהאַלט</string>
+    <string name="match_content_summary">אויב שטעלן, רעגולער אויסדרוק וועט זיין מאַטשט מיט די גאנצע טעקע נאָמען,
+        וועט קוקן פֿאַר געשעעניש אַנדערש.</string>
+    <string name="start_ftp">אָנהייב</string>
+    <string name="stop_ftp">האַלטן</string>
+    <string name="ftp_status_running">לויפן</string>
+    <string name="ftp_status_not_running">ניט פליסנדיק</string>
+    <string name="ftp_no_wifi">מאַכן זיכער אַז איר זענט קאָננעקטעד צו Wi -Fi</string>
+    
+    <string name="smb_share">ייַנטיילן דרך</string>
+    <string name="invalid">אומגילטיק %s</string>
+    <string name="ftp_notif_starting">פטפּ סערווירער איז סטאַרטינג</string>
+    <string name="ftp_notif_starting_title">FTP סערווירער</string>
+    <string name="ftp_notif_title">Amaze FTP Server פליסנדיק</string>
+    <string name="ftp_notif_text">אין %s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP פּאָרט</string>
+    <string name="ftp_port_change_success">פטפּ פּאָרט געענדערט הצלחה</string>
+    <string name="ftp_port_change_error_invalid">ומגליק פּאָרט נומער אויסגעקליבן</string>
+    <string name="primary_two_title">ערשטיק קאָליר (רעכט טאַב)</string>
+    <string name="primary_two_summary">שטעלן קאָליר צו גרויס וי עלעמענטן פֿאַר די רעכט קוויטל</string>
+    <string name="support_development">סופּפּאָרט אַנטוויקלונג</string>
+    <string name="report_bugs_title">רעפּאָרט באַגז</string>
+    <string name="source_title">מקור קאָד</string>
+    <string name="source_summary">זע אונדזער מקור קאָד אויף GitHub</string>
+    <string name="report_bugs_summary">מעלדונג באַגז אָדער בעטן נייַ שטריך</string>
+    <string name="translate_title">זעץ</string>
+    <string name="translate_summary">זעץ Amaze אין דיין שפּראַך</string>
+    <string name="paypal_copy_message">PayPal ID קאַפּיד צו קליפּבאָרד</string>
+    <string name="searching_devices">זוכן פֿאַר דעוויסעס</string>
+    <string name="use_custom_ip">נוצן מנהג IP</string>
+    <string name="bookmark_lost">בוקמאַרק ניט געפֿונען, ריקריייטינג…</string>
+
+    <string name="smb_instructions">
+        
+            
+                ווי צו אַקסעס שערד Windows טעקע אויף אַנדרויד (SMB)\n\n
+                
+                    
+                        געבן טעקע ייַנטיילונג אויף Windows\n
+                    
+                    
+                        עפֿן די קאָנטראָל פּאַנעל, גיט קלייַבן האָמעגראָופּ און ייַנטיילונג אָפּציעס אונטער נעטוואָרק
+                        און אינטערנעט, און גיט "טוישן אַוואַנסירטע ייַנטיילונג סעטטינגס," געבן די "טעקע און
+                        פּרינטער ייַנטיילונג" שטריך.\n\n
+                    
+
+                    
+                        נאָך טעקע ייַנטיילונג סעטטינגס\n
+                    
+                    
+                        איר קען אויך ווילן צו קאַנפיגיער די אנדערע אַוואַנסירטע ייַנטיילונג סעטטינגס דאָ. \n
+                        פֿאַר בייַשפּיל, איר קען געבן אַקסעס צו דיין טעקעס אָן אַ פּאַראָל אויב איר צוטרוי אַלע
+                        די דעוויסעס אויף דיין היגע נעץ. אַמאָל טעקע און דרוקער ייַנטיילונג איז ענייבאַלד, איר קענען
+                        עפענען File Explorer אָדער Windows Explorer, רעכט גיט אַ טעקע איר ווילן צו טיילן, און
+                        אויסקלייַבן פּראָפּערטיעס. \n
+                        דריקט דעם ייַנטיילן קנעפּל און מאַכן די טעקע בנימצא אויף די נעץ.\n\n
+                        
+
+                    
+                        מאַכט זיכער אַז ביידע דעוויסעס זענען אויף דער זעלביקער Wifi\n
+                    
+                    
+                        דעם שטריך מאכט טעקעס בנימצא אויף די היגע נעץ, אַזוי דיין פּיסי און רירעוודיק דעוויסעס
+                        האָבן צו זיין אויף דער זעלביקער היגע נעץ. איר קענט נישט אַקסעס אַ שערד Windows טעקע
+                        איבער דער אינטערנעץ אָדער ווען דיין סמאַרטפאָנע איז קאָננעקטעד צו זיין רירעוודיק דאַטן - עס
+                        מוזן זיין קאָננעקטעד צו ווי-פי.\n\n
+                    
+
+                    
+                        געפֿינען IP אַדרעס\n
+                    
+                    
+                        עפֿענען באַפֿעלן פּינטלעך. טיפּ \'ipconfig\' און דריקן אַרייַן. קוק פֿאַר די Default Gateway
+                        אונטער דיין נעץ אַדאַפּטער פֿאַר די IP אַדרעס פון דיין ראַוטער. זוכן
+                        \\\"IPv4 אַדרעס\\\" אונטער דער זעלביקער אַדאַפּטער אָפּטיילונג צו געפֿינען דיין קאָמפּיוטער ס IP
+                        אַדרעס.\n\n
+                    
+
+                    אַרייַן דעטאַילס אין SMB דיאַלאָג קעסטל\n
+                
+            
+        
+   </string>
+    <string name="share_limit">קען נישט ייַנטיילן מער ווי 100 טעקעס</string>
+    <string name="otg_access">סעלעקטירן די וואָרצל פון OTG מיטל</string>
+    <string name="information">אינפארמאציע</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">אַקסעסד</string>
+    <!-- reference to file modified date -->
+    <string name="modified">מאדיפיעד</string>
+
+    <string name="title">טיטל</string>
+    <string name="artist">אַרטיסט</string>
+    <string name="album">אלבום</string>
+    <string name="year">יאָר</string>
+    <string name="duration">געדויער</string>
+    <string name="comment">באַמערקונג</string>
+    <!-- reference to audio/video file -->
+    
+    <string name="codec">קאָדעק</string>
+    <string name="channels">טשאַנאַלז</string>
+    <string name="sample_rate">סאַמפּלע קורס</string>
+    <string name="bitrate">ביטראַטע</string>
+    <string name="dimensions">דימענשאַנז</string>
+    <string name="frame_rate">ראַם קורס</string>
+    <string name="image_type">בילד טיפּ</string>
+    <string name="width">ברייט</string>
+    <string name="height">הייך</string>
+    <string name="date_modified">דאטום מאדיפיצירט</string>
+    <string name="software">ווייכווארג</string>
+    <string name="creator">באשעפער</string>
+    <string name="camera_brand">קאמערא בראנד</string>
+    <string name="camera_model">קאמערע מאָדעל</string>
+    <string name="date_taken">דאַטע גענומען</string>
+    <string name="exposure_time">ויסשטעלן צייט</string>
+    <string name="aperture_value">עפענונג ווערט</string>
+    <string name="image_iso">ISO ספּיד רייטינג</string>
+    <string name="flash_fired">פלאַש פייערד</string>
+    <string name="focal_length">פאָקאַל לענג</string>
+    <string name="subject">טעמע</string>
+    <string name="author">מחבר</string>
+    <string name="keywords">לייגוואָרדס</string>
+    <string name="producer">פּראָדוצירער</string>
+    <string name="created">געשריבן</string>
+    <string name="format">פארמאט</string>
+    <string name="pages">נומער פון בלעטער</string>
+    <!-- reference to a document file -->
+    <string name="optimized">אָפּטימיזעד</string>
+    <string name="security">זיכערהייט</string>
+    <string name="paper_size">פּאַפּיר גרייס</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">עטלעכע טעקעס זענען נישט הצלחה %s</string>
+    <string name="copied">קאַפּירט</string>
+    <string name="moved">אריבערגעפארן</string>
+    <string name="copy_complete">קאָפּי גאַנץ</string>
+    <string name="waiting_title">ווארטן</string>
+    <string name="waiting_content">ווארטן אויף די אָפּעראַציע צו פאַרענדיקן</string>
+    <string name="extract_complete">עקסטראַקטיאָן גאַנץ</string>
+    <string name="compression_complete">קאָמפּרעשאַן גאַנץ</string>
+    <string name="compressing">קאָמפּרעססיאָן</string>
+    <string name="cancelled">קאַנסאַלד</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">געשריבן</string>
+    <string name="out_of">אויס</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">פון</string>
+    <string name="processing_file">פּראַסעסינג טעקע</string>
+    <string name="current_speed">קראַנט ספּיד</string>
+    <string name="smb_launch_error">איר וועט דאַרפֿן צו נאָכמאַכן דעם טעקע צו סטאָרידזש צו עפֿענען עס</string>
+    <string name="error_file_not_found">טעות: טעקע איז ניט געפֿונען</string>
+    <string name="error_io">י/אָ טעות</string>
+    <string name="error_file_too_large">טעות: טעקע איז צו גרויס</string>
+    <string name="medium_text">מיטל טעקסט</string>
+    <string name="permission_read">לייענען</string>
+    <string name="permission_write">שרייב</string>
+    <string name="permission_execute">אויספירן</string>
+    <string name="permission_owner">אייגנטימער</string>
+    <string name="permission_group">גרופע</string>
+    <string name="permission_other">אנדערע</string>
+    <string name="clipboard_path_copy">וועג קאַפּיד צו קליפּבאָרד</string>
+    <string name="service_timer">צייט דורכגעגאנגען</string>
+    <string name="please_wait">ביטע וואַרטן</string>
+
+    <string name="cloud_connection">וואָלקן קשר</string>
+    <string name="cloud_connection_new">ניו קלאָוד קאַנעקשאַן</string>
+    <string name="cloud_dropbox">דראָפּבאָקס</string>
+    
+    
+    <string name="cloud_box">באָקס</string>
+    <string name="cloud_get">באַקומען קלאָוד פּלוגין</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">קיין אַפּלאַקיישאַנז</string>
+    <string name="ftp_path">שערד דרך</string>
+    <string name="ftp_path_hint">דרך צו דער וואָרצל פון וועגווייַזער צו טיילן</string>
+    <string name="change">טוישן</string>
+    <string name="unknown_error">אָאָפּס, עפּעס איז פאַלש!</string>
+
+    <string name="ftp_path_change_success">פטפּ דרך געענדערט הצלחה</string>
+    <string name="ftp_path_change_error_invalid">אומגילטיק דרך</string>
+    <string name="ftp_status_no_connection">קיין פֿאַרבינדונג</string>
+    <string name="ftp_status_secure_connection">זיכער פֿאַרבינדונג</string>
+    <string name="ftp_status_title">סטאַטוס</string>
+    <string name="ftp_port">פּאָרט</string>
+    <string name="ftp_login">לאָגין</string>
+    <string name="field_empty">פעלד קען נישט זיין ליידיק</string>
+    <string name="ftp_timeout">ליידיק טיימאַוט</string>
+    <string name="ftp_seconds">סעקונדן</string>
+    <string name="intellihide_toolbar_title">ינטעליהידע מכשיר</string>
+    <string name="intellihide_toolbar_summary">אויטאמאטיש באַהאַלטן די מכשיר-באַר בשעת סקראָללינג</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">קאַפּירט צו קליפּבאָרד</string>
+    <string name="contributors_1_summary">איבערזעצונג</string>
+    <string name="contributors_2_summary">יקאָן און באַנערז</string>
+    <string name="contributors_3_summary">טעמע ענגינע</string>
+    <string name="contributors_4_summary">שאָטן הינטער FAB</string>
+    <string name="contributors_5_summary">קאָליר יבערגאַנג ווען סוויפּינג טאַבס</string>
+    <string name="contributors_6_summary">פטפּ סערווירער</string>
+    <string name="contributors_7_summary">פייסינג אַ ינטעראַקטיוו שאָל</string>
+    <string name="connection_exists">פֿאַרבינדונג איז שוין עקסיסטירט</string>
+
+    <string name="crypt_encrypting">ענקריפּטינג</string>
+    <string name="crypt_decrypting">דעקריפּטינג</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">ענקריפּטיד</string>
+    <string name="crypt_decrypted">דעקריפּטעד</string>
+    <string name="crypt_encrypt">ענקריפּט</string>
+    <string name="crypt_decrypt">דעקריפּט</string>
+    <string name="operation_fail_following">אָפּעראַציע איז ניט אַנדערש פֿאַר די פאלגענדע טעקעס</string>
+    <string name="crypt_pref_master_password_title">בעל שפּריכוואָרט</string>
+    <string name="crypt_pref_master_password_summary">שטעלן אַ בעל פּאַראָל פֿאַר ענקריפּשאַן.
+        לאָזן ליידיק צו באַזייַטיקן.</string>
+    <string name="crypt_pref_fingerprint_title">פינגערפּרינט</string>
+    <string name="crypt_pref_fingerprint_summary">נוץ פינגערפּרינט צו אָטענטאַקייט ענקריפּשאַן</string>
+    <string name="crypt_fingerprint_no_permission">פינגערפּרינט פּערמישאַנז פעלנדיק</string>
+    <string name="crypt_fingerprint_not_enrolled">קיין פינגערפּרינט איינגעשריבן</string>
+    <string name="crypt_fingerprint_no_security">קיין לאַקסקרין זיכערהייט געפונען</string>
+    <string name="crypt_warning_key">זיין אַדווייזד ווען איר טוישן דיין זיכערהייט מוסטער פֿון
+        סיסטעם סעטטינגס, איר וועט נישט קענען צו דעקריפּט דעם אינהאַלט.</string>
+    <string name="warning_never_show">דו זאלסט נישט מיטטיילן ווידער</string>
+    <string name="warning_confirm">האט עס!</string>
+    <string name="crypt_encryption_fail">ניט געקענט ענקריפּטן</string>
+    <string name="crypt_decryption_fail">ניט אַנדערש צו דעקריפּט</string>
+    <string name="crypt_decryption_fail_password">פאַלש פּאַראָל!</string>
+    <string name="crypt_fingerprint_authenticate">ריר סענסער צו פאָרזעצן</string>
+    <string name="authenticate_password">אַרייַן פּאַראָל</string>
+
+    <string name="sidebar_preferences">סיידבאַר</string>
+    <string name="sidebar_quick_access_title">סיידבאַר שנעל אַקסעס</string>
+    <string name="show_quick_access_pref_title">ווייַזן שנעל אַקסעס</string>
+    <string name="show_quick_access_pref">שנעל אַקסעס</string>
+    <string name="directory">דירעקטאָרי</string>
+
+    <string name="sidebar_bookmarks_title">סיידבאַר בוקמאַרקס</string>
+    <string name="show_bookmarks_pref_title">ווייַז בוקמאַרקס</string>
+    <string name="show_bookmarks_pref">בוקמאַרקס</string>
+    <string name="create_bookmark">שאַפֿן לייענ - צייכן</string>
+    <string name="edit_bookmark">רעדאַגירן לייענ - צייכן</string>
+    <string name="question_delete_bookmark">ויסמעקן לייענ - צייכן?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud פּלוגין ניט געפֿונען. ביטע אראפקאפיע פֿון פּלייַ סטאָר.</string>
+    <string name="cloud_error_failed_restart">ניט אַנדערש צו לאָדן די פֿאַרבינדונג.
+        ביטע עפֿענען Amaze Cloud אַמאָל.</string>
+    <string name="cloud_remove">צי איר ווילן צו באַזייַטיקן די וואָלקן פֿאַרבינדונג?</string>
+    <string name="cloud_fail_authenticate">ניט אַנדערש צו אָטענטאַקייט</string>
+    <string name="cloud_share_copied">ייַנטיילן לינק קאַפּיד צו קליפּבאָרד</string>
+    <string name="copy_low_memory">לויפן אויס פון זיקאָרן, ביטע ויסמעקן עטלעכע באַראַן</string>
+    <string name="cloud_token_lost">טאָקען פאַרפאַלן, ביטע צייכן אין ווידער</string>
+    <string name="monofont">מאָנאָספּאַסע פאָנט</string>
+    <string name="showHeaders">ווייַזן כעדערז</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">קיין זאכן</string>
+	<string name="item">נוץ</string>
+	<string name="items">ייטאַמז</string>
+	
+	<string name="byte_singular">ביטע</string>
+	<string name="bytes">ביטעס</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">טעקע זאָל האָבן אַ נאָמען</string>
+    <string name="add_item">צוגעבן יטעם</string>
+    <string name="failed_smb_decrypt_path">ניט אַנדערש צו לאָדן סמב קשר</string>
+    <string name="failed_cloud_new_connection">ניט אַנדערש צו לייגן נייַ קלאָוד קשר</string>
+    <string name="failed_cloud_api_key">ניט אַנדערש צו אָטענטאַקייט קלאָוד פּלוג-אין</string>
+
+    <string name="local_inet_addr_error">טעות געטינג לאקאלע ינעט אַדרעס</string>
+    <string name="intent_save_as">היט ווי...</string>
+    <string name="go">גיין</string>
+    <string name="advanced">אַוואַנסירטע</string>
+    <string name="typeable_paths_title">מנהג פּאַטס</string>
+    <string name="typeable_paths_summary">לאנג דריקן וועג באַר צו דרוקן אַ מנהג דרך</string>
+    <string name="send_email_to">שיקן אַן E- בריוו צו</string>
+
+    <string name="text_editor">טעקסט רעדאַקטאָר סעטטינגס</string>
+    <string name="preference_newstack_title">עפענען טעקעס ווי נייַע אַרבעט</string>
+    <string name="preference_newstack_summary">אַלאַוז איר צו עפֿענען טעקעס אין באַזונדער טאַסקס. אַקסעס זיי פֿון סיסטעם רעצענזיעס פאַרשטעלן.</string>
+    
+    <string name="developers">דעוועלאָפּערס</string>
+    <string name="no_bitcoin_app">ביטע ינסטאַלירן אַ ביטקאָין וואַללעט אַפּ</string>
+    <string name="channel_name_normal">Amaze נאָטיפיקאַטיאָנס</string>
+    <string name="channel_description_normal">Amaze File פאַרוואַלטער נאָוטאַפאַקיישאַנז</string>
+    
+    
+
+    
+    <string name="processing">פּראַסעסינג...</string>
+    <string name="failed_no_connection">ניט אַנדערש צו לאָדן טעקעס. ביטע טשעק דיין פֿאַרבינדונג.</string>
+
+    <string name="update">דערהייַנטיקן</string>
+	<string name="scp_connection">SCP/SFTP פֿאַרבינדונג</string>
+    <string name="ftp_connection">FTP קאַנעקשאַן</string>
+    <string name="ftps_connection">FTP איבער SSL קאַנעקשאַן</string>
+    <string name="scp_port">פּאָרט</string>
+    <string name="ssh_host_key_verification_prompt">די אָטענטיסיטי פון באַלעבאָס \'%1$s\' קענען נישט זיין געגרינדעט.\n\n%2$s שליסל פינגערפּרינט איז %3$s.\n \nביטע צאַפּן \"יא\" צו באַשטעטיקן אידענטיטעט; אַנדערש, ביטע צאַפּן \"ניין\".</string>
+    <string name="ssh_host_key_verification_prompt_title">באַשטעטיקן האָסט</string>
+    <string name="ssh_select_pem_button">SSH פּריוואַטע שליסל</string>
+    <string name="ssh_pem_key_parse_error">ניט געקענט לייענען אויסגעקליבן PEM: %s</string>
+    <string name="password_unchanged">(אנטשיינדזשד)</string>
+    <string name="ssh_authentication_failure_password">לאָגאָן דורכפאַל: ניט געקענט צו אָטענטאַקייט מיט צוגעשטעלט באַניצער נאָמען און פּאַראָל.</string>
+    <string name="ssh_authentication_failure_key">לאָגאָן דורכפאַל: ניט געקענט צו אָטענטאַקייט מיט סאַפּלייד באַניצער נאָמען און פּריוואַט שליסל.</string>
+    <string name="ssh_connect_failed">ניט געקענט צו פאַרבינדן צו %1$s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ווארענונג: דער אידענטיפיקאציע פון ​​די ווייַט האָסט איז פארענדערט!</string>
+    
+    <string name="ssh_key_prompt_passphrase">ביטע אַרייַן די שליסל פּאַספראַסע.</string>
+    <string name="add_shortcut_not_supported_by_launcher">שאַפונג פון שאָרטקאַץ איז נישט געשטיצט דורך דיין לאָנטשער.</string>
+    
+    <string name="select_color_config">סעלעקטעד קאָליר קאַנפיגיער</string>
+    <string name="customize">קאַסטאַמייז</string>
+    <string name="custom">קאַסטאַמייזד</string>
+    <string name="preselected_configs_title">פּרעסעלעקטעד קאָנפיגס</string>
+    <string name="orange">מאַראַנץ</string>
+    <string name="blue">בלוי</string>
+    <string name="green">גרין</string>
+    <string name="password_no_match">שפּריכוואָרט שטימט נישט</string>
+    <string name="deselect_all">אויסקלעקט אלע</string>
+    <string name="filename">טעקע נאמען</string>
+    <string name="compress_file_suggest_zip_extension">עס איז רעקאַמענדיד צו נוצן \".zip\" ווי דער טעקע פאַרלענגערונג.</string>
+    <string name="about_amaze">מאַטעריאַל פּלאַן טעקע פאַרוואַלטער פֿאַר אַנדרויד</string>
+    <string name="license">ליסענסע</string>
+    <string name="libraries">ליבראַריעס</string>
+    <string name="password_repeat">איבערחזרן פּאַראָל</string>
+    <string name="create_file_suggest_txt_extension">עס איז רעקאַמענדיד צו נוצן \".txt\" ווי דער טעקע פאַרלענגערונג.</string>
+    <string name="ssh_select_pem">סעלעקטירן פּריוואַטע שליסל פֿאַר אָטענטאַקיישאַן</string>
+    <string name="ssh_key_invalid_passphrase">אומגילטיק שליסל פּאַספראַסע.</string>
+    <string name="ssh_key_no_decoder_decrypt">קיין גילטיק דעקאָדער צו דעקריפּט PEM.</string>
+    <string name="encryption_fail_copy">ניט אַנדערש צו דערהייַנטיקן ענקריפּשאַן פּאָזיציע אין דאַטאַבאַסע</string>
+    <string name="extracted">יקסטראַקטיד</string>
+    <string name="compressed">קאָמפּרעססעד</string>
+    <string name="processed">פּראַסעסט</string>
+    <string name="no_obtainable_info">עס איז קיין אינפֿאָרמאַציע וועגן דעם טעקע</string>
+    <string name="reopen_from_source">קען נישט, ביטע ריאָופּאַן פֿון די לעצטע אַפּ</string>
+    <string name="no_file_error">עפּעס איז פאַלש, עס איז גאָרנישט צו עפֿענען</string>
+    <string name="file_too_long">די טעקע איז צו לאַנג און קענען ניט זיין עדיטיד, אָבער איר קענען לייענען די ערשטער %d אותיות</string>
+    <string name="file_read_only">די טעקע געעפנט איז אַ לייענען- בלויז.</string>
+    <string name="got_it">האט עס!</string>
+    <string name="encrypt_file_save_as">היט ענקריפּטיד טעקע ווי...</string>
+    <string name="encrypt_folder_save_as">היט ענקריפּטיד טעקע ווי...</string>
+    <string name="encrypt_option_use_aze">ניצן Amaze Encryption Format</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt איז אַן אָפֿן מקור טעקע ענקריפּשאַן פֿאָרמאַט באזירט אויף AES ענקריפּשאַן. עס איז אויך פּאָרטאַטיוו, קענען זיין דעקריפּטעד מיט אַעסקריפּט מגילה אויף אנדערע פּלאַטפאָרמס.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt וועבזייטל</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p> Amaze ס ענקריפּשאַן פֿאָרמאַט איז אויך באזירט אויף AES ענקריפּשאַן; אָבער אַנדערש פון AESCrypt פֿאָרמאַט, עס קענען זיין דעקריפּטיד בלויז דורך דעם מיטל; איר מוזן אויך נישט נעם אַוועק Amaze File Manager פון דעם מיטל און נישט טוישן די וועג איר שלאָס פאַרשטעלן, אַנדערש איר וועט נישט האָבן קיין וועג צו צוריקקריגן די ינקריפּטיד טעקע.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">ענקריפּטיד טעקעס מוזן נוצן \".aze\" ווי די טעקע פאַרלענגערונג.</string>
+    <string name="encrypt_file_must_end_with_aes">ענקריפּטיד טעקעס מוזן נוצן \".aes\" ווי די טעקע פאַרלענגערונג.</string>
+    <string name="error_aescrypt_decrypt_failed">קענען ניט דעקריפּטירן \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">קען נישט איבערשרייבן טעקע.</string>
+    <string name="saved_single_file">טעקע געראטעוועט אלס \'%s\'.</string>
+    <string name="saved_multi_files">%d טעקעס געראטעוועט.</string>
+    <string name="create_hidden_file_warn">די באשאפן טעקע וועט זיין פאַרבאָרגן אין דער טעקע רשימה.</string>
+    <string name="grant_apkinstall_permission">אַפּ דאַרף דערלויבעניש צו ינסטאַלירן אַפּפּס פאָרזעצן.</string>
+    <string name="time_remaining">בלייבן צייט</string>
+    <string name="transfer_rate">טראַנספער קורס</string>
+    <string name="unknown">אומבאַקאַנט</string>
+    <string name="multiple_invalid_archive_entries">עטלעכע טעקעס אין דעם אַרקייוו קענען ניט זיין עקסטראַקט; ארכיוו קען זיין דאַמידזשד אָדער געקומען פון בייזע מקור.</string>
+    <string name="saf_otg_explanation">איר וועט איצט גיין צו די טעקע סיסטעם פון אַנדרויד פֿאַר זיכערהייט סיבות. ביטע אויסקלייַבן די וסב מיטל פון דער רשימה אויף די לינקס.</string>
+    <string name="donation_thanks">דאנק איר פֿאַר די צושטייַער, דאָס האלט אונדז מאָוטאַווייטאַד! (:</string>
+    <string name="enable_marquee_filename">געבן מאַרקעט ווירקונג פֿאַר טעקע נעמען</string>
+    <string name="archive_password_prompt">ביטע אַרייַן אַרקייוו פּאַראָל:</string>
+    
+    <string name="cannot_extract_archive">קען נישט עקסטראַקט אַרקייוו \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">קען נישט עפענען אַרקייוו \"%s\". אָדער מיר קענען נישט עפענען דעם אַרקייוו, אָדער דער אַרקייוו איז דאַמידזשד.</string>
+    <string name="close">פאַרמאַכן</string>
+    <string name="bookmark_exists">בוקמאַרק עקסיסטירט</string>
+    <string name="hide_media">באַהאַלטן פון מעדיע בראַוזערז</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">עס איז מעגלעך אַז עמעצער איז טאן עפּעס פּאַסקודנע!\n\nעמעצער קען זיין אָוזדראַפּינג איר רעכט איצט (מענטש-אין-דעם-מיטן באַפאַלן)! עס איז אויך מעגלעך אַז דער באַלעבאָס שליסל איז פּונקט געביטן. די פינגערפּרינט פֿאַר די פובליק שליסל געשיקט דורך די ווייַט באַלעבאָס איז ניט ענלעך צו דער וואָס איז סטאָרד אין Amaze.\n\nאיר קענט פאָרזעצן מיט אַפּדייטינג באַלעבאָס פינגערפּרינט אָדער באָטל מאַכן אַפּדייטינג סש קשר סעטטינגס.</string>
+    <string name="update_host_key">דערהייַנטיקן האָסט שליסל</string>
+    <string name="cancel_recommended">באָטלירן (רעקאָממענדעד)</string>
+    
+    
+    <string name="failed_install_apk">ניט אַנדערש צו ינסטאַלירן</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">ינערלעך סטאָרידזש</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD קאָרט</string>
+    <string name="choose_folder">קלייַבן דעם טעקע</string>
+    
+    <string name="some_files_failed_invalid_operation">עטלעכע טעקעס האָבן ניט אַנדערש צו פאַרקריפּלט אָפּעראַציע</string>
+    <string name="ftp_server_prompt_connect_to_network">פאַרבינדן צו אַ נעץ אָדער געבן AP</string>
+    <string name="ftp_server_open_settings">עפֿן סעטטינגס</string>
+    <string name="move">מאַך</string>
+    <string name="select_save_location">סעלעקט אָרט צו ראַטעווען</string>
+    <string name="scp_default_path">פעליקייַט וועג (אָפּטיאָנאַל)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">אנטשולדיגט, דאָס זאָל נישט האָבן געטראפן.</string>
+    
+    <string name="error_report_button_text">באריכט דעם טעות דורך בליצפּאָסט</string>
+    <string name="error_report_button_telegram">באריכט דעם טעות דורך טעלעגראַם</string>
+    <string name="copy_for_github">קאָפּי פֿאָרמאַטירט באַריכט</string>
+    <string name="error_report_open_issue_button_text">באריכט אויף GitHub</string>
+    <string name="error_report_open_github_notice">ביטע טשעק צי עס איז שוין אַן אַרויסגעבן וואָס דיסקוטירן דיין קראַך.</string>
+    <string name="error_snackbar_message">אנטשולדיגט, עפּעס איז פאַלש.</string>
+    <string name="error_snackbar_action">באריכט</string>
+    <string name="what_device_headline">אינפארמאציע:</string>
+    <string name="what_happened_headline">וואָס איז געשען:</string>
+    <string name="info_labels">וואָס:\\n בעטן:\\nGMT צייט:\\nפּאַקקע:\\n ווערסיע:\\nOS ווערסיע: \\nמיטל:\\nמאָדעל:\\nפּראָדוקט:</string>
+    <string name="your_comment">דיין באַמערקונג (אין ענגליש):</string>
+    <string name="error_details_headline">דעטאַילס:</string>
+    <string name="app_ui_crash">אַפּ/ווי קראַשט</string>
+    <string name="error_report_title">טעות רעפּאָרט</string>
+    <string name="crash_report_copied">קראַך באַריכט קאַפּיד צו קליפּבאָרד</string>
+    <string name="disableIpcSignature">דיסאַבלע IPC סיינינג טשעק (פֿאַר לעגאַט SMBv1 סערווערס - ונסאַפע!)</string>
+    <string name="cannot_delete_file">קענען ניט ויסמעקן טעקע</string>
+    <string name="cannot_delete_file_with_reason">קענען ניט ויסמעקן טעקע %s</string>
+    <string name="cannot_rename_file">קען נישט רענאַמע טעקע %s - %s</string>
+    <string name="cannot_read_directory">קען נישט לייענען וועגווייַזער %s - %s</string>
+    <string name="just_once">נאָר אַמאָל</string>
+    <string name="always">שטענדיק</string>
+    <string name="choose_different_app">קלייַבן אַ אַנדערש אַפּלאַקיישאַן</string>
+    <string name="clear_open_file">קלאָר קאַש</string>
+    <string name="clear_open_file_summary">קלאריזט אויסגעקליבן פעליקייַט טעקע עפן אַפּפּס</string>
+    <string name="ftp_readonly">לייענען-בלויז אַקסעס</string>
+    <string name="legacy_listing_title">ניצן לעגאַט ליסטינג פֿאַר וואָרצל</string>
+    <string name="legacy_listing_summary">אויב ענייבאַלד, ניצט לעגאַט מעטאָד צו רשימה טעקעס</string>
+    <string name="error_unsupported_v5_rar">ראַר אַרקייוו \"%s\" איז ניט-געשטיצט ראַר וו5 אַרקייוו.</string>
+    <string name="ftp_prompt_restart_server">איר וועט דאַרפֿן צו ריסטאַרט די פטפּ סערווער פֿאַר ענדערונגען צו נעמען ווירקונג.</string>
+    <string name="error_permission_denied">דערלויבעניש געלייקנט</string>
+    <string name="error_archive_password_incorrect">פאַלש אַרקייוו פּאַראָל.</string>
+    <string name="error_archive_cannot_extract">קען נישט עקסטראַקט אַרקייוו פּאָזיציע \"%s\" צו \"%s\".</string>
+    <string name="drag_and_drop_preference">סעלעקטירן שלעפּן און פאַלן ייבערהאַנט (עקספּערימענטאַל)</string>
+    <string name="drag_to_move_copy">ריר און שלעפּן צו רירן אָדער צייכענען טעקעס</string>
+    <string name="drag_to_select">ריר און שלעפּן צו אויסקלייַבן טעקעס</string>
+    <string name="disable">דיסאַבלע</string>
+    <string name="choose_operation">קלייַבן אָפּעראַציע צו דורכפירן</string>
+    <string name="remember">געדענק פֿאַר ווייַטער מאָל</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">געבן SAF אַקסעס פֿאַר פטפּ סערווער</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">זינט דאָס איז דיין ערשטער לויפן פון די פטפּ סערווער, און איר נוצן די ינערלעך סטאָרידזש פון די מיטל ווי שערד טעקע, ביטע לאָזן Amaze צו אַקסעס די סטאָרידזש ניצן SAF.\n\n
+
+איר נאָר דאַרפֿן צו טאָן דאָס אַמאָל, ביז די ווייַטער מאָל איר אויסקלייַבן אַ נייַ אָרט פֿאַר ייַנטיילונג.</string>
+    <string name="android_data_prompt_saf_access">זינט אַנדרויד 10, אַנדרויד האט ימפּאָוזד ריסטריקשאַנז אויף זיכער דיירעקטעריז, און זיי דאַרפֿן צו אַקסעס מיט סטאָרידזש אַקסעס פראַמעוואָרק.\n \nביטע דערלויבן Amaze צו אַקסעס די וועגווייַזער פֿון די סיסטעם טעקע פאַרוואַלטער דורך צאַפּן \"דערלויבן אַקסעס\".</string>
+    <string name="android_data_prompt_saf_access_title">שענק SAF אַקסעס</string>
+    <string name="ftp_preference_saf_filesystem_title">ניצן לעגאַט טעקע סיסטעם</string>
+    <string name="ftp_preference_saf_filesystem">געבן דעם פֿאַר שטיצן פֿאַר ניצן פונדרויסנדיק סטאָרידזש פון מיטל אויף נייַער אַנדרויד ווערסיעס</string>
+    <string name="ftp_server_fallback_path_reset_prompt">שערד דרך פון פטפּ סערווער איז באַשטעטיק צו ינערלעך סטאָרידזש ווען איר באַשטימען צוריק צו לעגאַט פילעסיסטעם ימפּלאַמענטיישאַן. ביטע אויסקלייַבן אַ נייַע וועג ניצן די מעניו אויף די שפּיץ רעכט ווי נייטיק.</string>
+    <string name="ftp_server_reset_notify">שערד דרך פון פטפּ סערווער איז באַשטעטיק צו ינערלעך סטאָרידזש</string>
+    <string name="ftp_server_root_unavailable">איר טשוזינג אַ דרך וואָס ריקווייערז וואָרצל אַקסעס. ביטע געבן וואָרצל Explorer אין סעטטינגס אויב דיין מיטל איז איינגעווארצלט.</string>
+    <string name="ftp_server_root_filesystem_warning">איר טשוזינג אַ וועג וואָס ריקווייערז וואָרצל אַקסעס, וואָס ינייבאַלז לייענען / שרייַבן אַפּעריישאַנז אין די גאנצע טעקע סיסטעם אויף דיין מיטל, און עס איז געפערלעך - אָפּגעלאָזן מיסטייקס קען ציגל דיין מיטל!\n\nביסט איר זיכער?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">טעות עפֿענען URI \"%s\" פֿאַר לייענען.</string>
+    <string name="error_empty_archive">\"%s\" איז אַ ליידיק אַרקייוו.</string>
+    <string name="error_bad_archive_without_info">\"%s\" איז אַ פאַרדאָרבן אַרקייוו.</string>
+    <string name="error_bad_archive_with_info">\"%s\" איז אַ פארדארבן אַרקייוו. .\n אָנזאָג פון עקסטראַקטאָר: \"%s\"</string>
+    <string name="security_error">טעקע קען נישט זיין עפֿנט מיט דעם אַפּ</string>
+    <string name="cloud_drive_tooltip">שאַפֿן אַ גוגל דרייוו ™ פֿאַרבינדונג פֿאַר אָנפירונג טעקעס פֿון Amaze File Manager.</string>
+    <string name="signin_with_google_title">אָטענטאַקירן צו נוצן Google Drive™</string>
+    <string name="show_system_apps">ווייַזן סיסטעם אַפּפּס</string>
+    <string name="system_apps">סיסטעם אַפּפּס</string>
+    <string name="select_inverse">סעלעקטירן פאַרקערט</string>
+    <string name="select_by_type">סעלעקטירן לויט טיפּ</string>
+    <string name="select_by_date">סעלעקטירן לויט דעם טאָג</string>
+    <string name="select_similar">סעלעקטירן ענלעך</string>
+    <string name="error_fetching_google_play_product_list">טעות ווען איר ברענגען פּראָדוקט רשימה פון Google פּלייַ.</string>
+    <string name="grant_all_files_permission">זינט אַנדרויד 11, Google בעטן טעקע מאַנאַדזשערז צו בעטן באַניצער דערלויבעניש פֿאַר אָנפירונג אַלע טעקעס אויף די מיטל. דעטאַילס דאָ.
+        \n\nAmaze File Manager דאַרף אויך די דערלויבעניש. נאָך דרינגלעך "גראַנט" דאָ, ביטע אויסקלייַבן לאָזן אַקסעס צו פירן אַלע טעקעס אָפּציע אויף דער ווייַטער פאַרשטעלן.
+        \n\n קאַנסאַלד דעם דיאַלאָג וועט אַרויסגאַנג די אַפּ.</string>
+    <string name="user_apps">באַניצער אַפּפּס</string>
+    <string name="appearance">אויסזען</string>
+    <string name="behavior">באַפירונג</string>
+    <string name="appearance_summary">קאַסטאַמייז די טעמע, פארבן און אויסזען פון די טעקע פאַרוואַלטער</string>
+    <string name="ui_summary">קאָנטראָלירן וואָס אינפֿאָרמאַציע צו ווייַזן , קאַסטאַמייז די סיידבאַר, און טוישן די יו.י. פּרעפֿערענצן</string>
+    <string name="behavior_summary">מאָדיפיצירן ביכייוויערז אַזאַ ווי אַוואַנסירטע זוכן און צי צו עפֿענען טעקעס ווי אַ נייַע אַרבעט</string>
+    <string name="security_summary">באַשטעטיקן פּאַראָל און ענקריפּשאַן</string>
+    <string name="backup_summary">עקספּאָרט/ימפּאָרט Amaze סעטטינגס</string>
+
+    <string name="pref_export">עקספּאָרט</string>
+    <string name="pref_export_summary">עקספּאָרט סעטטינגס</string>
+    <string name="pref_import">ימפּאָרט</string>
+    <string name="pref_import_summary">ימפּאָרט סעטטינגס</string>
+
+    <string name="quick_desc">עס לעצטנס אַקסעסט טעקעס דורך Amaze</string>
+    <string name="recent_desc">לעצטנס באשאפן אָדער מאַדאַפייד טעקעס</string>
+    <string name="error_cannot_find_way_open">קען ניט געפֿינען וועג צו עפֿענען די טעקע</string>
+    <string name="error_cant_decompress_that_file">קען נישט פּראָצעס די געבעטן אַרקייוו</string>
+    <string name="analyse_storage">אַנאַליזירן סטאָרידזש</string>
+    
+    <string name="download_amaze_utils_text">איר זענט רידערעקטיד צו Amaze File Utilities. דאָס איז אונדזער אָפֿן מקור אַפּ וואָס האט ינבוילט אַודיאָ / ווידעא / בילד / דאָקומענט וויוערז, אַלאַוז איר צו אַנאַלייז אָפּפאַל טעקעס צו פריי סטאָרידזש, שנעל אַריבערפירן ניצן Wifi P2P און פיל מער.\nביטע שטיצן אונדז דורך פּרובירן עס.</string>
+    
+    
+    <string name="amaze_utils_installed_alias">דאנק איר פֿאַר ינסטאָלינג Amaze File Utilities. איר זענט רידערעקטיד צו די אַפּ.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">ייַנטיילן לאָגס</string>
+    <string name="share_logs_summary">ייַנטיילן קאַפּטשערד לאָגס דורך בליצפּאָסט / טעלעגראַם</string>
+    <string name="open_with_amaze">עפֿן מיט Amaze</string>
+    <string name="confirmation">באַשטעטיקונג</string>
+    <string name="open_file_confirmation">ביסט איר זיכער אַז איר ווילט עפֿענען די פאלגענדע טעקע?\n\nנאָמען:\n%s\n\nאָרט:\n%s \n\nגרייס:\n%s\n\nMD5:\n%s\n\nSHA256:\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">פּער Google Play פּאָליטיק מאַנדייץ, אַפּפּס זענען נישט ערלויבט צו דערהייַנטיקן זיך אויף זיך. ביטע דערהייַנטיקן אַפּ פון Google פּלייַ.</string>
+    <string name="error_cannot_get_package_info">ניט געקענט באַקומען פּעקל אינפֿאָרמאַציע פון ​​טעקע \"%s\". אָדער די ספּעסיפיעד טעקע איז נישט אַ אַפּק, אָדער די פּעקל טעקע איז פאַרדאָרבן.</string>
+    <string name="preference_delete_confirmation">מעקן באַשטעטיקונג</string>
+    <string name="preference_delete_confirmation_summary">בעט פֿאַר באַשטעטיקונג איידער דיליטינג טעקעס. דיסייבאַלינג דעם איז העכסט דיסקערידזשד!</string>
+    
+    
+    <string name="protocol_ftps">זיכער פטפּ</string>
+    <string name="unavailable">אַנאַוויילאַבאַל</string>
+
+    <string name="exporting_failed">עקספּאָרטינג ניט אַנדערש: קען נישט שרייַבן די באַקאַפּ טעקע</string>
+    <string name="importing_failed">ימפּאָרטינג ניט אַנדערש: קען נישט לייענען די באַקאַפּ טעקע</string>
+    <string name="importing_completed">ימפּאָרטינג געענדיקט</string>
+    <string name="invalid_backup_file">אומגילטיק באַקאַפּ טעקע</string>
+    <string name="import_failed_for">אימפארט דורכפאַל פֿאַר:</string>
+    <string name="free_of">"%s\n%s פריי פון %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud פּלוגין ניט געשטיצט מיט F- דראָיד ווערסיע. ביטע נוצן Play Store ווערסיע פון ​​Amaze.</string>
+    <string name="disable_player_intent_filters">דיסאַבלע שפּילער ינטענט פילטערס</string>
+    <string name="disable_player_intent_filters_summary">דיסייבאַלז Amaze ינבוילט מעדיע פּלייַערס פֿון טעקע טשויסער</string>
+    <string name="no_app_found_intent">קיין אַפּ געפֿונען צו שעפּן דעם קאַוואָנע. צי איר האָט אינסטאַלירן DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection קראַדענטשאַלז קלירד</string>
+    <string name="cloud_connection_credentials_cleared_msg">צום באַדויערן, מיר זענען נישט ביכולת צו מייגרייט דיין וואָלקן קשר קראַדענטשאַלז צו די נייַע דאַטאַבייס סטשעמאַ, און מיר האָבן צו באַזייַטיקן זיי פון די אַפּ. ביטע מאַכן די וואָלקן קשר ווידער.</string>
+</resources>

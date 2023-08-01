@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">ꯑꯦꯃꯦꯖ ꯐꯥꯏꯜ ꯃꯦꯅꯦꯖꯔ</string>
+    <string name="drawer_open">ꯅꯦꯚꯤꯒꯦꯁꯟ ꯗ꯭ꯔꯣꯋꯔ ꯍꯥꯡꯗꯣꯀꯎ</string>
+    <string name="drawer_close">ꯅꯦꯚꯤꯒꯦꯁꯟ ꯗ꯭ꯔꯣꯋꯔ ꯊꯤꯡꯖꯤꯜꯂꯨ</string>
+    <string name="icon">ꯑꯥꯏꯀꯟ</string>
+    <string name="apps">ꯑꯦꯞ ꯃꯦꯅꯦꯖꯔ</string>
+    <string name="ftp">FTP ꯁꯔꯚꯔ꯫</string>
+    <string name="setting">ꯁꯦꯇꯤꯡꯁꯤꯡ</string>
+    <string name="select">ꯑꯥꯏꯇꯦꯝ ꯈꯜꯂꯨ</string>
+    <string name="press_again">ꯊꯣꯛꯅꯕꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯀ꯭ꯂꯤꯛ ꯇꯧꯔꯣ</string>
+    <string name="open">ꯑꯣꯄꯟ</string>
+    <string name="backup">ꯕꯦꯀꯑꯞ</string>
+    <string name="uninstall">ꯑꯅꯏꯅꯁ꯭ꯇꯣꯜ</string>
+    <string name="play">ꯄ꯭ꯂꯦ ꯁ꯭ꯇꯣꯔ</string>
+    <string name="properties">ꯄ꯭ꯔꯣꯄꯔꯇꯤꯁꯤꯡ</string>
+    <string name="copyingapks">%d APK ꯐꯥꯏꯂꯁꯤꯡ %sꯗꯥ ꯀꯣꯄꯤ ꯇꯧꯕꯥ</string>
+    <string name="delbook">ꯕꯨꯀꯃꯥꯔꯛ ꯃꯨꯠꯊꯠꯄꯥ</string>
+    <string name="add_to_bookmarks">ꯕꯨꯀꯃꯥꯔꯀꯁꯤꯡꯗꯥ ꯍꯥꯄꯆꯤꯅꯕꯥ</string>
+    <string name="enterpath">ꯄꯥꯊ ꯑꯦꯟꯇꯔ ꯇꯧꯕꯥ</string>
+    
+    
+    <string name="loading">ꯂꯣꯗ ꯇꯧꯔꯤ...</string>
+    <string name="file_empty">ꯐꯥꯏꯜ ꯑꯁꯤ ꯏꯝꯄꯣꯔꯠ ꯇꯧꯔꯦ</string>
+    <string name="error">ꯑꯁꯣꯌꯕꯥ</string>
+    <string name="search_results">%sꯒꯤ ꯁꯥꯔꯆ ꯔꯤꯖꯜꯇꯁꯤꯡ꯫</string>
+    <string name="rename">ꯃꯃꯤꯡ ꯍꯣꯡꯗꯣꯀꯎ</string>
+    <string name="save">ꯁꯦꯚ ꯇꯧꯕꯥ</string>
+    <string name="bookmarks_added">ꯕꯨꯀꯃꯥꯔꯀꯁꯤꯡ ꯍꯥꯄꯆꯤꯜꯂꯦ</string>
+    <string name="fileexist">ꯃꯃꯤꯡ ꯃꯥꯟꯅꯕꯥ ꯐꯥꯏꯜ ꯍꯥꯟꯅꯅꯥ ꯂꯩꯔꯦ</string>
+    <string name="name">ꯃꯃꯤꯡ</string>
+    <string name="date">ꯇꯥꯔꯤꯈ</string>
+    <string name="location">ꯂꯣꯀꯦꯁꯟ</string>
+    <string name="size_capitalized">ꯐꯣꯜꯗꯔꯒꯤ ꯁꯥꯏꯖ</string>
+    <string name="size">ꯁꯥꯏꯖ</string>
+    <string name="enterzipname">ꯖꯤꯄꯀꯤ ꯃꯃꯤꯡ ꯑꯦꯟꯇꯔ ꯇꯧꯔꯣ</string>
+    <string name="no_app_found">ꯐꯥꯏꯜ ꯑꯁꯤ ꯍꯥꯡꯗꯣꯛꯅꯕꯥ ꯑꯦꯞ ꯑꯃꯠꯇꯥ ꯐꯪꯗꯦ</string>
+    <string name="copying">ꯀꯣꯄꯤ ꯇꯧꯔꯤ</string>
+    <string name="moving">ꯆꯠꯊꯣꯛ-ꯆꯠꯁꯤꯟ ꯇꯧꯕꯥ</string>
+    <string name="file">ꯐꯥꯏꯜ</string>
+    <string name="folder">ꯐꯣꯜꯗꯔ</string>
+    <string name="newfolder">ꯑꯅꯧꯕꯥ ꯐꯣꯜꯗꯔ</string>
+    <string name="entername">ꯃꯃꯤꯡ ꯑꯦꯟꯇꯔ ꯇꯧꯕꯥ</string>
+    <string name="extracting">ꯑꯦꯛꯁꯠꯔꯦꯛꯇ ꯇꯧꯕꯥ</string>
+    <string name="stopping">ꯁ꯭ꯇꯣꯞ ꯇꯧꯕꯥ꯫</string>
+    <string name="open_parent">ꯄꯦꯔꯦꯟꯇ ꯗꯥꯏꯔꯦꯛꯇꯣꯔꯤ ꯍꯥꯡꯗꯣꯀꯎ</string>
+    <string name="open_with"/>
+    <string name="share">ꯁꯦꯌꯔ</string>
+    <string name="about">ꯒꯤ ꯃꯇꯥꯡꯗꯥ</string>
+    <string name="extract">ꯑꯦꯛꯁꯠꯔꯦꯛꯇ ꯇꯧꯕꯥ</string>
+    <string name="compress">ꯀꯝꯞꯔꯦꯁ ꯇꯧꯕꯥ</string>
+    <string name="yes">ꯍꯣꯌ</string>
+    <string name="no">ꯅꯠꯇꯦ</string>
+    
+    <string name="dialog_delete_category_directories">ꯗꯥꯏꯔꯦꯛꯇꯣꯔꯤꯁꯤꯡ</string>
+    <string name="dialog_delete_category_files">ꯐꯥꯏꯂꯁꯤꯡ</string>
+    <string name="dialog_delete_disclaimer">ꯃꯈꯥꯗꯥ ꯄꯤꯔꯤꯕꯥ ꯑꯥꯏꯇꯦꯃꯁꯤꯡ ꯑꯁꯤ ꯃꯨꯠꯊꯠꯄꯅꯥ ꯃꯈꯣꯌꯕꯨ ꯅꯍꯥꯛꯀꯤ ꯗꯤꯚꯥꯏꯁꯇꯒꯤ ꯃꯇꯝ ꯆꯨꯞꯄꯒꯤ ꯑꯣꯏꯅꯥ ꯂꯧꯊꯣꯛꯀꯅꯤ ꯑꯃꯁꯨꯡ ꯃꯈꯣꯌ ꯑꯁꯤ ꯔꯤꯀꯣꯚꯔ ꯇꯧꯕꯥ ꯌꯥꯔꯣꯏ꯫</string>
+    <string name="dialog_delete_title">ꯑꯥꯏꯇꯦꯃꯁꯤꯡ ꯃꯇꯝ ꯆꯨꯞꯄꯒꯤ ꯑꯣꯏꯅꯥ ꯃꯨꯠꯊꯠꯄꯥ?</string>
+    <string name="deleting">ꯃꯨꯠꯊꯠꯄꯥ</string>
+    <string name="question_set_path_as_home">ꯑꯗꯣꯝꯅꯥ ꯍꯧꯖꯤꯛꯀꯤ ꯄꯥꯊ ꯑꯁꯤ ꯇꯦꯕ ꯑꯁꯤꯒꯤꯗꯃꯛ ꯍꯣꯝ ꯑꯣꯏꯅꯥ ꯁꯦꯠ ꯇꯧꯕꯥ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ?</string>
+    <string name="directorysort">ꯗꯥꯏꯔꯦꯛꯇꯣꯔꯤ ꯁꯣꯔꯠ ꯃꯣꯗ</string>
+    <string name="sort_by">ꯁꯣꯔꯠ ꯕꯥꯏ</string>
+    <string name="sort_only_this">ꯐꯣꯜꯗꯔ ꯑꯁꯤ ꯈꯛꯇꯅꯥ</string>
+    <string name="theme">ꯊꯤꯝ</string>
+    <string name="random">ꯔꯦꯟꯗꯝ ꯁ꯭ꯀꯤꯟ</string>
+    <string name="random_summary">ꯁ꯭ꯇꯥꯔꯇꯑꯄꯇꯥ ꯔꯦꯟꯗꯝ ꯄ꯭ꯔꯥꯏꯃꯥꯔꯤ ꯃꯆꯨ ꯁꯦꯠ ꯇꯧꯏ</string>
+    <string name="colorize">ꯀꯂꯔ ꯑꯥꯏꯀꯅꯁꯤꯡ</string>
+    <string name="colorize_summary">ꯁꯦꯠ ꯇꯧꯏ꯫ ꯁ꯭ꯇꯦꯇꯤꯛ ꯑꯥꯏꯀꯟ ꯃꯆꯨ꯫ ꯗꯥꯏꯔꯦꯛꯇꯣꯔꯤ ꯑꯥꯏꯀꯟ ꯃꯆꯨꯒꯤ ꯄꯁꯟꯗ ꯑꯣꯚꯔꯔꯥꯏꯗ ꯇꯧꯗꯦ꯫</string>
+    <string name="home">ꯍꯣꯝ</string>
+    <string name="paste">ꯄꯦꯁ꯭ꯠ</string>
+    <string name="history">ꯍꯤꯁ꯭ꯇꯔꯤ</string>
+    <string name="copy">ꯀꯣꯄꯤ</string>
+    <string name="root_mode">ꯔꯨꯠ ꯑꯦꯛꯁꯞꯂꯣꯌꯥꯔ</string>
+    <string name="root_mode_summary">ꯔꯨꯠ ꯇꯧꯔꯕꯥ ꯗꯤꯚꯥꯏꯁ ꯈꯛꯇꯒꯤ ꯑꯣꯏꯅꯥ꯫ ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯃꯁꯤꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯁꯣꯌꯗꯅꯥ ꯈꯪꯂꯕꯈꯛꯇꯗꯥ ꯆꯦꯛ ꯇꯧꯕꯤꯌꯨ.</string>
+    <string name="root_failure">ꯔꯨꯠ ꯑꯦꯛꯁꯦꯁ ꯄꯤꯗ꯭ꯔꯤ</string>
+    <string name="select_all">ꯄꯨꯝꯅꯃꯛ ꯈꯜꯂꯨ</string>
+    <string name="delete">ꯗꯤꯂꯤꯠ</string>
+    <string name="set_as_home">ꯍꯣꯝ ꯑꯣꯏꯅꯥ ꯁꯦꯠ ꯇꯧ</string>
+    <string name="operation_not_supported">ꯑꯣꯄꯔꯦꯁꯟ ꯁꯄꯣꯔꯠ ꯇꯧꯗꯦ</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">ꯃꯦꯇꯔꯤꯑꯦꯜ ꯂꯥꯏꯠ</string>
+    <string name="dark">ꯃꯦꯇꯔꯤꯑꯦꯜ ꯗꯥꯔꯛ</string>
+    <string name="daytime">ꯅꯨꯃꯤꯠꯀꯤ ꯃꯇꯝ</string>
+    <string name="black">ꯕ꯭ꯂꯦꯛ (OLEDꯒꯤꯗꯃꯛꯇꯥ)</string>
+    <string name="system">ꯁꯤꯁ꯭ꯇꯦꯝ (ꯁꯤꯁ꯭ꯇꯦꯝ ꯊꯤꯝ ꯐꯣꯂꯣ ꯇꯧꯕꯤꯌꯨ)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">ꯃꯊꯛꯀꯤ ꯐꯣꯜꯗꯔꯁꯤꯡ</string>
+    <string name="filesOnTop">ꯃꯊꯛꯀꯤ ꯐꯥꯏꯂꯁꯤꯡ</string>
+    <string name="none_on_top">ꯃꯊꯛꯇꯥ ꯑꯃꯠꯇꯥ ꯂꯩꯇꯦ</string>
+    <!--SortBy-->
+    <string name="sort_name">ꯃꯃꯤꯡ</string>
+    <string name="lastModified">ꯑꯔꯣꯏꯕꯥ ꯑꯣꯏꯅꯥ ꯃꯣꯗꯤꯐꯥꯏꯗ</string>
+    <string name="sort_size">ꯁꯥꯏꯖ</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">ꯐꯥꯏꯜ ꯑꯃꯥ ꯈꯅꯕꯤꯌꯨ</string>
+    <string name="process_viewer">ꯄ꯭ꯔꯣꯁꯦꯁ ꯚꯤꯎꯌꯔ</string>
+    <string name="in_safe">ꯃꯊꯧ ꯇꯥꯕꯥ ꯃꯐꯝ</string>
+    <string name="no_file_overwrite">ꯐꯥꯏꯜ ꯑꯣꯚꯔꯔꯥꯏꯠ ꯇꯧꯗ꯭ꯔꯤ</string>
+    <string name="skip">ꯁ꯭ꯀꯤꯞ</string>
+    <string name="overwrite">ꯑꯣꯚꯔꯔꯥꯏꯠ</string>
+    <string name="not_allowed">ꯑꯌꯥꯕꯥ ꯄꯤꯗꯦ</string>
+    <string name="searching">%s</string>
+    <string name="done">ꯑꯅꯧꯕꯥ ꯐꯥꯏꯜ</string>
+    <string name="set">ꯁꯦꯠ ꯇꯧꯕꯥ</string>
+    <string name="enablerootmde">ꯔꯨꯠ ꯃꯣꯗ ꯏꯅꯦꯕꯜ ꯇꯧꯕꯥ</string>
+    <string name="goback">ꯑꯅꯧꯕꯥ ꯐꯥꯏꯜ</string>
+    <string name="newfile">ꯑꯅꯧꯕꯥ ꯐꯥꯏꯜ</string>
+    <string name="no_files">ꯐꯥꯏꯜ ꯑꯃꯠꯇꯥ ꯂꯩꯇꯦ</string>
+    <string name="used">ꯁꯤꯖꯤꯟꯅꯔꯕꯥ ꯁ꯭ꯄꯦꯁ</string>
+    <string name="used_by_others">ꯑꯇꯣꯞꯄꯁꯤꯡꯅꯥ ꯁꯤꯖꯤꯟꯅꯔꯤꯕꯥ</string>
+    <string name="free">ꯐ꯭ꯔꯤ ꯁ꯭ꯄꯦꯁ</string>
+    <string name="listview">ꯂꯤꯁ꯭ꯠ ꯚꯤꯎ</string>
+    <string name="gridview">ꯒ꯭ꯔꯤꯗ ꯚꯤꯎ</string>
+    <string name="permission">ꯑꯌꯥꯕꯥ</string>
+    <string name="hide">ꯂꯣꯠꯄꯥ</string>
+    <string name="exit">ꯊꯣꯀꯎ</string>
+    <string name="doforall">ꯑꯥꯏꯇꯦꯝ ꯄꯨꯝꯅꯃꯛꯀꯤꯗꯃꯛ ꯇꯧ</string>
+    <string name="gridcolumnno">ꯒ꯭ꯔꯤꯗ ꯚꯤꯎꯗꯥ ꯂꯩꯕꯥ ꯀꯣꯂꯃꯁꯤꯡꯒꯤ ꯃꯁꯤꯡ</string>
+    <string name="set_random">ꯑꯍꯣꯡꯕꯁꯤꯡ ꯑꯁꯤ ꯅꯍꯥꯛꯅꯥ ꯑꯦꯞ ꯑꯁꯤ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯧꯗꯣꯛꯂꯕꯥ ꯃꯇꯨꯡꯗꯥ ꯊꯣꯛꯀꯅꯤ</string>
+    <string name="authors">ꯑꯏꯕꯁꯤꯡ</string>
+    <string name="changelog">ꯆꯦꯟꯖꯂꯣꯒ</string>
+    <string name="ok">ꯑꯣꯀꯦ</string>
+    <string name="ui">ꯏꯟꯇꯔꯐꯦꯁ</string>
+    <string name="general">ꯖꯦꯅꯦꯔꯦꯜ꯫</string>
+    <string name="thumb_summary">ꯑꯦꯞ ꯑꯃꯁꯨꯡ ꯏꯃꯦꯖꯁꯤꯡꯒꯤ ꯊꯝꯕꯤꯕꯥ ꯎꯠꯄꯥ</string>
+    <string name="thumb">ꯊꯥꯕꯅꯦꯂꯁꯤꯡ ꯎꯠꯄꯥ</string>
+    <string name="hidden">ꯂꯣꯠꯁꯤꯜꯂꯕꯥ ꯐꯥꯏꯂꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯐꯣꯜꯗꯔꯁꯤꯡ ꯎꯠꯄꯥ</string>
+    <string name="lastModifiedSummary">ꯑꯔꯣꯏꯕꯥ ꯃꯣꯗꯤꯐꯤꯀꯦꯁꯅꯒꯤ ꯇꯥꯡ ꯑꯃꯁꯨꯡ ꯃꯇꯝ ꯎꯠꯄꯥ</string>
+    <string name="lastModifiedPref">ꯑꯔꯣꯏꯕꯥ ꯃꯣꯗꯤꯐꯥꯏꯗ ꯇꯧꯔꯕꯥ ꯇꯥꯡ ꯑꯃꯁꯨꯡ ꯃꯇꯝ ꯎꯠꯄꯥ</string>
+    <string name="size_pref_summary">ꯐꯥꯏꯂꯁꯤꯡꯒꯤ ꯁꯥꯏꯖ ꯑꯃꯁꯨꯡ ꯐꯣꯜꯗꯔꯁꯤꯡꯗꯥ ꯂꯩꯕꯥ ꯑꯥꯏꯇꯦꯃꯁꯤꯡꯒꯤ ꯃꯁꯤꯡ ꯎꯠꯄꯥ</string>
+    <string name="size_pref">ꯁꯥꯏꯖꯁꯤꯡ ꯎꯠꯄꯥ</string>
+    <string name="miscellaneous">ꯃꯈꯜ ꯀꯌꯥꯒꯤ</string>
+    <string name="root_pref_summary">ꯐꯥꯏꯂꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯐꯣꯜꯗꯔꯁꯤꯡꯒꯤ ꯑꯌꯥꯕꯥ ꯎꯠꯄꯥ꯫</string>
+    <string name="root_pref">ꯑꯌꯥꯕꯥ ꯎꯠꯄꯥ</string>
+    <string name="about_amaze_file_manager_label">ꯑꯦꯃꯦꯖ ꯐꯥꯏꯜ ꯃꯦꯅꯦꯖꯔꯒꯤ ꯃꯇꯥꯡꯗꯥ</string>
+    <string name="version">ꯚꯥꯔꯁꯟ</string>
+    <string name="rate">ꯑꯦꯞ ꯑꯁꯤ ꯔꯦꯠ ꯇꯧꯕꯥ</string>
+    <string name="feedback">ꯐꯤꯗꯕꯦꯛ ꯊꯥꯕꯥ</string>
+    <string name="hiddenfiles">ꯂꯣꯠꯁꯤꯜꯂꯕꯥ ꯐꯥꯏꯂꯁꯤꯡ꯫</string>
+    <string name="type">ꯇꯥꯏꯞ</string>
+    <string name="root_directory">ꯔꯨꯠ</string>
+    <string name="add_shortcut">ꯁꯣꯔꯇꯀꯠ ꯍꯥꯄꯆꯤꯜꯂꯨ</string>
+    <string name="unsaved_changes">ꯁꯦꯚ ꯇꯧꯗꯕꯥ ꯑꯍꯣꯡꯕꯁꯤꯡ</string>
+    <string name="unsaved_changes_description">ꯑꯗꯣꯝꯅꯥ ꯁꯦꯚ ꯇꯧꯗꯕꯥ ꯑꯍꯣꯡꯕꯁꯤꯡ ꯂꯩꯔꯦ, ꯅꯍꯥꯛꯅꯥ ꯃꯗꯨ ꯊꯣꯛꯂꯛꯠꯔꯤꯉꯩ ꯃꯃꯥꯡꯗꯥ ꯁꯦꯚ ꯇꯧꯕꯥ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ?</string>
+    <string name="saving">ꯁꯦꯚꯤꯡ</string>
+    <string name="package_installer">ꯄꯦꯀꯦꯖ ꯏꯅꯁ꯭ꯇꯣꯂꯔ</string>
+    <string name="view">ꯌꯦꯡꯎ</string>
+    <string name="install">ꯏꯅꯁ꯭ꯇꯣꯜ ꯇꯧꯕꯥ</string>
+    <string name="archive">ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤ</string>
+    <string name="archive_text">ꯃꯁꯤ ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤ ꯑꯃꯅꯤ꯫ ꯅꯍꯥꯛꯅꯥ ꯀꯔꯤ ꯑꯦꯛꯁꯟ ꯄꯥꯡꯊꯣꯀꯄꯥ ꯄꯥꯝꯂꯤꯕꯒꯦ?</string>
+    <string name="package_installer_text">ꯃꯁꯤ ꯄꯦꯀꯦꯖ ꯏꯅꯁ꯭ꯇꯣꯂꯔ ꯑꯃꯅꯤ꯫ ꯅꯍꯥꯛꯅꯥ ꯀꯔꯤ ꯑꯦꯛꯁꯟ ꯄꯥꯡꯊꯣꯀꯄꯥ ꯄꯥꯝꯂꯤꯕꯒꯦ?</string>
+    <string name="xda_title">XDA ꯊ꯭ꯔꯦꯗ</string>
+    <string name="xda_summary">Q&amp;amp;A, ꯍꯦꯜꯄ &amp;amp; ꯇ꯭ꯔꯕꯂꯁꯨꯇꯤꯡ</string>
+    <string name="circular_images">ꯏꯃꯦꯖ ꯑꯃꯁꯨꯡ ꯚꯤꯗꯤꯑꯣꯁꯤꯡꯒꯤꯗꯃꯛꯇꯥ ꯁꯔꯀꯨꯂꯥꯔ ꯑꯥꯏꯀꯅꯁꯤꯡ ꯁꯤꯖꯤꯟꯅꯧ</string>
+    <string name="circular_icons">ꯁꯔꯀꯨꯂꯥꯔ ꯑꯥꯏꯀꯅꯁꯤꯡ ꯁꯤꯖꯤꯟꯅꯧ</string>
+    <string name="back_title">ꯕꯦꯛ ꯅꯦꯚꯤꯒꯦꯁꯟ</string>
+    <string name="back_summary">ꯂꯤꯁ꯭ꯇꯀꯤ ꯃꯊꯛꯇꯥ ꯀꯁ꯭ꯇꯝ ꯕꯦꯛ ꯅꯦꯚꯤꯒꯦꯁꯟ ꯏꯅꯦꯕꯜ ꯇꯧꯏ</string>
+    <string name="details">ꯑꯀꯨꯞꯄꯥ ꯃꯔꯣꯂꯁꯤꯡ</string>
+    <string name="translators">ꯍꯟꯗꯣꯀꯄꯁꯤꯡ</string>
+    <string name="german_translation_title">ꯖꯔꯃꯅꯤ</string>
+    <string name="italian_translation_title">ꯏꯇꯥꯂꯤꯌꯥꯟ꯫</string>
+    <string name="french_translation_title">ꯐ꯭ꯔꯦꯟꯆ</string>
+    <string name="russian_translation_title">ꯔꯨꯁꯤꯌꯥꯟ</string>
+    <string name="spanish_translation_title">ꯁ꯭ꯄꯦꯅꯤꯁ</string>
+    <string name="basque_translation_title">ꯕꯥꯁ꯭ꯛ</string>
+    <string name="chinese_translation_title">ꯆꯥꯏꯅꯥꯒꯤ</string>
+    <string name="serbian_translation_title">ꯁꯥꯔꯕꯤꯌꯥꯟ</string>
+    <string name="turkish_translation_title">ꯇꯨꯔꯀꯤ</string>
+    <string name="ukrainian_translation_title">ꯌꯨꯛꯔꯦꯅꯤꯌꯥꯟ</string>
+    <string name="portuguese_translation_title">ꯄꯣꯔꯇꯨꯒꯤꯖ</string>
+    <string name="polish_translation_title">ꯄꯣꯂꯤꯁ</string>
+    <string name="korean_translation_title">ꯀꯣꯔꯤꯌꯥꯟ</string>
+    <string name="greek_translation_title">ꯒ꯭ꯔꯤꯛ</string>
+    <string name="dutch_translation_title">ꯗꯆ</string>
+    <string name="romanian_translation_title">ꯔꯣꯃꯥꯅꯤꯌꯥꯟ</string>
+    <string name="vietnamese_translation_title">ꯚꯤꯌꯦꯠꯅꯥꯃꯒꯤ</string>
+    <string name="japanese_translation_title">ꯖꯥꯄꯥꯅꯤꯖ</string>
+    <string name="tamil_translation_title">ꯇꯥꯃꯤꯜ</string>
+
+    <string name="zip_viewer">ꯖꯤꯞ ꯚꯤꯎꯌꯔ</string>
+    <string name="unin_system_apk">ꯃꯁꯤ ꯁꯤꯁ꯭ꯇꯦꯝ ꯑꯦꯞ ꯑꯃꯅꯤ, ꯃꯁꯤ ꯃꯨꯠꯊꯠꯄꯅꯥ ꯁꯤꯁ꯭ꯇꯦꯝ ꯑꯟ-ꯁ꯭ꯇꯦꯕꯤꯂꯤꯇꯤ ꯊꯣꯀꯍꯅꯕꯥ ꯌꯥꯏ꯫\ nProceed?</string>
+    <string name="warning">ꯋꯥꯔꯅꯤꯡ</string>
+    <string name="donate">ꯗꯥꯟ ꯇꯧꯕꯥ</string>
+    <string name="archive_extract_folder">ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤꯀꯦꯜ ꯑꯦꯛꯁꯠꯔꯦꯛꯇ ꯐꯣꯜꯗꯔ</string>
+    <string name="archive_summary">ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤꯀꯦꯜ ꯐꯥꯏꯂꯁꯤꯡ ꯑꯁꯤ ꯐꯣꯜꯗꯔ ꯑꯁꯤꯗꯥ ꯑꯦꯛꯁꯠꯔꯥꯛꯇ ꯇꯧꯒꯅꯤ꯫ ꯗꯤꯐꯣꯜꯇ ꯚꯦꯜꯌꯨ ꯑꯁꯤ ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤ ꯂꯩꯕꯥ ꯗꯥꯏꯔꯦꯛꯇꯣꯔꯤꯅꯤ꯫</string>
+    <string name="open_as">ꯑꯃꯨꯛꯇꯪ ꯍꯥꯡꯗꯣꯀꯎ</string>
+    <string name="text">ꯇꯦꯛꯁꯠ</string>
+    <string name="audio">ꯑꯣꯗꯤꯑꯣ</string>
+    <string name="video">ꯚꯤꯗꯤꯑꯣ</string>
+    <string name="other">ꯑꯇꯣꯞꯄꯥ</string>
+    <string name="image">ꯏꯃꯦꯖ</string>
+    <string name="contributors">ꯀꯟꯠꯔꯤꯕ꯭ꯌꯨꯇꯔꯁꯤꯡ</string>
+    <string name="save_paths">ꯄꯥꯊꯁꯤꯡ ꯅꯤꯡꯁꯤꯡꯕꯤꯌꯨ</string>
+    <string name="save_path_summary">ꯍꯧꯔꯀꯄꯥ ꯃꯇꯃꯗꯥ, ꯇꯦꯕ ꯈꯨꯗꯤꯡꯃꯛꯀꯤ ꯈ꯭ꯕꯥꯏꯗꯒꯤ ꯅꯧꯅꯥ ꯌꯦꯡꯈꯤꯕꯥ ꯐꯣꯜꯗꯔ ꯑꯗꯨ ꯎꯠꯀꯅꯤ</string>
+    <string name="select_intent">ꯁꯦꯂꯦꯛꯇ</string>
+    <string name="database">ꯗꯦꯇꯥꯕꯦꯖ</string>
+    <string name="colored_navigation">ꯃꯆꯨꯒꯤ ꯅꯦꯚꯤꯒꯦꯁꯟ ꯕꯥꯔ</string>
+    <string name="colored_navigvation_sum">ꯁꯤꯁ꯭ꯇꯦꯝ ꯅꯦꯚꯤꯒꯦꯁꯟ ꯕꯥꯔ ꯑꯁꯤ ꯁ꯭ꯀꯤꯅꯒꯥ ꯂꯣꯌꯅꯅꯥ ꯃꯆꯨ ꯁꯪꯂꯕꯔꯥ ꯅꯠꯔꯒꯥ ꯇꯧꯗꯕꯔꯥ</string>
+
+    <string name="color_title">ꯃꯆꯨ</string>
+    <string name="color_summary">ꯃꯆꯨ ꯇꯣꯉꯥꯟ ꯇꯣꯉꯥꯅꯕꯥ UI ꯀꯝꯄꯣꯅꯦꯟꯇꯁꯤꯡꯗꯥ ꯁꯦꯠ ꯇꯧꯔꯣ</string>
+    <string name="primary_color_title">ꯄ꯭ꯔꯥꯏꯃꯥꯔꯤ ꯀꯂꯔ (ꯂꯦꯐꯠ ꯇꯦꯕ)</string>
+    <string name="primary_color_summary">ꯂꯦꯐꯠ ꯇꯦꯕꯀꯤꯗꯃꯛ ꯑꯆꯧꯕꯥ UI ꯑꯦꯂꯤꯃꯦꯟꯇꯁꯤꯡꯗꯥ ꯃꯆꯨ ꯁꯦꯠ ꯇꯧ</string>
+    <string name="accent_color_title">ꯑꯦꯛꯁꯦꯟꯇ ꯃꯆꯨ</string>
+    <string name="accent_color_summary">ꯃꯆꯨ ꯑꯁꯤ FAB ꯑꯃꯁꯨꯡ ꯑꯇꯩ ꯑꯄꯤꯀꯄꯥ UIꯗꯥ ꯁꯦꯠ ꯇꯧ꯫ ꯑꯦꯂꯤꯃꯦꯟꯇꯁꯤꯡ</string>
+    <string name="icon_color_title">ꯑꯥꯏꯀꯟ ꯃꯆꯨ</string>
+    <string name="icon_color_summary">ꯑꯥꯏꯀꯅꯁꯤꯡꯗꯥ ꯃꯆꯨ ꯁꯦꯠ ꯇꯧꯕꯥ</string>
+    <string name="choose_color">ꯃꯆꯨ ꯈꯜꯂꯨ</string>
+    <string name="files">ꯐꯥꯏꯂꯁꯤꯡ</string>
+    <string name="textreader">ꯇꯦꯛꯁꯠ ꯔꯤꯗꯔ</string>
+    <string name="databasereader">ꯗꯦꯇꯥꯕꯦꯖ ꯔꯤꯗꯔ꯫</string>
+    <string name="show_dividers">ꯗꯤꯚꯥꯏꯗꯔꯁꯤꯡ ꯎꯠꯄꯥ</string>
+    <string name="needs_access">ꯔꯥꯏꯠ ꯑꯦꯛꯁꯦꯁ ꯃꯊꯧ ꯇꯥꯏ</string>
+    <string name="needs_access_summary">ꯆꯥꯅꯕꯤꯗꯨꯅꯥ \t</string>
+    <string name="needs_access_summary1">\tto ꯒꯤ ꯔꯨꯠ ꯗꯥꯏꯔꯦꯛꯇꯣꯔꯤ ꯑꯗꯨ ꯈꯜꯂꯨ</string>
+    <string name="smb_connection">ꯑꯣꯄꯔꯦꯠ ꯇꯧꯅꯕꯥ ꯔꯥꯏꯠ ꯑꯦꯛꯁꯦꯁ ꯄꯤꯌꯨ SMB ꯀꯅꯦꯛꯁꯟ</string>
+    <string name="smb_server">ꯁꯔꯚꯔ IP ꯑꯦꯗ꯭ꯔꯦꯁ</string>
+    <string name="server_address">ꯁꯔꯚꯔ IP ꯑꯦꯗ꯭ꯔꯦꯁ</string>
+    <string name="username">ꯌꯨꯖꯔꯅꯦꯝ</string>
+    <string name="password">ꯄꯥꯁꯋꯥꯔꯗ</string>
+    <string name="anonymous">ꯑꯅꯥꯕꯥ</string>
+    <string name="bluetooth">ꯕ꯭ꯂꯨꯇꯨꯊ</string>
+    <string name="folders">ꯐꯣꯜꯗꯔꯁꯤꯡ</string>
+    <string name="folderfilecount">%1$d ꯐꯣꯜꯗꯔꯁꯤꯡ ꯑꯃꯁꯨꯡ %2$d ꯐꯥꯏꯂꯁꯤꯡ</string>
+    <string name="videos">ꯚꯤꯗꯤꯑꯣꯁꯤꯡ</string>
+    <string name="apks">APKꯁꯤꯡ</string>
+    <string name="documents">ꯗꯣꯀꯨꯃꯦꯟꯇꯁꯤꯡ</string>
+    <string name="images">ꯏꯃꯦꯖꯁꯤꯡ</string>
+    <string name="clear">ꯀ꯭ꯂꯤꯌꯥꯔ</string>
+    
+    <string name="total">ꯑꯄꯨꯅꯕꯥ:</string>
+    <string name="calculating">ꯍꯤꯁꯥꯕ ꯇꯧꯕꯥ</string>
+    <string name="sort">ꯁꯣꯔꯠ</string>
+    <string name="ascending">ꯑꯋꯥꯡꯕꯥ</string>
+    <string name="descending">ꯗꯥ ꯍꯟꯊꯕꯥ꯫</string>
+    <string name="default_string">ꯗꯤꯐꯣꯜꯇ</string>
+    <string name="doit">ꯃꯁꯤꯅꯥ</string>
+    <string name="want_help">ꯃꯇꯦꯡ ꯃꯊꯧ ꯇꯥꯕ꯭ꯔꯥ?</string>
+    <string name="quick">ꯊꯨꯅꯥ ꯑꯦꯛꯁꯦꯁ ꯇꯧꯕꯥ</string>
+    <string name="recent">ꯍꯟꯗꯛꯀꯤ ꯐꯥꯏꯂꯁꯤꯡ</string>
+    <string name="edit">ꯑꯦꯗꯤꯠ ꯇꯧꯕꯥ</string>
+    <string name="find">ꯄꯦꯖꯗꯥ ꯐꯪꯕꯤꯌꯨ</string>
+    <string name="grant">ꯑꯌꯥꯕꯥ ꯄꯤꯌꯨ</string>
+    <string name="grantper">ꯑꯌꯥꯕꯥ ꯄꯤꯌꯨ</string>
+    <string name="grantfailed">ꯑꯌꯥꯕꯥ ꯄꯤꯗ꯭ꯔꯤ</string>
+    <string name="grant_storage_permission">ꯑꯦꯞ ꯑꯁꯤ ꯃꯈꯥ ꯆꯠꯊꯅꯕꯒꯤꯗꯃꯛ ꯁ꯭ꯇꯣꯔꯦꯖ ꯑꯌꯥꯕꯥ ꯃꯊꯧ ꯇꯥꯏ꯫ ꯗꯥꯏꯂꯣꯒ ꯑꯁꯤ ꯀꯦꯟꯁꯦꯜ ꯇꯧꯕꯅꯥ ꯑꯦꯞ ꯑꯁꯤꯗꯒꯤ ꯊꯣꯛꯂꯛꯀꯅꯤ꯫</string>
+    <string name="operation_unsuccesful">ꯑꯣꯄꯔꯦꯁꯟ ꯃꯥꯌ ꯄꯥꯀꯄꯥ</string>
+    <string name="creatingfile">ꯐꯥꯏꯜ ꯁꯦꯝꯕꯥ</string>
+    <string name="creatingfolder">ꯐꯣꯜꯗꯔ ꯁꯦꯝꯕꯥ</string>
+    <string name="renaming">ꯔꯤꯅꯦꯃꯤꯡ</string>
+    <string name="cant_be_empty">%s ꯑꯁꯤ ꯏꯝꯄꯣꯔꯠ ꯇꯧꯕꯥ ꯌꯥꯔꯣꯏ꯫</string>
+    <string name="ip">ꯑꯦꯗ꯭ꯔꯦꯁ</string>
+    <string name="connection_name">ꯀꯅꯦꯛꯁꯅꯒꯤ ꯃꯃꯤꯡ</string>
+    <string name="no_device_found">ꯗꯤꯚꯥꯏꯁ ꯑꯃꯠꯇꯥ ꯐꯪꯗꯦ</string>
+    <string name="path">ꯄꯥꯊ</string>
+    <string name="rename_bookmark">ꯕꯨꯀꯃꯥꯔꯛ ꯃꯣꯗꯤꯐꯥꯏ ꯇꯧꯕꯥ</string>
+    <string name="cut">ꯀꯠꯄꯥ</string>
+    <string name="search">ꯁꯥꯔꯆ</string>
+    <string name="invalid_name">ꯑꯁꯣꯌꯕꯥ ꯃꯃꯤꯡ</string>
+    <string name="search_hint">ꯁꯥꯔꯆ ꯇꯧꯅꯕꯥ ꯃꯈꯜ...</string>
+    <string name="advanced_search">ꯑꯦꯗꯚꯥꯟꯁ ꯁꯥꯔꯆ</string>
+    <string name="regular_expression">ꯔꯦꯒꯨꯂꯥꯔ ꯑꯦꯛꯁꯞꯔꯦꯁꯟ</string>
+    <string name="regular_expression_summary">BASH ꯁ꯭ꯇꯥꯏꯜ ꯔꯦꯒꯨꯂꯥꯔ ꯑꯦꯛꯁꯞꯔꯦꯁꯟ ꯑꯃꯥ ꯁꯤꯖꯤꯟꯅꯗꯨꯅꯥ ꯁꯥꯔꯆ ꯇꯧ꯫</string>
+    <string name="match_content">ꯀꯟꯇꯦꯟꯇ ꯃꯦꯆ ꯇꯧꯕꯥ</string>
+    <string name="match_content_summary">ꯀꯔꯤꯒꯨꯝꯕꯥ ꯁꯦꯠ ꯇꯧꯔꯕꯗꯤ, ꯔꯦꯒꯨꯂꯥꯔ ꯑꯦꯛꯁꯞꯔꯦꯁꯟ ꯑꯁꯤ ꯐꯥꯏꯂꯒꯤ ꯃꯃꯤꯡ ꯄꯨꯝꯅꯃꯛꯀꯥ ꯃꯦꯆ ꯇꯧꯒꯅꯤ,
+        ꯑꯇꯣꯞꯄꯥ ꯃꯑꯣꯡ ꯑꯃꯗꯥ ꯊꯣꯀꯄꯥ ꯑꯗꯨ ꯌꯦꯡꯒꯅꯤ꯫</string>
+    <string name="start_ftp">ꯍꯧꯒꯠꯂꯨ</string>
+    <string name="stop_ftp">ꯊꯥꯒꯠꯂꯨ</string>
+    <string name="ftp_status_running">ꯆꯠꯂꯤ</string>
+    <string name="ftp_status_not_running">ꯆꯠꯂꯤꯕꯅꯤ</string>
+    <string name="ftp_no_wifi">ꯅꯍꯥꯛꯅꯥ ꯋꯥꯏ -Fi</string>
+    <string name="domain">ꯗꯣꯃꯦꯟ</string>
+    <string name="smb_share">ꯁꯦꯌꯔ ꯄꯥꯊ</string>
+    <string name="invalid">ꯑꯁꯣꯌꯕꯥ %s</string>
+    <string name="ftp_notif_starting">FTP ꯁꯔꯚꯔ ꯍꯧꯔꯦ</string>
+    <string name="ftp_notif_starting_title">FTP ꯁꯔꯚꯔ</string>
+    <string name="ftp_notif_title">%s</string>
+    <string name="ftp_notif_text">ꯗꯥ ꯆꯠꯂꯤꯕꯥ</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP ꯄꯣꯔꯠ</string>
+    <string name="ftp_port_change_success">FTP ꯄꯣꯔꯠ ꯑꯁꯤ ꯃꯥꯌ ꯄꯥꯛꯅꯥ ꯍꯣꯡꯗꯣꯀꯈ꯭ꯔꯦ</string>
+    <string name="ftp_port_change_error_invalid">ꯑꯁꯣꯌꯕꯥ ꯄꯣꯔꯠ ꯅꯝꯕꯔ ꯈꯅꯈ꯭ꯔꯦ</string>
+    <string name="primary_two_title">ꯄ꯭ꯔꯥꯏꯃꯥꯔꯤ ꯃꯆꯨ (ꯑꯔꯥꯞꯄꯥ ꯇꯦꯕ)</string>
+    <string name="primary_two_summary">ꯑꯆꯨꯝꯕꯥ ꯇꯦꯕ</string>
+    <string name="support_development">ꯁꯄꯣꯔꯠ ꯗꯤꯚꯦꯂꯄꯃꯦꯟꯇ ꯒꯤꯗꯃꯛ ꯑꯆꯧꯕꯥ UI ꯑꯦꯂꯤꯃꯦꯟꯇꯁꯤꯡꯗꯥ ꯃꯆꯨ ꯁꯦꯠ ꯇꯧꯔꯣ div86ꯕꯥꯒꯁꯤꯡ ꯔꯤꯄꯣꯔꯠ ꯇꯧꯕꯥ</string>
+    <string name="report_bugs_title">ꯁꯣꯔꯁ ꯀꯣꯗ</string>
+    <string name="source_title">GitHub</string>
+    <string name="source_summary">ꯗꯥ ꯑꯩꯈꯣꯌꯒꯤ ꯁꯣꯔꯁ ꯀꯣꯗ ꯌꯦꯡꯕꯤꯌꯨ</string>
+    <string name="report_bugs_summary">ꯕꯥꯒꯁꯤꯡ ꯔꯤꯄꯣꯔꯠ ꯇꯧꯕꯤꯌꯨ ꯅꯠꯔꯒꯥ ꯑꯅꯧꯕꯥ ꯐꯤꯆꯔ ꯑꯃꯥ ꯔꯤꯛꯕꯦꯁ꯭ꯠ ꯇꯧꯕꯤꯌꯨ</string>
+    <string name="translate_title">ꯍꯟꯗꯣꯀꯎ</string>
+    <string name="translate_summary">ꯍꯟꯗꯣꯀꯎ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯟꯗꯥ ꯑꯉꯀꯄꯥ ꯄꯣꯀꯍꯅꯕꯥ</string>
+    <string name="paypal_copy_message">ꯀ꯭ꯂꯤꯄꯕꯣꯔꯗꯇꯥ ꯀꯣꯄꯤ ꯇꯧꯔꯕꯥ ꯄꯦꯄꯔ ꯑꯥꯏꯗꯤ</string>
+    <string name="searching_devices">ꯗꯤꯚꯥꯏꯁꯁꯤꯡ ꯊꯤꯕꯥ</string>
+    <string name="use_custom_ip">ꯀꯁ꯭ꯇꯝ IP ꯁꯤꯖꯤꯟꯅꯧ</string>
+    <string name="bookmark_lost">ꯕꯨꯀꯃꯥꯔꯛ ꯐꯪꯗ꯭ꯔꯤ, ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯁꯦꯃꯒꯠꯂꯤ...</string>
+
+    <string name="smb_instructions">
+        
+            
+                ꯑꯦꯟꯗ꯭ꯔꯣꯏꯗ (SMB)ꯗꯥ ꯁꯦꯌꯔ ꯇꯧꯔꯕꯥ ꯎꯏꯟꯗꯣꯖ ꯐꯣꯜꯗꯔ ꯑꯗꯨ ꯀꯔꯝꯅꯥ ꯑꯦꯛꯁꯦꯁ ꯇꯧꯒꯅꯤ\n\n
+                
+                    
+                        ꯋꯤꯟꯗꯣꯖꯗꯥ ꯐꯥꯏꯜ ꯁꯦꯌꯔ ꯇꯧꯕꯥ ꯏꯅꯦꯕꯜ ꯇꯧꯕꯥ\n
+                    
+                    
+                        ꯀꯟꯠꯔꯣꯜ ꯄꯦꯅꯦꯜ ꯍꯥꯡꯗꯣꯀꯎ, ꯅꯦꯇꯋꯥꯔꯀꯀꯤ ꯃꯈꯥꯗꯥ ꯂꯩꯕꯥ ꯍꯣꯃꯒ꯭ꯔꯨꯞ ꯑꯃꯁꯨꯡ ꯁꯦꯌꯔ ꯇꯧꯕꯥ ꯑꯣꯄꯁꯅꯁꯤꯡ ꯈꯜꯂꯨ ꯀ꯭ꯂꯤꯛ ꯇꯧ꯫
+                        ꯑꯃꯁꯨꯡ ꯏꯟꯇꯔꯅꯦꯠ, ꯑꯃꯁꯨꯡ "ꯑꯦꯗꯚꯥꯟꯁ ꯁꯦꯌꯔ ꯇꯧꯕꯥ ꯁꯦꯇꯤꯡꯁꯤꯡ ꯍꯣꯡꯗꯣꯀꯎ" ꯀ꯭ꯂꯤꯛ ꯇꯧ, "ꯐꯥꯏꯜ ꯑꯃꯁꯨꯡ...
+                        ꯄ꯭ꯔꯤꯟꯇꯔ ꯁꯦꯌꯔ ꯇꯧꯕꯥ" ꯐꯤꯆꯔ.\n\n
+                    
+
+                    
+                        ꯑꯍꯦꯅꯕꯥ ꯐꯥꯏꯜ ꯁꯦꯌꯔ ꯇꯧꯕꯒꯤ ꯁꯦꯇꯤꯡꯁꯤꯡ\n
+                    
+                    
+                        ꯃꯐꯝ ꯑꯁꯤꯗꯥ ꯑꯇꯣꯞꯄꯥ ꯑꯦꯗꯚꯥꯟꯁ ꯁꯦꯔꯤꯡ ꯁꯦꯇꯤꯡꯁꯤꯡꯁꯨ ꯀꯅꯐꯤꯒꯔ ꯇꯧꯕꯥ ꯄꯥꯝꯂꯕꯁꯨ ꯌꯥꯏ꯫ \n
+                        ꯈꯨꯗꯝ ꯑꯣꯏꯅꯥ, ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯄꯨꯝꯅꯃꯀꯄꯨ ꯊꯥꯖꯔꯕꯗꯤ, ꯅꯍꯥꯛꯅꯥ ꯄꯥꯁꯋꯥꯔꯗ ꯑꯃꯥ ꯌꯥꯎꯗꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯐꯥꯏꯂꯁꯤꯡꯗꯥ ꯑꯦꯛꯁꯦꯁ ꯇꯧꯕꯥ ꯌꯥꯍꯅꯕꯥ ꯌꯥꯏ꯫
+                        ꯅꯍꯥꯛꯀꯤ ꯂꯣꯀꯦꯜ ꯅꯦꯇꯋꯥꯔꯀꯇꯥ ꯂꯩꯕꯥ ꯗꯤꯚꯥꯏꯁꯁꯤꯡ꯫ ꯐꯥꯏꯜ ꯑꯃꯁꯨꯡ ꯄ꯭ꯔꯤꯟꯇꯔ ꯁꯦꯌꯔ ꯇꯧꯕꯥ ꯏꯅꯦꯕꯜ ꯇꯧꯔꯕꯥ ꯃꯇꯨꯡꯗꯥ, ꯅꯍꯥꯛꯅꯥ ꯇꯧꯕꯥ ꯌꯥꯏ꯫
+                        ꯐꯥꯏꯜ ꯑꯦꯛꯁꯞꯂꯣꯌꯥꯔ ꯅꯠꯠꯔꯒꯥ ꯋꯤꯟꯗꯣꯖ ꯑꯦꯛꯁꯞꯂꯣꯌꯥꯔ ꯍꯥꯡꯗꯣꯀꯎ, ꯅꯍꯥꯛꯅꯥ ꯁꯦꯌꯥꯔ ꯇꯧꯕꯥ ꯄꯥꯝꯂꯤꯕꯥ ꯐꯣꯜꯗꯔ ꯑꯃꯗꯥ ꯔꯥꯏꯠ-ꯀ꯭ꯂꯤꯛ ꯇꯧ, ꯑꯃꯁꯨꯡ...
+                        ꯄ꯭ꯔꯣꯄꯔꯇꯤꯁꯤꯡ ꯈꯜꯂꯨ꯫ \n
+                        ꯁꯦꯌꯥꯔ ꯇꯧꯕꯥ ꯕꯇꯟ ꯑꯗꯨ ꯀ꯭ꯂꯤꯛ ꯇꯧ ꯑꯃꯁꯨꯡ ꯐꯣꯜꯗꯔ ꯑꯗꯨ ꯅꯦꯇꯋꯥꯔꯀꯇꯥ ꯐꯪꯍꯅꯕꯥ꯫\n\n
+                        
+
+                    
+                        ꯗꯤꯚꯥꯏꯁ ꯑꯅꯤꯃꯛ ꯆꯞ ꯃꯥꯟꯅꯕꯥ ꯋꯥꯏꯐꯥꯏꯗꯥ ꯂꯩ ꯍꯥꯌꯕꯥ ꯁꯣꯌꯗꯅꯥ ꯈꯪꯗꯣꯀꯎ\n
+                    
+                    
+                        ꯃꯁꯤꯒꯤ ꯐꯤꯆꯔ ꯑꯁꯤꯅꯥ ꯂꯣꯀꯦꯜ ꯅꯦꯇꯋꯥꯔꯀꯇꯥ ꯐꯥꯏꯂꯁꯤꯡ ꯐꯪꯍꯜꯂꯤ, ꯃꯔꯝ ꯑꯗꯨꯅꯥ ꯅꯍꯥꯛꯀꯤ PC ꯑꯃꯁꯨꯡ ꯃꯣꯕꯥꯏꯜ ꯗꯤꯚꯥꯏꯁꯁꯤꯡ꯫
+                        ꯆꯞ ꯃꯥꯟꯅꯕꯥ ꯂꯣꯀꯦꯜ ꯅꯦꯇꯋꯥꯔꯀꯇꯥ ꯂꯩꯒꯗꯕꯅꯤ꯫ ꯅꯍꯥꯛꯅꯥ ꯁꯦꯌꯔ ꯇꯧꯔꯕꯥ ꯋꯤꯟꯗꯣꯖ ꯐꯣꯜꯗꯔ ꯑꯃꯗꯥ ꯑꯦꯛꯁꯦꯁ ꯇꯧꯕꯥ ꯌꯥꯔꯣꯏ꯫
+                        ꯏꯟꯇꯔꯅꯦꯇꯀꯤ ꯈꯨꯠꯊꯥꯡꯗꯥ ꯅꯠꯠꯔꯒꯥ ꯅꯍꯥꯛꯀꯤ ꯁ꯭ꯃꯥꯔꯇꯐꯣꯟ ꯑꯗꯨ ꯃꯁꯤꯒꯤ ꯃꯣꯕꯥꯏꯜ ꯗꯦꯇꯥꯒꯥ ꯁꯝꯅꯔꯕꯥ ꯃꯇꯃꯗꯥ — ꯃꯁꯤ...
+                        ꯋꯥꯏ-ꯐꯥꯏꯗꯥ ꯀꯅꯦꯛꯇ ꯇꯧꯕꯥ ꯇꯥꯏ꯫\n\n
+                    
+
+                    
+                        IP ꯑꯦꯗ꯭ꯔꯦꯁ ꯊꯤꯕꯥ\n
+                    
+                    
+                        ꯀꯃꯥꯟꯗ ꯄ꯭ꯔꯣꯃꯞꯇ ꯍꯥꯡꯗꯣꯀꯎ꯫ \'ipconfig\' ꯍꯥꯌꯅꯥ ꯇꯥꯏꯞ ꯇꯧꯔꯒꯥ ꯑꯦꯟꯇꯔ ꯇꯧꯔꯣ. ꯗꯤꯐꯣꯜꯇ ꯒꯦꯇꯋꯦ ꯑꯗꯨ ꯌꯦꯡꯎ꯫
+                        ꯅꯍꯥꯛꯀꯤ ꯔꯥꯎꯇꯔ\'ꯒꯤ IP ꯑꯦꯗ꯭ꯔꯦꯁꯀꯤꯗꯃꯛ ꯅꯍꯥꯛꯀꯤ ꯅꯦꯇꯋꯥꯔꯛ ꯑꯦꯗꯄꯇꯥꯔꯒꯤ ꯃꯈꯥꯗꯥ ꯂꯩ꯫ ꯌꯦꯡꯎ꯫
+                        ꯅꯍꯥꯛꯀꯤ ꯀꯝꯞꯌꯨꯇꯔꯒꯤ IP ꯊꯤꯅꯕꯒꯤꯗꯃꯛ ꯆꯞ ꯃꯥꯟꯅꯕꯥ ꯑꯦꯗꯄꯇꯥꯔ ꯁꯦꯛꯁꯅꯒꯤ ꯃꯈꯥꯗꯥ \\\"IPv4 ꯑꯦꯗ꯭ꯔꯦꯁ\\\"
+                        ꯑꯦꯗ꯭ꯔꯦꯁ꯫\n\n
+                    
+
+                    SMB ꯗꯥꯏꯑꯦꯂꯣꯒ ꯕꯣꯛꯁꯇꯥ ꯑꯀꯨꯞꯄꯥ ꯃꯔꯣꯂꯁꯤꯡ ꯑꯦꯟꯇꯔ ꯇꯧꯔꯣ\n
+                
+            
+        
+   </string>
+    <string name="share_limit">ꯐꯥꯏꯜ 100ꯗꯒꯤ ꯍꯦꯟꯅꯥ ꯁꯦꯌꯥꯔ ꯇꯧꯕꯥ ꯌꯥꯗꯦ</string>
+    <string name="otg_access">OTG ꯗꯤꯚꯥꯏꯁꯀꯤ ꯔꯨꯠ ꯈꯜꯂꯨ</string>
+    <string name="information">ꯏꯅꯐꯣꯔꯃꯦꯁꯟ</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">ꯑꯦꯛꯁꯦꯁ ꯇꯧꯔꯕꯥ</string>
+    <!-- reference to file modified date -->
+    <string name="modified">ꯃꯣꯗꯤꯐꯥꯏꯗ</string>
+
+    <string name="title">ꯇꯥꯏꯇꯜ</string>
+    <string name="artist">ꯑꯥꯔꯇꯤꯁ꯭ꯠ</string>
+    <string name="album">ꯑꯦꯂꯕꯝ</string>
+    <string name="year">ꯆꯍꯤ</string>
+    <string name="duration">ꯃꯇꯝ</string>
+    <string name="comment">ꯀꯃꯦꯟꯇ</string>
+    <!-- reference to audio/video file -->
+    <string name="container">ꯀꯟꯇꯦꯅꯔ</string>
+    <string name="codec">ꯀꯣꯗꯦꯛ</string>
+    <string name="channels">ꯆꯦꯅꯦꯂꯁꯤꯡ</string>
+    <string name="sample_rate">ꯁꯦꯝꯄꯜ ꯔꯦꯠ</string>
+    <string name="bitrate">ꯕꯤꯠꯔꯦꯠ</string>
+    <string name="dimensions">ꯗꯥꯏꯃꯦꯟꯁꯟ</string>
+    <string name="frame_rate">ꯐ꯭ꯔꯦꯝ ꯔꯦꯠ</string>
+    <string name="image_type">ꯏꯃꯦꯖ ꯃꯈꯜ</string>
+    <string name="width">ꯄꯥꯀꯄꯥ</string>
+    <string name="height">ꯑꯋꯥꯡꯕꯥ</string>
+    <string name="date_modified">ꯇꯥꯡ ꯃꯣꯗꯤꯐꯥꯏꯗ</string>
+    <string name="software">ꯁꯣꯐ꯭ꯇꯋꯦꯔ</string>
+    <string name="creator">ꯀ꯭ꯔꯤꯑꯦꯇꯔ</string>
+    <string name="camera_brand">ꯀꯦꯃꯦꯔꯥ ꯕ꯭ꯔꯥꯟꯗ</string>
+    <string name="camera_model">ꯀꯦꯃꯦꯔꯥ꯫ ꯃꯣꯗꯦꯜ</string>
+    <string name="date_taken">ꯂꯧꯈꯤꯕꯥ ꯇꯥꯡ</string>
+    <string name="exposure_time">ꯑꯦꯛꯁꯄꯣꯖꯔꯒꯤ ꯃꯇꯝ</string>
+    <string name="aperture_value">ꯑꯦꯄꯔꯆꯔ ꯚꯦꯜꯌꯨ</string>
+    <string name="image_iso">ꯑꯥꯏ.ꯑꯦꯁ.ꯑꯣ.ꯒꯤ ꯁ꯭ꯄꯤꯗ ꯔꯦꯇꯤꯡ</string>
+    <string name="flash_fired">ꯐ꯭ꯂꯦꯁ ꯐꯥꯏꯔ ꯇꯧꯕꯥ</string>
+    <string name="focal_length">ꯐꯣꯀꯦꯜ ꯂꯦꯡꯗꯅꯥ ꯂꯩꯕꯥ꯫</string>
+    <string name="subject">ꯁꯕꯖꯦꯛꯇ</string>
+    <string name="author">ꯑꯏꯕꯥ</string>
+    <string name="keywords">ꯀꯤ ꯋꯥꯍꯩꯁꯤꯡ</string>
+    <string name="producer">ꯄ꯭ꯔꯣꯗ꯭ꯌꯨꯁꯔ</string>
+    <string name="created">ꯁꯦꯃꯈꯤꯕꯥ</string>
+    <string name="format">ꯐꯣꯔꯃꯦꯠ</string>
+    <string name="pages">ꯃꯁꯤꯡꯒꯤ... ꯄꯦꯖꯁꯤꯡ</string>
+    <!-- reference to a document file -->
+    <string name="optimized">ꯑꯣꯞꯇꯤꯃꯥꯏꯖ ꯇꯧꯔꯕꯥ</string>
+    <string name="security">ꯁꯦꯛꯌꯨꯔꯤꯇꯤ</string>
+    <string name="paper_size">ꯄꯦꯄꯥꯔ ꯁꯥꯏꯖ</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">ꯐꯥꯏꯜ ꯈꯔꯗꯤ ꯃꯥꯌ ꯄꯥꯛꯅꯥ %s</string>
+    <string name="copied">ꯀꯣꯄꯤ ꯇꯧꯈꯤꯗꯦ</string>
+    <string name="moved">ꯆꯠꯊꯣꯛ-ꯆꯠꯁꯤꯟ ꯇꯧꯈ꯭ꯔꯦ</string>
+    <string name="copy_complete">ꯀꯣꯄꯤ ꯃꯄꯨꯡ ꯐꯥꯅꯥ</string>
+    <string name="waiting_title">ꯉꯥꯏꯔꯤ</string>
+    <string name="waiting_content">ꯑꯣꯄꯔꯦꯁꯟ ꯂꯣꯏꯁꯤꯟꯅꯕꯥ ꯉꯥꯏꯔꯤ</string>
+    <string name="extract_complete">ꯑꯦꯛꯁꯠꯔꯥꯛꯁꯟ ꯃꯄꯨꯡ ꯐꯥꯔꯦ</string>
+    <string name="compression_complete">ꯀꯝꯞꯔꯦꯁꯟ ꯃꯄꯨꯡ ꯐꯥꯔꯦ</string>
+    <string name="compressing">ꯀꯝꯞꯔꯦꯁꯟ ꯇꯧꯔꯦ</string>
+    <string name="cancelled">ꯀꯦꯟꯁꯦꯜ ꯇꯧꯔꯦ</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">ꯏꯔꯦ</string>
+    <string name="out_of">ꯑꯥꯎꯠ of</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    
+    <string name="processing_file">ꯄ꯭ꯔꯣꯁꯦꯁꯤꯡ ꯐꯥꯏꯜ</string>
+    <string name="current_speed">ꯍꯧꯖꯤꯛꯀꯤ ꯈꯣꯡꯖꯦꯜ</string>
+    <string name="smb_launch_error">ꯑꯗꯣꯝꯅꯥ ꯐꯥꯏꯜ ꯑꯁꯤ ꯍꯥꯡꯗꯣꯛꯅꯕꯥ ꯁ꯭ꯇꯣꯔꯦꯖꯗꯥ ꯀꯣꯄꯤ ꯇꯧꯕꯥ ꯃꯊꯧ ꯇꯥꯏ</string>
+    <string name="error_file_not_found">ꯑꯁꯣꯌꯕꯥ: ꯐꯥꯏꯜ ꯐꯪꯗ꯭ꯔꯤ</string>
+    <string name="error_io">I/O ꯑꯁꯣꯌꯕꯥ</string>
+    <string name="error_file_too_large">ꯑꯁꯣꯌꯕꯥ: ꯐꯥꯏꯜ ꯌꯥꯝꯅꯥ ꯆꯥꯎꯏ</string>
+    <string name="medium_text">ꯃꯌꯥꯏ ꯑꯣꯏꯕꯥ ꯇꯦꯛꯁ</string>
+    <string name="permission_read">ꯄꯥꯕꯥ</string>
+    <string name="permission_write">ꯏꯕꯥ</string>
+    <string name="permission_execute">ꯑꯦꯛꯁꯦꯀꯤꯎꯠ ꯇꯧꯕꯥ</string>
+    <string name="permission_owner">ꯃꯄꯨ</string>
+    <string name="permission_group">ꯒ꯭ꯔꯨꯞ</string>
+    <string name="permission_other">ꯑꯇꯣꯞꯄꯥ</string>
+    <string name="clipboard_path_copy">ꯀ꯭ꯂꯤꯄꯕꯣꯔꯗꯇꯥ ꯀꯣꯄꯤ ꯇꯧꯕꯥ ꯂꯝꯕꯤ</string>
+    <string name="service_timer">ꯃꯇꯝ ꯂꯣꯏꯔꯕꯥ</string>
+    <string name="please_wait">ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯉꯥꯏꯌꯨ</string>
+
+    <string name="cloud_connection">ꯀ꯭ꯂꯥꯎꯗ ꯀꯅꯦꯛꯁꯟ</string>
+    <string name="cloud_connection_new">ꯑꯅꯧꯕꯥ ꯀ꯭ꯂꯥꯎꯗ ꯀꯅꯦꯛꯁꯟ</string>
+    <string name="cloud_dropbox">ꯗ꯭ꯔꯣꯄꯕꯣꯛꯁ</string>
+    <string name="cloud_drive">ꯒꯨꯒꯜ ꯗ꯭ꯔꯥꯏꯚTM</string>
+    <string name="cloud_onedrive">ꯋꯥꯅꯗ꯭ꯔꯥꯏꯚ</string>
+    <string name="cloud_box">ꯕꯣꯛꯁ</string>
+    <string name="cloud_get">ꯀ꯭ꯂꯥꯎꯗ ꯄ꯭ꯂꯒꯏꯟ ꯐꯪꯎ</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">ꯑꯦꯞꯂꯤꯀꯦꯁꯟ ꯑꯃꯠꯇꯥ ꯂꯩꯇꯦ</string>
+    <string name="ftp_path">ꯁꯦꯌꯔ ꯇꯧꯔꯕꯥ ꯄꯥꯊ</string>
+    <string name="ftp_path_hint">ꯁꯦꯌꯔ ꯇꯧꯅꯕꯥ ꯗꯥꯏꯔꯦꯛꯇꯣꯔꯤꯒꯤ ꯔꯨꯠꯇꯥ ꯄꯥꯊ</string>
+    <string name="change">ꯆꯦꯟꯖ</string>
+    <string name="unknown_error">ꯑꯣꯄꯁ, ꯀꯔꯤꯒꯨꯝꯕꯥ ꯈꯔꯥ ꯑꯔꯥꯅꯕꯥ ꯑꯣꯏꯔꯦ!</string>
+
+    <string name="ftp_path_change_success">FTP ꯄꯥꯊ ꯃꯥꯌ ꯄꯥꯛꯅꯥ ꯍꯣꯡꯗꯣꯀꯈ꯭ꯔꯦ</string>
+    <string name="ftp_path_change_error_invalid">ꯑꯁꯣꯌꯕꯥ ꯄꯥꯊ</string>
+    <string name="ftp_status_no_connection">ꯀꯅꯦꯛꯁꯟ ꯂꯩꯇꯦ</string>
+    <string name="ftp_status_secure_connection">ꯁꯦꯛꯌꯨꯔ ꯀꯅꯦꯛꯁꯟ</string>
+    <string name="ftp_status_title">ꯁ꯭ꯇꯦꯇꯁ</string>
+    <string name="ftp_port">ꯄꯣꯔꯠ</string>
+    <string name="ftp_login">ꯂꯣꯒꯏꯟ</string>
+    <string name="field_empty">ꯐꯤꯜꯗ ꯑꯁꯤ ꯏꯝꯄꯣꯔꯠ ꯇꯧꯕꯥ ꯌꯥꯗꯦ</string>
+    <string name="ftp_timeout">ꯑꯥꯏꯗꯜ ꯇꯥꯏꯃꯑꯥꯎꯠ</string>
+    <string name="ftp_seconds">ꯁꯦꯀꯦꯟꯗ</string>
+    <string name="intellihide_toolbar_title">ꯏꯟꯇꯦꯂꯤꯍꯥꯏꯗ ꯇꯨꯂꯕꯥꯔ</string>
+    <string name="intellihide_toolbar_summary">ꯁ꯭ꯛꯔꯣꯜ ꯇꯧꯕꯥ ꯃꯇꯃꯗꯥ ꯇꯨꯂꯕꯥꯔ ꯑꯗꯨ ꯑꯣꯇꯣꯃꯦꯇꯤꯛ ꯑꯣꯏꯅꯥ ꯂꯣꯠꯁꯤꯜꯂꯨ</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">ꯀ꯭ꯂꯤꯄꯕꯣꯔꯗꯇꯥ ꯀꯣꯄꯤ ꯇꯧꯕꯥ</string>
+    <string name="contributors_1_summary">ꯍꯟꯗꯣꯀꯄꯥ</string>
+    <string name="contributors_2_summary">ꯑꯥꯏꯀꯟ ꯑꯃꯁꯨꯡ ꯕꯦꯅꯥꯔꯁ</string>
+    <string name="contributors_3_summary">ꯊꯤꯝ ꯏꯟꯖꯤꯟ</string>
+    <string name="contributors_4_summary">FABꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯁꯦꯠꯄꯥ</string>
+    <string name="contributors_5_summary">ꯇꯦꯕꯁꯤꯡ ꯁꯣꯏꯞ ꯇꯧꯕꯥ ꯃꯇꯃꯗꯥ ꯃꯆꯨꯒꯤ ꯇ꯭ꯔꯥꯟꯁꯤꯁꯟ</string>
+    <string name="contributors_6_summary">FTP ꯁꯔꯚꯔ</string>
+    <string name="contributors_7_summary">ꯏꯟꯇꯔꯑꯦꯛꯇꯤꯕ ꯁꯦꯜ ꯑꯃꯥ ꯐꯥꯏꯔ ꯇꯧꯕꯥ</string>
+    <string name="connection_exists">ꯀꯅꯦꯛꯁꯟ꯫ ꯍꯥꯟꯅꯅꯥ ꯂꯩꯔꯦ</string>
+
+    <string name="crypt_encrypting">ꯑꯦꯅꯛꯔꯤꯞꯇ ꯇꯧꯕꯥ</string>
+    <string name="crypt_decrypting">ꯗꯤꯛꯔꯤꯞꯇ ꯇꯧꯕꯥ</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">ꯑꯦꯅꯛꯔꯤꯞꯇ ꯇꯧꯔꯕꯥ</string>
+    <string name="crypt_decrypted">ꯗꯤꯛꯔꯤꯞꯇ ꯇꯧꯔꯕꯥ</string>
+    <string name="crypt_encrypt">ꯑꯦꯅꯛꯔꯤꯞꯇ ꯇꯧꯔꯕꯥ</string>
+    <string name="crypt_decrypt">ꯗꯤꯛꯔꯤꯞꯇ ꯇꯧꯔꯕꯥ</string>
+    <string name="operation_fail_following">ꯃꯈꯥꯗꯥ ꯄꯤꯔꯤꯕꯥ ꯐꯥꯏꯂꯁꯤꯡꯒꯤꯗꯃꯛ ꯑꯣꯄꯔꯦꯁꯟ ꯇꯧꯕꯥ ꯉꯃꯗꯦ</string>
+    <string name="crypt_pref_master_password_title">ꯃꯥꯁ꯭ꯇꯔ ꯄꯥꯁꯋꯥꯔꯗ</string>
+    <string name="crypt_pref_master_password_summary">ꯑꯦꯅꯛꯔꯤꯄꯁꯅꯒꯤꯗꯃꯛ ꯃꯥꯁ꯭ꯇꯔ ꯄꯥꯁꯋꯥꯔꯗ ꯑꯃꯥ ꯁꯦꯠ ꯇꯧꯔꯣ.
+        ꯂꯧꯊꯣꯛꯅꯕꯥ ꯏꯝꯄꯣꯔꯠ ꯇꯧꯔꯣ.</string>
+    <string name="crypt_pref_fingerprint_title">ꯐꯤꯉ꯭ꯒꯔ ꯄ꯭ꯔꯤꯟꯇ</string>
+    <string name="crypt_pref_fingerprint_summary">ꯑꯦꯅꯛꯔꯤꯄꯁꯟ ꯑꯣꯊꯦꯟꯇꯤꯀꯦꯠ ꯇꯧꯅꯕꯥ ꯐꯤꯉ꯭ꯒꯔ ꯄ꯭ꯔꯤꯟꯇ ꯁꯤꯖꯤꯟꯅꯧ</string>
+    <string name="crypt_fingerprint_no_permission">ꯐꯤꯉ꯭ꯒꯔ ꯄ꯭ꯔꯤꯟꯇꯀꯤ ꯑꯌꯥꯕꯥ ꯂꯩꯇꯦ</string>
+    <string name="crypt_fingerprint_not_enrolled">ꯐꯤꯉ꯭ꯒꯔ ꯄ꯭ꯔꯤꯟꯇ ꯑꯦꯅꯔꯣꯜ ꯇꯧꯗꯦ</string>
+    <string name="crypt_fingerprint_no_security">ꯂꯣꯀꯁ꯭ꯛꯔꯤꯟ ꯁꯦꯛꯌꯨꯔꯤꯇꯤ ꯂꯩꯇꯦ꯫ found</string>
+    <string name="crypt_warning_key">ꯄꯥꯎꯇꯥꯛ ꯄꯤꯌꯨ, ꯅꯍꯥꯛꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯁꯦꯛꯌꯨꯔꯤꯇꯤ ꯄꯦꯇꯔꯟ ꯑꯗꯨ ꯍꯣꯡꯗꯣꯀꯄꯥ ꯃꯇꯃꯗꯥ꯫
+        ꯁꯤꯁ꯭ꯇꯦꯝ ꯁꯦꯇꯤꯡꯁꯤꯡ, ꯅꯍꯥꯛꯅꯥ ꯀꯟꯇꯦꯟꯇ ꯑꯁꯤ ꯗꯤꯛꯔꯤꯞꯇ ꯇꯧꯕꯥ ꯉꯃꯂꯣꯏ.</string>
+    <string name="warning_never_show">ꯑꯃꯨꯛꯀꯥ ꯍꯟꯅꯥ ꯈꯪꯍꯜꯂꯣꯏꯗꯕꯅꯤ</string>
+    <string name="warning_confirm">ꯃꯁꯤ ꯐꯪꯂꯦ!</string>
+    <string name="crypt_encryption_fail">ꯑꯦꯅꯛꯔꯤꯞꯇ ꯇꯧꯕꯥ ꯉꯃꯗꯦ</string>
+    <string name="crypt_decryption_fail">ꯗꯤꯛꯔꯤꯞꯇ ꯇꯧꯕꯥ ꯉꯃꯗꯦ</string>
+    <string name="crypt_decryption_fail_password">ꯑꯔꯥꯅꯕꯥ ꯄꯥꯁꯋꯥꯔꯗ!</string>
+    <string name="crypt_fingerprint_authenticate">ꯃꯈꯥ ꯆꯠꯊꯅꯕꯥ ꯁꯦꯟꯁꯔ ꯇꯆ</string>
+    <string name="authenticate_password">ꯄꯥꯁꯋꯥꯔꯗ ꯑꯦꯟꯇꯔ ꯇꯧꯔꯣ</string>
+
+    <string name="sidebar_preferences">ꯁꯥꯏꯗꯕꯥꯔ</string>
+    <string name="sidebar_quick_access_title">ꯁꯥꯏꯗꯕꯥꯔ ꯀꯨꯏꯛ ꯑꯦꯛꯁꯦꯁ</string>
+    <string name="show_quick_access_pref_title">ꯊꯨꯅꯥ ꯑꯦꯛꯁꯦꯁ ꯇꯧꯕꯥ ꯎꯠꯄꯥ</string>
+    <string name="show_quick_access_pref">ꯊꯨꯅꯥ ꯑꯦꯛꯁꯦꯁ ꯇꯧꯕꯥ</string>
+    <string name="directory">ꯗꯥꯏꯔꯦꯛꯇꯣꯔꯤ</string>
+
+    <string name="sidebar_bookmarks_title">ꯁꯥꯏꯗꯕꯥꯔ ꯕꯨꯀꯃꯥꯔꯀꯁꯤꯡ</string>
+    <string name="show_bookmarks_pref_title">ꯕꯨꯀꯃꯥꯔꯀꯁꯤꯡ ꯎꯠꯄꯥ</string>
+    <string name="show_bookmarks_pref">ꯕꯨꯀꯃꯥꯔꯀꯁꯤꯡ</string>
+    <string name="create_bookmark">ꯕꯨꯀꯃꯥꯔꯛ ꯁꯦꯝꯕꯥ</string>
+    <string name="edit_bookmark">ꯕꯨꯀꯃꯥꯔꯛ</string>
+    <string name="question_delete_bookmark">ꯕꯨꯀꯃꯥꯔꯛ ꯃꯨꯠꯊꯠꯄꯥ?</string>
+
+    <string name="cloud_error_plugin">ꯑꯉꯀꯄꯥ ꯀ꯭ꯂꯥꯎꯗ ꯄ꯭ꯂꯒꯏꯟ ꯐꯪꯗ꯭ꯔꯤ꯫ ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯄ꯭ꯂꯦ ꯁ꯭ꯇꯣꯔꯗꯒꯤ ꯗꯥꯎꯅꯂꯣꯗ ꯇꯧꯕꯤꯌꯨ꯫</string>
+    <string name="cloud_error_failed_restart">ꯀꯅꯦꯛꯁꯟ ꯂꯣꯗ ꯇꯧꯕꯥ ꯉꯃꯗꯦ꯫
+        ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯑꯦꯃꯦꯖ ꯀ꯭ꯂꯥꯎꯗ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯥꯡꯗꯣꯀꯎ.</string>
+    <string name="cloud_remove">ꯑꯗꯣꯝꯅꯥ ꯀ꯭ꯂꯥꯎꯗ ꯀꯅꯦꯛꯁꯟ ꯑꯗꯨ ꯂꯧꯊꯣꯀꯄꯥ ꯄꯥꯝꯕꯤꯕ꯭ꯔꯥ?</string>
+    <string name="cloud_fail_authenticate">ꯑꯣꯊꯦꯟꯇꯤꯀꯦꯠ ꯇꯧꯕꯥ ꯉꯃꯗꯦ</string>
+    <string name="cloud_share_copied">ꯁꯦꯌꯔ ꯇꯧꯕꯥ ꯌꯥꯕꯥ ꯂꯤꯉ꯭ꯛ ꯀ꯭ꯂꯤꯄꯕꯣꯔꯗꯇꯥ ꯀꯣꯄꯤ ꯇꯧꯔꯦ</string>
+    <string name="copy_low_memory">ꯃꯗꯨ ​​ꯂꯣꯏꯔꯦ꯫ ꯃꯦꯃꯣꯔꯤ, ꯆꯥꯅꯕꯤꯗꯨꯅꯥ RAM ꯈꯔꯗꯤ ꯀ꯭ꯂꯤꯌꯔ ꯇꯧꯕꯤꯌꯨ</string>
+    <string name="cloud_token_lost">ꯇꯣꯀꯦꯟ ꯃꯥꯡꯈ꯭ꯔꯦ, ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯁꯥꯏꯟ-ꯏꯟ ꯇꯧꯕꯤꯌꯨ</string>
+    <string name="monofont">ꯃꯣꯅꯣꯁ꯭ꯄꯦꯁ ꯐꯣꯟꯇ</string>
+    <string name="showHeaders">ꯍꯦꯗꯔꯁꯤꯡ ꯎꯠꯄꯥ</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">ꯑꯥꯏꯇꯦꯝ ꯑꯃꯠꯇꯥ ꯂꯩꯇꯦ</string>
+	<string name="item">ꯑꯥꯏꯇꯦꯝ</string>
+	<string name="items">ꯑꯥꯏꯇꯦꯃꯁꯤꯡ</string>
+	
+	<string name="byte_singular">ꯕꯥꯏꯠ</string>
+	<string name="bytes">ꯕꯥꯏꯠ</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">ꯐꯥꯏꯂꯒꯤ ꯃꯃꯤꯡ ꯑꯃꯥ ꯂꯩꯒꯗꯕꯅꯤ</string>
+    <string name="add_item">ꯑꯥꯏꯇꯦꯝ ꯍꯥꯄꯆꯤꯜꯂꯨ</string>
+    <string name="failed_smb_decrypt_path">SMB ꯀꯅꯦꯛꯁꯟ ꯂꯣꯗ ꯇꯧꯕꯥ ꯉꯃꯗꯦ</string>
+    <string name="failed_cloud_new_connection">ꯑꯅꯧꯕꯥ ꯀ꯭ꯂꯥꯎꯗ ꯀꯅꯦꯛꯁꯟ ꯍꯥꯄꯆꯤꯅꯕꯥ ꯉꯃꯗꯦ</string>
+    <string name="failed_cloud_api_key">ꯐꯦꯜ ꯇꯧꯔꯦ꯫ ꯑꯣꯊꯦꯟꯇꯤꯀꯦꯠ ꯇꯧꯕꯥ ꯀ꯭ꯂꯥꯎꯗ ꯄ꯭ꯂꯒ-ꯏꯟ</string>
+
+    <string name="local_inet_addr_error">ꯂꯣꯀꯦꯜ ꯏꯅꯦꯠ ꯑꯦꯗ꯭ꯔꯦꯁ</string>
+    <string name="intent_save_as">ꯁꯦꯚ ꯇꯧꯕꯥ...</string>
+    <string name="go">ꯒꯣ</string>
+    <string name="advanced">ꯑꯦꯗꯚꯥꯟꯁ</string>
+    <string name="typeable_paths_title">ꯀꯁ꯭ꯇꯝ ꯄꯥꯊꯁꯤꯡ</string>
+    <string name="typeable_paths_summary">ꯀꯁ꯭ꯇꯝ ꯄꯥꯊ ꯑꯃꯥ ꯇꯥꯏꯞ ꯇꯧꯅꯕꯥ ꯄꯥꯊ ꯕꯥꯔ ꯂꯣꯡ ꯄ꯭ꯔꯦꯁ ꯇꯧꯕꯤꯌꯨ</string>
+    <string name="send_email_to">ꯏ-ꯃꯦꯜ ꯑꯃꯥ ꯊꯥꯕꯤꯌꯨ</string>
+
+    <string name="text_editor">ꯇꯦꯛꯁꯠ ꯑꯦꯗꯤꯇꯔ ꯁꯦꯇꯤꯡꯁꯤꯡ</string>
+    <string name="preference_newstack_title">ꯐꯥꯏꯂꯁꯤꯡ ꯑꯅꯧꯕꯥ ꯊꯕꯛ ꯑꯃꯥ ꯑꯣꯏꯅꯥ ꯍꯥꯡꯗꯣꯀꯎ</string>
+    <string name="preference_newstack_summary">ꯇꯣꯉꯥꯅꯕꯥ ꯊꯕꯀꯁꯤꯡꯗꯥ ꯐꯥꯏꯂꯁꯤꯡ ꯍꯥꯡꯗꯣꯀꯄꯥ ꯌꯥꯍꯜꯂꯤ꯫ ꯃꯈꯣꯌꯁꯤꯡ ꯑꯁꯤ ꯁꯤꯁ꯭ꯇꯦꯝ ꯔꯤꯁꯦꯟꯇꯁꯤꯡꯒꯤ ꯁ꯭ꯛꯔꯤꯅꯗꯒꯤ ꯑꯦꯛꯁꯦꯁ ꯇꯧꯕꯤꯌꯨ꯫</string>
+    
+    <string name="developers">ꯗꯤꯚꯦꯂꯄꯔꯁꯤꯡ</string>
+    <string name="no_bitcoin_app">ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯕꯤꯇꯀꯌꯦꯠ ꯋꯥꯂꯦꯠ ꯑꯦꯞ ꯑꯃꯥ ꯏꯅꯁ꯭ꯇꯣꯜ ꯇꯧꯕꯤꯌꯨ</string>
+    <string name="channel_name_normal">ꯑꯉꯀꯄꯥ ꯅꯣꯇꯤꯐꯤꯀꯦꯁꯅꯁꯤꯡ</string>
+    <string name="channel_description_normal">ꯑꯉꯀꯄꯥ ꯐꯥꯏꯜ ꯃꯦꯅꯦꯖꯔꯒꯤ ꯅꯣꯇꯤꯐꯤꯀꯦꯁꯅꯁꯤꯡ</string>
+    <string name="channel_name_ftp">ꯑꯉꯀꯄꯥ FTP ꯁꯔꯚꯥꯔ</string>
+    <string name="channel_description_ftp">ꯑꯉꯀꯄꯥ ꯐꯥꯏꯜ꯫ ꯃꯦꯅꯦꯖꯔ FTP ꯁꯔꯚꯔ\'ꯒꯤ ꯅꯣꯇꯤꯐꯤꯀꯦꯁꯅꯁꯤꯡ</string>
+
+    
+    <string name="processing">ꯄ꯭ꯔꯣꯁꯦꯁꯤꯡ...</string>
+    <string name="failed_no_connection">ꯐꯥꯏꯂꯁꯤꯡ ꯂꯣꯗ ꯇꯧꯕꯥ ꯉꯃꯗꯦ꯫ ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯀꯅꯦꯛꯁꯟ ꯑꯗꯨ ꯆꯦꯛ ꯇꯧꯕꯤꯌꯨ.</string>
+
+    
+	<string name="scp_connection">SCP/SFTP ꯀꯅꯦꯛꯁꯟ</string>
+    <string name="ftp_connection">FTP ꯀꯅꯦꯛꯁꯟ</string>
+    <string name="ftps_connection">SSL ꯀꯅꯦꯛꯁꯅꯒꯤ ꯃꯊꯛꯇꯥ FTP</string>
+    <string name="scp_port">ꯄꯣꯔꯠ</string>
+    <string name="ssh_host_key_verification_prompt">ꯍꯣꯁ꯭ꯠ \'%1$s\'ꯒꯤ ꯑꯣꯊꯦꯟꯇꯤꯁꯤꯇꯤ ꯂꯤꯡꯈꯠꯄꯥ ꯉꯃꯗꯦ꯫\n\n%2$s ꯀꯤ ꯐꯤꯉ꯭ꯒꯔꯞꯔꯤꯟꯇ ꯑꯁꯤ %3$sꯅꯤ꯫\n\nꯀꯅꯐꯔꯝ ꯇꯧꯅꯕꯥ ꯆꯥꯅꯕꯤꯗꯨꯅꯥ \"ꯍꯣꯌ\" ꯇꯦꯞ ꯇꯧꯕꯤꯌꯨ ꯁꯛꯇꯥꯛ; ꯅꯠꯔꯕꯗꯤ, ꯆꯥꯅꯕꯤꯗꯨꯅꯥ \"ꯅꯠꯇꯦ\" ꯇꯦꯞ ꯇꯧꯕꯤꯌꯨ.</string>
+    <string name="ssh_host_key_verification_prompt_title">ꯍꯣꯁ꯭ꯠ ꯚꯦꯔꯤꯐꯥꯏ ꯇꯧꯕꯤꯌꯨ</string>
+    <string name="ssh_select_pem_button">SSH ꯄ꯭ꯔꯥꯏꯚꯦꯠ ꯀꯤ</string>
+    <string name="ssh_pem_key_parse_error">ꯈꯜꯂꯕꯥ PEM ꯄꯥꯕꯥ ꯉꯃꯗꯦ: %s</string>
+    <string name="password_unchanged">(ꯑꯍꯣꯡꯕꯥ ꯂꯩꯇꯕꯥ)</string>
+    <string name="ssh_authentication_failure_password">ꯂꯣꯒꯟ ꯐꯦꯏꯂꯔ: ꯁꯞꯂꯥꯏ ꯇꯧꯔꯕꯥ ꯌꯨꯖꯔꯅꯦꯝ ꯑꯃꯁꯨꯡ ꯄꯥꯁꯋꯥꯔꯗꯀꯥ ꯂꯣꯌꯅꯅꯥ ꯑꯣꯊꯦꯟꯇꯤꯀꯦꯠ ꯇꯧꯕꯥ ꯉꯃꯗꯦ.</string>
+    <string name="ssh_authentication_failure_key">ꯂꯣꯒꯟ ꯐꯦꯏꯂꯔ: ꯁꯞꯂꯥꯏ ꯇꯧꯔꯕꯥ ꯌꯨꯖꯔꯅꯦꯝ ꯑꯃꯁꯨꯡ ꯄ꯭ꯔꯥꯏꯚꯦꯠ ꯀꯤꯒꯥ ꯂꯣꯌꯅꯅꯥ ꯑꯣꯊꯦꯟꯇꯤꯀꯦꯠ ꯇꯧꯕꯥ ꯉꯃꯗꯦ꯫</string>
+    <string name="ssh_connect_failed">%1$ꯒꯥ ꯀꯅꯦꯛꯇ ꯇꯧꯕꯥ ꯉꯃꯗꯦ꯫ s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ꯋꯥꯔꯅꯤꯡ: ꯔꯤꯃꯣꯠ ꯍꯣꯁ꯭ꯠ ꯑꯥꯏꯗꯦꯟꯇꯤꯐꯤꯀꯦꯁꯟ ꯍꯣꯡꯂꯦ!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">ꯀꯅꯥꯒꯨꯝꯕꯥ ꯑꯃꯅꯥ ꯑꯁꯣꯅꯕꯥ ꯊꯕꯛ ꯑꯃꯥ ꯇꯧꯔꯤ ꯍꯥꯌꯕꯁꯤ ꯑꯣꯏꯊꯣꯀꯄꯥ ꯌꯥꯏ!\n\nꯀꯅꯥꯒꯨꯝꯕꯥ ꯑꯃꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯋꯥꯐꯝ ꯇꯥꯕꯥ ꯌꯥꯏ꯫ ꯍꯧꯖꯤꯛ (ꯃꯦꯟ-ꯏꯟ-ꯗꯤ-ꯃꯤꯗꯜ ꯑꯦꯇꯦꯛ)! ꯍꯣꯁ꯭ꯠ ꯀꯤ ꯑꯁꯤ ꯍꯧꯖꯤꯛ ꯍꯣꯡꯗꯣꯀꯈ꯭ꯔꯕꯁꯨ ꯑꯣꯏꯊꯣꯀꯄꯥ ꯌꯥꯏ꯫ ꯔꯤꯃꯣꯠ ꯍꯣꯁ꯭ꯇꯅꯥ ꯊꯥꯔꯀꯄꯥ ꯄꯕ꯭ꯂꯤꯛ ꯀꯤꯒꯤ ꯐꯤꯉ꯭ꯒꯔꯞꯔꯤꯟꯇ ꯑꯗꯨ Amaze ꯗꯥ ꯊꯝꯂꯤꯕꯥ ꯑꯗꯨꯒꯥ ꯃꯥꯟꯅꯗꯦ꯫\n\nꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯁꯤꯁ꯭ꯇꯦꯝ ꯑꯦꯗꯃꯤꯅꯤꯁ꯭ꯠꯔꯦꯇꯔꯒꯥ ꯄꯥꯎ ꯐꯥꯑꯣꯅꯕꯤꯌꯨ ꯅꯠꯔꯒꯥ ꯁꯔꯚꯔꯗꯥ ꯃꯈꯥ ꯇꯥꯅꯥ ꯀꯅꯦꯛꯇ ꯇꯧꯅꯕꯥ ꯑꯅꯧꯕꯥ ꯀꯅꯦꯛꯁꯟ ꯑꯃꯥ ꯁꯦꯠ ꯇꯧꯕꯤꯌꯨ.</string>
+    <string name="ssh_key_prompt_passphrase">ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯀꯤ ꯄꯥꯁꯐ꯭ꯔꯦꯖ ꯑꯦꯟꯇꯔ ꯇꯧꯕꯤꯌꯨ .</string>
+    <string name="add_shortcut_not_supported_by_launcher">ꯁꯣꯔꯇꯀꯠ ꯁꯦꯝꯕꯥ ꯑꯁꯤ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯟꯆꯔꯅꯥ ꯁꯄꯣꯔꯠ ꯇꯧꯗꯦ꯫</string>
+    
+    <string name="select_color_config">ꯀꯂꯔ ꯀꯅꯐꯤꯒ</string>
+    <string name="customize">ꯀꯁ꯭ꯇꯃꯥꯏꯖ ꯇꯧꯕꯥ</string>
+    <string name="custom">ꯀꯁ꯭ꯇꯝ</string>
+    <string name="preselected_configs_title">ꯃꯃꯥꯡꯗꯥ ꯈꯅꯒꯠꯂꯕꯥ ꯀꯅꯐꯤꯒꯁꯤꯡ</string>
+    <string name="orange">ꯑꯣꯔꯦꯟꯖ</string>
+    <string name="blue">ꯅꯤꯜ</string>
+    <string name="green">ꯒ꯭ꯔꯤꯟ</string>
+    <string name="password_no_match">ꯄꯥꯁꯋꯥꯔꯗ ꯑꯁꯤ ꯃꯥꯟꯅꯗꯦ</string>
+    <string name="deselect_all">ꯄꯨꯝꯅꯃꯛ ꯈꯅꯒꯠꯂꯨ</string>
+    <string name="filename">ꯐꯥꯏꯂꯅꯦꯝ</string>
+    <string name="compress_file_suggest_zip_extension">ꯐꯥꯏꯜ ꯑꯦꯛꯁꯇꯦꯟꯁꯟ ꯑꯣꯏꯅꯥ \".zip\" ꯁꯤꯖꯤꯟꯅꯅꯕꯥ ꯄꯥꯎꯇꯥꯛ ꯄꯤꯔꯤ꯫</string>
+    <string name="about_amaze">ꯑꯦꯟꯗ꯭ꯔꯣꯏꯗꯀꯤꯗꯃꯛ ꯃꯦꯇꯔꯤꯑꯦꯜ ꯗꯤꯖꯥꯏꯟ ꯐꯥꯏꯜ ꯃꯦꯅꯦꯖꯔ</string>
+    <string name="license">ꯂꯥꯏꯁꯦꯟꯁ</string>
+    <string name="libraries">ꯂꯥꯏꯕ꯭ꯔꯦꯔꯤꯁꯤꯡ</string>
+    <string name="password_repeat">ꯄꯥꯁꯋꯥꯔꯗ ꯍꯟꯖꯤꯟ ꯍꯟꯖꯤꯟ ꯇꯧꯔꯣ</string>
+    <string name="create_file_suggest_txt_extension">ꯐꯥꯏꯜ ꯑꯦꯛꯁꯇꯦꯟꯁꯟ ꯑꯣꯏꯅꯥ \".txt\" ꯁꯤꯖꯤꯟꯅꯅꯕꯥ ꯄꯥꯎꯇꯥꯛ ꯄꯤꯔꯤ꯫</string>
+    <string name="ssh_select_pem">ꯑꯣꯊꯦꯟꯇꯤꯀꯦꯁꯅꯒꯤꯗꯃꯛ ꯄ꯭ꯔꯥꯏꯚꯦꯠ ꯀꯤ ꯈꯜꯂꯨ</string>
+    <string name="ssh_key_invalid_passphrase">ꯑꯁꯣꯌꯕꯥ ꯀꯤ ꯄꯥꯁꯐ꯭ꯔꯦꯖ.</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM ꯗꯤꯛꯔꯤꯞꯇ ꯇꯧꯅꯕꯥ ꯆꯠꯅꯕꯥ ꯌꯥꯕꯥ ꯗꯤꯀꯣꯗꯔ ꯑꯃꯠꯇꯥ ꯂꯩꯇꯦ꯫</string>
+    <string name="encryption_fail_copy">ꯗꯦꯇꯥꯕꯦꯖꯗꯥ ꯑꯦꯅꯛꯔꯤꯄꯁꯟ ꯑꯦꯟꯠꯔꯤ ꯑꯄꯗꯦꯠ ꯇꯧꯕꯥ ꯉꯃꯗꯦ</string>
+    <string name="extracted">ꯑꯦꯛꯁꯠꯔꯦꯛꯇ ꯇꯧꯔꯕꯥ</string>
+    <string name="compressed">ꯀꯝꯞꯔꯦꯁ ꯇꯧꯔꯕꯥ</string>
+    <string name="processed">ꯄ꯭ꯔꯣꯁꯦꯁ ꯇꯧꯔꯕꯥ</string>
+    <string name="no_obtainable_info">ꯐꯥꯏꯜ ꯑꯁꯤꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯏꯅꯐꯣꯔꯃꯦꯁꯟ ꯑꯃꯠꯇꯥ ꯂꯩꯇꯦ</string>
+    <string name="reopen_from_source">Can\'t, ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯍꯧꯈꯤꯕꯥ ꯑꯦꯄꯇꯒꯤ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯥꯡꯗꯣꯀꯎ</string>
+    <string name="no_file_error">ꯀꯔꯤꯒꯨꯝꯕꯥ ꯑꯃꯠꯇꯥ ꯁꯣꯀꯈꯤꯗꯦ, ꯍꯥꯡꯗꯣꯛꯀꯗꯕꯥ ꯀꯔꯤꯁꯨ ꯂꯩꯇꯦ</string>
+    <string name="file_too_long">The ꯐꯥꯏꯜ ꯑꯁꯤ ꯌꯥꯝꯅꯥ ꯁꯥꯡꯏ ꯑꯃꯁꯨꯡ ꯑꯦꯗꯤꯠ ꯇꯧꯕꯥ ꯌꯥꯗꯦ, ꯑꯗꯨꯝ ꯑꯣꯏꯅꯃꯛ ꯅꯍꯥꯛꯅꯥ ꯑꯍꯥꯅꯕꯥ %d ꯆꯦꯛꯔꯦꯇꯔꯁꯤꯡ ꯄꯥꯕꯥ ꯌꯥꯏ</string>
+    <string name="file_read_only">ꯍꯥꯡꯗꯣꯛꯂꯤꯕꯥ ꯐꯥꯏꯜ ꯑꯁꯤ ꯄꯥꯕꯥ ꯈꯛꯇꯅꯤ꯫</string>
+    <string name="got_it">ꯃꯁꯤ ꯐꯪꯂꯦ!</string>
+    <string name="encrypt_file_save_as">ꯑꯦꯅꯛꯔꯤꯞꯇ ꯇꯧꯔꯕꯥ ꯁꯦꯚ ꯇꯧꯔꯣ ꯐꯥꯏꯜ ꯑꯦꯁ꯭...</string>
+    <string name="encrypt_folder_save_as">ꯑꯦꯅꯛꯔꯤꯞꯇ ꯇꯧꯔꯕꯥ ꯐꯣꯜꯗꯔ ꯑꯗꯨ ꯁꯦꯚ ꯇꯧꯕꯥ...</string>
+    <string name="encrypt_option_use_aze">ꯑꯃꯦꯖ ꯑꯦꯅꯛꯔꯤꯄꯁꯟ ꯐꯣꯔꯃꯦꯠ</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[ꯁꯤꯖꯤꯟꯅꯧ
+        <p>AESCrypt ꯑꯁꯤ AES ꯑꯦꯅꯛꯔꯤꯄꯁꯅꯗꯥ ꯌꯨꯝꯐꯝ ꯑꯣꯏꯕꯥ ꯑꯣꯄꯟ ꯁꯣꯔꯁ ꯐꯥꯏꯜ ꯑꯦꯅꯛꯔꯤꯄꯁꯟ ꯐꯣꯔꯃꯦꯠ ꯑꯃꯅꯤ꯫ ꯃꯁꯤ ꯄꯣꯔꯇꯦꯕꯂꯁꯨ ꯑꯣꯏ, ꯑꯇꯣꯞꯄꯥ ꯄ꯭ꯂꯦꯠꯐꯣꯔꯃꯁꯤꯡꯗꯥ AESCrypt ꯄ꯭ꯔꯣꯒ꯭ꯔꯥꯃꯁꯤꯡꯒꯥ ꯂꯣꯌꯅꯅꯥ ꯗꯤꯛꯔꯤꯞꯇ ꯇꯧꯕꯥ ꯌꯥꯏ꯫</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">ꯑꯦ.ꯏ.ꯑꯦꯁ.ꯀ꯭ꯔꯤꯞꯇ ꯋꯦꯕꯁꯥꯏꯠ</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[ꯍꯥꯌꯕꯁꯤꯅꯤ꯫
+        <p>Amaze\'s ꯑꯦꯅꯛꯔꯤꯄꯁꯟ ꯐꯣꯔꯃꯦꯠ ꯑꯁꯤꯁꯨ AES ꯑꯦꯅꯛꯔꯤꯄꯁꯅꯗꯥ ꯌꯨꯝꯐꯝ ꯑꯣꯏ; ꯑꯗꯨꯕꯨ AESCrypt ꯐꯣꯔꯃꯦꯇꯇꯒꯤ ꯇꯣꯉꯥꯟꯅꯥ, ꯃꯁꯤ ꯗꯤꯚꯥꯏꯁ ꯑꯁꯤꯅꯥ ꯈꯛꯇꯅꯥ ꯗꯤꯛꯔꯤꯞꯇ ꯇꯧꯕꯥ ꯌꯥꯏ; ꯃꯁꯤꯗꯁꯨ ꯅꯠꯇꯅꯥ ꯅꯍꯥꯛꯅꯥ ꯗꯤꯚꯥꯏꯁ ꯑꯁꯤꯗꯒꯤ Amaze File Manager ꯑꯅꯏꯅꯁ꯭ꯇꯣꯜ ꯇꯧꯔꯣꯏꯗꯕꯅꯤ ꯅꯠꯔꯒꯥ ꯅꯍꯥꯛꯅꯥ ꯁ꯭ꯛꯔꯤꯟ ꯂꯣꯛ ꯇꯧꯕꯒꯤ ꯃꯑꯣꯡ ꯑꯗꯨ ꯍꯣꯡꯗꯣꯛꯂꯣꯏꯗꯕꯅꯤ, ꯅꯠꯔꯕꯗꯤ ꯅꯍꯥꯛꯅꯥ ꯑꯦꯅꯛꯔꯤꯞꯇ ꯇꯧꯔꯕꯥ ꯐꯥꯏꯜ ꯑꯗꯨ ꯔꯤꯀꯣꯚꯔ ꯇꯧꯕꯒꯤ ꯃꯑꯣꯡ ꯑꯃꯠꯇꯥ ꯂꯩꯔꯣꯏ꯫</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">ꯑꯦꯅꯛꯔꯤꯞꯇ ꯇꯧꯔꯕꯥ ꯐꯥꯏꯂꯁꯤꯡꯅꯥ ꯐꯥꯏꯜ ꯑꯦꯛꯁꯇꯦꯟꯁꯟ ꯑꯣꯏꯅꯥ \".aze\" ꯁꯤꯖꯤꯟꯅꯒꯗꯕꯅꯤ꯫</string>
+    <string name="encrypt_file_must_end_with_aes">ꯑꯦꯅꯛꯔꯤꯞꯇ ꯇꯧꯔꯕꯥ ꯐꯥꯏꯂꯁꯤꯡꯅꯥ ꯐꯥꯏꯜ ꯑꯦꯛꯁꯇꯦꯟꯁꯟ ꯑꯣꯏꯅꯥ \".aes\" ꯁꯤꯖꯤꯟꯅꯒꯗꯕꯅꯤ꯫</string>
+    <string name="error_aescrypt_decrypt_failed">ꯗꯤꯛꯔꯤꯞꯇ ꯇꯧꯕꯥ ꯉꯃꯗꯦ꯫ \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">ꯐꯥꯏꯜ ꯑꯣꯚꯔꯔꯥꯏꯠ ꯇꯧꯕꯥ ꯉꯃꯗꯦ.</string>
+    <string name="saved_single_file">ꯐꯥꯏꯜ ꯑꯁꯤ \'%s\' ꯍꯥꯌꯅꯥ ꯁꯦꯚ ꯇꯧꯔꯦ꯫</string>
+    <string name="saved_multi_files">%d ꯐꯥꯏꯂꯁꯤꯡ ꯁꯦꯚ ꯇꯧꯈ꯭ꯔꯦ꯫</string>
+    <string name="create_hidden_file_warn">ꯁꯦꯃꯈꯤꯕꯥ ꯐꯥꯏꯜ ꯑꯗꯨ ꯐꯥꯏꯜ ꯂꯤꯁ꯭ꯇꯇꯥ ꯂꯣꯠꯁꯤꯅꯒꯅꯤ꯫</string>
+    <string name="grant_apkinstall_permission">ꯑꯦꯄꯁꯤꯡꯅꯥ ꯑꯦꯄꯁꯤꯡ ꯃꯈꯥ ꯆꯠꯊꯅꯕꯥ ꯑꯌꯥꯕꯥ ꯃꯊꯧ ꯇꯥꯏ꯫</string>
+    <string name="time_remaining">ꯂꯦꯃꯍꯧꯔꯤꯕꯥ ꯃꯇꯝ</string>
+    <string name="transfer_rate">ꯇ꯭ꯔꯥꯟꯁꯐꯔ ꯔꯦꯠ</string>
+    <string name="unknown">ꯃꯃꯤꯡ ꯂꯩꯔꯕꯥ</string>
+    <string name="multiple_invalid_archive_entries">ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤꯗꯥ ꯂꯩꯕꯥ ꯐꯥꯏꯜ ꯈꯔꯗꯤ ꯂꯧꯊꯣꯀꯄꯥ ꯉꯃꯗꯦ; ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤꯗꯥ ꯑꯃꯥꯡ-ꯑꯇꯥ ꯊꯣꯀꯄꯥ ꯌꯥꯏ ꯅꯠꯠꯔꯒꯥ ꯃꯥꯂꯤꯁꯤꯌꯁ ꯁꯣꯔꯁꯇꯒꯤ ꯂꯥꯀꯄꯥ ꯌꯥꯏ꯫</string>
+    <string name="saf_otg_explanation">ꯍꯧꯖꯤꯛ ꯅꯍꯥꯛꯅꯥ ꯁꯦꯛꯌꯨꯔꯤꯇꯤꯒꯤ ꯃꯔꯃꯁꯤꯡꯅꯥ ꯑꯦꯟꯗ꯭ꯔꯣꯏꯗꯀꯤ ꯐꯥꯏꯂꯁꯤꯁ꯭ꯇꯦꯃꯗꯥ ꯆꯠꯀꯅꯤ꯫ ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯂꯦꯃꯍꯧꯔꯤꯕꯥ ꯂꯤꯁ꯭ꯠ ꯑꯗꯨꯗꯒꯤ USB ꯗꯤꯚꯥꯏꯁ ꯑꯗꯨ ꯈꯜꯂꯨ꯫</string>
+    <string name="donation_thanks">ꯗꯥꯟ ꯇꯧꯕꯒꯤꯗꯃꯛ ꯊꯥꯒꯠꯆꯔꯤ, ꯃꯁꯤꯅꯥ ꯑꯩꯈꯣꯌꯕꯨ ꯊꯧꯅꯥ ꯍꯥꯞꯂꯤ! (:</string>
+    <string name="enable_marquee_filename">ꯐꯥꯏꯂꯒꯤ ꯃꯃꯤꯡꯁꯤꯡꯒꯤꯗꯃꯛ ꯃꯥꯔꯛꯌꯨꯏ ꯏꯐꯦꯛꯇ ꯏꯅꯦꯕꯜ ꯇꯧꯕꯥ</string>
+    <string name="archive_password_prompt">ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤ ꯄꯥꯁꯋꯥꯔꯗ ꯑꯦꯟꯇꯔ ꯇꯧꯕꯤꯌꯨ:</string>
+    
+    <string name="cannot_extract_archive">ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤ ꯂꯧꯊꯣꯀꯄꯥ ꯉꯃꯗꯦ \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">ꯗꯤꯅꯠꯇꯦ open archive \"%s\".ꯅꯠꯔꯒꯥ ꯑꯩꯈꯣꯌꯅꯥ ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤ ꯍꯥꯡꯗꯣꯀꯄꯥ ꯉꯃꯗꯦ, ꯅꯠꯔꯒꯥ ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤꯗꯥ ꯑꯃꯥꯡ-ꯑꯇꯥ ꯊꯣꯀꯈꯤ꯫</string>
+    <string name="close">ꯀ꯭ꯂꯣꯖ</string>
+    <string name="bookmark_exists">ꯕꯨꯀꯃꯥꯔꯛ ꯂꯩ</string>
+    <string name="hide_media">ꯃꯤꯗꯤꯌꯥ ꯕ꯭ꯔꯥꯎꯖꯔꯁꯤꯡꯗꯒꯤ ꯂꯣꯠꯁꯤꯜꯂꯨ</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ꯀꯅꯥꯒꯨꯝꯕꯥ ꯑꯃꯅꯥ ꯑꯁꯣꯅꯕꯥ ꯊꯕꯛ ꯑꯃꯥ ꯇꯧꯔꯤ ꯍꯥꯌꯕꯁꯤ ꯑꯣꯏꯊꯣꯀꯄꯥ ꯌꯥꯏ!\n\nꯀꯅꯥꯒꯨꯝꯕꯥ ꯑꯃꯅꯥ ꯍꯧꯖꯤꯛ ꯅꯍꯥꯛꯀꯤ ꯋꯥꯐꯝ ꯇꯥꯕꯥ ꯌꯥꯏ (ꯃꯦꯟ-ꯏꯟ-ꯗꯤ-ꯃꯤꯗꯜ ꯑꯦꯇꯦꯛ)!ꯃꯁꯤꯁꯨ ꯑꯣꯏꯊꯣꯀꯄꯥ ꯌꯥꯏ ꯃꯗꯨꯗꯤ ꯍꯣꯁ꯭ꯠ ꯀꯤ ꯑꯁꯤ ꯍꯧꯖꯤꯛ ꯍꯣꯡꯗꯣꯀꯈꯤꯕꯅꯤ꯫ꯐꯤꯉ꯭ꯒꯔꯞꯔꯤꯟꯇ ꯃꯔꯃꯗꯤ ꯔꯤꯃꯣꯠ ꯍꯣꯁ꯭ꯇꯅꯥ ꯊꯥꯔꯀꯄꯥ ꯄꯕ꯭ꯂꯤꯛ ꯀꯤ ꯑꯗꯨ Amaze ꯗꯥ ꯊꯝꯂꯤꯕꯥ ꯑꯗꯨꯒꯥ ꯃꯥꯟꯅꯗꯦ꯫\n\nꯅꯍꯥꯛꯅꯥ ꯍꯣꯁ꯭ꯠ ꯐꯤꯉ꯭ꯒꯔꯞꯔꯤꯟꯇ ꯑꯄꯗꯦꯠ ꯇꯧꯕꯗꯥ ꯃꯈꯥ ꯆꯠꯊꯕꯥ ꯌꯥꯏ ꯅꯠꯔꯒꯥ SSH ꯀꯅꯦꯛꯁꯟ ꯁꯦꯇꯤꯡꯁꯤꯡ ꯑꯄꯗꯦꯠ ꯇꯧꯕꯥ ꯀꯦꯟꯁꯦꯜ ꯇꯧꯕꯥ ꯌꯥꯏ꯫</string>
+    <string name="update_host_key">ꯍꯣꯁ꯭ꯠ ꯀꯤ ꯑꯄꯗꯦꯠ ꯇꯧꯕꯥ</string>
+    <string name="cancel_recommended">ꯀꯦꯟꯁꯦꯜ ꯇꯧꯕꯥ (ꯔꯦꯀꯃꯦꯟꯗ ꯇꯧꯔꯕꯥ)</string>
+    
+    
+    <string name="failed_install_apk">ꯏꯅꯁ꯭ꯇꯣꯜ ꯇꯧꯕꯥ ꯉꯃꯗꯦ</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">ꯏꯟꯇꯔꯅꯦꯜ ꯁ꯭ꯇꯣꯔꯦꯖ</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD ꯀꯥꯔꯗ</string>
+    <string name="choose_folder">ꯐꯣꯜꯗꯔ ꯑꯁꯤ ꯈꯜꯂꯨ</string>
+    
+    <string name="some_files_failed_invalid_operation">ꯐꯥꯏꯜ ꯈꯔꯗꯤ ꯑꯁꯣꯌꯕꯥ ꯂꯩꯕꯅꯥ ꯃꯔꯝ ꯑꯣꯏꯗꯨꯅꯥ ꯁꯣꯌꯗꯅꯥ ꯂꯩꯔꯦ꯫ ꯑꯣꯄꯔꯦꯁꯟ</string>
+    <string name="ftp_server_prompt_connect_to_network">ꯅꯦꯇꯋꯥꯔꯛ ꯑꯃꯒꯥ ꯀꯅꯦꯛꯇ ꯇꯧꯕꯥ ꯅꯠꯠꯔꯒꯥ AP ꯏꯅꯦꯕꯜ ꯇꯧꯕꯥ</string>
+    <string name="ftp_server_open_settings">ꯑꯃꯨꯛꯇꯪ ꯁꯦꯇꯤꯡꯁꯤꯡ</string>
+    <string name="move">ꯆꯠꯄꯥ</string>
+    <string name="select_save_location">ꯁꯦꯚ ꯇꯧꯅꯕꯥ ꯃꯐꯝ ꯈꯜꯂꯨ</string>
+    <string name="scp_default_path">ꯗꯤꯐꯣꯜꯇ ꯄꯥꯊ (ꯑꯣꯄꯁꯅꯦꯜ)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">ꯁꯣꯏꯗꯅꯥ, ꯃꯗꯨ ꯑꯣꯏꯔꯣꯏꯗꯕꯅꯤ.</string>
+    
+    <string name="error_report_button_text">ꯏ-ꯃꯦꯂꯒꯤ ꯈꯨꯠꯊꯥꯡꯗꯥ ꯑꯁꯣꯌꯕꯥ ꯑꯁꯤ ꯔꯤꯄꯣꯔꯠ ꯇꯧꯕꯤꯌꯨ</string>
+    <string name="error_report_button_telegram">ꯑꯁꯣꯌꯕꯥ ꯑꯁꯤ ꯇꯦꯂꯤꯒ꯭ꯔꯥꯃꯒꯤ ꯈꯨꯠꯊꯥꯡꯗꯥ ꯔꯤꯄꯣꯔꯠ ꯇꯧꯕꯤꯌꯨ</string>
+    <string name="copy_for_github">ꯐꯣꯔꯃꯦꯠ ꯇꯧꯔꯕꯥ ꯔꯤꯄꯣꯔꯠ ꯀꯣꯄꯤ ꯇꯧꯕꯤꯌꯨ</string>
+    <string name="error_report_open_issue_button_text">GitHub ꯗꯥ ꯔꯤꯄꯣꯔꯠ ꯇꯧꯕꯥ</string>
+    <string name="error_report_open_github_notice">ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯀ꯭ꯔꯌꯥꯁꯀꯤ ꯃꯇꯥꯡꯗꯥ ꯈꯟꯅꯔꯤꯕꯥ ꯏꯁꯨ ꯑꯃꯥ ꯍꯥꯟꯅꯅꯥ ꯂꯩꯕ꯭ꯔꯥ ꯍꯥꯌꯕꯗꯨ ꯆꯦꯛ ꯇꯧꯕꯤꯌꯨ.</string>
+    <string name="error_snackbar_message">ꯁꯣꯏꯗꯅꯥ, ꯀꯔꯤꯒꯨꯝꯕꯥ ꯈꯔꯥ ꯑꯔꯥꯅꯕꯥ ꯊꯣꯀꯈꯤ꯫</string>
+    <string name="error_snackbar_action">ꯔꯤꯄꯣꯔꯠ ꯇꯧꯕꯥ</string>
+    <string name="what_device_headline">ꯏꯅꯐꯣ:</string>
+    <string name="what_happened_headline">ꯀꯔꯤ ꯊꯣꯀꯈꯤꯕꯒꯦ:</string>
+    <string name="info_labels">ꯀꯔꯤ:\\nꯔꯤꯛꯕꯦꯁ꯭ꯠ:\\nGMT ꯃꯇꯝ:\\nꯄꯦꯀꯦꯖ:\\nꯚꯥꯔꯁꯟ:\\nOS ꯚꯔꯁꯟ:\\nꯗꯤꯚꯥꯏꯁ:\\nꯃꯣꯗꯦꯜ:\\nꯄ꯭ꯔꯗꯛꯇ :</string>
+    <string name="your_comment">ꯑꯗꯣꯃꯒꯤ ꯀꯃꯦꯟꯇ (ꯏꯪꯂꯤꯁꯇꯥ):</string>
+    <string name="error_details_headline">ꯑꯀꯨꯞꯄꯥ ꯃꯔꯣꯜ:</string>
+    <string name="app_ui_crash">ꯑꯦꯞ/UI ꯀ꯭ꯔꯌꯥꯁ ꯇꯧꯈꯤ</string>
+    <string name="error_report_title">ꯑꯦꯔꯥꯔ ꯔꯤꯄꯣꯔꯠ</string>
+    <string name="crash_report_copied">ꯀ꯭ꯔꯦꯁ ꯔꯤꯄꯣꯔꯠ ꯀꯣꯄꯤ ꯇꯧꯈꯤ꯫ clipboard</string>
+    <string name="disableIpcSignature">IPC ꯁꯥꯏꯟ ꯇꯧꯕꯥ ꯆꯦꯛ ꯗꯤꯁꯦꯕꯜ ꯇꯧ (ꯂꯦꯒꯦꯁꯤ SMBv1 ꯁꯔꯚꯔꯁꯤꯡꯒꯤꯗꯃꯛ - UNSAFE!)</string>
+    <string name="cannot_delete_file">ꯐꯥꯏꯜ ꯃꯨꯠꯊꯠꯄꯥ ꯉꯃꯗꯦ</string>
+    <string name="cannot_delete_file_with_reason">ꯐꯥꯏꯜ ꯃꯨꯠꯊꯠꯄꯥ ꯉꯃꯗꯦ - %s</string>
+    <string name="cannot_rename_file">ꯐꯥꯏꯂꯒꯤ ꯃꯃꯤꯡ ꯍꯣꯡꯗꯣꯀꯄꯥ ꯉꯃꯗꯦ꯫ %s - %s</string>
+    <string name="cannot_read_directory">ꯗꯤꯔꯦꯛꯇꯔꯤ %s - %s</string>
+    <string name="just_once">ꯑꯃꯨꯛꯀꯥ ꯍꯟꯅꯥ ꯄꯥꯕꯥ ꯉꯃꯗꯦ</string>
+    <string name="always">ꯃꯇꯝ ꯄꯨꯝꯕꯗꯥ</string>
+    <string name="choose_different_app">ꯇꯣꯉꯥꯟ ꯇꯣꯉꯥꯅꯕꯥ ꯑꯦꯞꯂꯤꯀꯦꯁꯟ ꯈꯜꯂꯨ</string>
+    <string name="clear_open_file">ꯀ꯭ꯂꯤꯌꯥꯔ ꯇꯧꯔꯣ cache</string>
+    <string name="clear_open_file_summary">ꯈꯜꯂꯕꯥ ꯗꯤꯐꯣꯜꯇ ꯐꯥꯏꯜ ꯍꯥꯡꯗꯣꯀꯄꯒꯤ ꯑꯦꯄꯁꯤꯡ ꯀ꯭ꯂꯤꯌꯔ ꯇꯧꯏ</string>
+    <string name="ftp_readonly">ꯔꯤꯗ-ꯑꯣꯅꯂꯤ ꯑꯦꯛꯁꯦꯁ</string>
+    <string name="legacy_listing_title">ꯔꯨꯇꯀꯤꯗꯃꯛ ꯂꯦꯒꯦꯁꯤ ꯂꯤꯁ꯭ꯠ ꯁꯤꯖꯤꯟꯅꯧ</string>
+    <string name="legacy_listing_summary">ꯀꯔꯤꯒꯨꯝꯕꯥ ꯏꯅꯦꯕꯜ ꯑꯣꯏꯔꯕꯗꯤ, ꯐꯥꯏꯂꯁꯤꯡ ꯂꯤꯁ꯭ꯠ ꯇꯧꯅꯕꯥ ꯂꯦꯒꯦꯁꯤ ꯃꯦꯊꯗ ꯁꯤꯖꯤꯟꯅꯩ</string>
+    <string name="error_unsupported_v5_rar">RAR ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤ \"%s\" ꯑꯁꯤ ꯁꯄꯣꯔꯠ ꯇꯧꯗꯕꯥ RAR v5 ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤꯅꯤ꯫</string>
+    <string name="ftp_prompt_restart_server">ꯑꯍꯣꯡꯕꯁꯤꯡ ꯑꯁꯤ ꯏꯐꯦꯛꯇ ꯇꯧꯅꯕꯒꯤꯗꯃꯛ ꯅꯍꯥꯛꯅꯥ FTP ꯁꯔꯚꯔ ꯑꯗꯨ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯧꯗꯣꯀꯄꯥ ꯃꯊꯧ ꯇꯥꯏ꯫</string>
+    <string name="error_permission_denied">ꯑꯌꯥꯕꯥ ꯄꯤꯗꯕꯥ</string>
+    <string name="error_archive_password_incorrect">ꯑꯔꯥꯅꯕꯥ ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤꯀꯦꯜ ꯄꯥꯁꯋꯥꯔꯗ.</string>
+    <string name="error_archive_cannot_extract">ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤ ꯑꯦꯟꯠꯔꯤ \"%s\" ꯗꯒꯤ \"%s\"ꯗꯥ ꯑꯦꯛꯁꯠꯔꯥꯛꯇ ꯇꯧꯕꯥ ꯉꯃꯗꯦ꯫</string>
+    <string name="drag_and_drop_preference">ꯗ꯭ꯔꯦꯒ ꯑꯃꯁꯨꯡ ꯗ꯭ꯔꯣꯞ ꯄꯔꯐꯦꯔꯦꯟꯁ (ꯑꯦꯛꯁꯄꯤꯔꯤꯃꯦꯟꯇꯦꯜ) ꯈꯜꯂꯨ</string>
+    <string name="drag_to_move_copy">ꯐꯥꯏꯂꯁꯤꯡ ꯂꯧꯊꯣꯛꯅꯕꯥ ꯅꯠꯠꯔꯒꯥ ꯀꯣꯄꯤ ꯇꯧꯅꯕꯥ ꯇꯆ ꯑꯃꯁꯨꯡ ꯗ꯭ꯔꯦꯒ ꯇꯧ</string>
+    <string name="drag_to_select">ꯐꯥꯏꯂꯁꯤꯡ ꯈꯅꯕꯒꯤꯗꯃꯛ ꯇꯆ ꯑꯃꯁꯨꯡ ꯗ꯭ꯔꯦꯒ ꯇꯧ</string>
+    <string name="disable">ꯗꯤꯁꯦꯕꯜ</string>
+    <string name="choose_operation">ꯄꯔꯐ ꯇꯧꯅꯕꯥ ꯑꯣꯄꯔꯦꯁꯟ ꯈꯜꯂꯨ</string>
+    <string name="remember">ꯃꯊꯪꯒꯤ ꯃꯇꯃꯒꯤꯗꯃꯛ ꯅꯤꯡꯁꯤꯡꯕꯤꯌꯨ</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP ꯁꯔꯚꯔꯒꯤꯗꯃꯛ SAF ꯑꯦꯛꯁꯦꯁ ꯄꯤꯌꯨ</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">ꯃꯁꯤꯅꯥ ꯅꯍꯥꯛꯀꯤ FTP ꯁꯔꯚꯔꯒꯤ ꯑꯍꯥꯅꯕꯥ ꯔꯟ ꯑꯣꯏꯕꯅꯥ, ꯑꯃꯁꯨꯡ ꯅꯍꯥꯛꯅꯥ ꯗꯤꯚꯥꯏꯁꯀꯤ ꯏꯟꯇꯔꯅꯦꯜ ꯁ꯭ꯇꯣꯔꯦꯖ ꯑꯗꯨ ꯁꯦꯌꯥꯔ ꯇꯧꯔꯕꯥ ꯐꯣꯜꯗꯔ ꯑꯃꯥ ꯑꯣꯏꯅꯥ ꯁꯤꯖꯤꯟꯅꯔꯤꯕꯅꯥ, ꯆꯥꯅꯕꯤꯗꯨꯅꯥ Amazeꯗꯥ ꯁꯤꯖꯤꯟꯅꯗꯨꯅꯥ ꯁ꯭ꯇꯣꯔꯦꯖ ꯑꯗꯨ ꯑꯦꯛꯁꯦꯁ ꯇꯧꯕꯥ ꯌꯥꯍꯅꯕꯤꯌꯨ꯫ ꯑꯦꯁ.ꯑꯦ.ꯑꯦꯐ..\n\n
+
+ꯅꯍꯥꯛꯅꯥ ꯃꯁꯤ ꯑꯃꯨꯀꯈꯛꯇꯃꯛ ꯇꯧꯕꯥ ꯃꯊꯧ ꯇꯥꯏ, ꯃꯊꯪꯒꯤ ꯃꯇꯃꯗꯥ ꯅꯍꯥꯛꯅꯥ ꯁꯦꯌꯔ ꯇꯧꯅꯕꯒꯤꯗꯃꯛ ꯑꯅꯧꯕꯥ ꯃꯐꯝ ꯑꯃꯥ ꯈꯅꯕꯐꯥꯎꯕꯥ꯫</string>
+    <string name="android_data_prompt_saf_access">ꯑꯦꯟꯗ꯭ꯔꯣꯏꯗ ꯱꯰ꯗꯒꯤ ꯍꯧꯅꯥ, ꯑꯦꯟꯗ꯭ꯔꯣꯏꯗꯅꯥ ꯑꯀꯛꯅꯕꯥ ꯗꯥꯏꯔꯦꯛꯇꯣꯔꯤꯁꯤꯡꯗꯥ ꯑꯊꯤꯡꯕꯥ ꯊꯃꯈꯤ, ꯑꯃꯁꯨꯡ ꯃꯈꯣꯌꯅꯥ ꯁ꯭ꯇꯣꯔꯦꯖ ꯑꯦꯛꯁꯦꯁ ꯐ꯭ꯔꯦꯃꯋꯥꯔꯀꯀꯥ ꯂꯣꯌꯅꯅꯥ ꯑꯦꯛꯁꯦꯁ ꯇꯧꯕꯥ ꯃꯊꯧ ꯇꯥꯏ꯫\n \nꯆꯥꯅꯕꯤꯗꯨꯅꯥ \"ꯑꯦꯛꯁꯦꯁ ꯑꯌꯥꯕꯥ ꯄꯤꯕꯥ\" ꯇꯦꯞ ꯇꯧꯗꯨꯅꯥ ꯁꯤꯁ꯭ꯇꯦꯃꯒꯤ ꯐꯥꯏꯜ ꯃꯦꯅꯦꯖꯔꯗꯒꯤ ꯗꯥꯏꯔꯦꯛꯇꯣꯔꯤ ꯑꯦꯛꯁꯦꯁ ꯇꯧꯕꯥ ꯌꯥꯍꯅꯕꯤꯌꯨ.</string>
+    <string name="android_data_prompt_saf_access_title">SAF ꯑꯦꯛꯁꯦꯁ ꯄꯤꯌꯨ</string>
+    <string name="ftp_preference_saf_filesystem_title">ꯂꯦꯒꯦꯁꯤ ꯐꯥꯏꯂꯁꯤꯁ꯭ꯇꯦꯝ ꯁꯤꯖꯤꯟꯅꯧ</string>
+    <string name="ftp_preference_saf_filesystem">ꯏꯅꯦꯕꯜ ꯃꯁꯤ ꯑꯅꯧꯕꯥ ꯑꯦꯟꯗ꯭ꯔꯣꯏꯗ ꯚꯔꯖꯅꯁꯤꯡꯗꯥ ꯗꯤꯚꯥꯏꯁ ꯑꯦꯛꯁꯇꯔꯅꯦꯜ ꯁ꯭ꯇꯣꯔꯦꯖ ꯁꯤꯖꯤꯟꯅꯕꯒꯤ ꯁꯄꯣꯔꯇꯀꯤꯗꯃꯛ</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP ꯁꯔꯚꯔ ꯁꯦꯌꯥꯔ ꯇꯧꯔꯕꯥ ꯄꯥꯊ ꯑꯗꯨ ꯅꯍꯥꯛꯅꯥ ꯂꯦꯒꯦꯁꯤ ꯐꯥꯏꯂꯁꯤꯁ꯭ꯇꯦꯝ ꯏꯃꯞꯂꯤꯃꯦꯟꯇ ꯇꯧꯕꯗꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯍꯣꯡꯂꯛꯂꯤꯕꯥ ꯃꯇꯃꯗꯥ ꯏꯟꯇꯔꯅꯦꯜ ꯁ꯭ꯇꯣꯔꯦꯖꯗꯥ ꯔꯤꯁꯦꯠ ꯇꯧꯈ꯭ꯔꯦ꯫ ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯃꯊꯧ ꯇꯥꯕꯒꯤ ꯃꯇꯨꯡ ꯏꯟꯅꯥ ꯃꯊꯛꯀꯤ ꯑꯔꯣꯏꯕꯥ ꯃꯦꯅꯨ ꯁꯤꯖꯤꯟꯅꯗꯨꯅꯥ ꯑꯅꯧꯕꯥ ꯄꯥꯊ ꯑꯃꯥ ꯈꯜꯂꯨ.</string>
+    <string name="ftp_server_reset_notify">FTP ꯁꯔꯚꯔ ꯁꯦꯌꯥꯔ ꯇꯧꯔꯕꯥ ꯄꯥꯊ ꯑꯗꯨ ꯏꯟꯇꯔꯅꯦꯜ ꯁ꯭ꯇꯣꯔꯦꯖꯗꯥ ꯔꯤꯁꯦꯠ ꯇꯧꯈ꯭ꯔꯦ</string>
+    <string name="ftp_server_root_unavailable">ꯅꯍꯥꯛꯅꯥ ꯔꯨꯠ ꯑꯦꯛꯁꯦꯁ ꯃꯊꯧ ꯇꯥꯕꯥ ꯄꯥꯊ ꯑꯃꯥ ꯈꯅꯒꯠꯂꯤ. ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯀꯤ ꯗꯤꯚꯥꯏꯁ ꯑꯗꯨ ꯔꯨꯠ ꯇꯧꯔꯕꯗꯤ ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯁꯦꯇꯤꯡꯁꯤꯡꯗꯥ ꯔꯨꯠ ꯑꯦꯛꯁꯞꯂꯣꯔꯥꯔ ꯏꯅꯦꯕꯜ ꯇꯧꯕꯤꯌꯨ.</string>
+    <string name="ftp_server_root_filesystem_warning">ꯅꯍꯥꯛꯅꯥ ꯔꯨꯠ ꯑꯦꯛꯁꯦꯁ ꯃꯊꯧ ꯇꯥꯕꯥ ꯄꯥꯊ ꯑꯃꯥ ꯈꯅꯒꯠꯂꯤ, ꯃꯁꯤꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯗꯤꯚꯥꯏꯁꯇꯥ ꯂꯩꯕꯥ ꯐꯥꯏꯂꯁꯤꯁ꯭ꯇꯦꯝ ꯄꯨꯝꯅꯃꯛꯇꯥ ꯔꯤꯗ/ꯔꯥꯏꯠ ꯑꯣꯄꯔꯦꯁꯅꯁꯤꯡ ꯏꯅꯦꯕꯜ ꯇꯧꯏ, ꯑꯃꯁꯨꯡ ꯃꯁꯤ ꯈꯨꯗꯣꯡꯊꯤꯅꯤꯉꯥꯏ ꯑꯣꯏ - ꯆꯦꯀꯁꯤꯟꯅꯥ ꯂꯩꯇꯕꯥ ꯑꯁꯣꯌꯕꯁꯤꯡꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯗꯤꯚꯥꯏꯁ ꯑꯗꯨ ꯕ꯭ꯔꯤꯛ ꯇꯧꯕꯥ ꯌꯥꯏ!\n\nꯑꯗꯣꯝꯅꯥ ꯁꯣꯌꯗꯅꯥ ꯈꯪꯂꯕ꯭ꯔꯥ?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">ꯄꯥꯅꯕꯒꯤꯗꯃꯛ URI \"%s\" ꯍꯥꯡꯗꯣꯀꯄꯗꯥ ꯑꯁꯣꯌꯕꯥ ꯂꯩꯔꯦ꯫</string>
+    <string name="error_empty_archive">\"%s\" ꯑꯁꯤ ꯑꯍꯥꯡꯕꯥ ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤ ꯑꯃꯅꯤ꯫</string>
+    <string name="error_bad_archive_without_info">\"%s\" ꯑꯁꯤ ꯁꯣꯀꯍꯜꯂꯕꯥ ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤ ꯑꯃꯅꯤ꯫ .</string>
+    <string name="error_bad_archive_with_info">\"%s\" ꯑꯁꯤ ꯁꯣꯀꯍꯜꯂꯕꯥ ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤ ꯑꯃꯅꯤ꯫\nꯑꯦꯛꯁꯠꯔꯥꯛꯇꯔꯗꯒꯤ ꯄꯥꯎꯖꯦꯜ: \"%s\"</string>
+    <string name="security_error">ꯑꯦꯞ ꯑꯁꯤ ꯁꯤꯖꯤꯟꯅꯗꯨꯅꯥ ꯐꯥꯏꯜ ꯍꯥꯡꯗꯣꯀꯄꯥ ꯉꯃꯗꯦ</string>
+    <string name="cloud_drive_tooltip">ꯁꯦꯃꯖꯤꯜꯂꯨ ꯑꯦꯃꯦꯖ ꯐꯥꯏꯜ ꯃꯦꯅꯦꯖꯔꯒꯤ ꯃꯅꯨꯡꯗꯒꯤ ꯐꯥꯏꯂꯁꯤꯡ ꯃꯦꯅꯦꯖ ꯇꯧꯅꯕꯒꯤꯗꯃꯛ ꯒꯨꯒꯜ ꯗ꯭ꯔꯥꯏꯚTM ꯀꯅꯦꯛꯁꯟ ꯑꯃꯥ꯫</string>
+    <string name="signin_with_google_title">ꯒꯨꯒꯜ ꯗ꯭ꯔꯥꯏꯚTM ꯁꯤꯖꯤꯟꯅꯅꯕꯥ ꯑꯣꯊꯦꯟꯇꯤꯀꯦꯠ ꯇꯧꯕꯥ</string>
+    <string name="show_system_apps">ꯁꯤꯁ꯭ꯇꯦꯝ ꯑꯦꯄꯁꯤꯡ ꯎꯠꯄꯥ</string>
+    <string name="system_apps">ꯁꯤꯁ꯭ꯇꯦꯝ ꯑꯦꯄꯁꯤꯡ</string>
+    <string name="select_inverse">ꯈꯜꯂꯨ꯫ ꯏꯅꯚꯥꯔꯁ</string>
+    <string name="select_by_type">ꯃꯈꯂꯒꯤ ꯃꯇꯨꯡ ꯏꯟꯅꯥ ꯈꯅꯕꯤꯌꯨ</string>
+    <string name="select_by_date">ꯇꯥꯡꯒꯤ ꯃꯇꯨꯡ ꯏꯟꯅꯥ ꯈꯅꯕꯤꯌꯨ</string>
+    <string name="select_similar">ꯃꯁꯤꯒꯥ ꯃꯥꯟꯅꯕꯥ</string>
+    <string name="error_fetching_google_play_product_list">ꯒꯨꯒꯜ ꯄ꯭ꯂꯦꯗꯒꯤ ꯄꯣꯠꯊꯣꯛ ꯂꯤꯁ꯭ꯠ ꯂꯧꯕꯗꯥ ꯑꯁꯣꯏꯕꯥ ꯑꯃꯥ ꯈꯅꯕꯤꯌꯨ꯫</string>
+    <string name="grant_all_files_permission">ꯑꯦꯟꯗ꯭ꯔꯣꯏꯗ ꯱꯱ꯗꯒꯤ ꯍꯧꯅꯥ꯫ , ꯒꯨꯒꯂꯅꯥ ꯐꯥꯏꯜ ꯃꯦꯅꯦꯖꯔꯁꯤꯡꯗꯥ ꯗꯤꯚꯥꯏꯁꯇꯥ ꯂꯩꯕꯥ ꯐꯥꯏꯜ ꯄꯨꯝꯅꯃꯛ ꯃꯦꯅꯦꯖ ꯇꯧꯅꯕꯒꯤꯗꯃꯛ ꯌꯨꯖꯔꯒꯤ ꯑꯌꯥꯕꯥ ꯂꯧꯅꯕꯥ ꯍꯥꯌꯖꯔꯤ꯫ ꯃꯐꯝ ꯑꯁꯤꯗꯥ ꯑꯀꯨꯞꯄꯥ ꯃꯔꯣꯂꯁꯤꯡ꯫
+        \n\nAmaze ꯐꯥꯏꯜ ꯃꯦꯅꯦꯖꯔꯗꯁꯨ ꯑꯌꯥꯕꯥ ꯑꯁꯤ ꯃꯊꯧ ꯇꯥꯏ꯫ ꯃꯐꯃꯁꯤꯗꯥ "ꯒ꯭ꯔꯥꯟꯇ"ꯗꯥ ꯀ꯭ꯂꯤꯛ ꯇꯧꯔꯕꯥ ꯃꯇꯨꯡꯗꯥ, ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯃꯊꯪꯒꯤ ꯁ꯭ꯛꯔꯤꯟꯗꯥ ꯐꯥꯏꯜ ꯄꯨꯝꯅꯃꯛ ꯃꯦꯅꯦꯖ ꯇꯧꯅꯕꯥ ꯑꯦꯛꯁꯦꯁ ꯑꯌꯥꯕꯥ ꯄꯤꯌꯨ ꯑꯣꯄꯁꯟ ꯈꯜꯂꯨ.
+        \n\nꯗꯥꯏꯂꯣꯒ ꯑꯁꯤ ꯀꯦꯟꯁꯦꯜ ꯇꯧꯕꯅꯥ ꯑꯦꯄꯇꯒꯤ ꯊꯣꯛꯂꯛꯀꯅꯤ꯫</string>
+    <string name="user_apps">ꯌꯨꯖꯔ ꯑꯦꯄꯁꯤꯡ</string>
+    <string name="appearance">ꯃꯑꯣꯡ</string>
+    <string name="behavior">ꯂꯝꯕꯤ</string>
+    <string name="appearance_summary">ꯐꯥꯏꯜ ꯃꯦꯅꯦꯖꯔꯒꯤ ꯊꯤꯝ, ꯃꯆꯨ ꯑꯃꯁꯨꯡ ꯃꯑꯣꯡ ꯃꯇꯧ ꯀꯁ꯭ꯇꯃꯁ ꯑꯣꯏꯅꯥ ꯁꯦꯃꯗꯣꯀꯎ</string>
+    <string name="ui_summary">ꯀꯅꯥ ꯏꯅꯐꯣꯔꯃꯦꯁꯟ ꯎꯠꯀꯗꯒꯦ ꯀꯟꯠꯔꯣꯜ ꯇꯧꯕꯥ, ꯁꯥꯏꯗꯕꯥꯔ ꯀꯁ꯭ꯇꯃꯁ ꯇꯧꯕꯥ, ꯑꯃꯁꯨꯡ UI ꯄꯁꯟꯗꯁꯤꯡ ꯇꯣꯒꯜ ꯇꯧꯕꯥ</string>
+    <string name="behavior_summary">ꯑꯦꯗꯚꯥꯟꯁ ꯁꯥꯔꯆꯒꯨꯝꯕꯥ ꯂꯃꯆꯠ-ꯁꯥꯖꯠꯁꯤꯡ ꯃꯣꯗꯤꯐꯥꯏ ꯇꯧꯕꯥ ꯑꯃꯁꯨꯡ ꯐꯥꯏꯂꯁꯤꯡ ꯑꯁꯤ ꯑꯅꯧꯕꯥ ꯊꯕꯛ ꯑꯃꯥ ꯑꯣꯏꯅꯥ ꯍꯥꯡꯗꯣꯛꯀꯗ꯭ꯔꯥ</string>
+    <string name="security_summary">ꯄꯥꯁꯋꯥꯔꯗ ꯁꯦꯠ ꯇꯧꯕꯥ꯫ ꯑꯃꯁꯨꯡ ꯑꯦꯅꯛꯔꯤꯄꯁꯟ</string>
+    <string name="backup_summary">ꯑꯦꯛꯁꯄꯣꯔꯠ/ꯏꯝꯄꯣꯔꯠ ꯑꯦꯃꯦꯖ ꯁꯦꯇꯤꯡꯁꯤꯡ</string>
+
+    <string name="pref_export">ꯑꯦꯛꯁꯄꯣꯔꯠ</string>
+    <string name="pref_export_summary">ꯑꯦꯛꯁꯄꯣꯔꯠ ꯁꯦꯇꯤꯡꯁꯤꯡ</string>
+    <string name="pref_import">ꯏꯝꯄꯣꯔꯠ</string>
+    <string name="pref_import_summary">ꯏꯝꯄꯣꯔꯠ ꯁꯦꯇꯤꯡꯁꯤꯡ</string>
+
+    <string name="quick_desc">ꯐꯥꯏꯂꯁꯤꯡ꯫ ꯍꯟꯗꯛꯇꯥ ꯑꯃꯦꯖꯒꯤ ꯈꯨꯠꯊꯥꯡꯗꯥ ꯑꯦꯛꯁꯦꯁ ꯇꯧꯈꯤꯕꯥ</string>
+    <string name="recent_desc">ꯍꯟꯗꯛꯇꯥ ꯁꯦꯃꯈꯤꯕꯥ ꯅꯠꯔꯒꯥ ꯃꯣꯗꯤꯐꯥꯏꯗ ꯇꯧꯔꯕꯥ ꯐꯥꯏꯂꯁꯤꯡ</string>
+    <string name="error_cannot_find_way_open">ꯐꯥꯏꯜ ꯍꯥꯡꯗꯣꯛꯅꯕꯒꯤ ꯄꯥꯝꯕꯩ ꯊꯤꯕꯥ ꯉꯃꯈꯤꯗꯦ</string>
+    <string name="error_cant_decompress_that_file">ꯔꯤꯛꯕꯦꯁ꯭ꯠ ꯇꯧꯔꯕꯥ ꯑꯥꯔꯀꯤꯑꯣꯂꯣꯖꯤ ꯄ꯭ꯔꯣꯁꯦꯁ ꯇꯧꯕꯥ ꯉꯃꯗꯦ</string>
+    <string name="analyse_storage">ꯁ꯭ꯇꯣꯔꯦꯖ ꯑꯦꯅꯥꯂꯥꯏꯖ ꯇꯧꯕꯥ</string>
+    
+    <string name="download_amaze_utils_text">ꯅꯍꯥꯀꯄꯨ ꯑꯦꯃꯦꯖ ꯐꯥꯏꯜ ꯌꯨꯇꯤꯂꯤꯇꯤꯁꯤꯡꯗꯥ ꯔꯤꯗꯔꯥꯏꯖ ꯇꯧꯔꯤ꯫ ꯃꯁꯤ ꯑꯩꯈꯣꯌꯒꯤ ꯑꯣꯄꯟ ꯁꯣꯔꯁ ꯑꯦꯄꯅꯤ ꯃꯁꯤꯗꯥ ꯑꯣꯗꯤꯑꯣ/ꯚꯤꯗꯤꯑꯣ/ꯏꯃꯦꯖ/ꯗꯣꯀꯨꯃꯦꯟꯇ ꯚꯤꯎꯌꯔꯁꯤꯡ ꯌꯥꯑꯣꯔꯤ, ꯃꯁꯤꯅꯥ ꯅꯍꯥꯀꯄꯨ ꯁ꯭ꯇꯣꯔꯦꯖ ꯐ꯭ꯔꯤ ꯑꯣꯏꯍꯟꯅꯕꯥ ꯖꯉ꯭ꯛ ꯐꯥꯏꯂꯁꯤꯡ ꯑꯦꯅꯥꯂꯥꯏꯖ ꯇꯧꯕꯥ, ꯋꯥꯏꯐꯥꯏ ꯄꯤ꯲ꯄꯤ ꯁꯤꯖꯤꯟꯅꯗꯨꯅꯥ ꯌꯥꯝꯅꯥ ꯊꯨꯅꯥ ꯇ꯭ꯔꯥꯟꯁꯐꯔ ꯇꯧꯕꯥ ꯑꯃꯁꯨꯡ ꯌꯥꯝꯅꯥ ꯀꯌꯥ ꯑꯃꯥ ꯌꯥꯍꯜꯂꯤ꯫\nꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯃꯁꯤ ꯍꯣꯠꯅꯗꯨꯅꯥ ꯑꯩꯈꯣꯌꯕꯨ ꯁꯄꯣꯔꯠ ꯇꯧꯕꯤꯌꯨ.</string>
+    <string name="download">ꯗꯥꯎꯅꯂꯣꯗ ꯇꯧꯕꯥ</string>
+    <string name="wifip2p">ꯋꯥꯏ-ꯐꯥꯏ P2P</string>
+    <string name="amaze_utils_installed_alias">ꯑꯃꯦꯖ ꯐꯥꯏꯜ ꯌꯨꯇꯤꯂꯤꯇꯤꯁꯤꯡ ꯏꯅꯁ꯭ꯇꯣꯜ ꯇꯧꯕꯒꯤꯗꯃꯛ ꯊꯥꯒꯠꯆꯔꯤ꯫ ꯅꯍꯥꯀꯄꯨ ꯑꯦꯞ ꯑꯁꯤꯗꯥ ꯔꯤꯗꯔꯥꯏꯖ ꯇꯧꯔꯤ꯫</string>
+    <string name="image_viewer">ꯑꯦꯃꯦꯖ ꯏꯃꯦꯖ ꯚꯤꯎꯌꯔ</string>
+    <string name="video_player">ꯑꯦꯃꯦꯖ ꯚꯤꯗꯤꯑꯣ ꯄ꯭ꯂꯦꯌꯥꯔ</string>
+    <string name="amaze_audio_player">ꯑꯦꯃꯦꯖ ꯃꯤꯎꯖꯤꯛ ꯄ꯭ꯂꯦꯌꯥꯔ</string>
+    <string name="pdf_viewer">ꯑꯦꯃꯦꯖ ꯗꯣꯛꯌꯨꯃꯦꯟꯇ ꯚꯤꯎꯌꯔ</string>
+    <string name="docx_viewer">ꯑꯦꯃꯦꯖ ꯗꯣꯛꯌꯨꯃꯦꯟꯇ ꯚꯤꯎꯌꯔ</string>
+    <string name="share_logs">ꯂꯣꯒꯁꯤꯡ ꯁꯦꯌꯥꯔ ꯇꯧꯕꯥ</string>
+    <string name="share_logs_summary">ꯀꯦꯄꯆꯔ ꯇꯧꯔꯕꯥ ꯂꯣꯒꯁꯤꯡ ꯏꯃꯦꯏꯜ / ꯇꯦꯂꯤꯒ꯭ꯔꯥꯃꯒꯤ ꯈꯨꯠꯊꯥꯡꯗꯥ ꯁꯦꯌꯔ ꯇꯧꯕꯥ</string>
+    <string name="open_with_amaze">ꯑꯃꯦꯖ</string>
+    <string name="confirmation">ꯀꯅꯐꯔꯃꯦꯁꯅꯒꯥ ꯂꯣꯌꯅꯅꯥ ꯍꯥꯡꯗꯣꯀꯎ</string>
+    <string name="open_file_confirmation">ꯑꯗꯣꯝꯅꯥ꯫ ꯃꯈꯥꯒꯤ ꯐꯥꯏꯜ ꯑꯁꯤ ꯍꯥꯡꯗꯣꯀꯄꯥ ꯄꯥꯝꯂꯤꯕꯔꯥ?\n\nꯃꯃꯤꯡ:\n%s\n\nꯃꯐꯝ:\n%s\n\nꯁꯥꯏꯖ:\n%s\n\nMD5:\n%s\n\nSHA256:\ n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">ꯒꯨꯒꯜ ꯄ꯭ꯂꯦ ꯄꯣꯂꯤꯁꯤꯒꯤ ꯃꯦꯟꯗꯦꯠꯁꯤꯡꯒꯤ ꯃꯇꯨꯡ ꯏꯟꯅꯥ, ꯑꯦꯄꯁꯤꯡꯅꯥ ꯃꯁꯥ ꯃꯊꯟꯇꯥ ꯑꯄꯗꯦꯠ ꯇꯧꯕꯥ ꯌꯥꯗꯦ꯫ ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯒꯨꯒꯜ ꯄ꯭ꯂꯦꯗꯒꯤ ꯑꯦꯞ ꯑꯁꯤ ꯑꯄꯗꯦꯠ ꯇꯧꯕꯤꯌꯨ.</string>
+    <string name="error_cannot_get_package_info">ꯐꯥꯏꯜ \"%s\"ꯗꯒꯤ ꯄꯦꯀꯦꯖ ꯏꯅꯐꯣꯔꯃꯦꯁꯟ ꯂꯧꯕꯥ ꯉꯃꯗꯦ꯫ ꯅꯠꯠꯔꯒꯥ ꯑꯀꯛꯅꯕꯥ ꯐꯥꯏꯜ ꯑꯗꯨ APK ꯅꯠꯇꯦ, ꯅꯠꯠꯔꯒꯥ ꯄꯦꯀꯦꯖ ꯐꯥꯏꯜ ꯑꯗꯨ ꯁꯣꯀꯍꯜꯂꯦ꯫</string>
+    <string name="preference_delete_confirmation">ꯀꯅꯐꯔꯃꯦꯁꯟ ꯃꯨꯠꯊꯠꯂꯨ</string>
+    <string name="preference_delete_confirmation_summary">ꯐꯥꯏꯂꯁꯤꯡ ꯃꯨꯠꯊꯠꯠꯔꯤꯉꯩꯒꯤ ꯃꯃꯥꯡꯗꯥ ꯀꯅꯐꯥꯔꯃꯦꯁꯅꯒꯤꯗꯃꯛ ꯍꯥꯌꯌꯨ. ꯃꯁꯤ ꯗꯤꯁꯦꯕꯜ ꯇꯧꯕꯗꯥ ꯌꯥꯝꯅꯥ ꯋꯥꯅꯥ ꯊꯣꯀꯏ!</string>
+    
+    
+    <string name="protocol_ftps">ꯁꯦꯛꯌꯨꯑꯣꯔ ꯑꯣꯏꯕꯥ FTP</string>
+    <string name="unavailable">ꯑꯅꯑꯦꯚꯦꯂꯑꯦꯕꯜ</string>
+
+    <string name="exporting_failed">ꯑꯦꯛꯁꯄꯣꯔꯠ ꯇꯧꯕꯥ ꯉꯃꯗꯦ: ꯕꯦꯀꯑꯞ ꯐꯥꯏꯜ ꯑꯗꯨ ꯏꯕꯥ ꯉꯃꯗꯦ</string>
+    <string name="importing_failed">ꯏꯝꯄꯣꯔꯠ ꯇꯧꯕꯥ ꯉꯃꯗꯦ: ꯕꯦꯀꯑꯞ ꯑꯗꯨ ꯄꯥꯕꯥ ꯉꯃꯗꯦ ꯐꯥꯏꯜ</string>
+    <string name="importing_completed">ꯏꯝꯄꯣꯔꯠ ꯇꯧꯕꯥ ꯂꯣꯏꯔꯦ</string>
+    <string name="invalid_backup_file">ꯑꯁꯣꯌꯕꯥ ꯕꯦꯀꯑꯞ ꯐꯥꯏꯜ</string>
+    <string name="import_failed_for">ꯏꯝꯄꯣꯔꯠ ꯇꯧꯕꯥ ꯉꯃꯗꯦ:</string>
+    <string name="free_of">"%s\n%s ꯐ꯭ꯔꯤ ꯑꯣꯐ %s</string>
+    <string name="cloud_error_fdroid">ꯑꯦꯃꯦꯖ ꯀ꯭ꯂꯥꯎꯗ ꯄ꯭ꯂꯒꯏꯟ ꯑꯁꯤ ꯑꯦꯐ-ꯗ꯭ꯔꯣꯏꯗ ꯚꯔꯖꯅꯒꯥ ꯂꯣꯌꯅꯅꯥ ꯁꯄꯣꯔꯠ ꯇꯧꯗꯦ꯫ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯑꯦꯃꯦꯖꯒꯤ ꯄ꯭ꯂꯦ ꯁ꯭ꯇꯣꯔ ꯚꯔꯁꯟ ꯁꯤꯖꯤꯟꯅꯧ.</string>
+    <string name="disable_player_intent_filters">ꯄ꯭ꯂꯦꯌꯥꯔ ꯏꯟꯇꯦꯟꯇ ꯐꯤꯜꯇꯔꯁꯤꯡ ꯗꯤꯁꯦꯕꯜ ꯇꯧ</string>
+    <string name="disable_player_intent_filters_summary">ꯐꯥꯏꯜ ꯆꯣꯏꯖꯔ</string>
+    <string name="no_app_found_intent">ꯗꯒꯤ ꯑꯦꯃꯦꯖ ꯏꯅꯕꯤꯜꯗ ꯃꯤꯗꯤꯌꯥ ꯄ꯭ꯂꯦꯌꯥꯔꯁꯤꯡ ꯗꯤꯁꯦꯕꯜ ꯇꯧꯏ꯫ ꯃꯁꯤꯒꯤ ꯏꯟꯇꯦꯟꯇ ꯑꯁꯤ ꯍꯦꯟꯗꯜ ꯇꯧꯅꯕꯥ ꯑꯦꯞ ꯑꯃꯠꯇꯥ ꯐꯪꯗ꯭ꯔꯤ꯫ꯑꯗꯣꯃꯒꯤ DocumentsUI ꯏꯅꯁ꯭ꯇꯣꯜ ꯇꯧꯔꯕ꯭ꯔꯥ?</string>
+    <string name="cloud_connection_credentials_cleared">ꯀ꯭ꯂꯥꯎꯗ ꯀꯅꯦꯛꯁꯟ ꯀ꯭ꯔꯦꯗꯦꯟꯁꯤꯑꯦꯂꯁꯤꯡ ꯀ꯭ꯂꯤꯌꯔ ꯇꯧꯈ꯭ꯔꯦ</string>
+    <string name="cloud_connection_credentials_cleared_msg">ꯑꯋꯥꯕꯥ ꯑꯁꯤꯅꯥ ꯃꯔꯝ ꯑꯣꯏꯗꯨꯅꯥ, ꯑꯩꯈꯣꯌꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯀ꯭ꯂꯥꯎꯗ ꯀꯅꯦꯛꯁꯟ ꯀ꯭ꯔꯦꯗꯦꯟꯁꯤꯑꯦꯂꯁꯤꯡ ꯑꯗꯨ ꯑꯅꯧꯕꯥ ꯗꯦꯇꯥꯕꯦꯖ ꯁ꯭ꯀꯤꯃꯗꯥ ꯃꯥꯏꯒ꯭ꯔꯦꯠ ꯇꯧꯕꯥ ꯉꯃꯈꯤꯗꯦ, ꯑꯃꯁꯨꯡ ꯑꯩꯈꯣꯌꯅꯥ ꯇꯧꯈꯤ꯫ ꯃꯈꯣꯌꯁꯤꯡ ꯑꯁꯤ ꯑꯦꯞ ꯑꯁꯤꯗꯒꯤ ꯂꯧꯊꯣꯛꯅꯕꯥ꯫ꯆꯥꯅꯕꯤꯗꯨꯅꯥ ꯀ꯭ꯂꯥꯎꯗ ꯀꯅꯦꯛꯁꯟ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯁꯦꯝꯃꯨ꯫</string>
+</resources>

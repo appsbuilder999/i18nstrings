@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Faýl Dolandyryjysy</string>
+    <string name="drawer_open">Açyk nawigasiýa çekmesi</string>
+    <string name="drawer_close">Nawigasiýa çekişini ýapyň</string>
+    <string name="icon">nyşany</string>
+    <string name="apps">Programma dolandyryjysy</string>
+    <string name="ftp">FTP serweri</string>
+    <string name="setting">Sazlamalar</string>
+    <string name="select"/>
+    <string name="press_again"/>
+    <string name="open">çykmak üçin ýene bir gezek basyň</string>
+    <string name="backup">uptiýaçlyk</string>
+    <string name="uninstall">Aýyrmak</string>
+    <string name="play">Oýun dükany</string>
+    <string name="properties">Aýratynlyklar</string>
+    <string name="copyingapks">%d APK faýllaryny%s</string>
+    <string name="delbook">Bellik belligini pozuň</string>
+    <string name="add_to_bookmarks">Belliklere goşuň</string>
+    <string name="enterpath">Enteroluna giriň</string>
+    <string name="cancel">ANCALANMAK</string>
+    <string name="create">DÖREDI</string>
+    <string name="loading">adingüklenýär ...</string>
+    <string name="file_empty">Faýl boş</string>
+    <string name="error">roralňyşlyk</string>
+    <string name="search_results">Gözleg netijeleriniň%s</string>
+    <string name="rename">adyny üýtgetmek</string>
+    <string name="save">Saklaň</string>
+    <string name="bookmarks_added">Bellikler goşuldy</string>
+    <string name="fileexist">Şol bir at bilen faýl eýýäm bar</string>
+    <string name="name">Ady</string>
+    <string name="date">Sene</string>
+    <string name="location">Locationerleşýän ýeri</string>
+    <string name="size_capitalized">Ölçegi</string>
+    <string name="size">bukjanyň ululygy</string>
+    <string name="enterzipname">Zip adyny giriziň</string>
+    <string name="no_app_found">Bu faýly açmak üçin hiç bir programma tapylmady</string>
+    <string name="copying">Göçürmek</string>
+    <string name="moving">Göçürmek</string>
+    <string name="file">Faýl</string>
+    <string name="folder">Papka</string>
+    <string name="newfolder">Täze bukja</string>
+    <string name="entername">Ady giriziň</string>
+    <string name="extracting">çykarmak</string>
+    <string name="stopping"/>
+    <string name="open_parent">Ene-atalar katalogyny açyň</string>
+    <string name="open_with"/>
+    <string name="share">bilen açyň</string>
+    <string name="about"/>
+    <string name="extract">Göçürme</string>
+    <string name="compress">gysyş</string>
+    <string name="yes">Hawa</string>
+    <string name="no"/>
+    
+    <string name="dialog_delete_category_directories">Kataloglar</string>
+    <string name="dialog_delete_category_files">Faýllar</string>
+    <string name="dialog_delete_disclaimer">Aşakdaky elementleri pozmak enjamyňyzdan hemişelik aýrylar we dikeldilip bilinmez.</string>
+    <string name="dialog_delete_title">Harytlary hemişelik pozuň?</string>
+    <string name="deleting">Öçürmek</string>
+    <string name="question_set_path_as_home">Häzirki ýoly bu tab üçin öý hökmünde bellemek isleýärsiňizmi?</string>
+    <string name="directorysort">Katalog tertibi tertibi</string>
+    <string name="sort_by">tertipleşdirmek</string>
+    <string name="sort_only_this">Diňe şu bukja</string>
+    <string name="theme">Tema</string>
+    <string name="random">Tötänleýin deri</string>
+    <string name="random_summary">Başlangyçda tötänleýin başlangyç reňk düzýär</string>
+    <string name="colorize">Nyşanlary reňkläň</string>
+    <string name="colorize_summary">Statik nyşanlaryň reňkini düzýär. Katalog nyşanynyň reňk islegini ýok etmeýär.</string>
+    <string name="home">Baş sahypa</string>
+    <string name="paste">Goýuň</string>
+    <string name="history">Taryh</string>
+    <string name="copy">Göçüriň</string>
+    <string name="root_mode">Kök Gözlegçisi</string>
+    <string name="root_mode_summary">Diňe köklenen enjam üçin. Diňe muňa ynamyňyz bar bolsa barlaň.</string>
+    <string name="root_failure">Kök ygtyýary berilmedi</string>
+    <string name="select_all">Hemmesini saýlaň</string>
+    <string name="delete"/>
+    <string name="set_as_home">öçüriň</string>
+    <string name="operation_not_supported">Amal goldanylmaýar</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Material çyra</string>
+    <string name="dark">Material garaňky</string>
+    <string name="daytime">Gündiz</string>
+    <string name="black">Gara (OLED üçin)</string>
+    <string name="system">Ulgam (ulgam mowzugyna eýeriň)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Topokardaky bukjalar</string>
+    <string name="filesOnTop">Topokardaky faýllar</string>
+    <string name="none_on_top">onokarda ýok</string>
+    <!--SortBy-->
+    <string name="sort_name">Ady</string>
+    <string name="lastModified">Iň soňky üýtgedilen</string>
+    <string name="sort_size">Ölçegi</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Faýl saýlaň</string>
+    <string name="process_viewer">Amal görkezijisi</string>
+    <string name="in_safe">spaceeterlik ýer ýok</string>
+    <string name="no_file_overwrite">Faýl ýazylmady</string>
+    <string name="skip"/>
+    <string name="overwrite"/>
+    <string name="not_allowed">Rugsat berilmeýär</string>
+    <string name="searching">%s gözlemek</string>
+    <string name="done">oneerine ýetirildi</string>
+    <string name="set"/>
+    <string name="enablerootmde">Kök rejesini işlediň</string>
+    <string name="goback">Yza gaýdyň</string>
+    <string name="newfile">Täze faýl</string>
+    <string name="no_files">Faýl ýok</string>
+    <string name="used">ulanylan giňişlik</string>
+    <string name="used_by_others">beýlekiler tarapyndan ulanylýar</string>
+    <string name="free">boş ýer</string>
+    <string name="listview">Sanawyň görnüşi</string>
+    <string name="gridview">Grid görnüşi</string>
+    <string name="permission">Rugsatlar</string>
+    <string name="hide"/>
+    <string name="exit">çykyň</string>
+    <string name="doforall">itemshli elementler üçin ediň</string>
+    <string name="gridcolumnno">Panel görnüşindäki sütünleriň sany</string>
+    <string name="set_random">Programmany täzeden açanyňyzdan soň üýtgeşmeler bolar</string>
+    <string name="authors">Awtorlar</string>
+    <string name="changelog">Çangelog</string>
+    <string name="ok">Bolýar</string>
+    <string name="ui">Interfeýs</string>
+    <string name="general">Umumy</string>
+    <string name="thumb_summary">Programmalaryň we suratlaryň kiçijik suratlaryny görkeziň</string>
+    <string name="thumb">Suratlary görkeziň</string>
+    <string name="hidden">Gizlin faýllary we bukjalary görkeziň</string>
+    <string name="lastModifiedSummary">Soňky üýtgeşmäniň senesini we wagtyny görkeziň</string>
+    <string name="lastModifiedPref">Soňky üýtgedilen senäni we wagty görkeziň</string>
+    <string name="size_pref_summary">Faýllaryň ululygyny we sanyny görkeziň bukjalardaky zatlar</string>
+    <string name="size_pref">Ölçegleri görkeziň</string>
+    <string name="miscellaneous">Dürli</string>
+    <string name="root_pref_summary">Faýllaryň we bukjalaryň rugsatlaryny görkeziň</string>
+    <string name="root_pref">Rugsatnamalary görkeziň</string>
+    <string name="about_amaze_file_manager_label">Amaze faýl dolandyryjysy barada</string>
+    <string name="version">Wersiýa</string>
+    <string name="rate">Programma baha beriň</string>
+    <string name="feedback">Seslenme iberiň</string>
+    <string name="hiddenfiles">Gizlin faýllar</string>
+    <string name="type"/>
+    <string name="root_directory">Kök</string>
+    <string name="add_shortcut">Salgylanma goşmak</string>
+    <string name="unsaved_changes">Saklanmadyk üýtgeşmeler</string>
+    <string name="unsaved_changes_description">Saklanmadyk üýtgeşmeler bar, çykmazdan ozal saklamak isleýärsiňizmi?</string>
+    <string name="saving"/>
+    <string name="package_installer">paket gurnaýjy</string>
+    <string name="view"/>
+    <string name="install"/>
+    <string name="archive">guruň</string>
+    <string name="archive_text">Bu arhiw. Haýsy çäräni ýerine ýetirmek isleýärsiňiz?</string>
+    <string name="package_installer_text">Bu paket gurnaýjy. Haýsy çäräni ýerine ýetirmek isleýärsiňiz?</string>
+    <string name="xda_title">XDA sapagy</string>
+    <string name="xda_summary">Sowal-jogap, kömek we näsazlyklary düzetmek</string>
+    <string name="circular_images">Suratlar we wideolar üçin tegelek nyşanlary ulanyň</string>
+    <string name="circular_icons">Tegelek nyşanlary ulanyň</string>
+    <string name="back_title">Yzyna nawigasiýa</string>
+    <string name="back_summary">Sanawyň başynda ýörite arka nawigasiýa mümkinçiligini berýär</string>
+    <string name="details">Jikme-jiklikler</string>
+    <string name="translators">Terjimeler</string>
+    <string name="german_translation_title">Nemes</string>
+    <string name="italian_translation_title">Italýan</string>
+    <string name="french_translation_title">Fransuz</string>
+    <string name="russian_translation_title">Rus</string>
+    <string name="spanish_translation_title">Ispan</string>
+    <string name="basque_translation_title">Bask</string>
+    <string name="chinese_translation_title">Hytaý</string>
+    <string name="serbian_translation_title">Serb</string>
+    <string name="turkish_translation_title">Türk</string>
+    <string name="ukrainian_translation_title">Ukrain</string>
+    <string name="portuguese_translation_title">Portugaliýa</string>
+    <string name="polish_translation_title">Polýak</string>
+    <string name="korean_translation_title">Koreý</string>
+    <string name="greek_translation_title">Grek</string>
+    <string name="dutch_translation_title">Gollandiýa</string>
+    <string name="romanian_translation_title">rumyn</string>
+    <string name="vietnamese_translation_title">Wýetnam</string>
+    <string name="japanese_translation_title">Japaneseapon</string>
+    
+
+    <string name="zip_viewer">Zip Görkeziji</string>
+    
+    <string name="warning">Duýduryş</string>
+    <string name="donate">Bagyşlaň</string>
+    <string name="archive_extract_folder">Arhiw ekstrakt bukjasy</string>
+    <string name="archive_summary">Bu bukjada arhiw faýllary çykarylar. Bellenen baha arhiwdäki katalogdyr.</string>
+    <string name="open_as"/>
+    <string name="text">Tekst</string>
+    <string name="audio">Ses</string>
+    <string name="video">Wideo</string>
+    <string name="other">Beýleki</string>
+    <string name="image">Surat</string>
+    <string name="contributors">Goşant goşanlar</string>
+    <string name="save_paths">pathollary ýada salyň</string>
+    <string name="save_path_summary">Işledilende her tab üçin iň soňky görlen bukja görkeziler</string>
+    <string name="select_intent"/>
+    <string name="database">Maglumat bazasy</string>
+    <string name="colored_navigation">Reňkli nawigasiýa paneli</string>
+    <string name="colored_navigvation_sum">Ulgam nawigasiýa çyzygynyň deri bilen reňklenendigi ýa-da ýokdugy</string>
+
+    <string name="color_title">Reňk</string>
+    <string name="color_summary">Dürli UI komponentlerine reňk düzüň</string>
+    <string name="primary_color_title">başlangyç reňk (Çep tab)</string>
+    <string name="primary_color_summary">Çep tablisa üçin uly UI elementlerine reňk düzüň</string>
+    <string name="accent_color_title">Accent Reňk</string>
+    <string name="accent_color_summary">FAB we beýleki kiçi UI elementlerine reňk düzüň</string>
+    <string name="icon_color_title">Nyşan reňki</string>
+    <string name="icon_color_summary">Nyşanlara reňk düzüň</string>
+    <string name="choose_color">Reňk saýlaň</string>
+    <string name="files">Faýllar</string>
+    <string name="textreader">Tekst okaýjy</string>
+    <string name="databasereader">Maglumatlar bazasyny okaýjy</string>
+    <string name="show_dividers">Bölünýänleri görkez</string>
+    <string name="needs_access">Gerekli giriş ýazyň</string>
+    <string name="needs_access_summary">\ t</string>
+    <string name="needs_access_summary1">\ ýazmak üçin</string>
+    <string name="smb_connection">SMB birikmesi</string>
+    <string name="smb_server">Serwer IP adresi</string>
+    <string name="server_address">Serwer IP adresi</string>
+    <string name="username">Ulanyjy ady</string>
+    <string name="password">Parol</string>
+    <string name="anonymous">Anonim</string>
+    
+    <string name="folders">Papkalar</string>
+    <string name="folderfilecount">%1$d bukjalar we%2$d faýllar</string>
+    <string name="videos">Wideolar</string>
+    
+    <string name="documents">Resminamalar</string>
+    <string name="images">Suratlar</string>
+    <string name="clear">Arassa</string>
+    
+    <string name="total">Jemi:</string>
+    <string name="calculating">hasaplamak</string>
+    <string name="sort"/>
+    <string name="ascending">ýokarlanmak</string>
+    <string name="descending">aşak düşmek</string>
+    <string name="default_string">Bellenilen</string>
+    <string name="doit"/>
+    <string name="want_help">kömek gerekmi?</string>
+    <string name="quick">Çalt giriş</string>
+    <string name="recent">Soňky faýllar</string>
+    <string name="edit"/>
+    <string name="find">redaktirläň</string>
+    
+    <string name="grantper">Grant rugsady</string>
+    <string name="grantfailed">Rugsat berilmedi</string>
+    <string name="grant_storage_permission">Programmanyň dowam etmegi üçin ammar rugsady gerek. Bu gepleşik penjiresini ýatyrmak programmadan çykar.</string>
+    <string name="operation_unsuccesful">Amal şowsuz</string>
+    <string name="creatingfile">Faýl döretmek</string>
+    <string name="creatingfolder">Papka döretmek</string>
+    <string name="renaming"/>
+    <string name="cant_be_empty">%s adyny üýtgetmek boş bolup bilmez</string>
+    <string name="ip">Salgysy</string>
+    <string name="connection_name">Baglanyş ady</string>
+    <string name="no_device_found">Hiç hili enjam tapylmady</string>
+    <string name="path">ýol</string>
+    <string name="rename_bookmark">Bellik belligini üýtgediň</string>
+    <string name="cut">Kesiň</string>
+    <string name="search">Gözleg</string>
+    <string name="invalid_name">Nädogry ady</string>
+    <string name="search_hint">Gözlemek üçin ýazyň ...</string>
+    <string name="advanced_search">Giňişleýin gözleg</string>
+    <string name="regular_expression">Adaty aňlatma</string>
+    <string name="regular_expression_summary">BASH stilindäki yzygiderli aňlatma ulanyp gözläň</string>
+    <string name="match_content">Gabat gelýän mazmun</string>
+    <string name="match_content_summary">Bellenen bolsa, yzygiderli aňlatma tutuş faýl ady bilen gabat geler,
+        başgaça ýüze çykar.</string>
+    <string name="start_ftp"/>
+    <string name="stop_ftp"/>
+    <string name="ftp_status_running">ylga</string>
+    <string name="ftp_status_not_running">işlemeýär</string>
+    <string name="ftp_no_wifi">Wi-Fi</string>
+    <string name="domain">domen</string>
+    <string name="smb_share">Paýlaşma ýoly</string>
+    <string name="invalid">Nädogry%s</string>
+    <string name="ftp_notif_starting">FTP Serweri</string>
+    <string name="ftp_notif_starting_title">FTP serweri</string>
+    <string name="ftp_notif_title"/>
+    <string name="ftp_notif_text">%s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP porty</string>
+    <string name="ftp_port_change_success">FTP porty üstünlikli üýtgedi</string>
+    <string name="ftp_port_change_error_invalid">Nädogry port belgisi saýlandy</string>
+    <string name="primary_two_title">başlangyç reňk (Sag tab)</string>
+    <string name="primary_two_summary">Sag tab üçin</string>
+    <string name="support_development">Ösüş goldawy</string>
+    <string name="report_bugs_title">Buglary habar beriň</string>
+    <string name="source_title">Çeşme kody</string>
+    <string name="source_summary">GitHub-da deslapky kodymyzy görüň</string>
+    <string name="report_bugs_summary">säwlikleri habar beriň ýa-da täze aýratynlyk soraň</string>
+    <string name="translate_title"/>
+    <string name="translate_summary">Amaze dilini terjime ediň</string>
+    <string name="paypal_copy_message">PayPal ID gysga paneli göçürildi</string>
+    <string name="searching_devices">Enjam gözlemek</string>
+    <string name="use_custom_ip">customörite IP ulanyň</string>
+    <string name="bookmark_lost">Bellik tapylmady, döredildi ...</string>
+
+    
+    <string name="share_limit">100-den gowrak faýly paýlaşyp bolmaz</string>
+    <string name="otg_access">OTG enjamynyň köküni saýlaň</string>
+    <string name="information">Maglumat</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Giriş</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Üýtgedilen</string>
+
+    <string name="title">Ady</string>
+    <string name="artist">Aýdymçy</string>
+    <string name="album">Albom</string>
+    <string name="year"/>
+    <string name="duration">Dowamlylygy</string>
+    <string name="comment">Düşündiriş</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Konteýner</string>
+    <string name="codec">Kodek</string>
+    <string name="channels">Kanallar</string>
+    <string name="sample_rate">Mysal bahasy</string>
+    
+    <string name="dimensions">Ölçegler</string>
+    <string name="frame_rate">Çarçuwanyň bahasy</string>
+    <string name="image_type">Surat görnüşi</string>
+    <string name="width">Giňligi</string>
+    <string name="height">Boýy</string>
+    <string name="date_modified">Sene üýtgedilen</string>
+    <string name="software">Programma üpjünçiligi</string>
+    <string name="creator">Dörediji</string>
+    <string name="camera_brand">Kamera markasy</string>
+    <string name="camera_model">Kamera modeli</string>
+    <string name="date_taken">Alnan senesi</string>
+    <string name="exposure_time">Ekspozisiýa wagty</string>
+    <string name="aperture_value">Aperturanyň bahasy</string>
+    <string name="image_iso">ISO tizlik reýtingi</string>
+    <string name="flash_fired">fleş ýanýar</string>
+    <string name="focal_length">fokus uzynlygy</string>
+    <string name="subject">mowzuk</string>
+    <string name="author">Awtor</string>
+    <string name="keywords">Açar sözler</string>
+    <string name="producer">Öndüriji</string>
+    <string name="created">Döredildi</string>
+    
+    <string name="pages">Sahypalaryň sany</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimizirlenen</string>
+    <string name="security">Howpsuzlyk</string>
+    <string name="paper_size">Kagyz ölçegi</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Käbir faýllar üstünlikli%s bolup bilmedi</string>
+    <string name="copied"/>
+    <string name="moved">göçürildi göçürildi</string>
+    <string name="copy_complete">Doly göçüriň</string>
+    <string name="waiting_title">garaşmak</string>
+    <string name="waiting_content">Işiň gutarmagyna garaşýarys</string>
+    <string name="extract_complete">Çykaryş gutarýar</string>
+    <string name="compression_complete">gysyş doly</string>
+    <string name="compressing">gysyş</string>
+    <string name="cancelled">edatyryldy</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">ittenazylan</string>
+    <string name="out_of"/>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of"/>
+    <string name="processing_file">-dan  gaýtadan işlemek faýly</string>
+    <string name="current_speed">Häzirki tizlik</string>
+    <string name="smb_launch_error">açmak üçin bu faýly saklamak üçin göçürmeli bolarsyňyz</string>
+    <string name="error_file_not_found">roralňyşlyk: Faýl tapylmady</string>
+    <string name="error_io">I / O roralňyşlyk</string>
+    <string name="error_file_too_large">roralňyşlyk: Faýl gaty uly</string>
+    <string name="medium_text">Orta tekst</string>
+    <string name="permission_read"/>
+    <string name="permission_write"/>
+    <string name="permission_execute">ýerine ýetiriň</string>
+    <string name="permission_owner">Eýesi</string>
+    <string name="permission_group">Topar</string>
+    <string name="permission_other">Beýleki</string>
+    <string name="clipboard_path_copy">Bufer paneline göçürildi</string>
+    <string name="service_timer">Wagt geçdi</string>
+    <string name="please_wait">Garaşyň</string>
+
+    <string name="cloud_connection">Bulut birikmesi</string>
+    <string name="cloud_connection_new">Täze bulut birikmesi</string>
+    
+    <string name="cloud_drive">Google Drive ™</string>
+    
+    <string name="cloud_box">guty</string>
+    <string name="cloud_get">Bulut pluginini alyň</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Programmalar ýok</string>
+    <string name="ftp_path">Paýlaşylan ýol</string>
+    <string name="ftp_path_hint"/>
+    <string name="change">Üýtget</string>
+    <string name="unknown_error">Wah, bir zat ýalňyş!</string>
+
+    <string name="ftp_path_change_success">FTP ýoly üstünlikli üýtgedi</string>
+    <string name="ftp_path_change_error_invalid">Nädogry ýol</string>
+    <string name="ftp_status_no_connection">Baglanyşyk ýok</string>
+    <string name="ftp_status_secure_connection">Howpsuz birikme</string>
+    <string name="ftp_status_title"/>
+    
+    <string name="ftp_login">Giriş</string>
+    <string name="field_empty">Meýdan boş bolup bilmez</string>
+    <string name="ftp_timeout">Boş wagt gutarmak</string>
+    <string name="ftp_seconds">Sekunt</string>
+    
+    <string name="intellihide_toolbar_summary"/>
+    <string name="hash_sha256">SHA- 256</string>
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">gysga paneline göçürildi</string>
+    <string name="contributors_1_summary">Terjime</string>
+    <string name="contributors_2_summary">Nyşan we bannerler</string>
+    <string name="contributors_3_summary">Mowzuk dwigateli</string>
+    <string name="contributors_4_summary">FAB</string>
+    <string name="contributors_5_summary">Salgylary süýşüreniňizde reňk geçişi</string>
+    <string name="contributors_6_summary">FTP serweri</string>
+    <string name="contributors_7_summary">Interaktiw gabygy otlamak</string>
+    <string name="connection_exists">Baglanyşyk eýýäm bar</string>
+
+    <string name="crypt_encrypting">Şifrlemek</string>
+    <string name="crypt_decrypting">Şifrlemek</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Şifrlenen</string>
+    <string name="crypt_decrypted">Şifrlenen</string>
+    <string name="crypt_encrypt">Şifrlemek</string>
+    <string name="crypt_decrypt">Şifrlemek</string>
+    <string name="operation_fail_following">Aşakdaky faýllar üçin iş başa barmady</string>
+    <string name="crypt_pref_master_password_title">Baş parol</string>
+    <string name="crypt_pref_master_password_summary">Şifrlemek üçin baş paroly düzüň.
+        Aýyrmak üçin boş goýuň.</string>
+    <string name="crypt_pref_fingerprint_title">Barmak yzy</string>
+    <string name="crypt_pref_fingerprint_summary">Şifrlemäni tassyklamak üçin barmak yzyny ulanyň</string>
+    <string name="crypt_fingerprint_no_permission">Barmak yzynyň rugsatlary</string>
+    <string name="crypt_fingerprint_not_enrolled">Barmak yzy ýazylmady</string>
+    <string name="crypt_fingerprint_no_security">Gulp ekrany howpsuzlygy tapylmady</string>
+    <string name="crypt_warning_key">Howpsuzlyk usulyňyzy üýtgedeniňizde maslahat beriň
+        Ulgam sazlamalary, bu mazmuny açyp bilmersiňiz.</string>
+    <string name="warning_never_show"/>
+    <string name="warning_confirm">düşündiň!</string>
+    <string name="crypt_encryption_fail"/>
+    <string name="crypt_decryption_fail"/>
+    <string name="crypt_decryption_fail_password">parol ýalňyşdy!</string>
+    <string name="crypt_fingerprint_authenticate"/>
+    <string name="authenticate_password">paroly giriziň</string>
+
+    <string name="sidebar_preferences">gapdal paneli</string>
+    <string name="sidebar_quick_access_title">gapdal paneli çalt giriş</string>
+    <string name="show_quick_access_pref_title">Çalt girişleri görkeziň</string>
+    <string name="show_quick_access_pref">Çalt girişler</string>
+    <string name="directory">Katalog</string>
+
+    <string name="sidebar_bookmarks_title">gapdal panel bellikleri</string>
+    <string name="show_bookmarks_pref_title">Bellikleri görkeziň</string>
+    <string name="show_bookmarks_pref">Bellikler</string>
+    <string name="create_bookmark">Bellik belligini dörediň</string>
+    <string name="edit_bookmark">Sahypa belligini redaktirläň</string>
+    <string name="question_delete_bookmark">Sahypa belligini pozuň?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin tapylmady. Play Store-dan göçürip almagyňyzy haýyş edýäris.</string>
+    <string name="cloud_error_failed_restart">Baglanyşygy ýükläp bilmedi.
+        Amaze Buludy bir gezek açmagyňyzy haýyş edýäris.</string>
+    <string name="cloud_remove">Bulut baglanyşygyny aýyrmak isleýärsiňizmi?</string>
+    <string name="cloud_fail_authenticate"/>
+    <string name="cloud_share_copied">Bufer paneline göçürilen paýlaşylýan baglanyşyk</string>
+    <string name="copy_low_memory">memoryat gutarýar, käbir RAM</string>
+    <string name="cloud_token_lost">Token ýitirildi, gaýtadan giriň</string>
+    <string name="monofont">Monospace şrift</string>
+    <string name="showHeaders">ersolbaşçylary görkez</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Hiç zat ýok</string>
+	<string name="item">element</string>
+	<string name="items">elementler</string>
+	
+	<string name="byte_singular">baýt</string>
+	<string name="bytes">baýt</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Faýlyň ady bolmaly</string>
+    <string name="add_item">element goşuň</string>
+    <string name="failed_smb_decrypt_path">SMB birikmesini ýükläp bilmedi</string>
+    <string name="failed_cloud_new_connection">Täze Bulut birikmesini goşup bilmedi </string>
+    <string name="failed_cloud_api_key">Bulut plaginini tassyklamak başartmady</string>
+
+    <string name="local_inet_addr_error">inerli inet adresini almakda ýalňyşlyk</string>
+    <string name="intent_save_as">asatda saklaň ...</string>
+    <string name="go">Git</string>
+    <string name="advanced">Ösen</string>
+    <string name="typeable_paths_title">omörite ýollar</string>
+    <string name="typeable_paths_summary">customörite ýol ýazmak üçin uzyn basma ýoly</string>
+    <string name="send_email_to"/>
+
+    <string name="text_editor">Tekst redaktorynyň sazlamalaryna</string>
+    <string name="preference_newstack_title">Faýllary täze wezipe hökmünde açyň</string>
+    <string name="preference_newstack_summary">Aýry-aýry meselelerde faýl açmaga mümkinçilik berýär. Ulgamy yzyna alýan ekrandan giriň.</string>
+    
+    <string name="developers">Döredijiler</string>
+    <string name="no_bitcoin_app">Bitcoin gapjyk programmasyny guruň</string>
+    <string name="channel_name_normal">Amaze bildirişleri</string>
+    <string name="channel_description_normal">Amaze Faýl Dolandyryjysynyň habarnamalary</string>
+    <string name="channel_name_ftp">Amaze FTP Serweri</string>
+    <string name="channel_description_ftp">Amaze Faýl Dolandyryjysy FTP Serweriniň habarnamalary</string>
+
+    
+    <string name="processing">Işlemek ...</string>
+    <string name="failed_no_connection">Faýllary ýükläp bilmedi. Baglanyşygyňyzy barlaň.</string>
+
+    <string name="update">Täzelenme</string>
+	<string name="scp_connection">SCP / SFTP birikmesi</string>
+    <string name="ftp_connection">FTP birikmesi</string>
+    <string name="ftps_connection">SSL birikmesiniň üstünden FTP</string>
+    
+    
+    <string name="ssh_host_key_verification_prompt_title">Öý eýesini barlaň</string>
+    <string name="ssh_select_pem_button">SSH şahsy açary</string>
+    <string name="ssh_pem_key_parse_error">Saýlanan PEM-i okap bolmaýar:%s</string>
+    <string name="password_unchanged">(üýtgemän)</string>
+    <string name="ssh_authentication_failure_password">Giriş şowsuzlygy: Berlen ulanyjy ady we paroly bilen tassyklap bolmaýar.</string>
+    <string name="ssh_authentication_failure_key">Giriş şowsuzlygy: Berlen ulanyjy ady we şahsy açar bilen tassyklap bolmaýar.</string>
+    <string name="ssh_connect_failed">%1$s bilen baglanyşyp bolmaýar:%2$d:%3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">DUNDURYŞ: IOS GOWY IDENTIFIKASI ANDA Üýtgedildi!</string>
+    
+    <string name="ssh_key_prompt_passphrase">Açar söz düzümini giriziň .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Salgylanmalary döretmek işledijiňiz tarapyndan goldanylmaýar.</string>
+    
+    <string name="select_color_config">Reňk konfigurasiýasyny saýlaň</string>
+    <string name="customize"/>
+    <string name="custom">omörite</string>
+    <string name="preselected_configs_title">Saýlanan sazlamalar</string>
+    <string name="orange">Pyrtykal</string>
+    <string name="blue">Gök</string>
+    <string name="green">Greenaşyl</string>
+    <string name="password_no_match">Parol gabat gelmeýär</string>
+    <string name="deselect_all">Hemmesini aýyryň</string>
+    <string name="filename">Faýlyň ady</string>
+    <string name="compress_file_suggest_zip_extension">Faýl giňeltmesi hökmünde \ ". zip \" ulanmak maslahat berilýär.</string>
+    <string name="about_amaze">Android üçin material dizaýn faýl dolandyryjysy</string>
+    <string name="license">Ygtyýarnama</string>
+    <string name="libraries">Kitaphanalar</string>
+    <string name="password_repeat">paroly gaýtala</string>
+    <string name="create_file_suggest_txt_extension">Faýl giňeltmesi hökmünde \ ". txt \" ulanmak maslahat berilýär.</string>
+    <string name="ssh_select_pem">Hakyky tassyklamak üçin şahsy açary saýlaň</string>
+    <string name="ssh_key_invalid_passphrase">Nädogry açar söz düzümi.</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM-i açmak üçin dogry kodlaýjy ýok.</string>
+    <string name="encryption_fail_copy">Maglumat bazasyndaky şifrlemek ýazgysyny täzeläp bilmedi</string>
+    <string name="extracted">Çykarylan</string>
+    <string name="compressed">Gysylan</string>
+    <string name="processed">Işlenildi</string>
+    <string name="no_obtainable_info">Bu faýl hakda maglumat ýok</string>
+    <string name="reopen_from_source">edip bolmaýar, iň soňky programmadan açyň</string>
+    <string name="no_file_error">Bir zat ýalňyşdy, açyljak zat ýok</string>
+    <string name="file_too_long">Faýl gaty uzyn we redaktirläp bolmaýar ilkinji%d nyşanlaryny okap biler</string>
+    <string name="file_read_only">Açylan faýl diňe okalýar.</string>
+    <string name="got_it">düşündiňiz!</string>
+    <string name="encrypt_file_save_as">Şifrlenen faýly saklaň ...</string>
+    <string name="encrypt_folder_save_as">Şifrlenen bukjany saklaň ...</string>
+    <string name="encrypt_option_use_aze">Amaze şifrlemek formatyny ulanyň</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p> AESCrypt, AES şifrlemesine esaslanýan açyk çeşme faýl şifrlemek formaty. Şeýle hem göçme, beýleki platformalarda AESCrypt programmalary bilen şifrlenip bilner. </p>
+        <p> <a href="https://www.aescrypt.com" target="_blank"> AESCrypt web sahypasy </a> </p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p> Amaze-iň şifrlemek formaty hem AES şifrlemesine esaslanýar; ýöne AESCrypt formatyndan tapawutlylykda, bu enjam diňe şifrlenip bilner; şeýle hem Amaze Faýl Dolandyryjysyny bu enjamdan aýyrmaly däl ýa-da ekrany gulplamagyň usulyny üýtgetmeli däl, ýogsam kodlanan faýly dikeltmäge mümkinçiligiňiz bolmaz. </p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Şifrlenen faýllar faýl giňeltmesi hökmünde \ ". aze \" ulanmalydyr.</string>
+    <string name="encrypt_file_must_end_with_aes">Şifrlenen faýllar faýl giňeltmesi hökmünde \ ". aes \" ulanmalydyr.</string>
+    <string name="error_aescrypt_decrypt_failed">Şifrläp bolmaýar \ \'%s \': \ \'%s \'</string>
+    <string name="cannot_overwrite">Faýlyň üstünden ýazyp bolmaýar.</string>
+    <string name="saved_single_file">Faýl \ \'%s \' görnüşinde saklanýar.</string>
+    <string name="saved_multi_files">%d faýllar saklandy.</string>
+    <string name="create_hidden_file_warn">Döredilen faýl faýl sanawynda gizlener.</string>
+    <string name="grant_apkinstall_permission">Programma gurmak üçin rugsat gerek.</string>
+    <string name="time_remaining">Galan wagt</string>
+    <string name="transfer_rate">Geçiriş tizligi</string>
+    <string name="unknown">näbelli</string>
+    <string name="multiple_invalid_archive_entries">Arhiwdäki käbir faýllary alyp bolmaýar; arhiw zaýalanmagy ýa-da zyýanly çeşmeden gelip biler.</string>
+    <string name="saf_otg_explanation">Howpsuzlyk sebäpli indi Android faýl ulgamyna girersiňiz. Çep tarapdaky sanawdan USB enjamyny saýlaň.</string>
+    <string name="donation_thanks">Bagyş edeniňiz üçin sag boluň, bu bizi höweslendirýär! (:</string>
+    <string name="enable_marquee_filename">Faýl atlary üçin marquee effektini işjeňleşdiriň</string>
+    <string name="archive_password_prompt">Arhiw parolyny giriziň:</string>
+    
+    <string name="cannot_extract_archive">Arhiw çykaryp bolmaýar \ "%s \":%s</string>
+    <string name="archive_unsupported_or_corrupt">Arhiw açyp bolmaýar \ "%s \". Thea-da arhiwi açyp bilmeris, ýa-da arhiw zaýalandy.</string>
+    <string name="close"/>
+    <string name="bookmark_exists">Bellik bar</string>
+    <string name="hide_media">Media brauzerlerinden gizläň</string>
+    
+    <string name="update_host_key">Host açaryny täzeläň</string>
+    <string name="cancel_recommended">elatyr (maslahat berilýär)</string>
+    
+    
+    <string name="failed_install_apk"/>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Içerki ammar</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD karta</string>
+    <string name="choose_folder">Bu bukjany saýlaň</string>
+    
+    <string name="some_files_failed_invalid_operation">Käbir faýllaryň nädogry işlemegi sebäpli şowsuz boldy</string>
+    <string name="ftp_server_prompt_connect_to_network">Tora birikdiriň ýa-da AP</string>
+    <string name="ftp_server_open_settings">açyk sazlamalary açyň</string>
+    <string name="move">Göçüriň</string>
+    <string name="select_save_location"/>
+    <string name="scp_default_path">Bellenen ýol (goşmaça)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Bagyşlaň, beýle bolmaly däldi.</string>
+    
+    <string name="error_report_button_text">Bu ýalňyşlygy e-poçta arkaly habar beriň</string>
+    <string name="error_report_button_telegram">Bu ýalňyşlygy telegramma arkaly habar beriň</string>
+    <string name="copy_for_github">Formatlanan hasabaty göçüriň</string>
+    <string name="error_report_open_issue_button_text">GitHub-da hasabat</string>
+    <string name="error_report_open_github_notice">Crashykylmagyňyzy ara alyp maslahatlaşýan meseläniň eýýäm bardygyny ýa-da ýokdugyny barlaň.</string>
+    <string name="error_snackbar_message">Bagyşlaň, bir zat ýalňyşdy.</string>
+    <string name="error_snackbar_action">Hasabat</string>
+    <string name="what_device_headline">Maglumat:</string>
+    <string name="what_happened_headline">Näme boldy:</string>
+    
+    <string name="your_comment">Siziň teswiriňiz (iňlis dilinde):</string>
+    <string name="error_details_headline">Jikme-jiklikler:</string>
+    <string name="app_ui_crash">Programma / UI ýykyldy</string>
+    <string name="error_report_title">roralňyşlyk hasabaty</string>
+    <string name="crash_report_copied">heläkçilik hasabaty bufer paneline göçürildi</string>
+    <string name="disableIpcSignature">IPC gol çekmesini öçüriň (Miras SMBv1 serwerleri üçin - UNSAFE!)</string>
+    <string name="cannot_delete_file"/>
+    <string name="cannot_delete_file_with_reason">Faýly pozup bolmaýar -%s</string>
+    <string name="cannot_rename_file">%s -%s faýlyň adyny üýtgedip bolmaýar</string>
+    <string name="cannot_read_directory">%s -%s</string>
+    <string name="just_once">Diňe bir gezek</string>
+    <string name="always">Elmydama</string>
+    <string name="choose_different_app">Dürli programmany saýlaň</string>
+    <string name="clear_open_file">Keşi arassalaň</string>
+    <string name="clear_open_file_summary">Saýlanan deslapky faýl açmak programmalaryny arassalaýar</string>
+    <string name="ftp_readonly">Diňe okalýan giriş</string>
+    <string name="legacy_listing_title">Kök üçin miras sanawyny ulanyň</string>
+    <string name="legacy_listing_summary">Işledilen bolsa, faýllary sanawlamak üçin miras usulyny ulanyň</string>
+    <string name="error_unsupported_v5_rar">RAR arhiwi \ "%s \" goldanylmaýan RAR v5 arhiwi.</string>
+    <string name="ftp_prompt_restart_server">Üýtgeşmeleriň güýje girmegi üçin FTP serwerini täzeden açmaly bolarsyňyz.</string>
+    <string name="error_permission_denied">Rugsat berilmedi</string>
+    <string name="error_archive_password_incorrect">Nädogry arhiw paroly.</string>
+    <string name="error_archive_cannot_extract">Arhiw ýazgysyny \ "%s \" -den \ "%s \" -e çykaryp bolmaýar.</string>
+    <string name="drag_and_drop_preference">Süýremek we goýmak ileri tutmany saýlaň (Tejribe)</string>
+    <string name="drag_to_move_copy">Faýllary göçürmek ýa-da göçürmek üçin degiň we süýräň</string>
+    <string name="drag_to_select"/>
+    <string name="disable">faýllary saýlamak üçin degiň we süýräň</string>
+    <string name="choose_operation"/>
+    <string name="remember">ýerine ýetirmek üçin amal saýlaň</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP serweri üçin SAF ygtyýaryny beriň</string>
+    
+    
+    <string name="android_data_prompt_saf_access_title">SAF ygtyýaryny beriň</string>
+    <string name="ftp_preference_saf_filesystem_title">Miras faýl ulgamyny ulanyň</string>
+    <string name="ftp_preference_saf_filesystem">Täze Android wersiýalarynda</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP serweriniň paýlaşylan ýoly miras faýl ulgamyny durmuşa geçirmäge gaýdyp barýarkaňyz içerki ammarda täzeden düzüldi. Zerur bolanda ýokarky sag tarapdaky menýuny ulanyp täze ýol saýlaň.</string>
+    <string name="ftp_server_reset_notify">FTP serweriniň umumy ýoly içerki ammarda täzeden düzüldi</string>
+    <string name="ftp_server_root_unavailable">Kök girmegini talap edýän ýoly saýlaýarsyňyz. Enjamyňyz köklenen bolsa sazlaýjylarda kök gözlegçisini işlediň.</string>
+    
+    <string name="compressed_explorer_fragment_error_open_uri">Okamak üçin URI \ "%s \" açmakda ýalňyşlyk.</string>
+    <string name="error_empty_archive">\ "%s \" boş arhiw.</string>
+    <string name="error_bad_archive_without_info">\ "%s \" bozulan arhiwdir .</string>
+    
+    <string name="security_error">Faýl bu programmany ulanyp açylmady</string>
+    <string name="cloud_drive_tooltip">Amaze Faýl Dolandyryjysynyň içindäki faýllary dolandyrmak üçin Google Drive ™ birikmesini dörediň.</string>
+    <string name="signin_with_google_title">Google Drive ™</string>
+    <string name="show_system_apps">Ulgam programmalaryny görkeziň</string>
+    <string name="system_apps">Ulgam programmalary</string>
+    <string name="select_inverse">Tersini saýlaň</string>
+    <string name="select_by_type"/>
+    <string name="select_by_date">görnüşi boýunça saýlaň</string>
+    <string name="select_similar">Şuňa meňzeş</string>
+    <string name="error_fetching_google_play_product_list">Google Play-den önüm sanawyny almakda ýalňyşlyk.</string>
+    <string name="grant_all_files_permission">“Android 11” -den başlap, “Google” faýl dolandyryjylaryndan enjamdaky ähli faýllary dolandyrmak üçin ulanyjydan rugsat soramagyny haýyş edýär. Jikme-jiklikler.
+        \n \nAmaze Faýl dolandyryjysyna-da bu rugsat gerek. Bu ýerde "Grant" düwmesini basanyňyzdan soň, indiki ekrandaky ähli faýl opsiýasyny dolandyrmaga rugsat beriň.
+        \n \n Bu gepleşik penjiresini ýatyrmak programmadan çykar.</string>
+    <string name="user_apps">Ulanyjy programmalary</string>
+    <string name="appearance">Daş görnüşi</string>
+    <string name="behavior">Özüňi alyp baryş</string>
+    <string name="appearance_summary">Faýl dolandyryjysynyň mowzugyny, reňklerini we daşky görnüşini düzüň</string>
+    <string name="ui_summary">Haýsy maglumatlary görkezmelidigini dolandyryň, gapdal paneli sazlaň we UI saýlawlaryny üýtgediň</string>
+    <string name="behavior_summary">Öňdebaryjy gözleg we faýllary täze wezipe hökmünde açmak ýaly hereketleri üýtgediň</string>
+    <string name="security_summary">Paroly we şifrlemäni düzüň</string>
+    <string name="backup_summary">Amaze sazlamalaryny eksport / import ediň</string>
+
+    <string name="pref_export">Eksport</string>
+    <string name="pref_export_summary">Eksport sazlamalary</string>
+    
+    <string name="pref_import_summary">import sazlamalary</string>
+
+    <string name="quick_desc">Amaze</string>
+    <string name="recent_desc">recentlyakynda döredilen ýa-da üýtgedilen faýllar</string>
+    <string name="error_cannot_find_way_open">Faýly açmagyň ýoluny tapyp bilmedim</string>
+    <string name="error_cant_decompress_that_file">Talap edilýän arhiwi işledip bolmaýar</string>
+    <string name="analyse_storage">Saklanyşy derňäň</string>
+    
+    
+    <string name="download"/>
+    
+    <string name="amaze_utils_installed_alias">Amaze File Utilities guranyňyz üçin sag boluň. Programma ugrukdyrylarsyňyz.</string>
+    <string name="image_viewer">Amaze şekil görkezijisi</string>
+    <string name="video_player">Amaze wideo pleýer</string>
+    <string name="amaze_audio_player">Amaze aýdym-saz pleýeri</string>
+    <string name="pdf_viewer">Amaze resminama tomaşaçysy</string>
+    <string name="docx_viewer">Amaze Resminama Görkeziji</string>
+    <string name="share_logs">Paýlaşma surnallaryny</string>
+    <string name="share_logs_summary">Alnan gündelikleri e-poçta / telegramma arkaly paýlaşyň</string>
+    <string name="open_with_amaze">Amaze bilen açyň</string>
+    <string name="confirmation">Tassyklama</string>
+    
+    <string name="error_google_play_cannot_update_myself">Google Play syýasaty boýunça, programmalara özüni täzelemäge rugsat berilmeýär. Programmany Google Play-den täzeläň.</string>
+    <string name="error_cannot_get_package_info">\ "%s \" faýlyndan paket maglumatlary alyp bolmaýar. Görkezilen faýl APK däl, ýa-da paket faýly zaýalanýar.</string>
+    <string name="preference_delete_confirmation">Tassyklamany öçüriň</string>
+    <string name="preference_delete_confirmation_summary">Faýllary pozmazdan ozal tassyklama soraň. Muny öçürmek gaty ruhdan düşýär!</string>
+    
+    
+    <string name="protocol_ftps">Howpsuz FTP</string>
+    <string name="unavailable">elýeterli däl</string>
+
+    <string name="exporting_failed">Eksport şowsuz boldy: ätiýaçlyk faýly ýazyp bilmedi</string>
+    <string name="importing_failed">Import etmek şowsuz: ätiýaçlyk faýly okap bilmedim</string>
+    <string name="importing_completed">Tamamlanan</string>
+    <string name="invalid_backup_file">Nädogry ätiýaçlyk faýly</string>
+    <string name="import_failed_for">import etmek şowsuz boldy:</string>
+    <string name="free_of">"%s \n%s%s-den boş</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin F-Droid wersiýasy bilen goldanylmaýar. Amaze-iň Play Store wersiýasyny ulanyň.</string>
+    <string name="disable_player_intent_filters">Pleýer niýetli süzgüçleri öçüriň</string>
+    <string name="disable_player_intent_filters_summary">Amaze gurlan media pleýerlerini faýl saýlaýjysyndan öçürýär</string>
+    <string name="no_app_found_intent">Bu niýeti çözmek üçin hiç bir programma tapylmady. DocumentUI guruldyňyzmy?</string>
+    <string name="cloud_connection_credentials_cleared">Bulut birikmesi şahsyýetnamalary arassalandy</string>
+    <string name="cloud_connection_credentials_cleared_msg">Gynansagam, bulut baglanyşyk şahsyýet maglumatlaryňyzy täze maglumat bazasynyň shemasyna geçirip bilmedik we olary programmadan aýyrmaly bolduk. Bulut baglanyşygyny täzeden dörediň.</string>
+</resources>

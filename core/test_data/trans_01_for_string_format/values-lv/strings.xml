@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Atvērt navigācijas atvilktni</string>
+    <string name="drawer_close">Aizvērt navigācijas atvilktni</string>
+    <string name="icon">ikona</string>
+    <string name="apps">Lietotņu pārvaldnieks</string>
+    <string name="ftp">FTP serveris</string>
+    <string name="setting">Iestatījumi</string>
+    <string name="select">Atlasiet vienumu</string>
+    <string name="press_again">Nospiediet vēlreiz, lai izietu.</string>
+    <string name="open">Atvērt</string>
+    <string name="backup">Dublēšana</string>
+    <string name="uninstall">Atinstalēt</string>
+    <string name="play">Play veikals</string>
+    <string name="properties">Rekvizīti</string>
+    <string name="copyingapks">%d APK failu kopēšana uz %s</string>
+    <string name="delbook">Dzēst grāmatzīmi</string>
+    <string name="add_to_bookmarks">Pievienot grāmatzīmēm</string>
+    <string name="enterpath">Ievadiet ceļu</string>
+    <string name="cancel">ATCELT</string>
+    <string name="create">IZVEIDOT</string>
+    <string name="loading">Notiek ielāde…</string>
+    <string name="file_empty">Fails ir tukšs</string>
+    <string name="error">Kļūda</string>
+    <string name="search_results">%s meklēšanas rezultāti</string>
+    <string name="rename">Pārdēvēt</string>
+    <string name="save">Saglabāt</string>
+    <string name="bookmarks_added">Pievienotās grāmatzīmes</string>
+    <string name="fileexist">Fails ar tādu pašu nosaukumu jau pastāv</string>
+    <string name="name">Nosaukums</string>
+    <string name="date">Datums</string>
+    <string name="location">Atrašanās vieta</string>
+    <string name="size_capitalized">Izmērs</string>
+    <string name="size">mapes lielums</string>
+    <string name="enterzipname">Ievadiet pasta indeksu</string>
+    <string name="no_app_found">Nav atrasta neviena programma, lai atvērtu šo failu</string>
+    <string name="copying">Notiek kopēšana</string>
+    <string name="moving">Pārvietošana</string>
+    <string name="file">Fails</string>
+    <string name="folder">Mape</string>
+    <string name="newfolder">Jauna mape</string>
+    <string name="entername">Ievadiet nosaukumu</string>
+    <string name="extracting">Izvilkšana</string>
+    <string name="stopping">Apturēšana</string>
+    <string name="open_parent">Atvērt vecākdirektoriju</string>
+    <string name="open_with">Atvērt ar</string>
+    <string name="share">Kopīgot</string>
+    <string name="about">Par</string>
+    <string name="extract">Izvilkt</string>
+    <string name="compress">Saspiest</string>
+    <string name="yes">Jā</string>
+    <string name="no">Nē</string>
+    
+    <string name="dialog_delete_category_directories">Katalogi</string>
+    <string name="dialog_delete_category_files">Faili</string>
+    <string name="dialog_delete_disclaimer">Dzēšot tālāk norādītos vienumus, tie tiks neatgriezeniski noņemti no ierīces un tos nevarēs atgūt.</string>
+    <string name="dialog_delete_title">Vai neatgriezeniski dzēst vienumus?</string>
+    <string name="deleting">Dzēšot</string>
+    <string name="question_set_path_as_home">Vai vēlaties iestatīt pašreizējo ceļu kā sākumlapu šai cilnei?</string>
+    <string name="directorysort">Kataloga kārtošanas režīms</string>
+    <string name="sort_by">Kārtot pēc</string>
+    <string name="sort_only_this">Tikai šī mape</string>
+    <string name="theme">Motīvs</string>
+    <string name="random">Nejaušs apvalks</string>
+    <string name="random_summary">Iestata nejaušu primāro krāsu startēšanas laikā</string>
+    <string name="colorize">Ikonu krāsainie</string>
+    <string name="colorize_summary">Iestati statiskās ikonas krāsa. Neignorē direktorija ikonas krāsu preferences.</string>
+    <string name="home">Sākums</string>
+    <string name="paste">Ielīmēt</string>
+    <string name="history">Vēsture</string>
+    <string name="copy">Kopēt</string>
+    
+    <string name="root_mode_summary">Tikai ierīcei ar sakņu sistēmu. Pārbaudiet to tikai tad, ja esat par to pārliecināts.</string>
+    <string name="root_failure">Saknes piekļuve nav piešķirta</string>
+    <string name="select_all">Atlasīt visu</string>
+    <string name="delete">Dzēst</string>
+    <string name="set_as_home">Iestatīt kā sākumlapu</string>
+    <string name="operation_not_supported">Darbība netiek atbalstīta</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Materiāls Gaišs</string>
+    <string name="dark">Materiāls Tumšs</string>
+    <string name="daytime">Dienas laiks</string>
+    <string name="black">Melns (paredzēts OLED)</string>
+    <string name="system">Sistēma (sekojiet sistēmas motīvam)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Mapes augšpusē</string>
+    <string name="filesOnTop">Faili augšpusē</string>
+    <string name="none_on_top">Nav augšpusē</string>
+    <!--SortBy-->
+    <string name="sort_name">Nosaukums</string>
+    <string name="lastModified">Pēdējoreiz modificēts</string>
+    <string name="sort_size">Izmērs</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Izvēlieties failu</string>
+    <string name="process_viewer">Procesu skatītājs</string>
+    <string name="in_safe">Nepietiek vietas</string>
+    <string name="no_file_overwrite">Nav pārrakstīts fails</string>
+    <string name="skip">Izlaist</string>
+    <string name="overwrite">Pārrakstīt</string>
+    <string name="not_allowed">Nav atļauts</string>
+    <string name="searching">Meklēšana %s</string>
+    <string name="done">Gatavs</string>
+    <string name="set">Iestatīt</string>
+    <string name="enablerootmde">Iespējot saknes režīmu</string>
+    <string name="goback">Atpakaļ</string>
+    <string name="newfile">Jauns fails</string>
+    <string name="no_files">Nav neviena faila</string>
+    <string name="used">izmantota vieta</string>
+    <string name="used_by_others">citu lietotā vieta</string>
+    <string name="free">brīvā vieta</string>
+    <string name="listview">Saraksta skats</string>
+    <string name="gridview">Režģis Skatīt</string>
+    <string name="permission">Atļaujas</string>
+    <string name="hide">Paslēpt</string>
+    <string name="exit">Iziet</string>
+    <string name="doforall">Darīt visiem vienumiem</string>
+    <string name="gridcolumnno">Sleju skaits režģa skatā</string>
+    <string name="set_random">Izmaiņas tiks veiktas pēc tam, kad restartēsiet lietotni</string>
+    <string name="authors">Autori</string>
+    <string name="changelog">Izmaiņu žurnāls</string>
+    <string name="ok">Labi</string>
+    <string name="ui">Interfeiss</string>
+    <string name="general">Vispārīgi</string>
+    <string name="thumb_summary">Rādīt lietotņu un attēlu sīktēlus</string>
+    <string name="thumb">Rādīt sīktēlus</string>
+    <string name="hidden">Rādīt slēptos failus un mapes</string>
+    <string name="lastModifiedSummary">Rādīt pēdējās modifikācijas datumu un laiku</string>
+    <string name="lastModifiedPref">Rādīt pēdējās modifikācijas datumu un Laiks</string>
+    <string name="size_pref_summary">Rādīt failu lielumu un vienumu skaitu mapēs</string>
+    <string name="size_pref">Rādīt izmērus</string>
+    <string name="miscellaneous">Dažādi</string>
+    <string name="root_pref_summary">Rādīt failu un mapju atļaujas</string>
+    <string name="root_pref">Rādīt atļaujas</string>
+    <string name="about_amaze_file_manager_label">Par Amaze failu pārvaldnieku</string>
+    <string name="version">Versija</string>
+    <string name="rate">Novērtējiet lietotni</string>
+    <string name="feedback">Sūtīt atsauksmes</string>
+    <string name="hiddenfiles">Slēptie faili</string>
+    <string name="type">Tips</string>
+    <string name="root_directory">Sakne</string>
+    <string name="add_shortcut">Pievienot saīsni</string>
+    <string name="unsaved_changes">Nesaglabātās izmaiņas</string>
+    <string name="unsaved_changes_description">Jums ir nesaglabātas izmaiņas. Vai vēlaties tās saglabāt pirms iziešanas?</string>
+    <string name="saving">Saglabā</string>
+    <string name="package_installer">pakotnes instalēšanas programmu</string>
+    <string name="view">Skatīt</string>
+    <string name="install">Instalēt</string>
+    <string name="archive">Arhīvs</string>
+    <string name="archive_text">Šis ir arhīvs. Kādu darbību vēlaties veikt?</string>
+    <string name="package_installer_text">Šī ir pakotņu instalēšanas programma. Kādu darbību vēlaties veikt?</string>
+    <string name="xda_title">XDA pavediens</string>
+    <string name="xda_summary">Jautājumi un atbildes, palīdzība un problēmu novēršana</string>
+    <string name="circular_images">Izmantojiet apļveida ikonas attēliem un videoklipiem</string>
+    <string name="circular_icons">Izmantojiet apļveida ikonas</string>
+    <string name="back_title">Navigācija atpakaļ</string>
+    <string name="back_summary">Iespējo pielāgotu navigāciju atpakaļ saraksta augšdaļā</string>
+    <string name="details">Detaļas</string>
+    <string name="translators">Tulkotāji</string>
+    <string name="german_translation_title">vācu</string>
+    <string name="italian_translation_title">itāļu valoda</string>
+    <string name="french_translation_title">franču</string>
+    <string name="russian_translation_title">krievu</string>
+    <string name="spanish_translation_title">spāņu</string>
+    <string name="basque_translation_title">basku</string>
+    <string name="chinese_translation_title">ķīniešu</string>
+    <string name="serbian_translation_title">serbu</string>
+    <string name="turkish_translation_title">turku</string>
+    <string name="ukrainian_translation_title">ukraiņu</string>
+    <string name="portuguese_translation_title">portugāļu </string>
+    <string name="polish_translation_title">poļu</string>
+    <string name="korean_translation_title">korejiešu</string>
+    <string name="greek_translation_title">grieķu</string>
+    <string name="dutch_translation_title">holandiešu</string>
+    <string name="romanian_translation_title">rumāņu</string>
+    <string name="vietnamese_translation_title">vjetnamiešu</string>
+    <string name="japanese_translation_title">japāņu</string>
+    <string name="tamil_translation_title">tamiliešu </string>
+
+    
+    <string name="unin_system_apk">Šī ir sistēmas lietotne, tās dzēšana var izraisīt sistēmas nestabilitāti.\nVai turpināt?</string>
+    <string name="warning">Brīdinājums</string>
+    <string name="donate">Ziedot</string>
+    <string name="archive_extract_folder">Arhīva izvilkšanas mape</string>
+    <string name="archive_summary">Arhīva faili tiks izvilkti šajā mapē. Noklusējuma vērtība ir direktorijs, kurā atrodas arhīvs.</string>
+    <string name="open_as">Atvērt kā</string>
+    <string name="text">Teksts</string>
+    
+    
+    <string name="other">Cits</string>
+    <string name="image">Attēls</string>
+    <string name="contributors">Līdzstrādnieki</string>
+    <string name="save_paths">Atcerēties ceļus</string>
+    <string name="save_path_summary">Palaižot, pēdējā skatītā tiks parādīta katras cilnes mape</string>
+    <string name="select_intent">Atlasiet</string>
+    <string name="database">Datu bāze</string>
+    <string name="colored_navigation">Krāsu navigācijas josla</string>
+    <string name="colored_navigvation_sum">Vai sistēmas navigācijas josla ir iekrāsota ar apvalku</string>
+
+    <string name="color_title">Krāsa</string>
+    <string name="color_summary">Iestatiet krāsu dažādiem lietotāja saskarnes komponentiem</string>
+    <string name="primary_color_title">Galvenā krāsa (kreisā cilne)</string>
+    <string name="primary_color_summary">Iestatiet krāsu lieliem lietotāja interfeisa elementiem kreisajā cilnē</string>
+    
+    <string name="accent_color_summary">Iestatiet krāsu uz FAB un citiem maziem lietotāja interfeisa elementiem</string>
+    <string name="icon_color_title">Ikonas krāsa</string>
+    <string name="icon_color_summary">Ikonu krāsas iestatīšana</string>
+    <string name="choose_color">Izvēlēties krāsu</string>
+    <string name="files">Faili</string>
+    <string name="textreader">Teksta lasītājs</string>
+    <string name="databasereader">Datu bāzes lasītājs</string>
+    <string name="show_dividers">Rādīt sadalītājus</string>
+    <string name="needs_access">Nepieciešama rakstīšanas piekļuve</string>
+    <string name="needs_access_summary">Lūdzu, izvēlieties saknes direktoriju \t</string>
+    <string name="needs_access_summary1">\to piešķiriet rakstīšanas tiesības, lai darbotos</string>
+    <string name="smb_connection">SMB Savienojums</string>
+    <string name="smb_server">Servera IP adrese</string>
+    <string name="server_address">Servera IP adrese</string>
+    <string name="username">Lietotājvārds</string>
+    <string name="password">Parole</string>
+    <string name="anonymous">Anonīms</string>
+    
+    <string name="folders">Mapes</string>
+    <string name="folderfilecount">%1$d mapes un %2$d faili</string>
+    <string name="videos">Video</string>
+    <string name="apks">APK</string>
+    <string name="documents">Dokumenti</string>
+    <string name="images">Attēli</string>
+    <string name="clear">Notīrīt</string>
+    
+    <string name="total">Kopā:</string>
+    <string name="calculating">aprēķina</string>
+    <string name="sort">Kārtot</string>
+    <string name="ascending">Augšupejoša</string>
+    <string name="descending">Dilstoša</string>
+    <string name="default_string">Noklusējums</string>
+    <string name="doit">Dariet to</string>
+    <string name="want_help">Vai nepieciešama palīdzība?</string>
+    <string name="quick">Ātrā piekļuve</string>
+    <string name="recent">Pēdējie faili</string>
+    <string name="edit">Rediģēt</string>
+    <string name="find">Atrast lapā</string>
+    <string name="grant">Piešķirt</string>
+    <string name="grantper">Piešķirt atļauju</string>
+    <string name="grantfailed">Atļauja nav piešķirta</string>
+    <string name="grant_storage_permission">Lietotnei ir nepieciešama krātuves atļauja Turpināt. Atceļot šo dialoglodziņu, programma tiks aizvērta.</string>
+    <string name="operation_unsuccesful">Darbība neveiksmīga</string>
+    <string name="creatingfile">Faila izveide</string>
+    <string name="creatingfolder">Mapes izveide</string>
+    <string name="renaming">Pārdēvēšana</string>
+    <string name="cant_be_empty">%s nevar būt tukšs</string>
+    <string name="ip">Adrese</string>
+    <string name="connection_name">Savienojuma nosaukums</string>
+    <string name="no_device_found">Netika atrasta neviena ierīce</string>
+    <string name="path">Ceļš</string>
+    <string name="rename_bookmark">Modificēt grāmatzīmi</string>
+    <string name="cut">Izgriezt</string>
+    <string name="search">Meklēt</string>
+    <string name="invalid_name">Nederīgs nosaukums</string>
+    <string name="search_hint">Ierakstiet, lai meklētu…</string>
+    <string name="advanced_search">Izvērstā meklēšana</string>
+    <string name="regular_expression">Regulārā izteiksme</string>
+    <string name="regular_expression_summary">Meklēšana, izmantojot BASH stila regulāro izteiksmi</string>
+    <string name="match_content">Satura atbilstība</string>
+    <string name="match_content_summary">Ja iestatīt, regulārā izteiksme tiks saskaņota ar visu faila nosaukumu,
+        pretējā gadījumā meklēs gadījumu.</string>
+    <string name="start_ftp">Sākt</string>
+    <string name="stop_ftp">Pārtraukt</string>
+    <string name="ftp_status_running">Darbojas</string>
+    <string name="ftp_status_not_running">Nedarbojas</string>
+    <string name="ftp_no_wifi">Pārliecinieties, vai ir izveidots savienojums ar Wi -Fi</string>
+    <string name="domain">Domēns</string>
+    <string name="smb_share">Koplietošanas ceļš</string>
+    <string name="invalid">Nederīgs %s</string>
+    <string name="ftp_notif_starting">Tiek startēts FTP serveris</string>
+    <string name="ftp_notif_starting_title">FTP serveris</string>
+    <string name="ftp_notif_title">Amaze FTP serveris darbojas</string>
+    <string name="ftp_notif_text">pie %s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP ports</string>
+    <string name="ftp_port_change_success">FTP ports ir veiksmīgi mainīts</string>
+    <string name="ftp_port_change_error_invalid">Atlasīts nederīgs porta numurs</string>
+    <string name="primary_two_title">Primārā krāsa (labā cilne)</string>
+    <string name="primary_two_summary">Iestatiet krāsu uz lieliem lietotāja interfeisa elementiem labajā cilnē</string>
+    <string name="support_development">Atbalsta izstrāde</string>
+    <string name="report_bugs_title">Ziņot par kļūdām</string>
+    <string name="source_title">Avota kods</string>
+    <string name="source_summary">Skatiet mūsu avota kodu vietnē GitHub</string>
+    <string name="report_bugs_summary">Ziņojiet par kļūdām vai pieprasiet jaunu funkciju</string>
+    <string name="translate_title">Tulkot</string>
+    <string name="translate_summary">Tulkot Pārsteidziet savā valodā</string>
+    <string name="paypal_copy_message">PayPal ID nokopēts starpliktuvē</string>
+    <string name="searching_devices">Ierīču meklēšana</string>
+    <string name="use_custom_ip">Izmantojiet pielāgotu IP</string>
+    <string name="bookmark_lost">Grāmatzīme nav atrasta, tiek veidota atkārtoti...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Kā piekļūt koplietotajai Windows mapei operētājsistēmā Android (SMB)\n\n
+                
+                    
+                        Iespējot failu koplietošanu operētājsistēmā Windows\n
+                    
+                    
+                        Atveriet vadības paneli, sadaļā Tīkls noklikšķiniet uz Izvēlieties mājas grupu un koplietošanas opcijas
+                        un internets, un noklikšķiniet uz "Mainīt papildu koplietošanas iestatījumus", iespējojiet "Fails un
+                        Printera koplietošanas funkcija.\n\n
+                    
+
+                    
+                        Papildu failu koplietošanas iestatījumi\n
+                    
+                    
+                        Iespējams, vēlēsities šeit konfigurēt arī citus papildu koplietošanas iestatījumus. \n
+                        Piemēram, ja uzticaties visiem, varat iespējot piekļuvi saviem failiem bez paroles
+                        ierīces jūsu lokālajā tīklā. Kad failu un printeru koplietošana ir iespējota, varat
+                        atveriet File Explorer vai Windows Explorer, ar peles labo pogu noklikšķiniet uz mapes, kuru vēlaties kopīgot, un
+                        atlasiet Properties. \n
+                        Noklikšķiniet uz pogas Kopīgot un padariet mapi pieejamu tīklā.\n\n
+                        
+
+                    
+                        Pārliecinieties, vai abās ierīcēs ir izveidots viens un tas pats Wi-Fi\n
+                    
+                    
+                        Šī funkcija padara failus pieejamus lokālajā tīklā, tāpēc jūsu datorā un mobilajās ierīcēs
+                        jābūt tajā pašā lokālajā tīklā. Jūs nevarat piekļūt koplietotai Windows mapei
+                        izmantojot internetu vai kad viedtālrunis ir savienots ar mobilajiem datiem — tas
+                        ir jābūt savienotam ar Wi-Fi.\n\n
+                    
+
+                    
+                        Atrodiet IP adresi\n
+                    
+                    
+                        Atveriet komandu uzvedni. Ierakstiet \'ipconfig\' un nospiediet taustiņu Enter. Meklējiet noklusējuma vārteju
+                        zem tīkla adaptera maršrutētāja IP adresei. Meklēt
+                        \\\"IPv4 adrese\\\" tajā pašā adaptera sadaļā, lai atrastu sava datora IP
+                        adrese.\n\n
+                    
+
+                    Ievadiet informāciju SMB dialoglodziņā\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Nevar koplietot vairāk par 100 failiem</string>
+    <string name="otg_access">Atlasiet OTG ierīces sakni</string>
+    <string name="information">Informācija</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Piekļuve</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Modificēts</string>
+
+    <string name="title">Nosaukums</string>
+    <string name="artist">Izpildītājs</string>
+    <string name="album">Albums</string>
+    <string name="year">Gads</string>
+    <string name="duration">Ilgums</string>
+    <string name="comment">Komentārs</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Konteiners</string>
+    <string name="codec">Kodeks</string>
+    <string name="channels">Kanāli</string>
+    <string name="sample_rate">Izlases ātrums</string>
+    <string name="bitrate">Bitu pārraides ātrums</string>
+    <string name="dimensions">Izmēri</string>
+    <string name="frame_rate">Kadru nomaiņas ātrums</string>
+    <string name="image_type">Ima </string>
+    <string name="width">Platums</string>
+    <string name="height">Augstums</string>
+    <string name="date_modified">Modifikācijas datums</string>
+    <string name="software">Programmatūra</string>
+    <string name="creator">Radītājs</string>
+    <string name="camera_brand">Kameras zīmols</string>
+    <string name="camera_model">Kamera Modelis</string>
+    <string name="date_taken">Uzņemšanas datums</string>
+    <string name="exposure_time">Ekspozīcijas laiks</string>
+    <string name="aperture_value">Apertūras vērtība</string>
+    <string name="image_iso">ISO ātruma novērtējums</string>
+    <string name="flash_fired">Zibspuldzes palaišana</string>
+    <string name="focal_length">Fokālais garums</string>
+    <string name="subject">Temats</string>
+    <string name="author">Autors</string>
+    <string name="keywords">Atslēgvārdi</string>
+    <string name="producer">Producents</string>
+    <string name="created">Izveidots</string>
+    <string name="format">Formāts</string>
+    <string name="pages">Nu Lapas</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Optimizētas</string>
+    <string name="security">Drošība</string>
+    <string name="paper_size">Papīra izmērs</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Daži faili netika veiksmīgi %s</string>
+    <string name="copied">nokopēti</string>
+    <string name="moved">pārvietots</string>
+    <string name="copy_complete">Kopēt pabeigts</string>
+    <string name="waiting_title">Gaida</string>
+    <string name="waiting_content">Gaida darbības pabeigšanu</string>
+    <string name="extract_complete">Izvilkšana pabeigta</string>
+    <string name="compression_complete">Saspiešana pabeigta</string>
+    <string name="compressing">Saspiešana</string>
+    <string name="cancelled">Atcelta</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Uzrakstīts</string>
+    <string name="out_of">no</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">no</string>
+    <string name="processing_file">Notiek faila apstrāde</string>
+    <string name="current_speed">pašreizējais ātrums</string>
+    <string name="smb_launch_error">Lai atvērtu, šis fails būs jākopē uz krātuvi</string>
+    <string name="error_file_not_found">Kļūda: fails nav atrasts</string>
+    <string name="error_io">I/O kļūda</string>
+    <string name="error_file_too_large">Kļūda: fails ir pārāk liels</string>
+    <string name="medium_text">vidējs teksts</string>
+    <string name="permission_read">lasīts</string>
+    <string name="permission_write">Rakstīt</string>
+    <string name="permission_execute">Izpildīt</string>
+    <string name="permission_owner">Īpašnieks</string>
+    <string name="permission_group">Grupa</string>
+    <string name="permission_other">Cits</string>
+    <string name="clipboard_path_copy">Ceļš kopēts starpliktuvē</string>
+    <string name="service_timer">Pagājušais laiks</string>
+    <string name="please_wait">Lūdzu, uzgaidiet</string>
+
+    
+    
+    
+    <string name="cloud_drive">Google disks ™</string>
+    
+    <string name="cloud_box">Kaste</string>
+    <string name="cloud_get">Iegūt mākoņa spraudni</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Nav lietojumprogrammu</string>
+    <string name="ftp_path">Koplietotais ceļš</string>
+    <string name="ftp_path_hint">Ceļš uz koplietojamā direktorija sakni</string>
+    <string name="change">Mainīt</string>
+    <string name="unknown_error">Hmm, kaut kas nogāja greizi!</string>
+
+    <string name="ftp_path_change_success">FTP ceļš veiksmīgi mainīts</string>
+    <string name="ftp_path_change_error_invalid">Nederīgs ceļš</string>
+    <string name="ftp_status_no_connection">Nav savienojuma</string>
+    <string name="ftp_status_secure_connection">Drošs savienojums</string>
+    <string name="ftp_status_title">Statuss</string>
+    <string name="ftp_port">Ports</string>
+    <string name="ftp_login">Pieteikšanās</string>
+    <string name="field_empty">Lauks nevar būt tukšs</string>
+    <string name="ftp_timeout">Dīkstāves noildze</string>
+    <string name="ftp_seconds">Sekundes</string>
+    <string name="intellihide_toolbar_title">Intellihide Rīkjosla</string>
+    <string name="intellihide_toolbar_summary">Automātiski paslēpt rīkjoslu ritināšanas laikā</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">kopēta starpliktuvē</string>
+    <string name="contributors_1_summary">Tulkošana</string>
+    <string name="contributors_2_summary">Ikona un baneri</string>
+    
+    <string name="contributors_4_summary">Ēna aiz FAB</string>
+    <string name="contributors_5_summary">Krāsu pāreja, velkot cilnes</string>
+    <string name="contributors_6_summary">FTP serveris</string>
+    <string name="contributors_7_summary">Interaktīvā čaulas aktivizēšana</string>
+    <string name="connection_exists">Savienojums jau pastāv</string>
+
+    <string name="crypt_encrypting">Šifrēšana</string>
+    <string name="crypt_decrypting">Atšifrēšana</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Šifrēts</string>
+    <string name="crypt_decrypted">Atšifrēts</string>
+    <string name="crypt_encrypt">Šifrēts</string>
+    <string name="crypt_decrypt">Atšifrēt</string>
+    <string name="operation_fail_following">Darbība neizdevās šādiem failiem</string>
+    <string name="crypt_pref_master_password_title">Galvenā parole</string>
+    <string name="crypt_pref_master_password_summary">Iestatiet galveno paroli šifrēšanai.
+        Lai noņemtu, atstājiet tukšu.</string>
+    <string name="crypt_pref_fingerprint_title">Pirksta nospiedums</string>
+    <string name="crypt_pref_fingerprint_summary">Šifrēšanas autentificēšanai izmantojiet pirksta nospiedumu</string>
+    <string name="crypt_fingerprint_no_permission">Trūkst pirkstu nospiedumu atļaujas</string>
+    <string name="crypt_fingerprint_not_enrolled">Nav reģistrēts pirksta nospiedums</string>
+    <string name="crypt_fingerprint_no_security">Nav bloķēšanas ekrāna drošības atrasts</string>
+    <string name="crypt_warning_key">Ņemiet vērā, ja maināt drošības modeli no
+        Sistēmas iestatījumi, jūs nevarēsit atšifrēt šo saturu.</string>
+    <string name="warning_never_show">Vairs neinformēt</string>
+    <string name="warning_confirm">Sapratu!</string>
+    <string name="crypt_encryption_fail">Neizdevās šifrēt</string>
+    <string name="crypt_decryption_fail">Neizdevās atšifrēt</string>
+    <string name="crypt_decryption_fail_password">Nepareiza parole!</string>
+    <string name="crypt_fingerprint_authenticate">Pieskarieties sensoram, lai turpinātu</string>
+    <string name="authenticate_password">Ievadiet paroli</string>
+
+    <string name="sidebar_preferences">Sānjosla</string>
+    <string name="sidebar_quick_access_title">Ātrā piekļuve sānjoslai</string>
+    <string name="show_quick_access_pref_title">Rādīt ātrās piekļuves</string>
+    <string name="show_quick_access_pref">Ātrās piekļuves</string>
+    <string name="directory">Katalogs</string>
+
+    <string name="sidebar_bookmarks_title">Sānjoslas grāmatzīmes</string>
+    <string name="show_bookmarks_pref_title">S grāmatzīmes</string>
+    <string name="show_bookmarks_pref">Grāmatzīmes</string>
+    <string name="create_bookmark">Izveidot grāmatzīmi</string>
+    <string name="edit_bookmark">Rediģēt grāmatzīmi</string>
+    <string name="question_delete_bookmark">Vai dzēst grāmatzīmi?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud spraudnis nav atrasts. Lūdzu, lejupielādējiet no Play veikala.</string>
+    <string name="cloud_error_failed_restart">Neizdevās ielādēt savienojumu.
+        Lūdzu, vienreiz atveriet pakalpojumu Amaze Cloud.</string>
+    <string name="cloud_remove">Vai vēlaties noņemt mākoņa savienojumu?</string>
+    <string name="cloud_fail_authenticate">Neizdevās autentificēt</string>
+    <string name="cloud_share_copied">Koplietojama saite ir kopēta starpliktuvē.</string>
+    <string name="copy_low_memory">Tiek beigties atmiņa, lūdzu, notīriet daļu RAM</string>
+    <string name="cloud_token_lost">Token pazaudēts, lūdzu, pierakstieties vēlreiz</string>
+    
+    <string name="showHeaders">Rādīt galvenes</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Nav vienumu</string>
+	<string name="item">vienums</string>
+	<string name="items">vienumi</string>
+	
+	<string name="byte_singular">baits</string>
+	<string name="bytes">baiti</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Failam ir jābūt nosaukumam</string>
+    <string name="add_item">Pievienot vienumu</string>
+    <string name="failed_smb_decrypt_path">Neizdevās ielādēt SMB savienojumu</string>
+    <string name="failed_cloud_new_connection">Neizdevās pievienot jaunu mākoņa savienojumu</string>
+    <string name="failed_cloud_api_key">Neizdevās autentificēt mākoņa spraudni</string>
+
+    <string name="local_inet_addr_error">Kļūda, iegūstot vietējo inet adresi</string>
+    <string name="intent_save_as">Saglabāt kā…</string>
+    <string name="go">Doties uz</string>
+    <string name="advanced">Papildu</string>
+    <string name="typeable_paths_title">Pielāgoti ceļi</string>
+    <string name="typeable_paths_summary">Lai ievadītu pielāgotu ceļu, nospiediet un turiet ceļu.</string>
+    <string name="send_email_to">Nosūtiet e-pastu uz</string>
+
+    <string name="text_editor">Teksta redaktora iestatījumi</string>
+    <string name="preference_newstack_title">Atvērt failus kā jaunu uzdevumu</string>
+    <string name="preference_newstack_summary">Ļauj atvērt failus atsevišķos uzdevumos. Piekļūstiet tiem no sistēmas jaunāko datu ekrāna.</string>
+    
+    <string name="developers">Izstrādātāji</string>
+    <string name="no_bitcoin_app">Lūdzu, instalējiet lietotni Bitcoin Wallet</string>
+    
+    
+    
+    <string name="channel_description_ftp">Amaze File Pārziņa FTP servera paziņojumi</string>
+
+    
+    <string name="processing">Notiek apstrāde...</string>
+    <string name="failed_no_connection">Neizdevās ielādēt failus. Lūdzu, pārbaudiet savienojumu.</string>
+
+    <string name="update">ATJAUNINĀJUMS</string>
+	<string name="scp_connection">SCP/SFTP savienojums</string>
+    <string name="ftp_connection">FTP savienojums</string>
+    <string name="ftps_connection">FTP, izmantojot SSL savienojumu</string>
+    <string name="scp_port">Ports</string>
+    <string name="ssh_host_key_verification_prompt">Nevar noteikt resursdatora \'%1$s\' autentiskumu.\n\n%2$s atslēgas pirksta nospiedums ir %3$s.\n\nLūdzu, pieskarieties \"Jā\", lai apstiprinātu. identitāte; pretējā gadījumā, lūdzu, pieskarieties \"Nē\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Verificēt resursdatoru</string>
+    <string name="ssh_select_pem_button">SSH privāto atslēgu</string>
+    <string name="ssh_pem_key_parse_error">Nevar nolasīt atlasīto PEM: %s</string>
+    <string name="password_unchanged">(nemainīts)</string>
+    <string name="ssh_authentication_failure_password">Pieteikšanās kļūme: nevar autentificēties ar norādīto lietotājvārdu un paroli.</string>
+    <string name="ssh_authentication_failure_key">Pieteikšanās kļūme: nevar autentificēties, izmantojot piegādāto lietotājvārdu un privāto atslēgu.</string>
+    <string name="ssh_connect_failed">Nevar izveidot savienojumu ar %1$. s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">BRĪDINĀJUMS: IR MAINĪTAS ATTĀLĀS DZĪVNIEKA IDENTIFIKĀCIJA!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">IESPĒJAMS, KA KĀDS DARA KAUT NELIETĪGU!\n\nKāds varētu noklausīties jūs. tieši tagad (cilvēks-in-the-middle uzbrukums)! Iespējams, ka tikko ir mainīta resursdatora atslēga. Attālā saimniekdatora nosūtītais publiskās atslēgas pirksta nospiedums neatbilst pakalpojumā Amaze saglabātajam.\n\nLūdzu, sazinieties ar sistēmas administratoru vai iestatiet jaunu savienojumu, lai turpinātu savienojumu ar serveri.</string>
+    <string name="ssh_key_prompt_passphrase">Lūdzu, ievadiet atslēgas ieejas frāzi. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Jūsu palaišanas programma neatbalsta saīsņu izveidi.</string>
+    
+    <string name="select_color_config">Atlasiet krāsu konfigurāciju</string>
+    <string name="customize">Pielāgot</string>
+    <string name="custom">Pielāgots</string>
+    <string name="preselected_configs_title">Iepriekš atlasītās konfigurācijas</string>
+    <string name="orange">Oranžs</string>
+    <string name="blue">Zils</string>
+    <string name="green">Zaļš</string>
+    <string name="password_no_match">Parole neatbilst</string>
+    <string name="deselect_all">Atcelt visu</string>
+    <string name="filename">Faila nosaukums</string>
+    <string name="compress_file_suggest_zip_extension">Ieteicams izmantot \.zip\" kā faila paplašinājumu.</string>
+    <string name="about_amaze">Materiāla dizaina failu pārvaldnieks operētājsistēmai Android</string>
+    <string name="license">Licence</string>
+    <string name="libraries">Bibliotēkas</string>
+    <string name="password_repeat">Atkārtojiet paroli</string>
+    <string name="create_file_suggest_txt_extension">Kā faila paplašinājumu ieteicams izmantot \".txt\".</string>
+    <string name="ssh_select_pem">Atlasiet privāto atslēgu autentifikācijai</string>
+    <string name="ssh_key_invalid_passphrase">Nederīga atslēgas ieejas frāze.</string>
+    <string name="ssh_key_no_decoder_decrypt">Nav derīga dekodētāja PEM atšifrēšanai.</string>
+    <string name="encryption_fail_copy">Neizdevās atjaunināt šifrēšanas ierakstu datu bāzē</string>
+    <string name="extracted">Izvilkts</string>
+    <string name="compressed">Saspiests</string>
+    <string name="processed">Apstrādāts</string>
+    <string name="no_obtainable_info">Nav informācijas par šo failu</string>
+    <string name="reopen_from_source">Nevar, lūdzu, atkārtoti atveriet no pēdējās lietotnes</string>
+    <string name="no_file_error">Kaut kas nogāja greizi, nav ko atvērt</string>
+    <string name="file_too_long">fails ir pārāk garš un to nevar rediģēt, tomēr jūs varat izlasīt pirmās %d rakstzīmes</string>
+    <string name="file_read_only">Atvērtais fails ir tikai lasāms.</string>
+    <string name="got_it">Sapratu!</string>
+    <string name="encrypt_file_save_as">Saglabāt šifrēto Fails kā…</string>
+    <string name="encrypt_folder_save_as">Saglabāt šifrēto mapi kā…</string>
+    <string name="encrypt_option_use_aze">Izmantojiet Amaze šifrēšanas formātu</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt ir atvērtā pirmkoda failu šifrēšanas formāts, kura pamatā ir AES šifrēšana. Tas ir arī pārnēsājams, to var atšifrēt ar AESCrypt programmām citās platformās.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt vietne</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze šifrēšanas formāts ir arī balstīts uz AES šifrēšanu; bet atšķiras no AESCrypt formāta, to var atšifrēt tikai šī ierīce; Tāpat jūs nedrīkstat atinstalēt programmu Amaze File Manager no šīs ierīces un mainīt ekrāna bloķēšanas veidu, pretējā gadījumā jums nebūs iespējas atgūt šifrēto failu.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Šifrētajiem failiem kā faila paplašinājums ir jāizmanto \".aze\".</string>
+    <string name="encrypt_file_must_end_with_aes">Šifrētajiem failiem kā faila paplašinājums ir jāizmanto \.aes\".</string>
+    <string name="error_aescrypt_decrypt_failed">Nevar atšifrēt \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Nevar pārrakstīt failu.</string>
+    <string name="saved_single_file">Fails saglabāts kā \'%s\'.</string>
+    <string name="saved_multi_files">%d faili ir saglabāti.</string>
+    <string name="create_hidden_file_warn">Izveidotais fails tiks paslēpts failu sarakstā.</string>
+    <string name="grant_apkinstall_permission">Lietotnei ir nepieciešama atļauja, lai turpinātu instalēt lietotnes.</string>
+    <string name="time_remaining">Atlikušais laiks</string>
+    <string name="transfer_rate">Pārsūtīšanas ātrums</string>
+    <string name="unknown">nezināms</string>
+    <string name="multiple_invalid_archive_entries">Dažus arhīvā esošos failus nevar izvilkt; arhīvs var būt bojāts vai nāk no ļaunprātīga avota.</string>
+    <string name="saf_otg_explanation">Drošības apsvērumu dēļ tagad tiks atvērta Android failu sistēma. Lūdzu, atlasiet USB ierīci kreisajā pusē esošajā sarakstā.</string>
+    <string name="donation_thanks">Paldies par ziedojumu, tas mūs motivē! (:</string>
+    <string name="enable_marquee_filename">Iespējot marquee efektu failu nosaukumiem</string>
+    <string name="archive_password_prompt">Lūdzu, ievadiet arhīva paroli:</string>
+    
+    <string name="cannot_extract_archive">Nevar izvilkt arhīvu \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Nevar atvērt arhīvu \"%s\". Vai nu mēs nevaram atvērt arhīvu, vai arī arhīvs ir bojāts.</string>
+    <string name="close">Aizvērt</string>
+    <string name="bookmark_exists">Grāmatzīme pastāv</string>
+    <string name="hide_media">Paslēpt no multivides pārlūkprogrammām</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">IS IESPĒJAMS, KA KĀDS DARA KAUT NELIETĪGU!\n\nKāds šobrīd var noklausīties jūs (uzbrukums vidū)! Iespējams, ka tikko ir mainīta saimniekdatora atslēga. Pirksta nospiedums jo attālā saimniekdatora nosūtītā publiskā atslēga neatbilst tai, kas saglabāta pakalpojumā Amaze.\n\nVarat turpināt resursdatora pirkstu nospiedumu atjaunināšanu vai atcelt SSH savienojuma iestatījumu atjaunināšanu.</string>
+    <string name="update_host_key">Atjaunināt resursdatora atslēgu</string>
+    <string name="cancel_recommended">Atcelt (ieteicams)</string>
+    
+    
+    <string name="failed_install_apk">Neizdevās instalēt</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Iekšējā atmiņa</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD karte</string>
+    <string name="choose_folder">Izvēlēties šo mapi</string>
+    
+    <string name="some_files_failed_invalid_operation">Dažus failus neizdevās nederīgu iemeslu dēļ darbība</string>
+    <string name="ftp_server_prompt_connect_to_network">Izveidojiet savienojumu ar tīklu vai iespējojiet AP</string>
+    <string name="ftp_server_open_settings">Atvērt iestatījumus</string>
+    <string name="move">Pārvietot</string>
+    <string name="select_save_location">Atlasiet saglabāšanas vietu</string>
+    <string name="scp_default_path">Noklusējuma ceļš (pēc izvēles)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Atvainojiet, tam nevajadzēja notikt.</string>
+    
+    <string name="error_report_button_text">Ziņot par šo kļūdu pa e-pastu</string>
+    <string name="error_report_button_telegram">Ziņot par šo kļūdu, izmantojot telegrammu</string>
+    <string name="copy_for_github">Kopēt formatētu ziņojumu</string>
+    <string name="error_report_open_issue_button_text">Ziņot par GitHub</string>
+    <string name="error_report_open_github_notice">Lūdzu, pārbaudiet, vai problēma, kas apspriež jūsu avāriju, jau nepastāv.</string>
+    <string name="error_snackbar_message">Atvainojiet, kaut kas nogāja greizi.</string>
+    <string name="error_snackbar_action">Ziņot</string>
+    <string name="what_device_headline">Informācija:</string>
+    <string name="what_happened_headline">Kas notika:</string>
+    <string name="info_labels">Kas:\\nPieprasījums:\\nGMT laiks:\\nPaka:\\nVersija:\\nOS versija:\\nIerīce:\\nModelis:\\nProdukts :</string>
+    <string name="your_comment">Jūsu komentārs (angļu valodā):</string>
+    <string name="error_details_headline">Detalizēta informācija:</string>
+    <string name="app_ui_crash">Lietotne/UI avarēja</string>
+    <string name="error_report_title">Kļūdas ziņojums</string>
+    <string name="crash_report_copied">Avārijas pārskats kopēts uz starpliktuve</string>
+    <string name="disableIpcSignature">Atspējot IPC parakstīšanas pārbaudi (mantotajiem SMBv1 serveriem — NEDROŠI!)</string>
+    <string name="cannot_delete_file">Nevar izdzēst failu</string>
+    <string name="cannot_delete_file_with_reason">Nevar izdzēst failu — %s</string>
+    <string name="cannot_rename_file">Nevar pārdēvēt failu %s — %s</string>
+    <string name="cannot_read_directory">Nevar lasīt direktoriju %s — %s</string>
+    <string name="just_once">Tikai vienreiz</string>
+    <string name="always">Vienmēr</string>
+    <string name="choose_different_app">Izvēlēties citu lietojumprogrammu</string>
+    <string name="clear_open_file">Notīrīt kešatmiņa</string>
+    <string name="clear_open_file_summary">Notīra atlasītās noklusējuma failu atvēršanas lietotnes</string>
+    <string name="ftp_readonly">Tikai lasīšanas piekļuve</string>
+    <string name="legacy_listing_title">Izmantojiet mantoto sarakstu saknei</string>
+    <string name="legacy_listing_summary">Ja ir iespējota, failu uzskaitīšanai izmanto mantoto metodi</string>
+    <string name="error_unsupported_v5_rar">RAR arhīvs \"%s\" nav atbalstīts RAR v5 arhīvs.</string>
+    <string name="ftp_prompt_restart_server">Lai izmaiņas stātos spēkā, jums būs jārestartē FTP serveris.</string>
+    <string name="error_permission_denied">Atļauja liegta</string>
+    <string name="error_archive_password_incorrect">Nepareiza arhīva parole.</string>
+    <string name="error_archive_cannot_extract">Nevar izvilkt arhīva ierakstu \"%s\" uz \"%s\".</string>
+    <string name="drag_and_drop_preference">Atlasiet vilkšanas un nomešanas preferenci (eksperimentāls)</string>
+    <string name="drag_to_move_copy">Pieskarieties un velciet, lai pārvietotu vai kopētu failus</string>
+    <string name="drag_to_select">Pieskarieties un velciet, lai atlasītu failus</string>
+    <string name="disable">Atspējot</string>
+    <string name="choose_operation">Izvēlieties darbību, ko veikt</string>
+    <string name="remember">Atcerēties nākamajai reizei</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Piešķiriet SAF piekļuvi FTP serverim</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Tā kā šī ir jūsu pirmā FTP servera palaišana un jūs izmantojat ierīces iekšējo atmiņu kā koplietotu mapi, lūdzu, atļaujiet Amaze piekļūt krātuvei, izmantojot SAF.\n\n
+
+Tas ir jādara tikai vienu reizi, līdz nākamajai reizei, kad atlasīsiet jaunu atrašanās vietu kopīgošanai.</string>
+    <string name="android_data_prompt_saf_access">Kopš operētājsistēmas Android 10 Android ir noteikusi ierobežojumus noteiktiem direktorijiem, un tiem ir jāpiekļūst, izmantojot Storage Access Framework.\n \nLūdzu, ļaujiet Amaze piekļūt direktorijam no sistēmas failu pārvaldnieka, pieskaroties \"Atļaut piekļuvi\".</string>
+    <string name="android_data_prompt_saf_access_title">Piešķirt SAF piekļuvi</string>
+    <string name="ftp_preference_saf_filesystem_title">Izmantot mantoto failu sistēmu</string>
+    <string name="ftp_preference_saf_filesystem">Iespējot tas ir paredzēts ierīces ārējās atmiņas izmantošanas atbalstam jaunākās Android versijās</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP servera koplietotais ceļš tika atiestatīts uz iekšējo atmiņu, pārejot atpakaļ uz mantotās failu sistēmas ieviešanu. Lūdzu, atlasiet jaunu ceļu, izmantojot izvēlni augšējā labajā stūrī.</string>
+    <string name="ftp_server_reset_notify">FTP servera koplietotais ceļš tika atiestatīts uz iekšējo atmiņu</string>
+    <string name="ftp_server_root_unavailable">Jūs izvēlaties ceļu, kuram nepieciešama root piekļuve. Lūdzu, iestatījumos iespējojiet root Explorer, ja jūsu ierīcei ir saknes tiesības.</string>
+    <string name="ftp_server_root_filesystem_warning">Jūs izvēlaties ceļu, kuram nepieciešama root piekļuve, kas nodrošina lasīšanas/rakstīšanas darbības visā jūsu ierīces failu sistēmā, un tas ir bīstami — neuzmanības kļūdas var sabojāt jūsu ierīci!\n\nVai esat pārliecināts?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Kļūda, atverot URI \"%s\" lasīšanai.</string>
+    <string name="error_empty_archive">\"%s\" ir tukšs arhīvs.</string>
+    <string name="error_bad_archive_without_info">\"%s\" ir bojāts arhīvs. .</string>
+    <string name="error_bad_archive_with_info">\"%s\" ir bojāts arhīvs.\nZiņojums no ekstraktora: \"%s\"</string>
+    <string name="security_error">Failu nevarēja atvērt, izmantojot šo lietotni</string>
+    <string name="cloud_drive_tooltip">Izveidot Google Drive™ savienojums failu pārvaldīšanai no Amaze failu pārvaldnieka.</string>
+    <string name="signin_with_google_title">Autentificējieties, lai izmantotu Google disku™</string>
+    <string name="show_system_apps">Rādīt sistēmas lietotnes</string>
+    <string name="system_apps">Sistēmas lietotnes</string>
+    <string name="select_inverse">Atlasiet Apgriezti</string>
+    <string name="select_by_type">Atlasīt pēc veida</string>
+    <string name="select_by_date">Atlasīt pēc datuma</string>
+    <string name="select_similar">Atlasīt līdzīgu</string>
+    <string name="error_fetching_google_play_product_list">Kļūda, ienesot produktu sarakstu no pakalpojuma Google Play.</string>
+    <string name="grant_all_files_permission">Kopš operētājsistēmas Android 11 , Google pieprasa failu pārvaldniekiem pieprasīt lietotāja atļauju pārvaldīt visus ierīcē esošos failus. Sīkāka informācija šeit.
+        \n\nŠī atļauja ir nepieciešama arī Amaze failu pārvaldniekam. Pēc tam, kad šeit nospiežat "Piešķirt", lūdzu, nākamajā ekrānā atlasiet opciju Atļaut piekļuvi, lai pārvaldītu visus failus.
+        \n\nAtceļot šo dialoglodziņu, lietotne tiks aizvērta.</string>
+    <string name="user_apps">Lietotāju programmas</string>
+    <string name="appearance">Izskats</string>
+    <string name="behavior">Uzvedība</string>
+    <string name="appearance_summary">Pielāgojiet failu pārvaldnieka motīvu, krāsas un izskatu.</string>
+    <string name="ui_summary">Pārvaldiet, kādu informāciju rādīt, pielāgojiet sānjoslu un pārslēdziet lietotāja interfeisa preferences</string>
+    <string name="behavior_summary">Mainīt darbības, piemēram, izvērsto meklēšanu un to, vai atvērt failus kā jaunu uzdevumu</string>
+    <string name="security_summary">Iestatīt paroli un šifrēšana</string>
+    <string name="backup_summary">Eksportēt/importēt Amaze iestatījumus</string>
+
+    <string name="pref_export">Eksportēt</string>
+    <string name="pref_export_summary">Eksportēt iestatījumus</string>
+    <string name="pref_import">Importēt</string>
+    <string name="pref_import_summary">Importēt iestatījumus</string>
+
+    <string name="quick_desc">Faili nesen piekļūts, izmantojot Amaze</string>
+    <string name="recent_desc">Nesen izveidotie vai pārveidotie faili</string>
+    <string name="error_cannot_find_way_open">Nevarēja atrast veidu, kā atvērt failu</string>
+    <string name="error_cant_decompress_that_file">Nevar apstrādāt pieprasīto arhīvu</string>
+    <string name="analyse_storage">Analizēt krātuvi</string>
+    
+    <string name="download_amaze_utils_text">Jūs tiekat novirzīts uz Amaze File Utilities. Tā ir mūsu atvērtā pirmkoda lietotne, kurā ir iebūvēti audio/video/attēlu/dokumentu skatītāji, kas ļauj analizēt nevēlamos failus, lai atbrīvotu krātuvi, ātri pārsūtīt, izmantojot Wifi P2P, un daudz ko citu.\nLūdzu, atbalstiet mūs, izmēģinot to.</string>
+    <string name="download">Lejupielādēt</string>
+    <string name="wifip2p">Wi-Fi P2P</string>
+    <string name="amaze_utils_installed_alias">Paldies, ka instalējāt Amaze File Utilities. Jūs tiekat novirzīts uz lietotni.</string>
+    <string name="image_viewer">Pārsteidz attēlu skatītājs</string>
+    <string name="video_player">Pārsteidz video atskaņotāju</string>
+    <string name="amaze_audio_player">Pārsteidz mūzikas atskaņotāju</string>
+    <string name="pdf_viewer">Pārsteidziet dokumentu skatītāju</string>
+    <string name="docx_viewer">Pārsteidziet dokumentu skatītāju</string>
+    <string name="share_logs">Kopīgojiet žurnālus</string>
+    <string name="share_logs_summary">Kopīgojiet uzņemtos žurnālus pa e-pastu/telegrammu</string>
+    <string name="open_with_amaze">Atvērt ar Amaze</string>
+    <string name="confirmation">Apstiprinājums</string>
+    <string name="open_file_confirmation">Vai jūs esat vai tiešām vēlaties atvērt šo failu?\n\nNosaukums:\n%s\n\nAtrašanās vieta:\n%s\n\nIzmērs:\n%s\n\nMD5:\n%s\n\nSHA256:\ n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Saskaņā ar Google Play politikas mandātiem lietotnēm nav atļauts pašas atjaunināt sevi. Lūdzu, atjauniniet lietotni no pakalpojuma Google Play.</string>
+    <string name="error_cannot_get_package_info">Nevar iegūt pakotnes informāciju no faila \"%s\". Norādītais fails nav APK, vai arī pakotnes fails ir bojāts.</string>
+    <string name="preference_delete_confirmation">Dzēst apstiprinājumu</string>
+    <string name="preference_delete_confirmation_summary">Pirms failu dzēšanas lūdziet apstiprinājumu. Nav ieteicams to atspējot!</string>
+    
+    
+    <string name="protocol_ftps">Drošs FTP</string>
+    <string name="unavailable">Nav pieejams</string>
+
+    <string name="exporting_failed">Eksportēšana neizdevās: nevarēja uzrakstīt dublējuma failu</string>
+    <string name="importing_failed">Importēšana neizdevās: nevarēja nolasīt dublējumu. fails</string>
+    <string name="importing_completed">Importēšana pabeigta</string>
+    <string name="invalid_backup_file">Nederīgs dublējuma fails</string>
+    <string name="import_failed_for">Importēšana neizdevās:</string>
+    <string name="free_of">"%s\n%s bez %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud spraudnis netiek atbalstīts ar F-Droid versiju. Lūdzu, izmantojiet Amaze Play veikala versiju.</string>
+    <string name="disable_player_intent_filters">Atspējot atskaņotāja nolūku filtrus</string>
+    <string name="disable_player_intent_filters_summary">Atspējo Amaze iebūvētos multivides atskaņotājus no failu izvēles.</string>
+    <string name="no_app_found_intent">Nav atrasta neviena lietotne, kas varētu rīkoties ar šo nolūku. Vai esat instalējis DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Cloud Connection akreditācijas dati ir notīrīti</string>
+    <string name="cloud_connection_credentials_cleared_msg">Diemžēl mēs nevarējām migrēt jūsu mākoņa savienojuma akreditācijas datus uz jauno datu bāzes shēmu, un mums bija lai tos noņemtu no lietotnes. Lūdzu, vēlreiz izveidojiet mākoņa savienojumu.</string>
+</resources>

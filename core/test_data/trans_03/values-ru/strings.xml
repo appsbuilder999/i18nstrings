@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Диспетчер файлов Amaze</string>
+    <string name="drawer_open">Открыть панель навигации</string>
+    <string name="drawer_close">Закрыть панель навигации</string>
+    <string name="icon">значок</string>
+    <string name="apps">Диспетчер приложений</string>
+    <string name="ftp">FTP-сервер</string>
+    <string name="setting">Настройки</string>
+    <string name="select">Выбрать элемент</string>
+    <string name="press_again">Нажмите еще раз, чтобы выйти</string>
+    <string name="open">Открыть</string>
+    <string name="backup">Резервное копирование</string>
+    <string name="uninstall">Удалить</string>
+    
+    <string name="properties">Свойства</string>
+    <string name="copyingapks">Копирование %d файлов APK в %s</string>
+    <string name="delbook">Удалить закладку</string>
+    <string name="add_to_bookmarks">Добавить в закладки</string>
+    <string name="enterpath">Введите путь</string>
+    <string name="cancel">ОТМЕНА</string>
+    <string name="create">СОЗДАТЬ</string>
+    <string name="loading">Загрузка…</string>
+    <string name="file_empty">Файл пуст</string>
+    <string name="error">Ошибка</string>
+    <string name="search_results">Результаты поиска %s</string>
+    <string name="rename">Переименовать</string>
+    <string name="save">Сохранить</string>
+    <string name="bookmarks_added">Добавлены закладки</string>
+    <string name="fileexist">Файл с таким именем уже существует</string>
+    <string name="name">Имя</string>
+    <string name="date">Дата</string>
+    <string name="location">Расположение</string>
+    <string name="size_capitalized">Размер</string>
+    <string name="size">размер папки</string>
+    <string name="enterzipname">Введите имя почтового индекса</string>
+    <string name="no_app_found">Не найдено приложение для открытия этого файла</string>
+    <string name="copying">Копирование</string>
+    <string name="moving">Перемещение</string>
+    <string name="file">Файл</string>
+    <string name="folder">Папка</string>
+    <string name="newfolder">Новая папка</string>
+    <string name="entername">Введите имя</string>
+    <string name="extracting">Извлечение</string>
+    <string name="stopping">Остановка</string>
+    <string name="open_parent">Открыть родительский каталог</string>
+    <string name="open_with">Открыть с помощью</string>
+    <string name="share">Общий доступ</string>
+    <string name="about">О программе</string>
+    <string name="extract">Извлечь</string>
+    <string name="compress">Сжать</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    
+    <string name="dialog_delete_category_directories">Каталоги</string>
+    <string name="dialog_delete_category_files">Файлы</string>
+    <string name="dialog_delete_disclaimer">Удаление перечисленных ниже элементов навсегда удалит их с вашего устройства, и их нельзя будет восстановить.</string>
+    <string name="dialog_delete_title">Удалить элементы навсегда?</string>
+    <string name="deleting">Удаление</string>
+    <string name="question_set_path_as_home">Вы хотите установить текущий путь в качестве исходного для этой вкладки?</string>
+    <string name="directorysort">Режим сортировки каталога</string>
+    <string name="sort_by">Сортировать по</string>
+    <string name="sort_only_this">Только эту папку</string>
+    <string name="theme">Тема</string>
+    <string name="random">Случайный скин</string>
+    <string name="random_summary">Устанавливает случайный основной цвет при запуске</string>
+    <string name="colorize">Раскрашивать значки</string>
+    <string name="colorize_summary">Наборы статический цвет значка. Не переопределяет настройки цвета значка каталога.</string>
+    <string name="home">Главная</string>
+    <string name="paste">Вставить</string>
+    <string name="history">История</string>
+    <string name="copy">Копировать</string>
+    
+    <string name="root_mode_summary">Только для корневого устройства. Проверяйте его, только если уверены в этом.</string>
+    <string name="root_failure">Корневой доступ не предоставлен</string>
+    <string name="select_all">Выбрать все</string>
+    <string name="delete">Удалить</string>
+    <string name="set_as_home">Установить как домашний</string>
+    <string name="operation_not_supported">Операция не поддерживается</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    
+    
+    <string name="daytime">Дневное время</string>
+    <string name="black">Черный (для OLED)</string>
+    <string name="system">Система (следуйте системной теме)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Папки сверху</string>
+    <string name="filesOnTop">Файлы сверху</string>
+    <string name="none_on_top">Нет сверху</string>
+    <!--SortBy-->
+    <string name="sort_name">Имя</string>
+    <string name="lastModified">Последнее изменение</string>
+    <string name="sort_size">Размер</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Выбрать файл</string>
+    
+    <string name="in_safe">Недостаточно места</string>
+    <string name="no_file_overwrite">Файл не перезаписан</string>
+    <string name="skip">Пропустить</string>
+    <string name="overwrite">Перезаписать</string>
+    <string name="not_allowed">Не разрешено</string>
+    <string name="searching">Поиск %s</string>
+    <string name="done">Готово</string>
+    <string name="set">Установить</string>
+    <string name="enablerootmde">Включить корневой режим</string>
+    <string name="goback">Вернуться</string>
+    <string name="newfile">Новый файл</string>
+    <string name="no_files">Нет файлов</string>
+    <string name="used">используемое пространство</string>
+    <string name="used_by_others">используется другими</string>
+    <string name="free">свободное пространство</string>
+    <string name="listview">Список</string>
+    <string name="gridview">Сетка Просмотр</string>
+    <string name="permission">Разрешения</string>
+    <string name="hide">Скрыть</string>
+    <string name="exit">Выйти</string>
+    <string name="doforall">Выполнить для всех элементов</string>
+    <string name="gridcolumnno">Количество столбцов в виде сетки</string>
+    <string name="set_random">Изменения вступят в силу после перезапуска приложения</string>
+    <string name="authors">Авторы</string>
+    <string name="changelog">Журнал изменений</string>
+    <string name="ok">ОК</string>
+    <string name="ui">Интерфейс</string>
+    <string name="general">Общие</string>
+    <string name="thumb_summary">Показать миниатюры приложений и изображений</string>
+    <string name="thumb">Показать миниатюры</string>
+    <string name="hidden">Показать скрытые файлы и папки</string>
+    <string name="lastModifiedSummary">Показать дату и время последнего изменения</string>
+    <string name="lastModifiedPref">Показать дату последнего изменения и Время</string>
+    <string name="size_pref_summary">Показать размер файлов и количество элементов в папках</string>
+    <string name="size_pref">Показать размеры</string>
+    <string name="miscellaneous">Разное</string>
+    <string name="root_pref_summary">Показать права доступа к файлам и папкам</string>
+    <string name="root_pref">Показать разрешения</string>
+    <string name="about_amaze_file_manager_label">О файловом менеджере Amaze</string>
+    <string name="version">Версия</string>
+    <string name="rate">Оценить приложение</string>
+    <string name="feedback">Отправить отзыв</string>
+    <string name="hiddenfiles">Скрытые файлы</string>
+    <string name="type">Тип</string>
+    
+    <string name="add_shortcut">Добавить ярлык</string>
+    <string name="unsaved_changes">Несохраненные изменения</string>
+    <string name="unsaved_changes_description">У вас есть несохраненные изменения, сохранить их перед выходом?</string>
+    <string name="saving">Сохранение</string>
+    <string name="package_installer">Установщик пакетов</string>
+    <string name="view">Просмотр</string>
+    <string name="install">Установить</string>
+    <string name="archive">Архив</string>
+    <string name="archive_text">Это архив. Какое действие вы хотите выполнить?</string>
+    <string name="package_installer_text">Это установщик пакета. Какое действие вы хотите выполнить?</string>
+    <string name="xda_title">Тема XDA</string>
+    <string name="xda_summary">Вопросы и ответы, справка и устранение неполадок</string>
+    <string name="circular_images">Использование круглых значков для изображений и видео</string>
+    <string name="circular_icons">Использование круглых значков</string>
+    <string name="back_title">Навигация назад</string>
+    <string name="back_summary">Включает настраиваемую навигацию вверху списка</string>
+    <string name="details">Подробности</string>
+    <string name="translators">Переводчики</string>
+    <string name="german_translation_title">Немецкий</string>
+    <string name="italian_translation_title">Итальянский</string>
+    <string name="french_translation_title">французский</string>
+    <string name="russian_translation_title">русский</string>
+    <string name="spanish_translation_title">испанский</string>
+    <string name="basque_translation_title">баскский</string>
+    <string name="chinese_translation_title">китайский</string>
+    <string name="serbian_translation_title">сербский</string>
+    <string name="turkish_translation_title">турецкий</string>
+    <string name="ukrainian_translation_title">украинский</string>
+    <string name="portuguese_translation_title">португальский</string>
+    <string name="polish_translation_title">польский</string>
+    <string name="korean_translation_title">корейский</string>
+    <string name="greek_translation_title">греческий</string>
+    <string name="dutch_translation_title">голландский</string>
+    <string name="romanian_translation_title">румынский</string>
+    <string name="vietnamese_translation_title">Вьетнамский</string>
+    <string name="japanese_translation_title">Японский</string>
+    <string name="tamil_translation_title">Тамильский</string>
+
+    <string name="zip_viewer">Просмотр Zip</string>
+    <string name="unin_system_apk">Это системное приложение, его удаление может привести к нестабильности системы.\nПродолжить?</string>
+    <string name="warning">Предупреждение</string>
+    <string name="donate">Пожертвовать</string>
+    <string name="archive_extract_folder">Папка извлечения архива</string>
+    <string name="archive_summary">Файлы архива будут извлечены в эту папку. Значением по умолчанию является каталог, в котором находится архив.</string>
+    <string name="open_as">Открыть как</string>
+    <string name="text">Текст</string>
+    <string name="audio">Аудио</string>
+    <string name="video">Видео</string>
+    <string name="other">Другое</string>
+    <string name="image">Изображение</string>
+    <string name="contributors">Соавторы</string>
+    <string name="save_paths">Запомнить пути</string>
+    <string name="save_path_summary">При запуске будет отображаться последняя просмотренная папка для каждой вкладки</string>
+    <string name="select_intent">Выбрать</string>
+    <string name="database">База данных</string>
+    <string name="colored_navigation">Цветная панель навигации</string>
+    <string name="colored_navigvation_sum">Независимо от того, окрашена ли системная панель навигации в цвет кожи</string>
+
+    <string name="color_title">Цвет</string>
+    <string name="color_summary">Задать цвет для различных компонентов пользовательского интерфейса</string>
+    <string name="primary_color_title">Основной цвет (левая вкладка)</string>
+    <string name="primary_color_summary">Установите цвет для больших элементов пользовательского интерфейса для левой вкладки</string>
+    <string name="accent_color_title">Акцентный цвет</string>
+    <string name="accent_color_summary">Установите цвет для FAB и другого маленького пользовательского интерфейса elements</string>
+    <string name="icon_color_title">Цвет значков</string>
+    <string name="icon_color_summary">Установить цвет значков</string>
+    <string name="choose_color">Выбрать цвет</string>
+    <string name="files">Файлы</string>
+    <string name="textreader">Считыватель текста</string>
+    <string name="databasereader">Считыватель базы данных</string>
+    <string name="show_dividers">Показать разделители</string>
+    <string name="needs_access">Требуется доступ для записи</string>
+    <string name="needs_access_summary">Пожалуйста, выберите корневой каталог \t</string>
+    <string name="needs_access_summary1">\t, чтобы предоставить доступ на запись для работы</string>
+    <string name="smb_connection">Соединение SMB</string>
+    <string name="smb_server">IP-адрес сервера</string>
+    <string name="server_address">IP-адрес сервера</string>
+    <string name="username">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="anonymous">Анонимный</string>
+    
+    <string name="folders">Папки</string>
+    <string name="folderfilecount">%1$d папок и %2$d файлов</string>
+    <string name="videos">Видео</string>
+    <string name="apks">APK</string>
+    <string name="documents">Документы</string>
+    <string name="images">Изображения</string>
+    <string name="clear">Очистить</string>
+    
+    <string name="total">Итого:</string>
+    <string name="calculating">вычисление</string>
+    <string name="sort">Сортировать</string>
+    <string name="ascending">По возрастанию</string>
+    <string name="descending">По убыванию</string>
+    <string name="default_string">По умолчанию</string>
+    <string name="doit">Выполнить</string>
+    <string name="want_help">Нужна помощь?</string>
+    <string name="quick">Быстрый доступ</string>
+    <string name="recent">Недавние файлы</string>
+    <string name="edit">Редактировать</string>
+    <string name="find">Найти на странице</string>
+    <string name="grant">Предоставить</string>
+    <string name="grantper">Предоставить разрешение</string>
+    <string name="grantfailed">Разрешение не предоставлено</string>
+    <string name="grant_storage_permission">Для продолжения приложению требуется разрешение на хранение. Отмена этого диалогового окна приведет к выходу из приложения.</string>
+    <string name="operation_unsuccesful">Операция не выполнена</string>
+    <string name="creatingfile">Создание файла</string>
+    <string name="creatingfolder">Создание папки</string>
+    <string name="renaming">Переименование</string>
+    <string name="cant_be_empty">%s не может быть пустым</string>
+    <string name="ip">Адрес</string>
+    <string name="connection_name">Имя соединения</string>
+    <string name="no_device_found">Устройства не найдены</string>
+    <string name="path">Путь</string>
+    <string name="rename_bookmark">Изменить закладку</string>
+    <string name="cut">Вырезать</string>
+    <string name="search">Поиск</string>
+    <string name="invalid_name">Недопустимое имя</string>
+    <string name="search_hint">Введите для поиска…</string>
+    <string name="advanced_search">Расширенный поиск</string>
+    <string name="regular_expression">Регулярное выражение</string>
+    <string name="regular_expression_summary">Поиск с использованием регулярного выражения в стиле BASH</string>
+    <string name="match_content">Соответствие содержимому</string>
+    <string name="match_content_summary">Если установлено, регулярное выражение будет сопоставляться с полным именем файла,
+        в противном случае будет искать вхождение.</string>
+    <string name="start_ftp">Старт</string>
+    <string name="stop_ftp">Остановить</string>
+    <string name="ftp_status_running">Выполняется</string>
+    <string name="ftp_status_not_running">Не выполняется</string>
+    <string name="ftp_no_wifi">Убедитесь, что вы подключены к Wi-Fi -Fi</string>
+    <string name="domain">Домен</string>
+    <string name="smb_share">Общий путь</string>
+    <string name="invalid">Неверный %s</string>
+    <string name="ftp_notif_starting">Запускается FTP-сервер</string>
+    <string name="ftp_notif_starting_title">FTP-сервер</string>
+    <string name="ftp_notif_title">FTP-сервер Amaze работает</string>
+    <string name="ftp_notif_text">в %s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP-порт</string>
+    <string name="ftp_port_change_success">FTP-порт успешно изменен</string>
+    <string name="ftp_port_change_error_invalid">Выбран неверный номер порта</string>
+    <string name="primary_two_title">Основной цвет (правая вкладка)</string>
+    <string name="primary_two_summary">Установить цвет для больших элементов пользовательского интерфейса для правой вкладки</string>
+    <string name="support_development">Поддержать разработку</string>
+    <string name="report_bugs_title">Сообщить об ошибках</string>
+    <string name="source_title">Исходный код</string>
+    <string name="source_summary">Просмотреть наш исходный код на GitHub</string>
+    <string name="report_bugs_summary">Сообщить об ошибке или запросить новую функцию</string>
+    <string name="translate_title">Перевести</string>
+    <string name="translate_summary">Перевести Amaze на ваш язык</string>
+    <string name="paypal_copy_message">Идентификатор PayPal скопирован в буфер обмена</string>
+    <string name="searching_devices">Поиск устройств</string>
+    <string name="use_custom_ip">Использовать собственный IP-адрес</string>
+    <string name="bookmark_lost">Закладка не найдена, создается заново…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Как получить доступ к общей папке Windows на Android (SMB)\n\n
+                
+                    
+                        Включить общий доступ к файлам в Windows\n
+                    
+                    
+                        Откройте панель управления, нажмите «Выбрать параметры домашней группы и общего доступа» в разделе «Сеть».
+                        и Интернет, нажмите «Изменить дополнительные параметры общего доступа», включите «Файлы и
+                        Общий доступ к принтеру".\n\n
+                    
+
+                    
+                        Дополнительные настройки общего доступа к файлам\n
+                    
+                    
+                        Здесь вы также можете настроить другие дополнительные параметры общего доступа. \n
+                        Например, вы можете разрешить доступ к своим файлам без пароля, если доверяете всем
+                        устройств в вашей локальной сети. После включения общего доступа к файлам и принтерам вы можете
+                        откройте проводник или проводник Windows, щелкните правой кнопкой мыши папку, к которой хотите предоставить общий доступ, и
+                        выберите Свойства. \n
+                        Нажмите кнопку «Поделиться» и сделайте папку доступной в сети.\n\n
+                        
+
+                    
+                        Убедитесь, что оба устройства подключены к одному и тому же Wi-Fi\n
+                    
+                    
+                        Эта функция делает файлы доступными в локальной сети, поэтому ваш ПК и мобильные устройства
+                        должны быть в одной локальной сети. Вы не можете получить доступ к общей папке Windows
+                        через Интернет или когда ваш смартфон подключен к мобильной сети — это
+                        должен быть подключен к Wi-Fi.\n\n
+                    
+
+                    
+                        Найти IP-адрес\n
+                    
+                    
+                        Откройте командную строку. Введите \'ipconfig\' и нажмите Enter. Найдите шлюз по умолчанию
+                        под вашим сетевым адаптером для IP-адреса вашего маршрутизатора. Искать
+                        \\\"Адрес IPv4\\\" в том же разделе адаптера, чтобы найти IP-адрес вашего компьютера.
+                        адрес.\n\n
+                    
+
+                    Введите данные в диалоговом окне SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Невозможно поделиться более чем 100 файлами</string>
+    <string name="otg_access">Выберите корень устройства OTG</string>
+    <string name="information">Информация</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Доступ</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Изменено</string>
+
+    <string name="title">Название</string>
+    <string name="artist">Исполнитель</string>
+    <string name="album">Альбом</string>
+    <string name="year">Год</string>
+    <string name="duration">Продолжительность</string>
+    <string name="comment">Комментарий</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Контейнер</string>
+    <string name="codec">Кодек</string>
+    <string name="channels">Каналы</string>
+    <string name="sample_rate">Частота дискретизации</string>
+    <string name="bitrate">Битрейт</string>
+    <string name="dimensions">Размеры</string>
+    <string name="frame_rate">Частота кадров</string>
+    <string name="image_type">Тип изображения</string>
+    <string name="width">Ширина</string>
+    <string name="height">Высота</string>
+    <string name="date_modified">Дата изменения</string>
+    <string name="software">Программное обеспечение</string>
+    <string name="creator">Создатель</string>
+    <string name="camera_brand">Бренд камеры</string>
+    <string name="camera_model">Камера Модель</string>
+    <string name="date_taken">Дата съемки</string>
+    <string name="exposure_time">Время экспозиции</string>
+    <string name="aperture_value">Значение диафрагмы</string>
+    <string name="image_iso">Рейтинг скорости ISO</string>
+    <string name="flash_fired">Вспышка сработала</string>
+    <string name="focal_length">Фокусное расстояние</string>
+    <string name="subject">Тема</string>
+    <string name="author">Автор</string>
+    <string name="keywords">Ключевые слова</string>
+    <string name="producer">Производитель</string>
+    <string name="created">Создано</string>
+    <string name="format">Формат</string>
+    <string name="pages">Количество Страницы</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Оптимизировано</string>
+    <string name="security">Безопасность</string>
+    <string name="paper_size">Размер бумаги</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Некоторые файлы не были успешно %s</string>
+    <string name="copied">скопированы</string>
+    <string name="moved">перемещено</string>
+    <string name="copy_complete">Копирование завершено</string>
+    <string name="waiting_title">Ожидание</string>
+    <string name="waiting_content">Ожидание завершения операции</string>
+    <string name="extract_complete">Извлечение завершено</string>
+    <string name="compression_complete">Сжатие завершено</string>
+    <string name="compressing">Сжатие</string>
+    <string name="cancelled">Отменено</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Записано</string>
+    <string name="out_of">из</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">из</string>
+    <string name="processing_file">Файл обработки</string>
+    <string name="current_speed">Текущая скорость</string>
+    <string name="smb_launch_error">Вам потребуется скопировать этот файл в хранилище, чтобы открыть его</string>
+    <string name="error_file_not_found">Ошибка: файл не найден</string>
+    <string name="error_io">Ошибка ввода/вывода</string>
+    <string name="error_file_too_large">Ошибка: слишком большой файл</string>
+    <string name="medium_text">Средний текст</string>
+    <string name="permission_read">Чтение</string>
+    <string name="permission_write">Запись</string>
+    <string name="permission_execute">Выполнение</string>
+    <string name="permission_owner">Владелец</string>
+    <string name="permission_group">Группа</string>
+    <string name="permission_other">Другое</string>
+    <string name="clipboard_path_copy">Путь скопирован в буфер обмена</string>
+    <string name="service_timer">Время истекло</string>
+    <string name="please_wait">Подождите</string>
+
+    <string name="cloud_connection">Подключение к облаку</string>
+    <string name="cloud_connection_new">Новое подключение к облаку</string>
+    
+    
+    
+    
+    <string name="cloud_get">Получить подключаемый модуль Cloud</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Нет приложений</string>
+    <string name="ftp_path">Общий путь</string>
+    <string name="ftp_path_hint">Путь к корню каталога для общего доступа</string>
+    <string name="change">Изменить</string>
+    <string name="unknown_error">К сожалению, что-то пошло не так!</string>
+
+    <string name="ftp_path_change_success">FTP-путь успешно изменен</string>
+    <string name="ftp_path_change_error_invalid">Неверный путь</string>
+    <string name="ftp_status_no_connection">Нет соединения</string>
+    <string name="ftp_status_secure_connection">Защищенное соединение</string>
+    <string name="ftp_status_title">Статус</string>
+    <string name="ftp_port">Порт</string>
+    <string name="ftp_login">Логин</string>
+    <string name="field_empty">Поле не может быть пустым</string>
+    <string name="ftp_timeout">Тайм-аут простоя</string>
+    <string name="ftp_seconds">Секунды</string>
+    <string name="intellihide_toolbar_title">Панель инструментов Intellihide</string>
+    <string name="intellihide_toolbar_summary">Автоматически скрывать панель инструментов при прокрутке</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">скопировано в буфер обмена</string>
+    <string name="contributors_1_summary">Перевод</string>
+    <string name="contributors_2_summary">Значок и баннеры</string>
+    
+    <string name="contributors_4_summary">Тень за FAB</string>
+    <string name="contributors_5_summary">Переход цвета при смахивании вкладок</string>
+    <string name="contributors_6_summary">FTP-сервер</string>
+    <string name="contributors_7_summary">Запуск интерактивной оболочки</string>
+    <string name="connection_exists">Соединение уже существует</string>
+
+    <string name="crypt_encrypting">Шифрование</string>
+    <string name="crypt_decrypting">Расшифровка</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Зашифровано</string>
+    <string name="crypt_decrypted">Расшифровано</string>
+    <string name="crypt_encrypt">Зашифровать</string>
+    <string name="crypt_decrypt">Расшифровать</string>
+    <string name="operation_fail_following">Операция не выполнена для следующих файлов</string>
+    <string name="crypt_pref_master_password_title">Мастер-пароль</string>
+    <string name="crypt_pref_master_password_summary">Установить мастер-пароль для шифрования.
+        Оставьте пустым, чтобы удалить.</string>
+    <string name="crypt_pref_fingerprint_title">Отпечаток пальца</string>
+    <string name="crypt_pref_fingerprint_summary">Использовать отпечаток пальца для аутентификации шифрования</string>
+    <string name="crypt_fingerprint_no_permission">Отсутствуют разрешения на доступ к отпечатку пальца</string>
+    <string name="crypt_fingerprint_not_enrolled">Отпечаток пальца не зарегистрирован</string>
+    <string name="crypt_fingerprint_no_security">Без защиты экрана блокировки found</string>
+    <string name="crypt_warning_key">Имейте в виду, что при изменении шаблона безопасности с
+        Системные настройки, вы не сможете расшифровать этот контент.</string>
+    <string name="warning_never_show">Больше не сообщать</string>
+    <string name="warning_confirm">Понятно!</string>
+    <string name="crypt_encryption_fail">Не удалось зашифровать</string>
+    <string name="crypt_decryption_fail">Не удалось расшифровать</string>
+    <string name="crypt_decryption_fail_password">Неверный пароль!</string>
+    <string name="crypt_fingerprint_authenticate">Нажмите для продолжения</string>
+    <string name="authenticate_password">Введите пароль</string>
+
+    <string name="sidebar_preferences">Боковая панель</string>
+    <string name="sidebar_quick_access_title">Быстрый доступ к боковой панели</string>
+    <string name="show_quick_access_pref_title">Показать быстрый доступ</string>
+    <string name="show_quick_access_pref">Быстрый доступ</string>
+    <string name="directory">Каталог</string>
+
+    <string name="sidebar_bookmarks_title">Закладки боковой панели</string>
+    <string name="show_bookmarks_pref_title">Показать закладки</string>
+    <string name="show_bookmarks_pref">Закладки</string>
+    <string name="create_bookmark">Создать закладку</string>
+    <string name="edit_bookmark">Редактировать закладку</string>
+    <string name="question_delete_bookmark">Удалить закладку?</string>
+
+    <string name="cloud_error_plugin">Плагин Amaze Cloud не найден. Пожалуйста, загрузите из Play Store.</string>
+    <string name="cloud_error_failed_restart">Не удалось загрузить соединение.
+        Откройте Amaze Cloud один раз.</string>
+    <string name="cloud_remove">Вы хотите удалить подключение к облаку?</string>
+    <string name="cloud_fail_authenticate">Не удалось пройти аутентификацию</string>
+    <string name="cloud_share_copied">Ссылка для общего доступа скопирована в буфер обмена</string>
+    <string name="copy_low_memory">Заканчивается памяти, пожалуйста, очистите часть ОЗУ</string>
+    <string name="cloud_token_lost">Токен потерян, войдите снова</string>
+    <string name="monofont">Моноширинный шрифт</string>
+    <string name="showHeaders">Показать заголовки</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Нет элементов</string>
+	
+	
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Файл должен иметь имя</string>
+    <string name="add_item">Добавить элемент</string>
+    <string name="failed_smb_decrypt_path">Не удалось загрузить Соединение SMB</string>
+    <string name="failed_cloud_new_connection">Не удалось добавить новое облачное соединение</string>
+    <string name="failed_cloud_api_key">Не удалось аутентифицировать подключаемый модуль Cloud</string>
+
+    <string name="local_inet_addr_error">Ошибка получения локального адреса в сети Интернет</string>
+    <string name="intent_save_as">Сохранить как…</string>
+    
+    <string name="advanced">Дополнительно</string>
+    <string name="typeable_paths_title">Пользовательские пути</string>
+    <string name="typeable_paths_summary">Нажмите и удерживайте строку пути, чтобы ввести собственный путь</string>
+    <string name="send_email_to">Отправить электронное письмо</string>
+
+    <string name="text_editor">Настройки текстового редактора</string>
+    <string name="preference_newstack_title">Открыть файлы как новую задачу</string>
+    <string name="preference_newstack_summary">Позволяет открывать файлы в отдельных задачах. Доступ к ним можно получить на экране последних сведений о системе.</string>
+    
+    <string name="developers">Разработчики</string>
+    <string name="no_bitcoin_app">Пожалуйста, установите приложение Биткойн-кошелек</string>
+    <string name="channel_name_normal">Уведомления Amaze</string>
+    <string name="channel_description_normal">Уведомления файлового менеджера Amaze</string>
+    
+    <string name="channel_description_ftp">Уведомления FTP-сервера Amaze File Manager</string>
+
+    
+    <string name="processing">Обработка…</string>
+    <string name="failed_no_connection">Не удалось загрузить файлы. Проверьте подключение.</string>
+
+    <string name="update">ОБНОВЛЕНИЕ</string>
+	<string name="scp_connection">SCP/SFTP-соединение</string>
+    <string name="ftp_connection">FTP-соединение</string>
+    <string name="ftps_connection">FTP через соединение SSL</string>
+    <string name="scp_port">Порт</string>
+    <string name="ssh_host_key_verification_prompt">Подлинность хоста \'%1$s\' не может быть установлена.\n\nОтпечаток ключа %2$s: %3$s.\n\nНажмите \"Да\" для подтверждения личность; в противном случае нажмите \"Нет\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Подтвердить хост</string>
+    <string name="ssh_select_pem_button">Закрытый ключ SSH</string>
+    <string name="ssh_pem_key_parse_error">Невозможно прочитать выбранный PEM: %s</string>
+    <string name="password_unchanged">(без изменений)</string>
+    <string name="ssh_authentication_failure_password">Ошибка при входе в систему: Невозможно пройти аутентификацию с использованием предоставленного имени пользователя и пароля.</string>
+    <string name="ssh_authentication_failure_key">Ошибка при входе в систему: Невозможно выполнить аутентификацию с использованием предоставленного имени пользователя и закрытого ключа.</string>
+    <string name="ssh_connect_failed">Невозможно подключиться к %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ВНИМАНИЕ: ИДЕНТИФИКАЦИЯ УДАЛЕННОГО ХОСТА ИЗМЕНИЛАСЬ!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">ВОЗМОЖНО, ЧТО КТО-ТО ДЕЛАЕТ ЧТО-ТО ГРУСТНОЕ!\n\nКто-то может подслушивать вас прямо сейчас (атака посредника)! Также возможно, что ключ хоста был только что изменен. Отпечаток открытого ключа, отправленный удаленным хостом, не совпадает с отпечатком, хранящимся в Amaze.\n\nПожалуйста, обратитесь к системному администратору или настройте новое соединение, чтобы продолжить подключение к серверу.</string>
+    <string name="ssh_key_prompt_passphrase">Пожалуйста, введите ключевую фразу-пароль .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Создание ярлыков не поддерживается вашей программой запуска.</string>
+    
+    <string name="select_color_config">Выбрать цвет config</string>
+    <string name="customize">Настроить</string>
+    <string name="custom">Пользовательский</string>
+    <string name="preselected_configs_title">Предварительно выбранные конфигурации</string>
+    <string name="orange">Оранжевый</string>
+    <string name="blue">Синий</string>
+    <string name="green">Зеленый</string>
+    <string name="password_no_match">Пароль не совпадает</string>
+    <string name="deselect_all">Отменить выбор всех</string>
+    <string name="filename">Имя файла</string>
+    <string name="compress_file_suggest_zip_extension">Рекомендуется использовать \".zip\" в качестве расширения файла.</string>
+    <string name="about_amaze">Файловый менеджер Material Design для Android</string>
+    <string name="license">Лицензия</string>
+    <string name="libraries">Библиотеки</string>
+    <string name="password_repeat">Повторите пароль</string>
+    <string name="create_file_suggest_txt_extension">Рекомендуется использовать \".txt\" в качестве расширения файла.</string>
+    <string name="ssh_select_pem">Выберите закрытый ключ для аутентификации</string>
+    <string name="ssh_key_invalid_passphrase">Неверный ключевой пароль.</string>
+    <string name="ssh_key_no_decoder_decrypt">Нет допустимого декодера для расшифровки PEM.</string>
+    <string name="encryption_fail_copy">Не удалось обновить запись шифрования в базе данных</string>
+    <string name="extracted">Извлечено</string>
+    <string name="compressed">Сжато</string>
+    <string name="processed">Обработано</string>
+    <string name="no_obtainable_info">Нет информации об этом файле</string>
+    <string name="reopen_from_source">Не могу, откройте заново из последнего приложения</string>
+    <string name="no_file_error">Что-то пошло не так, открывать нечего</string>
+    <string name="file_too_long">файл слишком длинный и не может быть отредактирован, однако вы можете прочитать первые %d символов</string>
+    <string name="file_read_only">Открытый файл доступен только для чтения.</string>
+    <string name="got_it">Понятно!</string>
+    <string name="encrypt_file_save_as">Сохранить в зашифрованном виде Файл как…</string>
+    <string name="encrypt_folder_save_as">Сохранить зашифрованную папку как…</string>
+    <string name="encrypt_option_use_aze">Использовать формат шифрования Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt – это формат шифрования файлов с открытым исходным кодом, основанный на шифровании AES. Он также переносим, ​​его можно расшифровать с помощью программ AESCrypt на других платформах.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">веб-сайт AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Формат шифрования Amaze также основан на шифровании AES; но в отличие от формата AESCrypt, он может быть расшифрован только этим устройством; также вы не должны удалять Amaze File Manager с этого устройства или изменять способ блокировки экрана, иначе у вас не будет возможности восстановить зашифрованный файл.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Зашифрованные файлы должны использовать \".aze\" в качестве расширения файла.</string>
+    <string name="encrypt_file_must_end_with_aes">Зашифрованные файлы должны использовать \".aes\" в качестве расширения файла.</string>
+    <string name="error_aescrypt_decrypt_failed">Невозможно расшифровать \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Невозможно перезаписать файл.</string>
+    <string name="saved_single_file">Файл сохранен как \'%s\'.</string>
+    <string name="saved_multi_files">%d файлов сохранено.</string>
+    <string name="create_hidden_file_warn">Созданный файл будет скрыт в списке файлов.</string>
+    <string name="grant_apkinstall_permission">Приложению требуется разрешение для продолжения установки приложений.</string>
+    <string name="time_remaining">Оставшееся время</string>
+    <string name="transfer_rate">Скорость передачи</string>
+    <string name="unknown">неизвестно</string>
+    <string name="multiple_invalid_archive_entries">Некоторые файлы в архиве не могут быть извлечены; архив может быть поврежден или получен из вредоносного источника.</string>
+    <string name="saf_otg_explanation">Теперь вы перейдете к файловой системе Android из соображений безопасности. Пожалуйста, выберите USB-устройство из списка слева.</string>
+    <string name="donation_thanks">Спасибо за пожертвование, это мотивирует нас! (:</string>
+    <string name="enable_marquee_filename">Включить эффект выделения для имен файлов</string>
+    <string name="archive_password_prompt">Пожалуйста, введите пароль архива:</string>
+    
+    <string name="cannot_extract_archive">Невозможно извлечь архив \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Невозможно открыть архив \"%s\". Либо мы не можем открыть архив, либо архив был поврежден.</string>
+    <string name="close">Закрыть</string>
+    <string name="bookmark_exists">Закладка существует</string>
+    <string name="hide_media">Скрыть от медиабраузеров</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ВОЗМОЖНО, ЧТО КТО-ТО ДЕЛАЕТ ЧТО-ТО ГРУСТНОЕ!\n\nКто-то может подслушивать вас прямо сейчас (атака «человек посередине»)! Также возможно, что ключ хоста только что был изменен. открытый ключ, отправленный удаленным хостом, не совпадает с тем, который хранится в Amaze.\n\nВы можете продолжить обновление отпечатка хоста или отменить обновление настроек подключения SSH.</string>
+    <string name="update_host_key">Обновить ключ хоста</string>
+    <string name="cancel_recommended">Отмена (рекомендуется)</string>
+    
+    
+    <string name="failed_install_apk">Не удалось установить</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Внутренняя память</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD-карта</string>
+    <string name="choose_folder">Выбрать эту папку</string>
+    
+    <string name="some_files_failed_invalid_operation">Не удалось установить некоторые файлы из-за недопустимости операция</string>
+    <string name="ftp_server_prompt_connect_to_network">Подключиться к сети или включить точку доступа</string>
+    <string name="ftp_server_open_settings">Открыть настройки</string>
+    <string name="move">Переместить</string>
+    <string name="select_save_location">Выберите место для сохранения</string>
+    <string name="scp_default_path">Путь по умолчанию (необязательно)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Извините, этого не должно было случиться.</string>
+    
+    <string name="error_report_button_text">Сообщить об ошибке по электронной почте</string>
+    <string name="error_report_button_telegram">Сообщить об ошибке через телеграмму</string>
+    <string name="copy_for_github">Скопировать отформатированный отчет</string>
+    <string name="error_report_open_issue_button_text">Отчет о GitHub</string>
+    <string name="error_report_open_github_notice">Пожалуйста, проверьте, существует ли проблема, обсуждающая ваш сбой.</string>
+    <string name="error_snackbar_message">Извините, что-то пошло не так.</string>
+    <string name="error_snackbar_action">Отчет</string>
+    <string name="what_device_headline">Информация:</string>
+    <string name="what_happened_headline">Что произошло:</string>
+    <string name="info_labels">Что:\\nЗапрос:\\nВремя по Гринвичу:\\nПакет:\\nВерсия:\\nВерсия ОС:\\nУстройство:\\nМодель:\\nПродукт :</string>
+    <string name="your_comment">Ваш комментарий (на английском):</string>
+    <string name="error_details_headline">Подробности:</string>
+    <string name="app_ui_crash">Сбой приложения/интерфейса</string>
+    <string name="error_report_title">Отчет об ошибке</string>
+    <string name="crash_report_copied">Отчет о сбое скопирован в буфер обмена</string>
+    <string name="disableIpcSignature">Отключить проверку подписи IPC (для устаревших серверов SMBv1 — НЕБЕЗОПАСНО!)</string>
+    <string name="cannot_delete_file">Невозможно удалить файл</string>
+    <string name="cannot_delete_file_with_reason">Невозможно удалить файл — %s</string>
+    <string name="cannot_rename_file">Невозможно переименовать файл %s - %s</string>
+    <string name="cannot_read_directory">Не удается прочитать каталог %s - %s</string>
+    <string name="just_once">Только один раз</string>
+    <string name="always">Всегда</string>
+    <string name="choose_different_app">Выбрать другое приложение</string>
+    <string name="clear_open_file">Очистить cache</string>
+    <string name="clear_open_file_summary">Очищает выбранные приложения для открытия файлов по умолчанию</string>
+    <string name="ftp_readonly">Доступ только для чтения</string>
+    <string name="legacy_listing_title">Использовать устаревший список для root</string>
+    <string name="legacy_listing_summary">Если включено, использует устаревший метод для вывода списка файлов</string>
+    <string name="error_unsupported_v5_rar">Архив RAR \"%s\" не поддерживается архивом RAR v5.</string>
+    <string name="ftp_prompt_restart_server">Вам потребуется перезагрузка FTP-сервер, чтобы изменения вступили в силу.</string>
+    <string name="error_permission_denied">Отказано в доступе</string>
+    <string name="error_archive_password_incorrect">Неверный пароль архива.</string>
+    <string name="error_archive_cannot_extract">Невозможно извлечь запись архива \"%s\" в \"%s\".</string>
+    <string name="drag_and_drop_preference">Выберите параметр перетаскивания (экспериментальный)</string>
+    <string name="drag_to_move_copy">Нажмите и перетащите, чтобы переместить или скопировать файлы</string>
+    <string name="drag_to_select">Нажмите и перетащите, чтобы выбрать файлы</string>
+    <string name="disable">Отключить</string>
+    <string name="choose_operation">Выберите операцию для выполнения</string>
+    <string name="remember">Запомнить на следующий раз</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Предоставить SAF доступ к FTP-серверу</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Поскольку это ваш первый запуск FTP-сервера, и вы используете внутреннее хранилище устройства в качестве общей папки, разрешите Amaze доступ к хранилищу с помощью САФ.\n\n
+
+Вам нужно сделать это только один раз, пока в следующий раз вы не выберете новое место для обмена.</string>
+    <string name="android_data_prompt_saf_access">Начиная с Android 10, Android наложил ограничения на определенные каталоги, и доступ к ним должен осуществляться с помощью Storage Access Framework.\n \nПожалуйста, разрешите Amaze доступ к каталогу из системного файлового менеджера, нажав \"Разрешить доступ\".</string>
+    <string name="android_data_prompt_saf_access_title">Предоставить доступ SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Использовать устаревшую файловую систему</string>
+    <string name="ftp_preference_saf_filesystem">Включите этот параметр для поддержки использования внешнего хранилища устройства в более новых версиях Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Общий путь FTP-сервера был сброшен на внутреннее хранилище, так как вы переключаетесь обратно на реализация устаревшей файловой системы. При необходимости выберите новый путь с помощью меню в правом верхнем углу.</string>
+    <string name="ftp_server_reset_notify">Общий путь FTP-сервера был сброшен на внутреннее хранилище</string>
+    <string name="ftp_server_root_unavailable">Вы выбираете путь, для которого требуется root-доступ. Пожалуйста, включите корневой проводник в настройках, если ваше устройство рутировано.</string>
+    <string name="ftp_server_root_filesystem_warning">Вы выбираете путь, который требует root-доступа, что позволяет выполнять операции чтения/записи во всей файловой системе на вашем устройстве, и это опасно - неосторожные ошибки могут заблокировать устройство!\n\nВы уверены?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Ошибка открытия URI \"%s\" для чтения.</string>
+    <string name="error_empty_archive">\"%s\" — пустой архив.</string>
+    <string name="error_bad_archive_without_info">\"%s\" — поврежденный архив.</string>
+    <string name="error_bad_archive_with_info">\"%s\" — поврежденный архив.\nСообщение от экстрактора: \"%s\"</string>
+    <string name="security_error">Файл не может быть открывать с помощью этого приложения</string>
+    <string name="cloud_drive_tooltip">Создать подключение к Google Диску™ для управления файлами из Amaze File Manager.</string>
+    <string name="signin_with_google_title">Аутентифицироваться для использования Google Диска™</string>
+    <string name="show_system_apps">Показать системные приложения</string>
+    <string name="system_apps">Системные приложения</string>
+    <string name="select_inverse">Выбрать наоборот</string>
+    <string name="select_by_type">Выбрать по типу</string>
+    <string name="select_by_date">Выбрать по дате</string>
+    <string name="select_similar">Выбрать аналогичный</string>
+    <string name="error_fetching_google_play_product_list">Ошибка получения списка продуктов из Google Play.</string>
+    <string name="grant_all_files_permission">Начиная с Android 11 Google запрашивает у файловых менеджеров разрешение пользователя на управление всеми файлами на устройстве. Подробности здесь.
+        \n\nAmaze File Manager также нуждается в этом разрешении. Нажав здесь «Предоставить», выберите «Разрешить доступ для управления всеми файлами» на следующем экране.
+        \n\nОтмена этого диалогового окна приведет к закрытию приложения.</string>
+    <string name="user_apps">Приложения пользователя</string>
+    <string name="appearance">Внешний вид</string>
+    <string name="behavior">Поведение</string>
+    <string name="appearance_summary">Настройка темы, цветов и внешнего вида файлового менеджера</string>
+    <string name="ui_summary">Контролируйте отображаемую информацию, настраивайте боковую панель и переключайте настройки пользовательского интерфейса</string>
+    <string name="behavior_summary">Изменяйте поведение, например расширенный поиск и необходимость открытия файлов в качестве новой задачи</string>
+    <string name="security_summary">Настройте пароль и шифрование</string>
+    <string name="backup_summary">Экспорт/импорт настроек Amaze</string>
+
+    <string name="pref_export">Экспорт</string>
+    <string name="pref_export_summary">Экспорт настроек</string>
+    <string name="pref_import">Импорт</string>
+    <string name="pref_import_summary">Импорт настроек</string>
+
+    <string name="quick_desc">Файлы недавно доступ через Amaze</string>
+    <string name="recent_desc">Недавно созданные или измененные файлы</string>
+    <string name="error_cannot_find_way_open">Не удалось найти способ открыть файл</string>
+    <string name="error_cant_decompress_that_file">Невозможно обработать запрошенный архив</string>
+    <string name="analyse_storage">Анализ хранилища</string>
+    
+    <string name="download_amaze_utils_text">Вы перенаправлены на Amaze File Utilities. Это наше приложение с открытым исходным кодом, которое имеет встроенные средства просмотра аудио/видео/изображений/документов, позволяет анализировать ненужные файлы для освобождения памяти, быстрой передачи с использованием Wi-Fi P2P и многого другого.\nПожалуйста, поддержите нас, попробовав его.</string>
+    <string name="download">Загрузить</string>
+    <string name="wifip2p">Wi -Fi P2P</string>
+    <string name="amaze_utils_installed_alias">Благодарим вас за установку Amaze File Utilities. Вы будете перенаправлены в приложение.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">Поделиться журналами</string>
+    <string name="share_logs_summary">Поделиться захваченными журналами по электронной почте или телеграмме</string>
+    <string name="open_with_amaze">Открыть с помощью Amaze</string>
+    <string name="confirmation">Подтверждение</string>
+    <string name="open_file_confirmation">Вы уверены, что хотите открыть следующий файл?\n\nИмя:\n%s\n\nРасположение:\n%s\n\nРазмер:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">В соответствии с политикой Google Play приложения не могут обновляться самостоятельно. Обновите приложение из Google Play.</string>
+    <string name="error_cannot_get_package_info">Не удалось получить информацию о пакете из файла \"%s\". Либо указанный файл не является APK, либо файл пакета поврежден.</string>
+    <string name="preference_delete_confirmation">Подтверждение удаления</string>
+    <string name="preference_delete_confirmation_summary">Запрашивать подтверждение перед удалением файлов. Отключать это крайне не рекомендуется!</string>
+    
+    
+    <string name="protocol_ftps">Безопасный FTP</string>
+    <string name="unavailable">Недоступно</string>
+
+    <string name="exporting_failed">Ошибка экспорта: не удалось записать файл резервной копии</string>
+    <string name="importing_failed">Ошибка импорта: не удалось прочитать резервную копию file</string>
+    <string name="importing_completed">Импорт завершен</string>
+    <string name="invalid_backup_file">Недопустимый файл резервной копии</string>
+    <string name="import_failed_for">Ошибка импорта для:</string>
+    <string name="free_of">"%s\n%s не содержит %s</string>
+    <string name="cloud_error_fdroid">Плагин Amaze Cloud не поддерживается с F- Версия Droid. Используйте версию Amaze из Play Маркета.</string>
+    <string name="disable_player_intent_filters">Отключить фильтры намерений проигрывателя</string>
+    <string name="disable_player_intent_filters_summary">Отключить встроенные медиаплееры Amaze из средства выбора файлов</string>
+    <string name="no_app_found_intent">Не найдено ни одного приложения, поддерживающего это намерение. у вас установлен DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Учетные данные облачного подключения очищены</string>
+    <string name="cloud_connection_credentials_cleared_msg">К сожалению, нам не удалось перенести ваши учетные данные облачного подключения в новую схему базы данных, и нам пришлось удалить их из приложения. Пожалуйста, создайте подключение к облаку снова.</string>
+</resources>

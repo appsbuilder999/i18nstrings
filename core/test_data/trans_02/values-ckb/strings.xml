@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">بەڕێوەبەری پەڕگە سەرسوڕهێنەر</string>
+    <string name="drawer_open">کۆشکی گەشتکردن بکەرەوە</string>
+    <string name="drawer_close">کۆشکی گەشتکردن دابخە</string>
+    <string name="icon">ئایکۆن</string>
+    <string name="apps">بەڕێوەبەری ئەپ</string>
+    <string name="ftp">ڕاژەکاری FTP</string>
+    <string name="setting">ڕێکخستنەکان</string>
+    <string name="select">بابەت هەڵبژێرە</string>
+    <string name="press_again">جارێکی تر فشار بخەرە سەر بۆ دەرچوون</string>
+    <string name="open">کردنەوەی</string>
+    <string name="backup">پاشەکەوت</string>
+    <string name="uninstall">هەڵوەشاندنەوە</string>
+    <string name="play">فرۆشگای یاری</string>
+    <string name="properties">تایبەتمەندیەکان</string>
+    <string name="copyingapks">کۆپیکردنی فایلەکانی %d APK بۆ %s</string>
+    <string name="delbook">سڕینەوەی نیشانە</string>
+    <string name="add_to_bookmarks">زیادکردن بۆ نیشانە</string>
+    <string name="enterpath">ڕێڕەوی داخڵ بکە</string>
+    <string name="cancel">هەڵوەشاندنەوە</string>
+    <string name="create">دروستکردن</string>
+    <string name="loading">بارکردن...</string>
+    <string name="file_empty">پەڕگە بەتاڵە</string>
+    <string name="error">هەڵە</string>
+    <string name="search_results">ئەنجامی گەڕان لە %s</string>
+    <string name="rename">ناوی بگۆڕە</string>
+    <string name="save">پاشکەوتن</string>
+    <string name="bookmarks_added">نیشانە زیادکرا</string>
+    <string name="fileexist">پەڕگەیەک بە هەمان ناو پێشتر بوونی هەیە</string>
+    <string name="name">ناو</string>
+    <string name="date">بەروار</string>
+    <string name="location">شوێن</string>
+    <string name="size_capitalized">قەبارە</string>
+    <string name="size">قەبارەی فۆڵدەر</string>
+    <string name="enterzipname">ناوی زیپ دابنێ</string>
+    <string name="no_app_found">هیچ ئەپێک نەدۆزراوەتەوە بۆ کردنەوەی ئەم پەڕگەیە</string>
+    <string name="copying">کۆپیکردن</string>
+    <string name="moving">گواستنەوە</string>
+    <string name="file">پەڕگە</string>
+    <string name="folder">فۆڵدەر</string>
+    <string name="newfolder">فۆڵدەری نوێ</string>
+    <string name="entername">ناو داخڵ بکە</string>
+    <string name="extracting">دەرهێنان</string>
+    <string name="stopping">وەستان</string>
+    <string name="open_parent">بەڕێوەبەری دایک و باوک بکەرەوە</string>
+    <string name="open_with">بە</string>
+    <string name="share">بەشکردن</string>
+    <string name="about">بکەرەوە دەربارەی</string>
+    <string name="extract">دەرهێنان</string>
+    <string name="compress">پاراستن</string>
+    <string name="yes">بەڵێ</string>
+    <string name="no">نەخێر</string>
+    
+    <string name="dialog_delete_category_directories">ناونیشانەکان</string>
+    <string name="dialog_delete_category_files">فایلەکان</string>
+    <string name="dialog_delete_disclaimer">سڕینەوەی ئەو شتانەی خوارەوە بۆ هەمیشە لە ئامێرەکەتدا لایان دەبات و ناتوانرێت وەربگیرێنەوە.</string>
+    <string name="dialog_delete_title">بابەتەکان بۆ هەمیشە بسڕەوە؟</string>
+    <string name="deleting">سڕینەوە</string>
+    <string name="question_set_path_as_home">ئایا دەتەوێت ڕێڕەوی ئێستا وەک ماڵەوە بۆ ئەم تابە دابنێیت؟</string>
+    <string name="directorysort">دۆخی ڕیزکردنی بەڕێوەبەرایەتی</string>
+    <string name="sort_by">ڕیزبەندی بەپێی</string>
+    <string name="sort_only_this">تەنها ئەم فۆڵدەرە</string>
+    
+    <string name="random">پێستی هەڕەمەکی</string>
+    <string name="random_summary">ڕەنگی سەرەتایی هەڕەمەکی لە کاتی دەستپێکردندا ڕێکدەخات</string>
+    <string name="colorize">ئایکۆنەکانی ڕەنگکردن</string>
+    <string name="colorize_summary">ڕێکخستنەکان ڕەنگی ئایکۆنی ئیستاتیک. هەڵبژاردەی ڕەنگی ئایکۆنی بەڕێوەبەرایەتی جێبەجێ ناکات.</string>
+    <string name="home">ماڵەوە</string>
+    <string name="paste">لێدان</string>
+    <string name="history">مێژوو</string>
+    <string name="copy">کۆپیکردن</string>
+    <string name="root_mode">گەڕانی ڕەگ</string>
+    <string name="root_mode_summary">تەنها بۆ ئامێری ڕوتکراو. تەنها ئەگەر دڵنیا بیت لێی بپشکنە.</string>
+    <string name="root_failure">دەستگەیشتن بە ڕەگ نەدراوە</string>
+    <string name="select_all">هەموو هەڵبژێرە</string>
+    <string name="delete">سڕینەوە</string>
+    <string name="set_as_home">وەک ماڵەوە دابنێ</string>
+    <string name="operation_not_supported">کارپێکردن پشتگیری ناکرێت</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">ڕووناکی ماددە</string>
+    <string name="dark">تاریکی ماددە</string>
+    <string name="daytime">کاتی ڕۆژ</string>
+    <string name="black">ڕەش (بۆ OLED)</string>
+    <string name="system">سیستەم (پەیڕەوی لە تەوەرەی سیستەم بکە)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">فۆڵدەرەکان لە سەرەوە</string>
+    <string name="filesOnTop">فایلەکان لە سەرەوە</string>
+    <string name="none_on_top">هیچیان لە سەرەوە</string>
+    <!--SortBy-->
+    <string name="sort_name">ناو</string>
+    <string name="lastModified">دواجار دەستکاری کراوە</string>
+    <string name="sort_size">قەبارە</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">پەڕگەیەک هەڵبژێرە</string>
+    <string name="process_viewer">بینەری پرۆسێس</string>
+    <string name="in_safe">شوێنی بەس</string>
+    <string name="no_file_overwrite">هیچ پەڕگەیەک نەنووسراوەتەوە</string>
+    <string name="skip">پاشان بکە</string>
+    <string name="overwrite">سەرپێچی بنووسە</string>
+    <string name="not_allowed">ڕێگە پێنەدراوە</string>
+    <string name="searching">گەڕان %s</string>
+    <string name="done">تەواو</string>
+    <string name="set">ڕێکخراو</string>
+    <string name="enablerootmde">دۆخی ڕەگ چالاک بکە</string>
+    <string name="goback">بڕۆ دواوە</string>
+    <string name="newfile">پەڕگەی نوێ</string>
+    <string name="no_files">هیچ پەڕگەیەک</string>
+    <string name="used">شوێنی بەکارهێنراو</string>
+    <string name="used_by_others">لەلایەن کەسانی ترەوە بەکاردەهێنرێت</string>
+    <string name="free">شوێنی ئازاد</string>
+    <string name="listview">بینینی لیست</string>
+    <string name="gridview">تۆڕ بینین</string>
+    <string name="permission">مۆڵەتەکان</string>
+    <string name="hide">شاردنەوە</string>
+    <string name="exit">دەرچوون</string>
+    <string name="doforall">بۆ هەموو بابەتەکان بیکە</string>
+    <string name="gridcolumnno">ژمارەی ستوونەکان لە دیمەنی تۆڕدا</string>
+    <string name="set_random">گۆڕانکارییەکان دوای ئەوەی ئەپەکەت دووبارە دەستپێکردەوە</string>
+    <string name="authors">نووسەران</string>
+    <string name="changelog">گۆڕانکاری</string>
+    <string name="ok">باشە</string>
+    <string name="ui">ڕووکار</string>
+    <string name="general">گشتی</string>
+    <string name="thumb_summary">ڕوودەدەن وێنەی بچووکی ئەپ و وێنەکان پیشان بدە</string>
+    <string name="thumb">وێنەی بچووک پیشان بدە</string>
+    <string name="hidden">فایل و فۆڵدەری شاراوە پیشان بدە</string>
+    <string name="lastModifiedSummary">بەروار و کاتی دوایین گۆڕانکاری پیشان بدە</string>
+    <string name="lastModifiedPref">دوا بەرواری دەستکاریکراو پیشان بدە و... کات</string>
+    <string name="size_pref_summary">قەبارەی فایلەکان و ژمارەی شتەکانی ناو فۆڵدەرەکان پیشان بدە</string>
+    <string name="size_pref">قەبارە پیشان بدە</string>
+    <string name="miscellaneous">هەمەجۆر</string>
+    <string name="root_pref_summary">مۆڵەتەکانی فایل و فۆڵدەرەکان پیشان بدە</string>
+    <string name="root_pref">مۆڵەتەکان پیشان بدە</string>
+    <string name="about_amaze_file_manager_label">دەربارەی Amaze File Manager</string>
+    <string name="version">وەشان</string>
+    <string name="rate">ئەپەکە هەڵسەنگێنە</string>
+    <string name="feedback">ناردنی فیدباک</string>
+    <string name="hiddenfiles">فایلە شاراوەکان</string>
+    <string name="type">بنووسە</string>
+    <string name="root_directory">ڕووت</string>
+    <string name="add_shortcut">زیادکردنی کورتە ڕێگا</string>
+    <string name="unsaved_changes">گۆڕانکارییە پاشەکەوت نەکراوەکان</string>
+    <string name="unsaved_changes_description">گۆڕانکاری هەڵنەگیراوت هەیە، دەتەوێت پێش دەرچوون پاشەکەوتیان بکەیت؟</string>
+    <string name="saving">پاشەکەوتکردن</string>
+    <string name="package_installer">دامەزرێنەری پاکێج</string>
+    <string name="view">بینین</string>
+    <string name="install">دامەزراندن</string>
+    <string name="archive">ئەرشیف</string>
+    <string name="archive_text">ئەمە ئەرشیفێکە. حەز دەکەیت چ کردارێک ئەنجام بدەیت؟</string>
+    <string name="package_installer_text">ئەمە دامەزرێنەری پاکێجە. حەز دەکەیت چ کردارێک ئەنجام بدەیت؟</string>
+    <string name="xda_title">تەوەری XDA</string>
+    <string name="xda_summary">پرس و وەڵام، یارمەتی و چارەسەرکردنی کێشە</string>
+    <string name="circular_images">ئایکۆنی بازنەیی بۆ وێنە و ڤیدیۆکان بەکاربهێنە</string>
+    <string name="circular_icons">ئایکۆنی بازنەیی بەکاربهێنە</string>
+    <string name="back_title">گەشتکردن بۆ پشتەوە</string>
+    <string name="back_summary">گەشتکردنی پشتەوەی تایبەتمەند لە سەرەوەی لیستەکەدا چالاک دەکات</string>
+    <string name="details">وردەکارییەکان</string>
+    <string name="translators">وەرگێڕان</string>
+    <string name="german_translation_title">ئەڵمانی</string>
+    <string name="italian_translation_title">ئیتاڵی</string>
+    <string name="french_translation_title">فەرەنسی</string>
+    <string name="russian_translation_title">ڕووسی</string>
+    <string name="spanish_translation_title">ئیسپانی</string>
+    <string name="basque_translation_title">باسک</string>
+    <string name="chinese_translation_title">چینی</string>
+    <string name="serbian_translation_title">سربی</string>
+    <string name="turkish_translation_title">تورکی</string>
+    <string name="ukrainian_translation_title">ئۆکرانی</string>
+    <string name="portuguese_translation_title">پورتوگالی</string>
+    <string name="polish_translation_title">پۆڵەندی</string>
+    <string name="korean_translation_title">کۆری</string>
+    <string name="greek_translation_title">یۆنانی</string>
+    <string name="dutch_translation_title">هۆڵەندی</string>
+    <string name="romanian_translation_title">ڕۆمانی</string>
+    <string name="vietnamese_translation_title">ڤیتنامیی</string>
+    <string name="japanese_translation_title">ژاپۆنی</string>
+    <string name="tamil_translation_title">تامیل</string>
+
+    <string name="zip_viewer">بینەری زیپ</string>
+    <string name="unin_system_apk">ئەمە ئەپی سیستەمە، سڕینەوەی لەوانەیە ببێتە هۆی ناسەقامگیری سیستەم.\nبەردەوام بە؟</string>
+    <string name="warning">ئاگادارکردنەوە</string>
+    <string name="donate">بەخشین</string>
+    <string name="archive_extract_folder">فۆڵدەری دەرهێنانی ئەرشیف</string>
+    <string name="archive_summary">فایلەکانی ئەرشیف دەردێنرێن بۆ ئەم فۆڵدەرە. بەهای پێشوەختە ئەو بەڕێوەبەرایەتیەیە کە ئەرشیف تێیدا ئامادەیە.</string>
+    <string name="open_as">وەک بکەرەوە</string>
+    <string name="text">دەق</string>
+    <string name="audio">دەنگ</string>
+    <string name="video">ڤیدیۆ</string>
+    <string name="other">APKs</string>
+    <string name="image">وێنە</string>
+    <string name="contributors">بەشداریکەران</string>
+    <string name="save_paths">ڕێڕەوەکان لەبیر بکە</string>
+    <string name="save_path_summary">لەکاتی دەستپێکردندا، دوایین فۆڵدەری بینراو بۆ هەر تابێک پیشان دەدرێت</string>
+    <string name="select_intent">هەڵبژێرە</string>
+    <string name="database">بنکەدراوە</string>
+    <string name="colored_navigation">پەتی گەشتیاری ڕەنگاوڕەنگ</string>
+    <string name="colored_navigvation_sum">ئایا پەتی گەشتیاری سیستەم بە پێست ڕەنگ کراوە یان نا</string>
+
+    <string name="color_title">ڕەنگ</string>
+    <string name="color_summary">ڕەنگ بۆ پێکهاتە جیاوازەکانی UI دابنێ</string>
+    <string name="primary_color_title">ڕەنگی سەرەتایی (تابی چەپ)</string>
+    <string name="primary_color_summary">ڕەنگ دابنێ بۆ توخمە گەورەکانی UI بۆ تابی چەپ</string>
+    <string name="accent_color_title">ڕەنگی لەهجە</string>
+    <string name="accent_color_summary">ڕەنگ دابنێ بۆ FAB و UI بچووکەکانی تر توخمەکان</string>
+    <string name="icon_color_title">ڕەنگی ئایکۆن</string>
+    <string name="icon_color_summary">ڕەنگ بۆ ئایکۆنەکان دابنێ</string>
+    <string name="choose_color">ڕەنگ هەڵبژێرە</string>
+    <string name="files">فایلەکان</string>
+    <string name="textreader">خوێنەری دەق</string>
+    <string name="databasereader">خوێنەری بنکەدراوە</string>
+    <string name="show_dividers">دابەشکەرەکان پیشان بدە</string>
+    <string name="needs_access">پێویستە دەستڕاگەیشتن بە نووسین</string>
+    <string name="needs_access_summary">تکایە بەڕێوەبەرایەتی ڕەگی \t</string>
+    <string name="needs_access_summary1">\ هەڵبژێرە بۆ ئەوەی دەستڕاگەیشتن بە نووسین بدەیت بۆ کارپێکردنی</string>
+    <string name="smb_connection">پەیوەندی SMB</string>
+    <string name="smb_server">ناونیشانی IPی ڕاژەکار</string>
+    <string name="server_address">ناونیشانی IPی ڕاژەکار</string>
+    <string name="username">ناوی بەکارهێنەر</string>
+    <string name="password">وشەی نهێنی</string>
+    <string name="anonymous">نادیار</string>
+    <string name="bluetooth">بلوتوس</string>
+    <string name="folders">فۆڵدەرەکان</string>
+    <string name="folderfilecount">%1$d فۆڵدەرەکان و %2$d فایلەکان</string>
+    <string name="videos">ڤیدیۆکان</string>
+    <string name="apks">ئەوانی تر</string>
+    <string name="documents">بەڵگەنامە</string>
+    <string name="images">وێنەکان</string>
+    <string name="clear">ڕوون بکە</string>
+    
+    <string name="total">کۆی گشتی:</string>
+    <string name="calculating">حیسابکردن</string>
+    <string name="sort">ڕیزکردن</string>
+    <string name="ascending">بەرزبوونەوە</string>
+    <string name="descending">دابەزین</string>
+    <string name="default_string">بەپێی پێشوەختە</string>
+    <string name="doit">ئایا</string>
+    <string name="want_help">پێویستت بە یارمەتی هەیە؟</string>
+    <string name="quick">دەستگەیشتن بە خێرا</string>
+    <string name="recent">فایلەکانی ئەم دواییە</string>
+    <string name="edit">دەستکاریکردن</string>
+    <string name="find">لە لاپەڕەدا بدۆزەرەوە</string>
+    <string name="grant">بەخشین</string>
+    <string name="grantper">مۆڵەت بدە</string>
+    <string name="grantfailed">مۆڵەت نەدراوە</string>
+    <string name="grant_storage_permission">ئەپ پێویستی بە مۆڵەتی هەڵگرتن هەیە بۆ بەردەوامبوون. هەڵوەشاندنەوەی ئەم دیالۆگە لە ئەپەکە دەردەچێت.</string>
+    <string name="operation_unsuccesful">کارکردن سەرکەوتوو نەبوو</string>
+    <string name="creatingfile">دروستکردنی پەڕگە</string>
+    <string name="creatingfolder">دروستکردنی فۆڵدەر</string>
+    <string name="renaming">ناوگۆڕینی</string>
+    <string name="cant_be_empty">%s ناتوانرێت بەتاڵ بێت</string>
+    <string name="ip">ناونیشان</string>
+    <string name="connection_name">ناوی پەیوەندی</string>
+    <string name="no_device_found">هیچ ئامێرێک نەدۆزراوەتەوە</string>
+    <string name="path">ڕێڕەو</string>
+    <string name="rename_bookmark">دەستکاریکردنی نیشانە</string>
+    <string name="cut">بڕین</string>
+    <string name="search">گەڕان</string>
+    <string name="invalid_name">ناوی نادروست</string>
+    <string name="search_hint">جۆر بۆ گەڕان...</string>
+    <string name="advanced_search">گەڕانی پێشکەوتوو</string>
+    <string name="regular_expression">دەربڕینی ئاسایی</string>
+    <string name="regular_expression_summary">گەڕان بە بەکارهێنانی دەربڕینی ئاسایی شێوازی BASH</string>
+    <string name="match_content">ناوەڕۆکی هاوتاکردن</string>
+    <string name="match_content_summary">ئەگەر دانرا، دەربڕینی ئاسایی لەگەڵ تەواوی ناوی پەڕگەدا هاوتا دەکرێت،
+        بەدوای ڕووداودا دەگەڕێت ئەگەرنا.</string>
+    <string name="start_ftp">دەستپێکردن</string>
+    <string name="stop_ftp">وەستە</string>
+    <string name="ftp_status_running">ڕاکردن</string>
+    <string name="ftp_status_not_running">کارنەکردن</string>
+    <string name="ftp_no_wifi">دڵنیابە کە پەیوەندیت بە Wi -Fi</string>
+    <string name="domain">دۆمەین</string>
+    <string name="smb_share">ڕێڕەوی هاوبەشی</string>
+    <string name="invalid">%s نادروست</string>
+    <string name="ftp_notif_starting">ڕاژەکاری FTP دەست پێدەکات</string>
+    <string name="ftp_notif_starting_title">ڕاژەکاری FTP</string>
+    <string name="ftp_notif_title">سەرسام بکە ڕاژەکاری FTP کە کاردەکات</string>
+    <string name="ftp_notif_text">لە %s</string>
+    
+    <string name="ftp_port_edit_menu_title">دەرچەی FTP</string>
+    <string name="ftp_port_change_success">دەروازەی FTP بە سەرکەوتوویی گۆڕدرا</string>
+    <string name="ftp_port_change_error_invalid">ژمارەی دەروازەی نادروست هەڵبژێردرا</string>
+    <string name="primary_two_title">ڕەنگی سەرەکی (تابی ڕاست)</string>
+    <string name="primary_two_summary">ڕەنگ ڕێکبخە بۆ توخمە گەورەکانی UI بۆ تابی ڕاست</string>
+    <string name="support_development">پاڵپشتی پەرەپێدان</string>
+    <string name="report_bugs_title">ڕاپۆرتی هەڵەکان</string>
+    <string name="source_title">کۆدی سەرچاوە</string>
+    <string name="source_summary">بینینی کۆدی سەرچاوەمان لە GitHub</string>
+    <string name="report_bugs_summary">ڕاپۆرتی هەڵەکان یان داوای تایبەتمەندی نوێ بکە</string>
+    <string name="translate_title">وەرگێڕان</string>
+    <string name="translate_summary">وەرگێڕان بە زمانەکەت سەرسام بکە</string>
+    <string name="paypal_copy_message">ناسنامەی PayPal کۆپی کراوە بۆ کلیپبۆرد</string>
+    <string name="searching_devices">گەڕان بەدوای ئامێرەکاندا</string>
+    <string name="use_custom_ip">IP تایبەتمەند بەکاربهێنە</string>
+    <string name="bookmark_lost">نیشانەی نیشانە نەدۆزراوەتەوە، دووبارە دروستکردنەوە...</string>
+
+    <string name="smb_instructions">
+        
+            
+                چۆنێتی دەستگەیشتن بە فۆڵدەری هاوبەشی ویندۆز لەسەر ئەندرۆید (SMB)\n\n
+                
+                    
+                        هاوبەشکردنی پەڕگە لە ویندۆزدا چالاک بکە\n
+                    
+                    
+                        Control Panel بکەرەوە، کرتە لە Choose HomeGroup و Sharing options بکە لە ژێر Network
+                        و ئینتەرنێت، و کرتە لە "گۆڕینی ڕێکخستنەکانی هاوبەشکردنی پێشکەوتوو" بکە، "فایل و...
+                        تایبەتمەندی هاوبەشکردنی چاپکەر".\n\n
+                    
+
+                    
+                        ڕێکخستنەکانی هاوبەشکردنی پەڕگەی زیادە\n
+                    
+                    
+                        هەروەها دەتوانیت لێرەدا ڕێکخستنە پێشکەوتووەکانی تری هاوبەشکردن ڕێکبخەیت. \n
+                        بۆ نموونە دەتوانیت بەبێ وشەی نهێنی دەستڕاگەیشتن بە فایلەکانت چالاک بکەیت ئەگەر متمانەت بە هەموویان هەبێت
+                        ئامێرەکانی سەر تۆڕی ناوخۆیی خۆت. کاتێک هاوبەشکردنی فایل و چاپکەر چالاک کرا، دەتوانیت
+                        File Explorer یان Windows Explorer بکەرەوە، کلیکی ڕاست لەسەر فۆڵدەرێک بکە کە دەتەوێت هاوبەشی بکەیت و...
+                        تایبەتمەندییەکان هەڵبژێرە. \n
+                        کلیک لە دوگمەی Share بکە و فۆڵدەرەکە لە تۆڕەکەدا بەردەست بکە.\n\n
+                        
+
+                    
+                        دڵنیابە هەردوو ئامێرەکە لەسەر یەک وایفاین\n
+                    
+                    
+                        ئەم تایبەتمەندییە فایلەکان لە تۆڕی ناوخۆییدا بەردەست دەکات، بۆیە کۆمپیوتەر و ئامێرە مۆبایلەکانت
+                        دەبێت لە هەمان تۆڕی ناوخۆییدا بن. ناتوانیت بچیتە ناو فۆڵدەرێکی هاوبەشی ویندۆز
+                        لە ڕێگەی ئینتەرنێتەوە یان کاتێک مۆبایلە زیرەکەکەت بەستراوەتەوە بە داتاکانی مۆبایلەکەیەوە — ئەوە
+                        دەبێت بە وای فایەوە ببەسترێتەوە.\n\n
+                    
+
+                    
+                        ناونیشانی ئایپی بدۆزەرەوە\n
+                    
+                    
+                        Command Prompt بکەرەوە. \'ipconfig\' بنووسە و Enter بکە. بەدوای دەروازەی پێشوەختەدا بگەڕێ
+                        لە ژێر ئەداپتەری تۆڕەکەتدا بۆ ناونیشانی IP ی ڕاوتەرەکەت. گەران بەدوای
+                        \\\"IPv4 Address\\\" لە ژێر هەمان بەشی ئەداپتەری بۆ دۆزینەوەی IP ی کۆمپیوتەرەکەت
+                        ناونیشان.\n\n
+                    
+
+                    وردەکارییەکان لە دیالۆگ بۆکسی SMB داخڵ بکە\n
+                
+            
+        
+   </string>
+    <string name="share_limit">ناتوانرێت زیاتر لە 100 فایل هاوبەش بکات</string>
+    <string name="otg_access">ڕەگی ئامێری OTG هەڵبژێرە</string>
+    <string name="information">زانیاری</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">دەستگەیشتن</string>
+    <!-- reference to file modified date -->
+    <string name="modified">دەستکاری کراوە</string>
+
+    <string name="title">ناونیشان</string>
+    <string name="artist">هونەرمەند</string>
+    <string name="album">ئەلبوم</string>
+    <string name="year">ساڵ</string>
+    <string name="duration">ماوە</string>
+    <string name="comment">سەرنج</string>
+    <!-- reference to audio/video file -->
+    <string name="container">دەفر</string>
+    <string name="codec">کۆدێک</string>
+    <string name="channels">کەناڵەکان</string>
+    <string name="sample_rate">رێژەی نمونە</string>
+    <string name="bitrate">بیترایت</string>
+    <string name="dimensions">ڕەهەندەکان</string>
+    <string name="frame_rate">رێژەی چوارچێوە</string>
+    <string name="image_type">جۆری وێنە</string>
+    <string name="width">پانی</string>
+    <string name="height">بەرزی</string>
+    <string name="date_modified">بەرواری دەستکاریکردن</string>
+    <string name="software">نەرمەکاڵا</string>
+    <string name="creator">دروستکەر</string>
+    <string name="camera_brand">مارکەی کامێرا</string>
+    <string name="camera_model">کامێرا مۆدێل</string>
+    <string name="date_taken">بەرواری وەرگرتن</string>
+    <string name="exposure_time">کاتی بەرکەوتن</string>
+    <string name="aperture_value">بەهای دەرچە</string>
+    <string name="image_iso">ڕیزبەندی خێرایی ISO</string>
+    <string name="flash_fired">فلاش تەقێنراو</string>
+    <string name="focal_length">درێژی فۆکەس</string>
+    <string name="subject">بابەت</string>
+    <string name="author">نوسەر</string>
+    <string name="keywords">وشەی سەرەکی</string>
+    <string name="producer">بەرهەمهێنەر</string>
+    <string name="created">دروستکراوە</string>
+    <string name="format">فۆرمات</string>
+    <string name="pages">ژمارەی... لاپەڕەکان</string>
+    <!-- reference to a document file -->
+    <string name="optimized">باشتر</string>
+    <string name="security">ئاسایشی</string>
+    <string name="paper_size">قەبارەی کاغەز</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">هەندێک لە فایلەکان بە سەرکەوتوویی %s</string>
+    <string name="copied">کۆپی نەکراون</string>
+    <string name="moved">جووڵاوە</string>
+    <string name="copy_complete">کۆپی تەواو</string>
+    <string name="waiting_title">چاوەڕوانی</string>
+    <string name="waiting_content">چاوەڕوانی تەواوبوونی کارپێکردن</string>
+    <string name="extract_complete">دەرهێنان تەواو بووە</string>
+    <string name="compression_complete">پەستان تەواو بووە</string>
+    <string name="compressing">پەستانکردن</string>
+    <string name="cancelled">هەڵوەشاوەتەوە</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">نووسراوە</string>
+    <string name="out_of">لە دەرەوەی</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">لە</string>
+    <string name="processing_file">پەڕگەی پرۆسێسکردن</string>
+    <string name="current_speed">خێرایی ئێستا</string>
+    <string name="smb_launch_error">پێویستە ئەم پەڕگەیە کۆپی بکەیت بۆ هەڵگرتن بۆ کردنەوەی</string>
+    <string name="error_file_not_found">هەڵە: پەڕگە نەدۆزراوەتەوە</string>
+    <string name="error_io">هەڵەی I/O</string>
+    <string name="error_file_too_large">هەڵە: پەڕگە زۆر گەورەیە</string>
+    <string name="medium_text">دەقی مامناوەند</string>
+    <string name="permission_read">بخوێنەوە</string>
+    <string name="permission_write">بنووسە</string>
+    <string name="permission_execute">جێبەجێکردن</string>
+    <string name="permission_owner">خاوەن</string>
+    <string name="permission_group">گرووپ</string>
+    <string name="permission_other">ئەوەی تر</string>
+    <string name="clipboard_path_copy">ڕێڕەوی کۆپی کراوە بۆ کلیپبۆرد</string>
+    <string name="service_timer">کاتی تێپەڕبوو</string>
+    <string name="please_wait">تکایە چاوەڕوان بن</string>
+
+    <string name="cloud_connection">پەیوەندی هەور</string>
+    <string name="cloud_connection_new">پەیوەندی هەوری نوێ</string>
+    <string name="cloud_dropbox">درۆپبۆکس</string>
+    <string name="cloud_drive">گوگڵ درایڤTM</string>
+    
+    <string name="cloud_box">بۆکس</string>
+    <string name="cloud_get">پلاگینی هەور بەدەستبهێنە</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">هیچ بەرنامەیەک نییە</string>
+    <string name="ftp_path">ڕێڕەوی هاوبەش</string>
+    <string name="ftp_path_hint">ڕێڕەو بۆ ڕەگی بەڕێوەبەرایەتی بۆ هاوبەشکردن</string>
+    <string name="change">گۆڕانکاری</string>
+    <string name="unknown_error">ئۆپ، شتێک هەڵە بوو!</string>
+
+    <string name="ftp_path_change_success">ڕێڕەوی FTP بە سەرکەوتوویی گۆڕدرا</string>
+    <string name="ftp_path_change_error_invalid">ڕێڕەوی نادروست</string>
+    <string name="ftp_status_no_connection">بێ پەیوەندی</string>
+    <string name="ftp_status_secure_connection">پەیوەندی پارێزراو</string>
+    <string name="ftp_status_title">دۆخ</string>
+    <string name="ftp_port">دەرواز</string>
+    <string name="ftp_login">چوونەژوورەوە</string>
+    <string name="field_empty">مەیدانەکە ناتوانێت بەتاڵ بێت</string>
+    <string name="ftp_timeout">کاتی تەواوبوونی بێکار</string>
+    <string name="ftp_seconds">چرکە</string>
+    <string name="intellihide_toolbar_title">Intellihide توولبار</string>
+    <string name="intellihide_toolbar_summary">بە شێوەیەکی ئۆتۆماتیکی توولبار بشارەوە لەکاتی سکڕۆڵکردن</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">کۆپی کراوە بۆ کلیپبۆرد</string>
+    <string name="contributors_1_summary">وەرگێڕان</string>
+    <string name="contributors_2_summary">ئایکۆن و بانەرەکان</string>
+    <string name="contributors_3_summary">بزوێنەری بابەت</string>
+    <string name="contributors_4_summary">سێبەری پشت FAB</string>
+    <string name="contributors_5_summary">گواستنەوەی ڕەنگ لە کاتی سوایپکردنی تابەکان</string>
+    <string name="contributors_6_summary">ڕاژەکاری FTP</string>
+    <string name="contributors_7_summary">تەقاندنی توێکڵێکی کارلێککار</string>
+    <string name="connection_exists">پەیوەندی پێشتر بوونی هەیە</string>
+
+    <string name="crypt_encrypting">کۆدکردن</string>
+    <string name="crypt_decrypting">کۆدکردنەوە</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">کۆدکراوە</string>
+    <string name="crypt_decrypted">کۆدکراوە</string>
+    <string name="crypt_encrypt">کۆدکردن</string>
+    <string name="crypt_decrypt">کۆدکردنەوە</string>
+    <string name="operation_fail_following">کارکردن بۆ ئەم پەڕگانە شکستی هێنا</string>
+    <string name="crypt_pref_master_password_title">وشەی نهێنی سەرەکی</string>
+    <string name="crypt_pref_master_password_summary">وشەی نهێنی سەرەکی بۆ کۆدکردن دابنێ.
+        بە بەتاڵی بهێڵەرەوە بۆ لابردنی.</string>
+    <string name="crypt_pref_fingerprint_title">پەنجەمۆر</string>
+    <string name="crypt_pref_fingerprint_summary">پەنجەمۆر بەکاربهێنە بۆ دڵنیابوون لە کۆدکردن</string>
+    <string name="crypt_fingerprint_no_permission">مۆڵەتی پەنجەمۆر نەماوە</string>
+    <string name="crypt_fingerprint_not_enrolled">پەنجەمۆر تۆمار نەکراوە</string>
+    <string name="crypt_fingerprint_no_security">بێ ئاسایشی شاشەی قوفڵ found</string>
+    <string name="crypt_warning_key">ئامۆژگاری بە، کاتێک کە شێوازی ئاسایشەکەت لە...
+        ڕێکخستنەکانی سیستەم، ناتوانیت ئەم ناوەڕۆکە کۆدەکەیتەوە.</string>
+    <string name="warning_never_show">جارێکی تر ئاگادار مەکەرەوە</string>
+    <string name="warning_confirm">تێگەیشتم!</string>
+    <string name="crypt_encryption_fail">کۆدکردنی شکستی هێنا</string>
+    <string name="crypt_decryption_fail">شکستی هێنا لە کۆدکردنەوە</string>
+    <string name="crypt_decryption_fail_password">وشەی نهێنی هەڵە!</string>
+    <string name="crypt_fingerprint_authenticate">هەستەوەری دەست لێدان بۆ بەردەوامبوون</string>
+    <string name="authenticate_password">وشەی نهێنی داخڵ بکە</string>
+
+    <string name="sidebar_preferences">لایەنی لاوەکی</string>
+    <string name="sidebar_quick_access_title">دەستگەیشتن بە خێرایی لایەنی</string>
+    <string name="show_quick_access_pref_title">دەستگەیشتنە خێراکان پیشان بدە</string>
+    <string name="show_quick_access_pref">دەستگەیشتنە خێراکان</string>
+    <string name="directory">ناونیشان</string>
+
+    <string name="sidebar_bookmarks_title">نیشانەی لاوەکی</string>
+    <string name="show_bookmarks_pref_title">نیشانەکانی نیشانە</string>
+    <string name="show_bookmarks_pref">نیشانە</string>
+    <string name="create_bookmark">دروستکردنی نیشانە</string>
+    <string name="edit_bookmark">دەستکاری نیشانە</string>
+    <string name="question_delete_bookmark">سڕینەوەی نیشانە؟</string>
+
+    <string name="cloud_error_plugin">پلاگینی Amaze Cloud نەدۆزرایەوە. تکایە لە پلەی ستۆرەوە دایبەزێنە.</string>
+    <string name="cloud_error_failed_restart">لۆدکردنی پەیوەندییەکە شکستی هێنا.
+        تکایە جارێک Amaze Cloud بکەرەوە.</string>
+    <string name="cloud_remove">ئایا دەتەوێت پەیوەندی هەورەکە لاببەیت؟</string>
+    <string name="cloud_fail_authenticate">شکستی هێنا لە ڕەسەنایەتی</string>
+    <string name="cloud_share_copied">بەستەری هاوبەش کۆپی کراوە بۆ کلیپبۆرد</string>
+    <string name="copy_low_memory">تەواو بووە لە... بیرگە، تکایە هەندێک ڕام پاک بکەرەوە</string>
+    <string name="cloud_token_lost">تۆکن لەدەستچوو، تکایە دووبارە بچۆرەوە ژوورەوە</string>
+    <string name="monofont">فۆنتی تاک بۆشایی</string>
+    <string name="showHeaders">سەردێڕەکان پیشان بدە</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">هیچ بابەتێک</string>
+	<string name="item">بابەتی</string>
+	<string name="items">بابەت</string>
+	
+	<string name="byte_singular">بایت</string>
+	<string name="bytes">بایت</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">پەڕگە دەبێت ناوی هەبێت</string>
+    <string name="add_item">بابەتی زیادکردن</string>
+    <string name="failed_smb_decrypt_path">بارکردن شکستی هێنا پەیوەندی SMB</string>
+    <string name="failed_cloud_new_connection">شکستی هێنا لە زیادکردنی پەیوەندی نوێی هەور</string>
+    <string name="failed_cloud_api_key">شکستی هێنا لە ڕەسەنایەتی پلاگینی هەور</string>
+
+    <string name="local_inet_addr_error">هەڵە لە وەرگرتنی ناونیشانی inet ناوخۆیی</string>
+    <string name="intent_save_as">پاشکەوتن وەک...</string>
+    <string name="go">بڕۆ</string>
+    <string name="advanced">پێشکەوتوو</string>
+    <string name="typeable_paths_title">ڕێڕەوی تایبەت</string>
+    <string name="typeable_paths_summary">درێژی فشار بخەرە سەر پەڕەی ڕێڕەو بۆ نووسینی ڕێڕەوێکی تایبەتمەند</string>
+    <string name="send_email_to">ئیمەیڵێک بنێرە بۆ</string>
+
+    <string name="text_editor">ڕێکخستنەکانی دەستکاریکەری دەق</string>
+    <string name="preference_newstack_title">فایلەکان وەک ئەرکێکی نوێ بکەرەوە</string>
+    <string name="preference_newstack_summary">ڕێگەت پێدەدات فایلەکان لە ئەرکی جیاوازدا بکەیتەوە. لە شاشەی ئەم دواییەی سیستەمەوە دەستیان پێ بگات.</string>
+    
+    <string name="developers">گەشەپێدەران</string>
+    <string name="no_bitcoin_app">تکایە ئەپی جزدانی بیتکۆین دابمەزرێنە</string>
+    <string name="channel_name_normal">ئاگادارکردنەوەکانی سەرسوڕهێنەر</string>
+    <string name="channel_description_normal">ئاگادارییەکانی بەڕێوەبەری پەڕگە سەرسوڕهێنەر</string>
+    <string name="channel_name_ftp">ڕاژەکاری FTP سەرسام بکە</string>
+    <string name="channel_description_ftp">پەڕگەی سەرسوڕهێنەر ئاگادارکردنەوەکانی ڕاژەکاری FTP بەڕێوەبەر</string>
+
+    
+    <string name="processing">پڕۆسێسکردن...</string>
+    <string name="failed_no_connection">شکستی هێنا لە بارکردنی پەڕگەکان. تکایە پەیوەندییەکەت بپشکنە.</string>
+
+    <string name="update">نوێکردنەوە</string>
+	<string name="scp_connection">پەیوەندی SCP/SFTP</string>
+    <string name="ftp_connection">پەیوەندی FTP</string>
+    <string name="ftps_connection">پەیوەندی FTP لەسەر SSL</string>
+    <string name="scp_port">دەروازە</string>
+    <string name="ssh_host_key_verification_prompt">ڕەسەنایەتی هۆست \'%1$s\' ناتوانرێت دامەزرێت.\n\n%2$s پەنجەمۆری کلیلی %3$s.\n\nتکایە بۆ پشتڕاستکردنەوەی \"بەڵێ\" پەنجە بنێ ناسنامە; ئەگەرنا، تکایە پەنجە بنێ بە \"نەخێر\".</string>
+    <string name="ssh_host_key_verification_prompt_title">دڵنیاکردنەوەی هۆست</string>
+    <string name="ssh_select_pem_button">کلیلی تایبەتی SSH</string>
+    <string name="ssh_pem_key_parse_error">ناتوانرێت PEM هەڵبژێردراو بخوێنرێتەوە: %s</string>
+    <string name="password_unchanged">(نەگۆڕاوە)</string>
+    <string name="ssh_authentication_failure_password">شکستی چوونەژوورەوە: ناتوانرێت بە ناوی بەکارهێنەر و وشەی نهێنی دابینکراو پشتڕاست بکرێتەوە.</string>
+    <string name="ssh_authentication_failure_key">شکستی چوونەژوورەوە: ناتوانرێت بە ناوی بەکارهێنەر و کلیلی تایبەتی دابینکراو ڕەسەنایەتی بسەلمێنرێت.</string>
+    <string name="ssh_connect_failed">ناتوانرێت پەیوەندی بە %1$sبکرێت s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ئاگادارکردنەوە: ناسینەوەی هۆستی دوور گۆڕاوە!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">ئەگەری ئەوە هەیە کەسێک شتێکی ناشرین بکات!\n\nکەسێک دەتوانێت گوێت لێبگرێت لە ئێستادا (هێرشی پیاوی ناوەڕاست)! هەروەها لەوانەیە کلیلی هۆستەکە تازە گۆڕدرابێت. پەنجەمۆر بۆ کلیلی گشتی کە لەلایەن هۆستی دوورەوە دەنێردرێت لەگەڵ ئەو پەنجەمۆرەدا ناگونجێت کە لە Amaze هەڵگیراوە.\n\nتکایە پەیوەندی بە بەڕێوەبەری سیستەمەکەتەوە بکە یان پەیوەندییەکی نوێ ڕێکبخە بۆ بەردەوامبوون لە پەیوەندیکردن بە سێرڤەرەکە.</string>
+    <string name="ssh_key_prompt_passphrase">تکایە وشەی نهێنی کلیلەکە دابنێ .</string>
+    <string name="add_shortcut_not_supported_by_launcher">دروستکردنی کورتە ڕێگاکان لەلایەن لانچەرەکەتەوە پشتگیری ناکرێت.</string>
+    
+    <string name="select_color_config">ڕێکخستنی ڕەنگ هەڵبژێرە</string>
+    <string name="customize">خۆکارانە</string>
+    <string name="custom">تایبەتمەند</string>
+    <string name="preselected_configs_title">ڕێکخستنە پێشوەختە هەڵبژێردراوەکان</string>
+    <string name="orange">پرتەقاڵی</string>
+    <string name="blue">شین</string>
+    <string name="green">سەوز</string>
+    <string name="password_no_match">وشەی نهێنی هاوتا نییە</string>
+    <string name="deselect_all">هەموویان هەڵنەبژێرە</string>
+    <string name="filename">ناوی پەڕگە</string>
+    <string name="compress_file_suggest_zip_extension">پێشنیار دەکرێت \".zip\" وەک درێژکراوەی پەڕگە بەکاربهێنرێت.</string>
+    <string name="about_amaze">بەڕێوەبەری پەڕگەی دیزاینی ماددە بۆ ئەندرۆید</string>
+    <string name="license">مۆڵەتی</string>
+    <string name="libraries">کتێبخانەکان</string>
+    <string name="password_repeat">وشەی نهێنی دووبارە بکەرەوە</string>
+    <string name="create_file_suggest_txt_extension">پێشنیار دەکرێت \".txt\" وەک درێژکراوەی پەڕگە بەکاربهێنیت.</string>
+    <string name="ssh_select_pem">کلیلی تایبەت بۆ ڕەسەنایەتی هەڵبژێرە</string>
+    <string name="ssh_key_invalid_passphrase">دەستەواژەی نهێنی کلیلی نادروست.</string>
+    <string name="ssh_key_no_decoder_decrypt">هیچ دیکۆدەرێکی دروست نییە بۆ کۆدنەوەی PEM.</string>
+    <string name="encryption_fail_copy">شکستی هێنا لە نوێکردنەوەی هاتنە ژوورەوەی کۆدکردن لە بنکەدراوەدا</string>
+    <string name="extracted">دەرهێنراوە</string>
+    <string name="compressed">پاڵەپەستۆکراوە</string>
+    <string name="processed">پڕۆسێس کراوە</string>
+    <string name="no_obtainable_info">هیچ زانیارییەک لەسەر ئەم پەڕگەیە نییە</string>
+    <string name="reopen_from_source">ناتوانرێت، تکایە لە دوایین ئەپەوە بکەرەوە</string>
+    <string name="no_file_error">شتێک هەڵە بوو، هیچ شتێک نییە بۆ کردنەوەی</string>
+    <string name="file_too_long">The فایلەکە زۆر درێژە و ناتوانرێت دەستکاری بکرێت، لەگەڵ ئەوەشدا دەتوانیت یەکەم پیتەکانی %d بخوێنیتەوە</string>
+    <string name="file_read_only">ئەو پەڕگەیەی کە کراوەتەوە تەنها خوێندنەوەیە.</string>
+    <string name="got_it">تۆ دەستکەوتم!</string>
+    <string name="encrypt_file_save_as">Save Encrypted فایل وەک...</string>
+    <string name="encrypt_folder_save_as">فۆڵدەری کۆدکراو وەک...</string>
+    <string name="encrypt_option_use_aze">فۆرماتە کۆدکردنی Amaze بەکاربهێنە</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt فۆرماتێکی کۆدکردنی پەڕگەی سەرچاوە کراوەیە کە لەسەر بنەمای کۆدکردنی AES دامەزراوە. هەروەها پۆرتەبڵە، دەتوانرێت بە بەرنامەکانی AESCrypt لە پلاتفۆرمەکانی تردا کۆد بکرێتەوە.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">ماڵپەڕی AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        هەروەها فۆرماتی کۆدکردنی <p>Amaze\'s لەسەر بنەمای کۆدکردنی AES دامەزراوە؛ بەڵام جیاوازە لە فۆرماتەکەی AESCrypt، تەنها دەتوانرێت لەلایەن ئەم ئامێرەوە کۆد بکرێتەوە؛ هەروەها نابێت Amaze File Manager لەم ئامێرە لاببەیت و هەروەها شێوازی قوفڵکردنی شاشەکەت بگۆڕیت، ئەگەرنا هیچ ڕێگەیەکت نابێت بۆ گەڕاندنەوەی فایلە کۆدکراوەکە.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">پەڕگە کۆدکراوەکان دەبێت \".aze\" وەک درێژکراوەی پەڕگە بەکاربهێنن.</string>
+    <string name="encrypt_file_must_end_with_aes">پەڕگە کۆدکراوەکان دەبێت \".aes\" وەک درێژکراوەی پەڕگە بەکاربهێنن.</string>
+    <string name="error_aescrypt_decrypt_failed">ناتوانرێت کۆدکردنەوە \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">ناتوانرێت پەڕگە بنووسرێتەوە.</string>
+    <string name="saved_single_file">پەڕگە وەک \'%s\' پاشەکەوت کراوە.</string>
+    <string name="saved_multi_files">%d پەڕگەکان پاشەکەوتکراون.</string>
+    <string name="create_hidden_file_warn">پەڕگەی دروستکراو لە لیستی پەڕگەکاندا دەشاردرێتەوە.</string>
+    <string name="grant_apkinstall_permission">ئەپ پێویستی بە مۆڵەت هەیە بۆ دامەزراندنی ئەپەکان بەردەوامە.</string>
+    <string name="time_remaining">کاتی ماوە</string>
+    <string name="transfer_rate">رێژەی گواستنەوە</string>
+    <string name="unknown">نادیار</string>
+    <string name="multiple_invalid_archive_entries">هەندێک پەڕگە لە ئەرشیفەکەدا ناتوانرێت دەربهێنرێن؛ لەوانەیە ئەرشیفەکە تێکچووبێت یان لە سەرچاوەی زیانبەخشەوە هاتبێت.</string>
+    <string name="saf_otg_explanation">ئێستا دەچیتە سیستەمی فایلەکانی ئەندرۆید بە هۆکاری ئەمنی. تکایە ئامێری USB لە لیستی لای چەپ هەڵبژێرە.</string>
+    <string name="donation_thanks">سوپاس بۆ بەخشینەکە، ئەمەش پاڵنەرمان بۆ دەهێڵێتەوە! (:</string>
+    <string name="enable_marquee_filename">کاریگەری مارکی بۆ ناوی پەڕگەکان چالاک بکە</string>
+    <string name="archive_password_prompt">تکایە وشەی نهێنی ئەرشیف داخڵ بکە:</string>
+    
+    <string name="cannot_extract_archive">ناتوانرێت ئەرشیف دەربهێنرێت \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">ناتوانرێت open archive \"%s\". یان ناتوانین ئەرشیفەکە بکەینەوە، یان ئەرشیفەکە تێکچووە.</string>
+    <string name="close">دابخە</string>
+    <string name="bookmark_exists">نیشانە بوونی هەیە</string>
+    <string name="hide_media">لە وێبگەڕەکانی میدیا بشارەوە</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ئەگەری ئەوە هەیە کە کەسێک شتێکی ناشرین بکات!\n\nدەتوانێت کەسێک لە ئێستادا گوێت لێبگرێت (هێرشی پیاوی ناوەڕاست)!هەروەها ئەگەری ئەوە هەیە کە کلیلی میواندارەکە تازە گۆڕدرابێت.پەنجەمۆرەکە بۆ کلیلی گشتی کە لەلایەن هۆستی دوورەوە نێردراوە لەگەڵ ئەو کلیلەدا ناگونجێت کە لە Amaze هەڵگیراوە.\n\nدەتوانیت بەردەوام بیت لە نوێکردنەوەی پەنجەمۆری هۆست یان نوێکردنەوەی ڕێکخستنەکانی پەیوەندی SSH هەڵبوەشێنیتەوە.</string>
+    <string name="update_host_key">کلیلی هۆست نوێ بکەرەوە</string>
+    <string name="cancel_recommended">هەڵوەشاندنەوە (پێشنیارکراوە)</string>
+    
+    
+    <string name="failed_install_apk">دامەزراندنی شکستی هێنا</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">هەڵگرتنی ناوخۆیی</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">کارتی SD</string>
+    <string name="choose_folder">ئەم فۆڵدەرە هەڵبژێرە</string>
+    
+    <string name="some_files_failed_invalid_operation">هەندێک فایل بەهۆی نادروستییەوە شکستیان هێنا کارپێکردن</string>
+    <string name="ftp_server_prompt_connect_to_network">پەیوەندی بە تۆڕێکەوە بکە یان AP چالاک بکە</string>
+    <string name="ftp_server_open_settings">ڕێکخستنەکان بکەرەوە</string>
+    <string name="move">جووڵە</string>
+    <string name="select_save_location">شوێن هەڵبژێرە بۆ پاشەکەوتکردن</string>
+    <string name="scp_default_path">ڕێڕەوی پێشوەختە (هەڵبژاردە)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">ببورە، نەدەبوو ئەوە ڕووبدات.</string>
+    
+    <string name="error_report_button_text">ئەم هەڵەیە لە ڕێگەی ئیمەیڵەوە ڕاپۆرت بکە</string>
+    <string name="error_report_button_telegram">ئەم هەڵەیە لە ڕێگەی تەلەگرامەوە ڕاپۆرت بکە</string>
+    <string name="copy_for_github">ڕاپۆرتی فۆرماتکراو کۆپی بکە</string>
+    <string name="error_report_open_issue_button_text">ڕاپۆرت لەسەر GitHub</string>
+    <string name="error_report_open_github_notice">تکایە بزانە ئایا کێشەیەک کە باس لە کەوتنەخوارەوەکەت دەکات پێشتر بوونی هەیە یان نا.</string>
+    <string name="error_snackbar_message">ببورە، شتێک هەڵە بوو.</string>
+    <string name="error_snackbar_action">ڕاپۆرت</string>
+    <string name="what_device_headline">زانیاری:</string>
+    <string name="what_happened_headline">چی ڕوویدا:</string>
+    <string name="info_labels">چی:\\nداواکاری:\\nGMT کات:\\nپاکێج:\\nوەشان:\\n وەشانیOS:\\nئامێر:\\nمۆدێل:\\nبەرهەم :</string>
+    <string name="your_comment">کۆمێنتەکەت (بە ئینگلیزی):</string>
+    <string name="error_details_headline">وردەکاری:</string>
+    <string name="app_ui_crash">App/UI تێکچوو</string>
+    <string name="error_report_title">ڕاپۆرتی هەڵە</string>
+    <string name="crash_report_copied">ڕاپۆرتی کەوتنەخوارەوە کۆپی کراوە بۆ... clipboard</string>
+    <string name="disableIpcSignature">پشکنینی واژۆکردنی IPC لەکاربخە (بۆ سێرڤەرە میراتییەکانی SMBv1 - UNSAFE!)</string>
+    <string name="cannot_delete_file">ناتوانرێت پەڕگە بسڕدرێتەوە</string>
+    <string name="cannot_delete_file_with_reason">ناتوانرێت پەڕگە بسڕدرێتەوە - %s</string>
+    <string name="cannot_rename_file">ناتوانرێت ناوی پەڕگە بگۆڕدرێت %s - %s</string>
+    <string name="cannot_read_directory">ناتوانرێت بەڕێوەبەرایەتی %s بخوێنرێتەوە - %s</string>
+    <string name="just_once">تەنها جارێک</string>
+    <string name="always">هەمیشە</string>
+    <string name="choose_different_app">بەرنامەیەکی جیاواز هەڵبژێرە</string>
+    <string name="clear_open_file">پاککەرەوە cache</string>
+    <string name="clear_open_file_summary">ئەپەکانی کردنەوەی پەڕگەی پێشوەختەی هەڵبژێردراو پاک دەکاتەوە</string>
+    <string name="ftp_readonly">دەستگەیشتن بە تەنها خوێندنەوە</string>
+    <string name="legacy_listing_title">لیستی میرات بۆ root بەکاربهێنە</string>
+    <string name="legacy_listing_summary">ئەگەر چالاک کرابێت، ڕێگەی میرات بەکاردەهێنێت بۆ لیستکردنی پەڕگەکان</string>
+    <string name="error_unsupported_v5_rar">ئەرشیفی RAR \"%s\" ئەرشیفی RAR v5 پشتگیری نەکراوە.</string>
+    <string name="ftp_prompt_restart_server">پێویستە ڕاژەکاری FTP دووبارە دەستپێبکەیتەوە بۆ ئەوەی گۆڕانکارییەکان کاریگەرییان هەبێت.</string>
+    <string name="error_permission_denied">مۆڵەت ڕەتکراوەتەوە</string>
+    <string name="error_archive_password_incorrect">وشەی نهێنی ئەرشیفی هەڵە.</string>
+    <string name="error_archive_cannot_extract">ناتوانرێت نووسراوی ئەرشیف \"%s\" دەربهێنرێت بۆ \"%s\".</string>
+    <string name="drag_and_drop_preference">هەڵبژاردەی ڕاکێشان و دابەزاندن هەڵبژێرە (تاقیکردنەوە)</string>
+    <string name="drag_to_move_copy">دەست لێبدە و ڕابکێشە بۆ گواستنەوە یان کۆپیکردنی فایلەکان</string>
+    <string name="drag_to_select">دەست لێبدە و ڕابکێشە بۆ هەڵبژاردنی فایلەکان</string>
+    <string name="disable">ناچالاککردن</string>
+    <string name="choose_operation">کارپێکردن هەڵبژێرە بۆ ئەنجامدانی</string>
+    <string name="remember">لەبیرت بێت بۆ جارێکی تر</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">دەستگەیشتن بە SAF بۆ ڕاژەکاری FTP بدە</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">بەو پێیەی ئەمە یەکەم جێبەجێکردنی ڕاژەکاری FTP یە، و تۆ هەڵگرتنی ناوخۆیی ئامێرەکە وەک فۆڵدەری هاوبەش بەکاردەهێنیت، تکایە ڕێگە بە Amaze بدە بە بەکارهێنانی دەستڕاگەیشتن بە هەڵگرتنەکە SAF.\n\n
+
+تەنها پێویستە جارێک ئەمە بکەیت، تا جارێکی تر کە شوێنێکی نوێ بۆ هاوبەشکردن هەڵدەبژێریت.</string>
+    <string name="android_data_prompt_saf_access">لە ئەندرۆید ١٠ەوە، ئەندرۆید سنووردارکردنی بەسەر هەندێک بەڕێوەبەرایەتیدا سەپاندبوو، و پێویستە بە چوارچێوەی دەستگەیشتن بە هەڵگرتن دەستیان پێ بگات.\n \nتکایە ڕێگە بە Amaze بدە لە بەڕێوەبەری پەڕگەی سیستەمەکەوە دەستی بە بەڕێوەبەرایەتییەکە بگات بە لێدانی \"ڕێگە بە دەستگەیشتن\".</string>
+    <string name="android_data_prompt_saf_access_title">دەستگەیشتن بە SAF بدە</string>
+    <string name="ftp_preference_saf_filesystem_title">سیستەمی پەڕگەی میراتی بەکاربهێنە</string>
+    <string name="ftp_preference_saf_filesystem">چالاک ئەمە بۆ پشتگیری بەکارهێنانی هەڵگرتنی دەرەکی ئامێر لەسەر وەشانی نوێی ئەندرۆید</string>
+    <string name="ftp_server_fallback_path_reset_prompt">ڕێڕەوی هاوبەشی ڕاژەکاری FTP ڕێست کرابووەوە بۆ هەڵگرتنی ناوخۆیی کاتێک کە دەگەڕێیتەوە بۆ جێبەجێکردنی سیستەمی پەڕگەی میراتی. تکایە ڕێڕەوێکی نوێ هەڵبژێرە بە بەکارهێنانی مینیوی سەرەوەی لای ڕاست بەپێی پێویست.</string>
+    <string name="ftp_server_reset_notify">ڕێڕەوی هاوبەشی ڕاژەکاری FTP ڕێست کرابووەوە بۆ هەڵگرتنی ناوخۆیی</string>
+    <string name="ftp_server_root_unavailable">تۆ ڕێڕەوێک هەڵدەبژێریت کە پێویستی بە دەستگەیشتن بە ڕەگ هەیە. تکایە لە ڕێکخستنەکاندا root explorer چالاک بکە ئەگەر ئامێرەکەت ڕوت کراوە.</string>
+    <string name="ftp_server_root_filesystem_warning">تۆ ڕێڕەوێک هەڵدەبژێریت کە پێویستی بە دەستگەیشتن بە ڕەگ هەیە، کە کارەکانی خوێندنەوە/نووسین لە تەواوی سیستەمی پەڕگەکاندا لەسەر ئامێرەکەت چالاک دەکات، و مەترسیدارە - هەڵەی بێباکانە دەتوانێت ئامێرەکەت خشت بکات!\n\nدڵنیای؟</string>
+    <string name="compressed_explorer_fragment_error_open_uri">هەڵە لە کردنەوەی URI \"%s\" بۆ خوێندنەوە.</string>
+    <string name="error_empty_archive">\"%s\" ئەرشیفێکی بەتاڵە.</string>
+    <string name="error_bad_archive_without_info">\"%s\" ئەرشیفێکی تێکچووە .</string>
+    <string name="error_bad_archive_with_info">\"%s\" ئەرشیفێکی تێکچووە.\nپەیام لە دەرهێنەرەوە: \"%s\"</string>
+    <string name="security_error">پەڕگە بە بەکارهێنانی ئەم ئەپ</string>
+    <string name="cloud_drive_tooltip">دروستکردن نەتوانرا بکرێتەوە پەیوەندییەکی گووگڵ درایڤTM بۆ بەڕێوەبردنی پەڕگەکان لە ناو بەڕێوەبەری پەڕگەی Amaze.</string>
+    <string name="signin_with_google_title">سەلساندنی بۆ بەکارهێنانی Google DriveTM</string>
+    <string name="show_system_apps">پێشاندانی بەرنامەکانی سیستەم</string>
+    <string name="system_apps">ئەپەکانی سیستەم</string>
+    <string name="select_inverse">هەڵبژێرە پێچەوانە</string>
+    <string name="select_by_type">بەپێی جۆر هەڵبژێرە</string>
+    <string name="select_by_date">بەپێی بەروار هەڵبژێرە</string>
+    <string name="select_similar">هاوشێوە هەڵبژێرە</string>
+    <string name="error_fetching_google_play_product_list">هەڵە لە هێنانی لیستی بەرهەمەکان لە گووگڵ پلەی.</string>
+    <string name="grant_all_files_permission">لەو کاتەوەی ئەندرۆید 11 ، گووگڵ داوای لە بەڕێوەبەرانی فایلەکان دەکات داوای مۆڵەتی بەکارهێنەر بکەن بۆ بەڕێوەبردنی هەموو فایلەکانی سەر ئامێرەکە. وردەکارییەکان لێرەدا.
+        \n\nبەڕێوەبەری پەڕگەی سەرسوڕهێنەر پێویستی بەم مۆڵەتە هەیە. دوای فشاردان لەسەر "Grant" لێرەدا، تکایە بژاردەی Allow access بۆ بەڕێوەبردنی هەموو فایلەکان لە شاشەی داهاتوودا هەڵبژێرە.
+        \n\nهەڵوەشاندنەوەی ئەم دیالۆگە لە ئەپەکە دەردەچێت.</string>
+    <string name="user_apps">ئەپەکانی بەکارهێنەر</string>
+    <string name="appearance">دەرکەوتن</string>
+    <string name="behavior">هەڵسوکەوت</string>
+    <string name="appearance_summary">تەم و ڕەنگ و دەرکەوتنی بەڕێوەبەری پەڕگەکە خۆکارانە بکە</string>
+    <string name="ui_summary">کۆنتڕۆڵ بکە کە چ زانیارییەک پیشان بدەیت، پەڕەی لایەنی خۆکارانە دابنێ و هەڵبژاردەکانی UI بگۆڕە</string>
+    <string name="behavior_summary">دەستکاریکردنی ڕەفتارەکانی وەک گەڕانی پێشکەوتوو و ئایا فایلەکان وەک ئەرکێکی نوێ بکەیتەوە</string>
+    <string name="security_summary">وشەی نهێنی ڕێکبخە و کۆدکردن</string>
+    <string name="backup_summary">هەناردەکردن/هاوردەکردن ڕێکخستنەکانی سەرسوڕهێنەر</string>
+
+    <string name="pref_export">هەناردەکردن</string>
+    <string name="pref_export_summary">ڕێکخستنەکانی هەناردەکردن</string>
+    <string name="pref_import">هاوردەکردن</string>
+    <string name="pref_import_summary">ڕێکخستنەکانی هاوردەکردن</string>
+
+    <string name="quick_desc">فایلەکان بەم دواییە لە ڕێگەی Amaze</string>
+    <string name="recent_desc">پەڕگەی دروستکراو یان دەستکاریکراو</string>
+    <string name="error_cannot_find_way_open">نەتوانرا ڕێگەیەک بدۆزرێتەوە بۆ کردنەوەی پەڕگەکە</string>
+    <string name="error_cant_decompress_that_file">ناتوانرێت ئەرشیفی داواکراو پرۆسێس بکات</string>
+    <string name="analyse_storage">شیکاری هەڵگرتن</string>
+    
+    <string name="download_amaze_utils_text">تۆ ئاڕاستە دەکرێیتەوە بۆ Amaze File Utilities. ئەوە ئەپی سەرچاوە کراوەی ئێمەیە کە بینەری دەنگی/ڤیدیۆ/وێنە/بەڵگەنامەی لەخۆگرتووە، ڕێگەت پێدەدات شیکاری فایلە خراپەکان بکەیت بۆ ئازادکردنی هەڵگرتن، گواستنەوەی خێرا بە بەکارهێنانی وایفای P2P و زۆر شتی تر.\nتکایە پشتگیریمان بکە بە تاقیکردنەوە.</string>
+    <string name="download">دابەزاندن</string>
+    <string name="wifip2p">وای فای P2P</string>
+    <string name="amaze_utils_installed_alias">سوپاس بۆ دامەزراندنی Amaze File Utilities. تۆ ئاڕاستە دەکرێیتەوە بۆ ئەپەکە.</string>
+    <string name="image_viewer">بینەری وێنە سەرسام بکە</string>
+    <string name="video_player">پەنجەری ڤیدیۆ سەرسام بکە</string>
+    <string name="amaze_audio_player">پلەیەری مۆسیقا سەرسام بکە</string>
+    <string name="pdf_viewer">بینەری بەڵگەنامەی سەرسام بکە</string>
+    <string name="docx_viewer">بینەری بەڵگەنامەی سەرسوڕهێنەر</string>
+    <string name="share_logs">لۆگەکان هاوبەش بکە</string>
+    <string name="share_logs_summary">لۆگەکانی گرتوو لە ڕێگەی ئیمەیڵ / تەلەگرامەوە هاوبەش بکە</string>
+    <string name="open_with_amaze">بە Amaze</string>
+    <string name="confirmation">دڵنیاکردنەوە بکەرەوە</string>
+    <string name="open_file_confirmation">ئایا دڵنیای کە دەتەوێت ئەم پەڕگەیە بکەیتەوە؟\n\nناو:\n%s\n\nشوێن:\n%s\n\nقەبارە:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">بەپێی سیاسەتی گووگڵ پلەی، ئەپەکان ڕێگەیان پێنادرێت خۆیان نوێ بکەنەوە. تکایە ئەپەکە لە گووگڵ پلەیەوە نوێ بکەرەوە.</string>
+    <string name="error_cannot_get_package_info">ناتوانرێت زانیاری پاکێج لە پەڕگەی \"%s\" وەربگریت. یان پەڕگەی دیاریکراو APK نییە، یان پەڕگەی پاکێجەکە تێکچووە.</string>
+    <string name="preference_delete_confirmation">دڵنیاکردنەوە بسڕەوە</string>
+    <string name="preference_delete_confirmation_summary">پێش سڕینەوەی پەڕگەکان داوای پشتڕاستکردنەوە بکە. لەکارخستنی ئەمە زۆر بێهیوا دەکرێت!</string>
+    
+    
+    <string name="protocol_ftps">FTP پارێزراو</string>
+    <string name="unavailable">بەردەست نییە</string>
+
+    <string name="exporting_failed">هەناردەکردن شکستی هێنا: نەتوانرا پەڕگەی پاشەکەوت بنووسرێت</string>
+    <string name="importing_failed">هاوردەکردن شکستی هێنا: نەتوانرا پاشەکەوتەکە بخوێنرێتەوە پەڕگە</string>
+    <string name="importing_completed">هاوردەکردن تەواو بووە</string>
+    <string name="invalid_backup_file">پەڕگەی پاشەکەوتی نادروست</string>
+    <string name="import_failed_for">هاوردەکردن شکستی هێنا بۆ:</string>
+    <string name="free_of">"%s\n%s ئازادە لە %s</string>
+    <string name="cloud_error_fdroid">پلاگینی هەوری Amaze لەگەڵ وەشانی F-Droid پشتگیری ناکرێت تکایە وەشانی Play Store ی Amaze بەکاربهێنە.</string>
+    <string name="disable_player_intent_filters">فلتەرەکانی مەبەستی یاریزان لەکاربخە</string>
+    <string name="disable_player_intent_filters_summary">پلەیەرەکانی میدیای ناوەکی Amaze لە هەڵبژاردەی پەڕگەوە لەکاردەخات</string>
+    <string name="no_app_found_intent">هیچ ئەپێک نەدۆزراوەتەوە بۆ مامەڵەکردن لەگەڵ ئەم مەبەستە ئایا DocumentsUIت داناوە؟</string>
+    <string name="cloud_connection_credentials_cleared">ناسنامەکانی پەیوەندی هەور پاککراونەتەوە</string>
+    <string name="cloud_connection_credentials_cleared_msg">بەداخەوە، ئێمە نەمانتوانی بڕوانامەکانی پەیوەندی هەورەکەت بگوازینەوە بۆ شێمای بنکەدراوەی نوێ، و هەمانبوو بۆ لابردنی لە ئەپەکە تکایە دووبارە پەیوەندی هەورەکە دروست بکەنەوە.</string>
+</resources>

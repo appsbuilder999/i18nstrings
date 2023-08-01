@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Oluṣakoso faili</string>
+    <string name="drawer_open">Ṣii duroa lilọ kiri</string>
+    <string name="drawer_close">Pa apẹja lilọ kiri</string>
+    <string name="icon">aami</string>
+    <string name="apps">Aṣakoso ohun elo</string>
+    
+    <string name="setting">Eto</string>
+    <string name="select">Yan Nkan</string>
+    <string name="press_again">Tẹ lẹẹkansi lati jade</string>
+    <string name="open">Ṣi</string>
+    <string name="backup">Afẹyinti</string>
+    <string name="uninstall">Aifi sipo</string>
+    <string name="play">Play itaja</string>
+    <string name="properties">Awọn ohun-ini</string>
+    <string name="copyingapks">Ṣiṣedaakọ %d apk awọn faili si %s</string>
+    <string name="delbook">Pa bukumaaki rẹ</string>
+    <string name="add_to_bookmarks">Fikun-un si Awọn bukumaaki</string>
+    <string name="enterpath">Wọ Ọnà</string>
+    <string name="cancel">Fagilee</string>
+    <string name="create">ṢẸDA</string>
+    <string name="loading">Ṣakojọpọ…</string>
+    <string name="file_empty">Faili ti ṣofo</string>
+    <string name="error">Aṣiṣe</string>
+    <string name="search_results">Awọn abajade wiwa %s</string>
+    <string name="rename">Tun lorukọ</string>
+    <string name="save">Fipamọ</string>
+    <string name="bookmarks_added">Awọn bukumaaki Fi kun</string>
+    <string name="fileexist">Faili pẹlu orukọ kanna ti wa tẹlẹ</string>
+    <string name="name">Orukọ</string>
+    <string name="date">Ọjọ</string>
+    <string name="location">Ibi</string>
+    <string name="size_capitalized">Iwọn</string>
+    <string name="size">iwọn folda</string>
+    <string name="enterzipname">Tẹ Orukọ Zip sii</string>
+    <string name="no_app_found">Ko si App ti a rii lati ṣii faili yii</string>
+    <string name="copying">Ṣiṣedaakọ</string>
+    <string name="moving">Gbigbe</string>
+    <string name="file">Faili</string>
+    <string name="folder">Faili</string>
+    <string name="newfolder">Fọka Tuntun</string>
+    <string name="entername">Tẹ Orukọ sii</string>
+    <string name="extracting">Yijade</string>
+    <string name="stopping">Idaduro</string>
+    <string name="open_parent">Ṣi Itọsọna Obi</string>
+    <string name="open_with">Ṣi pẹlu</string>
+    <string name="share">Pin</string>
+    <string name="about">Nipa</string>
+    <string name="extract">Jade</string>
+    
+    <string name="yes">Bẹẹni</string>
+    <string name="no">Rara</string>
+    
+    <string name="dialog_delete_category_directories">Awọn ilana</string>
+    <string name="dialog_delete_category_files">Awọn faili</string>
+    <string name="dialog_delete_disclaimer">Piparẹ awọn nkan ti o wa ni isalẹ yoo yọ wọn kuro patapata lati ẹrọ rẹ ati pe wọn ko le gba pada.</string>
+    <string name="dialog_delete_title">Pa awọn nkan rẹ kuro patapata?</string>
+    <string name="deleting">Npaarẹ</string>
+    <string name="question_set_path_as_home">Ṣe o fẹ ṣeto ọna lọwọlọwọ bi ile fun taabu yii?</string>
+    <string name="directorysort">Ipo Ilana Itọsọna</string>
+    <string name="sort_by">Tẹ Nipa</string>
+    <string name="sort_only_this">Nikan folda yii</string>
+    <string name="theme">Akori</string>
+    <string name="random">Awọ ID</string>
+    <string name="random_summary">Ṣeto awọ akọkọ laileto ni ibẹrẹ</string>
+    <string name="colorize">Awọ Awọn aami</string>
+    <string name="colorize_summary">Ṣeto awọ aami aimi. Ko ṣe agbekọja aami aami awọ ààyò.</string>
+    <string name="home">Ile</string>
+    <string name="paste">Lẹẹmọ</string>
+    <string name="history">Itan</string>
+    <string name="copy">Daakọ</string>
+    <string name="root_mode">Gbongbo Explorer</string>
+    <string name="root_mode_summary">Fun ẹrọ fidimule nikan. Ṣayẹwo rẹ nikan ti o ba ni idaniloju nipa rẹ.</string>
+    <string name="root_failure">Gbigbo Wiwọle ko funni</string>
+    <string name="select_all">Yan Gbogbo</string>
+    <string name="delete">Paarẹ</string>
+    <string name="set_as_home">Ṣeto Bi Ile</string>
+    <string name="operation_not_supported">Iṣẹ ko ṣe atilẹyin</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Imọlẹ ohun elo</string>
+    <string name="dark">Okunkun Ohun elo</string>
+    <string name="daytime">Ojoojumọ</string>
+    <string name="black">Black (fun OLED)</string>
+    <string name="system">Eto (tẹle akori eto)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Awọn folda Lori oke</string>
+    <string name="filesOnTop">Awọn faili Lori oke</string>
+    <string name="none_on_top">Ko si Lori oke</string>
+    <!--SortBy-->
+    <string name="sort_name">Oruko</string>
+    <string name="lastModified">Atunṣe ti o kẹhin</string>
+    <string name="sort_size">Iwọn</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Mu faili kan</string>
+    <string name="process_viewer">Oluwo ilana</string>
+    <string name="in_safe">Aaye ti ko to</string>
+    <string name="no_file_overwrite">Ko si Faili ti a kọkọ kọ</string>
+    <string name="skip">Rekọja</string>
+    <string name="overwrite">Akọsilẹ</string>
+    <string name="not_allowed">Ko gba laaye</string>
+    <string name="searching">Ṣawari %s</string>
+    <string name="done">Ti ṣee</string>
+    <string name="set">Ṣeto</string>
+    <string name="enablerootmde">Mu Ipo Gbongbo ṣiṣẹ</string>
+    <string name="goback">Padà</string>
+    <string name="newfile">Fáìlì Tuntun</string>
+    <string name="no_files">Ko si awọn faili</string>
+    <string name="used">lo aaye</string>
+    <string name="used_by_others">ti awọn miiran lo</string>
+    <string name="free">aaye ọfẹ</string>
+    <string name="listview">Wiwo Akojọ</string>
+    
+    <string name="permission">Awọn igbanilaaye</string>
+    <string name="hide">Tọju</string>
+    <string name="exit">Jade</string>
+    <string name="doforall">Ṣe fun gbogbo awọn nkan</string>
+    <string name="gridcolumnno">Nọmba awọn ọwọn ni wiwo grid</string>
+    <string name="set_random">Awọn ayipada yoo waye lẹhin ti o ba tun app naa bẹrẹ</string>
+    <string name="authors">Awọn onkọwe</string>
+    
+    
+    
+    <string name="general">Gbogbogbo</string>
+    <string name="thumb_summary">Fi awọn eekanna awọn ohun elo ati awọn aworan han</string>
+    <string name="thumb">Fi awọn eekanna atanpako </string>
+    <string name="hidden">Fihan awọn faili ti o farasin ati awọn folda han</string>
+    <string name="lastModifiedSummary">Fi ọjọ ati akoko iyipada ti o kẹhin han</string>
+    <string name="lastModifiedPref">Fihan Ọjọ ati Aago Atunse Kẹhin</string>
+    <string name="size_pref_summary">Fi iwọn awọn faili ati nọmba awọn ohun kan han ninu awọn folda </string>
+    <string name="size_pref">Fi awọn iwọn han</string>
+    <string name="miscellaneous">Oriṣiriṣi</string>
+    <string name="root_pref_summary">Fi awọn igbanilaaye ti Awọn faili ati Awọn folda han</string>
+    <string name="root_pref">Fi awọn igbanilaaye han</string>
+    <string name="about_amaze_file_manager_label">Nipa Amaze Oluṣakoso faili</string>
+    <string name="version">Ẹya</string>
+    <string name="rate">Diwọn app</string>
+    <string name="feedback">Firanṣẹ Esi</string>
+    <string name="hiddenfiles">Awọn faili pamọ</string>
+    <string name="type">Iru</string>
+    <string name="root_directory">Gbongbo</string>
+    <string name="add_shortcut">Fikun Ọna abuja</string>
+    <string name="unsaved_changes">Awọn iyipada ti ko ni fipamọ</string>
+    <string name="unsaved_changes_description">O ni awọn iyipada ti ko ni fipamọ, ṣe o fẹ lati fipamọ wọn ṣaaju ki o to jade?</string>
+    <string name="saving">Nfipamọ</string>
+    <string name="package_installer">Insitola Package</string>
+    <string name="view">Wo</string>
+    <string name="install">Fi sori ẹrọ</string>
+    <string name="archive">Ipamọ</string>
+    <string name="archive_text">Eyi jẹ ile-ipamọ. Iṣe wo ni iwọ yoo fẹ lati ṣe?</string>
+    <string name="package_installer_text">Eyi jẹ fifi sori ẹrọ package kan. Igbese wo ni o fẹ lati ṣe?</string>
+    <string name="xda_title">XDA o tẹle</string>
+    <string name="xda_summary">Q&amp;amp;A, Iranlọwọ &amp;amp; Laasigbotitusita</string>
+    <string name="circular_images">Lo awọn aami ipin fun awọn aworan ati awọn fidio</string>
+    <string name="circular_icons">Lo awọn aami ipin</string>
+    <string name="back_title">Ilọ kiri pada</string>
+    <string name="back_summary">Nṣiṣẹ lilọ kiri aṣa pada ni oke ti atokọ naa</string>
+    <string name="details">Awọn alaye</string>
+    <string name="translators">Awọn onitumọ</string>
+    <string name="german_translation_title">Jẹmánì</string>
+    
+    <string name="french_translation_title">Faranse</string>
+    
+    
+    
+    
+    
+    <string name="turkish_translation_title">Turki</string>
+    
+    <string name="portuguese_translation_title">Port</string>
+    <string name="polish_translation_title">Poliṣi</string>
+    
+    <string name="greek_translation_title">Greeki</string>
+    
+    <string name="romanian_translation_title">Romani </string>
+    
+    
+    
+
+    <string name="zip_viewer">Zip View</string>
+    <string name="unin_system_apk">Eyi jẹ ohun elo eto, piparẹ rẹ le ja si eto aiduroṣinṣin. \n Tẹsiwaju?</string>
+    <string name="warning">Ikilọ</string>
+    <string name="donate">Tẹtọrẹ</string>
+    <string name="archive_extract_folder">Faili Jade Ile ifipamọ</string>
+    <string name="archive_summary">Awọn faili ibi ipamọ yoo jẹ jade si folda yii. Iye aiyipada ni itọsọna ti ile-ipamọ wa.</string>
+    <string name="open_as">Ṣi Bi</string>
+    
+    
+    <string name="video">Fidio</string>
+    <string name="other">Miiran</string>
+    <string name="image">Aworan</string>
+    <string name="contributors">Awọn oluranlọwọ</string>
+    <string name="save_paths">Ranti awọn ọna</string>
+    <string name="save_path_summary">Nigbati o ba bẹrẹ, folda ti a wo laipe julọ fun taabu kọọkan yoo han</string>
+    <string name="select_intent">Yan</string>
+    <string name="database">Database </string>
+    <string name="colored_navigation">Opa Lilọ kiri awọ</string>
+    <string name="colored_navigvation_sum">Boya tabi kii ṣe ọpa lilọ eto jẹ awọ pẹlu awọ ara</string>
+
+    <string name="color_title">Awọ</string>
+    <string name="color_summary">Ṣeto awọ si ọpọlọpọ awọn paati UI</string>
+    <string name="primary_color_title">Awọ akọkọ (Taabu osi)</string>
+    <string name="primary_color_summary">Ṣeto awọ si awọn eroja UI nla fun taabu osi</string>
+    <string name="accent_color_title">Awọ Asẹnti</string>
+    <string name="accent_color_summary">Ṣeto awọ si FAB ati awọn eroja UI kekere miiran</string>
+    <string name="icon_color_title">Awọ Aami</string>
+    <string name="icon_color_summary">Ṣeto awọ si awọn aami</string>
+    <string name="choose_color">Yan awọ</string>
+    <string name="files">Awọn faili</string>
+    <string name="textreader">Oluka ọrọ</string>
+    <string name="databasereader">Oluka data</string>
+    <string name="show_dividers">Fihan Awọn ipin</string>
+    <string name="needs_access">Kọ Wiwọle Ti beere</string>
+    <string name="needs_access_summary">Jọwọ yan itọsọna root ti \t</string>
+    <string name="needs_access_summary1">\lati funni ni iraye si lati ṣiṣẹ</string>
+    <string name="smb_connection">Asopọ SMB</string>
+    <string name="smb_server">Adirẹsi IP olupin</string>
+    <string name="server_address">Adirẹsi IP olupin</string>
+    <string name="username">Orukọ olumulo</string>
+    <string name="password">Ọrọigbaniwọle</string>
+    <string name="anonymous">Ailorukọ</string>
+    
+    <string name="folders">Awọn folda</string>
+    <string name="folderfilecount">%1$d awọn folda ati %2$d awọn faili</string>
+    <string name="videos">Awọn fidio</string>
+    
+    <string name="documents">Awọn iwe aṣẹ</string>
+    <string name="images">Awọn aworan</string>
+    <string name="clear">Pa</string>
+    <string name="md5">kuro&gt; MD5</string>
+    <string name="total">Lapapọ:</string>
+    <string name="calculating">iṣiro</string>
+    <string name="sort">Tẹ</string>
+    <string name="ascending">Igoke</string>
+    <string name="descending">Sokale</string>
+    <string name="default_string">Ayipada</string>
+    <string name="doit">Ṣe o</string>
+    <string name="want_help">Nilo iranlọwọ?</string>
+    <string name="quick">Wiwọle ni iyara</string>
+    <string name="recent">Awọn faili aipẹ</string>
+    <string name="edit">Ṣatunkọ</string>
+    <string name="find">Wa ni oju-iwe</string>
+    <string name="grant">Ifunni</string>
+    <string name="grantper">Gbigba aṣẹ</string>
+    <string name="grantfailed">A ko funni ni igbanilaaye</string>
+    <string name="grant_storage_permission">Ohun elo nilo igbanilaaye ibi ipamọ lati tẹsiwaju. Ifagile ifọrọwerọ yii yoo jade kuro ni app naa.</string>
+    <string name="operation_unsuccesful">Iṣẹ Aṣeyọri</string>
+    <string name="creatingfile">Ṣiṣẹda Faili</string>
+    <string name="creatingfolder">Ṣiṣẹda Folda</string>
+    <string name="renaming">Ṣatunkọ</string>
+    <string name="cant_be_empty">%s ko le jẹ ofo</string>
+    <string name="ip">Adirẹsi</string>
+    <string name="connection_name">Orukọ Asopọmọra</string>
+    <string name="no_device_found">Ko si ẹrọ ti a rii</string>
+    <string name="path"/>
+    <string name="rename_bookmark">Ṣatunkọ Bukumaaki</string>
+    <string name="cut">Ge</string>
+    <string name="search">Ṣawari</string>
+    <string name="invalid_name">Orukọ aiṣedeede</string>
+    <string name="search_hint">Iru lati wa…</string>
+    <string name="advanced_search">Ṣawari to ti ni ilọsiwaju</string>
+    <string name="regular_expression">Ikosile deede</string>
+    <string name="regular_expression_summary">Ṣawari nipa lilo aṣa BASH deede ikosile</string>
+    <string name="match_content">Akoonu baramu</string>
+    <string name="match_content_summary">Ti o ba ṣeto, ikosile deede yoo baamu pẹlu gbogbo orukọ faili,
+        yoo wa iṣẹlẹ bibẹẹkọ.</string>
+    <string name="start_ftp">Bẹrẹ</string>
+    <string name="stop_ftp">Duro</string>
+    <string name="ftp_status_running">Ṣiṣe</string>
+    <string name="ftp_status_not_running">Ko nṣiṣẹ</string>
+    <string name="ftp_no_wifi">Rii daju pe o ti sopọ mọ Wi-Fi</string>
+    <string name="domain">Agbegbe</string>
+    <string name="smb_share">Pipin ọna</string>
+    <string name="invalid">Aiṣe %s</string>
+    <string name="ftp_notif_starting">FTP Server n bẹrẹ</string>
+    
+    <string name="ftp_notif_title">Amaze FTP Server nṣiṣẹ</string>
+    <string name="ftp_notif_text">ni%s</string>
+    <string name="ftp_notif_stop_server">Duro</string>
+    <string name="ftp_port_edit_menu_title">FTP ibudo</string>
+    <string name="ftp_port_change_success">FTP ibudo yipada ni ifijišẹ</string>
+    <string name="ftp_port_change_error_invalid">Nọmba ibudo ti ko tọ ti a yan</string>
+    <string name="primary_two_title">Awọ akọkọ (Taabu ọtun)</string>
+    <string name="primary_two_summary">Ṣeto awọ si awọn eroja UI nla fun taabu ọtun</string>
+    <string name="support_development">Idagbasoke Atilẹyin</string>
+    <string name="report_bugs_title">Awọn idun jabo</string>
+    <string name="source_title">koodu orisun</string>
+    <string name="source_summary">Wo koodu orisun wa lori GitHub</string>
+    <string name="report_bugs_summary">Jabo awọn idun tabi beere ẹya tuntun</string>
+    <string name="translate_title">Tumọ</string>
+    <string name="translate_summary">Tumọ Amaze ni ede rẹ</string>
+    <string name="paypal_copy_message">PayPal ID ti daakọ si agekuru agekuru</string>
+    <string name="searching_devices">Ṣawari awọn ẹrọ</string>
+    <string name="use_custom_ip">Lo IP aṣa</string>
+    <string name="bookmark_lost">Bukumaaki ko rii, n ṣe atunṣe…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Bii o ṣe le wọle si folda Windows ti o pin lori Android (SMB)\n\n
+                
+                    
+                        Mu Pipin faili ṣiṣẹ lori Windows\n
+                    
+                    
+                        Ṣii Ibi igbimọ Iṣakoso, tẹ Yan HomeGroup ati awọn aṣayan pinpin labẹ Nẹtiwọọki
+                        ati Intanẹẹti, ki o tẹ “Yiyipada Awọn Eto Pipin Ilọsiwaju,” mu “Faili ati
+                        Pipin itẹwe" ẹya.\n\n
+                    
+
+                    
+                        Awọn eto Pipin faili ni afikun\n
+                    
+                    
+                        O tun le fẹ tunto awọn eto pinpin ilọsiwaju miiran nibi. \n
+                        Fun apẹẹrẹ, o le mu iraye si awọn faili rẹ laisi ọrọ igbaniwọle kan ti o ba gbẹkẹle gbogbo rẹ
+                        awọn ẹrọ lori nẹtiwọki agbegbe rẹ. Ni kete ti faili ati pinpin itẹwe ti ṣiṣẹ, o le
+                        ṣii Oluṣakoso Explorer tabi Windows Explorer, tẹ-ọtun folda ti o fẹ pin, ati
+                        yan Properties. \n
+                        Tẹ bọtini Pin ati ki o jẹ ki folda wa lori nẹtiwọki.\n\n
+                        
+
+                    
+                        Rii daju pe awọn ẹrọ mejeeji wa lori Wifi kanna\n
+                    
+                    
+                        Ẹya yii jẹ ki awọn faili wa lori nẹtiwọọki agbegbe, nitorinaa PC rẹ ati awọn ẹrọ alagbeka
+                        ni lati wa lori nẹtiwọki agbegbe kanna. O ko le wọle si folda Windows ti o pin
+                        lori Intanẹẹti tabi nigbati foonuiyara rẹ ba ti sopọ si data alagbeka rẹ - o
+                        ni lati sopọ mọ Wi-Fi.\n\n
+                    
+
+                    
+                        Wa Adirẹsi IP\n
+                    
+                    
+                        Ṣii Aṣẹ Tọ. Tẹ \'ipconfig\' ki o si tẹ Tẹ. Wo fun aiyipada Gateway
+                        labẹ oluyipada nẹtiwọki rẹ fun adiresi IP olulana rẹ. Wa fun
+                        \\" Adirẹsi IPv4 \\" labẹ apakan ohun ti nmu badọgba kanna lati wa IP kọmputa rẹ
+                        adirẹsi.\n\n
+                    
+
+                    Tẹ awọn alaye sii ninu apoti ibaraẹnisọrọ SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Ko le pin diẹ sii ju awọn faili 100 lọ</string>
+    <string name="otg_access">Yan gbongbo ẹrọ OTG</string>
+    <string name="information">Alaye</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Wiwọle</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Titunṣe</string>
+
+    <string name="title">Tile</string>
+    <string name="artist">Orinrin</string>
+    
+    <string name="year">Odun</string>
+    <string name="duration">Ipari</string>
+    
+    <!-- reference to audio/video file -->
+    <string name="container">Apoti</string>
+    <string name="codec">Kodẹki</string>
+    <string name="channels">Awọn ikanni</string>
+    <string name="sample_rate">Oṣuwọn Ayẹwo</string>
+    
+    <string name="dimensions">Dimensions </string>
+    <string name="frame_rate">Iwọn fireemu</string>
+    <string name="image_type">Iru aworan</string>
+    <string name="width">Iwọn</string>
+    <string name="height">Iga</string>
+    <string name="date_modified">Ọjọ ti Atunse</string>
+    
+    <string name="creator">Eleda</string>
+    <string name="camera_brand">Kamẹra Brand</string>
+    <string name="camera_model">Kamẹra Awoṣe</string>
+    <string name="date_taken">Ọjọ ti a mu</string>
+    <string name="exposure_time">Aago Ifihan</string>
+    <string name="aperture_value">Iye Iwoye</string>
+    <string name="image_iso">Iwọn Iyara ISO</string>
+    <string name="flash_fired">Filaṣi ina</string>
+    <string name="focal_length">Ipari Focal</string>
+    <string name="subject">Koko</string>
+    <string name="author">Onkọwe</string>
+    <string name="keywords">Awọn koko-ọrọ</string>
+    <string name="producer">O nse</string>
+    <string name="created">Ṣẹda</string>
+    <string name="format">kika</string>
+    <string name="pages">Number of Awọn oju-iwe</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Iṣapeye</string>
+    <string name="security">Aabo</string>
+    <string name="paper_size">Iwọn Iwe</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Awọn faili kan ko ni aṣeyọri %s</string>
+    <string name="copied">daakọ</string>
+    <string name="moved">gbe</string>
+    <string name="copy_complete">Daakọ Pari</string>
+    <string name="waiting_title">Nduro</string>
+    <string name="waiting_content">Nduro fun iṣiṣẹ lati pari</string>
+    <string name="extract_complete">Iyọkuro pari</string>
+    <string name="compression_complete">Compression Pari</string>
+    
+    <string name="cancelled">Fagilee</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Kọ</string>
+    <string name="out_of">jade kuro ninu</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ti</string>
+    <string name="processing_file">Faili ṣiṣe</string>
+    <string name="current_speed">Iyara lọwọlọwọ</string>
+    <string name="smb_launch_error">Iwọ yoo nilo lati daakọ faili yii si ibi ipamọ lati ṣii</string>
+    <string name="error_file_not_found">Aṣiṣe: A ko ri faili</string>
+    <string name="error_io">Aṣiṣe I/O</string>
+    <string name="error_file_too_large">Aṣiṣe: Faili Ti Tobi Ju</string>
+    <string name="medium_text">Ọrọ Alabọde</string>
+    <string name="permission_read">Ka</string>
+    <string name="permission_write">Kọ</string>
+    <string name="permission_execute">Ṣiṣe</string>
+    <string name="permission_owner">Oluwa</string>
+    <string name="permission_group">Ẹgbẹ</string>
+    <string name="permission_other">Omiiran</string>
+    <string name="clipboard_path_copy">Ti daakọ ọna si agekuru agekuru</string>
+    <string name="service_timer">Aago ti kọja</string>
+    <string name="please_wait">Jọwọ duro</string>
+
+    <string name="cloud_connection">Asopọ awọsanma</string>
+    <string name="cloud_connection_new">Asopọ awọsanma Tuntun</string>
+    
+    <string name="cloud_drive">Google Drive ™</string>
+    
+    <string name="cloud_box">Apoti</string>
+    <string name="cloud_get">Gba ohun itanna awọsanma</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Ko si ohun elo</string>
+    <string name="ftp_path">Ona Pipin</string>
+    <string name="ftp_path_hint">Ona si root ti liana lati pin</string>
+    <string name="change">Yipada</string>
+    <string name="unknown_error">Oops, nkankan ti lọ aṣiṣe!</string>
+
+    <string name="ftp_path_change_success">Ọna FTP ti yipada ni aṣeyọri</string>
+    <string name="ftp_path_change_error_invalid">Ọna aitọ</string>
+    <string name="ftp_status_no_connection">Ko si Asopọ</string>
+    <string name="ftp_status_secure_connection">Asopọ to ni aabo</string>
+    <string name="ftp_status_title">Ipo</string>
+    
+    <string name="ftp_login">Wọle</string>
+    <string name="field_empty">Aaye ko le jẹ ofo</string>
+    <string name="ftp_timeout">Iṣeduro akoko kuro</string>
+    <string name="ftp_seconds">Awọn iṣẹju-aaya</string>
+    <string name="intellihide_toolbar_title">Opa irinṣẹ Intellihide</string>
+    <string name="intellihide_toolbar_summary">Tọju ọpa irinṣẹ ni adaṣe lakoko lilọ kiri</string>
+    <string name="hash_sha256">SHA -256</string>
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">daakọ si agekuru agekuru</string>
+    <string name="contributors_1_summary">Trans </string>
+    <string name="contributors_2_summary">Aami ati awọn asia</string>
+    <string name="contributors_3_summary">Enjini Akori</string>
+    <string name="contributors_4_summary">Ojiji lẹhin FAB</string>
+    <string name="contributors_5_summary">Iyipada awọ nigbati awọn taabu fifin</string>
+    
+    <string name="contributors_7_summary">Tita soke ikarahun ibaraenisepo</string>
+    <string name="connection_exists">Asopọmọra ti wa tẹlẹ</string>
+
+    <string name="crypt_encrypting">Fifipamọ</string>
+    <string name="crypt_decrypting">Dicrypting</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Ti paroko</string>
+    
+    <string name="crypt_encrypt">Fipamọ</string>
+    
+    <string name="operation_fail_following">Iṣiṣẹ kuna fun atẹle naa awọn faili</string>
+    <string name="crypt_pref_master_password_title">Ọrọigbaniwọle Titunto si</string>
+    <string name="crypt_pref_master_password_summary">Ṣeto ọrọ igbaniwọle titunto si fun fifi ẹnọ kọ nkan.
+        Fi sofo silẹ lati yọkuro.</string>
+    <string name="crypt_pref_fingerprint_title">Atẹka ikawe</string>
+    <string name="crypt_pref_fingerprint_summary">Lo itẹka lati fi idi fifi ẹnọ kọ nkan</string>
+    <string name="crypt_fingerprint_no_permission">Awọn igbanilaaye itẹwọgba sonu</string>
+    <string name="crypt_fingerprint_not_enrolled">Ko si itẹka ti a forukọsilẹ</string>
+    <string name="crypt_fingerprint_no_security">Ko si aabo iboju titiipa ri</string>
+    <string name="crypt_warning_key">Ki o gba imọran, nigbati o ba yi ilana aabo rẹ pada lati
+        Awọn eto eto, iwọ kii yoo ni anfani lati pa akoonu yii pada.</string>
+    <string name="warning_never_show">Maṣe sọfun lẹẹkansi</string>
+    <string name="warning_confirm">Gba!</string>
+    <string name="crypt_encryption_fail">Kuna lati encrypt</string>
+    <string name="crypt_decryption_fail">Kuna lati yo</string>
+    <string name="crypt_decryption_fail_password">Ọrọigbaniwọle ti ko tọ!</string>
+    <string name="crypt_fingerprint_authenticate">Fifọwọkan sensọ lati tẹsiwaju</string>
+    <string name="authenticate_password">Tẹ ọrọ igbaniwọle sii</string>
+
+    <string name="sidebar_preferences">Apagbe</string>
+    <string name="sidebar_quick_access_title">Wiwọle yara yara</string>
+    <string name="show_quick_access_pref_title">Fi awọn wiwọle yara han</string>
+    <string name="show_quick_access_pref">Wiwọle ni kiakia</string>
+    <string name="directory">Itọsọna</string>
+
+    <string name="sidebar_bookmarks_title">Awọn bukumaaki ẹgbẹ ẹgbẹ</string>
+    <string name="show_bookmarks_pref_title">Fi awọn bukumaaki han</string>
+    <string name="show_bookmarks_pref">Awọn bukumaaki</string>
+    <string name="create_bookmark">Ṣẹda bukumaaki</string>
+    <string name="edit_bookmark">Ṣatunkọ bukumaaki</string>
+    <string name="question_delete_bookmark">Pa bukumaaki rẹ?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin not ri. Jọwọ gba lati ayelujara lati Play itaja.</string>
+    <string name="cloud_error_failed_restart">Kuna lati ṣajọpọ asopọ naa.
+        Jọwọ ṣii Amaze Cloud lẹẹkan.</string>
+    <string name="cloud_remove">Ṣe o fẹ yọ asopo awọsanma kuro bi?</string>
+    <string name="cloud_fail_authenticate">Kuna lati jẹrisi</string>
+    <string name="cloud_share_copied">Asopọ ti o le pin ti daakọ si agekuru agekuru</string>
+    <string name="copy_low_memory">Ti o nṣiṣẹ ni iranti, jọwọ ko Ramu diẹ silẹ</string>
+    <string name="cloud_token_lost">Token ti sọnu, jọwọ wọle lẹẹkansi</string>
+    
+    <string name="showHeaders">Fi awọn akọle han</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Ko si awọn nkan</string>
+	<string name="item">ohun</string>
+	<string name="items">awọn nkan</string>
+	
+	<string name="byte_singular">baiti</string>
+	<string name="bytes"> bytes</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Faili yẹ ki o ni orukọ</string>
+    <string name="add_item">Fi Nkan kun</string>
+    <string name="failed_smb_decrypt_path">Kuna lati ṣajọpọ asopọ SMB</string>
+    <string name="failed_cloud_new_connection">Kuna lati ṣafikun asopọ awọsanma tuntun</string>
+    <string name="failed_cloud_api_key">Kuna lati ṣe ijẹrisi plug-in awọsanma</string>
+
+    <string name="local_inet_addr_error">Aṣiṣe gbigba adirẹsi inet agbegbe</string>
+    <string name="intent_save_as">Fipamọ bi…</string>
+    <string name="go">God</string>
+    <string name="advanced">To ti ni ilọsiwaju</string>
+    <string name="typeable_paths_title">Awọn ọna aṣa</string>
+    <string name="typeable_paths_summary">Tẹ ọna pipẹ lati tẹ ọna aṣa kan</string>
+    <string name="send_email_to">Fi imeeli ranṣẹ si</string>
+
+    <string name="text_editor">Eto olootu ọrọ</string>
+    <string name="preference_newstack_title">Ṣi awọn faili bi iṣẹ-ṣiṣe tuntun</string>
+    <string name="preference_newstack_summary">Faye gba ọ laaye lati ṣi awọn faili ni awọn iṣẹ-ṣiṣe lọtọ. Wọle si wọn lati iboju eto aipẹ.</string>
+    
+    <string name="developers">Awọn olupilẹṣẹ</string>
+    <string name="no_bitcoin_app">Jọwọ fi ohun elo Bitcoin Wallet sori ẹrọ</string>
+    <string name="channel_name_normal">Awọn iwifunni Amaze</string>
+    <string name="channel_description_normal">Amaze Oluṣakoso faili’s Awọn iwifunni</string>
+    <string name="channel_name_ftp">Kayeefi olupin FTP</string>
+    <string name="channel_description_ftp">Amaze Oluṣakoso faili FTP Server\'s Awọn iwifunni</string>
+
+    
+    <string name="processing">Ṣiṣe…</string>
+    <string name="failed_no_connection">Kuna lati kojọpọ awọn faili. Jọwọ ṣayẹwo asopọ rẹ.</string>
+
+    <string name="update">Imudojuiwọn</string>
+	<string name="scp_connection">Asopọ SCP/SFTP</string>
+    <string name="ftp_connection">Asopọ FTP</string>
+    <string name="ftps_connection">FTP lori SSL Asopọ</string>
+    
+    <string name="ssh_host_key_verification_prompt">Òdodo olùgbàlejò \'%1$s\' kò lè fi ìdí rẹ̀ múlẹ̀.\n\n%2$s ìka ìka ọwọ́ kọ́kọ́rọ́ jẹ %3$s.\n\nJọ̀wọ́ tẹ \"Bẹ́ẹ̀ ni\" láti ṣàmúdájú idanimọ; bi bẹẹkọ, jọwọ tẹ \"Bẹẹkọ\" ni kia kia.</string>
+    <string name="ssh_host_key_verification_prompt_title">Ṣe daju Olugbalejo</string>
+    <string name="ssh_select_pem_button">SSH Kọkọrọ Aladani</string>
+    <string name="ssh_pem_key_parse_error">Ko le ka PEM ti a yan: %s</string>
+    <string name="password_unchanged">(ko yipada)</string>
+    <string name="ssh_authentication_failure_password">Ikuna Logon: Ko le ṣe ijẹrisi pẹlu orukọ olumulo ati ọrọ igbaniwọle ti a pese.</string>
+    <string name="ssh_authentication_failure_key">Ikuna Wọle: Ko le ṣe ijẹrisi pẹlu orukọ olumulo ti a pese ati bọtini ikọkọ.</string>
+    <string name="ssh_connect_failed">Ko le sopọ si %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">Ìkìlọ: Ìdámọ̀ OLÁJỌ́ ÀJỌ́ LÁTIYÍ!</string>
+    
+    <string name="ssh_key_prompt_passphrase">Jọwọ tẹ ọrọ igbaniwọle bọtini sii. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Awọn ọna abuja ko ṣe atilẹyin nipasẹ olupilẹṣẹ rẹ.</string>
+    
+    <string name="select_color_config">Yan atunto awọ</string>
+    <string name="customize">ṣe akanṣe</string>
+    <string name="custom">Aṣa</string>
+    <string name="preselected_configs_title">Awọn atunto ti a yan tẹlẹ</string>
+    <string name="orange">Osan</string>
+    
+    <string name="green">Awọ ewe</string>
+    <string name="password_no_match">Ọrọigbaniwọle ko baramu</string>
+    <string name="deselect_all">De Yan Gbogbo</string>
+    
+    <string name="compress_file_suggest_zip_extension">O ṣe iṣeduro lati lo \".zip\" gẹgẹbi itẹsiwaju faili.</string>
+    <string name="about_amaze">Oluṣakoso faili apẹrẹ ohun elo fun Android</string>
+    <string name="license">Aṣẹ</string>
+    <string name="libraries">Awọn ile-ikawe</string>
+    <string name="password_repeat">Tun ọrọ igbaniwọle tun</string>
+    <string name="create_file_suggest_txt_extension">O ṣe iṣeduro lati lo \""txt\" gẹgẹbi itẹsiwaju faili.</string>
+    <string name="ssh_select_pem">Yan bọtini ikọkọ fun ìfàṣẹsí</string>
+    <string name="ssh_key_invalid_passphrase">Ọrọ igbaniwọle bọtini aitọ.</string>
+    <string name="ssh_key_no_decoder_decrypt">Ko si koodu iyipada to wulo lati yọkuro PEM.</string>
+    <string name="encryption_fail_copy">Kuna lati ṣe imudojuiwọn titẹ sii fifi ẹnọ kọ nkan ni ibi ipamọ data</string>
+    <string name="extracted">Ti yọkuro</string>
+    <string name="compressed">Fisinujẹ</string>
+    <string name="processed">Ti ṣe ilana</string>
+    <string name="no_obtainable_info">Ko si alaye nipa faili yii</string>
+    <string name="reopen_from_source">Ko le, jọwọ tun ṣii lati app to kẹhin</string>
+    <string name="no_file_error">Nkankan ti lọ aṣiṣe, ko si nkankan lati ṣii</string>
+    <string name="file_too_long">The Faili ti gun ju ko si le ṣatunkọ, sibẹsibẹ o le ka akọkọ %d kikọ</string>
+    <string name="file_read_only">Faili ti o ṣii jẹ kika-nikan.</string>
+    <string name="got_it">Gbi o!</string>
+    <string name="encrypt_file_save_as">Fipamọ ti paroko. Faili Bi…</string>
+    <string name="encrypt_folder_save_as">Fipamọ folda ti paroko Bi…</string>
+    <string name="encrypt_option_use_aze">Lo ọna kika fifi ẹnọ kọ nkan Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt jẹ ọna kika fifi ẹnọ kọ nkan faili orisun ṣiṣi ti o da lori fifi ẹnọ kọ nkan AES. O tun šee gbe, o le ṣe idinku pẹlu awọn eto AESCrypt lori awọn iru ẹrọ miiran.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt aaye ayelujara</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        Ọna ìsekóòdù <p>Amaze\'s tun da lori fifi ẹnọ kọ nkan AES; ṣugbọn o yatọ si ọna kika AESCrypt, o le jẹ decrypted nipasẹ ẹrọ yii; pẹlupẹlu o ko gbọdọ yọ Amaze Oluṣakoso faili kuro lati ẹrọ yii tabi yi ọna ti o tii iboju pada, bibẹẹkọ iwọ kii yoo ni ọna lati gba faili ti paroko pada.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Fáìlì ìpàrokò gbọ́dọ̀ lo \"aze\" gẹ́gẹ́ bí àfikún fáìlì.</string>
+    <string name="encrypt_file_must_end_with_aes">Fáìlì ìpàrokò gbọ́dọ̀ lo \"aes\" gẹ́gẹ́ bí ìfàgùn fáìlì.</string>
+    <string name="error_aescrypt_decrypt_failed">Ko le ṣe apitipiti. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Kò le ṣe ìkọ̀wé fáìlì.</string>
+    <string name="saved_single_file">Faili ti a fipamọ bi \'%s\'.</string>
+    <string name="saved_multi_files">%d awọn faili ti a fipamọ.</string>
+    <string name="create_hidden_file_warn">Faili ti o ṣẹda yoo wa ni pamọ sinu atokọ faili.</string>
+    <string name="grant_apkinstall_permission">App nilo igbanilaaye lati fi sori ẹrọ awọn ohun elo tẹsiwaju.</string>
+    <string name="time_remaining">Akoko to ku</string>
+    <string name="transfer_rate">Oṣuwọn Gbigbe</string>
+    <string name="unknown">aimọ</string>
+    <string name="multiple_invalid_archive_entries">Diẹ ninu awọn faili inu ile-ipamọ ko ṣe jade; Ile-ipamọ le bajẹ tabi wa lati orisun irira.</string>
+    <string name="saf_otg_explanation">O yoo lọ si eto faili Android fun awọn idi aabo. Jọwọ yan ẹrọ USB lati atokọ ti o wa ni apa osi.</string>
+    <string name="donation_thanks">O ṣeun fun itọrẹ, eyi jẹ ki a ni itara! (:</string>
+    <string name="enable_marquee_filename">Mu ipa marquee ṣiṣẹ fun awọn orukọ faili</string>
+    <string name="archive_password_prompt">Jọwọ tẹ ọrọ igbaniwọle pamosi sii:</string>
+    
+    <string name="cannot_extract_archive">Ko le jade ibi ipamọ \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Ko le ṣii iwe ipamọ \"%s"" Boya a ko le ṣii ile-ipamọ, tabi ti bajẹ.</string>
+    <string name="close">Pade</string>
+    <string name="bookmark_exists">Bukumaaki wa</string>
+    <string name="hide_media">Fipamọ lati awọn aṣawakiri media</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">O SEESE PE ENIKAN N SE OHUN ASEJE!\n\nEnikan le gbo e ni bayi (kolu eniyan-ni-arin)! nitori bọtini gbogbo eniyan ti agbalejo latọna jijin firanse ko baramu eyi ti a fipamọ sinu Amaze.\n\nO le tẹsiwaju pẹlu imudojuiwọn itẹka ogun tabi fagile awọn eto isopọ SSH.</string>
+    <string name="update_host_key">Kọtini agbalejo imudojuiwọn</string>
+    <string name="cancel_recommended">Fagilee (Iṣeduro)</string>
+    
+    
+    <string name="failed_install_apk">Kuna lati fi sori ẹrọ</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Ibi ipamọ inu</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Kaadi SD</string>
+    <string name="choose_folder">Yan folda yii</string>
+    
+    <string name="some_files_failed_invalid_operation">Awọn faili kan kuna nitori aiṣedeede isẹ</string>
+    <string name="ftp_server_prompt_connect_to_network">Sopọ si nẹtiwọọki kan tabi mu AP ṣiṣẹ</string>
+    <string name="ftp_server_open_settings">Ṣi eto</string>
+    <string name="move">Gbe</string>
+    <string name="select_save_location">Yan ipo lati fipamọ</string>
+    <string name="scp_default_path">Ọna aiyipada (Iyan)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Ma binu, iyẹn ko yẹ ki o ṣẹlẹ.</string>
+    
+    <string name="error_report_button_text">Jabọ aṣiṣe yii nipasẹ e-mail</string>
+    <string name="error_report_button_telegram">Jabọ aṣiṣe yii nipasẹ teligram</string>
+    <string name="copy_for_github">Daakọ ijabọ akoonu</string>
+    <string name="error_report_open_issue_button_text">Ijabọ lori GitHub</string>
+    <string name="error_report_open_github_notice">Jọwọ ṣayẹwo boya iṣoro kan ti n jiroro jamba rẹ ti wa tẹlẹ.</string>
+    <string name="error_snackbar_message">Ma binu, nkankan ti lọ aṣiṣe.</string>
+    <string name="error_snackbar_action">Ijabọ</string>
+    <string name="what_device_headline">Alaye:</string>
+    <string name="what_happened_headline">Kini o ṣẹlẹ:</string>
+    <string name="info_labels">Kini:\nIbere:\\nAago GMT:\nPackage:\\nẸya:\nẸya OS:\nẸrọ : \\n Awoṣe: \\n Ọja:</string>
+    <string name="your_comment">Ọrọ asọye rẹ (ni ede Gẹẹsi):</string>
+    <string name="error_details_headline">Awọn alaye:</string>
+    <string name="app_ui_crash">App/UI kọlu</string>
+    <string name="error_report_title">Ijabọ aṣiṣe</string>
+    <string name="crash_report_copied">Ijabọ jamba ti daakọ si agekuru agekuru</string>
+    <string name="disableIpcSignature">Mu ayẹwo iforukọsilẹ IPC ṣiṣẹ (Fun awọn olupin SMBv1 julọ - UNSAFE!)</string>
+    <string name="cannot_delete_file">Ko le pa faili rẹ</string>
+    <string name="cannot_delete_file_with_reason">Ko le pa faili rẹ - %s</string>
+    <string name="cannot_rename_file">Ko le tunrukọ faili %s - %s</string>
+    <string name="cannot_read_directory">Ko le ka iwe ilana %s - %s</string>
+    <string name="just_once">Ni ẹẹkan</string>
+    <string name="always">Nigbagbogbo</string>
+    <string name="choose_different_app">Yan oriṣiriṣi Ohun elo</string>
+    <string name="clear_open_file">Pa cache kuro</string>
+    <string name="clear_open_file_summary">Pa awọn ohun elo ṣiṣii faili aiyipada ti a ti yan kuro</string>
+    <string name="ftp_readonly">Wiwọle ka-nikan</string>
+    <string name="legacy_listing_title">Lo atokọ ohun-ini fun gbongbo</string>
+    <string name="legacy_listing_summary">Ti o ba ṣiṣẹ , nlo ọna ti o legacy lati ṣe atokọ awọn faili</string>
+    <string name="error_unsupported_v5_rar">pamosi RAR \"%s\" jẹ aifọwọsi RAR v5 pamosi.</string>
+    <string name="ftp_prompt_restart_server">O nilo lati tun olupin FTP bẹrẹ fun awọn ayipada lati mu ipa.</string>
+    <string name="error_permission_denied">A kọ igbanilaaye</string>
+    <string name="error_archive_password_incorrect">Ọrọigbaniwọle pamosi ti ko tọ.</string>
+    <string name="error_archive_cannot_extract">Ko le jade titẹsi pamosi \"%s\" si \"%s""</string>
+    <string name="drag_and_drop_preference">Yan fa ati ju silẹ ààyò (Experimental)</string>
+    <string name="drag_to_move_copy">Fọwọkan ati fa lati gbe tabi daakọ awọn faili</string>
+    <string name="drag_to_select">Fọwọkan ati fa lati yan awọn faili</string>
+    <string name="disable">Pa</string>
+    <string name="choose_operation">Yan isẹ lati ṣe</string>
+    <string name="remember">Ranti fun igba ti nbọ</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Gbi wiwọle SAF fun olupin FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Niwọn igba ti eyi jẹ ṣiṣe akọkọ ti olupin FTP, ati pe o nlo ibi ipamọ inu ẹrọ bi folda pinpin, jọwọ gba Amaze laaye lati wọle si ibi ipamọ nipa lilo SAF.\n\n
+
+O nilo lati ṣe eyi ni ẹẹkan, titi di igba miiran ti o yan ipo tuntun fun pinpin.</string>
+    <string name="android_data_prompt_saf_access">Lati Android 10, Android ti paṣẹ awọn ihamọ lori awọn ilana kan, ati pe wọn nilo lati wọle si pẹlu Ilana Wiwọle Ibi ipamọ.\n \nJọ̀wọ́ jẹ́ kí Amaze wọ̀lé ìtọ́nisọ́nà láti ọ̀dọ̀ olùṣàkóso fáìlì ẹ̀rọ náà nípa títẹ̀ ní \"Gbà Wiwọle\" ni titẹ ni kia kia.</string>
+    <string name="android_data_prompt_saf_access_title">Fún wiwọle SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Lo ọna faili ti o legasi</string>
+    <string name="ftp_preference_saf_filesystem">Mu eyi ṣiṣẹ fun atilẹyin fun lilo ibi ipamọ ita ẹrọ lori awọn ẹya Android tuntun</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Ona olupin FTP ti a ti tunto si ibi ipamọ inu bi o ṣe n yipada pada si julọ ​​filesystem imuse. Jọwọ yan ọna tuntun nipa lilo akojọ aṣayan ni apa ọtun bi o ṣe pataki.</string>
+    <string name="ftp_server_reset_notify">Ona olupin FTP ti pin si ibi ipamọ inu</string>
+    <string name="ftp_server_root_unavailable">O n yan ọna kan ti o nilo wiwọle root. Jọwọ jeki root explorer ninu awọn eto ti o ba ti ẹrọ rẹ ti wa ni fidimule.</string>
+    <string name="ftp_server_root_filesystem_warning">O n yan ọna kan ti o nilo wiwọle root, eyiti o jẹ ki awọn iṣẹ kika/kikọ ni gbogbo eto faili lori ẹrọ rẹ, ati pe o lewu - awọn aṣiṣe aibikita le biriki ẹrọ rẹ!\n\nṢe o da ọ loju bi?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Aṣiṣe ṣiṣi URI \"%s\" fun kika.</string>
+    <string name="error_empty_archive">\"%s\" jẹ iwe ipamọ ti o ṣofo.</string>
+    <string name="error_bad_archive_without_info">\"%s\" jẹ ile-ipamọ ti bajẹ.</string>
+    <string name="error_bad_archive_with_info">\"%s\" jẹ ile-ipamọ ti bajẹ.\nIfiranṣẹ lati ọdọ olutayo: \"%s\"</string>
+    <string name="security_error">Faili ko le ṣe ṣii nipa lilo app yii</string>
+    <string name="cloud_drive_tooltip">Ṣẹda asopọ Google Drive™ kan fun ṣiṣakoso awọn faili lati inu Oluṣakoso Faili Amaze.</string>
+    <string name="signin_with_google_title">Jẹri lati lo Google Drive™</string>
+    <string name="show_system_apps">Fi awọn ohun elo eto han</string>
+    
+    <string name="select_inverse">Yan Inverse</string>
+    <string name="select_by_type">Yan nipasẹ iru</string>
+    <string name="select_by_date">Yan nipasẹ ọjọ</string>
+    <string name="select_similar">Yan iru</string>
+    <string name="error_fetching_google_play_product_list">Aṣiṣe mimu atokọ ọja lati ọdọ Google Play.</string>
+    <string name="grant_all_files_permission">Lati Android 11, Google n beere lọwọ Awọn oluṣakoso faili lati beere igbanilaaye olumulo fun ṣiṣakoso gbogbo awọn faili lori ẹrọ naa. Awọn alaye nibi.
+        \n\nAmaze Oluṣakoso faili nilo igbanilaaye yii paapaa. Lẹhin titẹ "Gbigba"nibi, jọwọ yan Gba aaye laaye lati ṣakoso gbogbo aṣayan awọn faili loju iboju ti nbọ.
+        \n\n Piparẹ ọrọ sisọ yii yoo jade kuro ni app naa.</string>
+    <string name="user_apps">Awọn ohun elo olumulo</string>
+    <string name="appearance">Irisi</string>
+    <string name="behavior">Iwa</string>
+    <string name="appearance_summary">Ṣiṣe akori, awọn awọ ati irisi oluṣakoso faili.</string>
+    <string name="ui_summary">Ṣakoso iru alaye wo lati fihan, ṣe akanṣe ẹgbẹ ẹgbẹ, ki o yi awọn ayanfẹ UI pada</string>
+    <string name="behavior_summary">Ṣatunkọ awọn ihuwasi bii wiwa ilọsiwaju ati boya lati ṣii awọn faili bii iṣẹ-ṣiṣe tuntun</string>
+    <string name="security_summary">Ṣeto ọrọ igbaniwọle ati fifi ẹnọ kọ nkan</string>
+    <string name="backup_summary">Gbejade/Gbewọle Amaze eto</string>
+
+    <string name="pref_export">Gbejade</string>
+    <string name="pref_export_summary">Eto okeere</string>
+    <string name="pref_import">Kowọle</string>
+    <string name="pref_import_summary">Eto gbe wọle</string>
+
+    <string name="quick_desc">Awọn faili laipe wọle nipasẹ Amaze</string>
+    <string name="recent_desc">Laipe ti ṣẹda tabi awọn faili ti a tunṣe</string>
+    <string name="error_cannot_find_way_open">Ko le wa ọna lati ṣii faili</string>
+    <string name="error_cant_decompress_that_file">Ko le ṣe ilana pamosi ti o beere</string>
+    <string name="analyse_storage">Itupalẹ Ibi ipamọ</string>
+    
+    <string name="download_amaze_utils_text">O ti wa ni darí si Amaze File Utilities. O jẹ ohun elo orisun ṣiṣi wa ti o ni ohun / fidio/aworan / awọn oluwo iwe ti a ṣe sinu rẹ, ngbanilaaye lati ṣe itupalẹ awọn faili ijekuje lati sọ ibi ipamọ silẹ, gbigbe ni iyara ni lilo Wifi P2P ati pupọ sii.\n Jọwọ ṣe atilẹyin fun wa nipa gbiyanju rẹ.</string>
+    
+    
+    <string name="amaze_utils_installed_alias">O ṣeun fun fifi sori Awọn ohun elo Faili Amaze. O ti wa ni darí si awọn app.</string>
+    <string name="image_viewer">Iyalẹnu Oluwo Aworan</string>
+    
+    
+    
+    
+    
+    <string name="share_logs_summary">Pin awọn igbasilẹ ti o ya nipasẹ imeeli / telegram</string>
+    <string name="open_with_amaze">Ṣi pẹlu Amaze</string>
+    <string name="confirmation">Imudaniloju</string>
+    <string name="open_file_confirmation">Ṣe o daju pe o fẹ ṣi faili wọnyi bi?\n\nOrukọ:\n%s\n\nIbi:\n%s\n\nIwọn:\n%s\n\nMD5:\n%s\n\nSHA256:\n n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Ni awọn aṣẹ eto imulo Google Play, awọn ohun elo ko gba laaye lati ṣe imudojuiwọn ararẹ funrararẹ. Jọwọ ṣe imudojuiwọn app lati Google Play.</string>
+    <string name="error_cannot_get_package_info">Ko le gba alaye akojọpọ lati faili \"%s\" . Boya faili ti a sọ pato kii ṣe apk, tabi faili package ti bajẹ.</string>
+    <string name="preference_delete_confirmation">Pa ìmúdájú rẹ́</string>
+    <string name="preference_delete_confirmation_summary">Beere ìmúdájú ṣaaju piparẹ awọn faili. Pipa eyi jẹ irẹwẹsi pupọ!</string>
+    
+    
+    <string name="protocol_ftps">FTP to ni aabo</string>
+    <string name="unavailable">Unava</string>
+
+    <string name="exporting_failed">Iṣẹ okeere kuna: ko le kọ faili afẹyinti</string>
+    <string name="importing_failed">Iṣẹwọle kuna: ko le ka afẹyinti faili</string>
+    <string name="importing_completed">Iṣẹwọle ti pari</string>
+    <string name="invalid_backup_file">Faili afẹyinti ti ko tọ</string>
+    <string name="import_failed_for">Akowọle kuna fun:</string>
+    <string name="free_of">"%s\n%s ofe %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin ko ni atilẹyin pẹlu F- Ẹya Droid. Jọwọ lo Play Store version of Amaze.</string>
+    <string name="disable_player_intent_filters">Mu awọn asẹ ero inu ẹrọ ṣiṣẹ</string>
+    <string name="disable_player_intent_filters_summary">Pa Amaze awọn ẹrọ orin media inbuilt lati oluyan faili</string>
+    <string name="no_app_found_intent">Ko si app ti a rii lati mu idi yii mu. o ti fi DocumentsUI sori ẹrọ?</string>
+    <string name="cloud_connection_credentials_cleared">Awọn iwe-ẹri Asopọ awọsanma ti parẹ</string>
+    <string name="cloud_connection_credentials_cleared_msg">Laanu, a ko lagbara lati gbe awọn iwe-ẹri asopọ awọsanma rẹ lọ si ero data data tuntun, ati pe a ni lati yọ wọn kuro ninu app naa. Jọwọ ṣẹda asopo awọsanma lẹẹkansi.</string>
+</resources>

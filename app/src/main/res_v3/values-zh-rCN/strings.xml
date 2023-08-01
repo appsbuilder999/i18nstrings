@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="dialog_delete_title">永久删除项目？</string>
+    <string name="deleting">删除</string>
+    <string name="question_set_path_as_home">是否要设置当前路径作为此选项卡的主页？</string>
+    <string name="directorysort">目录排序模式</string>
+    <string name="sort_by">排序方法</string>
+    <string name="sort_only_this">仅限此文件夹</string>
+    <string name="theme">主题</string>
+    <string name="random">随机皮肤</string>
+    <string name="random_summary">启动时设置随机主色</string>
+    <string name="colorize">为图标着色</string>
+    <string name="colorize_summary">设置静态图标颜色。不会覆盖目录图标颜色首选项。</string>
+    <string name="smb_instructions"><![CDATA[
+        <html>
+            <正文>
+                <h1>如何访问 Android (SMB) 上的共享 Windows 文件夹</h1>\n\n
+                <ul>
+                    <li>
+                        <b>在 Windows 上启用文件共享</b>\n
+                    </li>
+                    <p style="margin-left: 40px">
+                        打开控制面板，单击网络下的选择家庭组和共享选项
+                        和 Internet，然后单击“更改高级共享设置”，启用“文件和
+                        打印机共享”功能。\n\n
+                    </p>
+
+                    <li>
+                        <b>其他文件共享设置</b>\n
+                    </li>
+                    <p style="margin-left: 40px">
+                        您可能还想在此处配置其他高级共享设置。 \n
+                        例如，如果您信任所有内容，则无需密码即可允许访问您的文件
+                        您本地网络上的设备。启用文件和打印机共享后，您可以
+                        打开文件资源管理器或 Windows 资源管理器，右键单击要共享的文件夹，然后
+                        选择属性。 \n
+                        单击“共享”按钮并使该文件夹在网络上可用。\n\n
+                        </p>
+
+                    <li>
+                        <b>确保两个设备都在同一个 Wifi 上</b>\n
+                    </li>
+                    <p style="margin-left: 40px">
+                        此功能使文件在本地网络上可用，因此您的 PC 和移动设备
+                        必须位于同一本地网络上。您无法访问共享 Windows 文件夹
+                        通过互联网或当您的智能手机连接到其移动数据时 - 它
+                        必须连接到 Wi-Fi。\n\n
+                    </p>
+
+                    <li>
+                        <b>查找 IP 地址</b>\n
+                    </li>
+                    <p style="margin-left: 40px">
+                        打开命令提示符。输入“ipconfig”并按 Enter 键。寻找默认网关
+                        在网络适配器下找到路由器的 IP 地址。寻找
+                        同一适配器部分下的“IPv4 地址”可查找您计算机的 IP
+                        地址。\n\n
+                    </p>
+
+                    <b>在 SMB 对话框中输入详细信息</b>\n
+                </ul>
+            </正文>
+        </html>
+   ]]></string>
+</resources>

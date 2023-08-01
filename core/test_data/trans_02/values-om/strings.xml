@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Faayilii Bulchaa</string>
+    <string name="drawer_open">Baasiin navigeeshinii banaa</string>
+    <string name="drawer_close">Baafata navigeeshinii cufi</string>
+    <string name="icon">mallattoo</string>
+    <string name="apps">Bulchaa Appii</string>
+    <string name="ftp">Tajaajira FTP</string>
+    <string name="setting">Sajoo</string>
+    <string name="select">Wanta filadhu</string>
+    <string name="press_again">Ba\'uuf irra deebi\'ii dhiibi</string>
+    <string name="open">Bani</string>
+    <string name="backup">Duuwwaa</string>
+    <string name="uninstall">Hininstall</string>
+    <string name="play">Kuusaa tapha</string>
+    <string name="properties">Amaloota</string>
+    <string name="copyingapks">Faayilota APK %d gara %s tti waraabuu</string>
+    <string name="delbook">Mallattoo Haquu</string>
+    <string name="add_to_bookmarks">Mallattootti Dabaluu</string>
+    <string name="enterpath">Daandii Galchi</string>
+    <string name="cancel">HAQA</string>
+    <string name="create">UUMUU</string>
+    <string name="loading">Fe\'amaa jira...</string>
+    <string name="file_empty">Faayilii duwwaa dha</string>
+    <string name="error">Dogongorri</string>
+    <string name="search_results">Bu\'aa barbaacha %s</string>
+    <string name="rename">Maqaa jijjiiri</string>
+    <string name="save">Qusa</string>
+    <string name="bookmarks_added">Mallattoolee Dabalame</string>
+    <string name="fileexist">Faayilii maqaa walfakkaataa qabu duraan jira</string>
+    <string name="name">Maqaa</string>
+    <string name="date">Guyyaa</string>
+    <string name="location">Iddoo</string>
+    <string name="size_capitalized">Hanga</string>
+    <string name="size">guddina galmee</string>
+    <string name="enterzipname">Maqaa Ziip galchi</string>
+    <string name="no_app_found">Faayila kana banuuf Appiin hin argamne</string>
+    <string name="copying">Waraabbii</string>
+    <string name="moving">Sochoosuu</string>
+    <string name="file">Faayilii</string>
+    <string name="folder">Galmee</string>
+    <string name="newfolder">Galmee Haaraa</string>
+    <string name="entername">Maqaa Galchi</string>
+    <string name="extracting">Baasuu</string>
+    <string name="stopping">Dhaabbii</string>
+    <string name="open_parent">Galmee Warra Bani</string>
+    <string name="open_with">Waa\'ee</string>
+    <string name="share">Qoodi</string>
+    <string name="about">Waa\'ee</string>
+    <string name="extract">Baasi</string>
+    <string name="compress">Dhiibsi</string>
+    <string name="yes">waliinbanaa&gt;Eeyyee</string>
+    <string name="no">Lakki</string>
+    
+    <string name="dialog_delete_category_directories">Daayirektaroota</string>
+    <string name="dialog_delete_category_files">Faayilota</string>
+    <string name="dialog_delete_disclaimer">Wantoota armaan gadii haquun dhaabbataadhaan meeshaa keessan irraa ni balleessa, deebi\'anii argamuu hin danda\'an.</string>
+    <string name="dialog_delete_title">Wantoota dhaabbataadhaan haqi?</string>
+    <string name="deleting">Haquu</string>
+    <string name="question_set_path_as_home">Daandii ammee akka manaatti caancala kanaaf saaguu barbaaddaa?</string>
+    <string name="directorysort">Haala Sajoo Galmee</string>
+    <string name="sort_by">Saagi By</string>
+    <string name="sort_only_this">Galmee kana qofa</string>
+    <string name="theme">Mata duree</string>
+    <string name="random">Gogaa Tasa</string>
+    <string name="random_summary">Jalqaba irratti halluu jalqabaa tasaa saaga</string>
+    <string name="colorize">Mallattoolee Halluu</string>
+    <string name="colorize_summary">Saga halluu mallattoo hin jijjiiramne. Filannoo halluu mallattoo galmee hin irra darbu.</string>
+    <string name="home">Mana</string>
+    <string name="paste">Maxxansi</string>
+    <string name="history">Seenaa</string>
+    <string name="copy">Waabi</string>
+    <string name="root_mode">Hundee Qorataa</string>
+    <string name="root_mode_summary">Meeshaa hundee qabu qofaaf. Yoo waa\'ee isaa mirkaneeffatte qofa ilaali.</string>
+    <string name="root_failure">Hundee Dhaqqabummaan hin kennamne</string>
+    <string name="select_all">Hunda filadhu</string>
+    <string name="delete">Haqi</string>
+    <string name="set_as_home">Akka Manaatti Saagi</string>
+    <string name="operation_not_supported">Hojiin hin deeggaramne</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Ifa Meeshaa</string>
+    <string name="dark">Dukkana Meeshaa</string>
+    <string name="daytime">Yeroo Guyyaa</string>
+    <string name="black">Gurraacha (OLED\'f)</string>
+    <string name="system">Sirna (mata duree sirnaa hordofaa)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Galmeewwan Gubbaa</string>
+    <string name="filesOnTop">Faayilota Gubbaa</string>
+    <string name="none_on_top">Tokkollee Gubbaa irratti</string>
+    <!--SortBy-->
+    <string name="sort_name">Maqaa</string>
+    <string name="lastModified">Yeroo Dhuma Fooyya\'e</string>
+    <string name="sort_size">Hanga</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Faayilii tokko filadhu</string>
+    <string name="process_viewer">Ilaaltuu Adeemsaa</string>
+    <string name="in_safe">Iddoon gahaa miti</string>
+    <string name="no_file_overwrite">Faayilli Irra Barreeffame hin jiru</string>
+    <string name="skip">Darbi</string>
+    <string name="overwrite">Irra Barreessaa</string>
+    <string name="not_allowed">Hin Hayyamame</string>
+    <string name="searching">Barbaacha %s</string>
+    <string name="done">Raawwatame</string>
+    <string name="set">Saagi</string>
+    <string name="enablerootmde">Haala Hundee Dandeessisi</string>
+    <string name="goback">Duuba Deebi\'i</string>
+    <string name="newfile">Faayilii Haaraa</string>
+    <string name="no_files">Faayilota hin jiran</string>
+    <string name="used">bakka fayyadame</string>
+    <string name="used_by_others">warra kaan fayyadame</string>
+    <string name="free">bakka bilisaa</string>
+    <string name="listview">Ilaalcha Tarree</string>
+    <string name="gridview">Grid Ilaalcha</string>
+    <string name="permission">Eeyyama</string>
+    <string name="hide">Dhoksaa</string>
+    <string name="exit">Ba\'i</string>
+    <string name="doforall">Wantoota hundaaf hojjedhu</string>
+    <string name="gridcolumnno">Lakkoofsa tarjaa ilaalcha tarjaa keessatti</string>
+    <string name="set_random">Jijjiiramni kan raawwatamu erga appii</string>
+    <string name="authors">Barreessitoota</string>
+    <string name="changelog">Jijjiirama</string>
+    
+    <string name="ui">Walqunnamtii</string>
+    <string name="general">Waliigala</string>
+    <string name="thumb_summary">irra deebitee jalqabdee booda Fakkiiwwan Xiqqaa appii fi fakkiiwwan agarsiisi</string>
+    <string name="thumb">Suuraalee Xiqqaa Agarsiisi</string>
+    <string name="hidden">Faayilota fi Galmeewwan Dhokaman Agarsiisi</string>
+    <string name="lastModifiedSummary">Guyyaa fi sa\'aatii fooyya\'iinsa dhumaa agarsiisi</string>
+    <string name="lastModifiedPref">Guyyaa Fooyya\'e Dhumaa Agarsiisi fi Yeroo</string>
+    <string name="size_pref_summary">Hanga faayilii fi baay\'ina wantoota galmee keessa jiran agarsiisi</string>
+    <string name="size_pref">Hanga agarsiisi</string>
+    <string name="miscellaneous">Adda addaa</string>
+    <string name="root_pref_summary">Hayyama Faayilii fi Galmeewwan agarsiisi</string>
+    <string name="root_pref">Hayyama Agarsiisi</string>
+    <string name="about_amaze_file_manager_label">Waa\'ee Bulchaa Faayilii Amaze</string>
+    <string name="version">Vershinii</string>
+    <string name="rate">Appii madaaluu</string>
+    <string name="feedback">Yaada Ergi</string>
+    <string name="hiddenfiles">Faayilota Dhokataa</string>
+    <string name="type">Barreessaa</string>
+    <string name="root_directory">Hundee</string>
+    <string name="add_shortcut">Kara Gabaabaa Dabaluu</string>
+    <string name="unsaved_changes">Jijjiiramoota Hin Qusatamne</string>
+    <string name="unsaved_changes_description">Jijjiiramoota hin qusatamne qabda, osoo hin ba\'iin dura qusachuu barbaaddaa?</string>
+    <string name="saving">Qusachuu</string>
+    <string name="package_installer">Dhaabbataa Paakeejii</string>
+    <string name="view">Ilaaluu</string>
+    <string name="install">Dhaabuu</string>
+    <string name="archive">Kuusaa</string>
+    <string name="archive_text">Kun kuusaa dha. Tarkaanfii akkamii raawwachuu barbaadda?</string>
+    <string name="package_installer_text">Kun fe\'aa paakeejii ti. Gocha akkamii raawwachuu barbaadda?</string>
+    <string name="xda_title">Dhaamsa XDA</string>
+    <string name="xda_summary">Gaaffii fi Deebii, Gargaarsa fi Rakkoo furuu</string>
+    <string name="circular_images">Fakkii fi viidiyoodhaaf mallattoo geengoo fayyadami</string>
+    <string name="circular_icons">Mallattoo geengoo fayyadami</string>
+    <string name="back_title">Navigeeshinii duubatti</string>
+    <string name="back_summary">Navigeeshinii duubaa amala tarree gubbaa dandeessisa</string>
+    <string name="details">Bal\'ina</string>
+    <string name="translators">Hiiktoota</string>
+    <string name="german_translation_title">Jarmanii</string>
+    <string name="italian_translation_title">Xaaliyaanii</string>
+    <string name="french_translation_title">Faransaayi</string>
+    <string name="russian_translation_title">Afaan Raashiyaa</string>
+    <string name="spanish_translation_title">Ispeen</string>
+    <string name="basque_translation_title">Baaskii</string>
+    <string name="chinese_translation_title">Chaayinaa</string>
+    <string name="serbian_translation_title">Afaan Sarbiyaa</string>
+    <string name="turkish_translation_title">Afaan Turkii</string>
+    <string name="ukrainian_translation_title">Afaan Yukireen</string>
+    <string name="portuguese_translation_title">Afaan Poortugaal</string>
+    <string name="polish_translation_title">Afaan Poolaandi</string>
+    <string name="korean_translation_title">Afaan Kooriyaa</string>
+    <string name="greek_translation_title">Afaan Giriikii</string>
+    <string name="dutch_translation_title">Afaan Hoolaandii</string>
+    <string name="romanian_translation_title">Afaan Roomaa</string>
+    <string name="vietnamese_translation_title">Lammii Veetnaam</string>
+    <string name="japanese_translation_title">Jaappaan</string>
+    <string name="tamil_translation_title">Taamill</string>
+
+    <string name="zip_viewer">Ilaaltuu Ziip</string>
+    <string name="unin_system_apk">Kun appii sirnaati, haquun tasgabbii dhabuu sirnichaa fiduu danda\'a.\nItti fufaa?</string>
+    <string name="warning">Akeekkachiisa</string>
+    <string name="donate">Arjooma</string>
+    <string name="archive_extract_folder">Galmee Kuusaa Baasuu</string>
+    <string name="archive_summary">Faayiloonni kuusaa gara galmee kanaatti ni baafamu. Gatiin durtii galmee kuusaan keessa jirudha.</string>
+    <string name="open_as">Akka</string>
+    <string name="text">Barruu</string>
+    <string name="audio">Sagalee</string>
+    <string name="video">Viidiyoo</string>
+    <string name="other">Kanneen biroo</string>
+    <string name="image">Fakkii</string>
+    <string name="contributors">Gumaachitoota</string>
+    <string name="save_paths">Daandiiwwan yaadadhu</string>
+    <string name="save_path_summary">Yeroo jalqabdu, galmeen dhiheenyatti ilaalame tokkoon tokkoo caancala ni mul\'ata</string>
+    <string name="select_intent">Filadhu</string>
+    <string name="database">Kuusaa deetaa</string>
+    <string name="colored_navigation">Barruu Naanna\'aa Halluu</string>
+    <string name="colored_navigvation_sum">Barruu navigeeshinii sirnaa gogaa wajjin halluu qabaachuu fi dhiisuu isaa</string>
+
+    <string name="color_title">Halluu</string>
+    <string name="color_summary">Halluu gara qaamolee UI adda addaatti saagi</string>
+    <string name="primary_color_title">Halluu Duraa (Caancala Bitaa)</string>
+    <string name="primary_color_summary">Halluu gara qaamolee UI gurguddootti caancala bitaaf saagi</string>
+    <string name="accent_color_title">Halluu Sagalee</string>
+    <string name="accent_color_summary">Halluu gara FAB fi UI xixiqqoo birootti saagi elementoota</string>
+    <string name="icon_color_title">Halluu Mallattoo</string>
+    <string name="icon_color_summary">Halluu gara mallattoolee saagi</string>
+    <string name="choose_color">Halluu filadhu</string>
+    <string name="files">Faayilii</string>
+    <string name="textreader">Dubbisaa Barruu</string>
+    <string name="databasereader">Dubbisaa Kuusaa Deetaa</string>
+    <string name="show_dividers">Qodeessitoota Agarsiisi</string>
+    <string name="needs_access">Qabxii Barreessuu Barbaachisa</string>
+    <string name="needs_access_summary">Maaloo galmee hundee \t</string>
+    <string name="needs_access_summary1">\</string>
+    <string name="smb_connection">hojjechuuf qaqqabummaa barreessuu hayyamuuf filadhu Walqabsiisa SMB</string>
+    <string name="smb_server">Teessoo IP Sarvarii</string>
+    <string name="server_address">Teessoo IP Sarvarii</string>
+    <string name="username">Maqaa Fayyadamaa</string>
+    <string name="password">Jecha icciitii</string>
+    <string name="anonymous">Maqaa hin beekamne</string>
+    
+    <string name="folders">Galmeewwan</string>
+    <string name="folderfilecount">Galmeewwan %1$d fi faayilii %2$d</string>
+    <string name="videos">Viidiyoowwan</string>
+    
+    <string name="documents">Galmeewwan</string>
+    <string name="images">Fakkii</string>
+    <string name="clear">Qulqulleessi</string>
+    
+    <string name="total">Waliigala:</string>
+    <string name="calculating">shallaguu</string>
+    <string name="sort">Sassaabuu</string>
+    <string name="ascending">Olba\'aa</string>
+    <string name="descending">Gadi bu\'aa</string>
+    <string name="default_string">Durtii</string>
+    <string name="doit">Ni</string>
+    <string name="want_help">Gargaarsa barbaachisa?</string>
+    <string name="quick">Saffisaan argachuu</string>
+    <string name="recent">Faayilota dhiyoo</string>
+    <string name="edit">Gulaali</string>
+    <string name="find">Fuula keessatti barbaadi</string>
+    <string name="grant">Keen</string>
+    <string name="grantper">Hayyama kenni</string>
+    <string name="grantfailed">Eeyyamni hin kennamne</string>
+    <string name="grant_storage_permission">App itti fufuuf hayyama kuusaa barbaada. Qaaqa kana haquun appii keessaa ni ba\'a.</string>
+    <string name="operation_unsuccesful">Hojii Hin Milkaa\'in</string>
+    <string name="creatingfile">Faayilii Uumuu</string>
+    <string name="creatingfolder">Galmee Uumuu</string>
+    <string name="renaming">Maqaa jijjiiruu</string>
+    <string name="cant_be_empty">%s duwwaa ta\'uu hin danda\'u</string>
+    <string name="ip">Teessoo</string>
+    <string name="connection_name">Maqaa walqabsiisaa</string>
+    <string name="no_device_found">Meeshaaleen hin argamne</string>
+    <string name="path">Daandii</string>
+    <string name="rename_bookmark">Mallattoo Fooyyessi</string>
+    <string name="cut">Kuta</string>
+    <string name="search">Barbaadi</string>
+    <string name="invalid_name">Maqaa Sirrii hin taane</string>
+    <string name="search_hint">Akkaataa barbaacha...</string>
+    <string name="advanced_search">Barbaacha Sadarkaa Ol\'aanaa</string>
+    <string name="regular_expression">Ibsa Idilee</string>
+    <string name="regular_expression_summary">Ibsa idilee akkaataa BASH fayyadamuun barbaadi</string>
+    <string name="match_content">Qabiyyee walsimsiisaa</string>
+    <string name="match_content_summary">Yoo saagame, ibsi idilee maqaa faayilii guutuu wajjin walsimsiifama, .
+        yoo ta\'uu baate uumamuu ni barbaada.</string>
+    <string name="start_ftp">Jalqaba</string>
+    <string name="stop_ftp">Dhaabbii</string>
+    <string name="ftp_status_running">Fiigicha</string>
+    <string name="ftp_status_not_running">Hin Hojjetu</string>
+    <string name="ftp_no_wifi">Wi waliin wal qunnamuu kee mirkaneessi -Fi</string>
+    <string name="domain">Domeenii</string>
+    <string name="smb_share">Daandii qoodinsa</string>
+    <string name="invalid">%s sirrii hin taane</string>
+    <string name="ftp_notif_starting">Tarvariin FTP jalqabamaa jira</string>
+    <string name="ftp_notif_starting_title">Tajaajira FTP</string>
+    <string name="ftp_notif_title">Amaze FTP Server kan hojjetu</string>
+    <string name="ftp_notif_text">%s</string>
+    
+    <string name="ftp_port_edit_menu_title">Buufata FTP</string>
+    <string name="ftp_port_change_success">Buufata FTP milkaa\'inaan jijjiirame</string>
+    <string name="ftp_port_change_error_invalid">Lakkoofsi buufata sirrii hin taane filatame</string>
+    <string name="primary_two_title">Halluu Duraa (Cancala Mirgaa)</string>
+    <string name="primary_two_summary">Halluu gara qaamolee UI gurguddootti caancala sirrii</string>
+    <string name="support_development">Misooma Deeggarsa</string>
+    <string name="report_bugs_title">Dogoggora Gabaasaa</string>
+    <string name="source_title">Koodii madda</string>
+    <string name="source_summary">Koodii madda keenya GitHub irratti ilaali</string>
+    <string name="report_bugs_summary">Dogoggora gabaasuu ykn amala haaraa gaafadhu</string>
+    <string name="translate_title">Hiikkaa</string>
+    <string name="translate_summary">Amaze afaan keetiin hiikaa</string>
+    <string name="paypal_copy_message">ID PayPal gara clipboard waraabame</string>
+    <string name="searching_devices">Meeshaalee barbaaduu</string>
+    <string name="use_custom_ip">IP amala fayyadamuu</string>
+    <string name="bookmark_lost">Mallattoon hin argamne, irra deebi\'ee uumuu...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Akkaataa galmee Windows qooddame Android (SMB) irratti argachuu dandeenyu\n\n
+                
+                    
+                        Qoodinsa Faayilii Windows irratti dandeessisi\n
+                    
+                    
+                        Qaaqa Too\'annoo bani, filannoowwan HomeGroup fi Sharing Filadhu Network jalatti cuqaasi
+                        fi Intarneetii, fi "Sajoo Qoodamuu Ol\'aanaa Jijjiiri" cuqaasuudhaan, "Faayilii fi
+                        Qoodamuu Maxxansaa" amala.\n\n
+                    
+
+                    
+                        Sajoo Qoodinsa Faayilii Dabalataa\n
+                    
+                    
+                        Akkasumas qindaa\'inoota qoodinsa sadarkaa olaanaa biroo asitti qindeessuu barbaadda ta\'a. \n
+                        Fakkeenyaaf, yoo hunda amante faayiloota kee jecha icciitii malee argachuu dandeessisuu dandeessa
+                        meeshaalee networkii naannoo keessanii irratti argaman. Qoodinsi faayilii fi maxxansaa erga dandeessifamee booda, ni dandeessa
+                        File Explorer ykn Windows Explorer banaa, galmee qooduu barbaaddu mirga cuqaasaa, fi
+                        Amaloota filadhu. \n
+                        Qabduu Qoodi cuqaasiitii galmee networkii irratti akka argamu godhi.\n\n
+                        
+
+                    
+                        Meeshaaleen lamaan Wifi tokko irratti akka jiran mirkaneessi\n
+                    
+                    
+                        Amalli kun faayiloota networkii naannoo irratti akka argaman taasisa, kanaaf PC fi meeshaalee moobaayilaa keessan
+                        networkii naannoo tokko irratti ta’uu qabu. Galmee Windows qooddame argachuu hin dandeessu
+                        karaa interneetii ykn yeroo bilbila ismaartii keessan daataa mobaayilaa isaa waliin walqabatu — it
+                        Wi-Fi waliin walqabsiisuu qaba.\n\n
+                    
+
+                    
+                        Teessoo IP Barbaadi\n
+                    
+                    
+                        Ajaja Bani. \'ipconfig\' barreessiitii Enter dhiibi. Karra Durtii barbaadi
+                        teessoo IP raawwatara keessaniif adaaptara network keessanii jalatti. Barbaadaa
+                        \\\"IPv4 Address\\\" kutaa adaaptara walfakkaataa jalatti IP kompiitara keessanii argachuuf
+                        teessoo.\n\n
+                    
+
+                    Bal\'ina sanduuqa qaaqa SMB keessatti galchi\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Faayilota 100 ol qooduun hin danda\'amu</string>
+    <string name="otg_access">Hundee meeshaa OTG filadhu</string>
+    <string name="information">Odeeffannoo</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Dhagame</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Foyya\'e</string>
+
+    <string name="title">Mata duree</string>
+    <string name="artist">Aartiistii</string>
+    <string name="album">Albamii</string>
+    <string name="year">Waggaa</string>
+    <string name="duration">Yeroo</string>
+    <string name="comment">Yaada</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Qabeessaa</string>
+    <string name="codec">Koodii</string>
+    <string name="channels">Chaanaalii</string>
+    <string name="sample_rate">Saffisa Saamudaa</string>
+    
+    
+    <string name="frame_rate">Saffisa Fureemii</string>
+    <string name="image_type">Akkaataa Fakkii</string>
+    <string name="width">Bal’ina</string>
+    <string name="height">Olka’iinsa</string>
+    <string name="date_modified">Guyyaa Fooyya’e</string>
+    
+    <string name="creator">Uumaa</string>
+    <string name="camera_brand">Maqaa Kaameeraa</string>
+    <string name="camera_model">Moodeela Kaameeraa</string>
+    <string name="date_taken">Guyyaa Fudhatame</string>
+    <string name="exposure_time">Yeroo Saaxilamummaa</string>
+    <string name="aperture_value">Gatii Aperture</string>
+    <string name="image_iso">Sadarkaa Saffisa ISO</string>
+    
+    <string name="focal_length">Dheerinni Xiyyeeffannoo</string>
+    <string name="subject">Mata duree</string>
+    <string name="author">Barreessaa</string>
+    <string name="keywords">Jechoota ijoo</string>
+    <string name="producer">Oomishaa</string>
+    <string name="created">Uumame</string>
+    <string name="format">Foormaatii</string>
+    <string name="pages">Baay\'ina Fuula</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Foyya\'e</string>
+    <string name="security">Nageenya</string>
+    <string name="paper_size">Hanga Waraqaa</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Faayiloonni tokko tokko\'. t milkaa\'inaan %s</string>
+    <string name="copied">koppii</string>
+    <string name="moved">socho\'e</string>
+    <string name="copy_complete">Warabii Guutuu</string>
+    <string name="waiting_title">Eegaa</string>
+    <string name="waiting_content">Hojiin akka xumuramu eegaa jira</string>
+    <string name="extract_complete">Baasuun xumurame</string>
+    <string name="compression_complete">Dhiibbaa Xumurame</string>
+    <string name="compressing">Dhiibbaa</string>
+    <string name="cancelled">Haqame</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Barreeffame</string>
+    <string name="out_of">ba\'ee</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">kan</string>
+    <string name="processing_file">Faayilii adeemsa</string>
+    <string name="current_speed">Saffisa Ammaa</string>
+    <string name="smb_launch_error">Faayilii kana banuuf gara kuusaatti waraabuu si barbaachisa</string>
+    <string name="error_file_not_found">Dogongorri: Faayilii Hin Argamne</string>
+    <string name="error_io">Dogongorri I/O</string>
+    <string name="error_file_too_large">Dogongorri: Faayilii Garmalee Guddaa</string>
+    <string name="medium_text">Barruu Giddugaleessaa</string>
+    <string name="permission_read">Dubbisi</string>
+    <string name="permission_write">Barreessuu</string>
+    <string name="permission_execute">Raawwadhu</string>
+    <string name="permission_owner">Abbaa</string>
+    <string name="permission_group">Gareen</string>
+    <string name="permission_other">Kanneen biroo</string>
+    <string name="clipboard_path_copy">Daandii waraabame gara clipboard</string>
+    <string name="service_timer">Yeroon darbe</string>
+    <string name="please_wait">Maaloo Eegaa</string>
+
+    <string name="cloud_connection">Walqabsiisa Duumessaa</string>
+    <string name="cloud_connection_new">Walqabsiisa Duumessaa Haaraa</string>
+    
+    <string name="cloud_drive">Google Drive TM</string>
+    
+    <string name="cloud_box">Sanduqa</string>
+    <string name="cloud_get">Ijaarsa Duumeessaa argadhu</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Aplikeeshinii hin jiru</string>
+    <string name="ftp_path">Daandii Qoodame</string>
+    <string name="ftp_path_hint">Daandii gara hundee kan galmee qooduuf</string>
+    <string name="change">Jijjiirraa</string>
+    <string name="unknown_error">Oops, wanti tokko dogoggora ta\'eera!</string>
+
+    <string name="ftp_path_change_success">Daandiin FTP milkaa\'inaan jijjiirame</string>
+    <string name="ftp_path_change_error_invalid">Daandii sirrii hin taane</string>
+    <string name="ftp_status_no_connection">Walqabsiisni hin jiru</string>
+    <string name="ftp_status_secure_connection">Walqabsiisa Nageenyaa</string>
+    <string name="ftp_status_title">Haala</string>
+    <string name="ftp_port">Buufata</string>
+    <string name="ftp_login">Seensa</string>
+    <string name="field_empty">Dirree duwwaa ta\'uu hin danda\'u</string>
+    <string name="ftp_timeout">Yeroon hojii malee jiraachuu</string>
+    <string name="ftp_seconds">Sekondii</string>
+    <string name="intellihide_toolbar_title">Barruu Meeshaa Intellidhoksuu</string>
+    <string name="intellihide_toolbar_summary">Yeroo garagalchitu ofumaan barruu meeshaa dhoksi</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">gara kiliipboordii</string>
+    <string name="contributors_1_summary">tti waraabame Hiikkaa</string>
+    <string name="contributors_2_summary">Mallattoo fi baanaroota</string>
+    <string name="contributors_3_summary">Motora Mata duree</string>
+    <string name="contributors_4_summary">Gaaddidduu FAB duuba</string>
+    <string name="contributors_5_summary">Yeroo caancalaa harkisuu</string>
+    <string name="contributors_6_summary">Tajaajira FTP</string>
+    <string name="contributors_7_summary">Sheelii walqunnamtii dhukaasuun</string>
+    <string name="connection_exists">Walqabsiisni duraan jira</string>
+
+    <string name="crypt_encrypting">Icciitii</string>
+    <string name="crypt_decrypting">Icciitii hiikuu</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Icciitii</string>
+    <string name="crypt_decrypted">Icciitii</string>
+    <string name="crypt_encrypt">Icciitii</string>
+    <string name="crypt_decrypt">Icciitii</string>
+    <string name="operation_fail_following">Faayilota armaan gadiitif hojiin hin milkoofne</string>
+    <string name="crypt_pref_master_password_title">Jecha Icciitii Guddaa</string>
+    <string name="crypt_pref_master_password_summary">Icciitii icciitiidhaaf jecha icciitii guddaa saagi.
+        Haquuf duwwaa dhiisi.</string>
+    <string name="crypt_pref_fingerprint_title">Ashaaraa qubaa</string>
+    <string name="crypt_pref_fingerprint_summary">Icciitii mirkaneessuuf ashaaraa qubaa fayyadami</string>
+    <string name="crypt_fingerprint_no_permission">Heyyamni ashaaraa qubaa dhabame</string>
+    <string name="crypt_fingerprint_not_enrolled">Ashaaraa qubaa hin galmaa\'e</string>
+    <string name="crypt_fingerprint_no_security">Nageenyi iskiriinii cufiinsaa hin jiru found</string>
+    <string name="crypt_warning_key">Gorfamaa, yeroo akkaataa nageenyaa keessan irraa jijjiirtan
+        Sajoo sirnaa, qabiyyee kana hiikuu hin dandeessu.</string>
+    <string name="warning_never_show">Irra deebitee hin beeksisin</string>
+    <string name="warning_confirm">Argadheera!</string>
+    <string name="crypt_encryption_fail">Icciitii gochuu hin dandeenye</string>
+    <string name="crypt_decryption_fail">Icciitii hiikuu hin dandeenye</string>
+    <string name="crypt_decryption_fail_password">Jecha icciitii dogoggoraa!</string>
+    <string name="crypt_fingerprint_authenticate">Itti fufuuf sensara tuqaa</string>
+    <string name="authenticate_password">Jecha icciitii galchi</string>
+
+    <string name="sidebar_preferences">Barruu Cinaa</string>
+    <string name="sidebar_quick_access_title">Sidebar saffisaan argachuu</string>
+    <string name="show_quick_access_pref_title">Dargabbii saffisaa agarsiisi</string>
+    <string name="show_quick_access_pref">Dargannoo ariifataa</string>
+    <string name="directory">Galmee</string>
+
+    <string name="sidebar_bookmarks_title">Mallattoolee barruu cinaa</string>
+    <string name="show_bookmarks_pref_title">Mallattoolee agarsiisi</string>
+    <string name="show_bookmarks_pref">Mallattoolee</string>
+    <string name="create_bookmark">Mallattoo uumi</string>
+    <string name="edit_bookmark">Mallattoo gulaaluu</string>
+    <string name="question_delete_bookmark">Mallattoo haqi?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud plugin hin argamne. Mee Play Store irraa buufadhaa.</string>
+    <string name="cloud_error_failed_restart">Walqabsiisni fe\'uu hin dandeenye.
+        Maaloo Amaze Cloud al tokko banaa.</string>
+    <string name="cloud_remove">Walqabsiisa duumessaa haquu barbaaddaa?</string>
+    <string name="cloud_fail_authenticate">Mirkaneessuu hin dandeenye</string>
+    <string name="cloud_share_copied">Hidhiin qoodamuu danda\'u gara gabatee kiliippiitti waraabame</string>
+    <string name="copy_low_memory">Dhumaa jira yaadannoo, maaloo RAM tokko tokko qulqulleessi</string>
+    <string name="cloud_token_lost">Mallattoo bade, maaloo irra deebi\'ii galmaa\'i</string>
+    <string name="monofont">Qubee Iddoo Tokko</string>
+    <string name="showHeaders">Mata duree Agarsiisi</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Wanta hin jiru</string>
+	<string name="item">wanta</string>
+	<string name="items">wantoota</string>
+	
+	<string name="byte_singular">baayitii</string>
+	<string name="bytes">baayitii</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Faayilii maqaa qabaachuu qaba</string>
+    <string name="add_item">Wanta Dabaluu</string>
+    <string name="failed_smb_decrypt_path">Walqabsiisa SMB fe\'uu hin dandeenye</string>
+    <string name="failed_cloud_new_connection">Walqabsiisa Duumeessaa haaraa dabaluu hin dandeenye</string>
+    <string name="failed_cloud_api_key">Hin dandeenye mirkaneessuu Duumeessa ifteessaa</string>
+
+    <string name="local_inet_addr_error">Dogongorri teessoo inet naannoo argachuu</string>
+    <string name="intent_save_as">Akka...</string>
+    <string name="go">Deemi</string>
+    <string name="advanced">Guddaa</string>
+    <string name="typeable_paths_title">Daandiiwwan amala</string>
+    <string name="typeable_paths_summary">Daandii amala barreessuuf barruu daandii yeroo dheeraa dhiibaa</string>
+    <string name="send_email_to">E-mail gara</string>
+
+    <string name="text_editor">Qajeelfama gulaalaa barruu</string>
+    <string name="preference_newstack_title">Faayilota akka hojii haaraatti bana</string>
+    <string name="preference_newstack_summary">Faayilota hojii adda addaa keessatti banuuf si dandeessisa. Iskiriinii dhiheenya sirnaa irraa isaan argachuu.</string>
+    
+    
+    <string name="no_bitcoin_app">Maaloo appii Bitcoin Wallet fe\'aa</string>
+    <string name="channel_name_normal">Beeksisa Ajaa\'ibsiisaa</string>
+    <string name="channel_description_normal">Beeksisa Bulchaa Faayilii Ajaa\'ibsiisaa</string>
+    
+    <string name="channel_description_ftp">Faayila Ajaa\'ibsiisaa Beeksisa Tarjaa FTP Bulchaa</string>
+
+    
+    <string name="processing">Adeemsa...</string>
+    <string name="failed_no_connection">Faayilota fe\'uu hin dandeenye. Maaloo walqabsiisa kee ilaali.</string>
+
+    
+	<string name="scp_connection">Walqabsiisa SCP/SFTP</string>
+    <string name="ftp_connection">Walqabsiisa FTP</string>
+    <string name="ftps_connection">Walqabsiisa FTP SSL irratti</string>
+    <string name="scp_port">Buufata</string>
+    <string name="ssh_host_key_verification_prompt">Dhugummaan keessummeessituu \'%1$s\' hundeeffamuu hin danda\'u.\n\n%2$s ashaaraa qubaa furtuu %3$s dha.\n\nMaaloo mirkaneessuuf \"Eeyyee\" tuqi eenyummaa; yoo kana hin taane, maaloo \"Lakki\" tuqi.</string>
+    <string name="ssh_host_key_verification_prompt_title">Keessummeessituu Mirkaneessi</string>
+    <string name="ssh_select_pem_button">SSH Furtuu Dhuunfaa</string>
+    <string name="ssh_pem_key_parse_error">PEM filatame dubbisuu hin dandeenye: %s</string>
+    <string name="password_unchanged">(hin jijjiiramne)</string>
+    <string name="ssh_authentication_failure_password">Kufaatii seensaa: Maqaa fayyadamaa fi jecha icciitii kennameen mirkaneessuu hin dandeenye.</string>
+    <string name="ssh_authentication_failure_key">Kufaatii seensaa: Maqaa fayyadamaa fi furtuu dhuunfaa kennameen mirkaneessuu hin dandeenye.</string>
+    <string name="ssh_connect_failed">%1$swaliin walqabsiisuu hin dandeenye s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">AKEEKKACHISA: ADDA BAAFACHUU KEESSUMMAA FAGOO JIJJIIRAMA!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">NAMNI TOKKO WAAN FOON HOJJECHUU NI DANDA\'AMA!\n\nNamni tokko si dhaggeeffachaa jiraachuu danda\'a yeroo ammaa kana (haleellaa nama gidduu jiru)! Akkasumas furtuun keessummeessituu reefuu jijjiiramuu danda\'a. Ashaaraan qubaa furtuu uummataa keessummeessituu fagootiin erge kan Amaze keessatti kuufame waliin wal hin simne.\n\nMaaloo bulchaa sirna kee qunnami ykn sarvarii waliin walqabsiisuu itti fufuuf walqabsiisa haaraa saagi.</string>
+    <string name="ssh_key_prompt_passphrase">Maaloo gaalee dabarsoo furtuu galchi .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Uumamni karaa gabaabaa eegaltuu keetiin hin deeggaramu.</string>
+    
+    <string name="select_color_config">Qindeessaa halluu filadhu</string>
+    <string name="customize">Dhiyeessi</string>
+    <string name="custom">Adda</string>
+    <string name="preselected_configs_title">Qindeessitoota dursanii filataman</string>
+    <string name="orange">Burtukaana</string>
+    <string name="blue">Buluu</string>
+    <string name="green">Magariisa</string>
+    <string name="password_no_match">Jechi icciitii wal hin simne</string>
+    <string name="deselect_all">Hunda Filachuu irraa haquu</string>
+    <string name="filename">Maqaa Faayilii</string>
+    <string name="compress_file_suggest_zip_extension">Akka dheerina faayilii \".zip\" fayyadamuun ni gorfama.</string>
+    <string name="about_amaze">Hogganaa faayilii dizaayinii meeshaa Andirooyidii</string>
+    <string name="license">Heyyama</string>
+    <string name="libraries">Manneen kitaabaa</string>
+    <string name="password_repeat">Jecha icciitii irra deebi\'i</string>
+    <string name="create_file_suggest_txt_extension">\".txt\" akka dheerina faayilii fayyadamuun ni gorfama.</string>
+    <string name="ssh_select_pem">Mirkaneessuuf furtuu dhuunfaa filadhu</string>
+    <string name="ssh_key_invalid_passphrase">Gaalee dabarsoo furtuu sirrii hin taane.</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM hiikuuf deekoodarri sirrii hin jiru.</string>
+    <string name="encryption_fail_copy">Galtee icciitii kuusdeetaa keessatti haaromsuu hin dandeenye</string>
+    <string name="extracted">Baafame</string>
+    <string name="compressed">Dhiibameera</string>
+    <string name="processed">Adeemsifame</string>
+    <string name="no_obtainable_info">Waa\'ee faayilii kanaa info hin jiru</string>
+    <string name="reopen_from_source">Hin danda\'u, maaloo app isa darbe irraa deebi\'ii banaa</string>
+    <string name="no_file_error">Wanti tokko dogoggora ta\'e, wanti banamu hin jiru</string>
+    <string name="file_too_long">The faayilii baay\'ee dheeraa waan ta\'eef gulaalamuu hin danda\'u, haa ta\'u malee arfiilee %d jalqabaa dubbisuu dandeessa</string>
+    <string name="file_read_only">Faayilli baname dubbisa qofaaf.</string>
+    <string name="got_it">Argadhe!</string>
+    <string name="encrypt_file_save_as">Icciitii Qusadhu Faayilii Akka...</string>
+    <string name="encrypt_folder_save_as">Galmee Icciitii Akka...</string>
+    <string name="encrypt_option_use_aze">Amala Icciitii Amaze fayyadami</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt bifa icciitii faayilii madda banaa kan icciitii AES irratti hundaa\'eedha. Akkasumas socho\'aa dha, sagantaalee AESCrypt waltajjiiwwan biroo irratti hiikuun ni danda\'ama.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">Weebsaayitii AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[jedhu
+        <p>Amaze\'s Encryption Format akkasumas icciitii AES irratti hundaa\'a; garuu bifa AESCrypt irraa adda ta\'ee, meeshaa kanaan qofa hiikuu danda\'a; akkasumas Amaze File Manager meeshaa kana irraa uninstall gochuu hin qabdu akkasumas akkaataa iskiriinii itti cuftu jijjiiruu hin qabdu, yoo kana hin taane karaa itti faayilii icciitii ta\'e sana deebiftu hin qabaattu.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Faayiloonni icciitii ta\'an \".aze\" akka dheerina faayilii fayyadamuu qabu.</string>
+    <string name="encrypt_file_must_end_with_aes">Faayiloonni icciitii ta\'an \".aes\" akka dheerina faayilii fayyadamuu qabu.</string>
+    <string name="error_aescrypt_decrypt_failed">Icciitii hiikuu hin danda\'u \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Faayilii irra barreessuu hin danda\'amu.</string>
+    <string name="saved_single_file">Faayilii akka \'%s\'tti saagame.</string>
+    <string name="saved_multi_files">%d faayilii qusatamaniiru.</string>
+    <string name="create_hidden_file_warn">Faayilli uumame tarree faayilii keessatti ni dhokata.</string>
+    <string name="grant_apkinstall_permission">App apps fe\'uuf hayyama barbaada itti fufa.</string>
+    <string name="time_remaining">Yeroon hafe</string>
+    <string name="transfer_rate">Saffisa dabarsuu</string>
+    <string name="unknown">hin beekamne</string>
+    <string name="multiple_invalid_archive_entries">Faayiloonni tokko tokko kuusaa keessa jiran baafamuu hin danda\'an; archive miidhamuu danda\'a ykn madda hamaa irraa dhufuu danda\'a.</string>
+    <string name="saf_otg_explanation">Amma sababa nageenyaaf gara sirna faayiloota Android ni deemta. Mee meeshaa USB tarree bitaa irraa filadhu.</string>
+    <string name="donation_thanks">Arjooma keessaniif galatoomaa, kun kaka\'umsa nu eega! (:</string>
+    <string name="enable_marquee_filename">Maqaa faayiliidhaaf bu\'aa marquee dandeessisi</string>
+    <string name="archive_password_prompt">Maaloo jecha icciitii kuusaa galchi:</string>
+    
+    <string name="cannot_extract_archive">Kuusaa \"%s\" baasuu hin danda\'u: %s</string>
+    <string name="archive_unsupported_or_corrupt">Hin danda\'u kuusaa banaa \"%s\". Yookaan kuusaa banuu hin dandeenyu, yookaan kuusaan miidhameera.</string>
+    <string name="close">Cufi</string>
+    <string name="bookmark_exists">Mallattoon jira</string>
+    <string name="hide_media">Dhoksaa miidiyaa irraa dhoksi</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">NAMNI TOKKO WAAN FOON HOJJECHUU NI DANDA\'AMA!\n\nNamni tokko yeroo ammaa kana si dhaggeeffachaa jiraachuu danda\'a (haleellaa nama giddu galeessaa)!Akkasumas furtuun keessummeessituu reefuu jijjiiramuu danda\'a.Ashaaraa qubaa sababni isaas furtuun uummataa keessummeessituu fagootiin erge kan Amaze keessatti kuufame waliin wal hin simne.\n\nAshaaraa qubaa keessummeessituu fooyyessuu itti fufuu dandeessa ykn qindaa\'inoota walqabsiisa SSH fooyyessuu haquu dandeessa.</string>
+    <string name="update_host_key">Furtuu Keessummeessituu Fooyyessi</string>
+    <string name="cancel_recommended">Haquu (Gorfama)</string>
+    
+    
+    <string name="failed_install_apk">Faa\'uu hin dandeenye</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Kuusaa Keessaa</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Kaardii SD</string>
+    <string name="choose_folder">Galmee Kana Filadhu</string>
+    
+    <string name="some_files_failed_invalid_operation">Faayiloonni tokko tokko sababa sirrii hin taaneef hin milkoofne hojii</string>
+    <string name="ftp_server_prompt_connect_to_network">Neetworkiin walqabsiisi ykn AP dandeessisi</string>
+    <string name="ftp_server_open_settings">Sajoo banaa</string>
+    <string name="move">Sochoo</string>
+    <string name="select_save_location">Iddoo qusattu filadhu</string>
+    <string name="scp_default_path">Daandii Durtii (Filannoo) .</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Dhiifama, sun ta\'uu hin qabu ture.</string>
+    
+    <string name="error_report_button_text">Dogoggora kana karaa iimeelii gabaasi</string>
+    <string name="error_report_button_telegram">Dogoggora kana karaa telegram gabaasi</string>
+    <string name="copy_for_github">Gabaasa foormaatii ta\'e waraabi</string>
+    <string name="error_report_open_issue_button_text">GitHub irratti gabaasa</string>
+    <string name="error_report_open_github_notice">Maaloo dhimmi kufaatii kee irratti mari\'atu duraan jiraachuu isaa mirkaneessi.</string>
+    <string name="error_snackbar_message">Dhiifama, wanti tokko dogoggora ta\'eera.</string>
+    <string name="error_snackbar_action">Gabaasa</string>
+    <string name="what_device_headline">Odeeffannoo:</string>
+    <string name="what_happened_headline">Wanti ta\'e:</string>
+    <string name="info_labels">Maal:\\nGaaffii:\\nGMT Yeroo:\\nPaakeejii:\\nVersion:\\nOS version:\\nMeeshaa:\\nModel:\\nOmisha :</string>
+    <string name="your_comment">Yaada keessan (afaan Ingiliffaa):</string>
+    <string name="error_details_headline">Bal\'ina:</string>
+    <string name="app_ui_crash">App/UI kufe</string>
+    <string name="error_report_title">Gabaasa dogongoraa</string>
+    <string name="crash_report_copied">Gabaasa kufaatii gara gabatee kiliippii</string>
+    <string name="disableIpcSignature">Sakatta\'iinsa mallattoo IPC hanqisi (Tajaajitoota SMBv1 hambaa ta\'aniif - UNSAFE!)</string>
+    <string name="cannot_delete_file">Faayilii haquu hin danda\'u</string>
+    <string name="cannot_delete_file_with_reason">Faayilii haquu hin danda\'u - %s</string>
+    <string name="cannot_rename_file">Faayilii maqaa jijjiiruu hin danda\'u %s - %s</string>
+    <string name="cannot_read_directory">Galmee dubbisuu hin danda\'u %s - %s</string>
+    <string name="just_once">Al tokko qofa</string>
+    <string name="always">Yeroo hunda</string>
+    <string name="choose_different_app">Aplikeeshinii adda addaa filadhu</string>
+    <string name="clear_open_file">Qulqeessi cache</string>
+    <string name="clear_open_file_summary">Appiiwwan baniinsa faayilii durtii filataman qulqulleessa</string>
+    <string name="ftp_readonly">Dubbisa qofaaf qaqqabummaa</string>
+    <string name="legacy_listing_title">Tarree hambaa hundeedhaaf fayyadami</string>
+    <string name="legacy_listing_summary">Yoo dandeessifame, faayilii tarreessuuf mala hambaa fayyadama</string>
+    <string name="error_unsupported_v5_rar">Kuusaan RAR \"%s\" kuusaa RAR v5 hin deeggaramnedha.</string>
+    <string name="ftp_prompt_restart_server">Jijjiiramni akka hojiirra ooluuf sarvarii FTP irra deebitee jalqabuu si barbaachisa.</string>
+    <string name="error_permission_denied">Eeyyamni dhorkame</string>
+    <string name="error_archive_password_incorrect">Jecha icciitii kuusaa dogoggoraa.</string>
+    <string name="error_archive_cannot_extract">Galtee kuusaa \"%s\" gara \"%s\" tti baasuu hin danda\'u.</string>
+    <string name="drag_and_drop_preference">Filannoo harkisuu fi gadi dhiisuu filadhu (Yaalii)</string>
+    <string name="drag_to_move_copy">Faayilota sochoosuuf ykn waraabuuf tuquu fi harkisuu</string>
+    <string name="drag_to_select">Faayilota filachuuf tuquu fi harkisuu</string>
+    <string name="disable">Dhiisii</string>
+    <string name="choose_operation">Hojii raawwachuuf filadhu</string>
+    <string name="remember">Yeroo itti aanuuf yaadadhu</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Tarvarii FTP tiif qaqqabummaa SAF kenni</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Kun fiigicha kee isa jalqabaa tarjaa FTP waan ta\'eef, fi kuusaa keessoo meeshaa akka galmee qooddameetti fayyadamaa jirta, maaloo Amaze fayyadamuun kuusaa akka argatu hayyami SAF.\n\n
+
+Kana yeroo tokko qofa gochuu qabda, hanga yeroo itti aanutti bakka haaraa qooduuf filattutti.</string>
+    <string name="android_data_prompt_saf_access">Android 10 irraa eegalee, Android galmeewwan murtaa\'an irratti daangaa kaa\'ee ture, isaanis Storage Access Framework waliin argachuu qabu.\n \nMaaloo Amaze galmee bulchaa faayilii sirnichaa irraa akka argatu hayyami \"Allow Access\" tuquun.</string>
+    <string name="android_data_prompt_saf_access_title">SAF qaqqabummaa kenni</string>
+    <string name="ftp_preference_saf_filesystem_title">Sirna faayilii hambaa fayyadami</string>
+    <string name="ftp_preference_saf_filesystem">Dandeessisi kun deeggarsa kuusaa alaa meeshaa fayyadamuuf gosoota Andirooyidii haaraa irratti</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Daandiin qoodame sarvarii FTP gara kuusaa keessaatti deebi\'ee ture yeroo gara hojiirra oolmaa sirna faayilii hambaatti deebi\'aa jirtutti. Maaloo akka barbaachisummaa isaatti menu gubbaa mirgaa fayyadamuun daandii haaraa fili.</string>
+    <string name="ftp_server_reset_notify">Daandiin qoodame sarvarii FTP gara kuusaa keessootti deebifamee ture</string>
+    <string name="ftp_server_root_unavailable">Daandii kan qaqqabbii hundee barbaadu filachaa jirta. Maaloo yoo meeshaan kee hundee ta\'e qindaa\'inoota keessatti root explorer dandeessisi.</string>
+    <string name="ftp_server_root_filesystem_warning">Daandii kan qaqqabbii hundee barbaadu filachaa jirta, kan hojiiwwan dubbisuu/barreessuu guutummaa sirna faayilii meeshaa kee irratti dandeessisu, fi balaa qaba - dogoggorri of eeggannoo malee meeshaa kee cilee gochuu danda\'a!\n\nMirkanaa\'aa?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Dogongorri URI \"%s\" dubbisuuf banuun.</string>
+    <string name="error_empty_archive">\"%s\" kuusaa duwwaa dha.</string>
+    <string name="error_bad_archive_without_info">\"%s\" kuusaa manca\'eedha .</string>
+    <string name="error_bad_archive_with_info">\"%s\" kuusaa manca\'eedha.\nErgaa baasaa irraa: \"%s\"</string>
+    <string name="security_error">Faayilli appii kana fayyadamuun banamuu hin dandeenye</string>
+    <string name="cloud_drive_tooltip">Uumi walqabsiisa Google DriveTM faayilii Amaze File Manager keessaa bulchuuf.</string>
+    <string name="signin_with_google_title">Google DriveTM fayyadamuuf mirkaneessi</string>
+    <string name="show_system_apps">Appii sirna agarsiisi</string>
+    <string name="system_apps">Appii sirnaa</string>
+    <string name="select_inverse">Filadhu Inverse</string>
+    <string name="select_by_type">Gosa filadhu</string>
+    <string name="select_by_date">Guyyaan filadhu</string>
+    <string name="select_similar">Waan walfakkaataa filadhu</string>
+    <string name="error_fetching_google_play_product_list">Dogoggora tarree oomishaa Google Play irraa fiduu.</string>
+    <string name="grant_all_files_permission">Erga Android 11 , Google File Managers faayiloota meeshaa irratti argaman hunda bulchuuf hayyama fayyadamaa akka gaafatan gaafatee jira. Bal\'ina isaa asitti.
+        \n\nAmaze File Manager hayyama kanas barbaada. Erga "Grant"asitti dhiibdee booda, maaloo filannoo Faayilota hunda bulchuuf qaqqabummaa hayyami iskiriinii itti aanu irratti filadhu.
+        \n\nQaaqa kana haquun appii keessaa ni ba\'a.</string>
+    <string name="user_apps">Appii fayyadamaa</string>
+    <string name="appearance">Mufa</string>
+    <string name="behavior">Amala</string>
+    <string name="appearance_summary">Mata duree, halluu fi mul\'ata bulchaa faayilii dhuunfachiisi</string>
+    <string name="ui_summary">Odeeffannoo akkamii akka agarsiisu to\'adhu, barruu cinaa dhuunfadhu, fi filannoowwan UI jijjiiri</string>
+    <string name="behavior_summary">Amaloota akka barbaacha sadarkaa olaanaa fi faayilii akka hojii haaraatti banuu fi dhiisuu isaa fooyyessii</string>
+    <string name="security_summary">Jecha icciitii saagi fi icciitii</string>
+    <string name="backup_summary">Al-ergii/Galuun Sajoo Amaze</string>
+
+    <string name="pref_export">Al-ergii</string>
+    <string name="pref_export_summary">Qajeelfama erguu</string>
+    <string name="pref_import">Galchi</string>
+    <string name="pref_import_summary">Sajoo galchuu</string>
+
+    <string name="quick_desc">Faayilota dhiheenya kana karaa Amaze</string>
+    <string name="recent_desc">Faayilota dhiheenyatti uumaman ykn fooyya\'an</string>
+    <string name="error_cannot_find_way_open">Faayilii banuuf karaa argachuu hin dandeenye</string>
+    <string name="error_cant_decompress_that_file">Kuusaa gaafatame adeemsisuu hin dandeenye</string>
+    <string name="analyse_storage">Kuusaa Xiinxalu</string>
+    
+    <string name="download_amaze_utils_text">Gara Faayidaa Faayilii Amaze tti qajeelchaa jirta. Innis appii madda banaa keenyaa kan ilaaltoota sagalee/viidiyoo/fakkii/document of keessaa qabu, faayiloota jal\'aa xiinxaluun kuusaa bilisa baasuu, Wifi P2P fayyadamuun saffisaan dabarsuu fi kkf kan isin dandeessisudha.\nMaaloo yaaluun nu deeggaraa.</string>
+    <string name="download">Buufadhu</string>
+    
+    <string name="amaze_utils_installed_alias">Amaze File Utilities waan fe\'attaniif galatoomaa. Gara appii kanaatti qajeelfamaa jirta.</string>
+    <string name="image_viewer">Ilaaltuu Fakkii Ajaa\'ibsiisu</string>
+    <string name="video_player">Taphattuu Viidiyoo Ajaa\'ibsiisaa</string>
+    <string name="amaze_audio_player">Taphattuu Muuziqaa Ajaa\'ibsiisu</string>
+    <string name="pdf_viewer">Ilaaltuu Sanadaa Ajaa\'ibsiisaa</string>
+    <string name="docx_viewer">Ilaaltuu Sanadaa Ajaa\'ibsiisu</string>
+    <string name="share_logs">Galmee qoodi</string>
+    <string name="share_logs_summary">Galmee qabame karaa email / telegram qoodi</string>
+    <string name="open_with_amaze">Amaze</string>
+    <string name="confirmation">Mirkaneessaa</string>
+    <string name="open_file_confirmation">Faayilii armaan gadii banuun akka barbaaddu mirkaneeffatteettaa?\n\nMaqaa:\n%s\n\nIddoo:\n%s\n\nHanga:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Ajaja imaammata Google Play tiin, appoonni ofuma isaaniitiin akka of haaromsan hin hayyamamu. Maaloo app Google Play irraa haaromsi.</string>
+    <string name="error_cannot_get_package_info">Odeeffannoo paakeejii faayilii \"%s\" irraa argachuu hin dandeenye. Yookaan faayilii ifteessame APK miti, yookaan faayilii paakeejii manca\'eera.</string>
+    <string name="preference_delete_confirmation">Mirkaneessa haqi</string>
+    <string name="preference_delete_confirmation_summary">Faayilota haquu dura mirkaneessa gaafadhu. Kana hojii irraa oolchuun baay\'ee abdii kutachiisa!</string>
+    
+    
+    <string name="protocol_ftps">FTP nageenya qabu</string>
+    <string name="unavailable">Hin argamu</string>
+
+    <string name="exporting_failed">Erguun hin milkoofne: faayilii duwwaa barreessuu hin dandeenye</string>
+    <string name="importing_failed">Galuun hin milkoofne: duwwaa dubbisuu hin dandeenye faayilii</string>
+    <string name="importing_completed">Galuun xumurame</string>
+    <string name="invalid_backup_file">Faayilii duwwaa sirrii hin taane</string>
+    <string name="import_failed_for">Galuun hin milkoofne:</string>
+    <string name="free_of">"%s\n%s %s</string>
+    <string name="cloud_error_fdroid">irraabilisa&gt;Amaze Cloud Plugin version F-Droid wajjin hin deeggaramu.Maaloo gosa Play Store Amaze fayyadami.</string>
+    <string name="disable_player_intent_filters">Caltara akeeka taphatichaa hanqisi</string>
+    <string name="disable_player_intent_filters_summary">Amaze taphattoota miidiyaa keessaa ijaaraman filannoo faayilii irraa ni dhorka</string>
+    <string name="no_app_found_intent">Appiin yaada kana to\'achuuf hin argamne.DocumentsUI fe\'attaniittuu?</string>
+    <string name="cloud_connection_credentials_cleared">Mirkaneessitoonni Walqabsiisa Duumessaa qulqullaa\'aniiru</string>
+    <string name="cloud_connection_credentials_cleared_msg">Wanti nama dhibu, mirkaneessitoota walqabsiisa duumessaa keessan gara iskiimaa kuusdeetaa haaraatti godaansisuu hin dandeenye, akkasumas qabna turre appicha keessaa isaan baasuuf.Mee ammas walitti hidhamiinsa duumessaa uumi.</string>
+</resources>

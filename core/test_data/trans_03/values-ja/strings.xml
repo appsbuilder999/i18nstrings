@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze ファイル マネージャー</string>
+    <string name="drawer_open">ナビゲーション ドロワーを開く</string>
+    <string name="drawer_close">ナビゲーション ドロワーを閉じる</string>
+    <string name="icon">アイコン</string>
+    <string name="apps">アプリ マネージャー</string>
+    <string name="ftp">FTP サーバー</string>
+    <string name="setting">設定</string>
+    <string name="select">項目を選択</string>
+    <string name="press_again">もう一度押して終了</string>
+    <string name="open">開く</string>
+    <string name="backup">バックアップ</string>
+    <string name="uninstall">アンインストール</string>
+    <string name="play">Play ストア</string>
+    <string name="properties">プロパティ</string>
+    <string name="copyingapks">%d APK ファイルを %s にコピーしています</string>
+    <string name="delbook">ブックマークを削除</string>
+    <string name="add_to_bookmarks">ブックマークに追加</string>
+    <string name="enterpath">パスを入力してください</string>
+    <string name="cancel">キャンセル</string>
+    <string name="create">作成</string>
+    <string name="loading">読み込み中…</string>
+    <string name="file_empty">ファイルが空です</string>
+    <string name="error">エラー</string>
+    <string name="search_results">%s の検索結果</string>
+    <string name="rename">名前を変更</string>
+    <string name="save">保存</string>
+    <string name="bookmarks_added">追加されたブックマーク</string>
+    <string name="fileexist">同じ名前のファイルが既に存在します</string>
+    <string name="name">名前</string>
+    <string name="date">日付</string>
+    <string name="location">場所</string>
+    <string name="size_capitalized">サイズ</string>
+    <string name="size">フォルダのサイズ</string>
+    <string name="enterzipname">Zip 名を入力してください</string>
+    <string name="no_app_found">このファイルを開くアプリが見つかりません</string>
+    <string name="copying">コピー中</string>
+    <string name="moving">移動</string>
+    <string name="file">ファイル</string>
+    <string name="folder">フォルダ</string>
+    <string name="newfolder">新しいフォルダ</string>
+    <string name="entername">名前を入力</string>
+    <string name="extracting">展開中</string>
+    <string name="stopping">停止</string>
+    <string name="open_parent">親ディレクトリを開く</string>
+    <string name="open_with">開く</string>
+    <string name="share">共有</string>
+    <string name="about">概要</string>
+    <string name="extract">抽出</string>
+    <string name="compress">圧縮</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    
+    <string name="dialog_delete_category_directories">ディレクトリ</string>
+    <string name="dialog_delete_category_files">ファイル</string>
+    <string name="dialog_delete_disclaimer">以下の項目を削除すると、デバイスから完全に削除され、復元できなくなります。</string>
+    <string name="dialog_delete_title">項目を完全に削除しますか?</string>
+    <string name="deleting">削除中</string>
+    <string name="question_set_path_as_home">現在のパスをこのタブのホームとして設定しますか?</string>
+    <string name="directorysort">ディレクトリの並べ替えモード</string>
+    <string name="sort_by">並べ替え</string>
+    <string name="sort_only_this">このフォルダのみ</string>
+    <string name="theme">テーマ</string>
+    <string name="random">ランダムスキン</string>
+    <string name="random_summary">起動時にランダムな原色を設定</string>
+    <string name="colorize">アイコンの色付け</string>
+    <string name="colorize_summary">設定静的なアイコンの色。ディレクトリ アイコンの色の設定は上書きされません。</string>
+    <string name="home">ホーム</string>
+    <string name="paste">貼り付け</string>
+    <string name="history">履歴</string>
+    <string name="copy">コピー</string>
+    <string name="root_mode">ルート エクスプローラー</string>
+    <string name="root_mode_summary">ルート化されたデバイスのみ。確実な場合にのみチェックしてください。</string>
+    <string name="root_failure">ルート アクセスが許可されていません</string>
+    <string name="select_all">すべて選択</string>
+    <string name="delete">削除</string>
+    <string name="set_as_home">ホームとして設定</string>
+    <string name="operation_not_supported">操作はサポートされていません</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">マテリアル ライト</string>
+    <string name="dark">マテリアル ダーク</string>
+    <string name="daytime">日中</string>
+    <string name="black">ブラック (OLED 用)</string>
+    <string name="system">システム (システム テーマに従います)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">フォルダが上</string>
+    <string name="filesOnTop">ファイルが上</string>
+    <string name="none_on_top">上になし</string>
+    <!--SortBy-->
+    <string name="sort_name">名前</string>
+    <string name="lastModified">最終更新日</string>
+    <string name="sort_size">サイズ</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">ファイルを選択</string>
+    <string name="process_viewer">プロセス ビューア</string>
+    <string name="in_safe">スペースが不足しています</string>
+    <string name="no_file_overwrite">ファイルは上書きされません</string>
+    <string name="skip">スキップ</string>
+    <string name="overwrite">上書き</string>
+    <string name="not_allowed">許可されません</string>
+    <string name="searching">%s を検索しています</string>
+    <string name="done">完了</string>
+    <string name="set">設定</string>
+    <string name="enablerootmde">ルート モードを有効にする</string>
+    <string name="goback">戻る</string>
+    <string name="newfile">新しいファイル</string>
+    <string name="no_files">ファイルなし</string>
+    <string name="used">使用済みスペース</string>
+    <string name="used_by_others">他の人が使用しています</string>
+    <string name="free">空きスペース</string>
+    <string name="listview">リストビュー</string>
+    <string name="gridview">グリッド表示</string>
+    <string name="permission">権限</string>
+    <string name="hide">非表示</string>
+    <string name="exit">終了</string>
+    <string name="doforall">すべての項目に対して実行</string>
+    <string name="gridcolumnno">グリッド ビューの列数</string>
+    <string name="set_random">変更はアプリを再起動した後に適用されます</string>
+    <string name="authors">作成者</string>
+    <string name="changelog">変更ログ</string>
+    
+    <string name="ui">インターフェース</string>
+    <string name="general">全般</string>
+    <string name="thumb_summary">アプリと画像のサムネイルを表示します</string>
+    <string name="thumb">サムネイルを表示</string>
+    <string name="hidden">隠しファイルとフォルダーを表示</string>
+    <string name="lastModifiedSummary">最後に使用した日付と時刻を表示します変更</string>
+    <string name="lastModifiedPref">最終変更日を表示時間</string>
+    <string name="size_pref_summary">ファイルのサイズとフォルダー内のアイテム数を表示</string>
+    <string name="size_pref">サイズを表示</string>
+    <string name="miscellaneous">その他</string>
+    <string name="root_pref_summary">ファイルとフォルダーのアクセス許可を表示</string>
+    <string name="root_pref">権限を表示</string>
+    <string name="about_amaze_file_manager_label">Amaze ファイルマネージャーについて</string>
+    <string name="version">バージョン</string>
+    <string name="rate">アプリを評価する</string>
+    <string name="feedback">フィードバックを送信</string>
+    <string name="hiddenfiles">隠しファイル</string>
+    <string name="type">「</string>
+    <string name="root_directory">ルート</string>
+    <string name="add_shortcut">ショートカットの追加</string>
+    <string name="unsaved_changes">未保存の変更</string>
+    <string name="unsaved_changes_description">未保存の変更があります。終了する前に保存しますか?</string>
+    <string name="saving">保存</string>
+    <string name="package_installer">パッケージ インストーラー</string>
+    <string name="view">表示</string>
+    <string name="install">インストール</string>
+    <string name="archive">アーカイブ</string>
+    <string name="archive_text">これはアーカイブです。どのような操作を実行しますか?</string>
+    <string name="package_installer_text">これはパッケージ インストーラーです。どのような操作を実行しますか?</string>
+    <string name="xda_title">XDA スレッド</string>
+    <string name="xda_summary">Q&amp;amp;A、ヘルプ、トラブルシューティング</string>
+    <string name="circular_images">画像とビデオに円形のアイコンを使用します</string>
+    <string name="circular_icons">円形のアイコンを使用します</string>
+    <string name="back_title">戻るナビゲーション</string>
+    <string name="back_summary">リストの上部でカスタムの戻るナビゲーションを有効にします</string>
+    <string name="details">詳細</string>
+    <string name="translators">翻訳者</string>
+    <string name="german_translation_title">ドイツ語</string>
+    <string name="italian_translation_title">イタリア語</string>
+    <string name="french_translation_title">フランス語</string>
+    <string name="russian_translation_title">ロシア語</string>
+    <string name="spanish_translation_title">スペイン語</string>
+    <string name="basque_translation_title">バスク語</string>
+    <string name="chinese_translation_title">中国語</string>
+    <string name="serbian_translation_title">セルビア語</string>
+    <string name="turkish_translation_title">トルコ語</string>
+    <string name="ukrainian_translation_title">ウクライナ語</string>
+    <string name="portuguese_translation_title">ポルトガル語</string>
+    <string name="polish_translation_title">ポーランド語</string>
+    <string name="korean_translation_title">韓国語</string>
+    <string name="greek_translation_title">ギリシャ語</string>
+    <string name="dutch_translation_title">オランダ語</string>
+    <string name="romanian_translation_title">ルーマニア語</string>
+    <string name="vietnamese_translation_title">ベトナム語</string>
+    <string name="japanese_translation_title">日本語</string>
+    <string name="tamil_translation_title">タミル語</string>
+
+    <string name="zip_viewer">Zip ビューア</string>
+    <string name="unin_system_apk">これはシステム アプリです。削除するとシステムが不安定になる可能性があります。\n続行しますか?</string>
+    <string name="warning">警告</string>
+    <string name="donate">寄付</string>
+    <string name="archive_extract_folder">アーカイブ抽出フォルダー</string>
+    <string name="archive_summary">アーカイブ ファイルはこのフォルダーに抽出されます。デフォルト値は、アーカイブが存在するディレクトリです。</string>
+    <string name="open_as">名前を付けて開く</string>
+    <string name="text">テキスト</string>
+    <string name="audio">オーディオ</string>
+    <string name="video">ビデオ</string>
+    <string name="other">その他</string>
+    <string name="image">画像</string>
+    <string name="contributors">投稿者</string>
+    <string name="save_paths">パスを記憶</string>
+    <string name="save_path_summary">起動時に、最後に表示したフォルダー各タブが表示されます</string>
+    <string name="select_intent">選択</string>
+    <string name="database">データベース</string>
+    <string name="colored_navigation">色付きナビゲーション バー</string>
+    <string name="colored_navigvation_sum">システム ナビゲーション バーがスキンで色付けされているかどうか</string>
+
+    <string name="color_title">色</string>
+    <string name="color_summary">さまざまな UI コンポーネントに色を設定します</string>
+    <string name="primary_color_title">基本色 (左タブ)</string>
+    <string name="primary_color_summary">左タブの大きな UI 要素に色を設定</string>
+    <string name="accent_color_title">アクセント カラー</string>
+    <string name="accent_color_summary">FAB およびその他の小さな UI に色を設定要素</string>
+    <string name="icon_color_title">アイコンの色</string>
+    <string name="icon_color_summary">アイコンの色を設定</string>
+    <string name="choose_color">色の選択</string>
+    <string name="files">ファイル</string>
+    <string name="textreader">テキスト リーダー</string>
+    <string name="databasereader">データベース リーダー</string>
+    <string name="show_dividers">ディバイダを表示</string>
+    <string name="needs_access">書き込みアクセスが必要です</string>
+    <string name="needs_access_summary">\tのルート ディレクトリを選択してください</string>
+    <string name="needs_access_summary1">のルート ディレクトリを選択してください\tto</string>
+    <string name="smb_connection">を操作するための書き込みアクセスを許可してくださいSMB 接続</string>
+    <string name="smb_server">サーバー IP アドレス</string>
+    <string name="server_address">サーバー IP アドレス</string>
+    <string name="username">ユーザー名</string>
+    <string name="password">パスワード</string>
+    <string name="anonymous">匿名</string>
+    
+    <string name="folders">フォルダ</string>
+    <string name="folderfilecount">%1$d フォルダと %2$d ファイル</string>
+    <string name="videos">ビデオ</string>
+    <string name="apks">APK</string>
+    <string name="documents">ドキュメント</string>
+    <string name="images">画像</string>
+    <string name="clear">クリア</string>
+    
+    <string name="total">合計:</string>
+    <string name="calculating">計算</string>
+    <string name="sort">並べ替え</string>
+    <string name="ascending">昇順</string>
+    <string name="descending">降順</string>
+    <string name="default_string">デフォルト</string>
+    <string name="doit">実行</string>
+    <string name="want_help">ヘルプが必要ですか?</string>
+    <string name="quick">クイック アクセス</string>
+    <string name="recent">最近使用したファイル</string>
+    <string name="edit">編集</string>
+    <string name="find">ページ内を検索</string>
+    <string name="grant">付与</string>
+    <string name="grantper">権限を付与</string>
+    <string name="grantfailed">権限が付与されていません</string>
+    <string name="grant_storage_permission">アプリを続行するにはストレージ権限が必要です。このダイアログをキャンセルするとアプリが終了します。</string>
+    <string name="operation_unsuccesful">操作が失敗しました</string>
+    <string name="creatingfile">ファイルを作成中</string>
+    <string name="creatingfolder">フォルダを作成中</string>
+    <string name="renaming">名前を変更しています</string>
+    <string name="cant_be_empty">%s を空にすることはできません</string>
+    <string name="ip">アドレス</string>
+    <string name="connection_name">接続名</string>
+    <string name="no_device_found">デバイスが見つかりません</string>
+    <string name="path">パス</string>
+    <string name="rename_bookmark">ブックマークの変更</string>
+    <string name="cut">切り取り</string>
+    <string name="search">検索</string>
+    <string name="invalid_name">無効な名前</string>
+    <string name="search_hint">検索するタイプ…</string>
+    <string name="advanced_search">詳細検索</string>
+    <string name="regular_expression">正規表現</string>
+    <string name="regular_expression_summary">BASH スタイルの正規表現を使用した検索</string>
+    <string name="match_content">コンテンツの一致</string>
+    <string name="match_content_summary">設定されている場合、正規表現はファイル名全体と一致します。
+        それ以外の場合は、発生するものが検索されます。</string>
+    <string name="start_ftp">開始</string>
+    <string name="stop_ftp">停止</string>
+    <string name="ftp_status_running">実行中</string>
+    <string name="ftp_status_not_running">実行中ではありません</string>
+    <string name="ftp_no_wifi">Wi に接続していることを確認してください-Fi</string>
+    <string name="domain">ドメイン</string>
+    <string name="smb_share">共有パス</string>
+    <string name="invalid">無効な %s</string>
+    <string name="ftp_notif_starting">FTP サーバーが起動中です</string>
+    <string name="ftp_notif_starting_title">FTP サーバー</string>
+    <string name="ftp_notif_title">Amaze FTP サーバーが実行中</string>
+    <string name="ftp_notif_text">%s</string>
+    <string name="ftp_notif_stop_server">停止</string>
+    <string name="ftp_port_edit_menu_title">FTP ポート</string>
+    <string name="ftp_port_change_success">FTP ポートが正常に変更されました</string>
+    <string name="ftp_port_change_error_invalid">無効なポート番号が選択されました</string>
+    <string name="primary_two_title">基本色 (右タブ)</string>
+    <string name="primary_two_summary">右のタブの大きな UI 要素に色を設定します</string>
+    <string name="support_development">サポート開発</string>
+    <string name="report_bugs_title">バグを報告</string>
+    <string name="source_title">ソース コード</string>
+    <string name="source_summary">GitHub でソース コードを表示します</string>
+    <string name="report_bugs_summary">バグを報告するか、新機能をリクエストします</string>
+    <string name="translate_title">翻訳</string>
+    <string name="translate_summary">Amaze をあなたの言語で翻訳してください</string>
+    <string name="paypal_copy_message">PayPal ID がクリップボードにコピーされました</string>
+    <string name="searching_devices">デバイスを検索しています</string>
+    <string name="use_custom_ip">カスタム IP を使用します</string>
+    <string name="bookmark_lost">ブックマークが見つかりません。再作成中…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Android 上の共有 Windows フォルダにアクセスする方法 (SMB)\n\n
+                
+                    
+                        Windows でのファイル共有を有効にする\n
+                    
+                    
+                        コントロール パネルを開き、[ネットワーク] の下の [ホームグループと共有オプションの選択] をクリックします。
+                        とインターネットに接続し、[詳細な共有設定の変更] をクリックして、[ファイルとインターネット] を有効にします。
+                        プリンタ共有」機能。\n\n
+                    
+
+                    
+                        追加のファイル共有設定\n
+                    
+                    
+                        ここで他の詳細な共有設定を構成することもできます。 \n
+                        たとえば、すべてを信頼する場合、パスワードなしでファイルにアクセスできるようにすることができます。
+                        ローカルネットワーク上のデバイス。ファイルとプリンターの共有を有効にすると、次のことが可能になります。
+                        ファイル エクスプローラーまたは Windows エクスプローラーを開き、共有するフォルダーを右クリックし、
+                        「プロパティ」を選択します。 \n
+                        [共有] ボタンをクリックして、フォルダをネットワーク上で利用できるようにします。\n\n
+                        
+
+                    
+                        両方のデバイスが同じ Wifi 上にあることを確認してください\n
+                    
+                    
+                        この機能により、ローカル ネットワーク上でファイルが利用可能になるため、PC やモバイル デバイスでファイルを利用できるようになります。
+                        同じローカルネットワーク上にある必要があります。 Windows の共有フォルダーにアクセスできません
+                        インターネット経由、またはスマートフォンがモバイルデータに接続されているとき、
+                        Wi-Fi に接続する必要があります。\n\n
+                    
+
+                    
+                        IP アドレスを検索\n
+                    
+                    
+                        コマンドプロンプトを開きます。 「ipconfig」と入力して Enter キーを押します。デフォルトゲートウェイを探す
+                        ルーターの IP アドレスのネットワーク アダプターの下にあります。探す
+                        コンピュータの IP を見つけるには、同じアダプタ セクションの「IPv4 アドレス」を参照してください。
+                        アドレス。\n\n
+                    
+
+                    SMB ダイアログ ボックスに詳細を入力します\n
+                
+            
+        
+   </string>
+    <string name="share_limit">100 個を超えるファイルは共有できません</string>
+    <string name="otg_access">OTG デバイスのルートを選択します</string>
+    <string name="information">情報</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">アクセス済み</string>
+    <!-- reference to file modified date -->
+    <string name="modified">変更済み</string>
+
+    <string name="title">タイトル</string>
+    <string name="artist">アーティスト</string>
+    <string name="album">アルバム</string>
+    <string name="year">年</string>
+    <string name="duration">期間</string>
+    <string name="comment">コメント</string>
+    <!-- reference to audio/video file -->
+    <string name="container">コンテナ</string>
+    <string name="codec">コーデック</string>
+    <string name="channels">チャンネル</string>
+    <string name="sample_rate">サンプルレート</string>
+    <string name="bitrate">ビットレート</string>
+    <string name="dimensions">寸法</string>
+    <string name="frame_rate">フレームレート</string>
+    <string name="image_type">画像タイプ</string>
+    <string name="width">幅</string>
+    <string name="height">高さ</string>
+    <string name="date_modified">変更日</string>
+    <string name="software">ソフトウェア</string>
+    <string name="creator">作成者</string>
+    <string name="camera_brand">カメラ ブランド</string>
+    <string name="camera_model">カメラモデル</string>
+    <string name="date_taken">撮影日</string>
+    <string name="exposure_time">露光時間</string>
+    <string name="aperture_value">絞り値</string>
+    <string name="image_iso">ISO 速度定格</string>
+    <string name="flash_fired">フラッシュ起動</string>
+    <string name="focal_length">焦点距離</string>
+    <string name="subject">件名</string>
+    <string name="author">作成者</string>
+    <string name="keywords">キーワード</string>
+    <string name="producer">プロデューサー</string>
+    <string name="created">作成</string>
+    <string name="format">形式</string>
+    <string name="pages">数ページ</string>
+    <!-- reference to a document file -->
+    <string name="optimized">最適化されました</string>
+    <string name="security">セキュリティ</string>
+    <string name="paper_size">用紙サイズ</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">一部のファイルは正常にコピーされませんでした %s</string>
+    <string name="copied">コピー</string>
+    <string name="moved">移動しました</string>
+    <string name="copy_complete">コピー完了</string>
+    <string name="waiting_title">待機中</string>
+    <string name="waiting_content">操作の完了を待機中</string>
+    <string name="extract_complete">抽出完了</string>
+    <string name="compression_complete">圧縮完了</string>
+    <string name="compressing">圧縮中</string>
+    <string name="cancelled">キャンセル</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">書き込み</string>
+    <string name="out_of">中</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">/</string>
+    <string name="processing_file">処理中のファイル</string>
+    <string name="current_speed">現在の速度</string>
+    <string name="smb_launch_error">このファイルを開くには、このファイルをストレージにコピーする必要があります</string>
+    <string name="error_file_not_found">エラー: ファイルが見つかりません</string>
+    <string name="error_io">I/O エラー</string>
+    <string name="error_file_too_large">エラー: ファイルが大きすぎます</string>
+    <string name="medium_text">中テキスト</string>
+    <string name="permission_read">読み取り</string>
+    <string name="permission_write">書き込み</string>
+    <string name="permission_execute">実行</string>
+    <string name="permission_owner">所有者</string>
+    <string name="permission_group">グループ</string>
+    <string name="permission_other">その他</string>
+    <string name="clipboard_path_copy">クリップボードにコピーされたパス</string>
+    <string name="service_timer">経過時間</string>
+    <string name="please_wait">お待ちください</string>
+
+    <string name="cloud_connection">クラウド接続</string>
+    <string name="cloud_connection_new">新しいクラウド接続</string>
+    
+    
+    
+    <string name="cloud_box">ボックス</string>
+    <string name="cloud_get">クラウド プラグインを入手</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">アプリケーションなし</string>
+    <string name="ftp_path">共有パス</string>
+    <string name="ftp_path_hint">パス共有するディレクトリのルートに移動</string>
+    <string name="change">変更</string>
+    <string name="unknown_error">おっと、問題が発生しました!</string>
+
+    <string name="ftp_path_change_success">FTP パスが正常に変更されました</string>
+    <string name="ftp_path_change_error_invalid">無効なパス</string>
+    <string name="ftp_status_no_connection">接続がありません</string>
+    <string name="ftp_status_secure_connection">安全な接続</string>
+    <string name="ftp_status_title">ステータス</string>
+    <string name="ftp_port">ポート</string>
+    <string name="ftp_login">ログイン</string>
+    <string name="field_empty">フィールドを空にすることはできません</string>
+    <string name="ftp_timeout">アイドル タイムアウト</string>
+    <string name="ftp_seconds">秒</string>
+    <string name="intellihide_toolbar_title">インテリハイド ツールバー</string>
+    <string name="intellihide_toolbar_summary">スクロール中にツールバーを自動的に非表示</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">クリップボードにコピーされました</string>
+    <string name="contributors_1_summary">翻訳</string>
+    <string name="contributors_2_summary">アイコンとバナー</string>
+    <string name="contributors_3_summary">テーマ エンジン</string>
+    <string name="contributors_4_summary">FAB の背後に影を付ける</string>
+    <string name="contributors_5_summary">タブをスワイプしたときの色の変化</string>
+    <string name="contributors_6_summary">FTP サーバー</string>
+    <string name="contributors_7_summary">対話型シェルを起動しています</string>
+    <string name="connection_exists">接続はすでに存在します</string>
+
+    <string name="crypt_encrypting">暗号化中</string>
+    <string name="crypt_decrypting">復号中</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">暗号化されました</string>
+    <string name="crypt_decrypted">復号されました</string>
+    <string name="crypt_encrypt">暗号化</string>
+    <string name="crypt_decrypt">復号</string>
+    <string name="operation_fail_following">次のファイルの操作が失敗しました</string>
+    <string name="crypt_pref_master_password_title">マスター パスワード</string>
+    <string name="crypt_pref_master_password_summary">暗号化用のマスター パスワードを設定します。
+        削除するには空のままにしてください。</string>
+    <string name="crypt_pref_fingerprint_title">指紋</string>
+    <string name="crypt_pref_fingerprint_summary">暗号化の認証に指紋を使用します</string>
+    <string name="crypt_fingerprint_no_permission">指紋のアクセス許可がありません</string>
+    <string name="crypt_fingerprint_not_enrolled">指紋が登録されていません</string>
+    <string name="crypt_fingerprint_no_security">ロック画面のセキュリティがありませんfound</string>
+    <string name="crypt_warning_key">セキュリティ パターンを変更する場合は注意してください。
+        システム設定では、このコンテンツを復号化できません。</string>
+    <string name="warning_never_show">今後通知しないでください</string>
+    <string name="warning_confirm">わかりました!</string>
+    <string name="crypt_encryption_fail">暗号化に失敗しました</string>
+    <string name="crypt_decryption_fail">復号化に失敗しました</string>
+    <string name="crypt_decryption_fail_password">パスワードが間違っています!</string>
+    <string name="crypt_fingerprint_authenticate">続行するにはセンサーをタッチしてください</string>
+    <string name="authenticate_password">パスワードを入力してください</string>
+
+    <string name="sidebar_preferences">サイドバー</string>
+    <string name="sidebar_quick_access_title">サイドバーのクイック アクセス</string>
+    <string name="show_quick_access_pref_title">クイック アクセスを表示</string>
+    <string name="show_quick_access_pref">クイック アクセス</string>
+    <string name="directory">ディレクトリ</string>
+
+    <string name="sidebar_bookmarks_title">サイドバーのブックマーク</string>
+    <string name="show_bookmarks_pref_title">ブックマークを表示</string>
+    <string name="show_bookmarks_pref">ブックマーク</string>
+    <string name="create_bookmark">ブックマークを作成します</string>
+    <string name="edit_bookmark">ブックマークを編集します</string>
+    <string name="question_delete_bookmark">ブックマークを削除しますか?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud プラグインが見つかりません。 Play ストアからダウンロードしてください。</string>
+    <string name="cloud_error_failed_restart">接続の読み込みに失敗しました。
+        Amaze Cloud を一度開いてください。</string>
+    <string name="cloud_remove">クラウド接続を削除しますか?</string>
+    <string name="cloud_fail_authenticate">認証に失敗しました</string>
+    <string name="cloud_share_copied">共有リンクがクリップボードにコピーされました</string>
+    <string name="copy_low_memory">残量が不足していますメモリ、RAM をクリアしてください</string>
+    <string name="cloud_token_lost">トークンが失われました、再度サインインしてください</string>
+    <string name="monofont">等幅フォント</string>
+    <string name="showHeaders">ヘッダーを表示</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">項目がありません</string>
+	<string name="item">アイテム</string>
+	<string name="items">アイテム</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">ファイルには名前が必要です</string>
+    <string name="add_item">項目の追加</string>
+    <string name="failed_smb_decrypt_path">読み込みに失敗しましたSMB 接続</string>
+    <string name="failed_cloud_new_connection">新しいクラウド接続の追加に失敗しました</string>
+    <string name="failed_cloud_api_key">クラウド プラグインの認証に失敗しました</string>
+
+    <string name="local_inet_addr_error">ローカル inet アドレスの取得エラー</string>
+    <string name="intent_save_as">名前を付けて保存…</string>
+    <string name="go">移動</string>
+    <string name="advanced">詳細</string>
+    <string name="typeable_paths_title">カスタム パス</string>
+    <string name="typeable_paths_summary">パス バーを長押ししてカスタム パスを入力します</string>
+    <string name="send_email_to">電子メールを送信する</string>
+
+    <string name="text_editor">テキスト エディタの設定</string>
+    <string name="preference_newstack_title">新しいタスクとしてファイルを開く</string>
+    <string name="preference_newstack_summary">個別のタスクでファイルを開くことができます。システムの最近の画面からアクセスします。</string>
+    
+    <string name="developers">開発者</string>
+    <string name="no_bitcoin_app">ビットコイン ウォレット アプリをインストールしてください</string>
+    <string name="channel_name_normal">Amaze 通知</string>
+    <string name="channel_description_normal">Amaze ファイル マネージャーの通知</string>
+    <string name="channel_name_ftp">Amaze FTP サーバー</string>
+    <string name="channel_description_ftp">Amaze ファイルマネージャー FTP サーバーの通知</string>
+
+    
+    <string name="processing">処理中…</string>
+    <string name="failed_no_connection">ファイルのロードに失敗しました。接続を確認してください。</string>
+
+    
+	<string name="scp_connection">SCP/SFTP 接続</string>
+    <string name="ftp_connection">FTP 接続</string>
+    <string name="ftps_connection">FTP over SSL 接続</string>
+    <string name="scp_port">ポート</string>
+    <string name="ssh_host_key_verification_prompt">ホスト \'%1$s\' の信頼性を確立できません。\n\n%2$s のキーのフィンガープリントは %3$s です。\n\n「はい」をタップして確認してください身元;それ以外の場合は、「いいえ」をタップしてください。</string>
+    <string name="ssh_host_key_verification_prompt_title">ホストを確認してください</string>
+    <string name="ssh_select_pem_button">SSH 秘密キー</string>
+    <string name="ssh_pem_key_parse_error">選択した PEM を読み取れません: %s</string>
+    <string name="password_unchanged">(変更なし)</string>
+    <string name="ssh_authentication_failure_password">ログオン失敗: 指定されたユーザー名とパスワードで認証できません。</string>
+    <string name="ssh_authentication_failure_key">ログオン失敗: 指定されたユーザー名と秘密キーで認証できません。</string>
+    <string name="ssh_connect_failed">%1$sに接続できませんs:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">警告: リモート ホストの識別が変更されました!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">誰かが何か悪いことをしている可能性があります!\n\n誰かがあなたを盗聴している可能性があります今すぐ（中間者攻撃）！ホストキーが変更されたばかりである可能性もあります。リモートホストによって送信された公開キーのフィンガープリントが、Amaze に保存されているフィンガープリントと一致しません。\n\nシステム管理者に問い合わせるか、新しい接続をセットアップしてサーバーへの接続を続行してください。</string>
+    <string name="ssh_key_prompt_passphrase">キーのパスフレーズを入力してください。 .</string>
+    <string name="add_shortcut_not_supported_by_launcher">ショートカットの作成は、ランチャーではサポートされていません。</string>
+    
+    <string name="select_color_config">カラー構成の選択</string>
+    <string name="customize">カスタマイズ</string>
+    <string name="custom">カスタム</string>
+    <string name="preselected_configs_title">事前に選択された構成</string>
+    <string name="orange">オレンジ</string>
+    <string name="blue">青</string>
+    <string name="green">緑</string>
+    <string name="password_no_match">パスワードが一致しません</string>
+    <string name="deselect_all">すべて選択を解除</string>
+    <string name="filename">ファイル名</string>
+    <string name="compress_file_suggest_zip_extension">ファイル拡張子として「.zip」を使用することをお勧めします。</string>
+    <string name="about_amaze">Android 用マテリアル デザイン ファイル マネージャー</string>
+    <string name="license">ライセンス</string>
+    <string name="libraries">ライブラリ</string>
+    <string name="password_repeat">パスワードを繰り返します</string>
+    <string name="create_file_suggest_txt_extension">ファイル拡張子として「.txt」を使用することをお勧めします。</string>
+    <string name="ssh_select_pem">認証用の秘密キーを選択してください</string>
+    <string name="ssh_key_invalid_passphrase">キーのパスフレーズが無効です。</string>
+    <string name="ssh_key_no_decoder_decrypt">PEM を復号化するための有効なデコーダがありません。</string>
+    <string name="encryption_fail_copy">データベース内の暗号化エントリの更新に失敗しました</string>
+    <string name="extracted">抽出されました</string>
+    <string name="compressed">圧縮されました</string>
+    <string name="processed">処理されました</string>
+    <string name="no_obtainable_info">このファイルに関する情報がありません</string>
+    <string name="reopen_from_source">できません。最後のアプリから再度開いてください</string>
+    <string name="no_file_error">問題が発生しました。開くものはありません</string>
+    <string name="file_too_long">ファイルは長すぎるため編集できませんが、最初の %d 文字は読み取ることができます</string>
+    <string name="file_read_only">開かれたファイルは読み取り専用です。</string>
+    <string name="got_it">わかりました!</string>
+    <string name="encrypt_file_save_as">暗号化して保存ファイル名…</string>
+    <string name="encrypt_folder_save_as">暗号化フォルダーに名前を付けて保存…</string>
+    <string name="encrypt_option_use_aze">Amaze 暗号化形式を使用</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt は、AES 暗号化に基づくオープンソースのファイル暗号化形式です。また、移植可能であり、他のプラットフォーム上の AESCrypt プログラムを使用して復号化できます。</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt Web サイト</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze の暗号化形式も AES 暗号化に基づいています。ただし、AESCrypt 形式とは異なり、このデバイスでのみ復号化できます。また、このデバイスから Amaze File Manager をアンインストールしたり、画面のロック方法を変更したりしないでください。そうしないと、暗号化されたファイルを回復する方法がなくなります。</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">暗号化されたファイルは、ファイル拡張子として「.aze」を使用する必要があります。</string>
+    <string name="encrypt_file_must_end_with_aes">暗号化されたファイルは、ファイル拡張子として「.aes」を使用する必要があります。</string>
+    <string name="error_aescrypt_decrypt_failed">復号化できません\'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">ファイルを上書きできません。</string>
+    <string name="saved_single_file">ファイルは \'%s\' として保存されました。</string>
+    <string name="saved_multi_files">%d ファイルが保存されました。</string>
+    <string name="create_hidden_file_warn">作成されたファイルはファイル リストで非表示になります。</string>
+    <string name="grant_apkinstall_permission">アプリのインストールを続行するには、アプリに権限が必要です。</string>
+    <string name="time_remaining">残り時間</string>
+    <string name="transfer_rate">転送速度</string>
+    <string name="unknown">不明</string>
+    <string name="multiple_invalid_archive_entries">アーカイブ内の一部のファイルは抽出できません。アーカイブが破損しているか、悪意のあるソースからのものである可能性があります。</string>
+    <string name="saf_otg_explanation">セキュリティ上の理由から、Android のファイル システムに移動します。左側のリストから USB デバイスを選択してください。</string>
+    <string name="donation_thanks">寄付していただきありがとうございます。これにより私たちのモチベーションが維持されます。 (:</string>
+    <string name="enable_marquee_filename">ファイル名のマーキー効果を有効にしてください</string>
+    <string name="archive_password_prompt">アーカイブ パスワードを入力してください:</string>
+    
+    <string name="cannot_extract_archive">アーカイブ \"%s\" を抽出できません: %s</string>
+    <string name="archive_unsupported_or_corrupt">できませんアーカイブ \"%s\" を開いてください。アーカイブを開けないか、アーカイブが破損しています。</string>
+    <string name="close">閉じる</string>
+    <string name="bookmark_exists">ブックマークが存在します</string>
+    <string name="hide_media">メディア ブラウザから隠す</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">誰かが何か悪いことをしている可能性があります!\n\n今誰かがあなたを盗聴している可能性があります (中間者攻撃)! ホスト キーが変更されたばかりである可能性もあります。指紋リモート ホストから送信された公開キーが、Amaze に保存されている公開キーと一致しません。\n\nホスト フィンガープリントの更新を続行するか、SSH 接続設定の更新をキャンセルすることができます。</string>
+    <string name="update_host_key">ホスト キーの更新</string>
+    <string name="cancel_recommended">キャンセル (推奨)</string>
+    
+    
+    <string name="failed_install_apk">インストールに失敗しました</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">内部ストレージ</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD カード</string>
+    <string name="choose_folder">このフォルダを選択してください</string>
+    
+    <string name="some_files_failed_invalid_operation">一部のファイルは無効なため失敗しました操作</string>
+    <string name="ftp_server_prompt_connect_to_network">ネットワークに接続するか AP を有効にする</string>
+    <string name="ftp_server_open_settings">設定を開く</string>
+    <string name="move">移動</string>
+    <string name="select_save_location">保存する場所を選択</string>
+    <string name="scp_default_path">デフォルト パス (オプション)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">申し訳ありませんが、そのようなことは起こらないはずです。</string>
+    
+    <string name="error_report_button_text">このエラーを電子メールで報告してください</string>
+    <string name="error_report_button_telegram">このエラーを電報で報告してください</string>
+    <string name="copy_for_github">フォーマットされたレポートをコピー</string>
+    <string name="error_report_open_issue_button_text">GitHub でのレポート</string>
+    <string name="error_report_open_github_notice">確認してくださいクラッシュに関する問題がすでに存在するかどうか。</string>
+    <string name="error_snackbar_message">申し訳ありませんが、問題が発生しました。</string>
+    <string name="error_snackbar_action">レポート</string>
+    <string name="what_device_headline">情報:</string>
+    <string name="what_happened_headline">何が起こったか:</string>
+    <string name="info_labels">内容:\\nリクエスト:\\nGMT 時刻:\\nパッケージ:\\nバージョン:\\nOS バージョン:\\nデバイス:\\nモデル:\\n製品:</string>
+    <string name="your_comment">コメント (英語):</string>
+    <string name="error_details_headline">詳細:</string>
+    <string name="app_ui_crash">アプリ/UI がクラッシュしました</string>
+    <string name="error_report_title">エラー レポート</string>
+    <string name="crash_report_copied">クラッシュ レポートがコピーされましたクリップボード</string>
+    <string name="disableIpcSignature">IPC 署名チェックを無効にする (レガシー SMBv1 サーバーの場合 - 危険!)</string>
+    <string name="cannot_delete_file">ファイルを削除できません</string>
+    <string name="cannot_delete_file_with_reason">ファイルを削除できません - %s</string>
+    <string name="cannot_rename_file">ファイルの名前を変更できません%s - %s</string>
+    <string name="cannot_read_directory">ディレクトリ %s を読み取れません - %s</string>
+    <string name="just_once">一度だけ</string>
+    <string name="always">常に</string>
+    <string name="choose_different_app">別のアプリケーションを選択してください</string>
+    <string name="clear_open_file">クリアキャッシュ</string>
+    <string name="clear_open_file_summary">選択したデフォルトのファイルを開くアプリをクリアします</string>
+    <string name="ftp_readonly">読み取り専用アクセス</string>
+    <string name="legacy_listing_title">ルートに従来のリストを使用します</string>
+    <string name="legacy_listing_summary">有効にすると、従来の方法を使用してファイルをリストします</string>
+    <string name="error_unsupported_v5_rar">RAR アーカイブ \"%s\" はサポートされていません。RAR v5 アーカイブです。</string>
+    <string name="ftp_prompt_restart_server">変更を有効にするには、FTP サーバーを再起動する必要があります。</string>
+    <string name="error_permission_denied">アクセスが拒否されました</string>
+    <string name="error_archive_password_incorrect">アーカイブ パスワードが間違っています。</string>
+    <string name="error_archive_cannot_extract">アーカイブ エントリ \"%s\" を \"%s\" に抽出できません。</string>
+    <string name="drag_and_drop_preference">ドラッグ アンド ドロップの設定を選択します (実験的)</string>
+    <string name="drag_to_move_copy">タッチしてドラッグしてファイルを移動またはコピーします</string>
+    <string name="drag_to_select">タッチしてドラッグしてファイルを選択します</string>
+    <string name="disable">無効にする</string>
+    <string name="choose_operation">実行する操作を選択してください</string>
+    <string name="remember">次回のために記憶</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">FTP サーバーに SAF アクセスを許可します</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">これが FTP サーバーの最初の実行であり、デバイスの内部ストレージを共有フォルダーとして使用しているため、Amaze が次を使用してストレージにアクセスできるようにしてください。 SAF。\n\n
+
+これは、次回共有する新しい場所を選択するまで一度だけ行う必要があります。</string>
+    <string name="android_data_prompt_saf_access">Android 10 以降、Android は特定のディレクトリに制限を課しており、ストレージ アクセス フレームワークを使用してアクセスする必要があります。\n \n「アクセスを許可」をタップして、システムのファイル マネージャーから Amaze がディレクトリにアクセスできるようにしてください。</string>
+    <string name="android_data_prompt_saf_access_title">SAF アクセスを許可</string>
+    <string name="ftp_preference_saf_filesystem_title">レガシー ファイル システムを使用する</string>
+    <string name="ftp_preference_saf_filesystem">新しい Android バージョンでのデバイスの外部ストレージの使用をサポートするには、これを有効にします</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP サーバーの共有パスは、スイッチバック中に内部ストレージにリセットされました従来のファイルシステムの実装。必要に応じて、右上のメニューを使用して新しいパスを選択してください。</string>
+    <string name="ftp_server_reset_notify">FTP サーバーの共有パスが内部ストレージにリセットされました</string>
+    <string name="ftp_server_root_unavailable">root アクセスが必要なパスを選択しています。デバイスがルート化されている場合は、設定でルート エクスプローラーを有効にしてください。</string>
+    <string name="ftp_server_root_filesystem_warning">ルート アクセスが必要なパスを選択しています。これにより、デバイス上のファイル システム全体で読み取り/書き込み操作が可能になります。これは危険です - 不注意によるミスが発生する可能性があります。デバイスをブリックしてください!\n\nよろしいですか?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">読み取りのために URI \"%s\" を開いているときにエラーが発生しました。</string>
+    <string name="error_empty_archive">\"%s\" は空のアーカイブです。</string>
+    <string name="error_bad_archive_without_info">\"%s\" は破損したアーカイブです。</string>
+    <string name="error_bad_archive_with_info">\"%s\" は破損したアーカイブです。\nエクストラクターからのメッセージ: \"%s\"</string>
+    <string name="security_error">ファイルを作成できませんでしたこのアプリを使用して開くことができます</string>
+    <string name="cloud_drive_tooltip">Amaze File Manager 内からファイルを管理するための Google Drive™ 接続を作成します。</string>
+    <string name="signin_with_google_title">Google Drive™ を使用するための認証を行います</string>
+    <string name="show_system_apps">システム アプリを表示します</string>
+    <string name="system_apps">システム アプリ</string>
+    <string name="select_inverse">逆を選択</string>
+    <string name="select_by_type">タイプで選択</string>
+    <string name="select_by_date">日付で選択</string>
+    <string name="select_similar">類似したものを選択</string>
+    <string name="error_fetching_google_play_product_list">から製品リストを取得中にエラーが発生しましたGoogle Play.</string>
+    <string name="grant_all_files_permission">Android 11 以降、Google はファイル マネージャーに対し、デバイス上のすべてのファイルを管理するためのユーザー許可を要求します。詳細はこちら。
+        \n\nAmaze File Manager にもこの権限が必要です。ここで「許可」を押した後、次の画面で「すべてのファイルの管理へのアクセスを許可する」オプションを選択してください。
+        \n\nこのダイアログをキャンセルするとアプリが終了します。</string>
+    <string name="user_apps">ユーザー アプリ</string>
+    <string name="appearance">外観</string>
+    <string name="behavior">動作</string>
+    <string name="appearance_summary">ファイル マネージャーのテーマ、色、外観をカスタマイズする</string>
+    <string name="ui_summary">表示する情報の制御、サイドバーのカスタマイズ、UI 設定の切り替え</string>
+    <string name="behavior_summary">高度な検索や新しいタスクとしてファイルを開くかどうかなどの動作の変更</string>
+    <string name="security_summary">パスワードの設定および暗号化</string>
+    <string name="backup_summary">Amaze 設定のエクスポート/インポート</string>
+
+    <string name="pref_export">エクスポート</string>
+    <string name="pref_export_summary">設定のエクスポート</string>
+    <string name="pref_import">インポート</string>
+    <string name="pref_import_summary">設定のインポート</string>
+
+    <string name="quick_desc">ファイルAmaze 経由で最近アクセスしました</string>
+    <string name="recent_desc">最近作成または変更されたファイル</string>
+    <string name="error_cannot_find_way_open">ファイルを開く方法が見つかりません</string>
+    <string name="error_cant_decompress_that_file">要求されたアーカイブを処理できません</string>
+    <string name="analyse_storage">ストレージを分析します</string>
+    
+    <string name="download_amaze_utils_text">Amaze ファイル ユーティリティにリダイレクトされます。これは、オーディオ/ビデオ/画像/ドキュメント ビューアを内蔵し、ジャンク ファイルを分析してストレージを解放したり、Wifi P2P を使用して高速転送したりできる機能を備えたオープン ソース アプリです。\n試してみてサポートしてください。</string>
+    <string name="download">ダウンロード</string>
+    
+    <string name="amaze_utils_installed_alias">Amaze File Utilities をインストールしていただきありがとうございます。アプリにリダイレクトされています。</string>
+    <string name="image_viewer">Amaze 画像ビューアー</string>
+    <string name="video_player">Amaze ビデオ プレーヤー</string>
+    <string name="amaze_audio_player">Amaze ミュージック プレーヤー</string>
+    <string name="pdf_viewer">Amaze ドキュメント ビューアー</string>
+    <string name="docx_viewer">Amaze ドキュメント ビューアー</string>
+    <string name="share_logs">ログを共有</string>
+    <string name="share_logs_summary">キャプチャしたログを電子メール/電報経由で共有</string>
+    <string name="open_with_amaze">Amaze で開く</string>
+    <string name="confirmation">確認</string>
+    <string name="open_file_confirmation">次のファイルを開いてよろしいですか?\n\n名前:\n%s\n\n場所:\n%s\n\nサイズ:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play ポリシーの義務により、アプリは独自に更新することはできません。 Google Play からアプリを更新してください。</string>
+    <string name="error_cannot_get_package_info">ファイル \"%s\" からパッケージ情報を取得できません。指定されたファイルが APK ではないか、パッケージ ファイルが破損しています。</string>
+    <string name="preference_delete_confirmation">削除の確認</string>
+    <string name="preference_delete_confirmation_summary">ファイルを削除する前に確認を求めます。これを無効にすることは強くお勧めしません。</string>
+    
+    
+    <string name="protocol_ftps">セキュア FTP</string>
+    <string name="unavailable">使用不可</string>
+
+    <string name="exporting_failed">エクスポートに失敗しました: バックアップ ファイルに書き込めませんでした</string>
+    <string name="importing_failed">インポートに失敗しました: バックアップを読み取れませんでしたファイル</string>
+    <string name="importing_completed">インポートが完了しました</string>
+    <string name="invalid_backup_file">無効なバックアップ ファイル</string>
+    <string name="import_failed_for">インポートに失敗しました:</string>
+    <string name="free_of">"%s\n%s は %s</string>
+    <string name="cloud_error_fdroid">ではサポートされていません。F- Droid バージョン。Amaze の Play ストア バージョンを使用してください。</string>
+    <string name="disable_player_intent_filters">プレーヤー インテント フィルターを無効にする</string>
+    <string name="disable_player_intent_filters_summary">ファイル選択から Amaze 内蔵メディア プレーヤーを無効にします</string>
+    <string name="no_app_found_intent">このインテントを処理するアプリが見つかりませんでした。 DocumentsUI がインストールされていますか?</string>
+    <string name="cloud_connection_credentials_cleared">クラウド接続の資格情報がクリアされました</string>
+    <string name="cloud_connection_credentials_cleared_msg">残念ながら、クラウド接続の資格情報を新しいデータベース スキーマに移行できなかったため、アプリから削除する必要がありました。再びクラウド接続。</string>
+</resources>

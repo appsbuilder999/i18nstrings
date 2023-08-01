@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    <string name="app_name">Amaze Archivo Mohendaha</string>
+    <string name="drawer_open">Eipe’a cajón navegación</string>
+    <string name="drawer_close">Emboty cajón navegación</string>
+    <string name="icon">icono</string>
+    <string name="apps">Aplicación Mohendaha</string>
+    <string name="ftp">Servidor FTP</string>
+    <string name="setting">Ñemboheko</string>
+    <string name="select">Eiporavo Mba’e</string>
+    <string name="press_again">Emboguejy jey esẽ hag̃ua</string>
+    <string name="open">Eipe’a</string>
+    <string name="backup">Eñongatu</string>
+    <string name="uninstall">Embogue</string>
+    <string name="play">Ñembopu tenda</string>
+    <string name="properties">Propiedades</string>
+    <string name="copyingapks">Ojekopia %d APK rembiapokue %s-pe</string>
+    <string name="delbook">Embogue Marcador</string>
+    <string name="add_to_bookmarks">Emoĩ Marcador-pe</string>
+    <string name="enterpath">Eike Tape</string>
+    
+    <string name="create">EJAPO</string>
+    <string name="loading">Ojekarga...</string>
+    <string name="file_empty">Archivo oĩ nandi</string>
+    <string name="error">Ojejavy</string>
+    <string name="search_results">Ojeheka resultado %s rehegua div18 Embohéra jey</string>
+    <string name="rename">Eñongatu</string>
+    <string name="save">Eñongatu</string>
+    <string name="bookmarks_added">Marcadores Oñemoĩ</string>
+    <string name="fileexist">Archivo hérava avei oĩma</string>
+    <string name="name">Ára</string>
+    <string name="date">Ára</string>
+    <string name="location">Moõpa oĩ</string>
+    <string name="size_capitalized">Tuichakue</string>
+    <string name="size">carpeta tuichakue</string>
+    <string name="enterzipname">Emoinge Zip Réra</string>
+    <string name="no_app_found">Ndaipóri App ojejuhúva ojeipe’a hag̃ua ko vore</string>
+    <string name="copying">Ojekopia</string>
+    <string name="moving">Archivo</string>
+    <string name="file">Carpeta</string>
+    <string name="folder">Carpeta pyahu</string>
+    <string name="newfolder">Carpeta pyahu</string>
+    <string name="entername">Emoinge Téra</string>
+    <string name="extracting">Ojeguenohẽ</string>
+    <string name="stopping">Ojejoko</string>
+    <string name="open_parent">Eipe’a Tuvakuéra ryru</string>
+    <string name="open_with">Eipe’a</string>
+    <string name="share"/>
+    <string name="about">rehegua</string>
+    <string name="extract">Eguenohẽ</string>
+    <string name="compress">Embohysýi</string>
+    <string name="yes">Heẽ</string>
+    <string name="no">Nahániri</string>
+    
+    <string name="dialog_delete_category_directories">Directorios</string>
+    <string name="dialog_delete_category_files">Archivos</string>
+    <string name="dialog_delete_disclaimer">Embogue ramo umi mba’e oĩva iguýpe oipe’áta tapiaite nde tembipuru’ígui ha ndaikatúi ojegueru jey.</string>
+    <string name="dialog_delete_title">Embogue umi mbaꞌe tapiaite g̃uarã?</string>
+    <string name="deleting">Embogue</string>
+    <string name="question_set_path_as_home">Emohendase tape koꞌag̃agua óga ramo ko ficha-pe g̃uarã?</string>
+    <string name="directorysort">Modo de ordenación directorio</string>
+    <string name="sort_by">Omohenda rupive</string>
+    <string name="sort_only_this">Ko kundaha añoite</string>
+    <string name="theme">Tema</string>
+    <string name="random">Pire aleatorio</string>
+    <string name="random_summary">Omohenda sa’y tenondegua aleatorio oñepyrũvo</string>
+    <string name="colorize">Iconos de colorear</string>
+    <string name="colorize_summary">Omohenda icono estático sa’y. Ndojehechái directorio icono sa\'y jeporavo.</string>
+    <string name="home">Hoga</string>
+    <string name="paste">Emboja</string>
+    <string name="history">Tembiasakue</string>
+    <string name="copy">Ekopia</string>
+    <string name="root_mode">Ojeporeka hapo</string>
+    <string name="root_mode_summary">Tembipuru hapo rehegua añoite. Ehecháke reime porãramo añoite.</string>
+    <string name="root_failure">Noñeme’ẽi Jeike hapo rehegua</string>
+    <string name="select_all">Eiporavo Opaite</string>
+    <string name="delete">Embogue</string>
+    <string name="set_as_home">Emohenda Óga ramo</string>
+    <string name="operation_not_supported">Ndojeguerohorýi tembiapo</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Tesape Material</string>
+    <string name="dark">Material Pytũ</string>
+    <string name="daytime">Ára</string>
+    <string name="black">Morotĩ (OLED-pe g̃uarã)</string>
+    <string name="system">Sistema (segui sistema tema)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Carpetakuéra Yvate</string>
+    <string name="filesOnTop">Archivo Yvateguápe</string>
+    <string name="none_on_top">Ndaipóri Yvate</string>
+    <!--SortBy-->
+    <string name="sort_name">Héra</string>
+    <string name="lastModified">Oñemoambue ipahaitépe</string>
+    <string name="sort_size">Tuichaha</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Eiporavo peteĩ vore</string>
+    <string name="process_viewer">Proceso jehechaukaha</string>
+    <string name="in_safe">Ndaipóri espacio</string>
+    <string name="no_file_overwrite">Ndaipóri Archivo ojehaíva</string>
+    <string name="skip">Embohasa</string>
+    <string name="overwrite">Ojehai jey</string>
+    <string name="not_allowed">Ndojehejái</string>
+    <string name="searching">Ojeheka %s</string>
+    <string name="done">Ojejapo</string>
+    <string name="set">Emohenda</string>
+    <string name="enablerootmde">Emboguata Modo Raíz</string>
+    <string name="goback">Eho jey</string>
+    <string name="newfile">Archivo pyahu</string>
+    <string name="no_files">Ndaipóri Archivo</string>
+    <string name="used">ojeporúva espacio</string>
+    <string name="used_by_others">oipurúva ambue tapicha</string>
+    <string name="free">espacio libre</string>
+    <string name="listview">Lista jehechauka</string>
+    <string name="gridview">Rejilla jehechauka</string>
+    <string name="permission">Permisos</string>
+    <string name="hide">Oñomi</string>
+    <string name="exit">Esẽ</string>
+    <string name="doforall">Ejapo opaite mba’épe g̃uarã</string>
+    <string name="gridcolumnno">Mboy vore oĩva cuadrícula jehechaukahápe</string>
+    <string name="set_random">Oikóta ñemoambue emoñepyrũ jey rire app</string>
+    <string name="authors">Haihára</string>
+    <string name="changelog">Ñemoambueha</string>
+    
+    <string name="ui">Interfaz</string>
+    
+    <string name="thumb_summary">Ehechauka taꞌãngamýi michĩva app ha taꞌãngamýi rehegua</string>
+    <string name="thumb">Ehechauka taꞌãngamýi michĩvéva</string>
+    <string name="hidden">Ehechauka vore ha kundaha kañymby</string>
+    <string name="lastModifiedSummary">Ehechauka ára ha aravo oñemoambue paha</string>
+    <string name="lastModifiedPref">Ehechauka ára ha aravo oñemoambue paha</string>
+    <string name="size_pref_summary">Ehechauka vore tuichakue ha mboýpa... umi mba’e oĩva kundahárape</string>
+    <string name="size_pref">Ehechauka tuichakue</string>
+    <string name="miscellaneous">Opaichagua</string>
+    <string name="root_pref_summary">Ehechauka ñanduti renda ha kundaha permiso</string>
+    <string name="root_pref">Ehechauka permiso</string>
+    <string name="about_amaze_file_manager_label">Amaze Archivo Mohendaha rehegua</string>
+    <string name="version">Versión</string>
+    <string name="rate">Emboheko pe app</string>
+    <string name="feedback">Emondo Ñe’ẽñemi</string>
+    <string name="hiddenfiles">Archivo kañymby</string>
+    <string name="type">Tipo</string>
+    
+    <string name="add_shortcut">Emoĩve tape mbyky</string>
+    <string name="unsaved_changes">Ñe’ambue noñeñongatúiva</string>
+    <string name="unsaved_changes_description">Reguereko ñemoambue oñeñongatu’ỹva, reñongatusépa resẽ mboyve?</string>
+    <string name="saving">Ññongatu</string>
+    <string name="package_installer">Paquete Ñemohendaha</string>
+    <string name="view">Ehecha</string>
+    <string name="install">Emoĩ</string>
+    <string name="archive">Ñeñongatu</string>
+    <string name="archive_text">Kóva ha’e peteĩ archivo. Mba’e tembiapopa rejapose?</string>
+    <string name="package_installer_text">Kóva ha’e peteĩ mba’e’oka mohendaha. Mba’e tembiapo piko rejapose?</string>
+    <string name="xda_title">XDA rosca</string>
+    <string name="xda_summary">P&amp;amp;A, Pytyvõ &amp;amp; Apañuãi ñembohovái</string>
+    <string name="circular_images">Eipuru icono circular ta’ãnga ha video-pe g̃uarã</string>
+    <string name="circular_icons">Eipuru icono circular</string>
+    <string name="back_title">Tavy jeguata</string>
+    <string name="back_summary">Ombohapéva jeguata tapykuegua jeporupyre lista yvate gotyo</string>
+    <string name="details">Detalles</string>
+    <string name="translators">Traductor</string>
+    <string name="german_translation_title">Alemán</string>
+    <string name="italian_translation_title">Italiano</string>
+    <string name="french_translation_title">Francés</string>
+    <string name="russian_translation_title">Ruso</string>
+    <string name="spanish_translation_title">Español</string>
+    <string name="basque_translation_title">Vasco</string>
+    <string name="chinese_translation_title">Chino</string>
+    <string name="serbian_translation_title">serbio</string>
+    <string name="turkish_translation_title">Turco</string>
+    <string name="ukrainian_translation_title">Ucrania</string>
+    <string name="portuguese_translation_title">Portugués</string>
+    <string name="polish_translation_title">Polaco</string>
+    <string name="korean_translation_title">Corea</string>
+    <string name="greek_translation_title">griego</string>
+    <string name="dutch_translation_title">Holandés</string>
+    <string name="romanian_translation_title">Romano</string>
+    <string name="vietnamese_translation_title">Vietnamés</string>
+    <string name="japanese_translation_title">Japonés</string>
+    
+
+    <string name="zip_viewer">Zip jehechaukaha</string>
+    <string name="unin_system_apk">Kóva haꞌehína peteĩ sistema purupyrã, oñembogue ramo ikatu ogueru sistema jepytaso’ỹ.\nEñemotenonde?</string>
+    <string name="warning">Ñe’ẽñemi</string>
+    <string name="donate">Eme’ẽ</string>
+    <string name="archive_extract_folder">Archivo Extracción Carpeta</string>
+    <string name="archive_summary">Ojeguenohẽta ko carpeta-pe umi archivo archivo rehegua. Valor por defecto haꞌehína pe kundaha oĩháme archivo.</string>
+    <string name="open_as">Eipeꞌa As</string>
+    <string name="text">Texto</string>
+    
+    
+    <string name="other">Ambue</string>
+    <string name="image">Ta’ãnga</string>
+    <string name="contributors">Oipytyvõva</string>
+    <string name="save_paths">Nemandu’a tape rehe</string>
+    <string name="save_path_summary">Oñepyrũvo, ojehechaukáta kundaha ojehecha ramoitéva peteĩteĩva ficha-pe g̃uarã</string>
+    <string name="select_intent">Eiporavo</string>
+    <string name="database">Base de datos</string>
+    <string name="colored_navigation">Barra de Navegación colorida</string>
+    <string name="colored_navigvation_sum">Oñembojegua térã nahániri pe barra de navegación sistema rehegua ipire ndive</string>
+
+    
+    <string name="color_summary">Emohenda color opaichagua componente UI-pe</string>
+    <string name="primary_color_title">Sa’y tenondegua (Pestaña ijasu gotyo)</string>
+    <string name="primary_color_summary">Emohenda sa’y umi elemento UI tuichávape ficha akatúape g̃uarã</string>
+    <string name="accent_color_title">Acento sa’y</string>
+    <string name="accent_color_summary">Emohenda sa’y FAB ha ambue UI michĩvape elementos</string>
+    <string name="icon_color_title">Icono Color</string>
+    <string name="icon_color_summary">Emohenda color iconokuérape</string>
+    <string name="choose_color">Eiporavo color</string>
+    <string name="files">Archivos</string>
+    <string name="textreader">Jehaipyre moñe’ẽrã</string>
+    <string name="databasereader">Mba’e’oka moñe’ẽrã</string>
+    <string name="show_dividers">Ehechauka Divisor</string>
+    <string name="needs_access">Ojehai jeike</string>
+    <string name="needs_access_summary">Eiporavo \t</string>
+    <string name="needs_access_summary1">\tto eme’ẽ jehai jeike omba’apo hag̃ua</string>
+    <string name="smb_connection">SMB Joaju</string>
+    <string name="smb_server">Servidor IP dirección</string>
+    <string name="server_address">Servidor IP dirección</string>
+    <string name="username">Poruhára réra</string>
+    <string name="password">Ñe’ẽñemi</string>
+    <string name="anonymous">Anónimo</string>
+    
+    <string name="folders">Kundaha</string>
+    <string name="folderfilecount">%1$d kundaha ha %2$d vore</string>
+    <string name="videos">Ta’ãngamýi</string>
+    
+    <string name="documents">Kuatia</string>
+    <string name="images">Ta’ãngamýi</string>
+    <string name="clear">Emopotĩ ryru ypykue</string>
+    
+    
+    <string name="calculating">okalkuláva</string>
+    <string name="sort">Oñemohenda</string>
+    <string name="ascending">Ojupíva</string>
+    <string name="descending">Oguejy</string>
+    <string name="default_string">Predeterminado</string>
+    <string name="doit">Ejapo</string>
+    <string name="want_help">Reikotevẽ pytyvõ?</string>
+    <string name="quick">Ojeike pya’e</string>
+    <string name="recent">Archivo ipyahúva</string>
+    <string name="edit">Emohenda</string>
+    <string name="find">Ejuhu página</string>
+    <string name="grant">Ome’ẽ</string>
+    <string name="grantper">Ome’ẽ permiso</string>
+    <string name="grantfailed">Noñeme’ẽi permiso</string>
+    <string name="grant_storage_permission">App oikotevẽ permiso ñeñongaturã oñemotenonde hag̃ua. Emboykéramo ko ñe’ẽñemi osẽta app-gui.</string>
+    <string name="operation_unsuccesful">Ojeporu ndoikói</string>
+    <string name="creatingfile">Ojejapo vore</string>
+    <string name="creatingfolder">Ojejapo Carpeta</string>
+    <string name="renaming">Oñembohéra jey</string>
+    <string name="cant_be_empty">%s ndaikatúi ojeheja rei</string>
+    <string name="ip">Dirección</string>
+    <string name="connection_name">Joaju réra</string>
+    <string name="no_device_found">Ndojejuhúi tembipuru</string>
+    <string name="path">Tape</string>
+    <string name="rename_bookmark">Emoambue Marcador</string>
+    <string name="cut">Eikytĩ</string>
+    <string name="search">Eheka</string>
+    <string name="invalid_name">Téra ndojeporúiva</string>
+    <string name="search_hint">Ehai ojeheka hag̃ua...</string>
+    <string name="advanced_search">Jeheka tenondegua</string>
+    <string name="regular_expression">Expresión regular</string>
+    <string name="regular_expression_summary">Eheka eipuruhápe peteĩ expresión regular estilo BASH rehegua</string>
+    <string name="match_content">Ombojoaju contenido</string>
+    <string name="match_content_summary">Oñemohenda ramo, expresión regular ombojoajúta vore réra tuichakue ndive,
+        ohekáta ojehúva ambue hendáicha.</string>
+    <string name="start_ftp">Eñepyrũ</string>
+    <string name="stop_ftp">Epyta</string>
+    <string name="ftp_status_running">Oñemboguata</string>
+    <string name="ftp_status_not_running">Noñemboguata</string>
+    <string name="ftp_no_wifi">Ejesareko eñembojoajuha Wi ndive -Fi</string>
+    <string name="domain">Dominio</string>
+    <string name="smb_share">Compartición rape</string>
+    <string name="invalid">%s ndojeporúiva</string>
+    <string name="ftp_notif_starting">Oñepyrũma Servidor FTP</string>
+    <string name="ftp_notif_starting_title">Servidor FTP</string>
+    <string name="ftp_notif_title">Esorprende FTP Servidor oñemboguatáva</string>
+    <string name="ftp_notif_text">%s</string>
+    
+    <string name="ftp_port_edit_menu_title">FTP vore</string>
+    <string name="ftp_port_change_success">FTP vore oñemoambue porã</string>
+    <string name="ftp_port_change_error_invalid">Puerto número ndovaléiva ojeporavóva</string>
+    <string name="primary_two_title">Color Primaria (Pestaña Derecha)</string>
+    <string name="primary_two_summary">Emohenda sa’y umi elemento UI tuichávape pe ficha akatúape g̃uarã</string>
+    <string name="support_development">Ñepytyvõ ñemoheñói</string>
+    <string name="report_bugs_title">Emombe’u mba’e’oka</string>
+    <string name="source_title">Código fuente</string>
+    <string name="source_summary">Ehecha ore código fuente GitHub-pe</string>
+    <string name="report_bugs_summary">Emombe’u mba’e’oka térã ejerure mba’e pyahu</string>
+    <string name="translate_title">Embohasa</string>
+    <string name="translate_summary">Embohasa Amaze ne ñe’ẽme</string>
+    <string name="paypal_copy_message">ID PayPal ojekopia portapapeles-pe</string>
+    <string name="searching_devices">Ojeheka tembipuru</string>
+    <string name="use_custom_ip">Eipuru IP jeporupyre</string>
+    <string name="bookmark_lost">Marcador ndojejuhúi, omoheñói jey...</string>
+
+    <string name="smb_instructions">
+        
+            
+                Mba\'éichapa ikatu ojeike Windows carpeta compartida-pe Android (SMB)-pe\n\n
+                
+                    
+                        Emboguata vore ñembohasa Windows-pe\n
+                    
+                    
+                        Eipe’a Panel de Control, eñemboguejy Eiporavo HomeGroup ha Compartir opción Red guýpe
+                        ha Internet, ha eñemboguejy "Emoambue ñemboheko ñemboja\'o tenondegua", emboguata "Archivo ha...
+                        Impresora Ñemboheko" mba\'ekuaarã.\n\n
+                    
+
+                    
+                        Archivo Ñemboheko ñemboheko ambuéva\n
+                    
+                    
+                        Ikatu avei emohenda ambue ñemboheko ñembohasa ijyvatevéva ko’ápe. \n
+                        Techapyrã, ikatu emboguata jeike ne vorekuérape ñe’ẽñemi’ỹre rejerovia ramo opavave rehe
+                        umi tembipuru oĩva nde red local-pe. Ojehejáma guive vore ha impresora ñembohasa, ikatu
+                        eipe’a Archivo Explorador térã Windows Explorer, eñemboguejy akatúa gotyo peteĩ kundaha rekompartisévape, ha
+                        eiporavo Propiedades rehegua. \n
+                        Emboguejy pe mboajepyréva Ñemboja’o ha emoĩ pe kundaha oĩva red-pe.\n\n
+                        
+
+                    
+                        Ejesareko mokõive tembipuru oĩha peteĩ Wifi\n-pe
+                    
+                    
+                        Ko mba’ekuaarã ojapo archivokuéra ojeguereko hag̃ua red local-pe, upéicha ne PC ha tembipuru’i móvil-pe
+                        oguerekova’erã peteĩ red local-pe. Ndaikatúi reike peteĩ Windows ryru oñemboja’óvape
+                        Internet rupive térã ne teléfono inteligente oñembojoajúramo umi dato móvil rehe — ha’e
+                        oguereko oñembojoaju hag̃ua Wi-Fi ndive.\n\n
+                    
+
+                    
+                        Eheka IP Dirección\n
+                    
+                    
+                        Eipe’a Ñe’ẽmondo Ñe’ẽmondo. Ehai \'ipconfig\' ha eity Enter. Eheka Gateway Por defecto rehegua
+                        nde adaptador red rehegua guýpe nde router\'s IP dirección-pe g̃uarã. Peheka
+                        \\\"IPv4 Dirección\\\" peteĩchagua adaptador vore guýpe rejuhúvo ne komputadóra IP
+                        dirección.\n\n
+                    
+
+                    Emoinge detalle SMB ñe’ẽmondo ryrúpe\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Ndaikatúi okomparti hetave 100 vore</string>
+    <string name="otg_access">Eiporavo OTG tembipuru ypykue</string>
+    <string name="information">Marandu</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Ojeike</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Oñemoambue</string>
+
+    <string name="title">Título</string>
+    <string name="artist">Artista</string>
+    <string name="album">Álbum</string>
+    <string name="year">Ary</string>
+    <string name="duration">Ipukukue</string>
+    <string name="comment">Comentario</string>
+    <!-- reference to audio/video file -->
+    <string name="container">Contenedor</string>
+    <string name="codec">Código</string>
+    <string name="channels">Canales</string>
+    <string name="sample_rate">Tasa de muestra</string>
+    <string name="bitrate">Bitrato</string>
+    <string name="dimensions">Dimensiones</string>
+    <string name="frame_rate">Tasa de cuadro</string>
+    <string name="image_type">Taꞌãngamýi tipo</string>
+    <string name="width">Ipukukue</string>
+    <string name="height">Ijyvate</string>
+    <string name="date_modified">Ára oñemoambue</string>
+    
+    <string name="creator">Apohare</string>
+    <string name="camera_brand">Cámara Marca</string>
+    <string name="camera_model">Cámara Modelo</string>
+    <string name="date_taken">Ára ojejapo</string>
+    <string name="exposure_time">Tiempo de exposición</string>
+    <string name="aperture_value">Apertura valor</string>
+    <string name="image_iso">ISO Velocidad rehegua</string>
+    <string name="flash_fired">Flash Disparado</string>
+    <string name="focal_length">Focal pukukue</string>
+    <string name="subject">Tembiaporã</string>
+    <string name="author">Haihára</string>
+    <string name="keywords">Ñe’ẽñemi</string>
+    <string name="producer">Productor</string>
+    <string name="created">Ojejapo</string>
+    <string name="format">Formato</string>
+    <string name="pages">Página mboy</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Oñemoporãve</string>
+    <string name="security">Seguridad</string>
+    <string name="paper_size">Kuatia tuichakue</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Oĩ vore ndojejapóiva %s</string>
+    <string name="copied">ojekopia porãva</string>
+    <string name="moved">oñemomýi</string>
+    <string name="copy_complete">Copia Completo</string>
+    <string name="waiting_title">Oha’arõ</string>
+    <string name="waiting_content">Oha’arõ operación oñemohu’ã</string>
+    <string name="extract_complete">Extracción completa</string>
+    <string name="compression_complete">Compresión Completo</string>
+    <string name="compressing">Oñembohysýi</string>
+    <string name="cancelled">Oñembogue</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Ojehai</string>
+    <string name="out_of">osẽ</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">gui</string>
+    <string name="processing_file">Oñemboguata vore</string>
+    <string name="current_speed">Velocidad ko’áĝagua</string>
+    <string name="smb_launch_error">Tekotevẽta ekopia ko ñanduti renda ñeñongatuhápe eipe’a hag̃ua</string>
+    <string name="error_file_not_found">Ejavy: Archivo Ndojejuhúi</string>
+    <string name="error_io">Error E/S</string>
+    <string name="error_file_too_large">Error: Archivo Tuichaiterei</string>
+    <string name="medium_text">Texto Media</string>
+    <string name="permission_read">Emoñe’ẽ</string>
+    <string name="permission_write">Ehai</string>
+    <string name="permission_execute">Ejejapo</string>
+    <string name="permission_owner">Ijára</string>
+    <string name="permission_group">Aty</string>
+    <string name="permission_other">Ambue</string>
+    <string name="clipboard_path_copy">Tape ojekopia portapapeles-pe</string>
+    <string name="service_timer">Ohasáma aravo</string>
+    <string name="please_wait">Eha’arõmi</string>
+
+    <string name="cloud_connection">Arai joaju</string>
+    <string name="cloud_connection_new">Arai joaju pyahu</string>
+    
+    <string name="cloud_drive">Google DriveTM</string>
+    
+    <string name="cloud_box">Kuatia</string>
+    <string name="cloud_get">Ehupyty Cloud plugin</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Ndaipóri purupyrã</string>
+    <string name="ftp_path">Tape oñemboja’óva</string>
+    <string name="ftp_path_hint">Tape kundaha ypykuépe oñembohasa hag̃ua</string>
+    <string name="change">Emoambue</string>
+    <string name="unknown_error">Oi, peteĩ mba’e oho vai!</string>
+
+    <string name="ftp_path_change_success">FTP rape oñemoambue porã</string>
+    <string name="ftp_path_change_error_invalid">Tape ndoikóiva</string>
+    <string name="ftp_status_no_connection">Ndaipóri Joaju</string>
+    <string name="ftp_status_secure_connection">Ñe’ẽmondo seguro</string>
+    <string name="ftp_status_title">Estado</string>
+    <string name="ftp_port">Puerto</string>
+    <string name="ftp_login">Eike</string>
+    <string name="field_empty">Campo ndaikatúi oĩ nandi</string>
+    <string name="ftp_timeout">Tiempo de espera inactiva</string>
+    <string name="ftp_seconds">Segundo</string>
+    <string name="intellihide_toolbar_title">Intellihide Tembipuru’i ryru</string>
+    <string name="intellihide_toolbar_summary">Eñomi ijeheguiete tembipuru’i ryru ojedesplaza aja</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">ojekopia portapapeles</string>
+    <string name="contributors_1_summary">Traducción</string>
+    <string name="contributors_2_summary">Icono ha pancarta</string>
+    <string name="contributors_3_summary">Motor de tema</string>
+    <string name="contributors_4_summary">Sombra FAB rapykuéri</string>
+    <string name="contributors_5_summary">Sa’y jehasapa ojedesliza jave fichakuéra</string>
+    <string name="contributors_6_summary">Servidor FTP</string>
+    <string name="contributors_7_summary">Oñembohapévo peteĩ shell interactivo</string>
+    <string name="connection_exists">Ñembojoaju oĩma</string>
+
+    <string name="crypt_encrypting">Ecifrado</string>
+    <string name="crypt_decrypting">Descifrado</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Ecifrado</string>
+    <string name="crypt_decrypted">Descifrado</string>
+    <string name="crypt_encrypt">Encriptación</string>
+    <string name="crypt_decrypt">Descifrar</string>
+    <string name="operation_fail_following">Ojeikói tembiapo ko’ã vore rehegua</string>
+    <string name="crypt_pref_master_password_title">Ñe’ẽñemi tenondegua</string>
+    <string name="crypt_pref_master_password_summary">Emohenda peteĩ ñe’ẽñemi tenondegua ñembohekorã.
+        Eheja nandi eipe’a hag̃ua.</string>
+    <string name="crypt_pref_fingerprint_title">Kuã huella</string>
+    <string name="crypt_pref_fingerprint_summary">Eipuru kuã huella emoañete hag̃ua cifrado</string>
+    <string name="crypt_fingerprint_no_permission">Opa permiso huella digital rehegua</string>
+    <string name="crypt_fingerprint_not_enrolled">Noñeinskrivíri huella digital</string>
+    <string name="crypt_fingerprint_no_security">Ndaipóri seguridad pantalla bloqueo rehegua found</string>
+    <string name="crypt_warning_key">Eñemomarandu, remoambuévo nde seguridad ra’ãnga guive
+        Sistema ñemboheko, ndaikatumo`ãi redescifra ko contenido.</string>
+    <string name="warning_never_show">Ani remomarandu jey</string>
+    <string name="warning_confirm">Ehupyty!</string>
+    <string name="crypt_encryption_fail">Ndaipóri oñemboheko</string>
+    <string name="crypt_decryption_fail">Ndaipóri ojedescifra</string>
+    <string name="crypt_decryption_fail_password">Ñe’ẽñemi vai!</string>
+    <string name="crypt_fingerprint_authenticate">Epoko sensor oñemboguata hag̃ua</string>
+    <string name="authenticate_password">Emoinge ñe’ẽñemi</string>
+
+    <string name="sidebar_preferences">Barra lateral</string>
+    <string name="sidebar_quick_access_title">Barra lateral jeike pya’e</string>
+    <string name="show_quick_access_pref_title">Ehechauka jeike pya’e</string>
+    <string name="show_quick_access_pref">Jeike pya’e</string>
+    <string name="directory">Directorio</string>
+
+    <string name="sidebar_bookmarks_title">Marcador barra lateral</string>
+    <string name="show_bookmarks_pref_title">Ehechauka marcador</string>
+    <string name="show_bookmarks_pref">Marcador</string>
+    <string name="create_bookmark">Ejapo marcador</string>
+    <string name="edit_bookmark">Emohenda marcador</string>
+    <string name="question_delete_bookmark">Embogue marcador?</string>
+
+    <string name="cloud_error_plugin">Ndojejuhúi plugin Amaze Cloud. Emboguejy Play Store-gui.</string>
+    <string name="cloud_error_failed_restart">Ndaipóri ojekarga hag̃ua joaju.
+        Eipe’a peteĩ jey Amaze Cloud.</string>
+    <string name="cloud_remove">Eipe’ase piko arai joaju?</string>
+    <string name="cloud_fail_authenticate">Ndaipóri oñemoañete</string>
+    <string name="cloud_share_copied">Enlace compartido ojekopia portapapeles-pe</string>
+    <string name="copy_low_memory">Opa mandu’a, emopotĩmi peteĩ RAM</string>
+    <string name="cloud_token_lost">Token okañýva , eike jey</string>
+    <string name="monofont">Fuente monoespacio</string>
+    <string name="showHeaders">Ehechauka iñakãrapu’ã</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Ndaipóri mba’e</string>
+	<string name="item">mba’e</string>
+	<string name="items">mba’e</string>
+	
+	
+	<string name="bytes">byte</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">Archivo oguerekova’erã peteĩ téra</string>
+    <string name="add_item">Embojoapy mba’e</string>
+    <string name="failed_smb_decrypt_path">Ndaipóri ojekarga SMB joaju</string>
+    <string name="failed_cloud_new_connection">Ndaipóri oñembojoapývo Cloud joaju pyahu</string>
+    <string name="failed_cloud_api_key">Ndaipóri oñemoañete hag̃ua Cloud plug-in</string>
+
+    <string name="local_inet_addr_error">Ojejavy ojehupyty jave dirección inet local</string>
+    <string name="intent_save_as">Oñongatu...</string>
+    <string name="go">Tereho</string>
+    <string name="advanced">Avanzado</string>
+    <string name="typeable_paths_title">Tape jeporupyre</string>
+    <string name="typeable_paths_summary">Emboguejy puku tape ryru ehai hag̃ua peteĩ tape jeporupyre</string>
+    <string name="send_email_to">Emondo peteĩ kuatiañe’ẽ</string>
+
+    <string name="text_editor">Jehaipyre mohendaha ñemboheko</string>
+    <string name="preference_newstack_title">Eipe’a vorekuéra tembiapo pyahu ramo</string>
+    <string name="preference_newstack_summary">Oheja reipeꞌa hag̃ua ñanduti renda tembiaporã añóntepe. Eike hesekuéra pantalla sistema recentes guive.</string>
+    
+    <string name="developers">Desarrolladores</string>
+    <string name="no_bitcoin_app">Emoĩ peteĩ app Bitcoin Wallet</string>
+    <string name="channel_name_normal">Esorprende Marandukuéra</string>
+    <string name="channel_description_normal">Esorprende Archivo Mohendaha\'s Marandu</string>
+    <string name="channel_name_ftp">Esorprende Servidor FTP</string>
+    <string name="channel_description_ftp">Amaze File Manager FTP Server\'s Marandu</string>
+
+    
+    <string name="processing">Oñemboguata...</string>
+    <string name="failed_no_connection">Ndaipóri ojekarga hag̃ua vorekuéra. Ehecháke ne joaju.</string>
+
+    <string name="update">ÑEMBOSARÁI</string>
+	<string name="scp_connection">SCP/SFTP Ñembojoaju</string>
+    <string name="ftp_connection">FTP Ñembojoaju</string>
+    <string name="ftps_connection">FTP SSL Ñembojoaju</string>
+    <string name="scp_port">Puerto</string>
+    <string name="ssh_host_key_verification_prompt">Ndaikatúi oñemopyenda karameg̃ua \'%1$s\' añetegua.\n\n%2$s kuã vore tenondegua ha\'e %3$s.\n \nEpoko \"Heẽ\" rehe emoañete hag̃ua identidad; ndaupéichairamo, epoko \"Nahániri\".</string>
+    <string name="ssh_host_key_verification_prompt_title">Emoañete karameg̃ua</string>
+    <string name="ssh_select_pem_button">SSH Tecla Privada</string>
+    <string name="ssh_pem_key_parse_error">Ndaikatúi emoñe’ẽ PEM ojeporavóva: %s</string>
+    <string name="password_unchanged">(noñemoambuéiva)</string>
+    <string name="ssh_authentication_failure_password">Ojeike’ỹ: Ndaikatúi oñemoañete puruhára réra ha ñe’ẽñemi oñeme’ẽva reheve.</string>
+    <string name="ssh_authentication_failure_key">Ojeike’ỹ: Ndaikatúi oñemoañete puruhára réra ha clave privada oñeme’ẽva reheve.</string>
+    <string name="ssh_connect_failed">Ndaikatúi oñembojoaju %1$s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">ÑE’ẼÑEMBOHEKO: OÑEMBOGUATA MOmbyry JEHECHAKUAA!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">IKATU OĨHA JAJAPO MBA\'E IVAI!\n\nIkatu oĩ ohendúva ndéve ko\'ágãite (ataque hombre en el medio)! Ikatu avei oñemoambue ramoite pe clave host rehegua. Pe kuã vore’i ñe’ẽmondo público-pe g̃uarã omondova’ekue karameg̃ua mombyrygua ndojoajúi pe oñeñongatúva Amaze-pe.\n\nEñe’ẽ ne sistema mohendahára ndive térã emohenda peteĩ joaju pyahu eñembojoaju hag̃ua kundahára ndive.</string>
+    <string name="ssh_key_prompt_passphrase">Emoinge ñe’ẽñemi clave.</string>
+    <string name="add_shortcut_not_supported_by_launcher">Mba’e’oka apo ndoipytyvõi ne ñepyrũha.</string>
+    
+    <string name="select_color_config">Eiporavo sa’y ñemboheko</string>
+    <string name="customize">Emboheko</string>
+    <string name="custom">Ejeporu</string>
+    <string name="preselected_configs_title">Configuración ojeporavóva</string>
+    <string name="orange">Naranja</string>
+    <string name="blue">Hovy</string>
+    <string name="green">Verde</string>
+    <string name="password_no_match">Ñe’ẽñemi ndojoajúi</string>
+    <string name="deselect_all">Embogue Opaite</string>
+    <string name="filename">Archivo réra</string>
+    <string name="compress_file_suggest_zip_extension">Iporã ojepuru \".zip\" vore ñembohekorã ramo.</string>
+    <string name="about_amaze">Material diseño archivo mohendaha Android-pe g̃uarã</string>
+    <string name="license">Licencia</string>
+    <string name="libraries">Biblioteca</string>
+    <string name="password_repeat">Ejejapo jey ñe\'ẽñemi</string>
+    <string name="create_file_suggest_txt_extension">Iporã ojeporu \". txt\" vore ñembotuichave ramo.</string>
+    <string name="ssh_select_pem">Eiporavo clave privada jekuaaukarã</string>
+    <string name="ssh_key_invalid_passphrase">Tecla ñe’ẽñemi ndoikóiva.</string>
+    <string name="ssh_key_no_decoder_decrypt">Ndaipóri decodificador añetegua ojedescifra hag̃ua PEM.</string>
+    <string name="encryption_fail_copy">Ndojejapói ombopyahu jeike cifrado rehegua base de datos-pe</string>
+    <string name="extracted">Ojepe’a</string>
+    <string name="compressed">Oñembohysýi</string>
+    <string name="processed">Oñemboguata</string>
+    <string name="no_obtainable_info">Ndaipóri marandu ko vore rehegua</string>
+    <string name="reopen_from_source">Ikatu\'. t, eipe\'a jey app paha guive</string>
+    <string name="no_file_error">Oiko vai, ndaipóri mba\'eve ojeipe\'ava\'erã</string>
+    <string name="file_too_long">Pe vore ipukueterei ha ndaikatúi oñemboheko, jepémo upéicha ikatu relee umi %d tai ypykue</string>
+    <string name="file_read_only">Pe vore ojepe’áva ha’e peteĩ moñe’ẽrãnte.</string>
+    <string name="got_it">Ahupyty!</string>
+    <string name="encrypt_file_save_as">Eñongatu vore cifrado kóicha...</string>
+    <string name="encrypt_folder_save_as">Eñongatu Carpeta cifrada Péicha...</string>
+    <string name="encrypt_option_use_aze">Eipuru Amaze Cifrado Formato</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt haꞌehína peteĩ vore cifrado formato código abierto rehegua oñemopyendáva AES cifrado rehe. Avei ojeguerahakuaa, ikatu ojedescifra umi programa AESCrypt rupive ambue plataforma-pe.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">AESCrypt página web</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[rehegua
+        <p>Amaze\'s Formato Cifrado rehegua oñemopyenda avei cifrado AES rehe; ha katu iñambue formato AESCrypt-gui, ikatu ojedescifra ko tembipuru rupive añoite; avei nerembogueva’erãi Amaze File Manager ko tembipuru’ígui ni remoambueva’erã mba’éichapa remboty pantalla, ndaha’éiramo upéicha ndereguerekomo’ãi mba’éichapa regueru jey hag̃ua vore oñembohekopyréva.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Umi vore oñembohekopyréva oipuruva’erã \".aze\" vore ñemomba’eguasúramo.</string>
+    <string name="encrypt_file_must_end_with_aes">Umi vore oñembohekopyréva oipuruva’erã \".aes\" vore ñembotuichave ramo.</string>
+    <string name="error_aescrypt_decrypt_failed">Ndaikatúi ojedescifra \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Ndaikatúi ojehai jey vore.</string>
+    <string name="saved_single_file">Kuatiañe\'ẽ oñeñongatu \'%s\' ramo.</string>
+    <string name="saved_multi_files">%d vore oñeñongatu.</string>
+    <string name="create_hidden_file_warn">Pe vore ojejapova’ekue oñeñomiva’erã vore lista-pe.</string>
+    <string name="grant_apkinstall_permission">App oikotevẽ permiso omoĩ hag̃ua apps osegi hag̃ua.</string>
+    <string name="time_remaining">Tiempo hembýva</string>
+    <string name="transfer_rate">Tasa de transferencia</string>
+    <string name="unknown">ndojekuaái</string>
+    <string name="multiple_invalid_archive_entries">Oĩ vore oĩva archivo-pe ndaikatúiva ojeipe’a; archivo ikatu oñembyai térã ou fuente vaigui.</string>
+    <string name="saf_otg_explanation">Ko\'ágã rehóta Android\'s sistema de archivos-pe seguridad rehe. Eiporavomi pe tembipuru USB lista oĩva ijasu gotyo.</string>
+    <string name="donation_thanks">Aguyje pe donación rehe, kóva oremokyre’ỹ! (:</string>
+    <string name="enable_marquee_filename">Emboguata efecto marquee vore rérape g̃uarã</string>
+    <string name="archive_password_prompt">Emoinge archivo ñe’ẽñemi:</string>
+    
+    <string name="cannot_extract_archive">Ndaikatúi ojeipe’a archivo \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Ndaikatúi open archive \"%s\".Taha’e ndaikatúi jaipe’a pe archivo, térã pe archivo oñembyai.</string>
+    <string name="close">Emboty</string>
+    <string name="bookmark_exists">Marcador oĩ</string>
+    <string name="hide_media">Eñomi umi kundahára medio rehegua</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">IKATU OĨ OJAPO MBA\'E IVAI!\n\nIkatu oĩ ohendúva ndéve ko\'áĝaite (ataque kuimba\'e mbytépe)!Ikatu avei oñemoambue ramoite pe tecla host.Pe huella digital pe clave pública omondova’ekue karameg̃ua mombyrygua ndojoajúi pe oñeñongatúva Amaze-pe.\n\nIkatu reguata embopyahu karameg̃ua kuãha térã embogue embopyahu hag̃ua SSH joajuha ñemboheko.</string>
+    <string name="update_host_key">Embopyahu karameg̃ua llave</string>
+    <string name="cancel_recommended">Ombogue (Oñemoñe’ẽ)</string>
+    
+    
+    <string name="failed_install_apk">Ndaipóri oñemboguapy</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Ñongatuha hyepypegua</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">Tarjeta SD</string>
+    <string name="choose_folder">Eiporavo Ko Kuatiahaipyre</string>
+    
+    <string name="some_files_failed_invalid_operation">Oĩ vore ndoikóiva ndoikóigui operación</string>
+    <string name="ftp_server_prompt_connect_to_network">Embojoaju peteĩ red rehe térã emboguata AP</string>
+    <string name="ftp_server_open_settings">Eipe’a ñemboheko</string>
+    <string name="move">Emongu’e</string>
+    <string name="select_save_location">Eiporavo moõpa eñongatu</string>
+    <string name="scp_default_path">Tape ñepyrũrã (Ojeporavóva)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Ñembyasy, ndoikóiva’erãkuri upéva.</string>
+    
+    <string name="error_report_button_text">Emombe’u ko jejavy correo electrónico rupive</string>
+    <string name="error_report_button_telegram">Emombe’u ko jejavy telegrama rupive</string>
+    <string name="copy_for_github">Ekopia marandu formato</string>
+    <string name="error_report_open_issue_button_text">Emombe’u GitHub-pe</string>
+    <string name="error_report_open_github_notice">Ehechami oĩmapa peteĩ mba’e’oka oñe’ẽva ne ñembotapykue rehe.</string>
+    <string name="error_snackbar_message">Ñembyasy, peteĩ mba’e osẽ vai.</string>
+    <string name="error_snackbar_action">Emombe’u</string>
+    <string name="what_device_headline">Marandu:</string>
+    <string name="what_happened_headline">Mba’épa oiko:</string>
+    <string name="info_labels">Mba’épa:\\nMba’ejerure:\\nGMT Aravo:\\nPaquete:\\nVersión:\\nOS versión:\\nDispositivo :\\nModelo:\\nProducto:</string>
+    <string name="your_comment">Ne ñe’ẽñemi (inglés-pe):</string>
+    <string name="error_details_headline">Detalles:</string>
+    <string name="app_ui_crash">App/UI oñembotapykue</string>
+    <string name="error_report_title">Ojejavy marandu</string>
+    <string name="crash_report_copied">Marandu ñembotapykue ojekopia portapapeles-pe</string>
+    <string name="disableIpcSignature">Embogue IPC firma jesareko (SMBv1 servidor legado-pe g̃uarã - UNSAFE!)</string>
+    <string name="cannot_delete_file">Ndaikatúi ombogue vore</string>
+    <string name="cannot_delete_file_with_reason">Ndaikatúi ombogue vore - %s</string>
+    <string name="cannot_rename_file">Ndaikatúi ombohéra jey vore %s - %s</string>
+    <string name="cannot_read_directory">Ndaikatúi omoñe’ẽ kundaha %s - %s</string>
+    <string name="just_once">Peteĩ jeýnte</string>
+    <string name="always">Akóinte</string>
+    <string name="choose_different_app">Eiporavo iñambuéva purupyrã</string>
+    <string name="clear_open_file">Emopotĩ caché</string>
+    <string name="clear_open_file_summary">Omopotĩ umi tembipuru’i ojeporavóva vore’i jepe’a rehegua</string>
+    <string name="ftp_readonly">Jeike moñe’ẽrãnte</string>
+    <string name="legacy_listing_title">Eipuru lista legado root-pe g̃uarã</string>
+    <string name="legacy_listing_summary">Oñembohapéramo , oipuru método legacy omoĩ hag̃ua ñanduti renda</string>
+    <string name="error_unsupported_v5_rar">RAR ryru \"%s\" haꞌehína RAR v5 ryru ndojeguerohorýiva.</string>
+    <string name="ftp_prompt_restart_server">Tekotevẽta remoñepyrũ jey FTP puruhára ñemoambue osẽ hag̃ua.</string>
+    <string name="error_permission_denied">Oñembotove permiso</string>
+    <string name="error_archive_password_incorrect">Ñe’ẽñemi archivo rehegua vai.</string>
+    <string name="error_archive_cannot_extract">Ndaikatúi ojeipe’a archivo jeike \"%s\" \"%s\"-pe.</string>
+    <string name="drag_and_drop_preference">Eiporavo jegueraha ha emboguejy jeporavo (Experimental)</string>
+    <string name="drag_to_move_copy">Epoko ha emongu’e emongu’e térã ekopia hag̃ua vorekuéra</string>
+    <string name="drag_to_select">Epoko ha egueraha eiporavo hag̃ua vorekuéra</string>
+    <string name="disable">Embogue</string>
+    <string name="choose_operation">Eiporavo tembiaporã ejapo hag̃ua</string>
+    <string name="remember">Nemandu\'áke ambue jey</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Eme\'ẽ SAF jeike FTP servidor-pe g̃uarã</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Kóva ha\'égui ne ñemboguata peteĩha FTP servidor rehegua, ha reipuru hína tembipuru\'s ñeñongatuha ryepypegua kundaha oñemboja\'óva ramo, eheja Amaze-pe oike ñeñongatuhápe SAF rupive.\n\n
+
+Tekotevẽ rejapo peteĩ jeýnte, ambue jey reiporavo peve peteĩ tenda pyahu rembohasa hag̃ua.</string>
+    <string name="android_data_prompt_saf_access">Android 10 guive, Android omoĩva’ekue jejopy peteĩ kundaha rehe, ha tekotevẽ oike hikuái Storage Access Framework rupive.\n \nEheja Amaze-pe oike hag̃ua kundahárape sistema\'s vore mohendaha guive epoko \"Eheja jeike\".</string>
+    <string name="android_data_prompt_saf_access_title">Eme\'ẽ SAF jeike</string>
+    <string name="ftp_preference_saf_filesystem_title">Eipuru sistema de archivos legado</string>
+    <string name="ftp_preference_saf_filesystem">Emboguata kóva pytyvõrã eipuru hag̃ua tembipuru ñeñongatuha okapegua Android versión pyahúpe</string>
+    <string name="ftp_server_fallback_path_reset_prompt">FTP servidor rape oñembojaꞌovaꞌekue oñemboheko jeyvaꞌekue ñeñongatuha ryepýpe reñemoambue jeývo sistema de ficheros legado ñemboguata. Eiporavo peteĩ tape pyahu eipurúvo menú oĩva yvate gotyo akatúape tekotevẽháicha.</string>
+    <string name="ftp_server_reset_notify">FTP servidor rape oñembojaꞌovaꞌekue oñemboguapyjeyvaꞌekue ñeñongatuha ryepýpe</string>
+    <string name="ftp_server_root_unavailable">Eiporavo hína peteĩ tape oikotevẽva jeike ypykuépe. Emboguata root explorer ñembohekorãme ne tembipuru’i oñemopyenda ramo.</string>
+    <string name="ftp_server_root_filesystem_warning">Eiporavo peteĩ tape oikotevẽva root jeike, ombohapéva moñe’ẽrã/jehai rembiapo opaite vore sistema-pe ne tembipuru’ípe, ha ipeligroso - ikatu ojejavy ñeñangareko’ỹre ladrillo nde tembipuru!\n\nEime piko seguro?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Ojejavy ojeipe\'ávo URI \"%s\" omoñe\'ẽ hag̃ua.</string>
+    <string name="error_empty_archive">\"%s\" ha\'e peteĩ archivo nandi.</string>
+    <string name="error_bad_archive_without_info">\"%s\" haꞌehína peteĩ archivo oñembyaíva.</string>
+    <string name="error_bad_archive_with_info">\"%s\" haꞌehína peteĩ archivo oñembyaíva.\nMarandu extractor-gui: \"%s\"</string>
+    <string name="security_error">Archivo ndaikatúi ojepe’ava’erã ojeporúvo ko app</string>
+    <string name="cloud_drive_tooltip">Ejapo peteĩ Google DriveTM joajuha emohenda hag̃ua vorekuéra Amaze File Manager ryepýgui.</string>
+    <string name="signin_with_google_title">Emoañete eipuru hag̃ua Google DriveTM</string>
+    <string name="show_system_apps">Ehechauka sistema purupyrã</string>
+    <string name="system_apps">Sistema purupyrã</string>
+    <string name="select_inverse">Eiporavo Inverso</string>
+    <string name="select_by_type">Eiporavo tipo rupive</string>
+    <string name="select_by_date">Eiporavo ára rupive</string>
+    <string name="select_similar">Eiporavo ojoguáva</string>
+    <string name="error_fetching_google_play_product_list">Ojejavy ojegueru jave producto lista-gui Google Play.</string>
+    <string name="grant_all_files_permission">Android 11 guive, Google ojerure Archivo Moakãhárape ojerure hag̃ua puruhára permiso oisãmbyhy hag̃ua opaite vore oĩva tembipuru’ípe. Detalle ko\'ápe.
+        \n\nAmaze File Manager oikotevẽ avei ko permiso. Emboguapy rire "Grant"ko\'ápe, eiporavo Eheja jeike emohenda hag̃ua opaite vore opción pantalla oúvape.
+        \n\nEmbogue ramo ko ñe’ẽmondo osẽta tembipuru’ígui.</string>
+    <string name="user_apps">Poruhárape g̃uarã purupyrã</string>
+    <string name="appearance">Jehecha</string>
+    <string name="behavior">Teko</string>
+    <string name="appearance_summary">Emohenda vore mohendaha tema, saꞌi ha jehechauka</string>
+    <string name="ui_summary">Eñangareko mba’e marandu rehepa rehechaukava’erã, emohenda barra lateral ha emoambue UI jeporavopyre</string>
+    <string name="behavior_summary">Emoambue tekoha ha’eháicha jeheka ijyvatevéva ha eipe’átapa vore tembiaporã pyahúramo</string>
+    <string name="security_summary">Emohenda ñe’ẽñemi ha cifrado</string>
+    <string name="backup_summary">Egueraha/Egueru Amaze ñemboheko</string>
+
+    <string name="pref_export">Egueraha</string>
+    <string name="pref_export_summary">Eguerahauka ñemboheko</string>
+    <string name="pref_import">Egueru</string>
+    <string name="pref_import_summary">Eguerahauka ñemboheko</string>
+
+    <string name="quick_desc">Archivo nda’aréi ojeikeva’ekue Amaze rupive</string>
+    <string name="recent_desc">Ñe’ẽñemi ojejapo térã oñemoambuéva nda’aréi</string>
+    <string name="error_cannot_find_way_open">Ndaikatúi ojejuhu tape ojeipe’a hag̃ua vore</string>
+    <string name="error_cant_decompress_that_file">Ndaikatúi oñemboguata archivo ojejeruréva</string>
+    <string name="analyse_storage">Ohesa’ỹijo Ñongatuha</string>
+    
+    <string name="download_amaze_utils_text">Reñembohasáma hína Amaze File Utilities-pe. Ha\'e ore app código abierto orekóva audio/video/imagen/documento jehechaukaha incorporado, ohejáva ndéve ehesa\'ỹijo archivo basura emosãso hag̃ua ñeñongatu, ñembohasa pya\'e eipuruhápe Wifi P2P ha hetave mba\'e.\nEipytyvõmi eñeha\'ãvo.</string>
+    <string name="download">Emboguejy</string>
+    
+    <string name="amaze_utils_installed_alias">Aguyje remoĩ haguére Amaze File Utilities. Nde\'e reñembohasáma app-pe.</string>
+    <string name="image_viewer">Esorprende ta\'ãngamýi jehechaukaha</string>
+    <string name="video_player">Esorprende ta\'ãngamýi reproductor</string>
+    <string name="amaze_audio_player">Esorprende música reproductor</string>
+    <string name="pdf_viewer">Esorprende documento reproductor</string>
+    
+    <string name="share_logs">Embohasa registro</string>
+    <string name="share_logs_summary">Embohasa registro ojejapyhýva correo electrónico / telegrama rupive</string>
+    <string name="open_with_amaze">Eipe’a Amaze</string>
+    <string name="confirmation">Ñemoañete</string>
+    <string name="open_file_confirmation">¿Eipe’aseha katuete ko’ã vore?\n\nTéra:\n%s\n\nMoõpa oĩ:\n%s\n\nTuichaha:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Google Play rembiapoukapy rupive, umi purupyrã ndojehejái oñembopyahu ijehegui. Embopyahu app Google Play-gui.</string>
+    <string name="error_cannot_get_package_info">Ndaikatúi ojehupyty paquete marandu vore \"%s\"-gui. Taha’e pe vore oje’éva ndaha’éi peteĩ APK, térã pe vore paquete rehegua oñembyai.</string>
+    <string name="preference_delete_confirmation">Embogue moañete</string>
+    <string name="preference_delete_confirmation_summary">Ejerure moañete embogue mboyve ñanduti renda. Ojejokóramo kóva!</string>
+    
+    
+    <string name="protocol_ftps">FTP seguro</string>
+    <string name="unavailable">Ndojeguerekói</string>
+
+    <string name="exporting_failed">Ojeguerahauka: ndaikatúi ojehai vore jekopytyjoja</string>
+    <string name="importing_failed">Ojegueru ndoikói: ndaikatúi omoñe’ẽ pe jekopytyjoja archivo</string>
+    <string name="importing_completed">Ogueru ñemohu’ã</string>
+    <string name="invalid_backup_file">Archivo jekopytyjoja ndoikóiva</string>
+    <string name="import_failed_for">Ojegueru ndoikói:</string>
+    <string name="free_of">"%s\n%s ndoikói %s-gui</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin ndojeguerohorýi F- ndive. Droid versión.Eipuru Play Store versión Amaze rehegua.</string>
+    <string name="disable_player_intent_filters">Embogue umi filtro reproductor intención rehegua</string>
+    <string name="disable_player_intent_filters_summary">Embogue Amaze reproductor de medios incorporado archivo poravoháragui</string>
+    <string name="no_app_found_intent">Ndaipóri app ojejuhúva omboguata hag̃ua ko intención.Ejapo nde reguereko DocumentsUI oñemboguapyva’ekue?</string>
+    <string name="cloud_connection_credentials_cleared">Oñembogue umi arai joajuha jekuaaukaha</string>
+    <string name="cloud_connection_credentials_cleared_msg">Ñembyasy, ndaikatúikuri roguerahauka ne arai joajuha jekuaaukaha esquema pyahúpe, ha roipe’ava’erãkuri app-gui.Ejapo arai joaju jey.</string>
+</resources>

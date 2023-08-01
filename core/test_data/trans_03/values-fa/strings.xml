@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">باز کردن کشوی پیمایش</string>
+    <string name="drawer_close">بستن کشوی پیمایش</string>
+    <string name="icon">نماد</string>
+    <string name="apps">مدیر برنامه</string>
+    <string name="ftp">سرور FTP</string>
+    <string name="setting">تنظیمات</string>
+    <string name="select">انتخاب مورد</string>
+    <string name="press_again">برای خروج دوباره فشار دهید</string>
+    <string name="open">باز</string>
+    <string name="backup">پشتیبان گیری</string>
+    <string name="uninstall">حذف نصب</string>
+    <string name="play">فروشگاه Play</string>
+    <string name="properties">ویژگی‌ها</string>
+    <string name="copyingapks">کپی %d فایل APK در %s</string>
+    <string name="delbook">حذف نشانک</string>
+    <string name="add_to_bookmarks">افزودن به نشانک‌ها</string>
+    <string name="enterpath">وارد مسیر</string>
+    <string name="cancel">لغو</string>
+    <string name="create">ایجاد</string>
+    <string name="loading">در حال بارگیری…</string>
+    <string name="file_empty">پرونده خالی است</string>
+    <string name="error">خطا</string>
+    <string name="search_results">نتایج جستجوی %s</string>
+    <string name="rename">تغییر نام</string>
+    <string name="save">ذخیره</string>
+    <string name="bookmarks_added">نشانک ها اضافه شد</string>
+    <string name="fileexist">فایل با همین نام از قبل وجود دارد</string>
+    <string name="name">نام</string>
+    <string name="date">تاریخ</string>
+    <string name="location">مکان</string>
+    <string name="size_capitalized">اندازه</string>
+    <string name="size">اندازه پوشه</string>
+    <string name="enterzipname">نام فشرده را وارد کنید</string>
+    <string name="no_app_found">برنامه ای برای باز کردن این فایل یافت نشد</string>
+    <string name="copying">کپی</string>
+    <string name="moving">حرکت</string>
+    <string name="file">پرونده</string>
+    <string name="folder">پوشه</string>
+    <string name="newfolder">پوشه جدید</string>
+    <string name="entername">نام را وارد کنید</string>
+    <string name="extracting">درحال استخراج</string>
+    <string name="stopping">توقف</string>
+    <string name="open_parent">باز کردن دایرکتوری والد</string>
+    <string name="open_with">باز کردن با</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="about">درباره</string>
+    
+    <string name="compress">فشرده کردن</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    
+    <string name="dialog_delete_category_directories">دایرکتوری ها</string>
+    <string name="dialog_delete_category_files">فایل ها</string>
+    <string name="dialog_delete_disclaimer">حذف موارد زیر آنها را برای همیشه از دستگاه شما حذف می کند و نمی توان آنها را بازیابی کرد.</string>
+    <string name="dialog_delete_title">موارد را برای همیشه حذف کنید؟</string>
+    <string name="deleting">حذف</string>
+    <string name="question_set_path_as_home">آیا می خواهید مسیر فعلی را به عنوان صفحه اصلی برای این برگه تنظیم کنید؟</string>
+    <string name="directorysort">حالت مرتب سازی فهرستی</string>
+    <string name="sort_by">مرتب سازی بر اساس</string>
+    <string name="sort_only_this">فقط این پوشه</string>
+    
+    
+    <string name="random_summary">رنگ اصلی تصادفی را هنگام راه اندازی تنظیم می کند</string>
+    <string name="colorize">رنگی کردن نمادها</string>
+    <string name="colorize_summary">Sets رنگ نماد ثابت ترجیح رنگ نماد دایرکتوری را لغو نمی کند.</string>
+    <string name="home">صفحه اصلی</string>
+    <string name="paste">جایگذاری</string>
+    <string name="history">تاریخچه</string>
+    <string name="copy">کپی</string>
+    
+    <string name="root_mode_summary">فقط برای دستگاه های روت شده. فقط اگر مطمئن هستید آن را بررسی کنید.</string>
+    <string name="root_failure">دسترسی ریشه داده نشد</string>
+    <string name="select_all">همه را انتخاب کنید</string>
+    <string name="delete">حذف</string>
+    <string name="set_as_home">تنظیم به عنوان صفحه اصلی</string>
+    <string name="operation_not_supported">عملیات پشتیبانی نمی شود</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">نور مواد</string>
+    <string name="dark">متریال تاریک</string>
+    <string name="daytime">روز</string>
+    <string name="black">مشکی (برای OLED)</string>
+    <string name="system">سیستم (از تم سیستم پیروی کنید)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">پوشه ها در بالا</string>
+    <string name="filesOnTop">فایل ها در بالا</string>
+    <string name="none_on_top">هیچکدام در بالا</string>
+    <!--SortBy-->
+    <string name="sort_name">نام</string>
+    <string name="lastModified">آخرین تغییر</string>
+    <string name="sort_size">اندازه</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">یک فایل را انتخاب کنید</string>
+    <string name="process_viewer">نمایشگر فرآیند</string>
+    <string name="in_safe">فضای ناکافی</string>
+    <string name="no_file_overwrite">فایل رونویسی نشده است</string>
+    <string name="skip">پرش</string>
+    <string name="overwrite">بازنویسی</string>
+    <string name="not_allowed">مجاز نیست</string>
+    <string name="searching">جستجوی %s</string>
+    <string name="done">انجام شد</string>
+    <string name="set">تنظیم</string>
+    <string name="enablerootmde">فعال کردن حالت ریشه</string>
+    <string name="goback">برگشت</string>
+    <string name="newfile">فایل جدید</string>
+    <string name="no_files">فایل وجود ندارد</string>
+    <string name="used">فضای استفاده شده</string>
+    <string name="used_by_others">استفاده شده توسط دیگران</string>
+    <string name="free">فضای آزاد</string>
+    <string name="listview">نمایش فهرست</string>
+    <string name="gridview">نمایش شبکه</string>
+    <string name="permission">مجوزها</string>
+    <string name="hide">پنهان کردن</string>
+    <string name="exit">خروج</string>
+    <string name="doforall">انجام برای همه موارد</string>
+    <string name="gridcolumnno">تعداد ستونها در نمای شبکه</string>
+    <string name="set_random">تغییرات پس از راه اندازی مجدد برنامه انجام می شود</string>
+    <string name="authors">نویسندگان</string>
+    
+    
+    <string name="ui">اینترفیس</string>
+    <string name="general">عمومی</string>
+    <string name="thumb_summary">نمایش تصاویر کوچک برنامه ها و تصاویر</string>
+    <string name="thumb">نمایش ریز عکسها</string>
+    <string name="hidden">نمایش فایل ها و پوشه های مخفی</string>
+    <string name="lastModifiedSummary">نمایش تاریخ و زمان آخرین تغییر</string>
+    <string name="lastModifiedPref">نمایش آخرین تاریخ اصلاح و زمان</string>
+    <string name="size_pref_summary">نمایش اندازه فایل ها و تعداد آیتم های موجود در پوشه ها</string>
+    <string name="size_pref">نمایش اندازه ها</string>
+    <string name="miscellaneous">متفرقه</string>
+    <string name="root_pref_summary">نمایش مجوزهای فایل ها و پوشه ها</string>
+    <string name="root_pref">نمایش مجوزها</string>
+    <string name="about_amaze_file_manager_label">درباره مدیریت فایل Amaze</string>
+    <string name="version">نسخه</string>
+    <string name="rate">به برنامه امتیاز دهید</string>
+    <string name="feedback">ارسال بازخورد</string>
+    <string name="hiddenfiles">فایل های مخفی</string>
+    <string name="type">تایپ کنید</string>
+    
+    <string name="add_shortcut">افزودن میانبر</string>
+    <string name="unsaved_changes">تغییرات ذخیره نشده</string>
+    <string name="unsaved_changes_description">شما تغییرات ذخیره نشده ای دارید، آیا می خواهید آنها را قبل از خروج ذخیره کنید؟</string>
+    <string name="saving">ذخیره</string>
+    <string name="package_installer">نصب کننده بسته</string>
+    <string name="view">مشاهده</string>
+    <string name="install">نصب</string>
+    <string name="archive">بایگانی</string>
+    <string name="archive_text">این یک بایگانی است. چه اقدامی را می خواهید انجام دهید؟</string>
+    <string name="package_installer_text">این یک نصب کننده بسته است. چه اقدامی را می‌خواهید انجام دهید؟</string>
+    <string name="xda_title">رشته XDA</string>
+    <string name="xda_summary">پرسش و پاسخ، راهنما و عیب‌یابی</string>
+    <string name="circular_images">استفاده از نمادهای دایره‌ای برای تصاویر و ویدیوها</string>
+    <string name="circular_icons">استفاده از نمادهای دایره‌ای</string>
+    <string name="back_title">پیمایش برگشت</string>
+    <string name="back_summary">پیمایش برگشت سفارشی را در بالای لیست فعال می کند</string>
+    <string name="details">جزئیات</string>
+    <string name="translators">مترجمان</string>
+    <string name="german_translation_title">آلمانی</string>
+    <string name="italian_translation_title">Ital</string>
+    <string name="french_translation_title">فرانسوی</string>
+    <string name="russian_translation_title">روسی</string>
+    <string name="spanish_translation_title">اسپانیایی</string>
+    <string name="basque_translation_title">باسکی</string>
+    <string name="chinese_translation_title">چینی</string>
+    <string name="serbian_translation_title">صربی</string>
+    <string name="turkish_translation_title">ترکی</string>
+    <string name="ukrainian_translation_title">اوکراینی</string>
+    <string name="portuguese_translation_title">پرتغالی</string>
+    <string name="polish_translation_title">کره ای</string>
+    <string name="korean_translation_title">یونانی</string>
+    <string name="greek_translation_title">هلندی</string>
+    <string name="dutch_translation_title">هلندی</string>
+    <string name="romanian_translation_title">رومانیایی</string>
+    <string name="vietnamese_translation_title">ژاپنی</string>
+    <string name="japanese_translation_title">ژاپنی</string>
+    <string name="tamil_translation_title">تامیلی</string>
+
+    <string name="zip_viewer">نمایشگر زیپ</string>
+    
+    <string name="warning">هشدار</string>
+    <string name="donate"/>
+    <string name="archive_extract_folder">پوشه استخراج بایگانی</string>
+    <string name="archive_summary">فایل‌های بایگانی در این پوشه استخراج می‌شوند. مقدار پیش فرض دایرکتوری است که بایگانی در آن وجود دارد.</string>
+    <string name="open_as">باز کردن به عنوان</string>
+    <string name="text">صوت</string>
+    <string name="audio">ویدئو</string>
+    <string name="video">سایر</string>
+    <string name="other">تصویر</string>
+    <string name="image">تصویر</string>
+    <string name="contributors">مشارکت کنندگان</string>
+    <string name="save_paths">مسیرها را به خاطر بسپار</string>
+    <string name="save_path_summary">هنگام راه اندازی، آخرین پوشه مشاهده شده برای هر برگه نمایش داده می شود</string>
+    <string name="select_intent">انتخاب کنید</string>
+    <string name="database">پایگاه داده</string>
+    <string name="colored_navigation">نوار پیمایش رنگی</string>
+    <string name="colored_navigvation_sum">اینکه آیا نوار پیمایش سیستم با پوست رنگی است یا خیر</string>
+
+    <string name="color_title">رنگ</string>
+    <string name="color_summary">رنگ را روی اجزای مختلف رابط کاربری</string>
+    <string name="primary_color_title">رنگ اصلی (برگه سمت چپ)</string>
+    <string name="primary_color_summary">تنظیم رنگ به عناصر بزرگ UI برای برگه سمت چپ</string>
+    <string name="accent_color_title">رنگ لهجه</string>
+    <string name="accent_color_summary">تنظیم رنگ به FAB و سایر عناصر کوچک رابط کاربری</string>
+    <string name="icon_color_title">رنگ نماد</string>
+    <string name="icon_color_summary">تنظیم رنگ به نمادها</string>
+    <string name="choose_color">انتخاب رنگ</string>
+    <string name="files">فایل ها</string>
+    <string name="textreader">خواننده پایگاه داده</string>
+    <string name="databasereader">خواننده پایگاه داده</string>
+    <string name="show_dividers">نمایش تقسیم کننده ها</string>
+    <string name="needs_access">دسترسی به نوشتن الزامی است</string>
+    <string name="needs_access_summary">لطفاً دایرکتوری ریشه \t</string>
+    <string name="needs_access_summary1">\t را انتخاب کنید تا برای اجرای</string>
+    <string name="smb_connection">اتصال SMB</string>
+    <string name="smb_server">آدرس IP سرور</string>
+    <string name="server_address">دسترسی نوشتن بدهید آدرس IP سرور</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">گذرواژه</string>
+    <string name="anonymous">ناشناس</string>
+    <string name="bluetooth">بلوتوث</string>
+    <string name="folders">پوشه ها</string>
+    <string name="folderfilecount">%1$d پوشه و %2$d فایل</string>
+    <string name="videos">ویدیوها</string>
+    <string name="apks">APK</string>
+    <string name="documents">اسناد</string>
+    <string name="images">تصاویر</string>
+    <string name="clear">پاک کردن</string>
+    
+    <string name="total">مجموع:</string>
+    <string name="calculating">محاسبه</string>
+    <string name="sort">مرتب‌سازی</string>
+    <string name="ascending">صعودی</string>
+    <string name="descending">نزولی</string>
+    <string name="default_string">پیش‌فرض</string>
+    <string name="doit">این کار را انجام دهید</string>
+    <string name="want_help">به کمک نیاز دارید؟</string>
+    <string name="quick">دسترسی سریع</string>
+    <string name="recent">فایل‌های اخیر</string>
+    <string name="edit">ویرایش</string>
+    <string name="find">یافتن در صفحه</string>
+    
+    <string name="grantper">اعطای مجوز</string>
+    <string name="grantfailed">مجوز داده نشده</string>
+    <string name="grant_storage_permission">برنامه برای ادامه به مجوز ذخیره سازی نیاز دارد. لغو این گفتگو از برنامه خارج می شود.</string>
+    <string name="operation_unsuccesful">عملیات ناموفق</string>
+    <string name="creatingfile">ایجاد فایل</string>
+    <string name="creatingfolder">ایجاد پوشه</string>
+    <string name="renaming">تغییر نام</string>
+    <string name="cant_be_empty">%s نمی تواند خالی باشد</string>
+    <string name="ip">آدرس</string>
+    <string name="connection_name">نام اتصال</string>
+    <string name="no_device_found">دستگاهی پیدا نشد</string>
+    <string name="path">مسیر</string>
+    <string name="rename_bookmark">تغییر نشانک</string>
+    <string name="cut">برش</string>
+    <string name="search">جستجو</string>
+    <string name="invalid_name">نام نامعتبر</string>
+    <string name="search_hint">برای جستجو تایپ کنید…</string>
+    <string name="advanced_search">جستجوی پیشرفته</string>
+    <string name="regular_expression">عبارات منظم</string>
+    <string name="regular_expression_summary">جستجو با استفاده از عبارت منظم سبک BASH</string>
+    <string name="match_content">مطابقت با محتوای 8</string>
+    <string name="match_content_summary">اگر تنظیم شود، عبارت منظم با نام کل فایل مطابقت داده می‌شود.
+        در غیر این صورت به دنبال وقوع خواهد بود.</string>
+    <string name="start_ftp">شروع</string>
+    <string name="stop_ftp">توقف</string>
+    <string name="ftp_status_running">اجرا</string>
+    <string name="ftp_status_not_running">در حال اجرا نیست</string>
+    <string name="ftp_no_wifi">مطمئن شوید که به Wi متصل هستید -Fi</string>
+    <string name="domain">دامنه</string>
+    <string name="smb_share">مسیر اشتراک</string>
+    <string name="invalid">%s نامعتبر</string>
+    <string name="ftp_notif_starting">سرور FTP در حال راه اندازی است</string>
+    <string name="ftp_notif_starting_title">سرور FTP</string>
+    <string name="ftp_notif_title">سرور FTP Amaze در حال اجرا</string>
+    <string name="ftp_notif_text">در %s</string>
+    
+    <string name="ftp_port_edit_menu_title">پورت FTP</string>
+    <string name="ftp_port_change_success">پورت FTP با موفقیت تغییر کرد</string>
+    <string name="ftp_port_change_error_invalid">شماره پورت نامعتبر انتخاب شد</string>
+    <string name="primary_two_title">رنگ اصلی (برگه سمت راست)</string>
+    <string name="primary_two_summary">تنظیم رنگ به عناصر رابط کاربری بزرگ برای برگه سمت راست</string>
+    <string name="support_development">توسعه پشتیبانی</string>
+    <string name="report_bugs_title">گزارش اشکالات</string>
+    <string name="source_title">کد منبع</string>
+    <string name="source_summary">مشاهده کد منبع ما در GitHub</string>
+    <string name="report_bugs_summary">گزارش اشکالات یا درخواست ویژگی جدید</string>
+    
+    <string name="translate_summary">ترجمه Amaze به زبان شما</string>
+    <string name="paypal_copy_message">شناسه PayPal در کلیپ بورد کپی شد</string>
+    <string name="searching_devices">جستجوی دستگاه ها</string>
+    <string name="use_custom_ip">استفاده از IP سفارشی</string>
+    <string name="bookmark_lost">نشانک یافت نشد، در حال ایجاد مجدد…</string>
+
+    <string name="smb_instructions">
+        
+            
+                نحوه دسترسی به پوشه Windows مشترک در Android (SMB)\n\n
+                
+                    
+                        اشتراک گذاری فایل در ویندوز را فعال کنید\n
+                    
+                    
+                        کنترل پنل را باز کنید، روی Choose HomeGroup and Sharing options در زیر Network کلیک کنید
+                        و اینترنت، و روی «تغییر تنظیمات اشتراک‌گذاری پیشرفته» کلیک کنید، «فایل و
+                        ویژگی اشتراک چاپگر".\n\n
+                    
+
+                    
+                        تنظیمات اشتراک‌گذاری فایل اضافی\n
+                    
+                    
+                        همچنین ممکن است بخواهید سایر تنظیمات اشتراک گذاری پیشرفته را در اینجا پیکربندی کنید. \n
+                        به عنوان مثال، اگر به همه آنها اعتماد دارید، می توانید دسترسی به فایل های خود را بدون رمز عبور فعال کنید
+                        دستگاه های موجود در شبکه محلی شما هنگامی که اشتراک گذاری فایل و چاپگر فعال شد، می توانید
+                        File Explorer یا Windows Explorer را باز کنید، روی پوشه ای که می خواهید به اشتراک بگذارید کلیک راست کنید و
+                        Properties را انتخاب کنید. \n
+                        روی دکمه اشتراک گذاری کلیک کنید و پوشه را در شبکه در دسترس قرار دهید.\n\n
+                        
+
+                    
+                        مطمئن شوید که هر دو دستگاه به یک Wifi\n متصل هستند
+                    
+                    
+                        این ویژگی باعث می‌شود فایل‌ها در شبکه محلی، رایانه شخصی و دستگاه‌های تلفن همراه شما در دسترس باشند
+                        باید در همان شبکه محلی باشد. نمی‌توانید به یک پوشه Windows مشترک دسترسی پیدا کنید
+                        از طریق اینترنت یا زمانی که گوشی هوشمند شما به داده های تلفن همراه خود وصل است - آن
+                        باید به Wi-Fi متصل شود.\n\n
+                    
+
+                    
+                        آدرس IP را پیدا کنید\n
+                    
+                    
+                        Command Prompt را باز کنید. \'ipconfig\' را تایپ کنید و Enter را فشار دهید. به دنبال دروازه پیش فرض باشید
+                        تحت آداپتور شبکه شما برای آدرس IP روتر شما. جستجو کنید
+                        \\\"آدرس IPv4\\\" در همان بخش آداپتور برای پیدا کردن IP رایانه شما
+                        آدرس.\n\n
+                    
+
+                    جزئیات را در کادر گفتگوی SMB وارد کنید\n
+                
+            
+        
+   </string>
+    <string name="share_limit">نمی توان بیش از 100 فایل را به اشتراک گذاشت</string>
+    <string name="otg_access">انتخاب ریشه دستگاه OTG</string>
+    <string name="information">اطلاعات</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">دسترسی شده</string>
+    <!-- reference to file modified date -->
+    <string name="modified">اصلاح شده</string>
+
+    <string name="title">عنوان</string>
+    <string name="artist">هنرمند</string>
+    <string name="album">آلبوم</string>
+    <string name="year">سال</string>
+    <string name="duration">مدت</string>
+    <string name="comment">نظر</string>
+    <!-- reference to audio/video file -->
+    <string name="container">کانتینر</string>
+    
+    <string name="channels">کانالها</string>
+    <string name="sample_rate">نرخ نمونه</string>
+    <string name="bitrate">بیت</string>
+    <string name="dimensions">ابعاد</string>
+    <string name="frame_rate">نرخ فریم</string>
+    <string name="image_type">نوع تصویر</string>
+    <string name="width">عرض</string>
+    <string name="height">ارتفاع</string>
+    <string name="date_modified">تاریخ اصلاح</string>
+    <string name="software">نرم افزار</string>
+    
+    <string name="camera_brand">برند دوربین</string>
+    <string name="camera_model">Cam مدل</string>
+    <string name="date_taken">تاریخ گرفتن</string>
+    <string name="exposure_time">زمان نوردهی</string>
+    <string name="aperture_value">مقدار دیافراگم</string>
+    <string name="image_iso">رده بندی سرعت ISO</string>
+    <string name="flash_fired">پرتاب فلاش</string>
+    <string name="focal_length">فاصله کانونی</string>
+    <string name="subject">موضوع</string>
+    <string name="author">نویسنده</string>
+    <string name="keywords">کلمات کلیدی</string>
+    <string name="producer">تهیه کننده</string>
+    <string name="created">ایجاد</string>
+    <string name="format">قالب</string>
+    <string name="pages">Num صفحات</string>
+    <!-- reference to a document file -->
+    <string name="optimized">بهینه شده</string>
+    <string name="security">امنیت</string>
+    <string name="paper_size">اندازه کاغذ</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">برخی فایلها با موفقیت %s</string>
+    <string name="copied">کپی نشدند</string>
+    <string name="moved">انتقال</string>
+    <string name="copy_complete">کپی کامل</string>
+    <string name="waiting_title">در حال انتظار</string>
+    <string name="waiting_content">در انتظار تکمیل عملیات</string>
+    <string name="extract_complete">استخراج کامل</string>
+    <string name="compression_complete">فشرده سازی تکمیل شد</string>
+    <string name="compressing">فشرده شدن</string>
+    <string name="cancelled">لغو شد</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">نوشته</string>
+    <string name="out_of">از</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">از</string>
+    <string name="processing_file">پرونده فایل</string>
+    <string name="current_speed">سرعت فعلی</string>
+    <string name="smb_launch_error">برای باز کردن آن باید این فایل را در فضای ذخیره سازی کپی کنید</string>
+    <string name="error_file_not_found">خطا: فایل پیدا نشد</string>
+    <string name="error_io">خطای ورودی/خروجی</string>
+    <string name="error_file_too_large">خطا: فایل خیلی بزرگ است</string>
+    <string name="medium_text">متن متوسط</string>
+    <string name="permission_read">خواندن</string>
+    <string name="permission_write">نوشتن</string>
+    <string name="permission_execute">اجرا</string>
+    <string name="permission_owner">مالک</string>
+    <string name="permission_group">گروه</string>
+    <string name="permission_other">دیگر</string>
+    <string name="clipboard_path_copy">مسیر در کلیپ بورد کپی شد</string>
+    <string name="service_timer">زمان سپری شده</string>
+    <string name="please_wait">لطفاً صبر کنید</string>
+
+    <string name="cloud_connection">اتصال Cloud</string>
+    <string name="cloud_connection_new">اتصال جدید Cloud</string>
+    
+    
+    
+    
+    <string name="cloud_get">دریافت افزونه Cloud</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">بدون برنامه</string>
+    <string name="ftp_path">مسیر مشترک</string>
+    <string name="ftp_path_hint">مسیر به ریشه دایرکتوری برای اشتراک گذاری</string>
+    <string name="change">تغییر</string>
+    <string name="unknown_error">اوه، مشکلی پیش آمد!</string>
+
+    <string name="ftp_path_change_success">مسیر FTP با موفقیت تغییر کرد</string>
+    <string name="ftp_path_change_error_invalid">مسیر نامعتبر</string>
+    <string name="ftp_status_no_connection">بدون اتصال</string>
+    <string name="ftp_status_secure_connection">اتصال ایمن</string>
+    <string name="ftp_status_title">وضعیت</string>
+    <string name="ftp_port">پورت</string>
+    <string name="ftp_login">ورود</string>
+    <string name="field_empty">فیلد نمی تواند خالی باشد</string>
+    <string name="ftp_timeout">مدت زمان بیکار</string>
+    <string name="ftp_seconds">ثانیه</string>
+    
+    <string name="intellihide_toolbar_summary">پنهان کردن خودکار نوار ابزار در حین پیمایش</string>
+    <string name="hash_sha256">SHA-26</string>
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">کپی شده به c </string>
+    <string name="contributors_1_summary">ترجمه</string>
+    <string name="contributors_2_summary">نماد و بنر</string>
+    <string name="contributors_3_summary">موتور تم</string>
+    <string name="contributors_4_summary">سایه پشت FAB</string>
+    <string name="contributors_5_summary">انتقال رنگ هنگام کشیدن برگه ها</string>
+    <string name="contributors_6_summary">سرور FTP</string>
+    <string name="contributors_7_summary">راه اندازی یک پوسته تعاملی</string>
+    <string name="connection_exists">اتصال از قبل وجود دارد</string>
+
+    <string name="crypt_encrypting">رمزگذاری</string>
+    <string name="crypt_decrypting">رمزگشایی</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">رمزگذاری شده</string>
+    <string name="crypt_decrypted">رمزگشایی شد</string>
+    <string name="crypt_encrypt">رمزگذاری</string>
+    <string name="crypt_decrypt">رمزگشایی</string>
+    <string name="operation_fail_following">عملیات برای فایل‌های زیر ناموفق بود</string>
+    <string name="crypt_pref_master_password_title">گذرواژه اصلی</string>
+    <string name="crypt_pref_master_password_summary">یک رمز عبور اصلی برای رمزگذاری تنظیم کنید.
+        برای حذف آن را خالی بگذارید.</string>
+    <string name="crypt_pref_fingerprint_title">اثرانگشت</string>
+    <string name="crypt_pref_fingerprint_summary">استفاده از اثر انگشت برای احراز هویت رمزگذاری</string>
+    <string name="crypt_fingerprint_no_permission">مجوزهای اثر انگشت از دست رفته</string>
+    <string name="crypt_fingerprint_not_enrolled">اثرانگشت ثبت نشده</string>
+    <string name="crypt_fingerprint_no_security">بدون امنیت قفل صفحه found</string>
+    <string name="crypt_warning_key">هنگامی که الگوی امنیتی خود را از آن تغییر می دهید، به شما توصیه شود
+        تنظیمات سیستم، شما نمی توانید این محتوا را رمزگشایی کنید.</string>
+    <string name="warning_never_show">دیگر اطلاع ندهید</string>
+    <string name="warning_confirm">متوجه شدم!</string>
+    <string name="crypt_encryption_fail">رمزگذاری نشد</string>
+    <string name="crypt_decryption_fail">رمزگشایی انجام نشد</string>
+    <string name="crypt_decryption_fail_password">گذرواژه اشتباه است!</string>
+    <string name="crypt_fingerprint_authenticate">برای ادامه حسگر را لمس کنید</string>
+    <string name="authenticate_password">رمز عبور را وارد کنید</string>
+
+    <string name="sidebar_preferences">نوار کناری</string>
+    <string name="sidebar_quick_access_title">دسترسی سریع نوار کناری</string>
+    <string name="show_quick_access_pref_title">نمایش دسترسی‌های سریع</string>
+    <string name="show_quick_access_pref">دسترسی‌های سریع</string>
+    <string name="directory">دایرکتوری</string>
+
+    <string name="sidebar_bookmarks_title">نشانک‌های نوار کناری</string>
+    <string name="show_bookmarks_pref_title">نمایش نشانک‌ها</string>
+    <string name="show_bookmarks_pref">نشانک‌ها</string>
+    <string name="create_bookmark">ایجاد نشانک</string>
+    <string name="edit_bookmark">ویرایش نشانک</string>
+    <string name="question_delete_bookmark">حذف نشانک؟</string>
+
+    <string name="cloud_error_plugin">افزونه Amaze Cloud یافت نشد. لطفاً از فروشگاه Play دانلود کنید.</string>
+    <string name="cloud_error_failed_restart">اتصال بارگیری نشد.
+        لطفاً یک بار Amaze Cloud را باز کنید.</string>
+    <string name="cloud_remove">آیا می‌خواهید اتصال ابری را حذف کنید؟</string>
+    <string name="cloud_fail_authenticate">تأیید هویت انجام نشد</string>
+    <string name="cloud_share_copied">پیوند قابل اشتراک‌گذاری در کلیپ بورد کپی شد</string>
+    <string name="copy_low_memory">در حال تمام شدن حافظه، لطفا مقداری RAM را پاک کنید</string>
+    <string name="cloud_token_lost">توکن گم شده است، لطفاً دوباره وارد شوید</string>
+    <string name="monofont">فونت Monospace</string>
+    <string name="showHeaders">نمایش سرصفحه</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">هیچ موردی وجود ندارد</string>
+	<string name="item">مورد</string>
+	<string name="items">اقلام</string>
+	
+	<string name="byte_singular">بایت</string>
+	<string name="bytes">بایت</string>
+    <!-- end of plurals -->
+
+    <string name="no_name">فایل باید دارای نام باشد</string>
+    <string name="add_item">افزودن مورد</string>
+    <string name="failed_smb_decrypt_path">بارگیری نشد اتصال SMB</string>
+    <string name="failed_cloud_new_connection">افزودن اتصال Cloud جدید انجام نشد</string>
+    <string name="failed_cloud_api_key">تأیید اعتبار افزونه Cloud انجام نشد</string>
+
+    <string name="local_inet_addr_error">خطا در دریافت آدرس شبکه محلی</string>
+    <string name="intent_save_as">ذخیره به عنوان…</string>
+    <string name="go">برو</string>
+    <string name="advanced">پیشرفته</string>
+    <string name="typeable_paths_title">مسیرهای سفارشی</string>
+    <string name="typeable_paths_summary">نوار مسیر را برای تایپ مسیر سفارشی فشار دهید</string>
+    <string name="send_email_to">ارسال یک ایمیل به</string>
+
+    <string name="text_editor">تنظیمات ویرایشگر متن</string>
+    <string name="preference_newstack_title">باز کردن فایلها به عنوان کار جدید</string>
+    <string name="preference_newstack_summary">به شما امکان می‌دهد فایل‌ها را در کارهای جداگانه باز کنید. از صفحه اخیر سیستم به آنها دسترسی داشته باشید.</string>
+    
+    <string name="developers">توسعه دهندگان</string>
+    <string name="no_bitcoin_app">لطفاً یک برنامه کیف پول بیت کوین را نصب کنید</string>
+    <string name="channel_name_normal">اعلان‌های شگفت‌انگیز</string>
+    <string name="channel_description_normal">اعلان های مدیر فایل Amaze</string>
+    
+    <string name="channel_description_ftp">Amaze File Manager اعلان‌های سرور FTP</string>
+
+    
+    <string name="processing">در حال پردازش…</string>
+    <string name="failed_no_connection">بارگیری فایل‌ها انجام نشد. لطفاً اتصال خود را بررسی کنید.</string>
+
+    
+	<string name="scp_connection">اتصال SCP/SFTP</string>
+    <string name="ftp_connection">اتصال FTP</string>
+    <string name="ftps_connection">FTP از طریق اتصال SSL</string>
+    <string name="scp_port">پورت</string>
+    <string name="ssh_host_key_verification_prompt">اصالت میزبان \'%1$s\' را نمی توان تعیین کرد.\n\nاثر انگشت کلید %2$s %3$s است.\n\nلطفاً برای تأیید روی \"بله\" ضربه بزنید هویت؛ در غیر این صورت، لطفاً روی \"نه\" ضربه بزنید.</string>
+    <string name="ssh_host_key_verification_prompt_title">تأیید میزبان</string>
+    <string name="ssh_select_pem_button">کلید خصوصی SSH</string>
+    <string name="ssh_pem_key_parse_error">خواندن PEM انتخابی امکان پذیر نیست: %s</string>
+    <string name="password_unchanged">(بدون تغییر)</string>
+    <string name="ssh_authentication_failure_password">شکست ورود به سیستم: با نام کاربری و رمز عبور ارائه شده احراز هویت امکان پذیر نیست.</string>
+    <string name="ssh_authentication_failure_key">شکست ورود به سیستم: با نام کاربری و کلید خصوصی ارائه شده احراز هویت امکان پذیر نیست.</string>
+    <string name="ssh_connect_failed">نمی توان به %1$sمتصل شد. s:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">هشدار: شناسایی میزبان راه دور تغییر کرده است!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">این امکان وجود دارد که شخصی در حال انجام کار ناپسندی باشد!\n\nکسی ممکن است شما را تهدید کند در حال حاضر (حمله مرد در وسط)! همچنین ممکن است کلید میزبان به تازگی تغییر کرده باشد. اثر انگشت کلید عمومی ارسال شده توسط میزبان راه دور با چیزی که در Amaze ذخیره شده مطابقت ندارد.\n\nلطفاً با سرپرست سیستم خود تماس بگیرید یا اتصال جدیدی را برای ادامه اتصال به سرور تنظیم کنید.</string>
+    <string name="ssh_key_prompt_passphrase">لطفاً عبارت عبور کلید را وارد کنید. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">ایجاد میانبرها توسط راه‌انداز شما پشتیبانی نمی‌شود.</string>
+    
+    <string name="select_color_config">انتخاب تنظیمات رنگ</string>
+    <string name="customize">سفارشی کردن</string>
+    <string name="custom">سفارشی</string>
+    <string name="preselected_configs_title">پیکربندی‌های از پیش انتخاب شده</string>
+    <string name="orange">نارنجی</string>
+    <string name="blue">آبی</string>
+    <string name="green">سبز</string>
+    <string name="password_no_match">گذرواژه مطابقت ندارد</string>
+    <string name="deselect_all">لغو انتخاب همه</string>
+    <string name="filename">نام فایل</string>
+    <string name="compress_file_suggest_zip_extension">توصیه می شود از \".zip\" به عنوان پسوند فایل استفاده کنید.</string>
+    <string name="about_amaze">مدیر فایل طراحی مواد برای Android</string>
+    
+    
+    <string name="password_repeat">تکرار رمز عبور</string>
+    <string name="create_file_suggest_txt_extension">توصیه می شود از \".txt\" به عنوان پسوند فایل استفاده کنید.</string>
+    <string name="ssh_select_pem">کلید خصوصی را برای احراز هویت انتخاب کنید</string>
+    <string name="ssh_key_invalid_passphrase">عبارت عبور کلید نامعتبر.</string>
+    <string name="ssh_key_no_decoder_decrypt">هیچ رمزگشای معتبری برای رمزگشایی PEM وجود ندارد.</string>
+    <string name="encryption_fail_copy">به روز رسانی ورودی رمزگذاری در پایگاه داده انجام نشد</string>
+    <string name="extracted">استخراج شد</string>
+    <string name="compressed">فشرده شد</string>
+    <string name="processed">پردازش شد</string>
+    <string name="no_obtainable_info">هیچ اطلاعاتی درباره این فایل وجود ندارد</string>
+    <string name="reopen_from_source">نمی توان، لطفاً از آخرین برنامه دوباره باز کنید</string>
+    <string name="no_file_error">مشکلی پیش آمده است، چیزی برای باز کردن وجود ندارد</string>
+    <string name="file_too_long">فایل خیلی طولانی است و نمی توان آن را ویرایش کرد، با این حال می توانید %d کاراکتر اول را بخوانید</string>
+    <string name="file_read_only">فایل باز شده فقط خواندنی است.</string>
+    <string name="got_it">متوجه شدم!</string>
+    <string name="encrypt_file_save_as">ذخیره رمزگذاری شده فایل به عنوان…</string>
+    <string name="encrypt_folder_save_as">ذخیره پوشه رمزگذاری شده به عنوان…</string>
+    <string name="encrypt_option_use_aze">استفاده از فرمت رمزگذاری Amaze</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p>AESCrypt یک فرمت رمزگذاری فایل منبع باز مبتنی بر رمزگذاری AES است. همچنین قابل حمل است، می توان آن را با برنامه های AESCrypt در پلتفرم های دیگر رمزگشایی کرد.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">وب‌سایت AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>فرمت رمزگذاری amaze نیز بر اساس رمزگذاری AES است. اما متفاوت از فرمت AESCrypt، فقط توسط این دستگاه قابل رمزگشایی است. همچنین نباید Amaze File Manager را از این دستگاه حذف نصب کنید یا نحوه قفل کردن صفحه را تغییر دهید، در غیر این صورت راهی برای بازیابی فایل رمزگذاری شده نخواهید داشت.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">فایل های رمزگذاری شده باید از \".aze\" به عنوان پسوند فایل استفاده کنند.</string>
+    <string name="encrypt_file_must_end_with_aes">فایل های رمزگذاری شده باید از \".aes\" به عنوان پسوند فایل استفاده کنند.</string>
+    <string name="error_aescrypt_decrypt_failed">رمزگشایی نمی شود \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">فایل را نمی توان بازنویسی کرد.</string>
+    <string name="saved_single_file">فایل به عنوان \'%s\' ذخیره شد.</string>
+    <string name="saved_multi_files">%d فایل ذخیره شد.</string>
+    <string name="create_hidden_file_warn">فایل ایجاد شده در لیست فایل‌ها پنهان می‌شود.</string>
+    <string name="grant_apkinstall_permission">برنامه برای ادامه نصب برنامه‌ها به مجوز نیاز دارد.</string>
+    <string name="time_remaining">زمان باقی‌مانده</string>
+    <string name="transfer_rate">نرخ انتقال</string>
+    <string name="unknown">ناشناخته</string>
+    <string name="multiple_invalid_archive_entries">برخی از فایل‌های بایگانی قابل استخراج نیستند. ممکن است بایگانی آسیب دیده باشد یا از منبع مخربی تهیه شده باشد.</string>
+    <string name="saf_otg_explanation">اکنون به دلایل امنیتی به سیستم فایل Android بروید. لطفاً دستگاه USB را از لیست سمت چپ انتخاب کنید.</string>
+    <string name="donation_thanks">از کمک مالی شما متشکریم، این ما را با انگیزه نگه می دارد! (:</string>
+    <string name="enable_marquee_filename">فعال کردن افکت مارکی برای نام فایل‌ها</string>
+    <string name="archive_password_prompt">لطفا رمز بایگانی را وارد کنید:</string>
+    
+    <string name="cannot_extract_archive">آرشیو \"%s\" استخراج نمی‌شود: %s</string>
+    <string name="archive_unsupported_or_corrupt">نمی‌توان بایگانی \"%s\" را باز کنید. یا نمی توانیم بایگانی را باز کنیم یا بایگانی آسیب دیده است.</string>
+    <string name="close">بستن</string>
+    <string name="bookmark_exists">نشانک وجود دارد</string>
+    <string name="hide_media">پنهان شدن از مرورگرهای رسانه</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">این امکان وجود دارد که شخصی در حال انجام کارهای ناپسند باشد!\n\nشخصی ممکن است در حال حاضر شما را استراق سمع کند (حمله مرد در وسط)! همچنین ممکن است کلید میزبان به تازگی تغییر کرده باشد. اثر انگشت زیرا کلید عمومی ارسال شده توسط میزبان راه دور با کلید ذخیره شده در Amaze مطابقت ندارد.\n\nمی‌توانید به‌روزرسانی اثر انگشت میزبان را ادامه دهید یا تنظیمات اتصال SSH را لغو کنید.</string>
+    <string name="update_host_key">به‌روزرسانی کلید میزبان</string>
+    <string name="cancel_recommended">لغو (توصیه می شود)</string>
+    
+    
+    <string name="failed_install_apk">نصب نشد</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">حافظه داخلی</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">کارت SD</string>
+    <string name="choose_folder">این پوشه را انتخاب کنید</string>
+    
+    <string name="some_files_failed_invalid_operation">برخی فایل ها به دلیل نامعتبر بودن ناموفق بودند Operation</string>
+    <string name="ftp_server_prompt_connect_to_network">اتصال به شبکه یا فعال کردن AP</string>
+    <string name="ftp_server_open_settings">باز کردن تنظیمات</string>
+    <string name="move">انتقال</string>
+    <string name="select_save_location">انتخاب مکان برای ذخیره</string>
+    <string name="scp_default_path">مسیر پیش فرض (اختیاری)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">با عرض پوزش، نباید این اتفاق می افتاد.</string>
+    
+    <string name="error_report_button_text">این خطا را از طریق ایمیل گزارش کنید</string>
+    <string name="error_report_button_telegram">گزارش این خطا از طریق تلگرام</string>
+    <string name="copy_for_github">کپی گزارش فرمت شده</string>
+    <string name="error_report_open_issue_button_text">گزارش در GitHub</string>
+    <string name="error_report_open_github_notice">لطفاً بررسی کنید که آیا مشکلی در مورد خرابی شما از قبل وجود دارد یا خیر.</string>
+    <string name="error_snackbar_message">متأسفیم، مشکلی پیش آمد.</string>
+    <string name="error_snackbar_action">گزارش</string>
+    <string name="what_device_headline">اطلاعات:</string>
+    <string name="what_happened_headline">چه اتفاقی افتاد:</string>
+    <string name="info_labels">چه:\\nدرخواست:\\nزمان GMT:\\nبسته:\\nنسخه:\\nنسخه سیستم عامل:\\nدستگاه :\\nمدل:\\nمحصول:</string>
+    <string name="your_comment">نظر شما (به زبان انگلیسی):</string>
+    <string name="error_details_headline">جزئیات:</string>
+    <string name="app_ui_crash">برنامه/UI خراب شد</string>
+    <string name="error_report_title">گزارش خطا</string>
+    <string name="crash_report_copied">گزارش خرابی در کلیپ‌بورد کپی شد</string>
+    <string name="disableIpcSignature">غیرفعال کردن بررسی امضای IPC (برای سرورهای قدیمی SMBv1 - ناامن!)</string>
+    <string name="cannot_delete_file">حذف فایل امکان‌پذیر نیست</string>
+    <string name="cannot_delete_file_with_reason">فایل حذف نمی‌شود - %s</string>
+    <string name="cannot_rename_file">نام فایل %s را نمی توان تغییر نام داد - %s</string>
+    <string name="cannot_read_directory">نمی توان دایرکتوری %s را خواند - %s</string>
+    <string name="just_once">فقط یکبار</string>
+    <string name="always">همیشه</string>
+    <string name="choose_different_app">برنامه های مختلف را انتخاب کنید</string>
+    <string name="clear_open_file">پاک کردن کش</string>
+    <string name="clear_open_file_summary">برنامه های باز کننده فایل پیش فرض انتخاب شده را پاک می کند</string>
+    <string name="ftp_readonly">دسترسی فقط خواندنی</string>
+    <string name="legacy_listing_title">استفاده از لیست قدیمی برای ریشه</string>
+    <string name="legacy_listing_summary">اگر فعال باشد، از روش قدیمی برای فهرست کردن فایل ها استفاده می کند</string>
+    <string name="error_unsupported_v5_rar">بایگانی RAR \"%s\" بایگانی RAR v5 پشتیبانی نمی شود.</string>
+    <string name="ftp_prompt_restart_server">برای اعمال تغییرات باید سرور FTP را مجددا راه اندازی کنید.</string>
+    <string name="error_permission_denied">مجوز رد شد</string>
+    <string name="error_archive_password_incorrect">گذرواژه بایگانی اشتباه است.</string>
+    <string name="error_archive_cannot_extract">نمی توان ورودی بایگانی \"%s\" را به \"%s\" استخراج کرد.</string>
+    <string name="drag_and_drop_preference">برگزیده کشیدن و رها کردن (تجربی) را انتخاب کنید</string>
+    <string name="drag_to_move_copy">لمس و کشیدن برای انتقال یا کپی فایل ها</string>
+    <string name="drag_to_select">لمس و کشیدن برای انتخاب فایل</string>
+    <string name="disable">غیرفعال</string>
+    <string name="choose_operation">انتخاب عملیات برای انجام</string>
+    <string name="remember">دفعه بعد را به خاطر بسپارید</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">به سرور FTP دسترسی SAF بدهید</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">از آنجایی که این اولین اجرای شما از سرور FTP است و از حافظه داخلی دستگاه استفاده می کنید به عنوان پوشه مشترک، لطفاً به Amaze اجازه دهید با استفاده از SAF به فضای ذخیره‌سازی دسترسی داشته باشد.\n\n
+
+فقط باید این کار را یک بار انجام دهید، تا دفعه بعدی که مکان جدیدی را برای اشتراک‌گذاری انتخاب می‌کنید.</string>
+    <string name="android_data_prompt_saf_access">از Android 10، Android محدودیت‌هایی را برای فهرست‌های خاص اعمال کرده است، و آنها باید با Storage Access Framework دسترسی داشته باشند.\n \nلطفاً با ضربه زدن روی \"Allow Access\" به Amaze اجازه دهید از مدیریت فایل سیستم به دایرکتوری دسترسی پیدا کند.</string>
+    <string name="android_data_prompt_saf_access_title">به SAF دسترسی بدهید</string>
+    <string name="ftp_preference_saf_filesystem_title">استفاده از سیستم فایل قدیمی</string>
+    <string name="ftp_preference_saf_filesystem">این را برای پشتیبانی از استفاده از حافظه خارجی دستگاه در نسخه‌های جدیدتر Android فعال کنید</string>
+    <string name="ftp_server_fallback_path_reset_prompt">مسیر مشترک سرور FTP به حافظه داخلی بازنشانی شده بود که در حال بازگشت به پیاده سازی فایل سیستم قدیمی لطفاً مسیر جدیدی را با استفاده از منوی سمت راست بالا در صورت لزوم انتخاب کنید.</string>
+    <string name="ftp_server_reset_notify">مسیر مشترک سرور FTP به حافظه داخلی بازنشانی شده است</string>
+    <string name="ftp_server_root_unavailable">شما در حال انتخاب مسیری هستید که به دسترسی ریشه نیاز دارد. اگر دستگاه شما روت شده است، لطفاً root explorer را در تنظیمات فعال کنید.</string>
+    <string name="ftp_server_root_filesystem_warning">شما مسیری را انتخاب می‌کنید که به دسترسی ریشه نیاز دارد، که عملیات خواندن/نوشتن را در کل فایل سیستم دستگاه شما فعال می‌کند، و خطرناک است - اشتباهات بی دقت می‌توانند دستگاه خود را آجر کنید!\n\nآیا مطمئن هستید؟</string>
+    <string name="compressed_explorer_fragment_error_open_uri">خطا در باز کردن URI \"%s\" برای خواندن.</string>
+    <string name="error_empty_archive">\"%s\" یک بایگانی خالی است.</string>
+    <string name="error_bad_archive_without_info">\"%s\" یک بایگانی خراب است.</string>
+    <string name="error_bad_archive_with_info">\"%s\" یک بایگانی خراب است.\nپیام از استخراج کننده: \"%s\"</string>
+    <string name="security_error">فایل نمی تواند با استفاده از این برنامه باز شود</string>
+    <string name="cloud_drive_tooltip">یک اتصال Google Drive™ برای مدیریت فایل ها از داخل Amaze File Manager ایجاد کنید.</string>
+    <string name="signin_with_google_title">تأیید هویت برای استفاده از Google Drive™</string>
+    <string name="show_system_apps">نمایش برنامه های سیستم</string>
+    <string name="system_apps">برنامه های سیستم</string>
+    <string name="select_inverse">انتخاب معکوس</string>
+    <string name="select_by_type">انتخاب بر اساس نوع</string>
+    <string name="select_by_date">انتخاب بر اساس تاریخ</string>
+    <string name="select_similar">انتخاب مشابه</string>
+    <string name="error_fetching_google_play_product_list">خطا در واکشی لیست محصول از Google Play.</string>
+    <string name="grant_all_files_permission">از Android 11، Google از File Managers درخواست می‌کند تا از کاربر برای مدیریت همه فایل‌های موجود در دستگاه درخواست اجازه دهد. جزئیات اینجا.
+        \n\nAmaze File Manager نیز به این مجوز نیاز دارد. پس از فشار دادن "Grant" در اینجا، لطفاً گزینه Allow access to management all files را در صفحه بعدی انتخاب کنید.
+        \n\nلغو این گفتگو از برنامه خارج می‌شود.</string>
+    <string name="user_apps">برنامه‌های کاربر</string>
+    <string name="appearance">ظاهر</string>
+    <string name="behavior">رفتار</string>
+    <string name="appearance_summary">تم، رنگ‌ها و ظاهر مدیر فایل را سفارشی کنید</string>
+    <string name="ui_summary">کنترل کنید چه اطلاعاتی نشان داده شود، نوار کناری را سفارشی کنید، و تنظیمات برگزیده رابط کاربری را تغییر دهید</string>
+    <string name="behavior_summary">تغییر رفتارهایی مانند جستجوی پیشرفته و باز کردن فایل‌ها به عنوان یک کار جدید</string>
+    <string name="security_summary">تنظیم رمز عبور و رمزگذاری</string>
+    <string name="backup_summary">Export/Import تنظیمات Amaze</string>
+
+    <string name="pref_export">صادر کردن</string>
+    
+    
+    
+
+    <string name="quick_desc">Files اخیراً از طریق Amaze قابل دسترسی است</string>
+    <string name="recent_desc">فایل‌های اخیرا ایجاد یا اصلاح شده</string>
+    <string name="error_cannot_find_way_open">راهی برای باز کردن فایل پیدا نشد</string>
+    <string name="error_cant_decompress_that_file">نمی توان بایگانی درخواستی را پردازش کرد</string>
+    <string name="analyse_storage">تحلیل فضای ذخیره‌سازی</string>
+    
+    <string name="download_amaze_utils_text">شما در حال هدایت به Amaze File Utilities هستید. این برنامه منبع باز ما است که دارای نمایشگرهای صوتی/تصویری/تصویر/سند داخلی است، به شما امکان می‌دهد فایل‌های ناخواسته را برای آزاد کردن فضای ذخیره‌سازی، انتقال سریع با استفاده از Wifi P2P و موارد دیگر تجزیه و تحلیل کنید.\nلطفاً با امتحان کردن آن از ما حمایت کنید.</string>
+    <string name="download">دانلود</string>
+    
+    <string name="amaze_utils_installed_alias">از اینکه برنامه Amaze File Utilities را نصب کردید متشکریم. شما به برنامه هدایت می شوید.</string>
+    
+    
+    
+    
+    
+    <string name="share_logs">اشتراک گذاری گزارشها</string>
+    <string name="share_logs_summary">به اشتراک گذاری گزارشهای ضبط شده از طریق ایمیل / تلگرام</string>
+    <string name="open_with_amaze">باز کردن با Amaze</string>
+    <string name="confirmation">تأیید</string>
+    <string name="open_file_confirmation">آیا مطمئن هستید که می‌خواهید فایل زیر را باز کنید؟\n\nنام:\n%s\n\nمکان:\n%s\n\nاندازه:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">طبق دستورات خط‌مشی Google Play، برنامه‌ها اجازه ندارند خود به خود به‌روزرسانی شوند. لطفاً برنامه را از Google Play به‌روزرسانی کنید.</string>
+    <string name="error_cannot_get_package_info">دریافت اطلاعات بسته از فایل \"%s\" ممکن نیست. یا فایل مشخص‌شده یک APK نیست، یا فایل بسته خراب است.</string>
+    <string name="preference_delete_confirmation">حذف تأیید</string>
+    <string name="preference_delete_confirmation_summary">قبل از حذف فایل‌ها، تأیید درخواست کنید. غیرفعال کردن این امر به شدت توصیه نمی شود!</string>
+    
+    
+    <string name="protocol_ftps">FTP امن</string>
+    <string name="unavailable">غیرقابل دسترسی</string>
+
+    <string name="exporting_failed">صادر نشد: فایل پشتیبان نگارش نشد</string>
+    <string name="importing_failed">وارد کردن انجام نشد: نسخه پشتیبان خوانده نشد file</string>
+    <string name="importing_completed">وارد کردن کامل شد</string>
+    <string name="invalid_backup_file">فایل پشتیبان نامعتبر</string>
+    <string name="import_failed_for">وارد کردن برای:</string>
+    <string name="free_of">"%s\n%s بدون %s</string>
+    <string name="cloud_error_fdroid">افزونه Amaze Cloud با F- پشتیبانی نمی شود انجام نشد نسخه Droid. لطفاً از نسخه فروشگاه Play Amaze استفاده کنید.</string>
+    <string name="disable_player_intent_filters">غیرفعال کردن فیلترهای هدف پخش کننده</string>
+    <string name="disable_player_intent_filters_summary">غیرفعال کردن پخش کننده های رسانه داخلی Amaze از انتخابگر فایل</string>
+    <string name="no_app_found_intent">هیچ برنامه ای برای مدیریت این هدف یافت نشد. شما DocumentsUI را نصب کرده اید؟</string>
+    <string name="cloud_connection_credentials_cleared">مطالعه کاربری Cloud Connection پاک شد</string>
+    <string name="cloud_connection_credentials_cleared_msg">متأسفانه، نتوانستیم اعتبارنامه اتصال ابری شما را به طرح پایگاه داده جدید منتقل کنیم و مجبور شدیم آنها را از برنامه حذف کنیم. لطفاً ایجاد کنید دوباره اتصال ابری.</string>
+</resources>

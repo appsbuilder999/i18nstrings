@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+    <string name="sidebar_preferences">Barre latérale</string>
+    <string name="sidebar_quick_access_title">Accès rapide de la barre latérale</string>
+    <string name="show_quick_access_pref_title">Afficher l\'accès rapide</string>
+    <string name="show_quick_access_pref">Accès rapide</string>
+    <string name="directory">Catalogue</string>
+
+    <string name="sidebar_bookmarks_title">Signets de la barre latérale</string>
+    <string name="show_bookmarks_pref_title">Afficher les signets</string>
+    <string name="show_bookmarks_pref">Signets</string>
+    <string name="create_bookmark">Créer des signets</string>
+    <string name="edit_bookmark">Modifier les signets</string>
+    <string name="question_delete_bookmark">Supprimer les signets&#xa0;?</string>
+
+    <string name="cloud_error_plugin">Le plug-in cloud Amaze est introuvable. veuillez le télécharger depuis le Play Store.</string>
+    <string name="cloud_error_failed_restart">Échec du chargement du lien.
+        veuillez ouvrir amaze cloud une fois.</string>
+    <string name="cloud_remove">Voulez-vous supprimer la connexion cloud&#xa0;?</string>
+</resources>

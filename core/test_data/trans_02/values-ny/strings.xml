@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2014-2017 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+    
+    <string name="drawer_open">Tsegulani chotengera</string>
+    <string name="drawer_close">Ttsekani navigation drawer</string>
+    
+    
+    
+    <string name="setting">Zikhazikiko</string>
+    <string name="select">Sankhani Chinthu</string>
+    <string name="press_again">Dinaninso kuti mutuluke</string>
+    <string name="open">Otsegula</string>
+    
+    <string name="uninstall">Chotsani</string>
+    
+    <string name="properties">Katundu</string>
+    <string name="copyingapks">Kukopera %d mafayilo a APK ku %s</string>
+    <string name="delbook">Chotsani Bookmark</string>
+    <string name="add_to_bookmarks">Onjezani ku Mabukumaki</string>
+    <string name="enterpath">Lowani Panjira</string>
+    
+    
+    <string name="loading">Kutsegula…</string>
+    <string name="file_empty">Fayilo ilibe</string>
+    <string name="error">Zolakwika</string>
+    <string name="search_results">Zotsatira zakusaka za %s</string>
+    <string name="rename">Ithanso Dzina</string>
+    <string name="save">Sungani</string>
+    <string name="bookmarks_added">Mabukumaki Awonjezedwa</string>
+    <string name="fileexist">Fayilo yokhala ndi dzina lomweli ilipo kale</string>
+    <string name="name">Dzina</string>
+    <string name="date">Tsiku</string>
+    <string name="location">Malo</string>
+    <string name="size_capitalized">Kukula</string>
+    <string name="size">kukula kwa chikwatu</string>
+    <string name="enterzipname">Lowetsani Dzina la Zip</string>
+    <string name="no_app_found">Palibe Pulogalamu yomwe yapezeka yotsegula fayiloyi</string>
+    <string name="copying">Kukopera div18 Kusuntha</string>
+    <string name="moving">Fayilo</string>
+    <string name="file">Foda</string>
+    <string name="folder">Foda Yatsopano</string>
+    <string name="newfolder">Lowani Dzina</string>
+    <string name="entername">Kuchotsa</string>
+    <string name="extracting">Kuyimitsa</string>
+    <string name="stopping">Open Parent Directory</string>
+    <string name="open_parent">Tsegulani ndi</string>
+    <string name="open_with">Share</string>
+    <string name="share">About</string>
+    <string name="about">Extract</string>
+    <string name="extract">Compress</string>
+    <string name="compress">Inde</string>
+    <string name="yes">Ayi</string>
+    <string name="no">Directories</string>
+    
+    <string name="dialog_delete_category_directories">Mafayilo</string>
+    <string name="dialog_delete_category_files">Kuchotsa zinthu zomwe zili pansipa kuzichotseratu pachipangizo chanu ndipo sikungapezekenso.</string>
+    <string name="dialog_delete_disclaimer">Fufutani zinthu zonse kwamuyaya?</string>
+    <string name="dialog_delete_title">Kuchotsa</string>
+    <string name="deleting">Kodi mukufuna kukhazikitsa njira yaposachedwa ngati nyumba ya tabu iyi?</string>
+    <string name="question_set_path_as_home">Directory Sort Mode</string>
+    <string name="directorysort">Sanjani Ndi</string>
+    <string name="sort_by">Directory Sort Mode</string>
+    <string name="sort_only_this">Sanjani Ndi div18  Chikwatuchi chokha</string>
+    <string name="theme">Mutu</string>
+    <string name="random">Chikopa Chosakhazikika</string>
+    <string name="random_summary">Imakhazikitsa mtundu wachisawawa poyambira</string>
+    <string name="colorize">Sungani Zithunzi</string>
+    <string name="colorize_summary">Maseti static icon color. Sikuchotsa zokonda zachithunzi cha chikwatu.</string>
+    <string name="home">Pofikira</string>
+    <string name="paste">Matani</string>
+    <string name="history">Mbiri</string>
+    <string name="copy">Koperani</string>
+    <string name="root_mode">Muzu Wofufuza</string>
+    <string name="root_mode_summary">Pakuti mizu chipangizo kokha. Yang\'anani pokhapokha ngati mukutsimikiza za izo.</string>
+    <string name="root_failure">Muzu Access sichinaperekedwe</string>
+    <string name="select_all">Sankhani Zonse</string>
+    <string name="delete">Chotsani</string>
+    <string name="set_as_home">Khalani Monga Pofikira</string>
+    <string name="operation_not_supported">Kugwiritsa ntchito sikutheka</string>
+
+    <!-- New -->
+    <!-- Array -->
+
+    <!-- UI -->
+    <!-- Theme -->
+    <string name="light">Kuwala Kwazinthu</string>
+    <string name="dark">Mdima Wazinthu</string>
+    <string name="daytime">Masana</string>
+    <string name="black">Zakuda (za OLED)</string>
+    <string name="system">System (tsatirani mutu wadongosolo)</string>
+    <!--Skin-->
+    <!--DirectorySortMode-->
+    <string name="foldersOnTop">Zikwatu Pamwamba</string>
+    <string name="filesOnTop">Mafayilo Pamwamba</string>
+    <string name="none_on_top">Palibe Pamwamba</string>
+    <!--SortBy-->
+    <string name="sort_name">Dzina</string>
+    <string name="lastModified">Zosinthidwa Komaliza</string>
+    <string name="sort_size">Kukula</string>
+    <!--ListMode-->
+    <!--Folder-->
+    <string name="pick_a_file">Sankhani fayilo</string>
+    <string name="process_viewer">Chowonadi</string>
+    <string name="in_safe">Malo osakwanira</string>
+    <string name="no_file_overwrite">Palibe Fayilo Yowonjezera</string>
+    <string name="skip">Lumphani</string>
+    <string name="overwrite">Lembetsani</string>
+    <string name="not_allowed">Sizololedwa</string>
+    <string name="searching">Kufufuza %s</string>
+    <string name="done">Wamaliza</string>
+    <string name="set">Khalani</string>
+    <string name="enablerootmde">Yambitsani Mizu</string>
+    <string name="goback">Bwererani</string>
+    <string name="newfile">Fayilo Yatsopano</string>
+    <string name="no_files">Palibe Mafayilo</string>
+    <string name="used">malo ogwiritsidwa ntchito</string>
+    <string name="used_by_others">ogwiritsidwa ntchito ndi ena</string>
+    <string name="free">malo aulere</string>
+    
+    <string name="gridview">Gridi Onani</string>
+    <string name="permission">Zilolezo</string>
+    <string name="hide">Bisani</string>
+    <string name="exit">Tulukani</string>
+    <string name="doforall">Chitani zinthu zonse</string>
+    <string name="gridcolumnno">Nambala yamipingo mu grid view</string>
+    <string name="set_random">Zosintha zidzachitika mutayambitsanso pulogalamuyi</string>
+    <string name="authors">Olemba</string>
+    
+    <string name="ok">Chabwino</string>
+    <string name="ui">Chiyankhulo</string>
+    
+    <string name="thumb_summary">Onetsani Tizithunzi za mapulogalamu ndi zithunzi</string>
+    <string name="thumb">Onetsani Tizithunzi</string>
+    <string name="hidden">Onetsani Mafayilo Obisika ndi Mafoda</string>
+    <string name="lastModifiedSummary">Onetsani tsiku ndi nthawi yomaliza</string>
+    <string name="lastModifiedPref">Onetsani Tsiku Lomaliza ndi Zosinthidwa Nthawi</string>
+    <string name="size_pref_summary">Onetsani kukula kwa mafayilo ndi kuchuluka kwa zinthu zomwe zili mumafoda</string>
+    <string name="size_pref">Show Size</string>
+    <string name="miscellaneous">Zosiyanasiyana</string>
+    <string name="root_pref_summary">Onetsani Zilolezo za Mafayilo ndi Mafoda</string>
+    <string name="root_pref">Onetsani Zilolezo</string>
+    <string name="about_amaze_file_manager_label">Za Amaze File Manager</string>
+    
+    <string name="rate">Voterani pulogalamuyi</string>
+    <string name="feedback">Tumizani Ndemanga</string>
+    <string name="hiddenfiles">Mafayilo Obisika</string>
+    <string name="type">Mtundu</string>
+    <string name="root_directory">Muzu</string>
+    <string name="add_shortcut">Onjezani Njira Yachidule</string>
+    <string name="unsaved_changes">Zosintha Zosasungidwa</string>
+    <string name="unsaved_changes_description">Muli ndi zosintha zosasungidwa, kodi mukufuna kuzisunga musanatuluke?</string>
+    <string name="saving">Kupulumutsa</string>
+    
+    <string name="view">Onani</string>
+    <string name="install">Ikani</string>
+    
+    <string name="archive_text">Uwu ndi nkhokwe. Kodi mukufuna kuchita chiyani?</string>
+    <string name="package_installer_text">Ichi ndi chokhazikitsa phukusi. Kodi mukufuna kuchita chiyani?</string>
+    <string name="xda_title">XDA ulusi</string>
+    <string name="xda_summary">Q&amp;amp;A, Thandizo &amp;amp; Kuthetsa Mavuto</string>
+    <string name="circular_images">Gwiritsani ntchito zithunzi ndi makanema ozungulira</string>
+    <string name="circular_icons">Gwiritsani ntchito zithunzi zozungulira </string>
+    <string name="back_title">Kuyenda chakumbuyo</string>
+    <string name="back_summary">Imayatsa kusakatula mobwereza mwamakonda pamwamba pamndandanda</string>
+    <string name="details">Zatsatanetsatane</string>
+    <string name="translators">Omasulira</string>
+    <string name="german_translation_title">Chijeremani</string>
+    <string name="italian_translation_title">Chiitaliyani</string>
+    <string name="french_translation_title">Chifulenchi</string>
+    <string name="russian_translation_title">Chirashi</string>
+    <string name="spanish_translation_title">Chisipanishi</string>
+    
+    <string name="chinese_translation_title">Chitchaina</string>
+    <string name="serbian_translation_title">Chisebiya </string>
+    <string name="turkish_translation_title">Chituruki</string>
+    <string name="ukrainian_translation_title">Chiyukireniya</string>
+    <string name="portuguese_translation_title">Chipwitikizi</string>
+    <string name="polish_translation_title">Chipolishi</string>
+    <string name="korean_translation_title">Chikorea</string>
+    <string name="greek_translation_title">Chigiriki</string>
+    <string name="dutch_translation_title">Chidatchi </string>
+    <string name="romanian_translation_title">Chiromania</string>
+    
+    <string name="japanese_translation_title">Chijapani</string>
+    
+
+    
+    <string name="unin_system_apk">Iyi ndi pulogalamu yamakina, kuichotsa kungayambitse kusakhazikika kwadongosolo .\nPitilizani?</string>
+    <string name="warning">Chenjezo</string>
+    <string name="donate">Perekani</string>
+    <string name="archive_extract_folder">Chikwatu Chosungira Zosungidwa</string>
+    <string name="archive_summary">Mafayilo osunga zakale azitsitsidwa kufodayi. Mtengo wotsikirapo ndi chikwatu chomwe zosungidwazo zilimo.</string>
+    <string name="open_as">Tsegulani Monga</string>
+    <string name="text">Mawu</string>
+    
+    
+    <string name="other">Zina</string>
+    <string name="image">Chithunzi</string>
+    <string name="contributors">Othandizira</string>
+    <string name="save_paths">Kumbukirani njira</string>
+    <string name="save_path_summary">Mukangoyamba, chikwatu chomwe chawonedwa posachedwa pa tabu iliyonse chidzawonetsedwa</string>
+    <string name="select_intent">Sankhani</string>
+    <string name="database">Database </string>
+    <string name="colored_navigation">Zojambula Navigation bar</string>
+    <string name="colored_navigvation_sum">Kaya cholozera chadongosolo chili ndi utoto kapena ayi</string>
+
+    <string name="color_title">Mtundu</string>
+    <string name="color_summary">Khazikitsani mtundu ku zigawo zosiyanasiyana za UI</string>
+    <string name="primary_color_title">Mutundu Woyambirira (Tabu Yakumanzere )</string>
+    <string name="primary_color_summary">Khazikitsani mtundu kukhala zinthu zazikulu za UI pa tabu yakumanzere</string>
+    <string name="accent_color_title">Accent Colour</string>
+    <string name="accent_color_summary">Sungani mtundu ku FAB ndi zinthu zina zazing\'ono za UI</string>
+    <string name="icon_color_title">Icon Colour</string>
+    <string name="icon_color_summary">Ikani mtundu kuzithunzi</string>
+    <string name="choose_color">Sankhani mtundu</string>
+    <string name="files">Mafayilo</string>
+    
+    
+    
+    <string name="needs_access">Kulowa Kufunika Kolemba</string>
+    <string name="needs_access_summary">Chonde sankhani chikwatu cha \t</string>
+    <string name="needs_access_summary1">\kuti mupereke mwayi wolembera kuti mugwiritse ntchito</string>
+    
+    <string name="smb_server">Adilesi ya IP ya Seva</string>
+    <string name="server_address">Seva IP Address</string>
+    <string name="username">Jina Lolowera</string>
+    
+    <string name="anonymous">Osadziwika</string>
+    
+    <string name="folders">Mafoda</string>
+    <string name="folderfilecount">%1$d mafoda ndi %2$d mafayilo</string>
+    <string name="videos">Makanema</string>
+    
+    <string name="documents">Zolemba</string>
+    <string name="images">Zithunzi</string>
+    <string name="clear">Zomveka</string>
+    
+    <string name="total">Zonse:</string>
+    <string name="calculating">kuwerengera</string>
+    <string name="sort">Sungani</string>
+    <string name="ascending">Kukwera</string>
+    <string name="descending">Kutsika</string>
+    <string name="default_string">Mosakhazikika</string>
+    <string name="doit">Kodi</string>
+    <string name="want_help">Mukufuna thandizo?</string>
+    <string name="quick">Kufikira mwachangu</string>
+    <string name="recent">Mafayilo aposachedwa</string>
+    <string name="edit">Sinthani</string>
+    <string name="find">Pezani patsamba</string>
+    <string name="grant">Perekani</string>
+    <string name="grantper">Perekani chilolezo</string>
+    <string name="grantfailed">Chilolezo sichikuloledwa wapatsidwa</string>
+    <string name="grant_storage_permission">Pulogalamu ikufunika chilolezo chosungira kuti ipitilize. Kuletsa kukambiranaku kudzatuluka mu pulogalamuyi.</string>
+    <string name="operation_unsuccesful">Sizinatheke</string>
+    <string name="creatingfile">Kupanga Fayilo</string>
+    <string name="creatingfolder">Kupanga Chikwatu</string>
+    <string name="renaming">Kusintha Dzina</string>
+    <string name="cant_be_empty">%s sichingakhale chopanda kanthu</string>
+    <string name="ip">Adiresi</string>
+    <string name="connection_name">Dzina lolumikizira</string>
+    <string name="no_device_found">Palibe zida zomwe zapezeka</string>
+    <string name="path">Njira</string>
+    <string name="rename_bookmark">Sinthani Chizindikiro</string>
+    <string name="cut">Dulani</string>
+    <string name="search">Sakani</string>
+    <string name="invalid_name">Dzina Lolakwika</string>
+    <string name="search_hint">Mtundu woti mufufuze…</string>
+    <string name="advanced_search">Kusaka Kwambiri</string>
+    <string name="regular_expression">Mafotokozedwe Anthawi Zonse</string>
+    <string name="regular_expression_summary">Sakani pogwiritsa ntchito mawu okhazikika a BASH</string>
+    <string name="match_content">Fayilo yofananira</string>
+    <string name="match_content_summary">Ngati yakhazikitsidwa, mawu okhazikika adzafanana ndi dzina lonse lafayilo,
+        idzayang\'ana zomwe zingachitike mwanjira ina.</string>
+    <string name="start_ftp">Yambani</string>
+    <string name="stop_ftp">Imani</string>
+    <string name="ftp_status_running">Kuthamanga</string>
+    <string name="ftp_status_not_running">Osathamanga</string>
+    <string name="ftp_no_wifi">Onetsetsani kuti mwalumikizidwa ku Wi- -Fi</string>
+    
+    <string name="smb_share">Gawani njira</string>
+    <string name="invalid">Yosavomerezeka %s</string>
+    <string name="ftp_notif_starting">FTP Seva ikuyamba</string>
+    <string name="ftp_notif_starting_title">FTP Seva</string>
+    <string name="ftp_notif_title">Amaze FTP Server ikuthamanga</string>
+    <string name="ftp_notif_text">pa %s</string>
+    <string name="ftp_notif_stop_server">Imitsa</string>
+    <string name="ftp_port_edit_menu_title">FTP port </string>
+    <string name="ftp_port_change_success">doko la FTP lasintha bwino</string>
+    <string name="ftp_port_change_error_invalid">Nambala yadoko yolakwika yasankhidwa</string>
+    <string name="primary_two_title">Mtundu Woyambirira (Tabu Kumanja)</string>
+    <string name="primary_two_summary">Sungani mtundu kukhala zinthu zazikulu za UI pagawo loyenera</string>
+    <string name="support_development">Chitukuko Chothandizira</string>
+    <string name="report_bugs_title">Nenetsani Ziphuphu</string>
+    <string name="source_title">Khodi yochokera</string>
+    <string name="source_summary">Onani khodi yathu pa GitHub</string>
+    <string name="report_bugs_summary">Nenani zolakwika kapena funsani zatsopano</string>
+    <string name="translate_title">Tanthauzirani</string>
+    <string name="translate_summary">Tanthauzirani Dabwitsidwa m\'chinenero chanu</string>
+    <string name="paypal_copy_message">I ID ya PayPal koperedwa pa bolodi</string>
+    <string name="searching_devices">Kusaka zida</string>
+    <string name="use_custom_ip">Gwiritsani ntchito IP</string>
+    <string name="bookmark_lost">Chikhomo sichinapezeke, chikukonzanso…</string>
+
+    <string name="smb_instructions">
+        
+            
+                Momwe mungapezere chikwatu cha Windows chogawana pa Android (SMB)\n\n
+                
+                    
+                        Yambitsani Kugawana Fayilo pa Windows\n
+                    
+                    
+                        Tsegulani Control Panel, dinani Sankhani HomeGroup ndi Kugawana zosankha pansi pa Network
+                        ndi intaneti, ndikudina "Sinthani Zikhazikiko Zakugawana Mwaukadaulo," yambitsani "Fayilo ndi
+                        Chigawo cha Printer Sharing".\n\n
+                    
+
+                    
+                        Zokonda Zowonjezera Zogawana Mafayilo\n
+                    
+                    
+                        Mungafunenso kukonza zokonda zogawana apa. \n
+                        Mwachitsanzo, mutha kulowetsa mafayilo anu popanda mawu achinsinsi ngati mumakhulupirira zonse
+                        zida pamanetiweki kwanuko. Kugawana mafayilo ndi chosindikizira kukayatsidwa, mutha
+                        tsegulani File Explorer kapena Windows Explorer, dinani kumanja chikwatu chomwe mukufuna kugawana, ndi
+                        sankhani Properties. \n
+                        Dinani batani la Gawani ndi kupanga chikwatu kupezeka pa netiweki.\n\n
+                        
+
+                    
+                        Onetsetsani kuti zida zonse zili pa Wifi imodzi\n
+                    
+                    
+                        Izi zimapangitsa kuti mafayilo azipezeka pa netiweki yakomweko, kotero PC yanu ndi zida zam\'manja
+                        akuyenera kukhala pa netiweki ya komweko. Simungathe kupeza chikwatu chogawidwa cha Windows
+                        pa intaneti kapena foni yanu ikalumikizidwa ndi data yake yam\'manja - izo
+                        ikuyenera kulumikizidwa ku Wi-Fi.\n\n
+                    
+
+                    
+                        Pezani adilesi ya IP\n
+                    
+                    
+                        Tsegulani Command Prompt. Lembani \'ipconfig\' ndikusindikiza Enter. Yang\'anani Default Gateway
+                        pansi pa adaputala yanu ya netiweki ya adilesi ya IP ya rauta yanu. Yang\'anani
+                        \\\"IPv4 Address\\\" pansi pa gawo la adaputala lomweli kuti mupeze IP ya kompyuta yanu
+                        adilesi.\n\n
+                    
+
+                    Lowetsani zambiri mu bokosi la zokambirana la SMB\n
+                
+            
+        
+   </string>
+    <string name="share_limit">Sindingathe kugawana mafayilo opitilira 100</string>
+    <string name="otg_access">Sankhani mizu ya chipangizo cha OTG</string>
+    <string name="information">Zambiri</string>
+    <!-- reference to file accessed date -->
+    <string name="accessed">Zofikira</string>
+    <!-- reference to file modified date -->
+    <string name="modified">Zosinthidwa</string>
+
+    <string name="title">Mutu</string>
+    <string name="artist">Wojambula</string>
+    
+    <string name="year">Chaka</string>
+    <string name="duration">Nthawi Yanthawi</string>
+    <string name="comment">Ndemanga</string>
+    <!-- reference to audio/video file -->
+    
+    
+    <string name="channels">Machanelo</string>
+    <string name="sample_rate">Zitsanzo za</string>
+    
+    <string name="dimensions">Miyeso</string>
+    <string name="frame_rate">Freme Rate</string>
+    <string name="image_type">Mtundu Wachithunzi </string>
+    <string name="width">Kukula</string>
+    <string name="height">Kutalika</string>
+    <string name="date_modified">Date Zosinthidwa</string>
+    <string name="software">Mapulogalamu</string>
+    <string name="creator">Wopanga</string>
+    <string name="camera_brand">Kamera Mtundu</string>
+    <string name="camera_model">Kamera Chitsanzo</string>
+    <string name="date_taken">Tsiku Lotengedwa</string>
+    <string name="exposure_time">Nthawi Yowonekera</string>
+    <string name="aperture_value">Mtundu Wotchinga</string>
+    <string name="image_iso">ISO Speed ​​Rating</string>
+    
+    <string name="focal_length">Kutalikirana Kwambiri</string>
+    <string name="subject">Mutu</string>
+    <string name="author">Wolemba</string>
+    <string name="keywords">Mawu Ofunikira</string>
+    <string name="producer">Wopanga</string>
+    <string name="created">Wopangidwa</string>
+    <string name="format">Mapangidwe</string>
+    <string name="pages">Masamba</string>
+    <!-- reference to a document file -->
+    <string name="optimized">Okongoletsedwa</string>
+    <string name="security">Chitetezo</string>
+    <string name="paper_size">Kukula Kwamapepala</string>
+
+    <!-- %s will be replaced with either copied or moved -->
+    <string name="copy_error">Mafayilo ena sanakopere %s</string>
+    <string name="copied">kukopera</string>
+    <string name="moved">wasuntha</string>
+    <string name="copy_complete">Koperani Mwamaliza</string>
+    <string name="waiting_title">Kudikirira</string>
+    <string name="waiting_content">Kudikirira kuti ntchitoyo ithe</string>
+    <string name="extract_complete">Kutulutsa kutha</string>
+    <string name="compression_complete">Kupondereza Kwamaliza</string>
+    <string name="compressing">Kupondereza</string>
+    <string name="cancelled">Kwatsitsidwa</string>
+    <!-- reference to - 'Written #bytes out of #bytes' in process viewer -->
+    <string name="written">Zolembedwa</string>
+    <string name="out_of">kuchokera</string>
+    <!-- reference to - 'Processing file # of #' in process viewer -->
+    <string name="of">ya</string>
+    <string name="processing_file">Fayilo yokonza</string>
+    <string name="current_speed">Speed ​​​​Yapano</string>
+    <string name="smb_launch_error">Mufunika kukopera fayiloyi kumalo osungirako kuti mutsegule</string>
+    <string name="error_file_not_found">Zolakwika: Fayilo sinapezeke</string>
+    <string name="error_io">Cholakwika cha I/O</string>
+    <string name="error_file_too_large">Zolakwika: Fayilo Yayikulu Kwambiri</string>
+    <string name="medium_text">Zolemba Zapakatikati</string>
+    <string name="permission_read">Werengani</string>
+    <string name="permission_write">Lembani</string>
+    <string name="permission_execute">Chitani</string>
+    <string name="permission_owner">Mwini</string>
+    <string name="permission_group">Gulu</string>
+    <string name="permission_other">Zina</string>
+    <string name="clipboard_path_copy">Njira zokopereredwa pa bolodi</string>
+    <string name="service_timer">Nthawi inatha</string>
+    <string name="please_wait">Chonde Dikirani</string>
+
+    <string name="cloud_connection">Kulumikizana Kwamtambo</string>
+    <string name="cloud_connection_new">Kulumikiza Kwamtambo Watsopano</string>
+    
+    
+    
+    
+    <string name="cloud_get">Pezani pulogalamu yowonjezera ya Mtambo</string>
+    <!-- Reference to 'email address can't be empty' or 'Invalid e-mail address' -->
+
+    <string name="no_applications">Palibe mapulogalamu</string>
+    <string name="ftp_path">Njira Yogawana</string>
+    <string name="ftp_path_hint">Njira yopita kuchikwatu kuti mugawane</string>
+    <string name="change">Sinthani</string>
+    <string name="unknown_error">Pepani, china chake chalakwika!</string>
+
+    <string name="ftp_path_change_success">Njira ya FTP yasinthidwa bwino</string>
+    <string name="ftp_path_change_error_invalid">Njira yolakwika</string>
+    <string name="ftp_status_no_connection">Palibe Kulumikizana</string>
+    <string name="ftp_status_secure_connection">Kulumikizanani Kotetezedwa</string>
+    <string name="ftp_status_title">Zomwe zili</string>
+    
+    
+    <string name="field_empty">Munda sungakhale wopanda kanthu</string>
+    <string name="ftp_timeout">Kutha kwa ntchito</string>
+    <string name="ftp_seconds">Masekondi</string>
+    <string name="intellihide_toolbar_title">Intellihide Chida</string>
+    <string name="intellihide_toolbar_summary">Bisani chida chazida pomwe mukuyenda</string>
+    
+    <!-- references 'name/size/location/hash' copied to clipboard -->
+    <string name="properties_copied_clipboard">nakopereredwa ku bolodi</string>
+    <string name="contributors_1_summary">Kumasulira</string>
+    <string name="contributors_2_summary">Izifaniziro ndi zikwangwani</string>
+    <string name="contributors_3_summary">Injini Yamutu</string>
+    <string name="contributors_4_summary">Mthunzi kuseri kwa FAB</string>
+    <string name="contributors_5_summary">Kusintha kwamtundu mukamasambira ma tabu</string>
+    <string name="contributors_6_summary">Seva ya FTP</string>
+    <string name="contributors_7_summary">Kuyatsa chipolopolo</string>
+    <string name="connection_exists">Kulumikizana lilipo kale</string>
+
+    <string name="crypt_encrypting">Kubisa</string>
+    <string name="crypt_decrypting">Kubisa</string>
+    <!-- references to 'Some files weren't successfully %s -->
+    <string name="crypt_encrypted">Kusungidwa</string>
+    <string name="crypt_decrypted">Kusinthidwa</string>
+    <string name="crypt_encrypt">Kubisa</string>
+    
+    <string name="operation_fail_following">Kugwirantchitokwalepherapakutsatamafayilo</string>
+    <string name="crypt_pref_master_password_title">Mawu Achinsinsi Akuluakulu</string>
+    <string name="crypt_pref_master_password_summary">Khalani mawu achinsinsi ofunika kubisa.
+        Siyani chopanda kanthu kuti muchotse.</string>
+    <string name="crypt_pref_fingerprint_title">Zidindo za chala</string>
+    <string name="crypt_pref_fingerprint_summary">Gwiritsani ntchito zala zanu kuti mutsimikizire kubisa</string>
+    <string name="crypt_fingerprint_no_permission">Zilolezo za zilolezo za zala zilibe</string>
+    <string name="crypt_fingerprint_not_enrolled">Palibe zala zolembetsedwa</string>
+    <string name="crypt_fingerprint_no_security">Palibe chitetezo chotseka pazenera anapeza</string>
+    <string name="crypt_warning_key">Kulangizidwa, mukasintha ndondomeko yanu yachitetezo kuchokera
+        Zokonda pamakina, simungathe kubisa mawuwa.</string>
+    <string name="warning_never_show">Osadziwitsanso</string>
+    <string name="warning_confirm">Ndamva!</string>
+    <string name="crypt_encryption_fail">Mwalephera kubisa</string>
+    <string name="crypt_decryption_fail">Yakanika kumasulira</string>
+    <string name="crypt_decryption_fail_password">Njira yachinsinsi yolakwika!</string>
+    <string name="crypt_fingerprint_authenticate">Sensa ya kukhudza kuti mupitilize</string>
+    <string name="authenticate_password">Lowetsani mawu achinsinsi</string>
+
+    
+    <string name="sidebar_quick_access_title">Kufikira mwachangu kwaSidebar</string>
+    <string name="show_quick_access_pref_title">Onetsani zolowera mwachangu</string>
+    <string name="show_quick_access_pref">Zolowa mwachangu</string>
+    
+
+    <string name="sidebar_bookmarks_title">Zikhomo zapambali</string>
+    <string name="show_bookmarks_pref_title">Onetsani zikhomo</string>
+    <string name="show_bookmarks_pref">Mabukumaki</string>
+    <string name="create_bookmark">Pangani bookmark</string>
+    <string name="edit_bookmark">Sinthani bookmark</string>
+    <string name="question_delete_bookmark">Chotsani bookmark?</string>
+
+    <string name="cloud_error_plugin">Amaze Cloud pulagi sinapezeke. Chonde tsitsani kuchokera ku Play Store.</string>
+    <string name="cloud_error_failed_restart">Zakanika kutsegula.
+        Chonde tsegulani Amaze Cloud kamodzi.</string>
+    <string name="cloud_remove">Kodi mukufuna kuchotsa mtambo?</string>
+    <string name="cloud_fail_authenticate">Mwalephera kutsimikizira</string>
+    <string name="cloud_share_copied">Ulalo woSharable wakoperedwa ku clipboard</string>
+    <string name="copy_low_memory">Ikutha pa kukumbukira, chonde chotsani RAM</string>
+    <string name="cloud_token_lost">Chizindikiro chatayika, chonde lowaninso</string>
+    <string name="monofont">Font Ya Monospace</string>
+    <string name="showHeaders">Show Heads</string>
+	
+	<!--FROM HERE ON STRINGS ARE EXCLUSIVELY USED IN plurals.xml-->
+	<string name="no_items">Palibe zinthu</string>
+	<string name="item">katundu</string>
+	<string name="items">zinthu</string>
+	
+	
+	
+    <!-- end of plurals -->
+
+    <string name="no_name">Fayilo iyenera kukhala ndi dzina</string>
+    <string name="add_item">Onjezani Chinthu</string>
+    <string name="failed_smb_decrypt_path">Yakanika kutsegula Kulumikidzira kwa SMB</string>
+    <string name="failed_cloud_new_connection">Sikanika kuwonjezera kulumikizidwa kwa Mtambo kwatsopano</string>
+    <string name="failed_cloud_api_key">Yalephera kutsimikizira pulagi ya Mtambo</string>
+
+    <string name="local_inet_addr_error">Vuto polandira adilesi ya inet yapafupi</string>
+    <string name="intent_save_as">Sungani monga…</string>
+    <string name="go">Pitani</string>
+    <string name="advanced">Zotsogola</string>
+    <string name="typeable_paths_title">Njira zamakonda</string>
+    <string name="typeable_paths_summary">Kanizani njira zazitali kuti mulembe njira yanu</string>
+    <string name="send_email_to">Tumizani imelo ku</string>
+
+    <string name="text_editor">Zokonda pa Text editor</string>
+    <string name="preference_newstack_title">Tsegulani mafayilo ngati ntchito yatsopano</string>
+    <string name="preference_newstack_summary">Imakulolani kuti mutsegule mafayilo muzochita zosiyana. Zipezeni kuchokera pa zenera laposachedwapa.</string>
+    
+    <string name="developers">Madivelopa</string>
+    <string name="no_bitcoin_app">Chonde ikani pulogalamu ya Bitcoin Wallet</string>
+    <string name="channel_name_normal">Zidziwitso Zodabwitsa</string>
+    <string name="channel_description_normal">Zidziwitso za Amaze File Manager\'s Notifications</string>
+    
+    <string name="channel_description_ftp">Amaze Fayilo Zidziwitso za Seva ya FTP\'s</string>
+
+    
+    <string name="processing">Ikukonza…</string>
+    <string name="failed_no_connection">Zakanika kutsegula mafayilo. Chonde onani kulumikizana kwanu.</string>
+
+    
+	<string name="scp_connection">SCP/SFTP Lumikizani</string>
+    
+    <string name="ftps_connection">FTP pa SSL Connection</string>
+    
+    <string name="ssh_host_key_verification_prompt">Zowona za wolandila \'%1$s\' sizingatsimikizike.\n\n%2$s chinsinsi chala ndi %3$s.\n\nChonde dinani \"Inde\" kuti mutsimikizire kudziwika; mwinamwake, chonde dinani \"Ayi\".</string>
+    
+    
+    <string name="ssh_pem_key_parse_error">Sitingathe kuwerenga PEM yosankhidwa: %s</string>
+    <string name="password_unchanged">(osasinthidwa)</string>
+    <string name="ssh_authentication_failure_password">Kulephera kwa logon: Kulephera kutsimikizira dzina lolowera ndi mawu achinsinsi omwe mwaperekedwa.</string>
+    <string name="ssh_authentication_failure_key">Kulephera kwa logon: Sizinatheke kutsimikizira dzina lolowera ndi kiyi yachinsinsi.</string>
+    <string name="ssh_connect_failed">Sitikutha kulumikiza ku %1$ss:%2$d: %3$s</string>
+    <string name="ssh_connect_failed_host_key_changed_title">CHENJEZO: CHIZINDIKIRO CHA HOST WASINTHA!</string>
+    <string name="ssh_connect_failed_host_key_changed_message">NDIKUTHEKA KUTI ENA AKUCHITA ZINTHU ZOSANGALATSA!\n\nWina atha kukumvani nanu! pompano (man-in-the-middle attack)! Ndizothekanso kuti kiyi yolandila yasinthidwa kumene. Chidindo chala chala cha kiyi ya anthu onse yotumizidwa ndi wolandila zakutali sichikufanana ndi zomwe zasungidwa mu Amaze.\n\nChonde funsani ndi woyang\'anira makina anu kapena khazikitsani cholumikizira chatsopano kuti mupitilize kulumikiza ku seva.</string>
+    <string name="ssh_key_prompt_passphrase">Chonde lowetsani mawu ofunikira achinsinsi. .</string>
+    <string name="add_shortcut_not_supported_by_launcher">Kupanga njira zazifupi sikutheka ndi choyambitsa chanu.</string>
+    
+    <string name="select_color_config">Sankhani zosintha zamtundu</string>
+    <string name="customize">Sinthani Mwamakonda Anu</string>
+    <string name="custom">Mwamakonda</string>
+    <string name="preselected_configs_title">Makonda osankhidwa kale</string>
+    
+    <string name="blue">Bulu</string>
+    <string name="green">Wobiriwira</string>
+    <string name="password_no_match">Mawu achinsinsi sakufanana</string>
+    <string name="deselect_all">Sankhani Zonse</string>
+    <string name="filename">Fayiloyo</string>
+    <string name="compress_file_suggest_zip_extension">Ndibwino kugwiritsa ntchito \".zip\" monga fayilo yowonjezera.</string>
+    <string name="about_amaze">Mafayilo opangira zinthu za Android</string>
+    
+    <string name="libraries">Ma library</string>
+    <string name="password_repeat">Bwerezani mawu achinsinsi</string>
+    <string name="create_file_suggest_txt_extension">Ndibwino kugwiritsa ntchito \".txt\" monga chiwonjezero cha fayilo.</string>
+    <string name="ssh_select_pem">Sankhani kiyi yachinsinsi kuti mutsimikizire</string>
+    <string name="ssh_key_invalid_passphrase">Makiyi osayenera.</string>
+    <string name="ssh_key_no_decoder_decrypt">Palibe decoder yovomerezeka kuti imasulire PEM.</string>
+    <string name="encryption_fail_copy">Zakanika kusintha kabisidwe kachinsinsi</string>
+    <string name="extracted">Yotulutsidwa</string>
+    <string name="compressed">Yoponderezedwa</string>
+    <string name="processed">Yakonzedwa</string>
+    <string name="no_obtainable_info">Palibe zambiri za fayiloyi</string>
+    <string name="reopen_from_source">Simungathe, chonde tsegulaninso kuchokera pa pulogalamu yomaliza</string>
+    <string name="no_file_error">China chake chalakwika, palibe choti mutsegule</string>
+    <string name="file_too_long">The Fayilo ndi yayitali kwambiri ndipo silingasinthidwe, komabe mutha kuwerenga zilembo %d zoyambilira</string>
+    <string name="file_read_only">Fayilo yomwe yatsegulidwa ndi yowerengera-yokha.</string>
+    <string name="got_it">Ndamva!</string>
+    <string name="encrypt_file_save_as">Save Encrypted Fayilo Monga…</string>
+    <string name="encrypt_folder_save_as">Sungani Foda Yobisidwa Monga…</string>
+    <string name="encrypt_option_use_aze">Gwiritsani Ntchito Mawonekedwe A Amaze Encryption</string>
+    <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
+        <p> AESCrypt ndi mawonekedwe otsegulira mafayilo otseguka potengera kubisa kwa AES. Itha kunyamulanso, imatha kusindikizidwa ndi mapulogalamu a AESCrypt pamapulatifomu ena.</p>
+        <p><a href="https://www.aescrypt.com" target="_blank">tsamba la AESCrypt</a></p>
+   ]]></string>
+    <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
+        <p>Amaze\'s Encryption Format imakhazikitsidwanso ndi kubisa kwa AES; koma mosiyana ndi mtundu wa AESCrypt, ukhoza kusinthidwa ndi chipangizochi; komanso simuyenera kuchotsa Amaze File Manager pachipangizochi kapena kusintha momwe mumatsekera sikirini, apo ayi simudzakhala ndi njira yopezera fayilo yobisidwa.</p>
+   ]]></string>
+    <string name="encrypt_file_must_end_with_aze">Mafayilo obisidwa akuyenera kugwiritsa ntchito \".aze\" ngati chiwonjezero cha fayilo.</string>
+    <string name="encrypt_file_must_end_with_aes">Mafayilo obisika akuyenera kugwiritsa ntchito \".aes\" ngati chiwongolero cha mafayilo.</string>
+    <string name="error_aescrypt_decrypt_failed">Sizingatheke kumasulira mawu achinsinsi. \'%s\': \'%s\'</string>
+    <string name="cannot_overwrite">Sitingathe kuletsa fayilo.</string>
+    <string name="saved_single_file">Fayilo yasungidwa ngati \'%s\'.</string>
+    <string name="saved_multi_files">%d mafayilo osungidwa.</string>
+    <string name="create_hidden_file_warn">Fayilo yomwe yapangidwa ibisika mundandanda wamafayilo.</string>
+    <string name="grant_apkinstall_permission">Pulogalamu ikufunika chilolezo kuti iike mapulogalamu apitirire.</string>
+    <string name="time_remaining">Nthawi yotsala</string>
+    <string name="transfer_rate">Chiyerekezo chosamutsa</string>
+    <string name="unknown">osadziwika</string>
+    <string name="multiple_invalid_archive_entries">Mafayilo ena munkhokwe sangathe kuchotsedwa; zolemba zakale zitha kuonongeka kapena zachokera ku malo oyipa.</string>
+    <string name="saf_otg_explanation">Mukupita kumafayilo a Android pazifukwa zachitetezo. Chonde sankhani chipangizo cha USB pamndandanda womwe uli kumanzere.</string>
+    <string name="donation_thanks">Zikomo chifukwa cha zoperekazi, izi zimatilimbikitsa! (:</string>
+    <string name="enable_marquee_filename">Yambitsani zotsatira za mayina a mafayilo</string>
+    <string name="archive_password_prompt">Chonde lowetsani mawu achinsinsi osungira:</string>
+    
+    <string name="cannot_extract_archive">Sitingathe kuchotsa zosungidwa \"%s\": %s</string>
+    <string name="archive_unsupported_or_corrupt">Sitingathe Tsegulani zakale \"%s\". Sitingatsegule zosungira, kapena zosungidwazo zidawonongeka.</string>
+    <string name="close">Tsekani</string>
+    <string name="bookmark_exists">Bookmark ilipo</string>
+    <string name="hide_media">Bisani kwa asakatuli atolankhani</string>
+    
+    <string name="update_host_key">Sinthani Key Host</string>
+    <string name="cancel_recommended">Letsani (Ovomerezeka)</string>
+    
+    
+    <string name="failed_install_apk">Mwakanika kuyika</string>
+
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Zosungira Zamkati</string>
+    <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
+    <string name="storage_sd_card">SD khadi</string>
+    <string name="choose_folder">Sankhani Foda Ili</string>
+    
+    <string name="some_files_failed_invalid_operation">Mafayilo ena alephera chifukwa chosalondola opareshoni</string>
+    <string name="ftp_server_prompt_connect_to_network">Lumikizani ku netiweki kapena kuyatsa AP</string>
+    <string name="ftp_server_open_settings">Tsegulani zoikamo</string>
+    <string name="move">Sumukani</string>
+    <string name="select_save_location">Sankhani malo oti musunge</string>
+    <string name="scp_default_path">Njira Yofikira Nthawi Zonse (Mwasankha)</string>
+
+    <!-- error activity -->
+    <string name="sorry_string">Pepani, sizikanayenera kuchitika.</string>
+    
+    <string name="error_report_button_text">Nenani za vutoli kudzera pa imelo</string>
+    <string name="error_report_button_telegram">Nenani za vutoli kudzera pa telegalamu</string>
+    <string name="copy_for_github">Koperani lipoti losinthidwa</string>
+    <string name="error_report_open_issue_button_text">Lipoti pa GitHub</string>
+    <string name="error_report_open_github_notice">Chonde onani ngati vuto lomwe likukambirana za kuwonongeka kwanu lilipo kale.</string>
+    <string name="error_snackbar_message">Pepani, china chake chalakwika.</string>
+    <string name="error_snackbar_action">Nenezani</string>
+    <string name="what_device_headline">Zambiri:</string>
+    <string name="what_happened_headline">Nchiyani chinachitika:</string>
+    <string name="info_labels">Kodi:\\nPemphani:\\nGMT Time:\\nPackage:\\nVersion:\\nOS mtundu:\\nChida:\\nModel:\\nProduct :</string>
+    <string name="your_comment">Ndemanga yanu (mu Chingerezi):</string>
+    <string name="error_details_headline">Zatsatanetsatane:</string>
+    <string name="app_ui_crash">App/UI yawonongeka</string>
+    <string name="error_report_title">Lipoti lolakwika</string>
+    <string name="crash_report_copied">Lipoti losokonekera lakopedwa pa bolodi</string>
+    <string name="disableIpcSignature">Zimitsani cheke cha kusaina kwa IPC (Pamaseva amtundu wa SMBv1 - UNSAFE!)</string>
+    <string name="cannot_delete_file">Sitingafufuze fayilo</string>
+    <string name="cannot_delete_file_with_reason">Sitingafufuze fayilo - %s</string>
+    <string name="cannot_rename_file">Sitingathe kutchulanso fayilo %s - %s</string>
+    <string name="cannot_read_directory">Sitingawerenge chikwatu %s - %s</string>
+    <string name="just_once">Kamodzi kokha</string>
+    <string name="always">Nthawi zonse</string>
+    <string name="choose_different_app">Sankhani mapulogalamu osiyanasiyana</string>
+    <string name="clear_open_file">Chotsani posungira</string>
+    <string name="clear_open_file_summary">Imachotsa mapulogalamu otsegulira mafayilo osankhidwa</string>
+    <string name="ftp_readonly">Kuwerenga-okha</string>
+    <string name="legacy_listing_title">Gwiritsani ntchito mindandanda yacholowa pa mizu</string>
+    <string name="legacy_listing_summary">Ngati yayatsidwa, imagwiritsa ntchito njira yalegacy kulemba mafayilo</string>
+    <string name="error_unsupported_v5_rar">RAR archive \"%s\" ndi malo osungirako zakale a RAR v5.</string>
+    <string name="ftp_prompt_restart_server">Mufunika kuyambitsanso FTP seva kuti zosintha zichitike.</string>
+    <string name="error_permission_denied">Chilolezo chakanidwa</string>
+    <string name="error_archive_password_incorrect">Pansi mawu achinsinsi olakwika.</string>
+    <string name="error_archive_cannot_extract">Sitingachotse zolowera \"%s\" kupita ku \"%s\".</string>
+    <string name="drag_and_drop_preference">Sankhani zokonda kukokera ndi kusiya (Zoyesera)</string>
+    <string name="drag_to_move_copy">Gwirani ndi kukokera kuti musunthe kapena kukopera mafayilo</string>
+    <string name="drag_to_select">Gwirani ndi kukokera kuti musankhe mafayilo</string>
+    <string name="disable">Zimitsani</string>
+    <string name="choose_operation">Sankhani opareshoni kuti muchite</string>
+    <string name="remember">Kumbukirani nthawi ina</string>
+    <string name="ftp_prompt_accept_first_start_saf_access_title">Perekani mwayi kwa SAF pa seva ya FTP</string>
+    <string name="ftp_prompt_accept_first_start_saf_access">Popeza aka ndiye kuthamanga kwanu koyamba kwa seva ya FTP, ndipo mukugwiritsa ntchito posungira mkati mwa chipangizocho ngati chikwatu chogawana, chonde lolani Amaze kuti azitha kugwiritsa ntchito SAF.\n\n
+
+Muyenera kuchita izi kamodzi kokha, mpaka nthawi ina mukadzasankhanso malo atsopano oti mugawane nawo.</string>
+    <string name="android_data_prompt_saf_access">Popeza Android 10, Android idakhazikitsa ziletso pamakanema ena, ndipo akuyenera kulowa ndi Storage Access Framework.\n \nChonde lolani Amaze kuti azitha kupeza chikwatu kuchokera kwa woyang\'anira mafayilo adongosolo podina \"Lolani Kufikira\".</string>
+    <string name="android_data_prompt_saf_access_title">Perekani mwayi wa SAF</string>
+    <string name="ftp_preference_saf_filesystem_title">Gwiritsani ntchito fayilo ya legacy</string>
+    <string name="ftp_preference_saf_filesystem">Yambitsani Izi zothandizira kugwiritsa ntchito malo osungira kunja kwa chipangizo pamitundu yatsopano ya Android</string>
+    <string name="ftp_server_fallback_path_reset_prompt">Seva ya FTP yomwe adagawana njira idasinthidwa kukhala yosungirako mkati pamene mukubwerera ku kukhazikitsa mafayilo omwe adatengera kale. Chonde sankhani njira yatsopano pogwiritsa ntchito menyu yomwe ili kumanja komwe kuli koyenera.</string>
+    <string name="ftp_server_reset_notify">Njira yogawana nawo seva ya FTP yasinthidwa kukhala yosungirako mkati</string>
+    <string name="ftp_server_root_unavailable">Mukusankha njira yomwe ikufuna kulowa muzu. Chonde yambitsani root Explorer muzokonda ngati chipangizo chanu chazikika.</string>
+    <string name="ftp_server_root_filesystem_warning">Mukusankha njira yomwe imafuna kulowa muzu, yomwe imakuthandizani kuti muzitha kuwerenga/kulemba pamafayilo anu onse pachipangizo chanu, ndipo ndiyowopsa - kulakwitsa mosasamala kukhoza kutsekereza chipangizo chanu!\n\nMukutsimikiza?</string>
+    <string name="compressed_explorer_fragment_error_open_uri">Vuto lotsegula URI \"%s\" kuti muwerenge.</string>
+    <string name="error_empty_archive">\"%s\" ndi zakale zopanda kanthu.</string>
+    <string name="error_bad_archive_without_info">\"%s\" ndi zakale zovunditsidwa. .</string>
+    <string name="error_bad_archive_with_info">\"%s\" ndi zakale zovunditsidwa.\nUthenga wochokera ku extractor: \"%s\"</string>
+    <string name="security_error">Fayilo sinathe kutsegulidwa pogwiritsa ntchito pulogalamuyi</string>
+    <string name="cloud_drive_tooltip">Pangani kulumikizana ndi Google Drive™ poyang\'anira mafayilo mkati mwa Amaze File Manager.</string>
+    <string name="signin_with_google_title">Tsimikizirani kugwiritsa ntchito Google Drive™</string>
+    <string name="show_system_apps">Onetsani mapulogalamu amtundu</string>
+    <string name="system_apps">Mapulogalamu adongosolo</string>
+    <string name="select_inverse">Sankhani Inverse</string>
+    <string name="select_by_type">Sankhani ndi mtundu</string>
+    <string name="select_by_date">Sankhani ndi tsiku</string>
+    <string name="select_similar">Sankhani zofanana</string>
+    <string name="error_fetching_google_play_product_list">Zolakwika potenga mndandanda wazogulitsa kuchokera ku Google Play.</string>
+    <string name="grant_all_files_permission">Kuyambira Android 11 , Google imapempha File Managers kuti apemphe chilolezo cha ogwiritsa ntchito kuyang\'anira mafayilo onse pachipangizocho. Tsatanetsatane apa.
+        \n\nAmaze File Manager ikufunikanso chilolezo. Mukakanikiza "Perekani"apa, chonde sankhani Lolani mwayi wowongolera mafayilo onse pazenera lotsatira.
+        \n\nKuletsa kukambiranaku kudzatuluka mu pulogalamuyi.</string>
+    <string name="user_apps">Mapulogalamu ogwiritsira ntchito</string>
+    <string name="appearance">Maonekedwe</string>
+    <string name="behavior">Makhalidwe</string>
+    <string name="appearance_summary">Sinthani mokonda mutu, mitundu ndi maonekedwe a woyang’anira mafayilo</string>
+    <string name="ui_summary">Sinthani zomwe mungawonetse, sinthani makonda am\'mbali, ndikusintha zokonda za UI</string>
+    <string name="behavior_summary">Sinthani machitidwe monga kusaka kwapamwamba komanso ngati mungatsegule mafayilo ngati ntchito yatsopano</string>
+    <string name="security_summary">Konzani mawu achinsinsi ndi encryption</string>
+    <string name="backup_summary">Tumizani/Tengani zoikamo za Amaze</string>
+
+    <string name="pref_export">Tumizani </string>
+    <string name="pref_export_summary">Tumizani zoikamo</string>
+    <string name="pref_import">Tengani </string>
+    <string name="pref_import_summary">Tsegulani zokonda </string>
+
+    <string name="quick_desc">Mafayilo zomwe zapezeka posachedwa kudzera pa Amaze</string>
+    <string name="recent_desc">Mafayilo opangidwa kapena osinthidwa posachedwa</string>
+    <string name="error_cannot_find_way_open">Sindinapeze njira yotsegulira fayilo</string>
+    <string name="error_cant_decompress_that_file">Sitingathe kukonza zosunga zomwe mwapemphedwa</string>
+    <string name="analyse_storage">Unikani Kusunga</string>
+    
+    <string name="download_amaze_utils_text">Mukutumizidwa ku Amaze File Utilities. Ndi pulogalamu yathu yotsegula yomwe ili ndi zowonera zojambulidwa, makanema, zithunzi/zolemba, imakupatsani mwayi wosanthula mafayilo osafunikira kuti muthe kusunga, kutumiza mwachangu pogwiritsa ntchito Wifi P2P ndi zina zambiri.\nChonde tithandizeni poyesera.</string>
+    <string name="download">Koperani</string>
+    
+    <string name="amaze_utils_installed_alias">Zikomo poika Amaze File Utilities. Mukutumiziridwanso ku pulogalamuyi.</string>
+    
+    
+    
+    <string name="pdf_viewer">Amaze Document Viewer </string>
+    
+    <string name="share_logs">Gawanani zipika</string>
+    <string name="share_logs_summary">Gawani mitengo yojambulidwa kudzera pa imelo / telegalamu</string>
+    <string name="open_with_amaze">Tsegulani ndi Amaze</string>
+    <string name="confirmation">Chitsimikizo</string>
+    <string name="open_file_confirmation">Mukutsimikiza kuti mukufuna kutsegula fayilo yotsatirayi?\n\nDzina:\n%s\n\nMalo:\n%s\n\nKukula:\n%s\n\nMD5:\n%s\n\nSHA256 :\n%s\n\n</string>
+    <string name="error_google_play_cannot_update_myself">Malinga ndi malamulo a Google Play, mapulogalamu saloledwa kudzisintha okha. Chonde sinthani pulogalamu kuchokera ku Google Play.</string>
+    <string name="error_cannot_get_package_info">Sitinathe kupeza zambiri za phukusi kuchokera mufayilo \"%s\". Fayilo yomwe mwasankhayo si APK, kapena fayiloyo ndi yachinyengo.</string>
+    <string name="preference_delete_confirmation">Chotsani zotsimikizira</string>
+    <string name="preference_delete_confirmation_summary">Pemphani kuti mutsimikizire musanachotse mafayilo. Kuyimitsa izi sikukhumudwitsidwa kwambiri!</string>
+    
+    
+    <string name="protocol_ftps">Tetezani FTP</string>
+    <string name="unavailable">Sizikupezeka</string>
+
+    <string name="exporting_failed">Kutumiza kunja kwalephera: sikunathe kulemba fayilo yosunga zobwezeretsera</string>
+    <string name="importing_failed">Kuitanitsa kunalephera: sinathe kuwerenga zosunga zobwezeretsera. file</string>
+    <string name="importing_completed">Kulowetsa kwatha</string>
+    <string name="invalid_backup_file">Fayilo yosunga yolakwika</string>
+    <string name="import_failed_for">Kutumiza kwalephera kwa:</string>
+    <string name="free_of">"%s\n%s kwaulere %s</string>
+    <string name="cloud_error_fdroid">Amaze Cloud Plugin sikugwira ntchito ndi mtundu wa F-Droid. Chonde gwiritsani ntchito mtundu wa Play Store wa Amaze.</string>
+    <string name="disable_player_intent_filters">Zimitsani zosefera za osewera</string>
+    <string name="disable_player_intent_filters_summary">Imaletsa osewerera a Amaze inbuilt media kuchokera pa kusankha mafayilo</string>
+    <string name="no_app_found_intent">Palibe pulogalamu yomwe yapezeka kuti ikuthandizeni. Kodi mwayika DocumentsUI?</string>
+    <string name="cloud_connection_credentials_cleared">Zidziwitso za Cloud Connection zachotsedwa</string>
+    <string name="cloud_connection_credentials_cleared_msg">Tsoka ilo, sitinathe kusamutsira ziyeneretso za kulumikizana kwanu mumtambo kupita kumalo atsopano a database, ndipo tinali ndi kuti muwachotse mu pulogalamuyi. Chonde panganinso kulumikizana kwamtambo.</string>
+</resources>

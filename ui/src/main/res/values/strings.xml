@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
+    <string name="i18n_ui_setting">Language Setting</string>
+
+    <string name="i18n_type_none">Device Default</string>
+    <string name="i18n_type_release">Built-in</string>
+    <string name="i18n_type_beta">Beta</string>
+    <string name="i18n_type_local">Local</string>
+    <string name="i18n_type_online_cache">Online Cache</string>
+    <string name="i18n_type_online">Online</string>
+
+    <string name="i18n_not_supported">No configuration file detected. Please ensure the i18nStrings plugin has been integrated into your project and the \"i18nStrings\" task has been executed in the app module.</string>
+    <string name="i18n_ui_disclaimer_title">Disclaimer</string>
+    <string name="i18n_ui_disclaimer_content">Our app now supports multiple language options, including some that are still experimental. these experimental language support may contain errors, inaccurate translations, or incomplete display of text. we are working hard to improve support for these languages, but cannot guarantee that they will be bug-free or of the same quality standard as other fully supported languages. \nusers using experimental language options should understand that our team will not be held responsible for any problems caused by using these experimental language options, including but not limited to misunderstood information, misleading or any other potential problems. \nwe encourage users to report any issues or bugs they find when using these experimental language options. we appreciate your understanding and support, and our team is committed to continuously improving and perfecting multilingual support.</string>
+    <string name="i18n_ui_disclaimer_agree">Agree</string>
+    <string name="i18n_ui_disclaimer_disagree">Disagree</string>
+
+    <string name="i18n_ui_reboot_title">Restart to take effect after switching languages</string>
+    <string name="i18n_ui_reboot_content">Are you sure to switch and restart?</string>
+
+    <string name="i18n_ui_refresh_title">Refresh Translate Data</string>
+    <string name="i18n_ui_refresh_content">Are you sure to refresh translate data?</string>
+
+    <string name="i18n_ui_realtime_translate_title">Realtime translate</string>
+    <string name="i18n_ui_realtime_translate_comfirm_min">Estimated %d minutes to translate %d texts. Proceed?</string>
+    <string name="i18n_ui_realtime_translate_comfirm_sec">Estimated %d seconds to translate %d texts. Proceed?</string>
+    <string name="i18n_ui_realtime_translate_text">Translating, please wait...</string>
+    <string name="i18n_ui_realtime_translate_text_with_time_sec">The translation is estimated to take %ds, please be patient.</string>
+    <string name="i18n_ui_realtime_translate_fails_title">Realtime translate fails</string>
+    <string name="i18n_ui_realtime_translate_fails_content">Please check the error log and make sure your network can visit https://translate.google.com</string>
+</resources>
