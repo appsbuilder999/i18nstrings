@@ -1,6 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
-extra["i18nVersion"] = "0.0.6"
+extra["i18nVersion"] = "0.0.7"
 extra["isPublish"] = true
 
 buildscript {
