@@ -20,7 +20,7 @@
 ```kotlin
 dependencies {
    ...
-   classpath("com.appkim.i18nstrings:plugin:0.0.7")
+   classpath("com.appkim.i18nstrings:plugin:0.0.8")
 }
 ```
 
@@ -69,7 +69,7 @@ The I18nStrings plugin not only provides powerful localization support but also 
    ```kotlin DSL
    dependencies {
        ...
-       implementation("com.appkim.i18nstrings:ui:0.0.7")
+       implementation("com.appkim.i18nstrings:ui:0.0.8")
    }
    ```
 

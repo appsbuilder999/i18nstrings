@@ -18,7 +18,7 @@
 ```kotlin
 dependencies { 
    ...
-   classpath("com.appkim.i18nstrings:plugin:0.0.7") 
+   classpath("com.appkim.i18nstrings:plugin:0.0.8") 
 }
 ```
 
@@ -69,7 +69,7 @@ I18nStrings插件不仅提供了强大的本地化支持，还通过其UI模块�
    ```kotlin DSL
    dependencies {
        ...
-       implementation("com.appkim.i18nstrings:ui:0.0.7")
+       implementation("com.appkim.i18nstrings:ui:0.0.8")
    }
    ```
 

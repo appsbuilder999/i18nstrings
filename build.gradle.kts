@@ -1,6 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
-extra["i18nVersion"] = "0.0.7"
+extra["i18nVersion"] = "0.0.8"
 extra["isPublish"] = true
 
 buildscript {
@@ -28,6 +28,7 @@ plugins {
 // ./gradlew plugin:publishI18nStringsPublicationToSonatypeRepository closeAndReleaseSonatypeStagingRepository
 // ./gradlew ui:publishI18nStringsPublicationToSonatypeRepository closeAndReleaseSonatypeStagingRepository
 //closeAndReleaseSonatypeStagingRepository need to run with publishI18nStringsPublicationToSonatypeRepository，otherwise it will fails
+//https://central.sonatype.com/artifact/com.appkim.i18nstrings/ui
 nexusPublishing {
     repositories {
         sonatype {  //only for users registered in Sonatype after 24 Feb 2021

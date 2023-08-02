@@ -4,8 +4,5 @@
 
         <!-- ... other activities ... -->
 
-        <activity android:name="com.appkim.i18nstrings.ui.I18nSettingActivity"
-            android:label="Language Settings" />
-
     </application>
 </manifest>
