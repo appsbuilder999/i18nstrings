@@ -8,24 +8,33 @@
 - **翻译质量保证：** 通过多重措施，I18nStrings 确保翻译的高质量，以优化多语言支持效果（[详情：翻译质量保障](doc/quality_cn.md)）。
 - **语言切换：** I18nStrings 提供了在应用内切换语言的一体化解决方案，并支持应用动态翻译语言，从而增强了国际用户的使用体验。
 - **Beta 语言支持：** I18nStrings 的 Beta 语言翻译功能附带免责声明，从产品层面赋予应用本地化更多灵活性。
-![Image description](./assets/ui.png)
+
+![Image description](./assets/ui_cn.png)
 
 ## 快速上手
 
 1. **添加依赖**：在工程根目录的 `build.gradle` 中添加以下代码：
 
 ```kotlin
-dependencies { ... classpath("com.appkim.i18nstrings:plugin:0.0.7") }
+dependencies { 
+   ...
+   classpath("com.appkim.i18nstrings:plugin:0.0.7") 
+}
 ```
 
 2. **添加插件支持**：在主模块（一般是 app 模块）的 `build.gradle` 中添加：
 
 ```kotlin
-plugins { ... id("com.appkim.i18nstrings") }
+plugins {
+   ...
+   id("com.appkim.i18nstrings")
+}
 ```
 
 3. **运行 Task**：命令行中执行 `./gradlew :app:i18nStrings` 或在 Android Studio 中选择 `app`（主模块名称）-> `other` -> `i18nStrings`，双击执行。
+
 ![Image description](./assets/plugin.png)
+
 4. **额外配置**：您还可以在主模块的 `build.gradle` 中添加 `i18nStrings` 配置，自定义任务修改。
 
 ```kotlin 示例代码

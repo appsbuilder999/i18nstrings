@@ -10,6 +10,7 @@
 - **Translation Quality Assurance**: Through multiple measures, I18nStrings ensures high-quality translations, optimizing multilingual support effects ([Details: Translation Quality Assurance](doc/quality.md)).
 - **Language Switching**: I18nStrings offers an integrated solution for switching languages within the app, and supports dynamic translation of languages, enhancing the user experience for international users.
 - **Beta Language Support**: I18nStrings' Beta language translation feature comes with a disclaimer, giving the application more flexibility in localization from a product perspective.
+
   ![Image description](./assets/ui.png)
 
 ## Quick Start
@@ -17,17 +18,24 @@
 1. **Add Dependency**: In the project's root directory `build.gradle`, add the following code:
 
 ```kotlin
-dependencies { ... classpath("com.appkim.i18nstrings:plugin:0.0.7") }
+dependencies {
+   ...
+   classpath("com.appkim.i18nstrings:plugin:0.0.7")
+}
 ```
 
 2. **Add Plugin Support**: In the main module (usually the app module) `build.gradle`, add:
 
 ```kotlin
-plugins { ... id("com.appkim.i18nstrings") }
+plugins {
+   ... id("com.appkim.i18nstrings")
+}
 ```
 
 3. **Run Task**: Execute `./gradlew :app:i18nStrings` in the command line or select `app` (main module name) -> `other` -> `i18nStrings` in Android Studio and double-click to run.
+
    ![Image description](./assets/plugin.png)
+
 4. **Additional Configuration**: You can also add `i18nStrings` configuration to the main module's `build.gradle`, customizing task modification.
 
 ```kotlin Sample code
