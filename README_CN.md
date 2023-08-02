@@ -49,6 +49,8 @@ i18nStrings {
 
 ```
 
+5. **注意事项**：插件的翻译默认基于 Google Translate 来实现的，因此需要确保当前网络能够访问 Google Translate。源码层面已支持Cloud Translation API，如需使用可基于源码调用插件使用，后续版本会提供选项支持引擎切换。
+
 ## I18nStrings集成到应用内切换语言
 
 I18nStrings插件不仅提供了强大的本地化支持，还通过其UI模块使应用内切换语言和实时翻译变得轻而易举。以下是集成步骤：
@@ -131,7 +133,11 @@ I18nStrings插件不仅提供了强大的本地化支持，还通过其UI模块�
 
 6. **第三方库支持**：应用内语言的切换实现采用开源的库[restring]，更多使用方法请参考[restring](https://github.com/B3nedikt/restring)。
 
+7. **注意事项**：应用程序中的“在线”翻译功能是通过 Google Translate 来实现的，因此需要确保当前网络能够访问 Google Translate。该功能主要用于产品测试，旨在快速展示应用在不同语言环境下的显示效果。若需在商业环境中使用，请务必替换为具有商业授权的翻译引擎，例如 Cloud Translation API。
+
 通过以上步骤，你可以轻松地为你的应用添加多语言支持，并为全球用户提供更优质的体验。
+
+
 
 ## 依赖
 

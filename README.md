@@ -50,6 +50,8 @@ i18nStrings {
 }
 ```
 
+5. **Note**: The translation of the plugin is implemented based on Google Translate by default, so it is necessary to ensure that the current network can access Google Translate. Support for the Cloud Translation API is already available at the source code level. If needed, it can be utilized by calling the plugin based on the source code, and future versions will provide options to support engine switching.
+
 ## Integrating I18nStrings for In-App Language Switching
 
 The I18nStrings plugin not only provides powerful localization support but also makes in-app language switching and real-time translation effortless through its UI module. Here are the integration steps:
@@ -131,6 +133,8 @@ The I18nStrings plugin not only provides powerful localization support but also 
    ```
 
 6. **Third-Party Library Support**: The in-app language switching implementation uses the open-source library [restring]. For more usage methods, please refer to [restring](https://github.com/B3nedikt/restring).
+
+7. **Note**: The "online" translation language functionality within the application is facilitated through Google Translate, and it requires that the current network have access to Google Translate. This feature is intended solely for product testing, allowing for a swift preview of the application's appearance across different languages. For commercial usage, please transition to a translation engine that is licensed for commercial use, such as the Cloud Translation API.
 
 Through these steps, you can easily add multi-language support to your application, providing a better experience for global users.
 
